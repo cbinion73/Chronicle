@@ -1,0 +1,136 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("CHRONICLE_DATABASE_URL")
+}
+
+// ── Chronicle Journal Entries ─────────────────────────────────────────────────
+
+model ChronicleEntry {
+  id            String   @id
+  date          String
+  type          String   // 'insight' | 'prayer' | 'study' | 'note' | 'reflection'
+  title         String
+  body          String
+  passage       String?
+  themes        String[]
+  autoCapture   Boolean  @default(false)
+  sourceContext Json?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("chronicle_entries")
+}
+
+// ── Prayer Items ──────────────────────────────────────────────────────────────
+
+model PrayerItem {
+  id             String   @id
+  text           String
+  category       String   // 'people' | 'needs' | 'praise' | 'world'
+  answered       Boolean  @default(false)
+  dateAdded      String
+  dateAnswered   String?
+  answerSummary  String?
+  answerPassage  String?
+  lastPrayedAt   String?
+  timesPrayed    Int      @default(0)
+  nextFollowUpAt String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("prayer_items")
+}
+
+// ── Formation Rhythms ─────────────────────────────────────────────────────────
+
+model FormationRhythm {
+  id             String   @id
+  title          String
+  cadence        String   // 'daily' | 'weekly'
+  focus          String
+  prompt         String
+  relatedPassage String?
+  completions    String[]
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("formation_rhythms")
+}
+
+// ── Scripture Bookmarks ───────────────────────────────────────────────────────
+
+model ScriptureBookmark {
+  id         String   @id
+  label      String
+  passage    String
+  book       String
+  chapter    Int
+  verseStart Int?
+  verseEnd   Int?
+  createdAt  String
+  insertedAt DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@map("scripture_bookmarks")
+}
+
+// ── Owned Books ───────────────────────────────────────────────────────────────
+
+model OwnedBook {
+  id             String   @id
+  schemaVersion  Int      @default(2)
+  title          String
+  author         String?
+  recordId       String?
+  sourcePath     String
+  textPath       String?
+  classification String
+  workflow       String
+  status         String
+  summary        String
+  importedAt     String
+  generatedPlan  Json?
+  studyState     Json?
+  assets         Json?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("owned_books")
+}
+
+// ── Library Catalog ───────────────────────────────────────────────────────────
+
+model LibraryCatalogEntry {
+  id        String   @id
+  record    Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("library_catalog_entries")
+}
+
+// ── App Settings (singleton) ──────────────────────────────────────────────────
+
+model AppSettings {
+  id                  String   @id @default("singleton")
+  experienceMode      String   @default("fresh")
+  theme               String   @default("light")
+  translation         String   @default("NKJV")
+  bibleView           Json     @default("{}")
+  streakDays          Int      @default(0)
+  currentPlanName     String   @default("Daily Walk")
+  currentPlanDay      Int      @default(1)
+  currentPlanTotal    Int      @default(365)
+  activeStudyModuleId String   @default("bible-study")
+  studyModuleDayById  Json     @default("{}")
+  activeOwnedBookId   String   @default("")
+  syncProfile         Json?
+  voiceConfig         Json?
+  updatedAt           DateTime @updatedAt
+
+  @@map("app_settings")
+}

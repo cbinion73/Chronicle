@@ -19,6 +19,7 @@ import {
   type StudyChapterEvidence,
   type ThemeAnalysisCacheRecord,
 } from './src/lib/bibleThemes'
+import { PrismaClient } from '@prisma/client'
 import {
   CHRONICLE_APP_STATE_VERSION,
   CHRONICLE_LIBRARY_RECORD_SCHEMA_VERSION,
@@ -53,6 +54,7 @@ import type {
 
 const API_BIBLE_BASE_URL = 'https://rest.api.bible/v1'
 const execFileAsync = promisify(execFile)
+const _prisma = new PrismaClient()
 
 type StudyImportJobKind = 'ocr' | 'segmented' | 'import'
 type StudyImportJobStatus = 'running' | 'completed' | 'failed'
@@ -4883,6 +4885,8 @@ function themeAnalysisDevApi(): Plugin {
             ok: true,
             snapshot,
           })
+          // Fire-and-forget: keep DB in sync with every snapshot export
+          _upsertAppStateToDb(body.appState).catch(e => console.warn('[chronicle-db] upsert failed:', e?.message))
         } catch (error) {
           sendJson(response, 500, {
             error: { errmsg: error instanceof Error ? error.message : 'Unable to create Chronicle snapshot.' },
@@ -5241,12 +5245,319 @@ function getRequestUrl(request: IncomingMessage) {
   return new URL(request.url || '/', 'http://localhost')
 }
 
+// ── DB sync helper — called fire-and-forget from the snapshot export endpoint ──
+async function _upsertAppStateToDb(appState: Record<string, unknown>) {
+  const as = appState as Record<string, any>
+  const now = new Date().toISOString().slice(0, 10)
+
+  for (const entry of (as.chronicleEntries || [])) {
+    const d = { id: entry.id, date: entry.date || now, type: entry.type || 'note', title: entry.title || '', body: entry.body || '', passage: entry.passage ?? null, themes: entry.themes ?? [], autoCapture: entry.autoCapture ?? false, sourceContext: entry.sourceContext ?? null }
+    await _prisma.chronicleEntry.upsert({ where: { id: entry.id }, create: d, update: d })
+  }
+  for (const item of (as.prayerItems || [])) {
+    const d = { id: item.id, text: item.text || '', category: item.category || 'needs', answered: item.answered ?? false, dateAdded: item.dateAdded || now, dateAnswered: item.dateAnswered ?? null, answerSummary: item.answerSummary ?? null, answerPassage: item.answerPassage ?? null, lastPrayedAt: item.lastPrayedAt ?? null, timesPrayed: item.timesPrayed ?? 0, nextFollowUpAt: item.nextFollowUpAt ?? null }
+    await _prisma.prayerItem.upsert({ where: { id: item.id }, create: d, update: d })
+  }
+  for (const rhythm of (as.formationRhythms || [])) {
+    const d = { id: rhythm.id, title: rhythm.title || '', cadence: rhythm.cadence || 'daily', focus: rhythm.focus || '', prompt: rhythm.prompt || '', relatedPassage: rhythm.relatedPassage ?? null, completions: rhythm.completions ?? [] }
+    await _prisma.formationRhythm.upsert({ where: { id: rhythm.id }, create: d, update: d })
+  }
+  for (const bm of (as.scriptureBookmarks || [])) {
+    const d = { id: bm.id, label: bm.label || '', passage: bm.passage || '', book: bm.book || '', chapter: bm.chapter || 1, verseStart: bm.verseStart ?? null, verseEnd: bm.verseEnd ?? null, createdAt: bm.createdAt || now }
+    await _prisma.scriptureBookmark.upsert({ where: { id: bm.id }, create: d, update: d })
+  }
+  for (const book of (as.ownedBooks || [])) {
+    const d = { id: book.id, schemaVersion: book.schemaVersion ?? 2, title: book.title || '', author: book.author ?? null, recordId: book.recordId ?? null, sourcePath: book.sourcePath || '', textPath: book.textPath ?? null, classification: book.classification || 'general-book', workflow: book.workflow || 'preserve-daily', status: book.status || 'ready', summary: book.summary || '', importedAt: book.importedAt || now, generatedPlan: book.generatedPlan ?? null, studyState: book.studyState ?? null, assets: book.assets ?? null }
+    await _prisma.ownedBook.upsert({ where: { id: book.id }, create: d, update: d })
+  }
+  const settingsUpdate = { experienceMode: as.experienceMode ?? 'fresh', theme: as.theme ?? 'light', translation: as.translation ?? 'NKJV', bibleView: as.bibleView ?? {}, streakDays: as.streakDays ?? 0, currentPlanName: as.currentPlanName ?? 'Daily Walk', currentPlanDay: as.currentPlanDay ?? 1, currentPlanTotal: as.currentPlanTotal ?? 365, activeStudyModuleId: as.activeStudyModuleId ?? 'bible-study', studyModuleDayById: as.studyModuleDayById ?? {}, activeOwnedBookId: as.activeOwnedBookId ?? '', syncProfile: as.syncProfile ?? null, voiceConfig: as.voiceConfig ?? null }
+  await _prisma.appSettings.upsert({ where: { id: 'singleton' }, create: { id: 'singleton', ...settingsUpdate }, update: settingsUpdate })
+}
+
+function chronicleDbApi(): Plugin {
+  return withChronicleMiddlewares('chronicle-db-api', (middlewares) => {
+
+    // ── Chronicle Entries ─────────────────────────────────────────────────────
+
+    middlewares.use('/api/data/chronicle-entries', async (request, response, next) => {
+      const url = new URL(request.url || '/', 'http://x')
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
+      // parts[0] = 'chronicle-entries', parts[1] = optional id
+      const id = parts[1] || null
+
+      try {
+        if (request.method === 'GET' && !id) {
+          const entries = await _prisma.chronicleEntry.findMany({ orderBy: { date: 'desc' } })
+          sendJson(response, 200, { entries })
+          return
+        }
+
+        if (request.method === 'POST' && !id) {
+          const body = await readJsonBody(request) as { entry?: Record<string, unknown> }
+          const data = body.entry ?? {}
+          const entryId = typeof data.id === 'string' && data.id ? data.id : `entry-${Date.now()}`
+          const entry = await _prisma.chronicleEntry.upsert({
+            where: { id: entryId },
+            create: { id: entryId, ...(data as Parameters<typeof _prisma.chronicleEntry.create>[0]['data']) },
+            update: { ...(data as Parameters<typeof _prisma.chronicleEntry.update>[0]['data']) },
+          })
+          sendJson(response, 200, { entry })
+          return
+        }
+
+        if (request.method === 'PUT' && id) {
+          const body = await readJsonBody(request) as { patch?: Record<string, unknown> }
+          const patch = body.patch ?? {}
+          const entry = await _prisma.chronicleEntry.update({
+            where: { id },
+            data: patch as Parameters<typeof _prisma.chronicleEntry.update>[0]['data'],
+          })
+          sendJson(response, 200, { entry })
+          return
+        }
+
+        if (request.method === 'DELETE' && id) {
+          await _prisma.chronicleEntry.delete({ where: { id } })
+          sendJson(response, 200, { ok: true })
+          return
+        }
+
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'Chronicle entries error.' })
+      }
+    })
+
+    // ── Prayer Items ──────────────────────────────────────────────────────────
+
+    middlewares.use('/api/data/prayer-items', async (request, response, next) => {
+      const url = new URL(request.url || '/', 'http://x')
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
+      const id = parts[1] || null
+
+      try {
+        if (request.method === 'GET' && !id) {
+          const items = await _prisma.prayerItem.findMany({ orderBy: { createdAt: 'desc' } })
+          sendJson(response, 200, { items })
+          return
+        }
+
+        if (request.method === 'POST' && !id) {
+          const body = await readJsonBody(request) as { item?: Record<string, unknown> }
+          const data = body.item ?? {}
+          const itemId = typeof data.id === 'string' && data.id ? data.id : `prayer-${Date.now()}`
+          const item = await _prisma.prayerItem.upsert({
+            where: { id: itemId },
+            create: { id: itemId, ...(data as Parameters<typeof _prisma.prayerItem.create>[0]['data']) },
+            update: { ...(data as Parameters<typeof _prisma.prayerItem.update>[0]['data']) },
+          })
+          sendJson(response, 200, { item })
+          return
+        }
+
+        if (request.method === 'PUT' && id) {
+          const body = await readJsonBody(request) as { patch?: Record<string, unknown> }
+          const patch = body.patch ?? {}
+          const item = await _prisma.prayerItem.update({
+            where: { id },
+            data: patch as Parameters<typeof _prisma.prayerItem.update>[0]['data'],
+          })
+          sendJson(response, 200, { item })
+          return
+        }
+
+        if (request.method === 'DELETE' && id) {
+          await _prisma.prayerItem.delete({ where: { id } })
+          sendJson(response, 200, { ok: true })
+          return
+        }
+
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'Prayer items error.' })
+      }
+    })
+
+    // ── Formation Rhythms ─────────────────────────────────────────────────────
+
+    middlewares.use('/api/data/formation-rhythms', async (request, response, next) => {
+      const url = new URL(request.url || '/', 'http://x')
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
+      const id = parts[1] || null
+
+      try {
+        if (request.method === 'GET' && !id) {
+          const rhythms = await _prisma.formationRhythm.findMany()
+          sendJson(response, 200, { rhythms })
+          return
+        }
+
+        if (request.method === 'POST' && !id) {
+          const body = await readJsonBody(request) as { rhythm?: Record<string, unknown> }
+          const data = body.rhythm ?? {}
+          const rhythmId = typeof data.id === 'string' && data.id ? data.id : `rhythm-${Date.now()}`
+          const rhythm = await _prisma.formationRhythm.upsert({
+            where: { id: rhythmId },
+            create: { id: rhythmId, ...(data as Parameters<typeof _prisma.formationRhythm.create>[0]['data']) },
+            update: { ...(data as Parameters<typeof _prisma.formationRhythm.update>[0]['data']) },
+          })
+          sendJson(response, 200, { rhythm })
+          return
+        }
+
+        if (request.method === 'PUT' && id) {
+          const body = await readJsonBody(request) as { patch?: Record<string, unknown> }
+          const patch = body.patch ?? {}
+          const rhythm = await _prisma.formationRhythm.update({
+            where: { id },
+            data: patch as Parameters<typeof _prisma.formationRhythm.update>[0]['data'],
+          })
+          sendJson(response, 200, { rhythm })
+          return
+        }
+
+        if (request.method === 'DELETE' && id) {
+          await _prisma.formationRhythm.delete({ where: { id } })
+          sendJson(response, 200, { ok: true })
+          return
+        }
+
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'Formation rhythms error.' })
+      }
+    })
+
+    // ── Scripture Bookmarks ───────────────────────────────────────────────────
+
+    middlewares.use('/api/data/scripture-bookmarks', async (request, response, next) => {
+      const url = new URL(request.url || '/', 'http://x')
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
+      const id = parts[1] || null
+
+      try {
+        if (request.method === 'GET' && !id) {
+          const bookmarks = await _prisma.scriptureBookmark.findMany({ orderBy: { insertedAt: 'desc' } })
+          sendJson(response, 200, { bookmarks })
+          return
+        }
+
+        if (request.method === 'POST' && !id) {
+          const body = await readJsonBody(request) as { bookmark?: Record<string, unknown> }
+          const data = body.bookmark ?? {}
+          const bookmarkId = typeof data.id === 'string' && data.id ? data.id : `bookmark-${Date.now()}`
+          const bookmark = await _prisma.scriptureBookmark.upsert({
+            where: { id: bookmarkId },
+            create: { id: bookmarkId, ...(data as Parameters<typeof _prisma.scriptureBookmark.create>[0]['data']) },
+            update: { ...(data as Parameters<typeof _prisma.scriptureBookmark.update>[0]['data']) },
+          })
+          sendJson(response, 200, { bookmark })
+          return
+        }
+
+        if (request.method === 'DELETE' && id) {
+          await _prisma.scriptureBookmark.delete({ where: { id } })
+          sendJson(response, 200, { ok: true })
+          return
+        }
+
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'Scripture bookmarks error.' })
+      }
+    })
+
+    // ── Owned Books ───────────────────────────────────────────────────────────
+
+    middlewares.use('/api/data/owned-books', async (request, response, next) => {
+      const url = new URL(request.url || '/', 'http://x')
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
+      const id = parts[1] || null
+
+      try {
+        if (request.method === 'GET' && !id) {
+          const books = await _prisma.ownedBook.findMany({ orderBy: { createdAt: 'desc' } })
+          sendJson(response, 200, { books })
+          return
+        }
+
+        if (request.method === 'POST' && !id) {
+          const body = await readJsonBody(request) as { book?: Record<string, unknown> }
+          const data = body.book ?? {}
+          const bookId = typeof data.id === 'string' && data.id ? data.id : `book-${Date.now()}`
+          const book = await _prisma.ownedBook.upsert({
+            where: { id: bookId },
+            create: { id: bookId, ...(data as Parameters<typeof _prisma.ownedBook.create>[0]['data']) },
+            update: { ...(data as Parameters<typeof _prisma.ownedBook.update>[0]['data']) },
+          })
+          sendJson(response, 200, { book })
+          return
+        }
+
+        if (request.method === 'PUT' && id) {
+          const body = await readJsonBody(request) as { patch?: Record<string, unknown> }
+          const patch = body.patch ?? {}
+          const book = await _prisma.ownedBook.update({
+            where: { id },
+            data: patch as Parameters<typeof _prisma.ownedBook.update>[0]['data'],
+          })
+          sendJson(response, 200, { book })
+          return
+        }
+
+        if (request.method === 'DELETE' && id) {
+          await _prisma.ownedBook.delete({ where: { id } })
+          sendJson(response, 200, { ok: true })
+          return
+        }
+
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'Owned books error.' })
+      }
+    })
+
+    // ── App Settings (singleton) ──────────────────────────────────────────────
+
+    middlewares.use('/api/data/settings', async (request, response, next) => {
+      const SINGLETON_ID = 'singleton'
+
+      try {
+        if (request.method === 'GET') {
+          const settings = await _prisma.appSettings.upsert({
+            where: { id: SINGLETON_ID },
+            create: { id: SINGLETON_ID },
+            update: {},
+          })
+          sendJson(response, 200, { settings })
+          return
+        }
+
+        if (request.method === 'PUT') {
+          const body = await readJsonBody(request) as { patch?: Record<string, unknown> }
+          const patch = body.patch ?? {}
+          const settings = await _prisma.appSettings.update({
+            where: { id: SINGLETON_ID },
+            data: patch as Parameters<typeof _prisma.appSettings.update>[0]['data'],
+          })
+          sendJson(response, 200, { settings })
+          return
+        }
+
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'App settings error.' })
+      }
+    })
+  })
+}
+
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadChronicleEnv(mode)
 
   return {
-    plugins: [react(), apiBibleDevApi(env), aiChatDevApi(env), voiceDevApi(env), studyImportsDevApi(env), themeAnalysisDevApi(), chronicleIntegrationDevApi()],
+    plugins: [react(), apiBibleDevApi(env), aiChatDevApi(env), voiceDevApi(env), studyImportsDevApi(env), themeAnalysisDevApi(), chronicleIntegrationDevApi(), chronicleDbApi()],
     server: {
       host: '0.0.0.0',
       port: 5174,
