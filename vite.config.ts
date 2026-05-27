@@ -5247,6 +5247,11 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react(), apiBibleDevApi(env), aiChatDevApi(env), voiceDevApi(env), studyImportsDevApi(env), themeAnalysisDevApi(), chronicleIntegrationDevApi()],
+    server: {
+      host: '0.0.0.0',
+      port: 5174,
+      allowedHosts: ['chronicle.teambinion.org', 'localhost', '127.0.0.1'],
+    },
   }
 })
 
