@@ -35,10 +35,15 @@ function RouteLoading() {
 
 export default function App() {
   const { theme } = useAppStore();
+  const initializeFromDatabase = useAppStore(s => s.initializeFromDatabase);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
+
+  useEffect(() => {
+    initializeFromDatabase();
+  }, []);
 
   return (
     <BrowserRouter>

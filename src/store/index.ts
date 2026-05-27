@@ -18,6 +18,7 @@ import type {
   ChronicleLiveKitVoiceConfig,
 } from '../types';
 import { CHRONICLE_APP_STATE_VERSION, migratePortableAppState } from '../lib/chronicleVersioning';
+import { chronicleApi } from '../lib/chronicleApiClient';
 import { getRhythmCompletionKey } from '../lib/formationRhythms';
 import { normalizeOwnedBook } from '../lib/chronicleDataModel';
 import { createDefaultSyncProfile, mergePortableSyncState } from '../lib/chronicleSync';
@@ -128,6 +129,7 @@ interface AppState {
     | 'syncProfile'
     | 'voiceConfig'
   >>) => void;
+  initializeFromDatabase: () => Promise<void>;
 }
 
 const SAMPLE_ENTRIES: ChronicleEntry[] = [
@@ -450,9 +452,9 @@ export const useAppStore = create<AppState>()(
           },
         })),
       setActiveOwnedBook: (activeOwnedBookId) => set({ activeOwnedBookId }),
-      upsertOwnedBook: (book) =>
+      upsertOwnedBook: (book) => {
+        const normalizedBook = normalizeOwnedBook(book);
         set((state) => {
-          const normalizedBook = normalizeOwnedBook(book);
           const existing = state.ownedBooks.find((entry) => entry.id === normalizedBook.id);
           return {
             ownedBooks: existing
@@ -465,16 +467,22 @@ export const useAppStore = create<AppState>()(
                   ...state.ownedBooks,
                 ],
           };
-        }),
-      removeOwnedBook: (bookId) =>
+        })
+        const book2 = get().ownedBooks.find(b => b.id === normalizedBook.id)
+        if (book2) chronicleApi.updateOwnedBook(book2.id, book2).catch(e => console.warn('[db] upsertOwnedBook failed:', e))
+        else chronicleApi.createOwnedBook(normalizedBook).catch(e => console.warn('[db] createOwnedBook failed:', e))
+      },
+      removeOwnedBook: (bookId) => {
         set((state) => {
           const nextOwnedBooks = state.ownedBooks.filter((book) => book.id !== bookId);
           return {
             ownedBooks: nextOwnedBooks,
             activeOwnedBookId: state.activeOwnedBookId === bookId ? (nextOwnedBooks[0]?.id || '') : state.activeOwnedBookId,
           };
-        }),
-      setOwnedBookStudyState: (bookId, studyState) =>
+        })
+        chronicleApi.deleteOwnedBook(bookId).catch(e => console.warn('[db] removeOwnedBook failed:', e))
+      },
+      setOwnedBookStudyState: (bookId, studyState) => {
         set((state) => ({
           ownedBooks: state.ownedBooks.map((book) =>
             book.id === bookId
@@ -484,12 +492,19 @@ export const useAppStore = create<AppState>()(
                 })
               : book
           ),
-        })),
-      addChronicleEntry: (entry) =>
-        set((state) => ({ chronicleEntries: [entry, ...state.chronicleEntries] })),
-      addPrayerItem: (item) =>
-        set((state) => ({ prayerItems: [item, ...state.prayerItems] })),
-      completeFormationRhythm: (id, completedAt) =>
+        }))
+        const updated = get().ownedBooks.find(b => b.id === bookId)
+        if (updated) chronicleApi.updateOwnedBook(bookId, { studyState: updated.studyState }).catch(e => console.warn('[db] setOwnedBookStudyState failed:', e))
+      },
+      addChronicleEntry: (entry) => {
+        set((state) => ({ chronicleEntries: [entry, ...state.chronicleEntries] }))
+        chronicleApi.createEntry(entry).catch(e => console.warn('[db] addChronicleEntry failed:', e))
+      },
+      addPrayerItem: (item) => {
+        set((state) => ({ prayerItems: [item, ...state.prayerItems] }))
+        chronicleApi.createPrayerItem(item).catch(e => console.warn('[db] addPrayerItem failed:', e))
+      },
+      completeFormationRhythm: (id, completedAt) => {
         set((state) => ({
           formationRhythms: state.formationRhythms.map((rhythm) => {
             if (rhythm.id !== id) return rhythm;
@@ -501,16 +516,23 @@ export const useAppStore = create<AppState>()(
                   completions: [key, ...rhythm.completions].slice(0, 60),
                 };
           }),
-        })),
-      addScriptureBookmark: (bookmark) =>
+        }))
+        const updated = get().formationRhythms.find(r => r.id === id)
+        if (updated) chronicleApi.updateFormationRhythm(id, { completions: updated.completions }).catch(e => console.warn('[db] completeFormationRhythm failed:', e))
+      },
+      addScriptureBookmark: (bookmark) => {
         set((state) => ({
           scriptureBookmarks: [bookmark, ...state.scriptureBookmarks.filter((entry) => entry.id !== bookmark.id)],
-        })),
-      removeScriptureBookmark: (id) =>
+        }))
+        chronicleApi.createScriptureBookmark(bookmark).catch(e => console.warn('[db] addScriptureBookmark failed:', e))
+      },
+      removeScriptureBookmark: (id) => {
         set((state) => ({
           scriptureBookmarks: state.scriptureBookmarks.filter((bookmark) => bookmark.id !== id),
-        })),
-      togglePrayerAnswered: (id) =>
+        }))
+        chronicleApi.deleteScriptureBookmark(id).catch(e => console.warn('[db] removeScriptureBookmark failed:', e))
+      },
+      togglePrayerAnswered: (id) => {
         set((state) => ({
           prayerItems: state.prayerItems.map((p) =>
             p.id === id
@@ -521,8 +543,11 @@ export const useAppStore = create<AppState>()(
                 }
               : p
           ),
-        })),
-      markPrayerAnswered: (id, details) =>
+        }))
+        const updated = get().prayerItems.find(p => p.id === id)
+        if (updated) chronicleApi.updatePrayerItem(id, { answered: updated.answered, dateAnswered: updated.dateAnswered }).catch(e => console.warn('[db] togglePrayerAnswered failed:', e))
+      },
+      markPrayerAnswered: (id, details) => {
         set((state) => ({
           prayerItems: state.prayerItems.map((p) =>
             p.id === id
@@ -535,8 +560,11 @@ export const useAppStore = create<AppState>()(
                 }
               : p
           ),
-        })),
-      recordPrayerTouch: (id, details) =>
+        }))
+        const updated = get().prayerItems.find(p => p.id === id)
+        if (updated) chronicleApi.updatePrayerItem(id, { answered: updated.answered, dateAnswered: updated.dateAnswered, answerSummary: updated.answerSummary, answerPassage: updated.answerPassage }).catch(e => console.warn('[db] markPrayerAnswered failed:', e))
+      },
+      recordPrayerTouch: (id, details) => {
         set((state) => ({
           prayerItems: state.prayerItems.map((p) =>
             p.id === id
@@ -548,7 +576,10 @@ export const useAppStore = create<AppState>()(
                 }
               : p
           ),
-        })),
+        }))
+        const updated = get().prayerItems.find(p => p.id === id)
+        if (updated) chronicleApi.updatePrayerItem(id, { lastPrayedAt: updated.lastPrayedAt, timesPrayed: updated.timesPrayed, nextFollowUpAt: updated.nextFollowUpAt }).catch(e => console.warn('[db] recordPrayerTouch failed:', e))
+      },
       updateSyncProfile: (patch) =>
         set((state) => ({
           syncProfile: {
@@ -637,6 +668,27 @@ export const useAppStore = create<AppState>()(
           }
           return merged as AppState;
         }),
+      initializeFromDatabase: async () => {
+        try {
+          const [entriesRes, prayersRes, rhythmsRes, bookmarksRes, booksRes] = await Promise.all([
+            chronicleApi.getEntries(),
+            chronicleApi.getPrayerItems(),
+            chronicleApi.getFormationRhythms(),
+            chronicleApi.getScriptureBookmarks(),
+            chronicleApi.getOwnedBooks(),
+          ])
+          set({
+            chronicleEntries: entriesRes.entries ?? [],
+            prayerItems: prayersRes.items ?? [],
+            formationRhythms: rhythmsRes.rhythms ?? [],
+            scriptureBookmarks: bookmarksRes.bookmarks ?? [],
+            ownedBooks: booksRes.books ?? [],
+            experienceMode: 'fresh',
+          })
+        } catch (e) {
+          console.warn('[chronicle-db] initializeFromDatabase failed, keeping local state:', e)
+        }
+      },
     }),
     {
       name: 'chronicle-app-state',
