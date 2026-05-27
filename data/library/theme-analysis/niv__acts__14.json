@@ -1,0 +1,282 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 14,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:18.246Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"The same heard Paul speak —The crippled man's faith arose from hearing gospel proclamation, i...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        9,
+        18,
+        22,
+        23,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "2": [
+          "believe"
+        ],
+        "9": [
+          "faith"
+        ],
+        "18": [
+          "Even with these words, they had difficulty keeping the crowd..."
+        ],
+        "22": [
+          "faith"
+        ],
+        "23": [
+          "trust"
+        ],
+        "27": [
+          "faith"
+        ],
+        "28": [
+          "And they stayed there a long time with the disciples"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Acts 17:5",
+          "anchorVerse": 2,
+          "referenceLabel": "Acts 17:5"
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Matthew 15:28",
+          "anchorVerse": 9,
+          "referenceLabel": "Matthew 15:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The same heard Paul speak —The crippled man's faith arose from hearing gospel proclamation, i...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: \"And there sat a certain man at Lystra, impotent in his...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Irenaeus on Against Heresies Book 3: And again, at Lystra of Lycia (Lycaonia), when Paul was...\". Word-study detail reinforces \"γῆν: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...\".",
+      "supportingVerses": [
+        2,
+        5,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "But the Jews who refused to believe stirred up the..."
+        ],
+        "5": [
+          "There was a plot afoot among both Gentiles and Jews,..."
+        ],
+        "15": [
+          "made",
+          "heavens",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The unbelieving Jews stirred up the Gentiles —The Greek ēgeiran (stirred up) suggests deliber...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: \"Made their minds evil-affected,\" it says, \"against the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "An assault made... to use them despitefully, and to stone them —The Greek hormē (assault) sug...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Cassiodorus on Complexiones on the Acts of the Apostles: \"And when there was an assault made...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on Acts 30: And see how on all occasions he refers all to God. \"Lon...\". Word-study detail reinforces \"μαρτυροῦντι: gave testimony - to be a witness, i.e., testify (literally or figuratively)\".",
+      "supportingVerses": [
+        3,
+        15,
+        17,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "So Paul and Barnabas spent considerable time there, speaking boldly..."
+        ],
+        "15": [
+          "“Friends, why are you doing this"
+        ],
+        "17": [
+          "testimony"
+        ],
+        "22": [
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: And see how on all occasions he refers all to God. \"Lon...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "μαρτυροῦντι: gave testimony - to be a witness, i.e., testify (literally or figuratively)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "John Chrysostom on Homily on Acts 31: First by the sight they checked them, by rending their...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "He left not himself without witness (οὐκ ἀμάρτυρον αὑτὸν ἀφῆκεν)—Despite nations walking in t...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thence sailed to Antioch, from whence they had been recommended to the grace of God for the w...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "grace"
+        ],
+        "26": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Acts 20:32",
+          "anchorVerse": 3,
+          "referenceLabel": "Acts 20:32"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: And see how on all occasions he refers all to God. \"Lon...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "χάριτος: grace - graciousness (as gratifying), of manner or act (abstract or concrete; litera...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Acts 15:40",
+          "anchorVerse": 26,
+          "referenceLabel": "Acts 15:40"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Acts: He said with a loud voice: Stand upright on your feet. In the Gre...\". Word-study detail reinforces \"ὀρθός: upright - right (as rising), i.e., (perpendicularly) erect (figuratively, honest), or...\".",
+      "supportingVerses": [
+        10,
+        13
+      ],
+      "versePhrases": {
+        "10": [
+          "and called out, “Stand up on your feet"
+        ],
+        "13": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Stand upright on thy feet (στῆθι ἐπὶ τοὺς πόδας σου ὀρθός)—Paul's command demonstrates aposto...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Bede on Commentary on Acts: He said with a loud voice: Stand upright on your feet. In the Gre...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "ὀρθός: upright - right (as rising), i.e., (perpendicularly) erect (figuratively, honest), or...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

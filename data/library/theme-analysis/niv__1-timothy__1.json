@@ -1,0 +1,483 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Timothy",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:34.039Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"John Chrysostom on Homily on 1 Timothy 1: \"Neither give heed to fables and endless genealogie...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "hope"
+        ],
+        "2": [
+          "faith"
+        ],
+        "4": [
+          "faith"
+        ],
+        "5": [
+          "faith"
+        ],
+        "7": [
+          "They want to be teachers of the law, but they..."
+        ],
+        "8": [
+          "We know that the law is good if one uses..."
+        ],
+        "9": [
+          "We also know that the law is made not for..."
+        ],
+        "11": [
+          "which he entrusted to me"
+        ],
+        "12": [
+          "that he considered me trustworthy"
+        ],
+        "13": [
+          "I was shown mercy because I acted in ignorance and unbelief"
+        ],
+        "14": [
+          "faith"
+        ],
+        "15": [
+          "Here is a trustworthy saying that deserves full acceptance"
+        ],
+        "16": [
+          "believe"
+        ],
+        "18": [
+          "Timothy, my son, I am giving you this command in..."
+        ],
+        "19": [
+          "faith"
+        ],
+        "20": [
+          "Among them are Hymenaeus and Alexander, whom I have handed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Colossians 1:27",
+          "anchorVerse": 1,
+          "referenceLabel": "Colossians 1:27"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ignatius of Antioch on Epistle of Ignatius to the Ephesians: None of these things is hid from...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἐλπίδος: hope - expectation (abstractly or concretely) or confidence",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"And the grace of our Lord was exceeding abundant with faith and love which is in Christ Jesus...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "2": [
+          "Grace",
+          "mercy"
+        ],
+        "8": [
+          "We know that the law is good if one uses..."
+        ],
+        "9": [
+          "We also know that the law is made not for..."
+        ],
+        "11": [
+          "that conforms to the gospel concerning the glory of the..."
+        ],
+        "12": [
+          "I thank Christ Jesus our Lord, who has given me..."
+        ],
+        "13": [
+          "mercy"
+        ],
+        "14": [
+          "grace"
+        ],
+        "15": [
+          "Here is a trustworthy saying that deserves full acceptance"
+        ],
+        "16": [
+          "mercy"
+        ],
+        "17": [
+          "Now to the King eternal, immortal, invisible, the only God,..."
+        ],
+        "20": [
+          "Among them are Hymenaeus and Alexander, whom I have handed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 Timothy 1:2",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Timothy 1:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Unto Timothy, my own son in the faith: Grace, mercy, and peace, from God our Father and Jesus...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: He describes the person greeted from three viewpoi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἔλεος: mercy - compassion (human or divine, especially active)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Oecumenius on COMMENTARY ON 1 TIMOTHY: As I urged you, stay in Ephesus when you go to Macedon...\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "command"
+        ],
+        "3": [
+          "command"
+        ],
+        "5": [
+          "command"
+        ],
+        "18": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ignatius of Antioch on Epistle of Ignatius to the Ephesians: None of these things is hid from...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "As I besought thee to abide still at Ephesus (Καθὼς παρεκάλεσά σε προσμεῖναι ἐν Ἐφέσῳ, Kathōs...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Oecumenius on COMMENTARY ON 1 TIMOTHY: As I urged you, stay in Ephesus when you go to Macedon...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: Above he described his own state both in regard to...\". Word-study detail reinforces \"πιστόν: faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle of Christ Jesus by the command of..."
+        ],
+        "2": [
+          "true"
+        ],
+        "4": [
+          "or to devote themselves to myths and endless genealogies"
+        ],
+        "5": [
+          "The goal of this command is love, which comes from..."
+        ],
+        "6": [
+          "Some have departed from these and have turned to meaningless..."
+        ],
+        "8": [
+          "We know that the law is good if one uses..."
+        ],
+        "9": [
+          "We also know that the law is made not for..."
+        ],
+        "10": [
+          "for the sexually immoral, for those practicing homosexuality, for slave..."
+        ],
+        "12": [
+          "I thank Christ Jesus our Lord, who has given me..."
+        ],
+        "13": [
+          "Even though I was once a blasphemer and a persecutor..."
+        ],
+        "15": [
+          "Here is a trustworthy saying that deserves full acceptance"
+        ],
+        "17": [
+          "Now to the King eternal, immortal, invisible, the only God,..."
+        ],
+        "18": [
+          "Timothy, my son, I am giving you this command in..."
+        ],
+        "19": [
+          "holding on to faith and a good conscience, which some..."
+        ],
+        "20": [
+          "Among them are Hymenaeus and Alexander, whom I have handed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what practical ways can church leaders today exercise apostolic faithfulness without claim...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrosiaster on COMMENTARY ON THE FIRST LETTER TO TIMOTHY: Timothy is a true son in faith, fo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Timothy's background was uniquely suited for ministry in the Hellenistic world. His mother Eu...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Timothy: That is, begotten by me through faith. The p...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"John Chrysostom on Homily on 1 Timothy 5: They then who turn aside from the faith must suffer...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        4,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle of Christ Jesus by the command of..."
+        ],
+        "4": [
+          "or to devote themselves to myths and endless genealogies"
+        ],
+        "14": [
+          "The grace of our Lord was poured out on me..."
+        ],
+        "15": [
+          "save"
+        ],
+        "16": [
+          "eternal life"
+        ],
+        "17": [
+          "Now to the King eternal"
+        ],
+        "19": [
+          "holding on to faith and a good conscience, which some..."
+        ],
+        "20": [
+          "Among them are Hymenaeus and Alexander, whom I have handed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Titus 1:3",
+          "anchorVerse": 1,
+          "referenceLabel": "Titus 1:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Timothy 1: Great and admirable is the dignity of an Apostle, a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Neither give heed to fables and endless genealogies (μηδὲ προσέχειν μύθοις καὶ γενεαλογίαις ἀ...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on ON THE SPIRIT AND THE LETTER 1.10.16: “The law is not made for the righ...\". Word-study detail reinforces \"ἐναυάγησαν: have made shipwreck - to be shipwrecked (stranded, \"navigate\"), literally or figu...\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        12,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "As I urged you when I went into Macedonia, stay..."
+        ],
+        "4": [
+          "or to devote themselves to myths and endless genealogies"
+        ],
+        "5": [
+          "The goal of this command is love, which comes from..."
+        ],
+        "8": [
+          "We know that the law is good if one uses..."
+        ],
+        "9": [
+          "made"
+        ],
+        "12": [
+          "I thank Christ Jesus our Lord, who has given me..."
+        ],
+        "18": [
+          "made"
+        ],
+        "19": [
+          "holding on to faith and a good conscience, which some..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Ephesus was a major center of pagan religion (temple of Artemis/Diana), Greek philosophy, and...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Eusebius of Caesarea on ECCLESIASTICAL HISTORY 3.4: Paul’s fellow workers and fellow soldiers...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Both Jewish and Gnostic traditions valued elaborate genealogies and origin myths. Jewish teac...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Irenaeus on Against Heresies Book 1, Preface.1: Inasmuch as certain men have set the truth as...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

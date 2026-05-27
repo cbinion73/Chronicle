@@ -1,0 +1,162 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nahum",
+  "chapter": 2,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:41.194Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Where is the dwelling of the lions ( ayyeh me'on arayot , אַיֵּה מְעוֹן אֲרָיוֹת)—Nahum's rhe...\". Word-study detail reinforces \"מַחֲרִֽיד׃: and none made them afraid - to shudder with terror; hence, to fear; also to haste...\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "4": [
+          "The chariots storm through the streets, rushing back and forth..."
+        ],
+        "5": [
+          "Nineveh summons her picked troops, yet they stumble on their..."
+        ],
+        "6": [
+          "The river gates are thrown open and the palace collapses"
+        ],
+        "10": [
+          "She is pillaged, plundered, stripped"
+        ],
+        "11": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient siege warfare was brutal and terrifying. When walls were breached, attackers poured i...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Nahum: (Verse 3 and following) The shield of the strong is ablaze, th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Nahum prophesied between 663-612 BC. In 612 BC, a coalition of Babylonians, Medes, and Scythi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Nahum: (Verse 3 and following) The shield of the strong is ablaze, th...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Nahum: (Verses 8, 9.) And Nineveh is like a pool of water; its waters...\". Word-study detail reinforces \"מֵאֶ֙רֶץ֙: from the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        8,
+        9,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "8": [
+          "Nineveh is like a pool whose water is draining away"
+        ],
+        "9": [
+          "Plunder the silver"
+        ],
+        "11": [
+          "Where now is the lions’ den, the place where they..."
+        ],
+        "13": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Nahum's vision of Nineveh's attackers is vivid and terrifying: 'The shield of his mighty men...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מְאָדָּ֗ם: is made red - to show blood (in the face), i.e., flush or turn rosy",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Nahum's prophecy of Nineveh's fall employs vivid imagery: 'Nineveh is of old like a pool of w...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Nahum: (Verses 8, 9.) And Nineveh is like a pool of water; its waters...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The lion did tear in pieces enough for his whelps ( aryeh toreph bedi gorotav , אַרְיֵה טֹרֵף...\". Word-study detail reinforces \"טֹרֵף֙: did tear in pieces - to pluck off or pull to pieces; causatively to supply with food...\".",
+      "supportingVerses": [
+        9,
+        12
+      ],
+      "versePhrases": {
+        "9": [
+          "supply"
+        ],
+        "12": [
+          "The lion killed enough for his cubs and strangled the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Nahum asks rhetorically: 'Art thou better than populous No' (heteytivi miNo-Amown). No-Amon (...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The lion did tear in pieces enough for his whelps ( aryeh toreph bedi gorotav , אַרְיֵה טֹרֵף...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "טֹרֵף֙: did tear in pieces - to pluck off or pull to pieces; causatively to supply with food...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

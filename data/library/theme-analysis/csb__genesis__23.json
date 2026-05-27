@@ -1,0 +1,95 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 23,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:09.963Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, th...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        4,
+        9,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "4": [
+          "“I am an alien residing among you"
+        ],
+        "9": [
+          "presence"
+        ],
+        "17": [
+          "near"
+        ],
+        "18": [
+          "Abraham’s possession in the sight of all the Hethites who..."
+        ],
+        "19": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְאֶקְבְּרָ֥ה: with you that I may bury - to inter",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Martin of Braga on SAYINGS OF THE EGYPTIAN FATHERS 33-34: A brother asked an old man, “What s...\". Word-study detail reinforces \"וְלִבְכֹּתָֽהּ׃: and to weep - to weep; generally to bemoan\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "weep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Martin of Braga on SAYINGS OF THE EGYPTIAN FATHERS 33-34: A brother asked an old man, “What s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְלִבְכֹּתָֽהּ׃: and to weep - to weep; generally to bemoan",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

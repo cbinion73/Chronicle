@@ -1,0 +1,300 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 17,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:29.795Z",
+  "themes": [
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"And Absalom and all the men of Israel said, The counsel of Hushai the Archite is better than...\". Word-study detail reinforces \"עֲצַ֤ת: The counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        7,
+        11,
+        14,
+        15,
+        16,
+        19,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "7": [
+          "counsel"
+        ],
+        "11": [
+          "counsel"
+        ],
+        "14": [
+          "counsel"
+        ],
+        "15": [
+          "counsel"
+        ],
+        "16": [
+          "Now therefore send quickly, and tell David, saying, Lodge not..."
+        ],
+        "19": [
+          "And the woman took and spread a covering over the..."
+        ],
+        "20": [
+          "And when Absalom’s servants came to the woman to the..."
+        ],
+        "23": [
+          "counsel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And Hushai said unto Absalom, The counsel that Ahithophel hath given is not good at this time...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "הָֽעֵצָ֛ה: The counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Therefore I counsel that all Israel be generally gathered unto thee, from Dan even to Beer-sh...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "יָעַ֗צְתִּי: Therefore I counsel - to advise; reflexively, to deliberate or resolve",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"And Absalom and all the men of Israel said, The counsel of Hushai the Archite is better than...\". Word-study detail reinforces \"עֲצַ֤ת: The counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        7,
+        11,
+        14,
+        15,
+        16,
+        23
+      ],
+      "versePhrases": {
+        "7": [
+          "counsel"
+        ],
+        "11": [
+          "counsel"
+        ],
+        "14": [
+          "counsel"
+        ],
+        "15": [
+          "counsel"
+        ],
+        "16": [
+          "Now therefore send quickly, and tell David, saying, Lodge not..."
+        ],
+        "23": [
+          "counsel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And Hushai said unto Absalom, The counsel that Ahithophel hath given is not good at this time...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "הָֽעֵצָ֛ה: The counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Therefore I counsel that all Israel be generally gathered unto thee, from Dan even to Beer-sh...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "יָעַ֗צְתִּי: Therefore I counsel - to advise; reflexively, to deliberate or resolve",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Now Jonathan and Ahimaaz stayed by En-rogel; for they might not be seen to come into the city...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "21": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 22:31",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 22:31"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And I will come upon him while he is weary and weak handed, and will make him afraid: and all...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on HOMILIES ON PHILIPPIANS 5: There is nothing so foreign to a Christian soul...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמֶּ֖לֶךְ: the king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Then David arose, and all the people that were with him, and they passed over Jordan: by the...\". Word-study detail reinforces \"א֣וֹר: light - illumination or (concrete) luminary (in every sense, including lightning, happ...\".",
+      "supportingVerses": [
+        12,
+        22,
+        25
+      ],
+      "versePhrases": {
+        "12": [
+          "light"
+        ],
+        "22": [
+          "light"
+        ],
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "So shall we come upon him in some place where he shall be found, and we will light upon him a...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Then David arose, and all the people that were with him, and they passed over Jordan: by the...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "א֣וֹר: light - illumination or (concrete) luminary (in every sense, including lightning, happ...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And Absalom made Amasa captain of the host instead of Joab: which Amasa was a man's son, whos...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does this verse reveal about God's character, and how should that shape your worship and...\". Word-study detail reinforces \"אַֽחֲרֵ֥י: that follow - properly, the hind part; generally used as an adverb or conjunction,...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does this verse reveal about God's character, and how should that shape your worship and...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אַֽחֲרֵ֥י: that follow - properly, the hind part; generally used as an adverb or conjunction,...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And I will come upon him while he is weary and weak handed, and will make him afraid: and all...\". Word-study detail reinforces \"וְהַֽחֲרַדְתִּ֣י: and will make him afraid - to shudder with terror; hence, to fear; also to...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And I will come upon him while he is weary and weak handed, and will make him afraid: and all...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְהַֽחֲרַדְתִּ֣י: and will make him afraid - to shudder with terror; hence, to fear; also to...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

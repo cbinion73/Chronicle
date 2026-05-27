@@ -1,0 +1,204 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 21,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:18.360Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"But for his kin, that is near unto him, that is, for his mother, and for his father, and for...\". Word-study detail reinforces \"הַקָּרֹ֖ב: that is near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        1,
+        2,
+        11,
+        17,
+        18,
+        21,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord said to Moses, “Speak to Aaron’s sons, the..."
+        ],
+        "2": [
+          "except for his immediate family"
+        ],
+        "11": [
+          "near"
+        ],
+        "17": [
+          "near"
+        ],
+        "18": [
+          "near"
+        ],
+        "21": [
+          "near"
+        ],
+        "23": [
+          "near"
+        ],
+        "24": [
+          "Moses said this to Aaron and his sons and to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Higher standards for priests due to their sacred role, including restrictions on mourning pra...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "But for his kin, that is near unto him, that is, for his mother, and for his father, and for...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַקָּרֹ֖ב: that is near - near (in place, kindred or time)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thou shalt sanctify him therefore; for he offereth the bread of thy God: he shall be holy unt...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        15,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "6": [
+          "holy"
+        ],
+        "7": [
+          "holy"
+        ],
+        "8": [
+          "holy"
+        ],
+        "15": [
+          "so that he does not corrupt his bloodline among his..."
+        ],
+        "22": [
+          "holy"
+        ],
+        "23": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Peter 2:9",
+          "anchorVerse": 6,
+          "referenceLabel": "1 Peter 2:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "They shall be holy unto their God, and not profane the name of their God: for the offerings o...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "קֹֽדֶשׁ׃: They shall be holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 21:8",
+          "anchorVerse": 7,
+          "referenceLabel": "Leviticus 21:8"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Origen of Alexandria on EXHORTATION TO MARTYRDOM 30: Moreover, blameless priests served the G...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        17,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "6": [
+          "holy"
+        ],
+        "7": [
+          "holy"
+        ],
+        "8": [
+          "holy"
+        ],
+        "17": [
+          "“Tell Aaron"
+        ],
+        "22": [
+          "holy"
+        ],
+        "23": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Peter 2:9",
+          "anchorVerse": 6,
+          "referenceLabel": "1 Peter 2:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "They shall be holy unto their God, and not profane the name of their God: for the offerings o...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "קֹֽדֶשׁ׃: They shall be holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 21:8",
+          "anchorVerse": 7,
+          "referenceLabel": "Leviticus 21:8"
+        }
+      ]
+    }
+  ]
+}

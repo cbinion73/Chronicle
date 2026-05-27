@@ -1,0 +1,90 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 123,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:20.680Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The cry for mercy intensifies: 'Have mercy upon us, O LORD, have mercy upon us: for we are ex...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "gracious"
+        ],
+        "3": [
+          "gracious"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A simile illustrates dependent watching: 'Behold, as the eyes of servants look unto the hand...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on THE PERPETUAL VIRGINITY OF MARY 6: What does he mean then by saying, “for he must r...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "שֶׁיְּחָנֵּֽנוּ׃: until that he have mercy - properly, to bend or stoop in kindness to an inf...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 57:1",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 57:1"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The psalm opens with eyes lifted heavenward: 'Unto thee lift I up mine eyes, O thou that dwel...\". Word-study detail reinforces \"בַּשָּׁמָֽיִם׃: in the heavens - the sky (as aloft; the dual perhaps alluding to the visible...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "heavens"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The psalm opens with eyes lifted heavenward: 'Unto thee lift I up mine eyes, O thou that dwel...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 28:32-34: The tax collector in the G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בַּשָּׁמָֽיִם׃: in the heavens - the sky (as aloft; the dual perhaps alluding to the visible...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

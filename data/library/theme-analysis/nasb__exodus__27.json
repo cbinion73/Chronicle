@@ -1,0 +1,111 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 27,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:06.948Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...\". Word-study detail reinforces \"תְּצַוֶּ֣ה׀: And thou shalt command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        20,
+        21
+      ],
+      "versePhrases": {
+        "20": [
+          "command"
+        ],
+        "21": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "תְּצַוֶּ֣ה׀: And thou shalt command - (intensively) to constitute, enjoin",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        18,
+        20
+      ],
+      "versePhrases": {
+        "18": [
+          "The length of the courtyard shall be a hundred cubits,..."
+        ],
+        "20": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The 5-cubit height was tall enough to prevent animals from jumping over and to create clear b...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "נְחֹֽשֶׁת׃: of brass - copper, hence, something made of that metal, i.e., coin, a fetter; fig...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Exodus 39:37",
+          "anchorVerse": 20,
+          "referenceLabel": "Exodus 39:37"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"הָֽעֵדֻ֗ת: which is before the testimony - testimony\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "testimony"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "הָֽעֵדֻ֗ת: which is before the testimony - testimony",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

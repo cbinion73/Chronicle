@@ -1,0 +1,321 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 27,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:44:04.306Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: 622. There is no indignation in me. Here he examines...\". Word-study detail reinforces \"יִפְקֹ֣ד: shall punish - to visit (with friendly or hostile intent); by analogy, to oversee,...\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "judgment"
+        ],
+        "4": [
+          "I am not angry"
+        ],
+        "5": [
+          "Or let it take hold of my strength"
+        ],
+        "7": [
+          "Did the Lord strike Israel as he struck the one..."
+        ],
+        "8": [
+          "You disputed with Israel by banishing and driving her away"
+        ],
+        "11": [
+          "When its branches dry out, they will be broken off"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In that day the LORD with his sore and great and strong sword shall punish leviathan the pier...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: 620. In that day. In this part he recalls divine and...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יִפְקֹ֣ד: shall punish - to visit (with friendly or hostile intent); by analogy, to oversee,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient Israelites knew briers and thorns as curses from the Fall (Genesis 3:18), agricultura...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 4, 5.) Indignation is not mine: who will give me a tho...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "I am not angry"
+        ],
+        "5": [
+          "peace"
+        ],
+        "6": [
+          "In days to come, Jacob will take root"
+        ],
+        "10": [
+          "For the fortified city will be desolate, pastures deserted and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient Israelites knew briers and thorns as curses from the Fall (Genesis 3:18), agricultura...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4, 5.) Indignation is not mine: who will give me a tho...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Job 22:21",
+          "anchorVerse": 5,
+          "referenceLabel": "Job 22:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Or let him take hold of my strength, that he may make peace with me; and he shall make peace...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"When the boughs thereof are withered, they shall be broken off: the women come, and set them...\". Word-study detail reinforces \"בְּאֶ֣רֶץ: in the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        6,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "I am the Lord, who watches over it to water..."
+        ],
+        "6": [
+          "In days to come, Jacob will take root"
+        ],
+        "11": [
+          "Maker"
+        ],
+        "13": [
+          "On that day a great ram’s horn will be blown,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 2, 3.) On that day, the vineyard of wine will sing for...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "לַ֥יְלָה: it night - properly, a twist (away of the light), i.e., night; figuratively, adversity",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 6) Those who come out from the root of Jacob will flou...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "תֵבֵ֖ל: of the world - the earth (as moist and therefore inhabited); by extension, the globe;...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"When the boughs thereof are withered, they shall be broken off: the women come, and set them...\". Word-study detail reinforces \"בִּינוֹת֙: of no understanding - understanding\".",
+      "supportingVerses": [
+        3,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "3": [
+          "I am the Lord, who watches over it to water..."
+        ],
+        "11": [
+          "understanding"
+        ],
+        "12": [
+          "On that day the Lord will thresh grain from the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How should God's protective care ('lest any hurt it') shape our understanding of trials and s...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 2, 3.) On that day, the vineyard of wine will sing for...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "When the boughs thereof are withered, they shall be broken off: the women come, and set them...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 11) In the dryness of its harvest, women who come and...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Or let him take hold of my strength, that he may make peace with me; and he shall make peace...\".",
+      "supportingVerses": [
+        1,
+        5,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "On that day the Lord with his relentless"
+        ],
+        "5": [
+          "with me"
+        ],
+        "10": [
+          "For the fortified city will be desolate, pastures deserted and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written during Assyria's dominance (late 8th century BC), when empires seemed invincible. Anc...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 27 - Verse 1) On that day the Lord will visit with H...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Or let him take hold of my strength, that he may make peace with me; and he shall make peace...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: 623. Second, he sets out the moderation of the senten...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 11) In the dryness of its harvest, women who come and...\". Word-study detail reinforces \"יְרַחֲמֶ֣נּוּ: them will not have mercy - to fondle; by implication, to love, especially to c...\".",
+      "supportingVerses": [
+        5,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "Or let it take hold of my strength"
+        ],
+        "11": [
+          "gracious",
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Or let him take hold of my strength, that he may make peace with me; and he shall make peace...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4, 5.) Indignation is not mine: who will give me a tho...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "When the boughs thereof are withered, they shall be broken off: the women come, and set them...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 11) In the dryness of its harvest, women who come and...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

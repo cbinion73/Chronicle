@@ -1,0 +1,242 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 30,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:06.282Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Bede on Commentary on Samuel: When he had led him, behold, they reclined, etc. Heretics recli...\". Word-study detail reinforces \"וּמֵאֶ֥רֶץ: and out of the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        9,
+        11,
+        14,
+        16,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "9": [
+          "So David went, he and the six hundred men who..."
+        ],
+        "11": [
+          "They found an Egyptian [who had collapsed] in the field..."
+        ],
+        "14": [
+          "made"
+        ],
+        "16": [
+          "When he brought David down, the Amalekites had disbanded and..."
+        ],
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Samuel: They struck Ziklag, etc. Ziklag is interpreted as 'distillation...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The pursuit begins with all six hundred men, demonstrating David's ability to rally grieving,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Samuel: David himself therefore went, and six hundred men who were with...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Abandoned servants were common casualties of ancient warfare and raiding. Illness made slaves...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Forty Gospel Homilies, Homily 36: The poor and the feeble, the blind...\". Word-study detail reinforces \"לֶ֙חֶם֙: no bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        11,
+        12,
+        14,
+        17,
+        24
+      ],
+      "versePhrases": {
+        "11": [
+          "bread"
+        ],
+        "12": [
+          "bread"
+        ],
+        "14": [
+          "We made a raid on the Negev of the Cherethites,..."
+        ],
+        "17": [
+          "Then David [and his men] struck them down [in battle]..."
+        ],
+        "24": [
+          "supplies"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The discovery of the Egyptian servant introduces providential guidance through unexpected mea...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 36: The poor and the feeble, the blind...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "לֶ֙חֶם֙: him bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 36: The poor and the feeble, the blind...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses.",
+      "supportingVerses": [
+        21,
+        23
+      ],
+      "versePhrases": {
+        "21": [
+          "follow"
+        ],
+        "23": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"David's attack 'from the twilight even unto the evening of the next day' indicates sustained...\". Word-study detail reinforces \"אַרְבַּ֨ע: of them save four - four\".",
+      "supportingVerses": [
+        8,
+        17
+      ],
+      "versePhrases": {
+        "8": [
+          "rescue"
+        ],
+        "17": [
+          "Then David [and his men] struck them down [in battle]..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "David's attack 'from the twilight even unto the evening of the next day' indicates sustained...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "אַרְבַּ֨ע: of them save four - four",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The ephod was the priestly garment containing pockets for the Urim and Thummim, sacred lots f...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        7,
+        22
+      ],
+      "versePhrases": {
+        "7": [
+          "David said to Abiathar the priest, Ahimelech’s son, “Please bring..."
+        ],
+        "22": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The ephod was the priestly garment containing pockets for the Urim and Thummim, sacred lots f...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "נִתֵּ֣ן: not with us we will not give - to give, used with greatest latitude of application (...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on Samuel: And he sent gifts from the spoil to the elders of Judah, etc. T...\".",
+      "supportingVerses": [
+        26
+      ],
+      "versePhrases": {
+        "26": [
+          "blessing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Bede on Commentary on Samuel: And he sent gifts from the spoil to the elders of Judah, etc. T...",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

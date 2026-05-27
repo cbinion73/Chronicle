@@ -1,0 +1,494 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 6,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:36.854Z",
+  "themes": [
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Have respect therefore to the prayer of thy servant, and to his supplication, O LORD my God,...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        19,
+        20,
+        21,
+        24,
+        26,
+        29,
+        32,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "19": [
+          "prayer",
+          "petition"
+        ],
+        "20": [
+          "prayer"
+        ],
+        "21": [
+          "pray"
+        ],
+        "24": [
+          "pray"
+        ],
+        "26": [
+          "pray"
+        ],
+        "29": [
+          "prayer",
+          "petition"
+        ],
+        "32": [
+          "when he comes and prays toward this temple"
+        ],
+        "34": [
+          "pray"
+        ],
+        "35": [
+          "prayer",
+          "petition"
+        ],
+        "37": [
+          "petition"
+        ],
+        "38": [
+          "pray"
+        ],
+        "39": [
+          "prayer"
+        ],
+        "40": [
+          "prayer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Have respect therefore to the prayer of thy servant, and to his supplication, O LORD my God,...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "הַתְּפִלָּ֔ה: and the prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Daniel 6:10",
+          "anchorVerse": 20,
+          "referenceLabel": "Daniel 6:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Solomon's dedicatory prayer asks: 'That thine eyes may be open upon this house day and night,...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Solomon's prayer begins: 'And said, O LORD God of Israel, there is no God like thee in the he...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        3,
+        4,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        22,
+        27
+      ],
+      "versePhrases": {
+        "3": [
+          "Then the king turned and blessed the entire congregation of Israel while they were standing"
+        ],
+        "4": [
+          "promise"
+        ],
+        "10": [
+          "promised"
+        ],
+        "11": [
+          "covenant"
+        ],
+        "13": [
+          "For Solomon had made a bronze platform 7½ feet long,..."
+        ],
+        "14": [
+          "covenant"
+        ],
+        "15": [
+          "promise",
+          "promised"
+        ],
+        "16": [
+          "promised"
+        ],
+        "17": [
+          "promised"
+        ],
+        "22": [
+          "oath"
+        ],
+        "27": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the king turned his face, and blessed the whole congregation of Israel: and all the congr...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וַיְבָ֕רֶךְ: and blessed - to kneel; by implication to bless god (as an act of adoration), an...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Solomon blesses God: 'And he said, Blessed be the LORD God of Israel, who hath with his hands...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "בָּר֤וּךְ: Blessed - to kneel; by implication to bless god (as an act of adoration), and (vic...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Solomon's prayer begins: 'And said, O LORD God of Israel, there is no God like thee in the he...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        14,
+        21,
+        24,
+        25,
+        27,
+        30,
+        39
+      ],
+      "versePhrases": {
+        "14": [
+          "gracious"
+        ],
+        "21": [
+          "forgive"
+        ],
+        "24": [
+          "mercy"
+        ],
+        "25": [
+          "forgive"
+        ],
+        "27": [
+          "forgive"
+        ],
+        "30": [
+          "forgive"
+        ],
+        "39": [
+          "forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Deuteronomy 7:9",
+          "anchorVerse": 14,
+          "referenceLabel": "Deuteronomy 7:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Solomon's prayer begins: 'And said, O LORD God of Israel, there is no God like thee in the he...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וְֽהַחֶ֔סֶד: and shewest mercy - kindness; by implication (towards god) piety; rarely (by opp...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "Hearken therefore unto the supplications of thy servant, and of thy people Israel, which they...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And the king turned his face, and blessed the whole congregation of Israel: and all the congr...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        10,
+        13,
+        16,
+        42
+      ],
+      "versePhrases": {
+        "3": [
+          "king"
+        ],
+        "10": [
+          "throne"
+        ],
+        "13": [
+          "For Solomon had made a bronze platform 7½ feet long,..."
+        ],
+        "16": [
+          "throne"
+        ],
+        "42": [
+          "Lord God, do not reject your anointed one"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 8:14",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Kings 8:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the king turned his face, and blessed the whole congregation of Israel: and all the congr...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַמֶּ֙לֶךְ֙: And the king - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The LORD therefore hath performed his word that he hath spoken: for I am risen up in the room...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Solomon's prayer echoes his earlier statement (2:6) with expanded emphasis: 'But will God in...\". Word-study detail reinforces \"הָאָ֑רֶץ: on the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        11,
+        13,
+        14,
+        18,
+        33
+      ],
+      "versePhrases": {
+        "11": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "14": [
+          "earth"
+        ],
+        "18": [
+          "earth"
+        ],
+        "33": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And in it have I put the ark, wherein is the covenant of the LORD, that he made with the chil...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "בְּרִ֣ית: wherein is the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "For Solomon had made a brasen scaffold, of five cubits long, and five cubits broad, and three...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "עָשָׂ֨ה: had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 23 verses. Commentary leans on \"Solomon's prayer echoes his earlier statement (2:6) with expanded emphasis: 'But will God in...\". Word-study detail reinforces \"קְרוֹבָֽה׃: or near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        1,
+        2,
+        8,
+        10,
+        12,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        25,
+        26,
+        27,
+        29,
+        30,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39
+      ],
+      "versePhrases": {
+        "1": [
+          "dwell"
+        ],
+        "2": [
+          "a place for your dwelling forever"
+        ],
+        "8": [
+          "However, the Lord said to my father David, “Since it..."
+        ],
+        "10": [
+          "So the Lord has fulfilled what he promised"
+        ],
+        "12": [
+          "Then Solomon stood before the altar of the Lord in..."
+        ],
+        "15": [
+          "You have kept what you promised to your servant, my..."
+        ],
+        "16": [
+          "Therefore, Lord God of Israel, keep what you promised to..."
+        ],
+        "18": [
+          "But will God indeed live on earth with humans? Even heaven"
+        ],
+        "19": [
+          "Listen to your servant’s prayer and his petition, Lord my..."
+        ],
+        "20": [
+          "so that your eyes watch over this temple day and..."
+        ],
+        "21": [
+          "May you hear in your dwelling place in heaven"
+        ],
+        "25": [
+          "may you hear in heaven and forgive the sin of..."
+        ],
+        "26": [
+          "When the skies are shut and there is no rain..."
+        ],
+        "27": [
+          "may you hear in heaven and forgive the sin of..."
+        ],
+        "29": [
+          "every prayer or petition that any person or that all..."
+        ],
+        "30": [
+          "your dwelling place"
+        ],
+        "32": [
+          "Even for the foreigner who is not of your people..."
+        ],
+        "33": [
+          "may you hear in heaven in your dwelling place"
+        ],
+        "34": [
+          "When your people go out to fight against their enemies,..."
+        ],
+        "36": [
+          "When they sin against you— for there is no one who does not sin— and you are angry with them and hand them over to the enemy"
+        ],
+        "37": [
+          "and when they come to their senses in the land..."
+        ],
+        "38": [
+          "and when they return to you with all their mind and all their heart in the land of their captivity where they were taken captive"
+        ],
+        "39": [
+          "your dwelling place"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Then said Solomon, The LORD hath said that he would dwell in the thick darkness. This verse c...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לִשְׁכּ֖וֹן: that he would dwell - to reside or permanently stay (literally or figuratively)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The reign of Solomon (970-930 BCE) represents Israel's golden age of peace and prosperity. Th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לְשִׁבְתְּךָ֖: for thy dwelling - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

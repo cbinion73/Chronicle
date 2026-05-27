@@ -1,0 +1,169 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 6,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:16.714Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And the men of Beth-shemesh said, Who is able to stand before this holy LORD God? and to whom...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        10,
+        13,
+        15,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "10": [
+          "Then the men did so"
+        ],
+        "13": [
+          "Now the people of Beth-shemesh were gathering in their wheat..."
+        ],
+        "15": [
+          "And the Levites took down the ark of the Lord..."
+        ],
+        "19": [
+          "Now He fatally struck some of the men of Beth-shemesh..."
+        ],
+        "20": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book 7.42: For it is not that holy people...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "כֵּ֔ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And they of Beth-shemesh were reaping their wheat harvest in the valley: and they lifted up t...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 4: 19. For who can the Bethsh...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And the men of Beth-shemesh said, Who is able to stand before this holy LORD God? and to whom...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        13,
+        15,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "13": [
+          "Now the people of Beth-shemesh were gathering in their wheat..."
+        ],
+        "15": [
+          "And the Levites took down the ark of the Lord..."
+        ],
+        "19": [
+          "Now He fatally struck some of the men of Beth-shemesh..."
+        ],
+        "20": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And they of Beth-shemesh were reaping their wheat harvest in the valley: and they lifted up t...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 4: 19. For who can the Bethsh...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "How does proper procedure in worship honor God's holiness while enabling genuine celebration?",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 4: 26. The Levites are interp...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 4: 5. What does it mean that...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        5,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "5": [
+          "glory"
+        ],
+        "14": [
+          "and they split the wood of the cart and offered the cows as a burnt offering to the Lord"
+        ],
+        "15": [
+          "And the Levites took down the ark of the Lord and the saddlebag that was with it"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Joshua 7:19",
+          "anchorVerse": 5,
+          "referenceLabel": "Joshua 7:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Wherefore ye shall make images of your emerods, and images of your mice that mar the land; an...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 4: 5. What does it mean that...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "כָּב֑וֹד: glory - properly, weight, but only figuratively in a good sense, splendor or copiou...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 10,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:00.301Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Behold, the heaven and the heaven of heavens is the LORD'S —The Hebrew shamayim (heaven) is r...\". Word-study detail reinforces \"הָאָ֖רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        5,
+        8,
+        14,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "5": [
+          "made"
+        ],
+        "8": [
+          "At that time the Lord set apart the tribe of..."
+        ],
+        "14": [
+          "heavens",
+          "earth"
+        ],
+        "22": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And I made an ark of shittim wood, and hewed two tables of stone like unto the first, and wen...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וָאַ֤עַשׂ: And I made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And I turned myself and came down from the mount, and put the tables in the ark which I had m...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "עָשִׂ֑יתִי: which I had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Only the LORD had a delight in thy fathers to love them —The Hebrew chashaq (had delight) con...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        12,
+        15,
+        19
+      ],
+      "versePhrases": {
+        "12": [
+          "love"
+        ],
+        "15": [
+          "love"
+        ],
+        "19": [
+          "Love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Deuteronomy 6:5",
+          "anchorVerse": 12,
+          "referenceLabel": "Deuteronomy 6:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "This verse presents a comprehensive summary of covenant obligation, asking the rhetorical que...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Mark: And one of the scribes came, and having heard them reasoning together, and perceiving t...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וּלְאַֽהֲבָ֣ה: and to love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"From thence they journeyed unto Gudgodah; and from Gudgodah to Jotbath, a land of rivers of w...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        8,
+        9
+      ],
+      "versePhrases": {
+        "8": [
+          "covenant",
+          "bless"
+        ],
+        "9": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Deuteronomy 21:5",
+          "anchorVerse": 8,
+          "referenceLabel": "Deuteronomy 21:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "From thence they journeyed unto Gudgodah; and from Gudgodah to Jotbath, a land of rivers of w...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וּלְבָרֵ֣ךְ: unto him and to bless - to kneel; by implication to bless god (as an act of ador...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "At that time the LORD separated the tribe of Levi unto himself, to bear the ark of the covena...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Moses established a theocratic legal system where God's character defined justice. In surroun...\". Word-study detail reinforces \"כֵּ֞ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        9,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "9": [
+          "Therefore Levi has no portion or inheritance with his brothers"
+        ],
+        "17": [
+          "For the Lord your God is God of gods and..."
+        ],
+        "18": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "At that time the LORD separated the tribe of Levi unto himself, to bear the ark of the covena...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "כֵּ֞ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Moses declared God's supremacy as Israel faced Canaanite polytheism. The contrast between Yah...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Justin Martyr on Dialogue with Trypho, Chapter LV: [Trypho the Jew said,] “But now, return to...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thou shalt fear the LORD thy God —The Hebrew yare (fear) combines reverential awe and obedien...\". Word-study detail reinforces \"תִּירָ֖א: Thou shalt fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        12,
+        20
+      ],
+      "versePhrases": {
+        "12": [
+          "fear"
+        ],
+        "20": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "This verse presents a comprehensive summary of covenant obligation, asking the rhetorical que...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "לְ֠יִרְאָה: of thee but to fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Thou shalt fear the LORD thy God —The Hebrew yare (fear) combines reverential awe and obedien...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "תִּירָ֖א: Thou shalt fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"He is thy praise —The Hebrew construction makes God Himself the substance and object of Israe...\". Word-study detail reinforces \"תְהִלָּֽתְךָ֖: He is thy praise - laudation; specifically (concretely) a hymn\".",
+      "supportingVerses": [
+        20,
+        21
+      ],
+      "versePhrases": {
+        "20": [
+          "You shall fear the Lord your God"
+        ],
+        "21": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Moses preached this on Moab's plains as Israel prepared to enter a land saturated with Baal w...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Matthew: Again, the devil taketh him up into an exceeding high mountain, and showeth him all...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "He is thy praise —The Hebrew construction makes God Himself the substance and object of Israe...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "תְהִלָּֽתְךָ֖: He is thy praise - laudation; specifically (concretely) a hymn",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

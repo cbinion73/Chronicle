@@ -1,0 +1,123 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 124,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:51.636Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on SERMON 313A.2: So this heaven and earth is called the world. In saying...\". Word-study detail reinforces \"וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        5,
+        8
+      ],
+      "versePhrases": {
+        "4": [
+          "the flood would have engulfed us, the torrent would have..."
+        ],
+        "5": [
+          "waters"
+        ],
+        "8": [
+          "Maker",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Alternative imagery continues the hypothetical destruction: 'Then the waters had overwhelmed...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הַמַּ֣יִם: the waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The hypothetical destruction intensifies: 'Then the proud waters had gone over our soul.' The...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הַ֝מַּ֗יִם: waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Athanasius of Alexandria on Letter 10.11: What then is our duty, my brothers, for the sake of...\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The conditional section concludes with blessing: 'Blessed be the LORD, who hath not given us...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Athanasius of Alexandria on Letter 10.11: What then is our duty, my brothers, for the sake of...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on SERMON 335F.2: The holy martyrs, you see, did not rely on themselves bu...\". Word-study detail reinforces \"חַיִּ֣ים: quick - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as nou...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The imagined catastrophe is described: 'Then they had swallowed us up quick, when their wrath...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on SERMON 335F.2: The holy martyrs, you see, did not rely on themselves bu...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חַיִּ֣ים: quick - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as nou...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

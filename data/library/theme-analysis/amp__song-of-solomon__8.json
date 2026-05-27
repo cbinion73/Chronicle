@@ -1,0 +1,356 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 8,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:36.037Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 11 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: For love is as strong as death, etc. This love, or j...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "“Oh, that you were like a brother to me, Who..."
+        ],
+        "2": [
+          "“I would lead you and bring you Into the house..."
+        ],
+        "3": [
+          "“Let his left hand be under my head And his..."
+        ],
+        "4": [
+          "love"
+        ],
+        "5": [
+          "love",
+          "beloved"
+        ],
+        "6": [
+          "love"
+        ],
+        "7": [
+          "love"
+        ],
+        "10": [
+          "“I was a wall, and my breasts were like the..."
+        ],
+        "11": [
+          "“Solomon had a vineyard at Baal-hamon"
+        ],
+        "12": [
+          "“My very own vineyard is at my disposal"
+        ],
+        "14": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O that thou wert as my brother, that sucked the breasts of my mother! (מִי יִתֶּנְךָ כְאָח לִ...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Robert of Tombelaine on Commentary on the Song of Songs, Chapter 8: Placed under the old Law,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I would lead thee, and bring thee into my mother's house, who would instruct me (אֶנְהָגֲךָ א...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: And I will give you a cup of spiced wine, etc. The C...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local cross references and verse commentary data reinforce this reading across 5 verses. Commentary leans on \"The bride repeats for the third time: 'I charge you, O daughters of Jerusalem, that ye stir n...\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "oath"
+        ],
+        "6": [
+          "“Put me like a seal on your heart, Like a..."
+        ],
+        "7": [
+          "“Many waters cannot quench love, Nor can rivers drown it"
+        ],
+        "11": [
+          "“Solomon had a vineyard at Baal-hamon"
+        ],
+        "12": [
+          "“My very own vineyard is at my disposal"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The bride repeats for the third time: 'I charge you, O daughters of Jerusalem, that ye stir n...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient seals were crucial for authentication, ownership, and authority—impressed on clay or...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Bede on Commentary on the Song of Songs: For love is as strong as death, etc. This love, or j...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Continuing the meditation on love's nature, the bride declares: 'Many waters cannot quench lo...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local cross references and verse commentary data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: Flee, my beloved, etc. This phrase can rightly be un...\".",
+      "supportingVerses": [
+        3,
+        5,
+        7,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "“Let his left hand be under my head And his..."
+        ],
+        "5": [
+          "with you"
+        ],
+        "7": [
+          "“Many waters cannot quench love, Nor can rivers drown it"
+        ],
+        "13": [
+          "“O you who sit in the gardens, My companions are..."
+        ],
+        "14": [
+          "“Hurry, my beloved and come quickly, Like a gazelle or..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The embrace described here reflects ancient Near Eastern reclining posture for intimate meals...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: His left hand is under my head, etc. By His left han...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does this verse reframe trials: not as obstacles to avoid but as opportunities to experie...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Who is this who ascends from the desert, etc.? But t...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local cross references and verse commentary data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: I am a wall, and my breasts are like towers, etc. I...\".",
+      "supportingVerses": [
+        2,
+        3,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "“I would lead you and bring you Into the house..."
+        ],
+        "3": [
+          "“Let his left hand be under my head And his..."
+        ],
+        "8": [
+          "“We have a little sister And she has no breasts"
+        ],
+        "10": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I would lead thee, and bring thee into my mother's house, who would instruct me (אֶנְהָגֲךָ א...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on On the Mysteries 7:40: The church answers unto [God the Word], “Who will...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does the repeated imagery of Christ's embrace provide security and comfort in your spirit...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: His left hand is under my head, etc. By His left han...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local cross references and verse commentary data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: \"Set me as a seal upon your heart,\" etc. Place me as...\".",
+      "supportingVerses": [
+        4,
+        6,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "command"
+        ],
+        "6": [
+          "“Put me like a seal on your heart, Like a..."
+        ],
+        "12": [
+          "“My very own vineyard is at my disposal"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient seals were crucial for authentication, ownership, and authority—impressed on clay or...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Bede on Commentary on the Song of Songs: \"Set me as a seal upon your heart,\" etc. Place me as...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "My vineyard, which is mine, is before me (כַּרְמִי שֶׁלִּי לְפָנָי)—the bride declares owners...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Commentary on the Song of Songs: My vineyard is before me, etc. \"Truly,\" he says, \"yo...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local cross references and verse commentary data reinforce this reading across 3 verses. Commentary leans on \"Robert of Tombelaine on Commentary on the Song of Songs, Chapter 8: For the holy martyrs burn...\".",
+      "supportingVerses": [
+        2,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "“I would lead you and bring you Into the house..."
+        ],
+        "6": [
+          "“Put me like a seal on your heart, Like a..."
+        ],
+        "7": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In ancient patriarchal culture, the emphasis on 'my mother's house' (rather than father's hou...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: I will apprehend thee, etc. But thus the Synagogue s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient seals were crucial for authentication, ownership, and authority—impressed on clay or...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Ambrose of Milan on On the Mysteries 7:41: The Lord Jesus himself, invited by such eager love...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

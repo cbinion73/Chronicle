@@ -1,0 +1,340 @@
+{
+  "id": "kjvstudy-verse-commentary",
+  "label": "kjvstudy.org Verse Commentary",
+  "sourceRepo": "https://github.com/kennethreitz/kjvstudy.org",
+  "sourcePath": "/study-library/commentaries/kjvstudy",
+  "bookCount": 66,
+  "entryCount": 31102,
+  "books": [
+    {
+      "bookId": "1CH",
+      "path": "/study-library/commentaries/kjvstudy/1_chronicles.json",
+      "entryCount": 942
+    },
+    {
+      "bookId": "1CO",
+      "path": "/study-library/commentaries/kjvstudy/1_corinthians.json",
+      "entryCount": 437
+    },
+    {
+      "bookId": "1JN",
+      "path": "/study-library/commentaries/kjvstudy/1_john.json",
+      "entryCount": 105
+    },
+    {
+      "bookId": "1KI",
+      "path": "/study-library/commentaries/kjvstudy/1_kings.json",
+      "entryCount": 816
+    },
+    {
+      "bookId": "1PE",
+      "path": "/study-library/commentaries/kjvstudy/1_peter.json",
+      "entryCount": 105
+    },
+    {
+      "bookId": "1SA",
+      "path": "/study-library/commentaries/kjvstudy/1_samuel.json",
+      "entryCount": 810
+    },
+    {
+      "bookId": "1TH",
+      "path": "/study-library/commentaries/kjvstudy/1_thessalonians.json",
+      "entryCount": 89
+    },
+    {
+      "bookId": "1TI",
+      "path": "/study-library/commentaries/kjvstudy/1_timothy.json",
+      "entryCount": 113
+    },
+    {
+      "bookId": "2CH",
+      "path": "/study-library/commentaries/kjvstudy/2_chronicles.json",
+      "entryCount": 822
+    },
+    {
+      "bookId": "2CO",
+      "path": "/study-library/commentaries/kjvstudy/2_corinthians.json",
+      "entryCount": 257
+    },
+    {
+      "bookId": "2JN",
+      "path": "/study-library/commentaries/kjvstudy/2_john.json",
+      "entryCount": 13
+    },
+    {
+      "bookId": "2KI",
+      "path": "/study-library/commentaries/kjvstudy/2_kings.json",
+      "entryCount": 719
+    },
+    {
+      "bookId": "2PE",
+      "path": "/study-library/commentaries/kjvstudy/2_peter.json",
+      "entryCount": 61
+    },
+    {
+      "bookId": "2SA",
+      "path": "/study-library/commentaries/kjvstudy/2_samuel.json",
+      "entryCount": 695
+    },
+    {
+      "bookId": "2TH",
+      "path": "/study-library/commentaries/kjvstudy/2_thessalonians.json",
+      "entryCount": 47
+    },
+    {
+      "bookId": "2TI",
+      "path": "/study-library/commentaries/kjvstudy/2_timothy.json",
+      "entryCount": 83
+    },
+    {
+      "bookId": "3JN",
+      "path": "/study-library/commentaries/kjvstudy/3_john.json",
+      "entryCount": 14
+    },
+    {
+      "bookId": "ACT",
+      "path": "/study-library/commentaries/kjvstudy/acts.json",
+      "entryCount": 1007
+    },
+    {
+      "bookId": "AMO",
+      "path": "/study-library/commentaries/kjvstudy/amos.json",
+      "entryCount": 146
+    },
+    {
+      "bookId": "COL",
+      "path": "/study-library/commentaries/kjvstudy/colossians.json",
+      "entryCount": 95
+    },
+    {
+      "bookId": "DAN",
+      "path": "/study-library/commentaries/kjvstudy/daniel.json",
+      "entryCount": 357
+    },
+    {
+      "bookId": "DEU",
+      "path": "/study-library/commentaries/kjvstudy/deuteronomy.json",
+      "entryCount": 959
+    },
+    {
+      "bookId": "ECC",
+      "path": "/study-library/commentaries/kjvstudy/ecclesiastes.json",
+      "entryCount": 222
+    },
+    {
+      "bookId": "EPH",
+      "path": "/study-library/commentaries/kjvstudy/ephesians.json",
+      "entryCount": 155
+    },
+    {
+      "bookId": "EST",
+      "path": "/study-library/commentaries/kjvstudy/esther.json",
+      "entryCount": 167
+    },
+    {
+      "bookId": "EXO",
+      "path": "/study-library/commentaries/kjvstudy/exodus.json",
+      "entryCount": 1213
+    },
+    {
+      "bookId": "EZK",
+      "path": "/study-library/commentaries/kjvstudy/ezekiel.json",
+      "entryCount": 1273
+    },
+    {
+      "bookId": "EZR",
+      "path": "/study-library/commentaries/kjvstudy/ezra.json",
+      "entryCount": 280
+    },
+    {
+      "bookId": "GAL",
+      "path": "/study-library/commentaries/kjvstudy/galatians.json",
+      "entryCount": 149
+    },
+    {
+      "bookId": "GEN",
+      "path": "/study-library/commentaries/kjvstudy/genesis.json",
+      "entryCount": 1533
+    },
+    {
+      "bookId": "HAB",
+      "path": "/study-library/commentaries/kjvstudy/habakkuk.json",
+      "entryCount": 56
+    },
+    {
+      "bookId": "HAG",
+      "path": "/study-library/commentaries/kjvstudy/haggai.json",
+      "entryCount": 38
+    },
+    {
+      "bookId": "HEB",
+      "path": "/study-library/commentaries/kjvstudy/hebrews.json",
+      "entryCount": 303
+    },
+    {
+      "bookId": "HOS",
+      "path": "/study-library/commentaries/kjvstudy/hosea.json",
+      "entryCount": 197
+    },
+    {
+      "bookId": "ISA",
+      "path": "/study-library/commentaries/kjvstudy/isaiah.json",
+      "entryCount": 1292
+    },
+    {
+      "bookId": "JAS",
+      "path": "/study-library/commentaries/kjvstudy/james.json",
+      "entryCount": 108
+    },
+    {
+      "bookId": "JER",
+      "path": "/study-library/commentaries/kjvstudy/jeremiah.json",
+      "entryCount": 1364
+    },
+    {
+      "bookId": "JOB",
+      "path": "/study-library/commentaries/kjvstudy/job.json",
+      "entryCount": 1070
+    },
+    {
+      "bookId": "JOL",
+      "path": "/study-library/commentaries/kjvstudy/joel.json",
+      "entryCount": 73
+    },
+    {
+      "bookId": "JHN",
+      "path": "/study-library/commentaries/kjvstudy/john.json",
+      "entryCount": 879
+    },
+    {
+      "bookId": "JON",
+      "path": "/study-library/commentaries/kjvstudy/jonah.json",
+      "entryCount": 48
+    },
+    {
+      "bookId": "JOS",
+      "path": "/study-library/commentaries/kjvstudy/joshua.json",
+      "entryCount": 658
+    },
+    {
+      "bookId": "JUD",
+      "path": "/study-library/commentaries/kjvstudy/jude.json",
+      "entryCount": 25
+    },
+    {
+      "bookId": "JDG",
+      "path": "/study-library/commentaries/kjvstudy/judges.json",
+      "entryCount": 618
+    },
+    {
+      "bookId": "LAM",
+      "path": "/study-library/commentaries/kjvstudy/lamentations.json",
+      "entryCount": 154
+    },
+    {
+      "bookId": "LEV",
+      "path": "/study-library/commentaries/kjvstudy/leviticus.json",
+      "entryCount": 859
+    },
+    {
+      "bookId": "LUK",
+      "path": "/study-library/commentaries/kjvstudy/luke.json",
+      "entryCount": 1151
+    },
+    {
+      "bookId": "MAL",
+      "path": "/study-library/commentaries/kjvstudy/malachi.json",
+      "entryCount": 55
+    },
+    {
+      "bookId": "MRK",
+      "path": "/study-library/commentaries/kjvstudy/mark.json",
+      "entryCount": 678
+    },
+    {
+      "bookId": "MAT",
+      "path": "/study-library/commentaries/kjvstudy/matthew.json",
+      "entryCount": 1071
+    },
+    {
+      "bookId": "MIC",
+      "path": "/study-library/commentaries/kjvstudy/micah.json",
+      "entryCount": 105
+    },
+    {
+      "bookId": "NAM",
+      "path": "/study-library/commentaries/kjvstudy/nahum.json",
+      "entryCount": 47
+    },
+    {
+      "bookId": "NEH",
+      "path": "/study-library/commentaries/kjvstudy/nehemiah.json",
+      "entryCount": 406
+    },
+    {
+      "bookId": "NUM",
+      "path": "/study-library/commentaries/kjvstudy/numbers.json",
+      "entryCount": 1288
+    },
+    {
+      "bookId": "OBA",
+      "path": "/study-library/commentaries/kjvstudy/obadiah.json",
+      "entryCount": 21
+    },
+    {
+      "bookId": "PHM",
+      "path": "/study-library/commentaries/kjvstudy/philemon.json",
+      "entryCount": 25
+    },
+    {
+      "bookId": "PHP",
+      "path": "/study-library/commentaries/kjvstudy/philippians.json",
+      "entryCount": 104
+    },
+    {
+      "bookId": "PRO",
+      "path": "/study-library/commentaries/kjvstudy/proverbs.json",
+      "entryCount": 915
+    },
+    {
+      "bookId": "PSA",
+      "path": "/study-library/commentaries/kjvstudy/psalms.json",
+      "entryCount": 2461
+    },
+    {
+      "bookId": "REV",
+      "path": "/study-library/commentaries/kjvstudy/revelation.json",
+      "entryCount": 404
+    },
+    {
+      "bookId": "ROM",
+      "path": "/study-library/commentaries/kjvstudy/romans.json",
+      "entryCount": 433
+    },
+    {
+      "bookId": "RUT",
+      "path": "/study-library/commentaries/kjvstudy/ruth.json",
+      "entryCount": 85
+    },
+    {
+      "bookId": "SNG",
+      "path": "/study-library/commentaries/kjvstudy/song_of_solomon.json",
+      "entryCount": 117
+    },
+    {
+      "bookId": "TIT",
+      "path": "/study-library/commentaries/kjvstudy/titus.json",
+      "entryCount": 46
+    },
+    {
+      "bookId": "ZEC",
+      "path": "/study-library/commentaries/kjvstudy/zechariah.json",
+      "entryCount": 211
+    },
+    {
+      "bookId": "ZEP",
+      "path": "/study-library/commentaries/kjvstudy/zephaniah.json",
+      "entryCount": 53
+    }
+  ]
+}

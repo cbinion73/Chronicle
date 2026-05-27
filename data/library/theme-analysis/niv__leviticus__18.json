@@ -1,0 +1,68 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 18,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:29.138Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God....\". Word-study detail reinforces \"חֻקֹּתַי֙: my statutes - a statute\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        26,
+        30
+      ],
+      "versePhrases": {
+        "3": [
+          "follow"
+        ],
+        "4": [
+          "obey",
+          "follow"
+        ],
+        "5": [
+          "Keep"
+        ],
+        "26": [
+          "keep"
+        ],
+        "30": [
+          "Keep",
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does understanding the purpose behind God's laws help you obey Him from the heart rather...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וּבְחֻקֹּֽתֵיהֶ֖ם: in their ordinances - a statute",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חֻקֹּתַ֥י: mine ordinances - a statute",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

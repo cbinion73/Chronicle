@@ -1,0 +1,71 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Judges",
+  "chapter": 12,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:09.255Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And when I saw that ye delivered me not, I put my life in my hands, and passed over against t...\". Word-study detail reinforces \"וַיִּתְּנֵ֥ם: delivered - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "deliver"
+        ],
+        "3": [
+          "deliver",
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And Jephthah said unto them, I and my people were at great strife with the children of Ammon;...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הוֹשַׁעְתֶּ֥ם: you ye delivered - properly, to be open, wide or free, i.e., (by implication)...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And when I saw that ye delivered me not, I put my life in my hands, and passed over against t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וַיִּתְּנֵ֥ם: delivered - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Inferred",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

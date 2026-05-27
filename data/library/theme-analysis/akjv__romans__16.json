@@ -1,0 +1,336 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 16,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:05.702Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on Romans 31: \"Greet Amplias my beloved.\" Here again he passes enco...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        5,
+        8,
+        9,
+        12,
+        16
+      ],
+      "versePhrases": {
+        "5": [
+          "Salute my wellbeloved Epænetus"
+        ],
+        "8": [
+          "beloved"
+        ],
+        "9": [
+          "beloved"
+        ],
+        "12": [
+          "beloved"
+        ],
+        "16": [
+          "Salute one another with an holy kiss"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Philemon 1:2",
+          "anchorVerse": 5,
+          "referenceLabel": "Philemon 1:2"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on Romans 30: \"Likewise greet the Church that is in their house.\" F...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "ἀγαπητόν: wellbeloved - beloved",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Greet Amplias my beloved in the Lord — Aspasasthe Ampliaton ton agapēton mou en kyriō (ἀσπάσα...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Which was kept secret since the world began, but now is made manifest — Chronois aiōniois ses...\". Word-study detail reinforces \"σεσιγημένου: which was kept secret - to keep silent (transitively or intransitively)\".",
+      "supportingVerses": [
+        19,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "19": [
+          "obedience"
+        ],
+        "25": [
+          "kept"
+        ],
+        "26": [
+          "obedience"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "For your obedience is come abroad unto all men — Hē gar hymōn hypakoē eis pantas aphiketo (ἡ...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: If you obeyed those you should not have obeyed,...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "ὑπακοὴ: obedience - attentive hearkening, i.e., (by implication) compliance or submission",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 25 historical",
+          "detail": "John Chrysostom on Homily on Romans 27: It is always a custom with Paul to conclude his exhor...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on Romans 27: It is always a custom with Paul to conclude his exhor...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        11,
+        19,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "5": [
+          "Likewise greet the church that is in their house"
+        ],
+        "11": [
+          "Salute Herodion my kinsman"
+        ],
+        "19": [
+          "For your obedience is come abroad unto all men"
+        ],
+        "25": [
+          "Now to him that is of power to stablish you..."
+        ],
+        "26": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "House churches were 20-40 people meeting in insulae (apartment blocks) or wealthy patrons' ho...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrosiaster on COMMENTARY ON PAUL’S EPISTLES: Paul mentions Epaenetus’s claim to fame, in or...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "What does it mean that members of Herod's and Narcissus' households came to faith—how does th...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Theodoret of Cyrus on INTERPRETATION OF THE LETTER TO THE ROMANS: Paul seems to be implying t...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"To God only wise, be glory through Jesus Christ for ever. Amen — Monō sophō theō, dia Iēsou C...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        4,
+        5,
+        23,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "4": [
+          "thanks"
+        ],
+        "5": [
+          "Likewise greet the church that is in their house"
+        ],
+        "23": [
+          "Gaius mine host, and of the whole church, saluteth you"
+        ],
+        "25": [
+          "Now to him that is of power to stablish you..."
+        ],
+        "27": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Who have for my life laid down their own necks — Hoitines hyper tēs psychēs mou ton heautōn t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on Romans 30: \"Who for my life have laid down their own necks.\" You...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "εὐχαριστῶ: give thanks - to be grateful, i.e., (actively) to express gratitude (towards); spe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Likewise greet the church that is in their house — Kai tēn kat' oikon autōn ekklēsian (καὶ τὴ...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: But if we speak of the Incarnation, the text can be c...\". Word-study detail reinforces \"σοφῷ: wise - wise, skilled\".",
+      "supportingVerses": [
+        19,
+        25,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "19": [
+          "wise"
+        ],
+        "25": [
+          "Now to him that is of power to stablish you..."
+        ],
+        "26": [
+          "but now is made manifest, and by the scriptures of..."
+        ],
+        "27": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "For your obedience is come abroad unto all men — Hē gar hymōn hypakoē eis pantas aphiketo (ἡ...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 1: On account of the hearts of the innocent, the...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "σοφοὺς: wise - wise (in a most general application)",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "Mystery ( mystērion ) religions were popular in the Greco-Roman world—Eleusinian mysteries, I...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on Romans 27: It is always a custom with Paul to conclude his exhor...\". Word-study detail reinforces \"γνωρισθέντος: made known - to make known; subjectively, to know\".",
+      "supportingVerses": [
+        5,
+        16,
+        20,
+        26
+      ],
+      "versePhrases": {
+        "5": [
+          "Likewise greet the church that is in their house"
+        ],
+        "16": [
+          "Salute one another with an holy kiss"
+        ],
+        "20": [
+          "And the God of peace shall bruise Satan under your..."
+        ],
+        "26": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on Romans 30: \"Likewise greet the Church that is in their house.\" F...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "ἐκκλησίαν: greet the church - a calling out, i.e., (concretely) a popular meeting, especially...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "What cultural practices in your context could be sanctified (made 'holy') to express Christia...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "John Chrysostom on Homily on Romans 31: \"Salute one another with an holy kiss.\" To cast out o...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

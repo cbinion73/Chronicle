@@ -1,0 +1,38 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 17,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:15.178Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Wherefore the people did chide with Moses, and said, Give us water that we may drink —The ver...\". Word-study detail reinforces \"תְּנַסּ֖וּן: ye with me wherefore do ye tempt - to test; by implication, to attempt\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Wherefore the people did chide with Moses, and said, Give us water that we may drink —The ver...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תְּנַסּ֖וּן: ye with me wherefore do ye tempt - to test; by implication, to attempt",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

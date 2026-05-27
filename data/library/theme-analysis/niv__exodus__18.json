@@ -1,0 +1,298 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 18,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:26.550Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        5,
+        12,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "5": [
+          "near"
+        ],
+        "12": [
+          "presence"
+        ],
+        "19": [
+          "with you"
+        ],
+        "22": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "אֵלֶ֔יךָ: - near, with or among; often in general, to",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"When they have a matter, they come unto me; and I judge between one and another, and I do mak...\". Word-study detail reinforces \"וְצִוְּךָ֣: command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        15,
+        16,
+        20,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "15": [
+          "Moses answered him, “Because the people come to me to..."
+        ],
+        "16": [
+          "Whenever they have a dispute, it is brought to me,..."
+        ],
+        "20": [
+          "Teach them his decrees and instructions, and show them the..."
+        ],
+        "23": [
+          "commands"
+        ],
+        "24": [
+          "Moses listened to his father-in-law and did everything he said"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "How does Moses' view of his role (making known God's statutes) show proper motivation even if...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "לִדְרֹ֥שׁ: unto me to enquire - properly, to tread or frequent; usually to follow (for pursui...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "When they have a matter, they come unto me; and I judge between one and another, and I do mak...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "חֻקֵּ֥י: the statutes - an enactment; hence, an appointment (of time, space, quantity, labor...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And let them judge the people at all seasons: and it shall be, that every great matter they s...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        13,
+        14,
+        16,
+        22,
+        26
+      ],
+      "versePhrases": {
+        "13": [
+          "judge"
+        ],
+        "14": [
+          "judge"
+        ],
+        "16": [
+          "Whenever they have a dispute, it is brought to me,..."
+        ],
+        "22": [
+          "Have them serve as judges for the people at all times"
+        ],
+        "26": [
+          "They served as judges for the people at all times"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And it came to pass on the morrow, that Moses sat to judge the people —The transition from wo...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "לִשְׁפֹּ֣ט: to judge - to judge, i.e., pronounce sentence (for or against); by implication, t...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "יוֹשֵׁב֙: why sittest - properly, to sit down (specifically as judge. in ambush, in quiet); b...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Deuteronomy 5:1",
+          "anchorVerse": 16,
+          "referenceLabel": "Deuteronomy 5:1"
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And Jethro said, Blessed be the LORD, who hath delivered you out of the hand of the Egyptians...\". Word-study detail reinforces \"וַיַּצִּלֵ֖ם: delivered - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "saved"
+        ],
+        "8": [
+          "saved"
+        ],
+        "9": [
+          "Jethro was delighted to hear about all the good things..."
+        ],
+        "10": [
+          "who rescued you from the hand of the Egyptians and of Pharaoh"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And the name of the other was Eliezer; for the God of my father, said he, was mine help, and...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וַיַּצִּלֵ֖נִי: and delivered - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And Moses told his father in law all that the LORD had done unto Pharaoh and to the Egyptians...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וַיַּצִּלֵ֖ם: delivered - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And thou shalt teach them ordinances and laws, and shalt shew them the way wherein they must...\". Word-study detail reinforces \"וְהִזְהַרְתָּ֣ה: And thou shalt teach - figuratively, to enlighten (by caution)\".",
+      "supportingVerses": [
+        20,
+        24
+      ],
+      "versePhrases": {
+        "20": [
+          "Teach"
+        ],
+        "24": [
+          "Moses listened to his father-in-law and did everything he said"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "And thou shalt teach them ordinances and laws, and shalt shew them the way wherein they must...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "וְהִזְהַרְתָּ֣ה: And thou shalt teach - figuratively, to enlighten (by caution)",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "What does Moses' unhesitating obedience to counsel teach about humility in leadership?",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "John Chrysostom on HOMILIES ON 1 CORINTHIANS 1.4: For nothing was ever more humble than he, w...",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Moses chose able men out of all Israel, and made them heads over the people, rulers of th...\". Word-study detail reinforces \"וַיִּתֵּ֥ן: and made - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        25
+      ],
+      "versePhrases": {
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And Moses chose able men out of all Israel, and made them heads over the people, rulers of th...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "וַיִּתֵּ֥ן: and made - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 25
+        }
+      ]
+    }
+  ]
+}

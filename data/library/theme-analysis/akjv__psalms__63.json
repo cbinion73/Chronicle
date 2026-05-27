@@ -1,0 +1,278 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 63,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:08.589Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Because thy lovingkindness is better than life, my lips shall praise thee. This verse articul...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "glory"
+        ],
+        "3": [
+          "praise"
+        ],
+        "5": [
+          "praise"
+        ],
+        "11": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Psalms 145:11",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 145:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David's seeing God 'in the sanctuary' connects thirst (v. 1) to worship. The desire to behold...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "עֻ֝זְּךָ֗: thy power - strength in various applications (force, security, majesty, praise)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Because thy lovingkindness is better than life, my lips shall praise thee. This verse articul...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"My soul shall be satisfied as with marrow and fatness; and my mouth shall praise thee with jo...\". Word-study detail reinforces \"מְנָ֖ת: they shall be a portion - an allotment (by courtesy, law or providence)\".",
+      "supportingVerses": [
+        1,
+        5,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "O God, thou art my God"
+        ],
+        "5": [
+          "My soul shall be satisfied as with marrow and fatness"
+        ],
+        "10": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 5: The Fair Beauty of the Lord: I want to stre...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "My soul shall be satisfied as with marrow and fatness; and my mouth shall praise thee with jo...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "פִּֽי׃: and my mouth - the mouth (as the means of blowing), whether literal or figurative (pa...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Psalm 63's superscription identifies it as \"A Psalm of David, when he was in the wilderness o...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "O God, thou art my God"
+        ],
+        "11": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 63's superscription identifies it as \"A Psalm of David, when he was in the wilderness o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Maximus of Turin on SERMON 50A.4: Therefore God gave us a pattern of fasting in this deed, so...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 21:1",
+          "anchorVerse": 11,
+          "referenceLabel": "Psalms 21:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "What does the contrast between the king's joy and liars' silence teach about ultimate outcomes?",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 63: \"But themselves in vain have sought my soul. Th...\". Word-study detail reinforces \"הָאָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "O God, thou art my God"
+        ],
+        "9": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 63's superscription identifies it as \"A Psalm of David, when he was in the wilderness o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 63: \"God, my God, unto You from the light I watch\"...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּאֶֽרֶץ: land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Absalom and his conspirators did indeed die violently (2 Samuel 18:14-15), fulfilling this pr...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The concept of chesed is central to Israel's covenant theology. When God revealed Himself to...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "Because thy lovingkindness is better than life, my lips shall..."
+        ],
+        "4": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The concept of chesed is central to Israel's covenant theology. When God revealed Himself to...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 63: \"Thus in a holy thing I have appeared to You, t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 134:2",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 134:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The vow 'Thus will I bless thee while I live' commits to lifelong praise. Lifting up hands 'i...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The concept of chesed is central to Israel's covenant theology. When God revealed Himself to...\". Word-study detail reinforces \"חַ֭סְדְּךָ: Because thy lovingkindness - kindness; by implication (towards god) piety; rarely...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "lovingkindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The concept of chesed is central to Israel's covenant theology. When God revealed Himself to...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חַ֭סְדְּךָ: Because thy lovingkindness - kindness; by implication (towards god) piety; rarely...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

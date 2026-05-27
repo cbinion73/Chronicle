@@ -1,0 +1,54 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 17,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:38:59.808Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The elders served as witnesses and representatives of the entire congregation. Their presence...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "with me"
+        ],
+        "5": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Wherefore the people did chide with Moses, and said, Give us water that we may drink —The ver...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תְּנַסּ֖וּן: ye with me wherefore do ye tempt - to test; by implication, to attempt",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The elders served as witnesses and representatives of the entire congregation. Their presence...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

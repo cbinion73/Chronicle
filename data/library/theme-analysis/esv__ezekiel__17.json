@@ -1,0 +1,397 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 17,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:51.453Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "say, Thus says the Lord God"
+        ],
+        "4": [
+          "He broke off the topmost of its young twigs and..."
+        ],
+        "5": [
+          "Then he took of the seed of the land and..."
+        ],
+        "6": [
+          "and it sprouted and became a low spreading vine, and..."
+        ],
+        "7": [
+          "“And there was another great eagle with great wings and..."
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "And he took one of the royal offspring and made..."
+        ],
+        "14": [
+          "kingdom"
+        ],
+        "16": [
+          "king"
+        ],
+        "18": [
+          "He despised the oath in breaking the covenant"
+        ],
+        "20": [
+          "I will spread my net over him, and he shall..."
+        ],
+        "22": [
+          "Thus says the Lord God"
+        ],
+        "23": [
+          "On the mountain height of Israel will I plant it,..."
+        ],
+        "24": [
+          "And all the trees of the field shall know that..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Nebuchadnezzar was ancient history's most successful military commander, conquering from Egyp...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 17, Verse 1 and following) And the word of the Lord...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The 'topmost branch' refers to King Jehoiachin and Judah's nobility deported to Babylon. The...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 17, Verse 1 and following) And the word of the Lord...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...\". Word-study detail reinforces \"הָאָ֔רֶץ: of the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        8,
+        13,
+        14,
+        15,
+        16,
+        18,
+        23
+      ],
+      "versePhrases": {
+        "3": [
+          "say, Thus says the Lord God"
+        ],
+        "4": [
+          "He broke off the topmost of its young twigs and..."
+        ],
+        "5": [
+          "waters"
+        ],
+        "8": [
+          "waters"
+        ],
+        "13": [
+          "made"
+        ],
+        "14": [
+          "that the kingdom might be humble and not lift itself..."
+        ],
+        "15": [
+          "But he rebelled against him by sending his ambassadors to..."
+        ],
+        "16": [
+          "made"
+        ],
+        "18": [
+          "He despised the oath in breaking the covenant, and behold,..."
+        ],
+        "23": [
+          "On the mountain height of Israel will I plant it,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 17, Verse 1 and following) And the word of the Lord...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַכְּנָפַ֙יִם֙: wings - an edge or extremity; specifically (of a bird or army) a wing, (of a...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Babylon's prosperity under Nebuchadnezzar made it history's first truly international commerc...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 17, Verse 1 and following) And the word of the Lord...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "11": [
+          "Then the word of the Lord came to me"
+        ],
+        "13": [
+          "covenant",
+          "oath"
+        ],
+        "14": [
+          "covenant"
+        ],
+        "15": [
+          "covenant"
+        ],
+        "16": [
+          "covenant",
+          "oath"
+        ],
+        "17": [
+          "Pharaoh with his mighty army and great company will not..."
+        ],
+        "18": [
+          "covenant",
+          "oath"
+        ],
+        "19": [
+          "covenant",
+          "oath"
+        ],
+        "20": [
+          "I will spread my net over him, and he shall..."
+        ],
+        "21": [
+          "And all the pick of his troops shall fall by..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Ezekiel's ministry (593-571 BC) occurred in Babylonian exile, yet addressed Jerusalem's inhab...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Nebuchadnezzar 'took of the king's seed' (Zedekiah), 'made a covenant' (vassal treaty), and '...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Vers. 19 seq.) Therefore thus says the Lord God: As I live,...\". Word-study detail reinforces \"וְנִשְׁפַּטְתִּ֤י: and will plead - to judge, i.e., pronounce sentence (for or against); by i...\".",
+      "supportingVerses": [
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "19": [
+          "Therefore thus says the Lord God"
+        ],
+        "20": [
+          "judgment"
+        ],
+        "21": [
+          "And all the pick of his troops shall fall by..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Ancient treaties invoked deities as witnesses and enforcers. The Babylon-Judah treaty explici...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Vers. 19 seq.) Therefore thus says the Lord God: As I live,...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "'I will spread my net upon him, and he shall be taken in my snare.' God as divine hunter, act...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Vers. 19 seq.) Therefore thus says the Lord God: As I live,...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Origen of Alexandria on HOMILIES ON EZEKIEL 12:3: If you have the covenant with us in a bless...\". Word-study detail reinforces \"תִּשְׁכֹּֽנָּה׃: and under it shall dwell - to reside or permanently stay (literally or figur...\".",
+      "supportingVerses": [
+        13,
+        16,
+        23
+      ],
+      "versePhrases": {
+        "13": [
+          "And he took one of the royal offspring and made a covenant with him"
+        ],
+        "16": [
+          "dwells"
+        ],
+        "23": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON EZEKIEL 12:3: If you have the covenant with us in a bless...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "אִתּ֖וֹ: - properly, nearness (used only as a preposition or an adverb), near; hence, general...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Fulfilled exactly. After Jerusalem fell (586 BC), Zedekiah fled but was captured near Jericho...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "אִתּ֥וֹ: - properly, nearness (used only as a preposition or an adverb), near; hence, general...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...\".",
+      "supportingVerses": [
+        14,
+        15
+      ],
+      "versePhrases": {
+        "14": [
+          "keep"
+        ],
+        "15": [
+          "But he rebelled against him by sending his ambassadors to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Zedekiah 'rebelled...in sending his ambassadors into Egypt, that they might give him horses a...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 11 and following) And the word of the Lord came to me...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

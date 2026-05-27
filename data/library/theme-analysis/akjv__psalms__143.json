@@ -1,0 +1,334 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 143,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:37.865Z",
+  "themes": [
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Teach me to do thy will; for thou art my God: thy spirit is good; lead me into the land of up...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        4,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "spirit"
+        ],
+        "7": [
+          "spirit"
+        ],
+        "10": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Psalms 77:3",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 77:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Therefore is my spirit overwhelmed within me; my heart within me is desolate. The conjunction...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 143: \"And My Spirit within me,\" says He, \"suffered...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "רוּחִ֑י: Therefore is my spirit - wind; by resemblance breath, i.e., a sensible (or even viol...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Confessions 9.13: And so, my glory and my life, God of my heart, I will...\". Word-study detail reinforces \"חַסְדֶּךָ֮: thy lovingkindness - kindness; by implication (towards god) piety; rarely (by opp...\".",
+      "supportingVerses": [
+        1,
+        2,
+        8,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear my prayer, O Lord, give ear to my supplications"
+        ],
+        "2": [
+          "And enter not into judgment with thy servant"
+        ],
+        "8": [
+          "lovingkindness"
+        ],
+        "10": [
+          "Teach me to do thy will"
+        ],
+        "11": [
+          "Quicken me, O Lord, for thy name’s sake"
+        ],
+        "12": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear my prayer, O LORD, give ear to my supplications: in thy faithfulness answer me, and in t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 143: Let then our Lord speak; let Christ with us, w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 143 is the last of the seven Penitential Psalms (6, 32, 38, 51, 102, 130, 143), used th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Confessions 9.13: And so, my glory and my life, God of my heart, I will...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Cause me to hear thy lovingkindness in the morning; for in thee do I trust: cause me to know...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "in thy faithfulness answer me"
+        ],
+        "2": [
+          "And enter not into judgment with thy servant"
+        ],
+        "3": [
+          "For the enemy hath persecuted my soul"
+        ],
+        "8": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 31:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 31:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 143, traditionally attributed to David, reflects circumstances of persecution and distr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does recognizing that 'no man living be justified' in God's sight deepen appreciation for...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 2: Judgement in the Psalms: [Nearly always the...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Deliver me, O LORD, from mine enemies: I flee unto thee to hide me. After rehearsing distress...\". Word-study detail reinforces \"הַצִּילֵ֖נִי: Deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        1,
+        5,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear my prayer, O Lord, give ear to my supplications"
+        ],
+        "5": [
+          "I remember the days of old"
+        ],
+        "9": [
+          "Deliver"
+        ],
+        "11": [
+          "Quicken me, O Lord, for thy name’s sake"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 143, traditionally attributed to David, reflects circumstances of persecution and distr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 143: Let then our Lord speak; let Christ with us, w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "I remember the days of old; I meditate on all thy works; I muse on the work of thy hands. Aft...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 143: But we too were there. He goes to the members....",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Psalm 143, traditionally attributed to David, reflects circumstances of persecution and distr...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "righteousness"
+        ],
+        "2": [
+          "And enter not into judgment with thy servant"
+        ],
+        "10": [
+          "Teach me to do thy will"
+        ],
+        "11": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 71:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 71:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 143, traditionally attributed to David, reflects circumstances of persecution and distr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 143: Let then our Lord speak; let Christ with us, w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּצִדְקָתֶֽךָ׃: me and in thy righteousness - rightness (abstractly), subjectively (rectitud...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 143: \"And enter not into judgment with Your servant...\". Word-study detail reinforces \"הוֹשִׁיבַ֥נִי: he hath made me to dwell - properly, to sit down (specifically as judge. in am...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear my prayer, O Lord, give ear to my supplications"
+        ],
+        "2": [
+          "And enter not into judgment with thy servant"
+        ],
+        "3": [
+          "dwell"
+        ],
+        "6": [
+          "I stretch forth my hands unto thee"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 143, traditionally attributed to David, reflects circumstances of persecution and distr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 143: Let then our Lord speak; let Christ with us, w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And enter not into judgment with thy servant: for in thy sight shall no man living be justifi...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

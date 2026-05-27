@@ -1,0 +1,55 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 131,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:33.598Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Personal testimony becomes corporate exhortation: 'Let Israel hope in the LORD from hencefort...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "Surely I have behaved and quieted myself, as a child..."
+        ],
+        "3": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does the weaned child imagery illustrate mature trust versus immature demanding?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Hilary of Poitiers: Then he goes on: Like a weaned child upon his mother's breast, so will yo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Psalms 130:7",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 130:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Personal testimony becomes corporate exhortation: 'Let Israel hope in the LORD from hencefort...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

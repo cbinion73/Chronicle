@@ -1,0 +1,326 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 8,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:51.730Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on LETTER 82.2: But what can I do, I who can only wish for peace and have no power to...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        11,
+        14,
+        15,
+        18
+      ],
+      "versePhrases": {
+        "11": [
+          "Peace",
+          "peace"
+        ],
+        "14": [
+          "still"
+        ],
+        "15": [
+          "peace"
+        ],
+        "18": [
+          "My sorrow is beyond healing, My heart is faint within..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Jeremiah 6:14",
+          "anchorVerse": 11,
+          "referenceLabel": "Jeremiah 6:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This verse contains Jeremiah's most famous indictment of false religious leaders: 'For they h...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on LETTER 82.2: But what can I do, I who can only wish for peace and have no power to...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "שָׁלֽוֹם׃: Peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfar...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 9) The wise are confused, terrified and captured. Fo...\". Word-study detail reinforces \"וְחָכְמַ֥ת: and what wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        7,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "7": [
+          "Even the stork in the sky Knows her seasons"
+        ],
+        "8": [
+          "wise"
+        ],
+        "9": [
+          "wisdom",
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Palestine lies on major migratory bird routes between Africa and Europe. Ancient Israelites o...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 7) The kite in the sky knows its time: the turtledov...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This verse challenges false claims to wisdom: 'How do ye say, We are wise, and the law of the...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON LUKE, HOMILY 131: The blessed prophet Jeremiah loudly co...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"This verse opens a stark oracle of judgment describing the desecration of Judah's dead. 'At t...\". Word-study detail reinforces \"יוֹשְׁבֵֽי: of the inhabitants - properly, to sit down (specifically as judge. in ambush, in...\".",
+      "supportingVerses": [
+        1,
+        7,
+        10,
+        11,
+        12,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "“At that time,” declares the Lord, “they will bring out..."
+        ],
+        "7": [
+          "judgment"
+        ],
+        "10": [
+          "Therefore I will give their wives to others, Their fields..."
+        ],
+        "11": [
+          "They have healed the brokenness of the daughter of My..."
+        ],
+        "12": [
+          "punishment"
+        ],
+        "14": [
+          "Why are we sitting still"
+        ],
+        "19": [
+          "Behold, listen"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This verse opens a stark oracle of judgment describing the desecration of Judah's dead. 'At t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יוֹשְׁבֵֽי: of the inhabitants - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This verse introduces a powerful nature contrast: 'Yea, the stork in the heaven knoweth her a...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 7) The kite in the sky knows its time: the turtledov...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Vers. 14, 15.) Why are we sitting? Come together, and let...\". Word-study detail reinforces \"חַ֖תּוּ: they are dismayed - properly, to prostrate; hence, to break down, either (literally)...\".",
+      "supportingVerses": [
+        9,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "9": [
+          "dismayed"
+        ],
+        "15": [
+          "terror"
+        ],
+        "16": [
+          "From Dan there is heard the snorting of his horses"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This verse pronounces judgment on the self-proclaimed wise: 'The wise men are ashamed' (boshu...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON LUKE, HOMILY 131: The blessed prophet Jeremiah loudly co...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "חַ֖תּוּ: they are dismayed - properly, to prostrate; hence, to break down, either (literally)...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "This verse captures disappointed hope: 'We looked for peace, but no good came.' The Hebrew qi...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Chapter 8, verses 1 and following) In that time, says the...\". Word-study detail reinforces \"הָאֲדָמָ֖ה: of the earth - soil (from its general redness)\".",
+      "supportingVerses": [
+        2,
+        8,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "and to all the heavenly lights"
+        ],
+        "8": [
+          "made"
+        ],
+        "16": [
+          "From Dan there is heard the snorting of his horses"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse continues the horrific imagery, showing that the exhumed bones would be spread bef...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter 8, verses 1 and following) In that time, says the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הָאֲדָמָ֖ה: of the earth - soil (from its general redness)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This verse challenges false claims to wisdom: 'How do ye say, We are wise, and the law of the...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 18) My sorrow is upon sorrow, my heart is mourning w...\". Word-study detail reinforces \"יָג֑וֹן: myself against sorrow - affliction\".",
+      "supportingVerses": [
+        15,
+        18,
+        21
+      ],
+      "versePhrases": {
+        "15": [
+          "We waited for peace, but no good came"
+        ],
+        "18": [
+          "sorrow"
+        ],
+        "21": [
+          "I am broken over the brokenness of the daughter of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "This lament would characterize Jerusalem's inhabitants during the sieges of 597 and 586 BC. H...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "בְעָתָֽה׃: and behold trouble - fear",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "This verse expresses Jeremiah's personal anguish: 'When I would comfort myself against sorrow...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 18) My sorrow is upon sorrow, my heart is mourning w...",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

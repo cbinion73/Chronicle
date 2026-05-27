@@ -1,0 +1,487 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 5,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:03.105Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, and hope does not confound, he sho...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore being justified by faith, we have peace with God..."
+        ],
+        "2": [
+          "by whom also we have access by faith into this..."
+        ],
+        "3": [
+          "And not only so, but we glory in tribulations also"
+        ],
+        "4": [
+          "and patience, experience"
+        ],
+        "5": [
+          "Holy"
+        ],
+        "7": [
+          "righteous"
+        ],
+        "9": [
+          "Much more then, being now justified by his blood, we..."
+        ],
+        "10": [
+          "For if, when we were enemies, we were reconciled to..."
+        ],
+        "14": [
+          "Nevertheless death reigned from Adam to Moses, even over them..."
+        ],
+        "16": [
+          "And not as it was by one that sinned, so..."
+        ],
+        "17": [
+          "righteousness"
+        ],
+        "18": [
+          "righteousness"
+        ],
+        "19": [
+          "righteous"
+        ],
+        "20": [
+          "Moreover the law entered, that the offence might abound"
+        ],
+        "21": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Isaiah 32:17",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 32:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore being justified by faith (δικαιωθέντες οὖν ἐκ πίστεως, dikaiōthentes oun ek pisteōs...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on INTERPRETATION OF THE LETTER TO THE ROMANS: Faith has given you forgive...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In the Greco-Roman world, 'access' (prosagōgē) was a technical term for introduction to royal...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Jerome on Letter 121, Chapter 7: In what sense should we take what we read in the Epistle to...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        5,
+        7,
+        9,
+        10,
+        12,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore being justified by faith"
+        ],
+        "5": [
+          "Holy"
+        ],
+        "7": [
+          "righteous"
+        ],
+        "9": [
+          "being now justified by his blood"
+        ],
+        "10": [
+          "For if, when we were enemies, we were reconciled to..."
+        ],
+        "12": [
+          "Wherefore, as by one man sin entered into the world,..."
+        ],
+        "14": [
+          "Nevertheless death reigned from Adam to Moses, even over them..."
+        ],
+        "16": [
+          "but the free gift is of many offences unto justification"
+        ],
+        "17": [
+          "righteousness"
+        ],
+        "18": [
+          "righteousness"
+        ],
+        "19": [
+          "righteous"
+        ],
+        "20": [
+          "Moreover the law entered, that the offence might abound"
+        ],
+        "21": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Isaiah 32:17",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 32:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore being justified by faith (δικαιωθέντες οὖν ἐκ πίστεως, dikaiōthentes oun ek pisteōs...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on INTERPRETATION OF THE LETTER TO THE ROMANS: Faith has given you forgive...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "Δικαιωθέντες: being justified - to render (i.e., show or regard as) just or innocent",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After discussing the entry of sin into this world, th...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        4,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "grace"
+        ],
+        "4": [
+          "and patience, experience"
+        ],
+        "15": [
+          "grace"
+        ],
+        "16": [
+          "And not as it was by one that sinned, so..."
+        ],
+        "17": [
+          "grace"
+        ],
+        "18": [
+          "Therefore as by the offence of one judgment came upon..."
+        ],
+        "19": [
+          "For as by one man’s disobedience many were made sinners,..."
+        ],
+        "20": [
+          "grace"
+        ],
+        "21": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 Thessalonians 2:16",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Thessalonians 2:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "By whom also we have access by faith into this grace wherein we stand —the perfect tense estē...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Hence he continues, by whom, namely, Christ, we have...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "χάριν: grace - graciousness (as gratifying), of manner or act (abstract or concrete; literal,...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"That as sin hath reigned unto death, even so might grace reign through righteousness unto ete...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        6,
+        9,
+        10,
+        12,
+        14,
+        15,
+        18,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore being justified by faith, we have peace with God..."
+        ],
+        "6": [
+          "For when we were yet without strength, in due time..."
+        ],
+        "9": [
+          "saved"
+        ],
+        "10": [
+          "saved"
+        ],
+        "12": [
+          "Wherefore, as by one man sin entered into the world,..."
+        ],
+        "14": [
+          "Nevertheless death reigned from Adam to Moses, even over them..."
+        ],
+        "15": [
+          "But not as the offence, so also is the free..."
+        ],
+        "18": [
+          "even so by the righteousness of one the free gift came upon all men unto justification of life"
+        ],
+        "21": [
+          "eternal life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul wrote Romans around AD 57 during a three-month stay in Corinth, preparing to deliver the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: Paul has discussed the point that nobody is just...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "For when we were yet without strength (ἔτι γὰρ Χριστὸς ὄντων ἡμῶν ἀσθενῶν)—the adjective ἀσθε...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "CS Lewis on Mere Christianity, Book 4, Chapter 5: The Obstinate Toy Soldiers: The business of...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Hence he continues, by whom, namely, Christ, we have...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "faith"
+        ],
+        "2": [
+          "faith",
+          "hope"
+        ],
+        "3": [
+          "And not only so, but we glory in tribulations also"
+        ],
+        "4": [
+          "hope"
+        ],
+        "5": [
+          "hope"
+        ],
+        "11": [
+          "And not only so, but we also joy in God..."
+        ],
+        "18": [
+          "Therefore as by the offence of one judgment came upon..."
+        ],
+        "20": [
+          "Moreover the law entered, that the offence might abound"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Romans 15:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Romans 15:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul wrote Romans around AD 57 during a three-month stay in Corinth, preparing to deliver the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrosiaster on COMMENTARY ON PAUL’S EPISTLES: Faith gives us peace with God, not the law. Fo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "πίστεως: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the tru...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After indicating the benefits we obtained through Chr...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        9,
+        12,
+        13,
+        14,
+        16,
+        18,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore being justified by faith, we have peace with God..."
+        ],
+        "9": [
+          "wrath"
+        ],
+        "12": [
+          "Wherefore, as by one man sin entered into the world,..."
+        ],
+        "13": [
+          "(for until the law sin was in the world"
+        ],
+        "14": [
+          "Nevertheless death reigned from Adam to Moses, even over them..."
+        ],
+        "16": [
+          "judgment",
+          "condemnation"
+        ],
+        "18": [
+          "judgment",
+          "condemnation"
+        ],
+        "21": [
+          "that as sin hath reigned unto death, even so might..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore being justified by faith (δικαιωθέντες οὖν ἐκ πίστεως, dikaiōthentes oun ek pisteōs...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing the need for Christ's grace, because wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "1 Thessalonians 1:10",
+          "anchorVerse": 9,
+          "referenceLabel": "1 Thessalonians 1:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Much more then, being now justified by his blood —Paul employs a fortiori (how much more) rea...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

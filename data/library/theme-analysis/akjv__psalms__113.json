@@ -1,0 +1,149 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 113,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:27.147Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Praise ye the LORD. Praise, O ye servants of the LORD, praise the name of the LORD. This tria...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise",
+          "praise"
+        ],
+        "2": [
+          "Blessed be the name of the Lord from this time forth and for evermore"
+        ],
+        "3": [
+          "From the rising of the sun unto the going down of the same the Lord’s name is to be praised"
+        ],
+        "4": [
+          "glory"
+        ],
+        "9": [
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Praise ye the LORD. Praise, O ye servants of the LORD, praise the name of the LORD. This tria...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 113: ...When ye hear sung in the Psalms, \"Praise th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַֽ֝לְלוּ: Praise - to be clear (orig. of sound, but usually of color); to shine; hence, to m...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "\"Blessed be the name of the LORD from this time forth and for evermore.\" The benediction yehi...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 113: \"The Lord is high above all heathen\" [Psalm 11...\". Word-study detail reinforces \"וּבָאָֽרֶץ׃: and in the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "heavens"
+        ],
+        "5": [
+          "Who is like unto the Lord our God, who dwelleth..."
+        ],
+        "6": [
+          "earth"
+        ],
+        "7": [
+          "He raiseth up the poor out of the dust, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "\"The LORD is high above all nations, and his glory above the heavens.\" The declaration ram al...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 113: \"The Lord is high above all heathen\" [Psalm 11...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הַשָּׁמַ֣יִם: above the heavens - the sky (as aloft; the dual perhaps alluding to the visible...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The question \"Who is like the LORD?\" formed Israel's central confession amid polytheistic cul...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 113: What then, brethren, if we have already heard...\". Word-study detail reinforces \"מֽוֹשִׁיבִ֨י׀: to keep - properly, to sit down (specifically as judge. in ambush, in quiet);...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 113: What then, brethren, if we have already heard...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מֽוֹשִׁיבִ֨י׀: to keep - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

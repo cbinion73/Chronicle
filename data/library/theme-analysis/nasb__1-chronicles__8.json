@@ -1,0 +1,177 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 8,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:24.440Z",
+  "themes": [
+    {
+      "id": "keyword-sons",
+      "label": "Sons",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “sons.”",
+      "supportingVerses": [
+        3,
+        6,
+        10,
+        12,
+        16,
+        18,
+        21,
+        25,
+        27,
+        35,
+        38,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "3": [
+          "sons"
+        ],
+        "6": [
+          "sons"
+        ],
+        "10": [
+          "sons"
+        ],
+        "12": [
+          "sons"
+        ],
+        "16": [
+          "sons"
+        ],
+        "18": [
+          "sons"
+        ],
+        "21": [
+          "sons"
+        ],
+        "25": [
+          "sons"
+        ],
+        "27": [
+          "sons"
+        ],
+        "35": [
+          "sons"
+        ],
+        "38": [
+          "sons"
+        ],
+        "39": [
+          "sons"
+        ],
+        "40": [
+          "sons"
+        ]
+      }
+    },
+    {
+      "id": "keyword-fathered",
+      "label": "Fathered",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “fathered.”",
+      "supportingVerses": [
+        1,
+        7,
+        8,
+        9,
+        11,
+        32,
+        33,
+        34,
+        36,
+        37
+      ],
+      "versePhrases": {
+        "1": [
+          "fathered"
+        ],
+        "7": [
+          "fathered"
+        ],
+        "8": [
+          "fathered"
+        ],
+        "9": [
+          "fathered"
+        ],
+        "11": [
+          "fathered"
+        ],
+        "32": [
+          "fathered"
+        ],
+        "33": [
+          "fathered"
+        ],
+        "34": [
+          "fathered"
+        ],
+        "36": [
+          "fathered"
+        ],
+        "37": [
+          "fathered"
+        ]
+      }
+    },
+    {
+      "id": "keyword-households",
+      "label": "Households",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “households.”",
+      "supportingVerses": [
+        6,
+        10,
+        13,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "households"
+        ],
+        "10": [
+          "households"
+        ],
+        "13": [
+          "households"
+        ],
+        "28": [
+          "households"
+        ]
+      }
+    },
+    {
+      "id": "keyword-fathers",
+      "label": "Fathers",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “fathers.”",
+      "supportingVerses": [
+        6,
+        10,
+        13,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "fathers"
+        ],
+        "10": [
+          "fathers"
+        ],
+        "13": [
+          "fathers"
+        ],
+        "28": [
+          "fathers"
+        ]
+      }
+    }
+  ]
+}

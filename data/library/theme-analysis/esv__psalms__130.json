@@ -1,0 +1,238 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 130,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:13.578Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The response to forgiveness is patient waiting: 'I wait for the LORD, my soul doth wait, and...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "O Lord, hear my voice"
+        ],
+        "5": [
+          "hope"
+        ],
+        "7": [
+          "hope",
+          "steadfast"
+        ],
+        "8": [
+          "And he will redeem Israel from all his iniquities"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What gives believers confidence to ask God to 'hear' and 'be attentive' as if commanding Him?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 130: \"Lord, hear my voice. O let Your ears consider...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The response to forgiveness is patient waiting: 'I wait for the LORD, my soul doth wait, and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 130: We therefore trust without fear on the word of...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The crucial contrast emerges: 'But there is forgiveness with thee, that thou mayest be feared...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "mercy"
+        ],
+        "3": [
+          "If you, O Lord, should mark iniquities, O Lord, who..."
+        ],
+        "4": [
+          "forgiveness"
+        ],
+        "7": [
+          "O Israel, hope in the Lord"
+        ],
+        "8": [
+          "And he will redeem Israel from all his iniquities"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The cry continues with plea for divine attention: 'LORD, hear my voice: let thine ears be att...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The rhetorical question reflects biblical anthropology - all have sinned (1 Kings 8:46; Eccle...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2:3.16: When you see the offend...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The crucial contrast emerges: 'But there is forgiveness with thee, that thou mayest be feared...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Personal testimony becomes corporate exhortation: 'Let Israel hope in the LORD: for with the...\". Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        3,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "If you, O Lord, should mark iniquities, O Lord, who..."
+        ],
+        "7": [
+          "redemption"
+        ],
+        "8": [
+          "redeem"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does this verse expose the futility of attempting to earn salvation through works?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2:3.16: When you see the offend...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Revelation 5:9",
+          "anchorVerse": 7,
+          "referenceLabel": "Revelation 5:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Personal testimony becomes corporate exhortation: 'Let Israel hope in the LORD: for with the...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The crucial contrast emerges: 'But there is forgiveness with thee, that thou mayest be feared...\". Word-study detail reinforces \"הַחֶ֑סֶד: there is mercy - kindness; by implication (towards god) piety; rarely (by oppositio...\".",
+      "supportingVerses": [
+        4,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "But with you there is forgiveness, that you may be..."
+        ],
+        "7": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The crucial contrast emerges: 'But there is forgiveness with thee, that thou mayest be feared...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 130: But wherefore is there hope? \"For there is pro...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Personal testimony becomes corporate exhortation: 'Let Israel hope in the LORD: for with the...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "הַחֶ֑סֶד: there is mercy - kindness; by implication (towards god) piety; rarely (by oppositio...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 130: But wherefore is there hope? \"For there is pro...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 130: But wherefore is there hope? \"For there is pro...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

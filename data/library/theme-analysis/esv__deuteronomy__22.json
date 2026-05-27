@@ -1,0 +1,105 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 22,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:00.892Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        7,
+        14
+      ],
+      "versePhrases": {
+        "2": [
+          "with you",
+          "near"
+        ],
+        "7": [
+          "with you"
+        ],
+        "14": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "אֵלֶ֔יהָ: - near, with or among; often in general, to",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For he found her in the field, and the betrothed damsel cried, and there was none to save her...\". Word-study detail reinforces \"מוֹשִׁ֖יעַ: and there was none to save - properly, to be open, wide or free, i.e., (by implic...\".",
+      "supportingVerses": [
+        27
+      ],
+      "versePhrases": {
+        "27": [
+          "rescue"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "For he found her in the field, and the betrothed damsel cried, and there was none to save her...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "מוֹשִׁ֖יעַ: and there was none to save - properly, to be open, wide or free, i.e., (by implic...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But if this thing be true, and the tokens of virginity be not found for the damsel —the law n...\". Word-study detail reinforces \"אֱמֶ֣ת: be true - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "But if this thing be true, and the tokens of virginity be not found for the damsel —the law n...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "אֱמֶ֣ת: be true - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 20
+        }
+      ]
+    }
+  ]
+}

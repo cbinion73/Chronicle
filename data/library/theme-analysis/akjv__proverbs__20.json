@@ -1,0 +1,370 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 20,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:42.838Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Success in any enterprise requires counsel—seeking wise advice before acting. 'Established by...\". Word-study detail reinforces \"דָֽעַת׃: of knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        5,
+        11,
+        12,
+        15,
+        18,
+        24,
+        26,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "wise"
+        ],
+        "5": [
+          "understanding",
+          "Counsel"
+        ],
+        "11": [
+          "Even a child is known by his doings, whether his..."
+        ],
+        "12": [
+          "The hearing ear, and the seeing eye, the Lord hath..."
+        ],
+        "15": [
+          "knowledge"
+        ],
+        "18": [
+          "counsel"
+        ],
+        "24": [
+          "understand"
+        ],
+        "26": [
+          "wise"
+        ],
+        "29": [
+          "The glory of young men is their strength"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This proverb warns against alcohol abuse: 'Wine is a mocker, strong drink is raging: and whos...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יֶחְכָּֽם׃: thereby is not wise - to be wise (in mind, word or act)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Counsel in the heart is like 'deep water,' but 'a man of understanding' draws it out. The Heb...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "עֵצָ֣ה: Counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        9,
+        11,
+        25,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "The just man walketh in his integrity"
+        ],
+        "9": [
+          "pure",
+          "clean"
+        ],
+        "11": [
+          "pure"
+        ],
+        "25": [
+          "holy"
+        ],
+        "30": [
+          "The blueness of a wound cleanseth away evil"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 13:22",
+          "anchorVerse": 7,
+          "referenceLabel": "Proverbs 13:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How have you benefited from previous generations' righteous example?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This rhetorical question expects the answer: no one. No person can claim complete heart purit...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"God's covenant love ('mercy and truth') preserves the king's person and authority. 'Mercy' (c...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        8,
+        26,
+        28
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "8": [
+          "king",
+          "throne"
+        ],
+        "26": [
+          "king"
+        ],
+        "28": [
+          "king",
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 19:12",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 19:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A king's wrath is like 'the roaring of a lion,' and provoking him 'sinneth against his own so...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on EXPOSITION ON PROVERBS, FRAGMENT 20:2: In this place it openly speaks...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֑לֶךְ: of a king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        25,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "just"
+        ],
+        "8": [
+          "A king that sitteth in the throne of judgment scattereth..."
+        ],
+        "9": [
+          "I am pure from my sin?"
+        ],
+        "10": [
+          "Divers weights, and divers measures, both of them are alike..."
+        ],
+        "11": [
+          "whether his work be pure"
+        ],
+        "25": [
+          "holy"
+        ],
+        "30": [
+          "The blueness of a wound cleanseth away evil"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 13:22",
+          "anchorVerse": 7,
+          "referenceLabel": "Proverbs 13:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The just walk in integrity, leaving a heritage of blessing for their children. Righteousness...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Commentary on Proverbs: The just man who walks in his simplicity, etc. This cannot al...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "צַדִּ֑יק: The just - just",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 20:6: A human being is of...\". Word-study detail reinforces \"עָשָׂ֥ה: hath made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        6,
+        9,
+        12,
+        25
+      ],
+      "versePhrases": {
+        "6": [
+          "Most men will proclaim every one his own goodness"
+        ],
+        "9": [
+          "made"
+        ],
+        "12": [
+          "made"
+        ],
+        "25": [
+          "It is a snare to the man who devoureth that..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "In ancient commercial and social relationships, personal reputation was essential. Many made...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 20:6: A human being is of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on LETTER 125.7: “Who can say,” writes the wise man, “I have made my heart clean”? The...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "לִבִּ֑י: I have made my heart - the heart; also used (figuratively) very widely for the feeli...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Success in any enterprise requires counsel—seeking wise advice before acting. 'Established by...\". Word-study detail reinforces \"עֵצָ֣ה: Counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        5,
+        11,
+        18,
+        24
+      ],
+      "versePhrases": {
+        "5": [
+          "Counsel"
+        ],
+        "11": [
+          "Even a child is known by his doings, whether his..."
+        ],
+        "18": [
+          "counsel"
+        ],
+        "24": [
+          "Man’s goings are of the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How can you develop the skill of asking questions that draw out hidden counsel?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "עֵצָ֣ה: Counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Ancient pedagogy involved careful observation of children's behavior to discern their bent an...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Commentary on Proverbs: Even by his pursuits, a youth is known, etc. For whomsoever y...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

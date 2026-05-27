@@ -1,0 +1,327 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 26,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:09.374Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The phrase \"even place\" or \"level ground\" appears throughout Psalms as metaphor for divine gu...\". Word-study detail reinforces \"תּוֹדָ֑ה: of thanksgiving - properly, an extension of the hand, i.e., (by implication) avowal...\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "Lord"
+        ],
+        "7": [
+          "praise"
+        ],
+        "8": [
+          "glory"
+        ],
+        "12": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does Christ's blood 'wash your hands' to qualify you for worship?",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist showed his innocence...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The purpose of worship: 'That I may publish with the voice of thanksgiving, and tell of all t...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Consequently he shows the fruit: and the...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Cassiodorus on EXPLANATION OF THE PSALMS 26:1: The petition for judgment does indeed appear t...\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "blameless"
+        ],
+        "2": [
+          "examine my heart and my mind"
+        ],
+        "4": [
+          "I do not sit with the deceitful, nor do I..."
+        ],
+        "5": [
+          "I abhor the assembly of evildoers and refuse to sit..."
+        ],
+        "6": [
+          "I wash my hands in innocence, and go about your..."
+        ],
+        "8": [
+          "Lord, I love the house where you live, the place..."
+        ],
+        "11": [
+          "blameless"
+        ],
+        "12": [
+          "My feet stand on level ground"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Judge me, O LORD; for I have walked in mine integrity: I have trusted also in the LORD; there...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 26:1: The petition for judgment does indeed appear t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The language of refining metal was familiar to ancient audiences. Metalworkers heated ore to...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: But how do you know that you are innocen...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The resolution 'But as for me, I will walk in mine integrity: redeem me, and be merciful unto...\". Word-study detail reinforces \"חַ֭סְדְּךָ: For thy lovingkindness - kindness; by implication (towards god) piety; rarely (by...\".",
+      "supportingVerses": [
+        1,
+        3,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "Vindicate me, Lord, for I have led a blameless life"
+        ],
+        "3": [
+          "for I have always been mindful of your unfailing love..."
+        ],
+        "11": [
+          "merciful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Judge me, O LORD; for I have walked in mine integrity: I have trusted also in the LORD; there...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist set forth a prayer a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For thy lovingkindness is before mine eyes: and I have walked in thy truth. This verse provid...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Fulgentius of Ruspe on LETTER TO MONIMUS 1:11.5: The grace of justification is given in the p...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"LORD, I have loved the habitation of thy house, and the place where thine honour dwelleth. Th...\". Word-study detail reinforces \"אָ֭הַבְתִּי: I have loved - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        3,
+        5,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "love"
+        ],
+        "5": [
+          "I abhor the assembly of evildoers and refuse to sit..."
+        ],
+        "8": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For thy lovingkindness is before mine eyes: and I have walked in thy truth. This verse provid...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 26:3: He was not able to forget his mercy, for he is...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חַ֭סְדְּךָ: For thy lovingkindness - kindness; by implication (towards god) piety; rarely (by...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The confession 'I have hated the congregation of evil doers; and will not sit with the wicked...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The resolution 'But as for me, I will walk in mine integrity: redeem me, and be merciful unto...\". Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        1,
+        3,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "for I have led a blameless life"
+        ],
+        "3": [
+          "for I have always been mindful of your unfailing love..."
+        ],
+        "11": [
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 26 is attributed to David and reflects situations where he faced false accusations. Sau...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist set forth a prayer a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The concept of chesed is central to Old Testament covenant theology. God revealed Himself to...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Fulgentius of Ruspe on LETTER TO MONIMUS 1:11.5: The grace of justification is given in the p...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The phrase \"even place\" or \"level ground\" appears throughout Psalms as metaphor for divine gu...\".",
+      "supportingVerses": [
+        1,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "led"
+        ],
+        "11": [
+          "lead"
+        ],
+        "12": [
+          "My feet stand on level ground"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How can David boldly invite God's judgment when other psalms plead for mercy, and what does t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist set forth a prayer a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The phrase \"even place\" or \"level ground\" appears throughout Psalms as metaphor for divine gu...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Here is set forth the reason why he asks...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

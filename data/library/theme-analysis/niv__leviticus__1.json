@@ -1,0 +1,185 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:28.211Z",
+  "themes": [
+    {
+      "id": "keyword-altar",
+      "label": "Altar",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “altar.”",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "5": [
+          "altar"
+        ],
+        "7": [
+          "altar"
+        ],
+        "8": [
+          "altar"
+        ],
+        "9": [
+          "altar"
+        ],
+        "11": [
+          "altar"
+        ],
+        "12": [
+          "altar"
+        ],
+        "13": [
+          "altar"
+        ],
+        "15": [
+          "altar"
+        ],
+        "16": [
+          "altar"
+        ],
+        "17": [
+          "altar"
+        ]
+      }
+    },
+    {
+      "id": "keyword-offering",
+      "label": "Offering",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “offering.”",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        6,
+        9,
+        10,
+        13,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "offering"
+        ],
+        "3": [
+          "offering"
+        ],
+        "4": [
+          "offering"
+        ],
+        "6": [
+          "offering"
+        ],
+        "9": [
+          "offering"
+        ],
+        "10": [
+          "offering"
+        ],
+        "13": [
+          "offering"
+        ],
+        "14": [
+          "offering"
+        ],
+        "17": [
+          "offering"
+        ]
+      }
+    },
+    {
+      "id": "keyword-burnt",
+      "label": "Burnt",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “burnt.”",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        13,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "burnt"
+        ],
+        "4": [
+          "burnt"
+        ],
+        "6": [
+          "burnt"
+        ],
+        "9": [
+          "burnt"
+        ],
+        "10": [
+          "burnt"
+        ],
+        "13": [
+          "burnt"
+        ],
+        "14": [
+          "burnt"
+        ],
+        "17": [
+          "burnt"
+        ]
+      }
+    },
+    {
+      "id": "keyword-priest",
+      "label": "Priest",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “priest.”",
+      "supportingVerses": [
+        7,
+        9,
+        12,
+        13,
+        15,
+        17
+      ],
+      "versePhrases": {
+        "7": [
+          "priest"
+        ],
+        "9": [
+          "priest"
+        ],
+        "12": [
+          "priest"
+        ],
+        "13": [
+          "priest"
+        ],
+        "15": [
+          "priest"
+        ],
+        "17": [
+          "priest"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 113,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:13.985Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Praise ye the LORD. Praise, O ye servants of the LORD, praise the name of the LORD. This tria...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise"
+        ],
+        "2": [
+          "Blessed be the name of the Lord From this time forth and forevermore!"
+        ],
+        "3": [
+          "From the rising of the sun to its going down The Lord’s name is to be praised"
+        ],
+        "4": [
+          "glory"
+        ],
+        "9": [
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Praise ye the LORD. Praise, O ye servants of the LORD, praise the name of the LORD. This tria...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 113: ...When ye hear sung in the Psalms, \"Praise th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַֽ֝לְלוּ: Praise - to be clear (orig. of sound, but usually of color); to shine; hence, to m...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "\"Blessed be the name of the LORD from this time forth and for evermore.\" The benediction yehi...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 113: \"The Lord is high above all heathen\" [Psalm 11...\". Word-study detail reinforces \"וּבָאָֽרֶץ׃: and in the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "heavens"
+        ],
+        "5": [
+          "Who is like the Lord our God, Who dwells on..."
+        ],
+        "6": [
+          "heavens",
+          "earth"
+        ],
+        "7": [
+          "He raises the poor out of the dust, And lifts..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "\"The LORD is high above all nations, and his glory above the heavens.\" The declaration ram al...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 113: \"The Lord is high above all heathen\" [Psalm 11...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הַשָּׁמַ֣יִם: above the heavens - the sky (as aloft; the dual perhaps alluding to the visible...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The question \"Who is like the LORD?\" formed Israel's central confession amid polytheistic cul...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 113: \"Who is like the Lord our God, that has His dw...\". Word-study detail reinforces \"מֽוֹשִׁיבִ֨י׀: to keep - properly, to sit down (specifically as judge. in ambush, in quiet);...\".",
+      "supportingVerses": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "5": [
+          "dwells"
+        ],
+        "6": [
+          "Who humbles Himself to behold The things that are in..."
+        ],
+        "8": [
+          "That He may seat him with princes— With the princes of His people"
+        ],
+        "9": [
+          "He grants the barren woman a home, Like a joyful..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "\"Who is like unto the LORD our God, who dwelleth on high.\" The rhetorical question mi ka'YHWH...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 113: \"Who is like the Lord our God, that has His dw...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "לָשָֽׁבֶת׃: who dwelleth - properly, to sit down (specifically as judge. in ambush, in quiet)...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient Near Eastern deities were typically capricious—sometimes favoring humans, often ignor...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

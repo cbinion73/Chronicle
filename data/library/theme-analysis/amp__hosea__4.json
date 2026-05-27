@@ -1,0 +1,373 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hosea",
+  "chapter": 4,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:48:11.313Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Jerome on Commentary on Hosea 4:1-2: \"Hear the word of the Lord, sons of Israel; for judgment...\". Word-study detail reinforces \"אֶפְק֨וֹד: I will not punish - to visit (with friendly or hostile intent); by analogy, to ove...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear the word of the Lord, you children of Israel,..."
+        ],
+        "2": [
+          "There is [false] swearing of oaths, deception (broken faith), murder,..."
+        ],
+        "3": [
+          "Therefore the land [continually] mourns, And everyone who lives in..."
+        ],
+        "4": [
+          "Yet let no one find fault, nor let any rebuke..."
+        ],
+        "5": [
+          "So you will stumble in the daytime, And the [false]..."
+        ],
+        "9": [
+          "punish"
+        ],
+        "10": [
+          "They will eat, but not have enough"
+        ],
+        "14": [
+          "punish"
+        ],
+        "19": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 4:1-2: \"Hear the word of the Lord, sons of Israel; for judgment...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יוֹשְׁבֵ֣י: with the inhabitants - properly, to sit down (specifically as judge. in ambush, i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Israel's final decades were marked by political assassinations (six kings in 30 years, most m...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 4:1-2: \"Hear the word of the Lord, sons of Israel; for judgment...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Mountain shrine immorality: 'They sacrifice upon the tops of the mountains, and burn incense...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        5,
+        7,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "So you will stumble in the daytime, And the [false]..."
+        ],
+        "7": [
+          "glory"
+        ],
+        "12": [
+          "My people consult their [lifeless] wooden idol, and their [diviner’s]..."
+        ],
+        "13": [
+          "They sacrifice on the tops of the mountains And burn..."
+        ],
+        "14": [
+          "I will not punish your daughters when they play the..."
+        ],
+        "15": [
+          "worship"
+        ],
+        "18": [
+          "glory"
+        ],
+        "19": [
+          "The wind [of God’s relentless wrath] has wrapped up Israel..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Northern kingdom's religious establishment, illegitimate from its Jeroboam I origins, had tho...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on SERMON 223D.2: For us too, you see, once the night of this age is done,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Philippians 3:19",
+          "anchorVerse": 7,
+          "referenceLabel": "Philippians 3:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Perverse prosperity: 'As they were increased, so they sinned against me: therefore will I cha...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Hosea 4:6: \"At night, I made your mother be silent, my people have be...\". Word-study detail reinforces \"דַּ֥עַת: nor knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "knowledge"
+        ],
+        "2": [
+          "There is [false] swearing of oaths, deception (broken faith), murder,..."
+        ],
+        "6": [
+          "knowledge"
+        ],
+        "11": [
+          "understanding"
+        ],
+        "12": [
+          "My people consult their [lifeless] wooden idol, and their [diviner’s]..."
+        ],
+        "14": [
+          "understanding"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The divine lawsuit: 'Hear the word of the LORD, ye children of Israel: for the LORD hath a co...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 4:1-2: \"Hear the word of the Lord, sons of Israel; for judgment...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "דַּ֥עַת: nor knowledge - knowledge",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Do I recognize that personal and corporate knowledge of God is the only foundation for ethica...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Corrupt worship and degraded leadership: 'Their drink is sour: they have committed whoredom c...\". Word-study detail reinforces \"אָהֲב֥וּ: do love - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        1,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "love",
+          "kindness"
+        ],
+        "18": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The divine lawsuit: 'Hear the word of the LORD, ye children of Israel: for the LORD hath a co...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חֶ֛סֶד: nor mercy - kindness; by implication (towards god) piety; rarely (by opposition) repr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Corrupt worship and degraded leadership: 'Their drink is sour: they have committed whoredom c...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Jerome on Commentary on Hosea 4:17-19: \"he is separated from their congregation: they have co...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Hosea 4:1-2: \"Hear the word of the Lord, sons of Israel; for judgment...\". Word-study detail reinforces \"בָּאָֽרֶץ׃: in the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear the word of the Lord, you children of Israel,..."
+        ],
+        "2": [
+          "There is [false] swearing of oaths, deception (broken faith), murder,..."
+        ],
+        "3": [
+          "heavens"
+        ],
+        "5": [
+          "So you will stumble in the daytime, And the [false]..."
+        ],
+        "6": [
+          "My people are destroyed for lack of knowledge [of My..."
+        ],
+        "10": [
+          "They will eat, but not have enough"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 4:1-2: \"Hear the word of the Lord, sons of Israel; for judgment...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בָּאָֽרֶץ׃: in the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Israel's final decades were marked by political assassinations (six kings in 30 years, most m...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 4:1-2: \"Hear the word of the Lord, sons of Israel; for judgment...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on HOMILIES ON MARK 76: The unclean spirit before had been in the synagogue and had le...\". Word-study detail reinforces \"בְּעֵצ֣וֹ: counsel at their stocks - a tree (from its firmness); hence, wood (plural sticks)\".",
+      "supportingVerses": [
+        4,
+        12,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "Yet let no one find fault, nor let any rebuke..."
+        ],
+        "12": [
+          "led"
+        ],
+        "15": [
+          "Though you, Israel, play the prostitute [by worshiping idols], Do..."
+        ],
+        "16": [
+          "For Israel is stubborn, Like a stubborn heifer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does the failure of Israel's priesthood teach about the necessity of Christ as our perfe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Hosea 4:4-5: \"Nevertheless, let no one judge, and let no man be accus...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Divination and idolatry: 'My people ask counsel at their stocks, and their staff declareth un...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on HOMILIES ON MARK 76: The unclean spirit before had been in the synagogue and had le...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 56,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:05.948Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"What time I am afraid, I will trust in thee. This brief yet profound declaration captures the...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "trust"
+        ],
+        "4": [
+          "trust"
+        ],
+        "10": [
+          "In God will I praise his word"
+        ],
+        "11": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 11:1",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 11:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What time I am afraid, I will trust in thee. This brief yet profound declaration captures the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 56: \"For many men that war against me, shall fear\"...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֶבְטָֽח׃: I will trust - properly, to hie for refuge (but not so precipitately as h2620); fi...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"What time I am afraid, I will trust in thee. This brief yet profound declaration captures the...\". Word-study detail reinforces \"אִירָ֑א: I am afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "afraid"
+        ],
+        "4": [
+          "fear"
+        ],
+        "6": [
+          "They gather themselves together, they hide themselves, they mark my..."
+        ],
+        "11": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What time I am afraid, I will trust in thee. This brief yet profound declaration captures the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 56: \"For many men that war against me, shall fear\"...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אִירָ֑א: I am afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 56: \"In God I will praise my discourses, in God I h...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 56: \"In me, O God, are Your vows, which I will rend...\". Word-study detail reinforces \"אֲהַלֵּ֪ל: I will praise - to be clear (orig. of sound, but usually of color); to shine; henc...\".",
+      "supportingVerses": [
+        4,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "praise"
+        ],
+        "10": [
+          "praise"
+        ],
+        "12": [
+          "I will render praises unto thee"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This verse contains the psalm's central theological affirmation: 'In God I will praise his wo...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 56: \"In God I will praise my discourses, in God I h...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֲהַלֵּ֪ל: I will praise - to be clear (orig. of sound, but usually of color); to shine; henc...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 56: Let us therefore love God, brethren, purely and...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 56: \"Because You have rescued my soul from death, m...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        3,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "What time I am afraid, I will trust in thee"
+        ],
+        "13": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The superscription identifies the historical context: \"when the Philistines took him in Gath\"...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 56: \"For many men that war against me, shall fear\"...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Job 33:30",
+          "anchorVerse": 13,
+          "referenceLabel": "Job 33:30"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "David's deliverance from numerous death threats validated God's covenant promise to establish...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The Hebrew 'chanan' (be gracious/merciful) opens this psalm of trust amid persecution. 'Man w...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "merciful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 136:15",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 136:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Hebrew 'chanan' (be gracious/merciful) opens this psalm of trust amid persecution. 'Man w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPOSITIONS OF THE PSALMS 55:2: “Have mercy upon me, Lord, because man has tra...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חָנֵּ֣נִי: Be merciful - properly, to bend or stoop in kindness to an inferior; to favor, bes...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The question 'hast thou not delivered my soul from death?' is confident assertion, not doubt....\". Word-study detail reinforces \"הִצַּ֪לְתָּ: For thou hast delivered - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "deliver",
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The question 'hast thou not delivered my soul from death?' is confident assertion, not doubt....",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 56: \"Because You have rescued my soul from death, m...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "הִצַּ֪לְתָּ: For thou hast delivered - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

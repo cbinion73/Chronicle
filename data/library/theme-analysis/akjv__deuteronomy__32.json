@@ -1,0 +1,400 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 32,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:21.931Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Give ear, O ye heavens, and I will speak; and hear, O earth, the words of my mouth (הַאֲזִינו...\". Word-study detail reinforces \"הָאָ֖רֶץ: O earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        13,
+        15,
+        18,
+        22,
+        39,
+        45,
+        51
+      ],
+      "versePhrases": {
+        "1": [
+          "heavens",
+          "earth"
+        ],
+        "2": [
+          "My doctrine shall drop as the rain, my speech shall..."
+        ],
+        "6": [
+          "made"
+        ],
+        "13": [
+          "made",
+          "earth"
+        ],
+        "15": [
+          "made"
+        ],
+        "18": [
+          "formed"
+        ],
+        "22": [
+          "earth"
+        ],
+        "39": [
+          "See now that I, even I, am he, and there..."
+        ],
+        "45": [
+          "made"
+        ],
+        "51": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Give ear, O ye heavens, and I will speak; and hear, O earth, the words of my mouth (הַאֲזִינו...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, DEUTERONOMY 19: By heavens he means the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָ֖רֶץ: O earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Song of Moses (Deuteronomy 32:1-43) is one of Scripture's oldest poetic compositions, wri...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Were it not that I feared the wrath of the enemy, lest their adversaries should behave themse...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        4,
+        27,
+        32,
+        35,
+        36,
+        39,
+        41,
+        42,
+        43
+      ],
+      "versePhrases": {
+        "4": [
+          "judgment"
+        ],
+        "27": [
+          "wrath"
+        ],
+        "32": [
+          "For their vine is of the vine of Sodom, and..."
+        ],
+        "35": [
+          "To me belongeth vengeance, and recompence"
+        ],
+        "36": [
+          "judge"
+        ],
+        "39": [
+          "See now that I, even I, am he, and there..."
+        ],
+        "41": [
+          "judgment"
+        ],
+        "42": [
+          "I will make mine arrows drunk with blood, and my..."
+        ],
+        "43": [
+          "Rejoice, O ye nations, with his people"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Daniel 4:37",
+          "anchorVerse": 4,
+          "referenceLabel": "Daniel 4:37"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The Song of Moses (Deuteronomy 32) was delivered on the plains of Moab shortly before Moses'...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מִשְׁפָּ֑ט: are judgment - properly, a verdict (favorable or unfavorable) pronounced judicial...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "Were it not that I feared the wrath of the enemy, lest their adversaries should behave themse...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"For they are a nation void of counsel, neither is there any understanding in them —Moses shif...\". Word-study detail reinforces \"חָֽכְמ֖וּ: they were wise - to be wise (in mind, word or act)\".",
+      "supportingVerses": [
+        2,
+        6,
+        7,
+        8,
+        10,
+        28,
+        29,
+        35
+      ],
+      "versePhrases": {
+        "2": [
+          "My doctrine shall drop as the rain, my speech shall..."
+        ],
+        "6": [
+          "Ofoolish people and unwise? is not he thy father that hath bought thee? hath he not made thee"
+        ],
+        "7": [
+          "Remember the days of old, consider the years of many..."
+        ],
+        "8": [
+          "When the most High divided to the nations their inheritance,..."
+        ],
+        "10": [
+          "He found him in a desert land, and in the..."
+        ],
+        "28": [
+          "understanding",
+          "counsel"
+        ],
+        "29": [
+          "wise"
+        ],
+        "35": [
+          "To me belongeth vengeance, and recompence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Song of Moses (Deuteronomy 32:1-43) is one of Scripture's oldest poetic compositions, wri...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לִקְחִ֔י: My doctrine - properly, something received, i.e., (mentally) instruction (whether o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The Song's rhetorical questions prosecute covenant ingratitude in the style of a prophetic la...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "חָכָ֑ם: and unwise - wise, (i.e., intelligent, skilful or artful)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"For they are a nation void of counsel, neither is there any understanding in them —Moses shif...\". Word-study detail reinforces \"יַנְחֶ֑נּוּ: did lead - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        10,
+        12,
+        15,
+        28
+      ],
+      "versePhrases": {
+        "10": [
+          "led"
+        ],
+        "12": [
+          "lead"
+        ],
+        "15": [
+          "But Jeshurun waxed fat, and kicked"
+        ],
+        "28": [
+          "counsel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "He found him in a desert land, and in the waste howling wilderness —the Hebrew tohu yelalah y...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "יְסֹֽבְבֶ֙נְהוּ֙: he led him about - to revolve, surround, or border; used in various applica...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "So the LORD alone did lead him, and there was no strange god with him ( YHWH badad yanchenu w...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "יַנְחֶ֑נּוּ: did lead - to guide; by implication, to transport (into exile, or as colonists)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jacob (Israel's patriarch) represents the entire nation corporately—God's covenant with Abrah...\". Word-study detail reinforces \"נַֽחֲלָתֽוֹ׃: of his inheritance - properly, something inherited, i.e., (abstractly) occupanc...\".",
+      "supportingVerses": [
+        8,
+        9,
+        35,
+        36,
+        43
+      ],
+      "versePhrases": {
+        "8": [
+          "inheritance"
+        ],
+        "9": [
+          "inheritance"
+        ],
+        "35": [
+          "To me belongeth vengeance, and recompence"
+        ],
+        "36": [
+          "For the Lord shall judge his people, and repent himself..."
+        ],
+        "43": [
+          "Rejoice, O ye nations, with his people"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "When the most High divided to the nations their inheritance ( be-hanchel 'Elyon goyim )— 'Ely...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on St. Jerome, Commentary on Daniel, CHAPTER SEVEN: [Daniel 7:2-3] \"And during the nig...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Jacob (Israel's patriarch) represents the entire nation corporately—God's covenant with Abrah...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "נַֽחֲלָתֽוֹ׃: of his inheritance - properly, something inherited, i.e., (abstractly) occupanc...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 2.49: But he who is on the white hor...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        4,
+        36,
+        43,
+        46,
+        47
+      ],
+      "versePhrases": {
+        "4": [
+          "truth"
+        ],
+        "36": [
+          "For the Lord shall judge his people, and repent himself..."
+        ],
+        "43": [
+          "Rejoice, O ye nations, with his people"
+        ],
+        "46": [
+          "and he said unto them, Set your hearts unto all..."
+        ],
+        "47": [
+          "For it is not a vain thing for you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Psalms 100:5",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 100:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The Song of Moses (Deuteronomy 32) was delivered on the plains of Moab shortly before Moses'...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 2.49: But he who is on the white hor...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֱמוּנָה֙: of truth - literally firmness; figuratively security; morally fidelity",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

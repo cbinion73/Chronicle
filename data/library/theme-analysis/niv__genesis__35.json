@@ -1,0 +1,114 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 35,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:22.767Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And God said unto Jacob, Arise, go up to Beth-el, and dwell there: and make there an altar un...\". Word-study detail reinforces \"וְשֶׁב: and dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by im...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        27
+      ],
+      "versePhrases": {
+        "1": [
+          "Then God said to Jacob, “Go up to Bethel and..."
+        ],
+        "2": [
+          "with you"
+        ],
+        "3": [
+          "with me"
+        ],
+        "27": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And God said unto Jacob, Arise, go up to Beth-el, and dwell there: and make there an altar un...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְשֶׁב: and dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by im...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And they journeyed: and the terror of God was upon the cities that were round about them, and...\". Word-study detail reinforces \"חִתַּ֣ת: and the terror - fear\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "terror"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And they journeyed: and the terror of God was upon the cities that were round about them, and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חִתַּ֣ת: and the terror - fear",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Inferred",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God.",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "ע֥וֹד: and there was but - properly, iteration or continuance; used only adverbially (with or...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

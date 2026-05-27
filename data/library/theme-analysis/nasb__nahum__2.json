@@ -1,0 +1,101 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nahum",
+  "chapter": 2,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:09.224Z",
+  "themes": [
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Nahum: (Verse 3 and following) The shield of the strong is ablaze, th...\". Word-study detail reinforces \"מְנַֽהֲגוֹת֙: shall lead - to drive forth (a person, an animal or chariot), also (from the pa...\".",
+      "supportingVerses": [
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "The shields of his warriors are dyed red, The warriors..."
+        ],
+        "5": [
+          "He remembers his officers"
+        ],
+        "6": [
+          "The gates of the rivers are opened And the palace..."
+        ],
+        "7": [
+          "led"
+        ],
+        "9": [
+          "Plunder the silver, Plunder the gold"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does this passage teach about God's relationship to warfare and violence—using it for Hi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Nahum: (Verse 3 and following) The shield of the strong is ablaze, th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What does Nineveh's frantic preparation—despite certain judgment—teach about human attempts t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Nahum: (Verse 3 and following) The shield of the strong is ablaze, th...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This chapter begins dramatically: 'He that dasheth in pieces is come up before thy face' (ala...\". Word-study detail reinforces \"נָצ֣וֹר: keep - to guard, in a good sense (to protect, maintain, obey, etc.) or a bad one (to...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "Keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This chapter begins dramatically: 'He that dasheth in pieces is come up before thy face' (ala...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Nahum: Chapter 2, verses 1 and 2: He who scatters has ascended before...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "נָצ֣וֹר: keep - to guard, in a good sense (to protect, maintain, obey, etc.) or a bad one (to...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 5,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:08.066Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And he shall sprinkle of the blood of the sin offering upon the side of the altar; and the re...\". Word-study detail reinforces \"וְהַנִּשְׁאָ֣ר: and the rest - properly, to swell up, i.e., be (causatively, make) redundant\".",
+      "supportingVerses": [
+        9,
+        13,
+        17
+      ],
+      "versePhrases": {
+        "9": [
+          "rest"
+        ],
+        "13": [
+          "rest"
+        ],
+        "17": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And he shall sprinkle of the blood of the sin offering upon the side of the altar; and the re...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וְהַנִּשְׁאָ֣ר: and the rest - properly, to swell up, i.e., be (causatively, make) redundant",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And the priest shall make an atonement for him as touching his sin that he hath sinned in one...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on QUESTIONS ON LEVITICUS 1: “But if a soul should sin or hear the utteran...\". Word-study detail reinforces \"תֶחֱטָ֗א: sin - properly, to miss; hence (figuratively and generally) to sin; by inference, t...\".",
+      "supportingVerses": [
+        1,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "punishment"
+        ],
+        "17": [
+          "punishment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on QUESTIONS ON LEVITICUS 1: “But if a soul should sin or hear the utteran...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תֶחֱטָ֗א: sin - properly, to miss; hence (figuratively and generally) to sin; by inference, t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "תֶֽחֱטָ֔א: sin - properly, to miss; hence (figuratively and generally) to sin; by inference,...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And he shall make amends for the harm that he hath done in the holy thing, and shall add the...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        16
+      ],
+      "versePhrases": {
+        "15": [
+          "holy"
+        ],
+        "16": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 7:1",
+          "anchorVerse": 15,
+          "referenceLabel": "Leviticus 7:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הַקֹּ֖דֶשׁ: in the holy things - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 22:14",
+          "anchorVerse": 16,
+          "referenceLabel": "Leviticus 22:14"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And he shall make amends for the harm that he hath done in the holy thing, and shall add the...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        16
+      ],
+      "versePhrases": {
+        "15": [
+          "holy"
+        ],
+        "16": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 7:1",
+          "anchorVerse": 15,
+          "referenceLabel": "Leviticus 7:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הַקֹּ֖דֶשׁ: in the holy things - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 22:14",
+          "anchorVerse": 16,
+          "referenceLabel": "Leviticus 22:14"
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Or if a soul swear, pronouncing with his lips to do evil, or to do good, whatsoever it be tha...\". Word-study detail reinforces \"בִּשְׁבֻעָ֖ה: with an oath - properly, something sworn, i.e., an oath\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "oath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Or if a soul swear, pronouncing with his lips to do evil, or to do good, whatsoever it be tha...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "בִּשְׁבֻעָ֖ה: with an oath - properly, something sworn, i.e., an oath",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

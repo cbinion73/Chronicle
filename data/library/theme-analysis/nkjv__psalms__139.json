@@ -1,0 +1,340 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 139,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:22.918Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 139: \"My bone is not hid from You, which You have m...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "O Lord, You have searched me and known me"
+        ],
+        "8": [
+          "If I ascend into heaven, You are there"
+        ],
+        "9": [
+          "If I take the wings of the morning, And dwell..."
+        ],
+        "10": [
+          "Even there Your hand shall lead me, And Your right..."
+        ],
+        "11": [
+          "light"
+        ],
+        "12": [
+          "light"
+        ],
+        "13": [
+          "formed"
+        ],
+        "14": [
+          "made"
+        ],
+        "15": [
+          "made",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O LORD, thou hast searched me, and known me —The verb chaqar (חָקַר, 'searched') means to pro...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 139: \"Lord, You have tried me, and known me\" [Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Ancient cosmology conceived heaven above and sheol below, with earth between. David uses this...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Fulgentius of Ruspe on TO PETER ON THE FAITH 12:55: Hold most firmly and never doubt that God...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"These rhetorical questions assert God's omnipresence—His presence fills all space, leaving no...\". Word-study detail reinforces \"אֶ֝שְׁכְּנָ֗ה: and dwell - to reside or permanently stay (literally or figuratively)\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        9,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "And are acquainted with all my ways"
+        ],
+        "7": [
+          "presence"
+        ],
+        "8": [
+          "If I ascend into heaven, You are there"
+        ],
+        "9": [
+          "dwell"
+        ],
+        "18": [
+          "with You"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What do you do in private ('lying down') that you wouldn't do if you were fully conscious of...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 139: \"You have understood my thoughts from afar; Yo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "These rhetorical questions assert God's omnipresence—His presence fills all space, leaving no...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "CS Lewis on Letters to Malcolm: Chiefly on Prayer, Letter 14: Boehme advises us once an hour...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 139: \"You have understood my thoughts from afar; Yo...\". Word-study detail reinforces \"תַנְחֵ֑נִי: lead - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        3,
+        10,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "path"
+        ],
+        "10": [
+          "lead"
+        ],
+        "24": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Thou compassest my path and my lying down, and art acquainted with all my ways —The verb zara...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 139: \"You have understood my thoughts from afar; Yo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אָרְחִ֣י: my path - a well-trodden road (literally or figuratively); also a caravan",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Even there shall thy hand lead me, and thy right hand shall hold me —The conditional clauses...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ancient wisdom literature frequently acknowledged the limits of human understanding compared...\". Word-study detail reinforces \"דַ֣עַת: Such knowledge - knowledge\".",
+      "supportingVerses": [
+        2,
+        6,
+        14,
+        15,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "understand"
+        ],
+        "6": [
+          "knowledge"
+        ],
+        "14": [
+          "I will praise You, for I am fearfully and wonderfully..."
+        ],
+        "15": [
+          "My frame was not hidden from You, When I was..."
+        ],
+        "22": [
+          "I hate them with perfect hatred"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Thou knowest my downsitting and mine uprising, thou understandest my thought afar off —God's...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בַּ֥נְתָּה: thou understandest - to separate mentally (or distinguish), i.e., (generally) und...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient wisdom literature frequently acknowledged the limits of human understanding compared...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on ON THE TRINITY 15:7.13: Do we, whose minds are so feeble, believe that...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thou knowest my downsitting and mine uprising, thou understandest my thought afar off —God's...\". Word-study detail reinforces \"וְעוֹדִ֥י: I am still - properly, iteration or continuance; used only adverbially (with or wi...\".",
+      "supportingVerses": [
+        2,
+        18,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "You know my sitting down and my rising up"
+        ],
+        "18": [
+          "still"
+        ],
+        "22": [
+          "I hate them with perfect hatred"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Thou knowest my downsitting and mine uprising, thou understandest my thought afar off —God's...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "שִׁבְתִּ֣י: my downsitting - properly, to sit down (specifically as judge. in ambush, in quie...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "If I should count them, they are more in number than the sand: when I awake, I am still with...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Ephrem the Syrian on COMMENTARY ON TATIAN’S DIATESSARON 18:17: Watch, for when the body is sl...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and th...\". Word-study detail reinforces \"אֽוֹדְךָ֗: I will praise - physically, to throw (a stone, an arrow) at or away; especially to...\".",
+      "supportingVerses": [
+        6,
+        14
+      ],
+      "versePhrases": {
+        "6": [
+          "Such knowledge is too wonderful for me"
+        ],
+        "14": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Such knowledge is too wonderful for me; it is high, I cannot attain unto it —The adjective pe...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Theodoret of Cyrus on DISCOURSE 1:39: Since water does not support horses, donkeys, mules, th...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and th...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 8: Nature: Where ancient Gentile literature (i...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

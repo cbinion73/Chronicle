@@ -1,0 +1,301 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 21,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:34.695Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Be thou exalted, LORD, in thine own strength: so will we sing and praise thy power. The psalm...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        5,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "O Lord"
+        ],
+        "5": [
+          "glory"
+        ],
+        "13": [
+          "praise",
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 21, like Psalm 20, is classified as a royal psalm used in temple liturgy, likely during...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Pseudo-Athanasius on EXPOSITION ON PSALM 21: Friends of David also delivered this psalm, as i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּעָזְּךָ֥: in thy strength - strength in various applications (force, security, majesty, pr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "John 17:22",
+          "anchorVerse": 5,
+          "referenceLabel": "John 17:22"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, a petitio...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "For you meet him with rich blessings"
+        ],
+        "5": [
+          "His glory is great through your salvation"
+        ],
+        "6": [
+          "For you make him most blessed forever"
+        ],
+        "7": [
+          "king"
+        ],
+        "13": [
+          "Be exalted, O Lord, in your strength"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Hebrews 12:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Hebrews 12:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 21, like Psalm 20, is classified as a royal psalm used in temple liturgy, likely during...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, a petitio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֑לֶךְ: The king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"For.\" Above the Psalmist announced the...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        7,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "O Lord, in your strength the king rejoices, and in..."
+        ],
+        "7": [
+          "steadfast"
+        ],
+        "12": [
+          "For you will put them to flight"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what ways can you publicly celebrate God's work rather than keeping your faith private?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 21:1: Our belief that there are two natures in Chris...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 91:2",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 91:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "For the king trusteth in the LORD, and through the mercy of the most High he shall not be mov...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Eusebius of Caesarea on COMMENTARY ON PSALMS 21:2: I think that these words had been prophesi...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "salvation"
+        ],
+        "4": [
+          "He asked life of you"
+        ],
+        "5": [
+          "salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 62:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 62:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The king shall joy in thy strength, O LORD; and in thy salvation how greatly shall he rejoice...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Eusebius of Caesarea on COMMENTARY ON PSALMS 21:2: I think that these words had been prophesi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וּ֝בִישׁ֥וּעָתְךָ֗: and in thy salvation - something saved, i.e., (abstractly) deliverance; h...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"You shall make them.\" Here the punishme...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "8": [
+          "Your hand will find out all your enemies"
+        ],
+        "9": [
+          "wrath"
+        ],
+        "12": [
+          "For you will put them to flight"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "God's sovereign power to find and judge all enemies demonstrates His omniscience and omnipote...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Let your hand be found.\" Above the Psal...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Lamentations 2:2",
+          "anchorVerse": 9,
+          "referenceLabel": "Lamentations 2:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The imagery of God's wrath as a 'fiery oven' consuming enemies reveals His holy hatred of sin...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"In what ways does knowing you cannot be 'moved' from God's love change your approach to trials?\". Word-study detail reinforces \"וּבְחֶ֥סֶד: and through the mercy - kindness; by implication (towards god) piety; rarely (by...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "In what ways does knowing you cannot be 'moved' from God's love change your approach to trials?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וּבְחֶ֥סֶד: and through the mercy - kindness; by implication (towards god) piety; rarely (by...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

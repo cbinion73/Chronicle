@@ -1,0 +1,103 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Judges",
+  "chapter": 10,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:09.124Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Yet ye have forsaken me, and served other gods: wherefore I will deliver you no more. This ve...\". Word-study detail reinforces \"הַצִּילֵ֥נוּ: unto thee deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        1,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "save"
+        ],
+        "11": [
+          "deliver"
+        ],
+        "12": [
+          "delivered"
+        ],
+        "13": [
+          "deliver"
+        ],
+        "14": [
+          "deliver"
+        ],
+        "15": [
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And after Abimelech there arose to defend Israel Tola the son of Puah, the son of Dodo, a man...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And the LORD said unto the children of Israel, Did not I deliver you from the Egyptians, and...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "מִמִּצְרַ֙יִם֙: Did not I deliver you from the Egyptians - mitsrajim, i.e., upper and lower e...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The Zidonians also, and the Amalekites, and the Maonites, did oppress you; and ye cried to me...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the children of Israel said unto the LORD, We have sinned: do thou unto us whatsoever see...\". Word-study detail reinforces \"נָ֖א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or t...\".",
+      "supportingVerses": [
+        14,
+        15
+      ],
+      "versePhrases": {
+        "14": [
+          "cry out"
+        ],
+        "15": [
+          "pray"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And the children of Israel said unto the LORD, We have sinned: do thou unto us whatsoever see...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "נָ֖א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or t...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 25,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:12.095Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on Musical divisions - worship le...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Chronicles 25:6",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Chronicles 25:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Musical divisions - worship le...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמֶּֽלֶךְ׃: of the king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Chronicles 28:5",
+          "anchorVerse": 5,
+          "referenceLabel": "1 Chronicles 28:5"
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on Musical divisions - worship le...\". Word-study detail reinforces \"הֹד֥וֹת: to give thanks - physically, to throw (a stone, an arrow) at or away; especially to...\".",
+      "supportingVerses": [
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "Of the sons of Asaph"
+        ],
+        "3": [
+          "praise",
+          "thanksgiving"
+        ],
+        "6": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Musical divisions - worship le...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַנִּבָּ֖א: which prophesied - to prophesy, i.e., speak (or sing) by inspiration (in predicti...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Musical divisions - worship le...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הֹד֥וֹת: to give thanks - physically, to throw (a stone, an arrow) at or away; especially to...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does New song of redemption in Christ teach you about Jesus Christ and His redemptive work?\". Word-study detail reinforces \"מְלֻמְּדֵי: that were instructed - properly, to goad, i.e., (by implication) to teach (the ro...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What does New song of redemption in Christ teach you about Jesus Christ and His redemptive work?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "מְלֻמְּדֵי: that were instructed - properly, to goad, i.e., (by implication) to teach (the ro...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

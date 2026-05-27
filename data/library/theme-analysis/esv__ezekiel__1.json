@@ -1,0 +1,422 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 1,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:49.382Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 8: \"And above the firmament that...\". Word-study detail reinforces \"הַמֶּ֥לֶךְ: of king - a king\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        10,
+        13,
+        15,
+        16,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28
+      ],
+      "versePhrases": {
+        "2": [
+          "King"
+        ],
+        "4": [
+          "As I looked, behold, a stormy wind came out of..."
+        ],
+        "5": [
+          "And from the midst of it came the likeness of..."
+        ],
+        "6": [
+          "but each had four faces, and each of them had..."
+        ],
+        "7": [
+          "Their legs were straight, and the soles of their feet..."
+        ],
+        "10": [
+          "As for the likeness of their faces, each had a..."
+        ],
+        "13": [
+          "As for the likeness of the living creatures, their appearance..."
+        ],
+        "15": [
+          "Now as I looked at the living creatures, I saw..."
+        ],
+        "16": [
+          "As for the appearance of the wheels and their construction"
+        ],
+        "20": [
+          "Wherever the spirit wanted to go, they went, and the..."
+        ],
+        "22": [
+          "Over the heads of the living creatures there was the..."
+        ],
+        "23": [
+          "And under the expanse their wings were stretched out straight,..."
+        ],
+        "24": [
+          "And when they went, I heard the sound of their..."
+        ],
+        "25": [
+          "And there came a voice from above the expanse over..."
+        ],
+        "26": [
+          "throne"
+        ],
+        "28": [
+          "and I heard the voice of one speaking"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse provides precise chronological anchoring for Ezekiel's prophetic ministry: \"in the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 2: Ezekiel indicates the time, a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמֶּ֥לֶךְ: of king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ezekiel's vision draws on ancient Near Eastern throne-theophany traditions while remaining di...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 6: But what does the wheel signi...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        3,
+        6,
+        7,
+        10,
+        12,
+        13,
+        14,
+        15,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "heavens"
+        ],
+        "3": [
+          "the word of the Lord came to Ezekiel the priest,..."
+        ],
+        "6": [
+          "but each had four faces, and each of them had..."
+        ],
+        "7": [
+          "Their legs were straight, and the soles of their feet..."
+        ],
+        "10": [
+          "As for the likeness of their faces, each had a..."
+        ],
+        "12": [
+          "And each went straight forward"
+        ],
+        "13": [
+          "and out of the fire went forth lightning"
+        ],
+        "14": [
+          "like the appearance of a flash of lightning"
+        ],
+        "15": [
+          "earth"
+        ],
+        "19": [
+          "earth"
+        ],
+        "21": [
+          "earth"
+        ],
+        "22": [
+          "Over the heads of the living creatures there was the..."
+        ],
+        "23": [
+          "And under the expanse their wings were stretched out straight,..."
+        ],
+        "24": [
+          "waters"
+        ],
+        "25": [
+          "And there came a voice from above the expanse over..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The opening verse establishes both the historical and prophetic context for one of Scripture'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on COMMENTARY ON EZEKIEL 1:1.1-2: You must understand that the heavens were opened not...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַשָּׁמַ֔יִם: that the heavens - the sky (as aloft; the dual perhaps alluding to the visible...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 2: \"And the word of the Lord cam...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 7: \"Wherever the spirit went, th...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        4,
+        12,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "4": [
+          "wind"
+        ],
+        "12": [
+          "spirit"
+        ],
+        "20": [
+          "spirit"
+        ],
+        "21": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 4) And I saw, and behold, a whirlwind wind was coming...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ר֨וּחַ: and behold a whirlwind - wind; by resemblance breath, i.e., a sensible (or even viole...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "\"And they went every one straight forward: whither the spirit was to go, they went; and they...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 5: Oh, how marvelous is the dept...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 8: \"This was the appearance of t...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        13,
+        16,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "1": [
+          "In the thirtieth year, in the fourth month, on the..."
+        ],
+        "4": [
+          "As I looked, behold, a stormy wind came out of..."
+        ],
+        "5": [
+          "And from the midst of it came the likeness of..."
+        ],
+        "6": [
+          "but each had four faces, and each of them had..."
+        ],
+        "7": [
+          "Their legs were straight, and the soles of their feet..."
+        ],
+        "10": [
+          "As for the likeness of their faces, each had a..."
+        ],
+        "11": [
+          "Such were their faces"
+        ],
+        "13": [
+          "As for the likeness of the living creatures, their appearance..."
+        ],
+        "16": [
+          "As for the appearance of the wheels and their construction"
+        ],
+        "22": [
+          "Over the heads of the living creatures there was the..."
+        ],
+        "23": [
+          "And under the expanse their wings were stretched out straight,..."
+        ],
+        "24": [
+          "And when they went, I heard the sound of their..."
+        ],
+        "25": [
+          "And there came a voice from above the expanse over..."
+        ],
+        "27": [
+          "And upward from what had the appearance of his waist..."
+        ],
+        "28": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written in July 593 BC, five years after Nebuchadnezzar's first deportation of Jerusalem's el...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 2: Now what is said about his re...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does the terrifying aspect of God's glory challenge contemporary tendencies to domesticat...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 2: And so this fire of malice wh...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 8: \"When they walked, there was...\".",
+      "supportingVerses": [
+        8,
+        10,
+        15,
+        18,
+        24,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "8": [
+          "Under their wings on their four sides they had human..."
+        ],
+        "10": [
+          "As for the likeness of their faces, each had a..."
+        ],
+        "15": [
+          "Now as I looked at the living creatures, I saw..."
+        ],
+        "18": [
+          "And their rims were tall and awesome, and the rims..."
+        ],
+        "24": [
+          "still"
+        ],
+        "25": [
+          "still"
+        ],
+        "26": [
+          "And above the expanse over their heads there was the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How does the omnidirectional capacity of the cherubim comfort us regarding God's comprehensiv...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 3: \"And the hand of a man under...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What comfort does God's mobile throne provide for believers living as spiritual exiles in thi...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 9:3: After this description of the prophet, we sti...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

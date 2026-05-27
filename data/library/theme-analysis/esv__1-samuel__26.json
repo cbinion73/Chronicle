@@ -1,0 +1,336 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 26,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:08.337Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Bede on Commentary on Samuel: Now therefore take the spear that is at his head, etc. The spea...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        9,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "6": [
+          "Then David said to Ahimelech the Hittite, and to Joab's..."
+        ],
+        "9": [
+          "But David said to Abishai, “Do not destroy him, for..."
+        ],
+        "11": [
+          "The Lord forbid that I should put out my hand..."
+        ],
+        "14": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "David's question to Ahimelech the Hittite and Abishai reveals his characteristic courage whil...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Bede on Commentary on Samuel: And David said to Achimelech the Hittite, etc. Many, when the L...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Athanasius of Alexandria on HISTORY OF THE ARIANS 4.33: For the truth is not preached with sw...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "בִּמְשִׁ֥יחַ: anointed - anointed; usually a consecrated person (as a king, priest, or saint)...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on Samuel: And when David had passed over to the other side, etc. When Jes...\". Word-study detail reinforces \"אַ֔רְצָה: to the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        8,
+        13,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "8": [
+          "earth"
+        ],
+        "13": [
+          "Then David went over to the other side and stood..."
+        ],
+        "20": [
+          "earth"
+        ],
+        "21": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וּבָאָ֙רֶץ֙: even to the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The Judean wilderness contains numerous hills and valleys that create natural amphitheaters w...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Bede on Commentary on Samuel: And when David had passed over to the other side, etc. When Jes...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "David's vivid imagery reduces Saul's grand military expedition to absurdity: the king of Isra...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ancient Near Eastern religion was intensely territorial; each nation's gods were thought to r...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        6,
+        14,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "6": [
+          "with you",
+          "with me"
+        ],
+        "14": [
+          "And David called to the army, and to Abner the..."
+        ],
+        "19": [
+          "Now therefore let my lord the king hear the words..."
+        ],
+        "20": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Abner ben Ner was Saul's cousin and the commander of Israel's armies. His failure to protect...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Ancient Near Eastern religion was intensely territorial; each nation's gods were thought to r...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Samuel: Now therefore take the spear that is at his head, etc. The spea...\". Word-study detail reinforces \"שְׁמַרְתֶּ֛ם: because ye have not kept - properly, to hedge about (as with thorns), i.e., gua...\".",
+      "supportingVerses": [
+        11,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "11": [
+          "The Lord forbid that I should put out my hand..."
+        ],
+        "15": [
+          "kept"
+        ],
+        "16": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The spear of a king was more than a weapon; it served as a scepter and symbol of royal power....",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Commentary on Samuel: Now therefore take the spear that is at his head, etc. The spea...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "שָׁמַ֔רְתָּ: wherefore then hast thou not kept - properly, to hedge about (as with thorns), i...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "שְׁמַרְתֶּ֛ם: because ye have not kept - properly, to hedge about (as with thorns), i.e., gua...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Samuel: If the Lord incites you against me, etc. If, he says, led by th...\". Word-study detail reinforces \"אֱמֻֽנָת֑וֹ: and his faithfulness - literally firmness; figuratively security; morally fidelity\".",
+      "supportingVerses": [
+        13,
+        19,
+        23
+      ],
+      "versePhrases": {
+        "13": [
+          "Then David went over to the other side and stood..."
+        ],
+        "19": [
+          "Now therefore let my lord the king hear the words..."
+        ],
+        "23": [
+          "faithfulness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "How do you maintain appropriate boundaries while still speaking truth to those who have wrong...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Bede on Commentary on Samuel: And when David had passed over to the other side, etc. When Jes...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "David's theological analysis presents two possibilities for Saul's persecution: divine instig...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Bede on Commentary on Samuel: If the Lord incites you against me, etc. If, he says, led by th...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Abishai's interpretation that 'God hath delivered thine enemy into thine hand' presents David...\". Word-study detail reinforces \"סִגַּ֨ר: hath delivered - to shut up; figuratively, to surrender\".",
+      "supportingVerses": [
+        8,
+        24
+      ],
+      "versePhrases": {
+        "8": [
+          "Then Abishai said to David, “God has given your enemy..."
+        ],
+        "24": [
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Abishai's interpretation that 'God hath delivered thine enemy into thine hand' presents David...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Commentary on Samuel: And Abisai said to David: God has delivered your enemy into you...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "סִגַּ֨ר: hath delivered - to shut up; figuratively, to surrender",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "David's prayer establishes a principle of reciprocity: as he valued Saul's life, may the LORD...",
+          "anchorVerse": 24
+        }
+      ]
+    }
+  ]
+}

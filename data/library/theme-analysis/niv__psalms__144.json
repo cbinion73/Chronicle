@@ -1,0 +1,282 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 144,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:58.859Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"It is he that giveth salvation unto kings (הַנּוֹתֵן תְּשׁוּעָה לַמְּלָכִים)— Hannoten teshua...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        7,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "7": [
+          "deliver",
+          "rescue"
+        ],
+        "10": [
+          "who delivers his servant David"
+        ],
+        "11": [
+          "deliver",
+          "rescue"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Send thine hand from above (שְׁלַח יָדֶיךָ מִמָּרוֹם)— Shelach yadekha mimarom (send forth yo...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְ֭הַצִּילֵנִי: me and deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 140:7",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 140:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "It is he that giveth salvation unto kings (הַנּוֹתֵן תְּשׁוּעָה לַמְּלָכִים)— Hannoten teshua...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 144: My Mercy and my Refuge, my Upholder and my Del...\". Word-study detail reinforces \"צוּרִ֗י: my strength - properly, a cliff (or sharp rock, as compressed); generally, a rock or...\".",
+      "supportingVerses": [
+        1,
+        2,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise be to the Lord my Rock, who trains my..."
+        ],
+        "2": [
+          "refuge"
+        ],
+        "14": [
+          "our oxen will draw heavy loads"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 144: \"Blessed be the Lord my God, who teaches my ha...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "צוּרִ֗י: my strength - properly, a cliff (or sharp rock, as compressed); generally, a rock or...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "My goodness, and my fortress (חַסְדִּי וּמְצוּדָתִי)— Chasdi (my steadfast love, covenant mer...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 144: My Mercy and my Refuge, my Upholder and my Del...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 144: \"Lord, bow Your heavens, and come down: touch...\". Word-study detail reinforces \"מִמַּ֣יִם: waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        4,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "They are like a breath"
+        ],
+        "5": [
+          "heavens"
+        ],
+        "7": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Man is like to vanity (אָדָם לַהֶבֶל דָּמָה)— Hevel (breath, vapor, vanity) is Ecclesiastes's...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 144: \"Man is made like vanity: his days pass away l...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Bow thy heavens, O Lord, and come down (יְהוָה הַט־שָׁמֶיךָ וְתֵרֵד)— Hat shamekha ('bend you...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 144: \"Lord, bow Your heavens, and come down: touch...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on SERMON 9:13: But because you turn a blind eye to the interior battle an...\". Word-study detail reinforces \"חַסְדִּ֥י: My goodness - kindness; by implication (towards god) piety; rarely (by opposition)...\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise be to the Lord my Rock, who trains my..."
+        ],
+        "2": [
+          "loving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Blessed be the Lord my strength (בָּרוּךְ יְהוָה צוּרִי)— Barukh (blessed, praised) opens thi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMON 9:13: But because you turn a blind eye to the interior battle an...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "My goodness, and my fortress (חַסְדִּי וּמְצוּדָתִי)— Chasdi (my steadfast love, covenant mer...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חַסְדִּ֥י: My goodness - kindness; by implication (towards god) piety; rarely (by opposition)...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"I will sing a new song unto thee, O God (שִׁיר חָדָשׁ אָשִׁירָה לְּךָ הָאֱלֹהִים)— Shir chada...\". Word-study detail reinforces \"שִׁ֣יר: I will sing - to sing\".",
+      "supportingVerses": [
+        1,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise"
+        ],
+        "9": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "I will sing a new song unto thee, O God (שִׁיר חָדָשׁ אָשִׁירָה לְּךָ הָאֱלֹהִים)— Shir chada...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 144: \"I will sing a new song unto You, O God\" [Psal...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "שִׁ֣יר: I will sing - to sing",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"When was the last time you 'sang a new song' to God—fresh expression from recent experience o...\".",
+      "supportingVerses": [
+        9,
+        15
+      ],
+      "versePhrases": {
+        "9": [
+          "I will sing a new song to you, my God"
+        ],
+        "15": [
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "When was the last time you 'sang a new song' to God—fresh expression from recent experience o...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on SERMON 33:1: As it is written, “O God, I will sing you a new song, on a...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 144: \"They have called the people blessed who have...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

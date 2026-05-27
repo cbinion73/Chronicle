@@ -1,0 +1,139 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 24,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:32.754Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XVI: If the morning suddenly appear,...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "4": [
+          "They push the needy aside from the road"
+        ],
+        "13": [
+          "light"
+        ],
+        "14": [
+          "The murderer arises at dawn"
+        ],
+        "16": [
+          "light"
+        ],
+        "17": [
+          "For the morning is the same to him as thick..."
+        ],
+        "18": [
+          "earth"
+        ],
+        "19": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "They turn the needy out of the way (יַטּוּ אֶבְיוֹנִים מִדָּרֶךְ, yattú evyoním middarékh)—Th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Men also usually pity the poor who lack the means of eco...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Job describes the wicked as \"those that rebel against the light ( or , אוֹר).\" Light in Hebre...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XVI: Others as wild asses in the des...\". Word-study detail reinforces \"מַ֝חְסֶ֗ה: for want of a shelter - a shelter (literally or figuratively)\".",
+      "supportingVerses": [
+        5,
+        8,
+        10,
+        13,
+        18,
+        19,
+        23
+      ],
+      "versePhrases": {
+        "5": [
+          "bread"
+        ],
+        "8": [
+          "They are wet from the mountain rains, And they hug..."
+        ],
+        "10": [
+          "The poor move about naked without clothing, And they carry..."
+        ],
+        "13": [
+          "want"
+        ],
+        "18": [
+          "“They are insignificant on the surface of the water"
+        ],
+        "19": [
+          "Dryness and heat snatch away the snow waters, As Sheol..."
+        ],
+        "23": [
+          "provides"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "As wild asses in the desert, go they forth to their work (כְּעֲרֹדִים בַּמִּדְבָּר, ke'aródim...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XVI: Others as wild asses in the des...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "לֶ֝֗חֶם: yieldeth food - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "They are wet with the showers of the mountains (מִזֶּרֶם הָרִים יִרְטָבוּ, mizzérem harím yir...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

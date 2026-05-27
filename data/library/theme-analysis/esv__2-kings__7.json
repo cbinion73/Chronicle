@@ -1,0 +1,206 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 7,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:12.515Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"And the king appointed the lord on whose hand he leaned to have the charge of the gate: and t...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        6,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Then a lord on whose hand the king leaned answered the man of God, and said, Behold, if the L...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 7:1: Elisha said, “Tomorrow there will be re...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לַמֶּלֶךְ֩: the king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 10:29",
+          "anchorVerse": 6,
+          "referenceLabel": "1 Kings 10:29"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"What does this passage reveal about God's character, particularly His justice, mercy, and fai...\". Word-study detail reinforces \"יֹֽשְׁבִ֥ים: Why sit - properly, to sit down (specifically as judge. in ambush, in quiet); by...\".",
+      "supportingVerses": [
+        3,
+        4,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "Now there were four men who were lepers at the..."
+        ],
+        "4": [
+          "If we say, ‘Let us enter the city,’ the famine..."
+        ],
+        "9": [
+          "punishment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יֹֽשְׁבִ֥ים: Why sit - properly, to sit down (specifically as judge. in ambush, in quiet); by...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יָשַׁ֥בְנוּ: there and if we sit still - properly, to sit down (specifically as judge. in amb...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Then they said one to another, We do not well: this day is a day of good tidings, and we hold...\". Word-study detail reinforces \"א֥וֹר: light - illumination or (concrete) luminary (in every sense, including lightning, happ...\".",
+      "supportingVerses": [
+        6,
+        9
+      ],
+      "versePhrases": {
+        "6": [
+          "made"
+        ],
+        "9": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "For the Lord had made the host of the Syrians to hear a noise of chariots, and a noise of hor...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מַֽחֲנֵ֣ה: had made the host - an encampment (of travellers or troops); hence, an army, wheth...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Then they said one to another, We do not well: this day is a day of good tidings, and we hold...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "א֥וֹר: light - illumination or (concrete) luminary (in every sense, including lightning, happ...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And the king arose in the night, and said unto his servants, I will now shew you what the Syr...\". Word-study detail reinforces \"חַיִּ֔ים: them alive - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (a...\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And the king arose in the night, and said unto his servants, I will now shew you what the Syr...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "חַיִּ֔ים: them alive - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (a...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

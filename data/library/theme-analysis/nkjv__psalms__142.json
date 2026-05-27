@@ -1,0 +1,288 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 142,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:24.063Z",
+  "themes": [
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"I cried unto the LORD with my voice; with my voice unto the LORD did I make my supplication....\". Word-study detail reinforces \"אֶתְחַנָּֽן׃: did I make my supplication - properly, to bend or stoop in kindness to an infer...\".",
+      "supportingVerses": [
+        1,
+        2,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "cry out",
+          "supplication"
+        ],
+        "2": [
+          "I pour out my complaint before Him"
+        ],
+        "7": [
+          "Bring my soul out of prison, That I may praise..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I cried unto the LORD with my voice; with my voice unto the LORD did I make my supplication....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 142: ...\"With my voice have I cried unto the Lord\"...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶתְחַנָּֽן׃: did I make my supplication - properly, to bend or stoop in kindness to an infer...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I poured out my complaint before him; I shewed before him my trouble. The Hebrew verb shaphak...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"I cried unto thee, O LORD: I said, Thou art my refuge and my portion in the land of the livin...\". Word-study detail reinforces \"מַחְסִ֑י: Thou art my refuge - a shelter (literally or figuratively)\".",
+      "supportingVerses": [
+        4,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "Refuge"
+        ],
+        "5": [
+          "refuge"
+        ],
+        "7": [
+          "Bring my soul out of prison, That I may praise..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "I looked on my right hand, and beheld, but there was no man that would know me: refuge failed...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מָנ֣וֹס: me refuge - a retreat (literally or figuratively); abstractly, a fleeing",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "I cried unto thee, O LORD: I said, Thou art my refuge and my portion in the land of the livin...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "מַחְסִ֑י: Thou art my refuge - a shelter (literally or figuratively)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 142: \"Give heed unto my prayer, for much have I bee...\". Word-study detail reinforces \"הַצִּילֵ֥נִי: deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        3,
+        6
+      ],
+      "versePhrases": {
+        "3": [
+          "When my spirit was overwhelmed within me, Then You knew..."
+        ],
+        "6": [
+          "Deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The imagery of hidden snares reflects both David's literal experience and spiritual reality....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 142: \"My tribulation I will proclaim in His sight.\"...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Attend unto my cry; for I am brought very low: deliver me from my persecutors; for they are s...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 142: \"Give heed unto my prayer, for much have I bee...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"When my spirit was overwhelmed within me, then thou knewest my path. In the way wherein I wal...\". Word-study detail reinforces \"נְֽתִיבָ֫תִ֥י: my path - a (beaten) track\".",
+      "supportingVerses": [
+        3,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "path"
+        ],
+        "7": [
+          "Bring my soul out of prison, That I may praise..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "When my spirit was overwhelmed within me, then thou knewest my path. In the way wherein I wal...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 142: \"My tribulation I will proclaim in His sight.\"...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "נְֽתִיבָ֫תִ֥י: my path - a (beaten) track",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The prison imagery resonates throughout biblical history and David's experience. While likely...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bring my soul out of prison, that I may praise thy name: the righteous shall compass me about...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        1,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "I cry out to the Lord with my voice"
+        ],
+        "7": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what 'caves' (difficult, dark, limiting circumstances) have you experienced God's presence...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 142: ...\"With my voice have I cried unto the Lord\"...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Bring my soul out of prison, that I may praise thy name: the righteous shall compass me about...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"I cried unto thee, O LORD: I said, Thou art my refuge and my portion in the land of the livin...\". Word-study detail reinforces \"חֶ֝לְקִ֗י: and my portion - properly, smoothness (of the tongue)\".",
+      "supportingVerses": [
+        3,
+        5
+      ],
+      "versePhrases": {
+        "3": [
+          "When my spirit was overwhelmed within me, Then You knew..."
+        ],
+        "5": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What comfort does it provide that God 'knows your path' even when you feel lost, confused, or...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Palladius of Galatia on LAUSIAC HISTORY 2:4: There was a certain old man who used to live in...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "I cried unto thee, O LORD: I said, Thou art my refuge and my portion in the land of the livin...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 142: \"Unto you have I cried, O Lord: I have said, Y...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

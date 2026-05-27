@@ -1,0 +1,327 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 65,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:09.289Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 65: \"You have visited the earth, and hast inebriate...\". Word-study detail reinforces \"הָאָ֨רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "and unto thee shall the vow be performed"
+        ],
+        "3": [
+          "Iniquities prevail against me"
+        ],
+        "4": [
+          "Blessed is the man whom thou choosest, and causest to..."
+        ],
+        "5": [
+          "earth"
+        ],
+        "8": [
+          "They also that dwell in the uttermost parts are afraid..."
+        ],
+        "9": [
+          "earth"
+        ],
+        "10": [
+          "Thou waterest the ridges thereof abundantly"
+        ],
+        "11": [
+          "Thou crownest the year with thy goodness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Praise waiteth for thee, O God, in Sion: and unto thee shall the vow be performed. This openi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 65: \"For You a hymn is meet, O God, in Sion\" [Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does complete purging of transgressions mean in light of Christ's finished work?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 65: \"The discourses of unjust men have prevailed ov...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 65: \"Hearken to us, O God, our Saviour\" [Psalm 65:5...\". Word-study detail reinforces \"דֻֽמִיָּ֬ה: waiteth - stillness; adverbially, silently; abstractly quiet, trust\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise waiteth for thee, O God, in Sion"
+        ],
+        "2": [
+          "O thou that hearest prayer, unto thee shall all flesh..."
+        ],
+        "5": [
+          "confidence"
+        ],
+        "6": [
+          "which by his strength setteth fast the mountains"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 65: \"For You a hymn is meet, O God, in Sion\" [Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "דֻֽמִיָּ֬ה: waiteth - stillness; adverbially, silently; abstractly quiet, trust",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Israel's uniqueness among ancient nations lay partly in their God's accessibility through pra...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 65: \"Hearken,\" he says, \"to my prayer, unto You eve...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Praise waiteth for thee, O God, in Sion: and unto thee shall the vow be performed. This openi...\". Word-study detail reinforces \"יָשִֽׁירוּ׃: they also sing - to sing\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise"
+        ],
+        "2": [
+          "O thou that hearest prayer, unto thee shall all flesh..."
+        ],
+        "4": [
+          "Blessed is the man whom thou choosest"
+        ],
+        "13": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Praise waiteth for thee, O God, in Sion: and unto thee shall the vow be performed. This openi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְהִלָּ֓ה: Praise - laudation; specifically (concretely) a hymn",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "O thou that hearest prayer, unto thee shall all flesh come. This verse identifies God by His...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on On the Death of Satyrus 2.132: The soul has to depart from the tortuousne...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The temple courts in Jerusalem had various levels of access based on ceremonial purity and st...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        4,
+        5,
+        9
+      ],
+      "versePhrases": {
+        "4": [
+          "holy"
+        ],
+        "5": [
+          "righteousness"
+        ],
+        "9": [
+          "Thou visitest the earth, and waterest it"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ephesians 1:4",
+          "anchorVerse": 4,
+          "referenceLabel": "Ephesians 1:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The temple courts in Jerusalem had various levels of access based on ceremonial purity and st...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "קְ֝דֹ֗שׁ: even of thy holy - sacred (ceremonially or morally); (as noun) god (by eminence), a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 45:4",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 45:4"
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The temple courts in Jerusalem had various levels of access based on ceremonial purity and st...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "holy"
+        ],
+        "5": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ephesians 1:4",
+          "anchorVerse": 4,
+          "referenceLabel": "Ephesians 1:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The temple courts in Jerusalem had various levels of access based on ceremonial purity and st...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "קְ֝דֹ֗שׁ: even of thy holy - sacred (ceremonially or morally); (as noun) god (by eminence), a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 45:4",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 45:4"
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Blessed is the man whom thou choosest, and causest to approach unto thee, that he may dwell i...\". Word-study detail reinforces \"יֹשְׁבֵ֣י: They also that dwell - properly, to sit down (specifically as judge. in ambush, in...\".",
+      "supportingVerses": [
+        4,
+        8
+      ],
+      "versePhrases": {
+        "4": [
+          "dwell"
+        ],
+        "8": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Blessed is the man whom thou choosest, and causest to approach unto thee, that he may dwell i...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 5: The Fair Beauty of the Lord: I want to stre...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וּתְקָרֵב֮: and causest to approach - to approach (causatively, bring near) for whatever purpose",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "יֹשְׁבֵ֣י: They also that dwell - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

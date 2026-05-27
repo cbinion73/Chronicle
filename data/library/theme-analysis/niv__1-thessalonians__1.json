@@ -1,0 +1,322 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Thessalonians",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:33.270Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when he says, “remembering... your work...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "We always thank God for all of you and continually..."
+        ],
+        "3": [
+          "faith",
+          "hope"
+        ],
+        "4": [
+          "For we know, brothers and sisters loved by God, that..."
+        ],
+        "5": [
+          "because our gospel came to you not simply with words..."
+        ],
+        "6": [
+          "You became imitators of us and of the Lord, for..."
+        ],
+        "7": [
+          "And so you became a model to all the believers in Macedonia and Achaia"
+        ],
+        "8": [
+          "faith"
+        ],
+        "10": [
+          "and to wait for his Son from heaven, whom he..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Paul had been forcibly separated from the Thessalonians just weeks after founding the church,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrosiaster: We give thanks to God always for all of you: Since all things come from God, th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "1 Corinthians 13:13",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Corinthians 13:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Remembering without ceasing your work of faith, and labour of love, and patience of hope in o...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: What is said in Ezekiel (3:26) would seem to...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "Spirit",
+          "Holy Spirit"
+        ],
+        "6": [
+          "Spirit",
+          "Holy Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For our gospel came not unto you in word only, but also in power, and in the Holy Ghost, and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: What is said in Ezekiel (3:26) would seem to...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "πνεύματι: Ghost - a current of air, i.e., breath (blast) or a breeze; by analogy or figurativ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Galatians 5:22",
+          "anchorVerse": 6,
+          "referenceLabel": "Galatians 5:22"
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Anselm of Laon: Rightly he says grace first, then naming peace, because without grace there i...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        2,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "Grace"
+        ],
+        "2": [
+          "We always thank God for all of you and continually..."
+        ],
+        "4": [
+          "For we know, brothers and sisters loved by God, that..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Romans 1:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Romans 1:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians which is in God the F...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: The Apostle wishes to strengthen the Church...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "χάρις: Grace - graciousness (as gratifying), of manner or act (abstract or concrete; literal,...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Thessalonians 1: \"And ye became imitators of us, and of the Lo...\". Word-study detail reinforces \"θλίψει: affliction - pressure (literally or figuratively)\".",
+      "supportingVerses": [
+        4,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "4": [
+          "For we know, brothers and sisters loved by God, that..."
+        ],
+        "5": [
+          "because our gospel came to you not simply with words..."
+        ],
+        "6": [
+          "suffering"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Knowing, brethren beloved, your election of God — eklogen (ἐκλογήν, 'election/choice') introd...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 1: \"Knowing, brethren beloved of God, your elect...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Paul had come to Thessalonica from Philippi, where he and Silas had been beaten and imprisone...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON THE FIRST LETTER TO THE THESSALONIANS: The reception of...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"For they themselves shew of us what manner of entering in we had unto you, and how ye turned...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        5,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "5": [
+          "because our gospel came to you not simply with words..."
+        ],
+        "8": [
+          "The Lord’s message rang out from you not only in..."
+        ],
+        "9": [
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How do you distinguish between intellectually accepted truth and Spirit-empowered conviction...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrosiaster on COMMENTARY ON THE FIRST LETTER TO THE THESSALONIANS: In order to indicate tha...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "For from you sounded out the word of the Lord not only in Macedonia and Achaia, but also in e...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "πίστις: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on Homily on 1 Thessalonians 1: \"Remembering without ceasing,\" he says, \"your...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "love"
+        ],
+        "4": [
+          "loved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 John 5:3",
+          "anchorVerse": 3,
+          "referenceLabel": "1 John 5:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Remembering without ceasing your work of faith, and labour of love, and patience of hope in o...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 1: \"Remembering without ceasing,\" he says, \"your...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ἀγάπης: of love - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

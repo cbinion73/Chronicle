@@ -1,0 +1,104 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 70,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:27.525Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 70: Behold, \"Be the Lord magnified:\" will you never...\".",
+      "supportingVerses": [
+        1,
+        2,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "Hasten, O God, to save me"
+        ],
+        "2": [
+          "want"
+        ],
+        "5": [
+          "I am poor and needy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Make haste, O God, to deliver me; make haste to help me, O LORD. This urgent plea opens Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 70: \"O God, to my aid make speed\" [Psalm 70:1]. For...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "But I am poor and needy: make haste unto me, O God: thou art my help and my deliverer; O LORD...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 70: Behold, \"Be the Lord magnified:\" will you never...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Make haste, O God, to deliver me; make haste to help me, O LORD. This urgent plea opens Psalm...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "save"
+        ],
+        "4": [
+          "But may all who seek you rejoice and be glad..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Make haste, O God, to deliver me; make haste to help me, O LORD. This urgent plea opens Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Cassian on CONFERENCE 10:10: And so for keeping up continual recollection of God this de...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהַצִּילֵ֑נִי: to deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 40:16",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 40:16"
+        }
+      ]
+    }
+  ]
+}

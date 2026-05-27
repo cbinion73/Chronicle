@@ -1,0 +1,111 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 18,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:10.344Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Vs. 4 and following) Because this is what the Lord says to m...\". Word-study detail reinforces \"אָ֑רֶץ: on the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "Woe to the land of whirring wings along the rivers..."
+        ],
+        "2": [
+          "which sends envoys by sea in papyrus boats over the..."
+        ],
+        "3": [
+          "earth"
+        ],
+        "6": [
+          "They will all be left to the mountain birds of..."
+        ],
+        "7": [
+          "At that time gifts will be brought to the Lord..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON ISAIAH 2:3.18: Someone might wonder and say to himself,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶ֖רֶץ: to the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Papyrus reed boats were distinctive Egyptian/Cushite watercraft, light and fast for river tra...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 2) Therefore, these people across the rivers of Ethiop...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"'For so the LORD said unto me, I will take my rest, and I will consider in my dwelling place...\". Word-study detail reinforces \"אֶשְׁקֳוטָ֖ה: unto me I will take my rest - to repose (usually figurative)\".",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "Woe to the land of whirring wings along the rivers..."
+        ],
+        "4": [
+          "quiet"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Woe to the land shadowing with wings, which is beyond the rivers of Ethiopia. The Hebrew 'hoy...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Hippolytus of Rome on ON THE ANTICHRIST 58-59: The word of Isaiah: “Woe to the wings of the v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "'For so the LORD said unto me, I will take my rest, and I will consider in my dwelling place...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4) Because this is what the Lord said to me: I will re...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

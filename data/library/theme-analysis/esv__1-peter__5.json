@@ -1,0 +1,312 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Peter",
+  "chapter": 5,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:53.109Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"This magnificent benediction encapsulates the gospel's hope and God's faithfulness to sufferi...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        4,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "glory"
+        ],
+        "4": [
+          "glory"
+        ],
+        "10": [
+          "glory"
+        ],
+        "11": [
+          "To him be the dominion forever and ever"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "1 Peter 5:4",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Peter 5:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Peter addresses elders as fellow elder. Peter witnessed Christ's suffering and will share His...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: Who is also a partaker of the glory that is to b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "δόξης: of the glory - glory (as very apparent), in a wide application (literal or figurative,...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: Through Sylvanus, your faithful brother, etc. Wh...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        5,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "5": [
+          "grace"
+        ],
+        "10": [
+          "grace"
+        ],
+        "12": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "James 4:6",
+          "anchorVerse": 5,
+          "referenceLabel": "James 4:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Peter addresses intergenerational church dynamics and universal Christian virtue. \"Likewise,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Apostolic Constitutions on Constitutions of the Holy Apostles Book 8: We add, in the next pla...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "χάριν: grace - graciousness (as gratifying), of manner or act (abstract or concrete; literal,...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: Through Sylvanus, your faithful brother, etc. Wh...\". Word-study detail reinforces \"ἀληθῆ: the true - true (as not concealing)\".",
+      "supportingVerses": [
+        4,
+        7,
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "And when the chief Shepherd appears, you will receive the..."
+        ],
+        "7": [
+          "casting all your anxieties on him, because he cares for..."
+        ],
+        "8": [
+          "Be sober-minded"
+        ],
+        "9": [
+          "Resist him, firm in your faith, knowing that the same..."
+        ],
+        "12": [
+          "true",
+          "faithful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Faithful elders receive eternal reward. This eschatological hope motivated endurance. Chief S...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Symeon the New Theologian on DISCOURSES 2.5: Can death have any power over the souls which ha...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Casting all your care upon him; for he careth for you. This tender command, embedded within P...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Desert Fathers on The Desert Fathers, Sayings of the Early Christian Monks: A brother asked a...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Casting all your care upon him; for he careth for you. This tender command, embedded within P...\". Word-study detail reinforces \"μελλούσης: that shall - to intend, i.e., be about to be, do, or suffer something (of persons...\".",
+      "supportingVerses": [
+        1,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "as a fellow elder and a witness of the sufferings of Christ"
+        ],
+        "7": [
+          "casting all your anxieties on him, because he cares for..."
+        ],
+        "9": [
+          "suffering"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Peter addresses elders as fellow elder. Peter witnessed Christ's suffering and will share His...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "μελλούσης: that shall - to intend, i.e., be about to be, do, or suffer something (of persons...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Casting all your care upon him; for he careth for you. This tender command, embedded within P...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Oecumenius on Commentary on 1 Peter: Then, removing the fear that would arise from humiliatio...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Peter wrote this epistle around 62-64 CE to Christians scattered across Asia Minor (modern Tu...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        7,
+        9
+      ],
+      "versePhrases": {
+        "7": [
+          "casting all your anxieties on him, because he cares for..."
+        ],
+        "9": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Peter wrote this epistle around 62-64 CE to Christians scattered across Asia Minor (modern Tu...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Shepherd of Hermas on Shepherd of Hermas, Vision 3: For, like elderly men who have no hope of...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Acts 14:22",
+          "anchorVerse": 9,
+          "referenceLabel": "Acts 14:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does resisting Satan steadfast in faith mean practically?",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Oecumenius on Commentary on 1 Peter: However, when Paul writes that they should greet each ot...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        8,
+        14
+      ],
+      "versePhrases": {
+        "8": [
+          "Be sober-minded"
+        ],
+        "14": [
+          "Peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Peter writes to churches facing Neronian persecution (c. AD 64), when Christian suffering int...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "GK Chesterton on A Miscellany of Men, The Separatist and Sacred Things (1912): For the first...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "John 20:19",
+          "anchorVerse": 14,
+          "referenceLabel": "John 20:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Why is peace the fitting final word for suffering believers?",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 10,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:53.563Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"The tragic death of Aaron's sons for offering unauthorized fire demonstrates the severity of...\". Word-study detail reinforces \"קִ֠רְב֞וּ: unto them Come near - to approach (causatively, bring near) for whatever purpose\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        12,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "presence"
+        ],
+        "4": [
+          "Moses called Mishael and Elzaphan, the sons of Uzziel who..."
+        ],
+        "5": [
+          "So they came forward and carried them, still in their..."
+        ],
+        "6": [
+          "Then Moses said to Aaron and to his [younger] sons..."
+        ],
+        "8": [
+          "Then the Lord spoke to Aaron, saying,"
+        ],
+        "9": [
+          "with you"
+        ],
+        "12": [
+          "Then Moses said to Aaron, and to his surviving sons,..."
+        ],
+        "14": [
+          "with you"
+        ],
+        "15": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The tragic death of Aaron's sons for offering unauthorized fire demonstrates the severity of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And Moses called Mishael and Elzaphan, the sons of Uzziel the uncle of Aaron, and said unto t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "קִ֠רְב֞וּ: unto them Come near - to approach (causatively, bring near) for whatever purpose",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The tragic death of Aaron's sons for offering unauthorized fire demonstrates the severity of...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"And that ye may put difference between holy and unholy, and between unclean and clean; This v...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        10,
+        12,
+        13,
+        14,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "10": [
+          "holy",
+          "clean"
+        ],
+        "12": [
+          "holy"
+        ],
+        "13": [
+          "holy"
+        ],
+        "14": [
+          "clean"
+        ],
+        "17": [
+          "holy"
+        ],
+        "18": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 21:6",
+          "anchorVerse": 3,
+          "referenceLabel": "Leviticus 21:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Then Moses said unto Aaron, This is it that the LORD spake, saying, I will be sanctified in t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֶקָּדֵ֔שׁ: I will be sanctified - to be (causatively, make, pronounce or observe as) clean (...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ezekiel 22:26",
+          "anchorVerse": 10,
+          "referenceLabel": "Ezekiel 22:26"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"And that ye may put difference between holy and unholy, and between unclean and clean; This v...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        10,
+        12,
+        13,
+        15,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "10": [
+          "holy"
+        ],
+        "12": [
+          "holy"
+        ],
+        "13": [
+          "holy"
+        ],
+        "15": [
+          "just"
+        ],
+        "17": [
+          "holy"
+        ],
+        "18": [
+          "just",
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 21:6",
+          "anchorVerse": 3,
+          "referenceLabel": "Leviticus 21:6"
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ezekiel 22:26",
+          "anchorVerse": 10,
+          "referenceLabel": "Ezekiel 22:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And that ye may put difference between holy and unholy, and between unclean and clean; This v...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "הַקֹּ֖דֶשׁ: between holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses.",
+      "supportingVerses": [
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "13": [
+          "portion"
+        ],
+        "14": [
+          "portion"
+        ],
+        "15": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How does understanding the purpose behind God's laws help you obey Him from the heart rather...\". Word-study detail reinforces \"הַ֣חֻקִּ֔ים: all the statutes - an enactment; hence, an appointment (of time, space, quantity...\".",
+      "supportingVerses": [
+        11,
+        20
+      ],
+      "versePhrases": {
+        "11": [
+          "statutes"
+        ],
+        "20": [
+          "When Moses heard that, he was satisfied"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How does understanding the purpose behind God's laws help you obey Him from the heart rather...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "הַ֣חֻקִּ֔ים: all the statutes - an enactment; hence, an appointment (of time, space, quantity...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "How can you use this verse to worship God more fully, obey Him more faithfully, or love other...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "וַיִּשְׁמַ֣ע: heard - to hear intelligently (often with implication of attention, obedience,...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and...\". Word-study detail reinforces \"שַׁלְמֵ֖י: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        5,
+        14
+      ],
+      "versePhrases": {
+        "5": [
+          "still"
+        ],
+        "14": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "שַׁלְמֵ֖י: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

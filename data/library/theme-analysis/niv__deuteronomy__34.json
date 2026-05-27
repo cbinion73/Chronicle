@@ -1,0 +1,145 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 34,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:33.963Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands upon...\". Word-study detail reinforces \"חָכְמָ֔ה: of wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands upon...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 16.26: It is written, “Now Joshua, the son of Nun,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "חָכְמָ֔ה: of wisdom - wisdom (in a good sense)",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"God shows Moses the Promised Land: 'And the LORD said unto him, This is the land which I swar...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "promised",
+          "oath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "God shows Moses the Promised Land: 'And the LORD said unto him, This is the land which I swar...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Paulus Orosius on DEFENSE AGAINST THE PELAGIANS 28: And yet only before his death was [Moses]...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Inferred",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands upon...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Isaiah 11:2",
+          "anchorVerse": 9,
+          "referenceLabel": "Isaiah 11:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands upon...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 16.26: It is written, “Now Joshua, the son of Nun,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "ר֣וּחַ: of the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhal...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Inferred",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The children of Israel wept for Moses in the plains of Moab thirty days: so the days of weepi...\". Word-study detail reinforces \"אֵ֥בֶל: and mourning - lamentation\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "mourning"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The children of Israel wept for Moses in the plains of Moab thirty days: so the days of weepi...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "אֵ֥בֶל: and mourning - lamentation",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

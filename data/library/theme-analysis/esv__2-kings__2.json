@@ -1,0 +1,235 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 2,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:12.072Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Caesarius of Arles on SERMON 126.2-5: Let us see what these facts mean, dearly beloved. Elish...\". Word-study detail reinforces \"הֶֽחֱשֽׁוּ׃: it hold ye your peace - to hush or keep quiet\".",
+      "supportingVerses": [
+        3,
+        5,
+        11,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "quiet"
+        ],
+        "5": [
+          "quiet"
+        ],
+        "11": [
+          "still"
+        ],
+        "21": [
+          "Then he went to the spring of water and threw..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the sons of the prophets that were at Beth-el came forth to Elisha, and said unto him, Kn...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הֶֽחֱשֽׁוּ׃: it hold ye your peace - to hush or keep quiet",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And the sons of the prophets that were at Jericho came to Elisha, and said unto him, Knowest...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הֶֽחֱשֽׁוּ׃: it hold ye your peace - to hush or keep quiet",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Origen of Alexandria on COMMENTARY ON THE GOSPEL OF MATTHEW 13.2: I have thought it necessary...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        9,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "9": [
+          "spirit"
+        ],
+        "15": [
+          "spirit"
+        ],
+        "16": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Numbers 11:17",
+          "anchorVerse": 9,
+          "referenceLabel": "Numbers 11:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 6.238-39: We must note in addition t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "בְּרֽוּחֲךָ֖: of thy spirit - wind; by resemblance breath, i.e., a sensible (or even violent)...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"In what practical ways should this text shape contemporary Christian thinking about faithfuln...\". Word-study detail reinforces \"הֶֽחֱשֽׁוּ׃: it hold ye your peace - to hush or keep quiet\".",
+      "supportingVerses": [
+        3,
+        5,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "keep"
+        ],
+        "5": [
+          "keep"
+        ],
+        "22": [
+          "So the water has been healed to this day, according..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 2:2-5: Elijah, who now lived with Elisha, wh...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הֶֽחֱשֽׁוּ׃: it hold ye your peace - to hush or keep quiet",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on LETTER 187.17: Therefore, he who is everywhere does not dwell in all, a...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        5,
+        9
+      ],
+      "versePhrases": {
+        "5": [
+          "near"
+        ],
+        "9": [
+          "When they had crossed, Elijah said to Elisha, “Ask what..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on LETTER 187.17: Therefore, he who is everywhere does not dwell in all, a...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall...\". Word-study detail reinforces \"פִּֽי: portion - the mouth (as the means of blowing), whether literal or figurative (particul...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 6.238-39: We must note in addition t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "פִּֽי: portion - the mouth (as the means of blowing), whether literal or figurative (particul...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 9,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:09.357Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Solomon's temple dedication witnessed God's glory filling the house (1 Kings 8:10-11). For ce...\". Word-study detail reinforces \"קָרְב֖וּ: to draw near - to approach (causatively, bring near) for whatever purpose\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "near"
+        ],
+        "2": [
+          "and one man among them was clothed with linen"
+        ],
+        "3": [
+          "And he called to the man clothed with linen"
+        ],
+        "6": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This vision (circa 592 BC) preceded Jerusalem's fall by six years, giving prophetic preview o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter IX—Verse 1) And he cried out in my ears with a loud...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קָרְב֖וּ: to draw near - to approach (causatively, bring near) for whatever purpose",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This vision employs ancient Near Eastern imagery of divine council and angelic executioners c...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This vision employs ancient Near Eastern imagery of divine council and angelic executioners c...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        2,
+        3,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "And, behold, six men came from the way of the..."
+        ],
+        "3": [
+          "glory"
+        ],
+        "7": [
+          "And he said unto them, Defile the house, and fill..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This vision employs ancient Near Eastern imagery of divine council and angelic executioners c...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verses 2, 3) And behold, six men were coming from the way o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Ezekiel 10:4",
+          "anchorVerse": 3,
+          "referenceLabel": "Ezekiel 10:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Solomon's temple dedication witnessed God's glory filling the house (1 Kings 8:10-11). For ce...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Then said he unto me, The iniquity of the house of Israel and Judah is exceeding great, and t...\". Word-study detail reinforces \"הָאָ֔רֶץ: and the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Then said he unto me, The iniquity of the house of Israel and Judah is exceeding great, and t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on COMMENTARY ON EZEKIEL 3:9.9-10: The cause of so many crimes is this: The people tho...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "הָאָ֔רֶץ: and the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

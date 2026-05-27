@@ -1,0 +1,101 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 110,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:12.948Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This verse returns to the theme of judgment and vindication. 'The Lord at thy right hand' rei...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord said to my Lord, “Sit at My right..."
+        ],
+        "5": [
+          "wrath"
+        ],
+        "6": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Nicetas of Remesiana on EXPLANATION OF THE CREED 6: “He ascended into heaven,” from where he...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "שֵׁ֥ב: Sit - properly, to sit down (specifically as judge. in ambush, in quiet); by implicati...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Romans 2:5",
+          "anchorVerse": 5,
+          "referenceLabel": "Romans 2:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse returns to the theme of judgment and vindication. 'The Lord at thy right hand' rei...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This verse introduces the second major theme of the psalm: the Messiah's priesthood. 'Thy peo...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "holiness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ephesians 1:4",
+          "anchorVerse": 3,
+          "referenceLabel": "Ephesians 1:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse introduces the second major theme of the psalm: the Messiah's priesthood. 'Thy peo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theodoret of Cyrus on LETTER 146: He is named Christ from being as man anointed with the Holy...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קֹ֭דֶשׁ: of holiness - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

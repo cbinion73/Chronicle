@@ -1,0 +1,284 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 1,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:21.862Z",
+  "themes": [
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to t...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        8,
+        11
+      ],
+      "versePhrases": {
+        "4": [
+          "I was fasting and praying before the God of heaven"
+        ],
+        "5": [
+          "pray"
+        ],
+        "6": [
+          "pray",
+          "prayer"
+        ],
+        "8": [
+          "pray"
+        ],
+        "11": [
+          "pray",
+          "prayer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Daniel 9:3",
+          "anchorVerse": 4,
+          "referenceLabel": "Daniel 9:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And it came to pass, when I heard these words, that I sat down and wept, and mourned certain...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וּמִתְפַּלֵּ֔ל: and prayed - to judge (officially or mentally); by extension, to intercede, pray",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth cove...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Athanasius of Alexandria: [Synopsis on Nehemiah] In the second book he says the same things (...\". Word-study detail reinforces \"מִצְוֹתַ֔י: my commandments - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        1,
+        5,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "The words of Nehemiah the son of Hachaliah"
+        ],
+        "5": [
+          "keep"
+        ],
+        "7": [
+          "kept",
+          "statutes",
+          "ordinances"
+        ],
+        "9": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does the historical reliability of Scripture strengthen your confidence in God's promises...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Athanasius of Alexandria: [Synopsis on Nehemiah] In the second book he says the same things (...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "מִצְוֹתָֽיו׃: his commandments - a command, whether human or divine (collectively, the law)",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "We have dealt very corruptly against thee, and have not kept the commandments, nor the statut...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth cove...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        5,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "mercy"
+        ],
+        "11": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Exodus 20:6",
+          "anchorVerse": 5,
+          "referenceLabel": "Exodus 20:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth cove...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וָחֶ֔סֶד: and mercy - kindness; by implication (towards god) piety; rarely (by opposition) re...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to t...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The words of Nehemiah the son of Hachaliah. And it came to pass in the month Chisleu, in the...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "The words of Nehemiah the son of Hachaliah"
+        ],
+        "11": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The words of Nehemiah the son of Hachaliah. And it came to pass in the month Chisleu, in the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: The words of Nehemiah, the son of Hacaliah, etc. Neh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Nehemiah 2:8",
+          "anchorVerse": 11,
+          "referenceLabel": "Nehemiah 2:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to t...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth cove...\". Word-study detail reinforces \"הַבְּרִית֙: covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        1,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "The words of Nehemiah the son of Hachaliah"
+        ],
+        "5": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This period falls within the Persian Empire's dominance (539-331 BC) following Babylon's fall...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Athanasius of Alexandria: [Synopsis on Nehemiah] In the second book he says the same things (...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth cove...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הַבְּרִית֙: covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Origen of Alexandria on HOMILIES ON GENESIS 9.7: But I say, Has the Lord used iniquity to sna...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "heavens"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON GENESIS 9.7: But I say, Has the Lord used iniquity to sna...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

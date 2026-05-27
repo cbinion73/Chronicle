@@ -1,0 +1,361 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Timothy",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:32.736Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Oecumenius on COMMENTARY ON 1 TIMOTHY: The sins of certain people are obvious, leading to jud...\". Word-study detail reinforces \"ἐπακολουθοῦσιν·: men they follow after - to accompany\".",
+      "supportingVerses": [
+        7,
+        12,
+        15,
+        21,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "7": [
+          "Command"
+        ],
+        "12": [
+          "and will therefore receive condemnation because they have renounced their..."
+        ],
+        "15": [
+          "follow"
+        ],
+        "21": [
+          "I solemnly charge you before God and Christ Jesus and..."
+        ],
+        "22": [
+          "Keep"
+        ],
+        "24": [
+          "Some people’s sins are obvious, preceding them to judgment, but..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And these things give in charge, that they may be blameless (καὶ ταῦτα παράγγελλε, ἵνα ἀνεπίλ...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily on 1 Timothy 13: \"These things give in charge, that they may be bla...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Having damnation, because they have cast off their first faith (κρῖμα ἔχουσαι ὅτι τὴν πρώτην...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Letters 48.8: The apostle, in concluding his discussion of marriage and virginity,...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on Homily on 1 Timothy 14: Many consider that their own virtue is sufficient...\". Word-study detail reinforces \"προνοεῖ: provide - to consider in advance, i.e., look out for beforehand (actively, by way of...\".",
+      "supportingVerses": [
+        3,
+        5,
+        8,
+        11,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "need"
+        ],
+        "5": [
+          "need"
+        ],
+        "8": [
+          "provide"
+        ],
+        "11": [
+          "want"
+        ],
+        "14": [
+          "want"
+        ],
+        "16": [
+          "need"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the ancient world, widows without sons faced destitution—unable to inherit property or wor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Timothy: Why does he say nothing about virgins? Perha...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 1 Timothy 13: \"Now she that is a widow indeed, and desolate, tru...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "But if any provide not for his own, and specially for those of his own house (εἰ δέ τις τῶν ἰ...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"John Chrysostom on Homily on 1 Timothy 14: Many consider that their own virtue is sufficient...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "5": [
+          "hope"
+        ],
+        "6": [
+          "however, she who is self-indulgent is dead even while she..."
+        ],
+        "7": [
+          "Command this also, so that they will be above reproach"
+        ],
+        "8": [
+          "faith"
+        ],
+        "10": [
+          "and is well known for good works—that is, if she..."
+        ],
+        "11": [
+          "But refuse to enroll younger widows, for when they are..."
+        ],
+        "12": [
+          "and will therefore receive condemnation because they have renounced their..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "1 Timothy 5:16",
+          "anchorVerse": 5,
+          "referenceLabel": "1 Timothy 5:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Now she that is a widow indeed, and desolate (ἡ δὲ ὄντως χήρα καὶ μεμονωμένη, hē de ontōs chē...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Then when he says, but she who is a widow indeed,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But she that liveth in pleasure is dead while she liveth (ἡ δὲ σπαταλῶσα ζῶσα τέθνηκεν, hē de...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: Then he says, I charge you, before God. Because th...\". Word-study detail reinforces \"κρίσιν: judgment - decision (subjectively or objectively, for or against); by extension, a tr...\".",
+      "supportingVerses": [
+        12,
+        19,
+        21,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "12": [
+          "condemnation"
+        ],
+        "19": [
+          "Don’t accept an accusation against an elder unless it is..."
+        ],
+        "21": [
+          "I solemnly charge you before God and Christ Jesus and..."
+        ],
+        "24": [
+          "judgment"
+        ],
+        "25": [
+          "Likewise, good works are obvious, and those that are not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Having damnation, because they have cast off their first faith (κρῖμα ἔχουσαι ὅτι τὴν πρώτην...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Letters 48.8: The apostle, in concluding his discussion of marriage and virginity,...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Against an elder receive not an accusation, but before two or three witnesses (Κατὰ πρεσβυτέρ...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Then when he says, do not receive an accusation, h...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The elder women as mothers; the younger as sisters, with all purity (πρεσβυτέρας ὡς μητέρας,...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        10,
+        22,
+        23,
+        25
+      ],
+      "versePhrases": {
+        "2": [
+          "purity"
+        ],
+        "10": [
+          "and is well known for good works—that is, if she..."
+        ],
+        "22": [
+          "pure"
+        ],
+        "23": [
+          "Don’t continue drinking only water, but use a little wine..."
+        ],
+        "25": [
+          "Likewise, good works are obvious, and those that are not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The elder women as mothers; the younger as sisters, with all purity (πρεσβυτέρας ὡς μητέρας,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on COMMENTARY ON 1 TIMOTHY: Do not rebuke an elder man, but encourage him as a fat...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἁγνείᾳ: purity - cleanliness (the quality), i.e., (specially) chastity",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Romans 12:13",
+          "anchorVerse": 10,
+          "referenceLabel": "Romans 12:13"
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on ON LAZARUS AND THE RICH MAN 3: It is not possible, not possible at all, fo...\".",
+      "supportingVerses": [
+        3,
+        6,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "Support widows who are genuinely in need"
+        ],
+        "6": [
+          "however, she who is self-indulgent is dead even while she..."
+        ],
+        "20": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Honour widows that are widows indeed (Χήρας τίμα τὰς ὄντως χήρας, Chēras tima tas ontōs chēra...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on LETTERS 79.7: [Paul] is training a church still untaught in Christ and making provi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But she that liveth in pleasure is dead while she liveth (ἡ δὲ σπαταλῶσα ζῶσα τέθνηκεν, hē de...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on ON LAZARUS AND THE RICH MAN 3: It is not possible, not possible at all, fo...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

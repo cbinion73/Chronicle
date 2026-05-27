@@ -1,0 +1,403 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 66,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:01.208Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 18, 19.) But I come to gather together with all nation...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        5,
+        11,
+        12,
+        15,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "as if he blessed an idol"
+        ],
+        "5": [
+          "Hear the word of the Lord"
+        ],
+        "11": [
+          "glory"
+        ],
+        "12": [
+          "glory"
+        ],
+        "15": [
+          "the Lord will come with fire"
+        ],
+        "18": [
+          "glory"
+        ],
+        "19": [
+          "glory"
+        ],
+        "20": [
+          "And they shall bring all your brethren for an offering unto the Lord out of all nations upon horses"
+        ],
+        "21": [
+          "saith the Lord"
+        ],
+        "23": [
+          "worship"
+        ],
+        "24": [
+          "And they shall go forth, and look upon the carcases..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "God condemns empty ritualism with shocking comparisons: \"He that killeth an ox is as if he sl...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON ISAIAH 20:66.3: By these words he rejected the worship pr...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Luke 13:17",
+          "anchorVerse": 5,
+          "referenceLabel": "Luke 13:17"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 5) Hear the word of the Lord, you who tremble at his w...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter 66, Verse 1) Thus says the Lord: Heaven is My throne...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        8,
+        14,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "2": [
+          "made"
+        ],
+        "3": [
+          "and their soul delighteth in their abominations"
+        ],
+        "8": [
+          "made",
+          "earth"
+        ],
+        "14": [
+          "And when ye see this, your heart shall rejoice, and..."
+        ],
+        "22": [
+          "heavens",
+          "earth"
+        ],
+        "24": [
+          "And they shall go forth, and look upon the carcases..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "God's rhetorical questions 'where is the house that ye build unto me? and where is the place...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 66, Verse 1) Thus says the Lord: Heaven is My throne...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְהָאָ֖רֶץ: and the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Vers. 2, 3.) But to whom shall I look, except to the poor an...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"God makes an extraordinary promise: \"As one whom his mother comforteth, so will I comfort you...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        1,
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "rest"
+        ],
+        "11": [
+          "that ye may suck, and be satisfied with the breasts..."
+        ],
+        "12": [
+          "peace"
+        ],
+        "13": [
+          "comfort"
+        ],
+        "14": [
+          "And when ye see this, your heart shall rejoice, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "God's rhetorical questions 'where is the house that ye build unto me? and where is the place...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Thus says the Lord. Here he determines the manner of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מְנוּחָתִֽי׃: of my rest - repose or (adverbially) peacefully; figuratively, consolation (spe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How does the church function as spiritual mother providing nourishment and comfort?",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 20.) And they shall proclaim my glory among the nation...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        16,
+        17,
+        20,
+        24
+      ],
+      "versePhrases": {
+        "15": [
+          "For, behold, the Lord will come with fire, and with..."
+        ],
+        "16": [
+          "For by fire and by his sword will the Lord..."
+        ],
+        "17": [
+          "sanctify"
+        ],
+        "20": [
+          "holy",
+          "clean"
+        ],
+        "24": [
+          "And they shall go forth, and look upon the carcases..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The prophecy shifts to theophany and judgment: \"For, behold, the LORD will come with fire, an...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 15, 16.) For behold, the Lord will come in fire: and l...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "This prophecy was partially fulfilled in historical judgments—Assyria and Babylon destroying...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 15, 16.) For behold, the Lord will come in fire: and l...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 18, 19.) But I come to gather together with all nation...\". Word-study detail reinforces \"וְהִמְלִ֥יטָה: she was delivered - properly, to be smooth, i.e., (by implication) to escape (...\".",
+      "supportingVerses": [
+        7,
+        9,
+        10,
+        16,
+        18,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "7": [
+          "delivered"
+        ],
+        "9": [
+          "Shall I bring to the birth, and not cause to..."
+        ],
+        "10": [
+          "Rejoice ye with Jerusalem, and be glad with her, all..."
+        ],
+        "16": [
+          "For by fire and by his sword will the Lord..."
+        ],
+        "18": [
+          "For I know their works and their thoughts"
+        ],
+        "19": [
+          "And I will set a sign among them, and I..."
+        ],
+        "22": [
+          "For as the new heavens and the new earth, which..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Before she travailed, she brought forth; before her pain came, she was delivered of a man chi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON ISAIAH 5:6.66:7-9: Again Isaiah teaches that Jerusalem w...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְהִמְלִ֥יטָה: she was delivered - properly, to be smooth, i.e., (by implication) to escape (...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The post-exilic community worried that God's restoration promises might fail—they'd begun ret...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 20.) And they shall proclaim my glory among the nation...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        13,
+        16,
+        17,
+        18,
+        20,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "13": [
+          "As one whom his mother comforteth, so will I comfort..."
+        ],
+        "16": [
+          "For by fire and by his sword will the Lord..."
+        ],
+        "17": [
+          "They that sanctify themselves, and purify themselves in the gardens..."
+        ],
+        "18": [
+          "For I know their works and their thoughts"
+        ],
+        "20": [
+          "holy"
+        ],
+        "22": [
+          "For as the new heavens and the new earth, which..."
+        ],
+        "24": [
+          "And they shall go forth, and look upon the carcases..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "God makes an extraordinary promise: \"As one whom his mother comforteth, so will I comfort you...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 1: A mother draws her children near her; we seek...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "כֵּ֤ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "What does God 'pleading' with all flesh through judgment reveal about divine justice?",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

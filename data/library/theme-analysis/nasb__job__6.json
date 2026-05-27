@@ -1,0 +1,413 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 6,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:29.366Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Job concludes: 'They were confounded because they had hoped: they came thither, and were asha...\". Word-study detail reinforces \"אֲיַחֵ֑ל: that I should hope - to wait; by implication, to be patient, hope\".",
+      "supportingVerses": [
+        8,
+        11,
+        19,
+        20,
+        26,
+        30
+      ],
+      "versePhrases": {
+        "8": [
+          "hope"
+        ],
+        "11": [
+          "What is my strength, that I should wait"
+        ],
+        "19": [
+          "hoped"
+        ],
+        "20": [
+          "trusted"
+        ],
+        "26": [
+          "Do you intend to rebuke my words, When the words..."
+        ],
+        "30": [
+          "Is there injustice on my tongue"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Job wishes for death: 'Oh that I might have my request; and that God would grant me the thing...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: He shows this same thing when he says, \"Who will grant t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Job asks: 'What is my strength, that I should hope? and what is mine end, that I should prolo...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book VII: What is my strength, that I sho...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Job explains why death would comfort him: 'Then should I yet have consolation; yea, I would h...\". Word-study detail reinforces \"נֶ֘חָ֤מָתִ֗י: Then should I yet have comfort - consolation\".",
+      "supportingVerses": [
+        6,
+        10,
+        19,
+        25,
+        29
+      ],
+      "versePhrases": {
+        "6": [
+          "Can something tasteless be eaten without salt, Or is there..."
+        ],
+        "10": [
+          "still",
+          "comfort"
+        ],
+        "19": [
+          "The caravans of Tema looked, The travelers of Sheba hoped..."
+        ],
+        "25": [
+          "How painful are honest words"
+        ],
+        "29": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Job continues: 'Can that which is unsavoury be eaten without salt? or is there any taste in t...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book VII: Can that which is unsavoury be...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Job explains why death would comfort him: 'Then should I yet have consolation; yea, I would h...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Since he said that the things he did not formerly want t...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book VII: For the arrows of the Almighty...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        4,
+        18,
+        26
+      ],
+      "versePhrases": {
+        "4": [
+          "spirit"
+        ],
+        "18": [
+          "wind"
+        ],
+        "26": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Psalms 143:7",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 143:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Job describes God's 'arrows' within him and the 'poison' drinking up his spirit - vivid image...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book VII: For the arrows of the Almighty...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "רוּחִ֑י: my spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalati...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book VII: MORAL INTERPRETATION Did I say,...\". Word-study detail reinforces \"יָבִ֥ין: discern - to separate mentally (or distinguish), i.e., (generally) understand\".",
+      "supportingVerses": [
+        1,
+        12,
+        13,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "Then Job responded,"
+        ],
+        "12": [
+          "Is my strength the strength of stones, Or is my..."
+        ],
+        "13": [
+          "Is it that my help is not within me, And..."
+        ],
+        "18": [
+          "The paths of their course wind along, They go up..."
+        ],
+        "19": [
+          "The caravans of Tema looked, The travelers of Sheba hoped..."
+        ],
+        "20": [
+          "They were put to shame, for they had trusted, They..."
+        ],
+        "22": [
+          "Have I said, ‘Give me something,’ Or, ‘Offer a bribe..."
+        ],
+        "23": [
+          "Or, ‘Save me from the hand of the enemy,’ Or,..."
+        ],
+        "24": [
+          "“Teach me, and I will be silent"
+        ],
+        "25": [
+          "How painful are honest words"
+        ],
+        "26": [
+          "Do you intend to rebuke my words, When the words..."
+        ],
+        "30": [
+          "discern"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient Near Eastern wisdom dialogues followed formal patterns of speech and response. Job's...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on COMMENTARY ON JOB 6:2A-3A: This is what Job means, you show wisdom in the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Stone and brass (bronze) represented maximum durability in ancient materials. Job's denial th...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: To explain this he says, \"My strength is not the strengt...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book VII: Some men's minds are more torme...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        18,
+        26,
+        28,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "Then Job responded,"
+        ],
+        "2": [
+          "“Oh if only my grief were actually weighed And laid..."
+        ],
+        "3": [
+          "For then it would be heavier than the sand of..."
+        ],
+        "6": [
+          "Can something tasteless be eaten without salt, Or is there..."
+        ],
+        "10": [
+          "Holy"
+        ],
+        "18": [
+          "The paths of their course wind along, They go up..."
+        ],
+        "26": [
+          "Do you intend to rebuke my words, When the words..."
+        ],
+        "28": [
+          "Now please look at me, And see if I am..."
+        ],
+        "29": [
+          "righteousness"
+        ],
+        "30": [
+          "Is there injustice on my tongue? Does my palate not discern disasters?"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Job's response begins with 'But Job answered and said'—the Hebrew 'anah' (answered) indicates...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Eliphaz had clearly noted in earlier verses three things...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ancient Near Eastern justice used balanced scales as symbols of fairness. Job appeals to this...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book VII: Some men's minds are more torme...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book VII: Consider the paths of Tema, the...\". Word-study detail reinforces \"ה֭וֹרוּנִי: Teach - properly, to flow as water (i.e., to rain); transitively, to lay or throw...\".",
+      "supportingVerses": [
+        8,
+        9,
+        11,
+        12,
+        18,
+        19,
+        23,
+        24,
+        26
+      ],
+      "versePhrases": {
+        "8": [
+          "“Oh, that my request might come to pass, And that..."
+        ],
+        "9": [
+          "Oh, that God would decide to crush me, That He..."
+        ],
+        "11": [
+          "What is my strength, that I should wait"
+        ],
+        "12": [
+          "Is my strength the strength of stones, Or is my..."
+        ],
+        "18": [
+          "The paths of their course wind along"
+        ],
+        "19": [
+          "The caravans of Tema looked, The travelers of Sheba hoped..."
+        ],
+        "23": [
+          "Or, ‘Save me from the hand of the enemy,’ Or,..."
+        ],
+        "24": [
+          "Teach"
+        ],
+        "26": [
+          "Do you intend to rebuke my words, When the words..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What does Job's willingness to ask God for death teach us about prayer's proper boundaries?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Didymus the Blind on COMMENTARY ON JOB 6:8-9: He who asks to be wounded does not pray out of...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does Job's appeal to God for death teach us about maintaining God's sovereignty even in...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Didymus the Blind on COMMENTARY ON JOB 6:8-9: He who asks to be wounded does not pray out of...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

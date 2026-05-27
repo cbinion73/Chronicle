@@ -1,0 +1,545 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Matthew",
+  "chapter": 27,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:13.038Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 18 verses. Commentary leans on \"Thomas Aquinas on Commentary on Matthew: And they say three things. First, they reproach the...\". Word-study detail reinforces \"σῶσον: save - to save, i.e., deliver or protect (literally or figuratively)\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        11,
+        18,
+        26,
+        32,
+        35,
+        36,
+        40,
+        42,
+        43,
+        46,
+        48,
+        49,
+        50,
+        51,
+        58
+      ],
+      "versePhrases": {
+        "2": [
+          "delivered"
+        ],
+        "3": [
+          "Then when Judas, his betrayer, saw that Jesus was condemned,..."
+        ],
+        "7": [
+          "So they took counsel and bought with them the potter's..."
+        ],
+        "11": [
+          "Now Jesus stood before the governor, and the governor asked..."
+        ],
+        "18": [
+          "delivered"
+        ],
+        "26": [
+          "delivered"
+        ],
+        "32": [
+          "As they went out, they found a man of Cyrene,..."
+        ],
+        "35": [
+          "And when they had crucified him, they divided his garments..."
+        ],
+        "36": [
+          "Then they sat down and kept watch over him there"
+        ],
+        "40": [
+          "save"
+        ],
+        "42": [
+          "save",
+          "saved"
+        ],
+        "43": [
+          "deliver"
+        ],
+        "46": [
+          "And about the ninth hour Jesus cried out with a..."
+        ],
+        "48": [
+          "And one of them at once ran and took a..."
+        ],
+        "49": [
+          "save"
+        ],
+        "50": [
+          "And Jesus cried out again with a loud voice and..."
+        ],
+        "51": [
+          "And behold, the curtain of the temple was torn in..."
+        ],
+        "58": [
+          "He went to Pilate and asked for the body of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "When they had bound him (δήσαντες αὐτόν, dēsantes auton )—the binding of Jesus is theological...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on COMMENTARY ON MATTHEW 4.27.1-2: The Lord was led not only to Pilate but also to Her...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "παρέδωκαν: delivered - to surrender, i.e yield up, entrust, transmit",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What distinguishes genuine repentance (metanoeo) from mere remorse (metamellomai), and why do...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Thomas Aquinas on Commentary on Matthew: \"And coming out of the tombs after his resurrection,...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        19,
+        22,
+        23,
+        24,
+        26,
+        43,
+        46,
+        51,
+        52,
+        53,
+        59
+      ],
+      "versePhrases": {
+        "6": [
+          "But the chief priests, taking the pieces of silver, said,..."
+        ],
+        "7": [
+          "So they took counsel and bought with them the potter's..."
+        ],
+        "8": [
+          "Therefore that field has been called the Field of Blood..."
+        ],
+        "19": [
+          "righteous"
+        ],
+        "22": [
+          "Pilate said to them, “Then what shall I do with..."
+        ],
+        "23": [
+          "And he said, “Why"
+        ],
+        "24": [
+          "So when Pilate saw that he was gaining nothing, but..."
+        ],
+        "26": [
+          "Then he released for them Barabbas, and having scourged Jesus,..."
+        ],
+        "43": [
+          "He trusts in God"
+        ],
+        "46": [
+          "And about the ninth hour Jesus cried out with a..."
+        ],
+        "51": [
+          "And behold, the curtain of the temple was torn in..."
+        ],
+        "52": [
+          "The tombs also were opened"
+        ],
+        "53": [
+          "holy"
+        ],
+        "59": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The temple treasury (κορβανᾶς) received tithes, offerings, and vows for sacred use. Deuterono...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Origen of Alexandria on Catena Aurea by Aquinas: They thought it meet to spend upon the dead...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This event occurs during Passover week, 30 or 33 CE, in Jerusalem under Roman prefect Pontius...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Origen of Alexandria on Catena Aurea by Aquinas: They thought it meet to spend upon the dead...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Origen of Alexandria on Catena Aurea by Aquinas: Some take occasion from this text to cavil a...\". Word-study detail reinforces \"ἠσφαλίσαντο: and made - to render secure\".",
+      "supportingVerses": [
+        8,
+        17,
+        24,
+        30,
+        35,
+        45,
+        46,
+        51,
+        59,
+        60,
+        64,
+        66
+      ],
+      "versePhrases": {
+        "8": [
+          "Therefore that field has been called the Field of Blood..."
+        ],
+        "17": [
+          "So when they had gathered, Pilate said to them, “Whom..."
+        ],
+        "24": [
+          "So when Pilate saw that he was gaining nothing, but..."
+        ],
+        "30": [
+          "And they spit on him and took the reed and..."
+        ],
+        "35": [
+          "And when they had crucified him, they divided his garments..."
+        ],
+        "45": [
+          "Now from the sixth hour there was darkness over all..."
+        ],
+        "46": [
+          "And about the ninth hour Jesus cried out with a..."
+        ],
+        "51": [
+          "earth"
+        ],
+        "59": [
+          "And Joseph took the body and wrapped it in a..."
+        ],
+        "60": [
+          "and laid it in his own new tomb, which he..."
+        ],
+        "64": [
+          "made"
+        ],
+        "66": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Wherefore that field was called, The field of blood (Ἀγρὸς Αἵματος, Agros Haimatos )—known in...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on Homily on the Gospel of Matthew 85: What then did that man? When he saw th...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Whom will ye that I release unto you? Barabbas, or Jesus which is called Christ? (Βαραββᾶν ἢ...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON MATTHEW 121: I believe that these events reveal somethi...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Commentary on Matthew: \"And after they had mocked him, they took off the cl...\". Word-study detail reinforces \"ἀπήγαγον: they led him away - to take off (in various senses)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        19,
+        31,
+        32,
+        53
+      ],
+      "versePhrases": {
+        "1": [
+          "counsel"
+        ],
+        "2": [
+          "led"
+        ],
+        "3": [
+          "Then when Judas, his betrayer, saw that Jesus was condemned,..."
+        ],
+        "5": [
+          "And throwing down the pieces of silver into the temple,..."
+        ],
+        "6": [
+          "But the chief priests, taking the pieces of silver, said,..."
+        ],
+        "7": [
+          "counsel"
+        ],
+        "9": [
+          "Then was fulfilled what had been spoken by the prophet..."
+        ],
+        "19": [
+          "Besides, while he was sitting on the judgment seat, his..."
+        ],
+        "31": [
+          "led"
+        ],
+        "32": [
+          "As they went out, they found a man of Cyrene,..."
+        ],
+        "53": [
+          "and coming out of the tombs after his resurrection they..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "When the morning was come (πρωΐας δὲ γενομένης)—The Sanhedrin reconvened at daybreak to give...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Matthew: When the morning was come, all the chief pries...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "συμβούλιον: counsel - advisement; specially, a deliberative body, i.e., the provincial assess...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does the collaboration of Jewish religious leaders and Roman political power teach about...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Origen of Alexandria on COMMENTARY ON MATTHEW 125: What can be said about the reed they place...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        11,
+        27,
+        29,
+        30,
+        37,
+        38,
+        42
+      ],
+      "versePhrases": {
+        "11": [
+          "King"
+        ],
+        "27": [
+          "Then the soldiers of the governor took Jesus into the..."
+        ],
+        "29": [
+          "King"
+        ],
+        "30": [
+          "And they spit on him and took the reed and..."
+        ],
+        "37": [
+          "King"
+        ],
+        "38": [
+          "Then two robbers were crucified with him, one on the..."
+        ],
+        "42": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Matthew 2:2",
+          "anchorVerse": 11,
+          "referenceLabel": "Matthew 2:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Art thou the King of the Jews? And Jesus said unto him, Thou sayest (Σὺ λέγεις)—Pilate's ques...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Matthew: \"And Jesus stood before the governor, and the govern...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "βασιλεὺς: the King - a sovereign (abstractly, relatively, or figuratively)",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Thomas Aquinas on Commentary on Matthew: \"And coming out of the tombs after his resurrection,...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        10,
+        19,
+        21,
+        23,
+        24,
+        26,
+        32,
+        43,
+        46,
+        50,
+        51,
+        52,
+        53
+      ],
+      "versePhrases": {
+        "6": [
+          "But the chief priests, taking the pieces of silver, said,..."
+        ],
+        "7": [
+          "So they took counsel and bought with them the potter's..."
+        ],
+        "8": [
+          "Therefore that field has been called the Field of Blood..."
+        ],
+        "10": [
+          "and they gave them for the potter's field, as the..."
+        ],
+        "19": [
+          "righteous"
+        ],
+        "21": [
+          "The governor again said to them, “Which of the two..."
+        ],
+        "23": [
+          "And he said, “Why"
+        ],
+        "24": [
+          "So when Pilate saw that he was gaining nothing, but..."
+        ],
+        "26": [
+          "Then he released for them Barabbas, and having scourged Jesus,..."
+        ],
+        "32": [
+          "As they went out, they found a man of Cyrene,..."
+        ],
+        "43": [
+          "He trusts in God"
+        ],
+        "46": [
+          "And about the ninth hour Jesus cried out with a..."
+        ],
+        "50": [
+          "And Jesus cried out again with a loud voice and..."
+        ],
+        "51": [
+          "And behold, the curtain of the temple was torn in..."
+        ],
+        "52": [
+          "The tombs also were opened"
+        ],
+        "53": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "It is not lawful for us to put them into the treasury, because it is the price of blood —The...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Origen of Alexandria on Catena Aurea by Aquinas: They thought it meet to spend upon the dead...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How does the chief priests' scrupulous concern about blood money while orchestrating Jesus' m...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "GK Chesterton on Alarms and Discursions, The Field of Blood (1910): In my daily paper this mo...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

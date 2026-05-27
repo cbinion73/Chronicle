@@ -1,0 +1,168 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 7,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:31.355Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 11 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: Worthy of my beloved to drink, etc. Wine, he says, t...\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "Your navel is a rounded goblet"
+        ],
+        "3": [
+          "Your two breasts are like two fawns, Twins of a..."
+        ],
+        "5": [
+          "Your head crowns you like Mount Carmel, And the hair..."
+        ],
+        "6": [
+          "love"
+        ],
+        "7": [
+          "This stature of yours is like a palm tree, And..."
+        ],
+        "8": [
+          "I said, “I will go up to the palm tree,..."
+        ],
+        "9": [
+          "beloved"
+        ],
+        "10": [
+          "beloved"
+        ],
+        "11": [
+          "beloved"
+        ],
+        "12": [
+          "love"
+        ],
+        "13": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In agricultural ancient Israel, wheat was the primary grain staple, representing sustenance a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Your belly is like a heap of wheat surrounded by lil...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Thy two breasts are like two young roes that are twins (שְׁנֵי שָׁדַיִךְ כִּשְׁנֵי עֳפָרִים ת...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Robert of Tombelaine on Commentary on the Song of Songs, Chapter 7: The two breasts are two p...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local cross references and verse commentary data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: And the smell of your breath is like apples, etc. In...\".",
+      "supportingVerses": [
+        4,
+        8,
+        13
+      ],
+      "versePhrases": {
+        "4": [
+          "Your neck is like an ivory tower, Your eyes like..."
+        ],
+        "8": [
+          "breath"
+        ],
+        "13": [
+          "The mandrakes give off a fragrance, And at our gates..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Heshbon was conquered by Israel from the Amorites (Numbers 21:25-26) and allotted to Reuben a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Your eyes are like the pools in Heshbon, etc. The sa...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Commentary on the Song of Songs: And the smell of your breath is like apples, etc. In...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old,...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local cross references and verse commentary data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on the Song of Songs: Your head is like Carmel, etc. In the head of the br...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Thine head upon thee is like Carmel (רֹאשֵׁךְ עָלַיִךְ כַּכַּרְמֶל)—Mount Carmel was famous f...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Your head is like Carmel, etc. In the head of the br...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 19,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:29.896Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verset 5 et suiv.) And the sea water will dry up, and the ri...\". Word-study detail reinforces \"קַל֙: upon a swift - light; (by implication) rapid (also adverbial)\".",
+      "supportingVerses": [
+        1,
+        5,
+        8,
+        11,
+        13,
+        18,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "An oracle concerning Egypt"
+        ],
+        "5": [
+          "waters"
+        ],
+        "8": [
+          "The fishermen will mourn and lament, all who cast a..."
+        ],
+        "11": [
+          "The princes of Zoan are utterly foolish"
+        ],
+        "13": [
+          "made"
+        ],
+        "18": [
+          "In that day there will be five cities in the..."
+        ],
+        "24": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: The burden of Egypt. In this part, he threatens the d...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קַל֙: upon a swift - light; (by implication) rapid (also adverbial)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "'And the waters shall fail from the sea, and the river shall be wasted and dried up.' The Nil...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verset 5 et suiv.) And the sea water will dry up, and the ri...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on St. Jerome, Commentary on Daniel, CHAPTER ELEVEN: [Daniel 11:13-14] \"And the king o...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        4,
+        11,
+        19,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "2": [
+          "kingdom"
+        ],
+        "4": [
+          "king"
+        ],
+        "11": [
+          "a son of ancient kings”?"
+        ],
+        "19": [
+          "In that day there will be an altar to the..."
+        ],
+        "24": [
+          "In that day Israel will be the third with Egypt..."
+        ],
+        "25": [
+          "whom the Lord of hosts has blessed, saying, “Blessed be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Matthew 12:25",
+          "anchorVerse": 2,
+          "referenceLabel": "Matthew 12:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "'And I will set the Egyptians against the Egyptians: and they shall fight every one against h...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Version 2.) And I will make the Egyptians fight against the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּמַמְלָכָֽה׃: against kingdom - dominion, i.e., (abstractly) the estate (rule) or (concrete...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"'Where are they? where are thy wise men? and let them tell thee now, and let them know what t...\". Word-study detail reinforces \"חֲכָמִ֥ים: of the wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        3,
+        11,
+        12,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "counsel"
+        ],
+        "11": [
+          "wise",
+          "counsel"
+        ],
+        "12": [
+          "wise"
+        ],
+        "17": [
+          "And the land of Judah will become a terror to..."
+        ],
+        "21": [
+          "And the Lord will make himself known to the Egyptians,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "'And the spirit of Egypt shall fail in the midst thereof; and I will destroy the counsel ther...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: He sets out the diversity of wills: the spirit, that...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וַעֲצָת֖וֹ: the counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "'Surely the princes of Zoan are fools, the counsel of the wise counsellors of Pharaoh is beco...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 16, 17.) On that day, Egypt will be like women, and it...\". Word-study detail reinforces \"וְחָרַ֣ד׀: and it shall be afraid - to shudder with terror; hence, to fear; also to hasten (w...\".",
+      "supportingVerses": [
+        11,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "11": [
+          "The princes of Zoan are utterly foolish"
+        ],
+        "16": [
+          "fear"
+        ],
+        "17": [
+          "fear",
+          "terror"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Why is 'the fear of the LORD' the necessary foundation for true wisdom?",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: The princes of Tanis are become fools. Here he sets o...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "'In that day shall Egypt be like unto women: and it shall be afraid and fear because of the s...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 16, 17.) On that day, Egypt will be like women, and it...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Aponius on EXPOSITION OF SONG OF SONGS, EPILOGUE 89-93: Like one body has five senses and fiv...\". Word-study detail reinforces \"עֵצָ֖ה: the counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "An oracle concerning Egypt"
+        ],
+        "3": [
+          "counsel"
+        ],
+        "5": [
+          "And the waters of the sea will be dried up,..."
+        ],
+        "6": [
+          "and its canals will become foul, and the branches of..."
+        ],
+        "7": [
+          "There will be bare places by the Nile, on the..."
+        ],
+        "8": [
+          "The fishermen will mourn and lament, all who cast a..."
+        ],
+        "9": [
+          "The workers in combed flax will be in despair, and..."
+        ],
+        "10": [
+          "Those who are the pillars of the land will be..."
+        ],
+        "11": [
+          "counsel"
+        ],
+        "12": [
+          "Where then are your wise men"
+        ],
+        "13": [
+          "The princes of Zoan have become fools, and the princes..."
+        ],
+        "14": [
+          "The Lord has mingled within her a spirit of confusion,..."
+        ],
+        "15": [
+          "And there will be nothing for Egypt that head or..."
+        ],
+        "16": [
+          "In that day the Egyptians will be like women, and..."
+        ],
+        "17": [
+          "And the land of Judah will become a terror to..."
+        ],
+        "18": [
+          "In that day there will be five cities in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does Yahweh riding clouds into Egypt teach about His sovereignty over pagan nations?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 11 (PSALM 77): Behold, the Lord has entered the Egypt of thi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "'And the spirit of Egypt shall fail in the midst thereof; and I will destroy the counsel ther...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: He sets out the diversity of wills: the spirit, that...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"'Whom the LORD of hosts shall bless, saying, Blessed be Egypt my people, and Assyria the work...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        18,
+        21,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "An oracle concerning Egypt"
+        ],
+        "18": [
+          "In that day there will be five cities in the..."
+        ],
+        "21": [
+          "And the Lord will make himself known to the Egyptians,..."
+        ],
+        "24": [
+          "blessing"
+        ],
+        "25": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Why does God intervene directly in nations outside His covenant people?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Eusebius of Caesarea on PROOF OF THE GOSPEL 8:5: Now one can consider that the prophecy has n...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "'In that day shall five cities in the land of Egypt speak the language of Canaan, and swear t...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: In that day. Here the consequence or the consolation...",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

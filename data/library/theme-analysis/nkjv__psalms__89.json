@@ -1,0 +1,590 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 89,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:05.536Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 21 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 89: These promises, so sure, so firm, so open, so u...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        47,
+        49,
+        52
+      ],
+      "versePhrases": {
+        "1": [
+          "I will sing of the mercies of the Lord forever"
+        ],
+        "2": [
+          "For I have said, “Mercy shall be built up forever"
+        ],
+        "3": [
+          "covenant"
+        ],
+        "4": [
+          "‘Your seed I will establish forever, And build up your..."
+        ],
+        "8": [
+          "O Lord God of hosts, Who is mighty like You,..."
+        ],
+        "28": [
+          "covenant"
+        ],
+        "30": [
+          "“If his sons forsake My law And do not walk..."
+        ],
+        "31": [
+          "If they break My statutes And do not keep My..."
+        ],
+        "32": [
+          "Then I will punish their transgression with the rod, And..."
+        ],
+        "33": [
+          "Nevertheless My lovingkindness I will not utterly take from him,..."
+        ],
+        "34": [
+          "covenant"
+        ],
+        "35": [
+          "Once I have sworn by My holiness"
+        ],
+        "38": [
+          "But You have cast off and abhorred, You have been..."
+        ],
+        "39": [
+          "covenant"
+        ],
+        "40": [
+          "You have broken down all his hedges"
+        ],
+        "42": [
+          "You have exalted the right hand of his adversaries"
+        ],
+        "43": [
+          "You have also turned back the edge of his sword,..."
+        ],
+        "44": [
+          "You have made his glory cease, And cast his throne..."
+        ],
+        "47": [
+          "Remember how short my time is"
+        ],
+        "49": [
+          "Lord, where are Your former lovingkindnesses, Which You swore to..."
+        ],
+        "52": [
+          "Blessed be the Lord forevermore! Amen and Amen"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ethan the Ezrahite wrote during catastrophic defeat, likely Judah's exile. The Davidic covena...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on DIALOGUE 1: Orthodoxos: Listen now how the prophet praises God at the v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For I have said, Mercy shall be built up for ever (חֶסֶד לְעוֹלָם יִבָּנֶה)—The psalmist decl...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theodoret of Cyrus on DIALOGUE 1: Orthodoxos: Listen now how the prophet praises God at the v...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 18 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 89: \"For You have said, Mercy shall be built up for...\". Word-study detail reinforces \"וֶ֝אֱמֶ֗ת: and truth - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        14,
+        19,
+        20,
+        24,
+        27,
+        28,
+        33,
+        37,
+        38,
+        40,
+        48,
+        49
+      ],
+      "versePhrases": {
+        "1": [
+          "faithfulness"
+        ],
+        "2": [
+          "faithfulness"
+        ],
+        "4": [
+          "‘Your seed I will establish forever, And build up your..."
+        ],
+        "5": [
+          "faithfulness"
+        ],
+        "6": [
+          "For who in the heavens can be compared to the..."
+        ],
+        "8": [
+          "faithfulness"
+        ],
+        "14": [
+          "truth"
+        ],
+        "19": [
+          "Then You spoke in a vision to Your holy one,..."
+        ],
+        "20": [
+          "I have found My servant David"
+        ],
+        "24": [
+          "faithfulness"
+        ],
+        "27": [
+          "Also I will make him My firstborn, The highest of..."
+        ],
+        "28": [
+          "My mercy I will keep for him forever, And My..."
+        ],
+        "33": [
+          "faithfulness"
+        ],
+        "37": [
+          "faithful"
+        ],
+        "38": [
+          "But You have cast off and abhorred, You have been..."
+        ],
+        "40": [
+          "You have broken down all his hedges"
+        ],
+        "48": [
+          "What man can live and not see death"
+        ],
+        "49": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The psalm begins with exuberant praise: \"I will sing of the mercies of the LORD for ever: wit...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on DIALOGUE 1: Orthodoxos: Listen now how the prophet praises God at the v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֱמוּנָתְךָ֣: thy faithfulness - literally firmness; figuratively security; morally fidelity",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For I have said, Mercy shall be built up for ever (חֶסֶד לְעוֹלָם יִבָּנֶה)—The psalmist decl...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"His seed also will I make to endure for ever, and his throne as the days of heaven. This vers...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        14,
+        18,
+        20,
+        27,
+        29,
+        36,
+        37,
+        38,
+        41,
+        42,
+        43,
+        44,
+        45,
+        49
+      ],
+      "versePhrases": {
+        "1": [
+          "I will sing of the mercies of the Lord forever"
+        ],
+        "2": [
+          "For I have said, “Mercy shall be built up forever"
+        ],
+        "4": [
+          "throne"
+        ],
+        "14": [
+          "throne"
+        ],
+        "18": [
+          "king"
+        ],
+        "20": [
+          "I have found My servant David"
+        ],
+        "27": [
+          "The highest of the kings of the earth"
+        ],
+        "29": [
+          "throne"
+        ],
+        "36": [
+          "throne"
+        ],
+        "37": [
+          "It shall be established forever like the moon, Even like..."
+        ],
+        "38": [
+          "But You have cast off and abhorred, You have been..."
+        ],
+        "41": [
+          "All who pass by the way plunder him"
+        ],
+        "42": [
+          "You have exalted the right hand of his adversaries"
+        ],
+        "43": [
+          "You have also turned back the edge of his sword,..."
+        ],
+        "44": [
+          "throne"
+        ],
+        "45": [
+          "The days of his youth You have shortened"
+        ],
+        "49": [
+          "Lord, where are Your former lovingkindnesses, Which You swore to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does the New Testament reveal that God's covenant with David was never broken but fulfill...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on DIALOGUE 1: Orthodoxos: Listen now how the prophet praises God at the v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 89 is a Maschil (instructional psalm) of Ethan the Ezrahite, likely written during the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theodoret of Cyrus on DIALOGUE 1: Orthodoxos: Listen now how the prophet praises God at the v...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 89: \"O remember what my substance is\" [Psalm 89:47]...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        11,
+        12,
+        15,
+        27,
+        37,
+        39,
+        41,
+        42,
+        43,
+        44,
+        47
+      ],
+      "versePhrases": {
+        "2": [
+          "heavens"
+        ],
+        "3": [
+          "made"
+        ],
+        "4": [
+          "‘Your seed I will establish forever, And build up your..."
+        ],
+        "5": [
+          "heavens"
+        ],
+        "6": [
+          "heavens"
+        ],
+        "11": [
+          "heavens",
+          "earth"
+        ],
+        "12": [
+          "created"
+        ],
+        "15": [
+          "light"
+        ],
+        "27": [
+          "earth"
+        ],
+        "37": [
+          "It shall be established forever like the moon, Even like..."
+        ],
+        "39": [
+          "You have renounced the covenant of Your servant"
+        ],
+        "41": [
+          "All who pass by the way plunder him"
+        ],
+        "42": [
+          "made"
+        ],
+        "43": [
+          "You have also turned back the edge of his sword,..."
+        ],
+        "44": [
+          "made"
+        ],
+        "47": [
+          "created"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In what areas of life are you tempted to doubt God's faithfulness, and how does anchoring it...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 89: \"For You have said, Mercy shall be built up for...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "שָׁמַ֓יִם׀: in the very heavens - the sky (as aloft; the dual perhaps alluding to the visible...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "I have made a covenant with my chosen (כָּרַתִּי בְרִית לִבְחִירִי)—The verb karat (to cut) r...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Once have I sworn by my holiness that I will not lie unto David. God elevates His covenant pr...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        14,
+        16,
+        18,
+        19,
+        20,
+        35,
+        44,
+        45
+      ],
+      "versePhrases": {
+        "7": [
+          "God is greatly to be feared in the assembly of..."
+        ],
+        "14": [
+          "Righteousness"
+        ],
+        "16": [
+          "righteousness"
+        ],
+        "18": [
+          "Holy"
+        ],
+        "19": [
+          "holy"
+        ],
+        "20": [
+          "holy"
+        ],
+        "35": [
+          "holiness"
+        ],
+        "44": [
+          "You have made his glory cease, And cast his throne..."
+        ],
+        "45": [
+          "The days of his youth You have shortened"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "God is greatly to be feared in the assembly of the saints (אֵל נַעֲרָץ בְּסוֹד־קְדֹשִׁים רַבָ...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on HOMILIES ON REPENTENCE AND ALMSGIVING 7:5: O such strictness toward the ri...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 97:2",
+          "anchorVerse": 14,
+          "referenceLabel": "Psalms 97:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "This verse describes God's throne: \"Justice and judgment are the habitation of thy throne: me...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 89: \"My truth also and My mercy is with Him\" [Psalm...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        2,
+        14,
+        24,
+        28,
+        31,
+        32,
+        33
+      ],
+      "versePhrases": {
+        "1": [
+          "I will sing of the mercies of the Lord forever"
+        ],
+        "2": [
+          "Mercy"
+        ],
+        "14": [
+          "Mercy"
+        ],
+        "24": [
+          "mercy"
+        ],
+        "28": [
+          "mercy"
+        ],
+        "31": [
+          "If they break My statutes And do not keep My..."
+        ],
+        "32": [
+          "Then I will punish their transgression with the rod, And..."
+        ],
+        "33": [
+          "lovingkindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ethan the Ezrahite wrote during catastrophic defeat, likely Judah's exile. The Davidic covena...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 89: Understand, beloved, this Psalm, which I am abo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 103:17",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 103:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For I have said, Mercy shall be built up for ever (חֶסֶד לְעוֹלָם יִבָּנֶה)—The psalmist decl...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

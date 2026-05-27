@@ -1,0 +1,387 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 34,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:26.631Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Then Shaphan the scribe told the king, saying, Hilkiah the priest hath given me a book. And S...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        8,
+        11,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        26,
+        28,
+        29,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "reign"
+        ],
+        "8": [
+          "reign"
+        ],
+        "11": [
+          "and to make beams for the houses which the kings of Judah had let go to ruin"
+        ],
+        "16": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ],
+        "23": [
+          "Then she said to them, “This is what the Lord,..."
+        ],
+        "24": [
+          "king"
+        ],
+        "26": [
+          "king"
+        ],
+        "28": [
+          "king"
+        ],
+        "29": [
+          "king"
+        ],
+        "30": [
+          "king"
+        ],
+        "31": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 1:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 1:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Josiah was eight years old when he began to reign, and he reigned in Jerusalem one and thirty...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֖ךְ: and he reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For in the eighth year of his reign, while he was yet young, he began to seek after the God o...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And they brake down the altars of Baalim in his presence; and the images, that were on high a...\". Word-study detail reinforces \"וְיֹֽשְׁבֵ֣י: and the inhabitants - properly, to sit down (specifically as judge. in ambush,...\".",
+      "supportingVerses": [
+        4,
+        18,
+        24,
+        30
+      ],
+      "versePhrases": {
+        "4": [
+          "presence"
+        ],
+        "18": [
+          "presence"
+        ],
+        "24": [
+          "presence"
+        ],
+        "30": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And they brake down the altars of Baalim in his presence; and the images, that were on high a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "פְּנֵ֣י: in his presence - the face (as the part that turns); used in a great variety of appl...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "יֽוֹשְׁבָ֑יו: and upon the inhabitants - properly, to sit down (specifically as judge. in amb...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "וְיֹֽשְׁבֵ֣י: and the inhabitants - properly, to sit down (specifically as judge. in ambush,...",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And the king stood in his place, and made a covenant before the LORD, to walk after the LORD,...\". Word-study detail reinforces \"מִצְוֹתָיו֙: his commandments - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        9,
+        21,
+        31
+      ],
+      "versePhrases": {
+        "9": [
+          "the doorkeepers"
+        ],
+        "21": [
+          "kept"
+        ],
+        "31": [
+          "keep",
+          "statutes"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does this verse illustrate the principle of divine retribution (blessing for obedience, j...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "שֹֽׁמְרֵ֨י: that kept - properly, to hedge about (as with thorns), i.e., guard; generally, to...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "How does this verse illustrate the principle of divine retribution (blessing for obedience, j...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "שָׁמְר֤וּ: have not kept - properly, to hedge about (as with thorns), i.e., guard; generally,...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And the king stood in his place, and made a covenant before the LORD, to walk after the LORD,...\". Word-study detail reinforces \"הָאֲרָצוֹת֮: out of all the countries - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        31,
+        32,
+        33
+      ],
+      "versePhrases": {
+        "31": [
+          "made"
+        ],
+        "32": [
+          "made"
+        ],
+        "33": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "And the king stood in his place, and made a covenant before the LORD, to walk after the LORD,...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "הַבְּרִ֔ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "כִּבְרִ֥ית: according to the covenant - a compact (because made by passing between pieces of...",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 33 commentary",
+          "detail": "And Josiah took away all the abominations out of all the countries that pertained to the chil...",
+          "anchorVerse": 33
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        30,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "30": [
+          "Covenant"
+        ],
+        "31": [
+          "covenant"
+        ],
+        "32": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "2 Kings 23:2",
+          "anchorVerse": 30,
+          "referenceLabel": "2 Kings 23:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "הַבְּרִ֔ית: of the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "2 Chronicles 23:16",
+          "anchorVerse": 31,
+          "referenceLabel": "2 Chronicles 23:16"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Because they have forsaken me, and have burned incense unto other gods, that they might provo...\". Word-study detail reinforces \"חֲמַת: is the wrath - heat; figuratively, anger, poison (from its fever)\".",
+      "supportingVerses": [
+        9,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28,
+        30,
+        32
+      ],
+      "versePhrases": {
+        "9": [
+          "They came to Hilkiah the high priest and gave him..."
+        ],
+        "21": [
+          "wrath"
+        ],
+        "22": [
+          "So Hilkiah and those whom the king had told went..."
+        ],
+        "24": [
+          "this is what the Lord says"
+        ],
+        "25": [
+          "wrath"
+        ],
+        "27": [
+          "“Because your heart was tender and you humbled yourself before..."
+        ],
+        "28": [
+          "“Behold, I will gather you to your fathers, and you..."
+        ],
+        "30": [
+          "The king went up to the house of the Lord..."
+        ],
+        "32": [
+          "Furthermore, he made all who were present in Jerusalem and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And when they came to Hilkiah the high priest, they delivered the money that was brought into...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וַיָּשֻׁ֖ביּ: - properly, to sit down (specifically as judge. in ambush, in quiet); by implic...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "Go, enquire of the LORD for me, and for them that are left in Israel and in Judah, concerning...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "חֲמַת: is the wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

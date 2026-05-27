@@ -1,0 +1,336 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 22,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:46.744Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And it came to pass, that, as I made my journey, and was come nigh unto Damascus about noon,...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        6,
+        9,
+        11,
+        22,
+        25
+      ],
+      "versePhrases": {
+        "6": [
+          "light"
+        ],
+        "9": [
+          "light"
+        ],
+        "11": [
+          "light"
+        ],
+        "22": [
+          "earth"
+        ],
+        "25": [
+          "But when they stretched him out with straps, Paul said..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And it came to pass, that, as I made my journey, and was come nigh unto Damascus about noon,...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on Homily on Acts 47: The rest, however, was without witnesses: \"From whom al...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "περιαστράψαι: round - to flash all around, i.e., envelop in light",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Acts 26:13",
+          "anchorVerse": 9,
+          "referenceLabel": "Acts 26:13"
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Paul's Testimony of Persecution: The phrase \"this way\" ( tēn hodon tautēn ) was an early desi...\". Word-study detail reinforces \"μαρτυρίαν: testimony - evidence given (judicially or genitive case)\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        9,
+        12,
+        17,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "4": [
+          "I persecuted this Way to the death, binding and putting..."
+        ],
+        "5": [
+          "as also the high priest and all the Council of..."
+        ],
+        "6": [
+          "“But it happened that as I was on my way,..."
+        ],
+        "9": [
+          "And those who were with me saw the light, but..."
+        ],
+        "12": [
+          "“Now a certain Ananias, a man who was devout by..."
+        ],
+        "17": [
+          "“It happened when I returned to Jerusalem and was praying..."
+        ],
+        "18": [
+          "testimony"
+        ],
+        "19": [
+          "And I said, ‘Lord, they themselves understand that in one..."
+        ],
+        "20": [
+          "And when the blood of Your witness Stephen was being..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Paul's Testimony of Persecution: The phrase \"this way\" ( tēn hodon tautēn ) was an early desi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on CATENA ON THE ACTS OF THE APOSTLES 22.4-5: He brings forward as witnesses...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The high priest doth bear me witness (μαρτυρεῖ μοι)—Paul invokes living eyewitnesses to verif...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on BAPTISMAL INSTRUCTIONS 4.8: Did you see how by his very experience in thes...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on BAPTISMAL INSTRUCTIONS 4.8: Did you see how by his very experience in thes...\". Word-study detail reinforces \"χειραγωγούμενος: being led by the hand - to be a hand-leader, i.e., to guide (a blind person)\".",
+      "supportingVerses": [
+        3,
+        5,
+        11,
+        18,
+        29
+      ],
+      "versePhrases": {
+        "3": [
+          "“I am a Jew, born in Tarsus of Cilicia, but..."
+        ],
+        "5": [
+          "as also the high priest and all the Council of..."
+        ],
+        "11": [
+          "led"
+        ],
+        "18": [
+          "and I saw Him saying to me, ‘Hurry and get..."
+        ],
+        "29": [
+          "Therefore, those who were about to interrogate him immediately backed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Studying under Gamaliel (ca. AD 22-30) placed Paul at Judaism's intellectual apex. Gamaliel t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 47: \"I am a man,\" he says, \"which am a Jew:\" which thing th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "πεπαιδευμένος: and taught - to train up a child, i.e., educate, or (by implication), discipli...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on BAPTISMAL INSTRUCTIONS 4.8: Did you see how by his very experience in thes...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on CATENA ON THE ACTS OF THE APOSTLES 22.3: He does not simply say “the law”...\".",
+      "supportingVerses": [
+        3,
+        9,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "“I am a Jew, born in Tarsus of Cilicia, but..."
+        ],
+        "9": [
+          "understand"
+        ],
+        "19": [
+          "understand"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Born in Tarsus —Paul claims both Jewish purity and Roman citizenship (21:39). Tarsus was a ma...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on CATENA ON THE ACTS OF THE APOSTLES 22.3: He does not simply say “the law”...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "They that were with me saw indeed the light (τὸ μὲν φῶς ἐθεάσαντο)—Paul's companions witnesse...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Arator on ON THE ACTS OF THE APOSTLES 2: Paul, speaking of his deeds, says that his companion...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on Homily on Acts 48: \"When the centurion heard that, he went and told the tr...\". Word-study detail reinforces \"ἔμφοβοι: afraid - in fear, i.e., alarmed\".",
+      "supportingVerses": [
+        9,
+        29
+      ],
+      "versePhrases": {
+        "9": [
+          "And those who were with me saw the light, but..."
+        ],
+        "29": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on Acts 47: \"And they that were with me saw indeed the light, and w...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "ἔμφοβοι: afraid - in fear, i.e., alarmed",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "Then straightway they departed from him which should have examined him —The men who were abou...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 29 historical",
+          "detail": "John Chrysostom on Homily on Acts 48: \"When the centurion heard that, he went and told the tr...",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Retractions on Acts: And those who were with me indeed saw the light. And in Greek it...\". Word-study detail reinforces \"μοι: with me - to me\".",
+      "supportingVerses": [
+        9,
+        11
+      ],
+      "versePhrases": {
+        "9": [
+          "with me"
+        ],
+        "11": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The multiple travelers to Damascus (likely temple guards or synagogue officials) served as un...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Retractions on Acts: And those who were with me indeed saw the light. And in Greek it...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "John Chrysostom on Homily on Acts 47: \"And when I could not see for the glory of that light,...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "μοι: with me - to me",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

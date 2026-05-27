@@ -1,0 +1,411 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 32,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:55.047Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 17) Alas, alas, alas, O Lord God (or who you are, O...\". Word-study detail reinforces \"הָאָ֔רֶץ: and the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        15,
+        17,
+        20,
+        22,
+        23,
+        27,
+        37,
+        40
+      ],
+      "versePhrases": {
+        "15": [
+          "For this is what the Lord of armies, the God..."
+        ],
+        "17": [
+          "made",
+          "heavens",
+          "earth"
+        ],
+        "20": [
+          "made"
+        ],
+        "22": [
+          "and You gave them this land, which You swore to..."
+        ],
+        "23": [
+          "made"
+        ],
+        "27": [
+          "“Behold, I am the Lord, the God of all flesh"
+        ],
+        "37": [
+          "Behold, I am going to gather them out of all..."
+        ],
+        "40": [
+          "I will make an everlasting covenant with them that I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "After completing the transaction and sealing the deed, Jeremiah explains the symbolic signifi...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 13 and following) And I commanded Baruch before them...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "בָּאָ֥רֶץ: in this land - the earth (at large, or partitively a land)",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "After completing the purchase, Jeremiah prays, beginning with worship of God as Creator. 'Tho...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Chapter XXXII, verse 1 and following). The word that was s...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        28,
+        32,
+        36
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "28": [
+          "king"
+        ],
+        "32": [
+          "their kings"
+        ],
+        "36": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 25:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 25:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Zedekiah (597-586 BC) was Judah's last king, installed by Nebuchadnezzar after deporting Jeho...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter XXXII, verse 1 and following). The word that was s...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 40) And I will make an everlasting covenant with the...\". Word-study detail reinforces \"וּבְמוֹרָ֖א: terror - fear; by implication, a fearful thing or deed\".",
+      "supportingVerses": [
+        21,
+        37,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "21": [
+          "terror"
+        ],
+        "37": [
+          "Behold, I am going to gather them out of all..."
+        ],
+        "39": [
+          "fear"
+        ],
+        "40": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "And hast brought forth thy people Israel out of the land of Egypt with signs, and with wonder...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 21) You brought your people Israel out of the land o...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "וּבְמוֹרָ֖א: terror - fear; by implication, a fearful thing or deed",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 37 commentary",
+          "detail": "God promises comprehensive restoration: gathering from 'all countries,' bringing them back to...",
+          "anchorVerse": 37
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Jeremiah's prayer wrestles with the theological problem facing his generation: they were expe...\". Word-study detail reinforces \"וּבְקֶ֣צֶף: wrath - a splinter (as chipped off)\".",
+      "supportingVerses": [
+        4,
+        5,
+        18,
+        19,
+        29,
+        31,
+        32,
+        35,
+        37,
+        38,
+        39
+      ],
+      "versePhrases": {
+        "4": [
+          "and Zedekiah king of Judah will not escape from the..."
+        ],
+        "5": [
+          "Then he will take Zedekiah to Babylon, and he will..."
+        ],
+        "18": [
+          "who shows mercy to thousands, but repays the wrongdoing of..."
+        ],
+        "19": [
+          "great in counsel and mighty in deed, whose eyes are..."
+        ],
+        "29": [
+          "And the Chaldeans who are fighting against this city will..."
+        ],
+        "31": [
+          "wrath"
+        ],
+        "32": [
+          "because of all the evil of the sons of Israel..."
+        ],
+        "35": [
+          "They built the high places of Baal that are in..."
+        ],
+        "37": [
+          "wrath"
+        ],
+        "38": [
+          "They shall be My people, and I will be their..."
+        ],
+        "39": [
+          "and I will give them one heart and one way,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Shall not escape (לֹא יִמָּלֵט, lo yimmalet )—emphatic negation. Despite Zedekiah's desperate...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verses 4, 5) Behold, I will give this city into the hand o...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Until I visit him (עַד־פָּקְדִי אֹתוֹ, ad-pokdi oto )—The verb paqad means to attend to, visi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verses 4, 5) Behold, I will give this city into the hand o...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"God specifies the exact transaction: Hanamel will offer his field in Anathoth, and Jeremiah h...\". Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10,
+        16,
+        20,
+        36
+      ],
+      "versePhrases": {
+        "7": [
+          "redemption"
+        ],
+        "8": [
+          "redemption"
+        ],
+        "9": [
+          "“So I bought the field which was in Anathoth from..."
+        ],
+        "10": [
+          "And I signed and sealed the deed, and called in..."
+        ],
+        "16": [
+          "“After giving the deed of purchase to Baruch the son..."
+        ],
+        "20": [
+          "who has accomplished signs and wonders in the land of..."
+        ],
+        "36": [
+          "“Now therefore the Lord God of Israel says the following..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Leviticus 25:25",
+          "anchorVerse": 7,
+          "referenceLabel": "Leviticus 25:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "God specifies the exact transaction: Hanamel will offer his field in Anathoth, and Jeremiah h...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Version 6, 7.) And Jeremiah said: The word of the Lord cam...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "הַגְּאֻלָּ֖ה: of redemption - redemption (including the right and the object); by implication...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"God promises an 'everlasting covenant' that cannot be broken. Unlike the Mosaic covenant whic...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        16,
+        23,
+        37,
+        38,
+        39,
+        40,
+        42
+      ],
+      "versePhrases": {
+        "16": [
+          "“After giving the deed of purchase to Baruch the son..."
+        ],
+        "23": [
+          "They came in and took possession of it, but they..."
+        ],
+        "37": [
+          "Behold, I am going to gather them out of all..."
+        ],
+        "38": [
+          "They shall be My people, and I will be their..."
+        ],
+        "39": [
+          "and I will give them one heart and one way,..."
+        ],
+        "40": [
+          "covenant"
+        ],
+        "42": [
+          "For this is what the Lord says"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "This prayer occurred during the final months of Judah's existence as an independent kingdom (...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 16) And I prayed to the Lord after I had delivered t...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "And they came in, and possessed it; but they obeyed not thy voice, neither walked in thy law...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 23) And they entered and took possession of it, but...",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

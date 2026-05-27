@@ -1,0 +1,646 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 37,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:45.774Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 32 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 30 and following) When...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "1": [
+          "Do not fret because of evildoers, Nor be envious of..."
+        ],
+        "4": [
+          "And He shall give you the desires of your heart"
+        ],
+        "5": [
+          "Commit your way to the Lord, Trust also in Him,..."
+        ],
+        "6": [
+          "righteousness",
+          "justice"
+        ],
+        "7": [
+          "Rest in the Lord, and wait patiently for Him"
+        ],
+        "8": [
+          "Cease from anger, and forsake wrath"
+        ],
+        "9": [
+          "For evildoers shall be cut off"
+        ],
+        "10": [
+          "For yet a little while and the wicked shall be..."
+        ],
+        "12": [
+          "just"
+        ],
+        "14": [
+          "upright"
+        ],
+        "15": [
+          "Their sword shall enter their own heart"
+        ],
+        "16": [
+          "righteous"
+        ],
+        "17": [
+          "righteous"
+        ],
+        "18": [
+          "upright"
+        ],
+        "19": [
+          "They shall not be ashamed in the evil time, And..."
+        ],
+        "21": [
+          "righteous"
+        ],
+        "23": [
+          "The steps of a good man are ordered by the..."
+        ],
+        "24": [
+          "Though he fall, he shall not be utterly cast down"
+        ],
+        "25": [
+          "righteous"
+        ],
+        "26": [
+          "He is ever merciful, and lends"
+        ],
+        "27": [
+          "Depart from evil, and do good"
+        ],
+        "28": [
+          "justice"
+        ],
+        "29": [
+          "righteous"
+        ],
+        "30": [
+          "righteous",
+          "justice"
+        ],
+        "31": [
+          "The law of his God is in his heart"
+        ],
+        "32": [
+          "righteous"
+        ],
+        "33": [
+          "The Lord will not leave him in his hand, Nor..."
+        ],
+        "35": [
+          "I have seen the wicked in great power, And spreading..."
+        ],
+        "36": [
+          "Yet he passed away, and behold, he was no more"
+        ],
+        "37": [
+          "upright",
+          "blameless"
+        ],
+        "39": [
+          "righteous"
+        ],
+        "40": [
+          "And the Lord shall help them and deliver them"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David wrote this in his old age (v. 25), reflecting on a lifetime of observing God's justice....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 1) He says, 'Do not env...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Psalm 37 is an acrostic wisdom psalm attributed to David in his old age (v. 25 suggests an el...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Delight.\" And regarding this he does tw...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 25 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 25.) And therefore the...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        37,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "5": [
+          "Commit your way to the Lord, Trust also in Him,..."
+        ],
+        "6": [
+          "righteousness"
+        ],
+        "7": [
+          "Rest in the Lord, and wait patiently for Him"
+        ],
+        "8": [
+          "Cease from anger, and forsake wrath"
+        ],
+        "9": [
+          "For evildoers shall be cut off"
+        ],
+        "10": [
+          "For yet a little while and the wicked shall be..."
+        ],
+        "14": [
+          "The wicked have drawn the sword And have bent their..."
+        ],
+        "16": [
+          "righteous"
+        ],
+        "17": [
+          "righteous"
+        ],
+        "18": [
+          "The Lord knows the days of the upright, And their..."
+        ],
+        "19": [
+          "They shall not be ashamed in the evil time, And..."
+        ],
+        "21": [
+          "righteous"
+        ],
+        "23": [
+          "The steps of a good man are ordered by the..."
+        ],
+        "24": [
+          "Though he fall, he shall not be utterly cast down"
+        ],
+        "25": [
+          "righteous"
+        ],
+        "26": [
+          "He is ever merciful, and lends"
+        ],
+        "28": [
+          "For the Lord loves justice, And does not forsake His..."
+        ],
+        "29": [
+          "righteous"
+        ],
+        "30": [
+          "righteous"
+        ],
+        "31": [
+          "The law of his God is in his heart"
+        ],
+        "32": [
+          "righteous"
+        ],
+        "33": [
+          "The Lord will not leave him in his hand, Nor..."
+        ],
+        "37": [
+          "Mark the blameless man, and observe the upright"
+        ],
+        "39": [
+          "righteous"
+        ],
+        "40": [
+          "And the Lord shall help them and deliver them"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This didactic psalm from David's mature years addresses a perennial question in Israel's wisd...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 37: \"Behold\" (you say), \"I do long after it, I do a...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Isaiah 54:17",
+          "anchorVerse": 6,
+          "referenceLabel": "Isaiah 54:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "God will 'bring forth' (Hebrew 'yatsa,' cause to go out, produce) righteousness like dawn bre...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Hope in the Lord.\" And because temporal...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        7,
+        9,
+        15,
+        19,
+        23,
+        24,
+        25,
+        28,
+        29,
+        34,
+        35,
+        37,
+        40
+      ],
+      "versePhrases": {
+        "3": [
+          "Trust"
+        ],
+        "4": [
+          "Delight yourself also in the Lord, And He shall give..."
+        ],
+        "5": [
+          "Trust"
+        ],
+        "7": [
+          "Rest in the Lord, and wait patiently for Him"
+        ],
+        "9": [
+          "For evildoers shall be cut off"
+        ],
+        "15": [
+          "Their sword shall enter their own heart, And their bows..."
+        ],
+        "19": [
+          "They shall not be ashamed in the evil time, And..."
+        ],
+        "23": [
+          "The steps of a good man are ordered by the..."
+        ],
+        "24": [
+          "Though he fall, he shall not be utterly cast down"
+        ],
+        "25": [
+          "I have been young, and now am old"
+        ],
+        "28": [
+          "For the Lord loves justice, And does not forsake His..."
+        ],
+        "29": [
+          "The righteous shall inherit the land, And dwell in it..."
+        ],
+        "34": [
+          "Wait on the Lord, And keep His way, And He..."
+        ],
+        "35": [
+          "I have seen the wicked in great power, And spreading..."
+        ],
+        "37": [
+          "Mark the blameless man, and observe the upright"
+        ],
+        "40": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 62:8",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 62:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "After prohibitions (v. 1) and promises (v. 2), verse 3 gives positive commands: 'Trust' and '...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Hope in the Lord.\" And because temporal...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְּטַ֣ח: Trust - properly, to hie for refuge (but not so precipitately as h2620); figurativel...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 32, 33.) The more right...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13,
+        18,
+        20,
+        28,
+        30,
+        33,
+        35,
+        38
+      ],
+      "versePhrases": {
+        "1": [
+          "Do not fret because of evildoers, Nor be envious of..."
+        ],
+        "6": [
+          "justice"
+        ],
+        "7": [
+          "Rest in the Lord, and wait patiently for Him"
+        ],
+        "8": [
+          "wrath"
+        ],
+        "9": [
+          "For evildoers shall be cut off"
+        ],
+        "10": [
+          "For yet a little while and the wicked shall be..."
+        ],
+        "13": [
+          "The Lord laughs at him, For He sees that his..."
+        ],
+        "18": [
+          "The Lord knows the days of the upright, And their..."
+        ],
+        "20": [
+          "But the wicked shall perish"
+        ],
+        "28": [
+          "justice"
+        ],
+        "30": [
+          "justice"
+        ],
+        "33": [
+          "condemn"
+        ],
+        "35": [
+          "I have seen the wicked in great power, And spreading..."
+        ],
+        "38": [
+          "But the transgressors shall be destroyed together"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David wrote this in his old age (v. 25), reflecting on a lifetime of observing God's justice....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 37: \"Be not envious because of evil-doers, neither...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "1 Corinthians 4:5",
+          "anchorVerse": 6,
+          "referenceLabel": "1 Corinthians 4:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "God will 'bring forth' (Hebrew 'yatsa,' cause to go out, produce) righteousness like dawn bre...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Wait.\" The Psalmist has said much in th...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        6,
+        8,
+        9,
+        11,
+        22,
+        23,
+        29,
+        34
+      ],
+      "versePhrases": {
+        "1": [
+          "Do not fret because of evildoers, Nor be envious of..."
+        ],
+        "6": [
+          "light"
+        ],
+        "8": [
+          "Cease from anger, and forsake wrath"
+        ],
+        "9": [
+          "earth"
+        ],
+        "11": [
+          "earth"
+        ],
+        "22": [
+          "earth"
+        ],
+        "23": [
+          "And He delights in his way"
+        ],
+        "29": [
+          "The righteous shall inherit the land, And dwell in it..."
+        ],
+        "34": [
+          "Wait on the Lord, And keep His way, And He..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David wrote this in his old age (v. 25), reflecting on a lifetime of observing God's justice....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 1) He says, 'Do not env...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Isaiah 58:10",
+          "anchorVerse": 6,
+          "referenceLabel": "Isaiah 58:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "What comfort comes from knowing God will eventually bring your righteousness to light?",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 11.) But the meek shall...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        7,
+        10,
+        11,
+        16,
+        37,
+        38
+      ],
+      "versePhrases": {
+        "7": [
+          "Rest"
+        ],
+        "10": [
+          "For yet a little while and the wicked shall be..."
+        ],
+        "11": [
+          "peace"
+        ],
+        "16": [
+          "A little that a righteous man has Is better than..."
+        ],
+        "37": [
+          "peace"
+        ],
+        "38": [
+          "But the transgressors shall be destroyed together"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "'Rest in the LORD' (Hebrew 'damam,' be still, silent, quiet) and 'wait patiently' emphasize a...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "דּ֤וֹם׀: Rest - to be dumb; by implication, to be astonished, to stop; also to perish",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 37: \"But how long is the sinner to flourish? How lo...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְע֣וֹד: - properly, iteration or continuance; used only adverbially (with or without preposi...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

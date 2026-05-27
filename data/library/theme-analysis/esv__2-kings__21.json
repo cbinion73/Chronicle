@@ -1,0 +1,201 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 21,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:13.578Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        11,
+        13,
+        17,
+        19,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "reign"
+        ],
+        "3": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "13": [
+          "And I will stretch over Jerusalem the measuring line of..."
+        ],
+        "17": [
+          "are they not written in the Book of the Chronicles of the Kings of Judah?"
+        ],
+        "19": [
+          "reign"
+        ],
+        "23": [
+          "king"
+        ],
+        "24": [
+          "King",
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Manasseh was twelve years old when he began to reign, and reigned fifty and five years in Jer...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֖ךְ: and reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For he built up again the high places which Hezekiah his father had destroyed; and he reared...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...\". Word-study detail reinforces \"יֹֽאשִׁיָּ֥הוּ: made Josiah - joshijah, the name of two israelites\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        11,
+        16,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "6": [
+          "And he burned his son as an offering and used..."
+        ],
+        "7": [
+          "made"
+        ],
+        "11": [
+          "made"
+        ],
+        "16": [
+          "made"
+        ],
+        "24": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For he built up again the high places which Hezekiah his father had destroyed; and he reared...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "עָשָׂ֗ה: and made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And he made his son pass through the fire, and observed times, and used enchantments, and dea...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Now the rest of the acts of Amon which he did, are they not written in the book of the chroni...\". Word-study detail reinforces \"וְיֶ֨תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...\".",
+      "supportingVerses": [
+        17,
+        25
+      ],
+      "versePhrases": {
+        "17": [
+          "rest"
+        ],
+        "25": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Now the rest of the acts of Manasseh, and all that he did, and his sin that he sinned, are th...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "וְיֶ֨תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "Now the rest of the acts of Amon which he did, are they not written in the book of the chroni...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "וְיֶ֛תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "led"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

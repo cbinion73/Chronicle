@@ -1,0 +1,90 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 120,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:37.903Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 120: \"With them that hated peace, I was peaceful\" [...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "peace"
+        ],
+        "7": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The lament continues: 'My soul hath long dwelt with him that hateth peace.' The word 'soul' (...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on LETTER 39.3: But why should that be hard to bear which we must one day ourselves en...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "שָׁלֽוֹם׃: peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfar...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Matthew 5:9",
+          "anchorVerse": 7,
+          "referenceLabel": "Matthew 5:9"
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Athanasius of Alexandria on Discourses Against the Arians 3.25.13: Therefore it was none othe...\". Word-study detail reinforces \"הַצִּ֣ילָה: Deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "rescue"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The specific distress emerges: the psalmist suffers from 'lying lips' and 'deceitful tongue.'...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Athanasius of Alexandria on Discourses Against the Arians 3.25.13: Therefore it was none othe...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַצִּ֣ילָה: Deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

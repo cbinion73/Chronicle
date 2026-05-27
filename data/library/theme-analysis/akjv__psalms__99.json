@@ -1,0 +1,309 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 99,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:22.084Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The call to praise God's 'great and terrible name' (gadol ve-nora) holds in tension His magni...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord reigneth"
+        ],
+        "3": [
+          "holy"
+        ],
+        "4": [
+          "righteousness"
+        ],
+        "5": [
+          "holy"
+        ],
+        "6": [
+          "Moses and Aaron among his priests, and Samuel among them..."
+        ],
+        "9": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The declaration 'The LORD reigneth' (Yahweh malak) opens this third consecutive enthronement...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 99: \"The Lord is King, be the people angry\" [Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 6:3",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 6:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The call to praise God's 'great and terrible name' (gadol ve-nora) holds in tension His magni...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 99: \"O magnify the Lord our God!\" [Psalm 99:9]. Aga...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord reigneth"
+        ],
+        "3": [
+          "holy"
+        ],
+        "4": [
+          "righteousness"
+        ],
+        "5": [
+          "holy"
+        ],
+        "9": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The declaration 'The LORD reigneth' (Yahweh malak) opens this third consecutive enthronement...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 99: \"The Lord is King, be the people angry\" [Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 6:3",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 6:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The call to praise God's 'great and terrible name' (gadol ve-nora) holds in tension His magni...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 99: \"O magnify the Lord our God!\" [Psalm 99:9]. Aga...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        3,
+        5,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "praise"
+        ],
+        "5": [
+          "worship"
+        ],
+        "9": [
+          "worship"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The call to praise God's 'great and terrible name' (gadol ve-nora) holds in tension His magni...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יוֹד֣וּ: Let them praise - physically, to throw (a stone, an arrow) at or away; especially to...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Worship",
+          "detail": "Psalms 132:7",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 132:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The command to 'exalt the LORD our God' (romemu Yahweh Elohenu) uses covenant language ('our...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 99: \"The Lord is King, be the people angry\" [Psalm...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord reigneth"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "Exalt ye the Lord our God, and worship at his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 97:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 97:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The ark of the covenant with its cherubim-adorned mercy seat represented God's throne in Isra...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 99: \"The Lord is King, be the people angry\" [Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָ֭לָךְ: reigneth - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The declaration that 'the king's strength also loveth judgment' presents God's power as being...\". Word-study detail reinforces \"וְ֝נֹקֵ֗ם: them though thou tookest vengeance - to grudge, i.e., avenge or punish\".",
+      "supportingVerses": [
+        4,
+        8
+      ],
+      "versePhrases": {
+        "4": [
+          "judgment"
+        ],
+        "8": [
+          "Thou answeredst them, O Lord our God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The declaration that 'the king's strength also loveth judgment' presents God's power as being...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וּ֝צְדָקָ֗ה: and righteousness - rightness (abstractly), subjectively (rectitude), objectivel...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "God being described as 'thou answeredst them' (anitam) while also being 'a God that forgavest...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 99: \"You heard them,\" he says, \"O Lord our God: You...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"God speaking 'in the cloudy pillar' recalls the wilderness wanderings when God's presence led...\". Word-study detail reinforces \"שָׁמְר֥וּ: they kept - properly, to hedge about (as with thorns), i.e., guard; generally, to...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "God speaking 'in the cloudy pillar' recalls the wilderness wanderings when God's presence led...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 99: \"Moses and Aaron among His priests, and Samuel...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "שָׁמְר֥וּ: they kept - properly, to hedge about (as with thorns), i.e., guard; generally, to...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

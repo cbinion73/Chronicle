@@ -1,0 +1,151 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 17,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:25.904Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"These waited on the king, beside those whom the king put in the fenced cities throughout all...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "He placed troops in all the fortified cities of Judah,..."
+        ],
+        "3": [
+          "And the Lord was with Jehoshaphat because he followed the..."
+        ],
+        "4": [
+          "but sought the God of his father, followed His commandments,..."
+        ],
+        "5": [
+          "kingdom"
+        ],
+        "6": [
+          "He took great pride in the ways of the Lord,..."
+        ],
+        "7": [
+          "reign"
+        ],
+        "10": [
+          "Now the dread of the Lord was on all the kingdoms of the lands which were around Judah"
+        ],
+        "19": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 15:24",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Kings 15:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And Jehoshaphat his son reigned in his stead, and strengthened himself against Israel. This v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיִּמְלֹ֛ךְ: reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he placed forces in all the fenced cities of Judah, and set garrisons in the land of Juda...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And they taught in Judah, and had the book of the law of the LORD with them, and went about t...\". Word-study detail reinforces \"לְלַמֵּ֖ד: to teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...\".",
+      "supportingVerses": [
+        7,
+        9
+      ],
+      "versePhrases": {
+        "7": [
+          "teach"
+        ],
+        "9": [
+          "taught"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Also in the third year of his reign he sent to his princes, even to Benhail, and to Obadiah,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לְלַמֵּ֖ד: to teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And they taught in Judah, and had the book of the law of the LORD with them, and went about t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וַֽיְלַמְּד֖וּ: And they taught - properly, to goad, i.e., (by implication) to teach (the rod...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And he had much business in the cities of Judah: and the men of war, mighty men of valour, we...\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "supplies"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And he had much business in the cities of Judah: and the men of war, mighty men of valour, we...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 28,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:13.430Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"And Zichri, a mighty man of Ephraim, slew Maaseiah the king's son, and Azrikam the governor o...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "Instead he walked in the ways of the kings of Israel"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "For Pekah son of Remaliah killed 120,000 in Judah in..."
+        ],
+        "7": [
+          "king"
+        ],
+        "16": [
+          "King",
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ],
+        "21": [
+          "king"
+        ],
+        "22": [
+          "King"
+        ],
+        "23": [
+          "“Since the gods of the kings of Aram (Syria) helped them"
+        ],
+        "24": [
+          "Then Ahaz collected the utensils of the house of God..."
+        ],
+        "26": [
+          "they are written in the Book of the Kings of Judah and Israel"
+        ],
+        "27": [
+          "but they did not bring him into the tombs of the kings of Israel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Isaiah 1:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 1:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ahaz was twenty years old when he began to reign, and he reigned sixteen years in Jerusalem:...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אָחָ֣ז: Ahaz - achaz, the name of a jewish king and of an israelite",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For he walked in the ways of the kings of Israel, and made also molten images for Baalim. Thi...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"For he walked in the ways of the kings of Israel, and made also molten images for Baalim. Thi...\". Word-study detail reinforces \"עָשָׂ֣ה: he made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        2,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "24": [
+          "made"
+        ],
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For he walked in the ways of the kings of Israel, and made also molten images for Baalim. Thi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "עָשָׂ֖ה: and made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "And Ahaz gathered together the vessels of the house of God, and cut in pieces the vessels of...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "וַיַּ֨עַשׂ: and he made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses.",
+      "supportingVerses": [
+        5,
+        8,
+        15,
+        17
+      ],
+      "versePhrases": {
+        "5": [
+          "led"
+        ],
+        "8": [
+          "led"
+        ],
+        "15": [
+          "led"
+        ],
+        "17": [
+          "led"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"לְקַטֵּ֖ר: to burn incense - to smoke, i.e., turn into fragrance by fire (especially as an ac...\".",
+      "supportingVerses": [
+        3,
+        4,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "in accordance with the repulsive acts of the [pagan] nations whom the Lord had driven out before the sons (descendants) of Israel"
+        ],
+        "4": [
+          "worship"
+        ],
+        "25": [
+          "provoking to anger the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הִקְטִ֖יר: Moreover he burnt incense - to smoke, i.e., turn into fragrance by fire (especiall...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וַיְקַטֵּ֛ר: also and burnt incense - to smoke, i.e., turn into fragrance by fire (especially...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"וְיֶ֤תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...\".",
+      "supportingVerses": [
+        26
+      ],
+      "versePhrases": {
+        "26": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "וְיֶ֤תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For Ahaz took away a portion out of the house of the LORD, and out of the house of the king,...\". Word-study detail reinforces \"חָלַ֤ק: took away a portion - to be smooth (figuratively)\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "For Ahaz took away a portion out of the house of the LORD, and out of the house of the king,...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "חָלַ֤ק: took away a portion - to be smooth (figuratively)",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

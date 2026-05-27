@@ -1,0 +1,189 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Esther",
+  "chapter": 6,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:39.565Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"And the king said, Who is in the court? Now Haman was come into the outward court of the king...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king",
+          "King"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "king",
+          "King"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "King"
+        ],
+        "14": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Daniel 6:18",
+          "anchorVerse": 1,
+          "referenceLabel": "Daniel 6:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Sleepless night: 'On that night could not the king sleep, and he commanded to bring the book...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: What can the fact that the king spent a sleepless nig...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּֽלֶךְ׃: the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: What can the fact that the king spent a sleepless nig...\". Word-study detail reinforces \"כֵן֙: - properly, set upright; hence (figuratively as adjective) just; but usually (as adverb...\".",
+      "supportingVerses": [
+        2,
+        4,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "They found the written report of how Mordecai had informed..."
+        ],
+        "4": [
+          "just"
+        ],
+        "10": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And it was found written, that Mordecai had told of Bigthana and Teresh, two of the king's ch...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: What can the fact that the king spent a sleepless nig...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And the king said, Who is in the court? Now Haman was come into the outward court of the king...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "כֵן֙: - properly, set upright; hence (figuratively as adjective) just; but usually (as adverb...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"עוֹדָם֙: - properly, iteration or continuance; used only adverbially (with or without preposi...\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "עוֹדָם֙: - properly, iteration or continuance; used only adverbially (with or without preposi...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "want"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

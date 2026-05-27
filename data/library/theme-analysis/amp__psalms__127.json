@@ -1,0 +1,102 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 127,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:22.780Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"It is vain for you to rise up early, to sit up late, to eat the bread of sorrows — Shav (vain...\". Word-study detail reinforces \"לִֽידִיד֣וֹ: his beloved - loved\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "It is vain for you to rise up early, to sit up late, to eat the bread of sorrows — Shav (vain...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 27: But what kind of fruit they ought...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לִֽידִיד֣וֹ: his beloved - loved",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"A Song of Ascents sung by pilgrims to Jerusalem. After verse 1's warning about building witho...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "anxious"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A Song of Ascents sung by pilgrims to Jerusalem. After verse 1's warning about building witho...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How do you distinguish godly hard work from \"bread of sorrows\" mentality?\". Word-study detail reinforces \"לֶ֣חֶם: the bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How do you distinguish godly hard work from \"bread of sorrows\" mentality?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 127: If we wish to be guarded by Him who was humble...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לֶ֣חֶם: the bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 126,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:40.159Z",
+  "themes": [
+    {
+      "id": "keyword-shouts",
+      "label": "Shouts",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “shouts.”",
+      "supportingVerses": [
+        2,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "shouts"
+        ],
+        "5": [
+          "shouts"
+        ],
+        "6": [
+          "shouts"
+        ]
+      }
+    },
+    {
+      "id": "keyword-fortunes",
+      "label": "Fortunes",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “fortunes.”",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "fortunes"
+        ],
+        "4": [
+          "fortunes"
+        ]
+      }
+    },
+    {
+      "id": "keyword-things",
+      "label": "Things",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “things.”",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "things"
+        ],
+        "3": [
+          "things"
+        ]
+      }
+    },
+    {
+      "id": "keyword-great",
+      "label": "Great",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “great.”",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "great"
+        ],
+        "3": [
+          "great"
+        ]
+      }
+    }
+  ]
+}

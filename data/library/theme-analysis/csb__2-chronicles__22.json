@@ -1,0 +1,169 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 22,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:37.475Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"But Jehoshabeath, the daughter of the king, took Joash the son of Ahaziah, and stole him from...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "He walked in the ways of the house of Ahab,..."
+        ],
+        "4": [
+          "So he did what was evil in the Lord’s sight..."
+        ],
+        "5": [
+          "King"
+        ],
+        "6": [
+          "King"
+        ],
+        "7": [
+          "Ahaziah’s downfall came from God when he went to Joram"
+        ],
+        "8": [
+          "So when Jehu executed judgment on the house of Ahab,..."
+        ],
+        "9": [
+          "kingdom"
+        ],
+        "10": [
+          "When Athaliah, Ahaziah’s mother, saw that her son was dead,..."
+        ],
+        "11": [
+          "king",
+          "King"
+        ],
+        "12": [
+          "He was hiding with them in God’s temple for six years while Athaliah reigned over the land"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 33:25",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Chronicles 33:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the ban...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Kings 8:26",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Kings 8:26"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And it came to pass, that, when Jehu was executing judgment upon the house of Ahab, and found...\". Word-study detail reinforces \"כְּהִשָּׁפֵ֥ט: was executing judgment - to judge, i.e., pronounce sentence (for or against);...\".",
+      "supportingVerses": [
+        1,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "Then the inhabitants of Jerusalem made Ahaziah, his youngest son,..."
+        ],
+        "8": [
+          "judgment"
+        ],
+        "9": [
+          "Then Jehu looked for Ahaziah, and Jehu’s soldiers captured him..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the ban...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יֽוֹשְׁבֵ֨י: And the inhabitants - properly, to sit down (specifically as judge. in ambush, i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And it came to pass, that, when Jehu was executing judgment upon the house of Ahab, and found...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Against the Pelagians 2.21: The Lord established the kingdom in Jehoshaphat’s hand,...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Inferred",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the ban...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the ban...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

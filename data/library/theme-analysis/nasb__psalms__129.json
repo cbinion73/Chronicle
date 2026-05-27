@@ -1,0 +1,136 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 129,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:22.599Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The psalm concludes with absence of blessing: 'Neither do they which go by say, The blessing...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "blessing",
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 118:26",
+          "anchorVerse": 8,
+          "referenceLabel": "Psalms 118:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The psalm concludes with absence of blessing: 'Neither do they which go by say, The blessing...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 129: \"So that they who go by say not so much as, Th...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בֵּרַ֥כְנוּ: be upon you we bless - to kneel; by implication to bless god (as an act of adora...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Divine intervention is confessed: 'The LORD is righteous: he hath cut asunder the cords of th...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 119:137",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 119:137"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Divine intervention is confessed: 'The LORD is righteous: he hath cut asunder the cords of th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 129: \"The righteous Lord shall hew the necks of the...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "צַדִּ֑יק: is righteous - just",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Divine intervention is confessed: 'The LORD is righteous: he hath cut asunder the cords of th...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 119:137",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 119:137"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Divine intervention is confessed: 'The LORD is righteous: he hath cut asunder the cords of th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 129: \"The righteous Lord shall hew the necks of the...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "צַדִּ֑יק: is righteous - just",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

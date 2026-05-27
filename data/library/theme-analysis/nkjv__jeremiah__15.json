@@ -1,0 +1,299 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 15,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:48.381Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 17, 18.) I did not sit in the council of the jesters...\". Word-study detail reinforces \"הָאָ֖רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        4,
+        10,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "heavens",
+          "earth"
+        ],
+        "4": [
+          "earth"
+        ],
+        "10": [
+          "earth"
+        ],
+        "18": [
+          "waters"
+        ],
+        "20": [
+          "And I will make you to this people a fortified..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse announces four kinds of destroyers: 'And I will appoint over them four kinds, sait...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verses 2, 3.) But if they say to you: Where shall we go ou...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הָאָ֖רֶץ: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Manasseh's reign (697-642 BC) was Judah's longest and most evil. 2 Kings 21:10-15 and 23:26-2...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 19 onwards) Because of this, the Lord says: If you t...\". Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        9,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "9": [
+          "deliver"
+        ],
+        "20": [
+          "save",
+          "deliver"
+        ],
+        "21": [
+          "deliver",
+          "redeem"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This verse describes maternal devastation: 'She that hath borne seven languisheth: she hath g...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 9) She has been weakened (or cast aside, or made emp...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֶתֵּ֛ן: of them will I deliver - to give, used with greatest latitude of application (put, m...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 19 onwards) Because of this, the Lord says: If you t...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on SIX BOOKS ON JEREMIAH 3:58.2-5: This the Hebrews believe to be said in the person o...\". Word-study detail reinforces \"צָרָ֖ה: of affliction - transitively, a female rival\".",
+      "supportingVerses": [
+        4,
+        10,
+        11,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "trouble"
+        ],
+        "10": [
+          "Woe is me, my mother, That you have borne me,..."
+        ],
+        "11": [
+          "affliction"
+        ],
+        "17": [
+          "I did not sit in the assembly of the mockers,..."
+        ],
+        "18": [
+          "Why is my pain perpetual And my wound incurable, Which..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "This verse begins Jeremiah's personal lament: 'Woe is me, my mother, that thou hast borne me...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on SIX BOOKS ON JEREMIAH 3:52.1-3: This synecdoche can be understood concerning Jeremi...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "God responds to Jeremiah's complaint (15:10): 'The LORD said, Verily it shall be well with th...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 11) The Lord says: If your remnants are not for good...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Chapter 15, Verse 1) And the Lord said to me: If Moses and...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        1,
+        11,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Then the Lord said to me, “Even if Moses and..."
+        ],
+        "11": [
+          "with you"
+        ],
+        "19": [
+          "Therefore thus says the Lord"
+        ],
+        "20": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This verse opens with a shocking divine declaration: 'Then said the LORD unto me, Though Mose...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter 15, Verse 1) And the Lord said to me: If Moses and...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 11) The Lord says: If your remnants are not for good...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 8.) Her widows are multiplied to me above the sand o...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "terror"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This verse quantifies widow suffering: 'Their widows are increased to me above the sand of th...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 8.) Her widows are multiplied to me above the sand o...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This verse identifies the cause: 'And I will cause them to be removed into all kingdoms of th...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 24:9",
+          "anchorVerse": 4,
+          "referenceLabel": "Jeremiah 24:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This verse identifies the cause: 'And I will cause them to be removed into all kingdoms of th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 4.) And I will give them into the heat (or turmoil a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 79,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:21.219Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Pour out thy wrath upon the heathen that have not known thee, and upon the kingdoms that have...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        5,
+        6,
+        8,
+        9,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "How long, Lord"
+        ],
+        "6": [
+          "wrath"
+        ],
+        "8": [
+          "Do not hold past iniquities against us"
+        ],
+        "9": [
+          "God of our salvation, help us, for the glory of..."
+        ],
+        "10": [
+          "Why should the nations ask, “Where is their God"
+        ],
+        "13": [
+          "Then we, your people, the sheep of your pasture, will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How long, LORD? wilt thou be angry for ever? shall thy jealousy burn like fire? The desperate...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory of Nazianzus on ON THE HOLY SPIRIT, THEOLOGICAL ORATION 5[31].22: Some things mention...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 69:24",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 69:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Pour out thy wrath upon the heathen that have not known thee, and upon the kingdoms that have...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 79: \"They have defiled Your holy Temple, they have...\". Word-study detail reinforces \"בְּֽנַחֲלָתֶ֗ךָ: into thine inheritance - properly, something inherited, i.e., (abstractly) o...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "inheritance"
+        ],
+        "2": [
+          "They gave the corpses of your servants to the birds..."
+        ],
+        "3": [
+          "They poured out their blood like water all around Jerusalem,..."
+        ],
+        "10": [
+          "Why should the nations ask, “Where is their God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O God, the heathen are come into thine inheritance; thy holy temple have they defiled; they h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 79: Over the title of this Psalm, being so short an...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּֽנַחֲלָתֶ֗ךָ: into thine inheritance - properly, something inherited, i.e., (abstractly) o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The dead bodies of thy servants have they given to be meat unto the fowls of the heaven, the...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"O God, the heathen are come into thine inheritance; thy holy temple have they defiled; they h...\". Word-study detail reinforces \"קָדְשֶׁ֑ךָ: thy holy - a sacred place or thing; rarely abstract, sanctity\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "3": [
+          "They poured out their blood like water all around Jerusalem,..."
+        ],
+        "5": [
+          "How long, Lord"
+        ],
+        "6": [
+          "Pour out your wrath on the nations that don’t acknowledge..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O God, the heathen are come into thine inheritance; thy holy temple have they defiled; they h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קָדְשֶׁ֑ךָ: thy holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Their blood have they shed like water round about Jerusalem; and there was none to bury them....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 79: \"They have defiled Your holy Temple, they have...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The dead bodies of thy servants have they given to be meat unto the fowls of the heaven, the...\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "faithful"
+        ],
+        "3": [
+          "They poured out their blood like water all around Jerusalem,..."
+        ],
+        "5": [
+          "How long, Lord"
+        ],
+        "10": [
+          "Why should the nations ask, “Where is their God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The dead bodies of thy servants have they given to be meat unto the fowls of the heaven, the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on City of God 1.12: Further still, we are reminded that in such a carnage...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does the psalmist's appeal to God's covenant faithfulness teach about bringing unfiltere...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on City of God 1.12: Further still, we are reminded that in such a carnage...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"O God, the heathen are come into thine inheritance; thy holy temple have they defiled; they h...\". Word-study detail reinforces \"קָדְשֶׁ֑ךָ: thy holy - a sacred place or thing; rarely abstract, sanctity\".",
+      "supportingVerses": [
+        1,
+        3,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "3": [
+          "They poured out their blood like water all around Jerusalem,..."
+        ],
+        "5": [
+          "How long, Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O God, the heathen are come into thine inheritance; thy holy temple have they defiled; they h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קָדְשֶׁ֑ךָ: thy holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Their blood have they shed like water round about Jerusalem; and there was none to bury them....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 79: \"They have defiled Your holy Temple, they have...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The appeal to God's name rather than Israel's merit appears frequently in biblical prayer. Mo...\". Word-study detail reinforces \"רַחֲמֶ֑יךָ: let thy tender mercies - compassion (in the plural)\".",
+      "supportingVerses": [
+        8,
+        9
+      ],
+      "versePhrases": {
+        "8": [
+          "compassion"
+        ],
+        "9": [
+          "God of our salvation, help us, for the glory of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "O remember not against us former iniquities: let thy tender mercies speedily prevent us: for...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 79: ...He subjoins, \"Remember not our iniquities of...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "רַחֲמֶ֑יךָ: let thy tender mercies - compassion (in the plural)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The appeal to God's name rather than Israel's merit appears frequently in biblical prayer. Mo...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

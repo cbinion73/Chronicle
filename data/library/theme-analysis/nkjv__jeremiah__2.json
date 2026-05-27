@@ -1,0 +1,346 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 2,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:46.925Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verses 12, 13.) Be astonished, O heavens, at this, and shu...\". Word-study detail reinforces \"אַרְצִ֔י: country - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        6,
+        7,
+        11,
+        12,
+        13,
+        15,
+        18,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "Neither did they say, ‘Where is the Lord, Who brought..."
+        ],
+        "7": [
+          "made"
+        ],
+        "11": [
+          "Has a nation changed its gods, Which are not gods"
+        ],
+        "12": [
+          "heavens"
+        ],
+        "13": [
+          "waters"
+        ],
+        "15": [
+          "made"
+        ],
+        "18": [
+          "waters"
+        ],
+        "27": [
+          "Saying to a tree, ‘You are my father,’ And to..."
+        ],
+        "28": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 6) And they did not say, Where is the Lord who led u...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "בְּאֶ֗רֶץ: out of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "God contrasts His faithfulness with Israel's unfaithfulness: 'And I brought you into a plenti...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 7) And I led you into the land of Carmel, that you m...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 33, 34) Why do you insist on showing your good path...\". Word-study detail reinforces \"לִמַּ֖דְתְּי: therefore hast thou also taught - properly, to goad, i.e., (by implication) to...\".",
+      "supportingVerses": [
+        6,
+        12,
+        17,
+        33
+      ],
+      "versePhrases": {
+        "6": [
+          "led"
+        ],
+        "12": [
+          "Be astonished, O heavens, at this, And be horribly afraid"
+        ],
+        "17": [
+          "led"
+        ],
+        "33": [
+          "taught"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "God continues His indictment by highlighting Israel's ingratitude: 'Neither said they, Where...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 6) And they did not say, Where is the Lord who led u...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What does invoking heaven and earth as witnesses teach about the cosmic significance of coven...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Epistle of Barnabas on The Epistle of Barnabas, Chapter XI: Let us further inquire whether th...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"God commands Jeremiah: 'Go and cry in the ears of Jerusalem, saying, Thus saith the LORD.' Th...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        2,
+        25,
+        33
+      ],
+      "versePhrases": {
+        "2": [
+          "love",
+          "kindness"
+        ],
+        "25": [
+          "loved"
+        ],
+        "33": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Ezekiel 16:8",
+          "anchorVerse": 2,
+          "referenceLabel": "Ezekiel 16:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God commands Jeremiah: 'Go and cry in the ears of Jerusalem, saying, Thus saith the LORD.' Th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Vers. 2.) Thus says the Lord: I have remembered your youth...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אַהֲבַ֖ת: the love - love",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"God's rhetorical question makes the accusation explicit: \"Hath a nation changed their gods, w...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        8,
+        10,
+        11,
+        13,
+        21
+      ],
+      "versePhrases": {
+        "8": [
+          "‘Where is the Lord?’ And those who handle the law did not know Me"
+        ],
+        "10": [
+          "For pass beyond the coasts of Cyprus and see, Send..."
+        ],
+        "11": [
+          "Glory"
+        ],
+        "13": [
+          "“For My people have committed two evils"
+        ],
+        "21": [
+          "Yet I had planted you a noble vine, a seed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Jeremiah's era witnessed catastrophic leadership failure at every level. Priests like those d...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 8.) The priests did not say, 'Where is the Lord?' an...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "נִבְּא֣וּ: prophesied - to prophesy, i.e., speak (or sing) by inspiration (in prediction or s...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Chittim (Kittim) originally referred to Cyprus but extended to designate Mediterranean coasta...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on HOMILIES ON ROMANS 14: Hence God gave the gift of prayer. But he does this...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        21,
+        22,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "21": [
+          "Yet I had planted you a noble vine, a seed..."
+        ],
+        "22": [
+          "For though you wash yourself with lye, and use much..."
+        ],
+        "27": [
+          "save"
+        ],
+        "28": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "This verse from Jeremiah 2 continues God's covenant lawsuit against Judah, delivered during t...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "John Chrysostom on HOMILIES ON ROMANS 14: Hence God gave the gift of prayer. But he does this...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "This verse from Jeremiah 2 continues God's covenant lawsuit against Judah, delivered during t...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "John Chrysostom on HOMILIES ON ROMANS 14: Hence God gave the gift of prayer. But he does this...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 37.) And you will be confounded by Egypt, just as yo...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        4,
+        25,
+        37
+      ],
+      "versePhrases": {
+        "4": [
+          "Hear the word of the Lord, O house of Jacob..."
+        ],
+        "25": [
+          "hope"
+        ],
+        "37": [
+          "trusted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does the corporate nature of covenant (addressing families and house of Jacob) challenge...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verses 4, 5.) Hear the word of the Lord, house of Jacob, a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Jeremiah 18:12",
+          "anchorVerse": 25,
+          "referenceLabel": "Jeremiah 18:12"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "נוֹאָ֔שׁ: There is no hope - to desist, i.e., (figuratively) to despond",
+          "anchorVerse": 25
+        }
+      ]
+    }
+  ]
+}

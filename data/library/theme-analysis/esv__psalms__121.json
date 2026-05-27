@@ -1,0 +1,86 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 121,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:10.681Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"YHWH yishmarekha mikol ra, yishmor et naphshekha (The LORD shall preserve you from all evil,...\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "keep"
+        ],
+        "8": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "YHWH yishmarekha mikol ra, yishmor et naphshekha (The LORD shall preserve you from all evil,...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The confession \"Yahweh, maker of heaven and earth\" appears repeatedly throughout Scripture as...\". Word-study detail reinforces \"וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "I lift up my eyes to the hills"
+        ],
+        "2": [
+          "made",
+          "earth"
+        ],
+        "6": [
+          "The sun shall not strike you by day, nor the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Songs of Ascents (Psalms 120-134) form a distinct collection within the Psalter, traditio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMON 379:7: However just people may be, however preeminent in grace,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The confession \"Yahweh, maker of heaven and earth\" appears repeatedly throughout Scripture as...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on SERMON 68:2: The Son of God, the only begotten of the Father, God alway...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 29,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:24.237Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XX: If I laughed on them, they belie...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        3,
+        13,
+        17,
+        19,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "light"
+        ],
+        "13": [
+          "The blessing of him who was about to perish came..."
+        ],
+        "17": [
+          "made"
+        ],
+        "19": [
+          "waters"
+        ],
+        "23": [
+          "They waited for me as for the rain, and they..."
+        ],
+        "24": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Psalms 18:28",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 18:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "When his candle shined upon my head —the Hebrew נֵר ( ner , lamp/candle) represents God's pre...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIX: As in the days when God preserv...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "נֵ֭רוֹ: When his candle - a lamp (i.e., the burner) or light (literally or figuratively)",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIX: I was an eye to the blind, and...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "And Job again took up his discourse, and said"
+        ],
+        "7": [
+          "When I went out to the gate of the city,..."
+        ],
+        "8": [
+          "the young men saw me and withdrew, and the aged..."
+        ],
+        "11": [
+          "When the ear heard, it called me blessed, and when..."
+        ],
+        "12": [
+          "because I delivered the poor who cried for help, and..."
+        ],
+        "13": [
+          "and I caused the widow's heart to sing for joy"
+        ],
+        "14": [
+          "righteousness",
+          "justice"
+        ],
+        "15": [
+          "I was eyes to the blind and feet to the..."
+        ],
+        "16": [
+          "I was a father to the needy, and I searched..."
+        ],
+        "17": [
+          "I broke the fangs of the unrighteous and made him drop his prey from his teeth"
+        ],
+        "20": [
+          "my glory fresh with me, and my bow ever new..."
+        ],
+        "25": [
+          "I chose their way and sat as chief, and I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Moreover Job continued his parable —the Hebrew וַיֹּסֶף ( vayyosef , and he added/continued)...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIX: Moreover Job continued his para...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Job recalls his former honor: \"When I went out to the gate through the city, when I prepared...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIX: When I went out to the gate of...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIX: I was an eye to the blind, and...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        8,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "8": [
+          "the young men saw me and withdrew, and the aged..."
+        ],
+        "11": [
+          "When the ear heard, it called me blessed, and when..."
+        ],
+        "12": [
+          "because I delivered the poor who cried for help, and..."
+        ],
+        "13": [
+          "The blessing of him who was about to perish came..."
+        ],
+        "14": [
+          "righteousness"
+        ],
+        "16": [
+          "I was a father to the needy, and I searched..."
+        ],
+        "17": [
+          "I broke the fangs of the unrighteous and made him drop his prey from his teeth"
+        ],
+        "20": [
+          "my glory fresh with me, and my bow ever new..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The young men saw me, and hid themselves ( bachur בָּחוּר, young men; chaba חָבָא, to hide)—n...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIX: The young men saw me and hid th...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How does Job's loss of public blessing despite unchanged character challenge the assumption t...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIX: The ear hearing me, blessed me;...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Unto me men gave ear, and waited (לִי־שָׁמְעוּ וְיִחֵלּוּ, li-shamu veyichelu)—The verb shama...\". Word-study detail reinforces \"עֲצָתִֽי׃: my counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        1,
+        3,
+        8,
+        16,
+        21,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "And Job again took up his discourse, and said"
+        ],
+        "3": [
+          "when his lamp shone upon my head, and by his..."
+        ],
+        "8": [
+          "the young men saw me and withdrew, and the aged..."
+        ],
+        "16": [
+          "I was a father to the needy, and I searched..."
+        ],
+        "21": [
+          "counsel"
+        ],
+        "22": [
+          "After I spoke they did not speak again, and my..."
+        ],
+        "23": [
+          "They waited for me as for the rain, and they..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Moreover Job continued his parable —the Hebrew וַיֹּסֶף ( vayyosef , and he added/continued)...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIX: Moreover Job continued his para...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the ancient Near East, before electric lighting, lamps were essential for navigating darkn...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: In some things he had led me to good effects even beyond...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIX: I was a father of the poor, and...\". Word-study detail reinforces \"וְאֵשֵׁ֪ב: and sat - properly, to sit down (specifically as judge. in ambush, in quiet); by i...\".",
+      "supportingVerses": [
+        7,
+        8,
+        14,
+        15,
+        16,
+        20,
+        25
+      ],
+      "versePhrases": {
+        "7": [
+          "When I went out to the gate of the city,..."
+        ],
+        "8": [
+          "the young men saw me and withdrew, and the aged..."
+        ],
+        "14": [
+          "justice"
+        ],
+        "15": [
+          "I was eyes to the blind and feet to the..."
+        ],
+        "16": [
+          "I was a father to the needy, and I searched..."
+        ],
+        "20": [
+          "my glory fresh with me, and my bow ever new..."
+        ],
+        "25": [
+          "I chose their way and sat as chief, and I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Job recalls his former honor: \"When I went out to the gate through the city, when I prepared...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Then he explains the grandeur of his past glory when he...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Ancient Near Eastern societies operated on strict hierarchical principles where age, wealth,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: He shows consequently the authority of his judgment, fir...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"When the Almighty was yet with me —the divine name שַׁדַּי ( Shaddai , Almighty) appears 31 t...\". Word-study detail reinforces \"אֱלֵי: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        19,
+        20,
+        25
+      ],
+      "versePhrases": {
+        "4": [
+          "as I was in my prime, when the friendship of..."
+        ],
+        "5": [
+          "with me"
+        ],
+        "6": [
+          "when my steps were washed with butter"
+        ],
+        "19": [
+          "with the dew all night on my branches"
+        ],
+        "20": [
+          "with me"
+        ],
+        "25": [
+          "I chose their way and sat as chief, and I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient Near Eastern 'secrets' referred to intimate counsel shared among friends. Job's memor...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: To answer the objection that this is due to him from the...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "When the Almighty was yet with me —the divine name שַׁדַּי ( Shaddai , Almighty) appears 31 t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: As to action he continues, \"when the Almighty was with m...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

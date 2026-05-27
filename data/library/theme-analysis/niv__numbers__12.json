@@ -1,0 +1,117 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 12,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:30.612Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"God declares Moses 'faithful in all mine house,' using the Hebrew 'aman' (faithful, trustwort...\". Word-study detail reinforces \"נֶֽאֱמָ֥ן: is not so who is faithful - properly, to build up or support; to foster as a paren...\".",
+      "supportingVerses": [
+        3,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "(Now Moses was a very humble man, more humble than..."
+        ],
+        "7": [
+          "true",
+          "faithful"
+        ],
+        "8": [
+          "With him I speak face to face, clearly and not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does understanding Jesus as the ultimate 'meek and lowly' One deepen our appreciation for...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory of Nyssa on ON THE SOUL AND THE RESURRECTION: [Macrina replied,] It is said of Moses...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "God declares Moses 'faithful in all mine house,' using the Hebrew 'aman' (faithful, trustwort...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Clement of Rome on LETTER TO THE CORINTHIANS 17: Moses was called “faithful in all God’s hous...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"יְרֵאתֶ֔ם: wherefore then were ye not afraid - to fear; morally to revere; causatively to fri...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "יְרֵאתֶ֔ם: wherefore then were ye not afraid - to fear; morally to revere; causatively to fri...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"John Chrysostom on BAPTISMAL INSTRUCTIONS 3.26: What was the characteristic of Moses of old?...\". Word-study detail reinforces \"הָֽאֲדָמָֽה׃: of the earth - soil (from its general redness)\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This parenthetical statement declares Moses' exceptional humility in remarkable terms. The He...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on BAPTISMAL INSTRUCTIONS 3.26: What was the characteristic of Moses of old?...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הָֽאֲדָמָֽה׃: of the earth - soil (from its general redness)",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

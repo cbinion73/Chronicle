@@ -1,0 +1,81 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 13,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:19.050Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The phrase 'let us bring again the ark of our God to us' reveals a crucial theological insigh...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        3,
+        6,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "and let us bring the ark of our God back..."
+        ],
+        "6": [
+          "dwells"
+        ],
+        "13": [
+          "So David would not move the ark with him into the City of David"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The phrase 'let us bring again the ark of our God to us' reveals a crucial theological insigh...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֵלֵ֑ינוּ: - near, with or among; often in general, to",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וַיִּירָ֤א: was afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וַיִּירָ֤א: was afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 11,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:59.462Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 3 and following) He will not judge by what he sees wit...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "The Spirit of the Lord will rest on him— a..."
+        ],
+        "3": [
+          "justice"
+        ],
+        "4": [
+          "justice"
+        ],
+        "5": [
+          "Righteousness"
+        ],
+        "6": [
+          "The wolf will dwell with the lamb, and the leopard..."
+        ],
+        "8": [
+          "An infant will play beside the cobra’s pit, and a..."
+        ],
+        "9": [
+          "holy"
+        ],
+        "16": [
+          "There will be a highway for the remnant of his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Fulfilled when the Holy Spirit descended on Jesus at baptism (Matthew 3:16) and remained on H...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: Chapter XI - Verses 1, 2. And there shall come forth a rod ou...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Messiah's judgment is characterized by spiritual perception, not superficial appearance. He w...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3 and following) He will not judge by what he sees wit...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 3 and following) He will not judge by what he sees wit...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        11,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "judge",
+          "justice"
+        ],
+        "4": [
+          "judge",
+          "justice"
+        ],
+        "5": [
+          "Righteousness will be a belt around his hips"
+        ],
+        "11": [
+          "On that day the Lord will extend his hand a..."
+        ],
+        "16": [
+          "There will be a highway for the remnant of his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "John 7:24",
+          "anchorVerse": 3,
+          "referenceLabel": "John 7:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Messiah's judgment is characterized by spiritual perception, not superficial appearance. He w...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3 and following) He will not judge by what he sees wit...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יִשְׁפּ֔וֹט: and he shall not judge - to judge, i.e., pronounce sentence (for or against); by...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Isaiah: Chapter XI - Verses 1, 2. And there shall come forth a rod ou...\". Word-study detail reinforces \"דַּ֖עַת: of knowledge - knowledge\".",
+      "supportingVerses": [
+        2,
+        3,
+        9
+      ],
+      "versePhrases": {
+        "2": [
+          "wisdom",
+          "understanding",
+          "counsel",
+          "knowledge"
+        ],
+        "3": [
+          "His delight will be in the fear of the Lord"
+        ],
+        "9": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Spirit's sevenfold anointing of Messiah is described: the Spirit of the Lord (divine pres...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: Chapter XI - Verses 1, 2. And there shall come forth a rod ou...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "דַּ֖עַת: of knowledge - knowledge",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Messiah's judgment is characterized by spiritual perception, not superficial appearance. He w...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Isaiah: Chapter XI - Verses 1, 2. And there shall come forth a rod ou...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        2,
+        4,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "Spirit"
+        ],
+        "4": [
+          "but he will judge the poor righteously and execute justice..."
+        ],
+        "15": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Isaiah 61:1",
+          "anchorVerse": 2,
+          "referenceLabel": "Isaiah 61:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Spirit's sevenfold anointing of Messiah is described: the Spirit of the Lord (divine pres...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: Chapter XI - Verses 1, 2. And there shall come forth a rod ou...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ר֥וּחַ: And the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exha...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"This verse identifies the 'root of Jesse' as a rallying point for Gentiles. The 'root' refers...\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "scepter"
+        ],
+        "6": [
+          "The wolf will dwell with the lamb, and the leopard..."
+        ],
+        "7": [
+          "The cow and the bear will graze, their young ones..."
+        ],
+        "8": [
+          "An infant will play beside the cobra’s pit, and a..."
+        ],
+        "10": [
+          "On that day the root of Jesse will stand as..."
+        ],
+        "12": [
+          "He will lift up a banner for the nations and..."
+        ],
+        "13": [
+          "Ephraim’s envy will cease"
+        ],
+        "14": [
+          "But they will swoop down on the Philistine flank to..."
+        ],
+        "16": [
+          "There will be a highway for the remnant of his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Apostolic Constitutions on Apostolic Constitutions (Book VII), Section 2, XXXII: For in the l...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Isaiah 11 describes Messiah's reign, beginning with 'a rod out of the stem of Jesse' (David's...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on HOMILIES CONCERNING THE STATUES 3:5: I have heard many saying, “The threat...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The peaceful kingdom continues: predators (cow and bear) graze together with their young lyin...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Isaiah: Chapter XI - Verses 1, 2. And there shall come forth a rod ou...\". Word-study detail reinforces \"וְנָחָ֥ה: shall rest - to rest, i.e., settle down; used in a great variety of applications, l...\".",
+      "supportingVerses": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "rest"
+        ],
+        "3": [
+          "His delight will be in the fear of the Lord"
+        ],
+        "6": [
+          "The wolf will dwell with the lamb, and the leopard..."
+        ],
+        "7": [
+          "The cow and the bear will graze, their young ones..."
+        ],
+        "8": [
+          "An infant will play beside the cobra’s pit, and a..."
+        ],
+        "9": [
+          "They will not harm or destroy each other on my..."
+        ],
+        "10": [
+          "and his resting place will be glorious"
+        ],
+        "13": [
+          "Ephraim’s envy will cease"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: Chapter XI - Verses 1, 2. And there shall come forth a rod ou...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְנָחָ֥ה: shall rest - to rest, i.e., settle down; used in a great variety of applications, l...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does Christ's ability to judge hearts rather than appearances provide comfort and warning?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3 and following) He will not judge by what he sees wit...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

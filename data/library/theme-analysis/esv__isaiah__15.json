@@ -1,0 +1,156 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 15,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:28.970Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: 434. The house is gone up. Here he shows the magnitud...\". Word-study detail reinforces \"לְבֶ֑כִי: to weep - a weeping; by analogy, a dripping\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "weep"
+        ],
+        "3": [
+          "in the streets they wear sackcloth"
+        ],
+        "4": [
+          "Heshbon and Elealeh cry out"
+        ],
+        "8": [
+          "For a cry has gone around the land of Moab"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The cascade of place-names (Bajith, Dibon, Nebo, Medeba) traces Moab's grief from temple to h...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: 434. The house is gone up. Here he shows the magnitud...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לְבֶ֑כִי: to weep - a weeping; by analogy, a dripping",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The image of entire cities girding themselves with sackcloth depicts corporate mourning. Stre...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 6) For the waters of Nemrim will be deserted. This tow...\". Word-study detail reinforces \"מֵ֥י: For the waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        1,
+        6,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "An oracle concerning Moab"
+        ],
+        "6": [
+          "waters"
+        ],
+        "9": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Moab occupied the plateau east of the Dead Sea, a fertile agricultural region. Historical enm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on COMMENTARY ON ISAIAH 6:15: In a certain way, there is a circumcision that is both c...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּלֵ֛יל: Because in the night - properly, a twist (away of the light), i.e., night; figurati...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The drying up of waters symbolizes life, prosperity, and hope draining away. Nimrim (\"clear w...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Isaiah's \"heart shall cry out for Moab\" demonstrates the prophet's compassion despite being I...\". Word-study detail reinforces \"יִזְעָ֔ק: shall cry out - to shriek (from anguish or danger); by analogy, (as a herald) to an...\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "cry out"
+        ],
+        "5": [
+          "My heart cries out for Moab"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4.) Esbon and Eleale will cry out. These are the names...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יָרִ֔יעוּ: shall cry out - to mar (especially by breaking); figuratively, to split the ears (...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Isaiah's \"heart shall cry out for Moab\" demonstrates the prophet's compassion despite being I...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 5) Where the Prophet speaks with compassionate affecti...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

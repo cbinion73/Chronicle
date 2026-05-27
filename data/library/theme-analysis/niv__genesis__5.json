@@ -1,0 +1,90 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 5,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:17.670Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): And he called their names Adam on the day when th...\". Word-study detail reinforces \"בְּרֹ֤א: created - (absolutely) to create; (qualified) to cut down (a wood), select, feed (as...\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "created",
+          "made"
+        ],
+        "2": [
+          "created"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This is the book of the generations of Adam. In the day that God created man, in the likeness...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): This is the book of the generation of Adam. In th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּרֹ֤א: created - (absolutely) to create; (qualified) to cut down (a wood), select, feed (as...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Male and female created he them; and blessed them, and called their name Adam, in the day whe...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Origen of Alexandria on HOMILIES ON GENESIS 2.3: By ascending through the individual levels o...\". Word-study detail reinforces \"יְנַֽחֲמֵ֤נוּ: This same shall comfort - properly, to sigh, i.e., breathe strongly; by implic...\".",
+      "supportingVerses": [
+        29
+      ],
+      "versePhrases": {
+        "29": [
+          "comfort"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "And he called his name Noah, saying, This same shall comfort us concerning our work and toil...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 29 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON GENESIS 2.3: By ascending through the individual levels o...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "יְנַֽחֲמֵ֤נוּ: This same shall comfort - properly, to sigh, i.e., breathe strongly; by implic...",
+          "anchorVerse": 29
+        }
+      ]
+    }
+  ]
+}

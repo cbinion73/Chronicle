@@ -1,0 +1,276 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ruth",
+  "chapter": 2,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:01.993Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ruth responds with deeper humility: 'Let me find favour in thy sight, my lord; for that thou...\". Word-study detail reinforces \"חַסְדּ֔וֹ: his kindness - kindness; by implication (towards god) piety; rarely (by opposition...\".",
+      "supportingVerses": [
+        2,
+        10,
+        12,
+        13,
+        20
+      ],
+      "versePhrases": {
+        "2": [
+          "And Ruth the Moabitess said to Naomi, “Please let me..."
+        ],
+        "10": [
+          "Then she kneeled face downward, bowing to the ground, and..."
+        ],
+        "12": [
+          "kindness"
+        ],
+        "13": [
+          "Then she said, “Let me find favor in your sight,..."
+        ],
+        "20": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What modern applications of the gleaning principle—providing dignity through work rather than...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חֵ֖ן: grace - graciousness, i.e., subjective (kindness, favor) or objective (beauty)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient Near Eastern social hierarchies rigidly separated classes and ethnic groups. Foreigne...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "חֵ֤ן: grace - graciousness, i.e., subjective (kindness, favor) or objective (beauty)",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Boaz's arrival demonstrates godly leadership. His greeting— 'The LORD be with you' ( YHWH imm...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        4,
+        12,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "4": [
+          "bless"
+        ],
+        "12": [
+          "May the Lord repay you for your kindness, and may..."
+        ],
+        "19": [
+          "“Where did you glean today? Where did you work? Blessed be the man who took notice of you"
+        ],
+        "20": [
+          "“May he be blessed of the Lord who has not ceased His kindness to the living and to the dead"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Luke 1:28",
+          "anchorVerse": 4,
+          "referenceLabel": "Luke 1:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Boaz's arrival demonstrates godly leadership. His greeting— 'The LORD be with you' ( YHWH imm...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יְבָֽרֶכְךָ֥: bless - to kneel; by implication to bless god (as an act of adoration), and (vi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Boaz pronounces blessing: 'The LORD recompense thy work, and a full reward be given thee of t...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Boaz directly addresses Ruth with extraordinary kindness: 'Hearest thou not, my daughter? Go...\". Word-study detail reinforces \"שָׁמַ֣עַתְּ: Hearest - to hear intelligently (often with implication of attention, obedience,...\".",
+      "supportingVerses": [
+        8,
+        9
+      ],
+      "versePhrases": {
+        "8": [
+          "Then Boaz said to Ruth, “Listen carefully, my daughter"
+        ],
+        "9": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Boaz directly addresses Ruth with extraordinary kindness: 'Hearest thou not, my daughter? Go...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "שָׁמַ֣עַתְּ: Hearest - to hear intelligently (often with implication of attention, obedience,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Boaz's provision intensifies: 'Let thine eyes be on the field that they do reap, and go thou...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How does the image of seeking refuge under God's wings provide comfort during seasons of vuln...\".",
+      "supportingVerses": [
+        2,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "And Ruth the Moabitess said to Naomi, “Please let me..."
+        ],
+        "12": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The gleaning laws were part of Israel's divinely ordained social safety net, demonstrating Go...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on Concerning Widows 6.33: Does the widow Naomi seem to you of small account...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "How does the image of seeking refuge under God's wings provide comfort during seasons of vuln...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How does the kinsman-redeemer concept foreshadow Christ's redemption of believers who cannot...\". Word-study detail reinforces \"מִֽגֹּאֲלֵ֖נוּ: unto us one of our next kinsmen - to redeem (according to the middle eastern...\".",
+      "supportingVerses": [
+        18,
+        20
+      ],
+      "versePhrases": {
+        "18": [
+          "saved"
+        ],
+        "20": [
+          "redeem"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Ruth returns to Naomi: 'And she took it up, and went into the city: and her mother in law saw...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "How does the kinsman-redeemer concept foreshadow Christ's redemption of believers who cannot...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "מִֽגֹּאֲלֵ֖נוּ: unto us one of our next kinsmen - to redeem (according to the middle eastern...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And she went, and came, and gleaned in the field after the reapers: and her hap was to light...\". Word-study detail reinforces \"וַיִּ֣קֶר: was to light - to light upon (chiefly by accident); specifically, to impose timber...\".",
+      "supportingVerses": [
+        3,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "So Ruth went and picked up the leftover grain in..."
+        ],
+        "11": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And she went, and came, and gleaned in the field after the reapers: and her hap was to light...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וַיִּ֣קֶר: was to light - to light upon (chiefly by accident); specifically, to impose timber...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וְאֶ֙רֶץ֙: and the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

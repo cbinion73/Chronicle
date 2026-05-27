@@ -1,0 +1,285 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 22,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:35.387Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"But Jehoshabeath, the daughter of the king, took Joash the son of Ahaziah, and stole him from...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "reign"
+        ],
+        "3": [
+          "He also walked in the ways of the house of..."
+        ],
+        "4": [
+          "Wherefore he did evil in the sight of the Lord..."
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "And the destruction of Ahaziah was of God by coming..."
+        ],
+        "8": [
+          "And it came to pass, that, when Jehu was executing..."
+        ],
+        "9": [
+          "kingdom"
+        ],
+        "10": [
+          "But when Athaliah the mother of Ahaziah saw that her..."
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "and Athaliah reigned over the land"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 33:25",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Chronicles 33:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the ban...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Kings 8:26",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Kings 8:26"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"He walked also after their counsel, and went with Jehoram the son of Ahab king of Israel to w...\". Word-study detail reinforces \"מֹלֶ֥כֶת: reigned - to reign; hence (by implication) to take counsel\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "And the inhabitants of Jerusalem made Ahaziah his youngest son..."
+        ],
+        "2": [
+          "Forty and two years old was Ahaziah when he began..."
+        ],
+        "5": [
+          "counsel"
+        ],
+        "12": [
+          "And he was with them hid in the house of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיִּמְלֹ֛ךְ: king - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מָלַ֖ךְ: and he reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And it came to pass, that, when Jehu was executing judgment upon the house of Ahab, and found...\". Word-study detail reinforces \"כְּהִשָּׁפֵ֥ט: was executing judgment - to judge, i.e., pronounce sentence (for or against);...\".",
+      "supportingVerses": [
+        1,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "And the inhabitants of Jerusalem made Ahaziah his youngest son..."
+        ],
+        "8": [
+          "judgment"
+        ],
+        "9": [
+          "And he sought Ahaziah"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the ban...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יֽוֹשְׁבֵ֨י: And the inhabitants - properly, to sit down (specifically as judge. in ambush, i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And it came to pass, that, when Jehu was executing judgment upon the house of Ahab, and found...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Against the Pelagians 2.21: The Lord established the kingdom in Jehoshaphat’s hand,...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How does this verse illustrate the principle of divine retribution (blessing for obedience, j...\". Word-study detail reinforces \"לַעְצֹ֥ר: to keep - to inclose; by analogy, to hold back; also to maintain, rule, assemble\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does this verse illustrate the principle of divine retribution (blessing for obedience, j...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "לַעְצֹ֥ר: to keep - to inclose; by analogy, to hold back; also to maintain, rule, assemble",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"לְמַמְלָכָֽה׃: still the kingdom - dominion, i.e., (abstractly) the estate (rule) or (concret...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "לְמַמְלָכָֽה׃: still the kingdom - dominion, i.e., (abstractly) the estate (rule) or (concret...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"He walked also after their counsel, and went with Jehoram the son of Ahab king of Israel to w...\". Word-study detail reinforces \"בַּֽעֲצָתָם֮: also after their counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "counsel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "He walked also after their counsel, and went with Jehoram the son of Ahab king of Israel to w...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בַּֽעֲצָתָם֮: also after their counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

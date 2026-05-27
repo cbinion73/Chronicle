@@ -1,0 +1,129 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 3,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:36.615Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And the walls of the pool of Siloam in the garden of...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        7,
+        15,
+        25
+      ],
+      "versePhrases": {
+        "7": [
+          "throne"
+        ],
+        "15": [
+          "king"
+        ],
+        "25": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And next unto them repaired Melatiah the Gibeonite, and Jadon the Meronothite, the men of Gib...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לְכִסֵּ֕א: unto the throne - properly, covered, i.e., a throne (as canopied)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Nehemiah 2:14",
+          "anchorVerse": 15,
+          "referenceLabel": "Nehemiah 2:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "But the gate of the fountain repaired Shallun the son of Col-hozeh, the ruler of part of Mizp...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And up to the pool, etc. The pool, indeed, construct...\". Word-study detail reinforces \"הָֽעֲשׂוּיָ֔ה: that was made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "After him repaired Nehemiah the son of Azbuk, the ruler of the half part of Beth-zur, unto th...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And up to the pool, etc. The pool, indeed, construct...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "הָֽעֲשׂוּיָ֔ה: that was made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And up to the tower of a hundred cubits, etc. For pr...\". Word-study detail reinforces \"קִדְּשׁ֔וּהוּ: they sanctified - to be (causatively, make, pronounce or observe as) clean (ce...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "sanctified"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Then Eliashib the high priest rose up with his brethren the priests, and they builded the she...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And up to the tower of a hundred cubits, etc. For pr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קִדְּשׁ֔וּהוּ: they sanctified - to be (causatively, make, pronounce or observe as) clean (ce...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

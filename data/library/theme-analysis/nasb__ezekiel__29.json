@@ -1,0 +1,177 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 29,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:02.023Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 3 onwards) Behold, I am coming to you, Pharaoh, the k...\". Word-study detail reinforces \"מֻקְרָ֔ח: was made bald - to depilate\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        12,
+        14,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "In the tenth year, in the tenth month, on the..."
+        ],
+        "3": [
+          "made"
+        ],
+        "5": [
+          "earth"
+        ],
+        "6": [
+          "made"
+        ],
+        "7": [
+          "made"
+        ],
+        "9": [
+          "made"
+        ],
+        "10": [
+          "therefore, behold, I am against you and against your canals,..."
+        ],
+        "12": [
+          "So I will make the land of Egypt a desolation..."
+        ],
+        "14": [
+          "And I will restore the fortunes of Egypt and bring..."
+        ],
+        "18": [
+          "made"
+        ],
+        "19": [
+          "Therefore this is what the Lord God says"
+        ],
+        "20": [
+          "I have given him the land of Egypt for his labor which he performed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The precise dating formula ('tenth year, tenth month, twelfth day') establishes prophetic cre...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chap. XXIX.—Vers. 1, 2.) In the tenth year (or according to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The 'great dragon' (Hebrew 'tannin'—sea monster/crocodile) represents Pharaoh. Egypt's Nile c...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 3 onwards) Behold, I am coming to you, Pharaoh, the k...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 3 onwards) Behold, I am coming to you, Pharaoh, the k...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        8,
+        10,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "I will put hooks in your jaws And make the..."
+        ],
+        "8": [
+          "‘Therefore the Lord God says this"
+        ],
+        "10": [
+          "therefore, behold, I am against you and against your canals,..."
+        ],
+        "13": [
+          "‘For this is what the Lord God says"
+        ],
+        "14": [
+          "kingdom"
+        ],
+        "15": [
+          "It will be the lowest of the kingdoms"
+        ],
+        "16": [
+          "kingdom"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 44:30",
+          "anchorVerse": 2,
+          "referenceLabel": "Jeremiah 44:30"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chap. XXIX.—Vers. 1, 2.) In the tenth year (or according to...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Ezekiel 32:2",
+          "anchorVerse": 3,
+          "referenceLabel": "Ezekiel 32:2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Amos",
+  "chapter": 4,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:18.151Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Amos: (Verse 12, 13.) Therefore, I will do these things to you, Israe...\". Word-study detail reinforces \"אָ֑רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        7,
+        8,
+        10,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "7": [
+          "And also I have withholden the rain from you, when..."
+        ],
+        "8": [
+          "So two or three cities wandered unto one city, to..."
+        ],
+        "10": [
+          "made"
+        ],
+        "12": [
+          "Therefore thus will I do unto thee, O Israel"
+        ],
+        "13": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Israel's agricultural economy depended entirely on seasonal rains. The early rains (Oct-Nov)...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 7 onwards) I have also withheld rain from you, when ther...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Ancient Near Eastern cities depended on cisterns, springs, or wells. Drought created water re...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 7 onwards) I have also withheld rain from you, when ther...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Amos: (Verse 4 and following) Come to Bethel, and act wickedly: to Gi...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "holiness"
+        ],
+        "4": [
+          "Come to Beth-el, and transgress"
+        ],
+        "5": [
+          "and offer a sacrifice of thanksgiving with leaven, and proclaim..."
+        ],
+        "6": [
+          "And I also have given you cleanness of teeth in all your cities"
+        ],
+        "12": [
+          "Therefore thus will I do unto thee, O Israel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 89:35",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 89:35"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God pronounces judgment on the wealthy women: \"The Lord GOD hath sworn by his holiness, that,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Amos: (Chapter 4, Verse 1 onwards) Hear this word, you fat cows of Sa...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּקָדְשׁ֔וֹ: by his holiness - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Amos: (Verse 12, 13.) Therefore, I will do these things to you, Israe...\". Word-study detail reinforces \"ר֗וּחַ: the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation...\".",
+      "supportingVerses": [
+        9,
+        13
+      ],
+      "versePhrases": {
+        "9": [
+          "I have smitten you with blasting and mildew"
+        ],
+        "13": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "I have smitten you with blasting and mildew (הִכֵּיתִי אֶתְכֶם בַּשִּׁדָּפוֹן וּבַיֵּרָקוֹן,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 9) I struck you with scorching wind and with blight. The...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "This doxology proclaims Yahweh's cosmic sovereignty: He that formeth the mountains (יֹצֵר הָר...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 12, 13.) Therefore, I will do these things to you, Israe...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Offer a sacrifice of thanksgiving with leaven (וְקַטֵּר מֵחָמֵץ תּוֹדָה)—The sarcasm intensif...\". Word-study detail reinforces \"וְקַטֵּ֤ר: And offer - to smoke, i.e., turn into fragrance by fire (especially as an act of w...\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "Come to Beth-el, and transgress"
+        ],
+        "5": [
+          "thanksgiving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Bethel and Gilgal were northern Israel's primary worship centers, competing with Jerusalem's...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 4 and following) Come to Bethel, and act wickedly: to Gi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Offer a sacrifice of thanksgiving with leaven (וְקַטֵּר מֵחָמֵץ תּוֹדָה)—The sarcasm intensif...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 4 and following) Come to Bethel, and act wickedly: to Gi...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Amos: (Verse 4 and following) Come to Bethel, and act wickedly: to Gi...\". Word-study detail reinforces \"לֶ֔חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        6,
+        8
+      ],
+      "versePhrases": {
+        "6": [
+          "bread",
+          "want"
+        ],
+        "8": [
+          "So two or three cities wandered unto one city, to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "I also have given you cleanness of teeth in all your cities (וְגַם־אֲנִי נָתַתִּי לָכֶם נִקְי...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 4 and following) Come to Bethel, and act wickedly: to Gi...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "לֶ֔חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "So two or three cities wandered unto one city, to drink water (וְנָעוּ שְׁתַּיִם שָׁלֹשׁ עָרִ...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

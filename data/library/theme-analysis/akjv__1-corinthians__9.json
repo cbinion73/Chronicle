@@ -1,0 +1,326 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 9,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:07.211Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 21: \"For it is written in the law of Moses, Thou s...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        10,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "10": [
+          "hope"
+        ],
+        "20": [
+          "And unto the Jews I became as a Jew, that..."
+        ],
+        "23": [
+          "And this I do for the gospel’s sake, that I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Romans 15:4",
+          "anchorVerse": 10,
+          "referenceLabel": "Romans 15:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Or saith he it altogether for our sakes? Paul intensifies his argument: the ox-muzzling law w...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 21: \"For it is written in the law of Moses, Thou s...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "ἐλπίδι: hope - expectation (abstractly or concretely) or confidence",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"CS Lewis on Before We Can Communicate, from God in the Dock: The old Prayer Book prayed that...\". Word-study detail reinforces \"ἐδούλωσα: men yet have I made - to enslave (literally or figuratively)\".",
+      "supportingVerses": [
+        9,
+        12,
+        15,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "9": [
+          "For it is written in the law of Moses, Thou..."
+        ],
+        "12": [
+          "If others be partakers of this power over you, are..."
+        ],
+        "15": [
+          "But I have used none of these things"
+        ],
+        "19": [
+          "made"
+        ],
+        "22": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For it is written in the law of Moses, Thou shalt not muzzle the mouth of the ox that treadet...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Fulgentius of Ruspe on TO PETER ON THE FAITH 42: These animals accomplish their life and purp...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What \"hindrances\" might financial support have created for Paul's gospel ministry in Corinth?",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 21: \"If others partake of this right over you, do...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Cyprian on Epistle VIII: A voice filled with the Holy Spirit broke forth from the martyr's mo...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        9,
+        10,
+        13,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "9": [
+          "For it is written in the law of Moses, Thou..."
+        ],
+        "10": [
+          "Or saith he it altogether for our sakes"
+        ],
+        "13": [
+          "holy"
+        ],
+        "24": [
+          "Know ye not that they which run in a race..."
+        ],
+        "27": [
+          "but I keep under my body, and bring it into..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Threshing was laborious work in ancient agriculture. Oxen were yoked to a wooden sledge dragg...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Apostolic Constitutions on Apostolic Constitutions (Book II), Section 4, XXV: Let him use tho...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient Palestinian agriculture depended on seasonal rains and hard labor. Plowing rocky soil...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Tertullian on Against Marcion Book II: To these prime counsels of innocence, chastity, and ju...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Cyprian on Epistle VIII: A voice filled with the Holy Spirit broke forth from the martyr's mo...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        13,
+        24,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "13": [
+          "holy"
+        ],
+        "24": [
+          "Know ye not that they which run in a race..."
+        ],
+        "25": [
+          "And every man that striveth for the mastery is temperate..."
+        ],
+        "27": [
+          "but I keep under my body, and bring it into..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 6:26",
+          "anchorVerse": 13,
+          "referenceLabel": "Leviticus 6:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Do ye not know that they which minister about holy things live of the things of the temple? a...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 22: He takes great care to show that the receiving...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "ἱερὰ: about holy things - sacred",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 23: \"But I buffet my body, and bring it into bonda...\". Word-study detail reinforces \"ὑπωπιάζω: I keep under - to hit under the eye (buffet or disable an antagonist as a pugilist)...\".",
+      "supportingVerses": [
+        9,
+        16,
+        27
+      ],
+      "versePhrases": {
+        "9": [
+          "For it is written in the law of Moses, Thou..."
+        ],
+        "16": [
+          "For though I preach the gospel, I have nothing to..."
+        ],
+        "27": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does Paul move from literal command (about oxen) to typological application (about minist...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Apostolic Constitutions on Apostolic Constitutions (Book II), Section 4, XXV: Let him use tho...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Ancient prophets understood divine compulsion. Jeremiah could not keep silent despite persecu...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 22: \"For if I preach the Gospel, I have nothing to...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 22: \"To the weak became I weak, that I might gain...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        22,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "22": [
+          "save"
+        ],
+        "24": [
+          "Know ye not that they which run in a race..."
+        ],
+        "27": [
+          "but I keep under my body, and bring it into..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "1 Corinthians 10:33",
+          "anchorVerse": 22,
+          "referenceLabel": "1 Corinthians 10:33"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "To the weak became I as weak, that I might gain the weak: Paul circles back to chapter 8's co...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 22: \"To the weak became I weak, that I might gain...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "σώσω: I might - to save, i.e., deliver or protect (literally or figuratively)",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

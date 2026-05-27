@@ -1,0 +1,160 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 3,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:10.483Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 1. Moreover, it is shown t...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        11,
+        13,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "Now the boy Samuel ministered to the Lord before Eli"
+        ],
+        "11": [
+          "Then the Lord said to Samuel"
+        ],
+        "13": [
+          "judge"
+        ],
+        "14": [
+          "And therefore I have sworn to the house of Eli..."
+        ],
+        "18": [
+          "Then Samuel told him everything, and hid nothing from him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The chapter opens with spiritual famine: 'the word of the LORD was precious [rare] in those d...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 1. Moreover, it is shown t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The idiom of ears tingling (tsalal) appears only three times in Scripture, each announcing de...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 19. For among sublime gift...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The lamp of God 'not yet gone out' indicates the time just before dawn when the lampstand's o...\". Word-study detail reinforces \"מְקַלְלִ֤ים: made themselves vile - to be (causatively, make) light, literally (swift, small,...\".",
+      "supportingVerses": [
+        3,
+        13,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "and before the lamp of God went out in the..."
+        ],
+        "13": [
+          "made"
+        ],
+        "19": [
+          "So Samuel grew, and the Lord was with him and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The lamp of God 'not yet gone out' indicates the time just before dawn when the lampstand's o...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on Samuel: But Samuel was sleeping in the temple of the Lord, etc. The Lor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יִכְבֶּ֔ה: went out - to expire or (causatively) to extinguish (fire, light, anger)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The specific sin is restated: Eli knew his sons made themselves vile (cursed, treated with co...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 21. For he sleeps until mo...\". Word-study detail reinforces \"יָרֵ֔א: feared - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        11,
+        15
+      ],
+      "versePhrases": {
+        "11": [
+          "Then the Lord said to Samuel"
+        ],
+        "15": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 19. For among sublime gift...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "תְּצִלֶּ֖ינָה: it shall tingle - to tinkle, i.e., rattle together (as the ears in reddening w...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Samuel's response to the night's revelation is significant: he lay until morning, then opened...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 21. For he sleeps until mo...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

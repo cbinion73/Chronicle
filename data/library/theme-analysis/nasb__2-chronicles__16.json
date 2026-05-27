@@ -1,0 +1,140 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 16,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:25.876Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"In the six and thirtieth year of the reign of Asa Baasha king of Israel came up against Judah...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "king",
+          "reign"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "King"
+        ],
+        "5": [
+          "When Baasha heard about it, he stopped fortifying Ramah and..."
+        ],
+        "6": [
+          "King"
+        ],
+        "7": [
+          "king"
+        ],
+        "10": [
+          "Then Asa was angry with the seer and put him..."
+        ],
+        "11": [
+          "they are written in the Book of the Kings of Judah and Israel"
+        ],
+        "12": [
+          "reign"
+        ],
+        "13": [
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the six and thirtieth year of the reign of Asa Baasha king of Israel came up against Judah...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Then Asa brought out silver and gold out of the treasures of the house of the LORD and of the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֣לֶךְ: and of the king's - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And they buried him in his own sepulchres, which he had made for himself in the city of David...\". Word-study detail reinforces \"הָאָ֙רֶץ֙: throughout the whole earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        9,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "9": [
+          "earth"
+        ],
+        "14": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְּרִֽיתְךָ֗: There is a league - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The prophet Hanani's declaration 'For the eyes of the LORD run to and fro throughout the whol...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "הָאָ֙רֶץ֙: throughout the whole earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And they buried him in his own sepulchres, which he had made for himself in the city of David...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

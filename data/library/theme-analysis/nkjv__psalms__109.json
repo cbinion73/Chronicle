@@ -1,0 +1,338 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 109,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:12.613Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"\"But do thou for me, O GOD the Lord, for thy name's sake: because thy mercy is good, deliver...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        11,
+        12,
+        14,
+        16,
+        20,
+        21,
+        26
+      ],
+      "versePhrases": {
+        "11": [
+          "Let the creditor seize all that he has, And let..."
+        ],
+        "12": [
+          "mercy"
+        ],
+        "14": [
+          "Let the iniquity of his fathers be remembered before the..."
+        ],
+        "16": [
+          "mercy"
+        ],
+        "20": [
+          "Let this be the Lord’s reward to my accusers, And..."
+        ],
+        "21": [
+          "mercy"
+        ],
+        "26": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How should awareness of financial/material vulnerability drive us to mercy and justice in our...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 109: \"Let there be no man to help him\" [Psalm 109:1...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Let there be none to extend mercy unto him (אַל־יְהִי־לוֹ מֹשֵׁךְ חָסֶד, al-yehi-lo moshech c...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "חָ֑סֶד: mercy - kindness; by implication (towards god) piety; rarely (by opposition) reproof,...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 109: He adds, \"Thus have they rewarded me evil for...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        4,
+        5,
+        12,
+        17,
+        26
+      ],
+      "versePhrases": {
+        "4": [
+          "love"
+        ],
+        "5": [
+          "love"
+        ],
+        "12": [
+          "Let there be none to extend mercy to him, Nor..."
+        ],
+        "17": [
+          "loved"
+        ],
+        "26": [
+          "Help me, O Lord my God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "2 Corinthians 12:15",
+          "anchorVerse": 4,
+          "referenceLabel": "2 Corinthians 12:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For my love they are my adversaries —David gave אַהֲבָתִי ( ahavati , \"my love\"), but receive...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 109: He adds, \"Thus have they rewarded me evil for...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אַהֲבָתִ֥י: For my love - love",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"\"But do thou for me, O GOD the Lord, for thy name's sake: because thy mercy is good, deliver...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        21,
+        26,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "21": [
+          "deliver"
+        ],
+        "26": [
+          "save"
+        ],
+        "30": [
+          "I will greatly praise the Lord with my mouth"
+        ],
+        "31": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "\"But do thou for me, O GOD the Lord, for thy name's sake: because thy mercy is good, deliver...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 109: \"O deliver me, for I am needy and poor\" [Psalm...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "הַצִּילֵֽנִי׃: deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Hebrews 5:7",
+          "anchorVerse": 26,
+          "referenceLabel": "Hebrews 5:7"
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"I will greatly praise the LORD with my mouth (אוֹדֶה יְהוָה מְאֹד בְּפִי, odeh YHWH me'od be-...\". Word-study detail reinforces \"א֘וֹדֶ֤ה: praise - physically, to throw (a stone, an arrow) at or away; especially to revere...\".",
+      "supportingVerses": [
+        1,
+        22,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "praise"
+        ],
+        "22": [
+          "For I am poor and needy, And my heart is..."
+        ],
+        "30": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "\"Hold not thy peace, O God of my praise.\" This opening petition Elohei tehilati al techaresh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 109: The Psalm, then, begins thus: \"O God, be not s...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְ֝הִלָּתִ֗י: of my praise - laudation; specifically (concretely) a hymn",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "How does recognizing your spiritual poverty before God change your approach to prayer and wor...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"For my love they are my adversaries —David gave אַהֲבָתִי ( ahavati , \"my love\"), but receive...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "prayer"
+        ],
+        "6": [
+          "Set a wicked man over him, And let an accuser..."
+        ],
+        "7": [
+          "prayer"
+        ],
+        "12": [
+          "Let there be none to extend mercy to him, Nor..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Daniel 6:10",
+          "anchorVerse": 4,
+          "referenceLabel": "Daniel 6:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For my love they are my adversaries —David gave אַהֲבָתִי ( ahavati , \"my love\"), but receive...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "תְפִלָּֽה׃: but I give myself unto prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How do we pray for justice without usurping God's role as judge, following David's model of a...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"For he shall stand at the right hand of the poor (כִּי־יַעֲמֹד לִימִין אֶבְיוֹן, ki-ya'amod l...\". Word-study detail reinforces \"מִשֹּׁפְטֵ֥י: him from those that condemn - to judge, i.e., pronounce sentence (for or agains...\".",
+      "supportingVerses": [
+        7,
+        17,
+        31
+      ],
+      "versePhrases": {
+        "7": [
+          "When he is judged"
+        ],
+        "17": [
+          "As he loved cursing, so let it come to him"
+        ],
+        "31": [
+          "condemn"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "When he shall be judged, let him be condemned (בְּהִשָּׁפְטוֹ יֵצֵא רָשָׁע, behishafto yetse...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 3: The Cursings: When the enemy is tried, let...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "בְּ֭הִשָּׁ֣פְטוֹ: When he shall be judged - to judge, i.e., pronounce sentence (for or agains...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "As he loved cursing, so let it come unto him (וַיֶּאֱהַב קְלָלָה וַתְּבוֹאֵהוּ, vaye'ehav kel...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

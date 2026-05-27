@@ -1,0 +1,507 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Esther",
+  "chapter": 1,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:27.786Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 22 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: But let us hear what Scripture has to say about the s...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "the Ahasuerus who reigned from India to Cush over 127 provinces"
+        ],
+        "2": [
+          "King",
+          "throne"
+        ],
+        "3": [
+          "reign"
+        ],
+        "4": [
+          "At that time he displayed the riches of his royal..."
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "There were curtains of fine white and violet linen held..."
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "King"
+        ],
+        "10": [
+          "king",
+          "King"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "14": [
+          "kingdom",
+          "king"
+        ],
+        "15": [
+          "King"
+        ],
+        "16": [
+          "king",
+          "King"
+        ],
+        "17": [
+          "King"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "king",
+          "King"
+        ],
+        "20": [
+          "kingdom",
+          "king"
+        ],
+        "21": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Daniel 9:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Daniel 9:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now it came to pass in the days of Ahasuerus, (this is Ahasuerus which reigned, from India ev...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: The story of Esther is found not only in the holy boo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֹּלֵךְ֙: which reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: But let us hear what Scripture has to say about the s...\". Word-study detail reinforces \"אֵלָ֗יו: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        3,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "presence"
+        ],
+        "10": [
+          "presence"
+        ],
+        "13": [
+          "Then the king said to the wise men who understood..."
+        ],
+        "14": [
+          "presence"
+        ],
+        "15": [
+          "what is to be done with Queen Vashti"
+        ],
+        "16": [
+          "presence"
+        ],
+        "17": [
+          "presence"
+        ],
+        "18": [
+          "And this day the wives of the officials of Persia..."
+        ],
+        "19": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the third year of his reign, he made a feast unto all his princes and his servants; the po...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: Though these preparations for so rich a feast seem in...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "On the seventh day, when the heart of the king was merry with wine, he commanded Mehuman, Biz...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: “So on the seventh day when the king was very festive...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: Though these preparations for so rich a feast seem in...\". Word-study detail reinforces \"וָדִֽין׃: and judgment - judgement (the suit, justice, sentence or tribunal); by implication...\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "in the third year of his reign he held a..."
+        ],
+        "7": [
+          "Drinks were served in golden vessels of various kinds, and..."
+        ],
+        "8": [
+          "But the drinking was done according to the royal law"
+        ],
+        "10": [
+          "On the seventh day, when the heart of the king..."
+        ],
+        "12": [
+          "wrath"
+        ],
+        "13": [
+          "justice"
+        ],
+        "14": [
+          "and were close to him, namely, Carshena, Shethar, Admatha, Tarshish,..."
+        ],
+        "15": [
+          "“According to law, what is to be done with Queen..."
+        ],
+        "16": [
+          "And in the presence of the king and the other..."
+        ],
+        "17": [
+          "For the queen’s conduct will become known to all the..."
+        ],
+        "18": [
+          "And this day the wives of the officials of Persia..."
+        ],
+        "19": [
+          "If it pleases the king, let a royal edict be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: Though these preparations for so rich a feast seem in...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַמְּדִינ֖וֹת: of the provinces - properly, a judgeship, i.e., jurisdiction; by implication,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How does this passage illustrate the relationship between excess, impaired judgment, and seri...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: Though these preparations for so rich a feast seem in...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: “So in the third year of his rule, King Ahasuerus hel...\". Word-study detail reinforces \"לַֽחֲכָמִ֖ים: to the wise men - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        10,
+        13,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "Now it happened in the days of Ahasuerus, the Ahasuerus..."
+        ],
+        "3": [
+          "in the third year of his reign he held a..."
+        ],
+        "4": [
+          "At that time he displayed the riches of his royal..."
+        ],
+        "6": [
+          "There were curtains of fine white and violet linen held..."
+        ],
+        "8": [
+          "But the drinking was done according to the royal law"
+        ],
+        "10": [
+          "On the seventh day, when the heart of the king..."
+        ],
+        "13": [
+          "wise"
+        ],
+        "14": [
+          "and were close to him, namely, Carshena, Shethar, Admatha, Tarshish,..."
+        ],
+        "15": [
+          "“According to law, what is to be done with Queen..."
+        ],
+        "16": [
+          "And in the presence of the king and the other..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How should believers understand God's sovereignty over political powers that don't acknowledg...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome: The Book of Esther stands corrupted by various translators. Which (book) I, lifting u...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֹּלֵךְ֙: which reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How can Christians discern God's redemptive purposes working through apparently secular histo...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: But let us hear what Scripture has to say about the s...\". Word-study detail reinforces \"שָֽׁמְעוּ֙: which have heard - to hear intelligently (often with implication of attention, ob...\".",
+      "supportingVerses": [
+        10,
+        12,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "10": [
+          "On the seventh day, when the heart of the king..."
+        ],
+        "12": [
+          "But Queen Vashti refused to come at the king’s order..."
+        ],
+        "14": [
+          "and were close to him, namely, Carshena, Shethar, Admatha, Tarshish,..."
+        ],
+        "15": [
+          "obey",
+          "command"
+        ],
+        "17": [
+          "‘King Ahasuerus commanded that Queen Vashti be brought in to his presence"
+        ],
+        "18": [
+          "And this day the wives of the officials of Persia..."
+        ],
+        "19": [
+          "If it pleases the king, let a royal edict be..."
+        ],
+        "20": [
+          "When the king’s edict which he will make is heard..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "On the seventh day, when the heart of the king was merry with wine, he commanded Mehuman, Biz...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: “So on the seventh day when the king was very festive...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Vashti's refusal: 'But the queen Vashti refused to come at the king's commandment by his cham...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: But let us hear what Scripture has to say about the s...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: But let us hear what Scripture has to say about the s...\".",
+      "supportingVerses": [
+        10,
+        11,
+        12,
+        14,
+        15,
+        17
+      ],
+      "versePhrases": {
+        "10": [
+          "On the seventh day, when the heart of the king..."
+        ],
+        "11": [
+          "to bring Queen Vashti before the king with her royal..."
+        ],
+        "12": [
+          "delivered"
+        ],
+        "14": [
+          "and were close to him, namely, Carshena, Shethar, Admatha, Tarshish,..."
+        ],
+        "15": [
+          "delivered"
+        ],
+        "17": [
+          "For the queen’s conduct will become known to all the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "On the seventh day, when the heart of the king was merry with wine, he commanded Mehuman, Biz...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: “So on the seventh day when the king was very festive...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Persian court etiquette typically maintained strict separation between male and female sphere...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: “So on the seventh day when the king was very festive...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

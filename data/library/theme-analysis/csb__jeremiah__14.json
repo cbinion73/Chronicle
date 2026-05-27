@@ -1,0 +1,288 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 14,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:44:17.636Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The prayer continues with rich covenant titles: 'O the hope of Israel, the Saviour thereof in...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        8,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "8": [
+          "Hope"
+        ],
+        "19": [
+          "hope",
+          "hoped"
+        ],
+        "22": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Jeremiah 17:13",
+          "anchorVerse": 8,
+          "referenceLabel": "Jeremiah 17:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The prayer continues with rich covenant titles: 'O the hope of Israel, the Saviour thereof in...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מִקְוֵה֙: O the hope - something waited for, i.e., a collection, i.e., (of water) a pond, or...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 19) Have you rejected Judah completely? Has your sou...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jeremiah protests: 'Then said I, Ah, Lord GOD! behold, the prophets say unto them, Ye shall n...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        10,
+        13,
+        19
+      ],
+      "versePhrases": {
+        "10": [
+          "rest"
+        ],
+        "13": [
+          "peace"
+        ],
+        "19": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 10.) Thus says the Lord to this people, because they...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Jeremiah 6:14",
+          "anchorVerse": 13,
+          "referenceLabel": "Jeremiah 6:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Jeremiah protests: 'Then said I, Ah, Lord GOD! behold, the prophets say unto them, Ye shall n...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verses 13, 14.) And I said, ah, ah, ah, Lord God, (or who...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 17) And you shall say to them this word: Let my eyes...\". Word-study detail reinforces \"צָרָ֑ה: of trouble - transitively, a female rival\".",
+      "supportingVerses": [
+        2,
+        5,
+        6,
+        8,
+        13,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "mourning"
+        ],
+        "5": [
+          "Even the doe in the field gives birth and abandons..."
+        ],
+        "6": [
+          "Wild donkeys stand on the barren heights panting for air..."
+        ],
+        "8": [
+          "Hope of Israel, its Savior in time of distress, why..."
+        ],
+        "13": [
+          "suffer"
+        ],
+        "17": [
+          "You are to speak this word to them"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What is the relationship between corporate suffering and corporate prayer?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What does creation's suffering under judgment teach about the seriousness of covenant breaking?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5, 6.) For even the deer (or deer) in the field give...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "What does the suffering of even hardy, adapted creatures teach about judgment's severity?",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"God explicitly forbids intercession: 'Then said the LORD unto me, Pray not for this people fo...\". Word-study detail reinforces \"תִּתְפַּלֵּ֛ל: unto me Pray - to judge (officially or mentally); by extension, to intercede,...\".",
+      "supportingVerses": [
+        10,
+        11,
+        20
+      ],
+      "versePhrases": {
+        "10": [
+          "punish"
+        ],
+        "11": [
+          "Then the Lord said to me, “Do not pray for..."
+        ],
+        "20": [
+          "We acknowledge our wickedness, Lord, the iniquity of our ancestors"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What does it mean for God to 'remember' iniquity and 'visit' sins in judgment?",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 10.) Thus says the Lord to this people, because they...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "God explicitly forbids intercession: 'Then said the LORD unto me, Pray not for this people fo...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "תִּתְפַּלֵּ֛ל: unto me Pray - to judge (officially or mentally); by extension, to intercede,...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This command appears three times in Jeremiah (7:16; 11:14; 14:11), marking stages where judgm...\".",
+      "supportingVerses": [
+        11,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "Then the Lord said to me, “Do not pray for..."
+        ],
+        "14": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This command appears three times in Jeremiah (7:16; 11:14; 14:11), marking stages where judgm...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Tertullian on ON PURITY 2: Although God is by nature good, yet he is also just, and as the ca...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 10.) Thus says the Lord to this people, because they...\". Word-study detail reinforces \"אָֽהֲבוּ֙: Thus have they loved - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "God's response explains why intercession will fail: 'Thus saith the LORD unto this people, Th...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 10.) Thus says the Lord to this people, because they...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "אָֽהֲבוּ֙: Thus have they loved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

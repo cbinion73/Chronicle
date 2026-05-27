@@ -1,0 +1,518 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 John",
+  "chapter": 3,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:39.881Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: And this is his commandment, that we believe in...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        2,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "2": [
+          "Dear friends, now we are children of God, and what..."
+        ],
+        "10": [
+          "love"
+        ],
+        "11": [
+          "love"
+        ],
+        "12": [
+          "Do not be like Cain, who belonged to the evil..."
+        ],
+        "13": [
+          "Do not be surprised, my brothers and sisters, if the..."
+        ],
+        "14": [
+          "love"
+        ],
+        "15": [
+          "Anyone who hates a brother or sister is a murderer,..."
+        ],
+        "16": [
+          "love"
+        ],
+        "17": [
+          "love"
+        ],
+        "18": [
+          "love"
+        ],
+        "19": [
+          "This is how we know that we belong to the..."
+        ],
+        "20": [
+          "If our hearts condemn us, we know that God is..."
+        ],
+        "21": [
+          "Dear friends, if our hearts do not condemn us, we..."
+        ],
+        "22": [
+          "and receive from him anything we ask, because we keep..."
+        ],
+        "23": [
+          "love"
+        ],
+        "24": [
+          "The one who keeps God’s commands lives in him, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "John 3:16",
+          "anchorVerse": 1,
+          "referenceLabel": "John 3:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Behold, what manner of love the Father hath bestowed upon us, that we should be called the so...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Ten Homilies on 1 John 4: \"Behold what manner of love the Father hath g...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀγάπην: of love - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"And this is his commandment, That we should believe on the name of his Son Jesus Christ, and...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        10,
+        13,
+        14,
+        17,
+        18,
+        20,
+        21,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "See what great love the Father has lavished on us,..."
+        ],
+        "2": [
+          "Dear friends, now we are children of God, and what..."
+        ],
+        "3": [
+          "hope"
+        ],
+        "6": [
+          "No one who lives in him keeps on sinning"
+        ],
+        "7": [
+          "Dear children, do not let anyone lead you astray"
+        ],
+        "10": [
+          "This is how we know who the children of God..."
+        ],
+        "13": [
+          "Do not be surprised, my brothers and sisters, if the..."
+        ],
+        "14": [
+          "We know that we have passed from death to life,..."
+        ],
+        "17": [
+          "If anyone has material possessions and sees a brother or..."
+        ],
+        "18": [
+          "Dear children, let us not love with words or speech..."
+        ],
+        "20": [
+          "If our hearts condemn us, we know that God is..."
+        ],
+        "21": [
+          "confidence"
+        ],
+        "23": [
+          "believe"
+        ],
+        "24": [
+          "The one who keeps God’s commands lives in him, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the Roman world, adoption carried significant legal and social weight. An adopted son rece...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on 1 John: See what kind of love the Father has given us, that we sh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on Commentary on 1 John: Beloved, we are now children of God, and it has not yet a...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Little children, let no man deceive you: he that doeth righteousness is righteous, even as he...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        12,
+        13,
+        19,
+        21,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "Dear friends, now we are children of God, and what..."
+        ],
+        "3": [
+          "pure"
+        ],
+        "4": [
+          "Everyone who sins breaks the law"
+        ],
+        "5": [
+          "But you know that he appeared so that he might..."
+        ],
+        "6": [
+          "No one who lives in him keeps on sinning"
+        ],
+        "7": [
+          "righteous"
+        ],
+        "9": [
+          "No one who is born of God will continue to..."
+        ],
+        "10": [
+          "This is how we know who the children of God..."
+        ],
+        "12": [
+          "righteous"
+        ],
+        "13": [
+          "Do not be surprised, my brothers and sisters, if the..."
+        ],
+        "19": [
+          "This is how we know that we belong to the..."
+        ],
+        "21": [
+          "Dear friends, if our hearts do not condemn us, we..."
+        ],
+        "22": [
+          "and receive from him anything we ask, because we keep..."
+        ],
+        "24": [
+          "The one who keeps God’s commands lives in him, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does it mean that seeing Christ 'as he is' will transform us into His likeness, and how...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on Commentary on 1 John: Beloved, we are now children of God, and it has not yet a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And every man that hath this hope in him purifieth himself, even as he is pure. The hope of g...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Oecumenius on Commentary on 1 John: Beloved, we are now children of God, and it has not yet a...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Little children, let no man deceive you: he that doeth righteousness is righteous, even as he...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        12,
+        13,
+        19,
+        21,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "Dear friends, now we are children of God, and what..."
+        ],
+        "3": [
+          "just"
+        ],
+        "4": [
+          "Everyone who sins breaks the law"
+        ],
+        "5": [
+          "But you know that he appeared so that he might..."
+        ],
+        "7": [
+          "righteous",
+          "just"
+        ],
+        "9": [
+          "No one who is born of God will continue to..."
+        ],
+        "10": [
+          "This is how we know who the children of God..."
+        ],
+        "12": [
+          "righteous"
+        ],
+        "13": [
+          "Do not be surprised, my brothers and sisters, if the..."
+        ],
+        "19": [
+          "This is how we know that we belong to the truth and how we set our hearts at rest in his presence"
+        ],
+        "21": [
+          "if our hearts do not condemn us"
+        ],
+        "22": [
+          "and receive from him anything we ask, because we keep..."
+        ],
+        "24": [
+          "The one who keeps God’s commands lives in him, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on Commentary on 1 John: Beloved, we are now children of God, and it has not yet a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "καθώς: as - just (or inasmuch) as, that",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And every man that hath this hope in him purifieth himself, even as he is pure. The hope of g...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Tertullian on On Monogamy: Accordingly he says more manifestly: \"And every (man) who hath thi...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"And whatsoever we ask, we receive of him, because we keep his commandments, and do those thin...\". Word-study detail reinforces \"ἔγνωκεν: known - to \"know\" (absolutely) in a great variety of applications and with many impl...\".",
+      "supportingVerses": [
+        6,
+        11,
+        13,
+        18,
+        20,
+        22,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "6": [
+          "No one who lives in him keeps on sinning"
+        ],
+        "11": [
+          "For this is the message you heard from the beginning"
+        ],
+        "13": [
+          "Do not be surprised, my brothers and sisters, if the..."
+        ],
+        "18": [
+          "Dear children, let us not love with words or speech..."
+        ],
+        "20": [
+          "If our hearts condemn us, we know that God is..."
+        ],
+        "22": [
+          "commands",
+          "keep"
+        ],
+        "23": [
+          "command"
+        ],
+        "24": [
+          "commands"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Jewish Christianity emphasized that faith produces obedience. James wrote that faith without...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: And everyone who sins has neither seen Him nor k...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "ἔγνωκεν: known - to \"know\" (absolutely) in a great variety of applications and with many impl...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "For this is the message that ye heard from the beginning, that we should love one another. Jo...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Oecumenius on Commentary on 1 John: Everyone who is born of God does not sin, because His see...\".",
+      "supportingVerses": [
+        1,
+        2,
+        9,
+        10,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "children of God"
+        ],
+        "2": [
+          "children of God"
+        ],
+        "9": [
+          "born of God"
+        ],
+        "10": [
+          "children of God"
+        ],
+        "14": [
+          "We know that we have passed from death to life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the Roman world, adoption carried significant legal and social weight. An adopted son rece...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 John: Having spoken about the appearance of antichris...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on Commentary on 1 John: Beloved, we are now children of God, and it has not yet a...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

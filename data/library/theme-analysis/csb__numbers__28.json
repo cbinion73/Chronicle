@@ -1,0 +1,87 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 28,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:20.405Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"In the fifteenth day of this month (בַּחֲמִשָּׁה עָשָׂר יוֹם, bachamishah asar yom)—Passover...\". Word-study detail reinforces \"לַחְמִ֜י: and my bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        2,
+        17,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "“Command the Israelites and say to them"
+        ],
+        "17": [
+          "bread"
+        ],
+        "24": [
+          "You are to offer the same food each day for..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God commands Israel to observe 'my offering, and my bread for my sacrifices made by fire' at...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לַחְמִ֜י: and my bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "In the fifteenth day of this month (בַּחֲמִשָּׁה עָשָׂר יוֹם, bachamishah asar yom)—Passover...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "מַצּ֖וֹת: shall unleavened bread - properly, sweetness; concretely, sweet (i.e., not soured o...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"God commands Israel to observe 'my offering, and my bread for my sacrifices made by fire' at...\". Word-study detail reinforces \"צַ֚ו: Command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "Command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God commands Israel to observe 'my offering, and my bread for my sacrifices made by fire' at...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "צַ֚ו: Command - (intensively) to constitute, enjoin",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

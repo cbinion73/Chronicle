@@ -1,0 +1,516 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Lamentations",
+  "chapter": 3,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:53.464Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"The darkness imagery has deep biblical roots. Darkness represents judgment, chaos, and divine...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        4,
+        6,
+        7,
+        9,
+        11,
+        15,
+        27,
+        31,
+        34,
+        38,
+        41,
+        45,
+        47,
+        50,
+        54,
+        66
+      ],
+      "versePhrases": {
+        "2": [
+          "made",
+          "light"
+        ],
+        "4": [
+          "He has aged my flesh and my skin, And broken..."
+        ],
+        "6": [
+          "He has set me in dark places Like the dead..."
+        ],
+        "7": [
+          "made"
+        ],
+        "9": [
+          "made"
+        ],
+        "11": [
+          "made"
+        ],
+        "15": [
+          "made"
+        ],
+        "27": [
+          "It is good for a man to bear The yoke..."
+        ],
+        "31": [
+          "For the Lord will not cast off forever"
+        ],
+        "34": [
+          "earth"
+        ],
+        "38": [
+          "Is it not from the mouth of the Most High..."
+        ],
+        "41": [
+          "Let us lift our hearts and hands To God in..."
+        ],
+        "45": [
+          "made"
+        ],
+        "47": [
+          "Fear and a snare have come upon us, Desolation and..."
+        ],
+        "50": [
+          "Till the Lord from heaven Looks down and sees"
+        ],
+        "54": [
+          "waters"
+        ],
+        "66": [
+          "heavens"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Isaiah 59:9",
+          "anchorVerse": 2,
+          "referenceLabel": "Isaiah 59:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The darkness imagery has deep biblical roots. Darkness represents judgment, chaos, and divine...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Second, a subtraction of consolation is viewed....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֽוֹר׃: but not into light - illumination or (concrete) luminary (in every sense, including l...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Thomas Aquinas on Commentary on Lamentations: After an enumeration of many penalties (in Chap...\". Word-study detail reinforces \"עֳנִ֔י: affliction - depression, i.e., misery\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        15,
+        19,
+        27,
+        28,
+        30,
+        31,
+        33,
+        34,
+        39,
+        48,
+        51,
+        52,
+        65
+      ],
+      "versePhrases": {
+        "1": [
+          "affliction"
+        ],
+        "2": [
+          "He has led me and made me walk In darkness..."
+        ],
+        "3": [
+          "Surely He has turned His hand against me Time and..."
+        ],
+        "15": [
+          "He has filled me with bitterness, He has made me..."
+        ],
+        "19": [
+          "affliction"
+        ],
+        "27": [
+          "It is good for a man to bear The yoke..."
+        ],
+        "28": [
+          "Let him sit alone and keep silent, Because God has..."
+        ],
+        "30": [
+          "Let him give his cheek to the one who strikes..."
+        ],
+        "31": [
+          "For the Lord will not cast off forever"
+        ],
+        "33": [
+          "For He does not afflict willingly, Nor grieve the children..."
+        ],
+        "34": [
+          "To crush under one’s feet All the prisoners of the..."
+        ],
+        "39": [
+          "Why should a living man complain, A man for the..."
+        ],
+        "48": [
+          "My eyes overflow with rivers of water For the destruction..."
+        ],
+        "51": [
+          "suffering"
+        ],
+        "52": [
+          "My enemies without cause Hunted me down like a bird"
+        ],
+        "65": [
+          "Give them a veiled heart"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Jeremiah's life embodied the affliction described. Called to prophesy in 627 BC, he ministere...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: After an enumeration of many penalties (in Chap...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "עֳנִ֔י: affliction - depression, i.e., misery",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The darkness imagery has deep biblical roots. Darkness represents judgment, chaos, and divine...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"The pivotal turn: \"This I recall to my mind, therefore have I hope\" ( zot ashiv el-libi al-ke...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        18,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "18": [
+          "hope"
+        ],
+        "21": [
+          "hope"
+        ],
+        "22": [
+          "Through the Lord’s mercies we are not consumed, Because His..."
+        ],
+        "23": [
+          "Great is Your faithfulness"
+        ],
+        "24": [
+          "hope"
+        ],
+        "26": [
+          "hope"
+        ],
+        "27": [
+          "It is good for a man to bear The yoke..."
+        ],
+        "29": [
+          "hope"
+        ],
+        "30": [
+          "Let him give his cheek to the one who strikes..."
+        ],
+        "31": [
+          "For the Lord will not cast off forever"
+        ],
+        "32": [
+          "Though He causes grief, Yet He will show compassion According..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Job 17:15",
+          "anchorVerse": 18,
+          "referenceLabel": "Job 17:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "How does this honest expression of failed hope prepare the way for verses 21-26's renewed con...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "וְתוֹחַלְתִּ֖י: and my hope - expectation",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Psalms 130:7",
+          "anchorVerse": 21,
+          "referenceLabel": "Psalms 130:7"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"These verses counter potential misunderstandings about divine judgment. Pagan gods were often...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        19,
+        31,
+        32,
+        33,
+        35,
+        36,
+        39,
+        48,
+        58,
+        59
+      ],
+      "versePhrases": {
+        "1": [
+          "wrath"
+        ],
+        "19": [
+          "Remember my affliction and roaming, The wormwood and the gall"
+        ],
+        "31": [
+          "For the Lord will not cast off forever"
+        ],
+        "32": [
+          "Though He causes grief, Yet He will show compassion According..."
+        ],
+        "33": [
+          "For He does not afflict willingly, Nor grieve the children..."
+        ],
+        "35": [
+          "justice"
+        ],
+        "36": [
+          "Or subvert a man in his cause— The Lord does..."
+        ],
+        "39": [
+          "punishment"
+        ],
+        "48": [
+          "My eyes overflow with rivers of water For the destruction..."
+        ],
+        "58": [
+          "O Lord, You have pleaded the case for my soul"
+        ],
+        "59": [
+          "Judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 88:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 88:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Chapter 3 shifts to a singular voice: \"I am the man that hath seen affliction by the rod of h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: After an enumeration of many penalties (in Chap...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "עֶבְרָתֽוֹ׃: of his wrath - an outburst of passion",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Complementing verse 31-33, this verse affirms: \"But though he cause grief, yet will he have c...\". Word-study detail reinforces \"סָלָֽחְתָּ׃: thou hast not pardoned - to forgive\".",
+      "supportingVerses": [
+        19,
+        22,
+        29,
+        31,
+        32,
+        42,
+        48,
+        56
+      ],
+      "versePhrases": {
+        "19": [
+          "Remember my affliction and roaming, The wormwood and the gall"
+        ],
+        "22": [
+          "Because His compassions fail not"
+        ],
+        "29": [
+          "Let him put his mouth in the dust— There may..."
+        ],
+        "31": [
+          "For the Lord will not cast off forever"
+        ],
+        "32": [
+          "compassion"
+        ],
+        "42": [
+          "You have not pardoned"
+        ],
+        "48": [
+          "My eyes overflow with rivers of water For the destruction..."
+        ],
+        "56": [
+          "You have heard my voice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "The wormwood and gall imagery appears elsewhere in contexts of divine judgment. Deuteronomy 2...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Here is indicated arguments to wipe out despair...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "It is of the LORD'S mercies that we are not consumed (חַסְדֵי יְהוָה כִּי לֹא־תָמְנוּ, chasde...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Presently the experience of divine mercy is exp...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"The experience of prayer seemingly not passing through God's cloud would have been agonizing...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        8,
+        41,
+        42,
+        44,
+        55,
+        56,
+        57
+      ],
+      "versePhrases": {
+        "8": [
+          "prayer"
+        ],
+        "41": [
+          "Let us lift our hearts and hands To God in..."
+        ],
+        "42": [
+          "We have transgressed and rebelled"
+        ],
+        "44": [
+          "prayer"
+        ],
+        "55": [
+          "I called on Your name"
+        ],
+        "56": [
+          "You have heard my voice"
+        ],
+        "57": [
+          "You drew near on the day I called on You"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Prayer seems futile: \"Also when I cry and shout, he shutteth out my prayer\" ( gam ki-ez'ak va...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Second, is cut off a remedy for escape, due to...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "תְּפִלָּתִֽי׃: my prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 41 commentary",
+          "detail": "Physical prayer postures in ancient Israel were varied and meaningful. Kneeling signified sub...",
+          "anchorVerse": 41
+        }
+      ]
+    }
+  ]
+}

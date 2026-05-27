@@ -1,0 +1,210 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 23,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:53.830Z",
+  "themes": [
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "The shepherd theme emphasizes the Lord’s active leading, direction, and care along the path. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The LORD is my shepherd; I shall not want. This beloved opening of Scripture's most famous ps...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "shepherd"
+        ],
+        "2": [
+          "leads me"
+        ],
+        "3": [
+          "restores my soul",
+          "leads me in the paths of righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Parallel theme",
+          "detail": "Philippians 4:19",
+          "anchorVerse": 1,
+          "referenceLabel": "Philippians 4:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The LORD is my shepherd; I shall not want. This beloved opening of Scripture's most famous ps...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist, speaking in the per...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "רֹ֝עִ֗י: is my shepherd - to tend a flock; i.e., pasture it; intransitively, to graze (litera...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "label": "Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "The passage presents rest as settled safety in God’s care, not mere inactivity. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The shepherd imagery shifts to God's provision of rest and refreshment through two parallel p...\". Word-study detail reinforces \"וְשַׁבְתִּ֥י: and I will dwell - properly, to sit down (specifically as judge. in ambush, in...\".",
+      "supportingVerses": [
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "lie down in green pastures",
+          "still waters"
+        ],
+        "3": [
+          "restores my soul"
+        ],
+        "6": [
+          "dwell in the house of the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The shepherd imagery shifts to God's provision of rest and refreshment through two parallel p...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on SERMON 366:3: The pastures that this good shepherd has prepared for you...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "דֶּ֭שֶׁא: in green - a sprout; by analogy, grass",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The Hebrew 'nephesh' (soul) encompasses the whole person—life, vitality, and being—not merely...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "God supplies what is needed, from daily sufficiency to abundance in the presence of enemies. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: With regard to the second he says, \"you...\". Word-study detail reinforces \"שֻׁלְחָ֗ן: a table - a table (as spread out); by implication, a meal\".",
+      "supportingVerses": [
+        1,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "I shall not want"
+        ],
+        "5": [
+          "prepare a table",
+          "anoint my head with oil",
+          "cup runs over",
+          "cup overflows"
+        ],
+        "6": [
+          "goodness and mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The LORD is my shepherd; I shall not want. This beloved opening of Scripture's most famous ps...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist, speaking in the per...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶחְסָֽר׃: I shall not want - to lack; by implication, to fail, want, lessen",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The imagery transitions from pastoral to hospitality, depicting God as the generous host who...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "label": "Trust",
+      "color": "#7c3aed",
+      "tier": "Inferred",
+      "summary": "Confidence in God’s presence steadies the believer through danger and into lasting security. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou a...\". Word-study detail reinforces \"רָ֗ע: no evil - bad or (as noun) evil (natural or moral)\".",
+      "supportingVerses": [
+        4,
+        6
+      ],
+      "versePhrases": {
+        "4": [
+          "I will fear no evil",
+          "You are with me",
+          "your rod and your staff"
+        ],
+        "6": [
+          "forever",
+          "all the days of my life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 23: \"Yea, though I walk in the midst of the shadow...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "רָ֗ע: no evil - bad or (as noun) evil (natural or moral)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The psalm concludes with confident assurance rooted in God's covenant faithfulness. 'Goodness...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

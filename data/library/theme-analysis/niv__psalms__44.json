@@ -1,0 +1,334 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 44,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:16.769Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: As to the third they are mocked, because...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        3,
+        10,
+        13,
+        14,
+        19,
+        25
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "3": [
+          "light"
+        ],
+        "10": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "14": [
+          "made"
+        ],
+        "19": [
+          "made"
+        ],
+        "25": [
+          "We are brought down to the dust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Deuteronomy 10:15",
+          "anchorVerse": 3,
+          "referenceLabel": "Deuteronomy 10:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The emphatic denial--'they got not the land in possession by their own sword'--rejects human...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 44: \"For they gat not the land in possession by the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אָ֗רֶץ: not the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 44: \"What? Was He then other than now He is?\" Away...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        26
+      ],
+      "versePhrases": {
+        "1": [
+          "We have heard it with our ears, O God"
+        ],
+        "3": [
+          "It was not by their sword that they won the..."
+        ],
+        "4": [
+          "You are my King and my God, who decrees victories..."
+        ],
+        "6": [
+          "I put no trust in my bow, my sword does..."
+        ],
+        "7": [
+          "but you give us victory over our enemies, you put..."
+        ],
+        "26": [
+          "rescue"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Intergenerational testimony was commanded in Deuteronomy 6:6-7 and Psalm 78. Israel's identit...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 44: \"O God, we have heard with our ears; our father...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 20:6",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 20:6"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"For not by their own sword did they pos...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"For not.\" In the preceding verse the Ps...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "We have heard it with our ears, O God"
+        ],
+        "5": [
+          "Through you we push back our enemies"
+        ],
+        "6": [
+          "trust"
+        ],
+        "7": [
+          "but you give us victory over our enemies, you put..."
+        ],
+        "17": [
+          "All this came upon us, though we had not forgotten..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What role does hearing 'from our fathers' play in sustaining faith?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 44: \"O God, we have heard with our ears; our father...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does corporate confidence ('we will push down') differ from individual presumption?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 44: But perhaps it is only what is past that has be...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"All these things.\" Here he shows their...\". Word-study detail reinforces \"בִּבְרִיתֶֽךָ׃: in thy covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        2,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "With your hand you drove out the nations and planted..."
+        ],
+        "17": [
+          "covenant"
+        ],
+        "18": [
+          "Our hearts had not turned back"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The conquest of Canaan was interpreted as God's holy war, driving out nations judged for cent...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PSALMS 44:3: So which triumphs is he recalling? Which su...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "The remarkable claim: 'All this is come upon us; yet have we not forgotten thee, neither have...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"All these things.\" Here he shows their...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ambrose of Milan on COMMENTARY ON TWELVE PSALMS 44:13: When God is pleased with us, it is bec...\". Word-study detail reinforces \"חַסְדֶּֽךָ׃: us for thy mercies - kindness; by implication (towards god) piety; rarely (by op...\".",
+      "supportingVerses": [
+        3,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "loved"
+        ],
+        "26": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ambrose of Milan on COMMENTARY ON TWELVE PSALMS 44:13: When God is pleased with us, it is bec...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "The final appeal: 'Arise for our help, and redeem us for thy mercies' sake.' The verb 'arise'...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 44: \"Arise, O Lord, help us\" [Psalm 44:26]. And ind...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "חַסְדֶּֽךָ׃: us for thy mercies - kindness; by implication (towards god) piety; rarely (by op...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 44: \"What? Was He then other than now He is?\" Away...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "It was not by their sword that they won the..."
+        ],
+        "4": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This theological interpretation of conquest countered ancient Near Eastern royal inscriptions...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"For not by their own sword did they pos...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 74:12",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 74:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does addressing God as 'my King' reveal about the psalmist's understanding of divine aut...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 147,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:39.312Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 147: \"Who sends forth His Word to the earth\" [Psalm...\". Word-study detail reinforces \"אָ֑רֶץ: upon earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        8,
+        13,
+        15,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "He telleth the number of the stars"
+        ],
+        "8": [
+          "earth"
+        ],
+        "13": [
+          "For he hath strengthened the bars of thy gates"
+        ],
+        "15": [
+          "earth"
+        ],
+        "18": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient Near Eastern peoples observed stars with sophisticated astronomical knowledge, tracki...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 6:4: If anyone undertakes to speak of the attribut...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Who covereth the heaven with clouds, who prepareth rain for the earth, who maketh grass to gr...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Homilies on the Gospels 1:23: That you may be aware that God the Father worked not on...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"This verse opens with what appears to be a simple affirmation that becomes theologically prof...\". Word-study detail reinforces \"עֱנ֣וּ: Sing - properly, to eye or (generally) to heed, i.e., pay attention; by implication,...\".",
+      "supportingVerses": [
+        1,
+        7,
+        12,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise",
+          "praise",
+          "sing"
+        ],
+        "7": [
+          "praise",
+          "thanksgiving",
+          "Sing",
+          "sing"
+        ],
+        "12": [
+          "Praise",
+          "praise"
+        ],
+        "20": [
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This verse opens with what appears to be a simple affirmation that becomes theologically prof...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 147: It is said to us, \"Praise the Lord\" [Psalm 147...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְהִלָּֽה׃: and praise - laudation; specifically (concretely) a hymn",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Sing unto the LORD with thanksgiving (שִׁירוּ לַיהוָה בְּתוֹדָה)—The imperative shiru command...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"This verse shifts from worship practice to theological reflection on God's majesty and nature...\". Word-study detail reinforces \"לִ֝תְבוּנָת֗וֹ: his understanding - intelligence; by implication, an argument; by extension,...\".",
+      "supportingVerses": [
+        5,
+        11,
+        15,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "understanding"
+        ],
+        "11": [
+          "The Lord taketh pleasure in them that fear him, in..."
+        ],
+        "15": [
+          "He sendeth forth his commandment upon earth"
+        ],
+        "19": [
+          "He sheweth his word unto Jacob, his statutes and his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse shifts from worship practice to theological reflection on God's majesty and nature...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 147: \"Great is our Lord\" [Psalm 147:5]. The Psalmis...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "לִ֝תְבוּנָת֗וֹ: his understanding - intelligence; by implication, an argument; by extension,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "In what ways does the character of those who fear God and trust His mercy inform our understa...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This verse reveals the specific orientation of God's favor: 'The LORD taketh pleasure in them...\". Word-study detail reinforces \"הַֽמְיַחֲלִ֥ים: him in those that hope - to wait; by implication, to be patient, hope\".",
+      "supportingVerses": [
+        4,
+        11,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "He telleth the number of the stars"
+        ],
+        "11": [
+          "hope"
+        ],
+        "16": [
+          "He giveth snow like wool"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How should the vastness of God's cosmic sovereignty shape your worship and trust during perso...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 147: \"Who tells the number of the stars, and calls...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This verse reveals the specific orientation of God's favor: 'The LORD taketh pleasure in them...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 147: But what adds he? \"The Lord will delight in th...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 147: What ye cried out a while ago at the very ment...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        12,
+        14
+      ],
+      "versePhrases": {
+        "12": [
+          "Praise the Lord, O Jerusalem"
+        ],
+        "14": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Post-exilic Jerusalem was physically rebuilt but still vulnerable, a small province in the Pe...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Augustine of Hippo on SERMON 130:5: Because whatever pains and difficulties we may have endur...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Psalms 29:11",
+          "anchorVerse": 14,
+          "referenceLabel": "Psalms 29:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "He maketh peace in thy borders, and filleth thee with the finest of the wheat. The Hebrew has...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 147: But what adds he? \"The Lord will delight in th...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 33:18",
+          "anchorVerse": 11,
+          "referenceLabel": "Psalms 33:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This verse reveals the specific orientation of God's favor: 'The LORD taketh pleasure in them...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 147: But what adds he? \"The Lord will delight in th...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "לְחַסְדּֽוֹ׃: in his mercy - kindness; by implication (towards god) piety; rarely (by opposit...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

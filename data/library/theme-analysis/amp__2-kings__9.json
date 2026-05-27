@@ -1,0 +1,167 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 9,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:10.006Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 9:30: They thought that she would have wept...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        6,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        21,
+        23,
+        27,
+        29,
+        30,
+        34
+      ],
+      "versePhrases": {
+        "3": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "15": [
+          "King",
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "21": [
+          "king"
+        ],
+        "23": [
+          "So Joram reined [his chariot] around and fled, and he..."
+        ],
+        "27": [
+          "king"
+        ],
+        "29": [
+          "king"
+        ],
+        "30": [
+          "So when Jehu came to Jezreel, Jezebel heard about it,..."
+        ],
+        "34": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 19:16",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Kings 19:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Then take the box of oil, and pour it on his head, and say, Thus saith the LORD, I have anoin...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 9:1-24: “Then the prophet Elisha called a me...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "לְמֶ֖לֶךְ: thee king - a king",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And it came to pass, when Joram saw Jehu, that he said, Is it peace, Jehu? And he answered, W...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        17,
+        18,
+        19,
+        22,
+        31
+      ],
+      "versePhrases": {
+        "17": [
+          "peace"
+        ],
+        "18": [
+          "peace"
+        ],
+        "19": [
+          "peace"
+        ],
+        "22": [
+          "peace"
+        ],
+        "31": [
+          "As Jehu entered in at the gate, she said, “Is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "1 Samuel 16:4",
+          "anchorVerse": 17,
+          "referenceLabel": "1 Samuel 16:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And there stood a watchman on the tower in Jezreel, and he spied the company of Jehu as he ca...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "הֲשָׁלֽוֹם׃: Is it peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "2 Kings 9:22",
+          "anchorVerse": 18,
+          "referenceLabel": "2 Kings 9:22"
+        }
+      ]
+    }
+  ]
+}

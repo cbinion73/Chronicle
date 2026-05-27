@@ -1,0 +1,327 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 11,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:57.462Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...\". Word-study detail reinforces \"תִּשְׁמְע֗וּ: if ye obey - to hear intelligently (often with implication of attention, obedie...\".",
+      "supportingVerses": [
+        1,
+        8,
+        13,
+        14,
+        22,
+        27,
+        28,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "keep",
+          "statutes"
+        ],
+        "8": [
+          "keep"
+        ],
+        "13": [
+          "command"
+        ],
+        "14": [
+          "that He will give the rain for your land in..."
+        ],
+        "22": [
+          "keep"
+        ],
+        "27": [
+          "obey"
+        ],
+        "28": [
+          "obey"
+        ],
+        "32": [
+          "statutes"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְחֻקֹּתָ֧יו: and his statutes - a statute",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The command 'Therefore shall ye keep all the commandments' connects obedience directly to cov...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מְצַוְּךָ֖: I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The stark choice: 'Behold, I set before you this day a blessing and a curse.' Moses presents...\". Word-study detail reinforces \"בְּרָכָ֖ה: a blessing - benediction; by implication prosperity\".",
+      "supportingVerses": [
+        9,
+        11,
+        14,
+        26,
+        27,
+        29
+      ],
+      "versePhrases": {
+        "9": [
+          "promised"
+        ],
+        "11": [
+          "But the land into which you are about to cross..."
+        ],
+        "14": [
+          "that He will give the rain for your land in..."
+        ],
+        "26": [
+          "blessing"
+        ],
+        "27": [
+          "blessing"
+        ],
+        "29": [
+          "blessing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The land Israel will 'go over Jordan to possess' requires active conquest—'possess' ( yarash...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Canaan is 'a land of hills and valleys, and drinketh water of the rain of heaven.' Unlike Egy...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on LETTER 46.2: All this Abraham undergoes that he may dwell in a land of promise wate...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The promise 'I will give you the rain of your land in his due season' establishes the rain-ob...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The purpose clause: 'that your days may be multiplied, and the days of your children, in the...\". Word-study detail reinforces \"הָאָ֙רֶץ֙: how the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        6,
+        14,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "6": [
+          "earth"
+        ],
+        "14": [
+          "that He will give the rain for your land in..."
+        ],
+        "17": [
+          "heavens"
+        ],
+        "21": [
+          "heavens",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The destruction of Pharaoh's army at the Red Sea ( Yam Suph , יַם־סוּף) represents the defini...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֵ֤י: how he made the water - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The judgment on Dathan and Abiram (Numbers 16) demonstrated God's holiness and the seriousnes...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הָאָ֙רֶץ֙: how the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        13,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "13": [
+          "love"
+        ],
+        "22": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Deuteronomy 6:5",
+          "anchorVerse": 1,
+          "referenceLabel": "Deuteronomy 6:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְאָ֣הַבְתָּ֔: Therefore thou shalt love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Deuteronomy 10:12",
+          "anchorVerse": 13,
+          "referenceLabel": "Deuteronomy 10:12"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And know ye this day: for I speak not with your children which have not known, neither have s...\". Word-study detail reinforces \"מוּסַ֖ר: the chastisement - properly, chastisement; figuratively, reproof, warning or instruc...\".",
+      "supportingVerses": [
+        2,
+        14
+      ],
+      "versePhrases": {
+        "2": [
+          "instruction"
+        ],
+        "14": [
+          "that He will give the rain for your land in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And know ye this day: for I speak not with your children which have not known, neither have s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מוּסַ֖ר: the chastisement - properly, chastisement; figuratively, reproof, warning or instruc...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "How should Christians understand material prosperity in light of passages like this?",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, DEUTERONOMY 2: What do we understand her...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, DEUTERONOMY 2: What do we understand her...\". Word-study detail reinforces \"וְתִֽירֹשְׁךָ֖: and thy wine - must or fresh grape-juice (as just squeezed out); by implicati...\".",
+      "supportingVerses": [
+        14,
+        25
+      ],
+      "versePhrases": {
+        "14": [
+          "that He will give the rain for your land in..."
+        ],
+        "25": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, DEUTERONOMY 2: What do we understand her...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וְתִֽירֹשְׁךָ֖: and thy wine - must or fresh grape-juice (as just squeezed out); by implicati...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

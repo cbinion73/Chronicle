@@ -1,0 +1,249 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hosea",
+  "chapter": 5,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:03.586Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Hosea 5:11: \"Ephraim endures slander, broken in judgement, because he...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "judgment"
+        ],
+        "2": [
+          "The revolters are deeply involved in slaughter, Though I rebuke..."
+        ],
+        "5": [
+          "The pride of Israel testifies to his face"
+        ],
+        "8": [
+          "“Blow the ram’s horn in Gibeah, The trumpet in Ramah"
+        ],
+        "9": [
+          "Ephraim shall be desolate in the day of rebuke"
+        ],
+        "10": [
+          "wrath"
+        ],
+        "11": [
+          "judgment"
+        ],
+        "12": [
+          "Therefore I will be to Ephraim like a moth, And..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Micah 3:9",
+          "anchorVerse": 1,
+          "referenceLabel": "Micah 3:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The summons 'Hear this, O priests; listen, O house of Israel; give ear, O house of the king'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 5:1-2: \"Hear these things, O priests, and attend, O house of Is...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמִּשְׁפָּ֑ט: for judgment - properly, a verdict (favorable or unfavorable) pronounced judic...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Hosea 5:13: \"And Ephraim saw his sickness, and Judah his band: and Ep...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        7,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "7": [
+          "They have dealt treacherously with the Lord, For they have..."
+        ],
+        "13": [
+          "King"
+        ],
+        "14": [
+          "For I will be like a lion to Ephraim, And..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Hosea 10:15",
+          "anchorVerse": 1,
+          "referenceLabel": "Hosea 10:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Mizpah (in Gilead) and Tabor (in Zebulun/Issachar) were strategic locations that became idola...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 5:1-2: \"Hear these things, O priests, and attend, O house of Is...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֙לֶךְ֙: of the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Hosea 5:15: \"I will take and go, and I will take away and there is no...\". Word-study detail reinforces \"מַצִּֽיל׃: and none shall rescue - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        14,
+        15
+      ],
+      "versePhrases": {
+        "14": [
+          "rescue"
+        ],
+        "15": [
+          "I will return again to My place Till they acknowledge..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Lion imagery for God appears throughout Scripture (Job 10:16, Lamentations 3:10, Amos 1:2, 3:...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "מַצִּֽיל׃: and none shall rescue - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The pattern of affliction producing repentance appears throughout Judges (Judges 3:9,15; 4:3;...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on Commentary on Hosea 5:15: \"I will take and go, and I will take away and there is no...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Hosea 5:3-4: \"And I am skilled in all of them, and I know Ephraim, an...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Hosea 4:12",
+          "anchorVerse": 4,
+          "referenceLabel": "Hosea 4:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Shallow repentance insufficient: 'They will not frame their doings to turn unto their God: fo...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Hosea 5:3-4: \"And I am skilled in all of them, and I know Ephraim, an...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ר֤וּחַ: for the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exha...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Divine withdrawal unto repentance: 'I will go and return to my place, till they acknowledge t...\". Word-study detail reinforces \"בַּצַּ֥ר: in their affliction - a pebble (as in h6864)\".",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "affliction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Divine withdrawal unto repentance: 'I will go and return to my place, till they acknowledge t...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "בַּצַּ֥ר: in their affliction - a pebble (as in h6864)",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

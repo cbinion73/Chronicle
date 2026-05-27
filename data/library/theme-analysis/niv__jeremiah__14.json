@@ -1,0 +1,291 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 14,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:24.506Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The prayer continues with rich covenant titles: 'O the hope of Israel, the Saviour thereof in...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        8,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "8": [
+          "hope"
+        ],
+        "19": [
+          "hoped"
+        ],
+        "22": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Jeremiah 17:13",
+          "anchorVerse": 8,
+          "referenceLabel": "Jeremiah 17:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The prayer continues with rich covenant titles: 'O the hope of Israel, the Saviour thereof in...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מִקְוֵה֙: O the hope - something waited for, i.e., a collection, i.e., (of water) a pond, or...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 19) Have you rejected Judah completely? Has your sou...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 19) Have you rejected Judah completely? Has your sou...\". Word-study detail reinforces \"בְעָתָֽה׃: and behold trouble - fear\".",
+      "supportingVerses": [
+        3,
+        4,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "dismayed"
+        ],
+        "4": [
+          "dismayed"
+        ],
+        "19": [
+          "terror"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חַ֔תָּה: is chapt - properly, to prostrate; hence, to break down, either (literally) by viole...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 19) Have you rejected Judah completely? Has your sou...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "בְעָתָֽה׃: and behold trouble - fear",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 17) And you shall say to them this word: Let my eyes...\". Word-study detail reinforces \"בְעָתָֽה׃: and behold trouble - fear\".",
+      "supportingVerses": [
+        5,
+        6,
+        8,
+        13,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "Even the doe in the field deserts her newborn fawn..."
+        ],
+        "6": [
+          "Wild donkeys stand on the barren heights and pant like..."
+        ],
+        "8": [
+          "You who are the hope of Israel, its Savior in..."
+        ],
+        "13": [
+          "suffer"
+        ],
+        "17": [
+          "has suffered a grievous wound"
+        ],
+        "19": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What does creation's suffering under judgment teach about the seriousness of covenant breaking?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5, 6.) For even the deer (or deer) in the field give...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "What does the suffering of even hardy, adapted creatures teach about judgment's severity?",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5, 6.) For even the deer (or deer) in the field give...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"God explicitly forbids intercession: 'Then said the LORD unto me, Pray not for this people fo...\". Word-study detail reinforces \"תִּתְפַּלֵּ֛ל: unto me Pray - to judge (officially or mentally); by extension, to intercede,...\".",
+      "supportingVerses": [
+        10,
+        11,
+        20
+      ],
+      "versePhrases": {
+        "10": [
+          "punish"
+        ],
+        "11": [
+          "Then the Lord said to me, “Do not pray for..."
+        ],
+        "20": [
+          "We acknowledge our wickedness, Lord, and the guilt of our..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What does it mean for God to 'remember' iniquity and 'visit' sins in judgment?",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 10.) Thus says the Lord to this people, because they...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "God explicitly forbids intercession: 'Then said the LORD unto me, Pray not for this people fo...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "תִּתְפַּלֵּ֛ל: unto me Pray - to judge (officially or mentally); by extension, to intercede,...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This command appears three times in Jeremiah (7:16; 11:14; 14:11), marking stages where judgm...\".",
+      "supportingVerses": [
+        11,
+        13
+      ],
+      "versePhrases": {
+        "11": [
+          "Then the Lord said to me, “Do not pray for..."
+        ],
+        "13": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This command appears three times in Jeremiah (7:16; 11:14; 14:11), marking stages where judgm...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Tertullian on ON PURITY 2: Although God is by nature good, yet he is also just, and as the ca...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jeremiah protests: 'Then said I, Ah, Lord GOD! behold, the prophets say unto them, Ye shall n...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        13,
+        19
+      ],
+      "versePhrases": {
+        "13": [
+          "peace"
+        ],
+        "19": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Jeremiah 6:14",
+          "anchorVerse": 13,
+          "referenceLabel": "Jeremiah 6:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Jeremiah protests: 'Then said I, Ah, Lord GOD! behold, the prophets say unto them, Ye shall n...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verses 13, 14.) And I said, ah, ah, ah, Lord God, (or who...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "שְׁל֤וֹם: peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfare...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

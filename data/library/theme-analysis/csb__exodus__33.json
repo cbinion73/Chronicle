@@ -1,0 +1,324 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 33,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:16.792Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"And he said unto him, If thy presence go not with me, carry us not up hence —Moses' response...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        3,
+        5,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "with you"
+        ],
+        "5": [
+          "with you"
+        ],
+        "8": [
+          "Whenever Moses went out to the tent, all the people..."
+        ],
+        "11": [
+          "The Lord would speak with Moses face to face"
+        ],
+        "12": [
+          "with me"
+        ],
+        "13": [
+          "with you"
+        ],
+        "14": [
+          "with you",
+          "presence"
+        ],
+        "15": [
+          "presence"
+        ],
+        "16": [
+          "with you",
+          "with us"
+        ],
+        "17": [
+          "with me"
+        ],
+        "21": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For I will not go up in the midst of thee —The devastating announcement: God will fulfill His...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Ye are a stiffnecked people —God repeats the diagnosis, emphasizing Israel's chronic rebellio...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And all the people saw the cloudy pillar stand at the tabernacle door —The visible proof of G...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        10,
+        18,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "10": [
+          "worship"
+        ],
+        "18": [
+          "glory"
+        ],
+        "19": [
+          "and I will proclaim the name ‘the Lord’ before you"
+        ],
+        "22": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And all the people saw the cloudy pillar stand at the tabernacle door —The visible proof of G...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Revelation 21:23",
+          "anchorVerse": 18,
+          "referenceLabel": "Revelation 21:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And he said, I beseech thee, shew me thy glory —Having secured God's presence for Israel, Mos...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "כְּבֹדֶֽךָ׃: me thy glory - properly, weight, but only figuratively in a good sense, splendor...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Romans: And not only this; but when Rebecca also had conceived by one, even by our father Isa...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        13,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "13": [
+          "Now if I have indeed found favor with you, please..."
+        ],
+        "17": [
+          "The Lord answered Moses, “I will do this very thing..."
+        ],
+        "19": [
+          "gracious",
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Now therefore, I pray thee, if I have found grace in thy sight, shew me now thy way —Moses se...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "חֵ֖ן: grace - graciousness, i.e., subjective (kindness, favor) or objective (beauty)",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Exodus 33:12",
+          "anchorVerse": 17,
+          "referenceLabel": "Exodus 33:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And the LORD said unto Moses, I will do this thing also that thou hast spoken —Complete victo...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on LETTER 147.32: Again, in ancient times, in the case of the faithful ser...\". Word-study detail reinforces \"הָֽאֲדָמָֽה׃: of the earth - soil (from its general redness)\".",
+      "supportingVerses": [
+        13,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "13": [
+          "Now if I have indeed found favor with you, please..."
+        ],
+        "16": [
+          "earth"
+        ],
+        "20": [
+          "But he added, “You cannot see my face, for humans..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "This request echoes Psalm 103:7: 'He made known his ways unto Moses, his acts unto the childr...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Augustine of Hippo on LETTER 147.32: Again, in ancient times, in the case of the faithful ser...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "For wherein shall it be known here that I and thy people have found grace in thy sight? —Mose...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "הָֽאֲדָמָֽה׃: of the earth - soil (from its general redness)",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"What does God's careful orchestration of Moses' encounter teach about His attention to our ca...\".",
+      "supportingVerses": [
+        12,
+        13,
+        21
+      ],
+      "versePhrases": {
+        "12": [
+          "Lead"
+        ],
+        "13": [
+          "teach"
+        ],
+        "21": [
+          "The Lord said, “Here is a place near me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And Moses said unto the LORD, See, thou sayest unto me, Bring up this people —Moses' interces...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Now therefore, I pray thee, if I have found grace in thy sight, shew me now thy way —Moses se...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "What does God's careful orchestration of Moses' encounter teach about His attention to our ca...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, EXODUS 58: The place is the church, the...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And he said, My presence shall go with thee, and I will give thee rest —God grants Moses' req...\". Word-study detail reinforces \"וַֽהֲנִחֹ֥תִי: with thee and I will give thee rest - to rest, i.e., settle down; used in a gr...\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And he said, My presence shall go with thee, and I will give thee rest —God grants Moses' req...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וַֽהֲנִחֹ֥תִי: with thee and I will give thee rest - to rest, i.e., settle down; used in a gr...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

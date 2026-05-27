@@ -1,0 +1,391 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 9,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:35.106Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Here he sets forth the justice of the de...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "I will praise You, O Lord, with my whole heart"
+        ],
+        "4": [
+          "For You have maintained my right and my cause"
+        ],
+        "5": [
+          "You have rebuked the nations, You have destroyed the wicked"
+        ],
+        "7": [
+          "judgment"
+        ],
+        "8": [
+          "judge",
+          "judgment"
+        ],
+        "9": [
+          "The Lord also will be a refuge for the oppressed,..."
+        ],
+        "12": [
+          "When He avenges blood, He remembers them"
+        ],
+        "15": [
+          "The nations have sunk down in the pit which they..."
+        ],
+        "16": [
+          "judgment"
+        ],
+        "17": [
+          "The wicked shall be turned into hell, And all the..."
+        ],
+        "18": [
+          "For the needy shall not always be forgotten"
+        ],
+        "19": [
+          "Let the nations be judged in Your sight"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 9 (along with Psalm 10) forms an extended acrostic poem in the Hebrew text, suggesting...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, he gave t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "God's judicial role is central: He has 'maintained' (Hebrew 'asah' - made, executed) David's...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Here he sets forth the justice of the de...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, he gave t...\". Word-study detail reinforces \"אוֹדֶ֣ה: I will praise - physically, to throw (a stone, an arrow) at or away; especially to r...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "praise"
+        ],
+        "2": [
+          "praise",
+          "sing"
+        ],
+        "3": [
+          "When my enemies turn back, They shall fall and perish..."
+        ],
+        "11": [
+          "Sing"
+        ],
+        "14": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I will praise thee, O LORD, with my whole heart; I will shew forth all thy marvellous works....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, he gave t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אוֹדֶ֣ה: I will praise - physically, to throw (a stone, an arrow) at or away; especially to r...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse expresses complete joy and devotion to God. 'Be glad' (Hebrew 'samach') and 'rejoi...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: He also says that it is universal; hence...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "with my whole heart"
+        ],
+        "4": [
+          "righteousness"
+        ],
+        "5": [
+          "You have rebuked the nations, You have destroyed the wicked"
+        ],
+        "7": [
+          "But the Lord shall endure forever"
+        ],
+        "8": [
+          "righteousness"
+        ],
+        "9": [
+          "The Lord also will be a refuge for the oppressed,..."
+        ],
+        "14": [
+          "That I may tell of all Your praise In the..."
+        ],
+        "15": [
+          "The nations have sunk down in the pit which they..."
+        ],
+        "16": [
+          "The Lord is known by the judgment He executes"
+        ],
+        "17": [
+          "The wicked shall be turned into hell, And all the..."
+        ],
+        "18": [
+          "For the needy shall not always be forgotten"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I will praise thee, O LORD, with my whole heart; I will shew forth all thy marvellous works....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 9: \"I will confess unto You, O Lord, with my whole...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "God's judicial role is central: He has 'maintained' (Hebrew 'asah' - made, executed) David's...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Here he sets forth the justice of the de...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And they that know thy name will put their trust in thee: for thou, LORD, hast not forsaken t...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        9,
+        10,
+        13,
+        18
+      ],
+      "versePhrases": {
+        "9": [
+          "The Lord also will be a refuge for the oppressed,..."
+        ],
+        "10": [
+          "trust"
+        ],
+        "13": [
+          "Have mercy on me, O Lord"
+        ],
+        "18": [
+          "For the needy shall not always be forgotten"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The LORD also will be a refuge for the oppressed, a refuge in times of trouble. After establi...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Eusebius of Caesarea on COMMENTARY ON PSALMS 9:10, 11: The righteous who now seek you know th...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 5:11",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 5:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And they that know thy name will put their trust in thee: for thou, LORD, hast not forsaken t...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Have mercy.\" Here he sets forth the fru...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        10,
+        13,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "10": [
+          "And those who know Your name will put their trust..."
+        ],
+        "13": [
+          "mercy"
+        ],
+        "14": [
+          "That I may tell of all Your praise In the..."
+        ],
+        "18": [
+          "For the needy shall not always be forgotten"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The concept of \"knowing God's name\" was central to Israel's covenant relationship with Yahweh...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"And let them hope.\" Above, the Psalmist...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 86:13",
+          "anchorVerse": 13,
+          "referenceLabel": "Psalms 86:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "City gates were places of judgment and transaction - death's gates represent the threshold be...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on COMMENTARY ON THE PSALMS 9:7: “I will rejoice in your salvation.” This is...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "I will praise You, O Lord, with my whole heart"
+        ],
+        "13": [
+          "Have mercy on me, O Lord"
+        ],
+        "14": [
+          "salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 9 (along with Psalm 10) forms an extended acrostic poem in the Hebrew text, suggesting...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, he gave t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "David pleads for mercy in the midst of trouble from 'them that hate me.' The title 'thou that...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Pseudo-Athanasius on EXPOSITION ON PSALM 9: The Lord does not forget the cry of the poor, and...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

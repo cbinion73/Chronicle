@@ -1,0 +1,580 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 4,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:48.316Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 24 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, for what says, he disproves the co...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "What then shall we say that Abraham our father has..."
+        ],
+        "2": [
+          "For if Abraham was justified by works, he has something..."
+        ],
+        "3": [
+          "For what does the Scripture say? “Abraham believed God"
+        ],
+        "4": [
+          "Now to him who works, the wages are not counted..."
+        ],
+        "5": [
+          "faith"
+        ],
+        "6": [
+          "just as David also describes the blessedness of the man..."
+        ],
+        "7": [
+          "“Blessed are those whose lawless deeds are forgiven, And whose..."
+        ],
+        "8": [
+          "Blessed is the man to whom the Lord shall not..."
+        ],
+        "9": [
+          "faith"
+        ],
+        "10": [
+          "How then was it accounted"
+        ],
+        "11": [
+          "faith",
+          "believe"
+        ],
+        "12": [
+          "faith"
+        ],
+        "13": [
+          "faith"
+        ],
+        "14": [
+          "faith"
+        ],
+        "16": [
+          "faith"
+        ],
+        "17": [
+          "“I have made you a father of many nations”) in the presence of Him whom he believed—God"
+        ],
+        "18": [
+          "hope"
+        ],
+        "19": [
+          "faith"
+        ],
+        "20": [
+          "faith"
+        ],
+        "21": [
+          "and being fully convinced that what He had promised He..."
+        ],
+        "22": [
+          "And therefore “it was accounted to him for righteousness"
+        ],
+        "23": [
+          "Now it was not written for his sake alone that..."
+        ],
+        "24": [
+          "believe"
+        ],
+        "25": [
+          "who was delivered up because of our offenses, and was..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What shall we say then that Abraham our father, as pertaining to the flesh, hath found? Paul...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Romans VIII: He had said that the world had become guilty before...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does Paul's 'if Abraham were justified by works' argument preemptively answer the objecti...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE EPISTLE TO THE ROMANS: This is a rhetorical argumen...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 18 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says but to him, he shows how the eterna...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        22,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "What then shall we say that Abraham our father has..."
+        ],
+        "2": [
+          "For if Abraham was justified by works"
+        ],
+        "3": [
+          "righteousness"
+        ],
+        "4": [
+          "Now to him who works, the wages are not counted..."
+        ],
+        "5": [
+          "righteousness"
+        ],
+        "6": [
+          "righteousness",
+          "just"
+        ],
+        "7": [
+          "“Blessed are those whose lawless deeds are forgiven, And whose..."
+        ],
+        "8": [
+          "Blessed is the man to whom the Lord shall not..."
+        ],
+        "9": [
+          "righteousness"
+        ],
+        "10": [
+          "How then was it accounted"
+        ],
+        "11": [
+          "righteousness"
+        ],
+        "13": [
+          "righteousness"
+        ],
+        "14": [
+          "For if those who are of the law are heirs,..."
+        ],
+        "15": [
+          "because the law brings about wrath"
+        ],
+        "17": [
+          "(as it is written, “I have made you a father..."
+        ],
+        "22": [
+          "righteousness"
+        ],
+        "24": [
+          "but also for us"
+        ],
+        "25": [
+          "and was raised because of our justification"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In first-century Judaism, Abraham was revered not just as patriarch but as the paradigm of ri...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Romans VIII: He had said that the world had become guilty before...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Philippians 3:9",
+          "anchorVerse": 2,
+          "referenceLabel": "Philippians 3:9"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Romans VIII: He had said that the world had become guilty before...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After showing that the promise made to Abraham and hi...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "What then shall we say that Abraham our father has..."
+        ],
+        "2": [
+          "For if Abraham was justified by works, he has something..."
+        ],
+        "3": [
+          "For what does the Scripture say"
+        ],
+        "6": [
+          "just as David also describes the blessedness of the man to whom God imputes righteousness apart from works"
+        ],
+        "8": [
+          "Blessed is the man to whom the Lord shall not impute sin"
+        ],
+        "9": [
+          "Does this blessedness then come upon the circumcised only"
+        ],
+        "11": [
+          "And he received the sign of circumcision, a seal of..."
+        ],
+        "13": [
+          "promise"
+        ],
+        "14": [
+          "promise"
+        ],
+        "15": [
+          "because the law brings about wrath"
+        ],
+        "16": [
+          "promise"
+        ],
+        "17": [
+          "(as it is written, “I have made you a father..."
+        ],
+        "18": [
+          "who, contrary to hope, in hope believed, so that he..."
+        ],
+        "19": [
+          "And not being weak in faith, he did not consider..."
+        ],
+        "20": [
+          "promise"
+        ],
+        "21": [
+          "promised"
+        ],
+        "22": [
+          "And therefore “it was accounted to him for righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what ways do we still try to claim spiritual inheritance 'according to the flesh' through...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Romans VIII: He had said that the world had become guilty before...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The honor-shame culture of the Greco-Roman world prized public reputation and achievements wo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on EXPLANATION OF THE LETTER TO THE ROMANS: What can we say to those who...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"And he received the sign of circumcision, a seal of the righteousness of the faith which he h...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        22,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "What then shall we say that Abraham our father has..."
+        ],
+        "2": [
+          "For if Abraham was justified by works, he has something..."
+        ],
+        "3": [
+          "righteousness"
+        ],
+        "4": [
+          "Now to him who works, the wages are not counted..."
+        ],
+        "5": [
+          "righteousness"
+        ],
+        "6": [
+          "righteousness"
+        ],
+        "7": [
+          "“Blessed are those whose lawless deeds are forgiven, And whose..."
+        ],
+        "8": [
+          "Blessed is the man to whom the Lord shall not..."
+        ],
+        "9": [
+          "righteousness"
+        ],
+        "10": [
+          "How then was it accounted"
+        ],
+        "11": [
+          "righteousness"
+        ],
+        "13": [
+          "righteousness"
+        ],
+        "15": [
+          "because the law brings about wrath"
+        ],
+        "22": [
+          "righteousness"
+        ],
+        "25": [
+          "who was delivered up because of our offenses, and was..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In first-century Judaism, Abraham was revered not just as patriarch but as the paradigm of ri...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Romans VIII: He had said that the world had become guilty before...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Philippians 3:9",
+          "anchorVerse": 2,
+          "referenceLabel": "Philippians 3:9"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Romans VIII: He had said that the world had become guilty before...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, for if they, he proves his stateme...\". Word-study detail reinforces \"κεκένωται: is made void - to make empty, i.e., (figuratively) to abase, neutralize, falsify\".",
+      "supportingVerses": [
+        9,
+        11,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "9": [
+          "Does this blessedness then come upon the circumcised only, or..."
+        ],
+        "11": [
+          "And he received the sign of circumcision, a seal of..."
+        ],
+        "14": [
+          "made"
+        ],
+        "17": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "In what ways do modern Christians create similar 'circumcision' requirements—external markers...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on Romans VIII: For now the subject of enquiry is, With whom is thi...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The concept of Abraham as 'father' was central to Jewish identity (Matthew 3:9, John 8:39). P...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Having shown that the blessing of forgiveness of sins...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Having shown that the blessing of forgiveness of sins...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        11,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "For if Abraham was justified by works, he has something..."
+        ],
+        "4": [
+          "grace"
+        ],
+        "5": [
+          "But to him who does not work but believes on..."
+        ],
+        "6": [
+          "just as David also describes the blessedness of the man..."
+        ],
+        "7": [
+          "“Blessed are those whose lawless deeds are forgiven"
+        ],
+        "11": [
+          "And he received the sign of circumcision, a seal of..."
+        ],
+        "14": [
+          "For if those who are of the law are heirs,..."
+        ],
+        "16": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For if Abraham were justified by works, he hath whereof to glory; but not before God. Paul in...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on AUGUSTINE ON ROMANS 20: Since Abraham without the law obtained glory no...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Romans 11:6",
+          "anchorVerse": 4,
+          "referenceLabel": "Romans 11:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Now to him that worketh is the reward not reckoned of grace, but of debt. Paul shifts to an a...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

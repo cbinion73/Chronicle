@@ -1,0 +1,240 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 6,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:36.705Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Also they reported his good deeds before me, and uttered my words to him. And Tobiah sent let...\". Word-study detail reinforces \"אִירָ֥א: that I should be afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        9,
+        13,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "9": [
+          "afraid"
+        ],
+        "13": [
+          "afraid"
+        ],
+        "14": [
+          "fear"
+        ],
+        "19": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For they all made us afraid, saying, Their hands shall be weakened from the work, that it be...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מְיָֽרְאִ֤ים: For they all made us afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Therefore was he hired, that I should be afraid, and do so, and sin, and that they might have...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "אִירָ֥א: that I should be afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And thou hast also appointed prophets to preach of thee at Jerusalem, saying, There is a king...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Nehemiah 2:19",
+          "anchorVerse": 6,
+          "referenceLabel": "Nehemiah 2:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Wherein was written, It is reported among the heathen, and Gashmu saith it, that thou and the...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "לְמֶ֔לֶךְ: their king - a king",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And thou hast also appointed prophets to preach of thee at Jerusalem, saying, There is a king...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: Now it happened that when Sanaballat and Tobiah hear...\". Word-study detail reinforces \"וּלְיֶ֣תֶר: and the rest - properly, an overhanging, i.e., (by implication) a small rope (as...\".",
+      "supportingVerses": [
+        1,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "rest"
+        ],
+        "14": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now it came to pass, when Sanballat, and Tobiah, and Geshem the Arabian, and the rest of our...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: Now it happened that when Sanaballat and Tobiah hear...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וּלְיֶ֣תֶר: and the rest - properly, an overhanging, i.e., (by implication) a small rope (as...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "My God, think thou upon Tobiah and Sanballat according to these their works, and on the proph...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And thou hast also appointed prophets to preach of thee at Jerusalem, saying, There is a king...\". Word-study detail reinforces \"וְנִֽוָּעֲצָ֖ה: now therefore and let us take counsel - to advise; reflexively, to deliberate...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "counsel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And thou hast also appointed prophets to preach of thee at Jerusalem, saying, There is a king...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְנִֽוָּעֲצָ֖ה: now therefore and let us take counsel - to advise; reflexively, to deliberate...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And I said, Should such a man as I flee? and who is there, that, being as I am, would go into...\". Word-study detail reinforces \"וָחָ֑י: to save his life - to live; causatively to revive\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And I said, Should such a man as I flee? and who is there, that, being as I am, would go into...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וָחָ֑י: to save his life - to live; causatively to revive",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Inferred",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For they all made us afraid, saying, Their hands shall be weakened from the work, that it be...\". Word-study detail reinforces \"מְיָֽרְאִ֤ים: For they all made us afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For they all made us afraid, saying, Their hands shall be weakened from the work, that it be...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מְיָֽרְאִ֤ים: For they all made us afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

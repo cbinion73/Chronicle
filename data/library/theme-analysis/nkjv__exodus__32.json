@@ -1,0 +1,318 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 32,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:00.924Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Acts: This Moses whom they refused, saying, Who made thee a ruler and a judge? the same did G...\". Word-study detail reinforces \"הָֽאֲדָמָ֑ה: of the earth - soil (from its general redness)\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        8,
+        12,
+        20,
+        23,
+        31,
+        35
+      ],
+      "versePhrases": {
+        "1": [
+          "Now when the people saw that Moses delayed coming down..."
+        ],
+        "4": [
+          "made"
+        ],
+        "5": [
+          "made"
+        ],
+        "8": [
+          "made"
+        ],
+        "12": [
+          "earth"
+        ],
+        "20": [
+          "made"
+        ],
+        "23": [
+          "For they said to me, ‘Make us gods that shall..."
+        ],
+        "31": [
+          "made"
+        ],
+        "35": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Acts: This Moses whom they refused, saying, Who made thee a ruler and a judge? the same did G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֵאֶ֣רֶץ: us up out of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Aaron's active role is clear: he 'received' (לָקַח, laqach), 'fashioned' (יָצַר, yatsar—the s...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֵאֶ֥רֶץ: thee up out of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Salvian the Presbyter on THE GOVERNANCE OF GOD 1.11.48: Thus is it written: “The Lord therefo...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        10,
+        11,
+        12,
+        27,
+        29,
+        30,
+        34,
+        35
+      ],
+      "versePhrases": {
+        "10": [
+          "wrath"
+        ],
+        "11": [
+          "wrath"
+        ],
+        "12": [
+          "wrath"
+        ],
+        "27": [
+          "And he said to them, “Thus says the Lord God..."
+        ],
+        "29": [
+          "Then Moses said, “Consecrate yourselves today to the Lord, that..."
+        ],
+        "30": [
+          "Now it came to pass on the next day that..."
+        ],
+        "34": [
+          "punishment"
+        ],
+        "35": [
+          "So the Lord plagued the people because of what they..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Exodus 22:24",
+          "anchorVerse": 10,
+          "referenceLabel": "Exodus 22:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "God's command וְעַתָּה הַנִּיחָה לִּי (ve'ata hanicha li, now therefore let Me alone) seems s...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on LETTER 128.4: On another occasion God said to Moses, “Let me alone … that I may con...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "אַפִּ֥י: that my wrath - properly, the nose or nostril; hence, the face, and occasionally a p...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ephrem the Syrian on HOMILY ON OUR LORD 17.3-18.1: Bitter signs had accompanied [Israel] as f...\". Word-study detail reinforces \"נְחֵ֣ה: lead - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        1,
+        32,
+        34
+      ],
+      "versePhrases": {
+        "1": [
+          "Now when the people saw that Moses delayed coming down..."
+        ],
+        "32": [
+          "Yet now, if You will forgive their sin—but if not,..."
+        ],
+        "34": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does impatience with God's appointed leaders lead to spiritual compromise?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ephrem the Syrian on HOMILY ON OUR LORD 17.3-18.1: Bitter signs had accompanied [Israel] as f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "What does Moses' offer teach about love for God's people?",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 32 historical",
+          "detail": "Jerome on LETTER 82.3: He sought to imitate the shepherd who would, he knew, carry on his sho...",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This parallels Abraham's intercession for Sodom (Gen 18) and anticipates Christ's high priest...\". Word-study detail reinforces \"מִֽסִּפְרְךָ֖: me I pray thee out of thy book - properly, writing (the art or a document); by...\".",
+      "supportingVerses": [
+        10,
+        32
+      ],
+      "versePhrases": {
+        "10": [
+          "Now therefore, let Me alone, that My wrath may burn..."
+        ],
+        "32": [
+          "pray"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "This parallels Abraham's intercession for Sodom (Gen 18) and anticipates Christ's high priest...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on SERMON 88.24: And in case you should suppose that he acted like this mo...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "Moses' plea וְעַתָּה אִם־תִּשָּׂא חַטָּאתָם (ve'ata im-tissa chattam, Yet now, if You will fo...",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "מִֽסִּפְרְךָ֖: me I pray thee out of thy book - properly, writing (the art or a document); by...",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Joshua, who had waited below the cloud's glory zone (Ex 24:13), heard קוֹל הָעָם בְּרֵעֹה (qo...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        17,
+        19
+      ],
+      "versePhrases": {
+        "17": [
+          "And when Joshua heard the noise of the people as..."
+        ],
+        "19": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Joshua, who had waited below the cloud's glory zone (Ex 24:13), heard קוֹל הָעָם בְּרֵעֹה (qo...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Moses descended (וַיִּפֶן וַיֵּרֶד, vayyifen vayyered, turned and went down) carrying שְׁנֵי...\". Word-study detail reinforces \"הָֽעֵדֻ֖ת: of the testimony - testimony\".",
+      "supportingVerses": [
+        15,
+        33
+      ],
+      "versePhrases": {
+        "15": [
+          "Testimony"
+        ],
+        "33": [
+          "And the Lord said to Moses, “Whoever has sinned against..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Moses descended (וַיִּפֶן וַיֵּרֶד, vayyifen vayyered, turned and went down) carrying שְׁנֵי...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָֽעֵדֻ֖ת: of the testimony - testimony",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

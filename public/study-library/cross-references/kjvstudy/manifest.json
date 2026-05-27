@@ -1,0 +1,341 @@
+{
+  "id": "kjvstudy-cross-references",
+  "label": "kjvstudy.org Cross References",
+  "sourceRepo": "https://github.com/kennethreitz/kjvstudy.org",
+  "sourcePath": "/study-library/cross-references/kjvstudy",
+  "bookCount": 66,
+  "referenceCount": 24900,
+  "edgeCount": 120858,
+  "books": [
+    {
+      "bookId": "1CH",
+      "path": "/study-library/cross-references/kjvstudy/1_Chronicles.json",
+      "referenceCount": 462
+    },
+    {
+      "bookId": "1CO",
+      "path": "/study-library/cross-references/kjvstudy/1_Corinthians.json",
+      "referenceCount": 401
+    },
+    {
+      "bookId": "1JN",
+      "path": "/study-library/cross-references/kjvstudy/1_John.json",
+      "referenceCount": 105
+    },
+    {
+      "bookId": "1KI",
+      "path": "/study-library/cross-references/kjvstudy/1_Kings.json",
+      "referenceCount": 536
+    },
+    {
+      "bookId": "1PE",
+      "path": "/study-library/cross-references/kjvstudy/1_Peter.json",
+      "referenceCount": 104
+    },
+    {
+      "bookId": "1SA",
+      "path": "/study-library/cross-references/kjvstudy/1_Samuel.json",
+      "referenceCount": 577
+    },
+    {
+      "bookId": "1TH",
+      "path": "/study-library/cross-references/kjvstudy/1_Thessalonians.json",
+      "referenceCount": 88
+    },
+    {
+      "bookId": "1TI",
+      "path": "/study-library/cross-references/kjvstudy/1_Timothy.json",
+      "referenceCount": 113
+    },
+    {
+      "bookId": "2CH",
+      "path": "/study-library/cross-references/kjvstudy/2_Chronicles.json",
+      "referenceCount": 515
+    },
+    {
+      "bookId": "2CO",
+      "path": "/study-library/cross-references/kjvstudy/2_Corinthians.json",
+      "referenceCount": 239
+    },
+    {
+      "bookId": "2JN",
+      "path": "/study-library/cross-references/kjvstudy/2_John.json",
+      "referenceCount": 13
+    },
+    {
+      "bookId": "2KI",
+      "path": "/study-library/cross-references/kjvstudy/2_Kings.json",
+      "referenceCount": 479
+    },
+    {
+      "bookId": "2PE",
+      "path": "/study-library/cross-references/kjvstudy/2_Peter.json",
+      "referenceCount": 59
+    },
+    {
+      "bookId": "2SA",
+      "path": "/study-library/cross-references/kjvstudy/2_Samuel.json",
+      "referenceCount": 487
+    },
+    {
+      "bookId": "2TH",
+      "path": "/study-library/cross-references/kjvstudy/2_Thessalonians.json",
+      "referenceCount": 46
+    },
+    {
+      "bookId": "2TI",
+      "path": "/study-library/cross-references/kjvstudy/2_Timothy.json",
+      "referenceCount": 82
+    },
+    {
+      "bookId": "3JN",
+      "path": "/study-library/cross-references/kjvstudy/3_John.json",
+      "referenceCount": 12
+    },
+    {
+      "bookId": "ACT",
+      "path": "/study-library/cross-references/kjvstudy/Acts.json",
+      "referenceCount": 856
+    },
+    {
+      "bookId": "AMO",
+      "path": "/study-library/cross-references/kjvstudy/Amos.json",
+      "referenceCount": 141
+    },
+    {
+      "bookId": "COL",
+      "path": "/study-library/cross-references/kjvstudy/Colossians.json",
+      "referenceCount": 95
+    },
+    {
+      "bookId": "DAN",
+      "path": "/study-library/cross-references/kjvstudy/Daniel.json",
+      "referenceCount": 307
+    },
+    {
+      "bookId": "DEU",
+      "path": "/study-library/cross-references/kjvstudy/Deuteronomy.json",
+      "referenceCount": 771
+    },
+    {
+      "bookId": "ECC",
+      "path": "/study-library/cross-references/kjvstudy/Ecclesiastes.json",
+      "referenceCount": 204
+    },
+    {
+      "bookId": "EPH",
+      "path": "/study-library/cross-references/kjvstudy/Ephesians.json",
+      "referenceCount": 155
+    },
+    {
+      "bookId": "EST",
+      "path": "/study-library/cross-references/kjvstudy/Esther.json",
+      "referenceCount": 122
+    },
+    {
+      "bookId": "EXO",
+      "path": "/study-library/cross-references/kjvstudy/Exodus.json",
+      "referenceCount": 835
+    },
+    {
+      "bookId": "EZK",
+      "path": "/study-library/cross-references/kjvstudy/Ezekiel.json",
+      "referenceCount": 1042
+    },
+    {
+      "bookId": "EZR",
+      "path": "/study-library/cross-references/kjvstudy/Ezra.json",
+      "referenceCount": 162
+    },
+    {
+      "bookId": "GAL",
+      "path": "/study-library/cross-references/kjvstudy/Galatians.json",
+      "referenceCount": 141
+    },
+    {
+      "bookId": "GEN",
+      "path": "/study-library/cross-references/kjvstudy/Genesis.json",
+      "referenceCount": 1142
+    },
+    {
+      "bookId": "HAB",
+      "path": "/study-library/cross-references/kjvstudy/Habakkuk.json",
+      "referenceCount": 47
+    },
+    {
+      "bookId": "HAG",
+      "path": "/study-library/cross-references/kjvstudy/Haggai.json",
+      "referenceCount": 36
+    },
+    {
+      "bookId": "HEB",
+      "path": "/study-library/cross-references/kjvstudy/Hebrews.json",
+      "referenceCount": 289
+    },
+    {
+      "bookId": "HOS",
+      "path": "/study-library/cross-references/kjvstudy/Hosea.json",
+      "referenceCount": 190
+    },
+    {
+      "bookId": "ISA",
+      "path": "/study-library/cross-references/kjvstudy/Isaiah.json",
+      "referenceCount": 1181
+    },
+    {
+      "bookId": "JAS",
+      "path": "/study-library/cross-references/kjvstudy/James.json",
+      "referenceCount": 103
+    },
+    {
+      "bookId": "JER",
+      "path": "/study-library/cross-references/kjvstudy/Jeremiah.json",
+      "referenceCount": 1230
+    },
+    {
+      "bookId": "JOB",
+      "path": "/study-library/cross-references/kjvstudy/Job.json",
+      "referenceCount": 840
+    },
+    {
+      "bookId": "JOL",
+      "path": "/study-library/cross-references/kjvstudy/Joel.json",
+      "referenceCount": 72
+    },
+    {
+      "bookId": "JHN",
+      "path": "/study-library/cross-references/kjvstudy/John.json",
+      "referenceCount": 771
+    },
+    {
+      "bookId": "JON",
+      "path": "/study-library/cross-references/kjvstudy/Jonah.json",
+      "referenceCount": 42
+    },
+    {
+      "bookId": "JOS",
+      "path": "/study-library/cross-references/kjvstudy/Joshua.json",
+      "referenceCount": 449
+    },
+    {
+      "bookId": "JUD",
+      "path": "/study-library/cross-references/kjvstudy/Jude.json",
+      "referenceCount": 25
+    },
+    {
+      "bookId": "JDG",
+      "path": "/study-library/cross-references/kjvstudy/Judges.json",
+      "referenceCount": 386
+    },
+    {
+      "bookId": "LAM",
+      "path": "/study-library/cross-references/kjvstudy/Lamentations.json",
+      "referenceCount": 144
+    },
+    {
+      "bookId": "LEV",
+      "path": "/study-library/cross-references/kjvstudy/Leviticus.json",
+      "referenceCount": 535
+    },
+    {
+      "bookId": "LUK",
+      "path": "/study-library/cross-references/kjvstudy/Luke.json",
+      "referenceCount": 955
+    },
+    {
+      "bookId": "MAL",
+      "path": "/study-library/cross-references/kjvstudy/Malachi.json",
+      "referenceCount": 53
+    },
+    {
+      "bookId": "MRK",
+      "path": "/study-library/cross-references/kjvstudy/Mark.json",
+      "referenceCount": 534
+    },
+    {
+      "bookId": "MAT",
+      "path": "/study-library/cross-references/kjvstudy/Matthew.json",
+      "referenceCount": 953
+    },
+    {
+      "bookId": "MIC",
+      "path": "/study-library/cross-references/kjvstudy/Micah.json",
+      "referenceCount": 101
+    },
+    {
+      "bookId": "NAM",
+      "path": "/study-library/cross-references/kjvstudy/Nahum.json",
+      "referenceCount": 42
+    },
+    {
+      "bookId": "NEH",
+      "path": "/study-library/cross-references/kjvstudy/Nehemiah.json",
+      "referenceCount": 253
+    },
+    {
+      "bookId": "NUM",
+      "path": "/study-library/cross-references/kjvstudy/Numbers.json",
+      "referenceCount": 763
+    },
+    {
+      "bookId": "OBA",
+      "path": "/study-library/cross-references/kjvstudy/Obadiah.json",
+      "referenceCount": 20
+    },
+    {
+      "bookId": "PHM",
+      "path": "/study-library/cross-references/kjvstudy/Philemon.json",
+      "referenceCount": 24
+    },
+    {
+      "bookId": "PHP",
+      "path": "/study-library/cross-references/kjvstudy/Philippians.json",
+      "referenceCount": 101
+    },
+    {
+      "bookId": "PRO",
+      "path": "/study-library/cross-references/kjvstudy/Proverbs.json",
+      "referenceCount": 862
+    },
+    {
+      "bookId": "PSA",
+      "path": "/study-library/cross-references/kjvstudy/Psalms.json",
+      "referenceCount": 2341
+    },
+    {
+      "bookId": "REV",
+      "path": "/study-library/cross-references/kjvstudy/Revelation.json",
+      "referenceCount": 389
+    },
+    {
+      "bookId": "ROM",
+      "path": "/study-library/cross-references/kjvstudy/Romans.json",
+      "referenceCount": 420
+    },
+    {
+      "bookId": "RUT",
+      "path": "/study-library/cross-references/kjvstudy/Ruth.json",
+      "referenceCount": 65
+    },
+    {
+      "bookId": "SNG",
+      "path": "/study-library/cross-references/kjvstudy/Song_of_Solomon.json",
+      "referenceCount": 109
+    },
+    {
+      "bookId": "TIT",
+      "path": "/study-library/cross-references/kjvstudy/Titus.json",
+      "referenceCount": 45
+    },
+    {
+      "bookId": "ZEC",
+      "path": "/study-library/cross-references/kjvstudy/Zechariah.json",
+      "referenceCount": 188
+    },
+    {
+      "bookId": "ZEP",
+      "path": "/study-library/cross-references/kjvstudy/Zephaniah.json",
+      "referenceCount": 51
+    }
+  ]
+}

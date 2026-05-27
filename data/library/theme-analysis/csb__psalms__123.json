@@ -1,0 +1,85 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 123,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:38.945Z",
+  "themes": [
+    {
+      "id": "keyword-contempt",
+      "label": "Contempt",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “contempt.”",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "contempt"
+        ],
+        "4": [
+          "contempt"
+        ]
+      }
+    },
+    {
+      "id": "keyword-enough",
+      "label": "Enough",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “enough.”",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "enough"
+        ],
+        "4": [
+          "enough"
+        ]
+      }
+    },
+    {
+      "id": "keyword-favor",
+      "label": "Favor",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “favor.”",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "favor"
+        ],
+        "3": [
+          "favor"
+        ]
+      }
+    },
+    {
+      "id": "keyword-eyes",
+      "label": "Eyes",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “eyes.”",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "eyes"
+        ],
+        "2": [
+          "eyes"
+        ]
+      }
+    }
+  ]
+}

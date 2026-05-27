@@ -1,0 +1,221 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 2,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:45.080Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 16 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: The king brought me into the wine cellar, etc. Just...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "love"
+        ],
+        "3": [
+          "beloved"
+        ],
+        "4": [
+          "love"
+        ],
+        "5": [
+          "love"
+        ],
+        "6": [
+          "His left hand is under my head, and his right..."
+        ],
+        "7": [
+          "love"
+        ],
+        "8": [
+          "beloved"
+        ],
+        "9": [
+          "beloved"
+        ],
+        "10": [
+          "love",
+          "beloved"
+        ],
+        "11": [
+          "For, lo, the winter is past, the rain is over..."
+        ],
+        "12": [
+          "the flowers appear on the earth"
+        ],
+        "13": [
+          "love"
+        ],
+        "14": [
+          "O my dove, that art in the clefts of the..."
+        ],
+        "15": [
+          "Take us the foxes, the little foxes, that spoil the..."
+        ],
+        "16": [
+          "beloved"
+        ],
+        "17": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The bridegroom responds to the bride's self-description (2:1): 'As the lily among thorns, so...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Braulio of Zaragoza on LETTER 42: It is written of the church: “As a lily among thorns, so is...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The bride declares, 'As the apple tree among the trees of the wood, so is my beloved among th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Under the shadow of him whom I desired, I sat, etc....",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local cross references and verse commentary data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: His left hand under my head, etc. In the left hand o...\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "As the apple tree among the trees of the wood,..."
+        ],
+        "4": [
+          "He brought me to the banqueting house, and his banner..."
+        ],
+        "5": [
+          "comfort"
+        ],
+        "6": [
+          "His left hand is under my head, and his right..."
+        ],
+        "14": [
+          "O my dove, that art in the clefts of the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Apple trees (or possibly apricots—Hebrew 'tappuach' identification is debated) were cultivate...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Under the shadow of him whom I desired, I sat, etc....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Banquets in ancient Israel marked significant celebrations—weddings, festivals, covenant meal...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on the Song of Songs: The king brought me into the wine cellar, etc. Just...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local cross references and verse commentary data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: Until the day breaks, etc. That is, until the eterna...\".",
+      "supportingVerses": [
+        10,
+        11,
+        12,
+        17
+      ],
+      "versePhrases": {
+        "10": [
+          "My beloved spake, and said unto me, Rise up, my..."
+        ],
+        "11": [
+          "For, lo, the winter is past, the rain is over..."
+        ],
+        "12": [
+          "earth"
+        ],
+        "17": [
+          "Until the day break, and the shadows flee away, turn,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Palestinian winters brought rain and cold, confining people indoors. Spring's arrival—warm we...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Bede on Commentary on the Song of Songs: \"Arise, my love, my fair one, and come away,\" etc. I...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Palestinian climate features distinct seasons—winter's cold rains (November-March) and dry su...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Commentary on the Song of Songs: For now the winter is past, etc. This is what the Ap...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

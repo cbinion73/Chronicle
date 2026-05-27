@@ -1,0 +1,61 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 11,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:14.784Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Verse 5 describes Moses's final warning about midnight judgment. God Himself will pass throug...\". Word-study detail reinforces \"כִּסְא֔וֹ: upon his throne - properly, covered, i.e., a throne (as canopied)\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Verse 5 describes Moses's final warning about midnight judgment. God Himself will pass throug...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "כִּסְא֔וֹ: upon his throne - properly, covered, i.e., a throne (as canopied)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Inferred",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"בְּרַגְלֶ֔יךָ: that follow - a foot (as used in walking); by implication, a step; by euphemis...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בְּרַגְלֶ֔יךָ: that follow - a foot (as used in walking); by implication, a step; by euphemis...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

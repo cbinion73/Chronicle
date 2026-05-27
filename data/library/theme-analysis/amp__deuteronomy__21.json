@@ -1,0 +1,233 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 21,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:58.008Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"If a man have two wives, one beloved, and another hated (כִּי־תִהְיֶיןָ לְאִישׁ שְׁתֵּי נָשִׁ...\". Word-study detail reinforces \"הָֽאֲהוּבָ֖ה: beloved - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "15": [
+          "loved"
+        ],
+        "16": [
+          "loved"
+        ],
+        "17": [
+          "Instead he shall acknowledge the son of the unloved as the firstborn"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "If a man have two wives, one beloved, and another hated (כִּי־תִהְיֶיןָ לְאִישׁ שְׁתֵּי נָשִׁ...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Ambrose of Milan on Letters 31-40: And inasmuch as my discourse took as a proof of its assert...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָֽאֲהוּבָ֖ה: beloved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Then it shall be, when he maketh his sons to inherit that which he hath, that he may not make...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"If a man have a stubborn and rebellious son —The Hebrew ben sorer u-moreh (\"stubborn and rebe...\". Word-study detail reinforces \"שֹׁמֵ֖עַ: he will not obey - to hear intelligently (often with implication of attention, obed...\".",
+      "supportingVerses": [
+        18,
+        20
+      ],
+      "versePhrases": {
+        "18": [
+          "obey"
+        ],
+        "20": [
+          "obey"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "If a man have a stubborn and rebellious son —The Hebrew ben sorer u-moreh (\"stubborn and rebe...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "יִשְׁמַ֖ע: him will not hearken - to hear intelligently (often with implication of attention,...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "This our son is stubborn and rebellious, he will not obey our voice —The parental testimony b...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "שֹׁמֵ֖עַ: he will not obey - to hear intelligently (often with implication of attention, obed...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the priests the sons of Levi shall come near; for them the LORD thy God hath chosen to mi...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        5,
+        23
+      ],
+      "versePhrases": {
+        "5": [
+          "bless"
+        ],
+        "23": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "1 Chronicles 23:13",
+          "anchorVerse": 5,
+          "referenceLabel": "1 Chronicles 23:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And the priests the sons of Levi shall come near; for them the LORD thy God hath chosen to mi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וּלְבָרֵ֖ךְ: unto him and to bless - to kneel; by implication to bless god (as an act of ador...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "Burial requirement: 'His body shall not remain all night upon the tree, but thou shalt in any...",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And she shall put the raiment of her captivity from off her (וְהֵסִירָה אֶת־שִׂמְלַת שִׁבְיָה...\". Word-study detail reinforces \"וּבָֽכְתָ֛ה: and bewail - to weep; generally to bemoan\".",
+      "supportingVerses": [
+        12,
+        13
+      ],
+      "versePhrases": {
+        "12": [
+          "mourning"
+        ],
+        "13": [
+          "weep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Then thou shalt bring her home to thine house; and she shall shave her head, and pare her nai...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And she shall put the raiment of her captivity from off her (וְהֵסִירָה אֶת־שִׂמְלַת שִׁבְיָה...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וּבָֽכְתָ֛ה: and bewail - to weep; generally to bemoan",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Be merciful, O LORD, unto thy people Israel, whom thou hast redeemed, and lay not innocent bl...\". Word-study detail reinforces \"וְנִכַּפֵּ֥ר: Be merciful - to cover (specifically with bitumen)\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "Forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Be merciful, O LORD, unto thy people Israel, whom thou hast redeemed, and lay not innocent bl...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וְנִכַּפֵּ֥ר: Be merciful - to cover (specifically with bitumen)",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

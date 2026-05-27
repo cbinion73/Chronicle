@@ -1,0 +1,366 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Corinthians",
+  "chapter": 6,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:09.243Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "Giving no offence in any thing, that the ministry be..."
+        ],
+        "6": [
+          "Holy"
+        ],
+        "7": [
+          "righteousness"
+        ],
+        "14": [
+          "righteousness"
+        ],
+        "15": [
+          "and what concord hath Christ with Belial"
+        ],
+        "16": [
+          "and what agreement hath the temple of God with idols"
+        ],
+        "17": [
+          "Wherefore come out from among them, and be ye separate,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Giving no offence in any thing (μηδεμίαν ἐν μηδενὶ διδόντες προσκοπήν, mēdemian en mēdeni did...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 2 Corinthians: We exhort, he said, and we assist. In wh...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "By pureness, by knowledge, by longsuffering, by kindness (ἐν ἁγνότητι, ἐν γνώσει, ἐν μακροθυμ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        6,
+        7,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "6": [
+          "Holy"
+        ],
+        "7": [
+          "righteousness"
+        ],
+        "14": [
+          "righteousness"
+        ],
+        "15": [
+          "and what concord hath Christ with Belial"
+        ],
+        "16": [
+          "and what agreement hath the temple of God with idols"
+        ],
+        "17": [
+          "and touch not the unclean thing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "By pureness, by knowledge, by longsuffering, by kindness (ἐν ἁγνότητι, ἐν γνώσει, ἐν μακροθυμ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "ἁγίῳ: the Holy - sacred (physically, pure, morally blameless or religious, ceremonially, cons...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "By the word of truth, by the power of God (ἐν λόγῳ ἀληθείας, ἐν δυνάμει θεοῦ, en logō alēthei...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"By the word of truth, by the power of God (ἐν λόγῳ ἀληθείας, ἐν δυνάμει θεοῦ, en logō alēthei...\". Word-study detail reinforces \"ἀληθείας: of truth - truth\".",
+      "supportingVerses": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "(For he saith, I have heard thee in a time..."
+        ],
+        "3": [
+          "Giving no offence in any thing, that the ministry be..."
+        ],
+        "6": [
+          "by pureness, by knowledge, by longsuffering, by kindness, by the..."
+        ],
+        "7": [
+          "truth"
+        ],
+        "8": [
+          "true"
+        ],
+        "9": [
+          "as unknown, and yet well known"
+        ],
+        "10": [
+          "as sorrowful, yet alway rejoicing"
+        ],
+        "14": [
+          "Be ye not unequally yoked together with unbelievers"
+        ],
+        "16": [
+          "and what agreement hath the temple of God with idols"
+        ],
+        "18": [
+          "and will be a Father unto you, and ye shall..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I have heard thee in a time accepted (καιρῷ δεκτῷ, kairo dekto , 'acceptable time')—Paul quot...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Fulgentius of Ruspe on ON THE FORGIVENESS OF SINS 5.3: For the blessed Paul also knew the dis...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Paul faced constant criticism from opponents in Corinth who questioned his apostolic credenti...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 4: For those who strive after perfection, accordin...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily 13 on 2 Corinthians: \"Our mouth is open unto you, O ye Corinthians....\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        6,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "6": [
+          "love",
+          "kindness"
+        ],
+        "11": [
+          "O ye Corinthians, our mouth is open unto you, our..."
+        ],
+        "12": [
+          "Ye are not straitened in us, but ye are straitened..."
+        ],
+        "13": [
+          "Now for a recompence in the same, (I speak as..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Ephesians 4:2",
+          "anchorVerse": 6,
+          "referenceLabel": "Ephesians 4:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "By pureness, by knowledge, by longsuffering, by kindness (ἐν ἁγνότητι, ἐν γνώσει, ἐν μακροθυμ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "ἀγάπῃ: love - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...\". Word-study detail reinforces \"γνώσει: knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        6,
+        10,
+        16
+      ],
+      "versePhrases": {
+        "6": [
+          "knowledge"
+        ],
+        "10": [
+          "as sorrowful, yet alway rejoicing"
+        ],
+        "16": [
+          "and what agreement hath the temple of God with idols"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "By pureness, by knowledge, by longsuffering, by kindness (ἐν ἁγνότητι, ἐν γνώσει, ἐν μακροθυμ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "γνώσει: knowledge - knowing (the act), i.e., (by implication) knowledge",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The Corinthians prized wealth, status, wisdom, and power—typical Greco-Roman values. Paul's p...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        6,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "6": [
+          "Ghost"
+        ],
+        "14": [
+          "Be ye not unequally yoked together with unbelievers"
+        ],
+        "16": [
+          "and what agreement hath the temple of God with idols"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "2 Corinthians 11:4",
+          "anchorVerse": 6,
+          "referenceLabel": "2 Corinthians 11:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "By pureness, by knowledge, by longsuffering, by kindness (ἐν ἁγνότητι, ἐν γνώσει, ἐν μακροθυμ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having set down the things which pertain to en...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "πνεύματι: Ghost - a current of air, i.e., breath (blast) or a breeze; by analogy or figurativ...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

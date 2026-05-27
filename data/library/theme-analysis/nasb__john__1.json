@@ -1,0 +1,162 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "John",
+  "chapter": 1,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:34.775Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "John ties the coming of Christ to fullness, grace, and truth rather than mere abstract revelation. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: He follows with, Of his fullness we have all received w...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        14,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "14": [
+          "full of grace and truth"
+        ],
+        "16": [
+          "grace upon grace"
+        ],
+        "17": [
+          "grace and truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Parallel theme",
+          "detail": "1 John 4:9",
+          "anchorVerse": 14,
+          "referenceLabel": "1 John 4:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "This verse represents the theological apex of the Incarnation: the eternal Logos (Word) becam...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Thomas Aquinas on Commentary on John: 179 Having set forth the incarnation of the Word, the E...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "ἀληθείας: truth - truth",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "incarnation",
+      "label": "Incarnation",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "The eternal Word enters embodied human history without ceasing to be divine. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: John the Evangelist, as already indicated, makes it his...\". Cross references echo \"Word\".",
+      "supportingVerses": [
+        1,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "the Word",
+          "was with God",
+          "was God"
+        ],
+        "14": [
+          "the Word became flesh"
+        ],
+        "18": [
+          "the only begotten Son",
+          "the only Son"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Word",
+          "detail": "Revelation 19:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Revelation 19:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the beginning was the Word, and the Word was with God, and the Word was God. This profound...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on John: John the Evangelist, as already indicated, makes it his...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "λόγος: the Word - something said (including the thought); by implication, a topic (subject of...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "label": "Light",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "Light in John 1 signals revelation, life, and divine victory over darkness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER VIII. That the Son o...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        4,
+        5,
+        9
+      ],
+      "versePhrases": {
+        "4": [
+          "the light of men"
+        ],
+        "5": [
+          "the light shines in the darkness"
+        ],
+        "9": [
+          "the true Light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "John 8:12",
+          "anchorVerse": 4,
+          "referenceLabel": "John 8:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The dual concepts of 'life' (Greek 'zoe', referring to spiritual life) and 'light' introduce...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER VII. That the Son is...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ζωὴ: life - life (literally or figuratively)",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

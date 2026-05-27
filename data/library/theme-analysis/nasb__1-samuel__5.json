@@ -1,0 +1,103 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 5,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:16.596Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 3: 5. The hand of the Lord is...\". Word-study detail reinforces \"אַ֔רְצָה: to the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        6,
+        12
+      ],
+      "versePhrases": {
+        "3": [
+          "When the Ashdodites got up early the next day, behold,..."
+        ],
+        "6": [
+          "made"
+        ],
+        "12": [
+          "And the people who did not die were struck with..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Morning reveals Dagon's humiliation: 'fallen upon his face to the earth before the ark of the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 3: 2. That is, in the temple,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אַ֔רְצָה: to the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 3: 5. The hand of the Lord is...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The men of Ashdod draw the correct conclusion: 'The ark of the God of Israel shall not abide...\". Word-study detail reinforces \"יֵשֵׁ֞ב: shall not abide - properly, to sit down (specifically as judge. in ambush, in quiet)...\".",
+      "supportingVerses": [
+        4,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "But when they got up early the next morning, behold,..."
+        ],
+        "7": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The specific mutilation of head and hands echoes ancient Near Eastern practices of humiliatin...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Samuel: Moreover, the trunk of Dagon alone, etc. Moreover, the people,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The men of Ashdod draw the correct conclusion: 'The ark of the God of Israel shall not abide...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

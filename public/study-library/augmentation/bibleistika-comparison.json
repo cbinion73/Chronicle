@@ -1,0 +1,36 @@
+{
+  "id": "bibleistika-comparison",
+  "label": "bibleistika Comparison and Augmentation Report",
+  "sourceRepo": "https://github.com/vuesence/bibleistika",
+  "generatedAt": "2026-05-01T04:57:25.614Z",
+  "kjvstudyBaseline": {
+    "crossReferenceAnchors": 24900,
+    "strongsTokens": 444076,
+    "strongsWordStudies": 103,
+    "verseCommentaryEntries": 31102
+  },
+  "bibleistikaSignals": {
+    "hasEncodedCrossReferenceClient": true,
+    "hasEncodedStrongsClient": true,
+    "hasCrossReferenceScraper": true,
+    "hasStrongsScraper": true,
+    "inferredStrongsCoverage": {
+      "hebrewMax": 8675,
+      "greekMax": 5625
+    }
+  },
+  "augmentationDecision": {
+    "status": "deferred_as_primary_source",
+    "summary": "Chronicle uses kjvstudy.org as the structured primary import and keeps bibleistika as a secondary audit/scraper reference.",
+    "reasons": [
+      "bibleistika stores cross references and Strongs data in encoded runtime formats rather than committed normalized datasets.",
+      "bibleistika generation depends on scraper scripts that fetch from bible-teka.com.",
+      "kjvstudy.org already provides clean local JSON for cross references, verse commentary, and interlinear Strong’s tokens."
+    ],
+    "keepForFuture": [
+      "compare encoded cross-reference breadth against kjvstudy if committed bibleistika exports become available",
+      "use as a fallback extractor for missing Strong’s entries if a locally cached export is created later",
+      "borrow compact encoding ideas if Chronicle needs an ultra-small mobile cache layer"
+    ]
+  }
+}

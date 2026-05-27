@@ -1,0 +1,421 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 14,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:19.227Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): Therefore, Melchisedech signifies the Lord Savior...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        8,
+        9,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "5": [
+          "Kedorlaomer and the kings allied with him went out and defeated the Rephaites in Ashteroth Karnaim"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "17": [
+          "king",
+          "King"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "and he blessed Abram, saying, “Blessed be Abram by God..."
+        ],
+        "20": [
+          "And praise be to God Most High, who delivered your..."
+        ],
+        "21": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Genesis 10:10",
+          "anchorVerse": 1,
+          "referenceLabel": "Genesis 10:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlao...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): Now it came to pass in those days that Amraphel,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): And they struck the whole region of the Amalekite...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        6,
+        7,
+        8,
+        13,
+        17,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "these kings went to war against Bera king of Sodom,..."
+        ],
+        "6": [
+          "near"
+        ],
+        "7": [
+          "Then they turned back and went to En Mishpat (that..."
+        ],
+        "8": [
+          "Then the king of Sodom, the king of Gomorrah, the..."
+        ],
+        "13": [
+          "near"
+        ],
+        "17": [
+          "After Abram returned from defeating Kedorlaomer and the kings allied with him"
+        ],
+        "22": [
+          "“With raised hand I have sworn an oath to the Lord"
+        ],
+        "24": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "סְדֹ֔ם: of Sodom - sedom, a place near the dead sea",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on HOMILIES ON GENESIS 35.17: He not only blessed him but also praised God. I...\". Word-study detail reinforces \"וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        19,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "19": [
+          "earth"
+        ],
+        "22": [
+          "earth"
+        ],
+        "23": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And he blessed him, and said, Blessed be Abram of the most high God, possessor of heaven and...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "John Chrysostom on HOMILIES ON GENESIS 35.17: He not only blessed him but also praised God. I...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): But the king of Sodom said to Abram, \"Give me the...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): And behold, one who had escaped came and reported...\". Word-study detail reinforces \"מִגֵּ֥ן: which hath delivered - properly, to shield; encompass with; figuratively, to rescue,...\".",
+      "supportingVerses": [
+        1,
+        5,
+        10,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "At the time when Amraphel was king of Shinar, Arioch..."
+        ],
+        "5": [
+          "In the fourteenth year, Kedorlaomer and the kings allied with..."
+        ],
+        "10": [
+          "Now the Valley of Siddim was full of tar pits,..."
+        ],
+        "13": [
+          "A man who had escaped came and reported this to..."
+        ],
+        "14": [
+          "When Abram heard that his relative had been taken captive,..."
+        ],
+        "16": [
+          "He recovered all the goods and brought back his relative..."
+        ],
+        "18": [
+          "Then Melchizedek king of Salem brought out bread and wine"
+        ],
+        "19": [
+          "and he blessed Abram, saying, “Blessed be Abram by God..."
+        ],
+        "20": [
+          "delivered"
+        ],
+        "24": [
+          "I will accept nothing but what my men have eaten..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How should this truth about Divine Deliverance shape our daily decisions and priorities?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): Now it came to pass in those days that Amraphel,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And in the fourteenth year came Chedorlaomer, and the kings that were with him, and smote the...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Hebrew Questions on Genesis: (Verse 5.) And the giants settled in Astaroth Carnaim,...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): Therefore, Melchisedech signifies the Lord Savior...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        8,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "At the time when Amraphel was king of Shinar, Arioch..."
+        ],
+        "8": [
+          "Then the king of Sodom, the king of Gomorrah, the..."
+        ],
+        "16": [
+          "He recovered all the goods and brought back his relative..."
+        ],
+        "18": [
+          "Then Melchizedek king of Salem brought out bread and wine"
+        ],
+        "19": [
+          "and he blessed Abram"
+        ],
+        "20": [
+          "And praise be to God Most High, who delivered your..."
+        ],
+        "21": [
+          "The king of Sodom said to Abram, “Give me the..."
+        ],
+        "22": [
+          "oath"
+        ],
+        "23": [
+          "that I will accept nothing belonging to you, not even..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlao...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): Now it came to pass in those days that Amraphel,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And there went out the king of Sodom, and the king of Gomorrah, and the king of Admah, and th...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Ambrose of Milan on On Abraham: We have seen now the prog-ress of the noble mind, which, find...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on HOMILIES ON GENESIS 35.20: These I will allow to take a portion, he says,...\". Word-study detail reinforces \"לֶ֣חֶם: bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        15,
+        18,
+        19,
+        20,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "15": [
+          "During the night Abram divided his men to attack them..."
+        ],
+        "18": [
+          "bread"
+        ],
+        "19": [
+          "and he blessed Abram, saying, “Blessed be Abram by God..."
+        ],
+        "20": [
+          "And praise be to God Most High, who delivered your..."
+        ],
+        "23": [
+          "that I will accept nothing belonging to you, not even..."
+        ],
+        "24": [
+          "I will accept nothing but what my men have eaten..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): And he pursued them as far as Dan, and having div...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): Therefore, Melchisedech signifies the Lord Savior...",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

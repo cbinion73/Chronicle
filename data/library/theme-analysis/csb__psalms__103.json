@@ -1,0 +1,419 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 103,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:30.657Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"As far as the east is from the west, so far hath he removed our transgressions from us. This...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "My soul, bless the Lord, and do not forget all..."
+        ],
+        "3": [
+          "He forgives all your iniquity"
+        ],
+        "4": [
+          "compassion"
+        ],
+        "8": [
+          "gracious"
+        ],
+        "10": [
+          "He has not dealt with us as our sins deserve..."
+        ],
+        "11": [
+          "For as high as the heavens are above the earth,..."
+        ],
+        "12": [
+          "As far as the east is from the west, so..."
+        ],
+        "13": [
+          "compassion"
+        ],
+        "14": [
+          "For he knows what we are made of, remembering that..."
+        ],
+        "17": [
+          "But from eternity to eternity the Lord’s faithful love is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 103 is a Davidic psalm of pure praise, likely written in his later years when he could...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Fulgentius of Ruspe on LETTER 7:4: Who does not see how impious and how sacrilegious it is if...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In ancient Israel, disease and sin were often viewed as interconnected (though not simplistic...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Fulgentius of Ruspe on LETTER 7:4: Who does not see how impious and how sacrilegious it is if...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 103: ...\"Bless the Lord, O my soul! And all that is...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "bless"
+        ],
+        "2": [
+          "bless"
+        ],
+        "3": [
+          "He forgives all your iniquity"
+        ],
+        "4": [
+          "He redeems your life from the Pit"
+        ],
+        "5": [
+          "He satisfies you with good things"
+        ],
+        "18": [
+          "covenant"
+        ],
+        "20": [
+          "Bless"
+        ],
+        "21": [
+          "Bless"
+        ],
+        "22": [
+          "Bless",
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David's self-exhortation to 'Bless the LORD' (Hebrew 'barak'—to kneel, praise) initiates this...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 103: ...\"Bless the Lord, O my soul! And all that is...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בָּרֲכִ֣י: Bless - to kneel; by implication to bless god (as an act of adoration), and (vice-...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 103 is a Davidic psalm of pure praise, likely written in his later years when he could...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"This verse quotes God's self-revelation to Moses (Exod 34:6-7), central to Israel's understan...\". Word-study detail reinforces \"רִחַ֥ם: pitieth - to fondle; by implication, to love, especially to compassionate\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        11,
+        13,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "My soul, bless the Lord, and all that is within..."
+        ],
+        "2": [
+          "My soul, bless the Lord, and do not forget all..."
+        ],
+        "4": [
+          "love"
+        ],
+        "8": [
+          "love"
+        ],
+        "9": [
+          "He will not always accuse us or be angry forever"
+        ],
+        "11": [
+          "love"
+        ],
+        "13": [
+          "As a father has compassion on his children, so the..."
+        ],
+        "17": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This Davidic psalm reflects mature meditation on God's covenant love (chesed), likely written...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Fulgentius of Ruspe on LETTER 7:4: Who does not see how impious and how sacrilegious it is if...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Bless the LORD, O my soul, and forget not all his benefits. This verse intensifies the previo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Fulgentius of Ruspe on LETTER 7:4: Who does not see how impious and how sacrilegious it is if...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"David's self-exhortation to 'Bless the LORD' (Hebrew 'barak'—to kneel, praise) initiates this...\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        12,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "bless the Lord"
+        ],
+        "2": [
+          "bless the Lord"
+        ],
+        "4": [
+          "He redeems your life from the Pit"
+        ],
+        "12": [
+          "As far as the east is from the west, so..."
+        ],
+        "20": [
+          "Bless the Lord"
+        ],
+        "21": [
+          "Bless the Lord"
+        ],
+        "22": [
+          "Bless the Lord",
+          "bless the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David's self-exhortation to 'Bless the LORD' (Hebrew 'barak'—to kneel, praise) initiates this...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 103: ...\"Bless the Lord, O my soul! And all that is...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 103 is a Davidic psalm of pure praise, likely written in his later years when he could...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Fulgentius of Ruspe on LETTER 7:4: Who does not see how impious and how sacrilegious it is if...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Psalm 103 is a Davidic psalm of profound thanksgiving for God's covenant mercies, bearing the...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        6,
+        10,
+        12,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "6": [
+          "righteousness",
+          "justice"
+        ],
+        "10": [
+          "He has not dealt with us as our sins deserve..."
+        ],
+        "12": [
+          "As far as the east is from the west, so..."
+        ],
+        "17": [
+          "righteousness"
+        ],
+        "18": [
+          "of those who keep his covenant, who remember to observe..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 99:3",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 99:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David's self-exhortation to 'Bless the LORD' (Hebrew 'barak'—to kneel, praise) initiates this...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 103: ...\"Bless the Lord, O my soul! And all that is...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קָדְשֽׁוֹ׃: me bless his holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Psalm 103 is a Davidic psalm of profound thanksgiving for God's covenant mercies, bearing the...\".",
+      "supportingVerses": [
+        4,
+        7,
+        8,
+        11,
+        12,
+        17
+      ],
+      "versePhrases": {
+        "4": [
+          "faithful"
+        ],
+        "7": [
+          "He revealed his ways to Moses, his deeds to the..."
+        ],
+        "8": [
+          "faithful"
+        ],
+        "11": [
+          "faithful"
+        ],
+        "12": [
+          "As far as the east is from the west, so..."
+        ],
+        "17": [
+          "faithful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "God 'redeems' (ga'al) from destruction, using kinsman-redeemer language that anticipates Chri...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Confessions 11.9: He is the Beginning, O God, in which you made heaven...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 103: \"He made His ways known unto Moses\" [Psalm 103...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Psalm 103 is a Davidic psalm of profound thanksgiving for God's covenant mercies, bearing the...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

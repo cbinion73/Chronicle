@@ -1,0 +1,77 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 9,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:11.456Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...\". Word-study detail reinforces \"הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king\".",
+      "supportingVerses": [
+        18,
+        39
+      ],
+      "versePhrases": {
+        "18": [
+          "king"
+        ],
+        "39": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 39 commentary",
+          "detail": "1 Chronicles was written after the Babylonian exile (c. 450-400 BC) to help returning Jews un...",
+          "anchorVerse": 39
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...\". Word-study detail reinforces \"הַיּוֹשֵׁ֖ב: that dwelt - properly, to sit down (specifically as judge. in ambush, in quiet);...\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "הַיּוֹשֵׁ֖ב: that dwelt - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

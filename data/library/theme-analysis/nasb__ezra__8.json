@@ -1,0 +1,261 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezra",
+  "chapter": 8,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:27.072Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"For I was ashamed to require of the king a band of soldiers and horsemen to help us against t...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        22,
+        25,
+        36
+      ],
+      "versePhrases": {
+        "1": [
+          "King",
+          "reign"
+        ],
+        "22": [
+          "king"
+        ],
+        "25": [
+          "king"
+        ],
+        "36": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Ezra 7:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Ezra 7:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "These are now the chief of their fathers, and this is the genealogy of them that went up with...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: These are therefore the chiefs of the families, etc....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֖לֶךְ: the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Then we departed from the river of Ahava on the twelfth day of the first month, to go unto Je...\". Word-study detail reinforces \"וַיַּ֨צִּילֵ֔נוּ: was upon us and he delivered - to snatch away, whether in a good or a bad s...\".",
+      "supportingVerses": [
+        31,
+        36
+      ],
+      "versePhrases": {
+        "31": [
+          "and He rescued us from the hand of the enemy and the ambushes by the road"
+        ],
+        "36": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "Then we departed from the river of Ahava on the twelfth day of the first month, to go unto Je...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 31 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: We therefore moved from the river Ahava on the twelf...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "וַיַּ֨צִּילֵ֔נוּ: was upon us and he delivered - to snatch away, whether in a good or a bad s...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 36 commentary",
+          "detail": "And they delivered the king's commissions unto the king's lieutenants, and to the governors o...",
+          "anchorVerse": 36
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Then I separated twelve of the chief of the priests —וָאַבְדִּילָה ( va'avdilah , then I sepa...\".",
+      "supportingVerses": [
+        24,
+        34
+      ],
+      "versePhrases": {
+        "24": [
+          "Then I selected twelve of the leading priests"
+        ],
+        "34": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Then I separated twelve of the chief of the priests —וָאַבְדִּילָה ( va'avdilah , then I sepa...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And I separated twelve of the chiefs of the priests,...",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And I said unto them, Ye are holy unto the LORD —אַתֶּם קֹדֶשׁ לַיהוָה ( atem qodesh l'YHWH ,...\". Word-study detail reinforces \"קֹ֑דֶשׁ: are holy - a sacred place or thing; rarely abstract, sanctity\".",
+      "supportingVerses": [
+        24,
+        28
+      ],
+      "versePhrases": {
+        "24": [
+          "Then I selected twelve of the leading priests"
+        ],
+        "28": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Then I separated twelve of the chief of the priests —וָאַבְדִּילָה ( va'avdilah , then I sepa...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And I separated twelve of the chiefs of the priests,...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "And I said unto them, Ye are holy unto the LORD —אַתֶּם קֹדֶשׁ לַיהוָה ( atem qodesh l'YHWH ,...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 28 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: You are holy to the Lord, and the vessels are holy,...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And I said unto them, Ye are holy unto the LORD —אַתֶּם קֹדֶשׁ לַיהוָה ( atem qodesh l'YHWH ,...\". Word-study detail reinforces \"קֹ֑דֶשׁ: are holy - a sacred place or thing; rarely abstract, sanctity\".",
+      "supportingVerses": [
+        24,
+        28
+      ],
+      "versePhrases": {
+        "24": [
+          "Then I selected twelve of the leading priests"
+        ],
+        "28": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Then I separated twelve of the chief of the priests —וָאַבְדִּילָה ( va'avdilah , then I sepa...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And I separated twelve of the chiefs of the priests,...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "And I said unto them, Ye are holy unto the LORD —אַתֶּם קֹדֶשׁ לַיהוָה ( atem qodesh l'YHWH ,...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 28 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: You are holy to the Lord, and the vessels are holy,...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Watch ye, and keep them —שִׁקְדוּ וְשִׁמְרוּ ( shiqdu v'shimru , watch and guard/keep) are ur...\". Word-study detail reinforces \"וְשִׁמְר֗וּ: ye and keep - properly, to hedge about (as with thorns), i.e., guard; generally,...\".",
+      "supportingVerses": [
+        29
+      ],
+      "versePhrases": {
+        "29": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "Watch ye, and keep them —שִׁקְדוּ וְשִׁמְרוּ ( shiqdu v'shimru , watch and guard/keep) are ur...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "וְשִׁמְר֗וּ: ye and keep - properly, to hedge about (as with thorns), i.e., guard; generally,...",
+          "anchorVerse": 29
+        }
+      ]
+    }
+  ]
+}

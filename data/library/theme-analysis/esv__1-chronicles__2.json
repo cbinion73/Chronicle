@@ -1,0 +1,32 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 2,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:13.898Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

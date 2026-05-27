@@ -1,0 +1,108 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 47,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:56.826Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"O thou sword of the LORD, how long will it be ere thou be quiet? put up thyself into thy scab...\". Word-study detail reinforces \"הֵרָגְעִ֖י: rest - properly, to toss violently and suddenly (the sea with waves, the skin wit...\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "Rest",
+          "still",
+          "quiet"
+        ],
+        "7": [
+          "quiet"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "O thou sword of the LORD, how long will it be ere thou be quiet? put up thyself into thy scab...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הֵרָגְעִ֖י: rest - properly, to toss violently and suddenly (the sea with waves, the skin wit...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How can it be quiet, seeing the LORD hath given it a charge against Ashkelon, and against the...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "תִּשְׁקֹ֔טִי: How can it be quiet - to repose (usually figurative)",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thus saith the LORD; Behold, waters rise up out of the north (כֹּה אָמַר יְהוָה הִנֵּה־מַיִם...\". Word-study detail reinforces \"הָאָֽרֶץ׃: of the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Thus saith the LORD; Behold, waters rise up out of the north (כֹּה אָמַר יְהוָה הִנֵּה־מַיִם...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הָאָֽרֶץ׃: of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Inferred",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thus saith the LORD; Behold, waters rise up out of the north (כֹּה אָמַר יְהוָה הִנֵּה־מַיִם...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "cry out"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Thus saith the LORD; Behold, waters rise up out of the north (כֹּה אָמַר יְהוָה הִנֵּה־מַיִם...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

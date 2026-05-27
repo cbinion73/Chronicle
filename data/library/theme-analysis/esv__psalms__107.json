@@ -1,0 +1,420 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 107,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:05.670Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"This verse repeats the distress-cry-deliverance pattern (cf. v. 6). 'Then they cried unto the...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        2,
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        19,
+        20,
+        23,
+        28,
+        29,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "2": [
+          "Let the redeemed of the Lord say so"
+        ],
+        "5": [
+          "hungry and thirsty, their soul fainted within them"
+        ],
+        "6": [
+          "delivered"
+        ],
+        "7": [
+          "He led them by a straight way till they reached..."
+        ],
+        "12": [
+          "So he bowed their hearts down with hard labor"
+        ],
+        "13": [
+          "delivered"
+        ],
+        "14": [
+          "He brought them out of darkness and the shadow of..."
+        ],
+        "19": [
+          "delivered"
+        ],
+        "20": [
+          "delivered"
+        ],
+        "23": [
+          "Some went down to the sea in ships, doing business..."
+        ],
+        "28": [
+          "delivered"
+        ],
+        "29": [
+          "He made the storm be still, and the waves of..."
+        ],
+        "30": [
+          "Then they were glad that the waters were quiet, and..."
+        ],
+        "31": [
+          "Let them thank the Lord for his steadfast love, for..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Galatians 3:13",
+          "anchorVerse": 2,
+          "referenceLabel": "Galatians 3:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse specifies who should give thanks. 'Let the redeemed of the LORD say so' identifies...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "גְּ֝אָלָ֗ם: Let the redeemed - to redeem (according to the middle eastern law of kinship), i....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse describes the extremity of need. 'Hungry and thirsty' indicates basic survival nee...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"This verse begins the third rescue scenario: healing from sickness. 'Fools because of their t...\". Word-study detail reinforces \"וְיָגֽוֹן׃: and sorrow - affliction\".",
+      "supportingVerses": [
+        2,
+        6,
+        10,
+        13,
+        17,
+        19,
+        28,
+        39,
+        41
+      ],
+      "versePhrases": {
+        "2": [
+          "trouble"
+        ],
+        "6": [
+          "trouble"
+        ],
+        "10": [
+          "affliction"
+        ],
+        "13": [
+          "trouble"
+        ],
+        "17": [
+          "affliction"
+        ],
+        "19": [
+          "trouble"
+        ],
+        "28": [
+          "trouble"
+        ],
+        "39": [
+          "sorrow"
+        ],
+        "41": [
+          "affliction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This verse describes the cry for help and God's response. 'Then they cried unto the LORD in t...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory of Nyssa on AGAINST EUNOMIUS 2:15: Prophetic language affirms that the conversion of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "בַּצַּ֣ר: in their trouble - a pebble (as in h6864)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "This scenario describes exiles in Babylon ('bound in affliction and iron') sitting in darknes...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 107: \"He made the rivers a wilderness\" [Psalm 107:3...\". Word-study detail reinforces \"אֶ֣רֶץ: land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        20,
+        23,
+        24,
+        29,
+        30,
+        33,
+        34,
+        35
+      ],
+      "versePhrases": {
+        "20": [
+          "He sent out his word and healed them, and delivered..."
+        ],
+        "23": [
+          "waters"
+        ],
+        "24": [
+          "they saw the deeds of the Lord, his wondrous works..."
+        ],
+        "29": [
+          "made"
+        ],
+        "30": [
+          "waters"
+        ],
+        "33": [
+          "He turns rivers into a desert, springs of water into..."
+        ],
+        "34": [
+          "a fruitful land into a salty waste, because of the..."
+        ],
+        "35": [
+          "He turns a desert into pools of water, a parched..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "God's word healed throughout Scripture: speaking created the cosmos (Genesis 1); God's word t...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Eusebius of Caesarea on ECCLESIASTICAL HISTORY 1:2: For, if it would be unreasonable to suppo...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "This verse begins the fourth rescue scenario: deliverance from storm at sea. 'They that go do...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 107: ...\"They who go down on the sea in ships, doin...",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Israel's worship was corporate, centered in tabernacle/temple with the congregation assembled...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        1,
+        8,
+        15,
+        21,
+        22,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "thanks"
+        ],
+        "8": [
+          "Let them thank the Lord for his steadfast love"
+        ],
+        "15": [
+          "Let them thank the Lord for his steadfast love"
+        ],
+        "21": [
+          "Let them thank the Lord for his steadfast love"
+        ],
+        "22": [
+          "thanksgiving"
+        ],
+        "31": [
+          "Let them thank the Lord for his steadfast love"
+        ],
+        "32": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse establishes the psalm's theme: thanksgiving for God's covenant love. 'O gi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הֹד֣וּ: O give thanks - physically, to throw (a stone, an arrow) at or away; especially to re...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This is the psalm's first refrain (repeated in vv. 15, 21, 31). 'Oh that men would praise the...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "יוֹד֣וּ: Oh that men would praise - physically, to throw (a stone, an arrow) at or away; espe...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"This opening verse establishes the psalm's theme: thanksgiving for God's covenant love. 'O gi...\".",
+      "supportingVerses": [
+        1,
+        8,
+        15,
+        21,
+        31,
+        43
+      ],
+      "versePhrases": {
+        "1": [
+          "steadfast"
+        ],
+        "8": [
+          "steadfast"
+        ],
+        "15": [
+          "steadfast"
+        ],
+        "21": [
+          "steadfast"
+        ],
+        "31": [
+          "steadfast"
+        ],
+        "43": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse establishes the psalm's theme: thanksgiving for God's covenant love. 'O gi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Ammon of Hadrianopolis on LETTER OF BISHOP AMMON 28: Many other monks coming from Phbow by bo...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"This opening verse establishes the psalm's theme: thanksgiving for God's covenant love. 'O gi...\". Word-study detail reinforces \"חַסְדּֽוֹ׃: for his mercy - kindness; by implication (towards god) piety; rarely (by oppositi...\".",
+      "supportingVerses": [
+        1,
+        8,
+        15,
+        21,
+        31,
+        43
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "8": [
+          "love"
+        ],
+        "15": [
+          "love"
+        ],
+        "21": [
+          "love"
+        ],
+        "31": [
+          "love"
+        ],
+        "43": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse establishes the psalm's theme: thanksgiving for God's covenant love. 'O gi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חַסְדּֽוֹ׃: for his mercy - kindness; by implication (towards god) piety; rarely (by oppositi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "חַסְדּ֑וֹ: for his goodness - kindness; by implication (towards god) piety; rarely (by opposi...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "חַסְדּ֑וֹ: for his goodness - kindness; by implication (towards god) piety; rarely (by opposi...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

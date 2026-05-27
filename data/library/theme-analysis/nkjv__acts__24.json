@@ -1,0 +1,294 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 24,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:46.532Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Acts: \"Therefore he sent for him often and conversed wi...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        10,
+        14,
+        15,
+        24,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "5": [
+          "For we have found this man a plague, a creator..."
+        ],
+        "10": [
+          "Then Paul, after the governor had nodded to him to..."
+        ],
+        "14": [
+          "But this I confess to you, that according to the..."
+        ],
+        "15": [
+          "hope"
+        ],
+        "24": [
+          "faith"
+        ],
+        "26": [
+          "hoped"
+        ],
+        "27": [
+          "But after two years Porcius Festus succeeded Felix"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How do you respond when your faith is deliberately mischaracterized as politically dangerous...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on Acts: And the author of the sedition of the sect of the Nazarenes. At t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What does Paul's confidence teach about finding encouragement in God's providence rather than...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Cassiodorus on Complexiones on the Acts of the Apostles: \"Then Paul answered (the governor ma...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on Homily on Acts 50: Then Paul; after that the governor had beckoned unto hi...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        6,
+        10,
+        15,
+        22,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "6": [
+          "judge"
+        ],
+        "10": [
+          "judge"
+        ],
+        "15": [
+          "I have hope in God, which they themselves also accept,..."
+        ],
+        "22": [
+          "But when Felix heard these things, having more accurate knowledge..."
+        ],
+        "25": [
+          "judgment"
+        ],
+        "27": [
+          "But after two years Porcius Festus succeeded Felix"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How do you respond when accusers claim to represent justice while actually seeking your destr...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Bede on Commentary on Acts: Whom we also apprehended. From whom you will be able, by judging...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "κρίνειν: have judged - by implication, to try, condemn, punish",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Paul's response - 'thou hast been of many years a judge unto this nation' - was tactful ackno...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Felix's response - 'having more perfect knowledge of that way' - indicates he understood Chri...\". Word-study detail reinforces \"ἐπιγνῶναι: take knowledge - to know upon some mark, i.e., recognize; by implication, to becom...\".",
+      "supportingVerses": [
+        8,
+        22
+      ],
+      "versePhrases": {
+        "8": [
+          "commanding his accusers to come to you"
+        ],
+        "22": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "'By examining of whom thyself mayest take knowledge of all these things, whereof we accuse hi...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on Homily on Acts 50: By examining of whom thyself mayest take knowledge of a...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "ἐπιγνῶναι: take knowledge - to know upon some mark, i.e., recognize; by implication, to becom...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Felix's response - 'having more perfect knowledge of that way' - indicates he understood Chri...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Paul's confession - 'after the way which they call heresy, so worship I the God of my fathers...\". Word-study detail reinforces \"λατρεύω: worship I - to minister (to god), i.e., render religious homage\".",
+      "supportingVerses": [
+        11,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "worship"
+        ],
+        "14": [
+          "worship"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Paul's verifiable timeline - 'no more than twelve days' - allowed Felix to investigate the fa...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "John Chrysostom on Homily on Acts 50: Because that thou mayest understand, that there are yet...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "προσκυνήσων: for to worship - to fawn or crouch to, i.e., (literally or figuratively) prostra...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Paul's confession - 'after the way which they call heresy, so worship I the God of my fathers...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Lucius Caecilius Firmianus Lactantius on The Divine Institutes, Book 7, Chapter XX: Not all m...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        15,
+        25
+      ],
+      "versePhrases": {
+        "15": [
+          "just"
+        ],
+        "25": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Paul identifies shared hope in resurrection as common ground between himself and his accusers...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Lucius Caecilius Firmianus Lactantius on The Divine Institutes, Book 7, Chapter XX: Not all m...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "δικαίων: of the just - equitable (in character or act); by implication, innocent, holy (absol...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "John 16:8",
+          "anchorVerse": 25,
+          "referenceLabel": "John 16:8"
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"τηρεῖσθαι: to keep - to guard (from loss or injury, properly, by keeping the eye upon; and th...\".",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "τηρεῖσθαι: to keep - to guard (from loss or injury, properly, by keeping the eye upon; and th...",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

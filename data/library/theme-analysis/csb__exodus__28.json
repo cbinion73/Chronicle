@@ -1,0 +1,254 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 28,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:16.443Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"The garments are put 'upon Aaron thy brother, and his sons with him,' then anointed, consecra...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        4,
+        8,
+        14,
+        22,
+        36,
+        38,
+        41,
+        43
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "4": [
+          "holy"
+        ],
+        "8": [
+          "The artistically woven waistband that is on the ephod must..."
+        ],
+        "14": [
+          "pure"
+        ],
+        "22": [
+          "pure"
+        ],
+        "36": [
+          "Holy",
+          "pure"
+        ],
+        "38": [
+          "holy"
+        ],
+        "41": [
+          "Put these on your brother Aaron and his sons"
+        ],
+        "43": [
+          "These must be worn by Aaron and his sons whenever..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 31:10",
+          "anchorVerse": 2,
+          "referenceLabel": "Exodus 31:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Holy garments for Aaron 'for glory and for beauty' (לְכָבוֹד וּלְתִפְאָרֶת, l'kavod ul'tifere...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "קֹ֖דֶשׁ: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The garment inventory: breastplate, ephod, robe, embroidered coat, mitre (turban), and girdle...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Holy garments for Aaron 'for glory and for beauty' (לְכָבוֹד וּלְתִפְאָרֶת, l'kavod ul'tifere...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        4,
+        36,
+        38,
+        43
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "4": [
+          "holy"
+        ],
+        "36": [
+          "Holy"
+        ],
+        "38": [
+          "holy"
+        ],
+        "43": [
+          "These must be worn by Aaron and his sons whenever..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 31:10",
+          "anchorVerse": 2,
+          "referenceLabel": "Exodus 31:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Holy garments for Aaron 'for glory and for beauty' (לְכָבוֹד וּלְתִפְאָרֶת, l'kavod ul'tifere...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "קֹ֖דֶשׁ: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The garment inventory: breastplate, ephod, robe, embroidered coat, mitre (turban), and girdle...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Holy garments for Aaron 'for glory and for beauty' (לְכָבוֹד וּלְתִפְאָרֶת, l'kavod ul'tifere...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        2,
+        40
+      ],
+      "versePhrases": {
+        "2": [
+          "glory"
+        ],
+        "40": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Job 40:10",
+          "anchorVerse": 2,
+          "referenceLabel": "Job 40:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Holy garments for Aaron 'for glory and for beauty' (לְכָבוֹד וּלְתִפְאָרֶת, l'kavod ul'tifere...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לְכָב֖וֹד: for glory - properly, weight, but only figuratively in a good sense, splendor or c...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Exodus 28:2",
+          "anchorVerse": 40,
+          "referenceLabel": "Exodus 28:2"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Skilled craftsmen 'whom I have filled with the spirit of wisdom' create the garments. God pro...\". Word-study detail reinforces \"חָכְמָ֑ה: of wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Skilled craftsmen 'whom I have filled with the spirit of wisdom' create the garments. God pro...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חָכְמָ֑ה: of wisdom - wisdom (in a good sense)",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bezalel and Oholiab led these craftsmen (Exodus 31:1-6), men Spirit-filled for artistic work....\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Ephesians 1:17",
+          "anchorVerse": 3,
+          "referenceLabel": "Ephesians 1:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Bezalel and Oholiab led these craftsmen (Exodus 31:1-6), men Spirit-filled for artistic work....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ר֣וּחַ: with the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exh...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

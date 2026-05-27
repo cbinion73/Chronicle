@@ -1,0 +1,161 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 6,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:24.359Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...\". Word-study detail reinforces \"הַמִּקְלָ֛ט: of refuge - an asylum (as a receptacle)\".",
+      "supportingVerses": [
+        57,
+        61,
+        67,
+        70,
+        77
+      ],
+      "versePhrases": {
+        "57": [
+          "refuge"
+        ],
+        "61": [
+          "rest"
+        ],
+        "67": [
+          "refuge"
+        ],
+        "70": [
+          "rest"
+        ],
+        "77": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 57 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 57
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 57 word study",
+          "detail": "הַמִּקְלָ֔ט: the city of refuge - an asylum (as a receptacle)",
+          "anchorVerse": 57
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 61 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 61
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 67 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 67
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But Aaron and his sons (וְאַהֲרֹן וּבָנָיו)—this emphatic contrast distinguishes the exclusiv...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        49
+      ],
+      "versePhrases": {
+        "49": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 29:33",
+          "anchorVerse": 49,
+          "referenceLabel": "Exodus 29:33"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 49 commentary",
+          "detail": "But Aaron and his sons (וְאַהֲרֹן וּבָנָיו)—this emphatic contrast distinguishes the exclusiv...",
+          "anchorVerse": 49
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 49 word study",
+          "detail": "הַקֳּדָשִׁ֑ים: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 49
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does this verse teach about God's faithfulness across generations, and how does that app...\".",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "What does this verse teach about God's faithfulness across generations, and how does that app...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But Aaron and his sons (וְאַהֲרֹן וּבָנָיו)—this emphatic contrast distinguishes the exclusiv...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        49
+      ],
+      "versePhrases": {
+        "49": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 29:33",
+          "anchorVerse": 49,
+          "referenceLabel": "Exodus 29:33"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 49 commentary",
+          "detail": "But Aaron and his sons (וְאַהֲרֹן וּבָנָיו)—this emphatic contrast distinguishes the exclusiv...",
+          "anchorVerse": 49
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 49 word study",
+          "detail": "הַקֳּדָשִׁ֑ים: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 49
+        }
+      ]
+    }
+  ]
+}

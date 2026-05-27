@@ -1,0 +1,398 @@
+{
+  "id": "snapshot-2026-05-08T03-12-05-616Z",
+  "createdAt": "2026-05-08T03:12:05.616Z",
+  "schemaVersion": 3,
+  "appStateVersion": 9,
+  "summary": {
+    "chronicleEntryCount": 5,
+    "prayerItemCount": 6,
+    "formationRhythmCount": 4,
+    "ownedBookCount": 1,
+    "scriptureBookmarkCount": 0,
+    "structuredLibraryCount": 0,
+    "uploadedLibraryCount": 0,
+    "themeCacheFileCount": 8325,
+    "themeCacheVersion": "2026-05-01-graph-v2",
+    "installedTranslationCount": 5
+  },
+  "origin": {
+    "deviceId": "device-mowc9xqa-sxq9wj",
+    "deviceLabel": "Chronicle Desktop",
+    "platform": "desktop",
+    "modelVersion": 1,
+    "cachePolicy": {
+      "bibleLibrary": "eager",
+      "themeAnalysis": "eager",
+      "importedBooks": "selected-books"
+    },
+    "exportedAt": "2026-05-08T03:12:05.616Z"
+  },
+  "appState": {
+    "theme": "light",
+    "translation": "NKJV",
+    "bibleView": {
+      "book": "Psalms",
+      "chapter": 23,
+      "provider": "offline_nkjv",
+      "overlayOn": false,
+      "echoesOn": false,
+      "studyColorsOn": false,
+      "greekOn": false,
+      "showThemePanel": false,
+      "panelMode": "themes",
+      "activeThemeIds": []
+    },
+    "activeStudyModuleId": "bible-study",
+    "studyModuleDayById": {
+      "bible-study": 1,
+      "discipleship": 1
+    },
+    "activeOwnedBookId": "masterlife-book-1",
+    "chronicleEntries": [
+      {
+        "id": "1",
+        "date": "2026-04-27",
+        "type": "insight",
+        "title": "Psalm 23 — the shepherd leads, not drives",
+        "body": "Noticed again today: He leads me beside still waters. Not pushes. Not drives. There's something about the posture of God in this psalm that I keep returning to. He is gentle with his sheep.",
+        "passage": "Psalm 23:2",
+        "themes": [
+          "Guidance",
+          "Rest"
+        ]
+      },
+      {
+        "id": "2",
+        "date": "2026-04-27",
+        "type": "prayer",
+        "title": "Morning prayer — giving over the week",
+        "body": "Lord, I give you what I can't control. The meeting, the decision, the fear underneath both. I trust you with today.",
+        "autoCapture": true
+      },
+      {
+        "id": "3",
+        "date": "2026-04-26",
+        "type": "study",
+        "title": "Grace in John 1 — exegesis notes",
+        "body": "The Word became flesh and dwelt among us. The Greek skēnoō — tabernacled. God pitching his tent in our mess.",
+        "passage": "John 1:14",
+        "themes": [
+          "Grace",
+          "Incarnation"
+        ]
+      },
+      {
+        "id": "4",
+        "date": "2026-04-25",
+        "type": "reflection",
+        "title": "Three days away — returning",
+        "body": "Was away from the app for three days. Not away from God — just away from intentionality. Coming back feels like coming home.",
+        "autoCapture": true
+      },
+      {
+        "id": "5",
+        "date": "2026-04-21",
+        "type": "note",
+        "title": "Romans 8:1 — no condemnation",
+        "body": "There is therefore now no condemnation. I keep underlining \"now.\" Not eventually. Not after I clean myself up. Now.",
+        "passage": "Romans 8:1",
+        "themes": [
+          "Grace",
+          "Justification"
+        ]
+      }
+    ],
+    "prayerItems": [
+      {
+        "id": "p1",
+        "text": "Sarah's surgery next week — peace and healing",
+        "category": "people",
+        "answered": false,
+        "dateAdded": "2026-04-20",
+        "lastPrayedAt": "2026-05-03",
+        "timesPrayed": 4,
+        "nextFollowUpAt": "2026-05-06"
+      },
+      {
+        "id": "p2",
+        "text": "Wisdom for the team decision at work",
+        "category": "needs",
+        "answered": false,
+        "dateAdded": "2026-04-25",
+        "lastPrayedAt": "2026-05-02",
+        "timesPrayed": 3,
+        "nextFollowUpAt": "2026-05-05"
+      },
+      {
+        "id": "p3",
+        "text": "Mom's health — continued strength",
+        "category": "people",
+        "answered": false,
+        "dateAdded": "2026-04-15",
+        "lastPrayedAt": "2026-04-28",
+        "timesPrayed": 6,
+        "nextFollowUpAt": "2026-05-01"
+      },
+      {
+        "id": "p4",
+        "text": "Gratitude for the conversation with Jake",
+        "category": "praise",
+        "answered": false,
+        "dateAdded": "2026-04-27",
+        "lastPrayedAt": "2026-04-30",
+        "timesPrayed": 2,
+        "nextFollowUpAt": "2026-05-04"
+      },
+      {
+        "id": "p5",
+        "text": "Peace in Ukraine",
+        "category": "world",
+        "answered": false,
+        "dateAdded": "2026-04-01",
+        "lastPrayedAt": "2026-04-26",
+        "timesPrayed": 8,
+        "nextFollowUpAt": "2026-04-30"
+      },
+      {
+        "id": "p6",
+        "text": "The financial pressure last month",
+        "category": "needs",
+        "answered": true,
+        "dateAdded": "2026-03-10",
+        "dateAnswered": "2026-04-12",
+        "answerSummary": "The immediate pressure eased after the unexpected contract renewal came through.",
+        "answerPassage": "Philippians 4:19",
+        "lastPrayedAt": "2026-04-11",
+        "timesPrayed": 7
+      }
+    ],
+    "formationRhythms": [
+      {
+        "id": "daily-scripture-abiding",
+        "title": "Daily Scripture Abiding",
+        "cadence": "daily",
+        "focus": "Receive Scripture slowly before you try to master it.",
+        "prompt": "Read the day’s passage slowly, notice one line that stays with you, and answer with one prayer sentence.",
+        "relatedPassage": "John 15:4",
+        "completions": []
+      },
+      {
+        "id": "daily-acts-prayer",
+        "title": "ACTS Prayer",
+        "cadence": "daily",
+        "focus": "Give prayer a fuller shape than urgency alone.",
+        "prompt": "Move through adoration, confession, thanksgiving, and supplication before you move on.",
+        "relatedPassage": "Philippians 4:6",
+        "completions": []
+      },
+      {
+        "id": "weekly-answered-prayer-review",
+        "title": "Answered Prayer Review",
+        "cadence": "weekly",
+        "focus": "Remember God’s faithfulness on purpose.",
+        "prompt": "Review one answered prayer, write what happened, and thank God for the way He met you.",
+        "relatedPassage": "Psalm 103:2",
+        "completions": []
+      },
+      {
+        "id": "weekly-rule-of-life-checkin",
+        "title": "Weekly Rule of Life Check-In",
+        "cadence": "weekly",
+        "focus": "Notice whether your actual week matched your desired formation posture.",
+        "prompt": "Look back over your week and name where attention drifted, where grace met you, and what needs to change.",
+        "relatedPassage": "Lamentations 3:40",
+        "completions": []
+      }
+    ],
+    "scriptureBookmarks": [],
+    "ownedBooks": [
+      {
+        "id": "masterlife-book-1",
+        "title": "MasterLife 1: The Disciple’s Cross",
+        "author": "Avery T. Willis Jr.",
+        "sourcePath": "/Users/chris/Downloads/Masterlife All Sessions Complete.pdf",
+        "textPath": "/Users/chris/Desktop/CODE/chronicle/data/ocr/masterlife-sample.txt",
+        "classification": "daily-study",
+        "workflow": "preserve-daily",
+        "status": "ready",
+        "summary": "Imported as an existing daily discipleship study and preserved in its original cadence.",
+        "importedAt": "2026-04-28",
+        "generatedPlan": {
+          "title": "MasterLife Daily Journey",
+          "totalDays": 120,
+          "cadence": "Daily · five source days per week",
+          "summary": "Four-book discipleship track covering abiding, character, victory, and mission.",
+          "phases": [
+            {
+              "label": "Book 1 · The Disciple's Cross",
+              "emphasis": "Six foundational disciplines."
+            },
+            {
+              "label": "Book 2 · The Disciple's Personality",
+              "emphasis": "Spirit-formed character and renewed thinking."
+            },
+            {
+              "label": "Book 3 · The Disciple's Victory",
+              "emphasis": "Spiritual warfare, truth, and steadfastness."
+            },
+            {
+              "label": "Book 4 · The Disciple's Mission",
+              "emphasis": "Witness, reconciliation, gifts, and mission."
+            }
+          ],
+          "days": []
+        },
+        "studyState": {
+          "currentDay": 1,
+          "bookmarks": [],
+          "entriesByDay": {}
+        },
+        "schemaVersion": 2,
+        "recordId": "masterlife-book-1",
+        "assets": {
+          "source": {
+            "id": "masterlife-book-1:source:masterlife-all-sessions-complete-pdf",
+            "kind": "external-pdf",
+            "fileName": "Masterlife All Sessions Complete.pdf",
+            "originalPath": "/Users/chris/Downloads/Masterlife All Sessions Complete.pdf"
+          },
+          "managed": [
+            {
+              "id": "masterlife-book-1:managed:ocr-text",
+              "kind": "ocr-text",
+              "relativePath": "/Users/chris/Desktop/CODE/chronicle/data/ocr/masterlife-sample.txt"
+            }
+          ]
+        }
+      }
+    ],
+    "syncProfile": {
+      "deviceId": "device-mowc9xqa-sxq9wj",
+      "deviceLabel": "Chronicle Desktop",
+      "platform": "desktop",
+      "modelVersion": 1,
+      "cachePolicy": {
+        "bibleLibrary": "eager",
+        "themeAnalysis": "eager",
+        "importedBooks": "selected-books"
+      }
+    },
+    "voiceConfig": {
+      "enabled": false,
+      "autoSpeakResponses": false,
+      "saveVoiceTranscriptsToChronicle": true,
+      "transcriptionProvider": "whisper-cli",
+      "synthesisProvider": "piper-cli",
+      "realtimeProvider": "none",
+      "automationProvider": "none",
+      "whisperCli": {
+        "command": "whisper",
+        "model": "base",
+        "language": "auto",
+        "translateToEnglish": false,
+        "initialPrompt": "Chronicle reflection, prayer, Bible study, discipleship, formation"
+      },
+      "localAi": {
+        "baseUrl": "http://127.0.0.1:8080",
+        "whisperModel": "whisper-1",
+        "apiKey": ""
+      },
+      "piper": {
+        "command": "piper",
+        "modelPath": "",
+        "speaker": 0
+      },
+      "homeAssistant": {
+        "baseUrl": "http://homeassistant.local:8123",
+        "conversationAgentId": "home_assistant",
+        "ttsEntityId": "tts.piper",
+        "mediaPlayerEntityId": "",
+        "preferredLanguage": "en"
+      },
+      "liveKit": {
+        "url": "",
+        "roomName": "chronicle-voice",
+        "participantName": "chronicle-user",
+        "agentName": "Chronicle Voice",
+        "tokenTtlMinutes": 10
+      }
+    }
+  },
+  "libraryCatalog": [],
+  "libraryManifest": {
+    "schemaVersion": 1,
+    "generatedAt": "2026-05-08T03:12:05.617Z",
+    "catalogPath": "data/library/catalog.json",
+    "uploadsDir": "data/library/uploads",
+    "ocrBooksDir": "data/ocr/books",
+    "workbookAuditPath": "data/library/qa/discipleship-workbook-audit.json",
+    "bibleLibraryManifestPath": "public/bibles/library/manifest.json",
+    "libraryRecordSchemaVersion": 1,
+    "ownedBookSchemaVersion": 2,
+    "recordCount": 0,
+    "structuredCount": 0
+  },
+  "bibleLibrary": {
+    "manifest": {
+      "schemaVersion": 2,
+      "kind": "chronicle-bible-library",
+      "installedAt": "2026-05-01T02:10:51.558Z",
+      "translations": [
+        {
+          "providerId": "offline_amp",
+          "id": "amp",
+          "label": "AMP Local Library",
+          "basePath": "/bibles/library/amp",
+          "sourceLabel": "AMP Local Library (BibleTranslations generator)"
+        },
+        {
+          "providerId": "offline_asv",
+          "id": "eng_asv",
+          "label": "ASV Local Library",
+          "basePath": "/bibles/helloao/eng_asv",
+          "sourceLabel": "ASV Local Library (HelloAOLab)"
+        },
+        {
+          "providerId": "offline_csb",
+          "id": "csb",
+          "label": "CSB Local Library",
+          "basePath": "/bibles/library/csb",
+          "sourceLabel": "CSB Local Library (BibleTranslations generator)"
+        },
+        {
+          "providerId": "offline_niv",
+          "id": "niv",
+          "label": "NIV Local Library",
+          "basePath": "/bibles/library/niv",
+          "sourceLabel": "NIV Local Library (BibleTranslations generator)"
+        },
+        {
+          "providerId": "offline_nkjv",
+          "id": "nkjv",
+          "label": "NKJV Local Library",
+          "basePath": "/bibles/library/nkjv",
+          "sourceLabel": "NKJV Local Library (BibleTranslations generator)"
+        }
+      ]
+    },
+    "themeCacheStatus": {
+      "totalCacheFiles": 8325,
+      "byTranslation": {
+        "akjv": 1189,
+        "amp": 1189,
+        "csb": 1189,
+        "esv": 1189,
+        "nasb": 1189,
+        "niv": 1189,
+        "nkjv": 1191
+      },
+      "latestVersion": "2026-05-01-graph-v2"
+    }
+  },
+  "syncModel": {
+    "version": 1,
+    "mode": "portable-private-sync",
+    "transport": "snapshot-exchange",
+    "mergePolicy": "field-aware-local-first"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezra",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:38.427Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And it pleased them that the matter should be referr...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "But when the prophets Haggai and Zechariah son of Iddo..."
+        ],
+        "6": [
+          "King"
+        ],
+        "7": [
+          "King"
+        ],
+        "8": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "King"
+        ],
+        "13": [
+          "King"
+        ],
+        "14": [
+          "King"
+        ],
+        "17": [
+          "king",
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The 16-year gap between foundation-laying (536 BC) and resumed construction (520 BC) resulted...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And the prophets Haggai and Zechariah prophesied, et...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The Trans-Euphrates satrapy ( Abar Nahara ) was one of the Persian Empire's most important pr...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מַלְכָּֽא׃: the king - a king",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The Jewish elders' response begins with bold theological confession: \"We are the servants of...\". Word-study detail reinforces \"וְאַרְעָ֗א: and earth - the earth; by implication (figuratively) low\".",
+      "supportingVerses": [
+        11,
+        12
+      ],
+      "versePhrases": {
+        "11": [
+          "heavens",
+          "earth"
+        ],
+        "12": [
+          "heavens"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The Jewish elders' response begins with bold theological confession: \"We are the servants of...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וְאַרְעָ֗א: and earth - the earth; by implication (figuratively) low",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And the prophets Haggai and Zechariah prophesied, et...\".",
+      "supportingVerses": [
+        1,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "But when the prophets Haggai and Zechariah son of Iddo..."
+        ],
+        "17": [
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How do Haggai's practical exhortations and Zechariah's apocalyptic visions complement each ot...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And the prophets Haggai and Zechariah prophesied, et...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

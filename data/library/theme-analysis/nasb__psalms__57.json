@@ -1,0 +1,326 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 57,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:57.178Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"My heart is fixed, O God, my heart is fixed: I will sing and give praise. This declaration ma...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "glory"
+        ],
+        "7": [
+          "sing"
+        ],
+        "8": [
+          "glory"
+        ],
+        "9": [
+          "praise",
+          "sing"
+        ],
+        "10": [
+          "For Your goodness is great to the heavens And Your..."
+        ],
+        "11": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Habakkuk 2:14",
+          "anchorVerse": 5,
+          "referenceLabel": "Habakkuk 2:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The refrain 'Be thou exalted, O God, above the heavens' shifts focus from David's plight to G...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Homilies on the Gospels 2:15: Amos too speaks of the glory of the humanity [Christ] h...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "כְּבוֹדֶֽךָ׃: let thy glory - properly, weight, but only figuratively in a good sense, splend...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Homilies on the Gospels 2:15: Amos too speaks of the glory of the humanity [Christ] h...\". Word-study detail reinforces \"הָאָ֣רֶץ: be above all the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        5,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "heavens",
+          "earth"
+        ],
+        "10": [
+          "heavens"
+        ],
+        "11": [
+          "heavens",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The refrain 'Be thou exalted, O God, above the heavens' shifts focus from David's plight to G...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Homilies on the Gospels 2:15: Amos too speaks of the glory of the humanity [Christ] h...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הָאָ֣רֶץ: be above all the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The pairing of mercy ( chesed ) and truth ( emet ) is foundational to Old Testament theology....",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on SERMON 77A.1: So let us call out to him what we have just been singing:...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "Be gracious to me, God, be gracious to me, For..."
+        ],
+        "2": [
+          "I will cry to God Most High, To God who..."
+        ],
+        "3": [
+          "He will send from heaven and save me"
+        ],
+        "7": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 91:4",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 91:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Be merciful unto me, O God, be merciful unto me: for my soul trusteth in thee: yea, in the sh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMON 77A.1: So let us call out to him what we have just been singing:...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The title 'God Most High' (El Elyon) has significant theological import. When Melchizedek ble...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 57: Therefore there has risen psaltery and harp in...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        3,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "gracious"
+        ],
+        "3": [
+          "He will send from heaven and save me"
+        ],
+        "10": [
+          "For Your goodness is great to the heavens And Your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 56:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 56:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Be merciful unto me, O God, be merciful unto me: for my soul trusteth in thee: yea, in the sh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMON 77A.1: So let us call out to him what we have just been singing:...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חָנֵּ֗נִי: Be merciful - properly, to bend or stoop in kindness to an inferior; to favor, bes...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 57: \"He has sent from heaven and has saved me\" [Psa...\". Word-study detail reinforces \"וְֽיוֹשִׁיעֵ֗נִי: and save - properly, to be open, wide or free, i.e., (by implication) to be...\".",
+      "supportingVerses": [
+        1,
+        3,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "Be gracious to me, God, be gracious to me, For..."
+        ],
+        "3": [
+          "save"
+        ],
+        "7": [
+          "My heart is steadfast, God, my heart is steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The superscription connects this psalm to David's flight from Saul, when he hid in caves—eith...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 57: \"Have pity on me, O God, have pity on me, for i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 57: \"He has sent from heaven and has saved me\" [Psa...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וְֽיוֹשִׁיעֵ֗נִי: and save - properly, to be open, wide or free, i.e., (by implication) to be...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"For thy mercy is great unto the heavens, and thy truth unto the clouds. This verse provides t...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        3,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Be gracious to me, God, be gracious to me, For..."
+        ],
+        "3": [
+          "truth"
+        ],
+        "10": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The superscription connects this psalm to David's flight from Saul, when he hid in caves—eith...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMON 217:5: You will not be able to move to the good place from the b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Psalms 40:11",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 40:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does God's mercy and truth together reveal about His character?",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

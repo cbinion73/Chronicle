@@ -1,0 +1,313 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 3,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:30.395Z",
+  "themes": [
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Then I said to myself concerning men: God has chosen t...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        18,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "18": [
+          "I said in my heart, “Concerning the condition of the..."
+        ],
+        "19": [
+          "breath"
+        ],
+        "21": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "That God might manifest them (לִבְרָם, libram )—literally 'to test them' or 'to clarify them....",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Then I said to myself concerning men: God has chosen t...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "For that which befalleth (מִקְרֶה, miqreh )—'happening' or 'fate,' used repeatedly to emphasi...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Then I said to myself concerning men: God has chosen t...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"I saw under the sun the place of judgment, that wickedness was there —the courtroom itself is...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "15": [
+          "That which is has already been, And what is to..."
+        ],
+        "16": [
+          "righteousness"
+        ],
+        "17": [
+          "righteous"
+        ],
+        "19": [
+          "For what happens to the sons of men also happens..."
+        ],
+        "20": [
+          "All go to one place"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "How does knowing that God 'requireth that which is past' change your perspective on unresolve...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Evagrius Ponticus on SCHOLIA ON ECCLESIASTES 19:3.15: If those are “blessed who are persecute...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Ecclesiastes 5:8",
+          "anchorVerse": 16,
+          "referenceLabel": "Ecclesiastes 5:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "I saw under the sun the place of judgment, that wickedness was there —the courtroom itself is...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"All go to the same place; all originate from dust and...\". Word-study detail reinforces \"לָאָֽרֶץ׃: to the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        10,
+        11,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "10": [
+          "I have seen the God-given task with which the sons..."
+        ],
+        "11": [
+          "made"
+        ],
+        "20": [
+          "All go to one place"
+        ],
+        "21": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The Hebrew term 'sons of men' (בְּנֵי הָאָדָם, b'nei ha'adam) emphasizes humanity's creaturel...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"What gain, then, has the worker in exchange for all hi...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This pivotal verse asserts God's aesthetic providence—'He hath made every thing beautiful in...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"What gain, then, has the worker in exchange for all hi...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles, 2 Peter 3:13: “The shape of this world passes aw...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        16,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "5": [
+          "A time to cast away stones, And a time to..."
+        ],
+        "16": [
+          "righteousness"
+        ],
+        "17": [
+          "righteous"
+        ],
+        "20": [
+          "All go to one place"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "In ancient agrarian Palestine, gathering and casting away stones were constant activities. Fa...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory of Nyssa on HOMILIES ON ECCLESIASTES 7: Persons who look only at the letter and the s...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Ecclesiastes 5:8",
+          "anchorVerse": 16,
+          "referenceLabel": "Ecclesiastes 5:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "I saw under the sun the place of judgment, that wickedness was there —the courtroom itself is...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Dionysius of Alexandria on A Commentary on the Beginning of Ecclesiastes - Chapter III: \"A ti...\". Word-study detail reinforces \"לַחֲשׁ֖וֹת: to keep silence - to hush or keep quiet\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "keep"
+        ],
+        "7": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This verse presents antitheses of acquisition and release: 'a time to get, and a time to lose...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"A time to acquire and a time to lose. A time to keep a...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "לִשְׁמ֖וֹר: to keep - properly, to hedge about (as with thorns), i.e., guard; generally, to p...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This verse presents two sets of opposites related to communication and response. 'A time to r...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"A time for loving and a time for hating.\" The time for...\". Word-study detail reinforces \"שָׁלֽוֹם׃: of peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) wel...\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "A time to tear, And a time to sew"
+        ],
+        "8": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This verse presents two sets of opposites related to communication and response. 'A time to r...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Desert Fathers on The Desert Fathers, Sayings of the Early Christian Monks: A brother asked a...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לַחֲשׁ֖וֹת: to keep silence - to hush or keep quiet",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The poem's final verse presents the most morally complex antitheses: 'a time to love, and a t...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 21,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:53.420Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Then said Jeremiah unto them, Thus shall ye say to Zedekiah —this brief verse serves as a tra...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "King"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "But Jeremiah said to them, “You shall say to Zedekiah..."
+        ],
+        "4": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "“You shall also say to this people, ‘This is what..."
+        ],
+        "9": [
+          "Anyone who stays in this city will die by the..."
+        ],
+        "10": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 37:3",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 37:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "When king Zedekiah sent unto him Pashur the son of Melchiah, and Zephaniah the son of Maaseia...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter 21, verses 1 and following) The word that came to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֣לֶךְ: when king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 11, 12.) And to the house of the king of Judah, hear...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        2,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "2": [
+          "“Please inquire of the Lord in our behalf, because Nebuchadnezzar..."
+        ],
+        "5": [
+          "wrath"
+        ],
+        "6": [
+          "I will also strike the inhabitants of this city, both..."
+        ],
+        "11": [
+          "“Then say to the household of the king of Judah,..."
+        ],
+        "12": [
+          "wrath",
+          "justice"
+        ],
+        "13": [
+          "“Behold, I am against you, you inhabitant of the valley,..."
+        ],
+        "14": [
+          "punish"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Zedekiah's hope was not unfounded historically. When Sennacherib besieged Jerusalem in 701 BC...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter 21, verses 1 and following) The word that came to...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Exodus 6:6",
+          "anchorVerse": 5,
+          "referenceLabel": "Exodus 6:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "God declares He will personally fight against Jerusalem with 'an outstretched hand and with a...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The messenger formula 'Thus shall ye say' was standard in ancient Near Eastern diplomatic and...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        3,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "with us"
+        ],
+        "3": [
+          "But Jeremiah said to them, “You shall say to Zedekiah..."
+        ],
+        "13": [
+          "‘Who will come down against us? Or who will enter our dwellings?’"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Enquire, I pray thee, of the LORD for us —Zedekiah's request uses darash (דָּרַשׁ, to seek, i...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter 21, verses 1 and following) The word that came to...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אוֹתָ֙נוּ֙: - properly, nearness (used only as a preposition or an adverb), near; hence, gene...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The messenger formula 'Thus shall ye say' was standard in ancient Near Eastern diplomatic and...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 11, 12.) And to the house of the king of Judah, hear...\". Word-study detail reinforces \"וְהַצִּ֥ילוּ: and deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        12,
+        13
+      ],
+      "versePhrases": {
+        "12": [
+          "save"
+        ],
+        "13": [
+          "“Behold, I am against you, you inhabitant of the valley,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 11, 12.) And to the house of the king of Judah, hear...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וְהַצִּ֥ילוּ: and deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Jerusalem's geography did provide significant defensive advantages. Built on Mount Zion with...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 13, 14.) Behold, I am against you, O inhabitants of...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The 'morning by morning' repetition emphasizes the daily, consistent requirement for justice...\".",
+      "supportingVerses": [
+        11,
+        12
+      ],
+      "versePhrases": {
+        "11": [
+          "“Then say to the household of the king of Judah,..."
+        ],
+        "12": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This oracle comes from the same period as verses 1-10 (circa 588 BC during Jerusalem's siege)...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 11, 12.) And to the house of the king of Judah, hear...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The 'morning by morning' repetition emphasizes the daily, consistent requirement for justice...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 11, 12.) And to the house of the king of Judah, hear...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And afterward, saith the LORD, I will deliver Zedekiah king of Judah, and his servants, and t...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Jeremiah 13:14",
+          "anchorVerse": 7,
+          "referenceLabel": "Jeremiah 13:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And afterward, saith the LORD, I will deliver Zedekiah king of Judah, and his servants, and t...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 7) And after these things, the Lord said: I will giv...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "יְרַחֵֽם׃: nor have mercy - to fondle; by implication, to love, especially to compassionate",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 25,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:31.421Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The 'covenant of peace' echoes other eternal covenants God made (with Noah, Abraham, David)....\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        12,
+        13
+      ],
+      "versePhrases": {
+        "12": [
+          "covenant"
+        ],
+        "13": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Isaiah 54:10",
+          "anchorVerse": 12,
+          "referenceLabel": "Isaiah 54:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The 'covenant of peace' echoes other eternal covenants God made (with Noah, Abraham, David)....",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "בְּרִיתִ֖י: unto him my covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "What faithfulness in crisis might secure blessing not just for you but for your descendants?",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"God announced He was giving Phinehas 'my covenant of peace'—seemingly paradoxical since Phine...\". Word-study detail reinforces \"שָׁלֽוֹם׃: of peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) wel...\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "God announced He was giving Phinehas 'my covenant of peace'—seemingly paradoxical since Phine...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "שָׁלֽוֹם׃: of peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) wel...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The covenant gave Phinehas and his descendants 'an everlasting priesthood; because he was zea...\". Word-study detail reinforces \"וַיְכַפֵּ֖ר: and made an atonement - to cover (specifically with bitumen)\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The covenant gave Phinehas and his descendants 'an everlasting priesthood; because he was zea...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וַיְכַפֵּ֖ר: and made an atonement - to cover (specifically with bitumen)",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Joshua",
+  "chapter": 16,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:07.932Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"So the children of Joseph, Manasseh and Ephraim, took their inheritance —this summary stateme...\". Word-study detail reinforces \"נַֽחֲלַ֣ת: the inheritance - properly, something inherited, i.e., (abstractly) occupancy, or...\".",
+      "supportingVerses": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "4": [
+          "inheritance"
+        ],
+        "5": [
+          "inheritance"
+        ],
+        "8": [
+          "inheritance"
+        ],
+        "9": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "So the children of Joseph, Manasseh and Ephraim, took their inheritance —this summary stateme...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וַיִּנְחֲל֥וּ: took their inheritance - to inherit (as a (figurative) mode of descent), or (g...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And the border of the children of Ephraim according to their families was thus: even the bord...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "נַֽחֲלָתָם֙: of their inheritance - properly, something inherited, i.e., (abstractly) occupan...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The allotment to Joseph's sons occurred after the initial conquests described in Joshua 1-12,...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The allotment to Joseph's sons occurred after the initial conquests described in Joshua 1-12,...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Procopius of Gaza on COMMENTARY ON JOSHUA 16.10: “And the Canaanites have lived in the midst...\". Word-study detail reinforces \"וַיֵּ֨שֶׁב: dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by im...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Procopius of Gaza on COMMENTARY ON JOSHUA 16.10: “And the Canaanites have lived in the midst...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וַיֵּ֨שֶׁב: dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by im...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

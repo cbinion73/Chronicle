@@ -1,0 +1,178 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 117,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:28.522Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"O praise the LORD, all ye nations: praise him, all ye people. Psalm 117 is Scripture's shorte...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "praise"
+        ],
+        "2": [
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Worship",
+          "detail": "Revelation 15:4",
+          "anchorVerse": 1,
+          "referenceLabel": "Revelation 15:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O praise the LORD, all ye nations: praise him, all ye people. Psalm 117 is Scripture's shorte...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPOSITIONS OF THE PSALMS 116:1: Next comes, “And praise him highly, all you p...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "שַׁ֝בְּח֗וּהוּ: praise - properly, to address in a loud tone, i.e., (specifically) loud",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Psalm 117's two themes— chesed (merciful kindness) and emet (truth)—appear together throughou...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "O praise the Lord, all ye nations"
+        ],
+        "2": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O praise the LORD, all ye nations: praise him, all ye people. Psalm 117 is Scripture's shorte...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPOSITIONS OF THE PSALMS 116:2: He added, “And the truth of the Lord remains...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "John 14:6",
+          "anchorVerse": 2,
+          "referenceLabel": "John 14:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 117's two themes— chesed (merciful kindness) and emet (truth)—appear together throughou...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Psalm 117's two themes— chesed (merciful kindness) and emet (truth)—appear together throughou...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "merciful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 85:10",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 85:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 117's two themes— chesed (merciful kindness) and emet (truth)—appear together throughou...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 117: For his merciful kindness is great toward us:...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חַסְדּ֗וֹ: For his merciful - kindness; by implication (towards god) piety; rarely (by opposi...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Inferred",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For his merciful kindness is great toward us: and the truth of the LORD endureth for ever. Pr...\". Word-study detail reinforces \"חַסְדּ֗וֹ: For his merciful - kindness; by implication (towards god) piety; rarely (by opposi...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For his merciful kindness is great toward us: and the truth of the LORD endureth for ever. Pr...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 117: For his merciful kindness is great toward us:...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חַסְדּ֗וֹ: For his merciful - kindness; by implication (towards god) piety; rarely (by opposi...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

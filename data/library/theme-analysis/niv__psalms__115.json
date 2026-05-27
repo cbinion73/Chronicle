@@ -1,0 +1,376 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 115,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:47.522Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"But we will bless the LORD from this time forth and for evermore. Praise the LORD. The psalm...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        8,
+        13,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "glory"
+        ],
+        "4": [
+          "But their idols are silver and gold, made by human..."
+        ],
+        "5": [
+          "They have mouths, but cannot speak, eyes, but cannot see"
+        ],
+        "6": [
+          "They have ears, but cannot hear, noses, but cannot smell"
+        ],
+        "8": [
+          "Those who make them will be like them, and so..."
+        ],
+        "13": [
+          "he will bless those who fear the Lord— small and great alike"
+        ],
+        "17": [
+          "praise"
+        ],
+        "18": [
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Isaiah 48:11",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 48:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, and for thy tr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 115: \"Not unto us, O Lord, not unto us, but unto Yo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "כָּב֑וֹד: glory - properly, weight, but only figuratively in a good sense, splendor or copiou...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"The heaven, even the heavens, are the LORD'S: but the earth hath he given to the children of...\". Word-study detail reinforces \"וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "Our God is in heaven"
+        ],
+        "4": [
+          "made"
+        ],
+        "5": [
+          "They have mouths, but cannot speak, eyes, but cannot see"
+        ],
+        "15": [
+          "Maker",
+          "earth"
+        ],
+        "16": [
+          "heavens",
+          "earth"
+        ],
+        "17": [
+          "It is not the dead who praise the Lord, those..."
+        ],
+        "18": [
+          "it is we who extol the Lord, both now and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "But our God is in the heavens: he hath done whatsoever he hath pleased. This verse responds t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 115: \"As for our God, He is in heaven above\" [Psalm...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בַשָּׁמָ֑יִם: is in the heavens - the sky (as aloft; the dual perhaps alluding to the visible...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Their idols are silver and gold, the work of men's hands. The psalm pivots from defending Isr...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Trust (Hebrew batach ) represents central biblical concept appearing over 100 times in Old Te...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "8": [
+          "trust"
+        ],
+        "9": [
+          "trust"
+        ],
+        "10": [
+          "trust"
+        ],
+        "11": [
+          "trust"
+        ],
+        "14": [
+          "May the Lord cause you to flourish, both you and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 135:18",
+          "anchorVerse": 8,
+          "referenceLabel": "Psalms 135:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Israel's history demonstrated this principle repeatedly. When Israel worshiped golden calves,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 115: The result that ensues is that described in th...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בֹּטֵ֣חַ: them are like unto them so is every one that trusteth - properly, to hie for refuge...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"He will bless them that fear him, both small and great. This verse promises divine blessing t...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        12,
+        13,
+        15,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "12": [
+          "bless"
+        ],
+        "13": [
+          "bless"
+        ],
+        "15": [
+          "May you be blessed by the Lord"
+        ],
+        "17": [
+          "It is not the dead who praise the Lord, those..."
+        ],
+        "18": [
+          "it is we who extol the Lord, both now and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Ephesians 1:3",
+          "anchorVerse": 12,
+          "referenceLabel": "Ephesians 1:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The LORD hath been mindful of us: he will bless us; he will bless the house of Israel; he wil...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 115: For we do not by our deservings prevent the me...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "יְ֝בָרֵ֗ךְ: he will bless - to kneel; by implication to bless god (as an act of adoration), a...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, and for thy tr...\". Word-study detail reinforces \"אֲמִתֶּֽךָ׃: and for thy truth's - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        13,
+        14,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "faithfulness"
+        ],
+        "2": [
+          "Why do the nations say, “Where is their God"
+        ],
+        "4": [
+          "But their idols are silver and gold, made by human..."
+        ],
+        "13": [
+          "he will bless those who fear the Lord— small and..."
+        ],
+        "14": [
+          "May the Lord cause you to flourish, both you and..."
+        ],
+        "17": [
+          "It is not the dead who praise the Lord, those..."
+        ],
+        "18": [
+          "it is we who extol the Lord, both now and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, and for thy tr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֲמִתֶּֽךָ׃: and for thy truth's - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Psalm 115 belongs to the Egyptian Hallel, recited at major festivals (Passover, Pentecost, Ta...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 115: \"For Your loving mercy, and for Your truth's s...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"He will bless them that fear him, both small and great. This verse promises divine blessing t...\". Word-study detail reinforces \"יִרְאֵ֣י: Ye that fear - fearing; morally, reverent\".",
+      "supportingVerses": [
+        9,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "9": [
+          "All you Israelites, trust in the Lord— he is their..."
+        ],
+        "11": [
+          "fear"
+        ],
+        "13": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Trust (Hebrew batach ) represents central biblical concept appearing over 100 times in Old Te...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 115: \"But the house of Israel has hoped in the Lord...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Ye that fear the LORD, trust in the LORD (יִרְאֵי יְהוָה בִּטְחוּ בַּיהוָה)—The psalmist move...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 115: \"But the house of Israel has hoped in the Lord...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

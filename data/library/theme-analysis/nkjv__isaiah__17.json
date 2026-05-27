@@ -1,0 +1,310 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 17,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:35.483Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 7, 8) On that day, a man will turn towards his Maker,...\". Word-study detail reinforces \"מַ֥יִם: waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        4,
+        7,
+        8,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "4": [
+          "“In that day it shall come to pass That the..."
+        ],
+        "7": [
+          "Maker"
+        ],
+        "8": [
+          "made"
+        ],
+        "12": [
+          "waters"
+        ],
+        "13": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "'In that day shall the glory of Jacob be made thin, and the fatness of his flesh shall wax le...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: And it shall come to pass in that day. Here he threat...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יִדַּ֖ל: shall be made thin - to slacken or be feeble; figuratively, to be oppressed",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "'At that day shall a man look to his Maker, and his eyes shall have respect to the Holy One o...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter 17, Verse 1) The burden of Damascus: Behold, Damascu...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "The burden against Damascus"
+        ],
+        "3": [
+          "kingdom"
+        ],
+        "4": [
+          "“In that day it shall come to pass That the..."
+        ],
+        "6": [
+          "Like the shaking of an olive tree"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Damascus, Syria's capital, boasted millennia of history as a major trade center. The prophecy...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 17, Verse 1) The burden of Damascus: Behold, Damascu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Isaiah 7:16",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 7:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The Syro-Ephraimite War (735-732 BCE) saw Damascus and Israel's northern kingdom alliance aga...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 4) And in that day, the glory of Jacob shall fade, and...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        4,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "glory"
+        ],
+        "4": [
+          "glory"
+        ],
+        "7": [
+          "In that day a man will look to his Maker,..."
+        ],
+        "8": [
+          "He will not look to the altars, The work of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Hosea 9:11",
+          "anchorVerse": 3,
+          "referenceLabel": "Hosea 9:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The Syro-Ephraimite War (735-732 BCE) saw Damascus and Israel's northern kingdom alliance aga...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: And aid shall cease. Here the effect of the destructi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "כִּכְב֤וֹד: they shall be as the glory - properly, weight, but only figuratively in a good se...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"'Because thou hast forgotten the God of thy salvation, and hast not been mindful of the rock...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        10,
+        13
+      ],
+      "versePhrases": {
+        "10": [
+          "salvation"
+        ],
+        "13": [
+          "The nations will rush like the rushing of many waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 106:21",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 106:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "'Because thou hast forgotten the God of thy salvation, and hast not been mindful of the rock...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "יִשְׁעֵ֔ךְ: of thy salvation - liberty, deliverance, prosperity",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The prophecy's fulfillment came during Sennacherib's 701 BCE siege of Jerusalem. After conque...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Historically, some Israelites did turn to Yahweh during crises, though many continued in apos...\". Word-study detail reinforces \"קְד֥וֹשׁ: to the Holy - sacred (ceremonially or morally); (as noun) god (by eminence), an ang...\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "Holy"
+        ],
+        "8": [
+          "He will not look to the altars, The work of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Historically, some Israelites did turn to Yahweh during crises, though many continued in apos...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: In that day. Here he sets out the fruit of the punish...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "קְד֥וֹשׁ: to the Holy - sacred (ceremonially or morally); (as noun) god (by eminence), an ang...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Archaeological excavations throughout Israel reveal widespread syncretism in pre-exilic perio...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"'In the day shalt thou make thy plant to grow, and in the morning shalt thou make thy seed to...\". Word-study detail reinforces \"וּכְאֵ֥ב: sorrow - suffering (physical or mental), adversity\".",
+      "supportingVerses": [
+        11,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "sorrow"
+        ],
+        "14": [
+          "trouble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "'In the day shalt thou make thy plant to grow, and in the morning shalt thou make thy seed to...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 11.) Therefore, you will plant a faithful plantation a...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וּכְאֵ֥ב: sorrow - suffering (physical or mental), adversity",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "'And behold at eveningtide trouble; and before the morning he is not. This is the portion of...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

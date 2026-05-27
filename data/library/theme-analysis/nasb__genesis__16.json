@@ -1,0 +1,121 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 16,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:00.107Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Hebrew Questions on Genesis: (Verse 12) This will be a rustic man. His hand will be...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        6,
+        8,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "6": [
+          "presence"
+        ],
+        "8": [
+          "presence"
+        ],
+        "12": [
+          "But he will be a wild donkey of a man"
+        ],
+        "13": [
+          "Then she called the name of the Lord who spoke..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Cross references echo \"Judgment\". Word-study detail reinforces \"יִשְׁפֹּ֥ט: judge - to judge, i.e., pronounce sentence (for or against); by implication, to v...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Genesis 31:53",
+          "anchorVerse": 5,
+          "referenceLabel": "Genesis 31:53"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יִשְׁפֹּ֥ט: judge - to judge, i.e., pronounce sentence (for or against); by implication, to v...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Didymus the Blind on ON GENESIS 245: At that time, giving birth to children was regarded as a...\". Word-study detail reinforces \"עָנְיֵֽךְ׃: thy affliction - depression, i.e., misery\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "affliction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Didymus the Blind on ON GENESIS 245: At that time, giving birth to children was regarded as a...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "עָנְיֵֽךְ׃: thy affliction - depression, i.e., misery",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

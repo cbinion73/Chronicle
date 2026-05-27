@@ -1,0 +1,345 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 24,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:29.416Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"'By wise counsel thou shalt make thy war'—success in conflict (literal or metaphorical) requi...\". Word-study detail reinforces \"חָכְמ֑וֹת: Wisdom - wisdom\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        13,
+        14,
+        23,
+        30,
+        32
+      ],
+      "versePhrases": {
+        "3": [
+          "wisdom",
+          "understanding"
+        ],
+        "4": [
+          "knowledge"
+        ],
+        "5": [
+          "wise",
+          "knowledge"
+        ],
+        "6": [
+          "wise",
+          "counsel"
+        ],
+        "7": [
+          "Wisdom"
+        ],
+        "13": [
+          "My son, eat honey because it is good, And the..."
+        ],
+        "14": [
+          "wisdom",
+          "knowledge"
+        ],
+        "23": [
+          "wise"
+        ],
+        "30": [
+          "understanding"
+        ],
+        "32": [
+          "instruction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "A house is built 'through wisdom' and 'established' through understanding. The Hebrew 'banah'...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 24:3-4: [Solomon] calls Ch...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְּ֭חָכְמָה: Through wisdom - wisdom (in a good sense)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Through knowledge 'chambers are filled with all precious and pleasant riches.' The Hebrew 'ya...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Proverbs: For the just man falls seven times, etc. But how is he called...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        15,
+        16,
+        24,
+        26,
+        29
+      ],
+      "versePhrases": {
+        "15": [
+          "righteous"
+        ],
+        "16": [
+          "righteous"
+        ],
+        "24": [
+          "righteous"
+        ],
+        "26": [
+          "He who gives a right answer kisses the lips"
+        ],
+        "29": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "'Lay not wait, O wicked man, against the dwelling of the righteous'—this commands (addressed...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Bede on Commentary on Proverbs: Do not lie in wait, nor seek impiety in the house of the just...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "צַדִּ֑יק: of the righteous - just",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 34:19",
+          "anchorVerse": 16,
+          "referenceLabel": "Psalms 34:19"
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"'Lay not wait, O wicked man, against the dwelling of the righteous'—this commands (addressed...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        15,
+        16,
+        24
+      ],
+      "versePhrases": {
+        "15": [
+          "righteous"
+        ],
+        "16": [
+          "righteous"
+        ],
+        "24": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "'Lay not wait, O wicked man, against the dwelling of the righteous'—this commands (addressed...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "צַדִּ֑יק: of the righteous - just",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 34:19",
+          "anchorVerse": 16,
+          "referenceLabel": "Psalms 34:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "This proverb contrasts the resilience of the righteous with the fragility of the wicked: 'For...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"'So shall the knowledge of wisdom be unto thy soul'—like honey's sweetness (v. 13), wisdom de...\".",
+      "supportingVerses": [
+        10,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "10": [
+          "If you faint in the day of adversity, Your strength..."
+        ],
+        "14": [
+          "hope"
+        ],
+        "16": [
+          "For a righteous man may fall seven times And rise..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Israel faced repeated adversities—Egyptian slavery, wilderness wandering, Philistine oppressi...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Bede on Commentary on Proverbs: If you despair, being wearied in the day of distress, etc. No...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "'So shall the knowledge of wisdom be unto thy soul'—like honey's sweetness (v. 13), wisdom de...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Life in the ancient world was precarious—famine, war, disease, and economic reversals threate...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This command addresses authority and stability. 'My son, fear thou the LORD and the king' (יְ...\". Word-study detail reinforces \"יְרָֽא: fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        16,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "16": [
+          "For a righteous man may fall seven times And rise..."
+        ],
+        "21": [
+          "fear"
+        ],
+        "23": [
+          "These things also belong to the wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "This proverb contrasts the resilience of the righteous with the fragility of the wicked: 'For...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Caesarius of Arles on SERMON 234:4: With God’s help we both can and should be without serious...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "This command addresses authority and stability. 'My son, fear thou the LORD and the king' (יְ...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 24:21: “Fear God, my son,...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Proverbs: He will kiss the lips, etc. The kiss is a sign of peace and l...\". Word-study detail reinforces \"וּ֝תְשׁוּעָ֗ה: there is safety - rescue (literal or figurative, persons, national or spiritual)\".",
+      "supportingVerses": [
+        6,
+        26,
+        33
+      ],
+      "versePhrases": {
+        "6": [
+          "safety"
+        ],
+        "26": [
+          "He who gives a right answer kisses the lips"
+        ],
+        "33": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "'By wise counsel thou shalt make thy war'—success in conflict (literal or metaphorical) requi...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וּ֝תְשׁוּעָ֗ה: there is safety - rescue (literal or figurative, persons, national or spiritual)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "This verse uses affectionate imagery to describe honest speech. 'Every man shall kiss his lip...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Bede on Commentary on Proverbs: He will kiss the lips, etc. The kiss is a sign of peace and l...",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

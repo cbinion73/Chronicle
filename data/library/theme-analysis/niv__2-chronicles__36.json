@@ -1,0 +1,233 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 36,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:48.951Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"And them that had escaped from the sword carried he away to Babylon; where they were servants...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        17,
+        18,
+        20,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "Nebuchadnezzar also took to Babylon articles from the temple of..."
+        ],
+        "8": [
+          "king",
+          "reign"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "King",
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "13": [
+          "King"
+        ],
+        "17": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "20": [
+          "kingdom"
+        ],
+        "22": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 22:11",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 22:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיַּמְלִיכֻ֥הוּ: and made him king - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Jehoahaz was twenty and three years old when he began to reign, and he reigned three months i...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Chronicles' final verse records Cyrus's proclamation: 'Thus saith Cyrus king of Persia, All t...\". Word-study detail reinforces \"הָאָ֙רֶץ֙: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        4,
+        10,
+        13,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "4": [
+          "made"
+        ],
+        "10": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "23": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָ֔רֶץ: of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And the king of Egypt made Eliakim his brother king over Judah and Jerusalem, and turned his...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֶלְיָקִ֣ים: made Eliakim - eljakim, the name of four israelites",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The tragic climax of Israel's rebellion: 'But they mocked the messengers of God, and despised...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Ezra 5:12",
+          "anchorVerse": 16,
+          "referenceLabel": "Ezra 5:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The tragic climax of Israel's rebellion: 'But they mocked the messengers of God, and despised...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "חֲמַת: until the wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "oath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

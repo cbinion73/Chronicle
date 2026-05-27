@@ -1,0 +1,222 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 122,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:20.366Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 122: Thus as he was here speaking of charity, he ad...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "6": [
+          "peace"
+        ],
+        "7": [
+          "peace"
+        ],
+        "8": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Ephesians 4:3",
+          "anchorVerse": 6,
+          "referenceLabel": "Ephesians 4:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "An exhortation to prayer follows: 'Pray for the peace of Jerusalem: they shall prosper that l...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 122: He at once adds, as unto the seats themselves,...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "שְׁל֣וֹם: for the peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly)...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 122: He at once adds, as unto the seats themselves,...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        6,
+        8
+      ],
+      "versePhrases": {
+        "6": [
+          "love"
+        ],
+        "8": [
+          "For the sake of my brothers and my friends, I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 John 3:14",
+          "anchorVerse": 6,
+          "referenceLabel": "1 John 3:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "An exhortation to prayer follows: 'Pray for the peace of Jerusalem: they shall prosper that l...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 122: He at once adds, as unto the seats themselves,...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֹהֲבָֽיִךְ׃: that love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Personal motivation for prayer is revealed: 'For my brethren and companions' sakes, I will no...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        6,
+        8
+      ],
+      "versePhrases": {
+        "6": [
+          "Pray"
+        ],
+        "8": [
+          "For the sake of my brothers and my friends, I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Jeremiah 29:7",
+          "anchorVerse": 6,
+          "referenceLabel": "Jeremiah 29:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "An exhortation to prayer follows: 'Pray for the peace of Jerusalem: they shall prosper that l...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "שַׁ֭אֲלוּ: Pray - to inquire; by implication, to request; by extension, to demand",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Personal motivation for prayer is revealed: 'For my brethren and companions' sakes, I will no...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerusalem's judicial role is described: 'For there are set thrones of judgment, the thrones o...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "judgment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Deuteronomy 17:8",
+          "anchorVerse": 5,
+          "referenceLabel": "Deuteronomy 17:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Jerusalem's judicial role is described: 'For there are set thrones of judgment, the thrones o...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 122: \"For there were seated seats for judgment\" [Ps...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יָשְׁב֣וּ: For there are set - properly, to sit down (specifically as judge. in ambush, in qu...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The purpose of Jerusalem's gathering is stated: 'Whither the tribes go up, the tribes of the...\". Word-study detail reinforces \"לְ֝הֹד֗וֹת: to give thanks - physically, to throw (a stone, an arrow) at or away; especially...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "thanks"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The purpose of Jerusalem's gathering is stated: 'Whither the tribes go up, the tribes of the...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לְ֝הֹד֗וֹת: to give thanks - physically, to throw (a stone, an arrow) at or away; especially...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 5,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:04.999Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"CS Lewis on Mere Christianity, Book 3, Chapter 6: Christian Marriage: Before we consider this...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        12,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "Guard your steps when you go to the house of..."
+        ],
+        "2": [
+          "do not be hasty in your heart to utter anything before God"
+        ],
+        "5": [
+          "It is better not to make a vow than to..."
+        ],
+        "7": [
+          "Much dreaming and many words are meaningless"
+        ],
+        "8": [
+          "justice"
+        ],
+        "12": [
+          "The sleep of a laborer is sweet, whether they eat..."
+        ],
+        "16": [
+          "This too is a grievous evil"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Israel's temple worship included elaborate sacrificial systems, yet the prophets repeatedly c...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Be not rash with your mouth, and let not your heart be...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Evagrius Ponticus on SCHOLIA ON ECCLESIASTES 35:5.1-2: “We do not know how to pray as we ough...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "כֵּ֛ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Be not rash with your mouth, and let not your heart be...\". Word-study detail reinforces \"אֶ֖רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        4,
+        7,
+        9,
+        14
+      ],
+      "versePhrases": {
+        "2": [
+          "earth"
+        ],
+        "4": [
+          "When you make a vow to God, do not delay..."
+        ],
+        "7": [
+          "Much dreaming and many words are meaningless"
+        ],
+        "9": [
+          "The increase from the land is taken by all"
+        ],
+        "14": [
+          "or wealth lost through some misfortune, so that when they..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Continuing the theme of reverent worship, the Preacher warns: 'Be not rash with thy mouth, an...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Be not rash with your mouth, and let not your heart be...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הָאָ֔רֶץ: and thou upon earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "When thou vowest a vow unto God, defer not to pay it —the Hebrew neder (נֶדֶר, vow) refers to...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"If thou seest the oppression of the poor, and violent perverting of judgment and justice —the...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        5,
+        6,
+        8
+      ],
+      "versePhrases": {
+        "5": [
+          "It is better not to make a vow than to..."
+        ],
+        "6": [
+          "Do not let your mouth lead you into sin"
+        ],
+        "8": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Better is it that thou shouldest not vow, than that thou shouldest vow and not pay —this star...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "CS Lewis on Mere Christianity, Book 3, Chapter 6: Christian Marriage: Before we consider this...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Suffer not thy mouth to cause thy flesh to sin —the Hebrew basar (בָּשָׂר, flesh) means your...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "לַחֲטִ֣יא: to sin - properly, to miss; hence (figuratively and generally) to sin; by inferenc...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What anxieties associated with possessions might be robbing you of peace and rest?\".",
+      "supportingVerses": [
+        8,
+        12
+      ],
+      "versePhrases": {
+        "8": [
+          "still"
+        ],
+        "12": [
+          "The sleep of a laborer is sweet, whether they eat..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What anxieties associated with possessions might be robbing you of peace and rest?",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Ambrose of Milan on Interrogation of Job and David: Ecclesiastes sees that riches are kept fo...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"All his days also he eateth in darkness (גַּם כָּל־יָמָיו בַּחֹשֶׁךְ יֹאכֵל, gam kol-yamav ba...\". Word-study detail reinforces \"וְכָעַ֥ס: sorrow - to trouble; by implication, to grieve, rage, be indignant\".",
+      "supportingVerses": [
+        12,
+        17
+      ],
+      "versePhrases": {
+        "12": [
+          "The sleep of a laborer is sweet, whether they eat..."
+        ],
+        "17": [
+          "affliction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The sleep of a labouring man is sweet (מְתוּקָה שְׁנַת הָעֹבֵד, metukah shenat ha'oved )—lite...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on HOMILIES CONCERNING THE STATUES 2:23: The same thing happens as every one...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "מַנִּ֥יחַֽ: will not suffer - to deposit; by implication, to allow to stay",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "All his days also he eateth in darkness (גַּם כָּל־יָמָיו בַּחֹשֶׁךְ יֹאכֵל, gam kol-yamav ba...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How can you redirect efforts from accumulation that dies with you toward investments that fol...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        1,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "near"
+        ],
+        "16": [
+          "This too is a grievous evil"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Israel's temple worship included elaborate sacrificial systems, yet the prophets repeatedly c...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Be not rash with your mouth, and let not your heart be...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "How can you redirect efforts from accumulation that dies with you toward investments that fol...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

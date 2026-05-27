@@ -1,0 +1,287 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 3,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:28.169Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The psalm's climactic confession begins with comprehensive truth: 'Salvation belongeth unto t...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "salvation"
+        ],
+        "3": [
+          "But you, O Lord, are a shield about me, my..."
+        ],
+        "7": [
+          "Save"
+        ],
+        "8": [
+          "Salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David voices the painful taunts of his enemies who mock his faith in God's deliverance. The H...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 3: \"Many rise up against me; many say unto my soul,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "יְֽשׁוּעָ֓תָה: There is no help - something saved, i.e., (abstractly) deliverance; hence, aid...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Following the description of multiplying enemies, verse 3 introduces decisive contrast: 'But...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 3: \"With my voice have I cried unto the Lord\" [Psal...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        4,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "O Lord, how many are my foes"
+        ],
+        "4": [
+          "holy"
+        ],
+        "7": [
+          "Arise, O Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Absalom's rebellion began with calculated subversion—standing at city gates, intercepting tho...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: The preceding Psalm showed the assault o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 2:6",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 2:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This verse records answered prayer: 'I cried unto the LORD with my voice' emphasizes vocal, a...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"I will not fear,\" th...\". Word-study detail reinforces \"אִ֭ירָא: I will not be afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "I lay down and slept"
+        ],
+        "6": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "David's flight included nights in the wilderness, vulnerable to attack. Ancient assassination...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: There follows, \"I slept.\" Here he shows...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Faith triumphs over fear in this powerful declaration. Despite being surrounded by 'ten thous...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"I will not fear,\" th...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Origen of Alexandria on SELECTIONS FROM THE PSALMS 3:4: Certainly, people place their glory i...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "glory"
+        ],
+        "4": [
+          "I cried aloud to the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Isaiah 60:19",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 60:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "David fled Jerusalem with covered head—traditional sign of mourning and shame (2 Samuel 15:30...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Origen of Alexandria on SELECTIONS FROM THE PSALMS 3:4: Certainly, people place their glory i...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "כְּ֝בוֹדִ֗י: for me my glory - properly, weight, but only figuratively in a good sense, splen...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The psalm's climactic confession begins with comprehensive truth: 'Salvation belongeth unto t...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "blessing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Acts 3:26",
+          "anchorVerse": 8,
+          "referenceLabel": "Acts 3:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The psalm's climactic confession begins with comprehensive truth: 'Salvation belongeth unto t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Finally when he says, \"of the Lord,\" he...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בִרְכָתֶ֣ךָ: thy blessing - benediction; by implication prosperity",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Eusebius of Caesarea on COMMENTARY ON PSALMS 3:5: The preceding psalm calls to mind this moun...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 2:6",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 2:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does God's hearing from His 'holy hill' assure believers of constant divine access regard...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Eusebius of Caesarea on COMMENTARY ON PSALMS 3:5: The preceding psalm calls to mind this moun...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "קָדְשׁ֣וֹ: me out of his holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

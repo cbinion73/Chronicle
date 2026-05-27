@@ -1,0 +1,369 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Colossians",
+  "chapter": 3,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:56.520Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Then when Paul says, and above all these put on l...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        12,
+        13,
+        14,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "12": [
+          "beloved",
+          "kindness"
+        ],
+        "13": [
+          "bearing with one another, and forgiving one another, if anyone..."
+        ],
+        "14": [
+          "love"
+        ],
+        "19": [
+          "love"
+        ],
+        "21": [
+          "Fathers, do not provoke your children, lest they become discouraged"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Ephesians 4:2",
+          "anchorVerse": 12,
+          "referenceLabel": "Ephesians 4:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humblen...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Above, the Apostle urged the faithful to avoid ev...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "ἠγαπημένοι: beloved - to love (in a social or moral sense)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on Colossians 8: But why did he begin his list with fornication? Fo...\". Word-study detail reinforces \"κτίσαντος: that created - to fabricate, i.e., found (form originally)\".",
+      "supportingVerses": [
+        2,
+        5,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "earth"
+        ],
+        "5": [
+          "earth"
+        ],
+        "10": [
+          "created"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Set your affection on things above, not on things on the earth. Paul reinforces the command w...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Colossians 7: \"Set your mind on the things that are above, not o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "γῆς: the earth - soil; by extension a region, or the solid part or the whole of the terrene g...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Children, obey your parents in all things: for this is well pleasing unto the Lord. Paul addr...\". Word-study detail reinforces \"ὑπακούετε: obey - to hear under (as a subordinate), i.e., to listen attentively; by implicati...\".",
+      "supportingVerses": [
+        2,
+        3,
+        15,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "Set your mind on things above, not on things on..."
+        ],
+        "3": [
+          "For you died, and your life is hidden with Christ..."
+        ],
+        "15": [
+          "And let the peace of God rule in your hearts,..."
+        ],
+        "18": [
+          "Wives, submit to your own husbands, as is fitting in..."
+        ],
+        "19": [
+          "Husbands, love your wives and do not be bitter toward..."
+        ],
+        "20": [
+          "obey"
+        ],
+        "21": [
+          "Fathers, do not provoke your children, lest they become discouraged"
+        ],
+        "22": [
+          "obey"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Set your affection on things above, not on things on the earth. Paul reinforces the command w...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Colossians 7: \"Set your mind on the things that are above, not o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For ye are dead, and your life is hid with Christ in God. Paul provides theological foundatio...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Colossians 7: \"Set your mind on the things that are above, not o...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Colossians: At the second coming, Christ will appear to...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        16,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "If then you were raised with Christ, seek those things..."
+        ],
+        "2": [
+          "Set your mind on things above, not on things on..."
+        ],
+        "4": [
+          "glory"
+        ],
+        "5": [
+          "Therefore put to death your members which are on the..."
+        ],
+        "16": [
+          "singing with grace in your hearts to the Lord"
+        ],
+        "17": [
+          "thanks"
+        ],
+        "20": [
+          "for this is well pleasing to the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyprian on Treatise X On Jealousy and Envy: For ye are dead, and your life is hid with Christ...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ζητεῖτε: seek - to seek (literally or figuratively); specially, (by hebraism) to worship (god...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Roman culture pursued earthly glory, wealth, pleasure, and power. Jewish nationalism sought p...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Colossians 7: \"Set your mind on the things that are above, not o...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Above, the Apostle urged the faithful to avoid ev...\". Word-study detail reinforces \"ἅγιοι: holy - sacred (physically, pure, morally blameless or religious, ceremonially, consecr...\".",
+      "supportingVerses": [
+        5,
+        8,
+        9,
+        10,
+        12,
+        17
+      ],
+      "versePhrases": {
+        "5": [
+          "uncleanness"
+        ],
+        "8": [
+          "But now you yourselves are to put off all these"
+        ],
+        "9": [
+          "Do not lie to one another, since you have put..."
+        ],
+        "10": [
+          "and have put on the new man who is renewed..."
+        ],
+        "12": [
+          "holy"
+        ],
+        "17": [
+          "And whatever you do in word or deed, do all..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Greco-Roman culture normalized sexual immorality, temple prostitution, and materialistic gree...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Cyprian on Epistle LI: Neither let the new heretics flatter themselves in this, that they say...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What practical steps help you control tongue, the most difficult body part to sanctify (James...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Colossians: How is this? He just said: \"you once walked...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Above, the Apostle urged the faithful to avoid ev...\". Word-study detail reinforces \"ἅγιοι: holy - sacred (physically, pure, morally blameless or religious, ceremonially, consecr...\".",
+      "supportingVerses": [
+        8,
+        12,
+        13,
+        17,
+        25
+      ],
+      "versePhrases": {
+        "8": [
+          "But now you yourselves are to put off all these"
+        ],
+        "12": [
+          "holy"
+        ],
+        "13": [
+          "bearing with one another, and forgiving one another, if anyone..."
+        ],
+        "17": [
+          "And whatever you do in word or deed, do all..."
+        ],
+        "25": [
+          "But he who does wrong will be repaid for what..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on Homily on Colossians 8: But against others he advanceth his discourse. Und...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "νυνὶ: now - just now",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humblen...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Above, the Apostle urged the faithful to avoid ev...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

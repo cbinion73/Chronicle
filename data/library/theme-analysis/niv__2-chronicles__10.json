@@ -1,0 +1,161 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 10,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:47.555Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"And the king answered them roughly; and king Rehoboam forsook the counsel of the old men, Thi...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "King"
+        ],
+        "3": [
+          "So they sent for Jeroboam, and he and all Israel..."
+        ],
+        "6": [
+          "King"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "But as for the Israelites who were living in the..."
+        ],
+        "18": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And Rehoboam went to Shechem: for to Shechem were all Israel come to make him king. This vers...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהַמְלִ֥יךְ: to make him king - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 11:40",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 11:40"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And it came to pass, when Jeroboam the son of Nebat, who was in Egypt, whither he had fled fr...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of...\". Word-study detail reinforces \"עֻלְּכֶ֔ם: made your yoke - a yoke (as imposed on the neck), literally or figuratively\".",
+      "supportingVerses": [
+        4,
+        14
+      ],
+      "versePhrases": {
+        "4": [
+          "but now lighten the harsh labor and the heavy yoke he put on us"
+        ],
+        "14": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וּמֵֽעֻלּ֧וֹ: made our yoke - a yoke (as imposed on the neck), literally or figuratively",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And answered them after the advice of the young men, saying, My father made your yoke heavy,...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "עֻלְּכֶ֔ם: made your yoke - a yoke (as imposed on the neck), literally or figuratively",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"הַיֹּֽשְׁבִ֖ים: that dwelt - properly, to sit down (specifically as judge. in ambush, in quie...\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "הַיֹּֽשְׁבִ֖ים: that dwelt - properly, to sit down (specifically as judge. in ambush, in quie...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

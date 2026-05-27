@@ -1,0 +1,81 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Amos",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:39.911Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Amos: Chapter 1 - Verse 1. The words of Amos, who was among the sheph...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        10,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "This is what the Lord says"
+        ],
+        "4": [
+          "I will send fire on the house of Hazael that..."
+        ],
+        "5": [
+          "king",
+          "scepter"
+        ],
+        "8": [
+          "king",
+          "scepter"
+        ],
+        "10": [
+          "I will send fire on the walls of Tyre that..."
+        ],
+        "14": [
+          "I will set fire to the walls of Rabbah that..."
+        ],
+        "15": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Zechariah 14:5",
+          "anchorVerse": 1,
+          "referenceLabel": "Zechariah 14:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The opening verse establishes Amos's prophetic credentials through several key elements. The...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Amos: Chapter 1 - Verse 1. The words of Amos, who was among the sheph...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

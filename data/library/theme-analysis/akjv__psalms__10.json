@@ -1,0 +1,222 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 10,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:49.266Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"To judge the fatherless and the oppressed, that the man of the earth may no more oppress. The...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        5,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "thy judgments are far above out of his sight"
+        ],
+        "12": [
+          "Arise, O Lord"
+        ],
+        "13": [
+          "Wherefore doth the wicked contemn God"
+        ],
+        "14": [
+          "Thou hast seen it"
+        ],
+        "15": [
+          "Break thou the arm of the wicked and the evil..."
+        ],
+        "17": [
+          "Lord, thou hast heard the desire of the humble"
+        ],
+        "18": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How do you reconcile the apparent success of the wicked with God's justice?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 10: \"God is not in his sight, his ways are polluted...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What role does passionate, urgent prayer play in God's sovereign plan to execute justice?",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Eusebius of Caesarea on COMMENTARY ON PSALMS 10:33-35: Through these words he asks that whene...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Why standest thou afar off, O LORD? why hidest thou thyself in times of trouble? Psalm 10 con...\". Word-study detail reinforces \"בַּצָּרָֽה׃: of trouble - transitively, a female rival\".",
+      "supportingVerses": [
+        1,
+        12,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "trouble"
+        ],
+        "12": [
+          "Arise, O Lord"
+        ],
+        "14": [
+          "Thou hast seen it"
+        ],
+        "17": [
+          "Lord, thou hast heard the desire of the humble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Why standest thou afar off, O LORD? why hidest thou thyself in times of trouble? Psalm 10 con...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 10:22: In his regard for the afflicted, he says to t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בַּצָּרָֽה׃: of trouble - transitively, a female rival",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Arise, O LORD; O God, lift up thine hand: forget not the humble. After describing the wicked'...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"To judge the fatherless and the oppressed, that the man of the earth may no more oppress. The...\". Word-study detail reinforces \"הָאָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        12,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "12": [
+          "Arise, O Lord"
+        ],
+        "16": [
+          "The Lord is King for ever and ever"
+        ],
+        "18": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The call for God to \"arise\" reflects ancient Near Eastern warfare imagery. When armies prepar...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 10: Of which the Psalmist now speaks: \"Arise, O Lor...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Break.\" Here he announces his being hea...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "מֵֽאַרְצֽוֹ׃: out of his land - the earth (at large, or partitively a land)",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This triumphant declaration affirms God's eternal kingship—'Yahweh is King forever and ever.'...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        16,
+        17
+      ],
+      "versePhrases": {
+        "16": [
+          "King"
+        ],
+        "17": [
+          "Lord, thou hast heard the desire of the humble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 29:10",
+          "anchorVerse": 16,
+          "referenceLabel": "Psalms 29:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "This triumphant declaration affirms God's eternal kingship—'Yahweh is King forever and ever.'...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 10:37: After the universal calamity has been abolish...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "מֶ֭לֶךְ: is King - a king",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

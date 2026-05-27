@@ -1,0 +1,427 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 31,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:56.658Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, the prophet recounted tribulation...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "trust"
+        ],
+        "5": [
+          "Into thine hand I commit my spirit"
+        ],
+        "6": [
+          "trust"
+        ],
+        "7": [
+          "I will be glad and rejoice in thy mercy"
+        ],
+        "14": [
+          "trusted"
+        ],
+        "15": [
+          "My times are in thy hand"
+        ],
+        "16": [
+          "Make thy face to shine upon thy servant"
+        ],
+        "17": [
+          "Let me not be ashamed, O Lord"
+        ],
+        "19": [
+          "trust"
+        ],
+        "20": [
+          "Thou shalt hide them in the secret of thy presence..."
+        ],
+        "23": [
+          "for the Lord preserveth the faithful"
+        ],
+        "24": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 25:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 25:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The declaration 'In thee, O LORD, do I put my trust; let me never be ashamed: deliver me in t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the prophet recounted tribulation...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חָ֭סִיתִי: do I put my trust - to flee for protection; figuratively, to confide in",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Make thy face to shine upon thy servant: save me for thy mercies' sake. Petition for God's fa...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        14,
+        15,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "deliver"
+        ],
+        "2": [
+          "save",
+          "deliver"
+        ],
+        "4": [
+          "Pull me out of the net that they have laid..."
+        ],
+        "5": [
+          "thou hast redeemed me"
+        ],
+        "6": [
+          "I have hated them that regard lying vanities"
+        ],
+        "7": [
+          "I will be glad and rejoice in thy mercy"
+        ],
+        "8": [
+          "and hast not shut me up into the hand of..."
+        ],
+        "14": [
+          "But I trusted in thee, O Lord"
+        ],
+        "15": [
+          "deliver"
+        ],
+        "16": [
+          "save"
+        ],
+        "17": [
+          "Let me not be ashamed, O Lord"
+        ],
+        "21": [
+          "Blessed be the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The declaration 'In thee, O LORD, do I put my trust; let me never be ashamed: deliver me in t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 31: \"In You, O Lord, have I trusted, let Me not be...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "פַלְּטֵֽנִי׃: deliver - to slip out, i.e., escape; causatively, to deliver",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The plea 'Bow down thine ear to me; deliver me speedily: be thou my strong rock, for an house...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on ON THE SPIRIT AND THE LETTER 51: From the law comes our fear of God, fr...\". Word-study detail reinforces \"מָג֪וֹר: fear - a fright (objective or subjective)\".",
+      "supportingVerses": [
+        11,
+        13,
+        19,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "11": [
+          "fear"
+        ],
+        "13": [
+          "fear"
+        ],
+        "19": [
+          "fear"
+        ],
+        "20": [
+          "Thou shalt hide them in the secret of thy presence..."
+        ],
+        "22": [
+          "For I said in my haste, I am cut off..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "I was a reproach among all mine enemies, but especially among my neighbours, and a fear to mi...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Above.\" The prophet, assigning his exte...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וּפַ֪חַד: and a fear - a (sudden) alarm (properly, the object feared, by implication, the fee...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "For I have heard the slander of many: fear was on every side: while they took counsel togethe...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The petition 'For thou art my rock and my fortress; therefore for thy name's sake lead me, an...\". Word-study detail reinforces \"תַּֽנְחֵ֥נִי: sake lead - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        3,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "lead",
+          "guide"
+        ],
+        "13": [
+          "counsel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The petition 'For thou art my rock and my fortress; therefore for thy name's sake lead me, an...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"For you are,\" he sho...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "תַּֽנְחֵ֥נִי: sake lead - to guide; by implication, to transport (into exile, or as colonists)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "For I have heard the slander of many: fear was on every side: while they took counsel togethe...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"O love the LORD, all ye his saints: for the LORD preserveth the faithful, and plentifully rew...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        5,
+        6,
+        12,
+        13,
+        17,
+        18,
+        19,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "5": [
+          "truth"
+        ],
+        "6": [
+          "I have hated them that regard lying vanities"
+        ],
+        "12": [
+          "I am forgotten as a dead man out of mind"
+        ],
+        "13": [
+          "For I have heard the slander of many"
+        ],
+        "17": [
+          "Let me not be ashamed, O Lord"
+        ],
+        "18": [
+          "Let the lying lips be put to silence"
+        ],
+        "19": [
+          "Oh how great is thy goodness, which thou hast laid..."
+        ],
+        "23": [
+          "faithful"
+        ],
+        "24": [
+          "Be of good courage, and he shall strengthen your heart,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Deuteronomy 32:4",
+          "anchorVerse": 5,
+          "referenceLabel": "Deuteronomy 32:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Into thine hand I commit my spirit: thou hast redeemed me, O LORD God of truth. This verse ex...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 31: \"Into Your hands I commend My Spirit\" [Psalm 31...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֱמֶֽת׃: of truth - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Have mercy upon me, O LORD, for I am in trouble: mine eye is consumed with grief, yea, my sou...\". Word-study detail reinforces \"בְיָג֡וֹן: with grief - affliction\".",
+      "supportingVerses": [
+        7,
+        9,
+        10,
+        11,
+        14,
+        19,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "7": [
+          "trouble"
+        ],
+        "9": [
+          "trouble"
+        ],
+        "10": [
+          "For my life is spent with grief, and my years..."
+        ],
+        "11": [
+          "I was a reproach among all mine enemies, but especially..."
+        ],
+        "14": [
+          "But I trusted in thee, O Lord"
+        ],
+        "19": [
+          "Oh how great is thy goodness, which thou hast laid..."
+        ],
+        "21": [
+          "Blessed be the Lord"
+        ],
+        "22": [
+          "For I said in my haste, I am cut off..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "I will be glad and rejoice in thy mercy: for thou hast considered my trouble; thou hast known...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "עָנְיִ֑י: my trouble - depression, i.e., misery",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Have mercy upon me, O LORD, for I am in trouble: mine eye is consumed with grief, yea, my sou...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"Have mercy on me, O...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

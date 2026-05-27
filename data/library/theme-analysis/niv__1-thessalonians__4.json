@@ -1,0 +1,369 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Thessalonians",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:33.492Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul remarks: But concerning love...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        9,
+        10,
+        11,
+        12,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "9": [
+          "love"
+        ],
+        "10": [
+          "love"
+        ],
+        "11": [
+          "and to make it your ambition to lead a quiet..."
+        ],
+        "12": [
+          "so that your daily life may win the respect of..."
+        ],
+        "16": [
+          "For the Lord himself will come down from heaven, with..."
+        ],
+        "17": [
+          "After that, we who are still alive and are left..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 John 3:11",
+          "anchorVerse": 9,
+          "referenceLabel": "1 John 3:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "But as touching brotherly love ye need not that I write unto you: for ye yourselves are taugh...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul remarks: But concerning love...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "ἀγαπᾶν: love - to love (in a social or moral sense)",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Wherefore comfort one another with these words — hōste parakaleite allēlous en tois logois to...\". Word-study detail reinforces \"ἡσυχάζειν: to be quiet - to keep still (intransitively), i.e., refrain from labor, meddlesome...\".",
+      "supportingVerses": [
+        11,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "11": [
+          "quiet"
+        ],
+        "13": [
+          "rest"
+        ],
+        "15": [
+          "still"
+        ],
+        "16": [
+          "For the Lord himself will come down from heaven, with..."
+        ],
+        "17": [
+          "still"
+        ],
+        "18": [
+          "Therefore encourage one another with these words"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And that ye study to be quiet, and to do your own business, and to work with your own hands,...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 6: \"But we exhort you, brethren, that ye abound...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "ἡσυχάζειν: to be quiet - to keep still (intransitively), i.e., refrain from labor, meddlesome...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "How can you comfort grieving believers with resurrection hope without minimizing present pain?",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"He therefore that despiseth, despiseth not man, but God, who hath also given unto us his holy...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "As for other matters, brothers and sisters, we instructed you..."
+        ],
+        "3": [
+          "sanctified"
+        ],
+        "4": [
+          "holy"
+        ],
+        "5": [
+          "not in passionate lust like the pagans, who do not..."
+        ],
+        "7": [
+          "holy"
+        ],
+        "8": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul transitions from defense of his ministry and thanksgiving for their faith to practical i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: Earlier, the Apostle Paul commended the fait...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Sexual purity was radically countercultural in Thessalonica. Temple prostitution at pagan shr...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Tertullian on On Exhortation to Chastity: The will of God is our sanctification, for He wishe...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"He therefore that despiseth, despiseth not man, but God, who hath also given unto us his holy...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        4,
+        7,
+        8,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "As for other matters, brothers and sisters, we instructed you..."
+        ],
+        "4": [
+          "holy"
+        ],
+        "7": [
+          "holy"
+        ],
+        "8": [
+          "Holy"
+        ],
+        "11": [
+          "just"
+        ],
+        "13": [
+          "Brothers and sisters, we do not want you to be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul transitions from defense of his ministry and thanksgiving for their faith to practical i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: Earlier, the Apostle Paul commended the fait...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "καθὼς: that as - just (or inasmuch) as, that",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "That every one of you should know how to possess his vessel in sanctification and honour — ei...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on 1 Thessalonians 6: \"But we would not have you ignorant, brethren...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        1,
+        13,
+        14,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "As for other matters, brothers and sisters, we instructed you..."
+        ],
+        "13": [
+          "hope"
+        ],
+        "14": [
+          "believe"
+        ],
+        "17": [
+          "After that, we who are still alive and are left..."
+        ],
+        "18": [
+          "Therefore encourage one another with these words"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul transitions from defense of his ministry and thanksgiving for their faith to practical i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Thessalonians: After I have told you, he says, about...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Ephesians 2:12",
+          "anchorVerse": 13,
+          "referenceLabel": "Ephesians 2:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when he says, for the Lord himself will...\". Word-study detail reinforces \"ἡσυχάζειν: to be quiet - to keep still (intransitively), i.e., refrain from labor, meddlesome...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        11,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "As for other matters, brothers and sisters, we instructed you..."
+        ],
+        "2": [
+          "For you know what instructions we gave you by the..."
+        ],
+        "3": [
+          "It is God’s will that you should be sanctified"
+        ],
+        "11": [
+          "and to make it your ambition to lead a quiet..."
+        ],
+        "16": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Furthermore then we beseech you, brethren, and exhort you by the Lord Jesus, that as ye have...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Thessalonians: After I have told you, he says, about...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "περιπατεῖν: to walk - to tread all around, i.e., walk at large (especially as proof of abilit...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For ye know what commandments we gave you by the Lord Jesus — oidate gar tinas paraggelias ed...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

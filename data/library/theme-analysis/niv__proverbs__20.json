@@ -1,0 +1,375 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 20,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:03.354Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Success in any enterprise requires counsel—seeking wise advice before acting. 'Established by...\". Word-study detail reinforces \"דָֽעַת׃: of knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        5,
+        11,
+        12,
+        15,
+        18,
+        24,
+        26,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "wise"
+        ],
+        "5": [
+          "The purposes of a person’s heart are deep waters, but..."
+        ],
+        "11": [
+          "Even small children are known by their actions, so is..."
+        ],
+        "12": [
+          "Ears that hear and eyes that see— the Lord has..."
+        ],
+        "15": [
+          "knowledge"
+        ],
+        "18": [
+          "Plans are established by seeking advice"
+        ],
+        "24": [
+          "understand"
+        ],
+        "26": [
+          "wise"
+        ],
+        "29": [
+          "The glory of young men is their strength, gray hair..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This proverb warns against alcohol abuse: 'Wine is a mocker, strong drink is raging: and whos...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יֶחְכָּֽם׃: thereby is not wise - to be wise (in mind, word or act)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Counsel in the heart is like 'deep water,' but 'a man of understanding' draws it out. The Heb...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "עֵצָ֣ה: Counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        25,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "righteous",
+          "blameless"
+        ],
+        "8": [
+          "When a king sits on his throne to judge, he..."
+        ],
+        "9": [
+          "“I have kept my heart pure"
+        ],
+        "10": [
+          "Differing weights and differing measures— the Lord detests them both"
+        ],
+        "11": [
+          "upright"
+        ],
+        "25": [
+          "It is a trap to dedicate something rashly and only..."
+        ],
+        "30": [
+          "Blows and wounds scrub away evil, and beatings purge the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 13:22",
+          "anchorVerse": 7,
+          "referenceLabel": "Proverbs 13:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The just walk in integrity, leaving a heritage of blessing for their children. Righteousness...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Commentary on Proverbs: The just man who walks in his simplicity, etc. This cannot al...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "צַדִּ֑יק: The just - just",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 20:6: A human being is of...\". Word-study detail reinforces \"עָשָׂ֥ה: hath made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        5,
+        6,
+        12,
+        25,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "5": [
+          "waters"
+        ],
+        "6": [
+          "Many claim to have unfailing love, but a faithful person..."
+        ],
+        "12": [
+          "made"
+        ],
+        "25": [
+          "It is a trap to dedicate something rashly and only..."
+        ],
+        "27": [
+          "light"
+        ],
+        "28": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Counsel in the heart is like 'deep water,' but 'a man of understanding' draws it out. The Heb...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "In ancient commercial and social relationships, personal reputation was essential. Many made...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 20:6: A human being is of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "God's creative sovereignty extends to human faculties. The 'hearing ear and seeing eye' repre...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        9,
+        11,
+        25,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "righteous"
+        ],
+        "9": [
+          "pure",
+          "clean"
+        ],
+        "11": [
+          "pure"
+        ],
+        "25": [
+          "It is a trap to dedicate something rashly and only..."
+        ],
+        "30": [
+          "Blows and wounds scrub away evil, and beatings purge the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 13:22",
+          "anchorVerse": 7,
+          "referenceLabel": "Proverbs 13:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How have you benefited from previous generations' righteous example?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This rhetorical question expects the answer: no one. No person can claim complete heart purit...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"God's covenant love ('mercy and truth') preserves the king's person and authority. 'Mercy' (c...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        8,
+        26,
+        28
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "8": [
+          "king",
+          "throne"
+        ],
+        "26": [
+          "king"
+        ],
+        "28": [
+          "king",
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 19:12",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 19:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A king's wrath is like 'the roaring of a lion,' and provoking him 'sinneth against his own so...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on EXPOSITION ON PROVERBS, FRAGMENT 20:2: In this place it openly speaks...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֑לֶךְ: of a king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The contrast between loving sleep and loving diligence determines economic outcomes. 'Love no...\". Word-study detail reinforces \"תֶּֽאֱהַ֣ב: Love - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        6,
+        13,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "love"
+        ],
+        "13": [
+          "love"
+        ],
+        "28": [
+          "Love",
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "חַסְדּ֑וֹ: his own goodness - kindness; by implication (towards god) piety; rarely (by opposi...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The contrast between loving sleep and loving diligence determines economic outcomes. 'Love no...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Bede on Commentary on Proverbs: Do not love sleep, etc. Do not love the sleep of sin and slot...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "תֶּֽאֱהַ֣ב: Love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

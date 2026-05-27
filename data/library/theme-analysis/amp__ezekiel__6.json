@@ -1,0 +1,152 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 6,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:48:02.399Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The 'mountains of Israel' hosted numerous high places ( bamot ) where syncretistic worship fl...\". Word-study detail reinforces \"וְהִנָּבֵ֖א: and prophesy - to prophesy, i.e., speak (or sing) by inspiration (in prediction...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "“Son of man, set your face against the mountains of..."
+        ],
+        "3": [
+          "worship"
+        ],
+        "4": [
+          "worship"
+        ],
+        "6": [
+          "worship"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The 'mountains of Israel' hosted numerous high places ( bamot ) where syncretistic worship fl...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְהִנָּבֵ֖א: and prophesy - to prophesy, i.e., speak (or sing) by inspiration (in prediction...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And say, Ye mountains of Israel, hear the word of the Lord GOD; Thus saith the Lord GOD to th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "In what ways do we become like what we worship (Psalm 115:8)?",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Historical fulfillment confirmed this comprehensive judgment. Refugees who fled Jerusalem ear...\".",
+      "supportingVerses": [
+        10,
+        12
+      ],
+      "versePhrases": {
+        "10": [
+          "punishment"
+        ],
+        "12": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "For decades before exile, false prophets promised peace (Jeremiah 6:14; 8:11; 23:17; 28:2-4;...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Historical fulfillment confirmed this comprehensive judgment. Refugees who fled Jerusalem ear...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 12.) Whoever is far away will die from the plague; wh...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...\". Word-study detail reinforces \"וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 12.) Whoever is far away will die from the plague; wh...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children.",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezra",
+  "chapter": 5,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:36.255Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And it pleased them that the matter should be referr...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "Then the prophets, Haggai the prophet, and Zechariah the son..."
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The 16-year gap between foundation-laying (536 BC) and resumed construction (520 BC) resulted...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And the prophets Haggai and Zechariah prophesied, et...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The Trans-Euphrates satrapy ( Abar Nahara ) was one of the Persian Empire's most important pr...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מַלְכָּֽא׃: the king - a king",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The Jewish elders' response begins with bold theological confession: \"We are the servants of...\". Word-study detail reinforces \"וְאַרְעָ֗א: and earth - the earth; by implication (figuratively) low\".",
+      "supportingVerses": [
+        11,
+        13,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "11": [
+          "earth"
+        ],
+        "13": [
+          "made"
+        ],
+        "14": [
+          "made"
+        ],
+        "17": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The Jewish elders' response begins with bold theological confession: \"We are the servants of...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וְאַרְעָ֗א: and earth - the earth; by implication (figuratively) low",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "שָׂ֣ם: made - to put (used in a great variety of applications, literal, figurative, inferenti...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "שָׂמֵֽהּ׃: whom he had made - to put (used in a great variety of applications, literal, figur...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The elders' confession of national sin is theologically remarkable: \"Our fathers had provoked...\". Word-study detail reinforces \"טְעֵ֔ם: a decree - properly, flavor; figuratively, judgment (both subjective and objective);...\".",
+      "supportingVerses": [
+        12,
+        13,
+        17
+      ],
+      "versePhrases": {
+        "12": [
+          "wrath"
+        ],
+        "13": [
+          "But in the first year of Cyrus the king of..."
+        ],
+        "17": [
+          "Now therefore, if it seem good to the king, let..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The elders' confession of national sin is theologically remarkable: \"Our fathers had provoked...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The elders pivoted from judgment to restoration: \"But in the first year of Cyrus...\" The Aram...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "טְעֵ֔ם: a decree - properly, flavor; figuratively, judgment (both subjective and objective);...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "How does Tatnai's neutral request for investigation—rather than immediate judgment—demonstrat...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And it pleased them that the matter should be referr...\". Word-study detail reinforces \"שְׁלָמָ֥א: peace - prosperity\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The letter's salutation \"Unto Darius the king, all peace\" employs the Aramaic greeting shelam...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And it pleased them that the matter should be referr...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "שְׁלָמָ֥א: peace - prosperity",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How does the return of the temple vessels symbolize complete restoration after judgment, and...\". Word-study detail reinforces \"וִיהִ֙יבוּ֙: and they were delivered - to give (whether literal or figurative); generally, to...\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "How does the return of the temple vessels symbolize complete restoration after judgment, and...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וִיהִ֙יבוּ֙: and they were delivered - to give (whether literal or figurative); generally, to...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

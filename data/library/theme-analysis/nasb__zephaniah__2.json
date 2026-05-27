@@ -1,0 +1,298 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Zephaniah",
+  "chapter": 2,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:09.672Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...\". Word-study detail reinforces \"הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        4,
+        9,
+        11,
+        15
+      ],
+      "versePhrases": {
+        "3": [
+          "earth"
+        ],
+        "4": [
+          "For Gaza will be abandoned, And Ashkelon will become a..."
+        ],
+        "9": [
+          "Therefore, as I live,” declares the Lord of armies, The..."
+        ],
+        "11": [
+          "earth"
+        ],
+        "15": [
+          "This is the presumptuous city That dwells securely, Who says..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Who are the 'meek of the earth' today—those whom God might 'hide' when judgment comes?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Zephaniah: (Verse 12 and following) But even you, Ethiopians, will be...\". Word-study detail reinforces \"הַיּוֹשֶׁ֣בֶת: that dwelt - properly, to sit down (specifically as judge. in ambush, in quiet...\".",
+      "supportingVerses": [
+        5,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "5": [
+          "Woe to the inhabitants of the seacoast, The nation of..."
+        ],
+        "13": [
+          "And He will stretch out His hand against the north..."
+        ],
+        "15": [
+          "dwells"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Verse 5-7.) Woe to those who dwell by the sea, the nation...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יוֹשֵֽׁב׃: thee that there shall be no inhabitant - properly, to sit down (specifically as ju...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Nineveh's fall in 612 BC to the combined Babylonian-Median forces was sudden and catastrophic...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Verse 12 and following) But even you, Ethiopians, will be...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3,
+        9,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "righteousness"
+        ],
+        "9": [
+          "Therefore, as I live,” declares the Lord of armies, The..."
+        ],
+        "13": [
+          "And He will stretch out His hand against the north..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Hosea 10:12",
+          "anchorVerse": 3,
+          "referenceLabel": "Hosea 10:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What distinguishes seeking 'righteousness and meekness' from the self-righteousness of religi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "צֶ֙דֶק֙: righteousness - the right (natural, moral or legal); also (abstractly) equity or (fi...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...\".",
+      "supportingVerses": [
+        3,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "ordinances"
+        ],
+        "9": [
+          "Therefore, as I live,” declares the Lord of armies, The..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Seek ye the LORD, all ye meek of the earth (בַּקְּשׁוּ אֶת־יְהוָה כָּל־עַנְוֵי הָאָרֶץ baqshu...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Therefore as I live, saith the LORD of hosts (chai-ani ne'um YHWH tseva'ot)—God swears by His...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Ver. 8 onwards) I have heard the reproach of Moab and the...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Zephaniah: (Ver. 8 onwards) I have heard the reproach of Moab and the...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        11,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "The Lord will be terrifying to them"
+        ],
+        "14": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Worship",
+          "detail": "Psalms 138:4",
+          "anchorVerse": 11,
+          "referenceLabel": "Psalms 138:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The LORD will be terrible unto them (nora YHWH aleihem)—'Terrible' (nora) means fearsome, awe...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Ver. 8 onwards) I have heard the reproach of Moab and the...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וְיִשְׁתַּֽחֲווּ: and men shall worship - to depress, i.e., prostrate (especially reflexive,...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What distinguishes seeking 'righteousness and meekness' from the self-righteousness of religi...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Hosea 10:12",
+          "anchorVerse": 3,
+          "referenceLabel": "Hosea 10:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What distinguishes seeking 'righteousness and meekness' from the self-righteousness of religi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Zephaniah: (Verse 3, 4) Seek the Lord, all you meek of the earth, who...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "צֶ֙דֶק֙: righteousness - the right (natural, moral or legal); also (abstractly) equity or (fi...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 93,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:06.932Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 93: \"The floods lift up their voices\" [Psalm 93:3]....\". Word-study detail reinforces \"מַ֤יִם: waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        1,
+        3,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord reigns, He is clothed with majesty"
+        ],
+        "3": [
+          "The floods have lifted up, O Lord, The floods have..."
+        ],
+        "4": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 93: \"The Lord reigns, He is clothed with beauty; th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תֵּ֝בֵ֗ל: himself the world - the earth (as moist and therefore inhabited); by extension, the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The repetition of 'floods have lifted up' creates urgency and intensity, depicting chaotic wa...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 93: \"The floods lift up their voices\" [Psalm 93:3]....",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 93: \"Your throne is established from thence, O Lord...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord reigns"
+        ],
+        "2": [
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 96:10",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 96:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does acknowledging God's reign over all creation affect your perspective on current event...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלָךְ֮: reigneth - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God's throne being established 'from of old' (me'az) and God being 'from everlasting' (me'ola...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"God's testimonies being 'very sure' (ne'emanu—faithful, reliable, established) connects His w...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "Holiness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 29:2",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 29:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "God's testimonies being 'very sure' (ne'emanu—faithful, reliable, established) connects His w...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 93: \"Your testimonies, O Lord, are very surely beli...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "קֹ֑דֶשׁ: holiness - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

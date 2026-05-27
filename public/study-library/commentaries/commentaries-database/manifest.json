@@ -1,0 +1,502 @@
+{
+  "id": "historical-christian-faith-commentaries",
+  "label": "Historical Christian Faith Commentaries",
+  "sourceRepo": "https://github.com/HistoricalChristianFaith/Commentaries-Database",
+  "generatedAt": "2026-05-01T04:57:20.052510+00:00",
+  "authorCount": 337,
+  "bookCount": 72,
+  "referenceCount": 24095,
+  "entryCount": 82527,
+  "books": [
+    {
+      "bookId": "1CH",
+      "referenceCount": 29,
+      "entryCount": 39,
+      "path": "/study-library/commentaries/commentaries-database/1CH.json"
+    },
+    {
+      "bookId": "1CO",
+      "referenceCount": 547,
+      "entryCount": 3215,
+      "path": "/study-library/commentaries/commentaries-database/1CO.json"
+    },
+    {
+      "bookId": "1JN",
+      "referenceCount": 150,
+      "entryCount": 915,
+      "path": "/study-library/commentaries/commentaries-database/1JN.json"
+    },
+    {
+      "bookId": "1KI",
+      "referenceCount": 215,
+      "entryCount": 286,
+      "path": "/study-library/commentaries/commentaries-database/1KI.json"
+    },
+    {
+      "bookId": "1MA",
+      "referenceCount": 2,
+      "entryCount": 2,
+      "path": "/study-library/commentaries/commentaries-database/1MA.json"
+    },
+    {
+      "bookId": "1PE",
+      "referenceCount": 155,
+      "entryCount": 712,
+      "path": "/study-library/commentaries/commentaries-database/1PE.json"
+    },
+    {
+      "bookId": "1SA",
+      "referenceCount": 718,
+      "entryCount": 1344,
+      "path": "/study-library/commentaries/commentaries-database/1SA.json"
+    },
+    {
+      "bookId": "1TH",
+      "referenceCount": 122,
+      "entryCount": 468,
+      "path": "/study-library/commentaries/commentaries-database/1TH.json"
+    },
+    {
+      "bookId": "1TI",
+      "referenceCount": 157,
+      "entryCount": 1053,
+      "path": "/study-library/commentaries/commentaries-database/1TI.json"
+    },
+    {
+      "bookId": "2CH",
+      "referenceCount": 31,
+      "entryCount": 40,
+      "path": "/study-library/commentaries/commentaries-database/2CH.json"
+    },
+    {
+      "bookId": "2CO",
+      "referenceCount": 290,
+      "entryCount": 1676,
+      "path": "/study-library/commentaries/commentaries-database/2CO.json"
+    },
+    {
+      "bookId": "2JN",
+      "referenceCount": 18,
+      "entryCount": 52,
+      "path": "/study-library/commentaries/commentaries-database/2JN.json"
+    },
+    {
+      "bookId": "2KI",
+      "referenceCount": 139,
+      "entryCount": 171,
+      "path": "/study-library/commentaries/commentaries-database/2KI.json"
+    },
+    {
+      "bookId": "2MA",
+      "referenceCount": 4,
+      "entryCount": 21,
+      "path": "/study-library/commentaries/commentaries-database/2MA.json"
+    },
+    {
+      "bookId": "2PE",
+      "referenceCount": 83,
+      "entryCount": 316,
+      "path": "/study-library/commentaries/commentaries-database/2PE.json"
+    },
+    {
+      "bookId": "2SA",
+      "referenceCount": 94,
+      "entryCount": 139,
+      "path": "/study-library/commentaries/commentaries-database/2SA.json"
+    },
+    {
+      "bookId": "2TH",
+      "referenceCount": 63,
+      "entryCount": 328,
+      "path": "/study-library/commentaries/commentaries-database/2TH.json"
+    },
+    {
+      "bookId": "2TI",
+      "referenceCount": 111,
+      "entryCount": 615,
+      "path": "/study-library/commentaries/commentaries-database/2TI.json"
+    },
+    {
+      "bookId": "3JN",
+      "referenceCount": 16,
+      "entryCount": 44,
+      "path": "/study-library/commentaries/commentaries-database/3JN.json"
+    },
+    {
+      "bookId": "ACT",
+      "referenceCount": 1183,
+      "entryCount": 3687,
+      "path": "/study-library/commentaries/commentaries-database/ACT.json"
+    },
+    {
+      "bookId": "AMO",
+      "referenceCount": 108,
+      "entryCount": 162,
+      "path": "/study-library/commentaries/commentaries-database/AMO.json"
+    },
+    {
+      "bookId": "BAR",
+      "referenceCount": 46,
+      "entryCount": 67,
+      "path": "/study-library/commentaries/commentaries-database/BAR.json"
+    },
+    {
+      "bookId": "COL",
+      "referenceCount": 111,
+      "entryCount": 616,
+      "path": "/study-library/commentaries/commentaries-database/COL.json"
+    },
+    {
+      "bookId": "DAN",
+      "referenceCount": 370,
+      "entryCount": 795,
+      "path": "/study-library/commentaries/commentaries-database/DAN.json"
+    },
+    {
+      "bookId": "DEU",
+      "referenceCount": 139,
+      "entryCount": 247,
+      "path": "/study-library/commentaries/commentaries-database/DEU.json"
+    },
+    {
+      "bookId": "ECC",
+      "referenceCount": 202,
+      "entryCount": 572,
+      "path": "/study-library/commentaries/commentaries-database/ECC.json"
+    },
+    {
+      "bookId": "EPH",
+      "referenceCount": 197,
+      "entryCount": 1302,
+      "path": "/study-library/commentaries/commentaries-database/EPH.json"
+    },
+    {
+      "bookId": "EST",
+      "referenceCount": 77,
+      "entryCount": 107,
+      "path": "/study-library/commentaries/commentaries-database/EST.json"
+    },
+    {
+      "bookId": "EXO",
+      "referenceCount": 277,
+      "entryCount": 610,
+      "path": "/study-library/commentaries/commentaries-database/EXO.json"
+    },
+    {
+      "bookId": "EZK",
+      "referenceCount": 638,
+      "entryCount": 1276,
+      "path": "/study-library/commentaries/commentaries-database/EZK.json"
+    },
+    {
+      "bookId": "EZR",
+      "referenceCount": 105,
+      "entryCount": 125,
+      "path": "/study-library/commentaries/commentaries-database/EZR.json"
+    },
+    {
+      "bookId": "GAL",
+      "referenceCount": 195,
+      "entryCount": 1382,
+      "path": "/study-library/commentaries/commentaries-database/GAL.json"
+    },
+    {
+      "bookId": "GEN",
+      "referenceCount": 879,
+      "entryCount": 2365,
+      "path": "/study-library/commentaries/commentaries-database/GEN.json"
+    },
+    {
+      "bookId": "HAB",
+      "referenceCount": 50,
+      "entryCount": 131,
+      "path": "/study-library/commentaries/commentaries-database/HAB.json"
+    },
+    {
+      "bookId": "HAG",
+      "referenceCount": 28,
+      "entryCount": 43,
+      "path": "/study-library/commentaries/commentaries-database/HAG.json"
+    },
+    {
+      "bookId": "HEB",
+      "referenceCount": 447,
+      "entryCount": 2140,
+      "path": "/study-library/commentaries/commentaries-database/HEB.json"
+    },
+    {
+      "bookId": "HOS",
+      "referenceCount": 174,
+      "entryCount": 294,
+      "path": "/study-library/commentaries/commentaries-database/HOS.json"
+    },
+    {
+      "bookId": "ISA",
+      "referenceCount": 1638,
+      "entryCount": 4113,
+      "path": "/study-library/commentaries/commentaries-database/ISA.json"
+    },
+    {
+      "bookId": "JAS",
+      "referenceCount": 140,
+      "entryCount": 555,
+      "path": "/study-library/commentaries/commentaries-database/JAS.json"
+    },
+    {
+      "bookId": "JDG",
+      "referenceCount": 148,
+      "entryCount": 210,
+      "path": "/study-library/commentaries/commentaries-database/JDG.json"
+    },
+    {
+      "bookId": "JER",
+      "referenceCount": 697,
+      "entryCount": 1256,
+      "path": "/study-library/commentaries/commentaries-database/JER.json"
+    },
+    {
+      "bookId": "JHN",
+      "referenceCount": 1313,
+      "entryCount": 8642,
+      "path": "/study-library/commentaries/commentaries-database/JHN.json"
+    },
+    {
+      "bookId": "JOB",
+      "referenceCount": 1276,
+      "entryCount": 2537,
+      "path": "/study-library/commentaries/commentaries-database/JOB.json"
+    },
+    {
+      "bookId": "JOL",
+      "referenceCount": 58,
+      "entryCount": 98,
+      "path": "/study-library/commentaries/commentaries-database/JOL.json"
+    },
+    {
+      "bookId": "JON",
+      "referenceCount": 60,
+      "entryCount": 154,
+      "path": "/study-library/commentaries/commentaries-database/JON.json"
+    },
+    {
+      "bookId": "JOS",
+      "referenceCount": 141,
+      "entryCount": 243,
+      "path": "/study-library/commentaries/commentaries-database/JOS.json"
+    },
+    {
+      "bookId": "JUD",
+      "referenceCount": 35,
+      "entryCount": 140,
+      "path": "/study-library/commentaries/commentaries-database/JUD.json"
+    },
+    {
+      "bookId": "LAM",
+      "referenceCount": 161,
+      "entryCount": 231,
+      "path": "/study-library/commentaries/commentaries-database/LAM.json"
+    },
+    {
+      "bookId": "LEV",
+      "referenceCount": 76,
+      "entryCount": 127,
+      "path": "/study-library/commentaries/commentaries-database/LEV.json"
+    },
+    {
+      "bookId": "LUK",
+      "referenceCount": 1774,
+      "entryCount": 7752,
+      "path": "/study-library/commentaries/commentaries-database/LUK.json"
+    },
+    {
+      "bookId": "MAL",
+      "referenceCount": 44,
+      "entryCount": 114,
+      "path": "/study-library/commentaries/commentaries-database/MAL.json"
+    },
+    {
+      "bookId": "MAT",
+      "referenceCount": 1765,
+      "entryCount": 8580,
+      "path": "/study-library/commentaries/commentaries-database/MAT.json"
+    },
+    {
+      "bookId": "MIC",
+      "referenceCount": 68,
+      "entryCount": 109,
+      "path": "/study-library/commentaries/commentaries-database/MIC.json"
+    },
+    {
+      "bookId": "MRK",
+      "referenceCount": 904,
+      "entryCount": 3362,
+      "path": "/study-library/commentaries/commentaries-database/MRK.json"
+    },
+    {
+      "bookId": "NAM",
+      "referenceCount": 33,
+      "entryCount": 45,
+      "path": "/study-library/commentaries/commentaries-database/NAM.json"
+    },
+    {
+      "bookId": "NEH",
+      "referenceCount": 89,
+      "entryCount": 100,
+      "path": "/study-library/commentaries/commentaries-database/NEH.json"
+    },
+    {
+      "bookId": "NUM",
+      "referenceCount": 132,
+      "entryCount": 187,
+      "path": "/study-library/commentaries/commentaries-database/NUM.json"
+    },
+    {
+      "bookId": "OBA",
+      "referenceCount": 22,
+      "entryCount": 43,
+      "path": "/study-library/commentaries/commentaries-database/OBA.json"
+    },
+    {
+      "bookId": "PHM",
+      "referenceCount": 30,
+      "entryCount": 179,
+      "path": "/study-library/commentaries/commentaries-database/PHM.json"
+    },
+    {
+      "bookId": "PHP",
+      "referenceCount": 121,
+      "entryCount": 749,
+      "path": "/study-library/commentaries/commentaries-database/PHP.json"
+    },
+    {
+      "bookId": "PRO",
+      "referenceCount": 697,
+      "entryCount": 1408,
+      "path": "/study-library/commentaries/commentaries-database/PRO.json"
+    },
+    {
+      "bookId": "PSA",
+      "referenceCount": 2602,
+      "entryCount": 5922,
+      "path": "/study-library/commentaries/commentaries-database/PSA.json"
+    },
+    {
+      "bookId": "REV",
+      "referenceCount": 525,
+      "entryCount": 2519,
+      "path": "/study-library/commentaries/commentaries-database/REV.json"
+    },
+    {
+      "bookId": "ROM",
+      "referenceCount": 520,
+      "entryCount": 3811,
+      "path": "/study-library/commentaries/commentaries-database/ROM.json"
+    },
+    {
+      "bookId": "RUT",
+      "referenceCount": 18,
+      "entryCount": 23,
+      "path": "/study-library/commentaries/commentaries-database/RUT.json"
+    },
+    {
+      "bookId": "SIR",
+      "referenceCount": 230,
+      "entryCount": 284,
+      "path": "/study-library/commentaries/commentaries-database/SIR.json"
+    },
+    {
+      "bookId": "SNG",
+      "referenceCount": 136,
+      "entryCount": 678,
+      "path": "/study-library/commentaries/commentaries-database/SNG.json"
+    },
+    {
+      "bookId": "TIT",
+      "referenceCount": 62,
+      "entryCount": 330,
+      "path": "/study-library/commentaries/commentaries-database/TIT.json"
+    },
+    {
+      "bookId": "TOB",
+      "referenceCount": 73,
+      "entryCount": 89,
+      "path": "/study-library/commentaries/commentaries-database/TOB.json"
+    },
+    {
+      "bookId": "WIS",
+      "referenceCount": 160,
+      "entryCount": 321,
+      "path": "/study-library/commentaries/commentaries-database/WIS.json"
+    },
+    {
+      "bookId": "ZEC",
+      "referenceCount": 145,
+      "entryCount": 212,
+      "path": "/study-library/commentaries/commentaries-database/ZEC.json"
+    },
+    {
+      "bookId": "ZEP",
+      "referenceCount": 32,
+      "entryCount": 47,
+      "path": "/study-library/commentaries/commentaries-database/ZEP.json"
+    }
+  ],
+  "skipped": [
+    "Ambrose of Milan/Prayer of Azariah 1_34.toml",
+    "Augustine of Hippo/John 7_53-8_11.toml",
+    "Augustine of Hippo/Matthew 15_39-16_4.toml",
+    "Augustine of Hippo/Prayer of Azariah 1_65.toml",
+    "Cyril of Jerusalem/Prayer of Azariah 1_32.toml",
+    "Cyril of Jerusalem/Prayer of Azariah 1_4.toml",
+    "Eucherius of Lyon/Prayer of Azariah 1_22.toml",
+    "Fulgentius of Ruspe/Prayer of Azariah 1_64.toml",
+    "Glossa Ordinaria/Matthew 15_39-16_4.toml",
+    "Hilary of Poitiers/Matthew 15_39-16_4.toml",
+    "Jerome/Deuteronomy 27_11-28_14.toml",
+    "Jerome/Ezekiel 20_23-24-26.toml",
+    "Jerome/Ezekiel 20_27-29-29.toml",
+    "Jerome/Ezekiel 20_35-36-38.toml",
+    "Jerome/John 7_53-8_11.toml",
+    "Jerome/Matthew 15_39-16_4.toml",
+    "Jerome/Prayer of Azariah 1_14.toml",
+    "Jerome/Prayer of Azariah 1_16.toml",
+    "Jerome/Prayer of Azariah 1_23.toml",
+    "Jerome/Prayer of Azariah 1_26.toml",
+    "Jerome/Prayer of Azariah 1_3.toml",
+    "Jerome/Prayer of Azariah 1_35-37.toml",
+    "Jerome/Prayer of Azariah 1_6.toml",
+    "Jerome/Prayer of Azariah 1_65.toml",
+    "John Cassian/Prayer of Azariah 1_64.toml",
+    "John Chrysostom/Matthew 15_39-16_4.toml",
+    "John Chrysostom/Prayer of Azariah 1_10.toml",
+    "John Chrysostom/Prayer of Azariah 1_14.toml",
+    "John Chrysostom/Prayer of Azariah 1_15.toml",
+    "John Chrysostom/Prayer of Azariah 1_27.toml",
+    "John Chrysostom/Prayer of Azariah 1_32.toml",
+    "John Chrysostom/Prayer of Azariah 1_6.toml",
+    "John Damascene/Prayer of Azariah 1_58.toml",
+    "Origen of Alexandria/Prayer of Azariah 1_2.toml",
+    "Origen of Alexandria/Prayer of Azariah 1_64.toml",
+    "Pseudo-Chrysostom/Prayer of Azariah 1_16.toml",
+    "Rabanus Maurus/Esther 6_14-7_6.toml",
+    "Rabanus Maurus/Esther 6_14-7_7.toml",
+    "Rabanus Maurus/Matthew 15_39-16_4.toml",
+    "Remigius of Rheims/Matthew 15_39-16_4.toml",
+    "Severian of Gabala/Prayer of Azariah 1_25.toml",
+    "Severian of Gabala/Prayer of Azariah 1_35.toml",
+    "Severian of Gabala/Prayer of Azariah 1_42-43.toml",
+    "Severian of Gabala/Prayer of Azariah 1_49-52.toml",
+    "Severian of Gabala/Prayer of Azariah 1_55-56.toml",
+    "Theodoret of Cyrus/1 Chronicles 1_1-10_14.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_1.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_11.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_14.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_16.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_29.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_3.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_34-35.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_35-39.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_66.toml",
+    "Theodoret of Cyrus/Prayer of Azariah 1_7.toml"
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 12,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:24.252Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Vers. 7, 8.) I left my house, I abandoned my inheritance:...\". Word-study detail reinforces \"בַּֽנַּחֲלָ֔ה: the inheritance - properly, something inherited, i.e., (abstractly) occupancy,...\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "7": [
+          "inheritance"
+        ],
+        "8": [
+          "inheritance"
+        ],
+        "9": [
+          "inheritance"
+        ],
+        "13": [
+          "They will sow wheat but reap thorns"
+        ],
+        "14": [
+          "inheritance"
+        ],
+        "15": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Vers. 7, 8.) I left my house, I abandoned my inheritance:...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What does divine 'hatred' mean when applied to God's covenant people?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Vers. 7, 8.) I left my house, I abandoned my inheritance:...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does God summoning enemies to devour His people reflect covenant curse fulfillment?",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Vers. 11, 12.) And the earth mourned, desolate it is, beca...\". Word-study detail reinforces \"הָאָ֑רֶץ: of the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "How long will the land lie parched and the grass..."
+        ],
+        "10": [
+          "Many shepherds will ruin my vineyard and trample down my..."
+        ],
+        "11": [
+          "made"
+        ],
+        "12": [
+          "Over all the barren heights in the desert destroyers will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON JEREMIAH 10:6: “How long will the earth mourn and the gra...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הָאָ֔רֶץ: How long shall the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "This verse describes devastation: 'Many pastors have destroyed my vineyard, they have trodden...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 10) Many shepherds have destroyed (or disrupted) my...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 6.) For even your brothers and the household of your...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        6,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "6": [
+          "trust"
+        ],
+        "16": [
+          "And if they learn well the ways of my people..."
+        ],
+        "17": [
+          "But if any nation does not listen, I will completely..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Proverbs 26:25",
+          "anchorVerse": 6,
+          "referenceLabel": "Proverbs 26:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This revelation answers verse 1's complaint by exposing deeper betrayal than Jeremiah knew. H...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 6.) For even your brothers and the household of your...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "תַּאֲמֵ֣ן: thee believe - properly, to build up or support; to foster as a parent or nurse; f...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 4) How long will the earth mourn, and all the herbag...\". Word-study detail reinforces \"יֹֽשְׁבֵי: of them that dwell - properly, to sit down (specifically as judge. in ambush, in q...\".",
+      "supportingVerses": [
+        1,
+        4,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "justice"
+        ],
+        "4": [
+          "How long will the land lie parched and the grass..."
+        ],
+        "13": [
+          "They will sow wheat but reap thorns"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This is Jeremiah's second 'confession' (12:1-6), following the Anathoth plot. Having just exp...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ephrem the Syrian on COMMENTARY ON JEREMIAH 12:1: “Why does the way of the wicked prosper? Wh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The connection between human sin and ecological devastation appears throughout Scripture (Gen...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 4) How long will the earth mourn, and all the herbag...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This verse describes the wicked's condition: 'Thou hast planted them, yea, they have taken ro...\". Word-study detail reinforces \"קָר֤וֹב: thou art near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        1,
+        2,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "with you"
+        ],
+        "2": [
+          "You have planted them, and they have taken root"
+        ],
+        "4": [
+          "How long will the land lie parched and the grass in every field be withered? Because those who live in it are wicked"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter 12 - Verses 1 onwards) Indeed, you are just, O Lor...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֵלֶ֑יךָ: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse describes the wicked's condition: 'Thou hast planted them, yea, they have taken ro...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Chapter 12 - Verses 1 onwards) Indeed, you are just, O Lor...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Vers. 7, 8.) I left my house, I abandoned my inheritance:...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "love"
+        ],
+        "8": [
+          "My inheritance has become to me like a lion in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Jeremiah 11:15",
+          "anchorVerse": 7,
+          "referenceLabel": "Jeremiah 11:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This verse shifts to divine lament: 'I have forsaken mine house, I have left mine heritage; I...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Vers. 7, 8.) I left my house, I abandoned my inheritance:...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "יְדִד֥וּת: the dearly beloved - properly, affection; concretely, a darling object",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

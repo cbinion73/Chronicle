@@ -1,0 +1,359 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 27,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:20.758Z",
+  "themes": [
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"But not long after there arose against it a tempestuous wind, called Euroclydon —The abrupt s...\". Word-study detail reinforces \"ἄνεμος: wind - wind; (plural) by implication, (the four) quarters (of the earth)\".",
+      "supportingVerses": [
+        4,
+        7,
+        12,
+        13,
+        14,
+        15,
+        40
+      ],
+      "versePhrases": {
+        "4": [
+          "From there we put out to sea again and passed to the lee of Cyprus because the winds were against us"
+        ],
+        "7": [
+          "wind"
+        ],
+        "12": [
+          "Since the harbor was unsuitable to winter in, the majority..."
+        ],
+        "13": [
+          "wind"
+        ],
+        "14": [
+          "wind"
+        ],
+        "15": [
+          "wind"
+        ],
+        "40": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "When we had launched from thence, we sailed under Cyprus, because the winds were contrary. Th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ἀνέμους: the winds - wind; (plural) by implication, (the four) quarters (of the earth)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "When we had sailed slowly many days, and scarce were come over against Cnidus, the wind not s...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἀνέμου: the wind - wind; (plural) by implication, (the four) quarters (of the earth)",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"He took bread, and gave thanks to God in presence of them all —Paul's public thanksgiving tra...\". Word-study detail reinforces \"προσάγειν: drew near - to lead towards, i.e., (transitively) to conduct near (summon, present...\".",
+      "supportingVerses": [
+        2,
+        8,
+        24,
+        27,
+        31,
+        35
+      ],
+      "versePhrases": {
+        "2": [
+          "with us"
+        ],
+        "8": [
+          "near"
+        ],
+        "24": [
+          "with you"
+        ],
+        "27": [
+          "On the fourteenth night we were still being driven across..."
+        ],
+        "31": [
+          "“Unless these men stay with the ship"
+        ],
+        "35": [
+          "After he said this, he took some bread and gave..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Entering into a ship of Adramyttium, we launched, meaning to sail by the coasts of Asia. Adra...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "ἐγγὺς: nigh - near (literally or figuratively, of place or time)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "In what situations has your presence brought blessing or protection to unbelievers around you?",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: \"Behold, God has granted you all those who sail w...",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on Acts 53: But the centurion, willing to save Paul, kept them from...\". Word-study detail reinforces \"ἐκώλυσεν: kept - to estop, i.e., prevent (by word or act)\".",
+      "supportingVerses": [
+        22,
+        25,
+        43
+      ],
+      "versePhrases": {
+        "22": [
+          "keep"
+        ],
+        "25": [
+          "keep"
+        ],
+        "43": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 43 commentary",
+          "detail": "But the centurion, willing to save Paul, kept them from their purpose —As Paul's ship wrecks...",
+          "anchorVerse": 43
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 43 historical",
+          "detail": "John Chrysostom on Homily on Acts 53: But the centurion, willing to save Paul, kept them from...",
+          "anchorVerse": 43
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 43 word study",
+          "detail": "ἐκώλυσεν: kept - to estop, i.e., prevent (by word or act)",
+          "anchorVerse": 43
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Public prayer to foreign gods was common in polytheistic Rome, but exclusive devotion to Isra...\". Word-study detail reinforces \"ἄρτον: bread - bread (as raised) or a loaf\".",
+      "supportingVerses": [
+        3,
+        34,
+        35
+      ],
+      "versePhrases": {
+        "3": [
+          "provide"
+        ],
+        "34": [
+          "need"
+        ],
+        "35": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: \"Julius, treating Paul kindly.\" And it was natura...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 35 commentary",
+          "detail": "Public prayer to foreign gods was common in polytheistic Rome, but exclusive devotion to Isra...",
+          "anchorVerse": 35
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 35 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: That Paul began to eat was so that he would not d...",
+          "anchorVerse": 35
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 35 word study",
+          "detail": "ἄρτον: bread - bread (as raised) or a loaf",
+          "anchorVerse": 35
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Except these abide in the ship, ye cannot be saved —Paul's warning that salvation required th...\". Word-study detail reinforces \"σωθῆναι: be saved - to save, i.e., deliver or protect (literally or figuratively)\".",
+      "supportingVerses": [
+        15,
+        20,
+        24,
+        31,
+        32,
+        34,
+        43,
+        44
+      ],
+      "versePhrases": {
+        "15": [
+          "The ship was caught by the storm and could not..."
+        ],
+        "20": [
+          "saved"
+        ],
+        "24": [
+          "and said, ‘Do not be afraid, Paul"
+        ],
+        "31": [
+          "saved"
+        ],
+        "32": [
+          "So the soldiers cut the ropes that held the lifeboat and let it drift away"
+        ],
+        "34": [
+          "Now I urge you to take some food"
+        ],
+        "43": [
+          "But the centurion wanted to spare Paul’s life and kept them from carrying out their plan"
+        ],
+        "44": [
+          "The rest were to get there on planks or on..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "When the ship was caught, and could not bear up into the wind —The Greek ἀντοφθαλμεῖν ( antop...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "John Chrysostom on Homily on Acts 53: Mark then the providential ordering of the events: firs...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "When neither sun nor stars in many days appeared —Without celestial navigation, ancient sailo...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "σῴζεσθαι: should be saved - to save, i.e., deliver or protect (literally or figuratively)",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Wherefore, sirs, be of good cheer (εὐθυμεῖτε, euthymeite )—Paul uses the imperative form mean...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        11,
+        20,
+        22,
+        25,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "11": [
+          "But the centurion, instead of listening to what Paul said,..."
+        ],
+        "20": [
+          "hope"
+        ],
+        "22": [
+          "But now I urge you to keep up your courage,..."
+        ],
+        "25": [
+          "faith"
+        ],
+        "31": [
+          "Then Paul said to the centurion and the soldiers, “Unless..."
+        ],
+        "32": [
+          "So the soldiers cut the ropes that held the lifeboat..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Hebrews 11:7",
+          "anchorVerse": 11,
+          "referenceLabel": "Hebrews 11:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "In what areas of life do you trust professional credentials more than Scripture or spiritual...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Retractions on Acts: And he trusted the pilot more. The pilot in Greek is called the...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Isaiah 57:10",
+          "anchorVerse": 20,
+          "referenceLabel": "Isaiah 57:10"
+        }
+      ]
+    }
+  ]
+}

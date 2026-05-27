@@ -1,0 +1,144 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 8,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:41.569Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"When Toi king of Hamath heard that David had smitten all the host of Hadadezer, This verse co...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "3": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "kingdom"
+        ],
+        "8": [
+          "King"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "King"
+        ],
+        "11": [
+          "King"
+        ],
+        "12": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Samuel 14:47",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Samuel 14:47"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "David smote also Hadadezer, the son of Rehob, king of Zobah, as he went to recover his border...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And when the Syrians of Damascus came to succour Hadadezer king of Zobah, David slew of the S...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And David reigned over all Israel; and David executed judgment and justice unto all his peopl...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 72:2",
+          "anchorVerse": 15,
+          "referenceLabel": "Psalms 72:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And David reigned over all Israel; and David executed judgment and justice unto all his peopl...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "וּצְדָקָ֖ה: and justice - rightness (abstractly), subjectively (rectitude), objectively (just...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Inferred",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Questions on the Book of Kings #8: \"And he struck down Moab, and measured them with a...\". Word-study detail reinforces \"אַ֔רְצָה: to the ground - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Questions on the Book of Kings #8: \"And he struck down Moab, and measured them with a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אַ֔רְצָה: to the ground - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

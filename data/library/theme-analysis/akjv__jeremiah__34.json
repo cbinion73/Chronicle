@@ -1,0 +1,311 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 34,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:05.822Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"The word which came unto Jeremiah from the LORD, when Nebuchadnezzar king of Babylon, and all...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "king",
+          "dominion"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "17": [
+          "and I will make you to be removed into all the kingdoms of the earth"
+        ],
+        "21": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 1:15",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 1:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The word which came unto Jeremiah from the LORD, when Nebuchadnezzar king of Babylon, and all...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 21:10",
+          "anchorVerse": 2,
+          "referenceLabel": "Jeremiah 21:10"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"The word which came unto Jeremiah from the LORD, when Nebuchadnezzar king of Babylon, and all...\". Word-study detail reinforces \"אֶרֶץ֩: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        8,
+        13,
+        15,
+        17,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "8": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "15": [
+          "made"
+        ],
+        "17": [
+          "earth"
+        ],
+        "18": [
+          "made"
+        ],
+        "20": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The word which came unto Jeremiah from the LORD, when Nebuchadnezzar king of Babylon, and all...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶרֶץ֩: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This is the word that came unto Jeremiah from the LORD, after that the king Zedekiah had made...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בְּרִ֗ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"When they cut the calf in twain, and passed between the parts thereof (כָּרַת הָעֵגֶל, karat...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        8,
+        10,
+        13,
+        15,
+        18
+      ],
+      "versePhrases": {
+        "8": [
+          "covenant"
+        ],
+        "10": [
+          "covenant"
+        ],
+        "13": [
+          "covenant"
+        ],
+        "15": [
+          "covenant"
+        ],
+        "18": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "2 Kings 11:17",
+          "anchorVerse": 8,
+          "referenceLabel": "2 Kings 11:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This is the word that came unto Jeremiah from the LORD, after that the king Zedekiah had made...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בְּרִ֗ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Now when all the princes, and all the people, which had entered into the covenant, heard that...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Now when all the princes, and all the people, which had entered into the covenant, heard that...\". Word-study detail reinforces \"מְצַוֶּ֜ה: Behold I will command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        10,
+        22
+      ],
+      "versePhrases": {
+        "10": [
+          "obeyed"
+        ],
+        "22": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Now when all the princes, and all the people, which had entered into the covenant, heard that...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וַֽיִּשְׁמְע֖וּ: heard - to hear intelligently (often with implication of attention, obedienc...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "What does it mean that God 'commands' circumstances to accomplish His will?",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "מְצַוֶּ֜ה: Behold I will command - (intensively) to constitute, enjoin",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But thou shalt die in peace: and with the burnings of thy fathers, the former kings which wer...\". Word-study detail reinforces \"בְּשָׁל֣וֹם: in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) w...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "But thou shalt die in peace: and with the burnings of thy fathers, the former kings which wer...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בְּשָׁל֣וֹם: in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) w...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And thou shalt not escape out of his hand, but shalt surely be taken, and delivered into his...\". Word-study detail reinforces \"תִּנָּתֵ֑ן: and delivered - to give, used with greatest latitude of application (put, make, e...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And thou shalt not escape out of his hand, but shalt surely be taken, and delivered into his...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "תִּנָּתֵ֑ן: and delivered - to give, used with greatest latitude of application (put, make, e...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

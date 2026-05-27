@@ -1,0 +1,143 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 15,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:29.004Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And when he that hath an issue is cleansed of his issue; then he shall number to himself seve...\". Word-study detail reinforces \"וְטָהֵֽר׃: and shall be clean - to be pure (physical sound, clear, unadulterated; levitically...\".",
+      "supportingVerses": [
+        8,
+        13,
+        28
+      ],
+      "versePhrases": {
+        "8": [
+          "clean"
+        ],
+        "13": [
+          "clean"
+        ],
+        "28": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And if he that hath the issue spit upon him that is clean; then he shall wash his clothes, an...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בַּטָּה֑וֹר: upon him that is clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And when he that hath an issue is cleansed of his issue; then he shall number to himself seve...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וְטָהֵֽר׃: and shall be clean - to be pure (physical sound, clear, unadulterated; levitically...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And when he that hath an issue is cleansed of his issue; then he shall number to himself seve...\". Word-study detail reinforces \"וְטָהֵֽר׃: and shall be clean - to be pure (physical sound, clear, unadulterated; levitically...\".",
+      "supportingVerses": [
+        13,
+        18,
+        25,
+        28
+      ],
+      "versePhrases": {
+        "13": [
+          "“‘When a man is cleansed from his discharge, he is..."
+        ],
+        "18": [
+          "When a man has sexual relations with a woman and..."
+        ],
+        "25": [
+          "just"
+        ],
+        "28": [
+          "“‘When she is cleansed from her discharge, she must count..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And when he that hath an issue is cleansed of his issue; then he shall number to himself seve...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וְטָהֵֽר׃: and shall be clean - to be pure (physical sound, clear, unadulterated; levitically...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The woman also with whom man shall lie with seed of copulation, they shall both bathe themsel...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 3: In the past, a man coming from marital intercou...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        31
+      ],
+      "versePhrases": {
+        "31": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        32
+      ],
+      "versePhrases": {
+        "32": [
+          "made"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

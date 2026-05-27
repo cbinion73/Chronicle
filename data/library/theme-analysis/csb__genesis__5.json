@@ -1,0 +1,55 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:06.931Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): And he called their names Adam on the day when th...\". Word-study detail reinforces \"בְּרֹ֤א: created - (absolutely) to create; (qualified) to cut down (a wood), select, feed (as...\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "created",
+          "made"
+        ],
+        "2": [
+          "created"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This is the book of the generations of Adam. In the day that God created man, in the likeness...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): This is the book of the generation of Adam. In th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּרֹ֤א: created - (absolutely) to create; (qualified) to cut down (a wood), select, feed (as...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Male and female created he them; and blessed them, and called their name Adam, in the day whe...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

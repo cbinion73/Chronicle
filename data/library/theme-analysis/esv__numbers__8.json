@@ -1,0 +1,108 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 8,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:58.087Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The specific instruction that the seven lamps give light toward the front of the lampstand in...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        4,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "light"
+        ],
+        "4": [
+          "made"
+        ],
+        "21": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Exodus 25:37",
+          "anchorVerse": 2,
+          "referenceLabel": "Exodus 25:37"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The specific instruction that the seven lamps give light toward the front of the lampstand in...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַנֵּרֽוֹת׃: lamps - a lamp (i.e., the burner) or light (literally or figuratively)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "עָשָׂ֖ה: so he made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"God commands Moses to separate the Levites from among the children of Israel and cleanse them...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        5,
+        9,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "And the Lord spoke to Moses, saying,"
+        ],
+        "9": [
+          "And you shall bring the Levites before the tent of..."
+        ],
+        "19": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "God commands Moses to separate the Levites from among the children of Israel and cleanse them...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does the congregation's presence at ordination create mutual accountability between serva...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וְהִקְרַבְתָּ֙: And thou shalt bring - to approach (causatively, bring near) for whatever pur...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

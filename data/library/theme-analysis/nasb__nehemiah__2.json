@@ -1,0 +1,203 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 2,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:27.241Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Then I came to the governors beyond the river, and gave them the king's letters. Now the king...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "King",
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "14": [
+          "King"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Ezra 7:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Ezra 7:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, that wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: Now it happened in the month of Nisan, etc. Nisan is...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לַמֶּ֔לֶךְ: it unto the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And I arose in the night, I and some few men with me; neither told I any man what my God had...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        1,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "presence"
+        ],
+        "9": [
+          "with me"
+        ],
+        "12": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, that wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְפָנָֽיו׃: in his presence - the face (as the part that turns); used in a great variety of a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Then I came to the governors beyond the river, and gave them the king's letters. Now the king...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֶֽל: - near, with or among; often in general, to",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And the rulers knew not whither I went, or what I did; neither had I as yet told it to the Je...\". Word-study detail reinforces \"וּלְיֶ֙תֶר֙: nor to the rest - properly, an overhanging, i.e., (by implication) a small rope...\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "And the rulers knew not whither I went, or what I did; neither had I as yet told it to the Je...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "וּלְיֶ֙תֶר֙: nor to the rest - properly, an overhanging, i.e., (by implication) a small rope...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Wherefore the king said unto me, Why is thy countenance sad, seeing thou art not sick? this i...\". Word-study detail reinforces \"וָֽאִירָ֖א: afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Wherefore the king said unto me, Why is thy countenance sad, seeing thou art not sick? this i...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וָֽאִירָ֖א: afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 64,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:14.427Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 64: Say we, therefore, ourselves also: \"Hearken, O...\". Word-study detail reinforces \"וַיִּֽירְא֗וּ: shall fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        1,
+        4,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "terror"
+        ],
+        "4": [
+          "afraid"
+        ],
+        "9": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear my voice, O God, in my prayer: preserve my life from fear of the enemy. This opening ple...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 64: Say we, therefore, ourselves also: \"Hearken, O...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מִפַּ֥חַד: from fear - a (sudden) alarm (properly, the object feared, by implication, the fee...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Shooting 'in secret at the perfect' reveals the cowardly nature of slander—attacking from hid...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        4,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "blameless"
+        ],
+        "10": [
+          "righteous",
+          "upright"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Shooting 'in secret at the perfect' reveals the cowardly nature of slander—attacking from hid...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 97:11",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 97:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on SERMON 21:1: “The just person will take delight in the Lord and hope in...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And all men shall fear, and shall declare the work of God; for they shall wisely consider of...\". Word-study detail reinforces \"מִסּ֣וֹד: me from the secret counsel - a session, i.e., company of persons (in close delibera...\".",
+      "supportingVerses": [
+        2,
+        9
+      ],
+      "versePhrases": {
+        "2": [
+          "Hide me from the scheming of wicked people, from the..."
+        ],
+        "9": [
+          "understand"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The plea to 'hide me from the secret counsel of the wicked' reveals that conspiracies operate...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 64: \"You have protected me from the gathering toget...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מִסּ֣וֹד: me from the secret counsel - a session, i.e., company of persons (in close delibera...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And all men shall fear, and shall declare the work of God; for they shall wisely consider of...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 64: \"And the tongues of them have been made weak up...\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "But God will shoot them with arrows"
+        ],
+        "8": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The imagery of arrows as divine judgment appears throughout Scripture. God's arrows represent...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 64: \"Arrows of infants have been made the strokes o...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 64: \"And the tongues of them have been made weak up...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 97:11",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 97:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "צַדִּ֣יק: The righteous - just",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

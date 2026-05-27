@@ -1,0 +1,593 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Galatians",
+  "chapter": 3,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:10.358Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 25 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: The minor premise is set down at, \"But the law is...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "O foolish Galatians, who hath bewitched you, that ye should..."
+        ],
+        "2": [
+          "faith"
+        ],
+        "4": [
+          "Have ye suffered so many things in vain"
+        ],
+        "5": [
+          "faith"
+        ],
+        "6": [
+          "Even as Abraham believed God"
+        ],
+        "7": [
+          "faith"
+        ],
+        "8": [
+          "faith"
+        ],
+        "9": [
+          "faith"
+        ],
+        "10": [
+          "For as many as are of the works of the..."
+        ],
+        "11": [
+          "faith"
+        ],
+        "12": [
+          "faith"
+        ],
+        "14": [
+          "faith"
+        ],
+        "15": [
+          "Brethren, I speak after the manner of men"
+        ],
+        "16": [
+          "Now to Abraham and his seed were the promises made"
+        ],
+        "17": [
+          "And this I say, that the covenant, that was confirmed..."
+        ],
+        "18": [
+          "For if the inheritance be of the law, it is..."
+        ],
+        "21": [
+          "Is the law then against the promises of God"
+        ],
+        "22": [
+          "faith",
+          "believe"
+        ],
+        "23": [
+          "faith"
+        ],
+        "24": [
+          "faith"
+        ],
+        "25": [
+          "faith"
+        ],
+        "26": [
+          "faith"
+        ],
+        "27": [
+          "For as many of you as have been baptized into..."
+        ],
+        "28": [
+          "There is neither Jew nor Greek, there is neither bond..."
+        ],
+        "29": [
+          "And if ye be Christ’s, then are ye Abraham’s seed,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Galatians 3: Here he passes to another subject; in the former ch...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Galatians 3:14",
+          "anchorVerse": 2,
+          "referenceLabel": "Galatians 3:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This only would I learn of you, Received ye the Spirit by the works of the law, or by the hea...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 21 verses. Commentary leans on \"For if the inheritance be of the law, it is no more of promise: but God gave it to Abraham by...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "5": [
+          "He therefore that ministereth to you the Spirit, and worketh..."
+        ],
+        "6": [
+          "Even as Abraham believed God, and it was accounted to..."
+        ],
+        "7": [
+          "Know ye therefore that they which are of faith, the..."
+        ],
+        "8": [
+          "In thee shall all nations be blessed"
+        ],
+        "9": [
+          "So then they which be of faith are blessed with faithful Abraham"
+        ],
+        "10": [
+          "For as many as are of the works of the..."
+        ],
+        "12": [
+          "And the law is not of faith"
+        ],
+        "14": [
+          "promise",
+          "blessing"
+        ],
+        "15": [
+          "covenant"
+        ],
+        "16": [
+          "Now to Abraham and his seed were the promises made"
+        ],
+        "17": [
+          "covenant",
+          "promise"
+        ],
+        "18": [
+          "promise",
+          "inheritance"
+        ],
+        "19": [
+          "promise"
+        ],
+        "20": [
+          "Now a mediator is not a mediator of one, but..."
+        ],
+        "21": [
+          "Is the law then against the promises of God? God forbid"
+        ],
+        "22": [
+          "promise"
+        ],
+        "23": [
+          "But before faith came, we were kept under the law,..."
+        ],
+        "25": [
+          "But after that faith is come, we are no longer..."
+        ],
+        "26": [
+          "For ye are all the children of God by faith..."
+        ],
+        "28": [
+          "There is neither Jew nor Greek, there is neither bond..."
+        ],
+        "29": [
+          "promise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Miraculous phenomena (healing, prophecy, tongues, exorcisms) were common in apostolic Christi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: But that our faith was also prefigured in Abraham, and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Even as Abraham believed God, and it was accounted to him for righteousness. Paul now shifts...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Galatians: (Verse 6.) Just as Abraham believed God, and it was counte...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: Then when he says, \"He, therefore, who giveth to y...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        18,
+        21,
+        22,
+        23,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "1": [
+          "O foolish Galatians, who hath bewitched you, that ye should..."
+        ],
+        "2": [
+          "This only would I learn of you, Received ye the..."
+        ],
+        "5": [
+          "He therefore that ministereth to you the Spirit, and worketh..."
+        ],
+        "6": [
+          "righteousness"
+        ],
+        "8": [
+          "foreseeing that God would justify the heathen through faith"
+        ],
+        "9": [
+          "So then they which be of faith are blessed with..."
+        ],
+        "10": [
+          "For as many as are of the works of the..."
+        ],
+        "11": [
+          "just"
+        ],
+        "12": [
+          "And the law is not of faith"
+        ],
+        "13": [
+          "Christ hath redeemed us from the curse of the law,..."
+        ],
+        "18": [
+          "For if the inheritance be of the law, it is..."
+        ],
+        "21": [
+          "righteousness"
+        ],
+        "22": [
+          "But the scripture hath concluded all under sin, that the..."
+        ],
+        "23": [
+          "But before faith came, we were kept under the law,..."
+        ],
+        "24": [
+          "that we might be justified by faith"
+        ],
+        "27": [
+          "For as many of you as have been baptized into..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Galatians: (Chapter III - Verse 1) O foolish Galatians, who has bewit...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This only would I learn of you, Received ye the Spirit by the works of the law, or by the hea...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Having given his rebuke, the Apostle goes on to sh...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: Then when he says, \"He, therefore, who giveth to y...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        14,
+        21,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "Spirit"
+        ],
+        "3": [
+          "Spirit"
+        ],
+        "4": [
+          "Have ye suffered so many things in vain"
+        ],
+        "5": [
+          "Spirit"
+        ],
+        "9": [
+          "So then they which be of faith are blessed with..."
+        ],
+        "14": [
+          "Spirit"
+        ],
+        "21": [
+          "Is the law then against the promises of God"
+        ],
+        "27": [
+          "For as many of you as have been baptized into..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Acts 15:8",
+          "anchorVerse": 2,
+          "referenceLabel": "Acts 15:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This only would I learn of you, Received ye the Spirit by the works of the law, or by the hea...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Having given his rebuke, the Apostle goes on to sh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πνεῦμα: the Spirit - a current of air, i.e., breath (blast) or a breeze; by analogy or figura...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: Having explained the curse brought on by the Law,...\". Word-study detail reinforces \"ἐῤῥήθησαν: made - to utter, i.e., speak or say\".",
+      "supportingVerses": [
+        3,
+        13,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "16": [
+          "made"
+        ],
+        "19": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Are ye so foolish? having begun in the Spirit, are ye now made perfect by the flesh? Paul's s...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Then when he says, \"Are you so foolish that, where...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Christ hath redeemed us from the curse of the law, being made a curse for us: for it is writt...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Having explained the curse brought on by the Law,...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: Above, the Apostle reproved the Galatians for thei...\". Word-study detail reinforces \"ἀληθείᾳ: the truth - truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        19,
+        20,
+        22,
+        23,
+        24,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "truth"
+        ],
+        "2": [
+          "This only would I learn of you, Received ye the..."
+        ],
+        "5": [
+          "He therefore that ministereth to you the Spirit, and worketh..."
+        ],
+        "7": [
+          "Know ye therefore that they which are of faith, the..."
+        ],
+        "8": [
+          "And the scripture, foreseeing that God would justify the heathen..."
+        ],
+        "9": [
+          "faithful"
+        ],
+        "11": [
+          "But that no man is justified by the law in..."
+        ],
+        "12": [
+          "And the law is not of faith"
+        ],
+        "13": [
+          "Christ hath redeemed us from the curse of the law,..."
+        ],
+        "19": [
+          "Wherefore then serveth the law"
+        ],
+        "20": [
+          "Now a mediator is not a mediator of one, but..."
+        ],
+        "22": [
+          "But the scripture hath concluded all under sin, that the..."
+        ],
+        "23": [
+          "But before faith came, we were kept under the law,..."
+        ],
+        "24": [
+          "Wherefore the law was our schoolmaster to bring us unto..."
+        ],
+        "29": [
+          "And if ye be Christ’s, then are ye Abraham’s seed,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Above, the Apostle reproved the Galatians for thei...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀληθείᾳ: the truth - truth",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This only would I learn of you, Received ye the Spirit by the works of the law, or by the hea...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

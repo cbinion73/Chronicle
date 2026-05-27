@@ -1,0 +1,131 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 6,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:45.271Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 8 verses. Commentary leans on \"The bride affirms with confidence: 'I am my beloved's, and my beloved is mine: he feedeth amo...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "beloved"
+        ],
+        "2": [
+          "beloved"
+        ],
+        "3": [
+          "beloved"
+        ],
+        "4": [
+          "love"
+        ],
+        "5": [
+          "Turn away thine eyes from me, for they have overcome..."
+        ],
+        "8": [
+          "There are threescore queens, and fourscore concubines, and virgins without..."
+        ],
+        "9": [
+          "My dove, my undefiled is but one"
+        ],
+        "12": [
+          "Or ever I was aware, my soul made me like..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Whither is thy beloved gone, O thou fairest among women? The daughters of Jerusalem respond t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Where has your beloved gone, etc.? The beloved is sa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "My beloved is gone down into his garden, to the beds of spices —the bride answers with confid...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: My beloved has gone down into his garden, etc. It is...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local cross references and verse commentary data reinforce this reading across 4 verses. Commentary leans on \"Robert of Tombelaine on Commentary on the Song of Songs, Chapter 6: The holy Church advances...\".",
+      "supportingVerses": [
+        1,
+        5,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "Whither is thy beloved gone, O thou fairest among women"
+        ],
+        "5": [
+          "Turn away thine eyes from me, for they have overcome..."
+        ],
+        "10": [
+          "Who is she that looketh forth as the morning, fair..."
+        ],
+        "12": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does your passionate love for Christ create curiosity in others, making them want to seek...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Where has your beloved gone, etc.? The beloved is sa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "In ancient Near Eastern culture, direct eye contact carried significant social and relational...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Hair like a flock of goats, etc. These verses and th...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

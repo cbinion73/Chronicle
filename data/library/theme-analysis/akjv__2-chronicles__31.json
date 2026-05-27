@@ -1,0 +1,288 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 31,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:35.774Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And to the genealogy of all their little ones, their wives, and their sons, and their daughte...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        6,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "6": [
+          "holy"
+        ],
+        "14": [
+          "holy"
+        ],
+        "18": [
+          "holiness",
+          "sanctified"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 27:30",
+          "anchorVerse": 6,
+          "referenceLabel": "Leviticus 27:30"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And concerning the children of Israel and Judah, that dwelt in the cities of Judah, they also...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "קָֽדָשִׁ֔ים: of holy things - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And Kore the son of Imnah the Levite, the porter toward the east, was over the freewill offer...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Moreover he commanded the people that dwelt in Jerusalem to give the portion of the priests a...\". Word-study detail reinforces \"וּמְנָת֩: portion - an allotment (by courtesy, law or providence)\".",
+      "supportingVerses": [
+        3,
+        4,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "portion"
+        ],
+        "4": [
+          "portion"
+        ],
+        "16": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "He appointed also the king's portion of his substance for the burnt offerings, to wit, for th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וּמְנָת֩: portion - an allotment (by courtesy, law or providence)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Moreover he commanded the people that dwelt in Jerusalem to give the portion of the priests a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מְנָ֥ת: the portion - an allotment (by courtesy, law or providence)",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"He appointed also the king's portion of his substance for the burnt offerings, to wit, for th...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        8,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "king"
+        ],
+        "8": [
+          "And when Hezekiah and the princes came and saw the..."
+        ],
+        "10": [
+          "And Azariah the chief priest of the house of Zadok..."
+        ],
+        "13": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 35:7",
+          "anchorVerse": 3,
+          "referenceLabel": "2 Chronicles 35:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "He appointed also the king's portion of his substance for the burnt offerings, to wit, for th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַמֶּ֨לֶךְ: He appointed also the king's - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And when Hezekiah and the princes came and saw the heaps, they blessed the LORD, and his peop...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And Kore the son of Imnah the Levite, the porter toward the east, was over the freewill offer...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        5,
+        6,
+        14
+      ],
+      "versePhrases": {
+        "5": [
+          "And as soon as the commandment came abroad, the children..."
+        ],
+        "6": [
+          "holy"
+        ],
+        "14": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "תִּיר֤וֹשׁ: wine - must or fresh grape-juice (as just squeezed out); by implication (rarely)...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 27:30",
+          "anchorVerse": 6,
+          "referenceLabel": "Leviticus 27:30"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And concerning the children of Israel and Judah, that dwelt in the cities of Judah, they also...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And Hezekiah appointed the courses of the priests and the Levites after their courses, every...\". Word-study detail reinforces \"וּלְהֹד֣וֹת: and to give thanks - physically, to throw (a stone, an arrow) at or away; especi...\".",
+      "supportingVerses": [
+        2,
+        9
+      ],
+      "versePhrases": {
+        "2": [
+          "praise",
+          "thanks"
+        ],
+        "9": [
+          "Then Hezekiah questioned with the priests and the Levites concerning..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And Hezekiah appointed the courses of the priests and the Levites after their courses, every...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וּלְהֹד֣וֹת: and to give thanks - physically, to throw (a stone, an arrow) at or away; especi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וַיִּדְרֹ֣שׁ: questioned - properly, to tread or frequent; usually to follow (for pursuit or...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"וְלִשְׁלָמִ֑ים: and for peace offerings - properly, requital, i.e., a (voluntary) sacrifice i...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְלִשְׁלָמִ֑ים: and for peace offerings - properly, requital, i.e., a (voluntary) sacrifice i...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 28,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:21.632Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"The LORD shall establish thee an holy people unto himself, as he hath sworn unto thee, if tho...\". Word-study detail reinforces \"שָׁמַ֔עְתָּ: because thou wouldest not obey - to hear intelligently (often with implication o...\".",
+      "supportingVerses": [
+        1,
+        2,
+        8,
+        9,
+        13,
+        14,
+        15,
+        45,
+        62
+      ],
+      "versePhrases": {
+        "1": [
+          "command"
+        ],
+        "2": [
+          "and all these blessings shall come on thee, and overtake..."
+        ],
+        "8": [
+          "command"
+        ],
+        "9": [
+          "keep"
+        ],
+        "13": [
+          "command"
+        ],
+        "14": [
+          "command"
+        ],
+        "15": [
+          "command",
+          "statutes"
+        ],
+        "45": [
+          "keep",
+          "statutes"
+        ],
+        "62": [
+          "obey"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy Go...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מְצַוְּךָ֖: which I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What is the difference between anxiously striving for success and finding blessing through ob...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תִשְׁמַ֔ע: thee if thou shalt hearken - to hear intelligently (often with implication of atte...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"And thy heaven that is over thy head shall be brass, and the earth that is under thee shall b...\". Word-study detail reinforces \"הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        10,
+        23,
+        24,
+        25,
+        26,
+        49,
+        64
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "10": [
+          "earth"
+        ],
+        "23": [
+          "earth"
+        ],
+        "24": [
+          "The Lord shall make the rain of thy land powder..."
+        ],
+        "25": [
+          "earth"
+        ],
+        "26": [
+          "earth"
+        ],
+        "49": [
+          "earth"
+        ],
+        "64": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy Go...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And all people of the earth shall see that thou art called by the name of the LORD; and they...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"The LORD shall command the blessing upon thee in thy storehouses, and in all that thou settes...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        12,
+        30
+      ],
+      "versePhrases": {
+        "3": [
+          "Blessed shalt thou be in the city"
+        ],
+        "4": [
+          "Blessed shall be the fruit of thy body"
+        ],
+        "5": [
+          "Blessed shall be thy basket and thy store"
+        ],
+        "6": [
+          "Blessed shalt thou be when thou comest in"
+        ],
+        "8": [
+          "blessing",
+          "bless"
+        ],
+        "12": [
+          "bless"
+        ],
+        "30": [
+          "Thou shalt betroth a wife, and another man shall lie..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Genesis 39:5",
+          "anchorVerse": 3,
+          "referenceLabel": "Genesis 39:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Blessed shalt thou be in the city, and blessed shalt thou be in the field. Comprehensive bles...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וּבָר֥וּךְ: Blessed - to kneel; by implication to bless god (as an act of adoration), and (vi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Proverbs 10:22",
+          "anchorVerse": 4,
+          "referenceLabel": "Proverbs 10:22"
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"In the morning thou shalt say, Would God it were even! and at even thou shalt say, Would God...\". Word-study detail reinforces \"יָגֹ֖רְתָּ: which thou wast afraid - to fear\".",
+      "supportingVerses": [
+        10,
+        58,
+        60,
+        66,
+        67
+      ],
+      "versePhrases": {
+        "10": [
+          "afraid"
+        ],
+        "58": [
+          "fear"
+        ],
+        "60": [
+          "afraid"
+        ],
+        "66": [
+          "fear"
+        ],
+        "67": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And all people of the earth shall see that thou art called by the name of the LORD; and they...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְיָֽרְא֖וּ: and they shall be afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 58 commentary",
+          "detail": "If thou wilt not observe to do all the words of this law that are written in this book —the p...",
+          "anchorVerse": 58
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 58 word study",
+          "detail": "וְהַנּוֹרָא֙: and fearful - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 58
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And thou shalt grope at noonday, as the blind gropeth in darkness. The Hebrew meshashesh (מְש...\". Word-study detail reinforces \"מוֹשִֽׁיעַ׃: and no man shall save - properly, to be open, wide or free, i.e., (by implicatio...\".",
+      "supportingVerses": [
+        29,
+        31
+      ],
+      "versePhrases": {
+        "29": [
+          "save"
+        ],
+        "31": [
+          "rescue"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "And thou shalt grope at noonday, as the blind gropeth in darkness. The Hebrew meshashesh (מְש...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "מוֹשִֽׁיעַ׃: and no man shall save - properly, to be open, wide or free, i.e., (by implicatio...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "How does having \"none to rescue\" demonstrate that covenant judgment removes human deliverers?",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "מוֹשִֽׁיעַ׃: and thou shalt have none to rescue - properly, to be open, wide or free, i.e., (...",
+          "anchorVerse": 31
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The LORD shall bring thee, and thy king which thou shalt set over thee, unto a nation which n...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        25,
+        36
+      ],
+      "versePhrases": {
+        "25": [
+          "and shalt be removed into all the kingdoms of the earth"
+        ],
+        "36": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 24:9",
+          "anchorVerse": 25,
+          "referenceLabel": "Jeremiah 24:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "Israel's military history validated this curse repeatedly: defeats during the judges period w...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "מַמְלְכ֥וֹת: into all the kingdoms - dominion, i.e., (abstractly) the estate (rule) or (concr...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Kings 25:11",
+          "anchorVerse": 36,
+          "referenceLabel": "2 Kings 25:11"
+        }
+      ]
+    }
+  ]
+}

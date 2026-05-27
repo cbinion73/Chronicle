@@ -1,0 +1,243 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:49.743Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Attending to understanding requires intellectual engagement with wisdom. The Hebrew 'binah' (...\". Word-study detail reinforces \"וְ֝דַ֗עַת: knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "wisdom",
+          "understanding"
+        ],
+        "2": [
+          "knowledge"
+        ],
+        "3": [
+          "Though the lips of the forbidden woman drip honey and..."
+        ],
+        "4": [
+          "in the end she’s as bitter as wormwood and as..."
+        ],
+        "12": [
+          "and you will say, “How I hated discipline, and how..."
+        ],
+        "23": [
+          "He will die because there is no discipline, and be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Attending to understanding requires intellectual engagement with wisdom. The Hebrew 'binah' (...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Proverbs: My son, attend to my wisdom, etc. Until now he had generally...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְחָכְמָתִ֣י: unto my wisdom - wisdom (in a good sense)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Guarding discretion and preserving knowledge requires attentiveness to wisdom. The Hebrew 'sh...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Proverbs: \"Let her breasts satisfy you at all times,\" etc. He does not...\". Word-study detail reinforces \"בְּ֝אַהֲבָתָ֗הּ: with her love - love\".",
+      "supportingVerses": [
+        15,
+        19
+      ],
+      "versePhrases": {
+        "15": [
+          "Drink water from your own cistern, water flowing from your..."
+        ],
+        "19": [
+          "love",
+          "loving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Sexual fidelity within marriage is portrayed through water imagery—refreshing, life-giving, a...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Augustine of Hippo on TRACTATES ON THE GOSPEL OF JOHN 7:6: “Let the fountain of your water be...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "The wife should be as a loving deer and pleasant doe; be ravished always with her love. The H...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Bede on Commentary on Proverbs: \"Let her breasts satisfy you at all times,\" etc. He does not...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The lamenter continues: 'I obeyed not my teachers nor inclined my ear to my instructors.' Thi...\". Word-study detail reinforces \"שָׁ֭מַעְתִּי: And have not obeyed - to hear intelligently (often with implication of attentio...\".",
+      "supportingVerses": [
+        8,
+        13
+      ],
+      "versePhrases": {
+        "8": [
+          "Keep"
+        ],
+        "13": [
+          "obey"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Reflects ancient social structure where visiting a woman's home in her husband's absence crea...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Commentary on Proverbs: Keep your way far from her, etc. And the apostle says, Flee f...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The lamenter continues: 'I obeyed not my teachers nor inclined my ear to my instructors.' Thi...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "שָׁ֭מַעְתִּי: And have not obeyed - to hear intelligently (often with implication of attentio...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What changes would eliminate potential end-of-life mourning over wasted opportunities?\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "lament"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "What changes would eliminate potential end-of-life mourning over wasted opportunities?",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"אֹ֣רַח: the path - a well-trodden road (literally or figuratively); also a caravan\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "path"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֹ֣רַח: the path - a well-trodden road (literally or figuratively); also a caravan",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What 'doors' do you need to avoid coming near because they present temptation?\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What 'doors' do you need to avoid coming near because they present temptation?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Commentary on Proverbs: Keep your way far from her, etc. And the apostle says, Flee f...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

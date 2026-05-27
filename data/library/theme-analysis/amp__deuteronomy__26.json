@@ -1,0 +1,305 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 26,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:58.272Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"This day the LORD thy God hath commanded thee to do these statutes and judgments —Moses trans...\". Word-study detail reinforces \"מִצְוֹתָֽיו׃: all his commandments - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        13,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "13": [
+          "in accordance with all that You have commanded me"
+        ],
+        "16": [
+          "commands",
+          "statutes"
+        ],
+        "17": [
+          "keep",
+          "statutes"
+        ],
+        "18": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Then thou shalt say before the LORD thy God —after distributing the third-year tithe, the wor...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "מִמִּצְוֹתֶ֖יךָ: according to all thy commandments - a command, whether human or divine (coll...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "This day the LORD thy God hath commanded thee to do these statutes and judgments —Moses trans...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "הַֽחֻקִּ֥ים: these statutes - an enactment; hence, an appointment (of time, space, quantity,...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Look down from thy holy habitation, from heaven, and bless thy people Israel —after declaring...\". Word-study detail reinforces \"וּבָרֵ֤ךְ: and bless - to kneel; by implication to bless god (as an act of adoration), and (v...\".",
+      "supportingVerses": [
+        1,
+        15,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "inheritance"
+        ],
+        "15": [
+          "bless"
+        ],
+        "18": [
+          "promised"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "When thou art come in unto the land which the LORD thy God giveth thee for an inheritance, an...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "נַֽחֲלָ֑ה: thee for an inheritance - properly, something inherited, i.e., (abstractly) occupa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Look down from thy holy habitation, from heaven, and bless thy people Israel —after declaring...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "וּבָרֵ֤ךְ: and bless - to kneel; by implication to bless god (as an act of adoration), and (v...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Spoken circa 1406 BC as motivational conclusion to covenant stipulations. The promise echoed...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "15": [
+          "holy"
+        ],
+        "18": [
+          "just"
+        ],
+        "19": [
+          "just",
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 63:15",
+          "anchorVerse": 15,
+          "referenceLabel": "Isaiah 63:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "How does the connection between obedience and blessing avoid works-righteousness while mainta...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "קָדְשְׁךָ֜: from thy holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And the LORD hath avouched thee this day to be his peculiar people —God's reciprocal declarat...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"I have not eaten thereof in my mourning —the tithe wasn't consumed during ritual uncleanness...\". Word-study detail reinforces \"בְאֹנִ֜י: thereof in my mourning - strictly nothingness; also trouble, vanity, wickedness; sp...\".",
+      "supportingVerses": [
+        6,
+        7,
+        14
+      ],
+      "versePhrases": {
+        "6": [
+          "And the Egyptians treated us badly and oppressed us, and..."
+        ],
+        "7": [
+          "suffering"
+        ],
+        "14": [
+          "mourning"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The Egyptians evil entreated us, and afflicted us, and laid upon us hard bondage —the firstfr...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וַיְעַנּ֑וּנוּ: us and afflicted - to depress literally or figuratively, transitive or intran...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "When we cried unto the LORD God of our fathers, the LORD heard our voice —the liturgy emphasi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "עָנְיֵ֛נוּ: on our affliction - depression, i.e., misery",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And to make thee high above all nations which he hath made —God's purpose for Israel was exal...\". Word-study detail reinforces \"עָשָׂ֔ה: which he hath made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        12,
+        19
+      ],
+      "versePhrases": {
+        "12": [
+          "“When you have finished paying all the tithe of your..."
+        ],
+        "19": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Spoken circa 1406 BC as preparation for agrarian society in Canaan. The third-year tithe pres...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "תְכַלֶּ֞ה: When thou hast made an end - to end, whether intransitive (to cease, be finished,...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And to make thee high above all nations which he hath made —God's purpose for Israel was exal...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "עָשָׂ֔ה: which he hath made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And to make thee high above all nations which he hath made —God's purpose for Israel was exal...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        19
+      ],
+      "versePhrases": {
+        "15": [
+          "holy"
+        ],
+        "19": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 63:15",
+          "anchorVerse": 15,
+          "referenceLabel": "Isaiah 63:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "How does the connection between obedience and blessing avoid works-righteousness while mainta...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "קָדְשְׁךָ֜: from thy holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Deuteronomy 7:6",
+          "anchorVerse": 19,
+          "referenceLabel": "Deuteronomy 7:6"
+        }
+      ]
+    }
+  ]
+}

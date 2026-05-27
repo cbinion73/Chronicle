@@ -1,0 +1,454 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 33,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:41.532Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"For our heart shall rejoice in him, because we have trusted in his holy name. David declares...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "Sing to Him a new song"
+        ],
+        "4": [
+          "And all His work is done in faithfulness"
+        ],
+        "5": [
+          "He loves righteousness and justice"
+        ],
+        "6": [
+          "By the word of the Lord were the heavens made,..."
+        ],
+        "16": [
+          "The king is not saved by the great size of..."
+        ],
+        "17": [
+          "hope"
+        ],
+        "18": [
+          "hope"
+        ],
+        "19": [
+          "To rescue their lives from death And keep them alive..."
+        ],
+        "20": [
+          "We wait [expectantly] for the Lord"
+        ],
+        "21": [
+          "trust"
+        ],
+        "22": [
+          "hoped",
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Israel's worship was characteristically loud and joyful. Psalm 150 calls for praise with trum...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 33: \"Sing unto Him a new song:\" sing unto Him a son...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For the word of the LORD is right; and all his works are done in truth. David transitions fro...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Second, when he says, \"Because,\" he assi...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"He loveth righteousness and judgment: the earth is full of the goodness of the LORD. David de...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous",
+          "upright"
+        ],
+        "4": [
+          "For the word of the Lord is right"
+        ],
+        "5": [
+          "righteousness",
+          "justice"
+        ],
+        "6": [
+          "By the word of the Lord were the heavens made,..."
+        ],
+        "12": [
+          "Blessed [fortunate, prosperous, and favored by God] is the nation..."
+        ],
+        "13": [
+          "The Lord looks [down] from heaven"
+        ],
+        "15": [
+          "He who fashions the hearts of them all"
+        ],
+        "16": [
+          "The king is not saved by the great size of..."
+        ],
+        "18": [
+          "Behold, the eye of the Lord is upon those who..."
+        ],
+        "19": [
+          "To rescue their lives from death And keep them alive..."
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 32:11",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 32:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 33 opens with urgent imperative: 'Rejoice in the LORD, O ye righteous' . The Hebrew ran...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: The title is not new. It is: \"To the end...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "צַ֭דִּיקִים: O ye righteous - just",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"Gathering together t...\". Word-study detail reinforces \"הָאָֽרֶץ׃: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "Give thanks to the Lord with the lyre"
+        ],
+        "5": [
+          "earth"
+        ],
+        "6": [
+          "made",
+          "heavens"
+        ],
+        "7": [
+          "waters"
+        ],
+        "8": [
+          "earth"
+        ],
+        "9": [
+          "For He spoke, and it was done"
+        ],
+        "11": [
+          "The counsel of the Lord stands forever, The thoughts and..."
+        ],
+        "13": [
+          "The Lord looks [down] from heaven"
+        ],
+        "14": [
+          "earth"
+        ],
+        "15": [
+          "He who fashions the hearts of them all, Who considers..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Praise the LORD with harp: sing unto him with the psaltery and an instrument of ten strings....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Basil of Caesarea on HOMILIES ON THE PSALMS 15:2 (PS 33): It is necessary to praise the Lord...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "He loveth righteousness and judgment: the earth is full of the goodness of the LORD. David de...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Second, when he says, \"Because,\" he assi...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Praise the LORD with harp: sing unto him with the psaltery and an instrument of ten strings....\". Word-study detail reinforces \"שִֽׁירוּ: Sing - to sing\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise"
+        ],
+        "2": [
+          "thanks",
+          "Sing"
+        ],
+        "3": [
+          "Sing"
+        ],
+        "4": [
+          "For the word of the Lord is right"
+        ],
+        "6": [
+          "By the word of the Lord were the heavens made"
+        ],
+        "8": [
+          "worship"
+        ],
+        "18": [
+          "worship"
+        ],
+        "20": [
+          "We wait [expectantly] for the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 33 has no superscription indicating authorship or historical occasion. Its canonical po...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: The title is not new. It is: \"To the end...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְהִלָּֽה׃: for praise - laudation; specifically (concretely) a hymn",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Praise the LORD with harp: sing unto him with the psaltery and an instrument of ten strings....",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"There is no king saved by the multitude of an host: a mighty man is not delivered by much str...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        7,
+        10,
+        16,
+        17,
+        19,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "7": [
+          "He gathers the waters of the sea together as in..."
+        ],
+        "10": [
+          "The Lord nullifies the counsel of the nations"
+        ],
+        "16": [
+          "saved"
+        ],
+        "17": [
+          "deliver"
+        ],
+        "19": [
+          "rescue"
+        ],
+        "20": [
+          "We wait [expectantly] for the Lord"
+        ],
+        "22": [
+          "Let Your [steadfast] lovingkindness, O Lord, be upon us, In..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Ancient Israelites both feared and marveled at sea. Most were not seafaring people; seas repr...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"Gathering together t...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Biblical history repeatedly illustrates this truth. Pharaoh's counsel to enslave Israel was b...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Evagrius Ponticus on NOTES ON THE PSALMS 32[33].10: The plans of the nations and the councils...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"He loveth righteousness and judgment: the earth is full of the goodness of the LORD. David de...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        13,
+        18,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous"
+        ],
+        "4": [
+          "For the word of the Lord is right"
+        ],
+        "5": [
+          "righteousness"
+        ],
+        "13": [
+          "The Lord looks [down] from heaven"
+        ],
+        "18": [
+          "Behold, the eye of the Lord is upon those who..."
+        ],
+        "19": [
+          "To rescue their lives from death And keep them alive..."
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 32:11",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 32:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 33 opens with urgent imperative: 'Rejoice in the LORD, O ye righteous' . The Hebrew ran...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 33: \"Rejoice in the Lord, O you righteous:\" rejoice...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "צַ֭דִּיקִים: O ye righteous - just",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

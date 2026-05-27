@@ -1,0 +1,115 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hosea",
+  "chapter": 7,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:17.299Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Hosea 7:5-7: \"The day of our king: the princes began to rage from win...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "For they have made ready their heart like an oven,..."
+        ],
+        "7": [
+          "all their kings are fallen"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Entertaining wickedness: 'They make the king glad with their wickedness, and the princes with...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Hosea 7:3: \"In their malice, they made the king rejoice, and in their...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מֶ֑לֶךְ: They make the king - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Drunken revelry and conspiracy: 'In the day of our king the princes have made him sick with b...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Drunken revelry and conspiracy: 'In the day of our king the princes have made him sick with b...\". Word-study detail reinforces \"קֵרְב֧וּ: For they have made ready - to approach (causatively, bring near) for whatever purpose\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "And they consider not in their hearts that I remember..."
+        ],
+        "3": [
+          "They make the king glad with their wickedness, and the..."
+        ],
+        "5": [
+          "made"
+        ],
+        "6": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And they consider not in their hearts that I remember all their wickedness: now their own doi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF MATTHEW 11:15: Therefore each one must ke...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The chaotic final decades of northern Israel saw leaders maintaining power through deception,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Hosea 7:3: \"In their malice, they made the king rejoice, and in their...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

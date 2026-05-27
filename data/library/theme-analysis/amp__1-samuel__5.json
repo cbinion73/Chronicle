@@ -1,0 +1,77 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 5,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:02.791Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The men of Ashdod draw the correct conclusion: 'The ark of the God of Israel shall not abide...\". Word-study detail reinforces \"יֵשֵׁ֞ב: shall not abide - properly, to sit down (specifically as judge. in ambush, in quiet)...\".",
+      "supportingVerses": [
+        4,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "But when they got up early the next morning, behold,..."
+        ],
+        "7": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The specific mutilation of head and hands echoes ancient Near Eastern practices of humiliatin...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Samuel: Moreover, the trunk of Dagon alone, etc. Moreover, the people,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The men of Ashdod draw the correct conclusion: 'The ark of the God of Israel shall not abide...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The second morning brings intensified humiliation: Dagon falls again, now with 'head...and bo...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The second morning brings intensified humiliation: Dagon falls again, now with 'head...and bo...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

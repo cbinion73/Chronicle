@@ -1,0 +1,206 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 19,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:36.211Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on Ammonite war - David's continu...\". Word-study detail reinforces \"מֶ֣לֶךְ: the king - a king\".",
+      "supportingVerses": [
+        1,
+        5,
+        7,
+        9,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "King",
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "9": [
+          "The Ammonites marched out and lined up in battle formation at the entrance of the city while the kings who had come were in the field by themselves"
+        ],
+        "16": [
+          "When the Arameans realized that they had been defeated by..."
+        ],
+        "19": [
+          "When Hadadezer’s subjects saw that they had been defeated by..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Ammonite war - David's continu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֣לֶךְ: the king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Ammonite war - David's continu...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הַמֶּ֙לֶךְ֙: And the king - a king",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"יֶ֣תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as hang...\".",
+      "supportingVerses": [
+        11,
+        19
+      ],
+      "versePhrases": {
+        "11": [
+          "rest"
+        ],
+        "19": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "יֶ֣תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as hang...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "עֽוֹד׃: - properly, iteration or continuance; used only adverbially (with or without preposit...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work.",
+      "supportingVerses": [
+        6,
+        19
+      ],
+      "versePhrases": {
+        "6": [
+          "made"
+        ],
+        "19": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הִֽתְבָּאֲשׁ֖וּ: that they had made themselves odious - to smell bad; figuratively, to be off...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "וַיַּשְׁלִ֥ימוּ: they made peace - to be safe (in mind, body or estate); figuratively, to be...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "believe"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"חֶ֔סֶד: kindness - kindness; by implication (towards god) piety; rarely (by opposition) repro...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חֶ֔סֶד: kindness - kindness; by implication (towards god) piety; rarely (by opposition) repro...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Theological Analysis: This passage falls within the section on Ammonite war - David's continu...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Ammonite war - David's continu...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

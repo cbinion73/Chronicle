@@ -1,0 +1,347 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Thessalonians",
+  "chapter": 3,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:12.451Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Therefore, brethren, we were comforted over you in all our affliction and distress by your fa...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "Wherefore when we could no longer forbear, we thought it..."
+        ],
+        "2": [
+          "faith"
+        ],
+        "3": [
+          "that no man should be moved by these afflictions"
+        ],
+        "5": [
+          "faith"
+        ],
+        "6": [
+          "faith"
+        ],
+        "7": [
+          "faith"
+        ],
+        "8": [
+          "for now we live, if ye stand fast in the..."
+        ],
+        "10": [
+          "faith"
+        ],
+        "13": [
+          "to the end he may stablish your hearts unblameable in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How do you reconcile Paul's anxiety about the Thessalonians with trust in God's sovereignty?...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 3: \"Wherefore, when we could no longer forbear,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And sent Timotheus, our brother, and minister of God, and our fellowlabourer in the gospel of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Thessalonians: Since the Thessalonians were troubled...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on 1 Thessalonians 4: \"Now may our God and Father Himself, and our...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        6,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "Wherefore when we could no longer forbear, we thought it..."
+        ],
+        "6": [
+          "charity"
+        ],
+        "11": [
+          "Now God himself and our Father, and our Lord Jesus..."
+        ],
+        "12": [
+          "love"
+        ],
+        "13": [
+          "to the end he may stablish your hearts unblameable in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Wherefore when we could no longer forbear, we thought it good to be left at Athens alone — di...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: Paul mentioned the trials they had endured a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But now when Timotheus came from you unto us, and brought us good tidings of your faith and c...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 4: \"But when Timothy came even now unto us from...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on 1 Thessalonians 3: \"That no man be moved by these afflictions; f...\". Word-study detail reinforces \"θλίψει: affliction - pressure (literally or figuratively)\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "that no man should be moved by these afflictions"
+        ],
+        "4": [
+          "suffer"
+        ],
+        "5": [
+          "For this cause, when I could no longer forbear, I..."
+        ],
+        "7": [
+          "affliction"
+        ],
+        "8": [
+          "for now we live, if ye stand fast in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "That no man should be moved by these afflictions: for yourselves know that we are appointed t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 3: \"That no man be moved by these afflictions; f...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For verily, when we were with you, we told you before that we should suffer tribulation; even...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 3: \"That no man be moved by these afflictions; f...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And sent Timotheus, our brother, and minister of God, and our fellowlabourer in the gospel of...\". Word-study detail reinforces \"παρακαλέσαι: to comfort - to call near, i.e., invite, invoke (by imploration, hortation or co...\".",
+      "supportingVerses": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "Wherefore when we could no longer forbear, we thought it..."
+        ],
+        "2": [
+          "comfort"
+        ],
+        "7": [
+          "we were comforted over you in all our affliction and distress by your faith"
+        ],
+        "8": [
+          "for now we live, if ye stand fast in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Wherefore when we could no longer forbear, we thought it good to be left at Athens alone — di...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on HOMILIES ON THE ACTS OF THE APOSTLES 42: “Therefore when we could bear it...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And sent Timotheus, our brother, and minister of God, and our fellowlabourer in the gospel of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 3: \"Wherefore, when we could no longer forbear,...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says, for what thanksgiving c...\". Word-study detail reinforces \"εὐχαριστίαν: thanks - gratitude; actively, grateful language (to god, as an act of worship)\".",
+      "supportingVerses": [
+        3,
+        7,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "3": [
+          "that no man should be moved by these afflictions"
+        ],
+        "7": [
+          "therefore, brethren, we were comforted over you in all our..."
+        ],
+        "9": [
+          "thanks"
+        ],
+        "10": [
+          "night and day praying exceedingly that we might see your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "That no man should be moved by these afflictions: for yourselves know that we are appointed t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on HOMILIES ON EPHESIANS 7: “Therefore I ask that you not be discouraged by m...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Therefore, brethren, we were comforted over you in all our affliction and distress by your fa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says: we have been comforted...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: The other consideration strengthening them i...\". Word-study detail reinforces \"πατρὸς: Father - a \"father\" (literally or figuratively, near or more remote)\".",
+      "supportingVerses": [
+        4,
+        13
+      ],
+      "versePhrases": {
+        "4": [
+          "with you"
+        ],
+        "13": [
+          "at the coming of our Lord Jesus Christ with all his saints"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For verily, when we were with you, we told you before that we should suffer tribulation; even...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: The other consideration strengthening them i...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Tertullian on On the Resurrection of the Flesh: And again: \"For what is our hope, or joy, or...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "πατρὸς: Father - a \"father\" (literally or figuratively, near or more remote)",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

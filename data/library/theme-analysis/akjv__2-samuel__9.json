@@ -1,0 +1,208 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 9,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:29.379Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Then said Ziba unto the king, According to all that my lord the king hath commanded his serva...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 19:17",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Samuel 19:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And there was of the house of Saul a servant whose name was Ziba. And when they had called hi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמֶּ֧לֶךְ: the king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the king said, Is there not yet any of the house of Saul, that I may shew the kindness of...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And David said unto him, Fear not: for I will surely shew thee kindness for Jonathan thy fath...\". Word-study detail reinforces \"שֻׁלְחַ֥ן: table - a table (as spread out); by implication, a meal\".",
+      "supportingVerses": [
+        7,
+        10,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "7": [
+          "bread",
+          "table"
+        ],
+        "10": [
+          "bread",
+          "table"
+        ],
+        "11": [
+          "table"
+        ],
+        "13": [
+          "table"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And David said unto him, Fear not: for I will surely shew thee kindness for Jonathan thy fath...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "שֻׁלְחָנִ֖י: at my table - a table (as spread out); by implication, a meal",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Thou therefore, and thy sons, and thy servants, shall till the land for him, and thou shalt b...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "שֻׁלְחָנִ֑י: at my table - a table (as spread out); by implication, a meal",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And David said, Is there yet any that is left of the house of Saul, that I may shew him kindn...\". Word-study detail reinforces \"חֶ֔סֶד: him kindness - kindness; by implication (towards god) piety; rarely (by opposition) r...\".",
+      "supportingVerses": [
+        1,
+        3,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "kindness"
+        ],
+        "3": [
+          "kindness"
+        ],
+        "7": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And David said, Is there yet any that is left of the house of Saul, that I may shew him kindn...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חֶ֔סֶד: him kindness - kindness; by implication (towards god) piety; rarely (by opposition) r...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the king said, Is there not yet any of the house of Saul, that I may shew the kindness of...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חֶ֣סֶד: the kindness - kindness; by implication (towards god) piety; rarely (by opposition) r...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And David said unto him, Fear not: for I will surely shew thee kindness for Jonathan thy fath...\". Word-study detail reinforces \"תִּירָ֗א: unto him Fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "Fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And David said unto him, Fear not: for I will surely shew thee kindness for Jonathan thy fath...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "תִּירָ֗א: unto him Fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

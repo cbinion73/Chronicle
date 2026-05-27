@@ -1,0 +1,419 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 12,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:09.446Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And Joab sent messengers to David, and said, I have fought against Rabbah, and have taken the...\". Word-study detail reinforces \"מֵֽהָאָ֜רֶץ: from the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        20,
+        27,
+        31
+      ],
+      "versePhrases": {
+        "20": [
+          "earth"
+        ],
+        "27": [
+          "waters"
+        ],
+        "31": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Then David arose from the earth, and washed, and anointed himself, and changed his apparel, a...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "מֵֽהָאָ֜רֶץ: from the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "And Joab sent messengers to David, and said, I have fought against Rabbah, and have taken the...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "הַמָּֽיִם׃: of waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ambrose of Milan on On the Death of Satyrus 2.25-26: Holy David lost two sons. One was guilty...\". Word-study detail reinforces \"חַ֗י: was yet alive - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as...\".",
+      "supportingVerses": [
+        18,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "18": [
+          "alive"
+        ],
+        "21": [
+          "alive"
+        ],
+        "22": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And it came to pass on the seventh day, that the child died. And the servants of David feared...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "חַ֗י: was yet alive - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "Then said his servants unto him, What thing is this that thou hast done? thou didst fast and...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "Ambrose of Milan on On the Death of Satyrus 2.25-26: Holy David lost two sons. One was guilty...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"John Chrysostom on HOMILIES ON REPENTANCE AND ALMSGIVING 2.2.9: Therefore, Nathan went to Dav...\". Word-study detail reinforces \"וּמִכֹּס֤וֹ: of his own cup - a cup (as a container), often figuratively, some unclean bird,...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "And the Lord sent Nathan to David"
+        ],
+        "2": [
+          "The rich man had very many flocks and herds,"
+        ],
+        "3": [
+          "cup"
+        ],
+        "4": [
+          "Now there came a traveler to the rich man, and..."
+        ],
+        "5": [
+          "Then David's anger was greatly kindled against the man, and..."
+        ],
+        "6": [
+          "and he shall restore the lamb fourfold, because he did..."
+        ],
+        "7": [
+          "Nathan said to David, “You are the man"
+        ],
+        "8": [
+          "And I gave you your master's house and your master's..."
+        ],
+        "9": [
+          "Why have you despised the word of the Lord, to..."
+        ],
+        "10": [
+          "Now therefore the sword shall never depart from your house,..."
+        ],
+        "11": [
+          "Thus says the Lord, ‘Behold, I will raise up evil..."
+        ],
+        "12": [
+          "For you did it secretly, but I will do this..."
+        ],
+        "13": [
+          "David said to Nathan, “I have sinned against the Lord"
+        ],
+        "14": [
+          "Nevertheless, because by this deed you have utterly scorned the..."
+        ],
+        "17": [
+          "And the elders of his house stood beside him, to..."
+        ],
+        "20": [
+          "Then David arose from the earth and washed and anointed..."
+        ],
+        "21": [
+          "Then his servants said to him, “What is this thing..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The historical setting of 2 Samuel 12 occurs during David's reign (circa 1010-970 BCE) over I...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on HOMILIES ON REPENTANCE AND ALMSGIVING 2.2.9: Therefore, Nathan went to Dav...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The historical setting of 2 Samuel 12 occurs during David's reign (circa 1010-970 BCE) over I...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on HOMILIES ON REPENTANCE AND ALMSGIVING 2.2.9: Therefore, Nathan went to Dav...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"John Chrysostom on HOMILIES ON REPENTANCE AND ALMSGIVING 2.2.9: Therefore, Nathan went to Dav...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "And the Lord sent Nathan to David"
+        ],
+        "2": [
+          "The rich man had very many flocks and herds,"
+        ],
+        "3": [
+          "but the poor man had nothing but one little ewe..."
+        ],
+        "4": [
+          "Now there came a traveler to the rich man, and..."
+        ],
+        "5": [
+          "Then David's anger was greatly kindled against the man, and..."
+        ],
+        "6": [
+          "and he shall restore the lamb fourfold, because he did..."
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "And I gave you your master's house and your master's..."
+        ],
+        "9": [
+          "Why have you despised the word of the Lord, to..."
+        ],
+        "10": [
+          "Now therefore the sword shall never depart from your house,..."
+        ],
+        "11": [
+          "Thus says the Lord, ‘Behold, I will raise up evil..."
+        ],
+        "12": [
+          "For you did it secretly, but I will do this..."
+        ],
+        "13": [
+          "David said to Nathan, “I have sinned against the Lord"
+        ],
+        "14": [
+          "Nevertheless, because by this deed you have utterly scorned the..."
+        ],
+        "30": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The historical setting of 2 Samuel 12 occurs during David's reign (circa 1010-970 BCE) over I...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on HOMILIES ON REPENTANCE AND ALMSGIVING 2.2.9: Therefore, Nathan went to Dav...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The historical setting of 2 Samuel 12 occurs during David's reign (circa 1010-970 BCE) over I...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on HOMILIES ON REPENTANCE AND ALMSGIVING 2.2.9: Therefore, Nathan went to Dav...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"And he said, While the child was yet alive, I fasted and wept: for I said, Who can tell wheth...\". Word-study detail reinforces \"יְחַנַּ֥נִי: will be gracious - properly, to bend or stoop in kindness to an inferior; to fav...\".",
+      "supportingVerses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        22
+      ],
+      "versePhrases": {
+        "13": [
+          "David said to Nathan, “I have sinned against the Lord"
+        ],
+        "14": [
+          "Nevertheless, because by this deed you have utterly scorned the..."
+        ],
+        "15": [
+          "Then Nathan went to his house"
+        ],
+        "16": [
+          "David therefore sought God on behalf of the child"
+        ],
+        "17": [
+          "And the elders of his house stood beside him, to..."
+        ],
+        "22": [
+          "gracious"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The L...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Salvian the Presbyter on THE GOVERNANCE OF GOD 2.4: You see what instant judgment so great a...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Howbeit, because by this deed thou hast given great occasion to the enemies of the LORD to bl...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Salvian the Presbyter on THE GOVERNANCE OF GOD 2.4: You see what instant judgment so great a...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ambrose of Milan on On the Death of Satyrus 2.25-26: Holy David lost two sons. One was guilty...\". Word-study detail reinforces \"יֶ֣תֶר: the rest - properly, an overhanging, i.e., (by implication) a small rope (as hanging...\".",
+      "supportingVerses": [
+        22,
+        23,
+        28
+      ],
+      "versePhrases": {
+        "22": [
+          "still"
+        ],
+        "23": [
+          "But now he is dead"
+        ],
+        "28": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Ambrose of Milan on On the Death of Satyrus 2.25-26: Holy David lost two sons. One was guilty...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "בְּעוֹד֙: - properly, iteration or continuance; used only adverbially (with or without prepos...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "Ambrose of Milan on On the Death of Satyrus 2.25-26: Holy David lost two sons. One was guilty...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "ע֑וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

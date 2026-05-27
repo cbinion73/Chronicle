@@ -1,0 +1,437 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 49,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:42.828Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 24 and following) Will the prey be taken from the migh...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        24,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "5": [
+          "“And now the Lord says, Who formed Me from the..."
+        ],
+        "6": [
+          "salvation"
+        ],
+        "7": [
+          "The Redeemer of Israel"
+        ],
+        "8": [
+          "salvation"
+        ],
+        "10": [
+          "They shall neither hunger nor thirst, Neither heat nor sun..."
+        ],
+        "11": [
+          "I will make each of My mountains a road, And..."
+        ],
+        "12": [
+          "Surely these shall come from afar"
+        ],
+        "13": [
+          "Sing, O heavens"
+        ],
+        "24": [
+          "delivered"
+        ],
+        "25": [
+          "save",
+          "delivered"
+        ],
+        "26": [
+          "And your Redeemer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This restoration involves both physical return from exile and spiritual regeneration of Israe...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 5, 6 and following) And now says the Lord, who formed...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Acts 13:47",
+          "anchorVerse": 6,
+          "referenceLabel": "Acts 13:47"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This verse appears in the second Servant Song (49:1-6) and marks a dramatic expansion of the...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Versed 8 and following) Thus says the Lord: In a time of fav...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        12,
+        13,
+        17,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "2": [
+          "made"
+        ],
+        "5": [
+          "formed"
+        ],
+        "6": [
+          "earth",
+          "light"
+        ],
+        "8": [
+          "earth"
+        ],
+        "12": [
+          "Surely these shall come from afar"
+        ],
+        "13": [
+          "heavens",
+          "earth"
+        ],
+        "17": [
+          "Your sons shall make haste"
+        ],
+        "21": [
+          "Then you will say in your heart, ‘Who has begotten..."
+        ],
+        "23": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Servant's declaration 'The LORD hath called me from the womb' echoes Jeremiah 1:5 and ant...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 49—Verse 1 onwards) Listen, O islands, and pay atten...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הִזְכִּ֥יר: hath he made mention - properly, to mark (so as to be recognized), i.e., to remem...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 49—Verse 1 onwards) Listen, O islands, and pay atten...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Versed 8 and following) Thus says the Lord: In a time of fav...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        10,
+        11,
+        13,
+        15,
+        17,
+        19,
+        20,
+        21,
+        25
+      ],
+      "versePhrases": {
+        "10": [
+          "mercy"
+        ],
+        "11": [
+          "I will make each of My mountains a road, And..."
+        ],
+        "13": [
+          "mercy"
+        ],
+        "15": [
+          "compassion"
+        ],
+        "17": [
+          "Your sons shall make haste"
+        ],
+        "19": [
+          "“For your waste and desolate places, And the land of..."
+        ],
+        "20": [
+          "The children you will have, After you have lost the..."
+        ],
+        "21": [
+          "Then you will say in your heart, ‘Who has begotten..."
+        ],
+        "25": [
+          "But thus says the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Isaiah 54:10",
+          "anchorVerse": 10,
+          "referenceLabel": "Isaiah 54:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The promise 'They shall not hunger nor thirst; neither shall the heat nor sun smite them' des...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Versed 8 and following) Thus says the Lord: In a time of fav...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "מְרַחֲמָ֣ם: them for he that hath mercy - to fondle; by implication, to love, especially to c...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Cyril of Alexandria on COMMENTARY ON ISAIAH 4:4.49:7: For any powers and rational beings and...\". Word-study detail reinforces \"צַדִּ֖יק: or the lawful - just\".",
+      "supportingVerses": [
+        4,
+        7,
+        17,
+        24,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "4": [
+          "just"
+        ],
+        "7": [
+          "Holy"
+        ],
+        "17": [
+          "Your sons shall make haste"
+        ],
+        "24": [
+          "righteous"
+        ],
+        "25": [
+          "But thus says the Lord"
+        ],
+        "26": [
+          "I will feed those who oppress you with their own..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 49—Verse 1 onwards) Listen, O islands, and pay atten...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The title 'the Redeemer of Israel, and his Holy One' emphasizes both covenant faithfulness an...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON ISAIAH 4:4.49:7: For any powers and rational beings and...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "קְדֹ֥שׁ: and his Holy One - sacred (ceremonially or morally); (as noun) god (by eminence), an...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Cyril of Alexandria on COMMENTARY ON ISAIAH 4:4.49:7: For any powers and rational beings and...\". Word-study detail reinforces \"קְדֹ֥שׁ: and his Holy One - sacred (ceremonially or morally); (as noun) god (by eminence), an...\".",
+      "supportingVerses": [
+        7,
+        17,
+        24
+      ],
+      "versePhrases": {
+        "7": [
+          "Holy"
+        ],
+        "17": [
+          "Your sons shall make haste"
+        ],
+        "24": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The title 'the Redeemer of Israel, and his Holy One' emphasizes both covenant faithfulness an...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON ISAIAH 4:4.49:7: For any powers and rational beings and...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "קְדֹ֥שׁ: and his Holy One - sacred (ceremonially or morally); (as noun) god (by eminence), an...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Thy children shall make haste; thy destroyers and they that made thee waste shall go forth of...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"This promise found initial fulfillment in Cyrus's decree (538 BCE) releasing Jewish captives...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        15,
+        18,
+        22,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "7": [
+          "Thus says the Lord, The Redeemer of Israel, their Holy..."
+        ],
+        "8": [
+          "covenant"
+        ],
+        "9": [
+          "That You may say to the prisoners, ‘Go forth,’ To..."
+        ],
+        "10": [
+          "They shall neither hunger nor thirst, Neither heat nor sun..."
+        ],
+        "12": [
+          "Surely these shall come from afar"
+        ],
+        "13": [
+          "Sing, O heavens"
+        ],
+        "15": [
+          "“Can a woman forget her nursing child, And not have..."
+        ],
+        "18": [
+          "Lift up your eyes, look around and see"
+        ],
+        "22": [
+          "oath"
+        ],
+        "25": [
+          "But thus says the Lord"
+        ],
+        "26": [
+          "I will feed those who oppress you with their own..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The title 'the Redeemer of Israel, and his Holy One' emphasizes both covenant faithfulness an...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on COMMENTARY ON ISAIAH 13:21-22: Theodotion translated, “To him who despises life, wh...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Isaiah 42:6",
+          "anchorVerse": 8,
+          "referenceLabel": "Isaiah 42:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "God's promise 'in an acceptable time have I heard thee, and in a day of salvation have I help...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

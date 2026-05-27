@@ -1,0 +1,324 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 12,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:20.852Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The promised borders (Deuteronomy 11:24; Genesis 15:18) extended from Euphrates to Mediterran...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        7,
+        9,
+        12,
+        15,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "7": [
+          "wherein the Lord thy God hath blessed thee"
+        ],
+        "9": [
+          "inheritance"
+        ],
+        "12": [
+          "inheritance"
+        ],
+        "15": [
+          "blessing"
+        ],
+        "17": [
+          "Thou mayest not eat within thy gates the tithe of..."
+        ],
+        "20": [
+          "promised"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The purpose: 'And there ye shall eat before the LORD your God, and ye shall rejoice in all th...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "בֵּֽרַכְךָ֖: hath blessed - to kneel; by implication to bless god (as an act of adoration), a...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The explanation for current flexibility: 'For ye are not as yet come to the rest and to the i...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "הַֽנַּחֲלָ֔ה: and to the inheritance - properly, something inherited, i.e., (abstractly) occu...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The concluding exhortation: 'Observe and hear all these words which I command thee, that it m...\". Word-study detail reinforces \"מְצַוֶּ֣ה: soever I command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        1,
+        11,
+        14,
+        28,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "statutes"
+        ],
+        "11": [
+          "command"
+        ],
+        "14": [
+          "command"
+        ],
+        "28": [
+          "command"
+        ],
+        "32": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "These are the statutes and judgments, which ye shall observe to do in the land, which the LOR...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַֽחֻקִּ֣ים: These are the statutes - an enactment; hence, an appointment (of time, space, qu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The command restated: 'Then there shall be a place which the LORD your God shall choose to ca...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "מְצַוֶּ֣ה: all that I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The command: 'Thou shalt not eat it; thou shalt pour it upon the earth as water.' This reiter...\". Word-study detail reinforces \"הָאָ֥רֶץ: it upon the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        16,
+        19,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "16": [
+          "earth"
+        ],
+        "19": [
+          "earth"
+        ],
+        "24": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "These are the statutes and judgments, which ye shall observe to do in the land, which the LOR...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָֽאֲדָמָֽה׃: upon the earth - soil (from its general redness)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "How do we understand Jesus's command to 'drink his blood' (John 6) in light of this prohibition?",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "הָאָ֥רֶץ: it upon the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"A critical distinction: 'Notwithstanding thou mayest kill and eat flesh in all thy gates, wha...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        22,
+        26
+      ],
+      "versePhrases": {
+        "15": [
+          "clean"
+        ],
+        "22": [
+          "clean"
+        ],
+        "26": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "A critical distinction: 'Notwithstanding thou mayest kill and eat flesh in all thy gates, wha...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "וְהַטָּהוֹר֙: and the clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Game animals, being wild, weren't brought for sacrifice (only domesticated animals: cattle, s...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "וְהַטָּה֔וֹר: and the clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The command restated: 'Then there shall be a place which the LORD your God shall choose to ca...\". Word-study detail reinforces \"וִֽישַׁבְתֶּם: and dwell - properly, to sit down (specifically as judge. in ambush, in quiet)...\".",
+      "supportingVerses": [
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "10": [
+          "dwell"
+        ],
+        "11": [
+          "dwell"
+        ],
+        "12": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The future promise: 'But when ye go over Jordan, and dwell in the land which the LORD your Go...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וִֽישַׁבְתֶּם: and dwell - properly, to sit down (specifically as judge. in ambush, in quiet)...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The command restated: 'Then there shall be a place which the LORD your God shall choose to ca...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "לְשַׁכֵּ֤ן: to dwell - to reside or permanently stay (literally or figuratively)",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The future promise: 'But when ye go over Jordan, and dwell in the land which the LORD your Go...\". Word-study detail reinforces \"בֶּֽטַח׃: in safety - properly, a place of refuge; abstract, safety, both the fact (security)...\".",
+      "supportingVerses": [
+        9,
+        10
+      ],
+      "versePhrases": {
+        "9": [
+          "rest"
+        ],
+        "10": [
+          "rest",
+          "safety"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The 'rest' would come after conquest when Joshua 'gave them rest round about' (Joshua 21:44)....",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "הַמְּנוּחָה֙: to the rest - repose or (adverbially) peacefully; figuratively, consolation (sp...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The future promise: 'But when ye go over Jordan, and dwell in the land which the LORD your Go...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "בֶּֽטַח׃: in safety - properly, a place of refuge; abstract, safety, both the fact (security)...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

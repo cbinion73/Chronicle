@@ -1,0 +1,130 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:41.384Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Psalms 107:2",
+          "anchorVerse": 9,
+          "referenceLabel": "Psalms 107:2"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And they brought the head of Ish-bosheth unto David to Hebron, and said to the king, Behold t...\". Word-study detail reinforces \"הַמֶּ֤לֶךְ: the king - a king\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And they brought the head of Ish-bosheth unto David to Hebron, and said to the king, Behold t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "הַמֶּ֤לֶךְ: the king - a king",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How much more, when wicked men have slain a righteous person in his own house upon his bed? s...\". Word-study detail reinforces \"הָאָֽרֶץ׃: from the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How much more, when wicked men have slain a righteous person in his own house upon his bed? s...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "הָאָֽרֶץ׃: from the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Inferred",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God.",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "שֹׁכֵ֔ב: who lay - to lie down (for rest, sexual connection, decease or any other purpose)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Inferred",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship.",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "trouble"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

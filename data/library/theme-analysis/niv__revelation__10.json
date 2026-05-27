@@ -1,0 +1,149 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Revelation",
+  "chapter": 10,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:41.852Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Alcuin of York on COMMENTARY ON REVELATION: And the angel, whom I saw standing upon the sea a...\". Word-study detail reinforces \"ἥλιος: the sun - the sun; by implication, light\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Then I saw another mighty angel coming down from heaven"
+        ],
+        "2": [
+          "He was holding a little scroll, which lay open in..."
+        ],
+        "5": [
+          "Then the angel I had seen standing on the sea..."
+        ],
+        "6": [
+          "created",
+          "heavens",
+          "earth"
+        ],
+        "8": [
+          "Then the voice that I had heard from heaven spoke..."
+        ],
+        "10": [
+          "I took the little scroll from the angel’s hand and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on Revelation: Moreover, John, the divine narrator in the present di...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἥλιος: the sun - the sun; by implication, light",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he had in his hand a little book open: and he set his right foot upon the sea, and his le...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: And he had in his hand a little book open. The an...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Ticonius on COMMENTARY ON THE APOCALYPSE 10:4: It was said to him, “Do not write” that which...\". Word-study detail reinforces \"ὥσπερ: as - just as, i.e., exactly like\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Then I saw another mighty angel coming down from heaven"
+        ],
+        "2": [
+          "He was holding a little scroll, which lay open in..."
+        ],
+        "3": [
+          "and he gave a loud shout like the roar of..."
+        ],
+        "4": [
+          "And when the seven thunders spoke, I was about to..."
+        ],
+        "5": [
+          "Then the angel I had seen standing on the sea..."
+        ],
+        "6": [
+          "And he swore by him who lives for ever and..."
+        ],
+        "7": [
+          "just"
+        ],
+        "8": [
+          "Then the voice that I had heard from heaven spoke..."
+        ],
+        "9": [
+          "So I went to the angel and asked him to..."
+        ],
+        "10": [
+          "I took the little scroll from the angel’s hand and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does Revelation 10:1 reveal God's character, particularly His sovereignty, holiness, and...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: And I heard another mighty angel come down from h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does Revelation 10:2 reveal God's character, particularly His sovereignty, holiness, and...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: And he had in his hand a little book open. The an...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

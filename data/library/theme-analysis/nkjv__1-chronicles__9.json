@@ -1,0 +1,104 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 9,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:18.906Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...\".",
+      "supportingVerses": [
+        22,
+        26,
+        31
+      ],
+      "versePhrases": {
+        "22": [
+          "trusted"
+        ],
+        "26": [
+          "trusted"
+        ],
+        "31": [
+          "trusted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 31
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...\". Word-study detail reinforces \"הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king\".",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Inferred",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work.",
+      "supportingVerses": [
+        30
+      ],
+      "versePhrases": {
+        "30": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "רֹֽקְחֵ֥י: made - to perfume",
+          "anchorVerse": 30
+        }
+      ]
+    }
+  ]
+}

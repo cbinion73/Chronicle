@@ -1,0 +1,304 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 62,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:08.251Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 62: \"In God is my salvation and my glory\" [Psalm 62...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "salvation"
+        ],
+        "2": [
+          "salvation"
+        ],
+        "3": [
+          "How long will ye imagine mischief against a man"
+        ],
+        "6": [
+          "salvation"
+        ],
+        "7": [
+          "salvation"
+        ],
+        "12": [
+          "Also unto thee, O Lord, belongeth mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 62:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 62:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Hebrew 'dumiyyah' (silence/waiting/stillness) before God demonstrates restful trust, not...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 62: The title of it is, \"Unto the end, in behalf of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יְשׁוּעָתִֽי׃: from him cometh my salvation - something saved, i.e., (abstractly) deliverance...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Truly my soul waiteth upon God"
+        ],
+        "5": [
+          "My soul, wait thou only upon God"
+        ],
+        "6": [
+          "He only is my rock and my salvation"
+        ],
+        "7": [
+          "In God is my salvation and my glory"
+        ],
+        "8": [
+          "Trust"
+        ],
+        "10": [
+          "Trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written during another of David's experiences of persecution, this psalm reflects mature fait...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "דּֽוּמִיָּ֣ה: waiteth - stillness; adverbially, silently; abstractly quiet, trust",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Pachomius the Great on INSTRUCTIONS 16: And now, my child, if you take God as your hope, he w...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...\". Word-study detail reinforces \"מַחֲסֶה: is a refuge - a shelter (literally or figuratively)\".",
+      "supportingVerses": [
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "5": [
+          "My soul, wait thou only upon God"
+        ],
+        "7": [
+          "refuge"
+        ],
+        "8": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 62: What are You doing, O Idithun, Body of Christ,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The refrain 'In God is my salvation and my glory' grounds identity in divine action, not acco...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "מַ֝חְסִ֗י: and my refuge - a shelter (literally or figuratively)",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"God's speaking 'once... twice' indicates emphatic revelation—truth firmly established (Job 33...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        11,
+        12
+      ],
+      "versePhrases": {
+        "11": [
+          "God hath spoken once"
+        ],
+        "12": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "God's speaking 'once... twice' indicates emphatic revelation—truth firmly established (Job 33...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 62: What follows? \"Once has God spoken, these two t...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 103:8",
+          "anchorVerse": 12,
+          "referenceLabel": "Psalms 103:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The affirmation 'Also unto thee, O Lord, belongeth mercy' balances verse 11's power. The foun...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Clement of Rome on Clement's First Letter to the Corinthians, Chapter 15: Let us cleave, ther...\". Word-study detail reinforces \"יְבָרֵ֑כוּ: they bless - to kneel; by implication to bless god (as an act of adoration), and...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does the linkage between lies and inward cursing teach about the unity of truth and bles...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Clement of Rome on Clement's First Letter to the Corinthians, Chapter 15: Let us cleave, ther...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יְבָרֵ֑כוּ: they bless - to kneel; by implication to bless god (as an act of adoration), and...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Basil of Caesarea on HOMILIES ON THE PSALMS 21:4: “In God is my salvation and my glory; he is...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Psalms 3:3",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 3:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The refrain 'In God is my salvation and my glory' grounds identity in divine action, not acco...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Basil of Caesarea on HOMILIES ON THE PSALMS 21:4: “In God is my salvation and my glory; he is...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "עֻזִּ֥י: of my strength - strength in various applications (force, security, majesty, praise)",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

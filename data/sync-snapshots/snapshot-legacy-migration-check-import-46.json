@@ -1,0 +1,186 @@
+{
+  "id": "snapshot-legacy-migration-check-import-46",
+  "createdAt": "2026-04-01T12:00:00.000Z",
+  "schemaVersion": 3,
+  "appStateVersion": 9,
+  "summary": {
+    "chronicleEntryCount": 0,
+    "prayerItemCount": 0,
+    "formationRhythmCount": 0,
+    "ownedBookCount": 0,
+    "scriptureBookmarkCount": 0,
+    "structuredLibraryCount": 0,
+    "uploadedLibraryCount": 0,
+    "themeCacheFileCount": 8325,
+    "themeCacheVersion": "2026-05-01-graph-v2",
+    "installedTranslationCount": 5
+  },
+  "origin": {
+    "deviceId": "device-mowcodzb-ivmwrr",
+    "deviceLabel": "Chronicle Desktop",
+    "platform": "desktop",
+    "modelVersion": 1,
+    "cachePolicy": {
+      "bibleLibrary": "eager",
+      "themeAnalysis": "eager",
+      "importedBooks": "selected-books"
+    }
+  },
+  "appState": {
+    "theme": "dark",
+    "translation": "NKJV",
+    "bibleView": {
+      "book": "John",
+      "chapter": 1,
+      "provider": "offline_nkjv",
+      "overlayOn": false,
+      "echoesOn": false,
+      "studyColorsOn": false,
+      "greekOn": false,
+      "showThemePanel": false,
+      "panelMode": "themes",
+      "activeThemeIds": []
+    },
+    "chronicleEntries": [],
+    "prayerItems": [],
+    "scriptureBookmarks": [],
+    "ownedBooks": [],
+    "activeStudyModuleId": "bible-study",
+    "studyModuleDayById": {
+      "bible-study": 1,
+      "discipleship": 1
+    },
+    "activeOwnedBookId": "masterlife-book-1",
+    "formationRhythms": [],
+    "syncProfile": {
+      "deviceId": "device-mowcodzb-1qunv4",
+      "deviceLabel": "Chronicle Desktop",
+      "platform": "desktop",
+      "modelVersion": 1,
+      "cachePolicy": {
+        "bibleLibrary": "eager",
+        "themeAnalysis": "eager",
+        "importedBooks": "selected-books"
+      }
+    },
+    "voiceConfig": {
+      "enabled": false,
+      "autoSpeakResponses": false,
+      "saveVoiceTranscriptsToChronicle": true,
+      "transcriptionProvider": "whisper-cli",
+      "synthesisProvider": "piper-cli",
+      "realtimeProvider": "none",
+      "automationProvider": "none",
+      "whisperCli": {
+        "command": "whisper",
+        "model": "base",
+        "language": "auto",
+        "translateToEnglish": false,
+        "initialPrompt": "Chronicle reflection, prayer, Bible study, discipleship, formation"
+      },
+      "localAi": {
+        "baseUrl": "http://127.0.0.1:8080",
+        "whisperModel": "whisper-1",
+        "apiKey": ""
+      },
+      "piper": {
+        "command": "piper",
+        "modelPath": "",
+        "speaker": 0
+      },
+      "homeAssistant": {
+        "baseUrl": "http://homeassistant.local:8123",
+        "conversationAgentId": "home_assistant",
+        "ttsEntityId": "tts.piper",
+        "mediaPlayerEntityId": "",
+        "preferredLanguage": "en"
+      },
+      "liveKit": {
+        "url": "",
+        "roomName": "chronicle-voice",
+        "participantName": "chronicle-user",
+        "agentName": "Chronicle Voice",
+        "tokenTtlMinutes": 10
+      }
+    }
+  },
+  "libraryCatalog": [],
+  "libraryManifest": {
+    "schemaVersion": 1,
+    "generatedAt": "2026-05-08T03:23:17.054Z",
+    "catalogPath": "data/library/catalog.json",
+    "uploadsDir": "data/library/uploads",
+    "ocrBooksDir": "data/ocr/books",
+    "workbookAuditPath": "data/library/qa/discipleship-workbook-audit.json",
+    "bibleLibraryManifestPath": "public/bibles/library/manifest.json",
+    "libraryRecordSchemaVersion": 1,
+    "ownedBookSchemaVersion": 2,
+    "recordCount": 0,
+    "structuredCount": 0
+  },
+  "bibleLibrary": {
+    "manifest": {
+      "schemaVersion": 2,
+      "kind": "chronicle-bible-library",
+      "installedAt": "2026-05-01T02:10:51.558Z",
+      "translations": [
+        {
+          "providerId": "offline_amp",
+          "id": "amp",
+          "label": "AMP Local Library",
+          "basePath": "/bibles/library/amp",
+          "sourceLabel": "AMP Local Library (BibleTranslations generator)"
+        },
+        {
+          "providerId": "offline_asv",
+          "id": "eng_asv",
+          "label": "ASV Local Library",
+          "basePath": "/bibles/helloao/eng_asv",
+          "sourceLabel": "ASV Local Library (HelloAOLab)"
+        },
+        {
+          "providerId": "offline_csb",
+          "id": "csb",
+          "label": "CSB Local Library",
+          "basePath": "/bibles/library/csb",
+          "sourceLabel": "CSB Local Library (BibleTranslations generator)"
+        },
+        {
+          "providerId": "offline_niv",
+          "id": "niv",
+          "label": "NIV Local Library",
+          "basePath": "/bibles/library/niv",
+          "sourceLabel": "NIV Local Library (BibleTranslations generator)"
+        },
+        {
+          "providerId": "offline_nkjv",
+          "id": "nkjv",
+          "label": "NKJV Local Library",
+          "basePath": "/bibles/library/nkjv",
+          "sourceLabel": "NKJV Local Library (BibleTranslations generator)"
+        }
+      ]
+    },
+    "themeCacheStatus": {
+      "totalCacheFiles": 8325,
+      "byTranslation": {
+        "akjv": 1189,
+        "amp": 1189,
+        "csb": 1189,
+        "esv": 1189,
+        "nasb": 1189,
+        "niv": 1189,
+        "nkjv": 1191
+      },
+      "latestVersion": "2026-05-01-graph-v2"
+    }
+  },
+  "importedAt": "2026-05-08T03:23:17.063Z",
+  "importSourceId": "\"snapshot-legacy-migration-check\"",
+  "syncModel": {
+    "version": 1,
+    "mode": "portable-private-sync",
+    "transport": "snapshot-exchange",
+    "mergePolicy": "field-aware-local-first"
+  }
+}

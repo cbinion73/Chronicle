@@ -1,0 +1,93 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 34,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:59.570Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For the tribe of the children of Reuben according to the house of their fathers, and the trib...\". Word-study detail reinforces \"וַֽחֲצִי֙: their inheritance and half - the half or middle\".",
+      "supportingVerses": [
+        2,
+        14,
+        15,
+        17,
+        18,
+        29
+      ],
+      "versePhrases": {
+        "2": [
+          "inheritance"
+        ],
+        "14": [
+          "inheritance"
+        ],
+        "15": [
+          "inheritance"
+        ],
+        "17": [
+          "inheritance"
+        ],
+        "18": [
+          "inheritance"
+        ],
+        "29": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God precisely defines Canaan's borders before Israel crosses Jordan, demonstrating His sovere...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּֽנַחֲלָ֔ה: unto you for an inheritance - properly, something inherited, i.e., (abstractly)...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "For the tribe of the children of Reuben according to the house of their fathers, and the trib...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וַֽחֲצִי֙: their inheritance and half - the half or middle",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"צַ֞ו: Command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "Command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "צַ֞ו: Command - (intensively) to constitute, enjoin",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

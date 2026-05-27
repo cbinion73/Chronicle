@@ -1,0 +1,302 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 32,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:07.308Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Acts: This Moses whom they refused, saying, Who made thee a ruler and a judge? the same did G...\". Word-study detail reinforces \"הָֽאֲדָמָ֑ה: of the earth - soil (from its general redness)\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        8,
+        12,
+        13,
+        20,
+        23,
+        31,
+        35
+      ],
+      "versePhrases": {
+        "1": [
+          "Now when the people saw that Moses delayed to come..."
+        ],
+        "4": [
+          "made"
+        ],
+        "5": [
+          "made"
+        ],
+        "8": [
+          "made"
+        ],
+        "12": [
+          "earth"
+        ],
+        "13": [
+          "heavens"
+        ],
+        "20": [
+          "made"
+        ],
+        "23": [
+          "For they said to me, ‘Make a god for us..."
+        ],
+        "31": [
+          "made"
+        ],
+        "35": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Acts: This Moses whom they refused, saying, Who made thee a ruler and a judge? the same did G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֵאֶ֣רֶץ: us up out of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Aaron's active role is clear: he 'received' (לָקַח, laqach), 'fashioned' (יָצַר, yatsar—the s...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֵאֶ֥רֶץ: thee up out of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Salvian the Presbyter on THE GOVERNANCE OF GOD 1.11.48: Thus is it written: “The Lord therefo...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        10,
+        11,
+        12,
+        27,
+        29,
+        30,
+        34,
+        35
+      ],
+      "versePhrases": {
+        "10": [
+          "So now leave Me alone, that My anger may burn..."
+        ],
+        "11": [
+          "Then Moses pleaded with the Lord his God, and said,..."
+        ],
+        "12": [
+          "Why should the Egyptians talk, saying, ‘With evil motives He..."
+        ],
+        "27": [
+          "And he said to them, “This is what the Lord,..."
+        ],
+        "29": [
+          "Then Moses said, “Dedicate yourselves today to the Lord—for every..."
+        ],
+        "30": [
+          "And on the next day Moses said to the people,..."
+        ],
+        "34": [
+          "punish"
+        ],
+        "35": [
+          "Then the Lord struck the people with a plague, because..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Exodus 22:24",
+          "anchorVerse": 10,
+          "referenceLabel": "Exodus 22:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "God's command וְעַתָּה הַנִּיחָה לִּי (ve'ata hanicha li, now therefore let Me alone) seems s...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on LETTER 128.4: On another occasion God said to Moses, “Let me alone … that I may con...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "אַפִּ֥י: that my wrath - properly, the nose or nostril; hence, the face, and occasionally a p...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ephrem the Syrian on HOMILY ON OUR LORD 17.3-18.1: Bitter signs had accompanied [Israel] as f...\". Word-study detail reinforces \"נְחֵ֣ה: lead - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        1,
+        32,
+        34
+      ],
+      "versePhrases": {
+        "1": [
+          "Now when the people saw that Moses delayed to come..."
+        ],
+        "32": [
+          "But now, if You will forgive their sin, very well"
+        ],
+        "34": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does impatience with God's appointed leaders lead to spiritual compromise?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ephrem the Syrian on HOMILY ON OUR LORD 17.3-18.1: Bitter signs had accompanied [Israel] as f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "What does Moses' offer teach about love for God's people?",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 32 historical",
+          "detail": "Jerome on LETTER 82.3: He sought to imitate the shepherd who would, he knew, carry on his sho...",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Moses descended (וַיִּפֶן וַיֵּרֶד, vayyifen vayyered, turned and went down) carrying שְׁנֵי...\". Word-study detail reinforces \"הָֽעֵדֻ֖ת: of the testimony - testimony\".",
+      "supportingVerses": [
+        15,
+        33
+      ],
+      "versePhrases": {
+        "15": [
+          "testimony"
+        ],
+        "33": [
+          "However, the Lord said to Moses, “Whoever has sinned against..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Moses descended (וַיִּפֶן וַיֵּרֶד, vayyifen vayyered, turned and went down) carrying שְׁנֵי...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָֽעֵדֻ֖ת: of the testimony - testimony",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Ambrose of Milan on Concerning Repentance 1.9.42: The greater the sin, the more worthy must b...\". Word-study detail reinforces \"תִּשָּׂ֣א: Yet now if thou wilt forgive - to lift, in a great variety of applications, litera...\".",
+      "supportingVerses": [
+        32
+      ],
+      "versePhrases": {
+        "32": [
+          "forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "Moses' plea וְעַתָּה אִם־תִּשָּׂא חַטָּאתָם (ve'ata im-tissa chattam, Yet now, if You will fo...",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 32 historical",
+          "detail": "Ambrose of Milan on Concerning Repentance 1.9.42: The greater the sin, the more worthy must b...",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "תִּשָּׂ֣א: Yet now if thou wilt forgive - to lift, in a great variety of applications, litera...",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The people 'rose early' (וַיַּשְׁכִּימוּ, vayyashkimu) showing enthusiasm for false worship c...\". Word-study detail reinforces \"שְׁלָמִ֑ים: peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The people 'rose early' (וַיַּשְׁכִּימוּ, vayyashkimu) showing enthusiasm for false worship c...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "שְׁלָמִ֑ים: peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

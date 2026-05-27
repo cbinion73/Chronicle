@@ -1,0 +1,140 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 19,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:29.320Z",
+  "themes": [
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on SERMON 162A: The book of Kings [Samuel] gives us an example about proph...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        9,
+        20,
+        21,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "9": [
+          "spirit"
+        ],
+        "20": [
+          "Spirit"
+        ],
+        "21": [
+          "When they reported to Saul, he sent other agents, and..."
+        ],
+        "22": [
+          "Then Saul himself went to Ramah"
+        ],
+        "23": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "1 Samuel 16:14",
+          "anchorVerse": 9,
+          "referenceLabel": "1 Samuel 16:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And the evil spirit from the LORD was upon Saul, as he sat in his house with his javelin in h...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Samuel: And the evil spirit from the Lord was upon Saul, etc. When the...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "ר֨וּחַ: spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation;...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And Jonathan spake good of David unto Saul his father, and said unto him, Let not the king si...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        4,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "4": [
+          "king"
+        ],
+        "23": [
+          "So he went to Naioth in Ramah"
+        ],
+        "24": [
+          "Saul then removed his clothes and also prophesied before Samuel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Samuel 22:14",
+          "anchorVerse": 4,
+          "referenceLabel": "1 Samuel 22:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And Jonathan spake good of David unto Saul his father, and said unto him, Let not the king si...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Samuel: Therefore Jonathan spoke good of David to his father Saul, etc....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הַמֶּ֜לֶךְ: unto him Let not the king - a king",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does Saul's eventual violation of his oath teach about the importance of internal transf...\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "oath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "What does Saul's eventual violation of his oath teach about the importance of internal transf...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 29,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:53.170Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"He who 'loveth wisdom' rejoices his father, but one who 'keepeth company with harlots' spends...\". Word-study detail reinforces \"חָ֭כְמָה: wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        9,
+        11,
+        15,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "wisdom"
+        ],
+        "7": [
+          "understand"
+        ],
+        "8": [
+          "wise"
+        ],
+        "9": [
+          "wise"
+        ],
+        "11": [
+          "wise"
+        ],
+        "15": [
+          "wisdom"
+        ],
+        "18": [
+          "instruction"
+        ],
+        "19": [
+          "though he understands"
+        ],
+        "20": [
+          "Do you see someone who speaks too soon"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "He who 'loveth wisdom' rejoices his father, but one who 'keepeth company with harlots' spends...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 1: In my view, the sketch of a soul which yearns t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חָ֭כְמָה: wisdom - wisdom (in a good sense)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The righteous considereth the cause of the poor (יֹדֵעַ צַדִּיק דִּין דַּלִּים)—the verb yada...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"The bloodthirsty hate the upright (אַנְשֵׁי דָמִים יִשְׂנְאוּ־תָם)—literally 'men of bloods'...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        2,
+        4,
+        6,
+        7,
+        10,
+        16,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "righteous"
+        ],
+        "4": [
+          "justice"
+        ],
+        "6": [
+          "righteous"
+        ],
+        "7": [
+          "righteous"
+        ],
+        "10": [
+          "upright"
+        ],
+        "16": [
+          "righteous"
+        ],
+        "26": [
+          "justice"
+        ],
+        "27": [
+          "righteous",
+          "upright"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 28:12",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 28:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "When the righteous 'are in authority, the people rejoice,' but when the wicked rule, 'the peo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "צַ֭דִּיקִים: When the righteous - just",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "A king establishes land by judgment, but one who receives 'gifts' (Hebrew 'terumah'—contribut...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"When the righteous 'are in authority, the people rejoice,' but when the wicked rule, 'the peo...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        2,
+        6,
+        7,
+        16,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "righteous"
+        ],
+        "6": [
+          "righteous"
+        ],
+        "7": [
+          "righteous"
+        ],
+        "16": [
+          "righteous"
+        ],
+        "27": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 28:12",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 28:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "When the righteous 'are in authority, the people rejoice,' but when the wicked rule, 'the peo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "צַ֭דִּיקִים: When the righteous - just",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 118:15",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 118:15"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Proverbs: The king who judges the poor in truth, etc. And the Psalmist...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        4,
+        14
+      ],
+      "versePhrases": {
+        "4": [
+          "king"
+        ],
+        "14": [
+          "king",
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Daniel 11:20",
+          "anchorVerse": 4,
+          "referenceLabel": "Daniel 11:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "A king establishes land by judgment, but one who receives 'gifts' (Hebrew 'terumah'—contribut...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֶ֗לֶךְ: The king - a king",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 16:12",
+          "anchorVerse": 14,
+          "referenceLabel": "Proverbs 16:12"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Many seek the ruler's favour (רַבִּים מְבַקְשִׁים פְּנֵי־מוֹשֵׁל, rabbim mevaqshim penei-mosh...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        4,
+        7,
+        8,
+        11,
+        14,
+        24,
+        26
+      ],
+      "versePhrases": {
+        "4": [
+          "justice"
+        ],
+        "7": [
+          "The righteous person knows the rights of the poor, but..."
+        ],
+        "8": [
+          "Mockers inflame a city, but the wise turn away anger"
+        ],
+        "11": [
+          "A fool gives full vent to his anger, but a..."
+        ],
+        "14": [
+          "A king who judges the poor with fairness— his throne will be established forever"
+        ],
+        "24": [
+          "To be a thief’s partner is to hate oneself"
+        ],
+        "26": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Proverbs 29:14",
+          "anchorVerse": 4,
+          "referenceLabel": "Proverbs 29:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "A king establishes land by judgment, but one who receives 'gifts' (Hebrew 'terumah'—contribut...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "בְּ֭מִשְׁפָּט: by judgment - properly, a verdict (favorable or unfavorable) pronounced judici...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The righteous considereth the cause of the poor (יֹדֵעַ צַדִּיק דִּין דַּלִּים)—the verb yada...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"In what situations does fear of others' opinions influence your decisions more than trust in...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        20,
+        25
+      ],
+      "versePhrases": {
+        "20": [
+          "hope"
+        ],
+        "25": [
+          "but the one who trusts in the Lord is protected"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Proverbs 26:12",
+          "anchorVerse": 20,
+          "referenceLabel": "Proverbs 26:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Seest thou a man that is hasty in his words? —The interrogative 'seest thou' ( chazita ) dema...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "John Cassian on CONFERENCE 14:9: In all things be “quick to listen and slow to speak” lest th...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "תִּקְוָ֖ה: there is more hope - literally a cord (as an attachment); figuratively, expectancy",
+          "anchorVerse": 20
+        }
+      ]
+    }
+  ]
+}

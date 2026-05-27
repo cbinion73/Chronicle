@@ -1,0 +1,335 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Thessalonians",
+  "chapter": 2,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:33.344Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Nor of men sought we glory, neither of you, nor yet of others — zētountes ex anthrōpōn doxan...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        5,
+        6,
+        12,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "5": [
+          "You know we never used flattery, nor did we put..."
+        ],
+        "6": [
+          "praise"
+        ],
+        "12": [
+          "glory"
+        ],
+        "19": [
+          "glory"
+        ],
+        "20": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For neither at any time used we flattering words, as ye know, nor a cloke of covetousness; Go...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 2: \"For neither at any time were we found using...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "John 7:18",
+          "anchorVerse": 6,
+          "referenceLabel": "John 7:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Nor of men sought we glory, neither of you, nor yet of others — zētountes ex anthrōpōn doxan...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says: you are witnesses, he r...\". Word-study detail reinforces \"καθὼς: as - just (or inasmuch) as, that\".",
+      "supportingVerses": [
+        4,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "who tests our hearts"
+        ],
+        "7": [
+          "Just"
+        ],
+        "10": [
+          "righteous",
+          "blameless",
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "But as we were allowed of God to be put in trust with the gospel, even so we speak — dedokima...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Fulgentius of Ruspe on LETTERS 2.35: In all good works, be careful lest you be stirred by des...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "καθὼς: as - just (or inasmuch) as, that",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 1: Then it is right to notice, with respect to t...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says: for what is our hope, h...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        10,
+        13,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "You know, brothers and sisters, that our visit to you..."
+        ],
+        "2": [
+          "We had previously suffered and been treated outrageously in Philippi,..."
+        ],
+        "4": [
+          "we speak as those approved by God to be entrusted with the gospel"
+        ],
+        "10": [
+          "righteous and blameless we were among you who believed"
+        ],
+        "13": [
+          "believe"
+        ],
+        "14": [
+          "For you, brothers and sisters, became imitators of God’s churches..."
+        ],
+        "19": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "For yourselves, brethren, know our entrance in unto you, that it was not in vain — kenē (κενή...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Thessalonians: Great, says the apostle, are your stru...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "But even after that we had suffered before, and were shamefully entreated, as ye know, at Phi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: But we had already suffered bodily trials: \"...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on HOMILIES ON 1 JOHN 9.1: Can we not see, even in dumb, unreasoning creat...\". Word-study detail reinforces \"ἀγαπητοὶ: dear - beloved\".",
+      "supportingVerses": [
+        7,
+        8,
+        11,
+        17
+      ],
+      "versePhrases": {
+        "7": [
+          "Instead, we were like young children among you"
+        ],
+        "8": [
+          "loved"
+        ],
+        "11": [
+          "For you know that we dealt with each of you..."
+        ],
+        "17": [
+          "But, brothers and sisters, when we were orphaned by being..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Paul's gentle approach contrasted with both harsh Jewish legalism and pagan authoritarianism....",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on HOMILIES ON 1 JOHN 9.1: Can we not see, even in dumb, unreasoning creat...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Paul's affectionate language ('brethren beloved,' 1:4; 2:8; 'our own souls,' 2:8; 'comfort yo...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Thessalonians: Ὁμειρόμενοι ὑμῶν, that is, attached to...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says: you are witnesses, he r...\".",
+      "supportingVerses": [
+        4,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "On the contrary, we speak as those approved by God..."
+        ],
+        "10": [
+          "holy",
+          "righteous"
+        ],
+        "12": [
+          "encouraging, comforting and urging you to live lives worthy of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "But as we were allowed of God to be put in trust with the gospel, even so we speak — dedokima...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Fulgentius of Ruspe on LETTERS 2.35: In all good works, be careful lest you be stirred by des...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ye are witnesses, and God also, how holily and justly and unblameably we behaved ourselves am...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says: you are witnesses, he r...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"But we, brethren, being taken from you for a short time in presence, not in heart, endeavoure...\". Word-study detail reinforces \"ἔμπροσθεν: in the presence - in front of (in place (literally or figuratively) or time)\".",
+      "supportingVerses": [
+        8,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "8": [
+          "with you"
+        ],
+        "17": [
+          "But, brothers and sisters, when we were orphaned by being..."
+        ],
+        "19": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "So being affectionately desirous of you, we were willing to have imparted unto you, not the g...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: So, being affectionately desirous of you, we...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "But we, brethren, being taken from you for a short time in presence, not in heart, endeavoure...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 3: \"But we, being taken from you for a short tim...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 12,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:28.802Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And if she be not able to bring a lamb, then she shall bring two turtles, or two young pigeon...\". Word-study detail reinforces \"וְטָהֵֽרָה׃: for her and she shall be clean - to be pure (physical sound, clear, unadulterate...\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "4": [
+          "Then the woman must wait thirty-three days to be purified..."
+        ],
+        "5": [
+          "for two weeks the woman will be unclean"
+        ],
+        "6": [
+          "“‘When the days of her purification for a son or..."
+        ],
+        "7": [
+          "clean"
+        ],
+        "8": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Regulations for ritual purification following childbirth, acknowledging both the blessing of...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "טָֽהֳרָֽהּ׃: of her purifying - ceremonial purification; moral purity",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "But if she bear a maid child, then she shall be unclean two weeks, as in her separation: and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "טָֽהֳרָֽה׃: of her purifying - ceremonial purification; moral purity",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Luke: And when eight days were accomplished for the circumcising of the child, his name was c...\". Word-study detail reinforces \"וְטָהֵֽרָה׃: for her and she shall be clean - to be pure (physical sound, clear, unadulterate...\".",
+      "supportingVerses": [
+        2,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "just"
+        ],
+        "7": [
+          "He shall offer them before the Lord to make atonement..."
+        ],
+        "8": [
+          "But if she cannot afford a lamb, she is to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Speak unto the children of Israel, saying, If a woman have conceived seed, and born a man chi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Who shall offer it before the LORD, and make an atonement for her; and she shall be cleansed...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְטָֽהֲרָ֖ה: for her and she shall be cleansed - to be pure (physical sound, clear, unadulter...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Regulations for ritual purification following childbirth, acknowledging both the blessing of...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

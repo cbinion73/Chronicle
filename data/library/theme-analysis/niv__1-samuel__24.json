@@ -1,0 +1,310 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 24,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:40.428Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on On the Duties of the Clergy 3.9.60: What a virtuous action that was, when...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        8,
+        14,
+        20
+      ],
+      "versePhrases": {
+        "6": [
+          "He said to his men, “The Lord forbid that I..."
+        ],
+        "8": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "20": [
+          "kingdom",
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Ambrose of Milan on On the Duties of the Clergy 3.9.60: What a virtuous action that was, when...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מְשִׁ֥יחַ: against him seeing he is the anointed - anointed; usually a consecrated person (as...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "David also arose afterward, and went out of the cave, and cried after Saul, saying, My lord t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on HOMILIES ON DAVID AND SAUL 3: So what did David reply? “Your servant, my l...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Gregory of Nyssa on ON THE INSCRIPTIONS OF THE PSALMS 2.14.229-30: Saul, therefore, came out...\". Word-study detail reinforces \"סִגְּרַ֧נִי: had delivered - to shut up; figuratively, to surrender\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "The men said, “This is the day the Lord spoke..."
+        ],
+        "6": [
+          "He said to his men, “The Lord forbid that I..."
+        ],
+        "7": [
+          "With these words David sharply rebuked his men and did..."
+        ],
+        "8": [
+          "Then David went out of the cave and called out..."
+        ],
+        "9": [
+          "He said to Saul, “Why do you listen when men..."
+        ],
+        "10": [
+          "delivered"
+        ],
+        "11": [
+          "but you are hunting me down to take my life"
+        ],
+        "15": [
+          "may he vindicate me by delivering me from your hand"
+        ],
+        "16": [
+          "When David finished saying this, Saul asked, “Is that your..."
+        ],
+        "18": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does this passage connect to the larger biblical narrative of redemption and point toward...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Samuel: And David's servants said to him: Behold the day, etc. Christ's...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "נֹתֵ֤ן: unto thee Behold I will deliver - to give, used with greatest latitude of application...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does this passage connect to the larger biblical narrative of redemption and point toward...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The LORD therefore be judge, and judge between me and thee, and see, and plead my cause, and...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        12,
+        15
+      ],
+      "versePhrases": {
+        "12": [
+          "judge"
+        ],
+        "15": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 43:1",
+          "anchorVerse": 12,
+          "referenceLabel": "Psalms 43:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The LORD judge between me and thee, and the LORD avenge me of thee: but mine hand shall not b...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "יִשְׁפֹּ֤ט: judge - to judge, i.e., pronounce sentence (for or against); by implication, to v...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The LORD therefore be judge, and judge between me and thee, and see, and plead my cause, and...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And David sware unto Saul. And Saul went home; but David and his men gat them up unto the hol...\". Word-study detail reinforces \"תַּכְרִ֥ית: cut off - to cut (off, down or asunder); by implication, to destroy or consume; s...\".",
+      "supportingVerses": [
+        21,
+        22
+      ],
+      "versePhrases": {
+        "21": [
+          "Now swear to me by the Lord that you will..."
+        ],
+        "22": [
+          "oath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "Dynastic elimination was common practice—new kings often killed previous royal families to pr...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "תַּכְרִ֥ית: cut off - to cut (off, down or asunder); by implication, to destroy or consume; s...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "And David sware unto Saul. And Saul went home; but David and his men gat them up unto the hol...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Bede on Commentary on Samuel: So Saul went to his house, etc. The people of the Jews who were...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ancient Near Eastern succession often involved assassination of rivals. David's restraint was...\". Word-study detail reinforces \"יְהוָ֛ה: with me forasmuch as when the LORD - (the) self-existent or eternal; jeho-vah, jewis...\".",
+      "supportingVerses": [
+        2,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "near"
+        ],
+        "18": [
+          "You have just now told me about the good you..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on Samuel: Saul, however, taking three thousand chosen men, etc. Just as i...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Ancient Near Eastern succession often involved assassination of rivals. David's restraint was...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "יְהוָ֛ה: with me forasmuch as when the LORD - (the) self-existent or eternal; jeho-vah, jewis...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And he said to David, Thou art more righteous than I: for thou hast rewarded me good, whereas...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        17,
+        18
+      ],
+      "versePhrases": {
+        "17": [
+          "righteous"
+        ],
+        "18": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Genesis 38:26",
+          "anchorVerse": 17,
+          "referenceLabel": "Genesis 38:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And he said to David, Thou art more righteous than I: for thou hast rewarded me good, whereas...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "צַדִּ֥יק: Thou art more righteous - just",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

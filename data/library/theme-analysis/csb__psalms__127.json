@@ -1,0 +1,81 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 127,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:40.537Z",
+  "themes": [
+    {
+      "id": "keyword-vain",
+      "label": "Vain",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “vain.”",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "vain"
+        ],
+        "2": [
+          "vain"
+        ]
+      }
+    },
+    {
+      "id": "keyword-city",
+      "label": "City",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “city.”",
+      "supportingVerses": [
+        1,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "city"
+        ],
+        "5": [
+          "city"
+        ]
+      }
+    },
+    {
+      "id": "keyword-sons",
+      "label": "Sons",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “sons.”",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "Sons"
+        ],
+        "4": [
+          "sons"
+        ]
+      }
+    },
+    {
+      "id": "keyword-offspring",
+      "label": "Offspring",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “offspring.”",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "offspring"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 27,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:36.521Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on Military and civil administrat...\". Word-study detail reinforces \"לַמֶּ֥לֶךְ: of king - a king\".",
+      "supportingVerses": [
+        1,
+        24,
+        25,
+        31,
+        32,
+        33,
+        34
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "24": [
+          "King"
+        ],
+        "25": [
+          "king"
+        ],
+        "31": [
+          "King"
+        ],
+        "32": [
+          "king"
+        ],
+        "33": [
+          "king"
+        ],
+        "34": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Military and civil administrat...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֜לֶךְ: the king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Military and civil administrat...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "לַמֶּ֥לֶךְ: of king - a king",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...\". Word-study detail reinforces \"מֵבִ֥ין: a wise - to separate mentally (or distinguish), i.e., (generally) understand\".",
+      "supportingVerses": [
+        32
+      ],
+      "versePhrases": {
+        "32": [
+          "understanding"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "מֵבִ֥ין: a wise - to separate mentally (or distinguish), i.e., (generally) understand",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Inferred",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning.",
+      "supportingVerses": [
+        24
+      ],
+      "versePhrases": {
+        "24": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "קֶ֖צֶף: not because there fell wrath - a splinter (as chipped off)",
+          "anchorVerse": 24
+        }
+      ]
+    }
+  ]
+}

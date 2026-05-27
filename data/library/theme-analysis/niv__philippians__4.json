@@ -1,0 +1,153 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Philippians",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:32.686Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "Peace here is God’s guarding presence flowing from prayerful dependence. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on Homily on Philippians 14: \"And the peace of God which passeth all understa...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "by prayer and supplication with thanksgiving"
+        ],
+        "7": [
+          "the peace of God",
+          "will guard your hearts and your minds"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Colossians 4:2",
+          "anchorVerse": 6,
+          "referenceLabel": "Colossians 4:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let y...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: Then when he says, have no anxiety, he shows tha...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "προσευχῇ: by prayer - prayer (worship); by implication, an oratory (chapel)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "anxiety",
+      "label": "Anxiety/Fear",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "Paul directly addresses anxious care and redirects it into prayer, gratitude, and trust. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on Philippians: Then when he says, have no anxiety, he shows tha...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "do not be anxious about anything"
+        ],
+        "7": [
+          "surpasses all understanding"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Colossians 4:2",
+          "anchorVerse": 6,
+          "referenceLabel": "Colossians 4:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let y...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: Then when he says, have no anxiety, he shows tha...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "προσευχῇ: by prayer - prayer (worship); by implication, an oratory (chapel)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "contentment",
+      "label": "Contentment",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "Contentment in Philippians 4 is learned Christ-centered steadiness in every circumstance. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on Philippians 15: \"And may my God fulfill every need of yours, acc...\". Cross references echo \"Philippians 3:8\".",
+      "supportingVerses": [
+        11,
+        13,
+        19
+      ],
+      "versePhrases": {
+        "11": [
+          "I have learned",
+          "to be content"
+        ],
+        "13": [
+          "I can do all things through him who strengthens me"
+        ],
+        "19": [
+          "my God will supply every need"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Parallel theme",
+          "detail": "Philippians 3:8",
+          "anchorVerse": 11,
+          "referenceLabel": "Philippians 3:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "GK Chesterton on A Miscellany of Men: The Contented Man: But I wish to urge the case for cubi...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "ἔμαθον: have learned - to learn (in any way)",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

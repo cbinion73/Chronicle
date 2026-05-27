@@ -1,0 +1,378 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 13,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:02.596Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"This proverb contrasts prudent wisdom with foolish naivety. \"Every prudent man dealeth with k...\". Word-study detail reinforces \"בְדָ֑עַת: with knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        10,
+        13,
+        14,
+        15,
+        16,
+        18,
+        20,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "wise",
+          "instruction"
+        ],
+        "10": [
+          "wisdom"
+        ],
+        "13": [
+          "instruction"
+        ],
+        "14": [
+          "wise"
+        ],
+        "15": [
+          "Good judgment wins favor, but the way of the unfaithful..."
+        ],
+        "16": [
+          "knowledge"
+        ],
+        "18": [
+          "Whoever disregards discipline comes to poverty and shame, but whoever..."
+        ],
+        "20": [
+          "wise"
+        ],
+        "24": [
+          "Whoever spares the rod hates their children, but the one..."
+        ],
+        "25": [
+          "The righteous eat to their hearts’ content, but the stomach..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This proverb addresses responsiveness to parental instruction: 'A wise son heareth his father...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Proverbs: \"A wise son is the instruction of a father,\" etc. There is su...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חָ֭כָם: A wise - wise, (i.e., intelligent, skilful or artful)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Whose counsel are you resisting due to pride rather than genuine discernment?",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"This proverb presents righteousness and wickedness as protective versus destructive forces. \"...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        6,
+        9,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "5": [
+          "righteous"
+        ],
+        "6": [
+          "Righteousness"
+        ],
+        "9": [
+          "righteous"
+        ],
+        "21": [
+          "righteous"
+        ],
+        "22": [
+          "righteous"
+        ],
+        "23": [
+          "but injustice sweeps it away"
+        ],
+        "24": [
+          "Whoever spares the rod hates their children, but the one..."
+        ],
+        "25": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This proverb contrasts the righteous and wicked through their relationship with truth. \"A rig...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "צַדִּ֑יק: A righteous - just",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 15:2",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 15:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This proverb presents righteousness and wickedness as protective versus destructive forces. \"...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"This proverb presents righteousness and wickedness as protective versus destructive forces. \"...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        6,
+        9,
+        21,
+        22,
+        25
+      ],
+      "versePhrases": {
+        "5": [
+          "righteous"
+        ],
+        "6": [
+          "Righteousness"
+        ],
+        "9": [
+          "righteous"
+        ],
+        "21": [
+          "righteous"
+        ],
+        "22": [
+          "righteous"
+        ],
+        "25": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This proverb contrasts the righteous and wicked through their relationship with truth. \"A rig...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "צַדִּ֑יק: A righteous - just",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 15:2",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 15:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This proverb presents righteousness and wickedness as protective versus destructive forces. \"...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"This proverb addresses economic injustice and poor stewardship. \"Much food is in the tillage...\". Word-study detail reinforces \"צְ֭דָקָה: Righteousness - rightness (abstractly), subjectively (rectitude), objectively (just...\".",
+      "supportingVerses": [
+        6,
+        8,
+        13,
+        15,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "6": [
+          "Righteousness guards the person of integrity, but wickedness overthrows the..."
+        ],
+        "8": [
+          "A person’s riches may ransom their life, but the poor..."
+        ],
+        "13": [
+          "Whoever scorns instruction will pay for it, but whoever respects..."
+        ],
+        "15": [
+          "judgment"
+        ],
+        "23": [
+          "but injustice sweeps it away"
+        ],
+        "24": [
+          "Whoever spares the rod hates their children, but the one..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient Israelites understood righteousness ( tsedaqah ) as covenant faithfulness—living acco...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "צְ֭דָקָה: Righteousness - rightness (abstractly), subjectively (rectitude), objectively (just...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This proverb addresses wealth's relative power to rescue or protect. \"The ransom of a man's l...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Commentary on Proverbs: \"The ransom of a man's life is his wealth,\" etc. Therefore, w...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This proverb contrasts satisfaction based on righteousness versus wickedness. \"The righteous...\". Word-study detail reinforces \"יַנְחִ֥יל: man leaveth an inheritance - to inherit (as a (figurative) mode of descent), or (g...\".",
+      "supportingVerses": [
+        22,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "22": [
+          "inheritance"
+        ],
+        "24": [
+          "Whoever spares the rod hates their children, but the one..."
+        ],
+        "25": [
+          "The righteous eat to their hearts’ content, but the stomach..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Reflects biblical pattern where wicked persons' wealth transfers to the righteous (think Exod...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 13:22: “A good man will in...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "יַנְחִ֥יל: man leaveth an inheritance - to inherit (as a (figurative) mode of descent), or (g...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Proverbs was compiled primarily during Solomon's reign (970-930 BC) but includes material fro...",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Proverbs: \"The shrewd man does everything with counsel,\" etc. Where he...\".",
+      "supportingVerses": [
+        1,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "A wise son heeds his father’s instruction, but a mocker..."
+        ],
+        "15": [
+          "leads"
+        ],
+        "16": [
+          "All who are prudent act with knowledge, but fools expose..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Do you actively listen to godly counsel from parents, spiritual mentors, or church leaders, o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Proverbs: \"A wise son is the instruction of a father,\" etc. There is su...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "How has good understanding brought favor that eased your path?",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Ancient Near Eastern wisdom valued discretion, especially in royal courts and diplomatic cont...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

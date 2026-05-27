@@ -1,0 +1,311 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 18,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:03.146Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The fool 'hath no delight in understanding, but that his heart may discover itself.' The Hebr...\". Word-study detail reinforces \"דָּֽעַת׃: knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "An unfriendly person pursues selfish ends and against all sound..."
+        ],
+        "2": [
+          "understanding"
+        ],
+        "4": [
+          "wisdom"
+        ],
+        "15": [
+          "wise",
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Isolating oneself to pursue selfish desires demonstrates pride's antisocial tendency. The one...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תּ֝וּשִׁיָּ֗ה: with all wisdom - support or (by implication) ability, i.e., (direct) help, (i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The fool 'hath no delight in understanding, but that his heart may discover itself.' The Hebr...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בִּתְבוּנָ֑ה: in understanding - intelligence; by implication, an argument; by extension, cap...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Showing partiality to the wicked and overthrowing the righteous in judgment are both evil. Th...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        10,
+        16,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "justice"
+        ],
+        "10": [
+          "righteous"
+        ],
+        "16": [
+          "A gift opens the way and ushers the giver into..."
+        ],
+        "17": [
+          "In a lawsuit the first to speak seems right, until..."
+        ],
+        "19": [
+          "A brother wronged is more unyielding than a fortified city"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Leviticus 19:15",
+          "anchorVerse": 5,
+          "referenceLabel": "Leviticus 19:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Showing partiality to the wicked and overthrowing the righteous in judgment are both evil. Th...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "צַ֝דִּ֗יק: the righteous - just",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The name of the LORD is a strong tower: the righteous runneth into it, and is safe. This prov...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Proverbs: A lovable man to society, etc. The believing people from the...\". Word-study detail reinforces \"וְ֝אֹהֲבֶ֗יהָ: and they that love - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        16,
+        21,
+        24
+      ],
+      "versePhrases": {
+        "16": [
+          "A gift opens the way and ushers the giver into..."
+        ],
+        "21": [
+          "love"
+        ],
+        "24": [
+          "One who has unreliable friends soon comes to ruin, but..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Ancient Near Eastern protocol required bringing gifts when approaching royalty or seeking fav...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Bede on Commentary on Proverbs: The gift of a man makes his way broad, etc. The gift of chari...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "Death and life are in the power of the tongue; and they that love it shall eat the fruit ther...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "Valerian of Cimiez on HOMILY 5:4: A wound arising from words is unbearable.… Truly, dearly be...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Showing partiality to the wicked and overthrowing the righteous in judgment are both evil. Th...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        5,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "judgment"
+        ],
+        "5": [
+          "justice"
+        ],
+        "17": [
+          "In a lawsuit the first to speak seems right, until..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Proverbs 24:23",
+          "anchorVerse": 5,
+          "referenceLabel": "Proverbs 24:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Showing partiality to the wicked and overthrowing the righteous in judgment are both evil. Th...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בַּמִּשְׁפָּֽט׃: in judgment - properly, a verdict (favorable or unfavorable) pronounced judi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "This proverb exposes the danger of one-sided narratives. 'He that is first in his own cause s...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"A person's words can be 'deep waters' and 'a flowing brook' of wisdom. The Hebrew 'mayim amaq...\". Word-study detail reinforces \"מַ֣יִם: waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        4,
+        19
+      ],
+      "versePhrases": {
+        "4": [
+          "waters"
+        ],
+        "19": [
+          "A brother wronged is more unyielding than a fortified city"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "A person's words can be 'deep waters' and 'a flowing brook' of wisdom. The Hebrew 'mayim amaq...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PROVERBS OF SOLOMON, FRAGMENT 18:4: “The word in the hea...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מַ֣יִם: waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "How does understanding the extreme difficulty of reconciliation motivate you to pursue peace...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Showing partiality to the wicked and overthrowing the righteous in judgment are both evil. Th...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        10
+      ],
+      "versePhrases": {
+        "5": [
+          "It is not good to be partial to the wicked..."
+        ],
+        "10": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Leviticus 19:15",
+          "anchorVerse": 5,
+          "referenceLabel": "Leviticus 19:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Showing partiality to the wicked and overthrowing the righteous in judgment are both evil. Th...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "צַ֝דִּ֗יק: the righteous - just",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The name of the LORD is a strong tower: the righteous runneth into it, and is safe. This prov...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

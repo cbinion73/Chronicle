@@ -1,0 +1,369 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 107,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:14.599Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"This verse begins the third rescue scenario: healing from sickness. 'Fools because of their t...\". Word-study detail reinforces \"וְיָגֽוֹן׃: and sorrow - affliction\".",
+      "supportingVerses": [
+        6,
+        10,
+        13,
+        17,
+        19,
+        28,
+        39,
+        41
+      ],
+      "versePhrases": {
+        "6": [
+          "trouble"
+        ],
+        "10": [
+          "Some dwelt in darkness and in the deep (deathly) darkness,..."
+        ],
+        "13": [
+          "trouble"
+        ],
+        "17": [
+          "afflicted"
+        ],
+        "19": [
+          "trouble"
+        ],
+        "28": [
+          "trouble"
+        ],
+        "39": [
+          "sorrow"
+        ],
+        "41": [
+          "affliction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This verse describes the cry for help and God's response. 'Then they cried unto the LORD in t...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory of Nyssa on AGAINST EUNOMIUS 2:15: Prophetic language affirms that the conversion of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "בַּצַּ֣ר: in their trouble - a pebble (as in h6864)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "This scenario describes exiles in Babylon ('bound in affliction and iron') sitting in darknes...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Israel's worship was corporate, centered in tabernacle/temple with the congregation assembled...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        1,
+        8,
+        15,
+        21,
+        22,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "thanks"
+        ],
+        "8": [
+          "thanks"
+        ],
+        "15": [
+          "thanks"
+        ],
+        "21": [
+          "thanks"
+        ],
+        "22": [
+          "thanksgiving"
+        ],
+        "31": [
+          "thanks"
+        ],
+        "32": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse establishes the psalm's theme: thanksgiving for God's covenant love. 'O gi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הֹד֣וּ: O give thanks - physically, to throw (a stone, an arrow) at or away; especially to re...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This is the psalm's first refrain (repeated in vv. 15, 21, 31). 'Oh that men would praise the...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "יוֹד֣וּ: Oh that men would praise - physically, to throw (a stone, an arrow) at or away; espe...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 107: \"Confess unto the Lord that He is sweet, becau...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        8,
+        15,
+        21,
+        31,
+        43
+      ],
+      "versePhrases": {
+        "1": [
+          "compassion",
+          "lovingkindness"
+        ],
+        "8": [
+          "lovingkindness"
+        ],
+        "15": [
+          "lovingkindness"
+        ],
+        "21": [
+          "lovingkindness"
+        ],
+        "31": [
+          "lovingkindness"
+        ],
+        "43": [
+          "lovingkindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 106:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 106:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse establishes the psalm's theme: thanksgiving for God's covenant love. 'O gi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 107: \"Confess unto the Lord that He is sweet, becau...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חַסְדּֽוֹ׃: for his mercy - kindness; by implication (towards god) piety; rarely (by oppositi...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 107: And therefore after this wandering, and hunger...\". Word-study detail reinforces \"וַיּ֣וֹשֶׁב: to dwell - properly, to sit down (specifically as judge. in ambush, in quiet); b...\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        18,
+        34,
+        36
+      ],
+      "versePhrases": {
+        "4": [
+          "They wandered in the wilderness in a [solitary] desert region"
+        ],
+        "6": [
+          "Then they cried out to the Lord in their trouble,..."
+        ],
+        "7": [
+          "He led them by the straight way, To an inhabited..."
+        ],
+        "18": [
+          "near"
+        ],
+        "34": [
+          "dwell"
+        ],
+        "36": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does the longing for 'a city to dwell in' reflect the human need for God?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 107: \"They wandered in the wilderness, in a dry pla...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מ֝וֹשָׁ֗ב: to dwell - a seat; figuratively, a site; abstractly, a session; by extension an ab...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 107: And therefore after this wandering, and hunger...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"This verse describes God's deliverance method. 'And he led them forth by the right way' empha...\". Word-study detail reinforces \"וַעֲצַ֖ת: the counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        7,
+        11,
+        16,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "led"
+        ],
+        "11": [
+          "counsel"
+        ],
+        "16": [
+          "For He has shattered the gates of bronze And cut..."
+        ],
+        "30": [
+          "guided"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This verse describes God's deliverance method. 'And he led them forth by the right way' empha...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 107: And therefore after this wandering, and hunger...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וַ֭יַּֽדְרִיכֵם: And he led them forth - to tread; by implication, to walk; also to string a...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Israel's exile resulted from persistent rebellion against God's word through the prophets (2...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This concluding verse summarizes the psalm's call. 'Whoso is wise, and will observe these thi...\". Word-study detail reinforces \"חָכָ֥ם: Whoso is wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        11,
+        27,
+        43
+      ],
+      "versePhrases": {
+        "11": [
+          "counsel"
+        ],
+        "27": [
+          "wisdom"
+        ],
+        "43": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This verse explains why they're imprisoned. 'Because they rebelled against the words of God'...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 107: \"Them that sit in darkness, and in the shadow...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וַעֲצַ֖ת: the counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "This verse continues describing sailors' extremity. 'They reel to and fro, and stagger like a...",
+          "anchorVerse": 27
+        }
+      ]
+    }
+  ]
+}

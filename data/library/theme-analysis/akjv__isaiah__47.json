@@ -1,0 +1,333 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 47,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:56.711Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 12 and following) Stand with your sorcerers, and with...\". Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        4,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "4": [
+          "As for our redeemer"
+        ],
+        "13": [
+          "save"
+        ],
+        "14": [
+          "deliver"
+        ],
+        "15": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Isaiah 44:6",
+          "anchorVerse": 4,
+          "referenceLabel": "Isaiah 44:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does understanding God as your 'kinsman redeemer' deepen your assurance of salvation?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4 onwards) Our Redeemer, the Lord of hosts is his name...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "גֹּאֲלֵ֕נוּ: As for our redeemer - to redeem (according to the middle eastern law of kinship)...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 12 and following) Stand with your sorcerers, and with...\". Word-study detail reinforces \"וְדַעְתֵּ֖ךְ: and thy knowledge - knowledge\".",
+      "supportingVerses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "9": [
+          "but these two things shall come to thee in a..."
+        ],
+        "10": [
+          "wisdom",
+          "knowledge"
+        ],
+        "11": [
+          "Therefore shall evil come upon thee"
+        ],
+        "12": [
+          "Stand now with thine enchantments, and with the multitude of..."
+        ],
+        "13": [
+          "Thou art wearied in the multitude of thy counsels"
+        ],
+        "14": [
+          "Behold, they shall be as stubble"
+        ],
+        "15": [
+          "Thus shall they be unto thee with whom thou hast..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The judgment 'these two things shall come to thee in a moment in one day' emphasizes sudden,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 8, onwards) And now listen to this, you delicate and c...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The accusation 'thy wisdom and thy knowledge, it hath perverted thee' shows that human learni...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Second, the error they fell into because of these thi...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 8, onwards) And now listen to this, you delicate and c...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        8,
+        9,
+        10,
+        11,
+        15
+      ],
+      "versePhrases": {
+        "8": [
+          "Therefore hear now this, thou that art given to pleasures,..."
+        ],
+        "9": [
+          "but these two things shall come to thee in a..."
+        ],
+        "10": [
+          "trusted"
+        ],
+        "11": [
+          "Therefore shall evil come upon thee"
+        ],
+        "15": [
+          "Thus shall they be unto thee with whom thou hast..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Babylon's goddess Ishtar claimed to prevent widowhood and child-loss, and the city's massive...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 8, onwards) And now listen to this, you delicate and c...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "לָבֶ֔טַח: carelessly - properly, a place of refuge; abstract, safety, both the fact (security...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What modern 'sorceries' (astrology, new age, etc.) do people trust instead of God's revealed...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thy nakedness shall be uncovered, yea, thy shame shall be seen. The Hebrew ervah (nakedness)...\". Word-study detail reinforces \"כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "Take the millstones, and grind meal"
+        ],
+        "3": [
+          "Thy nakedness shall be uncovered, yea, thy shame shall be..."
+        ],
+        "4": [
+          "Holy"
+        ],
+        "15": [
+          "Thus shall they be unto thee with whom thou hast..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Take the millstones, and grind meal: uncover thy locks, make bare the leg, uncover the thigh,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 47, verses 1 and following) Descend, sit in the dust...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Thy nakedness shall be uncovered, yea, thy shame shall be seen. The Hebrew ervah (nakedness)...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 47, verses 1 and following) Descend, sit in the dust...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Sit thou silent, and get thee into darkness, O daughter of the Chaldeans. God commands Babylo...\". Word-study detail reinforces \"כִּסֵּ֖א: there is no throne - properly, covered, i.e., a throne (as canopied)\".",
+      "supportingVerses": [
+        1,
+        3,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "throne"
+        ],
+        "3": [
+          "Thy nakedness shall be uncovered, yea, thy shame shall be..."
+        ],
+        "5": [
+          "The lady of kingdoms"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The command for Babylon to 'come down, and sit in the dust' reverses her royal pretensions, d...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 47, verses 1 and following) Descend, sit in the dust...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "כִּסֵּ֖א: there is no throne - properly, covered, i.e., a throne (as canopied)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Babylon's fall in 539 BC involved the humiliation of her priesthood, nobility, and religious...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: I was angry. Here he set out their fault, which is th...\". Word-study detail reinforces \"נַחֲלָתִ֔י: mine inheritance - properly, something inherited, i.e., (abstractly) occupancy, o...\".",
+      "supportingVerses": [
+        6,
+        15
+      ],
+      "versePhrases": {
+        "6": [
+          "inheritance"
+        ],
+        "15": [
+          "Thus shall they be unto thee with whom thou hast..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: I was angry. Here he set out their fault, which is th...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "נַחֲלָתִ֔י: mine inheritance - properly, something inherited, i.e., (abstractly) occupancy, o...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Thus shall they be unto thee with whom thou hast laboured, even thy merchants, from thy youth...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 12 and following) Stand with your sorcerers, and with...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

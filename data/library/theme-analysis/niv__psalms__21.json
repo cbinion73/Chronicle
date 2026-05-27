@@ -1,0 +1,285 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 21,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:07.506Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Be thou exalted, LORD, in thine own strength: so will we sing and praise thy power. The psalm...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        5,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "Lord"
+        ],
+        "5": [
+          "glory"
+        ],
+        "13": [
+          "praise",
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 21, like Psalm 20, is classified as a royal psalm used in temple liturgy, likely during...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Pseudo-Athanasius on EXPOSITION ON PSALM 21: Friends of David also delivered this psalm, as i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּעָזְּךָ֥: in thy strength - strength in various applications (force, security, majesty, pr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "John 17:22",
+          "anchorVerse": 5,
+          "referenceLabel": "John 17:22"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, a petitio...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "You came to greet him with rich blessings and placed..."
+        ],
+        "5": [
+          "Through the victories you gave, his glory is great"
+        ],
+        "6": [
+          "Surely you have granted him unending blessings and made him..."
+        ],
+        "7": [
+          "king"
+        ],
+        "13": [
+          "Be exalted in your strength, Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Hebrews 12:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Hebrews 12:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 21, like Psalm 20, is classified as a royal psalm used in temple liturgy, likely during...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, a petitio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֑לֶךְ: The king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"You shall make them.\" Here the punishme...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "8": [
+          "Your hand will lay hold on all your enemies"
+        ],
+        "9": [
+          "wrath"
+        ],
+        "12": [
+          "You will make them turn their backs when you aim..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "God's sovereign power to find and judge all enemies demonstrates His omniscience and omnipote...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Let your hand be found.\" Above the Psal...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Lamentations 2:2",
+          "anchorVerse": 9,
+          "referenceLabel": "Lamentations 2:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The imagery of God's wrath as a 'fiery oven' consuming enemies reveals His holy hatred of sin...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 21: \"Their fruit shall You destroy out of the earth...\". Word-study detail reinforces \"מֵאֶ֣רֶץ: from the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        6,
+        10
+      ],
+      "versePhrases": {
+        "6": [
+          "made"
+        ],
+        "10": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "תְּחַדֵּ֥הוּ: thou hast made - to rejoice",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 21: \"Their fruit shall You destroy out of the earth...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "מֵאֶ֣רֶץ: from the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The imagery of God's wrath as a 'fiery oven' consuming enemies reveals His holy hatred of sin...\". Word-study detail reinforces \"פָּֽז׃: of pure gold - pure (gold); hence, gold itself (as refined)\".",
+      "supportingVerses": [
+        3,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "pure"
+        ],
+        "9": [
+          "When you appear for battle, you will burn them up..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The coronation imagery recalls the anointing of Davidic kings. The 'crown of pure gold' signi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on AGAINST TWO LETTERS OF THE PELAGIANS 2:21: And what is here more fitly...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "פָּֽז׃: of pure gold - pure (gold); hence, gold itself (as refined)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The imagery of God's wrath as a 'fiery oven' consuming enemies reveals His holy hatred of sin...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"In what ways does knowing you cannot be 'moved' from God's love change your approach to trials?\". Word-study detail reinforces \"וּבְחֶ֥סֶד: and through the mercy - kindness; by implication (towards god) piety; rarely (by...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "In what ways does knowing you cannot be 'moved' from God's love change your approach to trials?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וּבְחֶ֥סֶד: and through the mercy - kindness; by implication (towards god) piety; rarely (by...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

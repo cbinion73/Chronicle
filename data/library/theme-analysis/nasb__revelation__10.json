@@ -1,0 +1,94 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Revelation",
+  "chapter": 10,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:59:03.943Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Alcuin of York on COMMENTARY ON REVELATION: And the angel, whom I saw standing upon the sea a...\". Word-study detail reinforces \"ἥλιος: the sun - the sun; by implication, light\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "I saw another strong angel coming down from heaven, clothed..."
+        ],
+        "2": [
+          "and he had in his hand a little scroll, which..."
+        ],
+        "5": [
+          "Then the angel whom I saw standing on the sea..."
+        ],
+        "6": [
+          "created",
+          "earth"
+        ],
+        "8": [
+          "Then the voice which I heard from heaven, I heard..."
+        ],
+        "10": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on Revelation: Moreover, John, the divine narrator in the present di...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἥλιος: the sun - the sun; by implication, light",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he had in his hand a little book open: and he set his right foot upon the sea, and his le...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: And he had in his hand a little book open. The an...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Primasius of Hadrumetum on COMMENTARY ON THE APOCALYPSE 10:8: The voice from heaven is the co...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Primasius of Hadrumetum on COMMENTARY ON THE APOCALYPSE 10:8: The voice from heaven is the co...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

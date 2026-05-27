@@ -1,0 +1,452 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Kings",
+  "chapter": 22,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:17.032Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 33 verses. Commentary leans on \"Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 20.257-62: I think every evil and de...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        41,
+        42,
+        44,
+        45,
+        47,
+        50,
+        51
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "king",
+          "throne"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "throne"
+        ],
+        "21": [
+          "Then a spirit came forward and stood before the Lord,..."
+        ],
+        "22": [
+          "The Lord said to him, ‘In what way"
+        ],
+        "26": [
+          "king"
+        ],
+        "27": [
+          "king"
+        ],
+        "29": [
+          "king"
+        ],
+        "30": [
+          "king"
+        ],
+        "31": [
+          "king"
+        ],
+        "32": [
+          "king"
+        ],
+        "33": [
+          "king"
+        ],
+        "34": [
+          "king"
+        ],
+        "35": [
+          "king"
+        ],
+        "37": [
+          "king"
+        ],
+        "41": [
+          "king"
+        ],
+        "42": [
+          "king"
+        ],
+        "44": [
+          "king"
+        ],
+        "45": [
+          "are they not written in the book of the chronicles of the kings of Judah?"
+        ],
+        "47": [
+          "king"
+        ],
+        "50": [
+          "Then Jehoram his son reigned in his place"
+        ],
+        "51": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 15:24",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 15:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And it came to pass in the third year, that Jehoshaphat the king of Judah came down to the ki...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶלֶךְ: king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the king of Israel said unto his servants, Know ye that Ramoth in Gilead is our's, and we...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Walafrid Strabo on GLOSSA ORDINARIA, THIRD BOOK OF KINGS 22.17: “I saw all Israel scattered o...\". Word-study detail reinforces \"עוֹד: still\".",
+      "supportingVerses": [
+        7,
+        8,
+        17,
+        27,
+        28,
+        39,
+        44,
+        45,
+        46
+      ],
+      "versePhrases": {
+        "7": [
+          "still"
+        ],
+        "8": [
+          "still"
+        ],
+        "17": [
+          "peace"
+        ],
+        "27": [
+          "peace"
+        ],
+        "28": [
+          "peace"
+        ],
+        "39": [
+          "rest"
+        ],
+        "44": [
+          "peace"
+        ],
+        "45": [
+          "rest"
+        ],
+        "46": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And he said, I saw all Israel scattered upon the hills, as sheep that have not a shepherd: an...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Walafrid Strabo on GLOSSA ORDINARIA, THIRD BOOK OF KINGS 22.17: “I saw all Israel scattered o...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "And say, Thus saith the king, Put this fellow in the prison, and feed him with bread of affli...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "And Micaiah said, If thou return at all in peace, the LORD hath not spoken by me. And he said...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And Jehoshaphat made peace with the king of Israel. This verse contributes to the broader nar...\". Word-study detail reinforces \"עָשָׂה: made\".",
+      "supportingVerses": [
+        11,
+        44,
+        45,
+        48,
+        52
+      ],
+      "versePhrases": {
+        "11": [
+          "made"
+        ],
+        "44": [
+          "made"
+        ],
+        "45": [
+          "made"
+        ],
+        "48": [
+          "made"
+        ],
+        "52": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And Zedekiah the son of Chenaanah made him horns of iron: and he said, Thus saith the LORD, W...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וַיַּעַשׂ: And had made",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 44 commentary",
+          "detail": "And Jehoshaphat made peace with the king of Israel. This verse contributes to the broader nar...",
+          "anchorVerse": 44
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 45 word study",
+          "detail": "וַיַּשְׁלֵם: And made peace",
+          "anchorVerse": 45
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 20.257-62: I think every evil and de...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "21": [
+          "spirit"
+        ],
+        "22": [
+          "spirit"
+        ],
+        "23": [
+          "spirit"
+        ],
+        "24": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "And there came forth a spirit, and stood before the LORD, and said, I will persuade him. This...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 20.257-62: I think every evil and de...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "הָרוּחַ: the spirit",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Judges 9:23",
+          "anchorVerse": 22,
+          "referenceLabel": "Judges 9:23"
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"So he came to the king. And the king said unto him, Micaiah, shall we go against Ramoth-gilea...\".",
+      "supportingVerses": [
+        6,
+        12,
+        15
+      ],
+      "versePhrases": {
+        "6": [
+          "deliver"
+        ],
+        "12": [
+          "deliver"
+        ],
+        "15": [
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Then the king of Israel gathered the prophets together, about four hundred men, and said unto...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And all the prophets prophesied so, saying, Go up to Ramoth-gilead, and prosper: for the LORD...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "So he came to the king. And the king said unto him, Micaiah, shall we go against Ramoth-gilea...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...\". Word-study detail reinforces \"אִתִּי: with me\".",
+      "supportingVerses": [
+        4,
+        24
+      ],
+      "versePhrases": {
+        "4": [
+          "with me"
+        ],
+        "24": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אִתִּי: with me",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "וַיִּגַּשׁ: And came near",
+          "anchorVerse": 24
+        }
+      ]
+    }
+  ]
+}

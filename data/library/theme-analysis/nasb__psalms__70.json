@@ -1,0 +1,113 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 70,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:01.864Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Make haste, O God, to deliver me; make haste to help me, O LORD. This urgent plea opens Psalm...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "save"
+        ],
+        "4": [
+          "salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Make haste, O God, to deliver me; make haste to help me, O LORD. This urgent plea opens Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Cassian on CONFERENCE 10:10: And so for keeping up continual recollection of God this de...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהַצִּילֵ֑נִי: to deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 40:16",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 40:16"
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Let all those that seek thee rejoice and be glad in thee: and let such as love thy salvation...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Psalms 5:11",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 5:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Let all those that seek thee rejoice and be glad in thee: and let such as love thy salvation...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 70: And what comes to pass when they are all turned...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֹ֝הֲבֵ֗י: in thee and let such as love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

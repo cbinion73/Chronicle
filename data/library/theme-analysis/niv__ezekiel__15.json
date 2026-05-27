@@ -1,0 +1,48 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 15,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:31.844Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Chapter 15, verse 1 onwards) And the word of the Lord came...\". Word-study detail reinforces \"הָאָ֖רֶץ: the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        5,
+        8
+      ],
+      "versePhrases": {
+        "5": [
+          "made"
+        ],
+        "8": [
+          "I will make the land desolate because they have been..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 15, verse 1 onwards) And the word of the Lord came...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 15, verse 1 onwards) And the word of the Lord came...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "הָאָ֖רֶץ: the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

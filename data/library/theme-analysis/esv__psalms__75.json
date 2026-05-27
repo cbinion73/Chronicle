@@ -1,0 +1,241 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 75,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:54.380Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But I will declare for ever; I will sing praises to the God of Jacob. Amid pronouncements of...\". Word-study detail reinforces \"ה֭וֹדִינוּ: do we give thanks - physically, to throw (a stone, an arrow) at or away; especial...\".",
+      "supportingVerses": [
+        1,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "thanks"
+        ],
+        "9": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy name is near t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMON 23A.4: So he gave us the way of humility. If we keep to it we sh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ה֭וֹדִינוּ: do we give thanks - physically, to throw (a stone, an arrow) at or away; especial...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "But I will declare for ever; I will sing praises to the God of Jacob. Amid pronouncements of...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 75: And he says what? \"When I shall have received,\"...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        2,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "judge"
+        ],
+        "7": [
+          "judgment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Acts 17:31",
+          "anchorVerse": 2,
+          "referenceLabel": "Acts 17:31"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God speaks in first person: \"When I shall receive the congregation I will judge uprightly\" (H...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 75: And he says what? \"When I shall have received,\"...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶשְׁפֹּֽט׃: I will judge - to judge, i.e., pronounce sentence (for or against); by implicati...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 75: But now what? \"The earth has flowed down\" [Psal...\". Word-study detail reinforces \"אֶ֥רֶץ: The earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "earth"
+        ],
+        "8": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does God \"bearing up the pillars\" while earth \"dissolves\" provide stability amid personal...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 75: But now what? \"The earth has flowed down\" [Psal...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֶ֥רֶץ: The earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The psalm describes judgment: \"For in the hand of the LORD there is a cup, and the wine is re...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 75: \"For the cup in the hand of the Lord of pure wi...\". Word-study detail reinforces \"צַדִּֽיק׃: of the righteous - just\".",
+      "supportingVerses": [
+        8,
+        10
+      ],
+      "versePhrases": {
+        "8": [
+          "For in the hand of the Lord there is a..."
+        ],
+        "10": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How should the certainty of judgment for the impenitent motivate evangelism and holy living?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 75: \"For the cup in the hand of the Lord of pure wi...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "God declares: \"All the horns of the wicked also will I cut off; but the horns of the righteou...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "צַדִּֽיק׃: of the righteous - just",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy name is near t...\". Word-study detail reinforces \"וְקָר֣וֹב: is near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy name is near t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 75: \"We will confess to You, O Lord, we will confes...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְקָר֣וֹב: is near - near (in place, kindred or time)",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 63,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:00.451Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verses 8-9) And He said: Yet My people are; sons not denying...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        9,
+        11,
+        12,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "save"
+        ],
+        "3": [
+          "I have trodden the winepress alone"
+        ],
+        "4": [
+          "and the year of my redeemed is come"
+        ],
+        "5": [
+          "salvation"
+        ],
+        "8": [
+          "For he said, Surely they are my people, children that..."
+        ],
+        "9": [
+          "saved"
+        ],
+        "11": [
+          "Then he remembered the days of old, Moses, and his..."
+        ],
+        "12": [
+          "that led them by the right hand of Moses with..."
+        ],
+        "16": [
+          "our redeemer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "A dramatic vision opens: 'Who is this that cometh from Edom, with dyed garments from Bozrah?'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON ISAIAH 5:5.63:1-7: For he appeared to the powers above n...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהוֹשִֽׁיעַ׃: to save - properly, to be open, wide or free, i.e., (by implication) to be saf...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The solo nature of this victory emphasizes divine sufficiency. No human assistance contribute...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 10) But they provoked Him to anger, and vexed the spir...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        10,
+        11,
+        15,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "righteousness"
+        ],
+        "10": [
+          "holy"
+        ],
+        "11": [
+          "holy"
+        ],
+        "15": [
+          "holiness"
+        ],
+        "18": [
+          "holiness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "A dramatic vision opens: 'Who is this that cometh from Edom, with dyed garments from Bozrah?'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 63, Verse 1) Who is this that comes from Edom, with...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בִּצְדָקָ֖ה: in righteousness - rightness (abstractly), subjectively (rectitude), objectively...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Acts 7:51",
+          "anchorVerse": 10,
+          "referenceLabel": "Acts 7:51"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 10) But they provoked Him to anger, and vexed the spir...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        10,
+        11,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "righteousness"
+        ],
+        "10": [
+          "holy"
+        ],
+        "11": [
+          "holy"
+        ],
+        "14": [
+          "As a beast goeth down into the valley, the Spirit..."
+        ],
+        "15": [
+          "Look down from heaven, and behold from the habitation of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "A dramatic vision opens: 'Who is this that cometh from Edom, with dyed garments from Bozrah?'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 63, Verse 1) Who is this that comes from Edom, with...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בִּצְדָקָ֖ה: in righteousness - rightness (abstractly), subjectively (rectitude), objectively...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Acts 7:51",
+          "anchorVerse": 10,
+          "referenceLabel": "Acts 7:51"
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Vers. 11 seqq.) And he remembered the days of old, Moses and...\". Word-study detail reinforces \"נִהַ֣גְתָּ: so didst thou lead - to drive forth (a person, an animal or chariot), also (from...\".",
+      "supportingVerses": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "shepherd"
+        ],
+        "12": [
+          "led"
+        ],
+        "13": [
+          "led"
+        ],
+        "14": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "'Then he remembered the days of old, Moses, and his people, saying, Where is he that brought...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Vers. 11 seqq.) And he remembered the days of old, Moses and...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "רֹעֵ֣י: with the shepherd - to tend a flock; i.e., pasture it; intransitively, to graze (lite...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "'That led them by the right hand of Moses with his glorious arm, dividing the water before th...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 10) But they provoked Him to anger, and vexed the spir...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        10,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "10": [
+          "Spirit",
+          "holy Spirit"
+        ],
+        "11": [
+          "Spirit",
+          "holy Spirit"
+        ],
+        "14": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Psalms 78:8",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 78:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "'But they rebelled, and vexed his holy Spirit: therefore he was turned to be their enemy, and...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 10) But they provoked Him to anger, and vexed the spir...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "ר֣וּחַ: Spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation;...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 3 and following) I have trodden the winepress alone, a...\". Word-study detail reinforces \"לָאָ֖רֶץ: to the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        6,
+        12,
+        13,
+        17
+      ],
+      "versePhrases": {
+        "6": [
+          "earth"
+        ],
+        "12": [
+          "that led them by the right hand of Moses with..."
+        ],
+        "13": [
+          "that led them through the deep, as an horse in..."
+        ],
+        "17": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "'And I will tread down the people in mine anger, and make them drunk in my fury, and I will b...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3 and following) I have trodden the winepress alone, a...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "לָאָ֖רֶץ: to the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "'That led them by the right hand of Moses with his glorious arm, dividing the water before th...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

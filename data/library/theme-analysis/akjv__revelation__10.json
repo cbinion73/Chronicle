@@ -1,0 +1,71 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Revelation",
+  "chapter": 10,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:20.220Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Alcuin of York on COMMENTARY ON REVELATION: And the angel, whom I saw standing upon the sea a...\". Word-study detail reinforces \"ἥλιος: the sun - the sun; by implication, light\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "And I saw another mighty angel come down from heaven,..."
+        ],
+        "2": [
+          "earth"
+        ],
+        "5": [
+          "earth"
+        ],
+        "6": [
+          "created",
+          "earth"
+        ],
+        "8": [
+          "earth"
+        ],
+        "10": [
+          "And I took the little book out of the angel’s..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on Revelation: Moreover, John, the divine narrator in the present di...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἥλιος: the sun - the sun; by implication, light",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he had in his hand a little book open: and he set his right foot upon the sea, and his le...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: And he had in his hand a little book open. The an...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

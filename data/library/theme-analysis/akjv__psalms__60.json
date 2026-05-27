@@ -1,0 +1,295 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 60,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:07.490Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The earthquake imagery ('made the earth to tremble... broken it') depicts national catastroph...\". Word-study detail reinforces \"אֶ֣רֶץ: Thou hast made the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "made",
+          "earth"
+        ],
+        "3": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The earthquake imagery ('made the earth to tremble... broken it') depicts national catastroph...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 60: \"You have moved the earth, and hast troubled it...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶ֣רֶץ: Thou hast made the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "God showing His people 'hard things' indicates trials that test and refine. The wine of tremb...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 60: \"God has spoken in His Holy One\" [Psalm 60:6].....\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        6,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "holiness"
+        ],
+        "11": [
+          "Give us help from trouble"
+        ],
+        "12": [
+          "Through God we shall do valiantly"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 89:35",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 89:35"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The shift from lament to oracular confidence ('God hath spoken in his holiness') demonstrates...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 60: \"God has spoken in His Holy One\" [Psalm 60:6].....",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "בְּקָדְשׁ֗וֹ: in his holiness - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Give us help from trouble: for vain is the help of man. This urgent petition acknowledges bot...\". Word-study detail reinforces \"מִצָּ֑ר: from trouble - a pebble (as in h6864)\".",
+      "supportingVerses": [
+        4,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "Thou hast given a banner to them that fear thee,..."
+        ],
+        "11": [
+          "trouble"
+        ],
+        "12": [
+          "Through God we shall do valiantly"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The superscription places this psalm during David's wars with Aram-naharaim (Syria), Aram-zob...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 60: Wherefore this? \"You have given to men fearing...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Give us help from trouble: for vain is the help of man. This urgent petition acknowledges bot...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Basil of Caesarea on HOMILIES ON THE PSALMS 20:1: Therefore, let the church of God be saluted...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thou hast given a banner to them that fear thee, that it may be displayed because of the trut...\". Word-study detail reinforces \"קֹ֣שֶׁט: of the truth - equity (as evenly weighed), i.e., reality\".",
+      "supportingVerses": [
+        4,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "truth"
+        ],
+        "11": [
+          "Give us help from trouble"
+        ],
+        "12": [
+          "Through God we shall do valiantly"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Thou hast given a banner to them that fear thee, that it may be displayed because of the trut...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 60: Wherefore this? \"You have given to men fearing...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "קֹ֣שֶׁט: of the truth - equity (as evenly weighed), i.e., reality",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This verse reflects Israel's recurring temptation to seek security in military alliances rath...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"That thy beloved may be delivered; save with thy right hand, and hear me. This verse shifts f...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        5,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "save",
+          "delivered"
+        ],
+        "11": [
+          "Give us help from trouble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 17:7",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 17:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "That thy beloved may be delivered; save with thy right hand, and hear me. This verse shifts f...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 60: \"That Your beloved may be delivered: save me wi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יֵחָלְצ֣וּן: may be delivered - to pull off; hence (intensively) to strip, (reflexive) to dep...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 60: \"Wilt not Thou, O God, that hast driven us back...\". Word-study detail reinforces \"נָחַ֣נִי: who will lead - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        9,
+        10
+      ],
+      "versePhrases": {
+        "9": [
+          "lead"
+        ],
+        "10": [
+          "Wilt not thou, O God, which hadst cast us off"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 60: \"Who will lead Me down into the city of standin...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "נָחַ֣נִי: who will lead - to guide; by implication, to transport (into exile, or as colonists)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What does God's refusal to 'go out with armies' teach about the source of victory?",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 60: \"Wilt not Thou, O God, that hast driven us back...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

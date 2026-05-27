@@ -1,0 +1,74 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 13,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:30.670Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The Valley of Eshcol (meaning 'cluster') near Hebron was renowned for its vineyards. Archaeol...\". Word-study detail reinforces \"יוֹשֵׁ֣ב: dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by impl...\".",
+      "supportingVerses": [
+        19,
+        26,
+        29
+      ],
+      "versePhrases": {
+        "19": [
+          "What kind of land do they live in"
+        ],
+        "26": [
+          "They came back to Moses and Aaron and the whole..."
+        ],
+        "29": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Ancient Near Eastern military campaigns regularly sent scouts ahead to assess enemy strength,...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "יוֹשֵׁ֣ב: is that they dwell in - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "The Valley of Eshcol (meaning 'cluster') near Hebron was renowned for its vineyards. Archaeol...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "command"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

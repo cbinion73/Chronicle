@@ -1,0 +1,342 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 7,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:15.376Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The people's response to divine glory: 'And when all the children of Israel saw how the fire...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "glory"
+        ],
+        "2": [
+          "glory"
+        ],
+        "3": [
+          "thanks",
+          "glory"
+        ],
+        "6": [
+          "thanks"
+        ],
+        "7": [
+          "And Solomon consecrated the middle of the court that was before the house of the Lord"
+        ],
+        "19": [
+          "worship"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Ezekiel 44:4",
+          "anchorVerse": 1,
+          "referenceLabel": "Ezekiel 44:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The dramatic theophany 'when Solomon had made an end of praying, the fire came down from heav...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וּכְב֥וֹד: and the glory - properly, weight, but only figuratively in a good sense, splendor...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Revelation 15:8",
+          "anchorVerse": 2,
+          "referenceLabel": "Revelation 15:8"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Then will I stablish the throne of thy kingdom, according as I have covenanted with David thy...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        11,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "king"
+        ],
+        "5": [
+          "King",
+          "king"
+        ],
+        "6": [
+          "King"
+        ],
+        "11": [
+          "king"
+        ],
+        "18": [
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Then the king and all the people offered sacrifices before the LORD. This verse contributes t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְהַמֶּ֖לֶךְ: Then the king - a king",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And king Solomon offered a sacrifice of twenty and two thousand oxen, and an hundred and twen...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הַמֶּ֖לֶךְ: And king - a king",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And in the eighth day they made a solemn assembly: for they kept the dedication of the altar...\". Word-study detail reinforces \"חֻקּוֹתַ֣י: my statutes - a statute\".",
+      "supportingVerses": [
+        9,
+        13,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "9": [
+          "kept"
+        ],
+        "13": [
+          "command"
+        ],
+        "17": [
+          "statutes"
+        ],
+        "19": [
+          "statutes"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And in the eighth day they made a solemn assembly: for they kept the dedication of the altar...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "עָשׂוּ֙: for they kept - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "If I shut up heaven that there be no rain, or if I command the locusts to devour the land, or...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "אֲצַוֶּ֥ה: or if I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"This verse contains one of Scripture's most beloved promises: 'If my people, which are called...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        12,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "prayer"
+        ],
+        "12": [
+          "prayer"
+        ],
+        "14": [
+          "pray"
+        ],
+        "15": [
+          "prayer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהִתְפַּלֵּ֔ל: of praying - to judge (officially or mentally); by extension, to intercede, pray",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "How does knowing God hears your prayers give confidence to persist in prayer despite delayed...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "תְּפִלָּתֶ֔ךָ: thy prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Acts 9:11",
+          "anchorVerse": 14,
+          "referenceLabel": "Acts 9:11"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Now mine eyes shall be open, and mine ears attent unto the prayer that is made in this place....\". Word-study detail reinforces \"הָאָ֑רֶץ: the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        6,
+        7,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "6": [
+          "made"
+        ],
+        "7": [
+          "made"
+        ],
+        "13": [
+          "heavens"
+        ],
+        "15": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the priests waited on their offices: the Levites also with instruments of musick of the L...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "עָשָׂ֜ה: had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Moreover Solomon hallowed the middle of the court that was before the house of the LORD: for...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "הַנְּחֹ֙שֶׁת֙: because the brasen - copper, hence, something made of that metal, i.e., coin,...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This verse contains one of Scripture's most beloved promises: 'If my people, which are called...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        6,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "When all the people of Israel saw the fire come..."
+        ],
+        "6": [
+          "The priests stood at their posts"
+        ],
+        "14": [
+          "forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 Chronicles 5:13",
+          "anchorVerse": 3,
+          "referenceLabel": "2 Chronicles 5:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The people's response to divine glory: 'And when all the children of Israel saw how the fire...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חַסְדּֽוֹ׃: for his mercy - kindness; by implication (towards god) piety; rarely (by oppositi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 Chronicles 7:3",
+          "anchorVerse": 6,
+          "referenceLabel": "2 Chronicles 7:3"
+        }
+      ]
+    }
+  ]
+}

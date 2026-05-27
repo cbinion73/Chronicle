@@ -1,0 +1,216 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 18,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:31.703Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIV: Shall not the light of the wick...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        10,
+        14,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "earth"
+        ],
+        "5": [
+          "light"
+        ],
+        "6": [
+          "light"
+        ],
+        "10": [
+          "A noose for him is hidden in the ground, And..."
+        ],
+        "14": [
+          "He is torn from the security of his tent, And..."
+        ],
+        "17": [
+          "earth"
+        ],
+        "18": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Bildad challenges Job: 'He teareth himself in his anger: shall the earth be forsaken for thee...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIV: Why dost thou ruin thy soul in...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אָ֑רֶץ: shall the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Proverbs 13:9",
+          "anchorVerse": 5,
+          "referenceLabel": "Proverbs 13:9"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: Then he blames him for presumption since he had not deem...\". Word-study detail reinforces \"עֲצָתֽוֹ׃: and his own counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        7,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "Then Bildad the Shuhite responded,"
+        ],
+        "2": [
+          "understanding"
+        ],
+        "3": [
+          "Why are we regarded as animals, As stupid in your..."
+        ],
+        "7": [
+          "His vigorous stride is shortened, And his own plan brings..."
+        ],
+        "14": [
+          "He is torn from the security of his tent, And..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Wisdom literature debates in the ancient Near East followed formal conventions: speakers were...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Since Baldath of Shuah could not understand what blessed...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How do you discern between necessary explanation and endless words?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Since Baldath of Shuah could not understand what blessed...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ancient Near Eastern thought connected light with life and divine presence, darkness with dea...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        14,
+        15,
+        18
+      ],
+      "versePhrases": {
+        "14": [
+          "He is torn from the security of his tent, And..."
+        ],
+        "15": [
+          "dwells"
+        ],
+        "18": [
+          "He is driven from light into darkness, And chased from..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The Book of Job is set in the patriarchal period (approximately 2000-1800 BCE) in the land of...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIV: Let his confidence be rooted ou...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "'It shall dwell in his tabernacle, because it is none of his: brimstone shall be scattered up...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "תִּשְׁכּ֣וֹן: It shall dwell - to reside or permanently stay (literally or figuratively)",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIV: Let his confidence be rooted ou...\". Word-study detail reinforces \"לְמֶ֣לֶךְ: him to the king - a king\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "His confidence shall be rooted out of his tabernacle, and it shall bring him to the king of t...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIV: Let his confidence be rooted ou...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "לְמֶ֣לֶךְ: him to the king - a king",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

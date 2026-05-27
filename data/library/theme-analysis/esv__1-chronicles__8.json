@@ -1,0 +1,154 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 8,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:14.187Z",
+  "themes": [
+    {
+      "id": "keyword-sons",
+      "label": "Sons",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “sons.”",
+      "supportingVerses": [
+        3,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        18,
+        21,
+        25,
+        27,
+        35,
+        38,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "3": [
+          "sons"
+        ],
+        "6": [
+          "sons"
+        ],
+        "8": [
+          "sons"
+        ],
+        "9": [
+          "sons"
+        ],
+        "10": [
+          "sons"
+        ],
+        "11": [
+          "sons"
+        ],
+        "12": [
+          "sons"
+        ],
+        "16": [
+          "sons"
+        ],
+        "18": [
+          "sons"
+        ],
+        "21": [
+          "sons"
+        ],
+        "25": [
+          "sons"
+        ],
+        "27": [
+          "sons"
+        ],
+        "35": [
+          "sons"
+        ],
+        "38": [
+          "sons"
+        ],
+        "39": [
+          "sons"
+        ],
+        "40": [
+          "sons"
+        ]
+      }
+    },
+    {
+      "id": "keyword-fathered",
+      "label": "Fathered",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “fathered.”",
+      "supportingVerses": [
+        1,
+        7,
+        8,
+        9,
+        11,
+        32,
+        36,
+        37
+      ],
+      "versePhrases": {
+        "1": [
+          "fathered"
+        ],
+        "7": [
+          "fathered"
+        ],
+        "8": [
+          "fathered"
+        ],
+        "9": [
+          "fathered"
+        ],
+        "11": [
+          "fathered"
+        ],
+        "32": [
+          "fathered"
+        ],
+        "36": [
+          "fathered"
+        ],
+        "37": [
+          "fathered"
+        ]
+      }
+    },
+    {
+      "id": "keyword-houses",
+      "label": "Houses",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “houses.”",
+      "supportingVerses": [
+        6,
+        10,
+        13,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "houses"
+        ],
+        "10": [
+          "houses"
+        ],
+        "13": [
+          "houses"
+        ],
+        "28": [
+          "houses"
+        ]
+      }
+    }
+  ]
+}

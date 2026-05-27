@@ -1,0 +1,289 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 22,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:15.518Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on City of God 19.21: In the law of the true God it is written, “He that s...\". Word-study detail reinforces \"יִתֵּן֩: deliver - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        7,
+        10,
+        20,
+        26
+      ],
+      "versePhrases": {
+        "7": [
+          "deliver"
+        ],
+        "10": [
+          "deliver"
+        ],
+        "20": [
+          "save"
+        ],
+        "26": [
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "If a man shall deliver unto his neighbour money or stuff to keep, and it be stolen out of the...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "יִתֵּן֩: shall deliver - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "יִתֵּן֩: deliver - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"For all manner of trespass, whether it be for ox, for ass, for sheep, for raiment, or for any...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        8,
+        9,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "1": [
+          "If a man shall steal an ox, or a sheep,..."
+        ],
+        "8": [
+          "then the master of the house shall be brought unto the judges"
+        ],
+        "9": [
+          "condemn"
+        ],
+        "24": [
+          "wrath"
+        ],
+        "27": [
+          "for that is his covering only, it is his raiment..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on 40 Homilies on the Gospels, Homily 40: Some think that the precepts...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Exodus 21:6",
+          "anchorVerse": 8,
+          "referenceLabel": "Exodus 21:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How does this law reveal God's character—His justice, mercy, or holiness?",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And ye shall be holy men unto me: neither shall ye eat any flesh that is torn of beasts in th...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        27,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "If a man shall steal an ox, or a sheep,..."
+        ],
+        "27": [
+          "for that is his covering only, it is his raiment..."
+        ],
+        "30": [
+          "Likewise shalt thou do with thine oxen, and with thy..."
+        ],
+        "31": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Why does restitution exceed the theft (400-500%)—what principles of justice does this teach?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on HOMILIES ON THE GOSPEL OF MATTHEW 52.6: Therefore the thief being taken pa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 27 historical",
+          "detail": "Pseudo-Basil on ON MERCY AND JUSTICE: It appears also that one who does not give back his ple...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and...\". Word-study detail reinforces \"לִשְׁמֹ֔ר: to keep - properly, to hedge about (as with thorns), i.e., guard; generally, to pr...\".",
+      "supportingVerses": [
+        7,
+        10
+      ],
+      "versePhrases": {
+        "7": [
+          "keep"
+        ],
+        "10": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "If a man shall deliver unto his neighbour money or stuff to keep, and it be stolen out of the...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לִשְׁמֹ֔ר: to keep - properly, to hedge about (as with thorns), i.e., guard; generally, to pr...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "לִשְׁמֹ֑ר: to keep - properly, to hedge about (as with thorns), i.e., guard; generally, to pr...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        27
+      ],
+      "versePhrases": {
+        "27": [
+          "gracious"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Exodus 34:6",
+          "anchorVerse": 27,
+          "referenceLabel": "Exodus 34:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 27 historical",
+          "detail": "Pseudo-Basil on ON MERCY AND JUSTICE: It appears also that one who does not give back his ple...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "חַנּ֥וּן: for I am gracious - gracious",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"If thou afflict them in any wise, and they cry at all unto me, I will surely hear their cry;...\". Word-study detail reinforces \"תְעַנֶּ֖ה: them in any wise - to depress literally or figuratively, transitive or intransitiv...\".",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "If thou afflict them in any wise, and they cry at all unto me, I will surely hear their cry;...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "תְעַנֶּ֖ה: them in any wise - to depress literally or figuratively, transitive or intransitiv...",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

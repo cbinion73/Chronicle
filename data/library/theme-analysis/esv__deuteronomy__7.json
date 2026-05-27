@@ -1,0 +1,313 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 7,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:00.127Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The conditional 'if ye hearken... and keep... and do' establishes covenant blessing as respon...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        2,
+        8,
+        9,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "2": [
+          "covenant"
+        ],
+        "8": [
+          "oath"
+        ],
+        "9": [
+          "covenant"
+        ],
+        "12": [
+          "covenant"
+        ],
+        "13": [
+          "bless"
+        ],
+        "14": [
+          "You shall be blessed above all peoples"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ancient Near Eastern treaty-making involved elaborate covenants that created legal obligation...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּרִ֖ית: no covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This verse grounds Israel's election in God's love and covenant faithfulness. The phrase 'bec...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "הַשְּׁבֻעָה֙: the oath - properly, something sworn, i.e., an oath",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"This verse grounds Israel's election in God's love and covenant faithfulness. The phrase 'bec...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "7": [
+          "love"
+        ],
+        "8": [
+          "but it is because the Lord loves you and is keeping the oath that he swore to your fathers"
+        ],
+        "9": [
+          "love"
+        ],
+        "12": [
+          "love"
+        ],
+        "13": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 John 4:10",
+          "anchorVerse": 7,
+          "referenceLabel": "1 John 4:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This verse establishes divine election as the foundation of Israel's special status. The Lord...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חָשַׁ֧ק: did not set his love - to cling, i.e., join, (figuratively) to love, delight in; ell...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Jeremiah 31:3",
+          "anchorVerse": 8,
+          "referenceLabel": "Jeremiah 31:3"
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The word 'Therefore' ( shamarta , 'keep, guard, observe') connects doctrine to duty. Because...\". Word-study detail reinforces \"מְצַוְּךָ֛: which I command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        9,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "9": [
+          "keep"
+        ],
+        "11": [
+          "command",
+          "statutes"
+        ],
+        "12": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The command 'Know therefore' ( yada'ta ) means experiential, intimate knowledge, not mere int...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מִצְוֹתָ֖ו: his commandments - a command, whether human or divine (collectively, the law)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The word 'Therefore' ( shamarta , 'keep, guard, observe') connects doctrine to duty. Because...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "מְצַוְּךָ֛: which I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The command 'Know therefore' ( yada'ta ) means experiential, intimate knowledge, not mere int...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "mercy"
+        ],
+        "9": [
+          "Know therefore that the Lord your God is God, the..."
+        ],
+        "12": [
+          "“And because you listen to these rules and keep and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Judges 1:24",
+          "anchorVerse": 2,
+          "referenceLabel": "Judges 1:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The command to 'utterly destroy' ( herem ) and 'make no covenant' establishes absolute separa...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תְחָנֵּֽם׃: with them nor shew mercy - properly, to bend or stoop in kindness to an inferior;...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Daniel 9:4",
+          "anchorVerse": 9,
+          "referenceLabel": "Daniel 9:4"
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The command 'Thou shalt not be afraid' addresses the fear anticipated in verse 17. Fear is co...\". Word-study detail reinforces \"תִירָ֖א: Thou shalt not be afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        18,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "18": [
+          "afraid"
+        ],
+        "19": [
+          "afraid"
+        ],
+        "21": [
+          "You shall not be in dread of them, for the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The command 'Thou shalt not be afraid' addresses the fear anticipated in verse 17. Fear is co...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "תִירָ֖א: Thou shalt not be afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "יָרֵ֖א: of whom thou art afraid - fearing; morally, reverent",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "The command 'Thou shalt not be affrighted' (literally 'shattered with terror') is grounded in...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Cross references echo \"Faith\". Word-study detail reinforces \"הַֽנֶּאֱמָ֔ן: the faithful - properly, to build up or support; to foster as a parent or nurse...\".",
+      "supportingVerses": [
+        9,
+        12
+      ],
+      "versePhrases": {
+        "9": [
+          "steadfast"
+        ],
+        "12": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "2 Timothy 2:13",
+          "anchorVerse": 9,
+          "referenceLabel": "2 Timothy 2:13"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "הַֽנֶּאֱמָ֔ן: the faithful - properly, to build up or support; to foster as a parent or nurse...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

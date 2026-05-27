@@ -1,0 +1,140 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 27,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:55.269Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The altar is made 'hollow with boards'—not solid but a frame, likely filled with earth or sto...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        8,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "8": [
+          "made"
+        ],
+        "18": [
+          "The length of the court shall be a hundred cubits,..."
+        ],
+        "20": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The altar is made 'hollow with boards'—not solid but a frame, likely filled with earth or sto...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The 5-cubit height was tall enough to prevent animals from jumping over and to create clear b...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "נְחֹֽשֶׁת׃: of brass - copper, hence, something made of that metal, i.e., coin, a fetter; fig...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Exodus 39:37",
+          "anchorVerse": 20,
+          "referenceLabel": "Exodus 39:37"
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...\". Word-study detail reinforces \"תְּצַוֶּ֣ה׀: And thou shalt command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "תְּצַוֶּ֣ה׀: And thou shalt command - (intensively) to constitute, enjoin",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...\". Word-study detail reinforces \"זָ֛ךְ: thee pure - clear\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "pure"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "זָ֛ךְ: thee pure - clear",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"הָֽעֵדֻ֗ת: which is before the testimony - testimony\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "testimony"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "הָֽעֵדֻ֗ת: which is before the testimony - testimony",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

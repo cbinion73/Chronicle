@@ -1,0 +1,244 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 22,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:23.939Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"And Shaphan the scribe shewed the king, saying, Hilkiah the priest hath delivered me a book....\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        9,
+        10,
+        11,
+        12,
+        16,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "King",
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Josiah was eight years old when he began to reign, and he reigned thirty and one years in Jer...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 22:1: “Josiah was eight years old when he be...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֖ךְ: and he reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And it came to pass in the eighteenth year of king Josiah, that the king sent Shaphan the son...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Because they have forsaken me, and have burned incense unto other gods, that they might provo...\". Word-study detail reinforces \"חֲמַ֣ת: is the wrath - heat; figuratively, anger, poison (from its fever)\".",
+      "supportingVerses": [
+        13,
+        14,
+        16,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "13": [
+          "wrath"
+        ],
+        "14": [
+          "So Hilkiah the priest, Ahikam, Achbor, Shaphan, and Asaiah went..."
+        ],
+        "16": [
+          "“This is what the Lord says"
+        ],
+        "17": [
+          "wrath"
+        ],
+        "19": [
+          "since your heart was tender and you humbled yourself before..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Go ye, enquire of the LORD for me, and for the people, and for all Judah, concerning the word...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "חֲמַ֣ת: is the wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Jerome on Against Jovinianus 1.25: We need not wonder that Huldah, the prophet and wife of Sh...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Questions on the Book of Kings #26: \"She who dwells in Jerusalem in the second distri...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        10,
+        14
+      ],
+      "versePhrases": {
+        "10": [
+          "presence"
+        ],
+        "14": [
+          "So Hilkiah the priest, Ahikam, Achbor, Shaphan, and Asaiah went..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Bede on Questions on the Book of Kings #26: \"She who dwells in Jerusalem in the second distri...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Howbeit there was no reckoning made with them of the money that was delivered into their hand...\". Word-study detail reinforces \"יֵֽחָשֵׁ֣ב: Howbeit there was no reckoning made - properly, to plait or interpenetrate, i.e.,...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Howbeit there was no reckoning made with them of the money that was delivered into their hand...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "יֵֽחָשֵׁ֣ב: Howbeit there was no reckoning made - properly, to plait or interpenetrate, i.e.,...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Inferred",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on On the Care of the Dead 13.16: How do we say that they have been advise...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Psalms 37:37",
+          "anchorVerse": 20,
+          "referenceLabel": "Psalms 37:37"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Behold therefore, I will gather thee unto thy fathers, and thou shalt be gathered into thy gr...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Augustine of Hippo on On the Care of the Dead 13.16: How do we say that they have been advise...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "בְּשָׁלוֹם֒: in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) w...",
+          "anchorVerse": 20
+        }
+      ]
+    }
+  ]
+}

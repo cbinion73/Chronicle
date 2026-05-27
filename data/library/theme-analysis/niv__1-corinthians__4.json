@@ -1,0 +1,354 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:24.408Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 13: \"Being reviled, we bless; being persecuted, we...\". Word-study detail reinforces \"φωτίσει: will bring to light - to shed rays, i.e., to shine or (transitively) to brighten up...\".",
+      "supportingVerses": [
+        5,
+        7,
+        9,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "light"
+        ],
+        "7": [
+          "For who makes you different from anyone else"
+        ],
+        "9": [
+          "made"
+        ],
+        "13": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Therefore judge nothing before the time, until the Lord come. The imperative me krinete (μὴ κ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: The when he says, Judge not before, he conclud...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "φωτίσει: will bring to light - to shed rays, i.e., to shine or (transitively) to brighten up...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "In what subtle ways do you compare yourself to others and feel superior, forgetting that God...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"For the kingdom of God is not in word, but in power. This terse summary encapsulates Paul's a...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        8,
+        9,
+        20
+      ],
+      "versePhrases": {
+        "8": [
+          "reign"
+        ],
+        "9": [
+          "For it seems to me that God has put us..."
+        ],
+        "20": [
+          "kingdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Revelation 5:10",
+          "anchorVerse": 8,
+          "referenceLabel": "Revelation 5:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Now ye are full, now ye are rich, ye have reigned as kings without us. Paul unleashes biting...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 12: \"Already ye are filled, already ye are rich:\"...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "ἐβασιλεύσατε: ye did reign - to rule (literally or figuratively)",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, Moreover it is required, he...\". Word-study detail reinforces \"πιστός: faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        10,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "This, then, is how you ought to regard us"
+        ],
+        "2": [
+          "faithful"
+        ],
+        "3": [
+          "I care very little if I am judged by you..."
+        ],
+        "5": [
+          "Therefore judge nothing before the appointed time"
+        ],
+        "8": [
+          "Already you have all you want"
+        ],
+        "10": [
+          "We are fools for Christ, but you are so wise..."
+        ],
+        "16": [
+          "Therefore I urge you to imitate me"
+        ],
+        "17": [
+          "faithful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Having rebuked the Corinthians for glorying in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Moreover it is required in stewards, that a man be found faithful. The Greek zeteitai (ζητεῖτ...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, Moreover it is required, he...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: Secondly, he shows the correct way to admonish...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        10,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "trust"
+        ],
+        "10": [
+          "We are fools for Christ, but you are so wise..."
+        ],
+        "15": [
+          "Even if you had ten thousand guardians in Christ, you..."
+        ],
+        "16": [
+          "Therefore I urge you to imitate me"
+        ],
+        "17": [
+          "who is faithful in the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Matthew 25:21",
+          "anchorVerse": 2,
+          "referenceLabel": "Matthew 25:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does this verse challenge the contemporary evangelical emphasis on confidence, influence,...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 4: Does not the apostle then plainly add the follo...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Who served as your spiritual father or mother—the person who first brought you the gospel or...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"I write not these things to shame you, but as my beloved sons I warn you. The verb entrepō (ἐ...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        12,
+        14,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "12": [
+          "We work hard with our own hands"
+        ],
+        "14": [
+          "I am writing this not to shame you but to..."
+        ],
+        "16": [
+          "Therefore I urge you to imitate me"
+        ],
+        "17": [
+          "love"
+        ],
+        "21": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "In honor-shame cultures, responding to insult with blessing was shameful weakness, not virtue...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 4: Does not the apostle then plainly add the follo...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "2 Corinthians 12:19",
+          "anchorVerse": 14,
+          "referenceLabel": "2 Corinthians 12:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "I write not these things to shame you, but as my beloved sons I warn you. The verb entrepō (ἐ...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 13: Having filled his speech with much severity wh...\". Word-study detail reinforces \"σύνοιδα: I know - to see completely; used (like its primary) only in two past tenses, respect...\".",
+      "supportingVerses": [
+        4,
+        7,
+        9,
+        10,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "My conscience is clear, but that does not make me..."
+        ],
+        "7": [
+          "For who makes you different from anyone else"
+        ],
+        "9": [
+          "For it seems to me that God has put us..."
+        ],
+        "10": [
+          "wise"
+        ],
+        "16": [
+          "Therefore I urge you to imitate me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Paul's clear conscience reflects his rigorous Pharisaic training in self-examination and his...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: He assigns the reason for this when he says: I...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "σύνοιδα: I know - to see completely; used (like its primary) only in two past tenses, respect...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Greco-Roman culture thrived on honor, status, and competitive achievement. Patronage systems...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

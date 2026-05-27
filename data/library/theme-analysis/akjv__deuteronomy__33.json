@@ -1,0 +1,354 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 33,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:21.994Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"The blessing's reference to the burning bush connects Joseph's blessing to Exodus deliverance...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11,
+        13,
+        16,
+        20,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "blessing"
+        ],
+        "2": [
+          "And he said, The Lord came from Sinai, and rose..."
+        ],
+        "4": [
+          "inheritance"
+        ],
+        "6": [
+          "Let Reuben live, and not die"
+        ],
+        "7": [
+          "blessing"
+        ],
+        "9": [
+          "covenant"
+        ],
+        "11": [
+          "Bless"
+        ],
+        "13": [
+          "Blessed of the Lord be his land"
+        ],
+        "16": [
+          "blessing"
+        ],
+        "20": [
+          "Blessed be he that enlargeth Gad"
+        ],
+        "23": [
+          "blessing"
+        ],
+        "24": [
+          "Let Asher be blessed with children"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And this is the blessing, wherewith Moses the man of God blessed the children of Israel befor...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַבְּרָכָ֗ה: And this is the blessing - benediction; by implication prosperity",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The LORD came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Hippolytus of Rome on Hippolytus Exegetical Fragments: Hippolytus, the expositor of the Targu...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And of Joseph he said, Blessed of the LORD be his land, for the precious things of heaven, fo...\". Word-study detail reinforces \"אֶ֚רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        8,
+        13,
+        16,
+        17,
+        28
+      ],
+      "versePhrases": {
+        "8": [
+          "waters"
+        ],
+        "13": [
+          "And of Joseph he said, Blessed of the Lord be..."
+        ],
+        "16": [
+          "earth"
+        ],
+        "17": [
+          "earth"
+        ],
+        "28": [
+          "heavens"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And of Levi he said, Let thy Thummim and thy Urim be with thy holy one, whom thou didst prove...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מֵ֥י: at the waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And of Joseph he said, Blessed of the LORD be his land, for the precious things of heaven, fo...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "אַרְצ֑וֹ: be his land - the earth (at large, or partitively a land)",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"He provided the first part for himself —Gad chose the Trans-Jordan territory 'first' ( reshit...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        8,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "And he said, The Lord came from Sinai, and rose..."
+        ],
+        "8": [
+          "holy"
+        ],
+        "19": [
+          "righteousness"
+        ],
+        "21": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Habakkuk 3:3",
+          "anchorVerse": 2,
+          "referenceLabel": "Habakkuk 3:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The LORD came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Numbers 20:13",
+          "anchorVerse": 8,
+          "referenceLabel": "Numbers 20:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And of Levi he said, Let thy Thummim and thy Urim be with thy holy one, whom thou didst prove...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This blessing preceded Israel's entry into Canaan and conquest of enemy nations. The promise...\". Word-study detail reinforces \"בֶּ֤טַח: in safety - properly, a place of refuge; abstract, safety, both the fact (security)...\".",
+      "supportingVerses": [
+        12,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "12": [
+          "safety"
+        ],
+        "27": [
+          "refuge"
+        ],
+        "28": [
+          "safety"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And of Benjamin he said, The beloved of the LORD shall dwell in safety by him; and the LORD s...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "לָבֶ֖טַח: in safety - properly, a place of refuge; abstract, safety, both the fact (security)...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "This blessing preceded Israel's entry into Canaan and conquest of enemy nations. The promise...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "מְעֹנָה֙: is thy refuge - an abode, of god (the tabernacle or the temple), men (their home) o...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And of Benjamin he said, The beloved of the LORD shall dwell in safety by him; and the LORD s...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        12,
+        22,
+        28
+      ],
+      "versePhrases": {
+        "12": [
+          "dwell"
+        ],
+        "22": [
+          "And of Dan he said, Dan is a lion’s whelp"
+        ],
+        "28": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And of Benjamin he said, The beloved of the LORD shall dwell in safety by him; and the LORD s...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "שָׁכֵֽן׃: long and he shall dwell - to reside or permanently stay (literally or figuratively)",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Dan received a small coastal territory squeezed between Judah, Ephraim, and the Philistines....",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "גּ֣וּר: whelp - a cub (as still abiding in the lair), especially of the lion",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, DEUTERONOMY 27: That man desires to know...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        3,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "3": [
+          "loved"
+        ],
+        "9": [
+          "who said unto his father and to his mother, I..."
+        ],
+        "12": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Malachi 1:2",
+          "anchorVerse": 3,
+          "referenceLabel": "Malachi 1:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Yea, he loved the people; all his saints are in thy hand: and they sat down at thy feet; ever...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חֹבֵ֣ב: he loved - properly, to hide (as in the bosom), i.e., to cherish (with affection)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does this verse inform church discipline practices when believers must confront sin in th...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

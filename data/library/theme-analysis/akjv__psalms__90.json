@@ -1,0 +1,312 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 90,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:18.730Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 90: He adds, how He became our refuge, since He beg...\". Word-study detail reinforces \"אֶ֣רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        5,
+        8,
+        13,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "earth",
+          "formed"
+        ],
+        "5": [
+          "Thou carriest them away as with a flood"
+        ],
+        "8": [
+          "light"
+        ],
+        "13": [
+          "Return, O Lord, how long"
+        ],
+        "16": [
+          "Let thy work appear unto thy servants, and thy glory..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Before the mountains were brought forth, or ever thou hadst formed the earth and the world, e...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 90: He adds, how He became our refuge, since He beg...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶ֣רֶץ: the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What comfort or warning does the comparison of death to sleep provide, especially in light of...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Who knoweth the power of thine anger? even according to thy fear, so is thy wrath. This verse...\". Word-study detail reinforces \"בְעֶבְרָתֶ֑ךָ: in thy wrath - an outburst of passion\".",
+      "supportingVerses": [
+        7,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "7": [
+          "wrath"
+        ],
+        "9": [
+          "wrath"
+        ],
+        "11": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Moses witnessed God's wrath firsthand throughout wilderness wandering. After the golden calf,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וּֽבַחֲמָתְךָ֥: and by thy wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For all our days are passed away in thy wrath: we spend our years as a tale that is told. Thi...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Enchiridion 10:33: And so the human race was held fast in a just condem...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Moses's petition reflects his intercession for Israel throughout wilderness years. After repe...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        9,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "Thou turnest man to destruction"
+        ],
+        "9": [
+          "For all our days are passed away in thy wrath"
+        ],
+        "14": [
+          "mercy"
+        ],
+        "17": [
+          "And let the beauty of the Lord our God be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Moses witnessed this dual reality throughout Israel's wilderness wandering. God judged the re...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 90: But as our life here is exposed to numerous and...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Moses watched 600,000+ men (plus women and children) die over forty years—perhaps 2-3 million...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Palladius of Galatia on LAUSIAC HISTORY 2:38: They say concerning Abba Apollo, who lived in S...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Make us glad according to the days wherein thou hast afflicted us, and the years wherein we h...\". Word-study detail reinforces \"וָאָ֑וֶן: and sorrow - strictly nothingness; also trouble, vanity, wickedness; specifically a...\".",
+      "supportingVerses": [
+        9,
+        10,
+        15
+      ],
+      "versePhrases": {
+        "9": [
+          "For all our days are passed away in thy wrath"
+        ],
+        "10": [
+          "sorrow"
+        ],
+        "15": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For all our days are passed away in thy wrath: we spend our years as a tale that is told. Thi...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Athanasius of Alexandria on Life of St. Anthony 16:3-8: Let everyone above all have this zeal...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The days of our years are threescore years and ten; and if by reason of strength they be four...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Athanasius of Alexandria on Life of St. Anthony 16:3-8: Let everyone above all have this zeal...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Let thy work appear unto thy servants, and thy glory unto their children. This verse requests...\". Word-study detail reinforces \"וַ֝הֲדָרְךָ֗: and thy glory - magnificence, i.e., ornament or splendor\".",
+      "supportingVerses": [
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "15": [
+          "Make us glad according to the days wherein thou hast..."
+        ],
+        "16": [
+          "glory"
+        ],
+        "17": [
+          "And let the beauty of the Lord our God be upon us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Moses prayed this having led Israel through forty years of wilderness affliction. The generat...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 90: Next, in anticipation of future blessings, of w...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Let thy work appear unto thy servants, and thy glory unto their children. This verse requests...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "וַ֝הֲדָרְךָ֗: and thy glory - magnificence, i.e., ornament or splendor",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Who knoweth the power of thine anger? even according to thy fear, so is thy wrath. This verse...\". Word-study detail reinforces \"וּ֝כְיִרְאָתְךָ֗: even according to thy fear - fear (also used as infinitive); morally, rever...\".",
+      "supportingVerses": [
+        7,
+        11
+      ],
+      "versePhrases": {
+        "7": [
+          "troubled"
+        ],
+        "11": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "For we are consumed by thine anger, and by thy wrath are we troubled. This verse shifts from...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 90: Making no secret that this fate is a penalty in...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "נִבְהָֽלְנוּ׃: are we troubled - to tremble inwardly (or palpitate), i.e., (figuratively) be...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Who knoweth the power of thine anger? even according to thy fear, so is thy wrath. This verse...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

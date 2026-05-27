@@ -1,0 +1,330 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 17,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:33.663Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous",
+          "just"
+        ],
+        "2": [
+          "just"
+        ],
+        "5": [
+          "My steps have held closely to Your paths"
+        ],
+        "13": [
+          "Arise, O Lord, confront him, cast him down"
+        ],
+        "14": [
+          "From men with Your hand, O Lord, From men of..."
+        ],
+        "15": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist described divine jus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David appeals for vindication from God's presence, knowing only God's eyes see what is uprigh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The imagery of walking paths and avoiding slipping pervades wisdom literature and the Psalms....",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist described divine jus...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "prayer"
+        ],
+        "5": [
+          "My steps have held closely to Your paths"
+        ],
+        "6": [
+          "I have called upon You"
+        ],
+        "13": [
+          "Arise, O Lord, confront him, cast him down"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Psalms 61:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 61:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist described divine jus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְפִלָּתִ֑י: A Prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Make wonderful.\" Here the petition is s...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        7,
+        9,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "7": [
+          "Wondrously show Your [marvelous and amazing] lovingkindness, O Savior of..."
+        ],
+        "9": [
+          "From the wicked who despoil and deal violently with me,..."
+        ],
+        "13": [
+          "Save"
+        ],
+        "15": [
+          "As for me, I shall see Your face in righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 60:5",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 60:5"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Make wonderful.\" Here the petition is s...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The 'deadly enemies' who 'surround' David are described with hunting imagery. The Hebrew 'shu...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Next he shows from what it is fitting to...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        5,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous"
+        ],
+        "5": [
+          "My steps have held closely to Your paths"
+        ],
+        "14": [
+          "From men with Your hand, O Lord, From men of..."
+        ],
+        "15": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 17: \"Hear My righteousness, O God, consider My supp...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The imagery of walking paths and avoiding slipping pervades wisdom literature and the Psalms....",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Evagrius Ponticus on NOTES ON THE PSALMS 16[17].3, 4: Even if now [the way] is full of pain a...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Next he sets forth the manner of deliver...\". Word-study detail reinforces \"חֲ֭סָדֶיךָ: lovingkindness - kindness; by implication (towards god) piety; rarely (by opposit...\".",
+      "supportingVerses": [
+        7,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "7": [
+          "lovingkindness"
+        ],
+        "8": [
+          "Keep me [in Your affectionate care, protect me] as the..."
+        ],
+        "10": [
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Make wonderful.\" Here the petition is s...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חֲ֭סָדֶיךָ: lovingkindness - kindness; by implication (towards god) piety; rarely (by opposit...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The apple of the eye metaphor appears several times in Scripture. Moses told Israel that God...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Next he sets forth the manner of deliver...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"David appeals to God's 'steadfast love' ('chesed'—covenant faithfulness) shown to those who t...\". Word-study detail reinforces \"חֲ֭סָדֶיךָ: lovingkindness - kindness; by implication (towards god) piety; rarely (by opposit...\".",
+      "supportingVerses": [
+        7,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "7": [
+          "Wondrously show Your [marvelous and amazing] lovingkindness"
+        ],
+        "8": [
+          "Keep me [in Your affectionate care, protect me] as the..."
+        ],
+        "10": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "David appeals to God's 'steadfast love' ('chesed'—covenant faithfulness) shown to those who t...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 17: \"Make Your mercies marvellous\" [Psalm 17:7]. Le...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חֲ֭סָדֶיךָ: lovingkindness - kindness; by implication (towards god) piety; rarely (by opposit...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Keep me as the apple of the eye, hide me under the shadow of thy wings. This verse contains t...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

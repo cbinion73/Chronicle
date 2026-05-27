@@ -1,0 +1,362 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 7,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:51.510Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 Corinthians: He says this not to slaves alone, but al...\". Word-study detail reinforces \"ἀφιέναι: let - to send forth, in various applications (as follow)\".",
+      "supportingVerses": [
+        5,
+        6,
+        10,
+        11,
+        12,
+        17,
+        19,
+        20,
+        23,
+        24,
+        25,
+        37
+      ],
+      "versePhrases": {
+        "5": [
+          "Stop depriving one another, except by agreement for a time..."
+        ],
+        "6": [
+          "command"
+        ],
+        "10": [
+          "But to the married I give instructions, not I, but..."
+        ],
+        "11": [
+          "(but if she does leave, she must remain unmarried, or..."
+        ],
+        "12": [
+          "But to the rest I say, not the Lord, that..."
+        ],
+        "17": [
+          "Only, as the Lord has assigned to each one, as..."
+        ],
+        "19": [
+          "but what matters is the keeping of the commandments of God"
+        ],
+        "20": [
+          "Each person is to remain in that state in which..."
+        ],
+        "23": [
+          "You were bought for a price"
+        ],
+        "24": [
+          "Brothers and sisters, each one is to remain with God..."
+        ],
+        "25": [
+          "command"
+        ],
+        "37": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Defraud ye not one the other —the verb apostereite (ἀποστερεῖτε, \"deprive\") indicates that wi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: The Lord also showed that certain precepts were enacted...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But I speak this by permission, and not of commandment —the phrase kata syngnōmēn (κατὰ συγνώ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: But why say I these things concerning the Old Testament...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 19: Then lest the woman might fear, as though she...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        12,
+        14,
+        16,
+        34
+      ],
+      "versePhrases": {
+        "12": [
+          "But to the rest I say, not the Lord, that..."
+        ],
+        "14": [
+          "holy",
+          "sanctified"
+        ],
+        "16": [
+          "For how do you know, wife, whether you will save..."
+        ],
+        "34": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Paul's mission churches inevitably included converts whose spouses remained pagan. Jewish tra...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Tertullian on To His Wife Book II: Therefore, when in these days a certain woman removed her...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Timothy 4:5",
+          "anchorVerse": 14,
+          "referenceLabel": "1 Timothy 4:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "For the unbelieving husband is sanctified by the wife —the verb hēgiastai (ἡγίασται, \"has bee...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And they that weep, as though they wept not —Paul extends the hōs mē (\"as not\") pattern to al...\". Word-study detail reinforces \"θλῖψιν: trouble - pressure (literally or figuratively)\".",
+      "supportingVerses": [
+        28,
+        30
+      ],
+      "versePhrases": {
+        "28": [
+          "trouble"
+        ],
+        "30": [
+          "weep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "But and if thou marry, thou hast not sinned —Paul immediately clarifies that his preference f...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 28 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 19: Then, lest this should seem to be laying down...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 28 word study",
+          "detail": "θλῖψιν: trouble - pressure (literally or figuratively)",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "And they that weep, as though they wept not —Paul extends the hōs mē (\"as not\") pattern to al...",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For what knowest thou, O wife, whether thou shalt save thy husband? —the interrogative sugges...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        7,
+        12,
+        14,
+        16,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "7": [
+          "Yet I wish that all men were even as I..."
+        ],
+        "12": [
+          "But to the rest I say, not the Lord, that..."
+        ],
+        "14": [
+          "For the unbelieving husband is sanctified through his wife, and..."
+        ],
+        "16": [
+          "save"
+        ],
+        "20": [
+          "Each person is to remain in that state in which..."
+        ],
+        "23": [
+          "You were bought for a price"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when it says, I wish, he assigns the reas...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "χάρισμα: gift - a (divine) gratuity, i.e., deliverance (from danger or passion); (specially),...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "But to the rest speak I, not the Lord —Paul transitions to a situation Jesus did not explicit...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: The Lord also showed that certain precepts were enacted...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, But because of fornication,...\". Word-study detail reinforces \"ὀφείλει: need - to owe (pecuniarily); figuratively, to be under obligation (ought, must, shou...\".",
+      "supportingVerses": [
+        2,
+        18,
+        32,
+        36,
+        39
+      ],
+      "versePhrases": {
+        "2": [
+          "But because of sexual immoralities, each man is to have..."
+        ],
+        "18": [
+          "Was any man called when he was already circumcised"
+        ],
+        "32": [
+          "want"
+        ],
+        "36": [
+          "But if anyone thinks that he is acting dishonorably toward..."
+        ],
+        "39": [
+          "A wife is bound as long as her husband lives"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Nevertheless, to avoid fornication ( porneia , πορνεία)—Paul's first qualification acknowledg...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, But because of fornication,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Is any man called being circumcised? let him not become uncircumcised —the procedure epispast...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Theodore of Mopsuestia on PAULINE COMMENTARY FROM THE GREEK CHURCH: It is not possible to rep...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"But if the unbelieving depart, let him depart —the verb chōrizetai (χωρίζεται, \"separates/div...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        12,
+        15,
+        25
+      ],
+      "versePhrases": {
+        "12": [
+          "rest"
+        ],
+        "15": [
+          "peace"
+        ],
+        "25": [
+          "Now concerning virgins, I have no command of the Lord,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "But to the rest speak I, not the Lord —Paul transitions to a situation Jesus did not explicit...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, To the rest I say, he treat...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "λοιποῖς: to the rest - remaining ones",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Romans 14:19",
+          "anchorVerse": 15,
+          "referenceLabel": "Romans 14:19"
+        }
+      ]
+    }
+  ]
+}

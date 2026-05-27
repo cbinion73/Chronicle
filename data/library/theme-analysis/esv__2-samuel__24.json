@@ -1,0 +1,222 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 24,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:10.111Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"All these things did Araunah, as a king, give unto the king. And Araunah said unto the king,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        9,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "17": [
+          "Then David spoke to the Lord when he saw the angel who was striking the people"
+        ],
+        "18": [
+          "And Gad came that day to David and said to..."
+        ],
+        "19": [
+          "So David went up at Gad's word, as the Lord..."
+        ],
+        "20": [
+          "king"
+        ],
+        "21": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ],
+        "24": [
+          "king"
+        ],
+        "25": [
+          "And David built there an altar to the Lord and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 3:10",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Samuel 3:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For the king said to Joab the captain of the host, which was with him, Go now through all the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמֶּ֜לֶךְ: For the king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And Joab said unto the king, Now the LORD thy God add unto the people, how many soever they b...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Caesarius of Arles on SERMON 122.2: Therefore, the king himself offered blessed David the thr...\". Word-study detail reinforces \"רַֽחֲמָ֔ו: for his mercies - compassion (in the plural)\".",
+      "supportingVerses": [
+        14,
+        17,
+        22,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "14": [
+          "mercy"
+        ],
+        "17": [
+          "Then David spoke to the Lord when he saw the..."
+        ],
+        "22": [
+          "Then Araunah said to David, “Let my lord the king..."
+        ],
+        "23": [
+          "All this, O king, Araunah gives to the king"
+        ],
+        "24": [
+          "But the king said to Araunah, “No, but I will..."
+        ],
+        "25": [
+          "And David built there an altar to the Lord and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And David said unto Gad, I am in a great strait: let us fall now into the hand of the LORD; f...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "רַֽחֲמָ֔ו: for his mercies - compassion (in the plural)",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And David spake unto the LORD when he saw the angel that smote the people, and said, Lo, I ha...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Ambrose of Milan on ON THE DEATH OF THEODOSIUS 27: Good, therefore, is humility. It delivers...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And David built there an altar unto the LORD, and offered burnt offerings and peace offerings...\". Word-study detail reinforces \"וּשְׁלָמִ֑ים: and peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        3,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "still"
+        ],
+        "25": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And David built there an altar unto the LORD, and offered burnt offerings and peace offerings...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "וּשְׁלָמִ֑ים: and peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Notwithstanding the king's word prevailed against Joab, and against the captains of the host....\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Notwithstanding the king's word prevailed against Joab, and against the captains of the host....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

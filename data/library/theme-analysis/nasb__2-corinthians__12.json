@@ -1,0 +1,328 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Corinthians",
+  "chapter": 12,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:54.141Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then he applies the simile, in which he propos...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        13,
+        15,
+        19
+      ],
+      "versePhrases": {
+        "13": [
+          "For in what respect were you treated as inferior to..."
+        ],
+        "15": [
+          "love",
+          "loved"
+        ],
+        "19": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "John Chrysostom on Homily 27 on 2 Corinthians: And observe his prudence. For because the moor...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "χαρίσασθέ: forgive - to grant as a favor, i.e., gratuitously, in kindness, pardon or rescue",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And I will very gladly spend and be spent for you; though the more abundantly I love you, the...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Then he applies the simile, in which he propos...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then he adds the reason, which excludes their...\". Word-study detail reinforces \"ἀλήθειαν: the truth - truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        11,
+        12,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "Boasting is necessary, though it is not beneficial"
+        ],
+        "2": [
+          "I know a man in Christ, who fourteen years ago—whether..."
+        ],
+        "3": [
+          "And I know how such a man—whether in the body..."
+        ],
+        "4": [
+          "was caught up into Paradise and heard inexpressible words, which..."
+        ],
+        "6": [
+          "truth"
+        ],
+        "11": [
+          "I have become foolish"
+        ],
+        "12": [
+          "true"
+        ],
+        "19": [
+          "All this time you have been thinking that we are..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily 26 on 2 Corinthians: What is this? Doth he who has spoken such grea...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory of Nazianzus on THEOLOGICAL ORATION 28: Had Paul been able to express the experiences...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How that he was caught up into paradise, and heard unspeakable words, which it is not lawful...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "For though I would desire to glory, I shall not be a fool; for I will say the truth: but now...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then he states the Lord's answer: but he, i.e....\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        13
+      ],
+      "versePhrases": {
+        "7": [
+          "Because of the extraordinary greatness of the revelations, for this..."
+        ],
+        "8": [
+          "Concerning this I pleaded with the Lord three times that..."
+        ],
+        "9": [
+          "grace"
+        ],
+        "13": [
+          "Forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Written in Macedonia (AD 55-56) after years of Paul bearing this unspecified affliction. The...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Tertullian on Against Marcion Book V: But what will excite my surprise still more is the case...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "For this thing I besought the Lord thrice, that it might depart from me. Paul's pareklaesa (π...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 27: If the Father gives us everything...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily 26 on 2 Corinthians: Great indeed was this revelation. But this was...\". Word-study detail reinforces \"ῥήματα: words - an utterance (individually, collectively or specially),; by implication, a ma...\".",
+      "supportingVerses": [
+        2,
+        4,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "I know a man in Christ, who fourteen years ago—whether..."
+        ],
+        "4": [
+          "was caught up into Paradise and heard inexpressible words, which..."
+        ],
+        "7": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "\"Fourteen years ago\" dates this vision to AD 41-42, possibly during Paul's \"silent years\" in...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily 26 on 2 Corinthians: Great indeed was this revelation. But this was...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What's the difference between words that are \"unspeakable\" due to sublimity versus words proh...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily 26 on 2 Corinthians: Great indeed was this revelation. But this was...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then he states the Lord's answer: but he, i.e....\". Word-study detail reinforces \"ἐπισκηνώσῃ: may rest - to tent upon, i.e., (figuratively) abide with\".",
+      "supportingVerses": [
+        9,
+        13,
+        20
+      ],
+      "versePhrases": {
+        "9": [
+          "And He has said to me, “My grace is sufficient..."
+        ],
+        "13": [
+          "rest"
+        ],
+        "20": [
+          "For I am afraid that perhaps when I come I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weak...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Then he states the Lord's answer: but he, i.e....",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "ἐπισκηνώσῃ: may rest - to tent upon, i.e., (figuratively) abide with",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "John Chrysostom on Homily 27 on 2 Corinthians: \"For what is there wherein ye were made inferi...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Tertullian on On Modesty: Plainly, the selfsame apostle delivered to Satan Hymenaeus and Alex...\".",
+      "supportingVerses": [
+        7,
+        8,
+        14
+      ],
+      "versePhrases": {
+        "7": [
+          "Because of the extraordinary greatness of the revelations, for this..."
+        ],
+        "8": [
+          "Concerning this I pleaded with the Lord three times that..."
+        ],
+        "14": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And lest I should be exalted above measure through the abundance of the revelations, there wa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Tertullian on On Modesty: Plainly, the selfsame apostle delivered to Satan Hymenaeus and Alex...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "For this thing I besought the Lord thrice, that it might depart from me. Paul's pareklaesa (π...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 27: If the Father gives us everything...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

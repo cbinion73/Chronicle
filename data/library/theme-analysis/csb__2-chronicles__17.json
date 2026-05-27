@@ -1,0 +1,235 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 17,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:37.257Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"These waited on the king, beside those whom the king put in the fenced cities throughout all...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "He stationed troops in every fortified city of Judah and..."
+        ],
+        "3": [
+          "Now the Lord was with Jehoshaphat because he walked in..."
+        ],
+        "4": [
+          "but sought the God of his father and walked by..."
+        ],
+        "5": [
+          "kingdom"
+        ],
+        "6": [
+          "He took great pride in the Lord’s ways, and he..."
+        ],
+        "7": [
+          "reign"
+        ],
+        "10": [
+          "The terror of the Lord was on all the kingdoms of the lands that surrounded Judah"
+        ],
+        "19": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 15:24",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Kings 15:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And Jehoshaphat his son reigned in his stead, and strengthened himself against Israel. This v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיִּמְלֹ֛ךְ: reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he placed forces in all the fenced cities of Judah, and set garrisons in the land of Juda...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And they taught in Judah, and had the book of the law of the LORD with them, and went about t...\". Word-study detail reinforces \"לְלַמֵּ֖ד: to teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...\".",
+      "supportingVerses": [
+        7,
+        9
+      ],
+      "versePhrases": {
+        "7": [
+          "teach"
+        ],
+        "9": [
+          "taught"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Also in the third year of his reign he sent to his princes, even to Benhail, and to Obadiah,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לְלַמֵּ֖ד: to teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And they taught in Judah, and had the book of the law of the LORD with them, and went about t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וַֽיְלַמְּד֖וּ: And they taught - properly, to goad, i.e., (by implication) to teach (the rod...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And Jehoshaphat his son reigned in his stead, and strengthened himself against Israel. This v...\". Word-study detail reinforces \"וַיִּמְלֹ֛ךְ: reigned - to reign; hence (by implication) to take counsel\".",
+      "supportingVerses": [
+        1,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "His son Jehoshaphat became king in his place and strengthened..."
+        ],
+        "7": [
+          "In the third year of his reign, Jehoshaphat sent his..."
+        ],
+        "9": [
+          "instruction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And Jehoshaphat his son reigned in his stead, and strengthened himself against Israel. This v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיִּמְלֹ֛ךְ: reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לְמָלְכ֗וֹ: of his reign - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How does this verse illustrate the principle of divine retribution (blessing for obedience, j...\". Word-study detail reinforces \"וּבְמִצְוֹתָ֖יו: in his commandments - a command, whether human or divine (collectively, the...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "commands"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does this verse illustrate the principle of divine retribution (blessing for obedience, j...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וּבְמִצְוֹתָ֖יו: in his commandments - a command, whether human or divine (collectively, the...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And the fear of the LORD fell upon all the kingdoms of the lands that were round about Judah,...\". Word-study detail reinforces \"פַּ֣חַד: And the fear - a (sudden) alarm (properly, the object feared, by implication, the fe...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "terror"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And the fear of the LORD fell upon all the kingdoms of the lands that were round about Judah,...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "פַּ֣חַד: And the fear - a (sudden) alarm (properly, the object feared, by implication, the fe...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

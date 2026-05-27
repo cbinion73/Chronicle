@@ -1,0 +1,321 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 45,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:38:57.939Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Origen of Alexandria on HOMILIES ON GENESIS 15.3: But because occasionally the divine fire ca...\". Word-study detail reinforces \"עוֹד: - properly, iteration or continuance; used only adverbially (with or without prepositio...\".",
+      "supportingVerses": [
+        3,
+        6,
+        11,
+        26,
+        28
+      ],
+      "versePhrases": {
+        "3": [
+          "still"
+        ],
+        "6": [
+          "still"
+        ],
+        "11": [
+          "still"
+        ],
+        "26": [
+          "still"
+        ],
+        "28": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ambrose of Milan on ON JOSEPH 12.67: And Joseph ordered all to withdraw so that he could be r...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַע֥וֹד: - properly, iteration or continuance; used only adverbially (with or without preposi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וְעוֹד֙: - properly, iteration or continuance; used only adverbially (with or without preposi...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "ע֛וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And Joseph said unto his brethren, Come near to me, I pray you. And they came near. And he sa...\". Word-study detail reinforces \"קָרוֹב֙: and thou shalt be near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        3,
+        4,
+        9,
+        10,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "presence"
+        ],
+        "4": [
+          "near"
+        ],
+        "9": [
+          "“Hurry and go up to my father, and say to..."
+        ],
+        "10": [
+          "dwell",
+          "near"
+        ],
+        "24": [
+          "So he sent his brothers away, and they departed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And Joseph said unto his brethren, Come near to me, I pray you. And they came near. And he sa...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on ON JOSEPH 12.68-69: “Come to me,” because I have come near to you, yes, e...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on ON JOSEPH 12.70-73: Indeed they are expressed in the same words, so that...\". Word-study detail reinforces \"בָּאָ֑רֶץ: in the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "7": [
+          "earth"
+        ],
+        "8": [
+          "made"
+        ],
+        "9": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּהִתְוַדַּ֥ע: made himself known - to know (properly, to ascertain by seeing); used in a gr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And God sent me before you to preserve you a posterity in the earth, and to save your lives b...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "בָּאָ֑רֶץ: in the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "So now it was not you that sent me hither, but God: and he hath made me a father to Pharaoh,...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And God sent me before you to preserve you a posterity in the earth, and to save your lives b...\". Word-study detail reinforces \"לִפְלֵיטָ֖ה: deliverance - deliverance; concretely, an escaped portion\".",
+      "supportingVerses": [
+        3,
+        4,
+        7,
+        9,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "Then Joseph said to his brothers, “I am Joseph"
+        ],
+        "4": [
+          "And Joseph said to his brothers, “Please come near to..."
+        ],
+        "7": [
+          "save",
+          "deliverance"
+        ],
+        "9": [
+          "“Hurry and go up to my father, and say to..."
+        ],
+        "22": [
+          "He gave to all of them, to each man, changes..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does this passage point forward to Christ and the gospel of redemption?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ambrose of Milan on ON JOSEPH 12.67: And Joseph ordered all to withdraw so that he could be r...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does this passage point forward to Christ and the gospel of redemption?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on ON JOSEPH 12.68-69: “Come to me,” because I have come near to you, yes, e...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on HOMILIES ON GENESIS 65.3: Despite these words and the fact that they broug...\". Word-study detail reinforces \"חַ֔י: is yet alive - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as...\".",
+      "supportingVerses": [
+        3,
+        26,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "3": [
+          "Then Joseph said to his brothers, “I am Joseph"
+        ],
+        "26": [
+          "alive"
+        ],
+        "27": [
+          "But when they told him all the words which Joseph..."
+        ],
+        "28": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ambrose of Milan on ON JOSEPH 12.67: And Joseph ordered all to withdraw so that he could be r...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חָ֑י: yet live - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as noun...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"תִּרְגְּז֖וּ: unto them See that ye fall not out - to quiver (with any violent emotion, espec...\".",
+      "supportingVerses": [
+        3,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "dismayed"
+        ],
+        "24": [
+          "troubled"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "נִבְהֲל֖וּ: him for they were troubled - to tremble inwardly (or palpitate), i.e., (figurativ...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "תִּרְגְּז֖וּ: unto them See that ye fall not out - to quiver (with any violent emotion, espec...",
+          "anchorVerse": 24
+        }
+      ]
+    }
+  ]
+}

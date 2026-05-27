@@ -1,0 +1,202 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:45.825Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Word-study detail reinforces \"מֶֽלֶךְ: king - a king\".",
+      "supportingVerses": [
+        23,
+        31,
+        41
+      ],
+      "versePhrases": {
+        "23": [
+          "king"
+        ],
+        "31": [
+          "reign"
+        ],
+        "41": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "הַמֶּ֥לֶךְ: with the king - a king",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "מְלֹ֥ךְ: unto the reign - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 41 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 41
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jabez's prayer demonstrates bold faith: 'And Jabez called on the God of Israel, saying, Oh th...\". Word-study detail reinforces \"וְעָשִׂ֥יתָ: might be with me and that thou wouldest keep - to do or make, in the broadest se...\".",
+      "supportingVerses": [
+        10,
+        33
+      ],
+      "versePhrases": {
+        "10": [
+          "keep"
+        ],
+        "33": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Jabez's prayer demonstrates bold faith: 'And Jabez called on the God of Israel, saying, Oh th...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְעָשִׂ֥יתָ: might be with me and that thou wouldest keep - to do or make, in the broadest se...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...\". Word-study detail reinforces \"וְשֹׁקֶ֖טֶת: and quiet - to repose (usually figurative)\".",
+      "supportingVerses": [
+        40
+      ],
+      "versePhrases": {
+        "40": [
+          "quiet"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 40 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 40
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 40 word study",
+          "detail": "וְשֹׁקֶ֖טֶת: and quiet - to repose (usually figurative)",
+          "anchorVerse": 40
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jabez's prayer demonstrates bold faith: 'And Jabez called on the God of Israel, saying, Oh th...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Proverbs 10:22",
+          "anchorVerse": 10,
+          "referenceLabel": "Proverbs 10:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Jabez's prayer demonstrates bold faith: 'And Jabez called on the God of Israel, saying, Oh th...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "תְּבָרֲכֵ֜נִי: me indeed - to kneel; by implication to bless god (as an act of adoration), an...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does this verse teach about God's faithfulness across generations, and how does that app...\".",
+      "supportingVerses": [
+        42
+      ],
+      "versePhrases": {
+        "42": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 42 commentary",
+          "detail": "What does this verse teach about God's faithfulness across generations, and how does that app...",
+          "anchorVerse": 42
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jabez's prayer demonstrates bold faith: 'And Jabez called on the God of Israel, saying, Oh th...\". Word-study detail reinforces \"וְעָשִׂ֥יתָ: might be with me and that thou wouldest keep - to do or make, in the broadest se...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Jabez's prayer demonstrates bold faith: 'And Jabez called on the God of Israel, saying, Oh th...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְעָשִׂ֥יתָ: might be with me and that thou wouldest keep - to do or make, in the broadest se...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

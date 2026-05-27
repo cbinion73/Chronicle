@@ -1,0 +1,141 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 8,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:14.611Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Verse 16 introduces the plague of lice or gnats (כִּנִּם, kinnim), targeting Geb, earth god....\". Word-study detail reinforces \"אֶ֥רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        6,
+        16,
+        17,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "6": [
+          "waters"
+        ],
+        "16": [
+          "And the Lord said unto Moses, Say unto Aaron, Stretch..."
+        ],
+        "17": [
+          "earth"
+        ],
+        "19": [
+          "Then the magicians said unto Pharaoh, This is the finger..."
+        ],
+        "22": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶ֥רֶץ: the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Verse 16 introduces the plague of lice or gnats (כִּנִּם, kinnim), targeting Geb, earth god....",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "אֶ֥רֶץ: of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Verse 17 introduces the plague of lice or gnats (כִּנִּם, kinnim), targeting Geb, earth god....",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What happens when blessings become curses through misplaced worship?\". Word-study detail reinforces \"אַעְתִּ֣יר: shall I intreat - to burn incense in worship, i.e., intercede (reciprocally, list...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "Glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What happens when blessings become curses through misplaced worship?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אַעְתִּ֣יר: shall I intreat - to burn incense in worship, i.e., intercede (reciprocally, list...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"עֹמֵ֣ד: dwell - to stand, in various relations (literal and figurative, intransitive and tran...\".",
+      "supportingVerses": [
+        22
+      ],
+      "versePhrases": {
+        "22": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "עֹמֵ֣ד: dwell - to stand, in various relations (literal and figurative, intransitive and tran...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Inferred",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"יֹאמַ֥ר: as he shall command - to say (used with great latitude)\".",
+      "supportingVerses": [
+        27
+      ],
+      "versePhrases": {
+        "27": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "יֹאמַ֥ר: as he shall command - to say (used with great latitude)",
+          "anchorVerse": 27
+        }
+      ]
+    }
+  ]
+}

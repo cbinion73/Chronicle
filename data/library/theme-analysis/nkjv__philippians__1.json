@@ -1,0 +1,388 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Philippians",
+  "chapter": 1,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:55.927Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Thomas Aquinas on Commentary on Philippians: Thirdly, help depends on our trust in God, becau...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        6,
+        7,
+        14,
+        16,
+        19,
+        20,
+        21,
+        23,
+        25,
+        26,
+        27,
+        29
+      ],
+      "versePhrases": {
+        "6": [
+          "being confident of this very thing, that He who has..."
+        ],
+        "7": [
+          "just as it is right for me to think this..."
+        ],
+        "14": [
+          "and most of the brethren in the Lord, having become..."
+        ],
+        "16": [
+          "The former preach Christ from selfish ambition, not sincerely, supposing..."
+        ],
+        "19": [
+          "For I know that this will turn out for my..."
+        ],
+        "20": [
+          "hope"
+        ],
+        "21": [
+          "For to me, to live is Christ, and to die..."
+        ],
+        "23": [
+          "For I am hard-pressed between the two, having a desire..."
+        ],
+        "25": [
+          "faith"
+        ],
+        "26": [
+          "that your rejoicing for me may be more abundant in..."
+        ],
+        "27": [
+          "faith"
+        ],
+        "29": [
+          "believe"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does confidence in God's completing work differ from presumption or passivity?",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Philippians: I give thanks, he says, and \"I rejoice,\" i...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Even as it is meet for me to think this of you all, because I have you in my heart (καθώς ἐστ...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Ambrosiaster on EPISTLE TO THE PHILIPPIANS 1.7: Paul had always found the Philippians to be i...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Philippians: Then he mentions the good things he desires for...\". Word-study detail reinforces \"εἰρήνη: peace - peace (literally or figuratively); by implication, prosperity\".",
+      "supportingVerses": [
+        2,
+        9,
+        13,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "peace"
+        ],
+        "9": [
+          "still"
+        ],
+        "13": [
+          "rest"
+        ],
+        "21": [
+          "For to me, to live is Christ, and to die..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ (χάρις ὑμῖν...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: Then he mentions the good things he desires for...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "εἰρήνη: peace - peace (literally or figuratively); by implication, prosperity",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Philippians: Though he is loved so much, he still desir...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Always in every prayer of mine for you all making request with joy (πάντοτε ἐν πάσῃ δεήσει μο...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        4,
+        9,
+        19
+      ],
+      "versePhrases": {
+        "4": [
+          "prayer"
+        ],
+        "9": [
+          "pray"
+        ],
+        "19": [
+          "prayer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Romans 1:9",
+          "anchorVerse": 4,
+          "referenceLabel": "Romans 1:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Always in every prayer of mine for you all making request with joy (πάντοτε ἐν πάσῃ δεήσει μο...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: For you all: \"Your people shall all be righteous...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "δέησιν: prayer - a petition",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Against Lying 16: There were in the times of the apostles some who were...\". Word-study detail reinforces \"ἀληθείᾳ: in truth - truth\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        9,
+        14,
+        18,
+        23,
+        25
+      ],
+      "versePhrases": {
+        "5": [
+          "for your fellowship in the gospel from the first day..."
+        ],
+        "6": [
+          "being confident of this very thing, that He who has..."
+        ],
+        "7": [
+          "just as it is right for me to think this..."
+        ],
+        "9": [
+          "And this I pray, that your love may abound still..."
+        ],
+        "14": [
+          "and most of the brethren in the Lord, having become..."
+        ],
+        "18": [
+          "truth"
+        ],
+        "23": [
+          "For I am hard-pressed between the two, having a desire..."
+        ],
+        "25": [
+          "And being confident of this, I know that I shall..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For your fellowship in the gospel from the first day until now (ἐπὶ τῇ κοινωνίᾳ ὑμῶν εἰς τὸ ε...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: Then when he says, for your partnership in the g...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The theology of divine preservation countered both legalistic self-effort and libertine presu...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: And being confident of this very thing, I take j...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For unto you it is given in the behalf of Christ, not only to believe on him, but also to suf...\". Word-study detail reinforces \"θλῖψιν: affliction - pressure (literally or figuratively)\".",
+      "supportingVerses": [
+        7,
+        16,
+        17,
+        19,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "just as it is right for me to think this..."
+        ],
+        "16": [
+          "affliction"
+        ],
+        "17": [
+          "but the latter out of love, knowing that I am..."
+        ],
+        "19": [
+          "For I know that this will turn out for my..."
+        ],
+        "29": [
+          "suffer"
+        ],
+        "30": [
+          "having the same conflict which you saw in me and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Even as it is meet for me to think this of you all, because I have you in my heart (καθώς ἐστ...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily on Philippians 1: \"Even as it is right for me to be thus minded on...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The one preach Christ of contention, not sincerely, supposing to add affliction to my bonds (...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "John Chrysostom on Homily on Philippians 2: \"The one proclaim Christ of faction not sincerely...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on Homily on Philippians 4: \"That your glorying may abound in Christ Jesus in...\". Word-study detail reinforces \"ὑμῖν: with you - to (with or by) you\".",
+      "supportingVerses": [
+        7,
+        21,
+        23,
+        24,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "7": [
+          "with me"
+        ],
+        "21": [
+          "For to me, to live is Christ, and to die..."
+        ],
+        "23": [
+          "having a desire to depart and be with Christ"
+        ],
+        "24": [
+          "Nevertheless to remain in the flesh is more needful for..."
+        ],
+        "25": [
+          "with you"
+        ],
+        "26": [
+          "that your rejoicing for me may be more abundant in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: The reason for his joy is given when he says: It...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "For to me to live is Christ, and to die is gain (Ἐμοὶ γὰρ τὸ ζῆν Χριστὸς καὶ τὸ ἀποθανεῖν κέρ...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "John Chrysostom on Homily on Philippians 3: \"For to me,\" he says, \"to live is Christ, and to...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "Paul's confidence in conscious intermediate state between death and resurrection refutes soul...",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

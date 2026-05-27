@@ -1,0 +1,173 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 26,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:34.069Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Do you see someone wise in their own eyes? There's more hope for a fool than for them. The He...\". Word-study detail reinforces \"חָכָ֣ם: wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        4,
+        5,
+        7,
+        9,
+        11,
+        12,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "4": [
+          "Otherwise you"
+        ],
+        "5": [
+          "wise"
+        ],
+        "7": [
+          "wisdom"
+        ],
+        "9": [
+          "wisdom"
+        ],
+        "11": [
+          "Like a dog that returns to his vomit Is a..."
+        ],
+        "12": [
+          "wise"
+        ],
+        "16": [
+          "The lazy person is wiser in his own eyes Than seven [sensible] men who can give a discreet answer"
+        ],
+        "17": [
+          "Like one who grabs a dog by the ears [and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Don't answer a fool 'according to his folly' lest you become like him. Engaging fools on thei...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Proverbs: Do not answer a fool according to his foolishness, etc. Answe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse seems to contradict verse 4: 'Answer a fool according to his folly, lest he be wis...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חָכָ֣ם: lest he be wise - wise, (i.e., intelligent, skilful or artful)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"When have you used \"I was just joking\" to avoid taking responsibility for words that wounded...\". Word-study detail reinforces \"כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        2,
+        10,
+        19
+      ],
+      "versePhrases": {
+        "2": [
+          "Like the sparrow in her wandering, like the swallow in..."
+        ],
+        "10": [
+          "just"
+        ],
+        "19": [
+          "So is the man who deceives his neighbor (acquaintance, friend)..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "An undeserved curse 'shall not come'—like a wandering bird or flying swallow, it won't land o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Nilus of Sinai on CONSTITUTIONS OF THE HOLY APOSTLES 3:1.15: “As birds and sparrows fly away,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient employment required trust - hiring unreliable workers endangered households and busin...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What gracious-sounding messages are you believing from people whose character you shouldn't t...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        12,
+        25
+      ],
+      "versePhrases": {
+        "12": [
+          "hope"
+        ],
+        "25": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Proverbs 29:20",
+          "anchorVerse": 12,
+          "referenceLabel": "Proverbs 29:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Do you see someone wise in their own eyes? There's more hope for a fool than for them. The He...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on COMMENTARY ON ISAIAH 5:21: This is not a small fault either to consider on...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "תִּקְוָ֖ה: there is more hope - literally a cord (as an attachment); figuratively, expectancy",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

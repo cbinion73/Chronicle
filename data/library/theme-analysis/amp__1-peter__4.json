@@ -1,0 +1,357 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Peter",
+  "chapter": 4,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:49:11.877Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Peter draws imperative from Christ's suffering. \"Forasmuch then as Christ hath suffered for u...\". Word-study detail reinforces \"πάσχοντες: them that suffer - to experience a sensation or impression (usually painful)\".",
+      "supportingVerses": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "suffer"
+        ],
+        "12": [
+          "Beloved, do not be surprised at the fiery ordeal which..."
+        ],
+        "13": [
+          "But insofar as you are sharing Christ’s sufferings"
+        ],
+        "14": [
+          "If you are insulted and reviled for [bearing] the name..."
+        ],
+        "15": [
+          "Make sure that none of you suffers as a murderer"
+        ],
+        "16": [
+          "suffer"
+        ],
+        "18": [
+          "And if it is difficult for the righteous to be..."
+        ],
+        "19": [
+          "suffer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Peter draws imperative from Christ's suffering. \"Forasmuch then as Christ hath suffered for u...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Nicetas of Remesiana on EXPLANATION OF THE CREED 5: Christ did not suffer in his divinity but...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "By AD 62-64, persecution intensified under Nero. Initial surprise at hostility gave way to su...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Desert Fathers on The Desert Fathers, Sayings of the Early Christian Monks: [Syncletica] also...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Cyprian on Treatise XI Exhortation to Martyrdom Addressed to Fortunatus: That we receive more...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        6,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "6": [
+          "For this is why the good news [of salvation] was..."
+        ],
+        "12": [
+          "faith"
+        ],
+        "13": [
+          "But insofar as you are sharing Christ’s sufferings, keep on..."
+        ],
+        "16": [
+          "belief"
+        ],
+        "17": [
+          "believe"
+        ],
+        "18": [
+          "And if it is difficult for the righteous to be..."
+        ],
+        "19": [
+          "those who are ill-treated and suffer in accordance with the will of God must [continue to] do right and commit their souls [for safe-keeping] to the faithful Creator"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This difficult verse generated multiple interpretations. Most likely: gospel was preached to...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Oecumenius on Commentary on 1 Peter: In this cause, the Gospel has also been preached to the...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "By AD 62-64, persecution intensified under Nero. Initial surprise at hostility gave way to su...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Cyprian on Treatise XI Exhortation to Martyrdom Addressed to Fortunatus: That we receive more...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 Peter: That is, both to those who were justified duri...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        7,
+        11,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "7": [
+          "specific and pleasing to Him"
+        ],
+        "11": [
+          "glory"
+        ],
+        "13": [
+          "glory"
+        ],
+        "14": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Peter: That is, both to those who were justified duri...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "προσευχάς·: prayer - prayer (worship); by implication, an oratory (chapel)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "1 Corinthians 10:31",
+          "anchorVerse": 11,
+          "referenceLabel": "1 Corinthians 10:31"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Peter gives gift categories: speaking and serving. Ultimate goal is God's glory, not personal...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Clement of Rome on Letter to the Corinthians (Clement): Love unites us to God. Love covers a...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        6,
+        8,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "For this is why the good news [of salvation] was..."
+        ],
+        "8": [
+          "love"
+        ],
+        "12": [
+          "Beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does knowing deceased believers 'live according to God in spirit' despite human judgment/...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Book VII, Letter 15: Moreover, after your departure I learned from i...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Proverbs 10:12",
+          "anchorVerse": 8,
+          "referenceLabel": "Proverbs 10:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The phrase \"above all things\" ( pro pantōn , before all else) establishes fervent love as the...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Letter 164 (A.D. 414), Sections 2, 3, 6, 8, 10: After having said that...\". Word-study detail reinforces \"σῴζεται: be saved - to save, i.e., deliver or protect (literally or figuratively)\".",
+      "supportingVerses": [
+        6,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "6": [
+          "salvation"
+        ],
+        "14": [
+          "salvation"
+        ],
+        "18": [
+          "saved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Peter explains gospel preaching to the dead. \"For for this cause was the gospel preached also...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Letter 164 (A.D. 414), Sections 2, 3, 6, 8, 10: After having said that...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Peter quotes Proverbs: if righteous scarcely saved, what about the wicked? Biblical salvation...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Jerome on Against the Pelagians 2.5: It is the righteous man who is scarcely saved on the day...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 Peter: Having spoken of love, he adds what is closely...\". Word-study detail reinforces \"ἀπειθούντων: be of them that obey not - to disbelieve (wilfully and perversely)\".",
+      "supportingVerses": [
+        8,
+        9,
+        12,
+        13,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "8": [
+          "Above all, have fervent and unfailing love for one another,..."
+        ],
+        "9": [
+          "Be hospitable to one another without complaint"
+        ],
+        "12": [
+          "Beloved, do not be surprised at the fiery ordeal which..."
+        ],
+        "13": [
+          "keep"
+        ],
+        "17": [
+          "obey"
+        ],
+        "19": [
+          "those who are ill-treated and suffer in accordance with the will of God must [continue to] do right and commit their souls [for safe-keeping] to the faithful Creator"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The phrase \"above all things\" ( pro pantōn , before all else) establishes fervent love as the...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Oecumenius on Commentary on 1 Peter: The end of all things is at hand. Therefore, be sober an...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Peter commands hospitality. Christian hospitality should be generous and joyful, not reluctan...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Peter: Having spoken of love, he adds what is closely...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

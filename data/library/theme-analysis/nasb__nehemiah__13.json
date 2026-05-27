@@ -1,0 +1,275 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 13,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:27.707Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But in all this time was not I at Jerusalem: for in the two and thirtieth year of Artaxerxes...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        26
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ],
+        "26": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Nehemiah 5:14",
+          "anchorVerse": 6,
+          "referenceLabel": "Nehemiah 5:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But in all this time was not I at Jerusalem: for in the two and thirtieth year of Artaxerxes...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַמֶּֽלֶךְ׃: I unto the king - a king",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 3:13",
+          "anchorVerse": 26,
+          "referenceLabel": "1 Kings 3:13"
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Nehemiah's account occurs during Persian imperial dominance (539-331 BC), specifically 445-43...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        2,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "On that day the Book of Moses was read aloud..."
+        ],
+        "2": [
+          "blessing"
+        ],
+        "29": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Nehemiah's account occurs during Persian imperial dominance (539-331 BC), specifically 445-43...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: On that day, it was read from the book of Moses, etc...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 109:28",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 109:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Nehemiah's account occurs during Persian imperial dominance (539-331 BC), specifically 445-43...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: He also said to the Levites that they should be puri...\". Word-study detail reinforces \"וְטִֽהַרְתִּ֖ים: Thus cleansed - to be pure (physical sound, clear, unadulterated; leviticall...\".",
+      "supportingVerses": [
+        19,
+        22,
+        30
+      ],
+      "versePhrases": {
+        "19": [
+          "just"
+        ],
+        "22": [
+          "And I ordered the Levites that they were to purify..."
+        ],
+        "30": [
+          "So I purified them from everything foreign, and assigned duties..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And it came to pass, that when the gates of Jerusalem began to be dark before the sabbath, I...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: Therefore, it happened, when the gates of Jerusalem...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "And I commanded the Levites that they should cleanse themselves, and that they should come an...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: He also said to the Levites that they should be puri...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Did not Solomon king of Israel sin by these things? yet among many nations was there no king...\". Word-study detail reinforces \"וַיִּתְּנֵ֣הוּ: made - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        25,
+        26
+      ],
+      "versePhrases": {
+        "25": [
+          "made"
+        ],
+        "26": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And I contended with them, and cursed them, and smote certain of them, and plucked off their...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "וָֽאַשְׁבִּיעֵ֣ם: and made them swear - to seven oneself, i.e., swear (as if by repeating a d...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Did not Solomon king of Israel sin by these things? yet among many nations was there no king...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "וַיִּתְּנֵ֣הוּ: made - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: He also said to the Levites that they should be puri...\". Word-study detail reinforces \"לְקַדֵּ֖שׁ: to sanctify - to be (causatively, make, pronounce or observe as) clean (ceremonia...\".",
+      "supportingVerses": [
+        22,
+        30
+      ],
+      "versePhrases": {
+        "22": [
+          "sanctify"
+        ],
+        "30": [
+          "So I purified them from everything foreign, and assigned duties..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "And I commanded the Levites that they should cleanse themselves, and that they should come an...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: He also said to the Levites that they should be puri...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "לְקַדֵּ֖שׁ: to sanctify - to be (causatively, make, pronounce or observe as) clean (ceremonia...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 30 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: But in those days I also saw Jews who had married wo...",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And I commanded the Levites that they should cleanse themselves, and that they should come an...\". Word-study detail reinforces \"חַסְדֶּֽךָ׃: of thy mercy - kindness; by implication (towards god) piety; rarely (by oppositi...\".",
+      "supportingVerses": [
+        22
+      ],
+      "versePhrases": {
+        "22": [
+          "mercy",
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "And I commanded the Levites that they should cleanse themselves, and that they should come an...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "חַסְדֶּֽךָ׃: of thy mercy - kindness; by implication (towards god) piety; rarely (by oppositi...",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

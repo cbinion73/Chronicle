@@ -1,0 +1,392 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Galatians",
+  "chapter": 1,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:46.071Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: Then when he says, \"grace be to you and peace,\" he...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        5,
+        6,
+        10,
+        13,
+        15,
+        16,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "Grace"
+        ],
+        "5": [
+          "to whom be the glory forever and ever"
+        ],
+        "6": [
+          "grace"
+        ],
+        "10": [
+          "For am I now seeking the approval of man, or..."
+        ],
+        "13": [
+          "For you have heard of my former life in Judaism,..."
+        ],
+        "15": [
+          "grace"
+        ],
+        "16": [
+          "was pleased to reveal his Son to me, in order..."
+        ],
+        "24": [
+          "And they glorified God because of me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 John 1:3",
+          "anchorVerse": 3,
+          "referenceLabel": "2 John 1:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Grace be to you and peace from God the Father, and from our Lord Jesus Christ, Standard Pauli...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Then when he says, \"grace be to you and peace,\" he...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "χάρις: Grace - graciousness (as gratifying), of manner or act (abstract or concrete; literal,...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Grace be to you and peace from God the Father, and from our Lord Jesus Christ, Standard Pauli...\". Word-study detail reinforces \"εἰρήνη: peace - peace (literally or figuratively); by implication, prosperity\".",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        10,
+        18,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "peace"
+        ],
+        "4": [
+          "who gave himself for our sins to deliver us from..."
+        ],
+        "6": [
+          "I am astonished that you are so quickly deserting him..."
+        ],
+        "10": [
+          "still"
+        ],
+        "18": [
+          "Then after three years I went up to Jerusalem to..."
+        ],
+        "22": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Grace be to you and peace from God the Father, and from our Lord Jesus Christ, Standard Pauli...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Then when he says, \"grace be to you and peace,\" he...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "εἰρήνη: peace - peace (literally or figuratively); by implication, prosperity",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "In what areas are you still captive to this present evil age's values, priorities, and patterns?",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: Then when he says, \"For you have heard of my conve...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        6,
+        8,
+        13,
+        15,
+        18,
+        20,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle—not from men nor through man, but through..."
+        ],
+        "6": [
+          "I am astonished that you are so quickly deserting him..."
+        ],
+        "8": [
+          "But even if we or an angel from heaven should..."
+        ],
+        "13": [
+          "For you have heard of my former life in Judaism,..."
+        ],
+        "15": [
+          "But when he who had set me apart before I..."
+        ],
+        "18": [
+          "Then after three years I went up to Jerusalem to..."
+        ],
+        "20": [
+          "(In what I am writing to you, before God, I..."
+        ],
+        "23": [
+          "faith"
+        ],
+        "24": [
+          "And they glorified God because of me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What contemporary pressures tempt you to add human requirements to simple faith in Christ?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Polycarp of Smyrna on Epistle to the Philippians 12: For I trust that ye are well versed in t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Why is theological discernment essential, not optional, for persevering faith in a climate of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "CS Lewis on The Screwtape Letters, Ch. XXV: What we want, if men become Christians at all, is...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: The manner in which these goods are caused is also...\". Word-study detail reinforces \"ἐξέληται: he might deliver - actively, to tear out; middle voice, to select; figuratively, to...\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        8,
+        15,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle—not from men nor through man, but through..."
+        ],
+        "4": [
+          "deliver"
+        ],
+        "5": [
+          "to whom be the glory forever and ever"
+        ],
+        "6": [
+          "I am astonished that you are so quickly deserting him..."
+        ],
+        "8": [
+          "But even if we or an angel from heaven should..."
+        ],
+        "15": [
+          "But when he who had set me apart before I..."
+        ],
+        "19": [
+          "But I saw none of the other apostles except James..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written circa AD 48-49 or 53-57 to churches in Galatia (modern Turkey), this letter addresses...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Damascene: Why did he not start with what befits the Godhead of Christ, but with the ver...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Who gave himself for our sins, that he might deliver us from this present evil world, accordi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: The manner in which these goods are caused is also...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Galatians: (Verse 11, 12.) For I make known to you, brothers, the Gos...\". Word-study detail reinforces \"ἐδιδάχθην: was I taught - to teach (in the same broad application)\".",
+      "supportingVerses": [
+        11,
+        12,
+        14,
+        15,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "11": [
+          "For I would have you know, brothers, that the gospel..."
+        ],
+        "12": [
+          "taught"
+        ],
+        "14": [
+          "And I was advancing in Judaism beyond many of my..."
+        ],
+        "15": [
+          "But when he who had set me apart before I..."
+        ],
+        "16": [
+          "was pleased to reveal his Son to me, in order..."
+        ],
+        "19": [
+          "But I saw none of the other apostles except James..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "But I certify you, brethren, that the gospel which was preached of me is not after man. Paul...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Galatians: (Verse 11, 12.) For I make known to you, brothers, the Gos...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "For I neither received it of man, neither was I taught it, but by the revelation of Jesus Chr...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Galatians: (Verse 11, 12.) For I make known to you, brothers, the Gos...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Galatians: Then when he says, \"and all the brethren who are w...\". Word-study detail reinforces \"πατρὸς: the Father - a \"father\" (literally or figuratively, near or more remote)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle—not from men nor through man, but through..."
+        ],
+        "2": [
+          "with me"
+        ],
+        "3": [
+          "Grace to you and peace from God our Father and..."
+        ],
+        "19": [
+          "But I saw none of the other apostles except James..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Polycarp of Smyrna on Epistle to the Philippians 12: For I trust that ye are well versed in t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "πατρὸς: the Father - a \"father\" (literally or figuratively, near or more remote)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And all the brethren which are with me, unto the churches of Galatia: Unlike other letters na...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Galatians: Then when he says, \"and all the brethren who are w...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

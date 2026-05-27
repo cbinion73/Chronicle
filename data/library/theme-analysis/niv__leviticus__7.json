@@ -1,0 +1,342 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 7,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:28.562Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And the flesh that toucheth any unclean thing shall not be eaten; it shall be burnt with fire...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        6,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "6": [
+          "holy"
+        ],
+        "19": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 6:17",
+          "anchorVerse": 1,
+          "referenceLabel": "Leviticus 6:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Likewise this is the law of the trespass offering: it is most holy. This verse falls within t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קָֽדָשִׁ֖ים: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 6:29",
+          "anchorVerse": 6,
+          "referenceLabel": "Leviticus 6:29"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses.",
+      "supportingVerses": [
+        12,
+        13
+      ],
+      "versePhrases": {
+        "12": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"If he offer it for a thanksgiving, then he shall offer with the sacrifice of thanksgiving unl...\". Word-study detail reinforces \"הַשְּׁלָמִ֑ים: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        5,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        20,
+        21,
+        29,
+        31,
+        32,
+        33,
+        34,
+        37
+      ],
+      "versePhrases": {
+        "5": [
+          "The priest shall burn them on the altar as a food offering presented to the Lord"
+        ],
+        "11": [
+          "“‘These are the regulations for the fellowship offering anyone may present to the Lord"
+        ],
+        "12": [
+          "“‘If they offer it as an expression of thankfulness, then..."
+        ],
+        "13": [
+          "thanksgiving"
+        ],
+        "14": [
+          "a contribution to the Lord"
+        ],
+        "15": [
+          "thanksgiving"
+        ],
+        "18": [
+          "If any meat of the fellowship offering is eaten on..."
+        ],
+        "20": [
+          "But if anyone who is unclean eats any meat of the fellowship offering belonging to the Lord"
+        ],
+        "21": [
+          "Anyone who touches something unclean—whether human uncleanness or an unclean animal or any unclean creature that moves along the ground—and then eats any of the meat of the fellowship offering belonging to the Lord must be cut off from their people"
+        ],
+        "29": [
+          "‘Anyone who brings a fellowship offering to the Lord is to bring part of it as their sacrifice to the Lord"
+        ],
+        "31": [
+          "The priest shall burn the fat on the altar, but..."
+        ],
+        "32": [
+          "You are to give the right thigh of your fellowship..."
+        ],
+        "33": [
+          "The son of Aaron who offers the blood and the..."
+        ],
+        "34": [
+          "From the fellowship offerings of the Israelites, I have taken..."
+        ],
+        "37": [
+          "These, then, are the regulations for the burnt offering, the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What does this verse teach about the costliness of true worship and dedication to God?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וְהִקְטִ֨יר: shall burn - to smoke, i.e., turn into fragrance by fire (especially as an act o...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "What does this verse teach about the costliness of true worship and dedication to God?",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "הַשְּׁלָמִ֑ים: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Additional laws concerning offerings, including prohibitions on eating fat and blood, establi...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        3,
+        4,
+        8,
+        14,
+        22,
+        25,
+        28,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "3": [
+          "All its fat shall be offered"
+        ],
+        "4": [
+          "near"
+        ],
+        "8": [
+          "The priest who offers a burnt offering for anyone may..."
+        ],
+        "14": [
+          "They are to bring one of each kind as an..."
+        ],
+        "22": [
+          "The Lord said to Moses,"
+        ],
+        "25": [
+          "Anyone who eats the fat of an animal from which..."
+        ],
+        "28": [
+          "The Lord said to Moses,"
+        ],
+        "29": [
+          "“Say to the Israelites"
+        ],
+        "30": [
+          "With their own hands they are to present the food offering to the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Additional laws concerning offerings, including prohibitions on eating fat and blood, establi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יַקְרִ֣יב: And he shall offer - to approach (causatively, bring near) for whatever purpose",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Additional laws concerning offerings, including prohibitions on eating fat and blood, establi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Additional laws concerning offerings, including prohibitions on eating fat and blood, establi...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Besides the cakes, he shall offer for his offering leavened bread with the sacrifice of thank...\". Word-study detail reinforces \"לֶ֣חֶם: bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        13,
+        35
+      ],
+      "versePhrases": {
+        "13": [
+          "bread"
+        ],
+        "35": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Besides the cakes, he shall offer for his offering leavened bread with the sacrifice of thank...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "לֶ֣חֶם: bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 35 commentary",
+          "detail": "This is the portion of the anointing of Aaron, and of the anointing of his sons, out of the o...",
+          "anchorVerse": 35
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 35 word study",
+          "detail": "וּמִשְׁחַ֣ת: This is the portion of the anointing - unction (the act); by implication, a cons...",
+          "anchorVerse": 35
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Every male among the priests shall eat thereof: it shall be eaten in the holy place: it is mo...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "6": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 6:17",
+          "anchorVerse": 1,
+          "referenceLabel": "Leviticus 6:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Likewise this is the law of the trespass offering: it is most holy. This verse falls within t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קָֽדָשִׁ֖ים: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 6:29",
+          "anchorVerse": 6,
+          "referenceLabel": "Leviticus 6:29"
+        }
+      ]
+    }
+  ]
+}

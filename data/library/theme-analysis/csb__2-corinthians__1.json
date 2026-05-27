@@ -1,0 +1,364 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Corinthians",
+  "chapter": 1,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:27.707Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: After speaking of the comfort he had received...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        7,
+        9,
+        10,
+        12,
+        13,
+        15,
+        20,
+        21,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle of Christ Jesus by God’s will, and..."
+        ],
+        "7": [
+          "hope"
+        ],
+        "9": [
+          "trust"
+        ],
+        "10": [
+          "hope"
+        ],
+        "12": [
+          "Indeed, this is our boast"
+        ],
+        "13": [
+          "hope"
+        ],
+        "15": [
+          "confidence"
+        ],
+        "20": [
+          "For every one of God’s promises is “Yes” in him"
+        ],
+        "21": [
+          "Now it is God who strengthens us together with you..."
+        ],
+        "24": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How can I cultivate confidence in divine appointment through relational pain?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: In this epistle to the Corinthians, the Apostl...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What makes my hope 'steadfast'—is it grounded in God's character or optimistic circumstances?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily 2 on 2 Corinthians: \"And our hope for you is steadfast.\" That is, t...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: After showing that the Lord comforts his serva...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "peace"
+        ],
+        "3": [
+          "comfort"
+        ],
+        "4": [
+          "comfort"
+        ],
+        "5": [
+          "comfort"
+        ],
+        "6": [
+          "comfort"
+        ],
+        "7": [
+          "comfort"
+        ],
+        "10": [
+          "He has delivered us from such a terrible death, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Ephesians 6:23",
+          "anchorVerse": 2,
+          "referenceLabel": "Ephesians 6:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Grace be to you and peace (χάρις ὑμῖν καὶ εἰρήνη)—Paul's greeting merges Greek charis (\"grace...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: The Apostle wishes good things to the persons...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "εἰρήνη: peace - peace (literally or figuratively); by implication, prosperity",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily 1 on 2 Corinthians: \"Who comforteth us in all our affliction, that...\". Word-study detail reinforces \"θλίψεως: trouble - pressure (literally or figuratively)\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "4": [
+          "affliction"
+        ],
+        "5": [
+          "For just as the sufferings of Christ overflow to us"
+        ],
+        "6": [
+          "suffer",
+          "afflicted"
+        ],
+        "7": [
+          "because we know that as you share in the sufferings"
+        ],
+        "8": [
+          "affliction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Who comforteth us in all our tribulation (ὁ παρακαλῶν ἡμᾶς ἐπὶ πάσῃ τῇ θλίψει)—Present partic...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily 1 on 2 Corinthians: \"Who comforteth us in all our affliction, that...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For as the sufferings of Christ abound in us (καθὼς περισσεύει τὰ παθήματα τοῦ Χριστοῦ)— Peri...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having mentioned the profit which comes to oth...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: After speaking of the comfort he had received...\". Word-study detail reinforces \"σοφίᾳ: wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "12": [
+          "wisdom"
+        ],
+        "13": [
+          "understand"
+        ],
+        "14": [
+          "just as you have partially understood us—that we are your..."
+        ],
+        "15": [
+          "Because of this confidence, I planned to come to you..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "For our rejoicing is this, the testimony of our conscience (ἡ καύχησις ἡμῶν, τὸ μαρτύριον τῆς...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: After speaking of the comfort he had received...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "σοφίᾳ: wisdom - wisdom (higher or lower, worldly or spiritual)",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Then he calls on them to witness to this holy...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Who delivered us from so great a death, and doth deliver: in whom we trust that he will yet d...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        6,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "6": [
+          "salvation"
+        ],
+        "10": [
+          "deliver",
+          "delivered"
+        ],
+        "11": [
+          "while you join in helping us by your prayers"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "2 Timothy 2:10",
+          "anchorVerse": 6,
+          "referenceLabel": "2 Timothy 2:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And whether we be afflicted, it is for your consolation and salvation (εἴτε θλιβόμεθα, ὑπὲρ τ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: After showing that the Lord comforts his serva...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "σωτηρίας,: salvation - rescue or safety (physically or morally)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Having mentioned the profit which comes to oth...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        5,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle of Christ Jesus by God’s will, and..."
+        ],
+        "5": [
+          "just"
+        ],
+        "14": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ephesians 1:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Ephesians 1:1"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: In this epistle to the Corinthians, the Apostl...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἁγίοις: the saints - sacred (physically, pure, morally blameless or religious, ceremonially,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having mentioned the profit which comes to oth...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

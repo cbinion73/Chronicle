@@ -1,0 +1,388 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Luke",
+  "chapter": 20,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:24.443Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Ambrose of Milan on EXPOSITION OF THE GOSPEL OF LUKE 10.1-3: Before summarizing his commandme...\". Word-study detail reinforces \"ἐπιστεύσατε: believed ye - to have faith (in, upon, or with respect to, a person or thing), i...\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        8,
+        13,
+        16,
+        27,
+        28,
+        30,
+        33,
+        42,
+        44
+      ],
+      "versePhrases": {
+        "2": [
+          "and said to him, “Tell us by what authority you..."
+        ],
+        "3": [
+          "He answered them, “I also will ask you a question"
+        ],
+        "5": [
+          "believe"
+        ],
+        "8": [
+          "And Jesus said to them, “Neither will I tell you..."
+        ],
+        "13": [
+          "Then the owner of the vineyard said, ‘What shall I..."
+        ],
+        "16": [
+          "He will come and destroy those tenants and give the..."
+        ],
+        "27": [
+          "There came to him some Sadducees, those who deny that..."
+        ],
+        "28": [
+          "and they asked him a question, saying, “Teacher, Moses wrote..."
+        ],
+        "30": [
+          "And the second"
+        ],
+        "33": [
+          "In the resurrection, therefore, whose wife will the woman be"
+        ],
+        "42": [
+          "For David himself says in the Book of Psalms, “‘The..."
+        ],
+        "44": [
+          "David thus calls him Lord, so how is he his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Tell us, by what authority doest thou these things? or who is he that gave thee this authorit...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ephrem the Syrian on COMMENTARY ON TATIAN’S DIATESSARON 16.17: While he was teaching the crow...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does this exchange teach about engaging with those asking questions in bad faith?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ephrem the Syrian on COMMENTARY ON TATIAN’S DIATESSARON 16.17: While he was teaching the crow...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Bede on On the Gospel of Luke: And they questioned him, saying: Master, we know that you spea...\". Word-study detail reinforces \"διδάσκοντος: as he taught - to teach (in the same broad application)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        17,
+        18,
+        21,
+        22,
+        23,
+        42
+      ],
+      "versePhrases": {
+        "1": [
+          "as Jesus was teaching the people in the temple and preaching the gospel"
+        ],
+        "2": [
+          "and said to him, “Tell us by what authority you..."
+        ],
+        "3": [
+          "He answered them, “I also will ask you a question"
+        ],
+        "5": [
+          "And they discussed it with one another, saying, “If we..."
+        ],
+        "6": [
+          "But if we say, ‘From man,’ all the people will..."
+        ],
+        "8": [
+          "And Jesus said to them, “Neither will I tell you..."
+        ],
+        "17": [
+          "But he looked directly at them and said, “What then..."
+        ],
+        "18": [
+          "Everyone who falls on that stone will be broken to..."
+        ],
+        "21": [
+          "teach"
+        ],
+        "22": [
+          "Is it lawful for us to give tribute to Caesar,..."
+        ],
+        "23": [
+          "But he perceived their craftiness, and said to them,"
+        ],
+        "42": [
+          "For David himself says in the Book of Psalms, “‘The..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This confrontation occurred during Jesus' final week in Jerusalem, likely Tuesday of Passion...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Eusebius of Caesarea on Catena Aurea by Aquinas: But the rulers who should have been struck w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "διδάσκοντος: as he taught - to teach (in the same broad application)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Temple authorities controlled who could teach in the courts. Rabbis derived authority from re...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"But when the husbandmen saw him, they reasoned among themselves, saying, This is the heir: co...\". Word-study detail reinforces \"κληρονομία: the inheritance - heirship, i.e., (concretely) a patrimony or (genitive case) a p...\".",
+      "supportingVerses": [
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "9": [
+          "And he began to tell the people this parable"
+        ],
+        "10": [
+          "When the time came, he sent a servant to the..."
+        ],
+        "11": [
+          "And he sent another servant"
+        ],
+        "13": [
+          "Then the owner of the vineyard said, ‘What shall I..."
+        ],
+        "14": [
+          "inheritance"
+        ],
+        "15": [
+          "And they threw him out of the vineyard and killed..."
+        ],
+        "16": [
+          "He will come and destroy those tenants and give the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Then began he to speak to the people this parable; A certain man planted a vineyard, and let...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Ephrem the Syrian on COMMENTARY ON TATIAN’S DIATESSARON 16.19: He proposed another parable. “...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And at the season he sent a servant to the husbandmen, that they should give him of the fruit...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Ephrem the Syrian on COMMENTARY ON TATIAN’S DIATESSARON 16.19: He proposed another parable. “...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"So they cast him out of the vineyard, and killed him. What therefore shall the lord of the vi...\".",
+      "supportingVerses": [
+        15,
+        16,
+        18,
+        47
+      ],
+      "versePhrases": {
+        "15": [
+          "And they threw him out of the vineyard and killed..."
+        ],
+        "16": [
+          "He will come and destroy those tenants and give the..."
+        ],
+        "18": [
+          "Everyone who falls on that stone will be broken to..."
+        ],
+        "47": [
+          "condemnation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "So they cast him out of the vineyard, and killed him. What therefore shall the lord of the vi...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Ambrose of Milan on Catena Aurea by Aquinas: He rightly puts a question to them, that they ma...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "He shall come and destroy these husbandmen, and shall give the vineyard to others. And when t...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Basil of Caesarea on Catena Aurea by Aquinas: And this happens as it were to men who are cond...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Then said the lord of the vineyard, What shall I do? I will send my beloved son: it may be th...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        13,
+        46
+      ],
+      "versePhrases": {
+        "13": [
+          "beloved"
+        ],
+        "46": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Matthew 3:17",
+          "anchorVerse": 13,
+          "referenceLabel": "Matthew 3:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Then said the lord of the vineyard, What shall I do? I will send my beloved son: it may be th...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Cyril of Alexandria on Catena Aurea by Aquinas: The Lord of the vineyard also ponders what He...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "ἀγαπητόν·: beloved - beloved",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Cyril of Alexandria on COMMENTARY ON LUKE, HOMILY 137: The Pharisees did not answer Christ’s...\". Word-study detail reinforces \"παραδοῦναι: they might deliver - to surrender, i.e yield up, entrust, transmit\".",
+      "supportingVerses": [
+        20,
+        42
+      ],
+      "versePhrases": {
+        "20": [
+          "deliver"
+        ],
+        "42": [
+          "For David himself says in the Book of Psalms, “‘The..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "They watched him (παρατηρέω, paratēreō)—not pastoral care but hostile surveillance, seeking g...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Bede on On the Gospel of Luke: And observing, they sent spies, who pretended to be righteous,...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "παραδοῦναι: they might deliver - to surrender, i.e yield up, entrust, transmit",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 42 commentary",
+          "detail": "And David himself saith in the book of Psalms, The LORD said unto my Lord, Sit thou on my rig...",
+          "anchorVerse": 42
+        }
+      ]
+    }
+  ]
+}

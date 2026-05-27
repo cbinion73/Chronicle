@@ -1,0 +1,104 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 10,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:43.484Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on HOMILIES ON GENESIS 29.29: Then sacred Scripture goes on from this point t...\". Word-study detail reinforces \"הָאָ֔רֶץ: was the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        8,
+        25,
+        32
+      ],
+      "versePhrases": {
+        "8": [
+          "earth"
+        ],
+        "25": [
+          "earth"
+        ],
+        "32": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And Cush begat Nimrod: he began to be a mighty one in the earth.... This passage belongs to t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on HOMILIES ON GENESIS 29.29: Then sacred Scripture goes on from this point t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בָּאָֽרֶץ׃: in the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And unto Eber were born two sons: the name of one was Peleg; for in his days was the earth di...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): Now the beginning of his kingdom was Babylon and...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "These are the records of the generations (descendants) of Shem,..."
+        ],
+        "10": [
+          "kingdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The primeval history (Genesis 1-11) parallels ancient Near Eastern traditions including Sumer...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on City of God 16.3: We must therefore introduce into this work an explana...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Genesis 14:1",
+          "anchorVerse": 10,
+          "referenceLabel": "Genesis 14:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The primeval history (Genesis 1-11) parallels ancient Near Eastern traditions including Sumer...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

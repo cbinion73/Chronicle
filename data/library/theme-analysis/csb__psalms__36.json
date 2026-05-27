@@ -1,0 +1,355 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 36,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:02.940Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"And in your light.\" There are two privi...\". Word-study detail reinforces \"אֱ֝מֽוּנָתְךָ֗: and thy faithfulness - literally firmness; figuratively security; morally fid...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "An oracle within my heart concerning the transgression of the..."
+        ],
+        "2": [
+          "For with his flattering opinion of himself, he does not..."
+        ],
+        "3": [
+          "The words from his mouth are malicious and deceptive"
+        ],
+        "4": [
+          "Even on his bed he makes malicious plans"
+        ],
+        "5": [
+          "faithful",
+          "faithfulness"
+        ],
+        "6": [
+          "Your righteousness is like the highest mountains, your judgments like..."
+        ],
+        "7": [
+          "faithful"
+        ],
+        "9": [
+          "For the wellspring of life is with you"
+        ],
+        "10": [
+          "faithful"
+        ],
+        "11": [
+          "Do not let the foot of the arrogant come near..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written by David, this psalm contrasts the wicked's self-deception with God's faithfulness. T...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: The wicked man said, in order...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Self-flattery (Hebrew 'chalaq,' to be smooth, slippery) describes the wicked smoothing over c...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: But the cause is, \"because he has acted...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verses 11, 12.) Therefore he...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "Even on his bed he makes malicious plans"
+        ],
+        "6": [
+          "righteousness"
+        ],
+        "10": [
+          "righteousness",
+          "upright"
+        ],
+        "11": [
+          "Do not let the foot of the arrogant come near..."
+        ],
+        "12": [
+          "There"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How can you cultivate holy abhorrence of evil rather than accommodation?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: Moreover, he meditated wickedn...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 71:19",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 71:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Thy righteousness is like the great mountains; thy judgments are a great deep. This verse use...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The dramatic shift from wickedness (vv. 1-4) to God's attributes provides deliberate contrast...\". Word-study detail reinforces \"חַסְדֶּ֑ךָ: Thy mercy - kindness; by implication (towards god) piety; rarely (by opposition)...\".",
+      "supportingVerses": [
+        5,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "5": [
+          "love"
+        ],
+        "7": [
+          "love"
+        ],
+        "10": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The dramatic shift from wickedness (vv. 1-4) to God's attributes provides deliberate contrast...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"O Lord.\" Here he shows what he has rece...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חַסְדֶּ֑ךָ: Thy mercy - kindness; by implication (towards god) piety; rarely (by opposition)...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חַסְדְּךָ֗: is thy lovingkindness - kindness; by implication (towards god) piety; rarely (by...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verses 11, 12.) Therefore he...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "Even on his bed he makes malicious plans"
+        ],
+        "6": [
+          "righteousness"
+        ],
+        "10": [
+          "righteousness"
+        ],
+        "11": [
+          "Do not let the foot of the arrogant come near..."
+        ],
+        "12": [
+          "There"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How can you cultivate holy abhorrence of evil rather than accommodation?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: Moreover, he meditated wickedn...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 71:19",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 71:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Thy righteousness is like the great mountains; thy judgments are a great deep. This verse use...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"And in your light.\" There are two privi...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "5": [
+          "Lord, your faithful love reaches to heaven, your faithfulness to..."
+        ],
+        "6": [
+          "Your righteousness is like the highest mountains, your judgments like..."
+        ],
+        "7": [
+          "How priceless your faithful love is, God"
+        ],
+        "9": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The heavens and clouds represented the highest reaches of observable creation in ancient cosm...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 36: \"Your mercy, O Lord, is in the heavens, and You...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בְּהַשָּׁמַ֣יִם: is in the heavens - the sky (as aloft; the dual perhaps alluding to the visi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Thy righteousness is like the great mountains; thy judgments are a great deep. This verse use...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"What occupies your thoughts during quiet moments—worship, worry, or wrongdoing?\".",
+      "supportingVerses": [
+        4,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "Even on his bed he makes malicious plans"
+        ],
+        "6": [
+          "Your righteousness is like the highest mountains, your judgments like..."
+        ],
+        "7": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What occupies your thoughts during quiet moments—worship, worry, or wrongdoing?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 36:5: He did not pass through this world’s life like...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Psalm 36 is a Davidic psalm that contrasts the wicked person's self-deception with God's unfa...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Theodore of Mopsuestia on COMMENTARY ON PSALMS 36:7B: His decisions and decrees, which he app...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

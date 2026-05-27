@@ -1,0 +1,430 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 106,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:32.023Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"This verse explains the basis of God's merciful response. 'And he remembered for them his cov...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        24,
+        26,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        48
+      ],
+      "versePhrases": {
+        "3": [
+          "How happy are those who uphold justice, who practice righteousness..."
+        ],
+        "4": [
+          "Remember me, Lord, when you show favor to your people"
+        ],
+        "5": [
+          "so that I may enjoy the prosperity of your chosen..."
+        ],
+        "24": [
+          "promise"
+        ],
+        "26": [
+          "oath"
+        ],
+        "40": [
+          "inheritance"
+        ],
+        "41": [
+          "He handed them over to the nations"
+        ],
+        "42": [
+          "Their enemies oppressed them, and they were subdued under their..."
+        ],
+        "43": [
+          "He rescued them many times, but they continued to rebel..."
+        ],
+        "44": [
+          "When he heard their cry, he took note of their..."
+        ],
+        "45": [
+          "covenant"
+        ],
+        "48": [
+          "Blessed be the Lord God of Israel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "James 1:25",
+          "anchorVerse": 3,
+          "referenceLabel": "James 1:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse appears in the context of Israel's historical pattern of obedience and rebellion....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Caesarius of Arles on SERMON 6:8: I implore, you, dearly beloved, always to call to mind and...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This is a personal prayer within the corporate psalm. 'Remember me' uses zakar (זָכַר), askin...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"This verse explains God's purpose in the Red Sea deliverance. 'He saved them from the hand of...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        4,
+        7,
+        8,
+        10,
+        13,
+        22,
+        43,
+        46,
+        47,
+        48
+      ],
+      "versePhrases": {
+        "4": [
+          "salvation"
+        ],
+        "7": [
+          "Our ancestors in Egypt did not grasp the significance of..."
+        ],
+        "8": [
+          "saved"
+        ],
+        "10": [
+          "saved"
+        ],
+        "13": [
+          "They soon forgot his works and would not wait for..."
+        ],
+        "22": [
+          "wondrous works in the land of Ham, awe-inspiring acts at..."
+        ],
+        "43": [
+          "He rescued them many times"
+        ],
+        "46": [
+          "He caused them to be pitied before all their captors"
+        ],
+        "47": [
+          "Save"
+        ],
+        "48": [
+          "Blessed be the Lord God of Israel, from everlasting to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 106: Next, since God justifies, that is, makes men...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "בִּישׁוּעָתֶֽךָ׃: me with thy salvation - something saved, i.e., (abstractly) deliverance; he...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "At the Red Sea, Israel complained bitterly, preferring Egyptian slavery to trusting God's del...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 106: But let us hear what they next confess: \"we ha...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 106: \"And they made a calf in Horeb, and worshipped...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        12,
+        19,
+        20,
+        47,
+        48
+      ],
+      "versePhrases": {
+        "1": [
+          "thanks"
+        ],
+        "2": [
+          "praise"
+        ],
+        "5": [
+          "so that I may enjoy the prosperity of your chosen..."
+        ],
+        "12": [
+          "praise"
+        ],
+        "19": [
+          "At Horeb they made a calf and worshiped the cast metal image"
+        ],
+        "20": [
+          "glory"
+        ],
+        "47": [
+          "praise",
+          "thanks"
+        ],
+        "48": [
+          "Blessed be the Lord God of Israel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse establishes the fundamental call to worship and thanksgiving. The imperati...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 106: But I find these two Psalms, the CVth and CVIt...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הוֹד֣וּ: O give thanks - physically, to throw (a stone, an arrow) at or away; especially to r...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This rhetorical question emphasizes the impossibility of fully declaring God's mighty works....",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Moses's rash words and actions at Meribah marred an otherwise exemplary life of faithful lead...\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        7,
+        30,
+        33,
+        45,
+        47
+      ],
+      "versePhrases": {
+        "1": [
+          "faithful"
+        ],
+        "3": [
+          "How happy are those who uphold justice, who practice righteousness..."
+        ],
+        "5": [
+          "so that I may enjoy the prosperity of your chosen..."
+        ],
+        "7": [
+          "faithful"
+        ],
+        "30": [
+          "But Phinehas stood up and intervened, and the plague was..."
+        ],
+        "33": [
+          "for they embittered his spirit, and he spoke rashly with..."
+        ],
+        "45": [
+          "faithful"
+        ],
+        "47": [
+          "Save us, Lord our God, and gather us from the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse appears in the context of Israel's historical pattern of obedience and rebellion....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The terms 'chosen,' 'nation,' and 'inheritance' all emphasize Israel's elect status as God's...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 106: Next, since God justifies, that is, makes men...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "Phinehas was Aaron's grandson, a priest who demonstrated that true spiritual leadership requi...",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 106: So \"He gave them unto compassions, in the sigh...\". Word-study detail reinforces \"אֶ֭רֶץ: The earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        11,
+        17,
+        19,
+        20,
+        32,
+        46
+      ],
+      "versePhrases": {
+        "11": [
+          "Water covered their foes"
+        ],
+        "17": [
+          "earth"
+        ],
+        "19": [
+          "made"
+        ],
+        "20": [
+          "They exchanged their glory for the image of a grass-eating..."
+        ],
+        "32": [
+          "Waters"
+        ],
+        "46": [
+          "He caused them to be pitied before all their captors"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This verse describes the drowning of Pharaoh's army. 'The waters covered their enemies' refer...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 106: \"As for those that troubled them, the waters o...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "מַ֥יִם: And the waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Numbers 16:31-35 records that the earth split beneath the rebels' tents, swallowing them, the...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"This verse records the lasting significance of Phinehas's action. 'And that was counted unto...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3,
+        16,
+        30,
+        31,
+        47
+      ],
+      "versePhrases": {
+        "3": [
+          "righteousness"
+        ],
+        "16": [
+          "holy"
+        ],
+        "30": [
+          "But Phinehas stood up and intervened, and the plague was..."
+        ],
+        "31": [
+          "righteousness"
+        ],
+        "47": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 15:2",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 15:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse appears in the context of Israel's historical pattern of obedience and rebellion....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 106: \"Who can express the mighty acts of the Lord?\"...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "צְדָקָ֣ה: righteousness - rightness (abstractly), subjectively (rectitude), objectively (just...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

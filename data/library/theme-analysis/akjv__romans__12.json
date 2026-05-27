@@ -1,0 +1,409 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 12,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:05.092Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, let love be without dissimulation,...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        5,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "5": [
+          "so we, being many, are one body in Christ, and..."
+        ],
+        "8": [
+          "or he that exhorteth, on exhortation"
+        ],
+        "9": [
+          "love"
+        ],
+        "10": [
+          "love"
+        ],
+        "13": [
+          "distributing to the necessity of saints"
+        ],
+        "14": [
+          "Bless them which persecute you"
+        ],
+        "15": [
+          "Rejoice with them that do rejoice, and weep with them..."
+        ],
+        "19": [
+          "beloved"
+        ],
+        "20": [
+          "Therefore if thine enemy hunger, feed him"
+        ],
+        "21": [
+          "Be not overcome of evil, but overcome evil with good"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "So we, being many, are one body in Christ, and every one members one of another. The conclusi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrosiaster on COMMENTARY ON PAUL’S EPISTLES: This is what it means to love Christ, that we...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Roman society operated on patron-client relationships, where wealthy benefactors supported cl...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Desert Fathers on The Desert Fathers, Sayings of the Early Christian Monks: A brother asked a...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Having shown the need for virtues and the origin of g...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        3,
+        6,
+        8,
+        13,
+        14,
+        15,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "I beseech you therefore, brethren, by the mercies of God,..."
+        ],
+        "3": [
+          "grace"
+        ],
+        "6": [
+          "grace"
+        ],
+        "8": [
+          "mercy"
+        ],
+        "13": [
+          "distributing to the necessity of saints"
+        ],
+        "14": [
+          "Bless them which persecute you"
+        ],
+        "15": [
+          "Rejoice with them that do rejoice, and weep with them..."
+        ],
+        "20": [
+          "Therefore if thine enemy hunger, feed him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a livin...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Having shown the need for virtues and the origin of g...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "1 Peter 5:5",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Peter 5:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For I say, through the grace given unto me, to every man that is among you, not to think of h...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on Homily on Romans 20: \"For I say, through the grace given unto me, to every...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        1,
+        3,
+        6,
+        12,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "I beseech you therefore, brethren, by the mercies of God,..."
+        ],
+        "3": [
+          "faith"
+        ],
+        "6": [
+          "faith"
+        ],
+        "12": [
+          "hope"
+        ],
+        "14": [
+          "Bless them which persecute you"
+        ],
+        "19": [
+          "Dearly beloved, avenge not yourselves, but rather give place unto..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a livin...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Having shown the need for virtues and the origin of g...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For I say, through the grace given unto me, to every man that is among you, not to think of h...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Romans 20: \"For I say, through the grace given unto me, to every...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Be of the same mind one toward another. Mind not high things, but condescend to men of low es...\". Word-study detail reinforces \"διδασκαλίᾳ: teaching - instruction (the function or the information)\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        7,
+        9,
+        16,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "I beseech you therefore, brethren, by the mercies of God,..."
+        ],
+        "2": [
+          "And be not conformed to this world"
+        ],
+        "6": [
+          "Having then gifts differing according to the grace that is..."
+        ],
+        "7": [
+          "or ministry, let us wait on our ministering"
+        ],
+        "9": [
+          "Let love be without dissimulation"
+        ],
+        "16": [
+          "wise"
+        ],
+        "19": [
+          "Dearly beloved, avenge not yourselves, but rather give place unto..."
+        ],
+        "20": [
+          "Therefore if thine enemy hunger, feed him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does understanding the 'mercies of God' in Romans 1-11 change your motivation for obedien...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Having shown the need for virtues and the origin of g...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In what areas of life are you seeking God's perfect will, and how is Scripture renewing your...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE EPISTLE TO THE ROMANS: By this Paul shows that ther...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Irenaeus on Fragments from the Lost Writings of Irenaeus: Those who have become acquainted wi...\". Word-study detail reinforces \"ψώμιζε: feed - to supply with bits, i.e., (generally) to nourish\".",
+      "supportingVerses": [
+        1,
+        2,
+        13,
+        17,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "acceptable unto God"
+        ],
+        "2": [
+          "and acceptable"
+        ],
+        "13": [
+          "distributing to the necessity of saints"
+        ],
+        "17": [
+          "Provide"
+        ],
+        "19": [
+          "Dearly beloved, avenge not yourselves, but rather give place unto..."
+        ],
+        "20": [
+          "Therefore if thine enemy hunger, feed him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What specific areas of your bodily life (time, relationships, sexuality, resources) need to b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Irenaeus on Fragments from the Lost Writings of Irenaeus: Those who have become acquainted wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What specific thought patterns or assumptions from contemporary culture have you unconsciousl...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Apollinaris of Laodicea on PAULINE COMMENTARY FROM THE GREEK CHURCH: This is what the prophet...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Having shown the need for virtues and the origin of g...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        9,
+        13,
+        17,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "9": [
+          "Let love be without dissimulation"
+        ],
+        "13": [
+          "distributing to the necessity of saints"
+        ],
+        "17": [
+          "Recompense to no man evil for evil"
+        ],
+        "19": [
+          "Dearly beloved, avenge not yourselves, but rather give place unto..."
+        ],
+        "20": [
+          "Therefore if thine enemy hunger, feed him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Peter 2:5",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Peter 2:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a livin...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Having shown the need for virtues and the origin of g...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἁγίαν: holy - sacred (physically, pure, morally blameless or religious, ceremonially, consecr...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

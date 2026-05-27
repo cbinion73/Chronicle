@@ -1,0 +1,246 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 42,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:51.806Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God: for I...\". Word-study detail reinforces \"אוֹדֶ֗נּוּ: for I shall yet praise - physically, to throw (a stone, an arrow) at or away; esp...\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "As the deer pants for the water brooks, So my..."
+        ],
+        "2": [
+          "My soul thirsts for God, for the living God"
+        ],
+        "4": [
+          "thanksgiving"
+        ],
+        "5": [
+          "praise"
+        ],
+        "8": [
+          "The Lord will send His goodness in the daytime"
+        ],
+        "11": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 42-43 form a single composition, evidenced by repeated refrain (42:5, 11; 43:5), contin...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE PSALMS 42:2: I am longing and thirsting for the worsh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The phrase \"living God\" appears 14 times in the Old Testament, distinguishing Yahweh from Can...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "CS Lewis on God in the Dock: Religion Without Dogma?: I do not define the essence of religion...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 42: Therefore follows: \"The Lord will commend His l...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "My soul thirsts for God, for the living God"
+        ],
+        "5": [
+          "presence"
+        ],
+        "6": [
+          "My soul is in despair within me"
+        ],
+        "7": [
+          "Deep calls to deep at the sound of Your waterfalls"
+        ],
+        "8": [
+          "with me"
+        ],
+        "11": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The phrase \"living God\" appears 14 times in the Old Testament, distinguishing Yahweh from Can...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 5: The Fair Beauty of the Lord: I want to stre...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God: for I...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 42: But seeing, brethren, so long as \"we are at hom...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Next the prayer is set forth: \"And I wil...\". Word-study detail reinforces \"קֹדֵ֥ר: I mourning - to be ashy, i.e., dark-colored; by implication, to mourn (in sackcloth o...\".",
+      "supportingVerses": [
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "My tears have been my food day and night, While..."
+        ],
+        "5": [
+          "Why are you in despair, my soul"
+        ],
+        "7": [
+          "Deep calls to deep at the sound of Your waterfalls"
+        ],
+        "8": [
+          "The Lord will send His goodness in the daytime"
+        ],
+        "9": [
+          "mourning"
+        ],
+        "10": [
+          "As a shattering of my bones, my adversaries taunt me,..."
+        ],
+        "11": [
+          "Why are you in despair, my soul"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The taunt 'Where is thy God?' echoes throughout Scripture when God's people suffer (Joel 2:17...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"My tears have been.\" Here he describes...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This refrain structure (42:5, 11; 43:5) provides liturgical framework, likely used in corpora...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrose of Milan on THE PRAYER OF JOB AND DAVID 4:3.12-13: Troubled by the hazardous turnings...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"In the day.\" As has been said, he state...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "As the deer pants for the water brooks, So my..."
+        ],
+        "8": [
+          "prayer"
+        ],
+        "9": [
+          "I will say to God my rock, “Why have You..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "As the hart panteth after the water brooks, so panteth my soul after thee, O God. This openin...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: This is the fifth decade of the first gr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Acts 16:25",
+          "anchorVerse": 8,
+          "referenceLabel": "Acts 16:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Yet the LORD will command his lovingkindness in the daytime, and in the night his song shall...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

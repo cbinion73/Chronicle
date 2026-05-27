@@ -1,0 +1,323 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 14,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:57.126Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The same heard Paul speak —The crippled man's faith arose from hearing gospel proclamation, i...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        9,
+        18,
+        22,
+        23,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "9": [
+          "faith"
+        ],
+        "18": [
+          "And with these sayings scarce restrained they the people, that..."
+        ],
+        "22": [
+          "faith"
+        ],
+        "23": [
+          "on whom they believed"
+        ],
+        "27": [
+          "faith"
+        ],
+        "28": [
+          "And there they abode long time with the disciples"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Matthew 15:28",
+          "anchorVerse": 9,
+          "referenceLabel": "Matthew 15:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The same heard Paul speak —The crippled man's faith arose from hearing gospel proclamation, i...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: \"And there sat a certain man at Lystra, impotent in his...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "πίστιν: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Irenaeus on Against Heresies Book 3: And again, at Lystra of Lycia (Lycaonia), when Paul was...\". Word-study detail reinforces \"γῆν: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...\".",
+      "supportingVerses": [
+        2,
+        5,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "5": [
+          "made"
+        ],
+        "15": [
+          "made",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The unbelieving Jews stirred up the Gentiles —The Greek ēgeiran (stirred up) suggests deliber...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: \"Made their minds evil-affected,\" it says, \"against the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "An assault made... to use them despitefully, and to stone them —The Greek hormē (assault) sug...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Cassiodorus on Complexiones on the Acts of the Apostles: \"And when there was an assault made...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Shepherd of Hermas on Shepherd of Hermas, Similitude 10: After he had spoken with me he rose...\". Word-study detail reinforces \"ἡγούμενος: the chief - to lead, i.e., command (with official authority); figuratively, to dee...\".",
+      "supportingVerses": [
+        12,
+        18,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "12": [
+          "And they called Barnabas, Jupiter"
+        ],
+        "18": [
+          "And with these sayings scarce restrained they the people, that..."
+        ],
+        "21": [
+          "taught"
+        ],
+        "23": [
+          "And when they had ordained them elders in every church,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What does Paul's identity as 'chief speaker' teach about the primacy of word ministry in apos...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Shepherd of Hermas on Shepherd of Hermas, Similitude 10: After he had spoken with me he rose...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "ἡγούμενος: the chief - to lead, i.e., command (with official authority); figuratively, to dee...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "What does the difficulty of stopping false worship teach about human religious impulses?",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on Acts 30: And see how on all occasions he refers all to God. \"Lon...\". Word-study detail reinforces \"μαρτυροῦντι: gave testimony - to be a witness, i.e., testify (literally or figuratively)\".",
+      "supportingVerses": [
+        3,
+        15,
+        17,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "testimony"
+        ],
+        "15": [
+          "and saying, Sirs, why do ye these things"
+        ],
+        "17": [
+          "Nevertheless he left not himself without witness, in that he..."
+        ],
+        "22": [
+          "confirming the souls of the disciples, and exhorting them to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: And see how on all occasions he refers all to God. \"Lon...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "μαρτυροῦντι: gave testimony - to be a witness, i.e., testify (literally or figuratively)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "John Chrysostom on Homily on Acts 31: First by the sight they checked them, by rending their...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "He left not himself without witness (οὐκ ἀμάρτυρον αὑτὸν ἀφῆκεν)—Despite nations walking in t...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Shepherd of Hermas on Shepherd of Hermas, Similitude 10: After he had spoken with me he rose...\". Word-study detail reinforces \"ὑμῖν: with you - to (with or by) you\".",
+      "supportingVerses": [
+        12,
+        15,
+        23
+      ],
+      "versePhrases": {
+        "12": [
+          "And they called Barnabas, Jupiter"
+        ],
+        "15": [
+          "with you"
+        ],
+        "23": [
+          "and had prayed with fasting"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Roman names Jupiter and Mercury translate Greek Zeus and Hermes. Archaeological discoveries n...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Shepherd of Hermas on Shepherd of Hermas, Similitude 10: After he had spoken with me he rose...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Paul's emphatic rejection of worship ('We also are men of like passions with you') establishe...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: \"Men! Why are you doing this? We too are men of l...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thence sailed to Antioch, from whence they had been recommended to the grace of God for the w...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "grace"
+        ],
+        "26": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Acts 20:32",
+          "anchorVerse": 3,
+          "referenceLabel": "Acts 20:32"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: And see how on all occasions he refers all to God. \"Lon...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "χάριτος: grace - graciousness (as gratifying), of manner or act (abstract or concrete; litera...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Acts 15:40",
+          "anchorVerse": 26,
+          "referenceLabel": "Acts 15:40"
+        }
+      ]
+    }
+  ]
+}

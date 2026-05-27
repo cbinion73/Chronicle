@@ -1,0 +1,310 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 138,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:56.606Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"I will praise thee with my whole heart: before the gods will I sing praise unto thee. This op...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "praise",
+          "sing"
+        ],
+        "2": [
+          "praise"
+        ],
+        "4": [
+          "praise"
+        ],
+        "5": [
+          "sing",
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I will praise thee with my whole heart: before the gods will I sing praise unto thee. This op...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: The title of this Psalm is brief and simple, a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אוֹדְךָ֥: I will praise - physically, to throw (a stone, an arrow) at or away; especially to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy...\". Word-study detail reinforces \"אֲמִתֶּ֑ךָ: and for thy truth - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "faithfulness"
+        ],
+        "4": [
+          "May all the kings of the earth praise you, Lord,..."
+        ],
+        "5": [
+          "May they sing of the ways of the Lord, for..."
+        ],
+        "7": [
+          "Though I walk in the midst of trouble, you preserve..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: \"I will worship toward Your holy Temple\" [Psal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֲמִתֶּ֑ךָ: and for thy truth - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "All the kings of the earth shall praise thee, O LORD, when they hear the words of thy mouth....",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Though I walk in the midst of trouble, thou wilt revive me: thou shalt stretch forth thine ha...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        4,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "I will praise you, Lord, with all my heart"
+        ],
+        "4": [
+          "May all the kings of the earth praise you, Lord,..."
+        ],
+        "7": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 138 is attributed to David, likely written during his kingship when he had experienced...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: The title of this Psalm is brief and simple, a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "David's vision reflects God's promise to Abraham that \"in thee shall all families of the eart...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: \"Let all the kings of the earth confess to You...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 138: \"And let them sing in the paths of the Lord, t...\". Word-study detail reinforces \"אָ֑רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "I will bow down toward your holy temple and will..."
+        ],
+        "4": [
+          "earth"
+        ],
+        "5": [
+          "May they sing of the ways of the Lord, for..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does Christ as the Word made flesh (John 1:14) represent the ultimate fulfillment of God...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: \"I will worship toward Your holy Temple\" [Psal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "David's vision reflects God's promise to Abraham that \"in thee shall all families of the eart...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: \"Let all the kings of the earth confess to You...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 138: \"I will worship toward Your holy Temple\" [Psal...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "3": [
+          "When I called, you answered me"
+        ],
+        "6": [
+          "Though the Lord is exalted, he looks kindly on the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 5:7",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 5:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: \"I will worship toward Your holy Temple\" [Psal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "קָדְשְׁךָ֡: toward thy holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy...\". Word-study detail reinforces \"חַסְדְּךָ֥: for thy lovingkindness - kindness; by implication (towards god) piety; rarely (by...\".",
+      "supportingVerses": [
+        2,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "love"
+        ],
+        "8": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חַסְדְּךָ֥: for thy lovingkindness - kindness; by implication (towards god) piety; rarely (by...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The LORD will perfect that which concerneth me: thy mercy, O LORD, endureth for ever: forsake...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 138: \"You, Lord, shall recompense for me\" [Psalm 13...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

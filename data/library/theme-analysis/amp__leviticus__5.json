@@ -1,0 +1,214 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 5,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:53.310Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And he shall sprinkle of the blood of the sin offering upon the side of the altar; and the re...\". Word-study detail reinforces \"וְהַנִּשְׁאָ֣ר: and the rest - properly, to swell up, i.e., be (causatively, make) redundant\".",
+      "supportingVerses": [
+        9,
+        13,
+        17
+      ],
+      "versePhrases": {
+        "9": [
+          "rest"
+        ],
+        "13": [
+          "rest"
+        ],
+        "17": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And he shall sprinkle of the blood of the sin offering upon the side of the altar; and the re...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וְהַנִּשְׁאָ֣ר: and the rest - properly, to swell up, i.e., be (causatively, make) redundant",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And the priest shall make an atonement for him as touching his sin that he hath sinned in one...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And he shall make amends for the harm that he hath done in the holy thing, and shall add the...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        16
+      ],
+      "versePhrases": {
+        "15": [
+          "holy"
+        ],
+        "16": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 7:1",
+          "anchorVerse": 15,
+          "referenceLabel": "Leviticus 7:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הַקֹּ֖דֶשׁ: in the holy things - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 22:14",
+          "anchorVerse": 16,
+          "referenceLabel": "Leviticus 22:14"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And he shall make amends for the harm that he hath done in the holy thing, and shall add the...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        15,
+        16
+      ],
+      "versePhrases": {
+        "15": [
+          "holy"
+        ],
+        "16": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 7:1",
+          "anchorVerse": 15,
+          "referenceLabel": "Leviticus 7:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הַקֹּ֖דֶשׁ: in the holy things - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 22:14",
+          "anchorVerse": 16,
+          "referenceLabel": "Leviticus 22:14"
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How can you use this verse to worship God more fully, obey Him more faithfully, or love other...\". Word-study detail reinforces \"וְשָֽׁמְעָה֙: and hear - to hear intelligently (often with implication of attention, obedienc...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How can you use this verse to worship God more fully, obey Him more faithfully, or love other...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְשָֽׁמְעָה֙: and hear - to hear intelligently (often with implication of attention, obedienc...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"תֶֽחֱטָ֔א: sin - properly, to miss; hence (figuratively and generally) to sin; by inference,...\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "punishment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "תֶֽחֱטָ֔א: sin - properly, to miss; hence (figuratively and generally) to sin; by inference,...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

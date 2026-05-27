@@ -1,0 +1,65 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 14,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:35.963Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on David's kingdom established -...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "King"
+        ],
+        "2": [
+          "kingdom",
+          "king"
+        ],
+        "5": [
+          "Ibhar, Elishua, Elpelet,"
+        ],
+        "8": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 2:3",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Chronicles 2:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's kingdom established -...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Numbers 24:7",
+          "anchorVerse": 2,
+          "referenceLabel": "Numbers 24:7"
+        }
+      ]
+    }
+  ]
+}

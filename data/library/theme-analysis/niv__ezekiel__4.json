@@ -1,0 +1,82 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:30.530Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 16, 17.) And he said to me: Son of man, behold, I wil...\". Word-study detail reinforces \"יַחְסְר֖וּ: That they may want - to lack; by implication, to fail, want, lessen\".",
+      "supportingVerses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "9": [
+          "bread"
+        ],
+        "10": [
+          "Weigh out twenty shekels of food to eat each day..."
+        ],
+        "11": [
+          "Also measure out a sixth of a hin of water..."
+        ],
+        "12": [
+          "bread"
+        ],
+        "13": [
+          "The Lord said, “In this way the people of Israel..."
+        ],
+        "14": [
+          "Then I said, “Not so, Sovereign Lord"
+        ],
+        "15": [
+          "bread"
+        ],
+        "16": [
+          "supply"
+        ],
+        "17": [
+          "for food and water will be scarce"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Take thou also unto thee wheat, and barley, and beans, and lentiles, and millet, and fitches,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Vrs. 9 ff.) And you will take for yourself wheat, and barle...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "לְלָ֑חֶם: thee bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Twenty shekels (approximately 8 ounces) of bread daily was barely subsistence level. Normal d...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 3,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:53.183Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Retractions on Acts: Saying to Abraham: And in your seed all the families of the eart...\". Word-study detail reinforces \"ἐστερέωσεν: hath made - to solidify, i.e., confirm (literally or figuratively)\".",
+      "supportingVerses": [
+        6,
+        12,
+        16,
+        21,
+        25
+      ],
+      "versePhrases": {
+        "6": [
+          "Then Peter said, Silver and gold have I none"
+        ],
+        "12": [
+          "made"
+        ],
+        "16": [
+          "made"
+        ],
+        "21": [
+          "whom the heaven must receive until the times of restitution..."
+        ],
+        "25": [
+          "made",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This healing occurred at the temple's Beautiful Gate (likely the Nicanor Gate on the east sid...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Cyprian on Treatise XII Three Books of Testimonies Against the Jews: That the lust of possess...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Peter immediately deflected attention: 'why look ye so earnestly on us, as though by our own...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Cassiodorus on EXPOSITION OF THE PSALMS 144.12: It is through the saints’ preaching that God’...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Cyprian on Treatise XII Three Books of Testimonies Against the Jews: That the lust of possess...\". Word-study detail reinforces \"πρόσωπον: the presence - the front (as being towards view), i.e., the countenance, aspect, ap...\".",
+      "supportingVerses": [
+        6,
+        13,
+        16,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "6": [
+          "Then Peter said, Silver and gold have I none"
+        ],
+        "13": [
+          "presence"
+        ],
+        "16": [
+          "presence"
+        ],
+        "19": [
+          "presence"
+        ],
+        "21": [
+          "whom the heaven must receive until the times of restitution..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This healing occurred at the temple's Beautiful Gate (likely the Nicanor Gate on the east sid...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Cyprian on Treatise XII Three Books of Testimonies Against the Jews: That the lust of possess...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Bede on Retractions on Acts: The God of our fathers glorified His Son Jesus, whom you indeed...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "πρόσωπον: the presence - the front (as being towards view), i.e., the countenance, aspect, ap...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The contrast intensifies: 'ye denied the Holy One and the Just, and desired a murderer.' Pete...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        14,
+        15,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "14": [
+          "Just",
+          "Holy"
+        ],
+        "15": [
+          "and killed the Prince of life, whom God hath raised..."
+        ],
+        "17": [
+          "And now, brethren, I wot that through ignorance ye did..."
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Mark 1:24",
+          "anchorVerse": 14,
+          "referenceLabel": "Mark 1:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The contrast intensifies: 'ye denied the Holy One and the Just, and desired a murderer.' Pete...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "John Chrysostom on Homily on Acts 9: \"But ye denied the Holy One and the Just.\" He does not s...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "ἅγιον: the Holy One - sacred (physically, pure, morally blameless or religious, ceremonially,...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The contrast intensifies: 'ye denied the Holy One and the Just, and desired a murderer.' Pete...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        12,
+        14,
+        21
+      ],
+      "versePhrases": {
+        "12": [
+          "holiness"
+        ],
+        "14": [
+          "Holy"
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Peter immediately deflected attention: 'why look ye so earnestly on us, as though by our own...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Irenaeus on Against Heresies Book III: Then, when a multitude had gathered around them from a...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "εὐσεβείᾳ: holiness - piety; specially, the gospel scheme",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Mark 1:24",
+          "anchorVerse": 14,
+          "referenceLabel": "Mark 1:24"
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Retractions on Acts: The God of our fathers glorified His Son Jesus, whom you indeed...\". Word-study detail reinforces \"παρεδώκατε: delivered up - to surrender, i.e yield up, entrust, transmit\".",
+      "supportingVerses": [
+        13,
+        14,
+        18,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "13": [
+          "delivered"
+        ],
+        "14": [
+          "But ye denied the Holy One and the Just, and..."
+        ],
+        "18": [
+          "But those things, which God before had shewed by the..."
+        ],
+        "19": [
+          "Repent ye therefore, and be converted, that your sins may..."
+        ],
+        "21": [
+          "whom the heaven must receive until the times of restitution..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Peter's proclamation centers on 'his Son Jesus' - emphasizing divine Sonship. The phrase 'glo...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Bede on Retractions on Acts: The God of our fathers glorified His Son Jesus, whom you indeed...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "παρεδώκατε: delivered up - to surrender, i.e yield up, entrust, transmit",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Leo the Great: And so Pilate, willing to content the people, released Barabbas to them, and d...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ammonius of Alexandria on CATENA ON THE ACTS OF THE APOSTLES 3.16: “And the faith which is th...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "5": [
+          "And he gave heed unto them, expecting to receive something..."
+        ],
+        "16": [
+          "faith"
+        ],
+        "17": [
+          "And now, brethren, I wot that through ignorance ye did..."
+        ],
+        "21": [
+          "whom the heaven must receive until the times of restitution..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Arator on ON THE ACTS OF THE APOSTLES 1: Hope disappointed the greedy prayer [for alms], but...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "προσδοκῶν: expecting - to anticipate (in thought, hope or fear); by implication, to await",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Acts 14:9",
+          "anchorVerse": 16,
+          "referenceLabel": "Acts 14:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The healing occurred 'through faith in his name' - not faith of the lame man (who expected al...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

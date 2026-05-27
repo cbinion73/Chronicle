@@ -1,0 +1,317 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 29,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:22.604Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Neither with you only do I make this covenant and this oath. The covenant extends beyond thos...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        1,
+        8,
+        9,
+        12,
+        13,
+        14,
+        19,
+        21,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "covenant"
+        ],
+        "8": [
+          "inheritance"
+        ],
+        "9": [
+          "covenant"
+        ],
+        "12": [
+          "covenant",
+          "oath"
+        ],
+        "13": [
+          "promised"
+        ],
+        "14": [
+          "covenant",
+          "oath"
+        ],
+        "19": [
+          "oath"
+        ],
+        "21": [
+          "covenant"
+        ],
+        "25": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Hebrews 8:9",
+          "anchorVerse": 1,
+          "referenceLabel": "Hebrews 8:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "These are the words of the covenant, which the LORD commanded Moses to make with the children...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַבְּרִ֔ית: beside the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And we took their land, and gave it for an inheritance unto the Reubenites, and to the Gadite...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And we took their land, and gave it for an inheritance unto the Reubenites, and to the Gadite...\". Word-study detail reinforces \"אַרְצָ֔ם: their land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        3,
+        8,
+        17,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "3": [
+          "You saw with your own eyes the great trials and..."
+        ],
+        "8": [
+          "We took their land and gave it as an inheritance..."
+        ],
+        "17": [
+          "made"
+        ],
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "These are the words of the covenant, which the LORD commanded Moses to make with the children...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּאֶ֣רֶץ: in the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Why does personal eyewitness create stronger conviction than reports?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Romans: I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Keep therefore the words of this covenant, and do them, that ye may prosper in all that ye do...\". Word-study detail reinforces \"וּשְׁמַרְתֶּ֗ם: Keep - properly, to hedge about (as with thorns), i.e., guard; generally, to...\".",
+      "supportingVerses": [
+        9,
+        19,
+        22,
+        29
+      ],
+      "versePhrases": {
+        "9": [
+          "follow"
+        ],
+        "19": [
+          "follow"
+        ],
+        "22": [
+          "follow"
+        ],
+        "29": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Keep therefore the words of this covenant, and do them, that ye may prosper in all that ye do...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וּשְׁמַרְתֶּ֗ם: Keep - properly, to hedge about (as with thorns), i.e., guard; generally, to...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "When he heareth the words of this curse, that he bless himself in his heart, saying, I shall...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "בְּשָׁמְעוֹ֩: And it come to pass when he heareth - to hear intelligently (often with implica...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"But with him that standeth here with us this day before the LORD our God, and also with him t...\". Word-study detail reinforces \"יֶשְׁנ֜וֹ: here with us this - there is or are (or any other form of the verb to be, as may s...\".",
+      "supportingVerses": [
+        12,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "12": [
+          "with you"
+        ],
+        "14": [
+          "with you"
+        ],
+        "15": [
+          "with us",
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Ancient Near Eastern covenants regularly included oath-swearing ceremonies where parties invo...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Neither with you only do I make this covenant and this oath. The covenant extends beyond thos...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "אִתְּכֶ֖ם: - properly, nearness (used only as a preposition or an adverb), near; hence, gener...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "But with him that standeth here with us this day before the LORD our God, and also with him t...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Israel's idolatry took multiple forms: Egyptian gods during exodus (Ezekiel 20:7-8), golden c...\".",
+      "supportingVerses": [
+        18,
+        26
+      ],
+      "versePhrases": {
+        "18": [
+          "worship"
+        ],
+        "26": [
+          "worship"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Israel's idolatry took multiple forms: Egyptian gods during exodus (Ezekiel 20:7-8), golden c...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the LORD rooted them out of their land in anger, and in wrath, and in great indignation,...\". Word-study detail reinforces \"וּבְחֵמָ֖ה: and in wrath - heat; figuratively, anger, poison (from its fever)\".",
+      "supportingVerses": [
+        23,
+        28
+      ],
+      "versePhrases": {
+        "23": [
+          "All its soil will be a burning waste of sulfur..."
+        ],
+        "28": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "Sodom's destruction occurred in Abraham's era (circa 2000-1900 BCE), probably in the southern...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON JEREMIAH 18.6.7: He pretends then that he does not see yo...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "וּבַֽחֲמָתֽוֹ׃: and in his wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "And the LORD rooted them out of their land in anger, and in wrath, and in great indignation,...",
+          "anchorVerse": 28
+        }
+      ]
+    }
+  ]
+}

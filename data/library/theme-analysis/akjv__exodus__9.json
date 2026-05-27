@@ -1,0 +1,206 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 9,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:14.679Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Romans: And not only this; but when Rebecca also had conceived by one, even by our father Isa...\". Word-study detail reinforces \"הָאָֽרֶץ׃: from the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        14,
+        15,
+        16,
+        18,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        33
+      ],
+      "versePhrases": {
+        "14": [
+          "earth"
+        ],
+        "15": [
+          "earth"
+        ],
+        "16": [
+          "earth"
+        ],
+        "18": [
+          "Behold, to morrow about this time I will cause it..."
+        ],
+        "20": [
+          "made"
+        ],
+        "22": [
+          "And the Lord said unto Moses, Stretch forth thine hand..."
+        ],
+        "23": [
+          "And Moses stretched forth his rod toward heaven"
+        ],
+        "24": [
+          "So there was hail, and fire mingled with the hail,..."
+        ],
+        "25": [
+          "And the hail smote throughout all the land of Egypt..."
+        ],
+        "26": [
+          "Only in the land of Goshen, where the children of..."
+        ],
+        "29": [
+          "earth"
+        ],
+        "33": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Nut, sky goddess, arched over earth as protective dome. Seth controlled storms and chaos. The...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "הָאָֽרֶץ׃: that there is none like me in all the earth - the earth (at large, or partitively...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Nut, sky goddess, arched over earth as protective dome. Seth controlled storms and chaos. The...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָאָֽרֶץ׃: from the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"תִּֽירְא֔וּן: that ye will not yet fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        30
+      ],
+      "versePhrases": {
+        "30": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "תִּֽירְא֔וּן: that ye will not yet fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Inferred",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וְעֽוֹדְךָ֖: - properly, iteration or continuance; used only adverbially (with or without pre...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְעֽוֹדְךָ֖: - properly, iteration or continuance; used only adverbially (with or without pre...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Inferred",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Cross references echo \"Righteousness\". Word-study detail reinforces \"הַצַּדִּ֔יק: is righteous - just\".",
+      "supportingVerses": [
+        27
+      ],
+      "versePhrases": {
+        "27": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 129:4",
+          "anchorVerse": 27,
+          "referenceLabel": "Psalms 129:4"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "הַצַּדִּ֔יק: is righteous - just",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Caesarius of Arles on SERMON 101.5: Moreover, as we are wont to sing in the hymn, “God is fai...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        27
+      ],
+      "versePhrases": {
+        "27": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 129:4",
+          "anchorVerse": 27,
+          "referenceLabel": "Psalms 129:4"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 27 historical",
+          "detail": "Caesarius of Arles on SERMON 101.5: Moreover, as we are wont to sing in the hymn, “God is fai...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "הַצַּדִּ֔יק: is righteous - just",
+          "anchorVerse": 27
+        }
+      ]
+    }
+  ]
+}

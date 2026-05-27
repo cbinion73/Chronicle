@@ -1,0 +1,356 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 55,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:56.503Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 55: Therefore, my Brethren, those that in the very...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        18,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "6": [
+          "rest"
+        ],
+        "7": [
+          "Behold, I would flee far away, I would spend my..."
+        ],
+        "8": [
+          "refuge"
+        ],
+        "18": [
+          "peace"
+        ],
+        "20": [
+          "peace"
+        ],
+        "22": [
+          "Cast your burden upon the Lord and He will sustain..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The dove was a symbol of peace and innocence in ancient Near Eastern culture. David, having l...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 55: \"Fearfulness and trembling have come upon me, a...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וְאֶשְׁכֹּֽנָה׃: and be at rest - to reside or permanently stay (literally or figuratively)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The wilderness represented both refuge and divine testing in Israel's theology. David's desir...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"I was saddened.\" Here he explains the t...\". Word-study detail reinforces \"יִתֵּ֖ן: suffer - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        6,
+        12,
+        14,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "Give Your attention to me and answer me"
+        ],
+        "3": [
+          "trouble"
+        ],
+        "5": [
+          "Fear and trembling come upon me, And horror has overwhelmed..."
+        ],
+        "6": [
+          "I said, “Oh, that I had wings like a dove"
+        ],
+        "12": [
+          "For it is not an enemy who taunts me, Then..."
+        ],
+        "14": [
+          "We who had sweet fellowship together, Walked in the house..."
+        ],
+        "22": [
+          "Cast your burden upon the Lord and He will sustain..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does David's 'mourning and making noise' model for us?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"I was saddened.\" Here he explains the t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"I was saddened.\" Here he explains the t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אָ֝֗וֶן: iniquity - strictly nothingness; also trouble, vanity, wickedness; specifically an idol",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"If my enemy.\" Here he describes the mal...\". Word-study detail reinforces \"אֶבְטַח: but I will trust - properly, to hie for refuge (but not so precipitately as h2620);...\".",
+      "supportingVerses": [
+        12,
+        13,
+        14,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "12": [
+          "For it is not an enemy who taunts me, Then..."
+        ],
+        "13": [
+          "But it is you, a man my equal, My companion..."
+        ],
+        "14": [
+          "We who had sweet fellowship together, Walked in the house..."
+        ],
+        "22": [
+          "Cast your burden upon the Lord and He will sustain..."
+        ],
+        "23": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "This likely refers to Ahithophel, David's trusted counselor who joined Absalom's rebellion (2...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"If my enemy.\" Here he describes the mal...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "How should the church balance openness to fellowship with wisdom about trust?",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"If my enemy.\" Here he describes the mal...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Hear, O God, my prayer, and do not desp...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        2,
+        16,
+        17,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "prayer"
+        ],
+        "2": [
+          "Give Your attention to me and answer me"
+        ],
+        "16": [
+          "call upon"
+        ],
+        "17": [
+          "Evening and morning and at noon, I will complain and..."
+        ],
+        "22": [
+          "Cast your burden upon the Lord and He will sustain you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "1 Peter 3:12",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Peter 3:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The urgent appeal: 'Give ear to my prayer, O God; and hide not thyself from my supplication.'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Hear, O God, my prayer, and do not desp...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְּפִלָּתִ֑י: to my prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Fulgentius of Ruspe on ON THE FORGIVENESS OF SINS 2:13.1: Just as the most holy David blames...\". Word-study detail reinforces \"לַצַּדִּֽיק׃: the righteous - just\".",
+      "supportingVerses": [
+        6,
+        9,
+        15,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "6": [
+          "I said, “Oh, that I had wings like a dove"
+        ],
+        "9": [
+          "Confuse them, Lord, divide their tongues, For I have seen..."
+        ],
+        "15": [
+          "May death come deceitfully upon them"
+        ],
+        "19": [
+          "God will hear and humiliate them— Even the one who..."
+        ],
+        "22": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "David's longing for escape reveals the human temptation to flee rather than endure suffering....",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Bede on Homilies on the Gospels 1:1: Typologically, however, the desert where John [the Bapti...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "David's imprecatory prayer for divine confusion of enemies recalls the Tower of Babel (Genesi...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 55: \"Sink, O Lord, and divide the tongues of them\"...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 55: But this man being troubled and made sad was pr...\". Word-study detail reinforces \"יָרְא֣וּ: therefore they fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        4,
+        5,
+        19
+      ],
+      "versePhrases": {
+        "4": [
+          "And the terrors of death have fallen upon me"
+        ],
+        "5": [
+          "Fear"
+        ],
+        "19": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The internal turmoil: 'My heart is sore pained within me: and the terrors of death are fallen...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 55: But this man being troubled and made sad was pr...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יָחִ֣יל: is sore pained - properly, to twist or whirl (in a circular or spiral manner), i.e.,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The Hebrew 'pachad' (fear/terror) and 'ra'ad' (trembling) reveal David's visceral response to...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 20,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:20.548Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"And after this did Jehoshaphat king of Judah join himself with Ahaziah king of Israel, who di...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        15,
+        26,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        37
+      ],
+      "versePhrases": {
+        "6": [
+          "and do You not rule over all the kingdoms of the nations"
+        ],
+        "15": [
+          "King"
+        ],
+        "26": [
+          "And on the fourth day they assembled in the Valley..."
+        ],
+        "29": [
+          "And the fear of God was on all the kingdoms of those countries when they heard that the Lord had fought against the enemies of Israel"
+        ],
+        "30": [
+          "Then the realm of Jehoshaphat was quiet, for his God..."
+        ],
+        "31": [
+          "king"
+        ],
+        "32": [
+          "And he walked in the way of his father Asa,..."
+        ],
+        "34": [
+          "which is mentioned in the book of the kings of Israel"
+        ],
+        "35": [
+          "king"
+        ],
+        "37": [
+          "But Eliezer the son of Dodavah of Mareshah prophesied against..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Daniel 4:17",
+          "anchorVerse": 6,
+          "referenceLabel": "Daniel 4:17"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מַמְלְכ֣וֹת: not thou over all the kingdoms - dominion, i.e., (abstractly) the estate (rule)...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "God's response through Jahaziel 'Be not afraid nor dismayed by reason of this great multitude...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "וְהַמֶּ֖לֶךְ: and thou king - a king",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"The extraordinary battle strategy 'he appointed singers unto the LORD, and that should praise...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        3,
+        4,
+        18,
+        19,
+        21,
+        22,
+        37
+      ],
+      "versePhrases": {
+        "3": [
+          "and set himself to seek the Lord"
+        ],
+        "4": [
+          "So Judah gathered together to ask help from the Lord"
+        ],
+        "18": [
+          "worshiping the Lord"
+        ],
+        "19": [
+          "praise"
+        ],
+        "21": [
+          "praise",
+          "Praise",
+          "sing"
+        ],
+        "22": [
+          "praise",
+          "sing"
+        ],
+        "37": [
+          "the Lord has destroyed your works"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "לִדְר֣וֹשׁ: to seek - properly, to tread or frequent; usually to follow (for pursuit or searc...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לְבַקֵּ֥שׁ: to ask - to search out (by any method, specifically in worship or prayer); by imp...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And he joined himself with him to make ships to go to Tarshish: and they made the ships in Ez...\". Word-study detail reinforces \"אַ֖רְצָה: to the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        23,
+        24,
+        27,
+        36
+      ],
+      "versePhrases": {
+        "23": [
+          "made"
+        ],
+        "24": [
+          "earth"
+        ],
+        "27": [
+          "made"
+        ],
+        "36": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "For the children of Ammon and Moab stood up against the inhabitants of mount Seir, utterly to...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "וּכְכַלּוֹתָם֙: them and when they had made an end - to end, whether intransitive (to cease,...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "And when Judah came toward the watch tower in the wilderness, they looked unto the multitude,...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "אַ֖רְצָה: to the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"God's response through Jahaziel 'Be not afraid nor dismayed by reason of this great multitude...\". Word-study detail reinforces \"תִּֽירְאוּ֙: fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        15,
+        17,
+        29
+      ],
+      "versePhrases": {
+        "15": [
+          "afraid",
+          "dismayed"
+        ],
+        "17": [
+          "fear",
+          "dismayed"
+        ],
+        "29": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "God's response through Jahaziel 'Be not afraid nor dismayed by reason of this great multitude...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "תִּֽירְא֤וּ: unto you Be not afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "The prophetic word continues: 'Ye shall not need to fight in this battle: set yourselves, sta...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "תִּֽירְאוּ֙: fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The prophetic word continues: 'Ye shall not need to fight in this battle: set yourselves, sta...\". Word-study detail reinforces \"וַיָּ֧נַֽח: gave him rest - to rest, i.e., settle down; used in a great variety of applicatio...\".",
+      "supportingVerses": [
+        17,
+        30,
+        34
+      ],
+      "versePhrases": {
+        "17": [
+          "still"
+        ],
+        "30": [
+          "rest",
+          "quiet"
+        ],
+        "34": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "The prophetic word continues: 'Ye shall not need to fight in this battle: set yourselves, sta...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "וּרְא֣וּ: ye still and see - to see, literally or figuratively (in numerous applications, dir...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "So the realm of Jehoshaphat was quiet: for his God gave him rest round about. This verse is p...",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "וַיָּ֧נַֽח: gave him rest - to rest, i.e., settle down; used in a great variety of applicatio...",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The prophetic word continues: 'Ye shall not need to fight in this battle: set yourselves, sta...\". Word-study detail reinforces \"אֵלֶ֛יךָ: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        8,
+        9,
+        17
+      ],
+      "versePhrases": {
+        "8": [
+          "dwell"
+        ],
+        "9": [
+          "presence"
+        ],
+        "17": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וַיֵּֽשְׁב֖וּ: And they dwelt - properly, to sit down (specifically as judge. in ambush, in q...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "If, when evil cometh upon us, as the sword, judgment, or pestilence, or famine, we stand befo...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֵלֶ֛יךָ: - near, with or among; often in general, to",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "The prophetic word continues: 'Ye shall not need to fight in this battle: set yourselves, sta...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

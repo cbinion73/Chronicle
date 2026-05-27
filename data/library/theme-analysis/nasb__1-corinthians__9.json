@@ -1,0 +1,289 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 9,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:51.698Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Cyprian on Epistle VIII: A voice filled with the Holy Spirit broke forth from the martyr's mo...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        8,
+        9,
+        10,
+        13,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "8": [
+          "just"
+        ],
+        "9": [
+          "For it is written in the Law of Moses"
+        ],
+        "10": [
+          "Or is He speaking entirely for our sake"
+        ],
+        "13": [
+          "Do you not know that those who perform sacred services..."
+        ],
+        "24": [
+          "Do you not know that those who run in a..."
+        ],
+        "27": [
+          "but I strictly discipline my body and make it my..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Threshing was laborious work in ancient agriculture. Oxen were yoked to a wooden sledge dragg...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Apostolic Constitutions on Apostolic Constitutions (Book II), Section 4, XXV: Let him use tho...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient Palestinian agriculture depended on seasonal rains and hard labor. Plowing rocky soil...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Tertullian on Against Marcion Book II: To these prime counsels of innocence, chastity, and ju...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"CS Lewis on Before We Can Communicate, from God in the Dock: The old Prayer Book prayed that...\". Word-study detail reinforces \"ἐδούλωσα: men yet have I made - to enslave (literally or figuratively)\".",
+      "supportingVerses": [
+        9,
+        12,
+        15,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "9": [
+          "For it is written in the Law of Moses"
+        ],
+        "12": [
+          "If others share the right over you, do we not..."
+        ],
+        "15": [
+          "But I have used none of these things"
+        ],
+        "19": [
+          "made"
+        ],
+        "22": [
+          "To the weak I became weak, that I might gain..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For it is written in the law of Moses, Thou shalt not muzzle the mouth of the ox that treadet...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Fulgentius of Ruspe on TO PETER ON THE FAITH 42: These animals accomplish their life and purp...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What \"hindrances\" might financial support have created for Paul's gospel ministry in Corinth?",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 21: \"If others partake of this right over you, do...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 21: \"For it is written in the law of Moses, Thou s...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        10,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "10": [
+          "hope"
+        ],
+        "20": [
+          "To the Jews I became as a Jew, so that..."
+        ],
+        "23": [
+          "I do all things for the sake of the gospel,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Romans 15:4",
+          "anchorVerse": 10,
+          "referenceLabel": "Romans 15:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Or saith he it altogether for our sakes? Paul intensifies his argument: the ox-muzzling law w...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 21: \"For it is written in the law of Moses, Thou s...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "ἐλπίδι: hope - expectation (abstractly or concretely) or confidence",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 22: \"To the weak became I weak, that I might gain...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        22,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "22": [
+          "save"
+        ],
+        "24": [
+          "Do you not know that those who run in a..."
+        ],
+        "27": [
+          "but I strictly discipline my body and make it my..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "1 Corinthians 10:33",
+          "anchorVerse": 22,
+          "referenceLabel": "1 Corinthians 10:33"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "To the weak became I as weak, that I might gain the weak: Paul circles back to chapter 8's co...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 22: \"To the weak became I weak, that I might gain...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "σώσω: I might - to save, i.e., deliver or protect (literally or figuratively)",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on LETTER 157, TO HILARIUS: The church has its own soldiers and its own pr...\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "Who at any time serves as a soldier at his..."
+        ],
+        "8": [
+          "judgment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Who goeth a warfare any time at his own charges? Paul shifts from personal example to univers...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on LETTER 157, TO HILARIUS: The church has its own soldiers and its own pr...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 21: \"Have we no right to eat and to drink? Have we...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "First-century Jewish and Christian missionaries often traveled in pairs or groups for safety,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 21: \"Have we no right to eat and to drink? Have we...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

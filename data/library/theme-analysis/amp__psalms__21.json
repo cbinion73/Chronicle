@@ -1,0 +1,321 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 21,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:36.091Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Be thou exalted, LORD, in thine own strength: so will we sing and praise thy power. The psalm...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        5,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "O Lord the king will delight in Your strength"
+        ],
+        "5": [
+          "glory"
+        ],
+        "13": [
+          "praise",
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 21, like Psalm 20, is classified as a royal psalm used in temple liturgy, likely during...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Pseudo-Athanasius on EXPOSITION ON PSALM 21: Friends of David also delivered this psalm, as i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּעָזְּךָ֥: in thy strength - strength in various applications (force, security, majesty, pr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "John 17:22",
+          "anchorVerse": 5,
+          "referenceLabel": "John 17:22"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, a petitio...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "For You meet him with blessings of good things"
+        ],
+        "5": [
+          "His glory is great because of Your victory"
+        ],
+        "6": [
+          "For You make him most blessed [and a blessing] forever"
+        ],
+        "7": [
+          "king"
+        ],
+        "13": [
+          "Be exalted, Lord, in Your strength"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Hebrews 12:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Hebrews 12:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 21, like Psalm 20, is classified as a royal psalm used in temple liturgy, likely during...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, in the preceding Psalm, a petitio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֑לֶךְ: The king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Eusebius of Caesarea on COMMENTARY ON PSALMS 21:2: I think that these words had been prophesi...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "salvation"
+        ],
+        "4": [
+          "He asked life of You"
+        ],
+        "5": [
+          "His glory is great because of Your victory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 62:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 62:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The king shall joy in thy strength, O LORD; and in thy salvation how greatly shall he rejoice...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Eusebius of Caesarea on COMMENTARY ON PSALMS 21:2: I think that these words had been prophesi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וּ֝בִישׁ֥וּעָתְךָ֗: and in thy salvation - something saved, i.e., (abstractly) deliverance; h...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"You shall make them.\" Here the punishme...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "8": [
+          "Your hand will reach out and defeat all your enemies"
+        ],
+        "9": [
+          "wrath"
+        ],
+        "12": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "God's sovereign power to find and judge all enemies demonstrates His omniscience and omnipote...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Let your hand be found.\" Above the Psal...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Lamentations 2:2",
+          "anchorVerse": 9,
+          "referenceLabel": "Lamentations 2:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The imagery of God's wrath as a 'fiery oven' consuming enemies reveals His holy hatred of sin...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The concept of covenant chesed (loyal love) was central to Israel's understanding of their re...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "5": [
+          "His glory is great because of Your victory"
+        ],
+        "6": [
+          "blessing"
+        ],
+        "7": [
+          "For the king [confidently] trusts in the Lord, And through..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Royal investiture ceremonies in the ancient Near East involved elaborate robing and crowning...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Great.\" Here the consummation of goods...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Acts 3:26",
+          "anchorVerse": 6,
+          "referenceLabel": "Acts 3:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "In ancient Near Eastern culture, a king's happiness was measured by military victories and ma...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"What does this verse teach about God's commitment to justice?\".",
+      "supportingVerses": [
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "8": [
+          "Your hand will reach out and defeat all your enemies"
+        ],
+        "9": [
+          "You will make them as [if in] a blazing oven..."
+        ],
+        "12": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What does this verse teach about God's commitment to justice?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Let your hand be found.\" Above the Psal...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The imagery of God's wrath as a 'fiery oven' consuming enemies reveals His holy hatred of sin...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 21:10: An oven is a round structure made of bronze f...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

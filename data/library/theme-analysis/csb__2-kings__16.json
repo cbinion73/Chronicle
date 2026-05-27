@@ -1,0 +1,185 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 16,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:34.725Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Theodoret of Cyrus on QUESTION 48, ON 2 KINGS: I certainly do not think that he built [the al...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "but walked in the ways of the kings of Israel"
+        ],
+        "5": [
+          "King"
+        ],
+        "6": [
+          "King"
+        ],
+        "7": [
+          "King",
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "King"
+        ],
+        "11": [
+          "King"
+        ],
+        "12": [
+          "king"
+        ],
+        "15": [
+          "King",
+          "king"
+        ],
+        "16": [
+          "King"
+        ],
+        "17": [
+          "King"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "reign"
+        ],
+        "20": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Isaiah 1:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 1:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the seventeenth year of Pekah the son of Remaliah Ahaz the son of Jotham king of Judah beg...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Historical Setting: 2 Kings 16 takes place during the declining years of the northern kingdom...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Now the rest of the acts of Ahaz which he did, are they not written in the book of the chroni...\". Word-study detail reinforces \"וְיֶ֛תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...\".",
+      "supportingVerses": [
+        6,
+        19
+      ],
+      "versePhrases": {
+        "6": [
+          "still"
+        ],
+        "19": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וַיֵּ֣שְׁבוּ: and dwelt - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Now the rest of the acts of Ahaz which he did, are they not written in the book of the chroni...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "וְיֶ֛תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy...\". Word-study detail reinforces \"וְהֽוֹשִׁעֵ֜נִי: and save - properly, to be open, wide or free, i.e., (by implication) to be...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְהֽוֹשִׁעֵ֜נִי: and save - properly, to be open, wide or free, i.e., (by implication) to be...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

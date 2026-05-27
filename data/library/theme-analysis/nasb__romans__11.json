@@ -1,0 +1,493 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 11,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:49.770Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 20 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, as it is written, he proves what h...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        23,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "versePhrases": {
+        "5": [
+          "In the same way then, there has also come to..."
+        ],
+        "6": [
+          "But if it is by grace, it is no longer..."
+        ],
+        "11": [
+          "salvation"
+        ],
+        "12": [
+          "Now if their wrongdoing proves to be riches for the..."
+        ],
+        "13": [
+          "But I am speaking to you who are Gentiles"
+        ],
+        "14": [
+          "save"
+        ],
+        "15": [
+          "what will their acceptance be but life from the dead?"
+        ],
+        "16": [
+          "If the first piece of dough is holy, the lump..."
+        ],
+        "20": [
+          "Quite right, they were broken off for their unbelief, but..."
+        ],
+        "23": [
+          "And they also, if they do not continue in their..."
+        ],
+        "26": [
+          "saved"
+        ],
+        "27": [
+          "“This is My covenant with them, When I take away..."
+        ],
+        "29": [
+          "for the gifts and the calling of God are irrevocable"
+        ],
+        "30": [
+          "For just as you once were disobedient to God, but..."
+        ],
+        "31": [
+          "so these also now have been disobedient, that because of..."
+        ],
+        "32": [
+          "For God has shut up all in disobedience, so that..."
+        ],
+        "33": [
+          "Oh, the depth of the riches, both of the wisdom..."
+        ],
+        "34": [
+          "For who has known the mind of the Lord, or..."
+        ],
+        "35": [
+          "Or who has first given to Him, that it would..."
+        ],
+        "36": [
+          "For from Him, and through Him, and to Him are..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does the doctrine of election by grace alone provide both humility and assurance regardin...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE EPISTLE TO THE ROMANS: The fact that Paul adds the...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Why are grace and works mutually exclusive as the basis of salvation? What confuses people ab...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on Homily on Romans 18: \"And if by grace, then it is no more of works, otherw...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"And if by grace, then is it no more of works —Paul establishes an absolute antithesis between...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        17,
+        20,
+        21,
+        22,
+        27,
+        30,
+        31,
+        32,
+        33,
+        35
+      ],
+      "versePhrases": {
+        "5": [
+          "gracious"
+        ],
+        "6": [
+          "grace"
+        ],
+        "7": [
+          "What then"
+        ],
+        "17": [
+          "But if some of the branches were broken off, and..."
+        ],
+        "20": [
+          "Quite right, they were broken off for their unbelief, but..."
+        ],
+        "21": [
+          "for if God did not spare the natural branches, He..."
+        ],
+        "22": [
+          "See then the kindness and severity of God"
+        ],
+        "27": [
+          "“This is My covenant with them, When I take away..."
+        ],
+        "30": [
+          "mercy"
+        ],
+        "31": [
+          "mercy"
+        ],
+        "32": [
+          "mercy"
+        ],
+        "33": [
+          "Oh, the depth of the riches, both of the wisdom..."
+        ],
+        "35": [
+          "Or who has first given to Him, that it would..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Even so then at this present time also there is a remnant — leimma (λεῖμμα) means a remainder...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE EPISTLE TO THE ROMANS: The fact that Paul adds the...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "χάριτος: of grace - graciousness (as gratifying), of manner or act (abstract or concrete; lit...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 Timothy 1:9",
+          "anchorVerse": 6,
+          "referenceLabel": "2 Timothy 1:9"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, for if the firstfruit, he proves t...\". Word-study detail reinforces \"ἁγία: be holy - sacred (physically, pure, morally blameless or religious, ceremonially, conse...\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        16,
+        22,
+        26,
+        30
+      ],
+      "versePhrases": {
+        "4": [
+          "But what is the divine response to him"
+        ],
+        "5": [
+          "In the same way then, there has also come to..."
+        ],
+        "6": [
+          "But if it is by grace, it is no longer..."
+        ],
+        "7": [
+          "What then"
+        ],
+        "8": [
+          "just"
+        ],
+        "16": [
+          "holy"
+        ],
+        "22": [
+          "See then the kindness and severity of God"
+        ],
+        "26": [
+          "just"
+        ],
+        "30": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "But what saith the answer of God unto him? ( ho chrēmatismos , ὁ χρηματισμός)—the noun denote...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Apostolic Constitutions on Constitutions of the Holy Apostles Book 8: Nor did Samuel, who had...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Even so then at this present time also there is a remnant — leimma (λεῖμμα) means a remainder...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: Just as all did not perish then, so too some are...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"As concerning the gospel, they are enemies for your sakes — kata men to euangelion echthroi d...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        6,
+        22,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "But if it is by grace, it is no longer..."
+        ],
+        "22": [
+          "kindness"
+        ],
+        "28": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "First-century Judaism debated the relationship between God's covenant grace and human obedien...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Diodorus of Tarsus on PAULINE COMMENTARY FROM THE GREEK CHURCH: Grace shows the love for mank...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Behold therefore the goodness and severity of God — chrēstotēta kai apotomian theou (χρηστότη...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: “Severity” is shown against those who assert tha...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Above the Apostle endeavored to assign a reason for t...\". Word-study detail reinforces \"σοφίας: of the wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        25,
+        33,
+        34
+      ],
+      "versePhrases": {
+        "25": [
+          "wise"
+        ],
+        "33": [
+          "wisdom",
+          "knowledge"
+        ],
+        "34": [
+          "or who became His counselor?"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "For I would not, brethren, that ye should be ignorant of this mystery — ou gar thelō hymas ag...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 25 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After leading the gentiles to a knowledge of the divi...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "φρόνιμοι: wise - thoughtful, i.e., sagacious or discreet (implying a cautious character; whil...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 33 commentary",
+          "detail": "Paul erupts in doxology: O the depth of the riches both of the wisdom and knowledge of God! (...",
+          "anchorVerse": 33
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, well, he excludes the objection. F...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        5,
+        7,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        22,
+        23,
+        26,
+        29,
+        30,
+        31,
+        32,
+        36
+      ],
+      "versePhrases": {
+        "2": [
+          "God has not rejected His people whom He foreknew"
+        ],
+        "5": [
+          "In the same way then, there has also come to..."
+        ],
+        "7": [
+          "What then"
+        ],
+        "11": [
+          "I say then, they did not stumble so as to..."
+        ],
+        "12": [
+          "Now if their wrongdoing proves to be riches for the..."
+        ],
+        "13": [
+          "But I am speaking to you who are Gentiles"
+        ],
+        "14": [
+          "if somehow I may move my own people to jealousy..."
+        ],
+        "15": [
+          "For if their rejection proves to be the reconciliation of..."
+        ],
+        "20": [
+          "faith"
+        ],
+        "22": [
+          "See then the kindness and severity of God"
+        ],
+        "23": [
+          "if they do not continue in their unbelief"
+        ],
+        "26": [
+          "and so all Israel will be saved"
+        ],
+        "29": [
+          "for the gifts and the calling of God are irrevocable"
+        ],
+        "30": [
+          "For just as you once were disobedient to God, but..."
+        ],
+        "31": [
+          "so these also now have been disobedient, that because of..."
+        ],
+        "32": [
+          "For God has shut up all in disobedience, so that..."
+        ],
+        "36": [
+          "For from Him, and through Him, and to Him are..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Elijah's crisis occurred during Ahab's reign (870s BC) when Baal worship dominated Israel und...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: God has not rejected those whom he knew in advan...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What is the difference between a remnant theology and a belief that the church has replaced I...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on City of God 17.5: The “remnant” refers to the Jews who have believed in...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

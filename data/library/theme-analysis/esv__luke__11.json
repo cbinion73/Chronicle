@@ -1,0 +1,495 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Luke",
+  "chapter": 11,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:21.196Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Luke: By the \"key of knowledge\" the Lord meant the teac...\". Word-study detail reinforces \"σοφία: the wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        10,
+        17,
+        18,
+        22,
+        31,
+        34,
+        35,
+        49,
+        52
+      ],
+      "versePhrases": {
+        "1": [
+          "Now Jesus was praying in a certain place, and when..."
+        ],
+        "3": [
+          "Give us each day our daily bread,"
+        ],
+        "5": [
+          "And he said to them, “Which of you who has..."
+        ],
+        "7": [
+          "and he will answer from within, ‘Do not bother me"
+        ],
+        "9": [
+          "And I tell you, ask, and it will be given..."
+        ],
+        "10": [
+          "For everyone who asks receives, and the one who seeks..."
+        ],
+        "17": [
+          "But he, knowing their thoughts, said to them, “Every kingdom..."
+        ],
+        "18": [
+          "And if Satan also is divided against himself, how will..."
+        ],
+        "22": [
+          "but when one stronger than he attacks him and overcomes..."
+        ],
+        "31": [
+          "wisdom"
+        ],
+        "34": [
+          "Your eye is the lamp of your body"
+        ],
+        "35": [
+          "Therefore be careful lest the light in you be darkness"
+        ],
+        "49": [
+          "Wisdom"
+        ],
+        "52": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Lord, teach us to pray (Κύριε, δίδαξον ἡμᾶς προσεύχεσθαι, Kyrie, didaxon hēmas proseuchesthai...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Origen of Alexandria on ON PRAYER 2.4: I think that one of Jesus' disciples was conscious in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Give us day by day our daily bread (τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δίδου ἡμῖν τὸ καθ' ἡμέραν, t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Tertullian on ON PRAYER 6: Divine Wisdom arranged the order of this prayer with exquisite cho...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Symeon the New Theologian on DISCOURSES 33.2: What else does he mean by “the eye” than simply...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        8,
+        9,
+        12,
+        31,
+        33,
+        34,
+        35,
+        36,
+        40,
+        46,
+        52
+      ],
+      "versePhrases": {
+        "2": [
+          "And he said to them, “When you pray, say"
+        ],
+        "8": [
+          "I tell you, though he will not get up and..."
+        ],
+        "9": [
+          "And I tell you, ask, and it will be given..."
+        ],
+        "12": [
+          "or if he asks for an egg, will give him..."
+        ],
+        "31": [
+          "earth"
+        ],
+        "33": [
+          "light"
+        ],
+        "34": [
+          "light"
+        ],
+        "35": [
+          "light"
+        ],
+        "36": [
+          "light"
+        ],
+        "40": [
+          "made"
+        ],
+        "46": [
+          "And he said, “Woe to you lawyers also"
+        ],
+        "52": [
+          "Woe to you lawyers"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Jewish prayers emphasized God's sovereignty and holiness but typically addressed God more for...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON LUKE, HOMILY 74: Why then did he command the saints to s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "γὴς: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Because of his importunity he will rise and give him as many as he needeth —The Greek noun ἀν...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Tertullian on ON PRAYER 6: Divine Wisdom arranged the order of this prayer with exquisite cho...\". Word-study detail reinforces \"ἄρτον: bread - bread (as raised) or a loaf\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        36,
+        37,
+        39
+      ],
+      "versePhrases": {
+        "2": [
+          "And he said to them, “When you pray, say"
+        ],
+        "3": [
+          "bread"
+        ],
+        "4": [
+          "and forgive us our sins, for we ourselves forgive everyone..."
+        ],
+        "5": [
+          "And he said to them, “Which of you who has..."
+        ],
+        "6": [
+          "for a friend of mine has arrived on a journey,..."
+        ],
+        "8": [
+          "yet because of his impudence he will rise and give him whatever he needs"
+        ],
+        "9": [
+          "And I tell you, ask, and it will be given..."
+        ],
+        "11": [
+          "What father among you, if his son asks for a..."
+        ],
+        "12": [
+          "or if he asks for an egg, will give him..."
+        ],
+        "36": [
+          "If then your whole body is full of light, having..."
+        ],
+        "37": [
+          "table"
+        ],
+        "39": [
+          "cup"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Jesus teaches: 'When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on On the Gospel of Luke: And he said to them: When you pray, say: Father, hallowed be t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Give us day by day our daily bread (τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δίδου ἡμῖν τὸ καθ' ἡμέραν, t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Tertullian on ON PRAYER 6: Divine Wisdom arranged the order of this prayer with exquisite cho...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Origen of Alexandria on ON PRAYER 15.1-2: Perhaps we should … pray … only to the God and Fath...\". Word-study detail reinforces \"ἐδίδαξεν: taught - to teach (in the same broad application)\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        26,
+        40,
+        41
+      ],
+      "versePhrases": {
+        "1": [
+          "teach",
+          "taught"
+        ],
+        "2": [
+          "And he said to them, “When you pray, say"
+        ],
+        "4": [
+          "lead"
+        ],
+        "5": [
+          "And he said to them, “Which of you who has..."
+        ],
+        "6": [
+          "for a friend of mine has arrived on a journey,..."
+        ],
+        "8": [
+          "I tell you, though he will not get up and..."
+        ],
+        "9": [
+          "And I tell you, ask, and it will be given..."
+        ],
+        "26": [
+          "Then it goes and brings seven other spirits more evil..."
+        ],
+        "40": [
+          "You fools"
+        ],
+        "41": [
+          "But give as alms those things that are within, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Lord, teach us to pray (Κύριε, δίδαξον ἡμᾶς προσεύχεσθαι, Kyrie, didaxon hēmas proseuchesthai...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on On the Gospel of Luke: And it happened that as he was praying in a certain place, whe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἐδίδαξεν: taught - to teach (in the same broad application)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does beginning prayer with 'Our Father' rather than immediate requests teach about praye...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Cyprian on Treatise IV. On the Lord's Prayer.: There follows in the prayer, Thy kingdom come....\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        17,
+        18,
+        20,
+        21,
+        23,
+        27,
+        32,
+        52
+      ],
+      "versePhrases": {
+        "2": [
+          "kingdom"
+        ],
+        "17": [
+          "kingdom"
+        ],
+        "18": [
+          "kingdom"
+        ],
+        "20": [
+          "kingdom"
+        ],
+        "21": [
+          "When a strong man, fully armed, guards his own palace,..."
+        ],
+        "23": [
+          "Whoever is not with me is against me, and whoever..."
+        ],
+        "27": [
+          "As he said these things, a woman in the crowd..."
+        ],
+        "32": [
+          "The men of Nineveh will rise up at the judgment..."
+        ],
+        "52": [
+          "Woe to you lawyers"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 20:6",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Chronicles 20:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Jesus teaches: 'When ye pray, say, Our Father which art in heaven, Hallowed be thy name. Thy...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyprian on Treatise IV. On the Lord's Prayer.: There follows in the prayer, Thy kingdom come....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "βασιλεία: kingdom - properly, royalty, i.e., (abstractly) rule, or (concretely) a realm (lite...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on On the Gospel of Luke: The Queen of the South will rise in the judgment with the men...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        19,
+        26,
+        30,
+        31,
+        32,
+        42,
+        47,
+        50
+      ],
+      "versePhrases": {
+        "19": [
+          "by whom do your sons cast them out? Therefore they will be your judges"
+        ],
+        "26": [
+          "Then it goes and brings seven other spirits more evil..."
+        ],
+        "30": [
+          "For as Jonah became a sign to the people of..."
+        ],
+        "31": [
+          "judgment",
+          "condemn"
+        ],
+        "32": [
+          "judgment",
+          "condemn"
+        ],
+        "42": [
+          "justice"
+        ],
+        "47": [
+          "Woe to you"
+        ],
+        "50": [
+          "so that the blood of all the prophets, shed from..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And if I by Beelzebub cast out devils, by whom do your sons cast them out? Jesus introduces a...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "John Chrysostom on Catena Aurea by Aquinas: (Hom. 23. in Matt) This then is the first answer;...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "κριταὶ: judges - a judge (genitive case or specially)",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "This warning applied prophetically to Israel, which had experienced God's deliverance from Eg...",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

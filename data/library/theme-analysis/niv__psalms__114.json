@@ -1,0 +1,128 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 114,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:47.132Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob; After...\". Word-study detail reinforces \"אָ֑רֶץ: thou earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "The sea looked and fled, the Jordan turned back"
+        ],
+        "7": [
+          "earth"
+        ],
+        "8": [
+          "who turned the rock into a pool, the hard rock..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The Red Sea crossing (Exodus 14) occurred immediately after the exodus, with Pharaoh's army p...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Maximus of Turin on SERMON 13B.2: The water was cleansed, which was enriched with the warmth...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob; After...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 114: \"Tremble, thou earth, at the presence of the L...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Judah was his sanctuary, and Israel his dominion. This verse declares the Exodus's ultimate p...\". Word-study detail reinforces \"מַמְשְׁלוֹתָֽיו׃: his dominion - rule; also (concretely in plural) a realm or a ruler\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "dominion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Judah was his sanctuary, and Israel his dominion. This verse declares the Exodus's ultimate p...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 114: \"When Israel came out of Egypt, and the house...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מַמְשְׁלוֹתָֽיו׃: his dominion - rule; also (concretely in plural) a realm or a ruler",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob; After...\". Word-study detail reinforces \"מִ֝לִּפְנֵ֗י: at the presence - the face (as the part that turns); used in a great variety of...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob; After...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 114: \"Tremble, thou earth, at the presence of the L...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "מִ֝לִּפְנֵ֗י: at the presence - the face (as the part that turns); used in a great variety of...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

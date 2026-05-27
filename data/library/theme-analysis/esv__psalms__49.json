@@ -1,0 +1,346 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 49,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:45.052Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"My mouth.\" Here he renders them attenti...\". Word-study detail reinforces \"חָכְמ֑וֹת: of wisdom - wisdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        13,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear this, all peoples"
+        ],
+        "2": [
+          "both low and high, rich and poor together"
+        ],
+        "3": [
+          "wisdom",
+          "understanding"
+        ],
+        "4": [
+          "I will incline my ear to a proverb"
+        ],
+        "9": [
+          "that he should live on forever and never see the..."
+        ],
+        "10": [
+          "wise"
+        ],
+        "13": [
+          "This is the path of those who have foolish confidence"
+        ],
+        "16": [
+          "Be not afraid when a man becomes rich, when the..."
+        ],
+        "20": [
+          "understanding"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Why does this wisdom address 'all inhabitants of the world' rather than just Israel?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 49: ...\"Hear ye these things, all you nations\" [Psa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Both 'low and high, rich and poor, together' are summoned to hear. The wisdom offered applies...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE PSALMS 49:3: All people, listen to my words, city dwe...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"For his soul in his lifetime shall be b...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "16": [
+          "glory"
+        ],
+        "17": [
+          "glory"
+        ],
+        "18": [
+          "praise"
+        ],
+        "19": [
+          "his soul will go to the generation of his fathers,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Revelation 21:24",
+          "anchorVerse": 16,
+          "referenceLabel": "Revelation 21:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The practical application: 'Be not thou afraid when one is made rich, when the glory of his h...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Do not fear.\" Above, the Psalmist showe...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "כְּב֣וֹד: when the glory - properly, weight, but only figuratively in a good sense, splendor...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Those who trust in their own strength.\"...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        6,
+        9,
+        10,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "6": [
+          "trust"
+        ],
+        "9": [
+          "that he should live on forever and never see the..."
+        ],
+        "10": [
+          "For he sees that even the wise die"
+        ],
+        "13": [
+          "confidence"
+        ],
+        "15": [
+          "But God will ransom my soul from the power of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 52:7",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 52:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The false confidence of the wealthy: 'They that trust in their wealth, and boast themselves i...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Those who trust in their own strength.\"...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַבֹּטְחִ֥ים: They that trust - properly, to hie for refuge (but not so precipitately as h262...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 49: \"He shall enter even unto the generations of hi...\". Word-study detail reinforces \"יְשָׁרִ֨ים׀: on them and the upright - straight (literally or figuratively)\".",
+      "supportingVerses": [
+        1,
+        10,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear this, all peoples"
+        ],
+        "10": [
+          "For he sees that even the wise die"
+        ],
+        "14": [
+          "upright"
+        ],
+        "19": [
+          "his soul will go to the generation of his fathers,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Why does this wisdom address 'all inhabitants of the world' rather than just Israel?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 49: ...\"Hear ye these things, all you nations\" [Psa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Psalm 49 is a wisdom psalm attributed to the sons of Korah, Levitical temple singers. Written...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 49: \"For he shall not see death, though he shall ha...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on COMMENTARY ON THE PSALMS 49:3-4: It strikes many people, in fact, as extre...\". Word-study detail reinforces \"תִּ֭ירָא: Be not thou afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        5,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "5": [
+          "fear"
+        ],
+        "16": [
+          "afraid"
+        ],
+        "17": [
+          "For when he dies he will carry nothing away"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The riddle begins: 'Wherefore should I fear in the days of evil, when the iniquity of my heel...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PSALMS 49:3-4: It strikes many people, in fact, as extre...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אִ֭ירָא: Wherefore should I fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The practical application: 'Be not thou afraid when one is made rich, when the glory of his h...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"He shall enter.\" Here he sets forth the...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        10,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "10": [
+          "For he sees that even the wise die"
+        ],
+        "16": [
+          "Be not afraid when a man becomes rich, when the..."
+        ],
+        "19": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What are you building that will outlast your earthly life—treasures in heaven or treasures on...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 4: Death in the Psalms: It seems quite clear t...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The practical application: 'Be not thou afraid when one is made rich, when the glory of his h...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 49: ...Perchance your heart says, Wretch that I am,...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

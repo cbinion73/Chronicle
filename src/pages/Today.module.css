@@ -1,0 +1,550 @@
+.shell {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* ── LEFT MAIN ── */
+.main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+/* Morning greeting */
+.greeting {
+  background:
+    radial-gradient(circle at 50% 45%, rgba(43, 141, 255, 0.36), transparent 30%),
+    linear-gradient(135deg, #0f4fcf 0%, #0b2f88 100%);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  color: white;
+}
+
+.greetingLabel {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.greetingText {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.greetingDate {
+  font-size: 12px;
+  opacity: 0.75;
+  margin-top: 4px;
+}
+
+/* Mode cards */
+.modeRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.modeCard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-shadow: var(--shadow);
+}
+
+.modeCard:hover {
+  border-color: var(--accent-green);
+  box-shadow: var(--shadow-md);
+}
+
+.modeCard.active {
+  border-color: var(--accent-green);
+  background: var(--accent-green-light);
+}
+
+.modeIcon { font-size: 20px; margin-bottom: 6px; }
+
+.modeTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 3px;
+}
+
+.modeDesc {
+  font-size: 11px;
+  color: var(--text-sub);
+  line-height: 1.4;
+}
+
+/* Scripture focus */
+.focusCard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: visible;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.focusHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--card-inner);
+}
+
+.focusLabel {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.focusRef {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-green);
+  text-align: right;
+}
+
+.focusBody {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px 20px 22px;
+}
+
+.focusVerse {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 0;
+}
+
+.verseNum {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  vertical-align: super;
+  margin-right: 3px;
+}
+
+.focusActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 4px;
+  padding-bottom: 2px;
+}
+
+.actionBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--card-inner);
+  color: var(--text-sub);
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+}
+
+.actionBtn:hover {
+  background: var(--accent-green-light);
+  color: var(--accent-green);
+  border-color: var(--accent-green);
+}
+
+.actionBtnPrimary {
+  background: var(--accent-green);
+  color: white;
+  border-color: var(--accent-green);
+}
+
+.actionBtnPrimary:hover {
+  background: #0b3da4;
+  color: white;
+}
+
+/* Prayer prompt */
+.prayerCard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  box-shadow: var(--shadow);
+}
+
+.prayerCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.prayerCardTitle {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.prayerPromptText {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  color: var(--text-sub);
+  line-height: 1.65;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.prayerTextarea {
+  width: 100%;
+  resize: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-family: var(--font-serif);
+  font-size: 13px;
+  color: var(--text);
+  background: var(--card-inner);
+  line-height: 1.6;
+  min-height: 72px;
+  outline: none;
+  transition: border-color 0.12s;
+}
+
+.prayerTextarea:focus {
+  border-color: var(--accent-green);
+}
+
+.prayerHint {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+/* Re-engagement banner */
+.returnBanner {
+  background: var(--accent-green-light);
+  border: 1px solid var(--accent-green);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.returnBannerIcon { font-size: 18px; }
+
+.returnBannerText {
+  flex: 1;
+  font-size: 13px;
+  color: var(--accent-green);
+  font-weight: 500;
+}
+
+.returnBannerClose {
+  font-size: 16px;
+  color: var(--accent-green);
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0 4px;
+  opacity: 0.7;
+}
+
+@media (max-width: 1100px) {
+  .main {
+    padding: 18px 18px 28px;
+  }
+
+  .modeRow {
+    grid-template-columns: 1fr;
+  }
+
+  .focusHeader {
+    align-items: flex-start;
+  }
+
+  .focusRef {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1380px) {
+  .shell {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .main {
+    overflow: visible;
+  }
+
+  .panel {
+    width: 100%;
+    min-width: 0;
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+}
+
+@media (max-width: 760px) {
+  .main {
+    padding: 14px 14px 24px;
+    gap: 14px;
+  }
+
+  .greeting {
+    padding: 16px 16px 18px;
+  }
+
+  .greetingText {
+    font-size: 17px;
+  }
+
+  .modeCard,
+  .prayerCard,
+  .panelSection {
+    padding: 14px;
+  }
+
+  .focusBody {
+    padding: 16px 14px 18px;
+  }
+
+  .focusVerse {
+    font-size: 15px;
+  }
+
+  .focusActions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .actionBtn {
+    width: 100%;
+    white-space: normal;
+  }
+
+  .returnBanner {
+    align-items: flex-start;
+  }
+
+  .returnBannerClose {
+    align-self: flex-start;
+  }
+}
+
+/* Top themes */
+.themesRow {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.themeChip {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-sub);
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+
+.themeChip:hover {
+  background: var(--accent-green-light);
+  color: var(--accent-green);
+  border-color: var(--accent-green);
+}
+
+/* ── RIGHT PANEL ── */
+.panel {
+  width: 288px;
+  min-width: 288px;
+  border-left: 1px solid var(--border);
+  background: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.panelSection {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.panelTitle {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+/* Chronicle entries */
+.entryCard {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.entryCard:last-child { border-bottom: none; }
+
+.entryMeta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.entryTypeDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.entryTypeDot.insight { background: var(--accent-green); }
+.entryTypeDot.prayer { background: var(--accent-blue); }
+.entryTypeDot.study { background: var(--accent-purple); }
+.entryTypeDot.note { background: var(--accent-amber); }
+.entryTypeDot.reflection { background: var(--accent-sky); }
+
+.entryTypeLabel {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.entryTime {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+.entryTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.entryBody {
+  font-size: 11px;
+  color: var(--text-sub);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Formation snapshot */
+.formationBar {
+  margin-bottom: 8px;
+}
+
+.formationBarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.formationBarLabel {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-sub);
+}
+
+.formationBarValue {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.formationTrack {
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.formationFill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--accent-green);
+  transition: width 0.3s;
+}
+
+.formationFill.amber { background: var(--accent-amber); }
+.formationFill.blue { background: var(--accent-blue); }
+
+/* North Star */
+.northStar {
+  background: linear-gradient(135deg, var(--accent-purple-light), var(--accent-blue-light));
+  border: 1px solid var(--accent-purple);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.northStarLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-purple);
+  margin-bottom: 6px;
+}
+
+.northStarText {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Section header */
+.sectionHeader {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-sub);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

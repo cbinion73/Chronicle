@@ -1,0 +1,430 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 10,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:27.827Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 19 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: Therefore the sovereign Lord, the Lord of hosts, shal...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "Woe to those who decree iniquitous decrees, and the writers..."
+        ],
+        "2": [
+          "justice"
+        ],
+        "3": [
+          "punishment"
+        ],
+        "4": [
+          "Nothing remains but to crouch among the prisoners or fall..."
+        ],
+        "6": [
+          "wrath"
+        ],
+        "7": [
+          "But he does not so intend, and his heart does..."
+        ],
+        "8": [
+          "for he says"
+        ],
+        "9": [
+          "Is not Calno like Carchemish"
+        ],
+        "10": [
+          "As my hand has reached to the kingdoms of the..."
+        ],
+        "11": [
+          "shall I not do to Jerusalem and her idols as..."
+        ],
+        "12": [
+          "punish"
+        ],
+        "13": [
+          "For he says"
+        ],
+        "16": [
+          "Therefore the Lord God of hosts will send wasting sickness..."
+        ],
+        "17": [
+          "The light of Israel will become a fire, and his..."
+        ],
+        "18": [
+          "The glory of his forest and of his fruitful land..."
+        ],
+        "19": [
+          "The remnant of the trees of his forest will be..."
+        ],
+        "22": [
+          "For though your people Israel be as the sand of..."
+        ],
+        "23": [
+          "For the Lord God of hosts will make a full..."
+        ],
+        "25": [
+          "For in a very little while my fury will come..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "A woe oracle targets unjust lawmakers who create oppressive legislation. 'Decree unrighteous...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Woe to them that make wicked laws. Here he begins to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Malachi 3:5",
+          "anchorVerse": 2,
+          "referenceLabel": "Malachi 3:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The purpose of unjust decrees is exposed: turning aside the needy from justice and robbing th...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 5 and following) Woe to Assyria, the rod of my anger,...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11,
+        16,
+        17,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "Woe to those who decree iniquitous decrees, and the writers..."
+        ],
+        "2": [
+          "justice"
+        ],
+        "5": [
+          "Woe to Assyria, the rod of my anger"
+        ],
+        "7": [
+          "and his heart does not so think"
+        ],
+        "10": [
+          "As my hand has reached to the kingdoms of the..."
+        ],
+        "11": [
+          "shall I not do to Jerusalem and her idols as..."
+        ],
+        "16": [
+          "Therefore the Lord God of hosts will send wasting sickness..."
+        ],
+        "17": [
+          "Holy"
+        ],
+        "20": [
+          "Holy"
+        ],
+        "22": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Matthew 23:29",
+          "anchorVerse": 1,
+          "referenceLabel": "Matthew 23:29"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "A woe oracle targets unjust lawmakers who create oppressive legislation. 'Decree unrighteous...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Woe to them that make wicked laws. Here he begins to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The purpose of unjust decrees is exposed: turning aside the needy from justice and robbing th...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: Second, the one bringing the punishment, the Holy One...\". Word-study detail reinforces \"הָאָ֖רֶץ: all the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        10,
+        14,
+        16,
+        17,
+        18,
+        23
+      ],
+      "versePhrases": {
+        "10": [
+          "As my hand has reached to the kingdoms of the..."
+        ],
+        "14": [
+          "earth"
+        ],
+        "16": [
+          "Therefore the Lord God of hosts will send wasting sickness..."
+        ],
+        "17": [
+          "light"
+        ],
+        "18": [
+          "The glory of his forest and of his fruitful land..."
+        ],
+        "23": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient Near Eastern theology was polytheistic and henotheistic—believing many gods existed b...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 5 and following) Woe to Assyria, the rod of my anger,...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Ancient warfare regularly involved systematic plundering of conquered territories. Assyrian r...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Verecundus of Junca on COMMENTARY ON THE CANTICLE OF EXODUS 1:10-11: “My hand found the stren...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Romans: Thou wilt say then unto me, Why doth he yet find fault? For who hath resisted his wil...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        17,
+        20,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "17": [
+          "Holy"
+        ],
+        "20": [
+          "Holy"
+        ],
+        "22": [
+          "righteousness"
+        ],
+        "23": [
+          "For the Lord God of hosts will make a full..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 37:23",
+          "anchorVerse": 17,
+          "referenceLabel": "Isaiah 37:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "The 'light of Israel' and 'his Holy One' both refer to God, who becomes 'a fire' and 'a flame...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Ambrose of Milan on On the Holy Spirit 1.14: And Isaiah shows that the Holy Spirit is not onl...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "וּקְדוֹשׁ֖וֹ: and his Holy One - sacred (ceremonially or morally); (as noun) god (by eminence...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 16 and following) Therefore, the Lord of hosts will se...\". Word-study detail reinforces \"תִּפְאֶ֖רֶת: and the glory - ornament (abstractly or concretely, literally or figuratively)\".",
+      "supportingVerses": [
+        3,
+        7,
+        12,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "What will you do on the day of punishment, in..."
+        ],
+        "7": [
+          "But he does not so intend, and his heart does..."
+        ],
+        "12": [
+          "When the Lord has finished all his work on Mount Zion and on Jerusalem"
+        ],
+        "16": [
+          "glory"
+        ],
+        "18": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Rhetorical questions expose the foolishness of the unjust. 'What will ye do in the day of vis...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: \"What will you do on the day of visitation and the calamity t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "כְּבוֹדְכֶֽם׃: your glory - properly, weight, but only figuratively in a good sense, splendor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Assyrian annals boast of conquests, tribute, and imperial glory—never acknowledging serving I...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The phrase 'in that day' points to post-judgment restoration. The 'remnant of Israel' demonst...\". Word-study detail reinforces \"בֶּאֱמֶֽת׃: in truth - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        9,
+        11,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "9": [
+          "Is not Calno like Carchemish"
+        ],
+        "11": [
+          "shall I not do to Jerusalem and her idols as..."
+        ],
+        "20": [
+          "truth"
+        ],
+        "21": [
+          "A remnant will return, the remnant of Jacob, to the..."
+        ],
+        "22": [
+          "For though your people Israel be as the sand of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How do past victories sometimes blind us to our true limitations and God's sovereign control?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Second, the subjugation of cities: is not Calano as C...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How does God's defense of Jerusalem (for a time) despite their idolatry demonstrate His coven...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: So shall I do to Jerusalem and her images. Here he co...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

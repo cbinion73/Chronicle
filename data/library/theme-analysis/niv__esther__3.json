@@ -1,0 +1,240 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Esther",
+  "chapter": 3,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:50.283Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Jerome on St. Jerome, Commentary on Daniel, CHAPTER SEVEN: [Daniel 7:5] \"And behold another b...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "King"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "6": [
+          "kingdom"
+        ],
+        "7": [
+          "King"
+        ],
+        "8": [
+          "kingdom",
+          "King",
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king",
+          "King"
+        ],
+        "13": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Numbers 24:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Numbers 24:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "After these things did king Ahasuerus promote Haman the son of Hammedatha the Agagite, and ad...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֨לֶךְ: did king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And all the king's servants, that were in the king's gate, bowed, and reverenced Haman: for t...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Then the king's servants, which were in the king's gate, said unto Mordecai, Why transgresses...\". Word-study detail reinforces \"מִצְוַ֥ת: commandment - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        3,
+        8,
+        11,
+        15
+      ],
+      "versePhrases": {
+        "3": [
+          "command"
+        ],
+        "8": [
+          "obey",
+          "keep"
+        ],
+        "11": [
+          "Keep"
+        ],
+        "15": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Then the king's servants, which were in the king's gate, said unto Mordecai, Why transgresses...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מִצְוַ֥ת: commandment - a command, whether human or divine (collectively, the law)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Ancient empires often scapegoated minority populations during crises. Haman's argument—Jews a...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "עֹשִׂ֔ים: neither keep - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ancient genocide (called herem or 'devotion to destruction' in Hebrew) appears in Scripture a...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        7,
+        9,
+        13
+      ],
+      "versePhrases": {
+        "7": [
+          "presence"
+        ],
+        "9": [
+          "If it pleases the king, let a decree be issued..."
+        ],
+        "13": [
+          "Dispatches were sent by couriers to all the king’s provinces with the order to destroy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Lot-casting ( casting lots ) for divination was widespread in ancient Near Eastern cultures,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Ancient empires often scapegoated minority populations, especially during crises. Haman's rhe...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Ancient genocide (called herem or 'devotion to destruction' in Hebrew) appears in Scripture a...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Royal signet rings authenticated documents in the ancient world. Impressions in wax or clay c...\".",
+      "supportingVerses": [
+        10,
+        14
+      ],
+      "versePhrases": {
+        "10": [
+          "So the king took his signet ring from his finger..."
+        ],
+        "14": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Royal signet rings authenticated documents in the ancient world. Impressions in wax or clay c...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: So Haman promised ten thousand talents of silver to t...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Public proclamation of decrees was standard practice in ancient empires. Town criers, posted...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

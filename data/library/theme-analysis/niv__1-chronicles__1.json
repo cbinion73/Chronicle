@@ -1,0 +1,111 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:45.700Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Cross references echo \"Kingdom\". Word-study detail reinforces \"מֶ֖לֶךְ: Now these are the kings - a king\".",
+      "supportingVerses": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "versePhrases": {
+        "43": [
+          "king"
+        ],
+        "44": [
+          "king"
+        ],
+        "45": [
+          "king"
+        ],
+        "46": [
+          "king"
+        ],
+        "47": [
+          "king"
+        ],
+        "48": [
+          "king"
+        ],
+        "49": [
+          "king"
+        ],
+        "50": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 43 word study",
+          "detail": "מֶ֖לֶךְ: Now these are the kings - a king",
+          "anchorVerse": 43
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 44 word study",
+          "detail": "וַיִּמְלֹ֣ךְ: reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 44
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 45 word study",
+          "detail": "וַיִּמְלֹ֣ךְ: reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 45
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 46 word study",
+          "detail": "וַיִּמְלֹ֨ךְ: reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 46
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"הָאָ֔רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        10,
+        19
+      ],
+      "versePhrases": {
+        "10": [
+          "earth"
+        ],
+        "19": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "בָּאָֽרֶץ׃: upon the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "הָאָ֔רֶץ: the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 19
+        }
+      ]
+    }
+  ]
+}

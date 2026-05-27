@@ -1,0 +1,297 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezra",
+  "chapter": 3,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:38.312Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: So, with the foundation of the temple of the Lord la...\". Word-study detail reinforces \"וּבְהוֹדֹ֤ת: and giving thanks - physically, to throw (a stone, an arrow) at or away; especia...\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "When the seventh month arrived, and the Israelites were in..."
+        ],
+        "2": [
+          "Jeshua son of Jozadak and his brothers the priests along..."
+        ],
+        "6": [
+          "On the first day of the seventh month they began to offer burnt offerings to the Lord"
+        ],
+        "10": [
+          "praise"
+        ],
+        "11": [
+          "praise",
+          "thanksgiving"
+        ],
+        "12": [
+          "But many of the older priests, Levites, and family heads,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The phrase 'as one man' (Hebrew ke'ish echad ) emphasizes the unity of God's people in gather...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: Now the seventh month had come, and the children of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Jeshua (Hebrew Yeshua , meaning 'Yahweh saves') served as high priest, while Zerubbabel (gran...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And Joshua, the son of Jozadak, arose, etc. For Josh...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And Joshua, the son of Jozadak, arose, etc. For Josh...\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        7,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "When the seventh month arrived, and the Israelites were in..."
+        ],
+        "2": [
+          "Jeshua son of Jozadak and his brothers the priests along..."
+        ],
+        "6": [
+          "On the first day of the seventh month they began..."
+        ],
+        "7": [
+          "They gave money to the stonecutters and artisans, and gave..."
+        ],
+        "11": [
+          "faithful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The phrase 'as one man' (Hebrew ke'ish echad ) emphasizes the unity of God's people in gather...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: Now the seventh month had come, and the children of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And Joshua, the son of Jozadak, arose, etc. For Josh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "From the first day of the seventh month began they to offer burnt offerings unto the LORD. Bu...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And Joshua, the son of Jozadak, arose, etc. For Josh...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "Jeshua son of Jozadak and his brothers the priests along..."
+        ],
+        "7": [
+          "King"
+        ],
+        "10": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does the partnership between priest (Jeshua) and governor (Zerubbabel) prefigure Christ's...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And Joshua, the son of Jozadak, arose, etc. For Josh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Acts 12:20",
+          "anchorVerse": 7,
+          "referenceLabel": "Acts 12:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "They gave money also unto the masons, and to the carpenters; and meat, and drink, and oil, un...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: In the second year of their coming, etc. He says the...\".",
+      "supportingVerses": [
+        3,
+        8
+      ],
+      "versePhrases": {
+        "3": [
+          "They set up the altar on its foundation and offered..."
+        ],
+        "8": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In what ways can churches balance legitimate concern for physical safety with primary trust i...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: They placed the altar on its bases, etc. For the bas...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: In the second year of their coming, etc. He says the...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: However, they gave money to the stonecutters and the...\".",
+      "supportingVerses": [
+        5,
+        7
+      ],
+      "versePhrases": {
+        "5": [
+          "holy"
+        ],
+        "7": [
+          "They gave money to the stonecutters and artisans, and gave..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And afterward offered the continual burnt offering, both of the new moons, and of all the set...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And after these things, the daily burnt offering, et...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "They gave money also unto the masons, and to the carpenters; and meat, and drink, and oil, un...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: However, they gave money to the stonecutters and the...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: So, with the foundation of the temple of the Lord la...\". Word-study detail reinforces \"חַסְדּ֖וֹ: for his mercy - kindness; by implication (towards god) piety; rarely (by oppositio...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The responsive singing 'because he is good' echoes Psalm 136 and numerous other passages cele...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: So, with the foundation of the temple of the Lord la...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "חַסְדּ֖וֹ: for his mercy - kindness; by implication (towards god) piety; rarely (by oppositio...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

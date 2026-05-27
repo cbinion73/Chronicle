@@ -1,0 +1,215 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 10,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:31.203Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (v. 18 seqq.) And the glory of the Lord went forth from the...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        7,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "Now the cherubim were standing on the south side of..."
+        ],
+        "4": [
+          "glory"
+        ],
+        "5": [
+          "The sound of the wings of the cherubim could be..."
+        ],
+        "7": [
+          "Then one of the cherubim reached out his hand to..."
+        ],
+        "15": [
+          "Then the cherubim rose upward"
+        ],
+        "16": [
+          "When the cherubim moved, the wheels beside them moved"
+        ],
+        "18": [
+          "glory"
+        ],
+        "19": [
+          "glory"
+        ],
+        "21": [
+          "Each had four faces and four wings, and under their..."
+        ],
+        "22": [
+          "Their faces had the same appearance as those I had..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The cherubim's position 'on the right side of the house' (the south side of the temple) indic...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verses 3 and following) And he entered in my sight. But the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Ezekiel 1:28",
+          "anchorVerse": 4,
+          "referenceLabel": "Ezekiel 1:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This verse describes the beginning of God's glory departing from the temple—one of Scripture'...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ezekiel sees \"the throne\" above the cherubim, symbolizing God's sovereign rule over creation....\". Word-study detail reinforces \"כִּסֵּ֑א: of a throne - properly, covered, i.e., a throne (as canopied)\".",
+      "supportingVerses": [
+        1,
+        6,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "throne"
+        ],
+        "6": [
+          "When the Lord commanded the man in linen, “Take fire..."
+        ],
+        "14": [
+          "Each of the cherubim had four faces"
+        ],
+        "18": [
+          "Then the glory of the Lord departed from over the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ezekiel sees \"the throne\" above the cherubim, symbolizing God's sovereign rule over creation....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 10, Verses 1, 2) And I saw, and behold, in the firm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "כִּסֵּ֑א: of a throne - properly, covered, i.e., a throne (as canopied)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The command-fulfillment pattern here mirrors ancient Near Eastern royal decrees where kings w...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"In what ways is God's all-seeing knowledge a comfort rather than merely a threat?\".",
+      "supportingVerses": [
+        12,
+        17
+      ],
+      "versePhrases": {
+        "12": [
+          "Their entire bodies, including their backs, their hands and their..."
+        ],
+        "17": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "In what ways is God's all-seeing knowledge a comfort rather than merely a threat?",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Pastoral Rule, Part 3, Chapter 4: Wherefore those who are over other...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The continued synchronization—'when they stood, these stood; and when they were lifted up, th...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Romans 8:2",
+          "anchorVerse": 17,
+          "referenceLabel": "Romans 8:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "The continued synchronization—'when they stood, these stood; and when they were lifted up, th...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Vers. 15 seqq.) It is a creature that I saw beside the rive...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "ר֥וּחַ: themselves also for the spirit - wind; by resemblance breath, i.e., a sensible (or ev...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

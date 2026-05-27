@@ -1,0 +1,66 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nahum",
+  "chapter": 2,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:00.680Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Nahum: (Verses 8, 9.) And Nineveh is like a pool of water; its waters...\". Word-study detail reinforces \"מֵאֶ֙רֶץ֙: from the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        8,
+        9,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "The shield of his mighty men is red"
+        ],
+        "8": [
+          "waters"
+        ],
+        "9": [
+          "Plunder the silver, plunder the gold"
+        ],
+        "11": [
+          "Where is the lions' den, the feeding place of the..."
+        ],
+        "13": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Nahum's vision of Nineveh's attackers is vivid and terrifying: 'The shield of his mighty men...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מְאָדָּ֗ם: is made red - to show blood (in the face), i.e., flush or turn rosy",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Nahum's prophecy of Nineveh's fall employs vivid imagery: 'Nineveh is of old like a pool of w...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Nahum: (Verses 8, 9.) And Nineveh is like a pool of water; its waters...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

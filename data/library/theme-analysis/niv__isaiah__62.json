@@ -1,0 +1,341 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 62,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:21.550Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Cyril of Alexandria on COMMENTARY ON ISAIAH 5:5.62:6-9: Jerusalem … there is nothing like you...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "2": [
+          "glory"
+        ],
+        "3": [
+          "You will be a crown of splendor in the Lord’s hand"
+        ],
+        "7": [
+          "praise"
+        ],
+        "8": [
+          "The Lord has sworn by his right hand and by his mighty arm"
+        ],
+        "9": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Isaiah 66:12",
+          "anchorVerse": 2,
+          "referenceLabel": "Isaiah 66:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "'And the Gentiles shall see thy righteousness, and all kings thy glory: and thou shalt be cal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 62, verses 1 and following) For the sake of Zion I w...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "כְּבוֹדֵ֑ךְ: thy glory - properly, weight, but only figuratively in a good sense, splendor or...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: 1086. For Zion's sake. Here he promises the honor of...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "quiet"
+        ],
+        "6": [
+          "rest"
+        ],
+        "7": [
+          "rest"
+        ],
+        "8": [
+          "The Lord has sworn by his right hand and by..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The prophet (or God speaking through him) declares unwavering commitment: 'For Zion's sake wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: 1086. For Zion's sake. Here he promises the honor of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶחֱשֶׁ֔ה: sake will I not hold my peace - to hush or keep quiet",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Isaiah 62:1",
+          "anchorVerse": 6,
+          "referenceLabel": "Isaiah 62:1"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 6, 7.) I have set watchmen upon your walls, O Jerusale...\". Word-study detail reinforces \"בָּאָֽרֶץ׃: in the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        11
+      ],
+      "versePhrases": {
+        "4": [
+          "for the Lord will take delight in you"
+        ],
+        "6": [
+          "I have posted watchmen on your walls, Jerusalem"
+        ],
+        "7": [
+          "earth"
+        ],
+        "11": [
+          "made",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4.) You will no longer be called forsaken, and your la...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְאַרְצֵ֖ךְ: and thy land - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 6, 7.) I have set watchmen upon your walls, O Jerusale...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַלַּ֛יְלָה: nor night - properly, a twist (away of the light), i.e., night; figuratively, ad...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter 62, verses 1 and following) For the sake of Zion I w...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        7,
+        8,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "For Zion’s sake I will not keep silent, for Jerusalem’s..."
+        ],
+        "2": [
+          "The nations will see your vindication, and all kings your..."
+        ],
+        "7": [
+          "and give him no rest till he establishes Jerusalem and..."
+        ],
+        "8": [
+          "The Lord has sworn by his right hand and by..."
+        ],
+        "12": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 4:18",
+          "anchorVerse": 1,
+          "referenceLabel": "Proverbs 4:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The prophet (or God speaking through him) declares unwavering commitment: 'For Zion's sake wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 62, verses 1 and following) For the sake of Zion I w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "צִדְקָ֔הּ: until the righteousness - the right (natural, moral or legal); also (abstractly) e...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"'Behold, the LORD hath proclaimed unto the end of the world, Say ye to the daughter of Zion,...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "salvation"
+        ],
+        "10": [
+          "Pass through, pass through the gates"
+        ],
+        "11": [
+          "The Lord has made proclamation to the ends of the..."
+        ],
+        "12": [
+          "the Redeemed of the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Hebrews 7:25",
+          "anchorVerse": 1,
+          "referenceLabel": "Hebrews 7:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The prophet (or God speaking through him) declares unwavering commitment: 'For Zion's sake wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 62, verses 1 and following) For the sake of Zion I w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וִישׁוּעָתָ֖הּ: and the salvation - something saved, i.e., (abstractly) deliverance; hence, a...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter 62, verses 1 and following) For the sake of Zion I w...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "For Zion’s sake I will not keep silent, for Jerusalem’s..."
+        ],
+        "2": [
+          "The nations will see your vindication, and all kings your..."
+        ],
+        "9": [
+          "but those who harvest it will eat it and praise..."
+        ],
+        "12": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 4:18",
+          "anchorVerse": 1,
+          "referenceLabel": "Proverbs 4:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The prophet (or God speaking through him) declares unwavering commitment: 'For Zion's sake wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 62, verses 1 and following) For the sake of Zion I w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "צִדְקָ֔הּ: until the righteousness - the right (natural, moral or legal); also (abstractly) e...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 25,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:09.059Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist presented Christ's t...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        15,
+        17,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "trust"
+        ],
+        "2": [
+          "trust"
+        ],
+        "3": [
+          "No one who hopes in you will ever be put to shame"
+        ],
+        "4": [
+          "Show me your ways, Lord, teach me your paths"
+        ],
+        "5": [
+          "hope"
+        ],
+        "6": [
+          "Remember, Lord, your great mercy and love, for they are..."
+        ],
+        "8": [
+          "Good and upright is the Lord"
+        ],
+        "15": [
+          "My eyes are ever on the Lord, for only he..."
+        ],
+        "17": [
+          "Relieve the troubles of my heart and free me from..."
+        ],
+        "20": [
+          "Guard my life and rescue me"
+        ],
+        "21": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 25 is attributed to David and follows an acrostic pattern, with each verse beginning wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist presented Christ's t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Romans 10:11",
+          "anchorVerse": 2,
+          "referenceLabel": "Romans 10:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The prayer 'O my God, I trust in thee: let me not be ashamed' expresses covenant confidence....",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Remember.\" Here he asks for the forgive...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        15,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "Guide me in your truth and teach me, for you..."
+        ],
+        "6": [
+          "mercy"
+        ],
+        "7": [
+          "Do not remember the sins of my youth and my..."
+        ],
+        "8": [
+          "Good and upright is the Lord"
+        ],
+        "10": [
+          "All the ways of the Lord are loving and faithful..."
+        ],
+        "11": [
+          "forgive"
+        ],
+        "15": [
+          "My eyes are ever on the Lord, for only he..."
+        ],
+        "16": [
+          "gracious"
+        ],
+        "18": [
+          "Look on my affliction and my distress and take away..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The concept of God's \"truth\" ( emet ) is central to Old Testament theology. When Moses asked...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 25: \"In Your truth guide me:\" avoiding error. \"And...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The plea 'Remember, O LORD, thy tender mercies and thy lovingkindnesses' asks God to act acco...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Remember.\" Here he asks for the forgive...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Therefore.\" Here the effects of divine...\". Word-study detail reinforces \"חֶ֣סֶד: are mercy - kindness; by implication (towards god) piety; rarely (by opposition) repr...\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        8,
+        10,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "In you, Lord my God, I put my trust"
+        ],
+        "6": [
+          "love"
+        ],
+        "7": [
+          "love"
+        ],
+        "8": [
+          "Good and upright is the Lord"
+        ],
+        "10": [
+          "loving"
+        ],
+        "14": [
+          "The Lord confides in those who fear him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Unto thee, O LORD, do I lift up my soul. This opening verse establishes the psalm's tone of e...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist presented Christ's t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וַחֲסָדֶ֑יךָ: and thy lovingkindnesses - kindness; by implication (towards god) piety; rarely...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Remember not the sins of my youth, nor my transgressions: according to thy mercy remember tho...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait a...\". Word-study detail reinforces \"לַמְּדֵֽנִי׃: teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...\".",
+      "supportingVerses": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "teach"
+        ],
+        "5": [
+          "Guide",
+          "teach"
+        ],
+        "8": [
+          "Good and upright is the Lord"
+        ],
+        "9": [
+          "He guides the humble in what is right and teaches them his way"
+        ],
+        "10": [
+          "All the ways of the Lord are loving and faithful..."
+        ],
+        "12": [
+          "Who, then, are those who fear the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The request for divine instruction reflects Israel's covenant relationship where God committe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 25: \"Let them be confounded who do vain things unri...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לַמְּדֵֽנִי׃: teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait a...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Good and upright is the LORD: therefore will he teach sinners in the way. This verse provides...\". Word-study detail reinforces \"כֵּ֤ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        1,
+        8,
+        9,
+        14,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "In you, Lord my God, I put my trust"
+        ],
+        "8": [
+          "upright"
+        ],
+        "9": [
+          "He guides the humble in what is right and teaches..."
+        ],
+        "14": [
+          "The Lord confides in those who fear him"
+        ],
+        "21": [
+          "May integrity and uprightness protect me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 25 is attributed to David and follows an acrostic pattern, with each verse beginning wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist presented Christ's t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Good and upright is the LORD: therefore will he teach sinners in the way. This verse provides...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Sweet.\" Above, the Psalmist asked that...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The concept of God's \"truth\" ( emet ) is central to Old Testament theology. When Moses asked...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        4,
+        5,
+        10,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "4": [
+          "Show me your ways, Lord, teach me your paths"
+        ],
+        "5": [
+          "truth"
+        ],
+        "10": [
+          "faithful"
+        ],
+        "14": [
+          "The Lord confides in those who fear him"
+        ],
+        "15": [
+          "My eyes are ever on the Lord, for only he..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The request for divine instruction reflects Israel's covenant relationship where God committe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on Exposition of the Christian Faith 3.7.51: Now the ways of the Lord are, w...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Psalms 25:10",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 25:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The concept of God's \"truth\" ( emet ) is central to Old Testament theology. When Moses asked...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 16,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:08.869Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Didymus the Blind on ON GENESIS 245: At that time, giving birth to children was regarded as a...\". Word-study detail reinforces \"עָנְיֵֽךְ׃: thy affliction - depression, i.e., misery\".",
+      "supportingVerses": [
+        5,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "suffering"
+        ],
+        "11": [
+          "affliction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Didymus the Blind on ON GENESIS 245: At that time, giving birth to children was regarded as a...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "עָנְיֵֽךְ׃: thy affliction - depression, i.e., misery",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Hebrew Questions on Genesis: (Verse 12) This will be a rustic man. His hand will be...\". Word-study detail reinforces \"אֵלֶ֔יהָ: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        12,
+        13
+      ],
+      "versePhrases": {
+        "12": [
+          "near"
+        ],
+        "13": [
+          "So she named the Lord who spoke to her"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Hebrew Questions on Genesis: (Verse 12) This will be a rustic man. His hand will be...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "יִשְׁכֹּֽן׃: against him and he shall dwell - to reside or permanently stay (literally or fig...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Cross references echo \"Judgment\". Word-study detail reinforces \"יִשְׁפֹּ֥ט: judge - to judge, i.e., pronounce sentence (for or against); by implication, to v...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Genesis 31:53",
+          "anchorVerse": 5,
+          "referenceLabel": "Genesis 31:53"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יִשְׁפֹּ֥ט: judge - to judge, i.e., pronounce sentence (for or against); by implication, to v...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "want"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on City of God 16.25: And here follow the times of Abraham’s sons, the one...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 66,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:56.592Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The call to 'Sing forth the honour of his name' commands worship that exalts God's character....\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        8,
+        12,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "praise",
+          "Sing"
+        ],
+        "3": [
+          "Say to God, “How awesome are Your works"
+        ],
+        "4": [
+          "worship",
+          "sing"
+        ],
+        "8": [
+          "praise"
+        ],
+        "12": [
+          "You have caused men to ride over our heads"
+        ],
+        "17": [
+          "I cried to Him with my mouth, And He was..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Revelation 5:13",
+          "anchorVerse": 2,
+          "referenceLabel": "Revelation 5:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The call to 'Sing forth the honour of his name' commands worship that exalts God's character....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 66: \"But play ye to His name\" [Psalm 66:2]. What ha...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תְּהִלָּתֽוֹ׃: his praise - laudation; specifically (concretely) a hymn",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Blessed be God, which hath not turned away my prayer, nor his mercy from me. This concluding...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        8,
+        13,
+        14,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "8": [
+          "bless"
+        ],
+        "13": [
+          "I will go into Your house with burnt offerings"
+        ],
+        "14": [
+          "Which my lips have uttered And my mouth has spoken..."
+        ],
+        "18": [
+          "If I regard iniquity in my heart, The Lord will..."
+        ],
+        "20": [
+          "Blessed be God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The call to 'bless our God' emphasizes corporate worship as the proper response to divine del...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 66: \"Bless our God, you nations\" [Psalm 66:8]. Beho...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בָּרְכ֖וּ: O bless - to kneel; by implication to bless god (as an act of adoration), and (vic...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "How does your worship in times of blessing compare to your prayers in times of need?",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Desert Fathers on The Desert Fathers, Sayings of the Early Christian Monks: [Syncletica] also...\". Word-study detail reinforces \"בַּצַּר: when I was in trouble - a pebble (as in h6864)\".",
+      "supportingVerses": [
+        11,
+        12,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "11": [
+          "affliction"
+        ],
+        "12": [
+          "You have caused men to ride over our heads"
+        ],
+        "14": [
+          "trouble"
+        ],
+        "18": [
+          "If I regard iniquity in my heart, The Lord will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "What is the difference between accepting suffering as discipline versus viewing it as evidenc...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 66: \"You have laid tribulations on our back:\" \"You...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "מוּעָקָ֣ה: affliction - pressure, i.e., (figuratively) distress",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The imagery of men riding over Israel's heads depicts humiliation and subjugation under enemy...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 66: Come ye, hear, and I will tell, all you that fe...\". Word-study detail reinforces \"יִרְאֵ֣י: all ye that fear - fearing; morally, reverent\".",
+      "supportingVerses": [
+        3,
+        5,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "Say to God, “How awesome are Your works"
+        ],
+        "5": [
+          "Come and see the works of God"
+        ],
+        "16": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does recognizing God's terrible power in creation lead you to worship rather than fear?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 66: \"Say ye to God, How to be feared are Your works...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "נּוֹרָ֣א: How terrible - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Come and see the works of God: he is terrible in his doing toward the children of men. This v...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Make a joyful noise unto God, all ye lands. This opening summons launches an exuberant psalm...\". Word-study detail reinforces \"הָאָ֤רֶץ׀: All the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        4,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "4": [
+          "earth"
+        ],
+        "14": [
+          "Which my lips have uttered And my mouth has spoken..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Make a joyful noise unto God, all ye lands. This opening summons launches an exuberant psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָֽרֶץ׃: all ye lands - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Written during a period when Israel experienced God's deliverance, this psalm reflects the co...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on On Continence 14:30: Also in this place (which we have been quoting), t...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Blessed be God, which hath not turned away my prayer, nor his mercy from me. This concluding...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        19,
+        20
+      ],
+      "versePhrases": {
+        "19": [
+          "prayer"
+        ],
+        "20": [
+          "prayer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Hebrews 5:7",
+          "anchorVerse": 19,
+          "referenceLabel": "Hebrews 5:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "The psalmist's confidence rests on God's character—'Verily God hath heard me.' The emphatic '...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 66: \"Therefore God has hearkened to me\" [Psalm 66:1...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "תְּפִלָּתִֽי׃: of my prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 19
+        }
+      ]
+    }
+  ]
+}

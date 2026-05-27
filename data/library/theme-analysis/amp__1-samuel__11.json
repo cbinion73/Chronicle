@@ -1,0 +1,317 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 11,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:03.579Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 16. If therefore we apply...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        7,
+        12,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "7": [
+          "He took a team of oxen and cut them in..."
+        ],
+        "12": [
+          "reign"
+        ],
+        "14": [
+          "kingdom"
+        ],
+        "15": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 1. When I wished to assert...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And he took a yoke of oxen, and hewed them in pieces, and sent them throughout all the coasts...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Commentary on Samuel: Therefore, the fear of the Lord seized the people, etc. Upon he...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Luke 19:27",
+          "anchorVerse": 12,
+          "referenceLabel": "Luke 19:27"
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Therefore the men of Jabesh said, To morrow we will come out unto you, and ye shall do with u...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "with us"
+        ],
+        "2": [
+          "with you"
+        ],
+        "3": [
+          "The elders of Jabesh said to Nahash, “Give us seven..."
+        ],
+        "9": [
+          "They said to the messengers who had come, “You shall..."
+        ],
+        "10": [
+          "So the men of Jabesh said [to Nahash the Ammonite],..."
+        ],
+        "11": [
+          "The next morning Saul put the men into three companies"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Then Nahash the Ammonite came up, and encamped against Jabesh-gilead: and all the men of Jabe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 1. When I wished to assert...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Eye-gouging was practiced by various ancient Near Eastern peoples as a form of punishment and...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And Saul said, There shall not a man be put to death this day: for to day the LORD hath wroug...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        3,
+        9,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "3": [
+          "save"
+        ],
+        "9": [
+          "They said to the messengers who had come, “You shall..."
+        ],
+        "12": [
+          "The people said to Samuel, “Who is the one who..."
+        ],
+        "13": [
+          "But Saul said, “No man shall be put to death..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the elders of Jabesh said unto him, Give us seven days' respite, that we may send messeng...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מוֹשִׁ֛יעַ: and then if there be no man to save - properly, to be open, wide or free, i.e., (...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "When has God turned your despair into joy through unexpected deliverance?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Samuel: And they said to the messengers who came: Thus you shall say, e...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Peace offerings involved communal meals where the fat was burned to God, the breast and thigh...\". Word-study detail reinforces \"שְׁלָמִ֖ים: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        1,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "peace"
+        ],
+        "15": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Samuel: And all the men of Jabesh said to Nahash, etc. Many faithful me...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Peace offerings involved communal meals where the fat was burned to God, the breast and thigh...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 16. If therefore we apply...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "שְׁלָמִ֖ים: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 7. What do we say in these...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        6,
+        9
+      ],
+      "versePhrases": {
+        "6": [
+          "Spirit"
+        ],
+        "9": [
+          "They said to the messengers who had come, “You shall..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "1 Samuel 16:13",
+          "anchorVerse": 6,
+          "referenceLabel": "1 Samuel 16:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the Spirit of God came upon Saul when he heard those tidings, and his anger was kindled g...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 7. What do we say in these...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "רֽוּחַ: And the Spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exha...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 1. When I wished to assert...\". Word-study detail reinforces \"בְרִ֖ית: a covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        1,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "Now Nahash the Ammonite [king] went up and besieged Jabesh-gilead"
+        ],
+        "15": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 1. When I wished to assert...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְרִ֖ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And all the people went to Gilgal; and there they made Saul king before the LORD in Gilgal; a...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 5, Chapter 1: 16. If therefore we apply...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 26,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:23.532Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Do you see someone wise in their own eyes? There's more hope for a fool than for them. The He...\". Word-study detail reinforces \"חָכָ֣ם: wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        4,
+        5,
+        7,
+        9,
+        11,
+        12,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "4": [
+          "Answer not a fool according to his folly, lest you..."
+        ],
+        "5": [
+          "wise"
+        ],
+        "7": [
+          "Like a lame man's legs, which hang useless, is a..."
+        ],
+        "9": [
+          "Like a thorn that goes up into the hand of..."
+        ],
+        "11": [
+          "Like a dog that returns to his vomit is a..."
+        ],
+        "12": [
+          "wise"
+        ],
+        "16": [
+          "The sluggard is wiser in his own eyes than seven men who can answer sensibly"
+        ],
+        "17": [
+          "Whoever meddles in a quarrel not his own is like..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Don't answer a fool 'according to his folly' lest you become like him. Engaging fools on thei...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Proverbs: Do not answer a fool according to his foolishness, etc. Answe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse seems to contradict verse 4: 'Answer a fool according to his folly, lest he be wis...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חָכָ֣ם: lest he be wise - wise, (i.e., intelligent, skilful or artful)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What gracious-sounding messages are you believing from people whose character you shouldn't t...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        12,
+        25
+      ],
+      "versePhrases": {
+        "12": [
+          "hope"
+        ],
+        "25": [
+          "believe"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Proverbs 29:20",
+          "anchorVerse": 12,
+          "referenceLabel": "Proverbs 29:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Do you see someone wise in their own eyes? There's more hope for a fool than for them. The He...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on COMMENTARY ON ISAIAH 5:21: This is not a small fault either to consider on...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "תִּקְוָ֖ה: there is more hope - literally a cord (as an attachment); figuratively, expectancy",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

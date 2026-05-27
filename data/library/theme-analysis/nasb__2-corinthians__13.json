@@ -1,0 +1,308 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Corinthians",
+  "chapter": 13,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:54.225Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Having rebuked those deceived by false apostle...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        2,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "rest"
+        ],
+        "11": [
+          "peace"
+        ],
+        "12": [
+          "Greet one another with a holy kiss"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 2 Corinthians: I previously told you, and I say again:...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Hebrews 12:14",
+          "anchorVerse": 11,
+          "referenceLabel": "Hebrews 12:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Finally, brethren, farewell —The Greek loipon (λοιπόν, \"finally\") and chairete (χαίρετε, \"rej...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having rebuked those deceived by false apostle...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"For we can do nothing against the truth, but for the truth —A principle statement: Paul's apo...\". Word-study detail reinforces \"ἀληθείας: the truth - truth\".",
+      "supportingVerses": [
+        1,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "testimony"
+        ],
+        "8": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This is the third time I am coming to you —Paul announces his impending third visit to Corint...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having said many things to the disadvantage of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "For we can do nothing against the truth, but for the truth —A principle statement: Paul's apo...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on Homily 29 on 2 Corinthians: \"For we can do nothing against the truth, but...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: He greets them on his own part, when he says:...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "7": [
+          "Now we pray to God that you do nothing wrong"
+        ],
+        "12": [
+          "holy"
+        ],
+        "13": [
+          "All the saints greet you"
+        ],
+        "14": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Now I pray to God that ye do no evil —Paul's priority is their holiness, not his vindication....",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily 29 on 2 Corinthians: What is it he says? \"I entreat God. I beseech...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Romans 16:16",
+          "anchorVerse": 12,
+          "referenceLabel": "Romans 16:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Greet one another with an holy kiss —The philēmati hagiō (φιλήματι ἁγίῳ, \"holy kiss\") was a c...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: He greets them on his own part, when he says:...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        8,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "8": [
+          "For we cannot do anything against the truth, but only..."
+        ],
+        "12": [
+          "holy"
+        ],
+        "13": [
+          "All the saints greet you"
+        ],
+        "14": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "For we can do nothing against the truth, but for the truth —A principle statement: Paul's apo...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: That he would lack this power of judging, if t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Romans 16:16",
+          "anchorVerse": 12,
+          "referenceLabel": "Romans 16:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Greet one another with an holy kiss —The philēmati hagiō (φιλήματι ἁγίῳ, \"holy kiss\") was a c...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Having rebuked those deceived by false apostle...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "love"
+        ],
+        "12": [
+          "Greet one another with a holy kiss"
+        ],
+        "14": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "2 Corinthians 13:14",
+          "anchorVerse": 11,
+          "referenceLabel": "2 Corinthians 13:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Finally, brethren, farewell —The Greek loipon (λοιπόν, \"finally\") and chairete (χαίρετε, \"rej...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having rebuked those deceived by false apostle...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "ἀγάπης: of love - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: After threatening God's severe judgment, the A...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "faith"
+        ],
+        "6": [
+          "But I expect that you will realize that we ourselves..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Galatians 2:20",
+          "anchorVerse": 5,
+          "referenceLabel": "Galatians 2:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Examine yourselves, whether ye be in the faith; prove your own selves —Paul turns the tables:...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: After threatening God's severe judgment, the A...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "πίστει: the faith - persuasion, i.e., credence; moral conviction (of religious truth, or the...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezra",
+  "chapter": 2,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:21.463Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And of the leaders of the fathers, when they entered...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        63,
+        66,
+        68
+      ],
+      "versePhrases": {
+        "63": [
+          "holy"
+        ],
+        "66": [
+          "Their horses were seven hundred and thirty-six, their mules two..."
+        ],
+        "68": [
+          "Some of the heads of the fathers’ houses, when they..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 2:3",
+          "anchorVerse": 63,
+          "referenceLabel": "Leviticus 2:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 63 commentary",
+          "detail": "And the Tirshatha said unto them, that they should not eat of the most holy things, till ther...",
+          "anchorVerse": 63
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 63 word study",
+          "detail": "הַקֳּדָשִׁ֑ים: holy things - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 63
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 66 commentary",
+          "detail": "How does possession of 736 horses demonstrate that God provides practical resources, not just...",
+          "anchorVerse": 66
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How can modern believers discern between building God's kingdom versus constructing personal...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "10": [
+          "the people of Bani, six hundred and forty-two"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Kings 25:11",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Kings 25:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The chapter heading 'Now these are the children of the province that went up out of the capti...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And they returned to Jerusalem and Judah, etc. For w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And of the leaders of the fathers, when they entered...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        63,
+        68
+      ],
+      "versePhrases": {
+        "63": [
+          "holy"
+        ],
+        "68": [
+          "Some of the heads of the fathers’ houses, when they..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 2:3",
+          "anchorVerse": 63,
+          "referenceLabel": "Leviticus 2:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 63 commentary",
+          "detail": "And the Tirshatha said unto them, that they should not eat of the most holy things, till ther...",
+          "anchorVerse": 63
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 63 word study",
+          "detail": "הַקֳּדָשִׁ֑ים: holy things - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 63
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 68 commentary",
+          "detail": "Voluntary Offerings for God's House This verse captures a remarkable moment of sacrificial ge...",
+          "anchorVerse": 68
+        }
+      ]
+    }
+  ]
+}

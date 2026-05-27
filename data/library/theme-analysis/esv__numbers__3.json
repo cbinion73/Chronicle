@@ -1,0 +1,190 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 3,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:57.774Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The practice of firstborn redemption continued throughout Israelite history. Luke 2:22-24 rec...\". Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        46,
+        48,
+        49,
+        51
+      ],
+      "versePhrases": {
+        "46": [
+          "redemption"
+        ],
+        "48": [
+          "redemption"
+        ],
+        "49": [
+          "redemption"
+        ],
+        "51": [
+          "redemption"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Exodus 13:13",
+          "anchorVerse": 46,
+          "referenceLabel": "Exodus 13:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 46 commentary",
+          "detail": "The 273 redeemed firstborn were likely distributed across all twelve tribes proportionally. E...",
+          "anchorVerse": 46
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 48 commentary",
+          "detail": "The practice of firstborn redemption continued throughout Israelite history. Luke 2:22-24 rec...",
+          "anchorVerse": 48
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 49 commentary",
+          "detail": "How does Christ's perfect obedience secure our salvation where we fail?",
+          "anchorVerse": 49
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The command that Levites 'keep all the instruments of the tabernacle' emphasizes faithful ste...\". Word-study detail reinforces \"שֹֽׁמְרֵ֖י: of them that keep - properly, to hedge about (as with thorns), i.e., guard; gener...\".",
+      "supportingVerses": [
+        7,
+        8,
+        32
+      ],
+      "versePhrases": {
+        "7": [
+          "keep"
+        ],
+        "8": [
+          "keep"
+        ],
+        "32": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The Levites' dual charge—'keep his charge, and the charge of the whole congregation'—demonstr...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְשָֽׁמְר֣וּ: And they shall keep - properly, to hedge about (as with thorns), i.e., guard; g...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The command that Levites 'keep all the instruments of the tabernacle' emphasizes faithful ste...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וְשָֽׁמְר֗וּ: And they shall keep - properly, to hedge about (as with thorns), i.e., guard; g...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"How does the severity of judgment on unauthorized approach increase your appreciation for Chr...\". Word-study detail reinforces \"הַקָּרֵ֖ב: that cometh nigh - near\".",
+      "supportingVerses": [
+        6,
+        10,
+        38
+      ],
+      "versePhrases": {
+        "6": [
+          "near"
+        ],
+        "10": [
+          "near"
+        ],
+        "38": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "God commands: 'Bring the tribe of Levi near, and present them before Aaron the priest, that t...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַקְרֵב֙: Bring - to approach (causatively, bring near) for whatever purpose",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does the severity of judgment on unauthorized approach increase your appreciation for Chr...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "הַקָּרֵ֖ב: that cometh nigh - near",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The Kohathites' specific charge over the ark, table, candlestick, altars, and holy vessels re...\". Word-study detail reinforces \"וְהַשֻּׁלְחָן֙: and the table - a table (as spread out); by implication, a meal\".",
+      "supportingVerses": [
+        31
+      ],
+      "versePhrases": {
+        "31": [
+          "table"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "The Kohathites' specific charge over the ark, table, candlestick, altars, and holy vessels re...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "וְהַשֻּׁלְחָן֙: and the table - a table (as spread out); by implication, a meal",
+          "anchorVerse": 31
+        }
+      ]
+    }
+  ]
+}

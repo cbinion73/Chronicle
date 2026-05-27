@@ -1,0 +1,151 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 20,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:44.046Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XV: Ver. 27. The heavens shall revea...\". Word-study detail reinforces \"אָֽרֶץ׃: upon earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        6,
+        8,
+        27
+      ],
+      "versePhrases": {
+        "4": [
+          "earth"
+        ],
+        "6": [
+          "Though his arrogance reaches heaven, and his head touches the..."
+        ],
+        "8": [
+          "He will fly away like a dream and never be..."
+        ],
+        "27": [
+          "heavens",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XV: Ver. 4, 5. I know this of old, s...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אָֽרֶץ׃: upon earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Zophar's Second Speech on the Wicked: This verse introduces Zophar's description of the tempo...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XV: Ver. 6, 7. Though his pride moun...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Ancient wisdom literature distinguished between knowledge (דַּעַת, da'at), understanding (בִּ...\". Word-study detail reinforces \"מִֽבִּינָתִ֥י: of my understanding - understanding\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        8,
+        10,
+        14,
+        28
+      ],
+      "versePhrases": {
+        "3": [
+          "understanding"
+        ],
+        "4": [
+          "Don’t you know that ever since antiquity, from the time..."
+        ],
+        "5": [
+          "the joy of the wicked has been brief and the..."
+        ],
+        "8": [
+          "He will fly away like a dream and never be..."
+        ],
+        "10": [
+          "His children will beg from the poor, for his own..."
+        ],
+        "14": [
+          "yet the food in his stomach turns into cobras’ venom..."
+        ],
+        "28": [
+          "The possessions in his house will be removed, flowing away..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Ancient wisdom literature distinguished between knowledge (דַּעַת, da'at), understanding (בִּ...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XV: Ver. 3. The lesson whereby thou...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מִֽבִּינָתִ֥י: of my understanding - understanding",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient Near Eastern wisdom valued tradition as authoritative. Zophar's appeal to 'old' knowl...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Inheritance and portion language was central to Israel's covenant theology. Zophar's use of t...\".",
+      "supportingVerses": [
+        29
+      ],
+      "versePhrases": {
+        "29": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "Inheritance and portion language was central to Israel's covenant theology. Zophar's use of t...",
+          "anchorVerse": 29
+        }
+      ]
+    }
+  ]
+}

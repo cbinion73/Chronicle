@@ -1,0 +1,156 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:49.641Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Word-study detail reinforces \"אֶצְלָ֑ם: by them - a side; (as a preposition) near\".",
+      "supportingVerses": [
+        2,
+        12,
+        18,
+        23
+      ],
+      "versePhrases": {
+        "2": [
+          "presence"
+        ],
+        "12": [
+          "near"
+        ],
+        "18": [
+          "with me"
+        ],
+        "23": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "אֶצְלָ֑ם: by them - a side; (as a preposition) near",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "אֶצְלִֽי׃: was by me - a side; (as a preposition) near",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of th...\". Word-study detail reinforces \"יֶ֣תֶר: and to the rest - properly, an overhanging, i.e., (by implication) a small rope (as h...\".",
+      "supportingVerses": [
+        14,
+        19
+      ],
+      "versePhrases": {
+        "14": [
+          "rest"
+        ],
+        "19": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of th...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "יֶ֣תֶר: and to the rest - properly, an overhanging, i.e., (by implication) a small rope (as h...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And I said unto the nobles, and to the rulers, and to the rest of the people, The work is gre...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "יֶ֣תֶר: and to the rest - properly, an overhanging, i.e., (by implication) a small rope (as h...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of th...\". Word-study detail reinforces \"וְהַנּוֹרָא֙: Be not ye afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of th...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וְהַנּוֹרָא֙: Be not ye afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "light"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "trouble"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

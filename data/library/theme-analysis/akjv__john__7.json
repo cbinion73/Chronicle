@@ -1,0 +1,545 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "John",
+  "chapter": 7,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:45.949Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 26 verses. Commentary leans on \"Cyril of Alexandria on Commentary on the Gospel of John, Book 4: But since our discourse, whi...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        23,
+        24,
+        27,
+        28,
+        31,
+        32,
+        35,
+        36,
+        37,
+        40,
+        41,
+        45,
+        46,
+        47
+      ],
+      "versePhrases": {
+        "1": [
+          "After these things Jesus walked in Galilee"
+        ],
+        "4": [
+          "For there is no man that doeth any thing in..."
+        ],
+        "5": [
+          "For neither did his brethren believe in him"
+        ],
+        "7": [
+          "The world cannot hate you"
+        ],
+        "12": [
+          "And there was much murmuring among the people concerning him"
+        ],
+        "13": [
+          "Howbeit no man spake openly of him for fear of..."
+        ],
+        "14": [
+          "Now about the midst of the feast Jesus went up..."
+        ],
+        "15": [
+          "And the Jews marvelled, saying, How knoweth this man letters,..."
+        ],
+        "16": [
+          "Jesus answered them, and said, My doctrine is not mine,..."
+        ],
+        "17": [
+          "If any man will do his will, he shall know..."
+        ],
+        "18": [
+          "true"
+        ],
+        "19": [
+          "Did not Moses give you the law, and yet none..."
+        ],
+        "23": [
+          "If a man on the sabbath day receive circumcision, that..."
+        ],
+        "24": [
+          "Judge not according to the appearance, but judge righteous judgment"
+        ],
+        "27": [
+          "Howbeit we know this man whence he is"
+        ],
+        "28": [
+          "true"
+        ],
+        "31": [
+          "And many of the people believed on him, and said,..."
+        ],
+        "32": [
+          "The Pharisees heard that the people murmured such things concerning..."
+        ],
+        "35": [
+          "Then said the Jews among themselves, Whither will he go,..."
+        ],
+        "36": [
+          "What manner of saying is this that he said, Ye..."
+        ],
+        "37": [
+          "In the last day, that great day of the feast,..."
+        ],
+        "40": [
+          "truth"
+        ],
+        "41": [
+          "Others said, This is the Christ"
+        ],
+        "45": [
+          "Then came the officers to the chief priests and Pharisees"
+        ],
+        "46": [
+          "The officers answered, Never man spake like this man"
+        ],
+        "47": [
+          "Then answered them the Pharisees, Are ye also deceived"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How should Christians balance wisdom (avoiding unnecessary danger) with courage (not compromi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Tractates on John 28: In this chapter of the Gospel, brethren, our Lord...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What modern pressures tempt the church to seek worldly acclaim rather than faithful obedience?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on the Gospel of John 48: And it is worth our while to admire their...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 20 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: They differed, however, because some looked for him bec...\". Word-study detail reinforces \"διδάσκειν: teach - to teach (in the same broad application)\".",
+      "supportingVerses": [
+        3,
+        6,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        22,
+        25,
+        27,
+        28,
+        30,
+        35,
+        42,
+        45,
+        46,
+        47
+      ],
+      "versePhrases": {
+        "3": [
+          "His brethren therefore said unto him, Depart hence, and go..."
+        ],
+        "6": [
+          "Then Jesus said unto them, My time is not yet..."
+        ],
+        "8": [
+          "Go ye up unto this feast"
+        ],
+        "9": [
+          "When he had said these words unto them, he abode..."
+        ],
+        "10": [
+          "But when his brethren were gone up, then went he..."
+        ],
+        "12": [
+          "And there was much murmuring among the people concerning him"
+        ],
+        "14": [
+          "taught"
+        ],
+        "15": [
+          "And the Jews marvelled, saying, How knoweth this man letters,..."
+        ],
+        "16": [
+          "Jesus answered them, and said, My doctrine is not mine,..."
+        ],
+        "17": [
+          "If any man will do his will, he shall know..."
+        ],
+        "22": [
+          "Moses therefore gave unto you circumcision"
+        ],
+        "25": [
+          "Then said some of them of Jerusalem, Is not this..."
+        ],
+        "27": [
+          "Howbeit we know this man whence he is"
+        ],
+        "28": [
+          "taught"
+        ],
+        "30": [
+          "Then they sought to take him"
+        ],
+        "35": [
+          "teach"
+        ],
+        "42": [
+          "Hath not the scripture said, That Christ cometh of the..."
+        ],
+        "45": [
+          "Then came the officers to the chief priests and Pharisees"
+        ],
+        "46": [
+          "The officers answered, Never man spake like this man"
+        ],
+        "47": [
+          "Then answered them the Pharisees, Are ye also deceived"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "His brethren therefore said unto him, Depart hence, and go into Judaea, that thy disciples al...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theodore of Mopsuestia on COMMENTARY ON JOHN 3 (7:1-5): His brothers, being led by their huma...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ὕπαγε: go - to lead (oneself) under, i.e., withdraw or retire (as if sinking out of sight), l...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Then Jesus said unto them, My time is not yet come: but your time is alway ready. Jesus corre...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Tractates on John 30: \"Judge not according to personal appearance, but...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        12,
+        13,
+        24,
+        49,
+        51
+      ],
+      "versePhrases": {
+        "12": [
+          "And there was much murmuring among the people concerning him"
+        ],
+        "13": [
+          "Howbeit no man spake openly of him for fear of..."
+        ],
+        "24": [
+          "Judge",
+          "judge",
+          "judgment"
+        ],
+        "49": [
+          "But this people who knoweth not the law are cursed"
+        ],
+        "51": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And there was much murmuring among the people concerning him: for some said, He is a good man...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 4: Ever hard of attainment and...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Synagogue excommunication was serious punishment in first-century Judaism—social, economic, a...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 4: There was murmuring among th...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Augustine of Hippo on Tractates on John 29: How then did the Lord answer those that were marv...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        17,
+        31,
+        34,
+        37,
+        38,
+        39,
+        40,
+        47,
+        48,
+        50
+      ],
+      "versePhrases": {
+        "2": [
+          "Now the Jews’ feast of tabernacles was at hand"
+        ],
+        "3": [
+          "His brethren therefore said unto him, Depart hence, and go..."
+        ],
+        "5": [
+          "believe"
+        ],
+        "17": [
+          "If any man will do his will, he shall know..."
+        ],
+        "31": [
+          "And many of the people believed on him"
+        ],
+        "34": [
+          "Ye shall seek me, and shall not find me"
+        ],
+        "37": [
+          "In the last day, that great day of the feast,..."
+        ],
+        "38": [
+          "He that believeth on me"
+        ],
+        "39": [
+          "believe"
+        ],
+        "40": [
+          "Many of the people therefore, when they heard this saying,..."
+        ],
+        "47": [
+          "Then answered them the Pharisees, Are ye also deceived"
+        ],
+        "48": [
+          "Have any of the rulers or of the Pharisees believed on him?"
+        ],
+        "50": [
+          "Nicodemus saith unto them, (he that came to Jesus by..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Feast of Tabernacles (Leviticus 23:33-44) was celebrated from the 15th to the 22nd of Tis...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theophylact of Ohrid on Commentary on John: \"It was,\" he says, \"the feast of tabernacles.\" Co...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does the brothers' unbelief demonstrate that familiarity with Jesus doesn't guarantee faith?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 4: The reputed brethren of the...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: After our Lord told the principle of his origin, he the...\". Word-study detail reinforces \"ἐν: still in - \"in,\" at, (up-)on, by, etc\".",
+      "supportingVerses": [
+        1,
+        7,
+        9,
+        10,
+        12,
+        33,
+        47
+      ],
+      "versePhrases": {
+        "1": [
+          "After these things Jesus walked in Galilee"
+        ],
+        "7": [
+          "The world cannot hate you"
+        ],
+        "9": [
+          "still"
+        ],
+        "10": [
+          "But when his brethren were gone up, then went he..."
+        ],
+        "12": [
+          "And there was much murmuring among the people concerning him"
+        ],
+        "33": [
+          "Then said Jesus unto them, Yet a little while am..."
+        ],
+        "47": [
+          "Then answered them the Pharisees, Are ye also deceived"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This verse occurs approximately six months before Jesus's crucifixion, during the period betw...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on John: After our Lord considered the spiritual life and its fo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The world cannot hate you; but me it hateth, because I testify of it, that the works thereof...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 4: The Savior very kindly repro...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Cyril of Alexandria on Commentary on the Gospel of John, Book 4: But since our discourse, whi...\". Word-study detail reinforces \"ἐποίησα: I have made - to make or do (in a very wide application, more or less direct)\".",
+      "supportingVerses": [
+        2,
+        11,
+        12,
+        21,
+        22,
+        23,
+        49
+      ],
+      "versePhrases": {
+        "2": [
+          "Now the Jews’ feast of tabernacles was at hand"
+        ],
+        "11": [
+          "Then the Jews sought him at the feast, and said,..."
+        ],
+        "12": [
+          "And there was much murmuring among the people concerning him"
+        ],
+        "21": [
+          "Jesus answered and said unto them, I have done one..."
+        ],
+        "22": [
+          "Moses therefore gave unto you circumcision"
+        ],
+        "23": [
+          "made"
+        ],
+        "49": [
+          "But this people who knoweth not the law are cursed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Now the Jews' feast of tabernacles was at hand. This brief verse sets the temporal and theolo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on the Gospel of John 48: \"After these things was the Jews' feast o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "By this point in Jesus's ministry, authorities actively monitored Him. The healing controvers...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 4: The Jews seek Jesus, not tha...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

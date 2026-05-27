@@ -1,0 +1,121 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 38,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:28.036Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Gregory the Dialogist on Forty Gospel Homilies, Homily 17: But then we truly preach right thi...\". Word-study detail reinforces \"עָשָׂ֕ה: made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        18,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "3": [
+          "made"
+        ],
+        "4": [
+          "made"
+        ],
+        "6": [
+          "made"
+        ],
+        "7": [
+          "made"
+        ],
+        "8": [
+          "made"
+        ],
+        "9": [
+          "made"
+        ],
+        "18": [
+          "made"
+        ],
+        "22": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The four horns projected from the altar's corners, likely made by shaping extensions of the a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וַיַּ֣עַשׂ: And he made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Vessels for the altar—pots (סִירֹת, sirot) for ashes, shovels (יָעִים, ya'im), basins (מִזְרָ...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "עָשָׂ֥ה: And he made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does multi-layered accountability (Moses commands, Levites execute, Ithamar supervises)...\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "What does multi-layered accountability (Moses commands, Levites execute, Ithamar supervises)...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Inferred",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

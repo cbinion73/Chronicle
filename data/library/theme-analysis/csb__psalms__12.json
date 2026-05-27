@@ -1,0 +1,195 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 12,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:53.520Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: In the preceding decade the Psalmist tre...\". Word-study detail reinforces \"אֱ֝מוּנִ֗ים: for the faithful - properly, to build up or support; to foster as a parent or nu...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "faithful"
+        ],
+        "2": [
+          "They lie to one another"
+        ],
+        "3": [
+          "May the Lord cut off all flattering lips and the..."
+        ],
+        "6": [
+          "The words of the Lord are pure words, like silver..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Help, LORD; for the godly man ceaseth; for the faithful fail from among the children of men....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding decade the Psalmist tre...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֱ֝מוּנִ֗ים: for the faithful - properly, to build up or support; to foster as a parent or nu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Corrupt speech characterizes societies that have abandoned God's ways. Ancient Near Eastern w...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The words of the LORD are pure words: as silver tried in a furnace of earth, purified seven t...\". Word-study detail reinforces \"טְהֹ֫ר֥וֹת: are pure - pure (in a physical, chemical, ceremonial or moral sense)\".",
+      "supportingVerses": [
+        1,
+        2,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Help, Lord, for no faithful one remains"
+        ],
+        "2": [
+          "They lie to one another"
+        ],
+        "6": [
+          "pure"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Help, LORD; for the godly man ceaseth; for the faithful fail from among the children of men....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding decade the Psalmist tre...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "They speak vanity every one with his neighbour: with flattering lips and with a double heart...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Evagrius Ponticus on NOTES ON THE PSALMS 11[12].2: First the righteous fail, then the truth i...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"God's concern for the oppressed and needy threads throughout redemptive history. The exodus n...\".",
+      "supportingVerses": [
+        1,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "Help, Lord, for no faithful one remains"
+        ],
+        "5": [
+          "provide"
+        ],
+        "7": [
+          "You, Lord, will guard us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Help, LORD; for the godly man ceaseth; for the faithful fail from among the children of men....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding decade the Psalmist tre...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "God's concern for the oppressed and needy threads throughout redemptive history. The exodus n...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Cassiodorus on EXPLANATION OF THE PSALMS 12:6: “I will arise” is a metaphor to indicate that...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For the oppression of the poor, for the sighing of the needy, now will I arise, saith the LOR...\". Word-study detail reinforces \"בְּ֝יֵ֗שַׁע: him in safety - liberty, deliverance, prosperity\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "safety"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For the oppression of the poor, for the sighing of the needy, now will I arise, saith the LOR...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Clement of Rome on Clement's First Letter to the Corinthians, Chapter 15: Let us cleave, ther...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בְּ֝יֵ֗שַׁע: him in safety - liberty, deliverance, prosperity",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

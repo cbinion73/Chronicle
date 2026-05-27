@@ -1,0 +1,174 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 29,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:40.991Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The phrase 'angel of God' in ancient Near Eastern context could mean divine messenger or simp...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "3": [
+          "with me"
+        ],
+        "4": [
+          "with us"
+        ],
+        "6": [
+          "with me"
+        ],
+        "9": [
+          "with us"
+        ],
+        "10": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The phrase 'angel of God' in ancient Near Eastern context could mean divine messenger or simp...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ancient armies typically organized in divisions of hundreds and thousands with their respecti...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "As the Philistine rulers marched with their units of hundreds..."
+        ],
+        "3": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ancient armies typically organized in divisions of hundreds and thousands with their respecti...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אָכִֽישׁ׃: with Achish - akish, a philistine king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מֶֽלֶךְ: the king - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Matthew 6:13",
+          "anchorVerse": 8,
+          "referenceLabel": "Matthew 6:13"
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Achish's dismissal, 'return, and go in peace,' releases David from the impossible obligation...\". Word-study detail reinforces \"בְּשָׁל֑וֹם: in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) w...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Achish's dismissal, 'return, and go in peace,' releases David from the impossible obligation...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "בְּשָׁל֑וֹם: in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) w...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Achish's final instructions establish the practical arrangements for David's departure. The p...\". Word-study detail reinforces \"וְא֥וֹר: and have light - to be (causative, make) luminous (literally and metaphorically)\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Achish's final instructions establish the practical arrangements for David's departure. The p...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְא֥וֹר: and have light - to be (causative, make) luminous (literally and metaphorically)",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

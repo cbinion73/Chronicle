@@ -1,0 +1,136 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 29,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:10.793Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Origen of Alexandria on HOMILIES ON LEVITICUS 9.5.7-8: After these, in the seventh month othe...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        7,
+        12,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "7": [
+          "holy"
+        ],
+        "12": [
+          "holy"
+        ],
+        "18": [
+          "and their grain offering and their drink offerings for the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 27:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 27:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Feast of Trumpets (Rosh Hashanah) marked the seventh month with trumpet blasts and a holy...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON LEVITICUS 9.5.7-8: After these, in the seventh month othe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קֹ֙דֶשׁ֙: ye shall have an holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Origen of Alexandria on HOMILIES ON LEVITICUS 9.5.7-8: After these, in the seventh month othe...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        7,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "7": [
+          "holy"
+        ],
+        "12": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 27:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 27:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Feast of Trumpets (Rosh Hashanah) marked the seventh month with trumpet blasts and a holy...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON LEVITICUS 9.5.7-8: After these, in the seventh month othe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קֹ֙דֶשׁ֙: ye shall have an holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וּלְשַׁלְמֵיכֶֽם׃: and for your peace offerings - properly, requital, i.e., a (voluntary) sac...\".",
+      "supportingVerses": [
+        39
+      ],
+      "versePhrases": {
+        "39": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 39 word study",
+          "detail": "וּלְשַׁלְמֵיכֶֽם׃: and for your peace offerings - properly, requital, i.e., a (voluntary) sac...",
+          "anchorVerse": 39
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Judges",
+  "chapter": 11,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:04.179Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Then Israel sent messengers unto the king of Edom, saying, Let me, I pray thee, pass through...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        12,
+        13,
+        14,
+        17,
+        19,
+        25,
+        28
+      ],
+      "versePhrases": {
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "25": [
+          "king"
+        ],
+        "28": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Deuteronomy 2:26",
+          "anchorVerse": 12,
+          "referenceLabel": "Deuteronomy 2:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And Jephthah sent messengers unto the king of the children of Ammon, saying, What hast thou t...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "מֶ֥לֶךְ: unto the king - a king",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And the king of the children of Ammon answered unto the messengers of Jephthah, Because Israe...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Against Jovinianus 1.23: And whereas he [Jovinianus] prefers the fidelity of the fa...\". Word-study detail reinforces \"נִלְחֲמ֥וּ: made war - to feed on; figuratively, to consume\".",
+      "supportingVerses": [
+        4,
+        5,
+        11,
+        30,
+        39
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "5": [
+          "made"
+        ],
+        "11": [
+          "made"
+        ],
+        "30": [
+          "made"
+        ],
+        "39": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And it came to pass in process of time, that the children of Ammon made war against Israel. T...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וַיִּלָּֽחֲמ֥וּ: made war - to feed on; figuratively, to consume",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And it was so, that when the children of Ammon made war against Israel, the elders of Gilead...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "נִלְחֲמ֥וּ: made war - to feed on; figuratively, to consume",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ambrose of Milan on On the Duties of the Clergy 3.12.78, 81: Never shall I be led to believe...\". Word-study detail reinforces \"וְאֶבְכֶּה֙: and bewail - to weep; generally to bemoan\".",
+      "supportingVerses": [
+        35,
+        37,
+        40
+      ],
+      "versePhrases": {
+        "35": [
+          "trouble"
+        ],
+        "37": [
+          "weep"
+        ],
+        "40": [
+          "lament"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 35 commentary",
+          "detail": "And it came to pass, when he saw her, that he rent his clothes, and said, Alas, my daughter!...",
+          "anchorVerse": 35
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 35 word study",
+          "detail": "בְּעֹֽכְרָ֑י: and thou art one of them that trouble - properly, to roil water; figuratively,...",
+          "anchorVerse": 35
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 37 word study",
+          "detail": "וְאֶבְכֶּה֙: and bewail - to weep; generally to bemoan",
+          "anchorVerse": 37
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 40 commentary",
+          "detail": "That the daughters of Israel went yearly to lament the daughter of Jephthah the Gileadite fou...",
+          "anchorVerse": 40
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"So Jephthah passed over unto the children of Ammon to fight against them; and the LORD delive...\". Word-study detail reinforces \"וְנָתַ֧ן: deliver - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        9,
+        21,
+        26,
+        30,
+        31,
+        32,
+        35,
+        36
+      ],
+      "versePhrases": {
+        "9": [
+          "Jephthah said to the elders of Gilead, “If you bring..."
+        ],
+        "21": [
+          "And the Lord, the God of Israel, gave Sihon and..."
+        ],
+        "26": [
+          "deliver"
+        ],
+        "30": [
+          "And Jephthah made a vow to the Lord and said,..."
+        ],
+        "31": [
+          "then whatever comes out from the doors of my house..."
+        ],
+        "32": [
+          "So Jephthah crossed over to the Ammonites to fight against..."
+        ],
+        "35": [
+          "And as soon as he saw her, he tore his..."
+        ],
+        "36": [
+          "And she said to him, “My father, you have opened..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And Jephthah said unto the elders of Gilead, If ye bring me home again to fight against the c...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וְנָתַ֧ן: deliver - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "And the LORD God of Israel delivered Sihon and all his people into the hand of Israel, and th...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "וַ֠יִּתֵּן: delivered - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Wherefore I have not sinned against thee, but thou doest me wrong to war against me: the LORD...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        3,
+        8,
+        17,
+        21,
+        26,
+        27,
+        34
+      ],
+      "versePhrases": {
+        "3": [
+          "Then Jephthah fled from his brothers and lived in the..."
+        ],
+        "8": [
+          "And the elders of Gilead said to Jephthah, “That is..."
+        ],
+        "17": [
+          "Israel then sent messengers to the king of Edom, saying,..."
+        ],
+        "21": [
+          "And the Lord, the God of Israel, gave Sihon and..."
+        ],
+        "26": [
+          "While Israel lived in Heshbon and its villages, and in..."
+        ],
+        "27": [
+          "Judge"
+        ],
+        "34": [
+          "Then Jephthah came to his home at Mizpah"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Then Jephthah fled from his brethren, and dwelt in the land of Tob: and there were gathered v...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וַיֵּ֖שֶׁב: and dwelt - properly, to sit down (specifically as judge. in ambush, in quiet); b...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And the elders of Gilead said unto Jephthah, Therefore we turn again to thee now, that thou m...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "יֹֽשְׁבֵ֥י: over all the inhabitants - properly, to sit down (specifically as judge. in ambus...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on On the Duties of the Clergy 1.50.255: It is also sometimes contrary to du...\". Word-study detail reinforces \"נֶ֛דֶר: a vow - a promise (to god); also (concretely) a thing promised\".",
+      "supportingVerses": [
+        2,
+        30,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "2": [
+          "inheritance"
+        ],
+        "30": [
+          "And Jephthah made a vow to the Lord and said,..."
+        ],
+        "39": [
+          "And at the end of two months, she returned to..."
+        ],
+        "40": [
+          "that the daughters of Israel went year by year to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And Gilead's wife bare him sons; and his wife's sons grew up, and they thrust out Jephthah, a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "And Jephthah vowed a vow unto the LORD, and said, If thou shalt without fail deliver the chil...",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "נֶ֛דֶר: a vow - a promise (to god); also (concretely) a thing promised",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 39 commentary",
+          "detail": "And it came to pass at the end of two months, that she returned unto her father, who did with...",
+          "anchorVerse": 39
+        }
+      ]
+    }
+  ]
+}

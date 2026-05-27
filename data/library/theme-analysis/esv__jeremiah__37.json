@@ -1,0 +1,256 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 37,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:47.029Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"And king Zedekiah the son of Josiah reigned instead of Coniah the son of Jehoiakim, whom Nebu...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        7,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "King"
+        ],
+        "7": [
+          "king"
+        ],
+        "17": [
+          "King",
+          "king"
+        ],
+        "18": [
+          "King"
+        ],
+        "19": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ],
+        "21": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 22:24",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 22:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And king Zedekiah the son of Josiah reigned instead of Coniah the son of Jehoiakim, whom Nebu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: And king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 13:6",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Kings 13:6"
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Then Jeremiah went forth out of Jerusalem to go into the land of Benjamin, to separate himsel...\". Word-study detail reinforces \"הַלֶּ֖חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        12,
+        21
+      ],
+      "versePhrases": {
+        "12": [
+          "portion"
+        ],
+        "21": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Then Jeremiah went forth out of Jerusalem to go into the land of Benjamin, to separate himsel...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "King Zedekiah commits Jeremiah to 'the court of the prison' and orders daily bread while avai...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "הַלֶּ֖חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Let my supplication, I pray thee, be accepted before thee (תִּפָּל־נָא תְחִנָּתִי לְפָנֶיךָ)—...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        3,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "pray"
+        ],
+        "20": [
+          "Now hear, please, O my lord the king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Jeremiah 42:20",
+          "anchorVerse": 3,
+          "referenceLabel": "Jeremiah 42:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Even wicked King Zedekiah recognized Jeremiah's prophetic authority enough to request prayer,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הִתְפַּלֶּל: Pray - to judge (officially or mentally); by extension, to intercede, pray",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Let my supplication, I pray thee, be accepted before thee (תִּפָּל־נָא תְחִנָּתִי לְפָנֶיךָ)—...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Wherefore the princes were wroth with Jeremiah —their anger ( qatsap , קָצַף, intense displea...\". Word-study detail reinforces \"בְּאֶ֥רֶץ: in the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "15": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And king Zedekiah the son of Josiah reigned instead of Coniah the son of Jehoiakim, whom Nebu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּאֶ֥רֶץ: in the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Wherefore the princes were wroth with Jeremiah —their anger ( qatsap , קָצַף, intense displea...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "עָשׂ֖וּ: for they had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "still"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Zedekiah's secret consultation with Jeremiah shows both his curiosity about God's word and hi...\". Word-study detail reinforces \"תִּנָּתֵֽן׃: he thou shalt be delivered - to give, used with greatest latitude of application...\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Zedekiah's secret consultation with Jeremiah shows both his curiosity about God's word and hi...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "תִּנָּתֵֽן׃: he thou shalt be delivered - to give, used with greatest latitude of application...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 48,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:49.849Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        9,
+        12,
+        14,
+        15,
+        16,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Now some time after these things happened, Joseph was told,..."
+        ],
+        "3": [
+          "“God Almighty appeared to me at Luz (Bethel) in the land of Canaan and blessed me"
+        ],
+        "5": [
+          "Now your two sons [Ephraim and Manasseh], who were born..."
+        ],
+        "6": [
+          "inheritance"
+        ],
+        "9": [
+          "bless"
+        ],
+        "12": [
+          "Then Joseph took the boys [from his father’s embrace], and..."
+        ],
+        "14": [
+          "But Israel reached out his right hand and laid it..."
+        ],
+        "15": [
+          "Then Jacob (Israel) blessed Joseph"
+        ],
+        "16": [
+          "Bless"
+        ],
+        "20": [
+          "blessing"
+        ],
+        "21": [
+          "Then Israel said to Joseph, “Behold, I am about to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Hebrew Questions on Genesis: (Chapter 48, Verse 1) And it came to pass after these...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Genesis 28:3",
+          "anchorVerse": 3,
+          "referenceLabel": "Genesis 28:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...\". Word-study detail reinforces \"וַיַּגֵּ֖שׁ: and brought them near - to be or come (causatively, bring) near (for any purpose...\".",
+      "supportingVerses": [
+        10,
+        13,
+        21
+      ],
+      "versePhrases": {
+        "10": [
+          "Now Israel’s eyes were so dim from age that he..."
+        ],
+        "13": [
+          "Ephraim with his right hand toward Israel’s left"
+        ],
+        "21": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וַיַּגֵּ֤שׁ: And he brought them near - to be or come (causatively, bring) near (for any purp...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וַיַּגֵּ֖שׁ: and brought them near - to be or come (causatively, bring) near (for any purpose...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Cyril of Alexandria on GLAPHYRA ON GENESIS, 6.2: And we the last became the first through fai...\".",
+      "supportingVerses": [
+        5,
+        15
+      ],
+      "versePhrases": {
+        "5": [
+          "Now your two sons [Ephraim and Manasseh], who were born..."
+        ],
+        "15": [
+          "obedience"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And now thy two sons, Ephraim and Manasseh, which were born unto thee in the land of Egypt be...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Cyril of Alexandria on GLAPHYRA ON GENESIS, 6.2: And we the last became the first through fai...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And he blessed Joseph, and said, God, before whom my fathers Abraham and Isaac did walk, the...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"John Chrysostom on HOMILIES ON GENESIS 66.1: Words of a grateful heart, of a God-fearing spir...\". Word-study detail reinforces \"הָאָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "John Chrysostom on HOMILIES ON GENESIS 66.1: Words of a grateful heart, of a God-fearing spir...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "הָאָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "Shepherd"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...\". Word-study detail reinforces \"שְׁכֶ֥ם: portion - the neck (between the shoulders) as the place of burdens; figuratively, th...\".",
+      "supportingVerses": [
+        22
+      ],
+      "versePhrases": {
+        "22": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "שְׁכֶ֥ם: portion - the neck (between the shoulders) as the place of burdens; figuratively, th...",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

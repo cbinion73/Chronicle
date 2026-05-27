@@ -1,0 +1,313 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 59,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:53.951Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Homilies on the Gospels 1:2: In order not to falter in good works, we ought always to...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        5,
+        10,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "5": [
+          "merciful"
+        ],
+        "10": [
+          "lovingkindness"
+        ],
+        "16": [
+          "lovingkindness"
+        ],
+        "17": [
+          "lovingkindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What is the relationship between praying for mercy on some and judgment on others?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "תָּחֹ֨ן: be not merciful - properly, to bend or stoop in kindness to an inferior; to favor, b...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "1 Peter 5:10",
+          "anchorVerse": 10,
+          "referenceLabel": "1 Peter 5:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The God of my mercy shall prevent me: God shall let me see my desire upon mine enemies. This...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning: for thou ha...\". Word-study detail reinforces \"וּ֝מָנ֗וֹס: and refuge - a retreat (literally or figuratively); abstractly, a fleeing\".",
+      "supportingVerses": [
+        1,
+        9,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "Deliver me from my enemies, O my God"
+        ],
+        "9": [
+          "refuge"
+        ],
+        "16": [
+          "refuge"
+        ],
+        "17": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The historical context (1 Samuel 19:11-17) describes Saul's murderous rage after David's mili...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 59: \"Deliver me from mine enemies, my God, and from...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning: for thou ha...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 59: \"But I will sing of Your power, and I will exul...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 59: \"Deliver me from men working iniquity, and from...\". Word-study detail reinforces \"הַצִּילֵ֖נִי: Deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        1,
+        2,
+        9,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "Deliver"
+        ],
+        "2": [
+          "save",
+          "Deliver"
+        ],
+        "9": [
+          "O [God] my strength, I will watch for You"
+        ],
+        "17": [
+          "To You, O [God] my strength, I will sing praises"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Deliver me from mine enemies, O my God: defend me from them that rise up against me. This urg...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 59: \"Deliver me from mine enemies, my God, and from...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַצִּילֵ֖נִי: Deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does God's pattern of providing deliverance through both human and divine means teach ab...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning: for thou ha...\". Word-study detail reinforces \"אָשִׁ֣יר: But I will sing - to sing\".",
+      "supportingVerses": [
+        16,
+        17
+      ],
+      "versePhrases": {
+        "16": [
+          "sing"
+        ],
+        "17": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning: for thou ha...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 59: \"But I will sing of Your power, and I will exul...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "אָשִׁ֣יר: But I will sing - to sing",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Unto thee, O my strength, will I sing: for God is my defence, and the God of my mercy. This c...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The concept of 'waiting on' God is central to Old Testament faith and worship. Isaiah 40:31 p...\".",
+      "supportingVerses": [
+        9,
+        10,
+        17
+      ],
+      "versePhrases": {
+        "9": [
+          "O [God] my strength, I will watch for You"
+        ],
+        "10": [
+          "steadfast"
+        ],
+        "17": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The concept of 'waiting on' God is central to Old Testament faith and worship. Isaiah 40:31 p...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Homilies on the Gospels 1:2: In order not to falter in good works, we ought always to...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The phrase 'God of my mercy' reflects covenant theology central to Israel's faith. God had bo...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Bede on Homilies on the Gospels 1:2: In order not to falter in good works, we ought always to...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The phrase 'God of my mercy' reflects covenant theology central to Israel's faith. God had bo...\". Word-study detail reinforces \"בְחֵמָה֮: them in wrath - heat; figuratively, anger, poison (from its fever)\".",
+      "supportingVerses": [
+        5,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "punish"
+        ],
+        "10": [
+          "My God in His [steadfast] lovingkindness will meet me"
+        ],
+        "13": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "David invokes God's covenant name (YHWH) and titles (God of hosts, God of Israel) to ground h...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The phrase 'God of my mercy' reflects covenant theology central to Israel's faith. God had bo...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on PROCEEDINGS OF PELAGIANS 7: But far be it from us to say that those who...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The repeated plea 'Consume them in wrath' paradoxes with verse 11's 'slay them not.' Resoluti...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

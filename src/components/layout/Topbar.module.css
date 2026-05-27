@@ -1,0 +1,173 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: var(--sidebar-bg);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  height: var(--topbar-height);
+}
+
+.searchBar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 12px;
+  color: var(--text-muted);
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.12s;
+  text-align: left;
+}
+
+.searchBar:hover {
+  border-color: var(--text-muted);
+}
+
+.searchBar svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.searchText {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.searchShortcut {
+  margin-left: auto;
+  font-size: 11px;
+  background: var(--border);
+  color: var(--text-muted);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.companionBtn {
+  min-height: 32px;
+  padding: 0 10px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-sub);
+}
+
+.companionBtn svg {
+  width: 15px;
+  height: 15px;
+}
+
+.companionBtnActive {
+  background: var(--sidebar-selected-bg);
+  color: var(--sidebar-selected-text);
+  border-color: rgba(15, 79, 207, 0.18);
+}
+
+.companionLabel {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.iconBtn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: var(--text-sub);
+  background: transparent;
+  transition: background 0.12s, color 0.12s;
+}
+
+.iconBtn:hover {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.iconBtn svg {
+  width: 17px;
+  height: 17px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 1180px) {
+  .topbar {
+    padding: 10px 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .topbar {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px 14px;
+  }
+
+  .searchBar {
+    order: 2;
+    width: 100%;
+  }
+
+  .searchShortcut {
+    display: none;
+  }
+
+  .buttons {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    gap: 8px;
+  }
+
+  .searchBar {
+    padding: 8px 10px;
+  }
+
+  .companionBtn {
+    padding: 0 9px;
+  }
+
+  .companionLabel {
+    display: none;
+  }
+
+  .avatar {
+    display: none;
+  }
+}

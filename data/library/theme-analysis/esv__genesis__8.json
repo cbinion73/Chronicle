@@ -1,0 +1,341 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 8,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:45.696Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): All the days of the earth, seedtime and harvest,...\". Word-study detail reinforces \"הָאָ֔רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        19,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "made",
+          "earth",
+          "waters"
+        ],
+        "2": [
+          "heavens"
+        ],
+        "3": [
+          "earth",
+          "waters"
+        ],
+        "5": [
+          "waters"
+        ],
+        "6": [
+          "made"
+        ],
+        "7": [
+          "earth",
+          "waters"
+        ],
+        "8": [
+          "waters"
+        ],
+        "9": [
+          "earth",
+          "waters"
+        ],
+        "11": [
+          "earth",
+          "waters"
+        ],
+        "13": [
+          "earth",
+          "waters"
+        ],
+        "14": [
+          "earth"
+        ],
+        "17": [
+          "earth"
+        ],
+        "19": [
+          "earth"
+        ],
+        "21": [
+          "And when the Lord smelled the pleasing aroma, the Lord..."
+        ],
+        "22": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): But the Lord remembered Noah, and all the living...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָ֔רֶץ: the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): And the fountains of the deep were closed, and th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the waters returned from off the earth continually: and after the end of the hundred and...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): God said to Noah, \"Go forth from the ark, you and...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        9,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "9": [
+          "So he put out his hand and took her and brought her into the ark with him"
+        ],
+        "15": [
+          "Then God said to Noah,"
+        ],
+        "16": [
+          "with you"
+        ],
+        "17": [
+          "with you"
+        ],
+        "18": [
+          "and his sons and his wife and his sons' wives with him"
+        ],
+        "19": [
+          "Every beast, every creeping thing, and every bird, everything that..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The primeval history (Genesis 1-11) parallels ancient Near Eastern traditions including Sumer...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The primeval history (Genesis 1-11) parallels ancient Near Eastern traditions including Sumer...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "John Chrysostom on HOMILIES ON GENESIS 26.16: Then all creation was cleansed as if of some bl...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): \"And the Lord smelled a sweet savor, and He said...\". Word-study detail reinforces \"הַטָּה֔וֹר: and of every clean - pure (in a physical, chemical, ceremonial or moral sense)\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "But God remembered Noah and all the beasts and all..."
+        ],
+        "5": [
+          "And the waters continued to abate until the tenth month"
+        ],
+        "6": [
+          "At the end of forty days Noah opened the window..."
+        ],
+        "7": [
+          "and sent forth a raven"
+        ],
+        "8": [
+          "Then he sent forth a dove from him, to see..."
+        ],
+        "9": [
+          "But the dove found no place to set her foot,..."
+        ],
+        "10": [
+          "He waited another seven days, and again he sent forth..."
+        ],
+        "11": [
+          "And the dove came back to him in the evening,..."
+        ],
+        "12": [
+          "Then he waited another seven days and sent forth the..."
+        ],
+        "16": [
+          "“Go out from the ark, you and your wife, and..."
+        ],
+        "20": [
+          "clean"
+        ],
+        "21": [
+          "And when the Lord smelled the pleasing aroma, the Lord..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And God remembered Noah, and every living thing, and all the cattle that was with him in the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Hippolytus of Rome on Hippolytus Exegetical Fragments: Hippolytus, the expositor of the Targu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And the waters decreased continually until the tenth month: in the tenth month, on the first...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): For on the first day of the tenth month, the moun...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): And the ark rested in the seventh month, on the t...\". Word-study detail reinforces \"מָנ֜וֹחַ: no rest - quiet, i.e., (concretely) a settled spot, or (figuratively) a home\".",
+      "supportingVerses": [
+        4,
+        9,
+        10,
+        21
+      ],
+      "versePhrases": {
+        "4": [
+          "rest"
+        ],
+        "9": [
+          "still"
+        ],
+        "10": [
+          "He waited another seven days, and again he sent forth..."
+        ],
+        "21": [
+          "And when the Lord smelled the pleasing aroma, the Lord..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): And the ark rested in the seventh month, on the t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וַתָּ֤נַח: rested - to rest, i.e., settle down; used in a great variety of applications, lite...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "But the dove found no rest for the sole of her foot, and she returned unto him into the ark,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Maximus of Turin on SERMONS 49.3: For as Noah’s ark preserved alive everyone whom it had take...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): But the Lord remembered Noah, and all the living...\". Word-study detail reinforces \"ר֙וּחַ֙: a wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation;...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): But the Lord remembered Noah, and all the living...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ר֙וּחַ֙: a wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation;...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

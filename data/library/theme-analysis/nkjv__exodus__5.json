@@ -1,0 +1,162 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 5,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:38:59.016Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved.",
+      "supportingVerses": [
+        18,
+        23
+      ],
+      "versePhrases": {
+        "18": [
+          "deliver"
+        ],
+        "23": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How do impossible expectations create false guilt in modern systems?\". Word-study detail reinforces \"רֵיחֵ֗נוּ: because ye have made our savour - odor (as if blown)\".",
+      "supportingVerses": [
+        8,
+        21
+      ],
+      "versePhrases": {
+        "8": [
+          "made"
+        ],
+        "21": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How do impossible expectations create false guilt in modern systems?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "How do impossible expectations create false guilt in modern systems?",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "רֵיחֵ֗נוּ: because ye have made our savour - odor (as if blown)",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses.",
+      "supportingVerses": [
+        19,
+        22
+      ],
+      "versePhrases": {
+        "19": [
+          "trouble"
+        ],
+        "22": [
+          "trouble"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Pharaoh's response 'Who is the LORD (יְהוָה) that I should obey his voice?' reveals the centr...\". Word-study detail reinforces \"אֶשְׁמַ֣ע: that I should obey - to hear intelligently (often with implication of attention, o...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "obey"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Pharaoh's response 'Who is the LORD (יְהוָה) that I should obey his voice?' reveals the centr...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶשְׁמַ֣ע: that I should obey - to hear intelligently (often with implication of attention, o...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "cry out"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Pharaoh claims 'the people of the land now are many' (רַבִּים, rabbim), expressing demographi...\". Word-study detail reinforces \"וְהִשְׁבַּתֶּ֥ם: and ye make them rest - to repose, i.e., desist from exertion; used in many...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Pharaoh claims 'the people of the land now are many' (רַבִּים, rabbim), expressing demographi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וְהִשְׁבַּתֶּ֥ם: and ye make them rest - to repose, i.e., desist from exertion; used in many...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 2,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:22.659Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After showing that the gentiles did not become just f...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        21,
+        27
+      ],
+      "versePhrases": {
+        "1": [
+          "judge",
+          "condemn"
+        ],
+        "2": [
+          "judgment"
+        ],
+        "3": [
+          "judgment"
+        ],
+        "4": [
+          "Or do you despise the riches of his kindness, restraint,..."
+        ],
+        "5": [
+          "judgment",
+          "wrath"
+        ],
+        "6": [
+          "He will repay each one according to his works"
+        ],
+        "8": [
+          "wrath"
+        ],
+        "9": [
+          "There will be affliction and distress for every human being..."
+        ],
+        "10": [
+          "but glory, honor, and peace for everyone who does what..."
+        ],
+        "11": [
+          "For there is no favoritism with God"
+        ],
+        "12": [
+          "and all who sin under the law will be judged by the law"
+        ],
+        "13": [
+          "For the hearers of the law are not righteous before..."
+        ],
+        "14": [
+          "So, when Gentiles, who do not by nature have the..."
+        ],
+        "16": [
+          "on the day when God judges what people have kept secret"
+        ],
+        "21": [
+          "you then, who teach another, don’t you teach yourself"
+        ],
+        "27": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Romans 2:3",
+          "anchorVerse": 1,
+          "referenceLabel": "Romans 2:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore thou art inexcusable, O man, whosoever thou art that judgest —Paul's διό (dio, \"the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing that the gentiles did not become just f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "κρίνων: thou art that judgest - by implication, to try, condemn, punish",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says but to those who are contentious, h...\". Word-study detail reinforces \"ἀλήθειαν: to truth - truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        14,
+        15,
+        17,
+        20,
+        21,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore, every one of you who judges is without excuse"
+        ],
+        "2": [
+          "truth"
+        ],
+        "5": [
+          "Because of your hardened and unrepentant heart you are storing..."
+        ],
+        "6": [
+          "He will repay each one according to his works"
+        ],
+        "8": [
+          "truth"
+        ],
+        "9": [
+          "There will be affliction and distress for every human being..."
+        ],
+        "14": [
+          "So, when Gentiles, who do not by nature have the..."
+        ],
+        "15": [
+          "They show that the work of the law is written..."
+        ],
+        "17": [
+          "Now if you call yourself a Jew, and rely on..."
+        ],
+        "20": [
+          "truth"
+        ],
+        "21": [
+          "you then, who teach another, don’t you teach yourself"
+        ],
+        "25": [
+          "Circumcision benefits you if you observe the law, but if..."
+        ],
+        "26": [
+          "So if an uncircumcised man keeps the law’s requirements, will..."
+        ],
+        "27": [
+          "A man who is physically uncircumcised, but who keeps the..."
+        ],
+        "28": [
+          "true"
+        ],
+        "29": [
+          "On the contrary, a person is a Jew who is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul wrote Romans circa AD 57 from Corinth to a mixed congregation of Jewish and Gentile Chri...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing that the gentiles did not become just f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "But we are sure that the judgment of God is according to truth —the Greek οἴδαμεν (oidamen, \"...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Tertullian on Against Marcion Book V: The truth, therefore, will be His, whose is also the wr...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"And art confident that thou thyself art a guide of the blind, a light of them which are in da...\". Word-study detail reinforces \"διδάσκεις: teachest - to teach (in the same broad application)\".",
+      "supportingVerses": [
+        4,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "4": [
+          "lead"
+        ],
+        "14": [
+          "So, when Gentiles, who do not by nature have the..."
+        ],
+        "15": [
+          "They show that the work of the law is written..."
+        ],
+        "18": [
+          "and know his will, and approve the things that are..."
+        ],
+        "19": [
+          "guide"
+        ],
+        "20": [
+          "a teacher of the immature"
+        ],
+        "21": [
+          "teach"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Or despisest thou the riches of his goodness and forbearance and longsuffering —three terms f...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE EPISTLE TO THE ROMANS: You can recognize the riches...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ἄγει: leadeth - properly, to lead; by implication, to bring, drive, (reflexively) go, (specia...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Greek philosophy (Stoicism particularly) taught natural law—moral principles accessible throu...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"But he is a Jew, which is one inwardly — ἀλλ᾽ ὁ ἐν τῷ κρυπτῷ Ἰουδαῖος (all' ho en tō kryptō I...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        7,
+        10,
+        22,
+        29
+      ],
+      "versePhrases": {
+        "7": [
+          "glory"
+        ],
+        "10": [
+          "glory"
+        ],
+        "22": [
+          "You who say, “You must not commit adultery”—do you commit..."
+        ],
+        "29": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Colossians 1:27",
+          "anchorVerse": 7,
+          "referenceLabel": "Colossians 1:27"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "To them who by patient continuance in well doing —the Greek καθ᾽ ὑπομονὴν ἔργου ἀγαθοῦ (kath'...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Romans: Having said that the Lord will render to each o...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "δόξαν: for glory - glory (as very apparent), in a wide application (literal or figurative, ob...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says but according to your hardness, he...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        24,
+        25,
+        26,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore, every one of you who judges is without excuse"
+        ],
+        "2": [
+          "Now we know that God’s judgment on those who do..."
+        ],
+        "4": [
+          "Or do you despise the riches of his kindness, restraint,..."
+        ],
+        "5": [
+          "righteous"
+        ],
+        "7": [
+          "eternal life to those who by persistence in doing good..."
+        ],
+        "8": [
+          "but wrath and anger to those who are self-seeking and disobey the truth while obeying unrighteousness"
+        ],
+        "10": [
+          "but glory, honor, and peace for everyone who does what..."
+        ],
+        "11": [
+          "For there is no favoritism with God"
+        ],
+        "12": [
+          "For all who sin without the law will also perish..."
+        ],
+        "13": [
+          "righteous"
+        ],
+        "14": [
+          "So, when Gentiles, who do not by nature have the..."
+        ],
+        "15": [
+          "They show that the work of the law is written on their hearts"
+        ],
+        "16": [
+          "on the day when God judges what people have kept..."
+        ],
+        "24": [
+          "For, as it is written"
+        ],
+        "25": [
+          "Circumcision benefits you if you observe the law, but if..."
+        ],
+        "26": [
+          "So if an uncircumcised man keeps the law’s requirements, will..."
+        ],
+        "29": [
+          "and circumcision is of the heart—by the Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore thou art inexcusable, O man, whosoever thou art that judgest —Paul's διό (dio, \"the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing that the gentiles did not become just f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Jewish theology strongly affirmed God's justice and truthfulness (Deuteronomy 32:4, Psalm 96:...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: If you, a sinner, pass judgment upon a sinner li...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Second, he touches on those who are on the way to kno...\". Word-study detail reinforces \"γνώσεως: of knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        9,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore, every one of you who judges is without excuse"
+        ],
+        "2": [
+          "Now we know that God’s judgment on those who do..."
+        ],
+        "9": [
+          "There will be affliction and distress for every human being..."
+        ],
+        "10": [
+          "but glory, honor, and peace for everyone who does what..."
+        ],
+        "13": [
+          "For the hearers of the law are not righteous before..."
+        ],
+        "14": [
+          "So, when Gentiles, who do not by nature have the..."
+        ],
+        "15": [
+          "They show that the work of the law is written..."
+        ],
+        "17": [
+          "Now if you call yourself a Jew, and rely on..."
+        ],
+        "18": [
+          "and know his will, and approve the things that are..."
+        ],
+        "19": [
+          "and if you are convinced that you are a guide..."
+        ],
+        "20": [
+          "knowledge"
+        ],
+        "21": [
+          "you then, who teach another, don’t you teach yourself"
+        ],
+        "29": [
+          "On the contrary, a person is a Jew who is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What 'therefore' connects my privileges (religious upbringing, biblical knowledge) to greater...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing that the gentiles did not become just f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does God's perfect knowledge of my heart both terrify and comfort me?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Romans 5: \"For we are sure that the judgment of God is according...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

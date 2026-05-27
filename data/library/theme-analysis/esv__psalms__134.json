@@ -1,0 +1,186 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 134,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:14.927Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The psalm concludes with priestly blessing: 'The LORD that made heaven and earth bless thee o...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        2,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "bless"
+        ],
+        "2": [
+          "bless"
+        ],
+        "3": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The final Ascents psalm opens with call to worship: 'Behold, bless ye the LORD, all ye servan...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPOSITIONS OF THE PSALMS 133:1-2: But notice what “Lift up” means: “Give alms...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בָּרֲכ֣וּ: Behold bless - to kneel; by implication to bless god (as an act of adoration), and...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 63:4",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 63:4"
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The call specifies worship's form: 'Lift up your hands in the sanctuary, and bless the LORD.'...\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "bless the Lord"
+        ],
+        "2": [
+          "bless the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The final Ascents psalm opens with call to worship: 'Behold, bless ye the LORD, all ye servan...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Letter 63: To the church of Vercellae: Sitting we speak against others, b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The call specifies worship's form: 'Lift up your hands in the sanctuary, and bless the LORD.'...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 134: \"Lift up your hands by night in the sanctuary,...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The psalm concludes with priestly blessing: 'The LORD that made heaven and earth bless thee o...\". Word-study detail reinforces \"וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "made",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The psalm concludes with priestly blessing: 'The LORD that made heaven and earth bless thee o...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 134: \"The Lord out of Zion bless you, who made heav...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Inferred",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The call specifies worship's form: 'Lift up your hands in the sanctuary, and bless the LORD.'...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The call specifies worship's form: 'Lift up your hands in the sanctuary, and bless the LORD.'...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The call specifies worship's form: 'Lift up your hands in the sanctuary, and bless the LORD.'...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The call specifies worship's form: 'Lift up your hands in the sanctuary, and bless the LORD.'...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

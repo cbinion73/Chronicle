@@ -1,0 +1,196 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 64,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:24.918Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 64: Say we, therefore, ourselves also: \"Hearken, O...\". Word-study detail reinforces \"וַיִּֽירְא֗וּ: shall fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        1,
+        4,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "Hear me, my God, as I voice my complaint"
+        ],
+        "4": [
+          "fear"
+        ],
+        "9": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear my voice, O God, in my prayer: preserve my life from fear of the enemy. This opening ple...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 64: Say we, therefore, ourselves also: \"Hearken, O...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מִפַּ֥חַד: from fear - a (sudden) alarm (properly, the object feared, by implication, the fee...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Shooting 'in secret at the perfect' reveals the cowardly nature of slander—attacking from hid...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 97:11",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 97:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "צַדִּ֣יק: The righteous - just",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Galatians 6:14",
+          "anchorVerse": 10,
+          "referenceLabel": "Galatians 6:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְ֝יִתְהַֽלְל֗וּ: shall glory - to be clear (orig. of sound, but usually of color); to shine;...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "righteous",
+          "upright"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 97:11",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 97:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on SERMON 21:1: “The just person will take delight in the Lord and hope in...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "צַדִּ֣יק: The righteous - just",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

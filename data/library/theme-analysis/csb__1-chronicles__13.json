@@ -1,0 +1,82 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 13,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:35.936Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The phrase 'let us bring again the ark of our God to us' reveals a crucial theological insigh...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        3,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "with us"
+        ],
+        "3": [
+          "Then let’s bring back the ark of our God, for..."
+        ],
+        "10": [
+          "presence"
+        ],
+        "13": [
+          "So David did not bring the ark of God home..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֵלֵֽינוּ׃: - near, with or among; often in general, to",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The phrase 'let us bring again the ark of our God to us' reveals a crucial theological insigh...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֵלֵ֑ינוּ: - near, with or among; often in general, to",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God.",
+      "supportingVerses": [
+        2,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "rest"
+        ],
+        "11": [
+          "still"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

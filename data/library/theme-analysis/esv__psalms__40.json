@@ -1,0 +1,364 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 40,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:41.695Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Israel's worship tradition centered on recounting God's mighty acts. The psalms function as t...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        13,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "He drew me up from the pit of destruction, out..."
+        ],
+        "3": [
+          "He put a new song in my mouth, a song..."
+        ],
+        "4": [
+          "Blessed is the man who makes the Lord his trust,..."
+        ],
+        "5": [
+          "You have multiplied, O Lord my God, your wondrous deeds..."
+        ],
+        "9": [
+          "deliverance"
+        ],
+        "10": [
+          "salvation",
+          "deliverance"
+        ],
+        "13": [
+          "deliver"
+        ],
+        "16": [
+          "salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The pit and miry clay imagery resonates with ancient Near Eastern geography and experience. C...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: Christ has heard the prayer of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Israel's worship tradition centered on recounting God's mighty acts. The psalms function as t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Next he gives thanks: as if to say, this...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: With regard to Christ, when he says, \"I...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "He drew me up from the pit of destruction, out..."
+        ],
+        "3": [
+          "He put a new song in my mouth, a song..."
+        ],
+        "4": [
+          "Blessed is the man who makes the Lord his trust,..."
+        ],
+        "6": [
+          "In sacrifice and offering you have not delighted, but you..."
+        ],
+        "7": [
+          "Then I said, “Behold, I have come"
+        ],
+        "9": [
+          "I have told the glad news of deliverance in the..."
+        ],
+        "10": [
+          "faithfulness"
+        ],
+        "11": [
+          "faithfulness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The pit and miry clay imagery resonates with ancient Near Eastern geography and experience. C...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Evagrius Ponticus on NOTES ON THE PSALMS 39[40].3: The pit of misery is evil and ignorance.…...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Israel's worship tradition centered on recounting God's mighty acts. The psalms function as t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE PSALMS 40:3: In place of the impious worship of the i...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, the Psalmist in...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "I waited patiently for the Lord"
+        ],
+        "2": [
+          "He drew me up from the pit of destruction, out..."
+        ],
+        "3": [
+          "trust"
+        ],
+        "4": [
+          "trust"
+        ],
+        "9": [
+          "I have told the glad news of deliverance in the..."
+        ],
+        "10": [
+          "steadfast"
+        ],
+        "11": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I waited patiently for the LORD; and he inclined unto me, and heard my cry. This psalm's open...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, the Psalmist in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The pit and miry clay imagery resonates with ancient Near Eastern geography and experience. C...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 40: And what has He accomplished for you? What has...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: For the good he asks that they rejoice a...\". Word-study detail reinforces \"אֹֽ֝הֲבֵ֗י: in thee let such as love - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        10,
+        11,
+        16
+      ],
+      "versePhrases": {
+        "10": [
+          "love"
+        ],
+        "11": [
+          "love"
+        ],
+        "16": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The parallelism intensifies the public nature of David's witness: he has not hidden God's rig...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "חַסְדְּךָ֥: thy lovingkindness - kindness; by implication (towards god) piety; rarely (by opp...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "חַסְדְּךָ֥: let thy lovingkindness - kindness; by implication (towards god) piety; rarely (by...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "What distinguishes those who 'love God's salvation' from those who merely want deliverance fr...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Next he gives thanks: as if to say, this...\". Word-study detail reinforces \"תְּהִלָּ֪ה: even praise - laudation; specifically (concretely) a hymn\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "praise"
+        ],
+        "6": [
+          "In sacrifice and offering you have not delighted, but you..."
+        ],
+        "7": [
+          "Then I said, “Behold, I have come"
+        ],
+        "16": [
+          "“Great is the Lord!”"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And he hath put a new song in my mouth, even praise unto our God: many shall see it, and fear...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Next he gives thanks: as if to say, this...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "תְּהִלָּ֪ה: even praise - laudation; specifically (concretely) a hymn",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The tension between sacrifice and obedience runs throughout Israel's history. The prophets re...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"But you, O Lord.\" Above, the Psalmist c...\". Word-study detail reinforces \"רַחֲמֶ֣יךָ: not thou thy tender mercies - compassion (in the plural)\".",
+      "supportingVerses": [
+        2,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "He drew me up from the pit of destruction, out..."
+        ],
+        "10": [
+          "I have not hidden your deliverance within my heart"
+        ],
+        "11": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "He brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a ro...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 40: And what has He accomplished for you? What has...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How do lovingkindness and truth together describe God's character?",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: With regard to Christ, when he says, \"I...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

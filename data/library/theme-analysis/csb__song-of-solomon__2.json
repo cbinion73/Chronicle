@@ -1,0 +1,110 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 2,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:55.002Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 16 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: The king brought me into the wine cellar, etc. Just...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "Like a lily among thorns, so is my darling among..."
+        ],
+        "3": [
+          "love"
+        ],
+        "4": [
+          "love"
+        ],
+        "5": [
+          "for I am lovesick"
+        ],
+        "6": [
+          "May his left hand be under my head, and his..."
+        ],
+        "7": [
+          "love"
+        ],
+        "8": [
+          "love"
+        ],
+        "9": [
+          "love"
+        ],
+        "10": [
+          "love"
+        ],
+        "11": [
+          "For now the winter is past"
+        ],
+        "12": [
+          "The blossoms appear in the countryside"
+        ],
+        "13": [
+          "The fig tree ripens its figs"
+        ],
+        "14": [
+          "and your face is lovely"
+        ],
+        "15": [
+          "Catch the foxes for us— the little foxes that ruin..."
+        ],
+        "16": [
+          "love"
+        ],
+        "17": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The bridegroom responds to the bride's self-description (2:1): 'As the lily among thorns, so...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Braulio of Zaragoza on LETTER 42: It is written of the church: “As a lily among thorns, so is...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The bride declares, 'As the apple tree among the trees of the wood, so is my beloved among th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Under the shadow of him whom I desired, I sat, etc....",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

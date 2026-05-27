@@ -1,0 +1,207 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hosea",
+  "chapter": 9,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:17.378Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Hosea 9:10-11: \"As I found grapes in the desert, I saw Israel, as the...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        10,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "loved"
+        ],
+        "10": [
+          "loved"
+        ],
+        "15": [
+          "love"
+        ],
+        "16": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Rejoice not, O Israel, for joy, as other people: for thou hast gone a whoring from thy God, t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 9:1-2: \"Do not rejoice, Israel: do not exult as the peoples: fo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אָהַ֣בְתָּ: thou hast loved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does my current spiritual state compare to my 'first love' when I initially encountered G...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Hosea 9:12: \"Ephraim has flown away like a bird: their glory from bir...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        8,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "Rejoice not, O Israel, for joy, as other people"
+        ],
+        "2": [
+          "The floor and the winepress shall not feed them, and..."
+        ],
+        "8": [
+          "The watchman of Ephraim was with my God"
+        ],
+        "10": [
+          "I found Israel like grapes in the wilderness"
+        ],
+        "11": [
+          "glory"
+        ],
+        "12": [
+          "Though they bring up their children, yet will I bereave..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Rejoice not, O Israel, for joy, as other people: for thou hast gone a whoring from thy God, t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodore of Mopsuestia on COMMENTARY ON HOSEA 9: It is not fitting for you to rejoice and exu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Failed expectations: 'The floor and the winepress shall not feed them, and the new wine shall...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 9:1-2: \"Do not rejoice, Israel: do not exult as the peoples: fo...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Hosea 9:3-4: \"They shall not dwell in the land of the Lord. Ephraim r...\". Word-study detail reinforces \"לַחְמָ֣ם: for their bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        2,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "The floor and the winepress shall not feed them, and..."
+        ],
+        "4": [
+          "bread"
+        ],
+        "5": [
+          "What will ye do in the solemn day, and in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Failed expectations: 'The floor and the winepress shall not feed them, and the new wine shall...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 9:1-2: \"Do not rejoice, Israel: do not exult as the peoples: fo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Worship ended: 'They shall not offer wine offerings to the LORD, neither shall they be pleasi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Hosea 9:3-4: \"They shall not dwell in the land of the Lord. Ephraim r...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Hosea 9:3-4: \"They shall not dwell in the land of the Lord. Ephraim r...\". Word-study detail reinforces \"יֵשְׁב֖וּ: They shall not dwell - properly, to sit down (specifically as judge. in ambush, in...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Land forfeited: 'They shall not dwell in the LORD's land; but Ephraim shall return to Egypt,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Hosea 9:3-4: \"They shall not dwell in the land of the Lord. Ephraim r...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יֵשְׁב֖וּ: They shall not dwell - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

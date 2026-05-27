@@ -1,0 +1,166 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 9,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:26.323Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"CS Lewis on Before We Can Communicate, from God in the Dock: The old Prayer Book prayed that...\". Word-study detail reinforces \"ἐδούλωσα: men yet have I made - to enslave (literally or figuratively)\".",
+      "supportingVerses": [
+        9,
+        12,
+        15,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "9": [
+          "For it is written in the law of Moses, Do..."
+        ],
+        "12": [
+          "made"
+        ],
+        "15": [
+          "For my part I have used none of these rights,..."
+        ],
+        "19": [
+          "made"
+        ],
+        "22": [
+          "To the weak I became weak, in order to win..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For it is written in the law of Moses, Thou shalt not muzzle the mouth of the ox that treadet...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Fulgentius of Ruspe on TO PETER ON THE FAITH 42: These animals accomplish their life and purp...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What \"hindrances\" might financial support have created for Paul's gospel ministry in Corinth?",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 21: \"If others partake of this right over you, do...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 21: \"For it is written in the law of Moses, Thou s...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        10,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "10": [
+          "hope"
+        ],
+        "20": [
+          "To the Jews I became like a Jew, to win..."
+        ],
+        "23": [
+          "Now I do all this because of the gospel, so..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Romans 15:4",
+          "anchorVerse": 10,
+          "referenceLabel": "Romans 15:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Or saith he it altogether for our sakes? Paul intensifies his argument: the ox-muzzling law w...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 21: \"For it is written in the law of Moses, Thou s...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "ἐλπίδι: hope - expectation (abstractly or concretely) or confidence",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 22: \"To the weak became I weak, that I might gain...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        22,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "22": [
+          "save"
+        ],
+        "24": [
+          "Don’t you know that the runners in a stadium all..."
+        ],
+        "27": [
+          "Instead, I discipline my body and bring it under strict..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "1 Corinthians 10:33",
+          "anchorVerse": 22,
+          "referenceLabel": "1 Corinthians 10:33"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "To the weak became I as weak, that I might gain the weak: Paul circles back to chapter 8's co...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 22: \"To the weak became I weak, that I might gain...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "σώσω: I might - to save, i.e., deliver or protect (literally or figuratively)",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

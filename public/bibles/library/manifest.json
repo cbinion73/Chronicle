@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "kind": "chronicle-bible-library",
+  "installedAt": "2026-05-01T02:10:51.558Z",
+  "translations": [
+    {
+      "providerId": "offline_amp",
+      "id": "amp",
+      "label": "AMP Local Library",
+      "basePath": "/bibles/library/amp",
+      "sourceLabel": "AMP Local Library (BibleTranslations generator)"
+    },
+    {
+      "providerId": "offline_asv",
+      "id": "eng_asv",
+      "label": "ASV Local Library",
+      "basePath": "/bibles/helloao/eng_asv",
+      "sourceLabel": "ASV Local Library (HelloAOLab)"
+    },
+    {
+      "providerId": "offline_csb",
+      "id": "csb",
+      "label": "CSB Local Library",
+      "basePath": "/bibles/library/csb",
+      "sourceLabel": "CSB Local Library (BibleTranslations generator)"
+    },
+    {
+      "providerId": "offline_niv",
+      "id": "niv",
+      "label": "NIV Local Library",
+      "basePath": "/bibles/library/niv",
+      "sourceLabel": "NIV Local Library (BibleTranslations generator)"
+    },
+    {
+      "providerId": "offline_nkjv",
+      "id": "nkjv",
+      "label": "NKJV Local Library",
+      "basePath": "/bibles/library/nkjv",
+      "sourceLabel": "NKJV Local Library (BibleTranslations generator)"
+    }
+  ]
+}

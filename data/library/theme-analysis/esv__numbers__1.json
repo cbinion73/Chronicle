@@ -1,0 +1,146 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 1,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:57.664Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"God commands: 'appoint thou the Levites over the tabernacle of testimony, and over all the ve...\". Word-study detail reinforces \"הָֽעֵדֻ֜ת: of testimony - testimony\".",
+      "supportingVerses": [
+        50,
+        53
+      ],
+      "versePhrases": {
+        "50": [
+          "testimony"
+        ],
+        "53": [
+          "testimony"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 50 commentary",
+          "detail": "God commands: 'appoint thou the Levites over the tabernacle of testimony, and over all the ve...",
+          "anchorVerse": 50
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 50 word study",
+          "detail": "הָֽעֵדֻ֜ת: of testimony - testimony",
+          "anchorVerse": 50
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 53 word study",
+          "detail": "הָֽעֵדֽוּת׃: of testimony - testimony",
+          "anchorVerse": 53
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The Levites' responsibility to dismantle and transport the tabernacle emphasizes their mediat...\". Word-study detail reinforces \"הַקָּרֵ֖ב: that cometh nigh - near\".",
+      "supportingVerses": [
+        4,
+        51
+      ],
+      "versePhrases": {
+        "4": [
+          "with you"
+        ],
+        "51": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְאִתְּכֶ֣ם: - properly, nearness (used only as a preposition or an adverb), near; hence, gen...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 51 commentary",
+          "detail": "The Levites' responsibility to dismantle and transport the tabernacle emphasizes their mediat...",
+          "anchorVerse": 51
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 51 word study",
+          "detail": "הַקָּרֵ֖ב: that cometh nigh - near",
+          "anchorVerse": 51
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וְשָֽׁמְרוּ֙: shall keep - properly, to hedge about (as with thorns), i.e., guard; generally,...\".",
+      "supportingVerses": [
+        53
+      ],
+      "versePhrases": {
+        "53": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 53 word study",
+          "detail": "וְשָֽׁמְרוּ֙: shall keep - properly, to hedge about (as with thorns), i.e., guard; generally,...",
+          "anchorVerse": 53
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The Levites were to camp around the tabernacle 'that there be no wrath upon the congregation...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        53
+      ],
+      "versePhrases": {
+        "53": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Numbers 16:46",
+          "anchorVerse": 53,
+          "referenceLabel": "Numbers 16:46"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 53 commentary",
+          "detail": "The Levites were to camp around the tabernacle 'that there be no wrath upon the congregation...",
+          "anchorVerse": 53
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 53 word study",
+          "detail": "קֶ֔צֶף: that there be no wrath - a splinter (as chipped off)",
+          "anchorVerse": 53
+        }
+      ]
+    }
+  ]
+}

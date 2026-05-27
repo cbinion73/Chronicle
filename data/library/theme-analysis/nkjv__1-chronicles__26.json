@@ -1,0 +1,146 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 26,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:19.583Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on Gatekeepers and treasurers - t...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        5,
+        26,
+        30,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "5": [
+          "Ammiel the sixth, Issachar the seventh, Peulthai the eighth"
+        ],
+        "26": [
+          "King"
+        ],
+        "30": [
+          "king"
+        ],
+        "31": [
+          "reign"
+        ],
+        "32": [
+          "King",
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Gatekeepers and treasurers - t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בֵרֲכ֖וֹ: blessed - to kneel; by implication to bless god (as an act of adoration), and (vice...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 8:11",
+          "anchorVerse": 26,
+          "referenceLabel": "2 Samuel 8:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Gatekeepers and treasurers - t...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work.",
+      "supportingVerses": [
+        10,
+        32
+      ],
+      "versePhrases": {
+        "10": [
+          "made"
+        ],
+        "32": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וַיְשִׂימֵ֥הוּ: made - to put (used in a great variety of applications, literal, figurative,...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "וַֽיַּפְקִידֵ֞ם: made rulers - to visit (with friendly or hostile intent); by analogy, to ove...",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...\". Word-study detail reinforces \"בְּשֶׂ֗כֶל: a wise - intelligence; by implication, success\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "בְּשֶׂ֗כֶל: a wise - intelligence; by implication, success",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God.",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "just"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

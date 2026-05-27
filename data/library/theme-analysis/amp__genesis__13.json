@@ -1,0 +1,156 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 13,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:45:44.018Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): But Lot also, who was with Abram, had flocks of s...\". Word-study detail reinforces \"לָשֶׁ֥בֶת: not dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by...\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "who went with Abram"
+        ],
+        "6": [
+          "near"
+        ],
+        "7": [
+          "And there was strife and quarreling between the herdsmen of..."
+        ],
+        "8": [
+          "So Abram said to Lot, “Please let there be no..."
+        ],
+        "9": [
+          "Is not the entire land before you"
+        ],
+        "12": [
+          "Abram settled in the land of Canaan, and Lot settled..."
+        ],
+        "13": [
+          "But the men of Sodom were extremely wicked and sinful..."
+        ],
+        "18": [
+          "Then Abram broke camp and moved his tent, and came..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): But Lot also, who was with Abram, had flocks of s...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֶת: with - properly, nearness (used only as a preposition or an adverb), near; hence, genera...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the land was not able to bear them, that they might dwell together: for their substance w...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and betwee...\". Word-study detail reinforces \"נָ֨א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or t...\".",
+      "supportingVerses": [
+        4,
+        8
+      ],
+      "versePhrases": {
+        "4": [
+          "prayer"
+        ],
+        "8": [
+          "So Abram said to Lot, “Please let there be no..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and betwee...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "נָ֨א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or t...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Clement of Rome on Clement's First Letter to the Corinthians, Chapter 10: Abraham, styled \"th...\". Word-study detail reinforces \"הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        15,
+        16
+      ],
+      "versePhrases": {
+        "15": [
+          "for all the land which you see I will give..."
+        ],
+        "16": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Clement of Rome on Clement's First Letter to the Corinthians, Chapter 10: Abraham, styled \"th...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָאָ֛רֶץ: For all the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "And I will make thy seed as the dust of the earth: so that if a man can number the dust of th...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Clement of Rome on Clement's First Letter to the Corinthians, Chapter 10: Abraham, styled \"th...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

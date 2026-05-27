@@ -1,0 +1,336 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 11,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:03.581Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For the righteous LORD loveth righteousness; his countenance doth behold the upright. This co...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "upright"
+        ],
+        "3": [
+          "righteous"
+        ],
+        "4": [
+          "holy"
+        ],
+        "5": [
+          "righteous"
+        ],
+        "6": [
+          "On the wicked he will rain fiery coals and burning..."
+        ],
+        "7": [
+          "righteous",
+          "justice",
+          "upright"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The imagery of wicked archers drawing bows in darkness portrays secret assault on the righteo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, thanksgiving wa...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לְיִשְׁרֵי: at the upright - straight (literally or figuratively)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "If the foundations be destroyed, what can the righteous do? This verse presents the counselor...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"For the righteous LORD loveth righteousness; his countenance doth behold the upright. This co...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "righteous"
+        ],
+        "4": [
+          "holy"
+        ],
+        "5": [
+          "righteous"
+        ],
+        "7": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "If the foundations be destroyed, what can the righteous do? This verse presents the counselor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "צַ֝דִּ֗יק: what can the righteous - just",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Habakkuk 2:20",
+          "anchorVerse": 4,
+          "referenceLabel": "Habakkuk 2:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The LORD is in his holy temple, the LORD'S throne is in heaven: his eyes behold, his eyelids...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"The just one.\" Here the reason for conf...\". Word-study detail reinforces \"צְדָק֣וֹת: righteousness - rightness (abstractly), subjectively (rectitude), objectively (jus...\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "In the Lord I take refuge"
+        ],
+        "3": [
+          "When the foundations are being destroyed, what can the righteous..."
+        ],
+        "4": [
+          "The Lord is in his holy temple"
+        ],
+        "5": [
+          "The Lord examines the righteous, but the wicked, those who..."
+        ],
+        "6": [
+          "On the wicked he will rain fiery coals and burning..."
+        ],
+        "7": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 11's historical setting remains debated, though the superscription attributes it to Dav...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, thanksgiving wa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "If the foundations be destroyed, what can the righteous do? This verse presents the counselor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, thanksgiving wa...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, thanksgiving wa...\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "In the Lord I take refuge"
+        ],
+        "2": [
+          "For look, the wicked bend their bows"
+        ],
+        "4": [
+          "earth"
+        ],
+        "5": [
+          "The Lord examines the righteous, but the wicked, those who..."
+        ],
+        "7": [
+          "For the Lord is righteous, he loves justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 11's historical setting remains debated, though the superscription attributes it to Dav...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, thanksgiving wa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The imagery of wicked archers drawing bows in darkness portrays secret assault on the righteo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalms, thanksgiving wa...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The LORD trieth the righteous: but the wicked and him that loveth violence his soul hateth. T...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        5,
+        7
+      ],
+      "versePhrases": {
+        "5": [
+          "love"
+        ],
+        "7": [
+          "he loves justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "James 1:12",
+          "anchorVerse": 5,
+          "referenceLabel": "James 1:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The LORD trieth the righteous: but the wicked and him that loveth violence his soul hateth. T...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Fulgentius of Ruspe on ON THE FORGIVENESS OF SINS 2:7.1: If a murderer is one who hates his b...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Psalms 45:7",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 45:7"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The imagery of God's heavenly temple and throne appears throughout Scripture, reaching full d...\". Word-study detail reinforces \"כִּ֫סְא֥וֹ: throne - properly, covered, i.e., a throne (as canopied)\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "When the foundations are being destroyed, what can the righteous..."
+        ],
+        "4": [
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "If the foundations be destroyed, what can the righteous do? This verse presents the counselor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 11: Let the Catholic soul then say, \"In the Lord I...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The imagery of God's heavenly temple and throne appears throughout Scripture, reaching full d...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"The just one.\" Here the reason for conf...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

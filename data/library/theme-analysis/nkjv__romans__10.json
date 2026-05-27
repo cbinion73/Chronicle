@@ -1,0 +1,461 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 10,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:49.314Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After explaining that confession on the lips and fait...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Brethren, my heart’s desire and prayer to God for Israel..."
+        ],
+        "2": [
+          "For I bear them witness that they have a zeal..."
+        ],
+        "3": [
+          "For they being ignorant of God’s righteousness, and seeking to..."
+        ],
+        "4": [
+          "For Christ is the end of the law for righteousness to everyone who believes"
+        ],
+        "5": [
+          "For Moses writes about the righteousness which is of the..."
+        ],
+        "6": [
+          "faith"
+        ],
+        "7": [
+          "or, “ ‘Who will descend into the abyss"
+        ],
+        "8": [
+          "faith"
+        ],
+        "9": [
+          "believe"
+        ],
+        "10": [
+          "For with the heart one believes unto righteousness"
+        ],
+        "11": [
+          "“Whoever believes on Him will not be put to shame"
+        ],
+        "12": [
+          "For there is no distinction between Jew and Greek, for..."
+        ],
+        "14": [
+          "believe"
+        ],
+        "16": [
+          "who has believed our report?”"
+        ],
+        "17": [
+          "faith"
+        ],
+        "21": [
+          "But to Israel he says"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul wrote Romans around AD 57 from Corinth, addressing a mixed congregation of Jewish and Ge...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing how the gentiles have been called to fa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For I bear them record that they have a zeal of God, but not according to knowledge —Paul tes...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 2: And the same apostle owns that he bears witness...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After explaining that confession on the lips and fait...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "saved"
+        ],
+        "5": [
+          "For Moses writes about the righteousness which is of the..."
+        ],
+        "6": [
+          "But the righteousness of faith speaks in this way, “Do..."
+        ],
+        "7": [
+          "or, “ ‘Who will descend into the abyss"
+        ],
+        "8": [
+          "But what does it say"
+        ],
+        "9": [
+          "saved"
+        ],
+        "10": [
+          "salvation"
+        ],
+        "12": [
+          "For there is no distinction between Jew and Greek, for..."
+        ],
+        "13": [
+          "saved"
+        ],
+        "14": [
+          "How then shall they call on Him in whom they..."
+        ],
+        "15": [
+          "And how shall they preach unless they are sent"
+        ],
+        "19": [
+          "But I say, did Israel not know"
+        ],
+        "20": [
+          "But Isaiah is very bold and says"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "John 5:34",
+          "anchorVerse": 1,
+          "referenceLabel": "John 5:34"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Brethren, my heart's desire and prayer to God for Israel is, that they might be saved —Paul's...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing how the gentiles have been called to fa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "σωτηρίαν: they might be saved - rescue or safety (physically or morally)",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"For they being ignorant of God's righteousness, and going about to establish their own righte...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        15,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "my heart’s desire and prayer to God for Israel is that they may be saved"
+        ],
+        "2": [
+          "For I bear them witness that they have a zeal..."
+        ],
+        "3": [
+          "righteousness"
+        ],
+        "4": [
+          "righteousness"
+        ],
+        "5": [
+          "righteousness"
+        ],
+        "6": [
+          "righteousness"
+        ],
+        "7": [
+          "or, “ ‘Who will descend into the abyss"
+        ],
+        "9": [
+          "that if you confess with your mouth the Lord Jesus and believe in your heart that God has raised Him from the dead"
+        ],
+        "10": [
+          "righteousness"
+        ],
+        "15": [
+          "And how shall they preach unless they are sent"
+        ],
+        "19": [
+          "But I say, did Israel not know"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Brethren, my heart's desire and prayer to God for Israel is, that they might be saved —Paul's...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on AUGUSTINE ON ROMANS 66: Here Paul begins to speak of his hope for the J...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For I bear them record that they have a zeal of God, but not according to knowledge —Paul tes...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Tertullian on Against Marcion Book V: For,\" says he, \"being ignorant of (the righteousness of...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"For they being ignorant of God's righteousness, and going about to establish their own righte...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "For I bear them witness that they have a zeal..."
+        ],
+        "3": [
+          "righteousness"
+        ],
+        "4": [
+          "righteousness"
+        ],
+        "5": [
+          "righteousness"
+        ],
+        "6": [
+          "righteousness"
+        ],
+        "7": [
+          "or, “ ‘Who will descend into the abyss"
+        ],
+        "10": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For I bear them record that they have a zeal of God, but not according to knowledge —Paul tes...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Tertullian on Against Marcion Book V: For,\" says he, \"being ignorant of (the righteousness of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Luke 16:15",
+          "anchorVerse": 3,
+          "referenceLabel": "Luke 16:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For they being ignorant of God's righteousness, and going about to establish their own righte...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After showing that the fall of the Jews is pitiable,...\". Word-study detail reinforces \"ὁμολογεῖται: confession is made - to assent, i.e., covenant, acknowledge\".",
+      "supportingVerses": [
+        10,
+        15,
+        17,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "10": [
+          "made"
+        ],
+        "15": [
+          "And how shall they preach unless they are sent"
+        ],
+        "17": [
+          "So then faith comes by hearing, and hearing by the..."
+        ],
+        "18": [
+          "earth"
+        ],
+        "20": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "For with the heart man believeth unto righteousness; and with the mouth confession is made un...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 4: But it is God that makes proclamation to us, an...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "ὁμολογεῖται: confession is made - to assent, i.e., covenant, acknowledge",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Isaiah 52:7-10 prophesied heralds running to announce Yahweh's return to Zion, Israel's redem...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"But they have not all obeyed the gospel. For Esaias saith, Lord, who hath believed our report...\". Word-study detail reinforces \"ὑπήκουσαν: obeyed - to hear under (as a subordinate), i.e., to listen attentively; by implica...\".",
+      "supportingVerses": [
+        3,
+        5,
+        8,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "For they being ignorant of God’s righteousness, and seeking to..."
+        ],
+        "5": [
+          "For Moses writes about the righteousness which is of the..."
+        ],
+        "8": [
+          "But what does it say"
+        ],
+        "16": [
+          "obeyed"
+        ],
+        "17": [
+          "So then faith comes by hearing, and hearing by the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Paul's Pharisaic training under Gamaliel (Acts 22:3) gave him insider knowledge of Jewish sot...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theodoret of Cyrus on INTERPRETATION OF THE LETTER TO THE ROMANS: When Paul talks about the J...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ὑπετάγησαν·: have - to subordinate; reflexively, to obey",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does Christ's perfect law-keeping (active obedience) complement His sin-bearing (passive...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

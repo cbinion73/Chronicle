@@ -1,0 +1,98 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 12,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:44.914Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 12:7: “Therefore King Joash summoned the pri...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        10,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "6": [
+          "King"
+        ],
+        "7": [
+          "King"
+        ],
+        "10": [
+          "Whenever they saw that there was a large amount of..."
+        ],
+        "17": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "reign"
+        ],
+        "20": [
+          "His officials conspired against him and assassinated him at Beth..."
+        ],
+        "21": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the seventh year of Jehu Jehoash began to reign; and forty years reigned he in Jerusalem....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֖ךְ: began to reign - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Historical Setting: 2 Kings 12 takes place during the declining years of the northern kingdom...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 12:7: “Therefore King Joash summoned the pri...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "still"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

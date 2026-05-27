@@ -1,0 +1,200 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 18,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:36.174Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on David's military victories - k...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "King"
+        ],
+        "5": [
+          "King"
+        ],
+        "7": [
+          "David took the gold shields carried by Hadadezer’s officers and..."
+        ],
+        "8": [
+          "From Tibhath and Cun, Hadadezer’s cities, David also took huge..."
+        ],
+        "9": [
+          "King"
+        ],
+        "10": [
+          "King"
+        ],
+        "11": [
+          "King"
+        ],
+        "14": [
+          "So David reigned over all Israel"
+        ],
+        "17": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 8:3",
+          "anchorVerse": 3,
+          "referenceLabel": "2 Samuel 8:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's military victories - k...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's military victories - k...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Word-study detail reinforces \"עָשָׂ֣ה: made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        6,
+        8,
+        13
+      ],
+      "versePhrases": {
+        "6": [
+          "made"
+        ],
+        "8": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "עָשָׂ֣ה: made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Theological Analysis: This passage falls within the section on David's military victories - k...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's military victories - k...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וּצְדָקָ֖ה: and justice - rightness (abstractly), subjectively (rectitude), objectively (just...\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "righteousness",
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וּצְדָקָ֖ה: and justice - rightness (abstractly), subjectively (rectitude), objectively (just...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Inferred",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וּצְדָקָ֖ה: and justice - rightness (abstractly), subjectively (rectitude), objectively (just...\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וּצְדָקָ֖ה: and justice - rightness (abstractly), subjectively (rectitude), objectively (just...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Inferred",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart.",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

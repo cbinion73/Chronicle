@@ -1,0 +1,239 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 8,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:49:00.645Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "2": [
+          "love"
+        ],
+        "3": [
+          "loved"
+        ],
+        "4": [
+          "In this matter, then, of eating food offered to idols,..."
+        ],
+        "8": [
+          "Now food will not commend us to God nor bring..."
+        ],
+        "11": [
+          "For through your knowledge (spiritual maturity) this weak man is..."
+        ],
+        "12": [
+          "And when you sin against the brothers and sisters in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Ephesians 4:16",
+          "anchorVerse": 1,
+          "referenceLabel": "Ephesians 4:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now as touching things offered unto idols (περὶ δὲ τῶν εἰδωλοθύτων, peri de ton eidolothyton...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀγάπη: charity - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...\". Word-study detail reinforces \"γνῶσις: Knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "wisdom",
+          "knowledge",
+          "Knowledge"
+        ],
+        "2": [
+          "If anyone imagines that he knows and understands anything [of divine matters"
+        ],
+        "3": [
+          "But if anyone loves God [with awe-filled reverence, obedience and..."
+        ],
+        "4": [
+          "In this matter, then, of eating food offered to idols,..."
+        ],
+        "7": [
+          "knowledge"
+        ],
+        "10": [
+          "knowledge"
+        ],
+        "11": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now as touching things offered unto idols (περὶ δὲ τῶν εἰδωλοθύτων, peri de ton eidolothyton...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "γνῶσις: Knowledge - knowing (the act), i.e., (by implication) knowledge",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "If any man think that he knoweth any thing, he knoweth nothing yet as he ought to know (καθὼς...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 20: \"For though there be that are called gods, whe...\". Word-study detail reinforces \"γῆς: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "earth"
+        ],
+        "6": [
+          "created"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For though there be that are called gods (εἴπερ εἰσὶν λεγόμενοι θεοί, eiper eisin legomenoi t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"For though there be that are called gods, whe...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "γῆς: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"For though there be that are called gods, whe...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"ἔγνωσται: is known - to \"know\" (absolutely) in a great variety of applications and with many...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "obedience"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ἔγνωσται: is known - to \"know\" (absolutely) in a great variety of applications and with many...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 20: \"But not in all is knowledge,\" saith he. What...\". Word-study detail reinforces \"ἐσθίουσιν: eat - used only in certain tenses, the rest being supplied by g5315; to eat (usual...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"But not in all is knowledge,\" saith he. What...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἐσθίουσιν: eat - used only in certain tenses, the rest being supplied by g5315; to eat (usual...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

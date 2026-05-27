@@ -1,0 +1,283 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 108,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:25.404Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The psalm opens with a declaration of steadfast resolve: 'O God, my heart is fixed.' The word...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        3,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "praise",
+          "sing",
+          "glory"
+        ],
+        "3": [
+          "praise",
+          "sing"
+        ],
+        "5": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Exodus 15:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Exodus 15:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The psalm opens with a declaration of steadfast resolve: 'O God, my heart is fixed.' The word...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אָשִׁ֥ירָה: I will sing - to sing",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Worship",
+          "detail": "Psalms 22:27",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 22:27"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Cyril of Jerusalem on Catechetical Lecture 8:2: Of the Greeks, some have said that God is the...\". Word-study detail reinforces \"הָאָ֣רֶץ: above all the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "heavens"
+        ],
+        "5": [
+          "heavens",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For thy mercy is great above the heavens (כִּי־גָדוֹל מֵעַל־שָׁמַיִם חַסְדֶּךָ, ki-gadol me'a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 8:2: Of the Greeks, some have said that God is the...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "שָׁמַ֣יִם: above the heavens - the sky (as aloft; the dual perhaps alluding to the visible ar...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse presents a prayer for God's manifest glory: 'Be thou exalted, O God, above the hea...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Israel as \"God's beloved\" appears throughout Scripture (Deuteronomy 33:12, Psalm 60:5, 127:2,...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        4,
+        6
+      ],
+      "versePhrases": {
+        "4": [
+          "For thy mercy is great above the heavens"
+        ],
+        "6": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For thy mercy is great above the heavens (כִּי־גָדוֹל מֵעַל־שָׁמַיִם חַסְדֶּךָ, ki-gadol me'a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חַסְדֶּ֑ךָ: For thy mercy - kindness; by implication (towards god) piety; rarely (by oppositi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Colossians 3:12",
+          "anchorVerse": 6,
+          "referenceLabel": "Colossians 3:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Israel as \"God's beloved\" appears throughout Scripture (Deuteronomy 33:12, Psalm 60:5, 127:2,...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"\"That thy beloved may be delivered: save with thy right hand, and answer me.\" The appeal lema...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        6,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "save",
+          "delivered"
+        ],
+        "12": [
+          "Give us help from trouble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 54:1",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 54:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "\"That thy beloved may be delivered: save with thy right hand, and answer me.\" The appeal lema...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "יֵחָלְצ֣וּן: may be delivered - to pull off; hence (intensively) to strip, (reflexive) to dep...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "This verse confronts human insufficiency in stark terms: 'Give us help from trouble: for vain...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"For thy mercy is great above the heavens (כִּי־גָדוֹל מֵעַל־שָׁמַיִם חַסְדֶּךָ, ki-gadol me'a...\". Word-study detail reinforces \"אֲמִתֶּֽךָ׃: and thy truth - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "truth"
+        ],
+        "5": [
+          "Be thou exalted, O God, above the heavens"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For thy mercy is great above the heavens (כִּי־גָדוֹל מֵעַל־שָׁמַיִם חַסְדֶּךָ, ki-gadol me'a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 8:2: Of the Greeks, some have said that God is the...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֲמִתֶּֽךָ׃: and thy truth - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse appears in both Psalm 57:5 and 108:5, showing its liturgical significance. In the...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How do the paired attributes—mercy and truth—work together in God's dealings with you?\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 36:5",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 36:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How do the paired attributes—mercy and truth—work together in God's dealings with you?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חַסְדֶּ֑ךָ: For thy mercy - kindness; by implication (towards god) piety; rarely (by oppositi...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 13,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:46.578Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Clement of Rome on Clement's First Letter to the Corinthians, Chapter 10: Abraham, styled \"th...\". Word-study detail reinforces \"הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "15": [
+          "for all the land that you see I will give..."
+        ],
+        "16": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Unto the place of the altar, which he had made there at the first: and there Abram called on...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "עָ֥שָׂה: which he had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Clement of Rome on Clement's First Letter to the Corinthians, Chapter 10: Abraham, styled \"th...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָאָ֛רֶץ: For all the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): But Lot also, who was with Abram, had flocks of s...\". Word-study detail reinforces \"לָשֶׁ֥בֶת: not dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by...\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "who went with Abram"
+        ],
+        "6": [
+          "dwell"
+        ],
+        "7": [
+          "At that time the Canaanites and the Perizzites were dwelling in the land"
+        ],
+        "8": [
+          "Then Abram said to Lot, “Let there be no strife..."
+        ],
+        "9": [
+          "Is not the whole land before you"
+        ],
+        "12": [
+          "Abram settled in the land of Canaan, while Lot settled..."
+        ],
+        "13": [
+          "Now the men of Sodom were wicked, great sinners against..."
+        ],
+        "18": [
+          "So Abram moved his tent and came and settled by..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): But Lot also, who was with Abram, had flocks of s...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֶת: with - properly, nearness (used only as a preposition or an adverb), near; hence, genera...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the land was not able to bear them, that they might dwell together: for their substance w...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

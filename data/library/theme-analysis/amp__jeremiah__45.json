@@ -1,0 +1,113 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 45,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:48:00.045Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Theodoret of Cyrus on ON JEREMIAH 8:45: The Lord comforts Baruch, who was serving the prophet...\". Word-study detail reinforces \"וּמְנוּחָ֖ה: no rest - repose or (adverbially) peacefully; figuratively, consolation (specifi...\".",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "“Thus says the Lord, the God of Israel, to you,..."
+        ],
+        "3": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does the title 'God of Israel' comfort believers during national apostasy and judgment?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theodoret of Cyrus on ON JEREMIAH 8:45: The Lord comforts Baruch, who was serving the prophet...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וּמְנוּחָ֖ה: no rest - repose or (adverbially) peacefully; figuratively, consolation (specifi...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The word that Jeremiah the prophet spake unto Baruch the son of Neriah, when he had written t...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 36:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 36:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The word that Jeremiah the prophet spake unto Baruch the son of Neriah, when he had written t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Baruch laments 'Woe is me now! for the LORD hath added grief to my sorrow.' Faithful service...\". Word-study detail reinforces \"מַכְאֹבִ֑י: to my sorrow - anguish or (figuratively) affliction\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "sorrow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Baruch laments 'Woe is me now! for the LORD hath added grief to my sorrow.' Faithful service...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מַכְאֹבִ֑י: to my sorrow - anguish or (figuratively) affliction",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

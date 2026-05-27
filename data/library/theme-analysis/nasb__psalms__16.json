@@ -1,0 +1,335 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 16,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:42.128Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"The Lord.\" Here he assigns the reason f...\". Word-study detail reinforces \"אֲבָרֵ֗ךְ: I will bless - to kneel; by implication to bless god (as an act of adoration), and...\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Protect me, God, for I take refuge in You"
+        ],
+        "5": [
+          "inheritance"
+        ],
+        "6": [
+          "inheritance"
+        ],
+        "7": [
+          "bless"
+        ],
+        "10": [
+          "For You will not abandon my soul to Sheol"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Preserve me, O God: for in thee do I put my trust. This opening cry establishes the psalm's f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Pseudo-Athanasius on EXPOSITION ON PSALM 16: The words in [this psalm] are sung as if by the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The land inheritance system was fundamental to Israelite identity. Each tribe's nachalah (inh...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"The Lord.\" Here he assigns the reason f...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corru...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Protect me, God, for I take refuge in You"
+        ],
+        "3": [
+          "As for the saints who are on the earth, They..."
+        ],
+        "8": [
+          "I have set the Lord continually before me"
+        ],
+        "9": [
+          "Therefore my heart is glad and my glory rejoices"
+        ],
+        "10": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Preserve me, O God: for in thee do I put my trust. This opening cry establishes the psalm's f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalm he enumerated the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Hebrews 6:10",
+          "anchorVerse": 3,
+          "referenceLabel": "Hebrews 6:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "David delights in 'the saints in the land' and 'the excellent ones.' The Hebrew 'qadosh' (sai...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. This ve...\". Word-study detail reinforces \"לָבֶֽטַח׃: in hope - properly, a place of refuge; abstract, safety, both the fact (security)...\".",
+      "supportingVerses": [
+        1,
+        7,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "refuge"
+        ],
+        "7": [
+          "I will bless the Lord who has advised me"
+        ],
+        "9": [
+          "Therefore my heart is glad and my glory rejoices"
+        ],
+        "11": [
+          "You will make known to me the way of life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Preserve me, O God: for in thee do I put my trust. This opening cry establishes the psalm's f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Are you attentive to how God instructs you in quiet, reflective moments?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"I will bless.\" Above, the Psalmist set...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. This ve...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Maximus of Turin on SERMON 14:1: This is certainly said in the person of the Savior at the ti...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        3,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "I said to the Lord, “You are my Lord"
+        ],
+        "3": [
+          "earth"
+        ],
+        "9": [
+          "Therefore my heart is glad and my glory rejoices"
+        ],
+        "11": [
+          "You will make known to me the way of life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What areas of life do you still try to claim as 'self-made' rather than God-given?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"I said,\" etc. Here first he sets forth...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Isaiah 62:4",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 62:4"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 16: \"To the saints who are on His earth\" [Psalm 16:...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. This ve...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        7,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "Protect me, God, for I take refuge in You"
+        ],
+        "7": [
+          "bless the Lord"
+        ],
+        "9": [
+          "glory"
+        ],
+        "11": [
+          "You will make known to me the way of life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Preserve me, O God: for in thee do I put my trust. This opening cry establishes the psalm's f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalm he enumerated the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"I will bless.\" Above, the Psalmist set...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Psalms 30:12",
+          "anchorVerse": 9,
+          "referenceLabel": "Psalms 30:12"
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 16: \"For You will not leave My soul in hell.\" For Y...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Protect me, God, for I take refuge in You"
+        ],
+        "3": [
+          "As for the saints who are on the earth, They..."
+        ],
+        "10": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Preserve me, O God: for in thee do I put my trust. This opening cry establishes the psalm's f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Pseudo-Athanasius on EXPOSITION ON PSALM 16: The words in [this psalm] are sung as if by the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Hebrews 6:10",
+          "anchorVerse": 3,
+          "referenceLabel": "Hebrews 6:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "David delights in 'the saints in the land' and 'the excellent ones.' The Hebrew 'qadosh' (sai...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

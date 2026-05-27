@@ -1,0 +1,112 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 22,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:21.298Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But thou shalt in any wise let the dam go, and take the young to thee; that it may be well wi...\". Word-study detail reinforces \"תְּשַׁלַּח֙: But thou shalt in any wise - to send away, for, or out (in a great variety of ap...\".",
+      "supportingVerses": [
+        7,
+        10
+      ],
+      "versePhrases": {
+        "7": [
+          "wise"
+        ],
+        "10": [
+          "Thou shalt not plow with an ox and an ass..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "But thou shalt in any wise let the dam go, and take the young to thee; that it may be well wi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "תְּשַׁלַּח֙: But thou shalt in any wise - to send away, for, or out (in a great variety of ap...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How do we discern when physical Old Testament commands contain transferable spiritual princip...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, DEUTERONOMY 10: Man is forbidden to plow...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For he found her in the field, and the betrothed damsel cried, and there was none to save her...\". Word-study detail reinforces \"מוֹשִׁ֖יעַ: and there was none to save - properly, to be open, wide or free, i.e., (by implic...\".",
+      "supportingVerses": [
+        27
+      ],
+      "versePhrases": {
+        "27": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "For he found her in the field, and the betrothed damsel cried, and there was none to save her...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "מוֹשִׁ֖יעַ: and there was none to save - properly, to be open, wide or free, i.e., (by implic...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But if this thing be true, and the tokens of virginity be not found for the damsel —the law n...\". Word-study detail reinforces \"אֱמֶ֣ת: be true - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "But if this thing be true, and the tokens of virginity be not found for the damsel —the law n...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "אֱמֶ֣ת: be true - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 20
+        }
+      ]
+    }
+  ]
+}

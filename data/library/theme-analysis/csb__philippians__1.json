@@ -1,0 +1,395 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Philippians",
+  "chapter": 1,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:30.674Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Thomas Aquinas on Commentary on Philippians: Thirdly, help depends on our trust in God, becau...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        6,
+        7,
+        14,
+        16,
+        19,
+        20,
+        21,
+        23,
+        25,
+        26,
+        27,
+        29
+      ],
+      "versePhrases": {
+        "6": [
+          "I am sure of this, that he who started a..."
+        ],
+        "7": [
+          "Indeed, it is right for me to think this way..."
+        ],
+        "14": [
+          "confidence"
+        ],
+        "16": [
+          "These preach out of love, knowing that I am appointed..."
+        ],
+        "19": [
+          "because I know this will lead to my salvation through..."
+        ],
+        "20": [
+          "hope"
+        ],
+        "21": [
+          "For me, to live is Christ and to die is..."
+        ],
+        "23": [
+          "I am torn between the two"
+        ],
+        "25": [
+          "faith"
+        ],
+        "26": [
+          "so that, because of my coming to you again, your..."
+        ],
+        "27": [
+          "faith"
+        ],
+        "29": [
+          "believe"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does confidence in God's completing work differ from presumption or passivity?",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Philippians: I give thanks, he says, and \"I rejoice,\" i...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Even as it is meet for me to think this of you all, because I have you in my heart (καθώς ἐστ...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Ambrosiaster on EPISTLE TO THE PHILIPPIANS 1.7: Paul had always found the Philippians to be i...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on Philippians 2: \"Being filled with the fruits of righteousness wh...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        7,
+        10,
+        11,
+        27
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul and Timothy, servants of Christ Jesus"
+        ],
+        "7": [
+          "because I have you in my heart"
+        ],
+        "10": [
+          "blameless"
+        ],
+        "11": [
+          "righteousness"
+        ],
+        "27": [
+          "Just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "2 Corinthians 1:1",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Corinthians 1:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Philippians 1: Here, as writing to those of equal honor, he does...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἁγίοις: the saints - sacred (physically, pure, morally blameless or religious, ceremonially,...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Philippians: Then he begins the letter's message, in which he...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        11,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "thanks"
+        ],
+        "11": [
+          "praise",
+          "glory"
+        ],
+        "26": [
+          "so that, because of my coming to you again, your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "I thank my God upon every remembrance of you (Εὐχαριστῶ τῷ θεῷ μου, Eucharistō tō theō mou )—...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: Then he begins the letter's message, in which he...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "John 15:8",
+          "anchorVerse": 11,
+          "referenceLabel": "John 15:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Being filled with the fruits of righteousness, which are by Jesus Christ, unto the glory and...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Against Lying 16: There were in the times of the apostles some who were...\". Word-study detail reinforces \"ἀληθείᾳ: in truth - truth\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        9,
+        14,
+        18,
+        23,
+        25
+      ],
+      "versePhrases": {
+        "5": [
+          "because of your partnership in the gospel from the first..."
+        ],
+        "6": [
+          "I am sure of this, that he who started a..."
+        ],
+        "7": [
+          "Indeed, it is right for me to think this way..."
+        ],
+        "9": [
+          "And I pray this"
+        ],
+        "14": [
+          "Most of the brothers have gained confidence in the Lord..."
+        ],
+        "18": [
+          "true"
+        ],
+        "23": [
+          "I am torn between the two"
+        ],
+        "25": [
+          "Since I am persuaded of this, I know that I..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For your fellowship in the gospel from the first day until now (ἐπὶ τῇ κοινωνίᾳ ὑμῶν εἰς τὸ ε...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: Then when he says, for your partnership in the g...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The theology of divine preservation countered both legalistic self-effort and libertine presu...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Philippians: And being confident of this very thing, I take j...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on Homily on Philippians 2: \"And this,\" saith he, \"I pray, that your love may...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        8,
+        9,
+        11,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "8": [
+          "For God is my witness, how deeply I miss all..."
+        ],
+        "9": [
+          "love"
+        ],
+        "11": [
+          "filled with the fruit of righteousness that comes through Jesus..."
+        ],
+        "15": [
+          "To be sure, some preach Christ out of envy and..."
+        ],
+        "16": [
+          "love"
+        ],
+        "17": [
+          "the others proclaim Christ out of selfish ambition, not sincerely,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Ancient Mediterranean culture located emotions in bodily organs (heart, kidneys, bowels) rath...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Philippians: The Apostle calls God as his witness not b...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 Thessalonians 3:12",
+          "anchorVerse": 9,
+          "referenceLabel": "1 Thessalonians 3:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And this I pray, that your love may abound yet more and more in knowledge and in all judgment...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For unto you it is given in the behalf of Christ, not only to believe on him, but also to suf...\". Word-study detail reinforces \"θλῖψιν: affliction - pressure (literally or figuratively)\".",
+      "supportingVerses": [
+        7,
+        16,
+        17,
+        19,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "Indeed, it is right for me to think this way..."
+        ],
+        "16": [
+          "These preach out of love, knowing that I am appointed..."
+        ],
+        "17": [
+          "trouble"
+        ],
+        "19": [
+          "because I know this will lead to my salvation through..."
+        ],
+        "29": [
+          "suffer"
+        ],
+        "30": [
+          "since you are engaged in the same struggle that you..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Even as it is meet for me to think this of you all, because I have you in my heart (καθώς ἐστ...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily on Philippians 1: \"Even as it is right for me to be thus minded on...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The one preach Christ of contention, not sincerely, supposing to add affliction to my bonds (...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "John Chrysostom on Homily on Philippians 2: \"The one proclaim Christ of faction not sincerely...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 40,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:16.753Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Clothing Aaron in 'holy garments' (בִּגְדֵי הַקֹּדֶשׁ, bigdei haQodesh) and anointing him con...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        9,
+        10,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "9": [
+          "holy"
+        ],
+        "10": [
+          "holy",
+          "sanctify"
+        ],
+        "11": [
+          "sanctify"
+        ],
+        "13": [
+          "holy",
+          "sanctify"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 8:10",
+          "anchorVerse": 9,
+          "referenceLabel": "Leviticus 8:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The anointing oil (שֶׁמֶן הַמִּשְׁחָה, shemen haMishchah) consecrating the tabernacle and all...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "קֹֽדֶשׁ׃: thereof and it shall be holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Hebrews 7:26",
+          "anchorVerse": 10,
+          "referenceLabel": "Hebrews 7:26"
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Moses 'set the bread in order upon' the table (וַיַּעֲרֹךְ עָלָיו עֵרֶךְ לֶחֶם, vaya'arokh al...\". Word-study detail reinforces \"הַשֻּׁלְחָן֙: the table - a table (as spread out); by implication, a meal\".",
+      "supportingVerses": [
+        4,
+        22,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "4": [
+          "table"
+        ],
+        "22": [
+          "table"
+        ],
+        "23": [
+          "bread"
+        ],
+        "24": [
+          "table"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The table and showbread 'set in order' (וְעָרַכְתָּ אֶת־עֶרְכּוֹ, ve'arakhta et-erkho, arrang...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הַשֻּׁלְחָ֔ן: in the table - a table (as spread out); by implication, a meal",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "The table's placement 'on the side of the tabernacle northward, without the vail' positions p...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "הַשֻּׁלְחָן֙: the table - a table (as spread out); by implication, a meal",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Moses must place the ark of testimony (אֲרוֹן הָעֵדוּת, aron ha'edut) and 'cover the ark with...\". Word-study detail reinforces \"הָֽעֵדֻת֙: the testimony - testimony\".",
+      "supportingVerses": [
+        3,
+        5,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "testimony"
+        ],
+        "5": [
+          "testimony"
+        ],
+        "20": [
+          "testimony"
+        ],
+        "21": [
+          "testimony"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Moses must place the ark of testimony (אֲרוֹן הָעֵדוּת, aron ha'edut) and 'cover the ark with...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הָֽעֵד֑וּת: of the testimony - testimony",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הָֽעֵדֻ֑ת: of the testimony - testimony",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "The ark contained the second set of tablets (after Moses broke the first set, Exodus 32:19),...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Anointing the bronze altar and vessels 'sanctifies' (וְקִדַּשְׁתָּ, vekidashta) them, making...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        9,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "9": [
+          "holy"
+        ],
+        "10": [
+          "holy"
+        ],
+        "13": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 8:10",
+          "anchorVerse": 9,
+          "referenceLabel": "Leviticus 8:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The anointing oil (שֶׁמֶן הַמִּשְׁחָה, shemen haMishchah) consecrating the tabernacle and all...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "קֹֽדֶשׁ׃: thereof and it shall be holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Hebrews 7:26",
+          "anchorVerse": 10,
+          "referenceLabel": "Hebrews 7:26"
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Aaron and sons washing 'when they went into the tent...when they came near' teaches that serv...\". Word-study detail reinforces \"וּבְקָרְבָתָ֛ם: and when they came near - to approach (causatively, bring near) for whatever...\".",
+      "supportingVerses": [
+        1,
+        32,
+        35
+      ],
+      "versePhrases": {
+        "1": [
+          "And the Lord spake unto Moses, saying,"
+        ],
+        "32": [
+          "near"
+        ],
+        "35": [
+          "And Moses was not able to enter into the tent..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How should we prepare to meet with God, knowing He desires to dwell with His people?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "Aaron and sons washing 'when they went into the tent...when they came near' teaches that serv...",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "וּבְקָרְבָתָ֛ם: and when they came near - to approach (causatively, bring near) for whatever...",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The table and showbread 'set in order' (וְעָרַכְתָּ אֶת־עֶרְכּוֹ, ve'arakhta et-erkho, arrang...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        4,
+        25
+      ],
+      "versePhrases": {
+        "4": [
+          "light"
+        ],
+        "25": [
+          "And he lighted the lamps before the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The table and showbread 'set in order' (וְעָרַכְתָּ אֶת־עֶרְכּוֹ, ve'arakhta et-erkho, arrang...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "נֵֽרֹתֶֽיהָ׃: the lamps - a lamp (i.e., the burner) or light (literally or figuratively)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Exodus 40:4",
+          "anchorVerse": 25,
+          "referenceLabel": "Exodus 40:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "How does daily lamp tending illustrate that sustained spiritual light requires consistent spi...",
+          "anchorVerse": 25
+        }
+      ]
+    }
+  ]
+}

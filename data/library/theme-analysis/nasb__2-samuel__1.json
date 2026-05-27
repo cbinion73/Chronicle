@@ -1,0 +1,212 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 1,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:19.837Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Ye daughters of Israel, weep over Saul, who clothed you in scarlet, with other delights, who...\". Word-study detail reinforces \"בְּכֶ֑ינָה: weep over - to weep; generally to bemoan\".",
+      "supportingVerses": [
+        12,
+        17,
+        18,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "12": [
+          "And they mourned and wept and fasted until evening for..."
+        ],
+        "17": [
+          "mourning"
+        ],
+        "18": [
+          "mourning"
+        ],
+        "20": [
+          "Tell it not in Gath, Proclaim it not in the..."
+        ],
+        "21": [
+          "Mountains of Gilboa, May there be no dew nor rain..."
+        ],
+        "24": [
+          "weep"
+        ],
+        "25": [
+          "How the mighty have fallen in the midst of the..."
+        ],
+        "26": [
+          "I am distressed for you, my brother Jonathan"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And they mourned, and wept, and fasted until even, for Saul, and for Jonathan his son, and fo...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וַיִּבְכּ֔וּ: and wept - to weep; generally to bemoan",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And David lamented with this lamentation over Saul and over Jonathan his son: This verse cont...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "(Also he bade them teach the children of Judah the use of the bow: behold, it is written in t...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on HOMILIES ON 2 TIMOTHY 7: I will now cite from the Scriptures a wonderful i...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        23,
+        26
+      ],
+      "versePhrases": {
+        "23": [
+          "beloved"
+        ],
+        "26": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 Samuel 18:1",
+          "anchorVerse": 23,
+          "referenceLabel": "1 Samuel 18:1"
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 Samuel 20:17",
+          "anchorVerse": 26,
+          "referenceLabel": "1 Samuel 20:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "I am distressed for thee, my brother Jonathan: very pleasant hast thou been unto me: thy love...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "John Chrysostom on HOMILIES ON 2 TIMOTHY 7: I will now cite from the Scriptures a wonderful i...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the...\". Word-study detail reinforces \"יָרֵ֔אתָ: unto him How wast thou not afraid - to fear; morally to revere; causatively to frig...\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "יָרֵ֔אתָ: unto him How wast thou not afraid - to fear; morally to revere; causatively to frig...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"ע֥וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "ע֥וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Questions on the Book of Kings #7: \"And he commanded that the children of Judah be ta...\". Word-study detail reinforces \"לְלַמֵּ֥ד: them teach - properly, to goad, i.e., (by implication) to teach (the rod being an...\".",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "teach"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "(Also he bade them teach the children of Judah the use of the bow: behold, it is written in t...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Bede on Questions on the Book of Kings #7: \"And he commanded that the children of Judah be ta...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "לְלַמֵּ֥ד: them teach - properly, to goad, i.e., (by implication) to teach (the rod being an...",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

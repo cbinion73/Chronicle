@@ -1,0 +1,140 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 87,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:34.799Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 87: \"Her foundations are upon the holy hills\" [Psal...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "2": [
+          "The Lord loves the gates of Zion more than all..."
+        ],
+        "3": [
+          "Glorious things are said of you, city of God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 56:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 56:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "His foundation is in the holy mountains. This opening of Psalm 87 establishes God's sovereign...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 87: \"Her foundations are upon the holy hills\" [Psal...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קֹֽדֶשׁ׃: is in the holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 87: \"Her foundations are upon the holy hills\" [Psal...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "3": [
+          "Glorious things are said of you, city of God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 56:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 56:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "His foundation is in the holy mountains. This opening of Psalm 87 establishes God's sovereign...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 87: \"Her foundations are upon the holy hills\" [Psal...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קֹֽדֶשׁ׃: is in the holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"As well the singers as the players on instruments shall be there: all my springs are in thee....\". Word-study detail reinforces \"וְשָׁרִ֥ים: As well the singers - to sing\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "As well the singers as the players on instruments shall be there: all my springs are in thee....",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 87: So thus, after drawing together and mingling ev...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְשָׁרִ֥ים: As well the singers - to sing",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

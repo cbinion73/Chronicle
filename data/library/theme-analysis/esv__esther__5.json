@@ -1,0 +1,158 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Esther",
+  "chapter": 5,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:18.060Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Esther's approach: 'And it was so, when the king saw Esther the queen standing in the court,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "king",
+          "throne"
+        ],
+        "2": [
+          "king",
+          "scepter"
+        ],
+        "3": [
+          "kingdom",
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "kingdom",
+          "king"
+        ],
+        "7": [
+          "Then Esther answered, “My wish and my request is"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Esther 6:4",
+          "anchorVerse": 1,
+          "referenceLabel": "Esther 6:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Esther's approach to the king 'on the third day' wearing royal robes demonstrates both courag...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: What can it mean that on the third day Esther dressed...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְ֠הַמֶּלֶךְ: and the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Rabanus Maurus on EXPLANATION ON THE BOOK OF ESTHER 8: He, who held out to that queen the gol...\".",
+      "supportingVerses": [
+        2,
+        14
+      ],
+      "versePhrases": {
+        "2": [
+          "And when the king saw Queen Esther standing in the..."
+        ],
+        "14": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Persian court protocol made unsummoned approach to the king capital offense unless he extende...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Rabanus Maurus on EXPLANATION ON THE BOOK OF ESTHER 8: He, who held out to that queen the gol...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Then said Zeresh his wife and all his friends unto him, Let a gallows be made of fifty cubits...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

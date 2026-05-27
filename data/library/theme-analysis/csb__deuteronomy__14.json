@@ -1,0 +1,289 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 14,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:21.787Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Of all clean birds ye shall eat —This permissive statement (תָּאכֵלוּ, tokhelū , 'you may eat...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        4,
+        11,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "4": [
+          "These are the animals you may eat"
+        ],
+        "11": [
+          "clean"
+        ],
+        "20": [
+          "clean"
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Deuteronomy 7:6",
+          "anchorVerse": 2,
+          "referenceLabel": "Deuteronomy 7:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For thou art an holy people unto the LORD thy God, and the LORD hath chosen thee to be a pecu...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "קָדוֹשׁ֙: For thou art an holy - sacred (ceremonially or morally); (as noun) god (by eminence...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Cattle, sheep, and goats formed the core of Israel's agricultural economy. These animals prov...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"In what ways do you 'rejoice before the LORD' with the material blessings He's provided?\". Word-study detail reinforces \"וְנַֽחֲלָ֖ה: nor inheritance - properly, something inherited, i.e., (abstractly) occupancy, o...\".",
+      "supportingVerses": [
+        26,
+        27,
+        29
+      ],
+      "versePhrases": {
+        "26": [
+          "want"
+        ],
+        "27": [
+          "portion"
+        ],
+        "29": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "In what ways do you 'rejoice before the LORD' with the material blessings He's provided?",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "And the Levite that is within thy gates; thou shalt not forsake him —The festival joy must in...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "וְנַֽחֲלָ֖ה: nor inheritance - properly, something inherited, i.e., (abstractly) occupancy, o...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "וְנַֽחֲלָ֜ה: nor inheritance - properly, something inherited, i.e., (abstractly) occupancy, o...",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the Levite, and the stranger, and the fatherless, and the widow...shall come, and shall e...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        27,
+        29
+      ],
+      "versePhrases": {
+        "27": [
+          "inheritance"
+        ],
+        "29": [
+          "inheritance",
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "The Levites received no tribal land allotment, depending entirely on the other tribes' tithes...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "וְנַֽחֲלָ֖ה: nor inheritance - properly, something inherited, i.e., (abstractly) occupancy, o...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Deuteronomy 15:10",
+          "anchorVerse": 29,
+          "referenceLabel": "Deuteronomy 15:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "And the Levite, and the stranger, and the fatherless, and the widow...shall come, and shall e...",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ancient Near Eastern festivals were somber sacrificial rituals appeasing angry deities. Israe...\".",
+      "supportingVerses": [
+        23,
+        26
+      ],
+      "versePhrases": {
+        "23": [
+          "dwell",
+          "presence"
+        ],
+        "26": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "Thou shalt eat before the LORD thy God, in the place which he shall choose —The Festival Tith...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Ancient Near Eastern festivals were somber sacrificial rituals appeasing angry deities. Israe...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"These ye shall eat of all that are in the waters: all that have fins and scales shall ye eat....\". Word-study detail reinforces \"הָֽאֲדָמָֽה׃: the earth - soil (from its general redness)\".",
+      "supportingVerses": [
+        2,
+        9
+      ],
+      "versePhrases": {
+        "2": [
+          "earth"
+        ],
+        "9": [
+          "“You may eat everything from the water that has fins..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For thou art an holy people unto the LORD thy God, and the LORD hath chosen thee to be a pecu...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הָֽאֲדָמָֽה׃: the earth - soil (from its general redness)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "These ye shall eat of all that are in the waters: all that have fins and scales shall ye eat....",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "בַּמָּ֑יִם: of all that are in the waters - water; figuratively, juice; by euphemism, urine,...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"For thou art an holy people unto the LORD thy God, and the LORD hath chosen thee to be a pecu...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Deuteronomy 7:6",
+          "anchorVerse": 2,
+          "referenceLabel": "Deuteronomy 7:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For thou art an holy people unto the LORD thy God, and the LORD hath chosen thee to be a pecu...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "קָדוֹשׁ֙: For thou art an holy - sacred (ceremonially or morally); (as noun) god (by eminence...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Deuteronomy 14:2",
+          "anchorVerse": 21,
+          "referenceLabel": "Deuteronomy 14:2"
+        }
+      ]
+    }
+  ]
+}

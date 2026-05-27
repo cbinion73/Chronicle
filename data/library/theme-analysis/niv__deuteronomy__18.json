@@ -1,0 +1,160 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 18,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:33.129Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The priests the Levites, and all the tribe of Levi, shall have no part nor inheritance with I...\". Word-study detail reinforces \"וְנַֽחֲלָת֖וֹ: and his inheritance - properly, something inherited, i.e., (abstractly) occupa...\".",
+      "supportingVerses": [
+        1,
+        2,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "inheritance"
+        ],
+        "2": [
+          "promised",
+          "inheritance"
+        ],
+        "15": [
+          "The Lord your God will raise up for you a..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The priests the Levites, and all the tribe of Levi, shall have no part nor inheritance with I...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְנַֽחֲלָת֖וֹ: and his inheritance - properly, something inherited, i.e., (abstractly) occupa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse establishes the unique inheritance of the Levitical priesthood. The Hebrew phrase...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "נַֽחֲלָת֔וֹ: Therefore shall they have no inheritance - properly, something inherited, i.e.,...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What does the command to 'hearken unto him' mean for how we receive and respond to Christ's w...\". Word-study detail reinforces \"אֲצַוֶּֽנּוּ׃: unto them all that I shall command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        15,
+        18
+      ],
+      "versePhrases": {
+        "15": [
+          "The Lord your God will raise up for you a..."
+        ],
+        "18": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "What does the command to 'hearken unto him' mean for how we receive and respond to Christ's w...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "תִּשְׁמָעֽוּן׃: like unto me unto him ye shall hearken - to hear intelligently (often with im...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "אֲצַוֶּֽנּוּ׃: unto them all that I shall command - (intensively) to constitute, enjoin",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Then he shall minister in the name of the LORD his God (וְשֵׁרֵת בְּשֵׁם יְהוָה אֱלֹהָיו)—the...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Then he shall minister in the name of the LORD his God (וְשֵׁרֵת בְּשֵׁם יְהוָה אֱלֹהָיו)—the...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thou shalt be perfect with the LORD thy God —The Hebrew tamim (perfect) means whole, complete...\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "blameless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Thou shalt be perfect with the LORD thy God —The Hebrew tamim (perfect) means whole, complete...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        22
+      ],
+      "versePhrases": {
+        "22": [
+          "true"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

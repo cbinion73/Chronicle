@@ -1,0 +1,367 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 145,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:47.372Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 145: For how great things besides has His boundless...\". Word-study detail reinforces \"יוֹד֣וּךָ: shall praise - physically, to throw (a stone, an arrow) at or away; especially to...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        7,
+        10,
+        11,
+        12,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "praise"
+        ],
+        "3": [
+          "The Lord is great and is highly praised"
+        ],
+        "4": [
+          "One generation will declare your works to the next and..."
+        ],
+        "7": [
+          "sing"
+        ],
+        "10": [
+          "the faithful will bless you"
+        ],
+        "11": [
+          "glory"
+        ],
+        "12": [
+          "informing all people of your mighty acts and of the..."
+        ],
+        "21": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Every day will I bless thee; and I will praise thy name for ever and ever. David commits to d...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 145: Every day will I bless thee; and I will praise...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וַאֲהַלְלָ֥ה: thee and I will praise - to be clear (orig. of sound, but usually of color); to...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse emphasizes God's incomparable greatness: 'Great is the LORD, and greatly to be pra...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on Homilies on the Gospels 2:14: But we must look attentively at this—that not everyone...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        10,
+        12,
+        13,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "The Lord is great and is highly praised"
+        ],
+        "7": [
+          "testimony"
+        ],
+        "8": [
+          "faithful"
+        ],
+        "10": [
+          "faithful"
+        ],
+        "12": [
+          "informing all people of your mighty acts and of the..."
+        ],
+        "13": [
+          "faithful"
+        ],
+        "17": [
+          "faithful"
+        ],
+        "18": [
+          "The Lord is near all who call out to him,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In ancient Near Eastern royal ideology, king-worship involved formal declarations of the mona...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ambrose of Milan on Exposition of the Christian Faith 1.10.63: You cannot, then, heretic [Ari...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The remembrance ( zeker ) of God's goodness was central to Israelite worship, formalized in f...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How should observing nature's testimony to God's glory stimulate more fervent worship?",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"This verse celebrates God's character through multiple attributes: 'The LORD is gracious, and...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        8,
+        9,
+        13,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "8": [
+          "gracious"
+        ],
+        "9": [
+          "compassion"
+        ],
+        "13": [
+          "gracious"
+        ],
+        "14": [
+          "The Lord helps all who fall"
+        ],
+        "19": [
+          "He fulfills the desires of those who fear him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Numbers 14:18",
+          "anchorVerse": 8,
+          "referenceLabel": "Numbers 14:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This verse celebrates God's character through multiple attributes: 'The LORD is gracious, and...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 145: The LORD is gracious, and full of compassion;...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "חַנּ֣וּן: is gracious - gracious",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 145: \"That they may make known to the sons of men Y...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "King"
+        ],
+        "11": [
+          "kingdom"
+        ],
+        "12": [
+          "kingdom"
+        ],
+        "13": [
+          "kingdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 45:6",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 45:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse of Psalm 145 declares the fundamental human duty: 'I will extol thee, my G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 145: I will extol thee, my God, O king; and I will...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֑לֶךְ: O king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Every day will I bless thee; and I will praise thy name for ever and ever. David commits to d...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        2,
+        10,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "bless"
+        ],
+        "2": [
+          "bless"
+        ],
+        "10": [
+          "bless"
+        ],
+        "21": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 34:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 34:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening verse of Psalm 145 declares the fundamental human duty: 'I will extol thee, my G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 145: I will extol thee, my God, O king; and I will...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַאֲבָרֲכָ֥ה: and I will bless - to kneel; by implication to bless god (as an act of adoratio...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The LORD is righteous in all his ways, and holy in all his works. This comprehensive statemen...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        7,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "7": [
+          "righteousness"
+        ],
+        "16": [
+          "You open your hand and satisfy the desire of every..."
+        ],
+        "17": [
+          "righteous"
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 51:14",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 51:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "They shall abundantly utter the memory of thy great goodness, and shall sing of thy righteous...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 145: They shall abundantly utter the memory of thy...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְצִדְקָתְךָ֥: of thy righteousness - rightness (abstractly), subjectively (rectitude), objec...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 8,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:54.352Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Who is like the wise man? And who knows what things me...\". Word-study detail reinforces \"חָכְמַ֤ת: wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "wisdom",
+          "wise"
+        ],
+        "2": [
+          "Keep the king’s command because of your oath made before..."
+        ],
+        "3": [
+          "Do not be in a hurry"
+        ],
+        "4": [
+          "For the king’s word is authoritative, and who can say..."
+        ],
+        "5": [
+          "wise"
+        ],
+        "6": [
+          "For every activity there is a right time and procedure,..."
+        ],
+        "7": [
+          "Yet no one knows what will happen because who can..."
+        ],
+        "12": [
+          "Although a sinner does evil a hundred times and prolongs..."
+        ],
+        "16": [
+          "wisdom"
+        ],
+        "17": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Who is as the wise man? and who knoweth the interpretation of a thing? These rhetorical quest...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Who is like the wise man? And who knows what things me...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חָכְמַ֤ת: wisdom - wisdom (in a good sense)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I counsel thee to keep the king's commandment, and that in regard of the oath of God. The Pre...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"There is a vanity which is done upon the earth —the Preacher returns to his key term 'hevel'...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "5": [
+          "and a wise heart knows the right time and procedure"
+        ],
+        "9": [
+          "All this I have seen, applying my mind to all..."
+        ],
+        "10": [
+          "holy"
+        ],
+        "11": [
+          "the heart of people is filled with the desire to commit evil"
+        ],
+        "12": [
+          "Although a sinner does evil a hundred times and prolongs..."
+        ],
+        "14": [
+          "righteous"
+        ],
+        "15": [
+          "So I commended enjoyment because there is nothing better for..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Whoso keepeth the commandment shall feel no evil thing. The Hebrew shomer mitzvah (שׁוֹמֵר מִ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"He who obeys the commandment will know no evil; and a...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "All this have I seen, and applied my heart unto every work that is done under the sun. The Pr...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"All this have I seen; and I applied my mind to see eve...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...\". Word-study detail reinforces \"מִצְוָ֔ה: the commandment - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "command",
+          "Keep"
+        ],
+        "4": [
+          "For the king’s word is authoritative, and who can say..."
+        ],
+        "5": [
+          "command"
+        ],
+        "13": [
+          "However, it will not go well with the wicked, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I counsel thee to keep the king's commandment, and that in regard of the oath of God. The Pre...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "שְׁמֹ֔ר: I counsel thee to keep - properly, to hedge about (as with thorns), i.e., guard; gen...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Where the word of a king is, there is power: and who may say unto him, What doest thou? This...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"There is a futility that takes place on earth: sometim...\". Word-study detail reinforces \"הָאָרֶץ֒: upon the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        11,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "11": [
+          "Because the sentence against an evil act is not carried..."
+        ],
+        "14": [
+          "earth"
+        ],
+        "16": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Israel's history demonstrates this pattern repeatedly: extended periods of covenant unfaithfu...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "John Cassian on CONFERENCE 2:11: Until now, never confuting him with your own answer or that...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "There is a vanity which is done upon the earth —the Preacher returns to his key term 'hevel'...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"There is a futility that takes place on earth: sometim...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"There is a futility that takes place on earth: sometim...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        10,
+        14
+      ],
+      "versePhrases": {
+        "10": [
+          "holy"
+        ],
+        "14": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "I saw the wicked buried, who had come and gone from the place of the holy —the Hebrew 'qadosh...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"All this have I seen; and I applied my mind to see eve...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "קָדוֹשׁ֙: of the holy - sacred (ceremonially or morally); (as noun) god (by eminence), an ang...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Ecclesiastes 7:15",
+          "anchorVerse": 14,
+          "referenceLabel": "Ecclesiastes 7:15"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "3": [
+          "Do not be in a hurry"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "The one who keeps a command will not experience anything..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 24:21",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 24:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I counsel thee to keep the king's commandment, and that in regard of the oath of God. The Pre...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֣לֶךְ: the king's - a king",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

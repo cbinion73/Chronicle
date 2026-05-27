@@ -1,0 +1,293 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 2,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:19.879Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"And the time that David was king in Hebron over the house of Judah was seven years and six mo...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15
+      ],
+      "versePhrases": {
+        "4": [
+          "king"
+        ],
+        "5": [
+          "So David sent messengers to the men of Jabesh-gilead, and..."
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "But Abner the son of Ner, commander of Saul’s army,..."
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "Now Abner the son of Ner, went from Mahanaim to..."
+        ],
+        "15": [
+          "So they got up and went over by count, twelve..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 5:5",
+          "anchorVerse": 4,
+          "referenceLabel": "2 Samuel 5:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And the men of Judah came, and there they anointed David king over the house of Judah. And th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לְמֶ֖לֶךְ: king - a king",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And David sent messengers unto the men of Jabesh-gilead, and said unto them, Blessed be ye of...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on On the Care of the Dead 10.11: The martyrs of Christ in their strivings...\". Word-study detail reinforces \"חֶ֣סֶד: kindness - kindness; by implication (towards god) piety; rarely (by opposition) repro...\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "kindness"
+        ],
+        "6": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And David sent messengers unto the men of Jabesh-gilead, and said unto them, Blessed be ye of...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on On the Care of the Dead 10.11: The martyrs of Christ in their strivings...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הַחֶ֣סֶד: this kindness - kindness; by implication (towards god) piety; rarely (by opposition...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And now the LORD shew kindness and truth unto you: and I also will requite you this kindness,...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, nei...\". Word-study detail reinforces \"וַיַּֽעַמְדוּ֙: stood still - to stand, in various relations (literal and figurative, intrans...\".",
+      "supportingVerses": [
+        23,
+        28
+      ],
+      "versePhrases": {
+        "23": [
+          "still"
+        ],
+        "28": [
+          "So Joab blew the trumpet, and all the people halted..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "Howbeit he refused to turn aside: wherefore Abner with the hinder end of the spear smote him...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "וַֽיַּעֲמֹֽדוּ׃: stood still - to stand, in various relations (literal and figurative, intran...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, nei...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 28 word study",
+          "detail": "וַיַּֽעַמְדוּ֙: stood still - to stand, in various relations (literal and figurative, intrans...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The historical setting of 2 Samuel 2 occurs during David's reign (circa 1010-970 BCE) over Is...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        9,
+        14
+      ],
+      "versePhrases": {
+        "9": [
+          "And he made him king over Gilead, over the Ashurites,..."
+        ],
+        "14": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The historical setting of 2 Samuel 2 occurs during David's reign (circa 1010-970 BCE) over Is...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The historical setting of 2 Samuel 2 occurs during David's reign (circa 1010-970 BCE) over Is...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on On the Care of the Dead 10.11: The martyrs of Christ in their strivings...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "So David sent messengers to the men of Jabesh-gilead, and..."
+        ],
+        "6": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "In what specific ways can you apply this truth to your current circumstances and relationship...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on On the Care of the Dead 10.11: The martyrs of Christ in their strivings...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Proverbs 14:22",
+          "anchorVerse": 6,
+          "referenceLabel": "Proverbs 14:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "In what specific ways can you apply this truth to your current circumstances and relationship...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And made him king over Gilead, and over the Ashurites, and over Jezreel, and over Ephraim, an...\". Word-study detail reinforces \"וַיַּמְלִכֵ֙הוּ֙: And made him king - to reign; hence (by implication) to take counsel\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And made him king over Gilead, and over the Ashurites, and over Jezreel, and over Ephraim, an...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וַיַּמְלִכֵ֙הוּ֙: And made him king - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

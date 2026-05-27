@@ -1,0 +1,541 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 John",
+  "chapter": 2,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:37.415Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 23 verses. Commentary leans on \"I have not written unto you because ye know not the truth, but because ye know it, and that n...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "1": [
+          "My little children, I am writing you these things so..."
+        ],
+        "2": [
+          "He himself is the atoning sacrifice for our sins, and..."
+        ],
+        "3": [
+          "This is how we know that we know him"
+        ],
+        "4": [
+          "truth"
+        ],
+        "5": [
+          "But whoever keeps his word, truly in him the love..."
+        ],
+        "7": [
+          "Dear friends, I am not writing you a new command..."
+        ],
+        "8": [
+          "true"
+        ],
+        "9": [
+          "The one who says he is in the light but..."
+        ],
+        "10": [
+          "The one who loves his brother or sister remains in..."
+        ],
+        "11": [
+          "But the one who hates his brother or sister is..."
+        ],
+        "14": [
+          "I have written to you, children, because you have come..."
+        ],
+        "15": [
+          "Do not love the world or the things in the..."
+        ],
+        "18": [
+          "Children, it is the last hour"
+        ],
+        "19": [
+          "They went out from us, but they did not belong..."
+        ],
+        "20": [
+          "truth"
+        ],
+        "21": [
+          "truth"
+        ],
+        "22": [
+          "Who is the liar, if not the one who denies..."
+        ],
+        "23": [
+          "No one who denies the Son has the Father"
+        ],
+        "24": [
+          "What you have heard from the beginning is to remain..."
+        ],
+        "25": [
+          "And this is the promise that he himself made to..."
+        ],
+        "26": [
+          "I have written these things to you concerning those who..."
+        ],
+        "27": [
+          "true"
+        ],
+        "28": [
+          "So now, little children, remain in him so that when..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The concept of advocacy was familiar in Roman legal culture. Wealthy patrons served as advoca...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Ten Homilies on 1 John 1: And lest haply he should seem to have given i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on From the Latin Translation of Cassiodorus: \"And not only for our sin...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the Greco-Roman world, religious knowledge was often separated from ethical behavior. Gree...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Again, a new commandment I write unto you, which thing is true in him and in you: because the...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        5,
+        8,
+        9,
+        10,
+        11,
+        15,
+        17,
+        18,
+        19,
+        25,
+        29
+      ],
+      "versePhrases": {
+        "2": [
+          "He himself is the atoning sacrifice for our sins, and..."
+        ],
+        "5": [
+          "made"
+        ],
+        "8": [
+          "light"
+        ],
+        "9": [
+          "light"
+        ],
+        "10": [
+          "light"
+        ],
+        "11": [
+          "But the one who hates his brother or sister is..."
+        ],
+        "15": [
+          "Do not love the world or the things in the..."
+        ],
+        "17": [
+          "And the world with its lust is passing away, but..."
+        ],
+        "18": [
+          "Children, it is the last hour"
+        ],
+        "19": [
+          "made"
+        ],
+        "25": [
+          "made"
+        ],
+        "29": [
+          "If you know that he is righteous, you know this..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Propitiation was central to Old Testament worship. The Day of Atonement's sacrifice ( kappore...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on From the Latin Translation of Cassiodorus: \"And not only for our sin...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Ephesians 5:8",
+          "anchorVerse": 8,
+          "referenceLabel": "Ephesians 5:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Again, a new commandment I write unto you, which thing is true in him and in you: because the...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"The concept of love being \"perfected\" or \"completed\" through obedience was countercultural. G...\". Word-study detail reinforces \"Ἔγνωκα: I know - to \"know\" (absolutely) in a great variety of applications and with many impl...\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        15,
+        17,
+        18,
+        24,
+        28
+      ],
+      "versePhrases": {
+        "3": [
+          "commands",
+          "keep"
+        ],
+        "4": [
+          "commands",
+          "keep"
+        ],
+        "5": [
+          "But whoever keeps his word"
+        ],
+        "6": [
+          "The one who says he remains in him should walk..."
+        ],
+        "7": [
+          "command"
+        ],
+        "8": [
+          "command"
+        ],
+        "15": [
+          "Do not love the world or the things in the..."
+        ],
+        "17": [
+          "And the world with its lust is passing away, but..."
+        ],
+        "18": [
+          "Children, it is the last hour"
+        ],
+        "24": [
+          "What you have heard from the beginning is to remain..."
+        ],
+        "28": [
+          "So now, little children, remain in him so that when..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And hereby we do know that we know him, if we keep his commandments. John introduces the firs...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyprian on Epistle XXIV: To these glorious beginnings of confession and the omens of a victor...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ἐγνώκαμεν: we do know - to \"know\" (absolutely) in a great variety of applications and with ma...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The gap between religious profession and ethical practice was widespread in the ancient world...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"If ye know that he is righteous, ye know that every one that doeth righteousness is born of h...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        17,
+        18,
+        20,
+        21,
+        27,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous"
+        ],
+        "2": [
+          "He himself is the atoning sacrifice for our sins, and..."
+        ],
+        "3": [
+          "This is how we know that we know him"
+        ],
+        "5": [
+          "But whoever keeps his word, truly in him the love..."
+        ],
+        "6": [
+          "just"
+        ],
+        "17": [
+          "And the world with its lust is passing away, but..."
+        ],
+        "18": [
+          "Children, it is the last hour"
+        ],
+        "20": [
+          "Holy"
+        ],
+        "21": [
+          "I have not written to you because you don’t know..."
+        ],
+        "27": [
+          "just"
+        ],
+        "29": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "2 Corinthians 5:21",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Corinthians 5:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "My little children, these things write I unto you, that ye sin not. And if any man sin, we ha...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 7: For in constant weeping, in o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "δίκαιον·: the righteous - equitable (in character or act); by implication, innocent, holy (ab...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Augustine of Hippo on Ten Homilies on 1 John 2: Ye have heard that \"if any man love the world...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "3": [
+          "This is how we know that we know him"
+        ],
+        "5": [
+          "love"
+        ],
+        "6": [
+          "The one who says he remains in him should walk..."
+        ],
+        "7": [
+          "Dear friends, I am not writing you a new command..."
+        ],
+        "8": [
+          "Yet I am writing you a new command, which is..."
+        ],
+        "9": [
+          "The one who says he is in the light but..."
+        ],
+        "10": [
+          "The one who loves his brother or sister remains in the light"
+        ],
+        "11": [
+          "But the one who hates his brother or sister is..."
+        ],
+        "13": [
+          "I am writing to you, fathers, because you have come..."
+        ],
+        "15": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the Greco-Roman world, religious knowledge was often separated from ethical behavior. Gree...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Ten Homilies on 1 John 1: \"And in this we do know Him, if we keep His c...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "John 14:23",
+          "anchorVerse": 5,
+          "referenceLabel": "John 14:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The concept of love being \"perfected\" or \"completed\" through obedience was countercultural. G...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"If ye know that he is righteous, ye know that every one that doeth righteousness is born of h...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        18,
+        20,
+        21,
+        27,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous"
+        ],
+        "2": [
+          "He himself is the atoning sacrifice for our sins, and..."
+        ],
+        "6": [
+          "The one who says he remains in him should walk..."
+        ],
+        "18": [
+          "Children, it is the last hour"
+        ],
+        "20": [
+          "Holy"
+        ],
+        "21": [
+          "I have not written to you because you don’t know..."
+        ],
+        "27": [
+          "As for you, the anointing you received from him remains..."
+        ],
+        "28": [
+          "So now, little children, remain in him so that when..."
+        ],
+        "29": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "2 Corinthians 5:21",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Corinthians 5:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "My little children, these things write I unto you, that ye sin not. And if any man sin, we ha...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 7: For in constant weeping, in o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "δίκαιον·: the righteous - equitable (in character or act); by implication, innocent, holy (ab...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

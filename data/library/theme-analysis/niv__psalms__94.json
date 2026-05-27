@@ -1,0 +1,381 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 94,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:38.076Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 94: Let us now attend to the Psalm. \"The Lord is th...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        10,
+        12,
+        13,
+        15,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord is a God who avenges"
+        ],
+        "2": [
+          "Judge"
+        ],
+        "3": [
+          "How long, Lord, will the wicked, how long will the..."
+        ],
+        "10": [
+          "punish"
+        ],
+        "12": [
+          "Blessed is the one you discipline, Lord, the one you..."
+        ],
+        "13": [
+          "you grant them relief from days of trouble, till a..."
+        ],
+        "15": [
+          "Judgment"
+        ],
+        "20": [
+          "Can a corrupt throne be allied with you— a throne..."
+        ],
+        "21": [
+          "condemn"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This imprecatory psalm appeals to God as 'the God to whom vengeance belongeth' (El neqamot—li...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 94: Let us now attend to the Psalm. \"The Lord is th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 7:6",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 7:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Addressing God as 'Judge of the earth' (shofet ha'arets) appeals to His universal jurisdictio...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 94: \"Until righteousness,\" he says, \"turn again unt...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        13,
+        15,
+        20,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord is a God who avenges"
+        ],
+        "3": [
+          "How long, Lord, will the wicked, how long will the..."
+        ],
+        "4": [
+          "They pour out arrogant words"
+        ],
+        "13": [
+          "you grant them relief from days of trouble, till a..."
+        ],
+        "15": [
+          "righteousness",
+          "upright"
+        ],
+        "20": [
+          "Can a corrupt throne be allied with you— a throne..."
+        ],
+        "21": [
+          "righteous"
+        ],
+        "23": [
+          "He will repay them for their sins and destroy them..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does it mean to pray for God's justice while also extending forgiveness to those who wro...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 94: Let us now attend to the Psalm. \"The Lord is th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Israel's history included repeated periods when righteous suffered under wicked rulers, creat...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 94: \"Lord, how long shall the ungodly, how long sha...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For the LORD will not cast off his people, neither will he forsake his inheritance (כִּי לֹא־...\". Word-study detail reinforces \"וְ֝נַחֲלָת֗וֹ: his inheritance - properly, something inherited, i.e., (abstractly) occupancy,...\".",
+      "supportingVerses": [
+        5,
+        12,
+        13,
+        14,
+        15,
+        20
+      ],
+      "versePhrases": {
+        "5": [
+          "inheritance"
+        ],
+        "12": [
+          "Blessed is the one you discipline"
+        ],
+        "13": [
+          "you grant them relief from days of trouble, till a..."
+        ],
+        "14": [
+          "inheritance"
+        ],
+        "15": [
+          "Judgment will again be founded on righteousness, and all the..."
+        ],
+        "20": [
+          "Can a corrupt throne be allied with you— a throne..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Israel as God's chosen people (Exodus 19:5-6, Deuteronomy 7:6) meant that their oppression wa...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The psalm declares blessing: \"Blessed is the man whom thou chastenest, O LORD, and teachest h...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Augustine of Hippo on ON THE TRINITY 13:13.17: How much power in any case can mortals have? L...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "That thou mayest give him rest from the days of adversity (לְהַשְׁקִיט לוֹ מִימֵי רָע)—God's...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 94: \"Until righteousness,\" he says, \"turn again unt...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3,
+        4,
+        15,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "How long, Lord, will the wicked, how long will the..."
+        ],
+        "4": [
+          "They pour out arrogant words"
+        ],
+        "15": [
+          "righteousness"
+        ],
+        "20": [
+          "Can a corrupt throne be allied with you— a throne..."
+        ],
+        "21": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Israel's history included repeated periods when righteous suffered under wicked rulers, creat...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 94: \"Lord, how long shall the ungodly, how long sha...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does the speech of those around you reveal their hearts toward God and righteousness?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 94: \"Lord, how long shall the ungodly, how long sha...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 94: \"Will You have anything to do with the stool of...\". Word-study detail reinforces \"אָֽוֶן׃: of iniquity - strictly nothingness; also trouble, vanity, wickedness; specifically a...\".",
+      "supportingVerses": [
+        3,
+        4,
+        13,
+        15,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "How long, Lord, will the wicked, how long will the..."
+        ],
+        "4": [
+          "They pour out arrogant words"
+        ],
+        "13": [
+          "trouble"
+        ],
+        "15": [
+          "Judgment will again be founded on righteousness, and all the..."
+        ],
+        "20": [
+          "Can a corrupt throne be allied with you— a throne..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How can honest lament before God deepen your faith rather than undermine it?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 94: \"Lord, how long shall the ungodly, how long sha...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 94: \"Lord, how long shall the ungodly, how long sha...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אָֽוֶן׃: of iniquity - strictly nothingness; also trouble, vanity, wickedness; specifically a...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on LETTER 214: Take care, then, to avoid what the great apostle sets forth...\". Word-study detail reinforces \"דָּֽעַת׃: knowledge - knowledge\".",
+      "supportingVerses": [
+        8,
+        10,
+        11,
+        20
+      ],
+      "versePhrases": {
+        "8": [
+          "wise"
+        ],
+        "10": [
+          "knowledge"
+        ],
+        "11": [
+          "The Lord knows all human plans"
+        ],
+        "20": [
+          "Can a corrupt throne be allied with you— a throne..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Israel's wisdom tradition (Proverbs, Ecclesiastes) made clear distinctions between those who...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on LETTER 214: Take care, then, to avoid what the great apostle sets forth...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בִּ֭ינוּ: Understand - to separate mentally (or distinguish), i.e., (generally) understand",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "He that chastiseth the heathen, shall not he correct? (הֲיֹסֵר גּוֹיִם)—The rhetorical questi...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 21,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:24.986Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on David's census and divine judg...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        18,
+        23,
+        24,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "18": [
+          "Then the angel of the Lord commanded Gad to say..."
+        ],
+        "23": [
+          "king"
+        ],
+        "24": [
+          "King"
+        ],
+        "25": [
+          "So David gave Ornan six hundred shekels of gold by..."
+        ],
+        "26": [
+          "Then David built an altar there to the Lord, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's census and divine judg...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַמֶּ֔לֶךְ: the king - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's census and divine judg...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הַמֶּ֖לֶךְ: Nevertheless the king's - a king",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"הָאָ֙רֶץ֙: between the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        16,
+        29
+      ],
+      "versePhrases": {
+        "16": [
+          "earth"
+        ],
+        "29": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "הָאָ֙רֶץ֙: between the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "עָשָׂ֨ה: made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Theological Analysis: This passage falls within the section on David's census and divine judg...\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's census and divine judg...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Of the Temple of Solomon 1. 5.4-5: David had prepared by singing psalms, and the othe...\". Word-study detail reinforces \"וּשְׁלָמִ֑ים: and peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        26
+      ],
+      "versePhrases": {
+        "26": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Bede on Of the Temple of Solomon 1. 5.4-5: David had prepared by singing psalms, and the othe...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "וּשְׁלָמִ֑ים: and peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God.",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "just"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 8,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:46.030Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How does Benjamin's faithfulness in dwelling near Jerusalem and maintaining temple worship ch...\". Word-study detail reinforces \"יָֽשְׁב֥וּ: dwelt - properly, to sit down (specifically as judge. in ambush, in quiet); by im...\".",
+      "supportingVerses": [
+        28,
+        32
+      ],
+      "versePhrases": {
+        "28": [
+          "All these were heads of families, chiefs as listed in..."
+        ],
+        "32": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "How does Benjamin's faithfulness in dwelling near Jerusalem and maintaining temple worship ch...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 28 word study",
+          "detail": "יָֽשְׁב֥וּ: men These dwelt - properly, to sit down (specifically as judge. in ambush, in qui...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "יָֽשְׁב֥וּ: dwelt - properly, to sit down (specifically as judge. in ambush, in quiet); by im...",
+          "anchorVerse": 32
+        }
+      ]
+    }
+  ]
+}

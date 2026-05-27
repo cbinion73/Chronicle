@@ -1,0 +1,264 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 20,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:17.696Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Ye shall therefore put difference between clean beasts and unclean, and between unclean fowls...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        10,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "7": [
+          "holy",
+          "Sanctify"
+        ],
+        "8": [
+          "sanctify"
+        ],
+        "10": [
+          "And the man that committeth adultery with another man’s wife,..."
+        ],
+        "25": [
+          "clean"
+        ],
+        "26": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And I will set my face against that man, and will cut him off from among his people; because...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קָדְשִֽׁי׃: my holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 11:44",
+          "anchorVerse": 7,
+          "referenceLabel": "Leviticus 11:44"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Sanctify yourselves therefore, and be ye holy: for I am the LORD your God. This verse falls w...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"1 Peter: Wherefore gird up the loins of your mind, be sober, and hope to the end for the grac...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        7,
+        10,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "7": [
+          "holy"
+        ],
+        "10": [
+          "And the man that committeth adultery with another man’s wife,..."
+        ],
+        "26": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And I will set my face against that man, and will cut him off from among his people; because...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קָדְשִֽׁי׃: my holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 11:44",
+          "anchorVerse": 7,
+          "referenceLabel": "Leviticus 11:44"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Sanctify yourselves therefore, and be ye holy: for I am the LORD your God. This verse falls w...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ye shall therefore keep all my statutes, and all my judgments, and do them: that the land, wh...\". Word-study detail reinforces \"חֻקֹּתַ֔י: my statutes - a statute\".",
+      "supportingVerses": [
+        8,
+        22
+      ],
+      "versePhrases": {
+        "8": [
+          "keep",
+          "statutes"
+        ],
+        "22": [
+          "keep",
+          "statutes"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And ye shall keep my statutes, and do them: I am the LORD which sanctify you. This verse fall...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "חֻקֹּתַ֔י: my statutes - a statute",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Ye shall therefore keep all my statutes, and all my judgments, and do them: that the land, wh...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "חֻקֹּתַי֙: all my statutes - a statute",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"A man also or woman that hath a familiar spirit, or that is a wizard, shall surely be put to...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        6,
+        27
+      ],
+      "versePhrases": {
+        "6": [
+          "And the soul that turneth after such as have familiar spirits"
+        ],
+        "27": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Leviticus 19:31",
+          "anchorVerse": 6,
+          "referenceLabel": "Leviticus 19:31"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַיִּדְּעֹנִ֔ים: wizards - properly, a knowing one; specifically, a conjurer; (by impl) a ghost",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "A man also or woman that hath a familiar spirit, or that is a wizard, shall surely be put to...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "יִדְּעֹנִ֖י: or that is a wizard - properly, a knowing one; specifically, a conjurer; (by imp...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And thou shalt not uncover the nakedness of thy mother's sister, nor of thy father's sister:...\". Word-study detail reinforces \"לָשֶׁ֥בֶת: you to dwell - properly, to sit down (specifically as judge. in ambush, in quiet);...\".",
+      "supportingVerses": [
+        19,
+        22
+      ],
+      "versePhrases": {
+        "19": [
+          "near"
+        ],
+        "22": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And thou shalt not uncover the nakedness of thy mother's sister, nor of thy father's sister:...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "שְׁאֵר֛וֹ: his near kin - flesh (as swelling out), as living or for food; generally food of a...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Ye shall therefore keep all my statutes, and all my judgments, and do them: that the land, wh...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "לָשֶׁ֥בֶת: you to dwell - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

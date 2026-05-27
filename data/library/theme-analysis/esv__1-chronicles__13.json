@@ -1,0 +1,32 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 13,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:14.375Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וַיִּירָ֤א: was afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וַיִּירָ֤א: was afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

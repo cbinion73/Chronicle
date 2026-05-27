@@ -1,0 +1,238 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 12,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:32.519Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 12:7: “Therefore King Joash summoned the pri...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        10,
+        17,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "reign"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "10": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "20": [
+          "And his servants arose, and made a conspiracy, and slew..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the seventh year of Jehu Jehoash began to reign; and forty years reigned he in Jerusalem....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֖ךְ: began to reign - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Historical Setting: 2 Kings 12 takes place during the declining years of the northern kingdom...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 12:7: “Therefore King Joash summoned the pri...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But the high places were not taken away: the people still sacrificed and burnt incense in the...\". Word-study detail reinforces \"מְזַבְּחִ֥ים: still sacrificed - to slaughter an animal (usually in sacrifice)\".",
+      "supportingVerses": [
+        3,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "still"
+        ],
+        "19": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "But the high places were not taken away: the people still sacrificed and burnt incense in the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מְזַבְּחִ֥ים: still sacrificed - to slaughter an animal (usually in sacrifice)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And the rest of the acts of Joash, and all that he did, are they not written in the book of t...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "וְיֶ֛תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Moreover they reckoned not with the men, into whose hand they delivered the money to be besto...\". Word-study detail reinforces \"לָתֵ֖ת: they delivered - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        7,
+        15
+      ],
+      "versePhrases": {
+        "7": [
+          "deliver"
+        ],
+        "15": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Then king Jehoash called for Jehoiada the priest, and the other priests, and said unto them,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "תִּתְּנֻֽהוּ׃: but deliver - to give, used with greatest latitude of application (put, make,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Moreover they reckoned not with the men, into whose hand they delivered the money to be besto...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "לָתֵ֖ת: they delivered - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And his servants arose, and made a conspiracy, and slew Joash in the house of Millo, which go...\". Word-study detail reinforces \"וַיִּקְשְׁרוּ: and made - to tie, physically (gird, confine, compact) or mentally (in love, l...\".",
+      "supportingVerses": [
+        13,
+        20
+      ],
+      "versePhrases": {
+        "13": [
+          "made"
+        ],
+        "20": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Howbeit there were not made for the house of the LORD bowls of silver, snuffers, basons, trum...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "יֵֽעָשֶׂ֜ה: Howbeit there were not made - to do or make, in the broadest sense and widest app...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "And his servants arose, and made a conspiracy, and slew Joash in the house of Millo, which go...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "וַיִּקְשְׁרוּ: and made - to tie, physically (gird, confine, compact) or mentally (in love, l...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"In what practical ways should this text shape contemporary Christian thinking about faithfuln...\". Word-study detail reinforces \"שֹֽׁמְרֵ֣י: that kept - properly, to hedge about (as with thorns), i.e., guard; generally, to...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "שֹֽׁמְרֵ֣י: that kept - properly, to hedge about (as with thorns), i.e., guard; generally, to...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

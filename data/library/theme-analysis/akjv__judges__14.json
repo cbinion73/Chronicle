@@ -1,0 +1,121 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Judges",
+  "chapter": 14,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:24.415Z",
+  "themes": [
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on On the Holy Spirit 2, Introduction, 8-10: \"What,\" answer they, \"is sweete...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        6,
+        14,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "6": [
+          "Spirit"
+        ],
+        "14": [
+          "And he said unto them, Out of the eater came..."
+        ],
+        "18": [
+          "And the men of the city said unto him on..."
+        ],
+        "19": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Judges 3:10",
+          "anchorVerse": 6,
+          "referenceLabel": "Judges 3:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the Spirit of the LORD came mightily upon him, and he rent him as he would have rent a ki...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "ר֣וּחַ: And the Spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exha...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And he said unto them, Out of the eater came forth meat, and out of the strong came forth swe...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But his father and his mother knew not that it was of the LORD, that he sought an occasion ag...\". Word-study detail reinforces \"מֹֽשְׁלִ֥ים: had dominion - to rule\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "dominion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "But his father and his mother knew not that it was of the LORD, that he sought an occasion ag...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֹֽשְׁלִ֥ים: had dominion - to rule",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"So his father went down unto the woman: and Samson made there a feast; for so used the young...\". Word-study detail reinforces \"יַֽעֲשׂ֖וּ: made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "So his father went down unto the woman: and Samson made there a feast; for so used the young...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "יַֽעֲשׂ֖וּ: made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

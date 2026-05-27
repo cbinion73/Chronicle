@@ -1,0 +1,160 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 5,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:05.493Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Pharaoh's response 'Who is the LORD (יְהוָה) that I should obey his voice?' reveals the centr...\". Word-study detail reinforces \"אֶשְׁמַ֣ע: that I should obey - to hear intelligently (often with implication of attention, o...\".",
+      "supportingVerses": [
+        2,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "obey"
+        ],
+        "16": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Pharaoh's response 'Who is the LORD (יְהוָה) that I should obey his voice?' reveals the centr...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶשְׁמַ֣ע: that I should obey - to hear intelligently (often with implication of attention, o...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses.",
+      "supportingVerses": [
+        3,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "with us"
+        ],
+        "20": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "cry out"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Cross references echo \"Judgment\". Word-study detail reinforces \"וְיִשְׁפֹּ֑ט: upon you and judge - to judge, i.e., pronounce sentence (for or against); by im...\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Genesis 16:5",
+          "anchorVerse": 21,
+          "referenceLabel": "Genesis 16:5"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "וְיִשְׁפֹּ֑ט: upon you and judge - to judge, i.e., pronounce sentence (for or against); by im...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"מֶ֣לֶךְ: And the king - a king\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֶ֣לֶךְ: And the king - a king",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How do impossible expectations create false guilt in modern systems?\". Word-study detail reinforces \"רֵיחֵ֗נוּ: because ye have made our savour - odor (as if blown)\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "How do impossible expectations create false guilt in modern systems?",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "רֵיחֵ֗נוּ: because ye have made our savour - odor (as if blown)",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

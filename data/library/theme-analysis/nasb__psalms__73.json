@@ -1,0 +1,377 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 73,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:02.934Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Whom have I in heaven but thee? and there is none upon earth that I desire beside thee. This...\". Word-study detail reinforces \"בָּאָֽרֶץ׃: through the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        9,
+        10,
+        25,
+        28
+      ],
+      "versePhrases": {
+        "4": [
+          "For there are no pains in their death, And their..."
+        ],
+        "9": [
+          "heavens",
+          "earth"
+        ],
+        "10": [
+          "waters"
+        ],
+        "25": [
+          "earth"
+        ],
+        "28": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient Israelites expected righteous living to produce blessing and wickedness to produce cu...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on The Prayer of Job and David 4.3.8-9: We have seen that rich man who was c...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Setting their mouth 'against the heavens' means blaspheming God directly. Their tongue 'walke...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 73: \"They have set against Heaven their mouth, and...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Until I went into the sanctuary of God; then understood I their end. This verse marks the psa...\". Word-study detail reinforces \"דֵּעָ֣ה: knowledge - knowledge\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        11,
+        12,
+        14,
+        16,
+        17,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "But as for me, my feet came close to stumbling,..."
+        ],
+        "3": [
+          "For I was envious of the arrogant As I saw..."
+        ],
+        "5": [
+          "They are not in trouble like other people, Nor are..."
+        ],
+        "11": [
+          "knowledge"
+        ],
+        "12": [
+          "Behold, these are the wicked"
+        ],
+        "14": [
+          "For I have been stricken all day long, And punished..."
+        ],
+        "16": [
+          "understanding"
+        ],
+        "17": [
+          "Until I entered the sanctuary of God"
+        ],
+        "24": [
+          "You will guide me with Your plan, And afterward receive..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The metaphor of walking and slipping was particularly vivid in ancient Palestine's rocky, une...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on SERMON 301:7: It was in this way, you see, that the psalmist whose feet...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The problem of wicked prosperity troubled Israel throughout its history. Job's friends assume...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on SERMON 301:7: It was in this way, you see, that the psalmist whose feet...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"The conclusion demonstrates that Asaph's crisis produced not mere survival but mission. His s...\". Word-study detail reinforces \"קִֽרֲבַ֥ת: for me to draw near - approach\".",
+      "supportingVerses": [
+        2,
+        3,
+        17,
+        23,
+        25,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "2": [
+          "But as for me, my feet came close to stumbling,..."
+        ],
+        "3": [
+          "For I was envious of the arrogant As I saw..."
+        ],
+        "17": [
+          "Until I entered the sanctuary of God"
+        ],
+        "23": [
+          "with You"
+        ],
+        "25": [
+          "with You"
+        ],
+        "27": [
+          "For, behold, those who are far from You will perish"
+        ],
+        "28": [
+          "the nearness of God is good for me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Why is Asaph's honest confession of near-failure important for the psalm's message?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 73: But what to you? \"But my feet were almost moved...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The problem of wicked prosperity troubled Israel throughout its history. Job's friends assume...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Leo the Great on SERMON 43:2: Although the hearts of all the faithful do not doubt that divin...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The psalmist's despairing conclusion: 'Verily I have cleansed my heart in vain; and washed my...\". Word-study detail reinforces \"לְבָרֵ֥י: even to such as are of a clean - beloved; also pure, empty\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "pure"
+        ],
+        "2": [
+          "But as for me, my feet came close to stumbling,..."
+        ],
+        "3": [
+          "For I was envious of the arrogant As I saw..."
+        ],
+        "4": [
+          "For there are no pains in their death, And their..."
+        ],
+        "5": [
+          "They are not in trouble like other people, Nor are..."
+        ],
+        "13": [
+          "pure"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Truly God is good to Israel, even to such as are of a clean heart. This opening declaration e...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 73: \"How good is the God of Israel!\" But to whom? \"...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְבָרֵ֥י: even to such as are of a clean - beloved; also pure, empty",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The metaphor of walking and slipping was particularly vivid in ancient Palestine's rocky, une...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 73: But why even this? \"For I was jealous,\" he says...\". Word-study detail reinforces \"שְׁל֖וֹם: the prosperity - safe, i.e., (figuratively) well, happy, friendly; also (abstractly...\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        25,
+        28
+      ],
+      "versePhrases": {
+        "3": [
+          "For I was envious of the arrogant As I saw..."
+        ],
+        "4": [
+          "For there are no pains in their death, And their..."
+        ],
+        "5": [
+          "rest"
+        ],
+        "25": [
+          "Whom do I have in heaven but You"
+        ],
+        "28": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For I was envious at the foolish, when I saw the prosperity of the wicked. Asaph now identifi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 73: But why even this? \"For I was jealous,\" he says...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "שְׁל֖וֹם: the prosperity - safe, i.e., (figuratively) well, happy, friendly; also (abstractly...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Observing that the wicked have 'no bands in their death' and their 'strength is firm' suggest...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on Interrogation of Job and David, Book 3, Chapter XI: “Behold,” [the psalmi...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        20,
+        24,
+        25,
+        28
+      ],
+      "versePhrases": {
+        "20": [
+          "Lord"
+        ],
+        "24": [
+          "glory"
+        ],
+        "25": [
+          "Whom do I have in heaven but You"
+        ],
+        "28": [
+          "I have made the Lord God my refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Ancient Near Eastern kings built monuments and established dynasties hoping for eternal fame....",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Ambrose of Milan on Interrogation of Job and David, Book 3, Chapter VIII: Therefore, in regar...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Isaiah 58:8",
+          "anchorVerse": 24,
+          "referenceLabel": "Isaiah 58:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "God 'will guide me with thy counsel, and afterward receive me to glory.' Divine guidance thro...",
+          "anchorVerse": 24
+        }
+      ]
+    }
+  ]
+}

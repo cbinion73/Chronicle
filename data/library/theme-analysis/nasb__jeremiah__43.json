@@ -1,0 +1,131 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 43,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:56.354Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Even men, and women, and children, and the king's daughters —The comprehensive list emphasize...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        10
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ],
+        "10": [
+          "king",
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 40:7",
+          "anchorVerse": 6,
+          "referenceLabel": "Jeremiah 40:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Even men, and women, and children, and the king's daughters —The comprehensive list emphasize...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַמֶּלֶךְ֒: and the king's - a king",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 1:15",
+          "anchorVerse": 10,
+          "referenceLabel": "Jeremiah 1:15"
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"So Johanan the son of Kareah, and all the captains of the forces, and all the people, obeyed...\". Word-study detail reinforces \"שָׁמַע֩: obeyed - to hear intelligently (often with implication of attention, obedience, etc....\".",
+      "supportingVerses": [
+        4,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "obey"
+        ],
+        "7": [
+          "obey"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "So Johanan the son of Kareah, and all the captains of the forces, and all the people, obeyed...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "שָׁמַע֩: obeyed - to hear intelligently (often with implication of attention, obedience, etc....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Despite God's explicit command not to go to Egypt, 'they came into the land of Egypt: for the...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "שָׁמְע֖וּ: for they obeyed - to hear intelligently (often with implication of attention, obed...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does the shepherd metaphor teach about how easily God can 'clothe' His agents with victo...\". Word-study detail reinforces \"הָֽרֹעֶה֙: as a shepherd - to tend a flock; i.e., pasture it; intransitively, to graze (liter...\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "shepherd"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "What does the shepherd metaphor teach about how easily God can 'clothe' His agents with victo...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "הָֽרֹעֶה֙: as a shepherd - to tend a flock; i.e., pasture it; intransitively, to graze (liter...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 1,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:16.780Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"But his inwards and his legs shall he wash in water: and the priest shall burn all on the alt...\". Word-study detail reinforces \"אִשֵּׁ֥ה: an offering made by fire - properly, a burnt-offering; but occasionally of any sacr...\".",
+      "supportingVerses": [
+        9,
+        13,
+        17
+      ],
+      "versePhrases": {
+        "9": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "17": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "But his inwards and his legs shall he wash in water: and the priest shall burn all on the alt...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אִשֵּׁ֥ה: an offering made by fire - properly, a burnt-offering; but occasionally of any sacr...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "But he shall wash the inwards and the legs with water: and the priest shall bring it all, and...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "אִשֵּׁ֛ה: an offering made by fire - properly, a burnt-offering; but occasionally of any sacr...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 10,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:51.871Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Ye cannot drink the cup of the Lord, and the cup of devils: ye cannot be partakers of the Lor...\". Word-study detail reinforces \"ἄρτου: bread - bread (as raised) or a loaf\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        16,
+        17,
+        20,
+        21,
+        23,
+        27,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "want"
+        ],
+        "2": [
+          "and they all were baptized into Moses in the cloud..."
+        ],
+        "3": [
+          "and they all ate the same spiritual food,"
+        ],
+        "4": [
+          "and all drank the same spiritual drink, for they were..."
+        ],
+        "5": [
+          "Nevertheless, with most of them God was not pleased"
+        ],
+        "6": [
+          "Now these things happened as examples for us, so that..."
+        ],
+        "13": [
+          "provide"
+        ],
+        "16": [
+          "bread",
+          "cup"
+        ],
+        "17": [
+          "Since there is one loaf, we who are many are..."
+        ],
+        "20": [
+          "want"
+        ],
+        "21": [
+          "cup",
+          "table"
+        ],
+        "23": [
+          "All things are permitted, but not all things are of..."
+        ],
+        "27": [
+          "want"
+        ],
+        "31": [
+          "Therefore, whether you eat or drink, or whatever you do,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 23: \"That our fathers,\" saith he, \"were all under...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And were all baptized unto Moses in the cloud and in the sea —This phrase introduces Paul's t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 23: \"That our fathers,\" saith he, \"were all under...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And did all eat the same spiritual meat —The pneumatikon brōma (πνευματικὸν βρῶμα, \"spiritual...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 23: \"Now all these things happened unto them by wa...\". Word-study detail reinforces \"κρίνατε: judge - by implication, to try, condemn, punish\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        15,
+        22,
+        29
+      ],
+      "versePhrases": {
+        "2": [
+          "and they all were baptized into Moses in the cloud..."
+        ],
+        "4": [
+          "and all drank the same spiritual drink, for they were..."
+        ],
+        "5": [
+          "Nevertheless, with most of them God was not pleased"
+        ],
+        "6": [
+          "Now these things happened as examples for us, so that..."
+        ],
+        "7": [
+          "Do not be idolaters, as some of them were"
+        ],
+        "8": [
+          "Nor are we to commit sexual immorality, as some of..."
+        ],
+        "10": [
+          "Nor grumble, as some of them did, and were killed..."
+        ],
+        "11": [
+          "Now these things happened to them as an example, and..."
+        ],
+        "15": [
+          "judge"
+        ],
+        "22": [
+          "Or do we provoke the Lord to jealousy"
+        ],
+        "29": [
+          "for why is my freedom judged by another’s conscience?"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In Greco-Roman religion, initiation rites (mystery religions) were thought to confer automati...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 23: \"That our fathers,\" saith he, \"were all under...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "If Israel experienced Christ's provision yet faced judgment, what does this teach about the r...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Tertullian on Against Marcion Book IV: But having to be rejected and afterwards to be acknowl...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"For if I by grace be a partaker, why am I evil spoken of for that for which I give thanks? —T...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        7,
+        8,
+        14,
+        16,
+        19,
+        26,
+        30,
+        31,
+        33
+      ],
+      "versePhrases": {
+        "7": [
+          "Do not be idolaters, as some of them were"
+        ],
+        "8": [
+          "Nor are we to commit sexual immorality, as some of..."
+        ],
+        "14": [
+          "Therefore, my beloved, flee from idolatry"
+        ],
+        "16": [
+          "Is the cup of blessing which we bless not a sharing in the blood of Christ? Is the bread which we break not a sharing in the body of Christ?"
+        ],
+        "19": [
+          "What do I mean then"
+        ],
+        "26": [
+          "for the earth is the Lord’s"
+        ],
+        "30": [
+          "thanks"
+        ],
+        "31": [
+          "glory"
+        ],
+        "33": [
+          "just as I also please everyone in all things, not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Neither be ye idolaters, as were some of them; as it is written, The people sat down to eat a...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Tertullian on An Answer to the Jews: And when the gold out of the necklaces of the women and...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What connection exists between sexual immorality and idolatry (worship of pleasure, self, etc...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Tertullian on On Modesty: And of course it is a sufficient one, that so vast a number-(the nu...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Ye cannot drink the cup of the Lord, and the cup of devils: ye cannot be partakers of the Lor...\". Word-study detail reinforces \"καθὼς: as - just (or inasmuch) as, that\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        21,
+        23,
+        33
+      ],
+      "versePhrases": {
+        "2": [
+          "and they all were baptized into Moses in the cloud..."
+        ],
+        "3": [
+          "and they all ate the same spiritual food,"
+        ],
+        "4": [
+          "and all drank the same spiritual drink, for they were..."
+        ],
+        "5": [
+          "Nevertheless, with most of them God was not pleased"
+        ],
+        "6": [
+          "Now these things happened as examples for us, so that..."
+        ],
+        "8": [
+          "Nor are we to commit sexual immorality, as some of..."
+        ],
+        "21": [
+          "You cannot drink the cup of the Lord and the..."
+        ],
+        "23": [
+          "All things are permitted, but not all things are of..."
+        ],
+        "33": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And were all baptized unto Moses in the cloud and in the sea —This phrase introduces Paul's t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gennadius of Constantinople on PAULINE COMMENTARY FROM THE GREEK CHURCH: The cloud was a figu...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And did all eat the same spiritual meat —The pneumatikon brōma (πνευματικὸν βρῶμα, \"spiritual...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theodore of Mopsuestia on PAULINE COMMENTARY FROM THE GREEK CHURCH: Paul calls the food super...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 23: \"That our fathers,\" saith he, \"were all under...\". Word-study detail reinforces \"πιστὸς: is faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        13,
+        14,
+        15,
+        20,
+        21,
+        26
+      ],
+      "versePhrases": {
+        "1": [
+          "For I do not want you to be unaware, brothers..."
+        ],
+        "3": [
+          "and they all ate the same spiritual food,"
+        ],
+        "4": [
+          "and all drank the same spiritual drink, for they were..."
+        ],
+        "13": [
+          "faithful"
+        ],
+        "14": [
+          "Therefore, my beloved, flee from idolatry"
+        ],
+        "15": [
+          "I speak as to wise people"
+        ],
+        "20": [
+          "No, but I say that things which the Gentiles sacrifice,..."
+        ],
+        "21": [
+          "You cannot drink the cup of the Lord and the..."
+        ],
+        "26": [
+          "for the earth is the Lord’s, and all it contains"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what areas of life are you relying on past spiritual experiences rather than present faith...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 23: \"That our fathers,\" saith he, \"were all under...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does Jesus as the true manna—the bread of life—change the way you understand daily depend...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 23: \"That our fathers,\" saith he, \"were all under...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"I speak as to wise men; judge ye what I say —Paul appeals to Corinthian self-perception as ph...\". Word-study detail reinforces \"φρονίμοις: to wise men - thoughtful, i.e., sagacious or discreet (implying a cautious charact...\".",
+      "supportingVerses": [
+        1,
+        4,
+        11,
+        12,
+        15,
+        18,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "For I do not want you to be unaware, brothers..."
+        ],
+        "4": [
+          "and all drank the same spiritual drink, for they were..."
+        ],
+        "11": [
+          "instruction"
+        ],
+        "12": [
+          "Therefore let the one who thinks he stands watch out..."
+        ],
+        "15": [
+          "wise"
+        ],
+        "18": [
+          "Look at the people of Israel"
+        ],
+        "30": [
+          "If I partake with thankfulness, why am I slandered about..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does viewing yourself as part of Israel's redemptive story change your understanding of G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyprian on Treatise XII. Three Books of Testimonies Against the Jews: That the Jews would not...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does recognizing Christ's presence in Old Testament history deepen your understanding of...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ignatius of Antioch on Epistle of Ignatius to the Philadelphians: This is the Way which leads...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

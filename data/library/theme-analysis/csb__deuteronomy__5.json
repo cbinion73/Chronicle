@@ -1,0 +1,337 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:21.204Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Moses summons 'all Israel' to hear the statutes and judgments, emphasizing communal responsib...\". Word-study detail reinforces \"לַֽעֲשׂ֖וֹת: thee to keep - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        1,
+        10,
+        12,
+        15,
+        16,
+        22,
+        27,
+        28,
+        29,
+        31,
+        33
+      ],
+      "versePhrases": {
+        "1": [
+          "follow",
+          "statutes",
+          "ordinances"
+        ],
+        "10": [
+          "commands",
+          "keep"
+        ],
+        "12": [
+          "keep"
+        ],
+        "15": [
+          "keep"
+        ],
+        "16": [
+          "as the Lord your God has commanded you"
+        ],
+        "22": [
+          "commands"
+        ],
+        "27": [
+          "obey"
+        ],
+        "28": [
+          "“The Lord heard your words when you spoke to me"
+        ],
+        "29": [
+          "commands",
+          "keep"
+        ],
+        "31": [
+          "command",
+          "follow",
+          "statutes",
+          "ordinances"
+        ],
+        "33": [
+          "Follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Moses summons 'all Israel' to hear the statutes and judgments, emphasizing communal responsib...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַֽחֻקִּ֣ים: the statutes - an enactment; hence, an appointment (of time, space, quantity, la...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The covenant promise 'shewing mercy unto thousands of them that love me and keep my commandme...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "מִצְוֹתָֽוֹ: my commandments - a command, whether human or divine (collectively, the law)",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ambrose of Milan on On Cain and Abel, Book 1, Chapter 2, Section 7: Blessed is that mind whic...\". Word-study detail reinforces \"קְרַ֤ב: Go thou near - to approach (causatively, bring near) for whatever purpose\".",
+      "supportingVerses": [
+        2,
+        3,
+        23,
+        27,
+        31
+      ],
+      "versePhrases": {
+        "2": [
+          "with us"
+        ],
+        "3": [
+          "He did not make this covenant with our ancestors"
+        ],
+        "23": [
+          "All of you approached me with your tribal leaders and elders when you heard the voice from the darkness and while the mountain was blazing with fire"
+        ],
+        "27": [
+          "near"
+        ],
+        "31": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The statement 'The LORD our God made a covenant with us in Horeb' emphasizes the Sinai covena...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּחֹרֵֽב׃: with us in Horeb - choreb, a (generic) name for the sinaitic mountains",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Moses declares that the Horeb covenant was made 'not with our fathers, but with us, even us,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֲנַ֨חְנוּ: but with us - we",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Moses declares that the Horeb covenant was made 'not with our fathers, but with us, even us,...\". Word-study detail reinforces \"לָאָֽ֗רֶץ׃: beneath the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        3,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "3": [
+          "He did not make this covenant with our ancestors, but..."
+        ],
+        "8": [
+          "heavens",
+          "earth",
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The statement 'The LORD our God made a covenant with us in Horeb' emphasizes the Sinai covena...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּרִ֖ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Moses declares that the Horeb covenant was made 'not with our fathers, but with us, even us,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַבְּרִ֣ית: not this covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The statement 'The LORD our God made a covenant with us in Horeb' emphasizes the Sinai covena...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        2,
+        3,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "covenant"
+        ],
+        "3": [
+          "covenant"
+        ],
+        "16": [
+          "Honor your father and your mother, as the Lord your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Deuteronomy 4:23",
+          "anchorVerse": 2,
+          "referenceLabel": "Deuteronomy 4:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The statement 'The LORD our God made a covenant with us in Horeb' emphasizes the Sinai covena...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּרִ֖ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Moses declares that the Horeb covenant was made 'not with our fathers, but with us, even us,...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The ninth commandment 'Neither shalt thou bear false witness against thy neighbour' protects...\". Word-study detail reinforces \"עֵ֥ד: witness - concretely, a witness; abstractly, testimony; specifically, a recorder, i.e.,...\".",
+      "supportingVerses": [
+        10,
+        20,
+        29
+      ],
+      "versePhrases": {
+        "10": [
+          "faithful"
+        ],
+        "20": [
+          "testimony"
+        ],
+        "29": [
+          "If only they had such a heart to fear me..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The covenant promise 'shewing mercy unto thousands of them that love me and keep my commandme...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "The ninth commandment 'Neither shalt thou bear false witness against thy neighbour' protects...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "עֵ֥ד: witness - concretely, a witness; abstractly, testimony; specifically, a recorder, i.e.,...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "How does God's desire for 'such an heart' reveal that external compliance without heart trans...",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What does this pattern of receiving revelation to teach others establish about the importance...\".",
+      "supportingVerses": [
+        31,
+        33
+      ],
+      "versePhrases": {
+        "31": [
+          "But you stand here with me, and I will tell..."
+        ],
+        "33": [
+          "instruction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "What does this pattern of receiving revelation to teach others establish about the importance...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 31 historical",
+          "detail": "Origen of Alexandria on AGAINST CELSUS 6.64: [Celsus] continues by making further remarks as...",
+          "anchorVerse": 31
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 19,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:52.461Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"The law.\" Above, the Psalmist treated o...\". Word-study detail reinforces \"דָּֽעַת׃: knowledge - knowledge\".",
+      "supportingVerses": [
+        2,
+        7,
+        8,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "knowledge"
+        ],
+        "7": [
+          "wise"
+        ],
+        "8": [
+          "The statutes of the Lord are right, rejoicing the heart"
+        ],
+        "10": [
+          "More to be desired are they than gold, yea, than..."
+        ],
+        "12": [
+          "understand"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Day to day 'pours out speech' and night to night 'reveals knowledge.' The Hebrew 'naba' (pour...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Day.\" Here he excludes the impediment t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "דָּֽעַת׃: knowledge - knowledge",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The law of the LORD is perfect, converting the soul: the testimony of the LORD is sure, makin...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The fear of the LORD is clean, enduring for ever: the judgments of the LORD are true and righ...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        8,
+        9,
+        10,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "8": [
+          "pure"
+        ],
+        "9": [
+          "righteous",
+          "clean"
+        ],
+        "10": [
+          "More to be desired are they than gold, yea, than..."
+        ],
+        "12": [
+          "Who can understand his errors? cleanse thou me from secret faults"
+        ],
+        "14": [
+          "Let the words of my mouth, and the meditation of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The statutes of the LORD are right, rejoicing the heart: the commandment of the LORD is pure,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בָּ֝רָ֗ה: is pure - beloved; also pure, empty",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 119:142",
+          "anchorVerse": 9,
+          "referenceLabel": "Psalms 119:142"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The fear of the LORD is clean, enduring for ever: the judgments of the LORD are true and righ...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist gave thanks in many...\". Word-study detail reinforces \"הָאָ֨רֶץ׀: through all the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "heavens"
+        ],
+        "2": [
+          "Day unto day uttereth speech, and night unto night sheweth..."
+        ],
+        "4": [
+          "earth"
+        ],
+        "6": [
+          "His going forth is from the end of the heaven,..."
+        ],
+        "7": [
+          "The law of the Lord is perfect, converting the soul"
+        ],
+        "8": [
+          "enlightening the eyes"
+        ],
+        "9": [
+          "The fear of the Lord is clean, enduring for ever"
+        ],
+        "10": [
+          "More to be desired are they than gold, yea, than..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The heavens declare the glory of God; and the firmament sheweth his handywork. This opening v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist gave thanks in many...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַשָּׁמַ֗יִם: The heavens - the sky (as aloft; the dual perhaps alluding to the visible arch...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Day.\" Here he excludes the impediment t...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"The law of the LORD is perfect, converting the soul: the testimony of the LORD is sure, makin...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "The heavens declare the glory of God"
+        ],
+        "2": [
+          "Day unto day uttereth speech, and night unto night sheweth..."
+        ],
+        "3": [
+          "There is no speech nor language, where their voice is..."
+        ],
+        "4": [
+          "Their line is gone out through all the earth, and..."
+        ],
+        "5": [
+          "which is as a bridegroom coming out of his chamber,..."
+        ],
+        "7": [
+          "testimony"
+        ],
+        "9": [
+          "true"
+        ],
+        "10": [
+          "More to be desired are they than gold, yea, than..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 19 is attributed to David, written for the chief musician—indicating its use in temple...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist gave thanks in many...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ancient Israel observed the regular cycles of day and night as testimony to God's faithful or...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Day.\" Here he excludes the impediment t...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The statutes of the LORD are right, rejoicing the heart: the commandment of the LORD is pure,...\". Word-study detail reinforces \"מִצְוַ֥ת: the commandment - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "7": [
+          "The law of the Lord is perfect, converting the soul"
+        ],
+        "8": [
+          "statutes"
+        ],
+        "9": [
+          "The fear of the Lord is clean, enduring for ever"
+        ],
+        "10": [
+          "More to be desired are they than gold, yea, than..."
+        ],
+        "11": [
+          "and in keeping of them there is great reward"
+        ],
+        "13": [
+          "Keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This verse inaugurates what would become Psalm 119's theme: passionate love for God's word. T...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE PSALM 19:5-6: He calls the Mosaic law Law, testimony,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The statutes of the LORD are right, rejoicing the heart: the commandment of the LORD is pure,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"The justices of the Lord are right,\" th...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"The fear.\" Here he sets forth certain t...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        8,
+        9,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "which is as a bridegroom coming out of his chamber,..."
+        ],
+        "8": [
+          "the commandment of the Lord is pure"
+        ],
+        "9": [
+          "righteous"
+        ],
+        "12": [
+          "Who can understand his errors"
+        ],
+        "13": [
+          "upright"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "In what ways does Christ as 'Sun of Righteousness' illuminate your life?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Concerning the motion of the sun he says...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The statutes of the LORD are right, rejoicing the heart: the commandment of the LORD is pure,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"The justices of the Lord are right,\" th...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

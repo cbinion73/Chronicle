@@ -1,0 +1,151 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 11,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:08.040Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Genesis (Hexaemeron): Now the whole earth had one language and the same...\". Word-study detail reinforces \"הָאָ֑רֶץ: of all the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "2": [
+          "And it came to pass, as they journeyed from the..."
+        ],
+        "4": [
+          "earth"
+        ],
+        "8": [
+          "earth"
+        ],
+        "9": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And the whole earth was of one language, and of one speech.... This passage belongs to the pr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Genesis (Hexaemeron): Now the whole earth had one language and the same...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָ֖רֶץ: And the whole earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Josephus on Antiquities of the Jews - Book I, Chapter 4, Sections 1-3: 1. Now the sons of Noa...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Go to, let us go down, and there confound their language, that they may not understand one an...\". Word-study detail reinforces \"יִשְׁמְע֔וּ: they may not understand - to hear intelligently (often with implication of atten...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "And the whole earth was of one language, and of..."
+        ],
+        "2": [
+          "And it came to pass, as they journeyed from the..."
+        ],
+        "3": [
+          "And they said one to another, Go to, let us..."
+        ],
+        "4": [
+          "And they said, Go to, let us build us a..."
+        ],
+        "5": [
+          "And the Lord came down to see the city and..."
+        ],
+        "6": [
+          "And the Lord said, Behold, the people is one, and..."
+        ],
+        "7": [
+          "understand"
+        ],
+        "8": [
+          "So the Lord scattered them abroad from thence upon the..."
+        ],
+        "9": [
+          "Therefore is the name of it called Babel"
+        ],
+        "10": [
+          "These are the generations of Shem"
+        ],
+        "30": [
+          "But Sarai was barren"
+        ],
+        "31": [
+          "And Terah took Abram his son, and Lot the son..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does understanding Christ as the ultimate fulfillment illuminate this passage's meaning?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory of Nyssa on Answer to Eunomius’ Second Book, Section 276: And if any one cites the co...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And it came to pass, as they journeyed from the east, that they found a plain in the land of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory of Nyssa on Answer to Eunomius’ Second Book, Section 276: And if any one cites the co...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Peter",
+  "chapter": 4,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:36.751Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 Peter: That is, both to those who were justified duri...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        7,
+        11,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "7": [
+          "The end of all things is near"
+        ],
+        "11": [
+          "glory"
+        ],
+        "13": [
+          "glory"
+        ],
+        "14": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Peter: That is, both to those who were justified duri...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "προσευχάς·: prayer - prayer (worship); by implication, an oratory (chapel)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "1 Corinthians 10:31",
+          "anchorVerse": 11,
+          "referenceLabel": "1 Corinthians 10:31"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Peter gives gift categories: speaking and serving. Ultimate goal is God's glory, not personal...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Peter draws imperative from Christ's suffering. \"Forasmuch then as Christ hath suffered for u...\". Word-study detail reinforces \"πάσχοντες: them that suffer - to experience a sensation or impression (usually painful)\".",
+      "supportingVerses": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "since Christ suffered in the flesh"
+        ],
+        "12": [
+          "Dear friends, don’t be surprised when the fiery ordeal comes..."
+        ],
+        "13": [
+          "rejoice as you share in the sufferings of Christ"
+        ],
+        "14": [
+          "If you are ridiculed for the name of Christ, you..."
+        ],
+        "15": [
+          "suffer"
+        ],
+        "16": [
+          "But if anyone suffers as a Christian"
+        ],
+        "18": [
+          "And if a righteous person is saved with difficulty, what..."
+        ],
+        "19": [
+          "suffer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Peter draws imperative from Christ's suffering. \"Forasmuch then as Christ hath suffered for u...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Nicetas of Remesiana on EXPLANATION OF THE CREED 5: Christ did not suffer in his divinity but...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "By AD 62-64, persecution intensified under Nero. Initial surprise at hostility gave way to su...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Desert Fathers on The Desert Fathers, Sayings of the Early Christian Monks: [Syncletica] also...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Oecumenius on Commentary on 1 Peter: In this cause, the Gospel has also been preached to the...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        12,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "judge"
+        ],
+        "6": [
+          "although they might be judged in the flesh according to human standards"
+        ],
+        "7": [
+          "The end of all things is near"
+        ],
+        "12": [
+          "Dear friends, don’t be surprised when the fiery ordeal comes..."
+        ],
+        "17": [
+          "judgment"
+        ],
+        "18": [
+          "And if a righteous person is saved with difficulty, what..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "James 5:9",
+          "anchorVerse": 5,
+          "referenceLabel": "James 5:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Peter warns of coming judgment. \"Who shall give account to him that is ready to judge the qui...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Peter: The connection is as follows: these people, wh...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "κρῖναι: to judge - by implication, to try, condemn, punish",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: And if the righteous man is scarcely saved, etc....\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        10,
+        12,
+        13,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "They will give an account to the one who stands..."
+        ],
+        "10": [
+          "Just"
+        ],
+        "12": [
+          "Dear friends, don’t be surprised when the fiery ordeal comes..."
+        ],
+        "13": [
+          "Instead, rejoice as you share in the sufferings of Christ,..."
+        ],
+        "18": [
+          "righteous"
+        ],
+        "19": [
+          "So then, let those who suffer according to God’s will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Early Christians facing mockery, persecution, martyrdom needed assurance that justice would p...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Peter: The connection is as follows: these people, wh...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Andreas of Caesarea on CATENA: It is not merely that the rich man is obliged to meet the need...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "καθὼς: As - just (or inasmuch) as, that",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: And if the righteous man is scarcely saved, etc....\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3,
+        12,
+        13,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "For there has already been enough time spent in doing..."
+        ],
+        "12": [
+          "Dear friends, don’t be surprised when the fiery ordeal comes..."
+        ],
+        "13": [
+          "Instead, rejoice as you share in the sufferings of Christ,..."
+        ],
+        "18": [
+          "righteous"
+        ],
+        "19": [
+          "So then, let those who suffer according to God’s will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does remembering that pre-conversion time was 'sufficient' help motivate ongoing holiness?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 3: \"For,\" says Peter, \"the time past of our life...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "How can you distinguish between suffering for righteousness (which purifies faith) and suffer...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Cyprian on Treatise XI Exhortation to Martyrdom Addressed to Fortunatus: That afflictions and...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Peter concludes his teaching on suffering with practical instruction. 'Wherefore let them tha...\". Word-study detail reinforces \"πιστῷ: unto a faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        1,
+        7,
+        12,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore, since Christ suffered in the flesh, arm yourselves also..."
+        ],
+        "7": [
+          "The end of all things is near"
+        ],
+        "12": [
+          "Dear friends, don’t be surprised when the fiery ordeal comes..."
+        ],
+        "19": [
+          "faithful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Peter doesn't mean sinless perfection but that true Christians, willing to suffer for Christ,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Severus of Antioch on CATENA: By proclaiming that he would suffer and die in the flesh, Chris...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Oecumenius on Commentary on 1 Peter: The end of all things is at hand. Therefore, be sober an...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Peter addresses believers' shock at intense persecution, reframing their expectations. The af...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

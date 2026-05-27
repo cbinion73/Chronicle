@@ -1,0 +1,318 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 16,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:44.115Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...\". Word-study detail reinforces \"לִסְפּ֔וֹד: to lament - properly, to tear the hair and beat the breasts (as middle easterners...\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        19
+      ],
+      "versePhrases": {
+        "4": [
+          "They shall not be lamented"
+        ],
+        "5": [
+          "lament",
+          "mourning"
+        ],
+        "6": [
+          "lament"
+        ],
+        "7": [
+          "No one shall break bread for the mourner, to comfort..."
+        ],
+        "8": [
+          "You shall not go into the house of feasting to..."
+        ],
+        "19": [
+          "trouble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does denial of burial and mourning symbolize about the completeness of covenant curse?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יִסָּֽפְדוּ֙: they shall not be lamented - properly, to tear the hair and beat the breasts (a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Further prohibitions: 'For thus saith the LORD, Enter not into the house of mourning, neither...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 19) Lord, you are my strength and my refuge in the d...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "5": [
+          "peace"
+        ],
+        "7": [
+          "comfort"
+        ],
+        "8": [
+          "You shall not go into the house of feasting to..."
+        ],
+        "19": [
+          "refuge"
+        ],
+        "20": [
+          "Can man make for himself gods"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Revelation 6:4",
+          "anchorVerse": 5,
+          "referenceLabel": "Revelation 6:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Further prohibitions: 'For thus saith the LORD, Enter not into the house of mourning, neither...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "שְׁלוֹמִ֜י: my peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) we...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 9 onwards) For thus says the Lord of hosts, the God...\". Word-study detail reinforces \"שָׁמָֽרוּ׃: me and have not kept - properly, to hedge about (as with thorns), i.e., guard; ge...\".",
+      "supportingVerses": [
+        2,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "“You shall not take a wife, nor shall you have..."
+        ],
+        "11": [
+          "kept"
+        ],
+        "12": [
+          "every one of you follows his stubborn"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God gives Jeremiah unusual command: 'Thou shalt not take thee a wife, neither shalt thou have...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on LETTER 22.21: Elijah lived a virgin life; so also did Elisha and many of the sons o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "God provides the answer Jeremiah should give: 'Then shalt thou say unto them, Because your fa...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 9 onwards) For thus says the Lord of hosts, the God...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Patrick of Ireland on CONFESSION 38: For I am very much God’s debtor, who gave me such great...\". Word-study detail reinforces \"אָ֔רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "4": [
+          "earth"
+        ],
+        "19": [
+          "earth"
+        ],
+        "20": [
+          "Can man make for himself gods"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The horrific fate described: 'They shall die of grievous deaths; they shall not be lamented;...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verses 3-4) For thus says the Lord concerning the sons and...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הָאָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Patrick of Ireland on CONFESSION 38: For I am very much God’s debtor, who gave me such great...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...\". Word-study detail reinforces \"תַּנְחוּמִ֔ים: of consolation - compassion, solace\".",
+      "supportingVerses": [
+        5,
+        7
+      ],
+      "versePhrases": {
+        "5": [
+          "mercy"
+        ],
+        "7": [
+          "No one shall break bread for the mourner, to comfort..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What does God's withdrawal of peace, lovingkindness, and mercy look like practically?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הָֽרַחֲמִֽים׃: and mercies - compassion (in the plural)",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...\". Word-study detail reinforces \"כּ֣וֹס: neither shall men give them the cup - a cup (as a container), often figuratively, som...\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "Both great and small shall die in this land"
+        ],
+        "7": [
+          "bread",
+          "cup"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "What warning does comprehensive judgment provide about the trajectory of persistent covenant...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "More mourning customs suspended: 'Neither shall men tear themselves for them in mourning, to...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 5 onwards) For thus says the Lord: Do not enter the...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

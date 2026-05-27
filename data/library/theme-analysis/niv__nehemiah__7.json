@@ -1,0 +1,117 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 7,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:49.779Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: And I appointed watchmen from the inhabitants of Jer...\". Word-study detail reinforces \"שְׁאֵרִ֣ית: And that which the rest - a remainder or residual (surviving, final) portion\".",
+      "supportingVerses": [
+        3,
+        72,
+        73
+      ],
+      "versePhrases": {
+        "3": [
+          "still"
+        ],
+        "72": [
+          "rest"
+        ],
+        "73": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And I appointed watchmen from the inhabitants of Jer...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יֹֽשְׁבֵ֣י: of the inhabitants - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 72 commentary",
+          "detail": "And that which the rest of the people gave was twenty thousand drams of gold, and two thousan...",
+          "anchorVerse": 72
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 72 word study",
+          "detail": "שְׁאֵרִ֣ית: And that which the rest - a remainder or residual (surviving, final) portion",
+          "anchorVerse": 72
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"These are the children of the province, that went up out of the captivity, of those that had...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Ezra 5:8",
+          "anchorVerse": 6,
+          "referenceLabel": "Ezra 5:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "These are the children of the province, that went up out of the captivity, of those that had...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מֶ֣לֶךְ: the king - a king",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Inferred",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"יֹֽשְׁבֵ֣י: of the inhabitants - properly, to sit down (specifically as judge. in ambush, in...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יֹֽשְׁבֵ֣י: of the inhabitants - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

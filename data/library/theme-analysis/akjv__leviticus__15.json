@@ -1,0 +1,87 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 15,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:17.480Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And when he that hath an issue is cleansed of his issue; then he shall number to himself seve...\". Word-study detail reinforces \"וְטָהֵֽר׃: and shall be clean - to be pure (physical sound, clear, unadulterated; levitically...\".",
+      "supportingVerses": [
+        8,
+        13,
+        28
+      ],
+      "versePhrases": {
+        "8": [
+          "clean"
+        ],
+        "13": [
+          "clean"
+        ],
+        "28": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And if he that hath the issue spit upon him that is clean; then he shall wash his clothes, an...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בַּטָּה֑וֹר: upon him that is clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And when he that hath an issue is cleansed of his issue; then he shall number to himself seve...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וְטָהֵֽר׃: and shall be clean - to be pure (physical sound, clear, unadulterated; levitically...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And the vessel of earth, that he toucheth which hath the issue, shall be broken: and every ve...\". Word-study detail reinforces \"חֶ֛רֶשׂ: of earth - a piece of pottery\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And the vessel of earth, that he toucheth which hath the issue, shall be broken: and every ve...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "חֶ֛רֶשׂ: of earth - a piece of pottery",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

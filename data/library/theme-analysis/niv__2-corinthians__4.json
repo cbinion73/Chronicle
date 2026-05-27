@@ -1,0 +1,375 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Corinthians",
+  "chapter": 4,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:28.342Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: The third point, namely, the cause of this pat...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        4,
+        6,
+        7,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore, since through God’s mercy we have this ministry, we..."
+        ],
+        "4": [
+          "glory"
+        ],
+        "6": [
+          "glory"
+        ],
+        "7": [
+          "But we have this treasure in jars of clay to show that this all-surpassing power is from God and not from us"
+        ],
+        "14": [
+          "because we know that the one who raised the Lord Jesus from the dead will also raise us with Jesus and present us with you to himself"
+        ],
+        "15": [
+          "thanksgiving",
+          "glory"
+        ],
+        "16": [
+          "Therefore we do not lose heart"
+        ],
+        "17": [
+          "glory"
+        ],
+        "18": [
+          "So we fix our eyes not on what is seen,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore seeing we have this ministry, as we have received mercy, we faint not —Paul grounds...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrosiaster on COMMENTARY ON PAUL’S EPISTLES: Paul attributes his perseverance not to human...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "2 Corinthians 4:6",
+          "anchorVerse": 4,
+          "referenceLabel": "2 Corinthians 4:6"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: The cause of this concealment is not on the pa...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then when he says, For it is the God who said,...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        10,
+        11,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "4": [
+          "light"
+        ],
+        "6": [
+          "made",
+          "light"
+        ],
+        "7": [
+          "But we have this treasure in jars of clay to..."
+        ],
+        "10": [
+          "We always carry around in our body the death of..."
+        ],
+        "11": [
+          "For we who are alive are always being given over..."
+        ],
+        "14": [
+          "because we know that the one who raised the Lord..."
+        ],
+        "17": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "John 8:12",
+          "anchorVerse": 4,
+          "referenceLabel": "John 8:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Paul's language of light/darkness echoes Genesis 1 creation imagery and Jewish wisdom literat...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: The cause of this concealment is not on the pa...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "φωτισμὸν: the light - illumination (figuratively)",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then the Apostle shows how he acquired this ho...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "Rather, we have renounced secret and shameful ways"
+        ],
+        "4": [
+          "The god of this age has blinded the minds of unbelievers"
+        ],
+        "13": [
+          "faith",
+          "believe"
+        ],
+        "14": [
+          "because we know that the one who raised the Lord..."
+        ],
+        "16": [
+          "Therefore we do not lose heart"
+        ],
+        "17": [
+          "For our light and momentary troubles are achieving for us..."
+        ],
+        "18": [
+          "So we fix our eyes not on what is seen,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does Paul's confidence that truth commends itself to conscience challenge modern marketin...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory of Nyssa on ON PERFECTION: Knowing Christ as the “true light,” “inaccessible” to fals...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Acts 26:18",
+          "anchorVerse": 4,
+          "referenceLabel": "Acts 26:18"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrosiaster: Paul is saying that God dims the sight of worldly people because they are hosti...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: He teaches us to avoid evil both in conduct an...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore, since through God’s mercy we have this ministry, we..."
+        ],
+        "2": [
+          "truth"
+        ],
+        "3": [
+          "And even if our gospel is veiled, it is veiled..."
+        ],
+        "4": [
+          "The god of this age has blinded the minds of..."
+        ],
+        "6": [
+          "For God, who said, “Let light shine out of darkness,”..."
+        ],
+        "13": [
+          "It is written"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore seeing we have this ministry, as we have received mercy, we faint not —Paul grounds...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily 8 on 2 Corinthians: Seeing he had uttered great things and had set...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "2 Corinthians 7:14",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Corinthians 7:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "But have renounced the hidden things of dishonesty ( ta krypta tēs aischynēs , τὰ κρυπτὰ τῆς...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then the Apostle shows how he acquired this ho...\". Word-study detail reinforces \"πνεῦμα: spirit - a current of air, i.e., breath (blast) or a breeze; by analogy or figurative...\".",
+      "supportingVerses": [
+        11,
+        13,
+        16
+      ],
+      "versePhrases": {
+        "11": [
+          "For we who are alive are always being given over..."
+        ],
+        "13": [
+          "spirit"
+        ],
+        "16": [
+          "Therefore we do not lose heart"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Irenaeus on Against Heresies Book 5: That he uses these words with respect to the body of fle...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "σαρκὶ: flesh - flesh (as stripped of the skin), i.e., (strictly) the meat of an animal (as fo...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "We having the same spirit of faith, according as it is written ( echontes de to auto pneuma t...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Then the Apostle shows how he acquired this ho...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Therefore seeing we have this ministry, as we have received mercy, we faint not —Paul grounds...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "mercy"
+        ],
+        "15": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "1 Corinthians 7:25",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Corinthians 7:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore seeing we have this ministry, as we have received mercy, we faint not —Paul grounds...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily 8 on 2 Corinthians: Seeing he had uttered great things and had set...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἠλεήθημεν: we have received mercy - to compassionate (by word or deed, specially, by divine g...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

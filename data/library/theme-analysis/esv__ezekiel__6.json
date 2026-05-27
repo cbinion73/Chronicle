@@ -1,0 +1,64 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 6,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:49.995Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...\". Word-study detail reinforces \"וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        6,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "dwell"
+        ],
+        "12": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 12.) Whoever is far away will die from the plague; wh...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children.",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Kings",
+  "chapter": 17,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:31.465Z",
+  "themes": [
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on SERMON 124.4: As we mentioned, that widow prefigured the church, and he...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        10,
+        11,
+        21
+      ],
+      "versePhrases": {
+        "10": [
+          "pray"
+        ],
+        "11": [
+          "pray"
+        ],
+        "21": [
+          "pray"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Genesis 24:17",
+          "anchorVerse": 10,
+          "referenceLabel": "Genesis 24:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "So he arose and went to Zarephath. And when he came to the gate of the city, behold, the wido...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "מְעַט: me I pray thee a little - a little or few (often adverbial or comparative)",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And as she was going to fetch it, he called to her, and said, Bring me, I pray thee, a morsel...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ephrem the Syrian on ON THE FIRST BOOK OF KINGS 17:2: “The ravens brought him bread in the mo...\". Word-study detail reinforces \"לֶ֖חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        1,
+        6,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "And Elijah the Tishbite, who was of the inhabitants of..."
+        ],
+        "6": [
+          "bread"
+        ],
+        "11": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What false 'gods' or ideological systems in contemporary culture promise what only the true G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ephrem the Syrian on ON THE FIRST BOOK OF KINGS 17:1: Elijah was sent to prevent Ahab’s insan...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְפִ֥י: but according - the mouth (as the means of blowing), whether literal or figurative (p...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the ravens brought him bread and flesh in the morning, and bread and flesh in the evening...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"And the woman said to Elijah, Now by this I know that thou art a man of God, and that the wor...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        6,
+        10,
+        11,
+        12,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "And Elijah the Tishbite, who was of the inhabitants of..."
+        ],
+        "6": [
+          "And the ravens brought him bread and flesh in the..."
+        ],
+        "10": [
+          "So he arose and went to Zarephath"
+        ],
+        "11": [
+          "And as she was going to fetch it, he called..."
+        ],
+        "12": [
+          "And she said, As the Lord thy God liveth, I..."
+        ],
+        "22": [
+          "And the Lord heard the voice of Elijah"
+        ],
+        "24": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What false 'gods' or ideological systems in contemporary culture promise what only the true G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ephrem the Syrian on ON THE FIRST BOOK OF KINGS 17:1: Elijah was sent to prevent Ahab’s insan...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the ravens brought him bread and flesh in the morning, and bread and flesh in the evening...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on SERMON 124.1: Blessed Elijah typified our Lord and Savior. Just as Elij...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have comma...\". Word-study detail reinforces \"וְיָֽשַׁבְתָּ֖: and dwell - properly, to sit down (specifically as judge. in ambush, in quiet...\".",
+      "supportingVerses": [
+        9,
+        10,
+        11,
+        12,
+        19
+      ],
+      "versePhrases": {
+        "9": [
+          "dwell"
+        ],
+        "10": [
+          "So he arose and went to Zarephath"
+        ],
+        "11": [
+          "And as she was going to fetch it, he called..."
+        ],
+        "12": [
+          "And she said, As the Lord thy God liveth, I..."
+        ],
+        "19": [
+          "And he said unto her, Give me thy son"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have comma...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וְיָֽשַׁבְתָּ֖: and dwell - properly, to sit down (specifically as judge. in ambush, in quiet...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on SERMON 124.3: Let us further see where blessed Elijah found that widow,...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Elijah said unto her, Fear not; go and do as thou hast said: but make me thereof a little...\". Word-study detail reinforces \"תִּ֣ירְאִ֔י: unto her Fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "Fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And Elijah said unto her, Fear not; go and do as thou hast said: but make me thereof a little...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "תִּ֣ירְאִ֔י: unto her Fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Elijah took the child, and brought him down out of the chamber into the house, and delive...\". Word-study detail reinforces \"וַֽיִּתְּנֵ֖הוּ: and delivered - to give, used with greatest latitude of application (put, ma...\".",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "And Elijah took the child, and brought him down out of the chamber into the house, and delive...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "וַֽיִּתְּנֵ֖הוּ: and delivered - to give, used with greatest latitude of application (put, ma...",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

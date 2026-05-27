@@ -1,0 +1,341 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 86,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:04.378Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 86: \"For You, Lord, art good and gracious\" [Psalm 8...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        13,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "Bow down Your ear, O Lord, hear me"
+        ],
+        "3": [
+          "merciful"
+        ],
+        "5": [
+          "mercy",
+          "forgive"
+        ],
+        "13": [
+          "mercy"
+        ],
+        "15": [
+          "gracious",
+          "mercy",
+          "compassion"
+        ],
+        "16": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Bow down thine ear, O LORD, hear me: for I am poor and needy. David's opening petition uses h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 86: \"Bow down Your ear, O Lord, and hear me\" [Psalm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Psalms 57:1",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 57:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Be merciful unto me, O Lord: for I cry unto thee daily. The appeal for mercy ( chonneni , חָנ...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 86: \"For You, Lord, art good and gracious\" [Psalm 8...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "Preserve my life, for I am holy"
+        ],
+        "3": [
+          "Be merciful to me, O Lord, For I cry to..."
+        ],
+        "5": [
+          "call upon"
+        ],
+        "6": [
+          "prayer"
+        ],
+        "7": [
+          "call upon"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Preserve my soul; for I am holy: O thou my God, save thy servant that trusteth in thee. David...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cassiodorus on EXPOSITIONS OF THE PSALMS 110:9: He adds, “His name is holy and to be feared.”...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Be merciful unto me, O Lord: for I cry unto thee daily. The appeal for mercy ( chonneni , חָנ...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cassiodorus on EXPOSITIONS OF THE PSALMS 110:9: He adds, “His name is holy and to be feared.”...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"O turn unto me, and have mercy upon me (פְּנֵה־אֵלַי וְחָנֵּנִי, peneh-elai ve-channeni )— Pa...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        2,
+        13,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "Save"
+        ],
+        "13": [
+          "delivered"
+        ],
+        "16": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Preserve my soul; for I am holy: O thou my God, save thy servant that trusteth in thee. David...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 1: Therefore, the Word is our educator who heals...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הוֹשַׁ֣ע: save - properly, to be open, wide or free, i.e., (by implication) to be safe; causa...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "For great is thy mercy toward me (כִּי־חַסְדְּךָ גָדוֹל עָלָי, ki-chasdekha gadol alai )— Che...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 86: \"All nations that You have made shall come and...\". Word-study detail reinforces \"עָשִׂ֗יתָ: whom thou hast made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "Rejoice the soul of Your servant, For to You, O..."
+        ],
+        "8": [
+          "Among the gods there is none like You, O Lord"
+        ],
+        "9": [
+          "made"
+        ],
+        "10": [
+          "For You are great, and do wondrous things"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Rejoice the soul of thy servant: for unto thee, O Lord, do I lift up my soul. David petitions...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 86: \"Make glad the soul of Your servant: for unto Y...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Ancient Near Eastern polytheism surrounded Israel, with nations ascribing various powers to d...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 86: \"Among the gods there is none like You, O Lord\"...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 86: \"Preserve My Soul, for I am holy\" [Psalm 86:2]....\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        3,
+        9,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "3": [
+          "Be merciful to me, O Lord, For I cry to..."
+        ],
+        "9": [
+          "All nations whom You have made Shall come and worship..."
+        ],
+        "13": [
+          "For great is Your mercy toward me, And You have..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "John 17:11",
+          "anchorVerse": 2,
+          "referenceLabel": "John 17:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Preserve my soul; for I am holy: O thou my God, save thy servant that trusteth in thee. David...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 86: \"Preserve My Soul, for I am holy\" [Psalm 86:2]....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חָסִ֪יד: for I am holy - properly, kind, i.e., (religiously) pious (a saint)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 86: \"Lead me, O Lord, in Your way, and I will walk...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        2,
+        9,
+        11,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "Preserve my life, for I am holy"
+        ],
+        "9": [
+          "All nations whom You have made Shall come and worship..."
+        ],
+        "11": [
+          "truth"
+        ],
+        "15": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The concept of holiness as covenant relationship rather than sinless perfection pervades Old...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 12: Second Meanings in the Psalms: One is the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Psalms 26:3",
+          "anchorVerse": 11,
+          "referenceLabel": "Psalms 26:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "David prays, \"Teach me thy way, O LORD; I will walk in thy truth: unite my heart to fear thy...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

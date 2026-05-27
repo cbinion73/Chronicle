@@ -1,0 +1,177 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 3,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:17.427Z",
+  "themes": [
+    {
+      "id": "keyword-offering",
+      "label": "Offering",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “offering.”",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "offering"
+        ],
+        "2": [
+          "offering"
+        ],
+        "3": [
+          "offering"
+        ],
+        "5": [
+          "offering"
+        ],
+        "6": [
+          "offering"
+        ],
+        "7": [
+          "offering"
+        ],
+        "8": [
+          "offering"
+        ],
+        "9": [
+          "offering"
+        ],
+        "11": [
+          "offering"
+        ],
+        "12": [
+          "offering"
+        ],
+        "14": [
+          "offering"
+        ],
+        "16": [
+          "offering"
+        ]
+      }
+    },
+    {
+      "id": "keyword-present",
+      "label": "Present",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “present.”",
+      "supportingVerses": [
+        1,
+        3,
+        6,
+        7,
+        9,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "present"
+        ],
+        "3": [
+          "present"
+        ],
+        "6": [
+          "present"
+        ],
+        "7": [
+          "present"
+        ],
+        "9": [
+          "present"
+        ],
+        "12": [
+          "present"
+        ],
+        "14": [
+          "present"
+        ]
+      }
+    },
+    {
+      "id": "keyword-altar",
+      "label": "Altar",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “altar.”",
+      "supportingVerses": [
+        2,
+        5,
+        8,
+        11,
+        13,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "altar"
+        ],
+        "5": [
+          "altar"
+        ],
+        "8": [
+          "altar"
+        ],
+        "11": [
+          "altar"
+        ],
+        "13": [
+          "altar"
+        ],
+        "16": [
+          "altar"
+        ]
+      }
+    },
+    {
+      "id": "keyword-food",
+      "label": "Food",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “food.”",
+      "supportingVerses": [
+        3,
+        5,
+        9,
+        11,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "food"
+        ],
+        "5": [
+          "food"
+        ],
+        "9": [
+          "food"
+        ],
+        "11": [
+          "food"
+        ],
+        "14": [
+          "food"
+        ],
+        "16": [
+          "food"
+        ]
+      }
+    }
+  ]
+}

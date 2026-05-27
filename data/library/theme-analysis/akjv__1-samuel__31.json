@@ -1,0 +1,44 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 31,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:28.990Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Saul's request that his armor-bearer kill him and the servant's refusal create his final cris...\". Word-study detail reinforces \"יָרֵ֖א: afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Saul's request that his armor-bearer kill him and the servant's refusal create his final cris...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Samuel: And Saul said to his armor-bearer: Draw your sword, etc. The ar...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יָרֵ֖א: afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

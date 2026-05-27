@@ -1,0 +1,433 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ephesians",
+  "chapter": 5,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:55.730Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Ephesians: Having spoken about the harsh passion — ange...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        9,
+        24,
+        25,
+        26,
+        27,
+        29
+      ],
+      "versePhrases": {
+        "3": [
+          "But fornication and all uncleanness or covetousness, let it not..."
+        ],
+        "9": [
+          "righteousness"
+        ],
+        "24": [
+          "just"
+        ],
+        "25": [
+          "just"
+        ],
+        "26": [
+          "that He might sanctify and cleanse her with the washing..."
+        ],
+        "27": [
+          "holy"
+        ],
+        "29": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Thessalonians 4:7",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Thessalonians 4:7"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Ephesians: Having spoken about the harsh passion — ange...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "καθὼς: as - just (or inasmuch) as, that",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Ephesians 6:14",
+          "anchorVerse": 9,
+          "referenceLabel": "Ephesians 6:14"
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: And walk in love (v. 2) comes next. First, he main...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        2,
+        25,
+        28,
+        29,
+        33
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore be imitators of God as dear children"
+        ],
+        "2": [
+          "love",
+          "loved"
+        ],
+        "25": [
+          "love",
+          "loved"
+        ],
+        "28": [
+          "love"
+        ],
+        "29": [
+          "For no one ever hated his own flesh, but nourishes..."
+        ],
+        "33": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Ephesians: As the Lord loved you, so you too love your...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀγαπητά: dear - beloved",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "John 13:34",
+          "anchorVerse": 2,
+          "referenceLabel": "John 13:34"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: And walk in love (v. 2) comes next. First, he main...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: After this the Apostle gives the reason for the se...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        8,
+        13,
+        14,
+        23,
+        27
+      ],
+      "versePhrases": {
+        "8": [
+          "light"
+        ],
+        "13": [
+          "made",
+          "light"
+        ],
+        "14": [
+          "light"
+        ],
+        "23": [
+          "For the husband is head of the wife, as also..."
+        ],
+        "27": [
+          "that He might present her to Himself a glorious church,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "John 8:12",
+          "anchorVerse": 8,
+          "referenceLabel": "John 8:12"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: Previously the Apostle had banned carnal sins by t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "φωτὸς: are ye light - luminousness (in the widest application, natural or artificial, abstrac...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "1 Corinthians 4:5",
+          "anchorVerse": 13,
+          "referenceLabel": "1 Corinthians 4:5"
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: The goal of this sanctifying action is the Church'...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        9,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "3": [
+          "But fornication and all uncleanness or covetousness"
+        ],
+        "9": [
+          "righteousness"
+        ],
+        "26": [
+          "sanctify"
+        ],
+        "27": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Thessalonians 4:7",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Thessalonians 4:7"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Ephesians: Having spoken about the harsh passion — ange...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ἁγίοις: saints - sacred (physically, pure, morally blameless or religious, ceremonially, cons...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Ephesians 6:14",
+          "anchorVerse": 9,
+          "referenceLabel": "Ephesians 6:14"
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: He interprets this when he says For the fruit of t...\". Word-study detail reinforces \"ἀληθείᾳ: truth - truth\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        14,
+        15,
+        23,
+        25,
+        26,
+        27,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore be imitators of God as dear children"
+        ],
+        "3": [
+          "But fornication and all uncleanness or covetousness, let it not..."
+        ],
+        "5": [
+          "For this you know, that no fornicator, unclean person, nor..."
+        ],
+        "6": [
+          "Let no one deceive you with empty words, for because..."
+        ],
+        "7": [
+          "Therefore do not be partakers with them"
+        ],
+        "9": [
+          "truth"
+        ],
+        "11": [
+          "And have no fellowship with the unfruitful works of darkness,..."
+        ],
+        "12": [
+          "For it is shameful even to speak of those things..."
+        ],
+        "14": [
+          "Therefore He says"
+        ],
+        "15": [
+          "See then that you walk circumspectly, not as fools but..."
+        ],
+        "23": [
+          "For the husband is head of the wife, as also..."
+        ],
+        "25": [
+          "Husbands, love your wives, just as Christ also loved the..."
+        ],
+        "26": [
+          "that He might sanctify and cleanse her with the washing..."
+        ],
+        "27": [
+          "that He might present her to Himself a glorious church,..."
+        ],
+        "31": [
+          "“For this reason a man shall leave his father and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does the truth of Ephesians 5:1 about verse-specific transform your daily walk with Christ?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 3: \"But you have not so learned Christ, if you hav...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does the truth of Ephesians 5:3 about verse-specific transform your daily walk with Christ?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: Having previously cautioned them, the Apostle taug...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"John Chrysostom on Homily on Ephesians 19: That is, \"let your requests be made known unto God...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        15,
+        16,
+        18,
+        19,
+        20,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "And walk in love, as Christ also has loved us..."
+        ],
+        "4": [
+          "thanks"
+        ],
+        "5": [
+          "For this you know, that no fornicator, unclean person, nor..."
+        ],
+        "6": [
+          "Let no one deceive you with empty words, for because..."
+        ],
+        "15": [
+          "See then that you walk circumspectly, not as fools but..."
+        ],
+        "16": [
+          "redeeming the time, because the days are evil"
+        ],
+        "18": [
+          "And do not be drunk with wine, in which is..."
+        ],
+        "19": [
+          "singing and making melody in your heart to the Lord"
+        ],
+        "20": [
+          "thanks"
+        ],
+        "26": [
+          "that He might sanctify and cleanse her with the washing..."
+        ],
+        "27": [
+          "that He might present her to Himself a glorious church,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Written during Paul's Roman imprisonment (60-62 CE), this verse in chapter 5 reflects the cir...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: And walk in love (v. 2) comes next. First, he main...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Written during Paul's Roman imprisonment (60-62 CE), this verse in chapter 5 reflects the cir...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: Next he sets down some vices associated with the a...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

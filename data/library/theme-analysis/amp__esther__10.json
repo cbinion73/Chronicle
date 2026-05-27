@@ -1,0 +1,94 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Esther",
+  "chapter": 10,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:15.378Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: That King Ahasuerus exacted tribute from all the isla...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "King"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 72:10",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 72:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And the king Ahasuerus laid a tribute upon the land, and upon the isles of the sea. The book'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: That King Ahasuerus exacted tribute from all the isla...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֨לֶךְ: And the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Mordecai's legacy: 'For Mordecai the Jew was next unto king Ahasuerus, and great among the Je...\". Word-study detail reinforces \"שָׁל֖וֹם: peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfare...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Mordecai's legacy: 'For Mordecai the Jew was next unto king Ahasuerus, and great among the Je...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: That King Ahasuerus exacted tribute from all the isla...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "שָׁל֖וֹם: peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welfare...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 6,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:47.838Z",
+  "themes": [
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The LORD hath heard my supplication; the LORD will receive my prayer. This triumphant declara...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "3": [
+          "My soul is also sore vexed"
+        ],
+        "6": [
+          "I am weary with my groaning"
+        ],
+        "7": [
+          "Mine eye is consumed because of grief"
+        ],
+        "9": [
+          "prayer",
+          "supplication"
+        ],
+        "10": [
+          "Let all mine enemies be ashamed and sore vexed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The 'how long' formula appears throughout Psalms and prophetic literature, showing it was a l...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 6: \"And my soul is troubled exceedingly\" [Psalm 6:3...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient Near Eastern mourning practices included loud weeping, but David's is intensely perso...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Isaac of Nineveh on ASCETICAL HOMILIES 75: Prayer offered up at night possesses a great power...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on COMMENTARY ON THE PSALMS 6:5: He constantly invokes this word Lord as thou...\". Word-study detail reinforces \"חָנֵּ֥נִי: Have mercy - properly, to bend or stoop in kindness to an inferior; to favor, best...\".",
+      "supportingVerses": [
+        1,
+        2,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "O Lord, rebuke me not in thine anger, neither chasten..."
+        ],
+        "2": [
+          "mercy"
+        ],
+        "4": [
+          "Return, O Lord, deliver my soul"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This penitential psalm opens with a cry for measured discipline. David doesn't deny deserving...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding Psalm, David asked to b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David's physical weakness becomes the basis for his plea for mercy. The Hebrew 'amal' (weak)...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PSALMS 6:5: He constantly invokes this word Lord as thou...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This verse reflects Old Testament understanding of death as separation from active worship. T...\". Word-study detail reinforces \"יֽוֹדֶה: who shall give thee thanks - physically, to throw (a stone, an arrow) at or away; es...\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "thanks"
+        ],
+        "6": [
+          "I am weary with my groaning"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse reflects Old Testament understanding of death as separation from active worship. T...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on HOMILY ON PSALM 105[106]: While you are still in this world, I beg of you to repent...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יֽוֹדֶה: who shall give thee thanks - physically, to throw (a stone, an arrow) at or away; es...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient Near Eastern mourning practices included loud weeping, but David's is intensely perso...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: And therefore he asks for help, saying,...\". Word-study detail reinforces \"חַלְּצָ֣ה: deliver - to pull off; hence (intensively) to strip, (reflexive) to depart; by imp...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "save",
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "David pleads for God to 'return' - implying God seems absent or withdrawn. 'Deliver my soul'...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: And therefore he asks for help, saying,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חַלְּצָ֣ה: deliver - to pull off; hence (intensively) to strip, (reflexive) to depart; by imp...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Lamentations",
+  "chapter": 1,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:48.864Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Glossa Ordinaria: O ALL YOU : the twelfth topic of indignation; for he seems to be displeased...\". Word-study detail reinforces \"מַכְאֹבִ֔י: my sorrow - anguish or (figuratively) affliction\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "How lonely sits the city that was full of people"
+        ],
+        "2": [
+          "She weeps bitterly in the night"
+        ],
+        "3": [
+          "affliction"
+        ],
+        "4": [
+          "afflicted"
+        ],
+        "5": [
+          "afflicted"
+        ],
+        "7": [
+          "affliction"
+        ],
+        "9": [
+          "affliction"
+        ],
+        "12": [
+          "sorrow"
+        ],
+        "13": [
+          "“From on high he sent fire"
+        ],
+        "16": [
+          "weep"
+        ],
+        "17": [
+          "Zion stretches out her hands, but there is none to..."
+        ],
+        "18": [
+          "suffering"
+        ],
+        "19": [
+          "“I called to my lovers, but they deceived me"
+        ],
+        "20": [
+          "“Look, O Lord, for I am in distress"
+        ],
+        "21": [
+          "trouble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How doth the city sit solitary (אֵיכָה יָשְׁבָה בָדָד, eikah yashvah badad)—The opening word...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Glossa Ordinaria: St. Paschasius. There are Canticles of Canticles; there are also Lamentatio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Written circa 586 BC following Nebuchadnezzar's destruction of Jerusalem, this lament reflect...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"This verse succinctly describes Judah's exile: \"Judah is gone into captivity because of affli...\". Word-study detail reinforces \"מָנ֑וֹחַ: no rest - quiet, i.e., (concretely) a settled spot, or (figuratively) a home\".",
+      "supportingVerses": [
+        2,
+        3,
+        9,
+        13,
+        16,
+        17,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "comfort"
+        ],
+        "3": [
+          "but finds no resting place"
+        ],
+        "9": [
+          "she has no comforter"
+        ],
+        "13": [
+          "“From on high he sent fire"
+        ],
+        "16": [
+          "for a comforter is far from me"
+        ],
+        "17": [
+          "comfort"
+        ],
+        "20": [
+          "“Look, O Lord, for I am in distress"
+        ],
+        "21": [
+          "comfort"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The personification of Jerusalem as a weeping widow captures the profound grief of covenant j...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מְנַחֵ֖ם: she hath none to comfort - properly, to sigh, i.e., breathe strongly; by implicatio...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse succinctly describes Judah's exile: \"Judah is gone into captivity because of affli...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Glossa Ordinaria: DELETH: a fourfold species of planks is introduced according to anagogy. Th...\". Word-study detail reinforces \"נְתָנַ֙נִי֙: he hath made - to give, used with greatest latitude of application (put, make, e...\".",
+      "supportingVerses": [
+        2,
+        4,
+        13,
+        14,
+        20
+      ],
+      "versePhrases": {
+        "2": [
+          "She weeps bitterly in the night, with tears on her..."
+        ],
+        "4": [
+          "The roads to Zion mourn, for none come to the..."
+        ],
+        "13": [
+          "made"
+        ],
+        "14": [
+          "“My transgressions were bound into a yoke"
+        ],
+        "20": [
+          "“Look, O Lord, for I am in distress"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 1: Bringing someone to his senses is censure, wh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בַּלַּ֗יְלָה: in the night - properly, a twist (away of the light), i.e., night; figuratively...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The pilgrimage festivals were central to Israelite faith and national identity. Exodus 23:14-...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Glossa Ordinaria: DELETH: a fourfold species of planks is introduced according to anagogy. Th...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...\". Word-study detail reinforces \"אֲלֵיכֶם֮: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        12,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "with tears on her cheeks"
+        ],
+        "3": [
+          "dwells"
+        ],
+        "7": [
+          "Jerusalem remembers in the days of her affliction and wandering..."
+        ],
+        "12": [
+          "“Is it nothing to you, all you who pass by"
+        ],
+        "22": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Written circa 586 BC following Nebuchadnezzar's destruction of Jerusalem, this lament reflect...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Glossa Ordinaria: JUDAH HAS REMOVED: the tenth topic of complaint, by which helplessness, wea...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יָשְׁבָ֣ה: she dwelleth - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Glossa Ordinaria: ALL HER PEOPLE: the fourth topic of complaint. SEE O LORD: the fourteenth t...\". Word-study detail reinforces \"לֶ֔חֶם: bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        2,
+        7,
+        11,
+        19
+      ],
+      "versePhrases": {
+        "2": [
+          "She weeps bitterly in the night, with tears on her..."
+        ],
+        "7": [
+          "Jerusalem remembers in the days of her affliction and wandering..."
+        ],
+        "11": [
+          "bread"
+        ],
+        "19": [
+          "“I called to my lovers, but they deceived me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Written circa 586 BC following Nebuchadnezzar's destruction of Jerusalem, this lament reflect...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 1: Bringing someone to his senses is censure, wh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "In what ways might we need to remember our own 'pleasant things'—not to induce nostalgia but...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Glossa Ordinaria: ZAIN: first topic of complaint. THE ENEMIES HAVE SEEN HER: the thirteenth t...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"In what ways does Christ fulfill the role of the Comforter who seemed far from Jerusalem, and...\". Word-study detail reinforces \"גָּוָ֑עוּ: gave up the ghost - to breathe out, i.e., (by implication) expire\".",
+      "supportingVerses": [
+        11,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "11": [
+          "All her people groan as they search for bread"
+        ],
+        "16": [
+          "spirit"
+        ],
+        "19": [
+          "“I called to my lovers, but they deceived me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The personified city cries: \"All her people sigh, they seek bread\" ( kol-amah ne'enachim meva...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Glossa Ordinaria: ALL HER PEOPLE: the fourth topic of complaint. SEE O LORD: the fourteenth t...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "In what ways does Christ fulfill the role of the Comforter who seemed far from Jerusalem, and...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Failed reliances exposed: \"I called for my lovers, but they deceived me\" ( karati le-me'ahava...",
+          "anchorVerse": 19
+        }
+      ]
+    }
+  ]
+}

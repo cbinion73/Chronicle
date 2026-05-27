@@ -1,0 +1,296 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 82,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:15.683Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Arise, O God, judge the earth: for thou shalt inherit all nations. The psalm concludes with u...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "he judgeth among the gods"
+        ],
+        "2": [
+          "judge"
+        ],
+        "3": [
+          "justice"
+        ],
+        "4": [
+          "Deliver the poor and needy"
+        ],
+        "8": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Isaiah 3:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 3:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "God standeth in the congregation of the mighty; he judgeth among the gods. This remarkable op...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory of Nazianzus on ON THE SON, THEOLOGICAL ORATION 4[30].4: He is said to reign in one s...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יִשְׁפֹּֽט׃: he judgeth - to judge, i.e., pronounce sentence (for or against); by implication...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 82: And therefore that this vice may be cured, in t...\". Word-study detail reinforces \"הָאָ֑רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "God standeth in the congregation of the mighty"
+        ],
+        "3": [
+          "Defend the poor and fatherless"
+        ],
+        "4": [
+          "Deliver the poor and needy"
+        ],
+        "5": [
+          "earth"
+        ],
+        "6": [
+          "I have said, Ye are gods"
+        ],
+        "8": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient Near Eastern Divine Councils and Israelite Jurisprudence Ancient Near Eastern culture...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory of Nazianzus on ON THE SON, THEOLOGICAL ORATION 4[30].4: He is said to reign in one s...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What is the relationship between personal charity (giving to the poor) and systemic justice (...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 82: \"How long will you judge unrighteously, and acc...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Defend the poor and fatherless: do justice to the afflicted and needy. This verse articulates...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "How long will ye judge unjustly"
+        ],
+        "3": [
+          "justice"
+        ],
+        "4": [
+          "Deliver the poor and needy"
+        ],
+        "6": [
+          "I have said, Ye are gods"
+        ],
+        "8": [
+          "Arise, O God, judge the earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 18:5",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 18:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How long will ye judge unjustly, and accept the persons of the wicked? Selah. God's rhetorica...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 82: \"How long will you judge unrighteously, and acc...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Jeremiah 22:3",
+          "anchorVerse": 3,
+          "referenceLabel": "Jeremiah 22:3"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"They know not, neither will they understand; they walk on in darkness: all the foundations of...\". Word-study detail reinforces \"יָבִ֗ינוּ: not neither will they understand - to separate mentally (or distinguish), i.e., (g...\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "understand"
+        ],
+        "6": [
+          "I have said, Ye are gods"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "They know not, neither will they understand; they walk on in darkness: all the foundations of...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 82: To all of them, verily, what follows is most fi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יָבִ֗ינוּ: not neither will they understand - to separate mentally (or distinguish), i.e., (g...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Jesus's Use of Psalm 82:6 and the Incarnation Debate Psalm 82:6 gained profound significance...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Deliver the poor and needy: rid them out of the hand of the wicked. This verse intensifies th...\". Word-study detail reinforces \"פַּלְּטוּ: Deliver - to slip out, i.e., escape; causatively, to deliver\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "Deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Deliver the poor and needy: rid them out of the hand of the wicked. This verse intensifies th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 82: \"How long will you judge unrighteously, and acc...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "פַּלְּטוּ: Deliver - to slip out, i.e., escape; causatively, to deliver",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Defend the poor and fatherless: do justice to the afflicted and needy. This verse articulates...\". Word-study detail reinforces \"עָנִ֖י: to the afflicted - depressed, in mind or circumstances\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Defend the poor and fatherless: do justice to the afflicted and needy. This verse articulates...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "עָנִ֖י: to the afflicted - depressed, in mind or circumstances",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

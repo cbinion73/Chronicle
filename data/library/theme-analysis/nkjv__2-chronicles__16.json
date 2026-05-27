@@ -1,0 +1,165 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 16,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:20.362Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"In the six and thirtieth year of the reign of Asa Baasha king of Israel came up against Judah...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "king",
+          "reign"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "King"
+        ],
+        "5": [
+          "Now it happened, when Baasha heard it, that he stopped..."
+        ],
+        "6": [
+          "King"
+        ],
+        "7": [
+          "king"
+        ],
+        "10": [
+          "Then Asa was angry with the seer, and put him..."
+        ],
+        "11": [
+          "are indeed written in the book of the kings of Judah and Israel"
+        ],
+        "12": [
+          "reign"
+        ],
+        "13": [
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the six and thirtieth year of the reign of Asa Baasha king of Israel came up against Judah...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Then Asa brought out silver and gold out of the treasures of the house of the LORD and of the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֣לֶךְ: and of the king's - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And they buried him in his own sepulchres, which he had made for himself in the city of David...\". Word-study detail reinforces \"הָאָ֙רֶץ֙: throughout the whole earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        9,
+        14
+      ],
+      "versePhrases": {
+        "9": [
+          "earth"
+        ],
+        "14": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The prophet Hanani's declaration 'For the eyes of the LORD run to and fro throughout the whol...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "הָאָ֙רֶץ֙: throughout the whole earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And they buried him in his own sepulchres, which he had made for himself in the city of David...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וַיִּשְׂרְפוּ: and they made - to be (causatively, set) on fire",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Were not the Ethiopians and the Lubims a huge host, with very many chariots and horsemen? yet...\". Word-study detail reinforces \"נְתָנָ֥ם: he delivered - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Were not the Ethiopians and the Lubims a huge host, with very many chariots and horsemen? yet...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "נְתָנָ֥ם: he delivered - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 7,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:43.283Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 Corinthians: He says this not to slaves alone, but al...\". Word-study detail reinforces \"ἀφιέναι: let - to send forth, in various applications (as follow)\".",
+      "supportingVerses": [
+        5,
+        6,
+        10,
+        11,
+        12,
+        17,
+        19,
+        20,
+        23,
+        24,
+        25,
+        37
+      ],
+      "versePhrases": {
+        "5": [
+          "Do not deprive one another, except perhaps by agreement for..."
+        ],
+        "6": [
+          "command"
+        ],
+        "10": [
+          "To the married I give this charge (not I, but..."
+        ],
+        "11": [
+          "(but if she does, she should remain unmarried or else..."
+        ],
+        "12": [
+          "To the rest I say (I, not the Lord) that..."
+        ],
+        "17": [
+          "Only let each person lead the life that the Lord..."
+        ],
+        "19": [
+          "but keeping the commandments of God"
+        ],
+        "20": [
+          "Each one should remain in the condition in which he..."
+        ],
+        "23": [
+          "You were bought with a price"
+        ],
+        "24": [
+          "So, brothers, in whatever condition each was called, there let..."
+        ],
+        "25": [
+          "command"
+        ],
+        "37": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Defraud ye not one the other —the verb apostereite (ἀποστερεῖτε, \"deprive\") indicates that wi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: The Lord also showed that certain precepts were enacted...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But I speak this by permission, and not of commandment —the phrase kata syngnōmēn (κατὰ συγνώ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: But why say I these things concerning the Old Testament...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 19: Then lest the woman might fear, as though she...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        12,
+        14,
+        16,
+        34
+      ],
+      "versePhrases": {
+        "12": [
+          "To the rest I say (I, not the Lord) that..."
+        ],
+        "14": [
+          "holy"
+        ],
+        "16": [
+          "For how do you know, wife, whether you will save..."
+        ],
+        "34": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Paul's mission churches inevitably included converts whose spouses remained pagan. Jewish tra...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Tertullian on To His Wife Book II: Therefore, when in these days a certain woman removed her...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Timothy 4:5",
+          "anchorVerse": 14,
+          "referenceLabel": "1 Timothy 4:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "For the unbelieving husband is sanctified by the wife —the verb hēgiastai (ἡγίασται, \"has bee...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 Corinthians: It is not enough to be holy in body; one...\". Word-study detail reinforces \"μεριμνᾷ: careth - to be anxious about\".",
+      "supportingVerses": [
+        32,
+        33,
+        34
+      ],
+      "versePhrases": {
+        "32": [
+          "anxious"
+        ],
+        "33": [
+          "anxious"
+        ],
+        "34": [
+          "anxious"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 32 word study",
+          "detail": "μεριμνᾷ: careth - to be anxious about",
+          "anchorVerse": 32
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 33 word study",
+          "detail": "μεριμνᾷ: careth - to be anxious about",
+          "anchorVerse": 33
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 34 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Corinthians: It is not enough to be holy in body; one...",
+          "anchorVerse": 34
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 34 word study",
+          "detail": "μεριμνᾷ: careth - to be anxious about",
+          "anchorVerse": 34
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 19: Then lest the woman might fear, as though she...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        14,
+        34
+      ],
+      "versePhrases": {
+        "14": [
+          "holy"
+        ],
+        "34": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "1 Timothy 4:5",
+          "anchorVerse": 14,
+          "referenceLabel": "1 Timothy 4:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "For the unbelieving husband is sanctified by the wife —the verb hēgiastai (ἡγίασται, \"has bee...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 19: Then lest the woman might fear, as though she...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "ἅγιά: holy - sacred (physically, pure, morally blameless or religious, ceremonially, consecra...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 Corinthians: Here he teaches about second marriage, a...\". Word-study detail reinforces \"γνώμην·: judgment - cognition, i.e., (subjectively) opinion, or (objectively) resolve (counse...\".",
+      "supportingVerses": [
+        10,
+        12,
+        13,
+        17,
+        25,
+        35,
+        40
+      ],
+      "versePhrases": {
+        "10": [
+          "To the married I give this charge (not I, but..."
+        ],
+        "12": [
+          "To the rest I say (I, not the Lord) that..."
+        ],
+        "13": [
+          "If any woman has a husband who is an unbeliever,..."
+        ],
+        "17": [
+          "lead"
+        ],
+        "25": [
+          "Now concerning the betrothed, I have no command from the..."
+        ],
+        "35": [
+          "I say this for your own benefit, not to lay..."
+        ],
+        "40": [
+          "Yet in my judgment she is happier if she remains..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Jewish law permitted divorce (Deuteronomy 24:1-4), debated between Hillel's lenient and Shamm...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Shepherd of Hermas on Shepherd of Hermas, Commandment 4: \"Sir, if any one has a wife who trus...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "But to the rest speak I, not the Lord —Paul transitions to a situation Jesus did not explicit...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, To the rest I say, he treat...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For what knowest thou, O wife, whether thou shalt save thy husband? —the interrogative sugges...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        7,
+        12,
+        14,
+        16,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "7": [
+          "I wish that all were as I myself am"
+        ],
+        "12": [
+          "To the rest I say (I, not the Lord) that..."
+        ],
+        "14": [
+          "For the unbelieving husband is made holy because of his..."
+        ],
+        "16": [
+          "save"
+        ],
+        "20": [
+          "Each one should remain in the condition in which he..."
+        ],
+        "23": [
+          "You were bought with a price"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when it says, I wish, he assigns the reas...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "χάρισμα: gift - a (divine) gratuity, i.e., deliverance (from danger or passion); (specially),...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "But to the rest speak I, not the Lord —Paul transitions to a situation Jesus did not explicit...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: The Lord also showed that certain precepts were enacted...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

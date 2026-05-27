@@ -1,0 +1,380 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 10,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:20.497Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book IX: A land of misery and darkness. '...\". Word-study detail reinforces \"וַתֹּ֥פַע: and where the light - to shine\".",
+      "supportingVerses": [
+        8,
+        9,
+        10,
+        11,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "8": [
+          "made"
+        ],
+        "9": [
+          "made"
+        ],
+        "10": [
+          "Did you not pour me out like milk and curdle..."
+        ],
+        "11": [
+          "You clothed me with skin and flesh, and knit me..."
+        ],
+        "21": [
+          "before I go—and I shall not return— to the land..."
+        ],
+        "22": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Ancient Near Eastern creation myths depicted humans as afterthoughts, but Job appeals to God'...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book IX: Thine hands have made me and fas...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "עִ֭צְּבוּנִי: have made - properly, to carve, i.e., fabricate or fashion",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Job appeals to his creaturely status: 'Remember, I beseech thee, that thou hast made me as th...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book IX: I will say unto God, Do not cond...\". Word-study detail reinforces \"תַּרְשִׁיעֵ֑נִי: Do not condemn - to be (causatively, do or declare) wrong; by implication, t...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        14,
+        15,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "condemn"
+        ],
+        "3": [
+          "Does it seem good to you to oppress, to despise..."
+        ],
+        "4": [
+          "Have you eyes of flesh"
+        ],
+        "5": [
+          "Are your days as the days of man, or your..."
+        ],
+        "6": [
+          "that you seek out my iniquity and search for my..."
+        ],
+        "7": [
+          "although you know that I am not guilty, and there..."
+        ],
+        "14": [
+          "If I sin, you watch me and do not acquit..."
+        ],
+        "15": [
+          "If I am guilty, woe to me"
+        ],
+        "17": [
+          "You renew your witnesses against me and increase your vexation..."
+        ],
+        "21": [
+          "before I go—and I shall not return— to the land..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Job boldly asks God: 'I will say unto God, Do not condemn me; shew me wherefore thou contende...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book IX: I will say unto God, Do not cond...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תַּרְשִׁיעֵ֑נִי: Do not condemn - to be (causatively, do or declare) wrong; by implication, t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Job questions God's motives: 'Is it good unto thee that thou shouldest oppress, that thou sho...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book IX: Will not the small number of my...\". Word-study detail reinforces \"עָנְיִֽי׃: thou mine affliction - depression, i.e., misery\".",
+      "supportingVerses": [
+        1,
+        2,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "“I loathe my life"
+        ],
+        "2": [
+          "I will say to God, Do not condemn me"
+        ],
+        "8": [
+          "Your hands fashioned and made me, and now you have..."
+        ],
+        "11": [
+          "You clothed me with skin and flesh, and knit me..."
+        ],
+        "15": [
+          "affliction"
+        ],
+        "16": [
+          "And were my head lifted up, you would hunt me..."
+        ],
+        "17": [
+          "You renew your witnesses against me and increase your vexation..."
+        ],
+        "18": [
+          "“Why did you bring me out from the womb"
+        ],
+        "20": [
+          "Are not my days few"
+        ],
+        "21": [
+          "before I go—and I shall not return— to the land..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient piety sometimes demanded stoic acceptance, but biblical lament makes room for 'bitter...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Job earlier proposed that both the innocent and the unju...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Is it proper to demand explanations from God for suffering?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book IX: I will say unto God, Do not cond...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Job wishes he had never been born: 'Wherefore then hast thou brought me forth out of the womb...\".",
+      "supportingVerses": [
+        9,
+        12,
+        13,
+        15,
+        18,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "9": [
+          "Remember that you have made me like clay"
+        ],
+        "12": [
+          "steadfast"
+        ],
+        "13": [
+          "Yet these things you hid in your heart"
+        ],
+        "15": [
+          "If I am guilty, woe to me"
+        ],
+        "18": [
+          "“Why did you bring me out from the womb"
+        ],
+        "19": [
+          "and were as though I had not been, carried from..."
+        ],
+        "21": [
+          "before I go—and I shall not return— to the land..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "In what ways does resurrection hope transform our understanding of returning to dust?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book IX: Remember, I pray Thee, that Thou...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Job discerns hidden divine purpose: 'And these things hast thou hid in thine heart: I know th...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book IX: Though Thou hide these things in...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Job questions God's motives: 'Is it good unto thee that thou shouldest oppress, that thou sho...\". Word-study detail reinforces \"וָ֭חֶסֶד: and favour - kindness; by implication (towards god) piety; rarely (by opposition) r...\".",
+      "supportingVerses": [
+        3,
+        12
+      ],
+      "versePhrases": {
+        "3": [
+          "Does it seem good to you to oppress, to despise..."
+        ],
+        "12": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Job questions God's motives: 'Is it good unto thee that thou shouldest oppress, that thou sho...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: The first way is because of the malice of the one meting...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book IX: Thou hast granted me life and me...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וָ֭חֶסֶד: and favour - kindness; by implication (towards god) piety; rarely (by opposition) r...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book IX: Thou hast granted me life and me...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        12,
+        18
+      ],
+      "versePhrases": {
+        "12": [
+          "spirit"
+        ],
+        "18": [
+          "“Why did you bring me out from the womb"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Job 33:4",
+          "anchorVerse": 12,
+          "referenceLabel": "Job 33:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Job acknowledges 'Thou hast granted me life and favour, and thy visitation hath preserved my...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book IX: Thou hast granted me life and me...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "רוּחִֽי׃: my spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalat...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

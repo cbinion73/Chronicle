@@ -1,0 +1,312 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 10,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:17.628Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jehu met with the brethren of Ahaziah king of Judah, and said, Who are ye? And they answered,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        13,
+        30
+      ],
+      "versePhrases": {
+        "3": [
+          "throne"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "30": [
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Look even out the best and meetest of your master's sons, and set him on his father's throne,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "כִּסֵּ֣א: throne - properly, covered, i.e., a throne (as canopied)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 20:4",
+          "anchorVerse": 5,
+          "referenceLabel": "1 Kings 20:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And he that was over the house, and he that was over the city, the elders also, and the bring...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And they brake down the image of Baal, and brake down the house of Baal, and made it a draugh...\". Word-study detail reinforces \"אַ֔רְצָה: unto the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        10,
+        25,
+        27,
+        29,
+        31
+      ],
+      "versePhrases": {
+        "10": [
+          "earth"
+        ],
+        "25": [
+          "made"
+        ],
+        "27": [
+          "made"
+        ],
+        "29": [
+          "made"
+        ],
+        "31": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Know now that there shall fall unto the earth nothing of the word of the LORD, which the LORD...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "אַ֔רְצָה: unto the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And it came to pass, as soon as he had made an end of offering the burnt offering, that Jehu...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "כְּכַלֹּת֣וֹ׀: And it came to pass as soon as he had made an end - to end, whether intransiti...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Now as soon as this letter cometh to you, seeing your master's sons are with you, and there a...\". Word-study detail reinforces \"הָרֶ֣כֶב: are with you and there are with you chariots - a vehicle; by implication, a team; b...\".",
+      "supportingVerses": [
+        2,
+        15,
+        16,
+        23
+      ],
+      "versePhrases": {
+        "2": [
+          "with you"
+        ],
+        "15": [
+          "Now when he departed from there, he met Jehonadab the..."
+        ],
+        "16": [
+          "with me"
+        ],
+        "23": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Now as soon as this letter cometh to you, seeing your master's sons are with you, and there a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הָרֶ֣כֶב: are with you and there are with you chariots - a vehicle; by implication, a team; b...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Theodoret of Cyrus on QUESTION 33, ON 2 KINGS: This was also a pious man, and a relative of h...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Against Lying 2.3: This opinion dishonors the holy martyrs; no, altoget...\". Word-study detail reinforces \"שֹֽׁמְעִ֗ים: If ye be mine and if ye will hearken - to hear intelligently (often with implica...\".",
+      "supportingVerses": [
+        6,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "6": [
+          "obey"
+        ],
+        "18": [
+          "Then Jehu gathered all the people together, and said to..."
+        ],
+        "19": [
+          "Now therefore, call to me all the prophets of Baal,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "שֹֽׁמְעִ֗ים: If ye be mine and if ye will hearken - to hear intelligently (often with implica...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Augustine of Hippo on Against Lying 2.3: This opinion dishonors the holy martyrs; no, altoget...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Against Lying 2.3: This opinion dishonors the holy martyrs; no, altoget...\". Word-study detail reinforces \"צַדִּקִ֖ים: Ye be righteous - just\".",
+      "supportingVerses": [
+        9,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "9": [
+          "righteous"
+        ],
+        "18": [
+          "Then Jehu gathered all the people together, and said to..."
+        ],
+        "19": [
+          "Now therefore, call to me all the prophets of Baal,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And it came to pass in the morning, that he went out, and stood, and said to all the people,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "צַדִּקִ֖ים: Ye be righteous - just",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Augustine of Hippo on Against Lying 2.3: This opinion dishonors the holy martyrs; no, altoget...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And it came to pass in the morning, that he went out, and stood, and said to all the people,...\". Word-study detail reinforces \"צַדִּקִ֖ים: Ye be righteous - just\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And it came to pass in the morning, that he went out, and stood, and said to all the people,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "צַדִּקִ֖ים: Ye be righteous - just",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

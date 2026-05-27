@@ -1,0 +1,237 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Esther",
+  "chapter": 7,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:22.794Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"And the king said again unto Esther on the second day at the banquet of wine, The phrase \"sai...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "kingdom",
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "King"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Esther 5:8",
+          "anchorVerse": 1,
+          "referenceLabel": "Esther 5:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Persian royal protocol strictly regulated access to the king and queen. Private banquets with...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמֶּ֙לֶךְ֙: So the king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Esther 5:6",
+          "anchorVerse": 2,
+          "referenceLabel": "Esther 5:6"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Haman executed: 'So they hanged Haman on the gallows that he had prepared for Mordecai. Then...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "7": [
+          "wrath"
+        ],
+        "8": [
+          "When the king returned from the palace garden to the..."
+        ],
+        "9": [
+          "Now Harbonah, one of the eunuchs, said to the king,..."
+        ],
+        "10": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Proverbs 19:12",
+          "anchorVerse": 7,
+          "referenceLabel": "Proverbs 19:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And the king arising from the banquet of wine in his wrath went into the palace garden: and H...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "בַּֽחֲמָתוֹ֙: in his wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How does the covering of Haman's face demonstrate how quickly judgment can fall when God's ti...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Rabanus Maurus on EXPLANATION ON THE BOOK OF ESTHER 10: Haman’s appeal to Queen Esther was co...\". Word-study detail reinforces \"בִּשְׁאֵ֣לָתִ֔י: me at my petition - a petition; by implication, a loan\".",
+      "supportingVerses": [
+        2,
+        3,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "petition"
+        ],
+        "3": [
+          "petition"
+        ],
+        "8": [
+          "When the king returned from the palace garden to the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The formula \"even to the half of the kingdom\" represents ancient Near Eastern royal hyperbole...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "שְּׁאֵֽלָתֵ֛ךְ: What is thy petition - a petition; by implication, a loan",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Esther's petition: 'Then Esther the queen answered and said, If I have found favour in thy si...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בִּשְׁאֵ֣לָתִ֔י: me at my petition - a petition; by implication, a loan",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Rabanus Maurus on Commentary on Esther: It is written in Proverbs: “He who digs a pit will fa...\". Word-study detail reinforces \"עָשָׂ֪ה: had made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        9,
+        10
+      ],
+      "versePhrases": {
+        "9": [
+          "made"
+        ],
+        "10": [
+          "So they hanged Haman on the gallows that he had..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Harbonah, one of the seven eunuchs who served the king (1:10), apparently knew about both the...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Rabanus Maurus on Commentary on Esther: It is written in Proverbs: “He who digs a pit will fa...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "עָשָׂ֪ה: had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient execution by hanging or impalement was public spectacle demonstrating royal justice a...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 137,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:22.229Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"How shall we sing the LORD'S song in a strange land? (אֵיךְ נָשִׁיר אֶת־שִׁיר־יְהוָה עַל אַדְ...\". Word-study detail reinforces \"שִׁ֥ירוּ: saying Sing - to sing\".",
+      "supportingVerses": [
+        2,
+        3,
+        4
+      ],
+      "versePhrases": {
+        "2": [
+          "We hung our harps Upon the willows in the midst..."
+        ],
+        "3": [
+          "Sing"
+        ],
+        "4": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "We hanged our harps upon the willows in the midst thereof (עַל־עֲרָבִים בְּתוֹכָהּ תָּלִינוּ...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Methodius of Olympus on SYMPOSIUM OR THE BANQUET OF THE TEN VIRGINS 4:3: To continue with our...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Babylonian propaganda strategy included cultural displays of conquered peoples to demonstrate...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "שִׁ֥ירוּ: saying Sing - to sing",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

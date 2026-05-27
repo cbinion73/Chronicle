@@ -1,0 +1,54 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 133,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:23.903Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"As the dew of Hermon, and as the dew that descended upon the mountains of Zion . For there th...\". Word-study detail reinforces \"הַבְּרָכָ֑ה: the blessing - benediction; by implication prosperity\".",
+      "supportingVerses": [
+        1,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "Behold, how good and how pleasant it is For brothers..."
+        ],
+        "3": [
+          "blessing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This brief wisdom psalm extols covenant community through the exclamation 'Behold!' (hinneh—l...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Zephyrinus on EPISTLES OF ZEPHYRINUS 2:1: Assist, therefore, one another in good faith, and b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "As the dew of Hermon, and as the dew that descended upon the mountains of Zion . For there th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַבְּרָכָ֑ה: the blessing - benediction; by implication prosperity",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

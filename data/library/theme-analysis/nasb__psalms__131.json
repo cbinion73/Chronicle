@@ -1,0 +1,69 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 131,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:23.249Z",
+  "themes": [
+    {
+      "id": "keyword-difficult",
+      "label": "Difficult",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “difficult.”",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "difficult"
+        ]
+      }
+    },
+    {
+      "id": "keyword-certainly",
+      "label": "Certainly",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “certainly.”",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "certainly"
+        ]
+      }
+    },
+    {
+      "id": "keyword-arrogant",
+      "label": "Arrogant",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “arrogant.”",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "arrogant"
+        ]
+      }
+    },
+    {
+      "id": "keyword-involve",
+      "label": "Involve",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “involve.”",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "involve"
+        ]
+      }
+    }
+  ]
+}

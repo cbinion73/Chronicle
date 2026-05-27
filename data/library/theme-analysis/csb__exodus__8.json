@@ -1,0 +1,112 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 8,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:14.925Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Verse 16 introduces the plague of lice or gnats (כִּנִּם, kinnim), targeting Geb, earth god....\". Word-study detail reinforces \"אֶ֥רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        6,
+        16,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "6": [
+          "waters"
+        ],
+        "16": [
+          "Then the Lord said to Moses, “Tell Aaron"
+        ],
+        "17": [
+          "And they did this"
+        ],
+        "19": [
+          "“This is the finger of God,” the magicians said to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶ֥רֶץ: the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Verse 16 introduces the plague of lice or gnats (כִּנִּם, kinnim), targeting Geb, earth god....",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "אֶ֥רֶץ: of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Verse 17 introduces the plague of lice or gnats (כִּנִּם, kinnim), targeting Geb, earth god....",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What happens when blessings become curses through misplaced worship?\".",
+      "supportingVerses": [
+        1,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "worship"
+        ],
+        "20": [
+          "worship"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What happens when blessings become curses through misplaced worship?",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        30
+      ],
+      "versePhrases": {
+        "30": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 30
+        }
+      ]
+    }
+  ]
+}

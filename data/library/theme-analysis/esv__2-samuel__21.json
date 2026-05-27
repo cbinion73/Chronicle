@@ -1,0 +1,190 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 21,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:09.939Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"And they answered the king, The man that consumed us, and that devised against us that we sho...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        14
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The historical setting of 2 Samuel 21 occurs during David's reign (circa 1010-970 BCE) over I...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמֶּ֛לֶךְ: And the king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And they answered the king, The man that consumed us, and that devised against us that we sho...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הַמֶּ֔לֶךְ: the king - a king",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But Abishai the son of Zeruiah succoured him, and smote the Philistine, and killed him. Then...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        10,
+        17
+      ],
+      "versePhrases": {
+        "10": [
+          "heavens"
+        ],
+        "17": [
+          "But Abishai the son of Zeruiah came to his aid..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "לָֽיְלָה׃: by night - properly, a twist (away of the light), i.e., night; figuratively, adver...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "1 Kings 11:36",
+          "anchorVerse": 17,
+          "referenceLabel": "1 Kings 11:36"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "But Abishai the son of Zeruiah succoured him, and smote the Philistine, and killed him. Then...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "נֵ֥ר: not the light - a lamp (i.e., the burner) or light (literally or figuratively)",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Wherefore David said unto the Gibeonites, What shall I do for you? and wherewith shall I make...\". Word-study detail reinforces \"שְׁבֻעַ֤ת: oath - properly, something sworn, i.e., an oath\".",
+      "supportingVerses": [
+        3,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "bless"
+        ],
+        "7": [
+          "oath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Wherefore David said unto the Gibeonites, What shall I do for you? and wherewith shall I make...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וּבָֽרְכ֖וּ: that ye may bless - to kneel; by implication to bless god (as an act of adoratio...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "But the king spared Mephibosheth, the son of Jonathan the son of Saul, because of the LORD'S...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "שְׁבֻעַ֤ת: oath - properly, something sworn, i.e., an oath",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But Abishai the son of Zeruiah succoured him, and smote the Philistine, and killed him. Then...\". Word-study detail reinforces \"לַמִּלְחָמָ֔ה: no more out with us to battle - a battle (i.e., the engagement); generally, wa...\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "But Abishai the son of Zeruiah succoured him, and smote the Philistine, and killed him. Then...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "לַמִּלְחָמָ֔ה: no more out with us to battle - a battle (i.e., the engagement); generally, wa...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

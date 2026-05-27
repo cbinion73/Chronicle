@@ -1,0 +1,350 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ephesians",
+  "chapter": 6,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:55.795Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on Ephesians 24: \"Peace be to the brethren and love with faith from...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        21,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "21": [
+          "beloved"
+        ],
+        "23": [
+          "love"
+        ],
+        "24": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 24: \"But that ye also may know my affairs, how I do, T...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "ἀγαπητὸς: a beloved - beloved",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 Peter 5:14",
+          "anchorVerse": 23,
+          "referenceLabel": "1 Peter 5:14"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 24: \"Peace be to the brethren and love with faith from...",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"John Chrysostom on Homily on Ephesians 24: \"And having shod your feet with the preparation of...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        15,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "15": [
+          "peace"
+        ],
+        "22": [
+          "comfort"
+        ],
+        "23": [
+          "Peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Isaiah 52:7",
+          "anchorVerse": 15,
+          "referenceLabel": "Isaiah 52:7"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 24: \"And having shod your feet with the preparation of...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "εἰρήνης: of peace - peace (literally or figuratively); by implication, prosperity",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 24: \"Whom I have sent unto you,\" saith he, \"for this v...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on Homily on Ephesians 24: \"With all prayer and supplication,\" he says, these...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        18,
+        19
+      ],
+      "versePhrases": {
+        "18": [
+          "pray",
+          "prayer"
+        ],
+        "19": [
+          "pray"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "1 Thessalonians 5:17",
+          "anchorVerse": 18,
+          "referenceLabel": "1 Thessalonians 5:17"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 24: \"With all prayer and supplication,\" he says, these...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "δεήσει: supplication - a petition",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 24: As the word of God has power to do all things, so...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"John Chrysostom on Homily on Ephesians 23: Having drawn up this army, and roused their zeal,-...\". Word-study detail reinforces \"ἀληθείᾳ: truth - truth\".",
+      "supportingVerses": [
+        4,
+        5,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        21,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "4": [
+          "Fathers, do not provoke your children to anger, but bring..."
+        ],
+        "5": [
+          "Slaves, be obedient to those who are your masters according..."
+        ],
+        "9": [
+          "And masters, do the same things to them, and give..."
+        ],
+        "10": [
+          "Finally, be strong in the Lord and in the strength..."
+        ],
+        "11": [
+          "Put on the full armor of God, so that you..."
+        ],
+        "12": [
+          "For our struggle is not against flesh and blood, but..."
+        ],
+        "13": [
+          "Therefore, take up the full armor of God, so that..."
+        ],
+        "14": [
+          "truth"
+        ],
+        "16": [
+          "in addition to all, taking up the shield of faith..."
+        ],
+        "17": [
+          "And take the helmet of salvation and the sword of..."
+        ],
+        "18": [
+          "With every prayer and request, pray at all times in..."
+        ],
+        "21": [
+          "faithful"
+        ],
+        "22": [
+          "I have sent him to you for this very purpose,..."
+        ],
+        "23": [
+          "Peace be to the brothers and sisters, and love with..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does the truth of Ephesians 6:4 about verse-specific transform your daily walk with Christ?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 21: He does not say, \"love them,\" because to this natu...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does the truth of Ephesians 6:5 about verse-specific transform your daily walk with Christ?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrosiaster on EPISTLE TO THE EPHESIANS 6.5.1: Christianity promises the kingdom of heaven o...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: Hope, on the other hand, is referred to as a helme...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        12,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "12": [
+          "against the spiritual forces of wickedness in the heavenly places"
+        ],
+        "17": [
+          "Spirit"
+        ],
+        "18": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Ephesians 2:2",
+          "anchorVerse": 12,
+          "referenceLabel": "Ephesians 2:2"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Irenaeus on Irenaeus Against Heresies Book 1: The Church believes in one God, the Father Almi...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "σάρκα: flesh - flesh (as stripped of the skin), i.e., (strictly) the meat of an animal (as fo...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Hebrews 4:12",
+          "anchorVerse": 17,
+          "referenceLabel": "Hebrews 4:12"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Ephesians: In the matter of war, the first thing is to...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "Children, obey your parents in the Lord, for this is..."
+        ],
+        "14": [
+          "righteousness"
+        ],
+        "18": [
+          "With every prayer and request, pray at all times in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: He had previously given advice to husband and wife...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "δίκαιον: right - equitable (in character or act); by implication, innocent, holy (absolutely...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Isaiah 59:17",
+          "anchorVerse": 14,
+          "referenceLabel": "Isaiah 59:17"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Ephesians: In the matter of war, the first thing is to...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 17,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:08.690Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"To the end that the children of Israel may bring their sacrifices, which they offer in the op...\". Word-study detail reinforces \"שְׁלָמִ֛ים: them for peace - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "To the end that the children of Israel may bring their sacrifices, which they offer in the op...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "שְׁלָמִ֛ים: them for peace - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And every soul that eateth that which died of itself, or that which was torn with beasts, whe...\". Word-study detail reinforces \"וְטָהֵֽר׃: then shall he be clean - to be pure (physical sound, clear, unadulterated; levitic...\".",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And every soul that eateth that which died of itself, or that which was torn with beasts, whe...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "וְטָהֵֽר׃: then shall he be clean - to be pure (physical sound, clear, unadulterated; levitic...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

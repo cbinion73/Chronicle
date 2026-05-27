@@ -1,0 +1,241 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 21,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:37.448Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"In his days the Edomites revolted from under the dominion of Judah, and made themselves a kin...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        12,
+        13,
+        16,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "King"
+        ],
+        "3": [
+          "kingdom"
+        ],
+        "4": [
+          "kingdom"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "He walked in the ways of the kings of Israel"
+        ],
+        "8": [
+          "king",
+          "reign"
+        ],
+        "12": [
+          "King"
+        ],
+        "13": [
+          "but have walked in the ways of the kings of Israel"
+        ],
+        "16": [
+          "The Lord roused the spirit of the Philistines and the..."
+        ],
+        "17": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 22:50",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Kings 22:50"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now Jehoshaphat slept with his fathers, and was buried with his fathers in the city of David....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיִּמְלֹ֛ךְ: reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 12:6",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Chronicles 12:6"
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship.",
+      "supportingVerses": [
+        14,
+        18
+      ],
+      "versePhrases": {
+        "14": [
+          "affliction"
+        ],
+        "18": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on ON GRACE AND FREE WILL 21.42: Just read the books of Paralipomenon and...\". Word-study detail reinforces \"ר֤וּחַ: the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalati...\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Moreover the LORD stirred up against Jehoram the spirit of the Philistines, and of the Arabia...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Augustine of Hippo on ON GRACE AND FREE WILL 21.42: Just read the books of Paralipomenon and...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "ר֤וּחַ: the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalati...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Howbeit the LORD would not destroy the house of David, because of the covenant that he had ma...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "1 Kings 11:36",
+          "anchorVerse": 7,
+          "referenceLabel": "1 Kings 11:36"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Howbeit the LORD would not destroy the house of David, because of the covenant that he had ma...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "נִ֛יר: a light - a lamp (i.e., the burner) or light (literally or figuratively)",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"אָמַ֗ר: and as he promised - to say (used with great latitude)\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "covenant",
+          "promised"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "אָמַ֗ר: and as he promised - to say (used with great latitude)",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

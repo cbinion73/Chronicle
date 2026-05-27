@@ -1,0 +1,322 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 6,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:11.548Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"The emphatic command 'Ye shall diligently keep the commandments of the LORD your God' employs...\". Word-study detail reinforces \"חֻקֹּתָ֣יו: all his statutes - a statute\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        14,
+        15,
+        17,
+        20,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "statutes"
+        ],
+        "2": [
+          "command",
+          "keep",
+          "statutes"
+        ],
+        "3": [
+          "Now Israel, you shall listen and be careful to do..."
+        ],
+        "4": [
+          "“Hear, Israel"
+        ],
+        "5": [
+          "And you shall love the Lord your God with all..."
+        ],
+        "6": [
+          "which I am commanding you today"
+        ],
+        "14": [
+          "follow"
+        ],
+        "15": [
+          "follow"
+        ],
+        "17": [
+          "keep",
+          "statutes"
+        ],
+        "20": [
+          "statutes"
+        ],
+        "24": [
+          "follow",
+          "statutes"
+        ],
+        "25": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Moses introduces the Shema section by stating that 'this is the commandment, the statutes, an...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמִּצְוָ֗ה: Now these are the commandments - a command, whether human or divine (collectivel...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Longevity in the Promised Land was both individual (personal blessing for obedience) and nati...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חֻקֹּתָ֣יו: all his statutes - a statute",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And the LORD commanded us to do all these statutes, to fear the LORD our God, for our good al...\". Word-study detail reinforces \"לְיִרְאָ֖ה: to fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        2,
+        5,
+        13,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "fear"
+        ],
+        "5": [
+          "And you shall love the Lord your God with all..."
+        ],
+        "13": [
+          "fear"
+        ],
+        "24": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The purpose of the law is relational: 'That thou mightest fear the LORD thy God.' Biblical 'f...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תִּירָ֜א: That thou mightest fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with al...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo: Therefore the supreme and true wisdom is in that first commandment: “You...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And it shall be our righteousness, if we observe to do all these commandments before the LORD...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3,
+        5,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "just"
+        ],
+        "5": [
+          "And you shall love the Lord your God with all your heart and with all your soul and with all your strength"
+        ],
+        "25": [
+          "righteousness",
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with al...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Desert Fathers on The Desert Fathers, Sayings of the Early Christian Monks: Somebody asked An...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Deuteronomy 24:13",
+          "anchorVerse": 25,
+          "referenceLabel": "Deuteronomy 24:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And it shall be our righteousness, if we observe to do all these commandments before the LORD...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ambrose of Milan on Letter 76, Section 5: And therefore it is written, Thou shalt love the Lo...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "“Hear, Israel"
+        ],
+        "5": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How should Christians balance grace (God's prior love) and responsibility (commanded love) in...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Mark: And one of the scribes came, and having heard them reasoning together, and perceiving t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Mark 12:30",
+          "anchorVerse": 5,
+          "referenceLabel": "Mark 12:30"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with al...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What does the link between obedience and blessing teach about God's covenant administration?\". Word-study detail reinforces \"לְלַמֵּ֣ד: to teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...\".",
+      "supportingVerses": [
+        1,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "teach"
+        ],
+        "7": [
+          "And you shall repeat them diligently to your sons and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does the link between obedience and blessing teach about God's covenant administration?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְלַמֵּ֣ד: to teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What does 'teach them diligently' reveal about the effort and intentionality required for eff...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְשִׁנַּנְתָּ֣ם: And thou shalt teach them diligently - to point (transitive or intransitive)...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The warning 'the LORD thy God is a jealous God' reveals divine intolerance of rivals. God's j...\". Word-study detail reinforces \"הָֽאֲדָמָֽה׃: of the earth - soil (from its general redness)\".",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The warning 'the LORD thy God is a jealous God' reveals divine intolerance of rivals. God's j...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָֽאֲדָמָֽה׃: of the earth - soil (from its general redness)",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

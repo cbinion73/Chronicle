@@ -1,0 +1,149 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:26.981Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The final verse captures universal suffering: 'the men that died not were smitten with the em...\".",
+      "supportingVerses": [
+        6,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "afflicted"
+        ],
+        "9": [
+          "afflicted"
+        ],
+        "12": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does the spreading affliction demonstrate about Yahweh's power beyond Israel's borders?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Samuel: And their prominent entrails spoiled. And the meditation of the...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The final verse captures universal suffering: 'the men that died not were smitten with the em...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The men of Ashdod draw the correct conclusion: 'The ark of the God of Israel shall not abide...\". Word-study detail reinforces \"יֵשֵׁ֞ב: shall not abide - properly, to sit down (specifically as judge. in ambush, in quiet)...\".",
+      "supportingVerses": [
+        4,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "fallen with his face to the ground before the ark of the Lord"
+        ],
+        "7": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The specific mutilation of head and hands echoes ancient Near Eastern practices of humiliatin...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Samuel: Moreover, the trunk of Dagon alone, etc. Moreover, the people,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The men of Ashdod draw the correct conclusion: 'The ark of the God of Israel shall not abide...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 3: 11. The satraps, as we hav...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How does Philistine fear contrast with Israel's presumption in chapter 4?",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 3: 11. The satraps, as we hav...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 3: 4. For they present themse...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 3: 4. For they present themse...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:50.810Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"For thou, LORD, wilt bless the righteous; with favour wilt thou compass him as with a shield....\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "Listen to my words, Lord"
+        ],
+        "7": [
+          "holy"
+        ],
+        "8": [
+          "righteousness"
+        ],
+        "10": [
+          "Punish them, God"
+        ],
+        "11": [
+          "But let all who take refuge in you rejoice"
+        ],
+        "12": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does knowing that God 'considers' not just your words but your heart's meditation change...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist set forth a prayer a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 138:2",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 138:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "After describing God's hatred of sinners, David contrasts himself not through self-righteousn...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"For thou, LORD, wilt bless the righteous; with favour wilt thou compass him as with a shield....\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        4,
+        5,
+        7,
+        8,
+        12
+      ],
+      "versePhrases": {
+        "4": [
+          "For you are not a God who delights in wickedness"
+        ],
+        "5": [
+          "The boastful cannot stand in your sight"
+        ],
+        "7": [
+          "holy"
+        ],
+        "8": [
+          "righteousness"
+        ],
+        "12": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This reflects Israel's temple theology where only the ritually clean could approach God's pre...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Here two things should be noted. First,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse intensifies the previous statement - not only does God not delight in wickedness,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Here two things should be noted. First,...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 5: \"You will destroy all that speak a lie.\" [Psalm...\". Word-study detail reinforces \"נְכוֹנָה֮: For there is no faithfulness - properly, to be erect (i.e., stand perpendicular);...\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "In the morning, Lord, you hear my voice"
+        ],
+        "4": [
+          "For you are not a God who delights in wickedness"
+        ],
+        "5": [
+          "The boastful cannot stand in your sight"
+        ],
+        "6": [
+          "You destroy those who tell lies"
+        ],
+        "7": [
+          "faithful"
+        ],
+        "9": [
+          "For there is nothing reliable in what they say"
+        ],
+        "11": [
+          "But let all who take refuge in you rejoice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The practice of morning prayer aligned with the daily sacrificial system. Exodus 29:38-42 pre...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on BRIEF COMMENTARY ON PSALM 5: After the shadows recede from my heart and the light o...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This verse declares God's absolute holiness and incompatibility with evil. The Hebrew 'chaphe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Didymus the Blind on FRAGMENTS ON THE PSALMS 5:6: It is true that evil is not from God, as is...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"My voice shalt thou hear in the morning, O LORD; in the morning will I direct my prayer unto...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        8,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "Listen to my words, Lord"
+        ],
+        "2": [
+          "pray"
+        ],
+        "3": [
+          "In the morning, Lord, you hear my voice"
+        ],
+        "8": [
+          "Lord, lead me in your righteousness because of my adversaries"
+        ],
+        "10": [
+          "Punish them, God"
+        ],
+        "11": [
+          "But let all who take refuge in you rejoice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Give ear to my words, O LORD, consider my meditation. This opening verse establishes the psal...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist set forth a prayer a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Psalms 65:2",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 65:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David's prayer acknowledges God's dual role as King and personal God. 'My King' (Hebrew 'malk...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"For thou, LORD, wilt bless the righteous; with favour wilt thou compass him as with a shield....\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        2,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "Pay attention to the sound of my cry, my King..."
+        ],
+        "10": [
+          "Punish them, God"
+        ],
+        "11": [
+          "But let all who take refuge in you rejoice"
+        ],
+        "12": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David's prayer acknowledges God's dual role as King and personal God. 'My King' (Hebrew 'malk...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist set forth a prayer a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Imprecatory psalms reflected covenant curses that God Himself established against covenant br...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 5: \"Judge them, O God: let them fall from their own...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"But let all those that put their trust in thee rejoice: let them ever shout for joy, because...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        5,
+        7,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "The boastful cannot stand in your sight"
+        ],
+        "7": [
+          "love"
+        ],
+        "11": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How do you reconcile God's love and His hatred of sin in your theological understanding?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 5: \"Nor shall the unrighteous abide before Your eye...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "After describing God's hatred of sinners, David contrasts himself not through self-righteousn...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חַ֭סְדְּךָ: of thy mercy - kindness; by implication (towards god) piety; rarely (by oppositio...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

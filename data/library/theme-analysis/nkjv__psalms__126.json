@@ -1,0 +1,85 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 126,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:18.521Z",
+  "themes": [
+    {
+      "id": "keyword-captivity",
+      "label": "Captivity",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “captivity.”",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "captivity"
+        ],
+        "4": [
+          "captivity"
+        ]
+      }
+    },
+    {
+      "id": "keyword-things",
+      "label": "Things",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “things.”",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "things"
+        ],
+        "3": [
+          "things"
+        ]
+      }
+    },
+    {
+      "id": "keyword-great",
+      "label": "Great",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “great.”",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "great"
+        ],
+        "3": [
+          "great"
+        ]
+      }
+    },
+    {
+      "id": "keyword-back",
+      "label": "Back",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “back.”",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "back"
+        ],
+        "4": [
+          "back"
+        ]
+      }
+    }
+  ]
+}

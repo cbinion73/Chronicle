@@ -1,0 +1,176 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "John",
+  "chapter": 2,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:43.998Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on John: That the Lord began to work miracles after His ba...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        4,
+        11,
+        14,
+        16,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "And the third day there was a marriage in Cana..."
+        ],
+        "4": [
+          "Jesus saith unto her, Woman, what have I to do..."
+        ],
+        "11": [
+          "glory"
+        ],
+        "14": [
+          "and found in the temple those that sold oxen and..."
+        ],
+        "16": [
+          "and said unto them that sold doves, Take these things..."
+        ],
+        "21": [
+          "But he spake of the temple of his body"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The 'third day' may foreshadow Christ's resurrection, John's first use of symbolic timing. Ca...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Tractates on John 8: The miracle indeed of our Lord Jesus Christ, where...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Jesus' response—'Woman, what have I to do with thee? mine hour is not yet come'—establishes c...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Romanos the Melodist on KONTAKION ON THE MARRIAGE AT CANA 7.13-16: “At the time when I brough...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jesus commands the servants to fill the jars 'to the brim'—complete fullness, maximum capacit...\". Word-study detail reinforces \"Ἄρατε: Take - to lift up; by implication, to take up or away; figuratively, to raise (the voi...\".",
+      "supportingVerses": [
+        5,
+        7,
+        10,
+        16
+      ],
+      "versePhrases": {
+        "5": [
+          "His mother saith unto the servants, Whatsoever he saith unto..."
+        ],
+        "7": [
+          "Jesus saith unto them, Fill the waterpots with water"
+        ],
+        "10": [
+          "kept"
+        ],
+        "16": [
+          "and said unto them that sold doves, Take these things..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Mary's instruction to the servants—'Whatsoever he saith unto you, do it'—expresses complete t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on John: Now although his mother was refused, she did not lose h...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Jesus commands the servants to fill the jars 'to the brim'—complete fullness, maximum capacit...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Maximus of Turin on SERMON 23: Addressing the expectant servants, he said, “Fill the jars wit...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on the Gospel of John 22: Thus when he was about to heal the noblem...\". Word-study detail reinforces \"λίθιναι: of stone - stony, i.e., made of stone\".",
+      "supportingVerses": [
+        6,
+        9,
+        15,
+        22
+      ],
+      "versePhrases": {
+        "6": [
+          "And there were set there six waterpots of stone, after..."
+        ],
+        "9": [
+          "made"
+        ],
+        "15": [
+          "made"
+        ],
+        "22": [
+          "When therefore he was risen from the dead, his disciples..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Tractates on John 9: But observe what Himself saith, \"The things which...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "λίθιναι: of stone - stony, i.e., made of stone",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This transformation (water to wine) is qualitatively different from later multiplication mira...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on the Gospel of John 22: Thus when he was about to heal the noblem...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

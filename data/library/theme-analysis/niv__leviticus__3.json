@@ -1,0 +1,70 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 3,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:28.308Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The peace offering (שְׁלָמִים, shelamim) celebrated fellowship with God and community, with p...\". Word-study detail reinforces \"וְהִקְרִ֥יב: If he offer - to approach (causatively, bring near) for whatever purpose\".",
+      "supportingVerses": [
+        1,
+        4,
+        6,
+        7,
+        10,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "you are to present before the Lord an animal without defect"
+        ],
+        "4": [
+          "near"
+        ],
+        "6": [
+          "you are to offer a male or female without defect"
+        ],
+        "7": [
+          "If you offer a lamb, you are to present it..."
+        ],
+        "10": [
+          "near"
+        ],
+        "15": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The peace offering (שְׁלָמִים, shelamim) celebrated fellowship with God and community, with p...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יַקְרִיבֶ֖נּוּ: he shall offer - to approach (causatively, bring near) for whatever purpose",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The peace offering (שְׁלָמִים, shelamim) celebrated fellowship with God and community, with p...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The peace offering (שְׁלָמִים, shelamim) celebrated fellowship with God and community, with p...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 24,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:54.177Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Lift up.\" This is the third part of the...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        3,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "The earth is the Lord’s"
+        ],
+        "3": [
+          "Who shall ascend into the hill of the Lord? or who shall stand in his holy place?"
+        ],
+        "7": [
+          "glory"
+        ],
+        "8": [
+          "glory"
+        ],
+        "9": [
+          "glory"
+        ],
+        "10": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How should recognizing God's ownership shape our worship and giving?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "1 Corinthians: All things are lawful for me, but all things are not expedient: all things are...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The question 'Who shall ascend into the hill of the LORD?' addresses prerequisites for worshi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Who shall ascend?\" As if to say: he is...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Who shall ascend?\" As if to say: he is...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "The earth is the Lord’s, and the fulness thereof"
+        ],
+        "3": [
+          "holy"
+        ],
+        "4": [
+          "pure heart"
+        ],
+        "5": [
+          "righteousness"
+        ],
+        "10": [
+          "Who is this King of glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The earth is the LORD'S, and the fulness thereof; the world, and they that dwell therein. Thi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having set forth the tribulation and the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 15:1",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 15:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The question 'Who shall ascend into the hill of the LORD?' addresses prerequisites for worshi...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Lift up.\" This is the third part of the...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "7": [
+          "King"
+        ],
+        "8": [
+          "King"
+        ],
+        "9": [
+          "King"
+        ],
+        "10": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The command to gates—'Lift up your heads, O ye gates'—personifies Jerusalem's entryway, calli...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Lift up.\" This is the third part of the...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "מֶ֣לֶךְ: and the King - a king",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 93:1",
+          "anchorVerse": 8,
+          "referenceLabel": "Psalms 93:1"
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The answer requires moral purity: 'clean hands and a pure heart.' Hands represent deeds (exte...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "4": [
+          "pure",
+          "clean"
+        ],
+        "5": [
+          "righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 15:1",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 15:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does the question 'who shall ascend' teach about the holiness required for worship?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Who shall ascend?\" As if to say: he is...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קָדְשֽׁוֹ׃: in his holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Having set forth the tribulation and the...\". Word-study detail reinforces \"הָאָ֣רֶץ: The earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "2": [
+          "For he hath founded it upon the seas, and established..."
+        ],
+        "3": [
+          "Who shall ascend into the hill of the Lord"
+        ],
+        "7": [
+          "Lift up your heads, O ye gates"
+        ],
+        "8": [
+          "Who is this King of glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The earth is the LORD'S, and the fulness thereof; the world, and they that dwell therein. Thi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having set forth the tribulation and the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָ֣רֶץ: The earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God's ownership of earth is grounded in creation: 'he hath founded it upon the seas, and esta...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Lift up.\" This is the third part of the...\". Word-study detail reinforces \"וְיֹ֣שְׁבֵי: and they that dwell - properly, to sit down (specifically as judge. in ambush, i...\".",
+      "supportingVerses": [
+        1,
+        3,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "dwell"
+        ],
+        "3": [
+          "Who shall ascend into the hill of the Lord"
+        ],
+        "8": [
+          "Who is this King of glory"
+        ],
+        "9": [
+          "Lift up your heads, O ye gates"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The earth is the LORD'S, and the fulness thereof; the world, and they that dwell therein. Thi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having set forth the tribulation and the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְיֹ֣שְׁבֵי: and they that dwell - properly, to sit down (specifically as judge. in ambush, i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The question 'Who shall ascend into the hill of the LORD?' addresses prerequisites for worshi...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

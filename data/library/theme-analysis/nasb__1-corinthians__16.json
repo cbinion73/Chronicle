@@ -1,0 +1,353 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 16,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:52.990Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 43: \"But with you it may be that I shall abide, or...\". Word-study detail reinforces \"παραμενῶ: that I will abide - to stay near, i.e., remain (literally, tarry; or figuratively,...\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        10,
+        12,
+        16,
+        17,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "4": [
+          "with me"
+        ],
+        "6": [
+          "with you"
+        ],
+        "7": [
+          "with you"
+        ],
+        "10": [
+          "Now if Timothy comes, see that he has no reason..."
+        ],
+        "12": [
+          "I strongly encouraged him to come to you with the brothers"
+        ],
+        "16": [
+          "I urge that you also be subject to such as..."
+        ],
+        "17": [
+          "I rejoice over the coming of Stephanas, Fortunatus, and Achaicus,..."
+        ],
+        "23": [
+          "with you"
+        ],
+        "24": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And if it be meet that I go also — Axios (ἄξιος, \"meet\") means \"worthy\" or \"fitting.\" Paul re...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 43: \"And if it be meet for me to go also, they sha...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And it may be that I will abide, yea, and winter with you —Ancient Mediterranean travel cease...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 43: \"But with you it may be that I shall abide, or...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: Furthermore, he wishes them his love, saying,...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        14,
+        18,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "Now concerning the collection for the saints, as I directed..."
+        ],
+        "14": [
+          "love"
+        ],
+        "18": [
+          "For they have refreshed my spirit and yours"
+        ],
+        "22": [
+          "love"
+        ],
+        "24": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does the collection for Jerusalem saints reveal about the relationship between doctrine...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 43: Having completed his discourse concerning doct...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 Peter 4:8",
+          "anchorVerse": 14,
+          "referenceLabel": "1 Peter 4:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Let all your things be done with charity — Panta hymōn en agapē ginesthō (πάντα ὑμῶν ἐν ἀγάπῃ...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Watch ye — Grēgoreō (γρηγορέω, \"be awake, vigilant\") carries eschatological overtones—Jesus u...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        7,
+        8,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "7": [
+          "hope"
+        ],
+        "8": [
+          "But I will remain in Ephesus until Pentecost"
+        ],
+        "10": [
+          "Now if Timothy comes, see that he has no reason..."
+        ],
+        "13": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "For I will not see you now by the way — Arti parerchomenos (ἄρτι παρερχόμενος, \"now passing b...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 43: \"For I do not wish to see you now by the way;...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἐλπίζω: I trust - to expect or confide",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "But I will tarry at Ephesus until Pentecost —Paul remained in Ephesus, his ministry base duri...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 43: Having completed his discourse concerning doct...\". Word-study detail reinforces \"ἐκκλησίᾳ: The churches - a calling out, i.e., (concretely) a popular meeting, especially a re...\".",
+      "supportingVerses": [
+        1,
+        2,
+        9,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "Now concerning the collection for the saints, as I directed..."
+        ],
+        "2": [
+          "made"
+        ],
+        "9": [
+          "for a wide door for effective service has opened to..."
+        ],
+        "19": [
+          "The churches of Asia greet you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 43: Having completed his discourse concerning doct...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἐκκλησίαις: to the churches - a calling out, i.e., (concretely) a popular meeting, especially...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For a great door and effectual is opened unto me — Thyra megale kai energēs (θύρα μεγάλη καὶ...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Ambrosiaster on COMMENTARY ON PAUL’S EPISTLES: Paul made it clear that he was staying at Ephe...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And it may be that I will abide, yea, and winter with you —Ancient Mediterranean travel cease...\". Word-study detail reinforces \"ἀνεπλήρωσαν·: have supplied - to complete; by implication, to occupy, supply; figuratively, t...\".",
+      "supportingVerses": [
+        2,
+        6,
+        7,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "need"
+        ],
+        "6": [
+          "and perhaps I will stay with you or even spend..."
+        ],
+        "7": [
+          "want"
+        ],
+        "17": [
+          "I rejoice over the coming of Stephanas, Fortunatus, and Achaicus,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse provides evidence that Christians had abandoned the Sabbath for Sunday worship wit...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 43: \"On the first day of the week,\" that is, the L...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And it may be that I will abide, yea, and winter with you —Ancient Mediterranean travel cease...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "ἐὰν: - a conditional particle; in case that, provided, etc.; often used in connection with ot...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 44: \"All the brethren salute you. Salute one anoth...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        7,
+        15,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Now concerning the collection for the saints, as I directed..."
+        ],
+        "7": [
+          "just"
+        ],
+        "15": [
+          "Now I urge you, brothers and sisters"
+        ],
+        "20": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Romans 12:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Romans 12:13"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Above, through the entire succession of the le...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ὥσπερ: as - just as, i.e., exactly like",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἄρτι: now - just now",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

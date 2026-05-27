@@ -1,0 +1,79 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 10,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:46.127Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Written for post-exilic Israel (c. 450-400 BCE), the Chronicler reinterprets earlier accounts...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        13,
+        14
+      ],
+      "versePhrases": {
+        "13": [
+          "Saul died because he was unfaithful to the Lord"
+        ],
+        "14": [
+          "kingdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Samuel 15:23",
+          "anchorVerse": 13,
+          "referenceLabel": "1 Samuel 15:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Written for post-exilic Israel (c. 450-400 BCE), the Chronicler reinterprets earlier accounts...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Samuel 15:28",
+          "anchorVerse": 14,
+          "referenceLabel": "1 Samuel 15:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The theological center of Saul's failure was his failure to 'enquire of the LORD' (darash YHW...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"שָׁמָ֑ר: which he kept - properly, to hedge about (as with thorns), i.e., guard; generally, t...\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "שָׁמָ֑ר: which he kept - properly, to hedge about (as with thorns), i.e., guard; generally, t...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

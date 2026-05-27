@@ -1,0 +1,333 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 16,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:21.901Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thou shalt eat no leavened bread with it; seven days shalt thou eat unleavened bread therewit...\". Word-study detail reinforces \"לֶ֣חֶם: therewith even the bread - food (for man or beast), especially bread, or grain (for m...\".",
+      "supportingVerses": [
+        3,
+        4,
+        8,
+        9,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "bread"
+        ],
+        "4": [
+          "No yeast is to be found anywhere in your territory..."
+        ],
+        "8": [
+          "bread"
+        ],
+        "9": [
+          "“You are to count seven weeks, counting the weeks from..."
+        ],
+        "16": [
+          "Bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Thou shalt eat no leavened bread with it; seven days shalt thou eat unleavened bread therewit...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "לֶ֣חֶם: therewith even the bread - food (for man or beast), especially bread, or grain (for m...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does eating bread of affliction maintain connection to past deliverance?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "שְׂאֹ֛ר: And there shall be no leavened bread - barm or yeast-cake (as swelling by fermentation)",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thou shalt not plant thee a grove of any trees near unto the altar of the LORD thy God, which...\". Word-study detail reinforces \"אֵ֗צֶל: near - a side; (as a preposition) near\".",
+      "supportingVerses": [
+        2,
+        6,
+        11,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "dwell"
+        ],
+        "6": [
+          "dwell"
+        ],
+        "11": [
+          "dwell"
+        ],
+        "21": [
+          "“Do not set up an Asherah of any kind of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Thou shalt therefore sacrifice the passover unto the LORD thy God, of the flock and the herd,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And thou shalt rejoice before the LORD thy God —The Hebrew vesamachta (וְשָׂמַחְתָּ֞) command...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "Thou shalt not plant thee a grove of any trees near unto the altar of the LORD thy God, which...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"That which is altogether just shalt thou follow (צֶדֶק צֶדֶק תִּרְדֹּף, tsedeq tsedeq tirdof...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        16,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "16": [
+          "“All your males are to appear three times a year..."
+        ],
+        "18": [
+          "righteous"
+        ],
+        "19": [
+          "righteous",
+          "justice"
+        ],
+        "20": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "What does bringing offerings ('not appear empty') teach about worship as giving, not just rec...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Paterius: He appears emptyhanded in the sight of the Lord who brings none of the fruits of hi...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Judges and officers shalt thou make thee in all thy gates —This verse transitions from worshi...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "צֶֽדֶק׃: with just - the right (natural, moral or legal); also (abstractly) equity or (figura...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"That which is altogether just shalt thou follow (צֶדֶק צֶדֶק תִּרְדֹּף, tsedeq tsedeq tirdof...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "18": [
+          "judge",
+          "judgment"
+        ],
+        "19": [
+          "justice"
+        ],
+        "20": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "1 Chronicles 23:4",
+          "anchorVerse": 18,
+          "referenceLabel": "1 Chronicles 23:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Judges and officers shalt thou make thee in all thy gates —This verse transitions from worshi...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "וְשָֽׁפְט֥וּ: Judges - to judge, i.e., pronounce sentence (for or against); by implication, t...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Exodus 23:2",
+          "anchorVerse": 19,
+          "referenceLabel": "Exodus 23:2"
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And thou shalt remember that thou wast a bondman in Egypt —The Hebrew vezacharta (וְזָכַרְתָּ...\". Word-study detail reinforces \"וְעָשִׂ֣יתָ: and keep - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        1,
+        12,
+        15,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "“Set aside the month of Abib and observe the Passover..."
+        ],
+        "12": [
+          "follow",
+          "statutes"
+        ],
+        "15": [
+          "You are to hold a seven-day festival for the Lord..."
+        ],
+        "20": [
+          "Pursue justice and justice alone, so that you will live..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Why does God command perpetual memorial of the exodus deliverance?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְעָשִׂ֣יתָ: and keep - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And thou shalt remember that thou wast a bondman in Egypt —The Hebrew vezacharta (וְזָכַרְתָּ...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "הַֽחֻקִּ֖ים: these statutes - an enactment; hence, an appointment (of time, space, quantity,...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"That which is altogether just shalt thou follow (צֶדֶק צֶדֶק תִּרְדֹּף, tsedeq tsedeq tirdof...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        10,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "10": [
+          "You are to celebrate the Festival of Weeks to the..."
+        ],
+        "18": [
+          "righteous"
+        ],
+        "19": [
+          "righteous"
+        ],
+        "20": [
+          "Pursue justice and justice alone, so that you will live..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Six days thou shalt eat unleavened bread: and on the seventh day shall be a solemn assembly t...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON LEVITICUS 2.2.5: An offering of “first fruits,” that is,...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Judges and officers shalt thou make thee in all thy gates —This verse transitions from worshi...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Leviticus 19:15",
+          "anchorVerse": 19,
+          "referenceLabel": "Leviticus 19:15"
+        }
+      ]
+    }
+  ]
+}

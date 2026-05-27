@@ -1,0 +1,324 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 88,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:35.251Z",
+  "themes": [
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Daily morning prayer was central to Israelite spirituality. Levitical priests offered morning...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        2,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "cry out"
+        ],
+        "2": [
+          "prayer"
+        ],
+        "13": [
+          "prayer"
+        ],
+        "14": [
+          "Why, Lord, do you reject me and hide your face..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O LORD God of my salvation, I have cried day and night before thee. This opening verse of Scr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 14:8: Accept an additional testimony from the eigh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Lamentations 3:8",
+          "anchorVerse": 2,
+          "referenceLabel": "Lamentations 3:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Let my prayer come before thee: incline thine ear unto my cry —The psalmist pleads for divine...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thou hast laid me in the lowest pit, in darkness, in the deeps. This verse makes the shocking...\". Word-study detail reinforces \"בְּאֶ֣רֶץ: in the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        6,
+        8,
+        12,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "6": [
+          "You have put me in the lowest pit, in the..."
+        ],
+        "8": [
+          "made"
+        ],
+        "12": [
+          "Are your wonders known in the place of darkness, or..."
+        ],
+        "16": [
+          "Your wrath has swept over me"
+        ],
+        "18": [
+          "You have taken from me friend and neighbor— darkness is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Thou hast laid me in the lowest pit, in darkness, in the deeps. This verse makes the shocking...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on DEMONSTRATION AGAINST THE PAGANS 4:12: Next, David made it clear that Chri...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Thou hast put away mine acquaintance far from me —God is the active agent of social isolation...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 88: \"You have put Mine acquaintance far from Me\" [P...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thy fierce wrath goeth over me (עָבְרוּ עָלַי חֲרוֹנֶיךָ, averu alay charonekha )—The phrase...\". Word-study detail reinforces \"חֲרוֹנֶ֑יךָ: Thy fierce wrath - a burning of anger\".",
+      "supportingVerses": [
+        7,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "7": [
+          "wrath"
+        ],
+        "15": [
+          "From my youth I have suffered and been close to..."
+        ],
+        "16": [
+          "wrath"
+        ],
+        "17": [
+          "All day long they surround me like a flood"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Thy wrath lieth hard upon me (סָמְכָה עָלַי חֲמָתֶךָ, samkhah alay chamatekha )—The verb \"lie...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 88: \"Your indignation lies hard upon Me\" [Psalm 88:...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חֲמָתֶ֑ךָ: Thy wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "I am afflicted and ready to die from my youth up (עָנִי אֲנִי וְגוֹעֵעַ מִנֹּעַר, ani ani veg...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Shall thy lovingkindness be declared in the grave? (הַיְסֻפַּר בַּקֶּבֶר חַסְדֶּךָ, hayesupar...\". Word-study detail reinforces \"אֱ֝מֽוּנָתְךָ֗: or thy faithfulness - literally firmness; figuratively security; morally fide...\".",
+      "supportingVerses": [
+        10,
+        11,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "10": [
+          "Do you show your wonders to the dead"
+        ],
+        "11": [
+          "faithfulness"
+        ],
+        "17": [
+          "All day long they surround me like a flood"
+        ],
+        "18": [
+          "You have taken from me friend and neighbor— darkness is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 88: But as His good works profited only the predest...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Shall thy lovingkindness be declared in the grave? (הַיְסֻפַּר בַּקֶּבֶר חַסְדֶּךָ, hayesupar...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 88: \"Shall one show Your loving-kindness in the gra...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "אֱ֝מֽוּנָתְךָ֗: or thy faithfulness - literally firmness; figuratively security; morally fide...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 88: \"Shall one show Your loving-kindness in the gra...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        11,
+        12,
+        18
+      ],
+      "versePhrases": {
+        "11": [
+          "love"
+        ],
+        "12": [
+          "Are your wonders known in the place of darkness, or..."
+        ],
+        "18": [
+          "You have taken from me friend and neighbor— darkness is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How does knowing that God's chesed (steadfast love) reaches even to the grave change your per...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 88: \"Shall one show Your loving-kindness in the gra...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "חַסְדֶּ֑ךָ: Shall thy lovingkindness - kindness; by implication (towards god) piety; rarely (...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Shall thy wonders be known in the dark? (הַיִּוָּדַע בַּחֹשֶׁךְ פִּלְאֶךָ, hayivada vachoshek...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 88: For this purpose he briefly sketches in what fo...\".",
+      "supportingVerses": [
+        3,
+        5,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "near"
+        ],
+        "5": [
+          "I am set apart with the dead"
+        ],
+        "18": [
+          "You have taken from me friend and neighbor— darkness is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Ancient Israel understood Sh'ol as the shadowy realm of the dead—not yet fully developed into...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 88: \"For my soul is filled with evils, and my life...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does the feeling of being \"forgotten by God\" differ from the theological reality of His c...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 88: \"Free among the dead\" [Psalm 88:5]. In these wo...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

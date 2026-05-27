@@ -1,0 +1,360 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Titus",
+  "chapter": 2,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:35.283Z",
+  "themes": [
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Titus: Similarly, with holy habits, not inciting, not serving much wi...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "teach"
+        ],
+        "2": [
+          "Teach"
+        ],
+        "3": [
+          "teach"
+        ],
+        "4": [
+          "Then they can urge the younger women to love their..."
+        ],
+        "9": [
+          "Teach"
+        ],
+        "15": [
+          "teach"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Titus: But you speak what befits sound doctrine. The speaking of soun...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Titus: Older men should be sober, honorable, chaste, sound in faith,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The aged women likewise —πρεσβύτιδας (presbytidas, aged women) receive parallel instruction....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Titus: Similarly, with holy habits, not inciting, not serving much wi...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Titus: Older men should be sober, honorable, chaste, sound in faith,...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        10,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "faith"
+        ],
+        "10": [
+          "trusted"
+        ],
+        "12": [
+          "It teaches us to say “No” to ungodliness and worldly..."
+        ],
+        "13": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "1 Timothy 3:11",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Timothy 3:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "That the aged men be sober, grave, temperate —πρεσβύτας (presbyteras, aged men, distinct from...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Titus: Older men should be sober, honorable, chaste, sound in faith,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πίστει: in faith - persuasion, i.e., credence; moral conviction (of religious truth, or the t...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Titus: Similarly, exhort the youth to be pure in all things, setting...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "Likewise, teach the older women to be reverent in the..."
+        ],
+        "4": [
+          "Then they can urge the younger women to love their..."
+        ],
+        "5": [
+          "pure"
+        ],
+        "6": [
+          "Similarly, encourage the young men to be self-controlled"
+        ],
+        "7": [
+          "In everything set them an example by doing what is..."
+        ],
+        "11": [
+          "For the grace of God has appeared that offers salvation..."
+        ],
+        "12": [
+          "It teaches us to say “No” to ungodliness and worldly..."
+        ],
+        "14": [
+          "who gave himself for us to redeem us from all..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Romans 16:2",
+          "anchorVerse": 3,
+          "referenceLabel": "Romans 16:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Older women: does your life exhibit sacred dignity befitting holiness, or do you blend into w...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Titus: Similarly, with holy habits, not inciting, not serving much wi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ἱεροπρεπεῖς: as becometh holiness - reverent",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Titus: Second, it appeared as an instruction to the human rac...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        4,
+        8,
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "Likewise, teach the older women to be reverent in the..."
+        ],
+        "4": [
+          "Then they can urge the younger women to love their..."
+        ],
+        "8": [
+          "and soundness of speech that cannot be condemned, so that..."
+        ],
+        "11": [
+          "For the grace of God has appeared that offers salvation..."
+        ],
+        "12": [
+          "upright"
+        ],
+        "14": [
+          "who gave himself for us to redeem us from all..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Romans 16:2",
+          "anchorVerse": 3,
+          "referenceLabel": "Romans 16:2"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Titus: Similarly, with holy habits, not inciting, not serving much wi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Mothers: do you embrace child-rearing as holy calling, or has cultural denigration of motherh...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Titus: Similarly, with holy habits, not inciting, not serving much wi...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Titus: Then when he says, who gave himself, the workings of g...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "salvation"
+        ],
+        "12": [
+          "It teaches us to say “No” to ungodliness and worldly..."
+        ],
+        "13": [
+          "while we wait for the blessed hope—the appearing of the..."
+        ],
+        "14": [
+          "redeem"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "1 Timothy 2:4",
+          "anchorVerse": 11,
+          "referenceLabel": "1 Timothy 2:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Against Jewish particularism limiting salvation to Abraham's physical descendants, Paul procl...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Titus: Above, the Apostle instructed Titus how to teach slave...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "σωτήριος: that bringeth salvation - defender or (by implication) defense",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Titus: Above, the Apostle instructed Titus how to teach slave...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "grace"
+        ],
+        "12": [
+          "It teaches us to say “No” to ungodliness and worldly..."
+        ],
+        "14": [
+          "who gave himself for us to redeem us from all..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Hebrews 2:9",
+          "anchorVerse": 11,
+          "referenceLabel": "Hebrews 2:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "For the grace of God that bringeth salvation hath appeared to all men —γάρ (gar, for) signals...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Titus: Above, the Apostle instructed Titus how to teach slave...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "χάρις: the grace - graciousness (as gratifying), of manner or act (abstract or concrete; lite...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

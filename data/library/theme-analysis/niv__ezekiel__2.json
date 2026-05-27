@@ -1,0 +1,136 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 2,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:30.262Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 9: But often in people this very...\". Word-study detail reinforces \"תִּירָא֙: be not afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        1,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "He said to me, “Son of man, stand up on..."
+        ],
+        "6": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What responsibilities is God calling you to 'stand up' and face rather than remain prostrate...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 9: But we must ask why Ezekiel a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "God commands Ezekiel four times: \"be not afraid\" of briars, thorns, scorpions, or their words...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 9: But often in people this very...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The Spirit's enabling is essential for prophetic ministry: \"the spirit entered into me when h...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "He said to me, “Son of man, stand up on..."
+        ],
+        "2": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "God addresses Ezekiel with the title 'Son of man' (ben-adam, בֶּן־אָדָם), which appears 93 ti...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 9: \"Son of man, stand upon your...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Ezekiel 3:24",
+          "anchorVerse": 2,
+          "referenceLabel": "Ezekiel 3:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Spirit's enabling is essential for prophetic ministry: \"the spirit entered into me when h...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 9: But \"woe\" in Sacred Scripture...\". Word-study detail reinforces \"וָהֶ֖גֶה: and mourning - a muttering (in sighing, thought, or as thunder)\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "lament",
+          "mourning"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The scroll \"written within and without\" (both sides) signifies the comprehensive and complete...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Gregory the Dialogist on Homilies on Ezekiel, Book 1, Homily 9: But \"woe\" in Sacred Scripture...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וָהֶ֖גֶה: and mourning - a muttering (in sighing, thought, or as thunder)",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Thessalonians",
+  "chapter": 3,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:12.912Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Thessalonians: Then when he says \"and if any man,\" he comma...\". Word-study detail reinforces \"φυλάξει: keep - to watch, i.e., be on guard (literally of figuratively); by implication, to p...\".",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        7,
+        9,
+        12,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "3": [
+          "keep"
+        ],
+        "4": [
+          "command"
+        ],
+        "6": [
+          "command"
+        ],
+        "7": [
+          "follow"
+        ],
+        "9": [
+          "follow"
+        ],
+        "12": [
+          "command"
+        ],
+        "14": [
+          "obey"
+        ],
+        "15": [
+          "Yet count him not as an enemy, but admonish him..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "But the Lord is faithful, who shall stablish you, and keep you from evil — But contrasts unfa...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on 2 Thessalonians 5: \"But the Lord is faithful, who shall stablish...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "φυλάξει: keep - to watch, i.e., be on guard (literally of figuratively); by implication, to p...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And we have confidence in the Lord touching you, that ye both do and will do the things which...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 2 Thessalonians: The Apostle both began with grace and...\". Word-study detail reinforces \"ἀδελφοί: brethren - a brother (literally or figuratively) near or remote (much like g0001)\".",
+      "supportingVerses": [
+        1,
+        8,
+        10,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "with you"
+        ],
+        "8": [
+          "but wrought with labour and travail night and day"
+        ],
+        "10": [
+          "with you"
+        ],
+        "16": [
+          "with you"
+        ],
+        "18": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorif...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 2 Thessalonians 4: \"Finally, brethren, pray for us, that the wor...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀδελφοί: brethren - a brother (literally or figuratively) near or remote (much like g0001)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on TRACTATES ON JOHN 122.3: Perhaps someone will dare to think or say that...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorif...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "pray"
+        ],
+        "2": [
+          "and that we may be delivered from unreasonable and wicked..."
+        ],
+        "3": [
+          "But the Lord is faithful, who shall stablish you, and..."
+        ],
+        "16": [
+          "Now the Lord of peace himself give you peace always..."
+        ],
+        "18": [
+          "The grace of our Lord Jesus Christ be with you..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "1 Thessalonians 5:25",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Thessalonians 5:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorif...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Caesarius of Arles on SERMONS 232: Just as it is expedient for us to implore God’s mercy for...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "προσεύχεσθε: pray - to pray to god, i.e., supplicate, worship",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Neither did we eat any man's bread for nought; but wrought with labour and travail night and...\". Word-study detail reinforces \"ἄρτον: bread - bread (as raised) or a loaf\".",
+      "supportingVerses": [
+        1,
+        7,
+        8,
+        12,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "Finally, brethren, pray for us, that the word of the..."
+        ],
+        "7": [
+          "For yourselves know how ye ought to follow us"
+        ],
+        "8": [
+          "bread"
+        ],
+        "12": [
+          "bread"
+        ],
+        "16": [
+          "Now the Lord of peace himself give you peace always..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorif...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMONS 13.10: With this in mind, dearly beloved, let us always look fo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What Christian leader provides a compelling example worth imitating in your life?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily on 2 Thessalonians 5: \"For yourselves know how ye ought to imitate...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"But the Lord is faithful, who shall stablish you, and keep you from evil — But contrasts unfa...\". Word-study detail reinforces \"πιστὸς: faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Finally, brethren, pray for us, that the word of the..."
+        ],
+        "2": [
+          "and that we may be delivered from unreasonable and wicked..."
+        ],
+        "3": [
+          "faithful"
+        ],
+        "4": [
+          "And we have confidence in the Lord touching you, that..."
+        ],
+        "6": [
+          "Now we command you, brethren, in the name of our..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorif...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Pope Anterus: \"Finally, brethren, pray for us, that the word of the Lord may have free course...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Sermons 265.1: Then, therefore, they afterwards marveled at the fact th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πίστις: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 2 Thessalonians: Again he prays for them, showing his c...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        5,
+        6,
+        10,
+        15
+      ],
+      "versePhrases": {
+        "5": [
+          "love"
+        ],
+        "6": [
+          "Now we command you, brethren, in the name of our..."
+        ],
+        "10": [
+          "For even when we were with you, this we commanded..."
+        ],
+        "15": [
+          "Yet count him not as an enemy, but admonish him..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Deuteronomy 30:6",
+          "anchorVerse": 5,
+          "referenceLabel": "Deuteronomy 30:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And the Lord direct your hearts into the love of God, and into the patient waiting for Christ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 2 Thessalonians: Again he prays for them, showing his c...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "ἀγάπην: the love - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 5,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:05.810Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 15 verses. Commentary leans on \"Robert of Tombelaine on Commentary on the Song of Songs, Chapter 5: But the Saints themselves...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "2": [
+          "beloved"
+        ],
+        "3": [
+          "I have taken off my robe— must I put it..."
+        ],
+        "4": [
+          "beloved"
+        ],
+        "5": [
+          "beloved"
+        ],
+        "6": [
+          "beloved"
+        ],
+        "7": [
+          "The watchmen found me as they made their rounds in..."
+        ],
+        "8": [
+          "love",
+          "beloved"
+        ],
+        "9": [
+          "beloved"
+        ],
+        "10": [
+          "beloved"
+        ],
+        "11": [
+          "His head is purest gold"
+        ],
+        "12": [
+          "His eyes are like doves by the water streams, washed..."
+        ],
+        "14": [
+          "His arms are rods of gold set with topaz"
+        ],
+        "15": [
+          "His legs are pillars of marble set on bases of..."
+        ],
+        "16": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient weddings culminated in consummation—the completion of covenant union. The Song's cele...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Robert of Tombelaine on Commentary on the Song of Songs, Chapter 5: The beloved comes into th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The bride recounts another experience of separation: 'I sleep, but my heart waketh: it is the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Because my head is filled with dew, etc. The head of...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local cross references and verse commentary data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: His cheeks are like beds of spices, etc. Just as the...\".",
+      "supportingVerses": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "11": [
+          "His head is purest gold"
+        ],
+        "12": [
+          "His eyes are like doves by the water streams, washed..."
+        ],
+        "13": [
+          "His cheeks are like beds of spice yielding perfume"
+        ],
+        "14": [
+          "His arms are rods of gold set with topaz"
+        ],
+        "15": [
+          "pure"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This verse begins the bride's response to \"What is thy beloved?\"—she describes him from head...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Commentary on the Song of Songs: His hair lifted like palm trees, etc. The hair of th...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "His eyes are as the eyes of doves by the rivers of waters, washed with milk, and fitly set (e...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Commentary on the Song of Songs: His eyes are like doves beside streams of water. Wha...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local cross references and verse commentary data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: His eyes are like doves beside streams of water. Wha...\".",
+      "supportingVerses": [
+        2,
+        7,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "I slept but my heart was awake"
+        ],
+        "7": [
+          "made"
+        ],
+        "12": [
+          "His eyes are like doves by the water streams, washed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The bride recounts another experience of separation: 'I sleep, but my heart waketh: it is the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on On Isaac and the Soul 6.50-52: She is now awakened from sleep by him, alt...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "His eyes are as the eyes of doves by the rivers of waters, washed with milk, and fitly set (e...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Commentary on the Song of Songs: His eyes are like doves beside streams of water. Wha...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

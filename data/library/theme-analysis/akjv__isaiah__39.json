@@ -1,0 +1,150 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 39,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:54.770Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter 39, verses 1 onwards) At that time Merodach Baladan,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "dominion"
+        ],
+        "3": [
+          "king"
+        ],
+        "5": [
+          "Then said Isaiah to Hezekiah, Hear the word of the..."
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "Then said Hezekiah to Isaiah, Good is the word of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 39, verses 1 onwards) At that time Merodach Baladan,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 39, verses 1 onwards) At that time Merodach Baladan,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חִזְקִיָּ֛הוּ: And Hezekiah - chizkijah, a king of judah, also the name of two other israelites",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Hezekiah's response 'Good is the word of the LORD' shows humble submission to deserved judgme...\". Word-study detail reinforces \"וֶאֱמֶ֖ת: and truth - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        2,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "And Hezekiah was glad of them, and shewed them the..."
+        ],
+        "8": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The statement \"Hezekiah was glad of them\" shows his pleasure at Babylonian attention. The com...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 39, verses 1 onwards) At that time Merodach Baladan,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Hezekiah's response 'Good is the word of the LORD' shows humble submission to deserved judgme...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Third, he sets out his acceptance of the punishment:...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: Third, he sets out his acceptance of the punishment:...\". Word-study detail reinforces \"שָׁל֥וֹם: moreover For there shall be peace - safe, i.e., (figuratively) well, happy, friendl...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Hezekiah's response 'Good is the word of the LORD' shows humble submission to deserved judgme...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Third, he sets out his acceptance of the punishment:...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "שָׁל֥וֹם: moreover For there shall be peace - safe, i.e., (figuratively) well, happy, friendl...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

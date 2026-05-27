@@ -1,0 +1,119 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 7,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:45.314Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 11 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: Worthy of my beloved to drink, etc. Wine, he says, t...\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "Thy navel is like a round goblet, which wanteth not..."
+        ],
+        "3": [
+          "Thy two breasts are like two young roes that are..."
+        ],
+        "5": [
+          "Thine head upon thee is like Carmel, and the hair..."
+        ],
+        "6": [
+          "love"
+        ],
+        "7": [
+          "This thy stature is like to a palm tree, and..."
+        ],
+        "8": [
+          "I said, I will go up to the palm tree,..."
+        ],
+        "9": [
+          "beloved"
+        ],
+        "10": [
+          "beloved"
+        ],
+        "11": [
+          "beloved"
+        ],
+        "12": [
+          "there will I give thee my loves"
+        ],
+        "13": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In agricultural ancient Israel, wheat was the primary grain staple, representing sustenance a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Your belly is like a heap of wheat surrounded by lil...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Thy two breasts are like two young roes that are twins (שְׁנֵי שָׁדַיִךְ כִּשְׁנֵי עֳפָרִים ת...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Robert of Tombelaine on Commentary on the Song of Songs, Chapter 7: The two breasts are two p...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local cross references and verse commentary data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on the Song of Songs: Your head is like Carmel, etc. In the head of the br...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Thine head upon thee is like Carmel (רֹאשֵׁךְ עָלַיִךְ כַּכַּרְמֶל)—Mount Carmel was famous f...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Your head is like Carmel, etc. In the head of the br...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

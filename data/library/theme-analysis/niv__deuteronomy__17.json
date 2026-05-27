@@ -1,0 +1,300 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 17,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:33.082Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"God commands the future king: 'And it shall be, when he sitteth upon the throne of his kingdo...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        14,
+        15,
+        16,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "14": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "18": [
+          "kingdom",
+          "throne"
+        ],
+        "20": [
+          "kingdom",
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Samuel 12:19",
+          "anchorVerse": 14,
+          "referenceLabel": "1 Samuel 12:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Moses prophetically addresses Israel's future desire for a king: 'When thou art come unto the...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "מֶ֔לֶךְ: a king - a king",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Chronicles 22:10",
+          "anchorVerse": 15,
+          "referenceLabel": "1 Chronicles 22:10"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The priests the Levites (הַכֹּהֲנִים הַלְוִיִּם, hakohanim halviyim )—Levitical priests servi...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "7": [
+          "The hands of the witnesses must be the first in..."
+        ],
+        "8": [
+          "judge"
+        ],
+        "9": [
+          "judge"
+        ],
+        "12": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Requiring witnesses to execute first prevented casual accusations—if you testified, you had t...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "1 Corinthians: I wrote unto you in an epistle not to company with fornicators: Yet not altoge...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Deuteronomy 1:17",
+          "anchorVerse": 8,
+          "referenceLabel": "Deuteronomy 1:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "A matter too hard for thee in judgment (יִפָּלֵא מִמְּךָ, yippalei mimkha )—'too difficult/ex...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This principle pervades Scripture: Numbers 35:30; Deuteronomy 19:15; 1 Kings 21:10, 13 (Nabot...\". Word-study detail reinforces \"אֱמֶת֙: and behold it be true - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        4,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "true"
+        ],
+        "6": [
+          "testimony"
+        ],
+        "7": [
+          "The hands of the witnesses must be the first in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Due process requirements: it be told thee (formal accusation), thou hast heard of it (leaders...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אֱמֶת֙: and behold it be true - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This principle pervades Scripture: Numbers 35:30; Deuteronomy 19:15; 1 Kings 21:10, 13 (Nabot...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "עֵ֥ד: witness - concretely, a witness; abstractly, testimony; specifically, a recorder, i.e.,...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"That his heart be not lifted up above his brethren —The king's greatest danger: pride (לֵבָב,...\". Word-study detail reinforces \"הַמִּצְוָ֖ה: from the commandment - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        3,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "command"
+        ],
+        "19": [
+          "follow"
+        ],
+        "20": [
+          "and not consider himself better than his fellow Israelites and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What cultural practices seem reasonable or sophisticated but contradict God's explicit commands?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And it shall be with him, and he shall read therein all the days of his life —Israel's king m...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "הַֽחֻקִּ֥ים: and these statutes - an enactment; hence, an appointment (of time, space, quanti...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "That his heart be not lifted up above his brethren —The king's greatest danger: pride (לֵבָב,...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And all the people shall hear, and fear (וְכָל־הָעָם יִשְׁמְעוּ וְיִרָאוּ, vechol ha'am yishm...\". Word-study detail reinforces \"לְיִרְאָה֙: to fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        13,
+        19
+      ],
+      "versePhrases": {
+        "13": [
+          "afraid"
+        ],
+        "19": [
+          "It is to be with him, and he is to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And all the people shall hear, and fear (וְכָל־הָעָם יִשְׁמְעוּ וְיִרָאוּ, vechol ha'am yishm...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וְיִרָ֑אוּ: and fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And it shall be with him, and he shall read therein all the days of his life —Israel's king m...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "לְיִרְאָה֙: to fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This became foundational for later Jewish legal tradition emphasizing submission to rabbinic...\". Word-study detail reinforces \"יוֹר֗וּךָ: which they shall teach - properly, to flow as water (i.e., to rain); transitively,...\".",
+      "supportingVerses": [
+        11,
+        17
+      ],
+      "versePhrases": {
+        "11": [
+          "teach"
+        ],
+        "17": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "This became foundational for later Jewish legal tradition emphasizing submission to rabbinic...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "יוֹר֗וּךָ: which they shall teach - properly, to flow as water (i.e., to rain); transitively,...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 4,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:16.890Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"As it was taken off from the bullock of the sacrifice of peace offerings: and the priest shal...\". Word-study detail reinforces \"הַשְּׁלָמִ֑ים: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        10,
+        26,
+        31,
+        35
+      ],
+      "versePhrases": {
+        "10": [
+          "peace"
+        ],
+        "26": [
+          "peace"
+        ],
+        "31": [
+          "peace"
+        ],
+        "35": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "As it was taken off from the bullock of the sacrifice of peace offerings: and the priest shal...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "הַשְּׁלָמִ֑ים: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "And he shall burn all his fat upon the altar, as the fat of the sacrifice of peace offerings:...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "הַשְּׁלָמִ֑ים: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Or if his sin, wherein he hath sinned, come to his knowledge; he shall bring his offering, a...\". Word-study detail reinforces \"הוֹדַ֤ע: come to his knowledge - to know (properly, to ascertain by seeing); used in a great...\".",
+      "supportingVerses": [
+        23,
+        28
+      ],
+      "versePhrases": {
+        "23": [
+          "knowledge"
+        ],
+        "28": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "Or if his sin, wherein he hath sinned, come to his knowledge; he shall bring his offering, a...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "הוֹדַ֤ע: come to his knowledge - to know (properly, to ascertain by seeing); used in a great...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "Or if his sin, which he hath sinned, come to his knowledge: then he shall bring his offering,...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 28 word study",
+          "detail": "הוֹדַ֣ע: come to his knowledge - to know (properly, to ascertain by seeing); used in a great...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Even the whole bullock shall he carry forth without the camp unto a clean place, where the as...\". Word-study detail reinforces \"טָהוֹר֙: unto a clean - pure (in a physical, chemical, ceremonial or moral sense)\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Even the whole bullock shall he carry forth without the camp unto a clean place, where the as...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "טָהוֹר֙: unto a clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Inferred",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And he shall take away all the fat thereof, as the fat of the lamb is taken away from the sac...\". Word-study detail reinforces \"אִשֵּׁ֣י: according to the offerings made by fire - properly, a burnt-offering; but occasiona...\".",
+      "supportingVerses": [
+        35
+      ],
+      "versePhrases": {
+        "35": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 35 commentary",
+          "detail": "And he shall take away all the fat thereof, as the fat of the lamb is taken away from the sac...",
+          "anchorVerse": 35
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 35 word study",
+          "detail": "אִשֵּׁ֣י: according to the offerings made by fire - properly, a burnt-offering; but occasiona...",
+          "anchorVerse": 35
+        }
+      ]
+    }
+  ]
+}

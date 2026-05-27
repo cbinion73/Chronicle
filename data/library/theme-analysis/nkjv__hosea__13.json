@@ -1,0 +1,327 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hosea",
+  "chapter": 13,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:04.022Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Hosea 13:9-11: \"Your destruction, Israel, only your help is with me....\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        6,
+        10,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "Therefore they shall be like the morning cloud And like..."
+        ],
+        "6": [
+          "When they had pasture, they were filled"
+        ],
+        "10": [
+          "King",
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "14": [
+          "“I will ransom them from the power of the grave"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Each metaphor draws from Palestinian climate and agriculture: morning clouds dissipate as sun...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Hosea 13:3: Therefore they will be like morning clouds, and like morn...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Jeroboam II's prosperous reign perfectly fulfilled this: economic boom produced pride and for...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Hosea 13:5-6: \"But I am the Lord your God, who brought you out of the...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on AGAINST JULIAN 3:8: Praise wicked King Saul, because he also was a puni...\". Word-study detail reinforces \"וְשֹׁ֣פְטֶ֔יךָ: and thy judges - to judge, i.e., pronounce sentence (for or against); by impl...\".",
+      "supportingVerses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "8": [
+          "I will meet them like a bear deprived of her..."
+        ],
+        "9": [
+          "“O Israel, you are destroyed, But your help is from..."
+        ],
+        "10": [
+          "That he may save you in all your cities? And your judges to whom you said"
+        ],
+        "11": [
+          "wrath"
+        ],
+        "12": [
+          "“The iniquity of Ephraim is bound up"
+        ],
+        "14": [
+          "“I will ransom them from the power of the grave"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Assyrian invasion fulfilled this violent imagery - comprehensive destruction. Archaeological...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on SERMON 4: In fulfillment of holy Writ, the truth has resounded through...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does 'in Me is your help' teach about divine grace remaining available despite deserved...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Hosea 13:9-11: \"Your destruction, Israel, only your help is with me....",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Hilary of Poitiers on ON THE TRINITY 12:4: All things have been created by the Lord Christ, a...\". Word-study detail reinforces \"בְּאֶ֖רֶץ: in the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "4": [
+          "“Yet I am the Lord your God Ever since the..."
+        ],
+        "5": [
+          "I knew you in the wilderness, In the land of..."
+        ],
+        "14": [
+          "“I will ransom them from the power of the grave"
+        ],
+        "15": [
+          "Though he is fruitful among his brethren, An east wind..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Sin multiplied, idols kissing calves: 'And now they sin more and more, and have made them mol...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 13:1-2: \"While Ephraim was speaking, horror invaded Israel, and...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וַיַּעְשׂ֣וּ: and have made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Hilary of Poitiers on ON THE TRINITY 12:4: All things have been created by the Lord Christ, a...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Question 52. Christ's descent into hell, Article 1: Since it was fitting fo...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        4,
+        9,
+        10,
+        14
+      ],
+      "versePhrases": {
+        "4": [
+          "“Yet I am the Lord your God Ever since the..."
+        ],
+        "9": [
+          "“O Israel, you are destroyed, But your help is from..."
+        ],
+        "10": [
+          "save"
+        ],
+        "14": [
+          "redeem"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Isaiah 43:3",
+          "anchorVerse": 4,
+          "referenceLabel": "Isaiah 43:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Yet I am the LORD thy God from the land of Egypt, and thou shalt know no god but me: for ther...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Self-destruction: 'O Israel, thou hast destroyed thyself; but in me is thine help.' The indic...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Hosea 13:9-11: \"Your destruction, Israel, only your help is with me....",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"1 Corinthians: But some man will say, How are the dead raised up? and with what body do they...\".",
+      "supportingVerses": [
+        1,
+        2,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "worship"
+        ],
+        "2": [
+          "Now they sin more and more, And have made for..."
+        ],
+        "11": [
+          "I gave you a king in My anger, And took..."
+        ],
+        "14": [
+          "“I will ransom them from the power of the grave"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ephraim's prominence traced to Joshua (Ephraimite), Samuel (based in Ephraim), and the region...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 13:1-2: \"While Ephraim was speaking, horror invaded Israel, and...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The molten silver images references both Jeroboam's golden calves (1 Kings 12:28) and prolife...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 13:1-2: \"While Ephraim was speaking, horror invaded Israel, and...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Hosea 13:15: \"The Lord shall bring upon him a burning wind, and shall...\". Word-study detail reinforces \"ר֨וּחַ: the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation...\".",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Though he be fruitful among his brethren, an east wind shall come, the wind of the LORD shall...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on Commentary on Hosea 13:15: \"The Lord shall bring upon him a burning wind, and shall...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "ר֨וּחַ: the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

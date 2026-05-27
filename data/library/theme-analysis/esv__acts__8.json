@@ -1,0 +1,465 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 8,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:35.684Z",
+  "themes": [
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"Oecumenius on Commentary on Acts: It is obvious that those baptized by Philip in Samaria had...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        7,
+        9,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        26,
+        28,
+        29,
+        30,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "7": [
+          "For unclean spirits"
+        ],
+        "9": [
+          "But there was a man named Simon, who had previously..."
+        ],
+        "14": [
+          "Now when the apostles at Jerusalem heard that Samaria had..."
+        ],
+        "15": [
+          "Spirit",
+          "Holy Spirit"
+        ],
+        "16": [
+          "for he had not yet fallen on any of them,..."
+        ],
+        "17": [
+          "Spirit",
+          "Holy Spirit"
+        ],
+        "18": [
+          "Spirit"
+        ],
+        "19": [
+          "Spirit",
+          "Holy Spirit"
+        ],
+        "20": [
+          "But Peter said to him, “May your silver perish with..."
+        ],
+        "23": [
+          "For I see that you are in the gall of..."
+        ],
+        "26": [
+          "Now an angel of the Lord said to Philip, “Rise..."
+        ],
+        "28": [
+          "and was returning, seated in his chariot, and he was..."
+        ],
+        "29": [
+          "Spirit"
+        ],
+        "30": [
+          "So Philip ran to him and heard him reading Isaiah..."
+        ],
+        "39": [
+          "Spirit"
+        ],
+        "40": [
+          "But Philip found himself at Azotus, and as he passed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Matthew 10:1",
+          "anchorVerse": 7,
+          "referenceLabel": "Matthew 10:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "For unclean spirits, crying with loud voice, came out of many that were possessed with them:...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "πνεύματα: spirits - a current of air, i.e., breath (blast) or a breeze; by analogy or figurat...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Simon the sorcerer had 'bewitched' (Greek existemi - amazed/astonished) Samaria with magic ar...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"John Chrysostom on Homily on Acts 18: \"But they,\" it says, \"having come down, prayed for them...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        9,
+        15,
+        17,
+        18,
+        19,
+        22,
+        23,
+        32,
+        33,
+        38
+      ],
+      "versePhrases": {
+        "9": [
+          "But there was a man named Simon, who had previously..."
+        ],
+        "15": [
+          "Holy"
+        ],
+        "17": [
+          "Holy"
+        ],
+        "18": [
+          "Now when Simon saw that the Spirit was given through..."
+        ],
+        "19": [
+          "Holy"
+        ],
+        "22": [
+          "the intent of your heart may be forgiven you"
+        ],
+        "23": [
+          "For I see that you are in the gall of..."
+        ],
+        "32": [
+          "Now the passage of the Scripture that he was reading..."
+        ],
+        "33": [
+          "justice"
+        ],
+        "38": [
+          "And he commanded the chariot to stop, and they both..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How do we distinguish genuine Holy Spirit power from counterfeit spiritual manifestations?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Cassiodorus on Complexiones on the Acts of the Apostles: \"Now there was a certain man named S...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Acts 2:38",
+          "anchorVerse": 15,
+          "referenceLabel": "Acts 2:38"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "What does this teach about the relationship between baptism and receiving the Holy Spirit?",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Cyprian on Epistle LXXI: We have thought it necessary for the arranging of certain matters, d...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        9,
+        15,
+        17,
+        18,
+        19,
+        32,
+        38
+      ],
+      "versePhrases": {
+        "9": [
+          "But there was a man named Simon, who had previously..."
+        ],
+        "15": [
+          "Holy"
+        ],
+        "17": [
+          "Holy"
+        ],
+        "18": [
+          "Now when Simon saw that the Spirit was given through..."
+        ],
+        "19": [
+          "Holy"
+        ],
+        "32": [
+          "Now the passage of the Scripture that he was reading..."
+        ],
+        "38": [
+          "And he commanded the chariot to stop, and they both..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How do we distinguish genuine Holy Spirit power from counterfeit spiritual manifestations?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Cassiodorus on Complexiones on the Acts of the Apostles: \"Now there was a certain man named S...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Acts 2:38",
+          "anchorVerse": 15,
+          "referenceLabel": "Acts 2:38"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "What does this teach about the relationship between baptism and receiving the Holy Spirit?",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"And he said, How can I, except some man should guide me? And he desired Philip that he would...\". Word-study detail reinforces \"θεωρῶν: beholding - to be a spectator of, i.e., discern, (literally, figuratively (experience...\".",
+      "supportingVerses": [
+        9,
+        11,
+        13,
+        19,
+        23,
+        24,
+        30,
+        31,
+        36,
+        38
+      ],
+      "versePhrases": {
+        "9": [
+          "But there was a man named Simon, who had previously..."
+        ],
+        "11": [
+          "And they paid attention to him because for a long..."
+        ],
+        "13": [
+          "Even Simon himself believed, and after being baptized he continued..."
+        ],
+        "19": [
+          "saying, “Give me this power also, so that anyone on..."
+        ],
+        "23": [
+          "For I see that you are in the gall of..."
+        ],
+        "24": [
+          "And Simon answered, “Pray for me to the Lord, that..."
+        ],
+        "30": [
+          "understand"
+        ],
+        "31": [
+          "And he said, “How can I, unless someone guides me"
+        ],
+        "36": [
+          "And as they were going along the road they came..."
+        ],
+        "38": [
+          "And he commanded the chariot to stop, and they both..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Simon the sorcerer had 'bewitched' (Greek existemi - amazed/astonished) Samaria with magic ar...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Acts of Peter on The Acts of Peter, III (THE VERCELLI ACTS), IV-XXXII: Now after a few days t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How can believers discern between genuine spiritual power and deceptive spiritual manipulation?",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Acts of Peter on The Acts of Peter, III (THE VERCELLI ACTS), IV-XXXII: Now after a few days t...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Acts of Peter on The Acts of Peter, III (THE VERCELLI ACTS), IV-XXXII: Now after a few days t...\". Word-study detail reinforces \"ἐποίησαντὸ: made - to make or do (in a very wide application, more or less direct)\".",
+      "supportingVerses": [
+        2,
+        3,
+        10,
+        11,
+        12,
+        30,
+        32,
+        33,
+        35
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "3": [
+          "But Saul was ravaging the church, and entering house after..."
+        ],
+        "10": [
+          "They all paid attention to him, from the least to..."
+        ],
+        "11": [
+          "And they paid attention to him because for a long..."
+        ],
+        "12": [
+          "But when they believed Philip as he preached good news..."
+        ],
+        "30": [
+          "So Philip ran to him and heard him reading Isaiah..."
+        ],
+        "32": [
+          "Now the passage of the Scripture that he was reading..."
+        ],
+        "33": [
+          "earth"
+        ],
+        "35": [
+          "Then Philip opened his mouth, and beginning with this Scripture..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Retractions on Acts: Godly men cared for Stephen, and made great lamentation over him...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἐποίησαντὸ: made - to make or do (in a very wide application, more or less direct)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Saul 'made havock' (Greek elumaineto - to ravage or destroy) of the church with systematic vi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 18: \"As for Saul, he made havoc of the Church, entering int...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Acts: As a sheep led to the slaughter. Just as a sheep, when led to sac...\". Word-study detail reinforces \"ὁδήγησῃ: should guide - to show the way (literally or figuratively (teach))\".",
+      "supportingVerses": [
+        24,
+        26,
+        31,
+        32,
+        33
+      ],
+      "versePhrases": {
+        "24": [
+          "And Simon answered, “Pray for me to the Lord, that..."
+        ],
+        "26": [
+          "Now an angel of the Lord said to Philip, “Rise..."
+        ],
+        "31": [
+          "unless someone guides me?” And he invited Philip to come up and sit with him"
+        ],
+        "32": [
+          "led"
+        ],
+        "33": [
+          "In his humiliation justice was denied him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "What does the unresolved nature of Simon's story teach about presuming on others' eternal des...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "John Chrysostom on Homily on Acts 18: Observe him, what a miscreant he is; when he was convic...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "What does Philip's immediate obedience teach about following the Spirit's leading?",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Oecumenius on Commentary on Acts: For what reason does an angel not appear to the eunuch but...",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

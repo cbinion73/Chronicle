@@ -1,0 +1,38 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 9,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:24.491Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...\". Word-study detail reinforces \"הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king\".",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

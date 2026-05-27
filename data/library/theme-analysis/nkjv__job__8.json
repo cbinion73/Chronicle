@@ -1,0 +1,399 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 8,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:24.729Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book VIII: Doth God pervert judgment? Or...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        12,
+        13,
+        16,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "Then Bildad the Shuhite answered and said"
+        ],
+        "3": [
+          "justice"
+        ],
+        "4": [
+          "If your sons have sinned against Him, He has cast..."
+        ],
+        "6": [
+          "upright"
+        ],
+        "7": [
+          "Though your beginning was small, Yet your latter end would..."
+        ],
+        "12": [
+          "While it is yet green and not cut down, It..."
+        ],
+        "13": [
+          "So are the paths of all who forget God"
+        ],
+        "16": [
+          "He grows green in the sun, And his branches spread..."
+        ],
+        "20": [
+          "blameless"
+        ],
+        "22": [
+          "Those who hate you will be clothed with shame, And..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Bildad the Shuhite enters the dialogue as Job's second 'comforter.' The name Bildad may deriv...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book VIII: Then answered Bildad, the Shuh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Deuteronomy 32:4",
+          "anchorVerse": 3,
+          "referenceLabel": "Deuteronomy 32:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Bildad asks rhetorically: 'Doth God pervert judgment? or doth the Almighty pervert justice?'...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bildad describes the hypocrite's false security: 'Whose hope shall be cut off, and whose trus...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "Does God subvert judgment"
+        ],
+        "11": [
+          "“Can the papyrus grow up without a marsh"
+        ],
+        "12": [
+          "While it is yet green and not cut down, It..."
+        ],
+        "13": [
+          "hope"
+        ],
+        "14": [
+          "trust",
+          "confidence"
+        ],
+        "15": [
+          "He leans on his house, but it does not stand"
+        ],
+        "16": [
+          "He grows green in the sun, And his branches spread..."
+        ],
+        "17": [
+          "His roots wrap around the rock heap, And look for..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How do we maintain confidence in God's perfect justice while admitting we don't always unders...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Also, since, as was said, Bildad did not understand the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Bildad employs nature imagery to illustrate the ungodly's fate: 'Can the rush grow up without...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book VIII: Can the rush grow up without m...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book VIII: It is seen moist before the su...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        12,
+        13,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Then Bildad the Shuhite answered and said"
+        ],
+        "3": [
+          "Does God subvert judgment"
+        ],
+        "4": [
+          "If your sons have sinned against Him, He has cast..."
+        ],
+        "6": [
+          "pure"
+        ],
+        "7": [
+          "Though your beginning was small, Yet your latter end would..."
+        ],
+        "12": [
+          "While it is yet green and not cut down, It..."
+        ],
+        "13": [
+          "So are the paths of all who forget God"
+        ],
+        "16": [
+          "He grows green in the sun, And his branches spread..."
+        ],
+        "20": [
+          "Behold, God will not cast away the blameless, Nor will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Bildad the Shuhite enters the dialogue as Job's second 'comforter.' The name Bildad may deriv...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book VIII: Then answered Bildad, the Shuh...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Deuteronomy 32:4",
+          "anchorVerse": 3,
+          "referenceLabel": "Deuteronomy 32:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Bildad asks rhetorically: 'Doth God pervert judgment? or doth the Almighty pervert justice?'...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: Also, since, as was said, Bildad did not understand the...\". Word-study detail reinforces \"צֶֽדֶק׃: justice - the right (natural, moral or legal); also (abstractly) equity or (figurati...\".",
+      "supportingVerses": [
+        3,
+        4,
+        15,
+        18,
+        19,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "judgment",
+          "justice"
+        ],
+        "4": [
+          "If your sons have sinned against Him, He has cast..."
+        ],
+        "15": [
+          "He leans on his house, but it does not stand"
+        ],
+        "18": [
+          "If he is destroyed from his place, Then it will..."
+        ],
+        "19": [
+          "“Behold, this is the joy of His way, And out..."
+        ],
+        "20": [
+          "Behold, God will not cast away the blameless, Nor will..."
+        ],
+        "22": [
+          "Those who hate you will be clothed with shame, And..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Bildad asks rhetorically: 'Doth God pervert judgment? or doth the Almighty pervert justice?'...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Also, since, as was said, Bildad did not understand the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "צֶֽדֶק׃: justice - the right (natural, moral or legal); also (abstractly) equity or (figurati...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does this verse teach about the danger of reading divine judgment into every tragedy?",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: He shows the use he makes of the preceding investigation...\". Word-study detail reinforces \"חָֽטְאוּ: have sinned - properly, to miss; hence (figuratively and generally) to sin; by infe...\".",
+      "supportingVerses": [
+        4,
+        5,
+        10,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "If your sons have sinned against Him, He has cast..."
+        ],
+        "5": [
+          "If you would earnestly seek God And make your supplication..."
+        ],
+        "10": [
+          "teach"
+        ],
+        "18": [
+          "If he is destroyed from his place, Then it will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does this verse teach about the danger of reading divine judgment into every tragedy?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: There were two things which seemed to keep Job from bein...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חָֽטְאוּ: have sinned - properly, to miss; hence (figuratively and generally) to sin; by infe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How do you offer spiritual counsel without making assumptions?",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: He shows the necessity of this investigation when he con...\". Word-study detail reinforces \"אָֽרֶץ׃: upon earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        9,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "9": [
+          "earth"
+        ],
+        "14": [
+          "Whose confidence shall be cut off, And whose trust is..."
+        ],
+        "19": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Bildad argues human brevity requires dependence on ancestral wisdom: 'For we are but of yeste...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: He shows the necessity of this investigation when he con...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אָֽרֶץ׃: upon earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Spiders and their webs were common in ancient Near Eastern dwellings. The web's combination o...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

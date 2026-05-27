@@ -1,0 +1,392 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 25,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:37.878Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist presented Christ's t...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        15,
+        17,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "To You, O Lord, I lift up my soul"
+        ],
+        "2": [
+          "trust",
+          "hope",
+          "confidence",
+          "steadfast"
+        ],
+        "3": [
+          "Indeed, none of those who [expectantly] wait for You will..."
+        ],
+        "4": [
+          "Let me know Your ways, O Lord"
+        ],
+        "5": [
+          "Guide me in Your truth and teach me, For You..."
+        ],
+        "6": [
+          "Remember, O Lord, Your [tender] compassion and Your lovingkindnesses, For..."
+        ],
+        "8": [
+          "Good and upright is the Lord"
+        ],
+        "15": [
+          "My eyes are continually toward the Lord, For He will..."
+        ],
+        "17": [
+          "The troubles of my heart are multiplied"
+        ],
+        "20": [
+          "Guard my soul and rescue me"
+        ],
+        "21": [
+          "Let integrity and uprightness protect me, For I wait [expectantly]..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 25 is attributed to David and follows an acrostic pattern, with each verse beginning wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist presented Christ's t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Romans 10:11",
+          "anchorVerse": 2,
+          "referenceLabel": "Romans 10:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The prayer 'O my God, I trust in thee: let me not be ashamed' expresses covenant confidence....",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Remember.\" Here he asks for the forgive...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        15,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "Guide me in Your truth and teach me, For You..."
+        ],
+        "6": [
+          "compassion"
+        ],
+        "7": [
+          "lovingkindness"
+        ],
+        "8": [
+          "Good and upright is the Lord"
+        ],
+        "10": [
+          "lovingkindness"
+        ],
+        "11": [
+          "Pardon"
+        ],
+        "15": [
+          "My eyes are continually toward the Lord, For He will..."
+        ],
+        "16": [
+          "gracious"
+        ],
+        "18": [
+          "forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The concept of God's \"truth\" ( emet ) is central to Old Testament theology. When Moses asked...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 25: \"In Your truth guide me:\" avoiding error. \"And...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The plea 'Remember, O LORD, thy tender mercies and thy lovingkindnesses' asks God to act acco...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Remember.\" Here he asks for the forgive...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait a...\". Word-study detail reinforces \"לַמְּדֵֽנִי׃: teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...\".",
+      "supportingVerses": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "4": [
+          "Teach"
+        ],
+        "5": [
+          "Guide",
+          "teach"
+        ],
+        "8": [
+          "Good and upright is the Lord"
+        ],
+        "9": [
+          "leads"
+        ],
+        "10": [
+          "All the paths of the Lord are lovingkindness and goodness and truth and faithfulness To those who keep His covenant and His testimonies"
+        ],
+        "12": [
+          "teach"
+        ],
+        "14": [
+          "counsel"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The request for divine instruction reflects Israel's covenant relationship where God committe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 25: \"Let them be confounded who do vain things unri...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לַמְּדֵֽנִי׃: teach - properly, to goad, i.e., (by implication) to teach (the rod being an mi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait a...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The concept of God's \"truth\" ( emet ) is central to Old Testament theology. When Moses asked...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        4,
+        5,
+        10,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "4": [
+          "Let me know Your ways, O Lord"
+        ],
+        "5": [
+          "truth"
+        ],
+        "10": [
+          "truth",
+          "faithfulness"
+        ],
+        "14": [
+          "The secret [of the wise counsel] of the Lord is..."
+        ],
+        "15": [
+          "My eyes are continually toward the Lord, For He will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The request for divine instruction reflects Israel's covenant relationship where God committe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on Exposition of the Christian Faith 3.7.51: Now the ways of the Lord are, w...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Psalms 25:10",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 25:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The concept of God's \"truth\" ( emet ) is central to Old Testament theology. When Moses asked...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait a...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        5,
+        17,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "5": [
+          "salvation"
+        ],
+        "17": [
+          "The troubles of my heart are multiplied"
+        ],
+        "20": [
+          "rescue"
+        ],
+        "22": [
+          "redeem"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 79:9",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 79:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait a...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Now two things pertain to the contemplat...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יִשְׁעִ֑י: of my salvation - liberty, deliverance, prosperity",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The cry 'Look upon mine affliction and my pain; and forgive all my sins' links suffering and...\". Word-study detail reinforces \"עָ֭נְיִי: upon mine affliction - depression, i.e., misery\".",
+      "supportingVerses": [
+        16,
+        18
+      ],
+      "versePhrases": {
+        "16": [
+          "afflicted"
+        ],
+        "18": [
+          "affliction",
+          "trouble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The cry 'Turn thee unto me, and have mercy upon me; for I am desolate and afflicted' expresse...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "וְעָנִ֣י: and afflicted - depressed, in mind or circumstances",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The cry 'Look upon mine affliction and my pain; and forgive all my sins' links suffering and...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "עָ֭נְיִי: upon mine affliction - depression, i.e., misery",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

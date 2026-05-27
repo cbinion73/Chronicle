@@ -1,0 +1,300 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 23,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:35.425Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"And he took the captains of hundreds, and the nobles, and the governors of the people, and al...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "king",
+          "reign"
+        ],
+        "5": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "20": [
+          "kingdom",
+          "king",
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 7:12",
+          "anchorVerse": 3,
+          "referenceLabel": "2 Samuel 7:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And all the congregation made a covenant with the king in the house of God. And he said unto...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַמֶּ֙לֶךְ֙: unto them Behold the king's - a king",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And a third part shall be at the king's house; and a third part at the gate of the foundation...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Moreover Jehoiada the priest delivered to the captains of hundreds spears, and bucklers, and...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        6,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "6": [
+          "save"
+        ],
+        "9": [
+          "delivered"
+        ],
+        "11": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But let none come into the house of the LORD, save the priests, and they that minister of the...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַכֹּֽהֲנִים֙: save the priests - literally one officiating, a priest; also (by courtesy) an...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Moreover Jehoiada the priest delivered to the captains of hundreds spears, and bucklers, and...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וַיִּתֵּן֩: delivered - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And Jehoiada made a covenant between him, and between all the people, and between the king, t...\". Word-study detail reinforces \"בְּרִ֛ית: a covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        3,
+        11,
+        16
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "11": [
+          "made"
+        ],
+        "16": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And all the congregation made a covenant with the king in the house of God. And he said unto...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְּרִ֛ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Then they brought out the king's son, and put upon him the crown, and gave him the testimony,...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וַיַּמְלִ֖יכוּ: and made him king - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        1,
+        3,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "covenant"
+        ],
+        "3": [
+          "covenant"
+        ],
+        "16": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בַבְּרִֽית׃: into covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "2 Chronicles 6:16",
+          "anchorVerse": 3,
+          "referenceLabel": "2 Chronicles 6:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How does this verse illustrate the principle of divine retribution (blessing for obedience, j...\". Word-study detail reinforces \"יִשְׁמְר֖וּ: shall keep - properly, to hedge about (as with thorns), i.e., guard; generally,...\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does this verse illustrate the principle of divine retribution (blessing for obedience, j...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "יִשְׁמְר֖וּ: shall keep - properly, to hedge about (as with thorns), i.e., guard; generally,...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"שָׁקָ֑טָה: was quiet - to repose (usually figurative)\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "quiet"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "שָׁקָ֑טָה: was quiet - to repose (usually figurative)",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "James",
+  "chapter": 5,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:36.243Z",
+  "themes": [
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Maximus the Confessor on CATENA: There are two ways in which the prayer of a righteous man is...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        4,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "Look"
+        ],
+        "13": [
+          "pray"
+        ],
+        "14": [
+          "pray"
+        ],
+        "15": [
+          "prayer"
+        ],
+        "16": [
+          "pray",
+          "prayer"
+        ],
+        "17": [
+          "and he prayed earnestly that it would not rain"
+        ],
+        "18": [
+          "Then he prayed again"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Behold, the hire of the labourers who have reaped down your fields, which is of you kept back...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Theophylact of Ohrid on Commentary on James: This is an exposure and shaming of the Jewish le...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Hebrews 5:7",
+          "anchorVerse": 13,
+          "referenceLabel": "Hebrews 5:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Is any among you afflicted? let him pray. Is any merry? let him sing psalms. Is anyone suffer...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Oecumenius on Commentary on James: You have made merry upon the earth: and in riotousness you...\". Word-study detail reinforces \"γῆ: the earth - soil; by extension a region, or the solid part or the whole of the terrene gl...\".",
+      "supportingVerses": [
+        5,
+        7,
+        9,
+        12,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "earth"
+        ],
+        "7": [
+          "earth"
+        ],
+        "9": [
+          "Brothers and sisters, do not complain about one another, so..."
+        ],
+        "12": [
+          "earth"
+        ],
+        "18": [
+          "Then he prayed again, and the sky gave rain and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Ye have lived in pleasure on the earth, and been wanton; ye have nourished your hearts, as in...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Oecumenius on Commentary on James: You have made merry upon the earth: and in riotousness you...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "γῆς: the earth - soil; by extension a region, or the solid part or the whole of the terrene g...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth f...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Is any among you afflicted? let him pray. Is any merry? let him sing psalms. Is anyone suffer...\". Word-study detail reinforces \"κακοπαθείας: of suffering affliction - hardship\".",
+      "supportingVerses": [
+        1,
+        7,
+        10,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "weep"
+        ],
+        "7": [
+          "Therefore, brothers and sisters, be patient until the Lord’s coming"
+        ],
+        "10": [
+          "suffering"
+        ],
+        "11": [
+          "See, we count as blessed those who have endured"
+        ],
+        "13": [
+          "suffering"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Go to now, ye rich men, weep and howl for your miseries that shall come upon you. Come now, y...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on James: The thrift and stinginess of the rich often make...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "κλαύσατε: weep - to sob, i.e., wail aloud (whereas 1145 is rather to cry silently)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What long trial requires farmer-like patience from you?",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: Behold, the Judge stands at the door. He will re...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "Come now, you rich people, weep and wail over the..."
+        ],
+        "3": [
+          "Your gold and silver are corroded, and their corrosion will..."
+        ],
+        "5": [
+          "You have lived luxuriously on the earth and have indulged..."
+        ],
+        "7": [
+          "Therefore, brothers and sisters, be patient until the Lord’s coming"
+        ],
+        "8": [
+          "You also must be patient"
+        ],
+        "9": [
+          "judge"
+        ],
+        "12": [
+          "judgment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Go to now, ye rich men, weep and howl for your miseries that shall come upon you. Come now, y...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Hesychius of Jerusalem on CATENA: God delays the judgment because of his love for humanity, s...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Your gold and silver is cankered; and the rust of them shall be a witness against you, and sh...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: You have stored up wrath for yourselves in the l...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Behold, we count them happy which endure. Ye have heard of the patience of Job, and have seen...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        5,
+        11,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "5": [
+          "You have lived luxuriously on the earth and have indulged..."
+        ],
+        "11": [
+          "merciful"
+        ],
+        "14": [
+          "Is anyone among you sick"
+        ],
+        "15": [
+          "he will be forgiven"
+        ],
+        "16": [
+          "Therefore, confess your sins to one another and pray for..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How can you simplify to cultivate compassion?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Caesarius of Arles on SERMONS 199.5: These things which Christ threatened through the apostle...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Exodus 34:6",
+          "anchorVerse": 11,
+          "referenceLabel": "Exodus 34:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Behold, we count them happy which endure. Ye have heard of the patience of Job, and have seen...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on James: Let your affirmation be firm in firmness and you...\". Word-study detail reinforces \"ἀληθείας: the truth - truth\".",
+      "supportingVerses": [
+        2,
+        3,
+        10,
+        12,
+        19
+      ],
+      "versePhrases": {
+        "2": [
+          "Your wealth has rotted and your clothes are moth-eaten"
+        ],
+        "3": [
+          "Your gold and silver are corroded, and their corrosion will..."
+        ],
+        "10": [
+          "Brothers and sisters, take the prophets who spoke in the..."
+        ],
+        "12": [
+          "Above all, my brothers and sisters, do not swear, either..."
+        ],
+        "19": [
+          "truth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on Commentary on James: Your riches are corrupt: and your garments are eaten by mo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Hilary of Arles on INTRODUCTORY TRACTATE ON THE LETTER OF JAMES: It is true of course that go...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Where might God be calling you to prophet-like faithfulness?",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Oecumenius on Commentary on James: Be patient therefore, brothers, until the coming of the Lo...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

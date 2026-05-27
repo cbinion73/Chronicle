@@ -1,0 +1,289 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 101,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:22.765Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"I will behave myself wisely in a perfect way. O when wilt thou come unto me? I will walk with...\". Word-study detail reinforces \"יֵשֵׁ֨ב׀: shall not dwell - properly, to sit down (specifically as judge. in ambush, in quiet...\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "I will sing of mercy and judgment"
+        ],
+        "2": [
+          "O when wilt thou come unto me? I will walk within my house with a perfect heart"
+        ],
+        "6": [
+          "with me",
+          "dwell"
+        ],
+        "7": [
+          "dwell"
+        ],
+        "8": [
+          "I will early destroy all the wicked of the land"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 101 is classified as a 'Royal Psalm'—composed by or about Israel's king, reflecting the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Enchiridion 24:94-95: While the reprobate angels and people continue in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I will behave myself wisely in a perfect way. O when wilt thou come unto me? I will walk with...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 101: \"I will sing to the harp, and will have unders...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"David's commitment to appointing only the faithful contrasts with typical ancient Near Easter...\". Word-study detail reinforces \"בְּנֶֽאֶמְנֵי: shall be upon the faithful - properly, to build up or support; to foster as a...\".",
+      "supportingVerses": [
+        1,
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "I will sing of mercy and judgment"
+        ],
+        "6": [
+          "faithful"
+        ],
+        "7": [
+          "He that worketh deceit shall not dwell within my house"
+        ],
+        "8": [
+          "I will early destroy all the wicked of the land"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I will sing of mercy and judgment: unto thee, O LORD, will I sing. This royal psalm begins Da...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cassiodorus on EXPOSITIONS OF THE PSALMS 100:1: “I will sing your mercy and judgment; to you,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "David's commitment to appointing only the faithful contrasts with typical ancient Near Easter...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 101: And whence were you fed? And what pleased you,...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 101: In this Psalm, we ought to seek in the whole b...\". Word-study detail reinforces \"חֶֽסֶד: of mercy - kindness; by implication (towards god) piety; rarely (by opposition) repro...\".",
+      "supportingVerses": [
+        1,
+        2,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "mercy"
+        ],
+        "2": [
+          "I will behave myself wisely in a perfect way"
+        ],
+        "8": [
+          "I will early destroy all the wicked of the land"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I will sing of mercy and judgment: unto thee, O LORD, will I sing. This royal psalm begins Da...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 101: In this Psalm, we ought to seek in the whole b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חֶֽסֶד: of mercy - kindness; by implication (towards god) piety; rarely (by opposition) repro...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does David's cry 'when wilt thou come unto me?' inform our understanding of the relations...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 101: In this Psalm, we ought to seek in the whole b...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        6,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "judgment"
+        ],
+        "6": [
+          "Mine eyes shall be upon the faithful of the land,..."
+        ],
+        "8": [
+          "I will early destroy all the wicked of the land"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 97:8",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 97:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I will sing of mercy and judgment: unto thee, O LORD, will I sing. This royal psalm begins Da...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 101: In this Psalm, we ought to seek in the whole b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וּמִשְׁפָּ֥ט: and judgment - properly, a verdict (favorable or unfavorable) pronounced judici...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on LETTER 93: If it were always praiseworthy to suffer persecution, it wou...\". Word-study detail reinforces \"אוּכָֽל׃: will not I suffer - to be able, literally (can, could) or morally (may, might)\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "suffer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse addresses three sins: slander (lashon hara in Jewish tradition), pride, and arroga...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on LETTER 93: If it were always praiseworthy to suffer persecution, it wou...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אוּכָֽל׃: will not I suffer - to be able, literally (can, could) or morally (may, might)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"I will sing of mercy and judgment: unto thee, O LORD, will I sing. This royal psalm begins Da...\". Word-study detail reinforces \"אָשִׁ֑ירָה: I will sing - to sing\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I will sing of mercy and judgment: unto thee, O LORD, will I sing. This royal psalm begins Da...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on TRACTATES ON THE GOSPEL OF JOHN 36:4.3: Christ has come, but first to s...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אָשִׁ֑ירָה: I will sing - to sing",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

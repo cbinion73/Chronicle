@@ -1,0 +1,353 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Timothy",
+  "chapter": 3,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:57.481Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: Hence he says, but if I tarry long; for we would h...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "faithful"
+        ],
+        "2": [
+          "A bishop then must be blameless, the husband of one..."
+        ],
+        "5": [
+          "(for if a man does not know how to rule..."
+        ],
+        "7": [
+          "testimony"
+        ],
+        "9": [
+          "holding the mystery of the faith with a pure conscience"
+        ],
+        "10": [
+          "But let these also first be tested"
+        ],
+        "11": [
+          "faithful"
+        ],
+        "13": [
+          "For those who have served well as deacons obtain for..."
+        ],
+        "14": [
+          "These things I write to you, though I hope to..."
+        ],
+        "15": [
+          "truth"
+        ],
+        "16": [
+          "And without controversy great is the mystery of godliness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This is a true saying, If a man desire the office of a bishop, he desireth a good work. Paul...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Above, he instructed Timothy on matters pertaining...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "πιστὸς: This is a true - objectively, trustworthy; subjectively, trustful",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A bishop then must be blameless (ἀνεπίλημπτον, anepilēmpton )—the overseer must be 'above rep...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: But in regard to performing he says, holding the m...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "versePhrases": {
+        "9": [
+          "faith"
+        ],
+        "11": [
+          "faithful in all things"
+        ],
+        "12": [
+          "Let deacons be the husbands of one wife, ruling their..."
+        ],
+        "13": [
+          "faith"
+        ],
+        "14": [
+          "hope"
+        ],
+        "16": [
+          "Believed on in the world"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "1 Timothy 1:19",
+          "anchorVerse": 9,
+          "referenceLabel": "1 Timothy 1:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Holding the mystery of the faith in a pure conscience (ἔχοντας τὸ μυστήριον τῆς πίστεως ἐν κα...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: But in regard to performing he says, holding the m...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "πίστεως: of the faith - persuasion, i.e., credence; moral conviction (of religious truth, or...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"One that ruleth well his own house (τοῦ ἰδίου οἴκου καλῶς προϊστάμενον, tou idiou oikou kalōs...\". Word-study detail reinforces \"διδακτικόν: apt to teach - instructive (\"didactic\")\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "This is a faithful saying"
+        ],
+        "2": [
+          "teach"
+        ],
+        "4": [
+          "one who rules his own house well, having his children..."
+        ],
+        "5": [
+          "(for if a man does not know how to rule..."
+        ],
+        "14": [
+          "These things I write to you, though I hope to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The emerging church needed organized leadership to maintain doctrinal purity and practical or...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Tertullian on On Monogamy: Come, now, you who think that an exceptional law of monogamy is ma...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A bishop then must be blameless (ἀνεπίλημπτον, anepilēmpton )—the overseer must be 'above rep...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on COMMENTARY ON 1 TIMOTHY: Therefore, a bishop must be blameless, the husband of...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Oecumenius on COMMENTARY ON 1 TIMOTHY: And confessedly, great is the mystery of godliness: Go...\". Word-study detail reinforces \"καθαρᾷ: a pure - clean (literally or figuratively)\".",
+      "supportingVerses": [
+        9,
+        10,
+        16
+      ],
+      "versePhrases": {
+        "9": [
+          "pure"
+        ],
+        "10": [
+          "But let these also first be tested"
+        ],
+        "16": [
+          "And without controversy great is the mystery of godliness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Holding the mystery of the faith in a pure conscience (ἔχοντας τὸ μυστήριον τῆς πίστεως ἐν κα...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: But in regard to performing he says, holding the m...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "καθαρᾷ: a pure - clean (literally or figuratively)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And let these also first be proved (καὶ οὗτοι δὲ δοκιμαζέσθωσαν πρῶτον, kai houtoi de dokimaz...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Oecumenius on COMMENTARY ON 1 TIMOTHY: And confessedly, great is the mystery of godliness: Go...\". Word-study detail reinforces \"ἀνεπίληπτον: blameless - not arrested, i.e., (by implication) inculpable\".",
+      "supportingVerses": [
+        2,
+        10,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "blameless"
+        ],
+        "10": [
+          "blameless"
+        ],
+        "16": [
+          "Justified in the Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Why does Paul emphasize 'blameless' and 'good report' rather than mere doctrinal knowledge?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Then he mentions the qualities of a bishop, when h...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἀνεπίληπτον: blameless - not arrested, i.e., (by implication) inculpable",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And let these also first be proved (καὶ οὗτοι δὲ δοκιμαζέσθωσαν πρῶτον, kai houtoi de dokimaz...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: Then when he says, and evidently great, he commend...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        8,
+        16
+      ],
+      "versePhrases": {
+        "8": [
+          "Likewise deacons must be reverent, not double-tongued, not given to..."
+        ],
+        "16": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The diaconate emerged in Acts 6 when Hellenistic widows were neglected in daily food distribu...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Then when he says, deacons in like manner, he show...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "1 Peter 1:12",
+          "anchorVerse": 16,
+          "referenceLabel": "1 Peter 1:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "And without controversy great is the mystery of godliness (καὶ ὁμολογουμένως μέγα ἐστὶν τὸ τῆ...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

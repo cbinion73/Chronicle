@@ -1,0 +1,240 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 36,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:55.554Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 16 verses. Commentary leans on \"So the king sent Jehudi to fetch the roll: and he took it out of Elishama the scribe's chambe...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        9,
+        12,
+        16,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ],
+        "21": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ],
+        "24": [
+          "king"
+        ],
+        "25": [
+          "king"
+        ],
+        "26": [
+          "king"
+        ],
+        "27": [
+          "king"
+        ],
+        "28": [
+          "king"
+        ],
+        "29": [
+          "king"
+        ],
+        "30": [
+          "king",
+          "throne"
+        ],
+        "32": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 25:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 25:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass in the fourth year of Jehoiakim the son of Josiah king of Judah, that thi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 36:22",
+          "anchorVerse": 9,
+          "referenceLabel": "Jeremiah 36:22"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And I will punish him and his seed and his servants for their iniquity; and I will bring upon...\". Word-study detail reinforces \"וּפָקַדְתִּ֨י: And I will punish - to visit (with friendly or hostile intent); by analogy, to...\".",
+      "supportingVerses": [
+        7,
+        22,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "7": [
+          "wrath"
+        ],
+        "22": [
+          "Now the king was sitting in the winter house in..."
+        ],
+        "30": [
+          "Therefore this is what the Lord says concerning Jehoiakim king..."
+        ],
+        "31": [
+          "punish"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "It may be they will present their supplication before the LORD, and will return every one fro...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Now the king sat in the winterhouse in the ninth month: and there was a fire on the hearth bu...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "יוֹשֵׁב֙: sat - properly, to sit down (specifically as judge. in ambush, in quiet); by implic...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "What does the severity of this judgment teach about the seriousness of despising and destroyi...",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Now it came to pass, when they had heard all the words, they were afraid (פָּחַד, pachad—to f...\". Word-study detail reinforces \"פָּחֲד֖וּ: they were afraid - to be startled (by a sudden alarm); hence, to fear in general\".",
+      "supportingVerses": [
+        16,
+        24
+      ],
+      "versePhrases": {
+        "16": [
+          "fear"
+        ],
+        "24": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Now it came to pass, when they had heard all the words, they were afraid (פָּחַד, pachad—to f...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "פָּחֲד֖וּ: they were afraid - to be startled (by a sudden alarm); hence, to fear in general",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Yet they were not afraid, nor rent their garments, neither the king, nor any of his servants...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "פָחֲד֔וּ: Yet they were not afraid - to be startled (by a sudden alarm); hence, to fear in ge...",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"It may be that the house of Judah will hear all the evil which I purpose to do unto them; tha...\". Word-study detail reinforces \"וְסָלַחְתִּ֥י: that I may forgive - to forgive\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "It may be that the house of Judah will hear all the evil which I purpose to do unto them; tha...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וְסָלַחְתִּ֥י: that I may forgive - to forgive",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

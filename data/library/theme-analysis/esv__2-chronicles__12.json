@@ -1,0 +1,284 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 12,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:15.561Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Instead of which king Rehoboam made shields of brass, and committed them to the hands of the...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "When the rule of Rehoboam was established and he was..."
+        ],
+        "2": [
+          "King",
+          "king"
+        ],
+        "5": [
+          "Then Shemaiah the prophet came to Rehoboam and to the..."
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "When the Lord saw that they humbled themselves, the word..."
+        ],
+        "8": [
+          "that they may know my service and the service of the kingdoms of the countries"
+        ],
+        "9": [
+          "king"
+        ],
+        "10": [
+          "King",
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "13": [
+          "King",
+          "reign"
+        ],
+        "15": [
+          "Now the acts of Rehoboam, from first to last, are..."
+        ],
+        "16": [
+          "and Abijah his son reigned in his place"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 11:17",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Chronicles 11:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass, when Rehoboam had established the kingdom, and had strengthened himself,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מַלְכ֤וּת: the kingdom - a rule; concretely, a dominion",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 11:40",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 11:40"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And when he humbled himself, the wrath of the LORD turned from him, that he would not destroy...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        7,
+        12
+      ],
+      "versePhrases": {
+        "7": [
+          "wrath"
+        ],
+        "12": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "2 Chronicles 34:25",
+          "anchorVerse": 7,
+          "referenceLabel": "2 Chronicles 34:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And when the LORD saw that they humbled themselves, the word of the LORD came to Shemaiah, sa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חֲמָתִ֛י: and my wrath - heat; figuratively, anger, poison (from its fever)",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And when he humbled himself, the wrath of the LORD turned from him, that he would not destroy...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Instead of which king Rehoboam made shields of brass, and committed them to the hands of the...\". Word-study detail reinforces \"וַיַּ֨עַשׂ: made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        9,
+        10
+      ],
+      "versePhrases": {
+        "9": [
+          "made"
+        ],
+        "10": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "So Shishak king of Egypt came up against Jerusalem, and took away the treasures of the house...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "עָשָׂ֖ה: had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Instead of which king Rehoboam made shields of brass, and committed them to the hands of the...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וַיַּ֨עַשׂ: made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How does this verse illustrate the principle of divine retribution (blessing for obedience, j...\". Word-study detail reinforces \"הַשֹּׁ֣מְרִ֔ים: that kept - properly, to hedge about (as with thorns), i.e., guard; generally...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does this verse illustrate the principle of divine retribution (blessing for obedience, j...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "הַשֹּׁ֣מְרִ֔ים: that kept - properly, to hedge about (as with thorns), i.e., guard; generally...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And when the LORD saw that they humbled themselves, the word of the LORD came to Shemaiah, sa...\". Word-study detail reinforces \"לִפְלֵיטָ֔ה: deliverance - deliverance; concretely, an escaped portion\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "deliverance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And when the LORD saw that they humbled themselves, the word of the LORD came to Shemaiah, sa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לִפְלֵיטָ֔ה: deliverance - deliverance; concretely, an escaped portion",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Whereupon the princes of Israel and the king humbled themselves; and they said, The LORD is r...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Exodus 9:27",
+          "anchorVerse": 6,
+          "referenceLabel": "Exodus 9:27"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Whereupon the princes of Israel and the king humbled themselves; and they said, The LORD is r...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "צַדִּ֥יק׀: is righteous - just",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

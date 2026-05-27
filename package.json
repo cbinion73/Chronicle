@@ -1,0 +1,122 @@
+{
+  "name": "chronicle",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Chronicle is a local-first spiritual formation and Bible study companion.",
+  "author": "Chris",
+  "main": "electron/main.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "desktop:dev": "node scripts/run-chronicle-desktop-dev.mjs",
+    "serve:lan": "vite --host 0.0.0.0 --port 5174",
+    "build": "tsc -b && vite build && npm run sync:discipleship && npm run qa:discipleship",
+    "desktop:build": "node scripts/build-chronicle-desktop.mjs dir",
+    "desktop:prepare": "node scripts/prepare-desktop-app.mjs",
+    "desktop:dist": "npm run desktop:prepare && npm run build && electron-builder --mac",
+    "lint": "eslint .",
+    "qa:e2e:battery": "playwright test tests/app-smoke.spec.js tests/bible-settings.spec.js tests/bible-modes.spec.js tests/discipleship-progress.spec.js tests/launch-readiness.spec.js tests/full-product-battery.spec.js --workers=1",
+    "sync:discipleship": "node scripts/sync-discipleship-workbook-overlays.mjs",
+    "qa:discipleship": "node scripts/qa-discipleship-workbook.mjs",
+    "qa:launch": "node scripts/qa-launch-readiness.mjs",
+    "validate:data": "node scripts/validate-data-foundation.mjs",
+    "install:study-resources": "node scripts/install-study-resources.mjs",
+    "import:study-library": "node scripts/import-study-library.mjs",
+    "import:commentaries-db": "python3 scripts/import_commentaries_database.py",
+    "import:kjvstudy": "node scripts/import-kjvstudy-data.mjs",
+    "compare:bibleistika": "node scripts/compare-bibleistika.mjs",
+    "install:offline-bibles": "node scripts/install-offline-bibles.mjs",
+    "refresh:bible-library": "node scripts/refresh_private_bible_library_manifest.mjs",
+    "precompute:themes": "node scripts/precompute-theme-analysis.mjs",
+    "ocr:pdf": "bash scripts/ocr-study-pdf.sh",
+    "ocr:book": "node scripts/ocr-book-segments.mjs",
+    "import:masterlife-source": "node scripts/import-masterlife-source.mjs",
+    "install:launch-agent": "bash scripts/install-chronicle-launch-agent.sh",
+    "uninstall:launch-agent": "bash scripts/uninstall-chronicle-launch-agent.sh",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "livekit-server-sdk": "^2.15.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.14.2",
+    "remark-gfm": "^4.0.1",
+    "vite": "^8.0.10",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "electron": "^42.0.0",
+    "electron-builder": "^26.8.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.2"
+  },
+  "build": {
+    "appId": "com.chronicle.desktop",
+    "productName": "Chronicle",
+    "compression": "store",
+    "directories": {
+      "app": ".desktop-app",
+      "output": "dist-desktop"
+    },
+    "files": [
+      "package.json",
+      "electron/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "dist",
+        "to": "chronicle-runtime/dist"
+      },
+      {
+        "from": "public",
+        "to": "chronicle-runtime/public"
+      },
+      {
+        "from": "scripts",
+        "to": "chronicle-runtime/scripts"
+      },
+      {
+        "from": "src",
+        "to": "chronicle-runtime/src"
+      },
+      {
+        "from": "vite.config.ts",
+        "to": "chronicle-runtime/vite.config.ts"
+      },
+      {
+        "from": "tsconfig.json",
+        "to": "chronicle-runtime/tsconfig.json"
+      },
+      {
+        "from": "tsconfig.app.json",
+        "to": "chronicle-runtime/tsconfig.app.json"
+      },
+      {
+        "from": "tsconfig.node.json",
+        "to": "chronicle-runtime/tsconfig.node.json"
+      },
+      {
+        "from": "package.json",
+        "to": "chronicle-runtime/package.json"
+      },
+      {
+        "from": "node_modules",
+        "to": "chronicle-runtime/node_modules"
+      }
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "build/Chronicle.icns"
+    }
+  }
+}

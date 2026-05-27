@@ -1,0 +1,257 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "James",
+  "chapter": 4,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:36.165Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: Draw near to God, and He will draw near to you:...\". Word-study detail reinforces \"ἐγγιεῖ: Draw nigh - to make near, i.e., (reflexively) approach\".",
+      "supportingVerses": [
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "5": [
+          "dwell"
+        ],
+        "7": [
+          "Therefore, submit to God"
+        ],
+        "8": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: Does the spirit that dwells within you desire to...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Who can stand with you in resisting the devil?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Andreas of Caesarea on CATENA: If death came into the world by the malice of the devil, and C...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Oecumenius on Commentary on James: Do not speak ill of one another my brethren. He that speak...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        11,
+        12
+      ],
+      "versePhrases": {
+        "11": [
+          "judge"
+        ],
+        "12": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Romans 2:1",
+          "anchorVerse": 11,
+          "referenceLabel": "Romans 2:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Speak not evil one of another, brethren. He that speaketh evil of his brother, and judgeth hi...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Oecumenius on Commentary on James: Do not speak ill of one another my brethren. He that speak...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "κριτής: a judge - a judge (genitive case or specially)",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        6
+      ],
+      "versePhrases": {
+        "3": [
+          "You ask and don’t receive because you ask with wrong..."
+        ],
+        "6": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What would it look like to pray for grace to give rather than consume?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Homilies on the Gospels 2.14: Those who continue in their sins ask wrongly. They entr...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Proverbs 3:34",
+          "anchorVerse": 6,
+          "referenceLabel": "Proverbs 3:34"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"There is one lawgiver, who is able to save and to destroy: who art thou that judgest another?...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Isaiah 33:22",
+          "anchorVerse": 12,
+          "referenceLabel": "Isaiah 33:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "There is one lawgiver, who is able to save and to destroy: who art thou that judgest another?...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Oecumenius on Commentary on James: Do not speak ill of one another my brethren. He that speak...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "σῶσαι: to save - to save, i.e., deliver or protect (literally or figuratively)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on the Catholic Epistles: Does the spirit that dwells within you desire to...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "1 Corinthians 6:19",
+          "anchorVerse": 5,
+          "referenceLabel": "1 Corinthians 6:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: Does the spirit that dwells within you desire to...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "πνεῦμα: The spirit - a current of air, i.e., breath (blast) or a breeze; by analogy or figura...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

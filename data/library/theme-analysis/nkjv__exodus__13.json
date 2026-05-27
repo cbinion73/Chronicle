@@ -1,0 +1,286 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 13,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:38:59.545Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The provision 'every firstling of an ass thou shalt redeem with a lamb' recognizes that uncle...\". Cross references echo \"Redemption\".",
+      "supportingVerses": [
+        4,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "4": [
+          "On this day you are going out, in the month..."
+        ],
+        "13": [
+          "redeem"
+        ],
+        "15": [
+          "redeem"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Abib (later called Nisan) falls in March-April. The month name connects redemption to agricul...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Pseudo-Macarius on HOMILY 47.7: But if man groans and cries out to God, he sends him the spir...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Exodus 34:20",
+          "anchorVerse": 13,
+          "referenceLabel": "Exodus 34:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The provision 'every firstling of an ass thou shalt redeem with a lamb' recognizes that uncle...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"What does God choosing a longer path to avoid premature testing teach about trusting His timing?\". Word-study detail reinforces \"נָחָ֣ם: led - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        17,
+        18,
+        21
+      ],
+      "versePhrases": {
+        "17": [
+          "lead"
+        ],
+        "18": [
+          "led"
+        ],
+        "21": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "What does God choosing a longer path to avoid premature testing teach about trusting His timing?",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "נָחָ֣ם: led - to guide; by implication, to transport (into exile, or as colonists)",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The alternative route 'led the people about, through the way of the wilderness of the Red sea...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "What does God personally accompanying Israel rather than merely directing from heaven teach a...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The seven-day feast of unleavened bread reiterates Exodus 12:15's command. Seven days symboli...\". Word-study detail reinforces \"חָמֵ֗ץ: and there shall no leavened bread - ferment, (figuratively) extortion\".",
+      "supportingVerses": [
+        3,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "bread"
+        ],
+        "6": [
+          "bread"
+        ],
+        "7": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "חָמֵֽץ׃: from this place there shall no leavened bread - ferment, (figuratively) extortion",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The seven-day feast of unleavened bread reiterates Exodus 12:15's command. Seven days symboli...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מַצֹּ֑ת: unleavened bread - properly, sweetness; concretely, sweet (i.e., not soured or bitte...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The command 'Unleavened bread shall be eaten seven days' requires active participation—not me...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How does confidence in God's future promises sustain obedience during present wilderness expe...\". Word-study detail reinforces \"וְעָֽבַדְתָּ֛: that thou shalt keep - to work (in any sense); by implication, to serve, till,...\".",
+      "supportingVerses": [
+        5,
+        10
+      ],
+      "versePhrases": {
+        "5": [
+          "keep"
+        ],
+        "10": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does confidence in God's future promises sustain obedience during present wilderness expe...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וְעָֽבַדְתָּ֛: that thou shalt keep - to work (in any sense); by implication, to serve, till,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The requirement to keep this ordinance 'in his season from year to year' establishes annual r...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְשָֽׁמַרְתָּ֛: Thou shalt therefore keep - properly, to hedge about (as with thorns), i.e.,...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Moses taking Joseph's bones fulfills the oath Joseph extracted in Genesis 50:25. The phrase '...\".",
+      "supportingVerses": [
+        19,
+        21
+      ],
+      "versePhrases": {
+        "19": [
+          "oath"
+        ],
+        "21": [
+          "And the Lord went before them by day in a..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Moses taking Joseph's bones fulfills the oath Joseph extracted in Genesis 50:25. The phrase '...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "What does God personally accompanying Israel rather than merely directing from heaven teach a...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 21 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles, 1 Peter 2:9: The freeing of the children of Isra...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Moses taking Joseph's bones fulfills the oath Joseph extracted in Genesis 50:25. The phrase '...\". Word-study detail reinforces \"קָר֖וֹב: that was near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        17,
+        19
+      ],
+      "versePhrases": {
+        "17": [
+          "near"
+        ],
+        "19": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "God's guidance avoids the direct route to Canaan—'through the way of the land of the Philisti...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "קָר֖וֹב: that was near - near (in place, kindred or time)",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Moses taking Joseph's bones fulfills the oath Joseph extracted in Genesis 50:25. The phrase '...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "אִתְּכֶֽם׃: - properly, nearness (used only as a preposition or an adverb), near; hence, gene...",
+          "anchorVerse": 19
+        }
+      ]
+    }
+  ]
+}

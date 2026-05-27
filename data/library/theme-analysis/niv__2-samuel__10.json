@@ -1,0 +1,211 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 10,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:41.638Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And it came to pass after this, that the king of the children of Ammon died, and Hanun his so...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass after this, that the king of the children of Ammon died, and Hanun his so...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֖לֶךְ: that the king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "When they told it unto David, he sent to meet them, because the men were greatly ashamed: and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הַמֶּ֙לֶךְ֙: and the king - a king",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the rest of the people he delivered into the hand of Abishai his brother, that he might p...\". Word-study detail reinforces \"יֶ֣תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as hang...\".",
+      "supportingVerses": [
+        10,
+        19
+      ],
+      "versePhrases": {
+        "10": [
+          "rest"
+        ],
+        "19": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And the rest of the people he delivered into the hand of Abishai his brother, that he might p...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "יֶ֣תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as hang...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And when all the kings that were servants to Hadarezer saw that they were smitten before Isra...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "ע֖וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And when all the kings that were servants to Hadarezer saw that they were smitten before Isra...\". Word-study detail reinforces \"וַיַּשְׁלִ֥מוּ: they made peace - to be safe (in mind, body or estate); figuratively, to be (...\".",
+      "supportingVerses": [
+        17,
+        19
+      ],
+      "versePhrases": {
+        "17": [
+          "formed"
+        ],
+        "19": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And when all the kings that were servants to Hadarezer saw that they were smitten before Isra...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "וַיַּשְׁלִ֥מוּ: they made peace - to be safe (in mind, body or estate); figuratively, to be (...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Then said David, I will shew kindness unto Hanun the son of Nahash, as his father shewed kind...\". Word-study detail reinforces \"חֶ֔סֶד: kindness - kindness; by implication (towards god) piety; rarely (by opposition) repro...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Then said David, I will shew kindness unto Hanun the son of Nahash, as his father shewed kind...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חֶ֔סֶד: kindness - kindness; by implication (towards god) piety; rarely (by opposition) repro...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does this verse reveal about God's character, and how should that shape your worship and...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What does this verse reveal about God's character, and how should that shape your worship and...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"לִֽישׁוּעָ֑ה: for me then thou shalt help - something saved, i.e., (abstractly) deliverance;...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "rescue"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "לִֽישׁוּעָ֑ה: for me then thou shalt help - something saved, i.e., (abstractly) deliverance;...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

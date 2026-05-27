@@ -1,0 +1,155 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Amos",
+  "chapter": 8,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:59.849Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And it shall come to pass in that day, saith the Lord GOD, that I will cause the sun to go do...\". Word-study detail reinforces \"לָאָ֖רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        8,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "4": [
+          "Hear this, you who trample on the needy and bring..."
+        ],
+        "8": [
+          "Shall not the land tremble on this account, and everyone..."
+        ],
+        "9": [
+          "earth"
+        ],
+        "11": [
+          "“Behold, the days are coming,” declares the Lord God, “when..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Israel's prosperity under Jeroboam II created massive economic inequality. The wealthy accumu...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Amos: (V. 4, seqq.) Listen to this, you who crush the poor and make t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אָֽרֶץ׃: of the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Shall not the land tremble for this, and every one mourn that dwelleth therein? —The rhetoric...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Amos: (Verse 9, 10.) And it shall come to pass on that day, says the...\". Word-study detail reinforces \"כְּאֵ֣בֶל: into mourning - lamentation\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "mourning"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "God promises to transform celebrations into calamity: 'I will turn your feasts into mourning,...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 9, 10.) And it shall come to pass on that day, says the...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "כְּאֵ֣בֶל: into mourning - lamentation",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"יוֹשֵׁ֣ב: that dwelleth - properly, to sit down (specifically as judge. in ambush, in quiet);...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "dwells"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "יוֹשֵׁ֣ב: that dwelleth - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Amos: (Verse 11, 12) Behold, the days are coming, says the Lord, when...\". Word-study detail reinforces \"לַלֶּ֙חֶם֙: of bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Amos prophesies a devastating judgment worse than physical famine: \"Behold, the days come, sa...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Amos: (Verse 11, 12) Behold, the days are coming, says the Lord, when...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "לַלֶּ֙חֶם֙: of bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

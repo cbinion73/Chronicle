@@ -1,0 +1,439 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Lamentations",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:29.684Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Explicit",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Glossa Ordinaria: O ALL YOU : the twelfth topic of indignation; for he seems to be displeased...\". Word-study detail reinforces \"מַכְאֹבִ֔י: my sorrow - anguish or (figuratively) affliction\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "How deserted lies the city, once so full of people"
+        ],
+        "2": [
+          "Bitterly she weeps at night"
+        ],
+        "3": [
+          "affliction"
+        ],
+        "4": [
+          "The roads to Zion mourn, for no one comes to..."
+        ],
+        "5": [
+          "Her foes have become her masters"
+        ],
+        "7": [
+          "affliction"
+        ],
+        "9": [
+          "affliction"
+        ],
+        "12": [
+          "suffering"
+        ],
+        "13": [
+          "“From on high he sent fire, sent it down into..."
+        ],
+        "16": [
+          "weep"
+        ],
+        "17": [
+          "Zion stretches out her hands, but there is no one..."
+        ],
+        "18": [
+          "suffering"
+        ],
+        "19": [
+          "“I called to my allies but they betrayed me"
+        ],
+        "20": [
+          "“See, Lord, how distressed I am"
+        ],
+        "21": [
+          "“People have heard my groaning, but there is no one..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How doth the city sit solitary (אֵיכָה יָשְׁבָה בָדָד, eikah yashvah badad)—The opening word...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Glossa Ordinaria: St. Paschasius. There are Canticles of Canticles; there are also Lamentatio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Written circa 586 BC following Nebuchadnezzar's destruction of Jerusalem, this lament reflect...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"This verse succinctly describes Judah's exile: \"Judah is gone into captivity because of affli...\". Word-study detail reinforces \"מָנ֑וֹחַ: no rest - quiet, i.e., (concretely) a settled spot, or (figuratively) a home\".",
+      "supportingVerses": [
+        2,
+        3,
+        9,
+        13,
+        16,
+        17,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "comfort"
+        ],
+        "3": [
+          "she finds no resting place"
+        ],
+        "9": [
+          "comfort"
+        ],
+        "13": [
+          "“From on high he sent fire, sent it down into..."
+        ],
+        "16": [
+          "comfort"
+        ],
+        "17": [
+          "comfort"
+        ],
+        "20": [
+          "“See, Lord, how distressed I am"
+        ],
+        "21": [
+          "comfort"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The personification of Jerusalem as a weeping widow captures the profound grief of covenant j...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מְנַחֵ֖ם: she hath none to comfort - properly, to sigh, i.e., breathe strongly; by implicatio...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse succinctly describes Judah's exile: \"Judah is gone into captivity because of affli...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Deuteronomy 28 established the covenant framework: obedience brings blessing, disobedience br...\". Word-study detail reinforces \"צִוִּ֔יתָה: whom thou didst command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        5,
+        10,
+        11,
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "Her foes have become her masters"
+        ],
+        "10": [
+          "The enemy laid hands on all her treasures"
+        ],
+        "11": [
+          "keep"
+        ],
+        "17": [
+          "Zion stretches out her hands, but there is no one..."
+        ],
+        "18": [
+          "command"
+        ],
+        "19": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Deuteronomy 28 established the covenant framework: obedience brings blessing, disobedience br...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Glossa Ordinaria: HER ADVERSARIES HAVE BECOME: the eighth topic of complaint. Historical inte...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "A horrifying violation: \"The adversary hath spread out his hand upon all her pleasant things:...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "צִוִּ֔יתָה: whom thou didst command - (intensively) to constitute, enjoin",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...\". Word-study detail reinforces \"אֲלֵיכֶם֮: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        12,
+        16,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "Bitterly she weeps at night, tears are on her cheeks"
+        ],
+        "3": [
+          "dwells"
+        ],
+        "7": [
+          "In the days of her affliction and wandering Jerusalem remembers..."
+        ],
+        "12": [
+          "“Is it nothing to you, all you who pass by"
+        ],
+        "16": [
+          "near"
+        ],
+        "22": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Written circa 586 BC following Nebuchadnezzar's destruction of Jerusalem, this lament reflect...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Glossa Ordinaria: WEEPING SHE HAS WEPT: the fourth topic of complaint, in which shameful, mea...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Glossa Ordinaria: JUDAH HAS REMOVED: the tenth topic of complaint, by which helplessness, wea...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יָשְׁבָ֣ה: she dwelleth - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Glossa Ordinaria: MY VIRGINS: the eighth topic of indignation; for virgins cannot defend them...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        16,
+        17,
+        18,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "After affliction and harsh labor, Judah has gone into exile"
+        ],
+        "5": [
+          "Her foes have become her masters"
+        ],
+        "6": [
+          "All the splendor has departed from Daughter Zion"
+        ],
+        "7": [
+          "In the days of her affliction and wandering Jerusalem remembers..."
+        ],
+        "8": [
+          "Jerusalem has sinned greatly and so has become unclean"
+        ],
+        "10": [
+          "The enemy laid hands on all her treasures"
+        ],
+        "16": [
+          "“This is why I weep and my eyes overflow with..."
+        ],
+        "17": [
+          "Zion stretches out her hands, but there is no one..."
+        ],
+        "18": [
+          "righteous"
+        ],
+        "21": [
+          "“People have heard my groaning, but there is no one..."
+        ],
+        "22": [
+          "My groans are many and my heart is faint"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse succinctly describes Judah's exile: \"Judah is gone into captivity because of affli...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Glossa Ordinaria: JUDAH HAS REMOVED: the tenth topic of complaint, by which helplessness, wea...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Deuteronomy 28 established the covenant framework: obedience brings blessing, disobedience br...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Glossa Ordinaria: HER ADVERSARIES HAVE BECOME: the eighth topic of complaint. Historical inte...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"This verse marks a crucial theological shift: \"The LORD is righteous; for I have rebelled aga...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        8,
+        10,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "8": [
+          "Jerusalem has sinned greatly and so has become unclean"
+        ],
+        "10": [
+          "The enemy laid hands on all her treasures"
+        ],
+        "15": [
+          "“The Lord has rejected all the warriors in my midst"
+        ],
+        "16": [
+          "“This is why I weep and my eyes overflow with..."
+        ],
+        "17": [
+          "Jerusalem has become an unclean thing among them"
+        ],
+        "18": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The verse begins with stark clarity: \"Jerusalem hath grievously sinned\" ( chet chatah Yerusha...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Here in Verse 8 is shown the cause of the miser...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The sanctuary's sanctity was fundamental to Israel's worship. The temple complex had graduate...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Here is considered captivity, and servitude, re...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

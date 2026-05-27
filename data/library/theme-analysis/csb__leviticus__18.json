@@ -1,0 +1,140 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 18,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:18.197Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God....\". Word-study detail reinforces \"חֻקֹּתַי֙: my statutes - a statute\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        26,
+        30
+      ],
+      "versePhrases": {
+        "3": [
+          "follow"
+        ],
+        "4": [
+          "keep",
+          "statutes",
+          "ordinances"
+        ],
+        "5": [
+          "Keep",
+          "statutes",
+          "ordinances"
+        ],
+        "26": [
+          "keep",
+          "statutes",
+          "ordinances"
+        ],
+        "30": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does understanding the purpose behind God's laws help you obey Him from the heart rather...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וּבְחֻקֹּֽתֵיהֶ֖ם: in their ordinances - a statute",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חֻקֹּתַ֥י: mine ordinances - a statute",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How does this verse help you understand both God's justice and His mercy in salvation?\".",
+      "supportingVerses": [
+        5,
+        30
+      ],
+      "versePhrases": {
+        "5": [
+          "Keep my statutes and ordinances"
+        ],
+        "30": [
+          "instruction"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does this verse help you understand both God's justice and His mercy in salvation?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Romans: For Moses describeth the righteousness which is of the law, That the man which doeth...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "How does this verse help you understand both God's justice and His mercy in salvation?",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"None of you shall approach to any that is near of kin to him, to uncover their nakedness: I a...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "None of you shall approach to any that is near of kin to him, to uncover their nakedness: I a...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

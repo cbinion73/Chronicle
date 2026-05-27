@@ -1,0 +1,166 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 8,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:03.667Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "Romans 8 roots assurance in God’s saving action rather than human performance. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After showing that we are freed from sin and the law...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        3,
+        32,
+        39
+      ],
+      "versePhrases": {
+        "1": [
+          "no condemnation"
+        ],
+        "3": [
+          "God has done what the law",
+          "sending his own Son"
+        ],
+        "32": [
+          "graciously give us all things"
+        ],
+        "39": [
+          "love of God in Christ Jesus our Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "References Jesus",
+          "detail": "Romans 5:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Romans 5:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "There is therefore now no condemnation to them which are in Christ Jesus (οὐδὲν κατάκριμα, ou...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing that we are freed from sin and the law...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "κατάκριμα: condemnation - an adverse sentence (the verdict)",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "The Spirit marks the new life of believers, assuring adoption and belonging. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, \"for the law,\" he proves what he h...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        2,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "the Spirit of life"
+        ],
+        "15": [
+          "received the Spirit of adoption",
+          "Abba! Father!"
+        ],
+        "16": [
+          "The Spirit himself bears witness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "2 Corinthians 3:17",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Corinthians 3:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and d...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then when he says, \"for the law,\" he proves what he h...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ζωῆς: of life - life (literally or figuratively)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "freedom",
+      "label": "Freedom",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "Freedom appears as release from condemnation, slavery, and the dominion of sin and death. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, \"for the law,\" he proves what he h...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        2,
+        15,
+        31
+      ],
+      "versePhrases": {
+        "2": [
+          "set you free",
+          "law of sin and death"
+        ],
+        "15": [
+          "spirit of slavery"
+        ],
+        "31": [
+          "If God is for us, who can be against us?"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "2 Corinthians 3:17",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Corinthians 3:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and d...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then when he says, \"for the law,\" he proves what he h...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "θανάτου: death - (properly, an adjective used as a noun) death (literally or figuratively)",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

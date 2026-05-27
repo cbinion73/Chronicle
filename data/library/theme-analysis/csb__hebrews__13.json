@@ -1,0 +1,402 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hebrews",
+  "chapter": 13,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:35.835Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on Hebrews: After showing them how to act in regard to their dea...\". Word-study detail reinforces \"μιμεῖσθε: follow - to imitate\".",
+      "supportingVerses": [
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25
+      ],
+      "versePhrases": {
+        "4": [
+          "kept"
+        ],
+        "5": [
+          "Keep"
+        ],
+        "7": [
+          "Remember your leaders who have spoken God’s word to you"
+        ],
+        "9": [
+          "Don’t be led astray by various kinds of strange teachings"
+        ],
+        "13": [
+          "Let us, then, go to him outside the camp, bearing..."
+        ],
+        "17": [
+          "Obey",
+          "keep"
+        ],
+        "25": [
+          "Grace be with you all"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on Hebrews 33: See how large is his discourse concerning chastity....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on SERMON 177.3: So keep a moderate amount of money for temporal uses; tre...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Remember them which have the rule over you, who have spoken unto you the word of God: whose f...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: Then (v. 7) he shows they should do good to their pr...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        10,
+        15,
+        16,
+        21
+      ],
+      "versePhrases": {
+        "10": [
+          "worship"
+        ],
+        "15": [
+          "praise"
+        ],
+        "16": [
+          "Don’t neglect to do what is good and to share,..."
+        ],
+        "21": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The Jerusalem temple still stood when Hebrews was written (destroyed 70 AD), making this teac...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: Then when he says, By him then let us continually of...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "ὁμολογούντων: giving thanks - to assent, i.e., covenant, acknowledge",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Commentary on Hebrews: After exhorting them to follow the example and manne...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        17,
+        18,
+        21
+      ],
+      "versePhrases": {
+        "5": [
+          "Keep your life free from the love of money"
+        ],
+        "7": [
+          "faith"
+        ],
+        "8": [
+          "Jesus Christ is the same yesterday, today, and forever"
+        ],
+        "9": [
+          "Don’t be led astray by various kinds of strange teachings"
+        ],
+        "10": [
+          "We have an altar from which those who worship at..."
+        ],
+        "14": [
+          "For we do not have an enduring city here"
+        ],
+        "15": [
+          "Therefore, through him let us continually offer up to God..."
+        ],
+        "17": [
+          "Obey your leaders and submit to them, since they keep..."
+        ],
+        "18": [
+          "Pray for us, for we are convinced that we have..."
+        ],
+        "21": [
+          "equip you with everything good to do his will, working..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Hebrews was written to Jewish Christians around 64-70 AD (possibly before the destruction of...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 2: We must then exercise ourselves in taking care...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Hebrews 6:12",
+          "anchorVerse": 7,
+          "referenceLabel": "Hebrews 6:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Remember them which have the rule over you, who have spoken unto you the word of God: whose f...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"The shepherd metaphor permeates Scripture. God is Israel's shepherd (Psalm 23; 80:1); David,...\". Word-study detail reinforces \"ποιμένα: shepherd - a shepherd (literally or figuratively)\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        17,
+        19,
+        20,
+        22,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "7": [
+          "Remember your leaders who have spoken God’s word to you"
+        ],
+        "8": [
+          "Jesus Christ is the same yesterday, today, and forever"
+        ],
+        "9": [
+          "led"
+        ],
+        "17": [
+          "Obey your leaders and submit to them"
+        ],
+        "19": [
+          "And I urge you all the more to pray that..."
+        ],
+        "20": [
+          "Shepherd"
+        ],
+        "22": [
+          "Brothers and sisters, I urge you to receive this message..."
+        ],
+        "24": [
+          "Greet all your leaders and all the saints"
+        ],
+        "25": [
+          "Grace be with you all"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Remember them which have the rule over you, who have spoken unto you the word of God: whose f...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: Then (v. 7) he shows they should do good to their pr...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἡγουμένων: them which have the rule - to lead, i.e., command (with official authority); figur...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The original readers of Hebrews had witnessed the passing of first-generation apostolic leade...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Grace be with you all. Amen. This brief benediction pronounces grace on readers. 'Grace' ( hē...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        9,
+        11,
+        15,
+        21,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "Remember those in prison, as though you were in prison..."
+        ],
+        "9": [
+          "grace"
+        ],
+        "11": [
+          "For the bodies of those animals whose blood is brought..."
+        ],
+        "15": [
+          "Therefore, through him let us continually offer up to God..."
+        ],
+        "21": [
+          "equip you with everything good to do his will, working..."
+        ],
+        "25": [
+          "Grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The original readers had 'had compassion of me in my bonds' (Hebrews 10:34), showing they sup...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Oecumenius on The Pseudo-Oecumenian Catena on Hebrews: \"as bound.\" For he who is bound to som...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Acts 20:32",
+          "anchorVerse": 9,
+          "referenceLabel": "Acts 20:32"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Be not carried about with divers and strange doctrines. For it is a good thing that the heart...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Remember them that are in bonds, as bound with them; and them which suffer adversity, as bein...\". Word-study detail reinforces \"κακουχουμένων: and them which suffer adversity - to maltreat\".",
+      "supportingVerses": [
+        3,
+        7,
+        11,
+        12,
+        13,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "suffering"
+        ],
+        "7": [
+          "Remember your leaders who have spoken God’s word to you"
+        ],
+        "11": [
+          "For the bodies of those animals whose blood is brought..."
+        ],
+        "12": [
+          "Jesus also suffered outside the gate"
+        ],
+        "13": [
+          "Let us, then, go to him outside the camp, bearing..."
+        ],
+        "22": [
+          "Brothers and sisters, I urge you to receive this message..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Remember them that are in bonds, as bound with them; and them which suffer adversity, as bein...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Oecumenius on The Pseudo-Oecumenian Catena on Hebrews: \"as bound.\" For he who is bound to som...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "κακουχουμένων: and them which suffer adversity - to maltreat",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Remember them which have the rule over you, who have spoken unto you the word of God: whose f...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

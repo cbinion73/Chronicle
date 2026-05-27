@@ -1,0 +1,272 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 25,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:24.091Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 18 verses. Commentary leans on \"And it came to pass in the seven and thirtieth year of the captivity of Jehoiachin king of Ju...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        27,
+        28,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "king",
+          "reign"
+        ],
+        "2": [
+          "King"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "king"
+        ],
+        "8": [
+          "King",
+          "king"
+        ],
+        "9": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ],
+        "21": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ],
+        "24": [
+          "king"
+        ],
+        "27": [
+          "king"
+        ],
+        "28": [
+          "throne"
+        ],
+        "29": [
+          "king"
+        ],
+        "30": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass in the ninth year of his reign, in the tenth month, in the tenth day of t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 2:17-19: What think you of Nebuchadnezzar? Have yo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And the city was besieged unto the eleventh year of king Zedekiah. This verse contributes to...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And all the people, both small and great, and the captains of the armies, arose, and came to...\". Word-study detail reinforces \"תִּֽירְא֖וּ: unto them Fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        24,
+        26
+      ],
+      "versePhrases": {
+        "24": [
+          "afraid"
+        ],
+        "26": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "And Gedaliah sware to them, and to their men, and said unto them, Fear not to be the servants...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "תִּֽירְא֖וּ: unto them Fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "And all the people, both small and great, and the captains of the armies, arose, and came to...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "יָֽרְא֖וּ: for they were afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And Gedaliah sware to them, and to their men, and said unto them, Fear not to be the servants...\". Word-study detail reinforces \"שְׁב֣וּ: dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by impli...\".",
+      "supportingVerses": [
+        24,
+        29
+      ],
+      "versePhrases": {
+        "24": [
+          "And Gedaliah swore to them and their men and said..."
+        ],
+        "29": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "And Gedaliah sware to them, and to their men, and said unto them, Fear not to be the servants...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "שְׁב֣וּ: dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by impli...",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Now the rest of the people that were left in the city, and the fugitives that fell away to th...\". Word-study detail reinforces \"יֶ֣תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as hang...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Now the rest of the people that were left in the city, and the fugitives that fell away to th...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "יֶ֣תֶר: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as hang...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The two pillars, one sea, and the bases which Solomon had made for the house of the LORD; the...\". Word-study detail reinforces \"עָשָׂ֥ה: had made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The two pillars, one sea, and the bases which Solomon had made for the house of the LORD; the...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "עָשָׂ֥ה: had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        30
+      ],
+      "versePhrases": {
+        "30": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

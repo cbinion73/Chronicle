@@ -1,0 +1,286 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 27,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:23.640Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"My son, be wise, and make my heart glad —The Hebrew ḥākam (חָכַם, be wise) is more than intel...\". Word-study detail reinforces \"חֲכַ֣ם: be wise - to be wise (in mind, word or act)\".",
+      "supportingVerses": [
+        9,
+        11,
+        17,
+        23
+      ],
+      "versePhrases": {
+        "9": [
+          "counsel"
+        ],
+        "11": [
+          "wise"
+        ],
+        "17": [
+          "Iron sharpens iron, and one man sharpens another"
+        ],
+        "23": [
+          "Know well the condition of your flocks, and give attention..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Ointment and perfume rejoice the heart: so doth the sweetness of a man's friend by hearty cou...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מֵֽעֲצַת: counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "My son, be wise, and make my heart glad —The Hebrew ḥākam (חָכַם, be wise) is more than intel...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "חֲכַ֣ם: be wise - to be wise (in mind, word or act)",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"As the fining pot for silver, and the furnace for gold (מַצְרֵף לַכֶּסֶף וְכוּר לַזָּהָב, mat...\". Word-study detail reinforces \"מַהֲלָלֽוֹ׃: praise - fame\".",
+      "supportingVerses": [
+        2,
+        14,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "praise"
+        ],
+        "14": [
+          "Whoever blesses his neighbor with a loud voice"
+        ],
+        "21": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Let another praise you, not your own mouth; 'a stranger, and not thine own lips.' The Hebrew...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on TRACTATES ON THE GOSPEL OF JOHN 36:3.2: If I seem arrogant to you, it i...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "יְהַלֶּלְךָ֣: man praise - to be clear (orig. of sound, but usually of color); to shine; henc...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "When are you tempted to use excessive praise to manipulate others rather than speak truth in...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Open rebuke is better than 'secret love.' The Hebrew 'ahab satan' (hidden/concealed love) fai...\". Word-study detail reinforces \"מֵֽאַהֲבָ֥ה: love - love\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "love"
+        ],
+        "6": [
+          "Faithful are the wounds of a friend"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Open rebuke is better than 'secret love.' The Hebrew 'ahab satan' (hidden/concealed love) fai...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on Proverbs: Better is open rebuke, etc. Hidden love in this place is call...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "מֵֽאַהֲבָ֥ה: love - love",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Faithful are the wounds of a friend; but the kisses of an enemy are deceitful. This proverb p...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"A stone and sand are heavy, but 'a fool's wrath is heavier than them both.' The Hebrew 'kobed...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "A stone is heavy, and sand is weighty, but a..."
+        ],
+        "4": [
+          "Wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "A stone and sand are heavy, but 'a fool's wrath is heavier than them both.' The Hebrew 'kobed...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וְכַ֥עַס: wrath - vexation",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Job 5:2",
+          "anchorVerse": 4,
+          "referenceLabel": "Job 5:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Wrath is cruel, anger is outrageous, but 'who is able to stand before envy?' The Hebrew 'qina...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And thou shalt have goats' milk enough for thy food (וְדֵי חֲלֵב עִזִּים לְלַחְמֶךָ, vedei ch...\". Word-study detail reinforces \"לְלֶ֣חֶם: for the food - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        26,
+        27
+      ],
+      "versePhrases": {
+        "26": [
+          "provide"
+        ],
+        "27": [
+          "There will be enough goats' milk for your food, for..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "In ancient agrarian economies, livestock served multiple functions: food (milk, meat), clothi...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "And thou shalt have goats' milk enough for thy food (וְדֵי חֲלֵב עִזִּים לְלַחְמֶךָ, vedei ch...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "לְלֶ֣חֶם: for the food - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Faithful are the wounds of a friend; but the kisses of an enemy are deceitful. This proverb p...\". Word-study detail reinforces \"נֶ֭אֱמָנִים: Faithful - properly, to build up or support; to foster as a parent or nurse; fig...\".",
+      "supportingVerses": [
+        6,
+        23
+      ],
+      "versePhrases": {
+        "6": [
+          "Faithful"
+        ],
+        "23": [
+          "Know well the condition of your flocks, and give attention..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Faithful are the wounds of a friend; but the kisses of an enemy are deceitful. This proverb p...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on LETTER 82: “More trustworthy are the wounds of a friend than the proffe...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "נֶ֭אֱמָנִים: Faithful - properly, to build up or support; to foster as a parent or nurse; fig...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "How does faithful stewardship of earthly resources prepare you for eternal responsibilities?",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

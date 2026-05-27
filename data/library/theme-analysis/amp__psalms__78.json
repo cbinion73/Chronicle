@@ -1,0 +1,546 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 78,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:01.548Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 78: But as far as regards the present passage of th...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        12,
+        13,
+        14,
+        16,
+        20,
+        24,
+        25,
+        26,
+        37,
+        40,
+        44,
+        45,
+        50,
+        52,
+        55,
+        64,
+        69
+      ],
+      "versePhrases": {
+        "12": [
+          "He did marvelous things in the sight of their fathers..."
+        ],
+        "13": [
+          "made",
+          "waters"
+        ],
+        "14": [
+          "light"
+        ],
+        "16": [
+          "waters"
+        ],
+        "20": [
+          "waters"
+        ],
+        "24": [
+          "And He rained down manna upon them to eat And..."
+        ],
+        "25": [
+          "Man ate the bread of angels"
+        ],
+        "26": [
+          "heavens"
+        ],
+        "37": [
+          "For their heart was not steadfast toward Him, Nor were..."
+        ],
+        "40": [
+          "How often they rebelled against Him in the wilderness And..."
+        ],
+        "44": [
+          "And turned their rivers into blood, And their streams, so..."
+        ],
+        "45": [
+          "He sent among them swarms of flies which devoured them,..."
+        ],
+        "50": [
+          "He leveled a path for His anger [to give it..."
+        ],
+        "52": [
+          "But God led His own people forward like sheep And..."
+        ],
+        "55": [
+          "He also drove out the nations before the sons of..."
+        ],
+        "64": [
+          "His priests [Hophni and Phinehas] fell by the sword, And..."
+        ],
+        "69": [
+          "heavens",
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Marvellous things did he in the sight of their fathers, in the land of Egypt, in the field of...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 78: \"And they forgat His benefits, and the wonderfu...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "בְּאֶ֖רֶץ: in the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "He divided the sea, and caused them to pass through; and he made the waters to stand as an he...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"They kept not the covenant of God (לֹא שָׁמְרוּ בְּרִית אֱלֹהִים, lo shamru berit Elohim )—Th...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        8,
+        10,
+        11,
+        21,
+        36,
+        37,
+        38,
+        55,
+        56,
+        57,
+        58,
+        61,
+        62,
+        68,
+        71
+      ],
+      "versePhrases": {
+        "8": [
+          "And not be like their fathers— A stubborn and rebellious..."
+        ],
+        "10": [
+          "covenant"
+        ],
+        "11": [
+          "And they forgot His [incredible] works And His miraculous wonders..."
+        ],
+        "21": [
+          "Therefore, when the Lord heard, He was full of wrath"
+        ],
+        "36": [
+          "Nevertheless they flattered Him with their mouths And lied to..."
+        ],
+        "37": [
+          "covenant"
+        ],
+        "38": [
+          "But He, the source of compassion and lovingkindness, forgave their..."
+        ],
+        "55": [
+          "inheritance"
+        ],
+        "56": [
+          "Yet they tempted and rebelled against the Most High God..."
+        ],
+        "57": [
+          "They turned back and acted unfaithfully like their fathers"
+        ],
+        "58": [
+          "For they provoked Him to [righteous] anger with their high..."
+        ],
+        "61": [
+          "covenant"
+        ],
+        "62": [
+          "inheritance"
+        ],
+        "68": [
+          "But He chose the tribe of Judah [as Israel’s leader],..."
+        ],
+        "71": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The wilderness generation epitomized this—despite seeing miracles, they rebelled repeatedly (...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Clement of Alexandria on The Instructor Book 1: His righteousness cried, \"If ye come straight...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Jeremiah 31:32",
+          "anchorVerse": 10,
+          "referenceLabel": "Jeremiah 31:32"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "They kept not the covenant of God (לֹא שָׁמְרוּ בְּרִית אֱלֹהִים, lo shamru berit Elohim )—Th...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 78: \"That they may not become, like their fathers,...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        19,
+        20,
+        22,
+        32,
+        36,
+        37,
+        53
+      ],
+      "versePhrases": {
+        "6": [
+          "That the generation to come might know them, that the..."
+        ],
+        "7": [
+          "confidence"
+        ],
+        "8": [
+          "And whose spirit was not faithful to God"
+        ],
+        "9": [
+          "The sons of Ephraim were armed as archers and carrying..."
+        ],
+        "10": [
+          "They did not keep the covenant of God And refused..."
+        ],
+        "19": [
+          "Then they spoke against God"
+        ],
+        "20": [
+          "“Behold, He struck the rock so that waters gushed out..."
+        ],
+        "22": [
+          "believe",
+          "trust"
+        ],
+        "32": [
+          "believe"
+        ],
+        "36": [
+          "Nevertheless they flattered Him with their mouths And lied to..."
+        ],
+        "37": [
+          "steadfast"
+        ],
+        "53": [
+          "He led them safely, so that they did not fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does the church function as spiritual family when biological families fail to transmit fa...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 78: \"That another generation may know, sons who sha...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The purpose of transmission: \"That they might set their hope in God, and not forget the works...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 78: \"That they may put their hope in God, and may n...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 78: \"They have not been hidden from their sons in a...\". Word-study detail reinforces \"עֵד֨וּת׀: a testimony - testimony\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        11,
+        12,
+        22,
+        36,
+        37,
+        55,
+        71
+      ],
+      "versePhrases": {
+        "2": [
+          "truth"
+        ],
+        "4": [
+          "We will not hide them from their children, But [we..."
+        ],
+        "5": [
+          "testimony"
+        ],
+        "7": [
+          "That they should place their confidence in God And not..."
+        ],
+        "8": [
+          "faithful"
+        ],
+        "11": [
+          "And they forgot His [incredible] works And His miraculous wonders..."
+        ],
+        "12": [
+          "He did marvelous things in the sight of their fathers..."
+        ],
+        "22": [
+          "Because they did not believe in God [they did not..."
+        ],
+        "36": [
+          "Nevertheless they flattered Him with their mouths And lied to..."
+        ],
+        "37": [
+          "faithful"
+        ],
+        "55": [
+          "He also drove out the nations before the sons of..."
+        ],
+        "71": [
+          "From tending the ewes with nursing young He brought him..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In what ways did Jesus use historical examples and parables to reveal spiritual truth, and ho...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What might cause a generation to \"hide\" God's truth from their children, and how can you resi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 78: \"They have not been hidden from their sons in a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The psalm establishes God's law: \"For he established a testimony in Jacob, and appointed a la...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Augustine of Hippo on SERMON 130:2: Let us turn back to the one who performed these miracles....\". Word-study detail reinforces \"שֻׁ֝לְחָ֗ן: a table - a table (as spread out); by implication, a meal\".",
+      "supportingVerses": [
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "18": [
+          "And in their hearts they put God to the test..."
+        ],
+        "19": [
+          "table"
+        ],
+        "20": [
+          "provide",
+          "bread"
+        ],
+        "22": [
+          "Because they did not believe in God [they did not..."
+        ],
+        "23": [
+          "Yet He commanded the clouds from above And opened the..."
+        ],
+        "24": [
+          "And He rained down manna upon them to eat And..."
+        ],
+        "25": [
+          "bread"
+        ],
+        "26": [
+          "He caused the east wind to blow in the heavens..."
+        ],
+        "27": [
+          "He rained meat upon them like the dust, And winged..."
+        ],
+        "29": [
+          "So they ate and were well filled, He gave them..."
+        ],
+        "30": [
+          "Before they had satisfied their desire, And while their food..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And they tempted God in their heart by asking meat for their lust —the Hebrew nissâ (tempted)...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 78: \"And they tempted God in their hearts, in order...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Yea, they spake against God; they said, Can God furnish a table in the wilderness? —the rheto...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 78: \"And they tempted God in their hearts, in order...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"But made his own people to go forth like sheep, and guided them in the wilderness like a floc...\". Word-study detail reinforces \"יַנְחֵֽם׃: and guided - to guide; by implication, to transport (into exile, or as colonists)\".",
+      "supportingVerses": [
+        3,
+        5,
+        14,
+        26,
+        28,
+        50,
+        52,
+        53,
+        71,
+        72
+      ],
+      "versePhrases": {
+        "3": [
+          "Which we have heard and known, And our fathers have..."
+        ],
+        "5": [
+          "teach"
+        ],
+        "14": [
+          "led"
+        ],
+        "26": [
+          "guided"
+        ],
+        "28": [
+          "And He let them fall in the midst of their..."
+        ],
+        "50": [
+          "path"
+        ],
+        "52": [
+          "led",
+          "guided",
+          "shepherd"
+        ],
+        "53": [
+          "led"
+        ],
+        "71": [
+          "shepherd"
+        ],
+        "72": [
+          "guided"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This reflects Deuteronomy 6:4-9's command to teach children diligently about God's works and...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Pachomius the Great on LIFE OF PACHOMIUS (FIRST GREEK) 17: Instructed by the holy Scriptures...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "God gave the law at Sinai (Exodus 20-24) with explicit commands for parental instruction (Deu...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The wilderness period (1446-1406 BC) tested Israel's faith for forty years. The pillar guided...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

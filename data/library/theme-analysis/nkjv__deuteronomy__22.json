@@ -1,0 +1,195 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 22,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:06.205Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "with you",
+          "near"
+        ],
+        "7": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The elders of that city shall take that man and chastise him — yasar (יָסַר, \"chastise\") mean...\". Word-study detail reinforces \"נְבָלָה֙: folly - foolishness, i.e., (morally) wickedness; concretely, a crime; by extension,...\".",
+      "supportingVerses": [
+        18,
+        21
+      ],
+      "versePhrases": {
+        "18": [
+          "punish"
+        ],
+        "21": [
+          "then they shall bring out the young woman to the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The elders of that city shall take that man and chastise him — yasar (יָסַר, \"chastise\") mean...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "Then they shall bring out the damsel to the door of her father's house, and the men of her ci...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "נְבָלָה֙: folly - foolishness, i.e., (morally) wickedness; concretely, a crime; by extension,...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory of Neocaesarea on CANONICAL EPISTLE 4: So says Deuteronomy. But in Exodus, even if so...\". Word-study detail reinforces \"כֵּ֖ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        3,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "You shall do the same with his donkey, and so..."
+        ],
+        "26": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory of Neocaesarea on CANONICAL EPISTLE 4: So says Deuteronomy. But in Exodus, even if so...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וְכֵ֣ן: In like manner - properly, set upright; hence (figuratively as adjective) just; but u...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Unto the damsel thou shalt do nothing; there is in the damsel no sin worthy of death —explici...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "כֵּ֖ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        24
+      ],
+      "versePhrases": {
+        "24": [
+          "cry out"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For he found her in the field, and the betrothed damsel cried, and there was none to save her...\". Word-study detail reinforces \"מוֹשִׁ֖יעַ: and there was none to save - properly, to be open, wide or free, i.e., (by implic...\".",
+      "supportingVerses": [
+        27
+      ],
+      "versePhrases": {
+        "27": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "For he found her in the field, and the betrothed damsel cried, and there was none to save her...",
+          "anchorVerse": 27
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 27 word study",
+          "detail": "מוֹשִׁ֖יעַ: and there was none to save - properly, to be open, wide or free, i.e., (by implic...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But if this thing be true, and the tokens of virginity be not found for the damsel —the law n...\". Word-study detail reinforces \"אֱמֶ֣ת: be true - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "But if this thing be true, and the tokens of virginity be not found for the damsel —the law n...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "אֱמֶ֣ת: be true - stability; (figuratively) certainty, truth, trustworthiness",
+          "anchorVerse": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 7,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:45.987Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...\". Word-study detail reinforces \"לְנַֽחֲמֽוֹ׃: to comfort - properly, to sigh, i.e., breathe strongly; by implication, to be s...\".",
+      "supportingVerses": [
+        22
+      ],
+      "versePhrases": {
+        "22": [
+          "comfort"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "לְנַֽחֲמֽוֹ׃: to comfort - properly, to sigh, i.e., breathe strongly; by implication, to be s...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Genealogical Significance: This verse appears within the Northern tribes and their heritage s...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Genealogical Significance: This verse appears within the Northern tribes and their heritage s...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Inferred",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care.",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "love"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Inferred",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "made"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

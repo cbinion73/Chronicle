@@ -1,0 +1,379 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 13,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:44.196Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: After showing that charity is so necessary tha...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "2": [
+          "love"
+        ],
+        "3": [
+          "love"
+        ],
+        "4": [
+          "Love",
+          "love"
+        ],
+        "5": [
+          "or rude"
+        ],
+        "6": [
+          "it does not rejoice at wrongdoing, but rejoices with the..."
+        ],
+        "7": [
+          "Love"
+        ],
+        "8": [
+          "Love"
+        ],
+        "10": [
+          "but when the perfect comes, the partial will pass away"
+        ],
+        "11": [
+          "When I was a child, I spoke like a child,..."
+        ],
+        "13": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 Timothy 1:5",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Timothy 1:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Though I speak with the tongues of men and of angels (ταῖς γλώσσαις τῶν ἀνθρώπων... καὶ τῶν ἀ...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Having assigned the differences among charisma...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀγάπην: charity - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: After showing that charity excels the other gi...\". Word-study detail reinforces \"γνῶσιν: knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "If I speak in the tongues of men and of..."
+        ],
+        "2": [
+          "understand",
+          "knowledge"
+        ],
+        "4": [
+          "Love is patient and kind"
+        ],
+        "8": [
+          "knowledge"
+        ],
+        "9": [
+          "For we know in part and we prophesy in part,"
+        ],
+        "10": [
+          "but when the perfect comes, the partial will pass away"
+        ],
+        "11": [
+          "When I was a child, I spoke like a child,..."
+        ],
+        "12": [
+          "For now we see in a mirror dimly, but then..."
+        ],
+        "13": [
+          "So now faith, hope, and love abide, these three"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written circa 55 AD from Ephesus during Paul's third missionary journey to a divided Corinthi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Having assigned the differences among charisma...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And though I have the gift of prophecy (καὶ ἐὰν ἔχω προφητείαν, kai ean echō prophēteian )—Pa...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, and if I have prophecy, he...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, and if I have prophecy, he...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        9,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "faith"
+        ],
+        "3": [
+          "If I give away all I have, and if I..."
+        ],
+        "7": [
+          "believes all things"
+        ],
+        "9": [
+          "For we know in part and we prophesy in part,"
+        ],
+        "12": [
+          "For now we see in a mirror dimly, but then..."
+        ],
+        "13": [
+          "faith",
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Matthew 17:20",
+          "anchorVerse": 2,
+          "referenceLabel": "Matthew 17:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And though I have the gift of prophecy (καὶ ἐὰν ἔχω προφητείαν, kai ean echō prophēteian )—Pa...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, and if I have prophecy, he...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πίστιν: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Rejoiceth not in iniquity (οὐ χαίρει ἐπὶ τῇ ἀδικίᾳ, ou chairei epi tē adikia )— Adikia is unr...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        2,
+        6,
+        8,
+        9,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "And if I have prophetic powers, and understand all mysteries..."
+        ],
+        "6": [
+          "truth"
+        ],
+        "8": [
+          "Love never ends"
+        ],
+        "9": [
+          "For we know in part and we prophesy in part,"
+        ],
+        "10": [
+          "but when the perfect comes, the partial will pass away"
+        ],
+        "12": [
+          "For now we see in a mirror dimly, but then..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And though I have the gift of prophecy (καὶ ἐὰν ἔχω προφητείαν, kai ean echō prophēteian )—Pa...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyprian on Treatise I On the Unity of the Church: Even if such men were slain in confession o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πίστιν: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "2 John 1:4",
+          "anchorVerse": 6,
+          "referenceLabel": "2 John 1:4"
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: Here he speaks of the vision, which is knowled...\". Word-study detail reinforces \"πρόσωπον·: face - the front (as being towards view), i.e., the countenance, aspect, appearanc...\".",
+      "supportingVerses": [
+        6,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "6": [
+          "but rejoices with the truth"
+        ],
+        "12": [
+          "For now we see in a mirror dimly, but then..."
+        ],
+        "13": [
+          "abide"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "When have you felt secret satisfaction at someone's moral failure, especially if they disagre...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Cyprian on Treatise IX. On the Advantage of Patience.: Charity is the bond of brotherhood, th...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Here he speaks of the vision, which is knowled...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "πρόσωπον·: face - the front (as being towards view), i.e., the countenance, aspect, appearanc...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Cyprian on Epistle LXXII: Can the power of baptism be greater or of more avail than confessio...\".",
+      "supportingVerses": [
+        3,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "deliver"
+        ],
+        "7": [
+          "Love bears all things, believes all things, hopes all things,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyprian on Epistle LXXII: Can the power of baptism be greater or of more avail than confessio...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The Corinthian church exhibited the opposite of these qualities: divisions instead of coverin...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Gregory of Nazianzus on ON HIS BROTHER CAESARIUS 24: Bearing all things, enduring all things...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

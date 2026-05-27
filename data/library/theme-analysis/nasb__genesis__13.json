@@ -1,0 +1,58 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 13,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:55:59.663Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Clement of Rome on Clement's First Letter to the Corinthians, Chapter 10: Abraham, styled \"th...\". Word-study detail reinforces \"הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "15": [
+          "for all the land which you see I will give..."
+        ],
+        "16": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Unto the place of the altar, which he had made there at the first: and there Abram called on...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "עָ֥שָׂה: which he had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Clement of Rome on Clement's First Letter to the Corinthians, Chapter 10: Abraham, styled \"th...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָאָ֛רֶץ: For all the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

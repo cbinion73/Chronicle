@@ -1,0 +1,401 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 5,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:26.523Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: 169. For the vineyard of the Lord of hosts. Here he e...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        13,
+        16,
+        17,
+        19,
+        20,
+        23,
+        24,
+        25,
+        29
+      ],
+      "versePhrases": {
+        "3": [
+          "judge"
+        ],
+        "6": [
+          "I will make it a waste"
+        ],
+        "7": [
+          "justice"
+        ],
+        "8": [
+          "Woe to those who join house to house, who add..."
+        ],
+        "9": [
+          "The Lord of hosts has sworn in my hearing"
+        ],
+        "13": [
+          "Therefore my people go into exile for lack of knowledge"
+        ],
+        "16": [
+          "justice"
+        ],
+        "17": [
+          "Then shall the lambs graze as in their pasture, and..."
+        ],
+        "19": [
+          "who say"
+        ],
+        "20": [
+          "Woe to those who call evil good and good evil,..."
+        ],
+        "23": [
+          "who acquit the guilty for a bribe, and deprive the..."
+        ],
+        "24": [
+          "Therefore, as the tongue of fire devours the stubble, and..."
+        ],
+        "25": [
+          "Therefore the anger of the Lord was kindled against his..."
+        ],
+        "29": [
+          "Their roaring is like a lion, like young lions they..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "God calls the inhabitants of Jerusalem to judge between Him and His vineyard, making them wit...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: 159. And now, O you inhabitants. Here the questioning...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "שִׁפְטוּ: judge - to judge, i.e., pronounce sentence (for or against); by implication, to vin...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does divine 'neglect'—removing sustaining grace—function as judgment?",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 23.) You justify the wicked for bribes, and take away...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        13,
+        16,
+        18,
+        19,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "And now, O inhabitants of Jerusalem and men of Judah,..."
+        ],
+        "7": [
+          "righteousness",
+          "justice"
+        ],
+        "8": [
+          "Woe to those who join house to house, who add..."
+        ],
+        "13": [
+          "Therefore my people go into exile for lack of knowledge"
+        ],
+        "16": [
+          "righteousness",
+          "justice",
+          "Holy",
+          "holy"
+        ],
+        "18": [
+          "Woe to those who draw iniquity with cords of falsehood,..."
+        ],
+        "19": [
+          "Holy"
+        ],
+        "23": [
+          "who acquit the guilty for a bribe, and deprive the..."
+        ],
+        "24": [
+          "Holy"
+        ],
+        "25": [
+          "Therefore the anger of the Lord was kindled against his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does God's transparency in explaining His actions demonstrate His justice?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3, 4.) Now therefore, O inhabitants of Jerusalem and m...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How might you be practicing religious activities while ignoring justice and righteousness?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 7.) But the vineyard of the Lord of hosts is the house...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 20) Woe to those who call evil good, and good evil: wh...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        8,
+        12,
+        20,
+        26,
+        30
+      ],
+      "versePhrases": {
+        "2": [
+          "He dug it and cleared it of stones, and planted..."
+        ],
+        "8": [
+          "made"
+        ],
+        "12": [
+          "They have lyre and harp, tambourine and flute and wine..."
+        ],
+        "20": [
+          "light"
+        ],
+        "26": [
+          "earth"
+        ],
+        "30": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on The Six Days of Creation, 3.50: And through Isaiah the Lord himself spoke...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חָצֵ֣ב: of it and also made - to cut or carve (wood, stone or other material); by implication...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The first of six woes targets greedy land acquisition—adding 'house to house' and 'field to f...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Ambrose of Milan on The Six Days of Creation, 6.52: Attend to yourself, poor one; for your so...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 16) And the Lord of hosts will be exalted in judgment:...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        16,
+        18,
+        19,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "7": [
+          "righteousness"
+        ],
+        "16": [
+          "Holy",
+          "holy",
+          "righteousness"
+        ],
+        "18": [
+          "Woe to those who draw iniquity with cords of falsehood,..."
+        ],
+        "19": [
+          "Holy"
+        ],
+        "23": [
+          "who acquit the guilty for a bribe, and deprive the..."
+        ],
+        "24": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How might you be practicing religious activities while ignoring justice and righteousness?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 7.) But the vineyard of the Lord of hosts is the house...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "לִצְדָקָ֖ה: for righteousness - rightness (abstractly), subjectively (rectitude), objectively...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 29:23",
+          "anchorVerse": 16,
+          "referenceLabel": "Isaiah 29:23"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 21.) Woe to those who are wise in their own eyes, and...\". Word-study detail reinforces \"דָ֑עַת: because they have no knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        12,
+        13,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Let me sing for my beloved my love song concerning..."
+        ],
+        "12": [
+          "They have lyre and harp, tambourine and flute and wine..."
+        ],
+        "13": [
+          "knowledge"
+        ],
+        "19": [
+          "counsel"
+        ],
+        "21": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does viewing God as the 'beloved' affect your understanding of His expectations for your...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 5, Verse 1.) I will sing now to my beloved the song...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Judah's prosperity enabled leisure and entertainment, yet spiritual sensitivity atrophied. Fa...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 11, 12.) Woe to those who rise early in the morning to...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter 5, Verse 1.) I will sing now to my beloved the song...\". Word-study detail reinforces \"דּוֹדִ֖י: of my beloved - (figuratively) to love; by implication, a love-token, lover, friend...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "love",
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Isaiah introduces the 'Song of the Vineyard,' a prophetic parable about God's relationship wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 5, Verse 1.) I will sing now to my beloved the song...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "דּוֹדִ֖י: of my beloved - (figuratively) to love; by implication, a love-token, lover, friend...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

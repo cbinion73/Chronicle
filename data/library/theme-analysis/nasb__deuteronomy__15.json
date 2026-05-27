@@ -1,0 +1,268 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 15,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:12.022Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"For the LORD thy God blesseth thee, as he promised thee: and thou shalt lend unto many nation...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        4,
+        6,
+        10,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "inheritance",
+          "bless"
+        ],
+        "6": [
+          "promised"
+        ],
+        "10": [
+          "bless"
+        ],
+        "14": [
+          "you shall give to him as the Lord your God has blessed you"
+        ],
+        "18": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Deuteronomy 14:29",
+          "anchorVerse": 4,
+          "referenceLabel": "Deuteronomy 14:29"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Save when there shall be no poor among you; for the LORD shall greatly bless thee in the land...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "יְבָֽרֶכְךָ֙: bless - to kneel; by implication to bless god (as an act of adoration), and (vi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 37:26",
+          "anchorVerse": 6,
+          "referenceLabel": "Psalms 37:26"
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Only if thou carefully hearken unto the voice of the LORD thy God, to observe to do all these...\". Word-study detail reinforces \"מְצַוְּךָ֖: which I command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        5,
+        11,
+        15
+      ],
+      "versePhrases": {
+        "5": [
+          "follow"
+        ],
+        "11": [
+          "therefore I am commanding you"
+        ],
+        "15": [
+          "therefore I am commanding this of you today"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Only if thou carefully hearken unto the voice of the LORD thy God, to observe to do all these...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "מְצַוְּךָ֖: which I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Moses states: 'For the poor shall never cease out of the land: therefore I command thee, sayi...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "מְצַוְּךָ֙: therefore I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And this is the manner of the release: Every creditor that lendeth ought unto his neighbour s...\".",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "forgive"
+        ],
+        "3": [
+          "forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And this is the manner of the release: Every creditor that lendeth ought unto his neighbour s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Why did God distinguish between covenant brothers and foreigners in debt forgiveness?",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"All the firstling males that come of thy herd and of thy flock thou shalt sanctify unto the L...\". Word-study detail reinforces \"וְהַטָּהוֹר֙: and the clean - pure (in a physical, chemical, ceremonial or moral sense)\".",
+      "supportingVerses": [
+        19,
+        22
+      ],
+      "versePhrases": {
+        "19": [
+          "“You shall consecrate to the Lord your God all the..."
+        ],
+        "22": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "All the firstling males that come of thy herd and of thy flock thou shalt sanctify unto the L...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "תַּקְדִּ֖ישׁ: thou shalt sanctify - to be (causatively, make, pronounce or observe as) clean...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Thou shalt eat it within thy gates: the unclean and the clean person shall eat it alike, as t...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "וְהַטָּהוֹר֙: and the clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The Sabbatical year debt release (Deuteronomy 15:1-3) created perverse incentives—lenders mig...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        9,
+        16
+      ],
+      "versePhrases": {
+        "9": [
+          "near"
+        ],
+        "16": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The Sabbatical year debt release (Deuteronomy 15:1-3) created perverse incentives—lenders mig...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "אֵלֶ֔יךָ: - near, with or among; often in general, to",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Egypt's bondage (400 years, Genesis 15:13) culminated in midnight liberation without negotiat...\". Word-study detail reinforces \"כֵּ֞ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        6,
+        15
+      ],
+      "versePhrases": {
+        "6": [
+          "just"
+        ],
+        "15": [
+          "And you are to remember that you were a slave..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Egypt's bondage (400 years, Genesis 15:13) culminated in midnight liberation without negotiat...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "כֵּ֞ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

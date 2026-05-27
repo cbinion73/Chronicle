@@ -1,0 +1,326 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 16,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:09.910Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter XVI—Verse 1) Send forth the lamb, the ruler of the e...\". Word-study detail reinforces \"פְלִילָ֔ה: judgment - justice\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "Send lambs as tribute to the ruler of the land,..."
+        ],
+        "2": [
+          "Like fluttering birds pushed from the nest, so are the..."
+        ],
+        "3": [
+          "“Make up your mind,” Moab says"
+        ],
+        "5": [
+          "justice"
+        ],
+        "6": [
+          "We have heard of Moab’s pride— how great is her..."
+        ],
+        "7": [
+          "Therefore the Moabites wail, they wail together for Moab"
+        ],
+        "8": [
+          "The fields of Heshbon wither, the vines of Sibmah also"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does Moab's plea to send tribute reveal about the humbling effect of divine judgment on...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter XVI—Verse 1) Send forth the lamb, the ruler of the e...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What responsibility do God's people have toward refugees fleeing judgment, even former enemies?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Second, the punishment of those who hold the promise...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"\"In mercy shall the throne be established: and he shall sit upon it in truth in the tabernacl...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        6,
+        9,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "5": [
+          "righteousness",
+          "justice"
+        ],
+        "6": [
+          "We have heard of Moab’s pride— how great is her..."
+        ],
+        "9": [
+          "So I weep, as Jazer weeps, for the vines of..."
+        ],
+        "11": [
+          "My heart laments for Moab like a harp"
+        ],
+        "14": [
+          "But now the Lord says"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Zechariah 9:9",
+          "anchorVerse": 5,
+          "referenceLabel": "Zechariah 9:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "\"In mercy shall the throne be established: and he shall sit upon it in truth in the tabernacl...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 5) And a throne shall be prepared in mercy, and he sha...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "צֶֽדֶק׃: righteousness - the right (natural, moral or legal); also (abstractly) equity or (fi...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: Second, as to the restoration of the Jews, that they...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Send lambs as tribute to the ruler of the land,..."
+        ],
+        "5": [
+          "throne"
+        ],
+        "6": [
+          "We have heard of Moab’s pride— how great is her..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The plea to \"send ye the lamb to the ruler of the land\" represents Moab's tribute offering to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter XVI—Verse 1) Send forth the lamb, the ruler of the e...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Daniel 7:14",
+          "anchorVerse": 5,
+          "referenceLabel": "Daniel 7:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This prophecy references the Davidic covenant (2 Samuel 7) promising an eternal throne. By Is...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"\"My bowels shall sound like an harp for Moab, and mine inward parts for Kirharesh.\" The proph...\". Word-study detail reinforces \"אֶבְכֶּ֞ה: Therefore I will bewail - to weep; generally to bemoan\".",
+      "supportingVerses": [
+        7,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "7": [
+          "Lament"
+        ],
+        "9": [
+          "weep"
+        ],
+        "11": [
+          "My heart laments for Moab like a harp"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What does universal mourning replacing pride teach about God's comprehensive judgments?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "נְכָאִֽים׃: surely they are stricken - smitten, i.e., (figuratively) afflicted",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How should conviction about righteous judgment coexist with genuine sorrow?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 9, 10.) The scourges of the Lord have fallen upon the...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 3,4) This is a plan, gather a council: place your shad...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        1,
+        3,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "Send lambs as tribute to the ruler of the land,..."
+        ],
+        "3": [
+          "“Make up your mind,” Moab says"
+        ],
+        "4": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter XVI—Verse 1) Send forth the lamb, the ruler of the e...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Ancient Near Eastern customs included obligations to protect refugees seeking sanctuary, thou...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3,4) This is a plan, gather a council: place your shad...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"\"In mercy shall the throne be established: and he shall sit upon it in truth in the tabernacl...\". Word-study detail reinforces \"בֶּאֱמֶ֖ת: upon it in truth - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        1,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "Send lambs as tribute to the ruler of the land,..."
+        ],
+        "5": [
+          "faithfulness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The plea to \"send ye the lamb to the ruler of the land\" represents Moab's tribute offering to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter XVI—Verse 1) Send forth the lamb, the ruler of the e...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "\"In mercy shall the throne be established: and he shall sit upon it in truth in the tabernacl...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 5) And a throne shall be prepared in mercy, and he sha...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

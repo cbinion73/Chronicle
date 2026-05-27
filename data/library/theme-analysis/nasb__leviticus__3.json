@@ -1,0 +1,62 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 3,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:07.974Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And if his offering for a sacrifice of peace offering unto the LORD be of the flock; male or...\". Word-study detail reinforces \"שְׁלָמִ֖ים: of peace offering - properly, requital, i.e., a (voluntary) sacrifice in thanks\".",
+      "supportingVerses": [
+        1,
+        3,
+        6,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "peace"
+        ],
+        "3": [
+          "peace"
+        ],
+        "6": [
+          "peace"
+        ],
+        "9": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And if his oblation be a sacrifice of peace offering, if he offer it of the herd; whether it...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "שְׁלָמִ֖ים: of peace offering - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And he shall offer of the sacrifice of the peace offering an offering made by fire unto the L...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "הַשְּׁלָמִ֔ים: of the peace offering - properly, requital, i.e., a (voluntary) sacrifice in t...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

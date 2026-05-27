@@ -1,0 +1,155 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 11,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:25.725Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Speak unto Rehoboam the son of Solomon, king of Judah, and to all Israel in Judah and Benjami...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        17,
+        18,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "kingdom"
+        ],
+        "3": [
+          "king"
+        ],
+        "5": [
+          "Rehoboam lived in Jerusalem and built cities for defense in..."
+        ],
+        "17": [
+          "kingdom"
+        ],
+        "18": [
+          "Then Rehoboam married Mahalath the daughter of Jerimoth the son..."
+        ],
+        "21": [
+          "Rehoboam loved Maacah the daughter of Absalom more than all..."
+        ],
+        "22": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And when Rehoboam was come to Jerusalem, he gathered of the house of Judah and Benjamin an hu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמַּמְלָכָ֖ה: the kingdom - dominion, i.e., (abstractly) the estate (rule) or (concretely) t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Speak unto Rehoboam the son of Solomon, king of Judah, and to all Israel in Judah and Benjami...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And he ordained him priests for the high places, and for the devils, and for the calves which...\". Word-study detail reinforces \"עָשָֽׂה׃: which he had made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And he ordained him priests for the high places, and for the devils, and for the calves which...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "עָשָֽׂה׃: which he had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And he fortified the strong holds, and put captains in them, and store of victual, and of oil...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "supplies"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And he fortified the strong holds, and put captains in them, and store of victual, and of oil...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Inferred",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Rehoboam loved Maachah the daughter of Absalom above all his wives and his concubines: (f...\". Word-study detail reinforces \"וַיֶּֽאֱהַ֨ב: loved - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "loved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "And Rehoboam loved Maachah the daughter of Absalom above all his wives and his concubines: (f...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "וַיֶּֽאֱהַ֨ב: loved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

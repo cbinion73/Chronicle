@@ -1,0 +1,124 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 25,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:33.367Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Vers. 12, 13, et seqq.) Thus says the Lord God: Because Edo...\". Word-study detail reinforces \"וְנִקְּמ֥וּ: and revenged - to grudge, i.e., avenge or punish\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "The word of the Lord came to me"
+        ],
+        "2": [
+          "“Son of man, set your face against the Ammonites and..."
+        ],
+        "3": [
+          "Say to them, ‘Hear the word of the Sovereign Lord"
+        ],
+        "4": [
+          "therefore I am going to give you to the people..."
+        ],
+        "9": [
+          "therefore I will expose the flank of Moab, beginning at..."
+        ],
+        "10": [
+          "I will give Moab along with the Ammonites to the..."
+        ],
+        "11": [
+          "punishment"
+        ],
+        "12": [
+          "“This is what the Sovereign Lord says"
+        ],
+        "13": [
+          "therefore this is what the Sovereign Lord says"
+        ],
+        "14": [
+          "wrath"
+        ],
+        "15": [
+          "“This is what the Sovereign Lord says"
+        ],
+        "17": [
+          "wrath",
+          "punish"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What comfort does it bring that God will ultimately judge those who persecute His people?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ezekiel: Chapter 25: And the word of the Lord came to me, saying: Son...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ammon, descended from Lot's incestuous union (Genesis 19:38), maintained hostile relations wi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ezekiel: Chapter 25: And the word of the Lord came to me, saying: Son...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 8 onwards) This is what the Lord God says: Because Mo...\". Word-study detail reinforces \"צְבִ֗י: the glory - a gazelle (as beautiful)\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 8 onwards) This is what the Lord God says: Because Mo...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "צְבִ֗י: the glory - a gazelle (as beautiful)",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Corinthians",
+  "chapter": 10,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:49:03.462Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: The third effect is the correction of sinners;...\". Word-study detail reinforces \"ὑπακοή: obedience - attentive hearkening, i.e., (by implication) compliance or submission\".",
+      "supportingVerses": [
+        5,
+        6,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "obedience"
+        ],
+        "6": [
+          "obedience"
+        ],
+        "13": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Casting down imaginations (καθαιροῦντες λογισμοὺς)— Logismous (λογισμοὺς, \"reasonings/argumen...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily 21 on 2 Corinthians: \"And bringing every thought into captivity to...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "ὑπακοὴν: the obedience - attentive hearkening, i.e., (by implication) compliance or submission",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And having in a readiness to revenge all disobedience, when your obedience is fulfilled (καὶ...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"CS Lewis on Mere Christianity, Book 3, Chapter 11: Faith: My reason is perfectly convinced by...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        5,
+        7,
+        8,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "I ask that when I do come I will not..."
+        ],
+        "5": [
+          "We are destroying sophisticated arguments and every exalted and proud..."
+        ],
+        "7": [
+          "You are looking [only] at the outward appearance of things"
+        ],
+        "8": [
+          "For even though I boast rather freely about the authority..."
+        ],
+        "15": [
+          "faith",
+          "hope"
+        ],
+        "16": [
+          "so that we may preach the gospel even in the..."
+        ],
+        "17": [
+          "However, “Let him who boasts boast in the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Corinth prized sophistic rhetoric, philosophical eloquence, and displays of wisdom. Paul's de...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily 21 on 2 Corinthians: \"But I beseech you, that I may hot when presen...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πεποιθήσει: with that confidence - reliance",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Greek philosophy valued autonomous reason as humanity's highest faculty. Corinth celebrated i...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Written from Macedonia (AD 55-56), this letter addresses ongoing opposition to Paul's authori...\". Word-study detail reinforces \"πρόσωπον: presence - the front (as being towards view), i.e., the countenance, aspect, appear...\".",
+      "supportingVerses": [
+        1,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "with you"
+        ],
+        "9": [
+          "nor do I want to seem to be trying to frighten you with my letters"
+        ],
+        "10": [
+          "presence"
+        ],
+        "11": [
+          "Let such people realize that what we say by word..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written from Macedonia (AD 55-56), this letter addresses ongoing opposition to Paul's authori...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily 21 on 2 Corinthians: \"Who in your presence am lowly among you, but...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "πρόσωπον: presence - the front (as being towards view), i.e., the countenance, aspect, appear...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Letter-writing was a recognized form of authority in the ancient world. Absent leaders govern...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Then when he says, For even if I boast, he pur...\". Word-study detail reinforces \"πέποιθεν: trust - to convince (by argument, true or false); by analogy, to pacify or concilia...\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        12
+      ],
+      "versePhrases": {
+        "5": [
+          "true"
+        ],
+        "7": [
+          "You are looking [only] at the outward appearance of things"
+        ],
+        "8": [
+          "truth"
+        ],
+        "12": [
+          "We do not have the audacity to put ourselves in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How do you practice taking 'every thought captive to Christ's obedience' when your mind rebel...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 2 Corinthians: With these weapons, he says, we cast dow...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Above, the Apostle excused himself by reason;...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "πέποιθεν: trust - to convince (by argument, true or false); by analogy, to pacify or concilia...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Men fortify themselves against God in two ways...\". Word-study detail reinforces \"γνώσεως: the knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        5,
+        6,
+        12
+      ],
+      "versePhrases": {
+        "5": [
+          "knowledge"
+        ],
+        "6": [
+          "being ready to punish every act of disobedience, when your..."
+        ],
+        "12": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What 'high things'—ideologies, philosophies, or cultural assumptions—currently 'exalt themsel...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Men fortify themselves against God in two ways...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "γνώσεως: the knowledge - knowing (the act), i.e., (by implication) knowledge",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How does Paul's readiness to discipline—only after corporate obedience is established—model w...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Clement of Alexandria on The Stromata Book 2: \"I said, Ye are Gods; and all sons of the Highe...\". Word-study detail reinforces \"σάρκα: the flesh - flesh (as stripped of the skin), i.e., (strictly) the meat of an animal (a...\".",
+      "supportingVerses": [
+        2,
+        3,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "Spirit"
+        ],
+        "3": [
+          "we are not carrying on our [spiritual] warfare according to the flesh and using the weapons of man"
+        ],
+        "7": [
+          "You are looking [only] at the outward appearance of things"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How can you distinguish between godly boldness (Spirit-empowered confrontation of sin) and fl...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "σάρκα: to the flesh - flesh (as stripped of the skin), i.e., (strictly) the meat of an animal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What areas of ministry are you fighting with fleshly weapons (human wisdom, manipulation, gui...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 2: \"I said, Ye are Gods; and all sons of the Highe...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

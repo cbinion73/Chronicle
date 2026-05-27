@@ -1,0 +1,247 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 58,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:48.348Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Augustine of Hippo on CHRISTIAN COMBAT 27:29: How, then, did Christ say, “All things that I h...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "judge"
+        ],
+        "2": [
+          "No, in your hearts you devise wrongs"
+        ],
+        "6": [
+          "O God, break the teeth in their mouths"
+        ],
+        "8": [
+          "Let them be like the snail that dissolves into slime,..."
+        ],
+        "9": [
+          "Sooner than your pots can feel the heat of thorns,..."
+        ],
+        "10": [
+          "The righteous will rejoice when he sees the vengeance"
+        ],
+        "11": [
+          "surely there is a God who judges on earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David's rhetorical question to the 'congregation' (Hebrew 'elem'—mighty ones/judges) exposes...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on CHRISTIAN COMBAT 27:29: How, then, did Christ say, “All things that I h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תִּ֝שְׁפְּט֗וּ: do ye judge - to judge, i.e., pronounce sentence (for or against); by implica...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The contrast between speaking justice (v.1) and working wickedness 'in heart' reveals that si...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 58: \"And a man shall say, If therefore there is fru...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "you gods? Do you judge the children of man uprightly?"
+        ],
+        "2": [
+          "in your hearts you devise wrongs"
+        ],
+        "5": [
+          "so that it does not hear the voice of charmers..."
+        ],
+        "6": [
+          "O God, break the teeth in their mouths"
+        ],
+        "8": [
+          "Let them be like the snail that dissolves into slime,..."
+        ],
+        "10": [
+          "righteous"
+        ],
+        "11": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "2 Samuel 23:3",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Samuel 23:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David's rhetorical question to the 'congregation' (Hebrew 'elem'—mighty ones/judges) exposes...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 58: The words which we have sung must be rather hea...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֵ֣לֶם: O congregation - silence (i.e., mute justice)",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Hippolytus of Rome on Fragments from Commentaries on Various Books of Scripture - On Psalm LV...\". Word-study detail reinforces \"בָּאָ֡רֶץ: in the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        6,
+        7,
+        8,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "earth"
+        ],
+        "6": [
+          "O God, break the teeth in their mouths"
+        ],
+        "7": [
+          "Let them vanish like water that runs away"
+        ],
+        "8": [
+          "Let them be like the snail that dissolves into slime,..."
+        ],
+        "11": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 58: But now ye do what? Why these things to you do...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בָּאָ֡רֶץ: in the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Lions were literal threats in ancient Israel, making the metaphor immediately accessible. Sam...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Against Rufinus 3.43: Therefore, having been taught by these examples, I did not wa...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Hippolytus of Rome on Fragments from Commentaries on Various Books of Scripture - On Psalm LV...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "Do you indeed decree what is right, you gods"
+        ],
+        "10": [
+          "righteous"
+        ],
+        "11": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "2 Samuel 23:3",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Samuel 23:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "David's rhetorical question to the 'congregation' (Hebrew 'elem'—mighty ones/judges) exposes...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on CHRISTIAN COMBAT 27:29: How, then, did Christ say, “All things that I h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "צֶ֭דֶק: righteousness - the right (natural, moral or legal); also (abstractly) equity or (fig...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

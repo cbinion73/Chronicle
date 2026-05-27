@@ -1,0 +1,365 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 38,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:15.447Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verses 11-12) I said, I shall not see the Lord God in the la...\". Word-study detail reinforces \"בְּאֶ֣רֶץ: in the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        11,
+        12,
+        13,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "11": [
+          "I said, “I will not again see the Lord himself..."
+        ],
+        "12": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "14": [
+          "heavens"
+        ],
+        "18": [
+          "For the grave cannot praise you, death cannot sing your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 11-12) I said, I shall not see the Lord God in the la...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "בְּאֶ֣רֶץ: in the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 11-12) I said, I shall not see the Lord God in the la...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "לַ֖יְלָה: even to night - properly, a twist (away of the light), i.e., night; figuratively, a...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The declaration \"The LORD was ready to save me\" attributes deliverance entirely to God's grac...\". Word-study detail reinforces \"תּוֹדֶ֖ךָּ: cannot praise - physically, to throw (a stone, an arrow) at or away; especially t...\".",
+      "supportingVerses": [
+        9,
+        11,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "9": [
+          "A writing of Hezekiah king of Judah after his illness..."
+        ],
+        "11": [
+          "“I will not again see the Lord himself in the land of the living"
+        ],
+        "18": [
+          "praise",
+          "sing"
+        ],
+        "19": [
+          "praise"
+        ],
+        "20": [
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Royal thanksgiving inscriptions were common in the ancient Near East. Hezekiah follows this p...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: 775. The writing of Ezechias. Here his thanksgiving f...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "What does Hezekiah's grief teach about the value of worship and community?",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: Second, he laments the loss of good things, as to the...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 9) The Scripture of King Hezekiah of Judah when he bec...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "In those days Hezekiah became ill and was at the..."
+        ],
+        "2": [
+          "Hezekiah turned his face to the wall and prayed to the Lord"
+        ],
+        "3": [
+          "“Remember, Lord, how I have walked before you faithfully and..."
+        ],
+        "4": [
+          "Then the word of the Lord came to Isaiah"
+        ],
+        "5": [
+          "prayer"
+        ],
+        "6": [
+          "And I will deliver you and this city from the..."
+        ],
+        "9": [
+          "A writing of Hezekiah king of Judah after his illness..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does Hezekiah's honest emotional response teach you about authentic prayer?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on St. Jerome, Commentary on Daniel, CHAPTER FOUR: [Daniel 4:27] \"'Wherefore, O king,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Matthew 6:6",
+          "anchorVerse": 2,
+          "referenceLabel": "Matthew 6:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Hezekiah's response \"Then Hezekiah turned his face toward the wall\" depicts private, intense...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 20) Lord, save me, and we will sing our songs all the...\". Word-study detail reinforces \"אַצִּ֣ילְךָ֔: And I will deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        3,
+        6,
+        11,
+        17,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "“Remember, Lord, how I have walked before you faithfully and..."
+        ],
+        "6": [
+          "deliver"
+        ],
+        "11": [
+          "I said, “I will not again see the Lord himself..."
+        ],
+        "17": [
+          "Surely it was for my benefit that I suffered such..."
+        ],
+        "19": [
+          "The living, the living—they praise you, as I am doing..."
+        ],
+        "20": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Hezekiah's prayer appeals to his covenant faithfulness and wholehearted devotion, not as meri...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 2:15: Do you want to know the power of repentance?...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "God's additional promise \"I will deliver thee and this city out of the hand of the king of As...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 4-6) And the word of the Lord came to Isaiah, saying:...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Before Christ's resurrection, the afterlife remained shadowy. Old Testament saints trusted Go...\". Word-study detail reinforces \"יְשַׂבְּר֥וּ: cannot hope - to scrutinize; by implication (of watching) to expect (with hope...\".",
+      "supportingVerses": [
+        3,
+        10,
+        11,
+        13,
+        18
+      ],
+      "versePhrases": {
+        "3": [
+          "how I have walked before you faithfully and with wholehearted devotion and have done what is good in your eyes"
+        ],
+        "10": [
+          "I said, “In the prime of my life must I..."
+        ],
+        "11": [
+          "I said, “I will not again see the Lord himself..."
+        ],
+        "13": [
+          "I waited patiently till dawn, but like a lion he..."
+        ],
+        "18": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Hezekiah's prayer appeals to his covenant faithfulness and wholehearted devotion, not as meri...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 2:15: Do you want to know the power of repentance?...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How can we honestly express grief and disappointment to God while maintaining faith?",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on COMMENTARY ON ISAIAH 11:38.10-13: “Thus, in desperation I said, ‘I will go to the g...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on St. Jerome, Commentary on Daniel, CHAPTER FOUR: [Daniel 4:27] \"'Wherefore, O king,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "In those days Hezekiah became ill and was at the..."
+        ],
+        "4": [
+          "Then the word of the Lord came to Isaiah"
+        ],
+        "5": [
+          "“Go and tell Hezekiah, ‘This is what the Lord, the..."
+        ],
+        "6": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "God's command to 'set thine house in order; for thou shalt die, and not live' demonstrates di...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on St. Jerome, Commentary on Daniel, CHAPTER FOUR: [Daniel 4:27] \"'Wherefore, O king,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חִזְקִיָּ֖הוּ: was Hezekiah - chizkijah, a king of judah, also the name of two other israelites",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The simple statement \"Then came the word of the LORD to Isaiah\" shows God's responsive initia...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

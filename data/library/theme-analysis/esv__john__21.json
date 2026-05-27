@@ -1,0 +1,429 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "John",
+  "chapter": 21,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:33.806Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Next, the Evangelist tells how Christ affectionately pr...\". Word-study detail reinforces \"ἄρτον: bread - bread (as raised) or a loaf\".",
+      "supportingVerses": [
+        5,
+        9,
+        10,
+        13,
+        15,
+        18,
+        19,
+        22,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "5": [
+          "Jesus said to them, “Children, do you have any fish"
+        ],
+        "9": [
+          "bread"
+        ],
+        "10": [
+          "Jesus said to them, “Bring some of the fish that..."
+        ],
+        "13": [
+          "bread"
+        ],
+        "15": [
+          "When they had finished breakfast, Jesus said to Simon Peter,..."
+        ],
+        "18": [
+          "want"
+        ],
+        "19": [
+          "(This he said to show by what kind of death..."
+        ],
+        "22": [
+          "Jesus said to him, “If it is my will that..."
+        ],
+        "23": [
+          "So the saying spread abroad among the brothers that this..."
+        ],
+        "24": [
+          "This is the disciple who is bearing witness about these..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Then Jesus saith unto them, Children, have ye any meat? They answered him, No. Jesus addresse...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "προσφάγιον: meat - something eaten in addition to bread, i.e., a relish (specially, fish; com...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "They saw a fire of coals there, and fish laid thereon, and bread (ἀνθρακιὰν κειμένην καὶ ὀψάρ...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on John: Next, the Evangelist tells how Christ affectionately pr...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Now we see that John is commended: first, as to his pas...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        7,
+        15,
+        16,
+        17,
+        20,
+        24
+      ],
+      "versePhrases": {
+        "7": [
+          "loved"
+        ],
+        "15": [
+          "love"
+        ],
+        "16": [
+          "love"
+        ],
+        "17": [
+          "love"
+        ],
+        "20": [
+          "loved"
+        ],
+        "24": [
+          "This is the disciple who is bearing witness about these..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "John 13:23",
+          "anchorVerse": 7,
+          "referenceLabel": "John 13:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "That disciple whom Jesus loved (ὁ μαθητὴς ἐκεῖνος ὃν ἠγάπα ὁ Ἰησοῦς/ho mathētēs ekeinos hon ē...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Catena Aurea by Aquinas: The Evangelist alludes to himself here the same way he alway...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἠγάπα: loved - to love (in a social or moral sense)",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Jesus saith unto him, If I will that he tarry till I come, what is that to thee? follow thou...\". Word-study detail reinforces \"Ἀκολούθει: Follow - properly, to be in the same way with, i.e., to accompany (specially, as a...\".",
+      "supportingVerses": [
+        3,
+        6,
+        10,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "Simon Peter said to them, “I am going fishing"
+        ],
+        "6": [
+          "He said to them, “Cast the net on the right..."
+        ],
+        "10": [
+          "Jesus said to them, “Bring some of the fish that..."
+        ],
+        "15": [
+          "When they had finished breakfast, Jesus said to Simon Peter,..."
+        ],
+        "16": [
+          "He said to him a second time, “Simon, son of..."
+        ],
+        "17": [
+          "He said to him the third time, “Simon, son of..."
+        ],
+        "18": [
+          "Truly, truly, I say to you, when you were young,..."
+        ],
+        "19": [
+          "Follow"
+        ],
+        "20": [
+          "Peter turned and saw the disciple whom Jesus loved following them"
+        ],
+        "21": [
+          "When Peter saw him, he said to Jesus, “Lord, what..."
+        ],
+        "22": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They we...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theophylact of Ohrid on Commentary on John: The disciples were catching fish, for they had no...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Cast the net on the right side of the ship, and ye shall find —The stranger's command from sh...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 24: A great difficulty in fishing aros...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Now we have the last part of this Gospel, which is a ki...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        3,
+        12,
+        15,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "Simon Peter said to them, “I am going fishing"
+        ],
+        "12": [
+          "Jesus said to them, “Come and have breakfast"
+        ],
+        "15": [
+          "When they had finished breakfast, Jesus said to Simon Peter,..."
+        ],
+        "17": [
+          "He said to him the third time, “Simon, son of..."
+        ],
+        "18": [
+          "Truly, truly, I say to you, when you were young,..."
+        ],
+        "19": [
+          "(This he said to show by what kind of death..."
+        ],
+        "21": [
+          "When Peter saw him, he said to Jesus, “Lord, what..."
+        ],
+        "22": [
+          "Jesus said to him, “If it is my will that..."
+        ],
+        "23": [
+          "So the saying spread abroad among the brothers that this..."
+        ],
+        "24": [
+          "true",
+          "testimony"
+        ],
+        "25": [
+          "Now there are also many other things that Jesus did"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on John: They were fishing, and so we first see Peter asking abo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "εὐθὺς,: immediately - straight, i.e., (literally) level, or (figuratively) true; adverbially...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Catena Aurea by Aquinas: (Hom. xxiv.) By holding this last feast wit...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Jesus' threefold questioning of Peter—'Simon, son of Jonas, lovest thou me more than these?'—...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They we...\". Word-study detail reinforces \"ἀδελφοὺς: the brethren - a brother (literally or figuratively) near or remote (much like g0001)\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        10,
+        12,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "3": [
+          "with you"
+        ],
+        "7": [
+          "That disciple whom Jesus loved therefore said to Peter, “It..."
+        ],
+        "8": [
+          "The other disciples came in the boat, dragging the net..."
+        ],
+        "10": [
+          "Jesus said to them, “Bring some of the fish that..."
+        ],
+        "12": [
+          "Jesus said to them, “Come and have breakfast"
+        ],
+        "22": [
+          "Jesus said to him, “If it is my will that..."
+        ],
+        "23": [
+          "So the saying spread abroad among the brothers that this..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They we...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on John: They were fishing, and so we first see Peter asking abo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What does Peter's concern to be properly clothed in Christ's presence teach about reverence,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Catena Aurea by Aquinas: The Evangelist alludes to himself here the same way he alway...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Pseudo-Clement on Two Epistles on Virginity: Imitate, therefore, the ambassador of our Lord,...\".",
+      "supportingVerses": [
+        4,
+        9,
+        10,
+        20
+      ],
+      "versePhrases": {
+        "4": [
+          "Just"
+        ],
+        "9": [
+          "When they got out on land, they saw a charcoal..."
+        ],
+        "10": [
+          "just"
+        ],
+        "20": [
+          "Peter turned and saw the disciple whom Jesus loved following..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Tractates on John 122: That, however, is a parable in word, not one emb...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does Jesus' preparation of breakfast before the disciples arrive teach about His care fo...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 12:1: They see a fire of coals, for t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Bring of the fish which ye have now caught (ἐνέγκατε ἀπὸ τῶν ὀψαρίων ὧν ἐπιάσατε νῦν/enegkate...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

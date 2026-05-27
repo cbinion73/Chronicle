@@ -1,0 +1,184 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 3,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:05.681Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local cross references and verse commentary data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: Behold, the little bed of Solomon, etc. Thus, to the...\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "6": [
+          "made"
+        ],
+        "7": [
+          "Look"
+        ],
+        "9": [
+          "made"
+        ],
+        "10": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: \"The watchmen who go about the city found me,\" etc....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient Near Eastern wedding processions were public, festive spectacles. The bridegroom woul...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Ambrose of Milan on Concerning Virginity 3.5.21: For Solomon made himself a bed of wood from...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Ancient kings traveled with armed escorts for security and display of power. Sixty warriors w...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 8 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: In the midst of love He established it, etc. With th...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "All night long on my bed I looked for the one my heart loves"
+        ],
+        "2": [
+          "I will search for the one my heart loves"
+        ],
+        "3": [
+          "“Have you seen the one my heart loves?”"
+        ],
+        "4": [
+          "Scarcely had I passed them when I found the one my heart loves"
+        ],
+        "5": [
+          "love"
+        ],
+        "7": [
+          "Look"
+        ],
+        "10": [
+          "love"
+        ],
+        "11": [
+          "come out, and look, you daughters of Zion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The bride recounts a night of anxiety: 'By night on my bed I sought him whom my soul loveth:...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE SONG OF SONGS 3: Since the bridegroom is incomprehens...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The bride's search intensifies: I will rise now, and go about the city in the streets, and in...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE SONG OF SONGS 3: Since the bridegroom is incomprehens...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local cross references and verse commentary data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: In the diadem with which his mother crowned him. For...\".",
+      "supportingVerses": [
+        6,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "6": [
+          "Who is this coming up from the wilderness like a..."
+        ],
+        "9": [
+          "King"
+        ],
+        "11": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The scene dramatically shifts: Who is this that cometh out of the wilderness like pillars of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE SONG OF SONGS 3: We must enquire why on earth they ca...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "King Solomon made himself a chariot of the wood of Lebanon. The Hebrew 'appiryon' (אַפִּרְיוֹ...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Robert of Tombelaine on Commentary on the Song of Songs, Chapter 3: The timbers of Lebanon ar...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

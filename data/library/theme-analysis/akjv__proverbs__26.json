@@ -1,0 +1,176 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 26,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:43.552Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Do you see someone wise in their own eyes? There's more hope for a fool than for them. The He...\". Word-study detail reinforces \"חָכָ֣ם: wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        4,
+        5,
+        7,
+        9,
+        11,
+        12,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "4": [
+          "Answer not a fool according to his folly, lest thou..."
+        ],
+        "5": [
+          "wise"
+        ],
+        "7": [
+          "The legs of the lame are not equal"
+        ],
+        "9": [
+          "As a thorn goeth up into the hand of a..."
+        ],
+        "11": [
+          "As a dog returneth to his vomit, so a fool..."
+        ],
+        "12": [
+          "wise"
+        ],
+        "16": [
+          "The sluggard is wiser in his own conceit than seven men that can render a reason"
+        ],
+        "17": [
+          "He that passeth by, and meddleth with strife belonging not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Don't answer a fool 'according to his folly' lest you become like him. Engaging fools on thei...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on Proverbs: Do not answer a fool according to his foolishness, etc. Answe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse seems to contradict verse 4: 'Answer a fool according to his folly, lest he be wis...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חָכָ֣ם: lest he be wise - wise, (i.e., intelligent, skilful or artful)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What gracious-sounding messages are you believing from people whose character you shouldn't t...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        12,
+        25
+      ],
+      "versePhrases": {
+        "12": [
+          "hope"
+        ],
+        "25": [
+          "believe"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Proverbs 29:20",
+          "anchorVerse": 12,
+          "referenceLabel": "Proverbs 29:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Do you see someone wise in their own eyes? There's more hope for a fool than for them. The He...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on COMMENTARY ON ISAIAH 5:21: This is not a small fault either to consider on...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "תִּקְוָ֖ה: there is more hope - literally a cord (as an attachment); figuratively, expectancy",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The great God who formed all things rewards both fool and transgressor. The difficult Hebrew...\". Word-study detail reinforces \"מְחֽוֹלֵֽל: God that formed - properly, to twist or whirl (in a circular or spiral manner), i...\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "formed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The great God who formed all things rewards both fool and transgressor. The difficult Hebrew...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "מְחֽוֹלֵֽל: God that formed - properly, to twist or whirl (in a circular or spiral manner), i...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"דַכָּ֑יו: those that are afflicted - crushed, i.e., (figuratively) injured\".",
+      "supportingVerses": [
+        28
+      ],
+      "versePhrases": {
+        "28": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 28 word study",
+          "detail": "דַכָּ֑יו: those that are afflicted - crushed, i.e., (figuratively) injured",
+          "anchorVerse": 28
+        }
+      ]
+    }
+  ]
+}

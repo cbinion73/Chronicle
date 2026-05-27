@@ -1,0 +1,168 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 3,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:05.413Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 1. Moreover, it is shown t...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        11,
+        13,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "Now the boy Samuel was ministering to the Lord in..."
+        ],
+        "11": [
+          "Then the Lord said to Samuel, “Behold, I am about..."
+        ],
+        "13": [
+          "punish"
+        ],
+        "14": [
+          "Therefore I swear to the house of Eli that the..."
+        ],
+        "18": [
+          "So Samuel told him everything and hid nothing from him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The chapter opens with spiritual famine: 'the word of the LORD was precious [rare] in those d...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 1. Moreover, it is shown t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The idiom of ears tingling (tsalal) appears only three times in Scripture, each announcing de...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 19. For among sublime gift...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 16. And it should be noted...\". Word-study detail reinforces \"אֵלָ֖יו: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        1,
+        3,
+        7,
+        10,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "presence"
+        ],
+        "3": [
+          "The lamp of God had not yet gone out, and..."
+        ],
+        "7": [
+          "Now Samuel did not yet know the Lord, and the..."
+        ],
+        "10": [
+          "And the Lord came and stood, calling as at other..."
+        ],
+        "19": [
+          "and the Lord was with him and let none of his words fall to the ground"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Samuel: But the boy Samuel was ministering to the Lord in the presence...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The lamp of God 'not yet gone out' indicates the time just before dawn when the lampstand's o...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 3, Chapter 1: (Verse 3.) Now Samuel was...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 13. But because what follo...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 21. For he sleeps until mo...\". Word-study detail reinforces \"יָרֵ֔א: feared - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        11,
+        15
+      ],
+      "versePhrases": {
+        "11": [
+          "Then the Lord said to Samuel, “Behold, I am about..."
+        ],
+        "15": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 19. For among sublime gift...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "תְּצִלֶּ֖ינָה: it shall tingle - to tinkle, i.e., rattle together (as the ears in reddening w...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Samuel's response to the night's revelation is significant: he lay until morning, then opened...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Gregory the Dialogist on Commentary on 1 Kings, Book 2, Chapter 4: 21. For he sleeps until mo...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

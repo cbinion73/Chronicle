@@ -1,0 +1,277 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 11,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:12.797Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Bede on Questions on the Book of Kings #18: \"Let a third part of you come in on the Sabbath,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Now when Athaliah the mother of Ahaziah saw that her..."
+        ],
+        "2": [
+          "King",
+          "king"
+        ],
+        "3": [
+          "while Athaliah reigned over the land"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "10": [
+          "King"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "18": [
+          "Then all the people of the land went to the..."
+        ],
+        "19": [
+          "king",
+          "throne"
+        ],
+        "20": [
+          "king"
+        ],
+        "21": [
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Historical Setting: 2 Kings 11 takes place during the declining years of the northern kingdom...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ishodad of Merv on BOOKS OF SESSIONS 2 KINGS 11:1: Athaliah exterminated all the royal childr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֲחַזְיָ֔הוּ: of Ahaziah - achazjah, the name of a jewish and an israelite king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "But Jehosheba, the daughter of king Joram, sister of Ahaziah, took Joash the son of Ahaziah,...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And the seventh year Jehoiada sent and fetched the rulers over hundreds, with the captains an...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        4,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "covenant",
+          "oath"
+        ],
+        "17": [
+          "covenant"
+        ],
+        "18": [
+          "Then all the people of the land went to the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "2 Kings 11:17",
+          "anchorVerse": 4,
+          "referenceLabel": "2 Kings 11:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And the seventh year Jehoiada sent and fetched the rulers over hundreds, with the captains an...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "בְּרִ֜ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Joshua 24:25",
+          "anchorVerse": 17,
+          "referenceLabel": "Joshua 24:25"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And Jehoiada made a covenant between the LORD and the king and the people, that they should b...\". Word-study detail reinforces \"בְּרִ֜ית: a covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        4,
+        17
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "17": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And the seventh year Jehoiada sent and fetched the rulers over hundreds, with the captains an...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "בְּרִ֜ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And Jehoiada made a covenant between the LORD and the king and the people, that they should b...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Ephrem the Syrian on ON THE SECOND BOOK OF KINGS 11:13: After the kingdom had been pacified a...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And all the people of the land rejoiced, and the city was in quiet: and they slew Athaliah wi...\". Word-study detail reinforces \"שָׁקָ֑טָה: was in quiet - to repose (usually figurative)\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "quiet"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "And all the people of the land rejoiced, and the city was in quiet: and they slew Athaliah wi...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "שָׁקָ֑טָה: was in quiet - to repose (usually figurative)",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Questions on the Book of Kings #19: \"And he brought out the king's son, and put the d...\". Word-study detail reinforces \"הָ֣עֵד֔וּת: upon him and gave him the testimony - testimony\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "testimony"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And he brought forth the king's son, and put the crown upon him, and gave him the testimony;...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Questions on the Book of Kings #19: \"And he brought out the king's son, and put the d...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "הָ֣עֵד֔וּת: upon him and gave him the testimony - testimony",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

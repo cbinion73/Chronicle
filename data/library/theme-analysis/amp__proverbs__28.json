@@ -1,0 +1,357 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 28,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:34.314Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Evil people 'understand not judgment,' but those seeking the Lord 'understand all things.' Th...\". Word-study detail reinforces \"חָכָ֣ם: is wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        2,
+        5,
+        7,
+        11,
+        14,
+        16,
+        23,
+        26
+      ],
+      "versePhrases": {
+        "2": [
+          "understanding",
+          "knowledge"
+        ],
+        "5": [
+          "understand"
+        ],
+        "7": [
+          "wise"
+        ],
+        "11": [
+          "wise",
+          "understanding"
+        ],
+        "14": [
+          "Blessed and favored by God is the man who fears..."
+        ],
+        "16": [
+          "understanding"
+        ],
+        "23": [
+          "wise"
+        ],
+        "26": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A land's transgression multiplies its princes, but understanding and knowledge bring prolonge...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֵבִ֥ין: of understanding - to separate mentally (or distinguish), i.e., (generally) understand",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Evil people 'understand not judgment,' but those seeking the Lord 'understand all things.' Th...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on Proverbs: Evil men do not understand judgment, etc. The elect observe e...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Whoso causeth the righteous to go astray in an evil way —The causative verb form indicates ac...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        8,
+        10,
+        12,
+        14,
+        28
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous"
+        ],
+        "2": [
+          "When a land does wrong, it has many princes, But..."
+        ],
+        "5": [
+          "justice"
+        ],
+        "8": [
+          "He who increases his wealth by interest and usury (excessive..."
+        ],
+        "10": [
+          "upright",
+          "blameless"
+        ],
+        "12": [
+          "righteous"
+        ],
+        "14": [
+          "But he who hardens his heart [and is determined to sin] will fall into disaster"
+        ],
+        "28": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The wicked flee when no one pursues, but 'the righteous are bold as a lion.' The Hebrew 'nus'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Isaac of Nineveh on ASCETICAL HOMILY 7: [The righteous] will fear none of the things here enu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְ֝צַדִּיקִ֗ים: but the righteous - just",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A land's transgression multiplies its princes, but understanding and knowledge bring prolonge...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"When righteous men do rejoice, there is great glory —The triumph of the tsaddiqim (righteous)...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        10,
+        12,
+        14,
+        28
+      ],
+      "versePhrases": {
+        "1": [
+          "righteous"
+        ],
+        "10": [
+          "He who leads the upright astray on an evil path..."
+        ],
+        "12": [
+          "righteous"
+        ],
+        "14": [
+          "Blessed and favored by God is the man who fears..."
+        ],
+        "28": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The wicked flee when no one pursues, but 'the righteous are bold as a lion.' The Hebrew 'nus'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Isaac of Nineveh on ASCETICAL HOMILY 7: [The righteous] will fear none of the things here enu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְ֝צַדִּיקִ֗ים: but the righteous - just",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 15:6",
+          "anchorVerse": 10,
+          "referenceLabel": "Proverbs 15:6"
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"He that tilleth his land shall have plenty of bread (עֹבֵד אַדְמָתוֹ יִשְׂבַּע־לָחֶם, oved ad...\". Word-study detail reinforces \"לָ֑חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        19,
+        21,
+        27
+      ],
+      "versePhrases": {
+        "19": [
+          "bread"
+        ],
+        "21": [
+          "bread"
+        ],
+        "27": [
+          "want",
+          "need"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "He that tilleth his land shall have plenty of bread (עֹבֵד אַדְמָתוֹ יִשְׂבַּע־לָחֶם, oved ad...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "לָ֑חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "To have respect of persons is not good (הַכֵּר־פָּנִים לֹא־טוֹב, hakker-panim lo-tov )—נָכַר...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "לֶ֝֗חֶם: of bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This proverb addresses confession and repentance: 'He that covereth his sins shall not prospe...\". Word-study detail reinforces \"יְרֻחָֽם׃: them shall have mercy - to fondle; by implication, to love, especially to compassi...\".",
+      "supportingVerses": [
+        8,
+        13
+      ],
+      "versePhrases": {
+        "8": [
+          "gracious"
+        ],
+        "13": [
+          "mercy",
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How does your financial stewardship reflect mercy toward those in need versus personal accumu...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "This proverb addresses confession and repentance: 'He that covereth his sins shall not prospe...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Aphrahat the Persian Sage on DEMONSTRATIONS 7:12: I address you too, the penitents. You shoul...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "יְרֻחָֽם׃: them shall have mercy - to fondle; by implication, to love, especially to compassi...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles, James 1:6: Let [anyone] beg, however, in faith,...\". Word-study detail reinforces \"נוֹצֵ֣ר: Whoso keepeth - to guard, in a good sense (to protect, maintain, obey, etc.) or a ba...\".",
+      "supportingVerses": [
+        4,
+        7,
+        9,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "keep"
+        ],
+        "7": [
+          "He who keeps the law [of God and man] is a wise and discerning son"
+        ],
+        "9": [
+          "He who turns his ear away from listening to the..."
+        ],
+        "18": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Those who forsake God's law 'praise the wicked,' but those who keep it 'contend with them.' T...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְשֹׁמְרֵ֥י: but such as keep - properly, to hedge about (as with thorns), i.e., guard; gener...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Whoso keepeth the law is a wise son —The verb natsar (to keep, guard, preserve) suggests acti...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "נוֹצֵ֣ר: Whoso keepeth - to guard, in a good sense (to protect, maintain, obey, etc.) or a ba...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

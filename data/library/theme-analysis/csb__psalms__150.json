@@ -1,0 +1,74 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 150,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:49.114Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"This verse begins the enumeration of instruments and reasons for praise: 'Praise him for his...\". Word-study detail reinforces \"עֻזּֽוֹ׃: of his power - strength in various applications (force, security, majesty, praise)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise"
+        ],
+        "2": [
+          "Praise",
+          "praise"
+        ],
+        "3": [
+          "Praise",
+          "praise"
+        ],
+        "4": [
+          "Praise",
+          "praise"
+        ],
+        "5": [
+          "Praise",
+          "praise"
+        ],
+        "6": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The final psalm opens with location and imperative: 'Praise ye the LORD. Praise God in his sa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 150: \"Praise the Lord in His saints,\" that is, in t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "עֻזּֽוֹ׃: of his power - strength in various applications (force, security, majesty, praise)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse begins the enumeration of instruments and reasons for praise: 'Praise him for his...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

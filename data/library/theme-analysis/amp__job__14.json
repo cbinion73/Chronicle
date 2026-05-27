@@ -1,0 +1,359 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 14,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:18.414Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 11, 12. As if the waters f...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "2": [
+          "“Like a flower he comes forth and withers"
+        ],
+        "7": [
+          "hope"
+        ],
+        "8": [
+          "“Though its roots grow old in the earth And its..."
+        ],
+        "9": [
+          "Yet at the scent of water [the stump of the..."
+        ],
+        "10": [
+          "“But [the brave, strong] man must die and lie face..."
+        ],
+        "11": [
+          "“As water evaporates from the sea, And a river drains..."
+        ],
+        "12": [
+          "So man lies down and does not rise [again]"
+        ],
+        "13": [
+          "“Oh, that You would hide me in Sheol (the nether..."
+        ],
+        "14": [
+          "“If a man dies, will he live again"
+        ],
+        "16": [
+          "“But now You number [each of] my steps"
+        ],
+        "19": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What hope exists beyond the shadow and flower of mortal existence?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Hesychius of Jerusalem on HOMILIES ON JOB 16.14.1-2: Man, who is born of a woman, “has a shor...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Job 19:10",
+          "anchorVerse": 7,
+          "referenceLabel": "Job 19:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Job's famous hope: 'For there is hope of a tree, if it be cut down, that it will sprout again...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 18, 19. And surely the mou...\". Word-study detail reinforces \"אָ֑רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "made"
+        ],
+        "6": [
+          "earth"
+        ],
+        "8": [
+          "earth"
+        ],
+        "10": [
+          "“But [the brave, strong] man must die and lie face..."
+        ],
+        "11": [
+          "“As water evaporates from the sea, And a river drains..."
+        ],
+        "12": [
+          "heavens"
+        ],
+        "19": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "'Seeing his days are determined, the number of his months are with thee, thou hast appointed...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 5. The days of man are sho...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: He also uses as a premise the expectation of the other l...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Though the root thereof wax old in the earth (יַזְקִין בָּאָרֶץ שָׁרְשׁוֹ, yazqin baaretz sho...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 13. O that Thou wouldest d...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        3,
+        6,
+        13,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "judgment"
+        ],
+        "6": [
+          "“[O God] turn your gaze from him so that he..."
+        ],
+        "13": [
+          "wrath"
+        ],
+        "16": [
+          "“But now You number [each of] my steps"
+        ],
+        "17": [
+          "“My transgression is sealed up in a bag, And You..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 143:2",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 143:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "'And dost thou open thine eyes upon such an one, and bringest me into judgment with thee?' Jo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XI: And dost Thou deign to open Thin...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְמִשְׁפָּ֣ט: me into judgment - properly, a verdict (favorable or unfavorable) pronounced ju...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: Third, he wonders about the attentiveness of divine prov...\". Word-study detail reinforces \"טָ֭הוֹר: a clean - pure (in a physical, chemical, ceremonial or moral sense)\".",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "“You also open Your eyes upon him And bring him..."
+        ],
+        "4": [
+          "clean"
+        ],
+        "6": [
+          "“[O God] turn your gaze from him so that he..."
+        ],
+        "8": [
+          "“Though its roots grow old in the earth And its..."
+        ],
+        "9": [
+          "Yet at the scent of water [the stump of the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does divine attention to human sin reveal about both God's holiness and His care?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Third, he wonders about the attentiveness of divine prov...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient purity codes recognized ritual uncleanness, but Job speaks metaphysically about moral...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Third, he wonders about the attentiveness of divine prov...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 6. Turn from him a little...\". Word-study detail reinforces \"וְיֶחְדָּ֑ל: from him that he may rest - properly, to be flabby, i.e., (by implication) desis...\".",
+      "supportingVerses": [
+        1,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "“Man, who is born of a woman, Is short-lived and..."
+        ],
+        "5": [
+          "“Since his days are determined, The number of his months..."
+        ],
+        "6": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What comfort does Christ's identification as 'Son of Man' bring to our experience of human fr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XI: Man that is born of a woman live...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What comfort exists in knowing God has appointed our bounds?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on COMMENTARY ON JOB 14:4-6: You see Job taking refuge again in his nature, b...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 16. For now Thou numberest...\".",
+      "supportingVerses": [
+        13,
+        16
+      ],
+      "versePhrases": {
+        "13": [
+          "lovingkindness"
+        ],
+        "16": [
+          "“But now You number [each of] my steps"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 13. O that Thou wouldest d...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Job contrasts potential future grace with present experience: 'For now thou numberest my step...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 16. For now Thou numberest...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

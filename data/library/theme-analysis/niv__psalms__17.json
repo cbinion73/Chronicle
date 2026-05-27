@@ -1,0 +1,301 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 17,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:05.905Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Make wonderful.\" Here the petition is s...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        7,
+        9,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "7": [
+          "save"
+        ],
+        "9": [
+          "from the wicked who are out to destroy me, from..."
+        ],
+        "13": [
+          "rescue"
+        ],
+        "14": [
+          "save"
+        ],
+        "15": [
+          "As for me, I will be vindicated and will see..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 60:5",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 60:5"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Make wonderful.\" Here the petition is s...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The 'deadly enemies' who 'surround' David are described with hunting imagery. The Hebrew 'shu...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Next he shows from what it is fitting to...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        5,
+        13,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "just"
+        ],
+        "5": [
+          "My steps have held to your paths"
+        ],
+        "13": [
+          "Rise up, Lord, confront them, bring them down"
+        ],
+        "14": [
+          "By your hand save me from such people, Lord, from..."
+        ],
+        "15": [
+          "As for me, I will be vindicated and will see..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist described divine jus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The imagery of walking paths and avoiding slipping pervades wisdom literature and the Psalms....",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Evagrius Ponticus on NOTES ON THE PSALMS 16[17].3, 4: Even if now [the way] is full of pain a...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist described divine jus...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "prayer"
+        ],
+        "5": [
+          "My steps have held to your paths"
+        ],
+        "6": [
+          "prayer"
+        ],
+        "13": [
+          "Rise up, Lord, confront them, bring them down"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Psalms 61:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 61:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear the right, O LORD, attend unto my cry, give ear unto my prayer, that goeth not out of fe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist described divine jus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְפִלָּתִ֑י: A Prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Second, he explains by what fire he was...\". Word-study detail reinforces \"תָּמֹ֣ךְ: Hold up - to sustain; by implication, to obtain, keep fast; figuratively, to help,...\".",
+      "supportingVerses": [
+        4,
+        5,
+        8
+      ],
+      "versePhrases": {
+        "4": [
+          "kept"
+        ],
+        "5": [
+          "My steps have held to your paths"
+        ],
+        "8": [
+          "Keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Written when tempted to retaliate against Saul using violence, as his men sometimes urged (1...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Second, he explains by what fire he was...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "שָׁ֝מַ֗רְתִּי: I have kept - properly, to hedge about (as with thorns), i.e., guard; generall...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The imagery of walking paths and avoiding slipping pervades wisdom literature and the Psalms....",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"David appeals to God's 'steadfast love' ('chesed'—covenant faithfulness) shown to those who t...\". Word-study detail reinforces \"חֲ֭סָדֶיךָ: lovingkindness - kindness; by implication (towards god) piety; rarely (by opposit...\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "love"
+        ],
+        "8": [
+          "Keep me as the apple of your eye"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "David appeals to God's 'steadfast love' ('chesed'—covenant faithfulness) shown to those who t...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 17: \"Make Your mercies marvellous\" [Psalm 17:7]. Le...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חֲ֭סָדֶיךָ: lovingkindness - kindness; by implication (towards god) piety; rarely (by opposit...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Keep me as the apple of the eye, hide me under the shadow of thy wings. This verse contains t...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Ambrose of Milan on LETTER 20:14: It becomes Christians to pray for peace and quiet but not t...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "David appeals to God's 'steadfast love' ('chesed'—covenant faithfulness) shown to those who t...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Ambrose of Milan on LETTER 20:14: It becomes Christians to pray for peace and quiet but not t...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

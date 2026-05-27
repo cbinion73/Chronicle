@@ -1,0 +1,132 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 38,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:51.518Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Judah said, Let her take it to her, lest we be shamed: behold, I sent this kid, and thou...\".",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "And Judah said, Let her take it to her, lest we be shamed: behold, I sent this kid, and thou...",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        29
+      ],
+      "versePhrases": {
+        "29": [
+          "made"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Hebrew Questions on Genesis: (Verse 26.) But Judas acknowledged and said: she is mo...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        26
+      ],
+      "versePhrases": {
+        "26": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "1 Samuel 24:17",
+          "anchorVerse": 26,
+          "referenceLabel": "1 Samuel 24:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "And Judah acknowledged them, and said, She hath been more righteous than I; because that I ga...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Jerome on Hebrew Questions on Genesis: (Verse 26.) But Judas acknowledged and said: she is mo...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "צָֽדְקָ֣ה: She hath been more righteous - to be (causatively, make) right (in a moral or fore...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Hebrew Questions on Genesis: (Verse 26.) But Judas acknowledged and said: she is mo...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        26
+      ],
+      "versePhrases": {
+        "26": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "1 Samuel 24:17",
+          "anchorVerse": 26,
+          "referenceLabel": "1 Samuel 24:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "And Judah acknowledged them, and said, She hath been more righteous than I; because that I ga...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Jerome on Hebrew Questions on Genesis: (Verse 26.) But Judas acknowledged and said: she is mo...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

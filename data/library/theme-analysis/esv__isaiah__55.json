@@ -1,0 +1,374 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 55,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:38.761Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 10, 11) And how does rain and snow descend from the sk...\". Word-study detail reinforces \"הָאָ֔רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "waters"
+        ],
+        "2": [
+          "and delight yourselves in rich food"
+        ],
+        "3": [
+          "Incline your ear, and come to me"
+        ],
+        "4": [
+          "made"
+        ],
+        "9": [
+          "heavens",
+          "earth"
+        ],
+        "10": [
+          "earth"
+        ],
+        "12": [
+          "“For you shall go out in joy and be led..."
+        ],
+        "13": [
+          "Instead of the thorn shall come up the cypress"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 55, Verse 1) All you who are thirsty, come to the wa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לַמַּ֔יִם: ye to the waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Wherefore do ye spend money for that which is not bread? and your labour for that which satis...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everla...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "“Come, everyone who thirsts, come to the waters"
+        ],
+        "3": [
+          "covenant"
+        ],
+        "4": [
+          "Behold, I made him a witness to the peoples, a..."
+        ],
+        "5": [
+          "Behold, you shall call a nation that you do not..."
+        ],
+        "7": [
+          "let the wicked forsake his way, and the unrighteous man..."
+        ],
+        "9": [
+          "For as the heavens are higher than the earth, so..."
+        ],
+        "11": [
+          "so shall my word be that goes out from my..."
+        ],
+        "13": [
+          "Instead of the thorn shall come up the cypress"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient Near Eastern markets involved buying and selling; Isaiah's paradox would jar hearers....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Eusebius of Caesarea on COMMENTARY ON ISAIAH 2:44: Aquila translates “like wine and milk” so...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Jeremiah 32:40",
+          "anchorVerse": 3,
+          "referenceLabel": "Jeremiah 32:40"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everla...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 4, 5.) Behold, I have given him as a witness to the pe...\". Word-study detail reinforces \"כֵּ֣ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        8,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "“Come, everyone who thirsts, come to the waters"
+        ],
+        "4": [
+          "Behold, I made him a witness to the peoples, a..."
+        ],
+        "5": [
+          "Holy"
+        ],
+        "8": [
+          "For my thoughts are not your thoughts, neither are your..."
+        ],
+        "10": [
+          "“For as the rain and the snow come down from..."
+        ],
+        "11": [
+          "so shall my word be that goes out from my..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 55, Verse 1) All you who are thirsty, come to the wa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "David was Israel's paradigmatic king—warrior, leader, and God's chosen. The title nagid (lead...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4, 5.) Behold, I have given him as a witness to the pe...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 10, 11) And how does rain and snow descend from the sk...\". Word-study detail reinforces \"וְלֶ֖חֶם: and bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        1,
+        2,
+        10,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "“Come, everyone who thirsts, come to the waters"
+        ],
+        "2": [
+          "bread"
+        ],
+        "10": [
+          "bread"
+        ],
+        "11": [
+          "so shall my word be that goes out from my..."
+        ],
+        "13": [
+          "Instead of the thorn shall come up the cypress"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 55, Verse 1) All you who are thirsty, come to the wa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Wherefore do ye spend money for that which is not bread? and your labour for that which satis...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: And he recalls their former poverty, why do you spend...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Let the wicked forsake his way, and the unrighteous man his thoughts: and let him return unto...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "“Come, everyone who thirsts, come to the waters"
+        ],
+        "2": [
+          "Why do you spend your money for that which is..."
+        ],
+        "6": [
+          "“Seek the Lord while he may be found"
+        ],
+        "7": [
+          "compassion",
+          "pardon"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 55, Verse 1) All you who are thirsty, come to the wa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Wherefore do ye spend money for that which is not bread? and your labour for that which satis...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON ISAIAH 5:2.55:1-2: How can they purchase, yet receive gi...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Vers. 6, 7.) Seek the Lord while he may be found; call upon...\". Word-study detail reinforces \"קָרֽוֹב׃: ye upon him while he is near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "buy wine and milk without money and without price"
+        ],
+        "3": [
+          "with you"
+        ],
+        "6": [
+          "near"
+        ],
+        "7": [
+          "let the wicked forsake his way, and the unrighteous man..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient Near Eastern markets involved buying and selling; Isaiah's paradox would jar hearers....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 55, Verse 1) All you who are thirsty, come to the wa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everla...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 2, 3.) Hear me, you who listen, and eat what is good,...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 30,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:41.106Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Forty Gospel Homilies, Homily 36: The poor and the feeble, the blind...\". Word-study detail reinforces \"לֶ֙חֶם֙: no bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        11,
+        12,
+        14,
+        17,
+        24
+      ],
+      "versePhrases": {
+        "11": [
+          "They found an Egyptian in a field and brought him..."
+        ],
+        "12": [
+          "part of a cake of pressed figs and two cakes..."
+        ],
+        "14": [
+          "We raided the Negev of the Kerethites, some territory belonging..."
+        ],
+        "17": [
+          "David fought them from dusk until the evening of the..."
+        ],
+        "24": [
+          "supplies"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "The discovery of the Egyptian servant introduces providential guidance through unexpected mea...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 36: The poor and the feeble, the blind...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "לֶ֙חֶם֙: him bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 36: The poor and the feeble, the blind...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on Samuel: When he had led him, behold, they reclined, etc. Heretics recli...\". Word-study detail reinforces \"וּמֵאֶ֥רֶץ: and out of the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        9,
+        11,
+        16,
+        25
+      ],
+      "versePhrases": {
+        "9": [
+          "David and the six hundred men with him came to..."
+        ],
+        "11": [
+          "They found an Egyptian in a field and brought him..."
+        ],
+        "16": [
+          "He led David down, and there they were, scattered over..."
+        ],
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The pursuit begins with all six hundred men, demonstrating David's ability to rally grieving,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Samuel: David himself therefore went, and six hundred men who were with...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Abandoned servants were common casualties of ancient warfare and raiding. Illness made slaves...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 36: The poor and the feeble, the blind...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"David's attack 'from the twilight even unto the evening of the next day' indicates sustained...\". Word-study detail reinforces \"אַרְבַּ֨ע: of them save four - four\".",
+      "supportingVerses": [
+        8,
+        17,
+        23
+      ],
+      "versePhrases": {
+        "8": [
+          "rescue"
+        ],
+        "17": [
+          "David fought them from dusk until the evening of the..."
+        ],
+        "23": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "David's attack 'from the twilight even unto the evening of the next day' indicates sustained...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "אַרְבַּ֨ע: of them save four - four",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "David's correction grounds spoil distribution in theology, not merit: 'that which the LORD ha...",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The detailed provisions, 'cake of figs, two clusters of raisins,' and restored hydration, bri...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        6,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "spirit"
+        ],
+        "12": [
+          "part of a cake of pressed figs and two cakes..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Judges 15:19",
+          "anchorVerse": 12,
+          "referenceLabel": "Judges 15:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The detailed provisions, 'cake of figs, two clusters of raisins,' and restored hydration, bri...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "רוּח֖וֹ: his spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalat...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Samuel: When he had led him, behold, they reclined, etc. Heretics recli...\".",
+      "supportingVerses": [
+        15,
+        16
+      ],
+      "versePhrases": {
+        "15": [
+          "lead"
+        ],
+        "16": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Bede on Commentary on Samuel: And David said to him: Can you lead me to this band? etc. David...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "What does the timing of the Amalekites' celebration teach about premature triumph?",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Bede on Commentary on Samuel: When he had led him, behold, they reclined, etc. Heretics recli...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The ephod was the priestly garment containing pockets for the Urim and Thummim, sacred lots f...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        7,
+        22
+      ],
+      "versePhrases": {
+        "7": [
+          "Then David said to Abiathar the priest, the son of..."
+        ],
+        "22": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The ephod was the priestly garment containing pockets for the Urim and Thummim, sacred lots f...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "נִתֵּ֣ן: not with us we will not give - to give, used with greatest latitude of application (...",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

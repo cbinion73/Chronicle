@@ -1,0 +1,73 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 6,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:58.714Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Historical fulfillment confirmed this comprehensive judgment. Refugees who fled Jerusalem ear...\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Historical fulfillment confirmed this comprehensive judgment. Refugees who fled Jerusalem ear...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 12.) Whoever is far away will die from the plague; wh...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...\". Word-study detail reinforces \"וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 12.) Whoever is far away will die from the plague; wh...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

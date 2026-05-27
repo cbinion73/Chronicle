@@ -1,0 +1,387 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Judges",
+  "chapter": 4,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:08.668Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"And the hand of the children of Israel prospered, and prevailed against Jabin the king of Can...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        21,
+        22,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "4": [
+          "Now Deborah, a prophetess, the wife of Lapidoth, was judging..."
+        ],
+        "5": [
+          "And she would sit under the palm tree of Deborah..."
+        ],
+        "6": [
+          "Then she sent and called for Barak the son of..."
+        ],
+        "7": [
+          "and against you I will deploy Sisera, the commander of..."
+        ],
+        "8": [
+          "And Barak said to her, “If you will go with..."
+        ],
+        "9": [
+          "nevertheless there will be no glory for you in the journey you are taking"
+        ],
+        "17": [
+          "king"
+        ],
+        "21": [
+          "Then Jael, Heber’s wife, took a tent peg and took..."
+        ],
+        "22": [
+          "And then, as Barak pursued Sisera, Jael came out to..."
+        ],
+        "23": [
+          "king"
+        ],
+        "24": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Joshua 11:1",
+          "anchorVerse": 2,
+          "referenceLabel": "Joshua 11:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And the LORD sold them into the hand of Jabin king of Canaan, that reigned in Hazor; the capt...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Historical Setting: The Book of Judges spans approximately 350-400 years (c. 1375-1050 BCE) d...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ambrose of Milan on Concerning Widows 8.43-46: And lastly, her son Barak shows the chief part...\". Word-study detail reinforces \"אֵלָ֜יו: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        6,
+        8,
+        9,
+        11,
+        23
+      ],
+      "versePhrases": {
+        "6": [
+          "with you"
+        ],
+        "8": [
+          "with me"
+        ],
+        "9": [
+          "with you"
+        ],
+        "11": [
+          "near"
+        ],
+        "23": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 15 (Ps 82): Because these nations have come as enemies again...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֵלָ֜יו: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And Barak said unto her, If thou wilt go with me, then I will go: but if thou wilt not go wit...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Ambrose of Milan on Concerning Widows 8.43-46: And lastly, her son Barak shows the chief part...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"And I will draw unto thee to the river Kishon Sisera, the captain of Jabin's army, with his c...\". Word-study detail reinforces \"נָתַ֨ן: hath delivered - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        15,
+        17,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "4": [
+          "Now Deborah, a prophetess, the wife of Lapidoth, was judging..."
+        ],
+        "5": [
+          "And she would sit under the palm tree of Deborah..."
+        ],
+        "6": [
+          "Then she sent and called for Barak the son of..."
+        ],
+        "7": [
+          "deliver"
+        ],
+        "8": [
+          "And Barak said to her, “If you will go with..."
+        ],
+        "9": [
+          "So she said, “I will surely go with you"
+        ],
+        "14": [
+          "delivered"
+        ],
+        "15": [
+          "And the Lord routed Sisera and all his chariots and..."
+        ],
+        "17": [
+          "However, Sisera had fled away on foot to the tent..."
+        ],
+        "21": [
+          "Then Jael, Heber’s wife, took a tent peg and took..."
+        ],
+        "22": [
+          "And then, as Barak pursued Sisera, Jael came out to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And Deborah, a prophetess, the wife of Lapidoth, she judged Israel at that time. This passage...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on HOMILIES ON THE GOSPEL OF JOHN 61: Indeed, nothing—nothing, I repeat—is mo...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And she dwelt under the palm tree of Deborah between Ramah and Beth-el in mount Ephraim: and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on HOMILIES ON THE GOSPEL OF JOHN 61: Indeed, nothing—nothing, I repeat—is mo...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"What patterns of spiritual compromise or incomplete obedience in your own life mirror Israel'...\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "4": [
+          "Now Deborah, a prophetess, the wife of Lapidoth, was judging..."
+        ],
+        "5": [
+          "And she would sit under the palm tree of Deborah..."
+        ],
+        "6": [
+          "“Has not the Lord God of Israel commanded"
+        ],
+        "7": [
+          "the commander of Jabin’s army"
+        ],
+        "8": [
+          "And Barak said to her, “If you will go with..."
+        ],
+        "9": [
+          "So she said, “I will surely go with you"
+        ],
+        "10": [
+          "command"
+        ],
+        "21": [
+          "Then Jael, Heber’s wife, took a tent peg and took..."
+        ],
+        "22": [
+          "And then, as Barak pursued Sisera, Jael came out to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What patterns of spiritual compromise or incomplete obedience in your own life mirror Israel'...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 15 (Ps 82): Because these nations have come as enemies again...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What patterns of spiritual compromise or incomplete obedience in your own life mirror Israel'...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 15 (Ps 82): Because these nations have come as enemies again...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ambrose of Milan on Concerning Widows 8.43-46: And in order that it may not seem as if only o...\". Word-study detail reinforces \"שֹֽׁפְטָ֥ה: she judged - to judge, i.e., pronounce sentence (for or against); by implication,...\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "Now Deborah, a prophetess, the wife of Lapidoth, was judging..."
+        ],
+        "5": [
+          "judgment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on Concerning Widows 8.43-46: And in order that it may not seem as if only o...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "שֹֽׁפְטָ֥ה: she judged - to judge, i.e., pronounce sentence (for or against); by implication,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And she dwelt under the palm tree of Deborah between Ramah and Beth-el in mount Ephraim: and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 15 (Ps 82): Because these nations have come as enemies again...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Howbeit Sisera fled away on his feet to the tent of Jael the wife of Heber the Kenite: for th...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Isaiah 57:21",
+          "anchorVerse": 17,
+          "referenceLabel": "Isaiah 57:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Howbeit Sisera fled away on his feet to the tent of Jael the wife of Heber the Kenite: for th...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "שָׁל֗וֹם: for there was peace - safe, i.e., (figuratively) well, happy, friendly; also (abstr...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

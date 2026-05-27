@@ -1,0 +1,86 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 13,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:58.364Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The search spanned Canaan's full length in the regions that would eventually become Israel's...\". Word-study detail reinforces \"יוֹשֵׁ֣ב: dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by impl...\".",
+      "supportingVerses": [
+        18,
+        19,
+        21,
+        26,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "18": [
+          "dwell"
+        ],
+        "19": [
+          "dwell"
+        ],
+        "21": [
+          "near"
+        ],
+        "26": [
+          "And they came to Moses and Aaron and to all..."
+        ],
+        "28": [
+          "dwell"
+        ],
+        "29": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "הַיֹּשֵׁ֣ב: that dwelleth - properly, to sit down (specifically as judge. in ambush, in quiet...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Ancient Near Eastern military campaigns regularly sent scouts ahead to assess enemy strength,...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "יוֹשֵׁ֣ב: is that they dwell in - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "The search spanned Canaan's full length in the regions that would eventually become Israel's...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "command"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 126,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:52.350Z",
+  "themes": [
+    {
+      "id": "keyword-songs",
+      "label": "Songs",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “songs.”",
+      "supportingVerses": [
+        2,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "songs"
+        ],
+        "5": [
+          "songs"
+        ],
+        "6": [
+          "songs"
+        ]
+      }
+    },
+    {
+      "id": "keyword-fortunes",
+      "label": "Fortunes",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “fortunes.”",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "fortunes"
+        ],
+        "4": [
+          "fortunes"
+        ]
+      }
+    },
+    {
+      "id": "keyword-filled",
+      "label": "Filled",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “filled.”",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "filled"
+        ],
+        "3": [
+          "filled"
+        ]
+      }
+    },
+    {
+      "id": "keyword-things",
+      "label": "Things",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “things.”",
+      "supportingVerses": [
+        2,
+        3
+      ],
+      "versePhrases": {
+        "2": [
+          "things"
+        ],
+        "3": [
+          "things"
+        ]
+      }
+    }
+  ]
+}

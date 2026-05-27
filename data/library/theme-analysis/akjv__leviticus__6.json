@@ -1,0 +1,352 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 6,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:16.972Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Whatsoever shall touch the flesh thereof shall be holy: and when there is sprinkled of the bl...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        9,
+        11,
+        16,
+        17,
+        18,
+        25,
+        26,
+        27,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "9": [
+          "Command Aaron and his sons, saying, This is the law..."
+        ],
+        "11": [
+          "clean"
+        ],
+        "16": [
+          "holy"
+        ],
+        "17": [
+          "holy"
+        ],
+        "18": [
+          "holy"
+        ],
+        "25": [
+          "holy"
+        ],
+        "26": [
+          "holy"
+        ],
+        "27": [
+          "holy"
+        ],
+        "29": [
+          "holy"
+        ],
+        "30": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Command Aaron and his sons, saying, This is the law of the burnt offering: It is the burnt of...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on On the Tabernacle 2.11: A holocaust is burned on the altar when a good work is perfor...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And he shall put off his garments, and put on other garments, and carry forth the ashes witho...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "טָהֽוֹר׃: unto a clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Whatsoever shall touch the flesh thereof shall be holy: and when there is sprinkled of the bl...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        9,
+        16,
+        17,
+        18,
+        25,
+        26,
+        27,
+        29,
+        30
+      ],
+      "versePhrases": {
+        "9": [
+          "Command Aaron and his sons, saying, This is the law..."
+        ],
+        "16": [
+          "holy"
+        ],
+        "17": [
+          "holy"
+        ],
+        "18": [
+          "holy"
+        ],
+        "25": [
+          "holy"
+        ],
+        "26": [
+          "holy"
+        ],
+        "27": [
+          "holy"
+        ],
+        "29": [
+          "holy"
+        ],
+        "30": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Command Aaron and his sons, saying, This is the law of the burnt offering: It is the burnt of...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, LEVITICUS 5: That fire is perpetual that...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 2:3",
+          "anchorVerse": 16,
+          "referenceLabel": "Leviticus 2:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "And the remainder thereof shall Aaron and his sons eat: with unleavened bread shall it be eat...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, LEVITICUS 5: That fire is perpetual that...\". Word-study detail reinforces \"תֵּֽעָשֶׂ֖ה: it shall be made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        9,
+        17,
+        18,
+        21
+      ],
+      "versePhrases": {
+        "9": [
+          "Command Aaron and his sons, saying, This is the law..."
+        ],
+        "17": [
+          "made"
+        ],
+        "18": [
+          "made"
+        ],
+        "21": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, LEVITICUS 5: That fire is perpetual that...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "הַלַּ֙יְלָה֙: all night - properly, a twist (away of the light), i.e., night; figuratively, a...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "It shall not be baken with leaven. I have given it unto them for their portion of my offering...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "מֵֽאִשָּׁ֑י: of my offerings made by fire - properly, a burnt-offering; but occasionally of a...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, LEVITICUS 5: That fire is perpetual that...\". Word-study detail reinforces \"צַ֤ו: Command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        2,
+        4,
+        9
+      ],
+      "versePhrases": {
+        "2": [
+          "keep"
+        ],
+        "4": [
+          "keep"
+        ],
+        "9": [
+          "Command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How can you use this verse to worship God more fully, obey Him more faithfully, or love other...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בִתְשׂ֤וּמֶת: him to keep or in fellowship - a deposit, i.e., pledging",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How can you use this verse to worship God more fully, obey Him more faithfully, or love other...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does understanding the purpose behind God's laws help you obey Him from the heart rather...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What does this verse teach about the seriousness of sin, the cost of redemption, or the beaut...\". Word-study detail reinforces \"הָפְקַ֖ד: or that which was delivered - a deposit\".",
+      "supportingVerses": [
+        2,
+        4
+      ],
+      "versePhrases": {
+        "2": [
+          "delivered"
+        ],
+        "4": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "If a soul sin, and commit a trespass against the LORD, and lie unto his neighbour in that whi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "בְּפִקָּד֗וֹן: in that which was delivered - a deposit",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does this verse teach about the seriousness of sin, the cost of redemption, or the beaut...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הָפְקַ֖ד: or that which was delivered - a deposit",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"It shall not be baken with leaven. I have given it unto them for their portion of my offering...\". Word-study detail reinforces \"חֶלְקָ֛ם: it unto them for their portion - properly, smoothness (of the tongue)\".",
+      "supportingVerses": [
+        16,
+        17
+      ],
+      "versePhrases": {
+        "16": [
+          "bread"
+        ],
+        "17": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "And the remainder thereof shall Aaron and his sons eat: with unleavened bread shall it be eat...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "מַצּ֤וֹת: with unleavened bread - properly, sweetness; concretely, sweet (i.e., not soured or...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "It shall not be baken with leaven. I have given it unto them for their portion of my offering...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "חֶלְקָ֛ם: it unto them for their portion - properly, smoothness (of the tongue)",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

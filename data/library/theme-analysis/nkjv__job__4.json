@@ -1,0 +1,386 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 4,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:23.845Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: His second argument comes from a comparison to the angel...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        6,
+        18
+      ],
+      "versePhrases": {
+        "6": [
+          "hope",
+          "confidence"
+        ],
+        "18": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Job 17:15",
+          "anchorVerse": 6,
+          "referenceLabel": "Job 17:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Eliphaz asks, 'Is not this thy fear, thy confidence, thy hope, and the uprightness of thy way...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "John Chrysostom on COMMENTARY ON JOB 4:6: “Is not your fear based on folly, as is your hope,...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "כִּסְלָתֶ֑ךָ: thy confidence - in a good sense, trust; in a bad one, silliness",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book V: There stood a certain one, but I...\". Word-study detail reinforces \"בְחָכְמָֽה׃: even without wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        2,
+        6,
+        7,
+        12,
+        13,
+        15,
+        16,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "“If one attempts a word with you, will you become..."
+        ],
+        "6": [
+          "Is not your reverence your confidence"
+        ],
+        "7": [
+          "“Remember now, who ever perished being innocent"
+        ],
+        "12": [
+          "“Now a word was secretly brought to me, And my..."
+        ],
+        "13": [
+          "In disquieting thoughts from the visions of the night, When..."
+        ],
+        "15": [
+          "Then a spirit passed before my face"
+        ],
+        "16": [
+          "discern"
+        ],
+        "19": [
+          "How much more those who dwell in houses of clay,..."
+        ],
+        "21": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Eliphaz begins tentatively: 'If we assay to commune with thee, wilt thou be grieved?' The Heb...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book V: Then Eliphaz the Temanite answere...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "How do you discern between genuine faith and mere external religion in yourself and others?",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: He also exaggerated the subsequent impatience which appe...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: He also exaggerated the subsequent impatience which appe...\". Word-study detail reinforces \"אָ֑וֶן: iniquity - strictly nothingness; also trouble, vanity, wickedness; specifically an idol\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Then Eliphaz the Temanite answered and said"
+        ],
+        "2": [
+          "“If one attempts a word with you, will you become..."
+        ],
+        "5": [
+          "and you are troubled"
+        ],
+        "6": [
+          "Is not your reverence your confidence"
+        ],
+        "8": [
+          "trouble"
+        ],
+        "9": [
+          "By the blast of God they perish, And by the..."
+        ],
+        "18": [
+          "If He puts no trust in His servants, If He..."
+        ],
+        "20": [
+          "They are broken in pieces from morning till evening"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Eliphaz represents the wisdom tradition's conventional teaching that suffering results from s...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on COMMENTARY ON JOB 4:2: What does Eliphaz say? “Have you often spoken in yo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How do you balance honesty with sensitivity when counseling those who are suffering?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on COMMENTARY ON JOB 4:2: What does Eliphaz say? “Have you often spoken in yo...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book V: Behold, His servants are not sted...\". Word-study detail reinforces \"אֵלֶ֣יךָ: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        12,
+        14,
+        15,
+        16,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "2": [
+          "with you"
+        ],
+        "12": [
+          "“Now a word was secretly brought to me, And my..."
+        ],
+        "14": [
+          "Fear came upon me, and trembling, Which made all my..."
+        ],
+        "15": [
+          "Then a spirit passed before my face"
+        ],
+        "16": [
+          "It stood still, But I could not discern its appearance"
+        ],
+        "18": [
+          "If He charges His angels with error"
+        ],
+        "19": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ancient Near Eastern wisdom teachers valued rhetorical courtesy, especially when addressing s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: First, he therefore accuses Job of impatience and begins...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אֵלֶ֣יךָ: - near, with or among; often in general, to",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book V: Now a hidden word was spoken to m...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book V: Remember, I pray thee, who ever p...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        9,
+        11,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "But now it comes upon you, and you are weary"
+        ],
+        "6": [
+          "Is not your reverence your confidence"
+        ],
+        "7": [
+          "upright"
+        ],
+        "9": [
+          "By the blast of God they perish, And by the..."
+        ],
+        "11": [
+          "The old lion perishes for lack of prey, And the..."
+        ],
+        "17": [
+          "righteous"
+        ],
+        "18": [
+          "If He puts no trust in His servants, If He..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Eliphaz springs his trap: 'But now it is come upon thee, and thou faintest; it toucheth thee,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book V: But now it is come upon thee, and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Wisdom teachers debated whether piety guaranteed protection from suffering. Eliphaz represent...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Didymus the Blind on COMMENTARY ON JOB 4:6: While Scripture’s spirit witnesses on behalf of J...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book V: Remember, I pray thee, who ever p...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "But now it comes upon you, and you are weary"
+        ],
+        "6": [
+          "Is not your reverence your confidence"
+        ],
+        "7": [
+          "“Remember now, who ever perished being innocent"
+        ],
+        "17": [
+          "righteous",
+          "pure"
+        ],
+        "18": [
+          "If He puts no trust in His servants, If He..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Eliphaz springs his trap: 'But now it is come upon thee, and thou faintest; it toucheth thee,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book V: But now it is come upon thee, and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Wisdom teachers debated whether piety guaranteed protection from suffering. Eliphaz represent...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Didymus the Blind on COMMENTARY ON JOB 4:6: While Scripture’s spirit witnesses on behalf of J...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

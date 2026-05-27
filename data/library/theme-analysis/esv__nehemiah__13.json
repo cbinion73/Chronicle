@@ -1,0 +1,301 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Nehemiah",
+  "chapter": 13,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:17.766Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Nehemiah's account occurs during Persian imperial dominance (539-331 BC), specifically 445-43...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        2,
+        25,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "On that day they read from the Book of Moses..."
+        ],
+        "2": [
+          "blessing"
+        ],
+        "25": [
+          "oath"
+        ],
+        "29": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Nehemiah's account occurs during Persian imperial dominance (539-331 BC), specifically 445-43...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: On that day, it was read from the book of Moses, etc...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 109:28",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 109:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Nehemiah's account occurs during Persian imperial dominance (539-331 BC), specifically 445-43...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But in all this time was not I at Jerusalem: for in the two and thirtieth year of Artaxerxes...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        26
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ],
+        "26": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Nehemiah 5:14",
+          "anchorVerse": 6,
+          "referenceLabel": "Nehemiah 5:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But in all this time was not I at Jerusalem: for in the two and thirtieth year of Artaxerxes...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַמֶּֽלֶךְ׃: I unto the king - a king",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 3:13",
+          "anchorVerse": 26,
+          "referenceLabel": "1 Kings 3:13"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Did not Solomon king of Israel sin by these things? yet among many nations was there no king...\". Word-study detail reinforces \"וַיִּתְּנֵ֣הוּ: made - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        25,
+        26
+      ],
+      "versePhrases": {
+        "25": [
+          "made"
+        ],
+        "26": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "And I contended with them, and cursed them, and smote certain of them, and plucked off their...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "וָֽאַשְׁבִּיעֵ֣ם: and made them swear - to seven oneself, i.e., swear (as if by repeating a d...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Did not Solomon king of Israel sin by these things? yet among many nations was there no king...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "וַיִּתְּנֵ֣הוּ: made - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: In those days I saw in Judah men treading wine press...\". Word-study detail reinforces \"פַּ֥עַם: once - a stroke, literally or figuratively (in various applications, as follow)\".",
+      "supportingVerses": [
+        3,
+        5,
+        15,
+        20,
+        22,
+        27
+      ],
+      "versePhrases": {
+        "3": [
+          "As soon as the people heard the law, they separated..."
+        ],
+        "5": [
+          "which were given by commandment to the Levites"
+        ],
+        "15": [
+          "In those days I saw in Judah people treading winepresses..."
+        ],
+        "20": [
+          "Then the merchants and sellers of all kinds of wares..."
+        ],
+        "22": [
+          "keep"
+        ],
+        "27": [
+          "Shall we then listen to you and do all this..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What specific commitments do you need to make (or renew) regarding Bible reading, worship, an...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "כְּשָׁמְעָ֣ם: Now it came to pass when they had heard - to hear intelligently (often with imp...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What specific commitments do you need to make (or renew) regarding Bible reading, worship, an...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "מִצְוַת֙: which was commanded - a command, whether human or divine (collectively, the law)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And I made treasurers over the treasuries, Shelemiah the priest, and Zadok the scribe, and of...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        13,
+        22
+      ],
+      "versePhrases": {
+        "13": [
+          "And I appointed as treasurers over the storehouses Shelemiah the..."
+        ],
+        "22": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Nehemiah 7:2",
+          "anchorVerse": 13,
+          "referenceLabel": "Nehemiah 7:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And I made treasurers over the treasuries, Shelemiah the priest, and Zadok the scribe, and of...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "נֶֽאֱמָנִים֙: faithful - properly, to build up or support; to foster as a parent or nurse; fi...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "And I commanded the Levites that they should cleanse themselves, and that they should come an...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Did not Solomon king of Israel sin by these things? yet among many nations was there no king...\". Word-study detail reinforces \"וְאָה֤וּב: like him who was beloved - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        22,
+        26
+      ],
+      "versePhrases": {
+        "22": [
+          "love"
+        ],
+        "26": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "חַסְדֶּֽךָ׃: of thy mercy - kindness; by implication (towards god) piety; rarely (by oppositi...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Did not Solomon king of Israel sin by these things? yet among many nations was there no king...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "וְאָה֤וּב: like him who was beloved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

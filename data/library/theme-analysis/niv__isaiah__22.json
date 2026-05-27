@@ -1,0 +1,241 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 22,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:11.361Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Vers. 10, 11.) And you gathered the waters of the lower pool...\". Word-study detail reinforces \"אֶ֖רֶץ: country - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        9,
+        10,
+        11,
+        15,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "9": [
+          "You saw that the walls of the City of David..."
+        ],
+        "10": [
+          "You counted the buildings in Jerusalem and tore down houses..."
+        ],
+        "11": [
+          "made"
+        ],
+        "15": [
+          "This is what the Lord, the Lord Almighty, says"
+        ],
+        "17": [
+          "“Beware, the Lord is about to take firm hold of..."
+        ],
+        "18": [
+          "He will roll you up tightly like a ball and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Ye have seen also the breaches of the city of David, that they are many —Jerusalem's walls ha...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: And you have gathered together the waters. Here he se...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מֵ֥י: the waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Josephus records that during later Roman sieges, Jerusalem's defenders similarly demolished b...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 15, 16, etc.) Thus says the Lord, the God of hosts: Go...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        16,
+        18,
+        20,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "16": [
+          "What are you doing here and who gave you permission..."
+        ],
+        "18": [
+          "He will roll you up tightly like a ball and..."
+        ],
+        "20": [
+          "“In that day I will summon my servant, Eliakim son..."
+        ],
+        "23": [
+          "I will drive him like a peg into a firm..."
+        ],
+        "24": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "What hast thou here? and whom hast thou here, that thou hast hewed thee out a sepulchre here...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 15, 16, etc.) Thus says the Lord, the God of hosts: Go...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "He will surely violently turn and toss thee like a ball into a large country —The imagery int...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 15, 16, etc.) Thus says the Lord, the God of hosts: Go...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"'And in that day did the Lord GOD of hosts call to weeping, and to mourning, and to baldness,...\". Word-study detail reinforces \"מְהוּמָ֨ה: of trouble - confusion or uproar\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "you town so full of commotion, you city of tumult..."
+        ],
+        "4": [
+          "weep"
+        ],
+        "5": [
+          "The Lord, the Lord Almighty, has a day of tumult..."
+        ],
+        "12": [
+          "weep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "During the Babylonian siege of Jerusalem (586 BCE), the city experienced exactly this: initia...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Basil of Caesarea on LETTER 46: Now is the time to utter aloud those words of the prophet who...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Look away from me; I will weep bitterly —Isaiah's anguish is so profound he refuses comfort....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4.) Therefore I said, depart from me; I will weep bitt...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Look away from me; I will weep bitterly —Isaiah's anguish is so profound he refuses comfort....\". Word-study detail reinforces \"לְנַֽחֲמֵ֔נִי: not to comfort - properly, to sigh, i.e., breathe strongly; by implication, to...\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "still"
+        ],
+        "4": [
+          "Therefore I said, “Turn away from me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (v. 3) All your leaders have fled together and have been hars...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Look away from me; I will weep bitterly —Isaiah's anguish is so profound he refuses comfort....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4.) Therefore I said: Depart from me, I will weep bitt...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לְנַֽחֲמֵ֔נִי: not to comfort - properly, to sigh, i.e., breathe strongly; by implication, to...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "terror"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

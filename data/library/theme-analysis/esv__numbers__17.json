@@ -1,0 +1,140 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 17,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:58.623Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Caesarius of Arles on SERMON 111.1-2: There is only one true high priest, as Scripture says,...\". Word-study detail reinforces \"הָֽעֵד֔וּת: the testimony - testimony\".",
+      "supportingVerses": [
+        4,
+        7,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "testimony"
+        ],
+        "7": [
+          "testimony"
+        ],
+        "8": [
+          "testimony"
+        ],
+        "10": [
+          "testimony"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הָֽעֵד֔וּת: the testimony - testimony",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "הָֽעֵדֻֽת׃: of witness - testimony",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This miracle occurred immediately following Korah's rebellion and its aftermath. The congrega...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Caesarius of Arles on SERMON 111.1-2: There is only one true high priest, as Scripture says,...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Whosoever cometh any thing near unto the tabernacle of the LORD shall die: shall we be consum...\". Word-study detail reinforces \"הַקָּרֵ֛ב: Whosoever cometh any thing near - near\".",
+      "supportingVerses": [
+        4,
+        13
+      ],
+      "versePhrases": {
+        "4": [
+          "with you"
+        ],
+        "13": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Whosoever cometh any thing near unto the tabernacle of the LORD shall die: shall we be consum...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "הַקָּרֵ֛ב: Whosoever cometh any thing near - near",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"God's command to keep Aaron's rod 'for a token against the rebels' established a permanent me...\". Word-study detail reinforces \"לְמִשְׁמֶ֥רֶת: to be kept - watch, i.e., the act (custody), or (concretely) the sentry, the p...\".",
+      "supportingVerses": [
+        8,
+        10
+      ],
+      "versePhrases": {
+        "8": [
+          "On the next day Moses went into the tent of..."
+        ],
+        "10": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Following Korah's rebellion, God commands each tribal prince to place his rod in the tabernac...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Caesarius of Arles on SERMON 111.1-2: There is only one true high priest, as Scripture says,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "God's command to keep Aaron's rod 'for a token against the rebels' established a permanent me...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "לְמִשְׁמֶ֥רֶת: to be kept - watch, i.e., the act (custody), or (concretely) the sentry, the p...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

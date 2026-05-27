@@ -1,0 +1,253 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 19,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:00.744Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And if the LORD thy God enlarge thy coast, as he hath sworn unto thy fathers (וְאִם־יַרְחִיב...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        1,
+        8,
+        10,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "“When the Lord your God cuts off the nations whose..."
+        ],
+        "8": [
+          "promised"
+        ],
+        "10": [
+          "inheritance"
+        ],
+        "14": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "When the LORD thy God hath cut off the nations, whose land the LORD thy God giveth thee, and...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יַכְרִ֞ית: hath cut off - to cut (off, down or asunder); by implication, to destroy or consum...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Deuteronomy 12:20",
+          "anchorVerse": 8,
+          "referenceLabel": "Deuteronomy 12:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And if the LORD thy God enlarge thy coast, as he hath sworn unto thy fathers (וְאִם־יַרְחִיב...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"If thou shalt keep all these commandments to do them (כִּי תִשְׁמֹר אֶת־כָּל־הַמִּצְוָה הַזֹּ...\". Word-study detail reinforces \"מְצַוְּךָ֖: Wherefore I command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        7,
+        9,
+        18
+      ],
+      "versePhrases": {
+        "7": [
+          "command"
+        ],
+        "9": [
+          "command",
+          "keep"
+        ],
+        "18": [
+          "The judges shall inquire diligently, and if the witness is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Wherefore I command thee, saying, Thou shalt separate three cities for thee (עַל־כֵּן אָנֹכִי...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "מְצַוְּךָ֖: Wherefore I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "If thou shalt keep all these commandments to do them (כִּי תִשְׁמֹר אֶת־כָּל־הַמִּצְוָה הַזֹּ...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מְצַוְּךָ֮: them which I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ancient tools frequently failed - axe heads could slip from handles during use. Without safet...\". Word-study detail reinforces \"עוֹד֙: - properly, iteration or continuance; used only adverbially (with or without prepositi...\".",
+      "supportingVerses": [
+        5,
+        9,
+        20
+      ],
+      "versePhrases": {
+        "5": [
+          "as when someone goes into the forest with his neighbor to cut wood"
+        ],
+        "9": [
+          "provided you are careful to keep all this commandment, which..."
+        ],
+        "20": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Ancient tools frequently failed - axe heads could slip from handles during use. Without safet...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Against the Pelagians 1.33: The very words of Scripture indicate that even ignoranc...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The three additional cities were never established because Israel never fully possessed the e...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "עוֹד֙: - properly, iteration or continuance; used only adverbially (with or without prepositi...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"When the LORD thy God hath cut off the nations, whose land the LORD thy God giveth thee, and...\". Word-study detail reinforces \"וְיָֽשַׁבְתָּ֥: them and dwellest - properly, to sit down (specifically as judge. in ambush,...\".",
+      "supportingVerses": [
+        1,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "dwell"
+        ],
+        "13": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "When the LORD thy God hath cut off the nations, whose land the LORD thy God giveth thee, and...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְיָֽשַׁבְתָּ֥: them and dwellest - properly, to sit down (specifically as judge. in ambush,...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"If thou shalt keep all these commandments to do them (כִּי תִשְׁמֹר אֶת־כָּל־הַמִּצְוָה הַזֹּ...\". Word-study detail reinforces \"לְאַֽהֲבָ֞ה: to love - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "loving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "If thou shalt keep all these commandments to do them (כִּי תִשְׁמֹר אֶת־כָּל־הַמִּצְוָה הַזֹּ...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "לְאַֽהֲבָ֞ה: to love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And those which remain shall hear, and fear (וְהַנִּשְׁאָרִים יִשְׁמְעוּ וְיִרָאוּ, ve-ha-nis...\". Word-study detail reinforces \"וְיִרָ֑אוּ: and fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "And those which remain shall hear, and fear (וְהַנִּשְׁאָרִים יִשְׁמְעוּ וְיִרָאוּ, ve-ha-nis...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "וְיִרָ֑אוּ: and fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 62,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:24.217Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Truly my soul finds rest in God"
+        ],
+        "5": [
+          "hope"
+        ],
+        "6": [
+          "Truly he is my rock and my salvation"
+        ],
+        "7": [
+          "My salvation and my honor depend on God"
+        ],
+        "8": [
+          "Trust"
+        ],
+        "10": [
+          "trust",
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written during another of David's experiences of persecution, this psalm reflects mature fait...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "דּֽוּמִיָּ֣ה: waiteth - stillness; adverbially, silently; abstractly quiet, trust",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Pachomius the Great on INSTRUCTIONS 16: And now, my child, if you take God as your hope, he w...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 62: \"In God is my salvation and my glory\" [Psalm 62...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "salvation"
+        ],
+        "2": [
+          "salvation"
+        ],
+        "3": [
+          "How long will you assault me"
+        ],
+        "6": [
+          "salvation"
+        ],
+        "7": [
+          "salvation"
+        ],
+        "12": [
+          "and with you, Lord, is unfailing love”"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 62:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 62:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Hebrew 'dumiyyah' (silence/waiting/stillness) before God demonstrates restful trust, not...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 62: The title of it is, \"Unto the end, in behalf of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יְשׁוּעָתִֽי׃: from him cometh my salvation - something saved, i.e., (abstractly) deliverance...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...\". Word-study detail reinforces \"מַחֲסֶה: is a refuge - a shelter (literally or figuratively)\".",
+      "supportingVerses": [
+        1,
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "rest"
+        ],
+        "5": [
+          "rest"
+        ],
+        "7": [
+          "refuge"
+        ],
+        "8": [
+          "refuge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "דּֽוּמִיָּ֣ה: waiteth - stillness; adverbially, silently; abstractly quiet, trust",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "My soul, wait thou only upon God; for my expectation is from him. This verse captures the ess...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 62: What are You doing, O Idithun, Body of Christ,...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The refrain 'In God is my salvation and my glory' grounds identity in divine action, not acco...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The imagery of God as rock pervades Old Testament theology, appearing in Moses' song (Deutero...\".",
+      "supportingVerses": [
+        6,
+        12
+      ],
+      "versePhrases": {
+        "6": [
+          "Truly he is my rock and my salvation"
+        ],
+        "12": [
+          "with you"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The imagery of God as rock pervades Old Testament theology, appearing in Moses' song (Deutero...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 62: \"For Himself is my God and My Saving One, my Ta...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"חָ֑סֶד: belongeth mercy - kindness; by implication (towards god) piety; rarely (by opposition...\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "חָ֑סֶד: belongeth mercy - kindness; by implication (towards god) piety; rarely (by opposition...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "breath"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

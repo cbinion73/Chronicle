@@ -1,0 +1,897 @@
+{
+  "version": "2026-05-04-verse-local-v1",
+  "book": "John",
+  "chapter": 1,
+  "translation": "amp",
+  "generatedAt": "2026-05-05T01:56:22.086Z",
+  "themes": [
+    {
+      "id": "incarnation",
+      "label": "Incarnation",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "The eternal Word enters embodied human history without ceasing to be divine. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: John the Evangelist, as already indicated, makes it his...\". Cross references echo \"Word\".",
+      "supportingVerses": [
+        1,
+        14,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "the Word",
+          "was with God",
+          "was God"
+        ],
+        "14": [
+          "the Word became flesh"
+        ],
+        "18": [
+          "the only begotten Son",
+          "the only Son"
+        ]
+      },
+      "verseScores": {
+        "1": 303,
+        "14": 318,
+        "18": 136
+      },
+      "strengthScore": 763,
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Word",
+          "detail": "Revelation 19:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Revelation 19:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the beginning was the Word, and the Word was with God, and the Word was God. This profound...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on John: John the Evangelist, as already indicated, makes it his...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "λόγος: the Word - something said (including the thought); by implication, a topic (subject of...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "John ties the coming of Christ to fullness, grace, and truth rather than mere abstract revelation. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: He follows with, Of his fullness we have all received w...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        14,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "14": [
+          "full of grace and truth"
+        ],
+        "16": [
+          "grace upon grace"
+        ],
+        "17": [
+          "grace and truth"
+        ]
+      },
+      "verseScores": {
+        "14": 264,
+        "16": 227,
+        "17": 211
+      },
+      "strengthScore": 708,
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Parallel theme",
+          "detail": "1 John 4:9",
+          "anchorVerse": 14,
+          "referenceLabel": "1 John 4:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "This verse represents the theological apex of the Incarnation: the eternal Logos (Word) becam...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Thomas Aquinas on Commentary on John: 179 Having set forth the incarnation of the Word, the E...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "ἀληθείας: truth - truth",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "label": "Identity of Christ",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter brings Jesus’ identity into focus through names, titles, and revealed claims about His person. Local Strong’s word study and cross references data reinforce this reading across 51 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: John the Evangelist, as already indicated, makes it his...\". Cross references echo \"References Christ\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "versePhrases": {
+        "1": [
+          "Christ",
+          "the Word"
+        ],
+        "2": [
+          "He was [continually existing] in the beginning [co-eternally] with God"
+        ],
+        "3": [
+          "All things were made and came into existence through Him"
+        ],
+        "5": [
+          "The Light shines on in the darkness, and the darkness..."
+        ],
+        "6": [
+          "There came a man commissioned and sent from God, whose..."
+        ],
+        "7": [
+          "Christ"
+        ],
+        "8": [
+          "John was not the Light, but came to testify about..."
+        ],
+        "9": [
+          "There it was—the true Light [the genuine, perfect, steadfast Light]..."
+        ],
+        "10": [
+          "Christ"
+        ],
+        "11": [
+          "He came to that which was His own [that which..."
+        ],
+        "12": [
+          "But to as many as did receive and welcome Him,..."
+        ],
+        "13": [
+          "who were born, not of blood [natural conception], nor of..."
+        ],
+        "15": [
+          "John testified [repeatedly] about Him and has cried out [testifying..."
+        ],
+        "16": [
+          "For out of His fullness [the superabundance of His grace..."
+        ],
+        "17": [
+          "Christ"
+        ],
+        "19": [
+          "This is the testimony of John [the Baptist] when the..."
+        ],
+        "20": [
+          "Messiah",
+          "Christ"
+        ],
+        "21": [
+          "Prophet",
+          "Elijah"
+        ],
+        "22": [
+          "Then they said to him, “Who are you"
+        ],
+        "23": [
+          "prophet"
+        ],
+        "24": [
+          "Now they had been sent from the Pharisees"
+        ],
+        "25": [
+          "Christ",
+          "Prophet",
+          "Elijah"
+        ],
+        "26": [
+          "John answered them, “I baptize [only] in water, but among..."
+        ],
+        "27": [
+          "It is He [the preeminent One] who comes after me,..."
+        ],
+        "28": [
+          "These things occurred in Bethany across the Jordan [at the..."
+        ],
+        "29": [
+          "Lamb of God"
+        ],
+        "30": [
+          "This is He on behalf of whom I said, ‘After..."
+        ],
+        "31": [
+          "Messiah"
+        ],
+        "32": [
+          "John gave [further] evidence [testifying officially for the record, with..."
+        ],
+        "33": [
+          "Messiah"
+        ],
+        "34": [
+          "Son of God"
+        ],
+        "35": [
+          "Again the next day John was standing with two of..."
+        ],
+        "36": [
+          "Lamb of God"
+        ],
+        "37": [
+          "The two disciples heard him say this, and they followed..."
+        ],
+        "40": [
+          "One of the two who heard what John said and..."
+        ],
+        "41": [
+          "Messiah",
+          "Christ"
+        ],
+        "42": [
+          "Andrew brought Simon to Jesus"
+        ],
+        "43": [
+          "and walking the same path of life that I walk]"
+        ],
+        "44": [
+          "Now Philip was from Bethsaida, the city of Andrew and..."
+        ],
+        "45": [
+          "“We have found the One Moses in the Law and also the Prophets wrote about—Jesus from Nazareth"
+        ],
+        "46": [
+          "Nathanael answered him, “Can anything good come out of Nazareth"
+        ],
+        "47": [
+          "“Here is an Israelite indeed [a true descendant of Jacob]"
+        ],
+        "48": [
+          "Nathanael said to Jesus, “How do You know [these things..."
+        ],
+        "49": [
+          "Son of God",
+          "Rabbi",
+          "King of Israel"
+        ],
+        "50": [
+          "Jesus replied, “Because I said to you that I saw..."
+        ],
+        "51": [
+          "Then He said to him, “I assure you and most..."
+        ]
+      },
+      "verseScores": {
+        "1": 178,
+        "2": 100,
+        "3": 93,
+        "5": 86,
+        "6": 119,
+        "7": 103,
+        "8": 99,
+        "9": 96,
+        "10": 123,
+        "11": 133,
+        "12": 128,
+        "13": 94,
+        "15": 124,
+        "16": 106,
+        "17": 134,
+        "19": 136,
+        "20": 128,
+        "21": 200,
+        "22": 76,
+        "23": 149,
+        "24": 104,
+        "25": 184,
+        "26": 142,
+        "27": 134,
+        "28": 81,
+        "29": 174,
+        "30": 88,
+        "31": 100,
+        "32": 101,
+        "33": 117,
+        "34": 139,
+        "35": 115,
+        "36": 125,
+        "37": 104,
+        "40": 88,
+        "41": 170,
+        "42": 85,
+        "43": 93,
+        "44": 79,
+        "45": 120,
+        "46": 126,
+        "47": 138,
+        "48": 117,
+        "49": 200,
+        "50": 95,
+        "51": 116
+      },
+      "strengthScore": 676,
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the beginning was the Word, and the Word was with God, and the Word was God. This profound...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on John: John the Evangelist, as already indicated, makes it his...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "λόγος: the Word - something said (including the thought); by implication, a topic (subject of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "John writes to audiences familiar with both Jewish Wisdom literature (where Wisdom exists wit...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "label": "Light",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "Light in John 1 signals revelation, life, and divine victory over darkness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER VIII. That the Son o...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        4,
+        5,
+        9
+      ],
+      "versePhrases": {
+        "4": [
+          "the light of men"
+        ],
+        "5": [
+          "the light shines in the darkness"
+        ],
+        "9": [
+          "the true Light"
+        ]
+      },
+      "verseScores": {
+        "4": 183,
+        "5": 178,
+        "9": 238
+      },
+      "strengthScore": 605,
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "John 8:12",
+          "anchorVerse": 4,
+          "referenceLabel": "John 8:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The dual concepts of 'life' (Greek 'zoe', referring to spiritual life) and 'light' introduce...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER VII. That the Son is...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ζωὴ: life - life (literally or figuratively)",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "calling",
+      "label": "Calling/Discipleship",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the invitation to follow Jesus, remain with Him, and bring others to Him. Local Strong’s word study and cross references data reinforce this reading across 51 verses. Commentary leans on \"Augustine of Hippo on Tractates on John 7: Jesus then saw this man in whom was no guile, and...\". Word-study detail reinforces \"Ἀκολούθει: Follow - properly, to be in the same way with, i.e., to accompany (specially, as a...\".",
+      "supportingVerses": [
+        3,
+        22,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        48
+      ],
+      "versePhrases": {
+        "3": [
+          "and without Him not even one thing was made that has come into being"
+        ],
+        "22": [
+          "Then they said to him, “Who are you"
+        ],
+        "35": [
+          "Again the next day John was standing with two of his disciples"
+        ],
+        "36": [
+          "and he looked at Jesus as He walked along"
+        ],
+        "37": [
+          "and they followed Jesus"
+        ],
+        "38": [
+          "And Jesus turned and saw them following Him"
+        ],
+        "39": [
+          "“Come"
+        ],
+        "40": [
+          "One of the two who heard what John said and [as a result] followed Jesus was Andrew"
+        ],
+        "41": [
+          "found"
+        ],
+        "42": [
+          "Andrew brought Simon to Jesus"
+        ],
+        "43": [
+          "Follow",
+          "disciple",
+          "found"
+        ],
+        "44": [
+          "Now Philip was from Bethsaida, the city of Andrew and..."
+        ],
+        "45": [
+          "found"
+        ],
+        "46": [
+          "Come and see"
+        ],
+        "48": [
+          "Nathanael said to Jesus"
+        ]
+      },
+      "verseScores": {
+        "3": 84,
+        "22": 61,
+        "35": 76,
+        "36": 104,
+        "37": 106,
+        "38": 183,
+        "39": 117,
+        "40": 102,
+        "41": 100,
+        "42": 75,
+        "43": 164,
+        "44": 119,
+        "45": 91,
+        "46": 97,
+        "48": 70
+      },
+      "strengthScore": 496,
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on John: John the Evangelist, as already indicated, makes it his...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER IV. Against those wh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Tractates on John 1: Give good heed to what follows, brethren, \"All thi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER VII. That the Son is...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 51 verses. Commentary leans on \"Augustine of Hippo on Tractates on John 2: These, then, \"were born not of the will of the fle...\". Word-study detail reinforces \"μονογενὴς: the only begotten - only-born, i.e., sole\".",
+      "supportingVerses": [
+        4,
+        11,
+        12,
+        13,
+        21,
+        24,
+        26,
+        27,
+        28,
+        30,
+        47,
+        49,
+        51
+      ],
+      "versePhrases": {
+        "4": [
+          "In Him was life [and the power to bestow life],..."
+        ],
+        "11": [
+          "and those who were His own [people—the Jewish nation] did not receive and welcome Him"
+        ],
+        "12": [
+          "children of God"
+        ],
+        "13": [
+          "born",
+          "birth"
+        ],
+        "21": [
+          "They asked him, “What then"
+        ],
+        "24": [
+          "Now they had been sent from the Pharisees"
+        ],
+        "26": [
+          "John answered them, “I baptize [only] in water, but among..."
+        ],
+        "27": [
+          "It is He [the preeminent One] who comes after me,..."
+        ],
+        "28": [
+          "These things occurred in Bethany across the Jordan [at the..."
+        ],
+        "30": [
+          "This is He on behalf of whom I said, ‘After..."
+        ],
+        "47": [
+          "Jesus saw Nathanael coming toward Him, and said of him,..."
+        ],
+        "49": [
+          "Nathanael answered, “Rabbi (Teacher), You are the Son of God"
+        ],
+        "51": [
+          "Then He said to him, “I assure you and most..."
+        ]
+      },
+      "verseScores": {
+        "4": 92,
+        "11": 97,
+        "12": 148,
+        "13": 198,
+        "21": 75,
+        "24": 71,
+        "26": 84,
+        "27": 78,
+        "28": 53,
+        "30": 60,
+        "47": 67,
+        "49": 68,
+        "51": 73
+      },
+      "strengthScore": 469,
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Catena Aurea by Aquinas: (lib. lxxxiii. Quæst. q. 63) The Greek word \"l...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER IV. Against those wh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Hippolytus of Rome on Hippolytus Refutation of All Heresies Book V: The Phrygians, however, f...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Hilary of Poitiers on On the Trinity 2.20: Since then, all things were made through him, come...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "witness",
+      "label": "Witness/Testimony",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes witness, testimony, confession, and public declaration about who Jesus is. Local Strong’s word study and cross references data reinforce this reading across 51 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Then he is described by the dignity of his office. Firs...\". Cross references echo \"Witness\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        15,
+        19,
+        20,
+        23,
+        25,
+        29,
+        34
+      ],
+      "versePhrases": {
+        "6": [
+          "There came a man commissioned and sent from God, whose..."
+        ],
+        "7": [
+          "witness",
+          "testify"
+        ],
+        "8": [
+          "testify"
+        ],
+        "15": [
+          "cried out"
+        ],
+        "19": [
+          "testimony"
+        ],
+        "20": [
+          "And he confessed [truthfully] and did not deny [that he was only a man]"
+        ],
+        "23": [
+          "He said"
+        ],
+        "25": [
+          "They asked him, “Why then are you baptizing, if you..."
+        ],
+        "29": [
+          "The next day he saw Jesus coming to him and said"
+        ],
+        "34": [
+          "testimony"
+        ]
+      },
+      "verseScores": {
+        "6": 109,
+        "7": 176,
+        "8": 133,
+        "15": 118,
+        "19": 132,
+        "20": 111,
+        "23": 65,
+        "25": 67,
+        "29": 92,
+        "34": 133
+      },
+      "strengthScore": 462,
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER I. That Everlasting...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER IV. Against those wh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Hippolytus of Rome on Hippolytus Refutation of All Heresies Book V: For, says he, it is neces...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 2.128-32: Our Savior is said to be s...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 51 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Having explained the necessity for the Word's coming in...\". Word-study detail reinforces \"πατρός: the Father - a \"father\" (literally or figuratively, near or more remote)\".",
+      "supportingVerses": [
+        2,
+        10,
+        32,
+        33,
+        38,
+        39
+      ],
+      "versePhrases": {
+        "2": [
+          "He was [continually existing] in the beginning [co-eternally] with God"
+        ],
+        "10": [
+          "He (Christ) was in the world, and though the world..."
+        ],
+        "32": [
+          "with validity and relevance]"
+        ],
+        "33": [
+          "this One is He who baptizes with the Holy Spirit"
+        ],
+        "38": [
+          "And Jesus turned and saw them following Him, and asked..."
+        ],
+        "39": [
+          "” So they went [with Him] and saw where He was staying"
+        ]
+      },
+      "verseScores": {
+        "2": 76,
+        "10": 84,
+        "32": 122,
+        "33": 74,
+        "38": 160,
+        "39": 163
+      },
+      "strengthScore": 457,
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyprian on Treatise XII. Three Books of Testimonies Against the Jews.: That Christ is God. In...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER IV. Against those wh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Catena Aurea by Aquinas: (in loc.) The other Evangelists describe Christ as born in t...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER VI. That the Son is...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "revelation",
+      "label": "Revelation/Glory",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God being made known through Christ, with glory revealed rather than concealed. Local Strong’s word study and cross references data reinforce this reading across 51 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: 179 Having set forth the incarnation of the Word, the E...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        18,
+        31,
+        50
+      ],
+      "versePhrases": {
+        "18": [
+          "revealed"
+        ],
+        "31": [
+          "revealed"
+        ],
+        "50": [
+          "Jesus replied, “Because I said to you that I saw..."
+        ]
+      },
+      "verseScores": {
+        "18": 149,
+        "31": 88,
+        "50": 99
+      },
+      "strengthScore": 342,
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER III. That the Son is...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on John: Then he says, He was in the beginning with God. This is...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 1: CHAPTER V. That the Son is b...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ignatius of Antioch on Epistle of Pseudo-Ignatius to the Tarsians: Nor is He a mere man, by w...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 5,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:48:02.308Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"A third part of thee shall die with the pestilence, and with famine shall they be consumed in...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        8,
+        10,
+        12,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "8": [
+          "and I will execute judgments among you in the sight of the nations"
+        ],
+        "10": [
+          "and I will execute judgments on you and I will scatter to all the winds the remnant of you"
+        ],
+        "12": [
+          "One third of you will die of virulent disease or..."
+        ],
+        "13": [
+          "wrath"
+        ],
+        "15": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Jeremiah 21:5",
+          "anchorVerse": 8,
+          "referenceLabel": "Jeremiah 21:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Therefore thus saith the Lord GOD; Behold, I, even I, am against thee, and will execute judgm...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Ezekiel 36:19",
+          "anchorVerse": 10,
+          "referenceLabel": "Ezekiel 36:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Therefore the fathers shall eat the sons in the midst of thee, and the sons shall eat their f...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And she hath changed my judgments into wickedness more than the nations, and my statutes more...\". Word-study detail reinforces \"וְחֻקּוֹתַ֖י: and my statutes - a statute\".",
+      "supportingVerses": [
+        6,
+        7
+      ],
+      "versePhrases": {
+        "6": [
+          "statutes",
+          "ordinances"
+        ],
+        "7": [
+          "kept",
+          "statutes",
+          "ordinances"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And she hath changed my judgments into wickedness more than the nations, and my statutes more...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Version 5 and following) Thus says the Lord God: This is Je...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וְחֻקּוֹתַ֖י: and my statutes - a statute",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Therefore thus saith the Lord GOD; Because ye multiplied more than the nations that are round...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 10.) Therefore, fathers will eat their sons in your m...\". Word-study detail reinforces \"לָר֔וּחַ: in the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhal...\".",
+      "supportingVerses": [
+        2,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "wind"
+        ],
+        "10": [
+          "and I will execute judgments on you and I will scatter to all the winds the remnant of you"
+        ],
+        "12": [
+          "and one third I will scatter to all the winds"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Thou shalt burn with fire a third part in the midst of the city, when the days of the siege a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 5, verses 1 onwards) And you, son of man, take for...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לָר֔וּחַ: in the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 10.) Therefore, fathers will eat their sons in your m...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"When I shall send upon them the evil arrows of famine, which shall be for their destruction,...\". Word-study detail reinforces \"לָֽחֶם׃: of bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "When I shall send upon them the evil arrows of famine, which shall be for their destruction,...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 16.) When I send the most destructive arrows of famin...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "לָֽחֶם׃: of bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

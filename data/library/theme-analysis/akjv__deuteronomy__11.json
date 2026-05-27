@@ -1,0 +1,322 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 11,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:20.791Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...\". Word-study detail reinforces \"תִּשְׁמְע֗וּ: if ye obey - to hear intelligently (often with implication of attention, obedie...\".",
+      "supportingVerses": [
+        1,
+        8,
+        13,
+        14,
+        22,
+        27,
+        28,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "keep",
+          "statutes"
+        ],
+        "8": [
+          "command",
+          "keep"
+        ],
+        "13": [
+          "command"
+        ],
+        "14": [
+          "that I will give you the rain of your land..."
+        ],
+        "22": [
+          "command",
+          "keep"
+        ],
+        "27": [
+          "obey",
+          "command"
+        ],
+        "28": [
+          "obey",
+          "command"
+        ],
+        "32": [
+          "statutes"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְחֻקֹּתָ֧יו: and his statutes - a statute",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The command 'Therefore shall ye keep all the commandments' connects obedience directly to cov...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מְצַוְּךָ֖: I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The stark choice: 'Behold, I set before you this day a blessing and a curse.' Moses presents...\". Word-study detail reinforces \"בְּרָכָ֖ה: a blessing - benediction; by implication prosperity\".",
+      "supportingVerses": [
+        11,
+        14,
+        26,
+        27,
+        29
+      ],
+      "versePhrases": {
+        "11": [
+          "but the land, whither ye go to possess it, is..."
+        ],
+        "14": [
+          "that I will give you the rain of your land..."
+        ],
+        "26": [
+          "blessing"
+        ],
+        "27": [
+          "blessing"
+        ],
+        "29": [
+          "blessing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Canaan is 'a land of hills and valleys, and drinketh water of the rain of heaven.' Unlike Egy...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on LETTER 46.2: All this Abraham undergoes that he may dwell in a land of promise wate...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The promise 'I will give you the rain of your land in his due season' establishes the rain-ob...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Paterius on EXPOSITION OF THE OLD AND NEW TESTAMENT, DEUTERONOMY 2: What do we understand her...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The purpose clause: 'that your days may be multiplied, and the days of your children, in the...\". Word-study detail reinforces \"הָאָ֙רֶץ֙: how the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        6,
+        14,
+        21
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "6": [
+          "earth"
+        ],
+        "14": [
+          "that I will give you the rain of your land..."
+        ],
+        "21": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The destruction of Pharaoh's army at the Red Sea ( Yam Suph , יַם־סוּף) represents the defini...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מֵ֤י: how he made the water - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The judgment on Dathan and Abiram (Numbers 16) demonstrated God's holiness and the seriousnes...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הָאָ֙רֶץ֙: how the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        13,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "13": [
+          "love"
+        ],
+        "22": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Deuteronomy 6:5",
+          "anchorVerse": 1,
+          "referenceLabel": "Deuteronomy 6:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Therefore thou shalt love the LORD thy God —The Hebrew ve'ahavta (וְאָהַבְתָּ֕) is a commandm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְאָ֣הַבְתָּ֔: Therefore thou shalt love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Deuteronomy 10:12",
+          "anchorVerse": 13,
+          "referenceLabel": "Deuteronomy 10:12"
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Moses provides geographic details: the mountains are 'beyond Jordan, by the way where the sun...\". Word-study detail reinforces \"הַיֹּשֵׁ֖ב: which dwell - properly, to sit down (specifically as judge. in ambush, in quiet);...\".",
+      "supportingVerses": [
+        29,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "29": [
+          "And it shall come to pass, when the Lord thy..."
+        ],
+        "30": [
+          "dwell"
+        ],
+        "31": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "Joshua 8:30-35 records fulfillment of this command after Ai's conquest. Shechem held historic...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "Moses provides geographic details: the mountains are 'beyond Jordan, by the way where the sun...",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "הַיֹּשֵׁ֖ב: which dwell - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The promise: 'There shall no man be able to stand before you.' This assures military invincib...\". Word-study detail reinforces \"וּמֽוֹרַאֲכֶ֜ם: of you and the dread - fear; by implication, a fearful thing or deed\".",
+      "supportingVerses": [
+        25
+      ],
+      "versePhrases": {
+        "25": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "The promise: 'There shall no man be able to stand before you.' This assures military invincib...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "וּמֽוֹרַאֲכֶ֜ם: of you and the dread - fear; by implication, a fearful thing or deed",
+          "anchorVerse": 25
+        }
+      ]
+    }
+  ]
+}

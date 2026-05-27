@@ -1,0 +1,84 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 20,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:24.938Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on Final conquests and giant slay...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "at the time when kings go out to battle"
+        ],
+        "2": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 11:1",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Samuel 11:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Final conquests and giant slay...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמְּלָכִ֗ים: that kings - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Final conquests and giant slay...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does Christ defeats spiritual giants (powers and principalities) teach you about Jesus C...\". Word-study detail reinforces \"וַיִּנְהַ֣ג: led forth - to drive forth (a person, an animal or chariot), also (from the pant...\".",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does Christ defeats spiritual giants (powers and principalities) teach you about Jesus C...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיִּנְהַ֣ג: led forth - to drive forth (a person, an animal or chariot), also (from the pant...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

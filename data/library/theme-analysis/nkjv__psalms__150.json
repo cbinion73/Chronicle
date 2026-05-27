@@ -1,0 +1,106 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 150,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:26.704Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"This verse begins the enumeration of instruments and reasons for praise: 'Praise him for his...\". Word-study detail reinforces \"עֻזּֽוֹ׃: of his power - strength in various applications (force, security, majesty, praise)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Praise"
+        ],
+        "2": [
+          "Praise"
+        ],
+        "3": [
+          "Praise"
+        ],
+        "4": [
+          "Praise"
+        ],
+        "5": [
+          "Praise"
+        ],
+        "6": [
+          "praise",
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The final psalm opens with location and imperative: 'Praise ye the LORD. Praise God in his sa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 150: \"Praise the Lord in His saints,\" that is, in t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "עֻזּֽוֹ׃: of his power - strength in various applications (force, security, majesty, praise)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse begins the enumeration of instruments and reasons for praise: 'Praise him for his...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The final verse of the Psalter, and the final verse of Scripture's book of praise, completes...\". Word-study detail reinforces \"הַ֭נְּשָׁמָה: Let every thing that hath breath - a puff, i.e., wind, angry or vital breath, d...\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "breath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The final verse of the Psalter, and the final verse of Scripture's book of praise, completes...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 150: And since to savour of the flesh is death, \"le...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַ֭נְּשָׁמָה: Let every thing that hath breath - a puff, i.e., wind, angry or vital breath, d...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

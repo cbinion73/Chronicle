@@ -1,0 +1,296 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 24,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:35.294Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"And Jehoiachin the king of Judah went out to the king of Babylon, he, and his mother, and his...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "King",
+          "reign"
+        ],
+        "5": [
+          "reign"
+        ],
+        "6": [
+          "king"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "10": [
+          "King"
+        ],
+        "11": [
+          "King"
+        ],
+        "12": [
+          "King",
+          "king",
+          "reign"
+        ],
+        "13": [
+          "king",
+          "King"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 25:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Jeremiah 25:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In his days Nebuchadnezzar king of Babylon came up, and Jehoiakim became his servant three ye...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Cyprian on Treatise IV. On the Lord's Prayer 25: Necessarily, too, the Lord gives us this adm...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Questions on the Book of Kings #30: \"And he carried away all Jerusalem, etc.\" [2 King...\".",
+      "supportingVerses": [
+        9,
+        13,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "9": [
+          "just"
+        ],
+        "13": [
+          "just"
+        ],
+        "14": [
+          "He deported all Jerusalem and all the commanders and all..."
+        ],
+        "19": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Bede on Questions on the Book of Kings #30: \"And he carried away all Jerusalem, etc.\" [2 King...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the king of Babylon made Mattaniah his father's brother king in his stead, and changed hi...\". Word-study detail reinforces \"מַתַּנְיָ֥ה: made Mattaniah - mattanjah, the name of ten israelites\".",
+      "supportingVerses": [
+        13,
+        17
+      ],
+      "versePhrases": {
+        "13": [
+          "made"
+        ],
+        "17": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And he carried out thence all the treasures of the house of the LORD, and the treasures of th...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "עָשָׂ֜ה: had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And the king of Babylon made Mattaniah his father's brother king in his stead, and changed hi...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "מַתַּנְיָ֥ה: made Mattaniah - mattanjah, the name of ten israelites",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"For through the anger of the LORD it came to pass in Jerusalem and Judah, until he had cast t...\". Word-study detail reinforces \"פָּנָ֑יו: from his presence - the face (as the part that turns); used in a great variety of a...\".",
+      "supportingVerses": [
+        3,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "presence"
+        ],
+        "20": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "For through the anger of the LORD it came to pass in Jerusalem and Judah, until he had cast t...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "פָּנָ֑יו: from his presence - the face (as the part that turns); used in a great variety of a...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does this passage reveal about God's character, particularly His justice, mercy, and fai...\". Word-study detail reinforces \"לִסְלֹֽחַ׃: not pardon - to forgive\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "forgive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לִסְלֹֽחַ׃: not pardon - to forgive",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"In what practical ways should this text shape contemporary Christian thinking about faithfuln...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyprian on Treatise IV. On the Lord's Prayer 25: Necessarily, too, the Lord gives us this adm...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

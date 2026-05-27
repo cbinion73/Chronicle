@@ -1,0 +1,251 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 2,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:01.574Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"No meat offering, which ye shall bring unto the LORD, shall be made with leaven: for ye shall...\". Word-study detail reinforces \"יֵֽעָשֶׂ֛ה: that is made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        16
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "3": [
+          "made"
+        ],
+        "7": [
+          "made"
+        ],
+        "8": [
+          "made"
+        ],
+        "9": [
+          "made"
+        ],
+        "10": [
+          "made"
+        ],
+        "11": [
+          "made"
+        ],
+        "16": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he shall bring it to Aaron's sons the priests: and he shall take thereout his handful of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אִשֵּׁ֛ה: to be an offering made by fire - properly, a burnt-offering; but occasionally of an...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מֵֽאִשֵּׁ֥י: made by fire - properly, a burnt-offering; but occasionally of any sacrifice",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        10
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "10": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 21:22",
+          "anchorVerse": 3,
+          "referenceLabel": "Leviticus 21:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קָֽדָשִׁ֖ים: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 2:3",
+          "anchorVerse": 10,
+          "referenceLabel": "Leviticus 2:3"
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision.",
+      "supportingVerses": [
+        9,
+        16
+      ],
+      "versePhrases": {
+        "9": [
+          "portion"
+        ],
+        "16": [
+          "portion"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        10
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "10": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 21:22",
+          "anchorVerse": 3,
+          "referenceLabel": "Leviticus 21:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קָֽדָשִׁ֖ים: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 2:3",
+          "anchorVerse": 10,
+          "referenceLabel": "Leviticus 2:3"
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And the remnant of the meat offering shall be Aaron's and his sons': it is a thing most holy...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Inferred",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And every oblation of thy meat offering shalt thou season with salt; neither shalt thou suffe...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "2 Chronicles 13:5",
+          "anchorVerse": 13,
+          "referenceLabel": "2 Chronicles 13:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And every oblation of thy meat offering shalt thou season with salt; neither shalt thou suffe...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "בְּרִ֣ית: of the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

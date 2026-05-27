@@ -1,0 +1,260 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 20,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:21.208Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"When thou comest nigh unto a city to fight against it, then proclaim peace unto it —Even in w...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "10": [
+          "peace"
+        ],
+        "11": [
+          "peace"
+        ],
+        "12": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Ephesians 2:17",
+          "anchorVerse": 10,
+          "referenceLabel": "Ephesians 2:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "When thou comest nigh unto a city to fight against it, then proclaim peace unto it —Even in w...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "לְשָׁלֽוֹם׃: peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) welf...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And it shall be, if it make thee answer of peace, and open unto thee, then it shall be, that...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Divine warfare: 'For the LORD your God is he that goeth with you, to fight for you against yo...\". Word-study detail reinforces \"וּנְתָנָ֛הּ: hath delivered - to give, used with greatest latitude of application (put, make,...\".",
+      "supportingVerses": [
+        4,
+        13,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "save"
+        ],
+        "13": [
+          "delivered"
+        ],
+        "16": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Divine warfare: 'For the LORD your God is he that goeth with you, to fight for you against yo...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לְהוֹשִׁ֥יעַ: to save - properly, to be open, wide or free, i.e., (by implication) to be safe...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And when the LORD thy God hath delivered it into thine hands, thou shalt smite every male the...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וּנְתָנָ֛הּ: hath delivered - to give, used with greatest latitude of application (put, make,...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The priest addresses troops before battle: 'Hear, O Israel, ye approach this day unto battle...\". Word-study detail reinforces \"תִּֽירְא֧וּ: fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        1,
+        3,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "afraid"
+        ],
+        "3": [
+          "fear"
+        ],
+        "8": [
+          "What man is there that is fearful and fainthearted? let him go and return unto his house"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "When thou goest out to battle against thine enemies, and seest horses, and chariots, and a pe...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תִירָ֖א: than thou be not afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The priest addresses troops before battle: 'Hear, O Israel, ye approach this day unto battle...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "תִּֽירְא֧וּ: fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"That they teach you not to do after all their abominations, which they have done unto their g...\". Word-study detail reinforces \"יְלַמְּד֤וּ: That they teach - properly, to goad, i.e., (by implication) to teach (the rod be...\".",
+      "supportingVerses": [
+        9,
+        18
+      ],
+      "versePhrases": {
+        "9": [
+          "lead"
+        ],
+        "18": [
+          "teach"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And it shall be, when the officers have made an end of speaking unto the people, that they sh...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "בְּרֹ֥אשׁ: to lead - the head (as most easily shaken), whether literal or figurative (in many...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "That they teach you not to do after all their abominations, which they have done unto their g...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "יְלַמְּד֤וּ: That they teach - properly, to goad, i.e., (by implication) to teach (the rod be...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And it shall be, when the officers have made an end of speaking unto the people, that they sh...\". Word-study detail reinforces \"כְּכַלֹּ֥ת: have made an end - to end, whether intransitive (to cease, be finished, perish) o...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "And it shall be, when the officers have made an end of speaking unto the people, that they sh...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "כְּכַלֹּ֥ת: have made an end - to end, whether intransitive (to cease, be finished, perish) o...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But of the cities of these people, which the LORD thy God doth give thee for an inheritance,...\". Word-study detail reinforces \"נַֽחֲלָ֑ה: thee for an inheritance - properly, something inherited, i.e., (abstractly) occupa...\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "But of the cities of these people, which the LORD thy God doth give thee for an inheritance,...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "נַֽחֲלָ֑ה: thee for an inheritance - properly, something inherited, i.e., (abstractly) occupa...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

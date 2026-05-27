@@ -1,0 +1,83 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 25,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:11.654Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Ezekiel: Chapter 25: And the word of the Lord came to me, saying: Son...\". Word-study detail reinforces \"וּנְתַתִּ֤יךָֽ: upon thee and will deliver - to give, used with greatest latitude of applicat...\".",
+      "supportingVerses": [
+        4,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "deliver"
+        ],
+        "7": [
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Ezekiel: Chapter 25: And the word of the Lord came to me, saying: Son...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְנָ֥תְנוּ: Behold therefore I will deliver - to give, used with greatest latitude of applica...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Ezekiel: Chapter 25: And the word of the Lord came to me, saying: Son...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וּנְתַתִּ֤יךָֽ: upon thee and will deliver - to give, used with greatest latitude of applicat...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Ezekiel: (Verse 8 onwards) This is what the Lord God says: Because Mo...\". Word-study detail reinforces \"צְבִ֗י: the glory - a gazelle (as beautiful)\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 8 onwards) This is what the Lord God says: Because Mo...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "צְבִ֗י: the glory - a gazelle (as beautiful)",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

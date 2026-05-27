@@ -1,0 +1,131 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 6,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:05.041Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What hath the wise more than the fool? (מַה־יּוֹתֵר לֶחָכָם מִן־הַכְּסִיל)—The Preacher's que...\". Word-study detail reinforces \"לֶחָכָ֖ם: For what hath the wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        7,
+        8
+      ],
+      "versePhrases": {
+        "7": [
+          "Everyone’s toil is for their mouth, yet their appetite is..."
+        ],
+        "8": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Ancient agrarian societies understood this verse viscerally—most labor was subsistence farmin...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"All man's toil is for his mouth, yet his wants are nev...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What hath the wise more than the fool? (מַה־יּוֹתֵר לֶחָכָם מִן־הַכְּסִיל)—The Preacher's que...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"All man's toil is for his mouth, yet his wants are nev...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The concept of 'rest' held deep significance in Israelite theology. The Sabbath rest commemor...\". Word-study detail reinforces \"נַ֥חַת: hath more rest - a descent, i.e., imposition, unfavorable (punishment) or favorable (...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The concept of 'rest' held deep significance in Israelite theology. The Sabbath rest commemor...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"There is an evil I have observed beneath the sun, and...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "נַ֥חַת: hath more rest - a descent, i.e., imposition, unfavorable (punishment) or favorable (...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Better is what the eyes see than what is imagined. Tha...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Ecclesiastes 1:14",
+          "anchorVerse": 9,
+          "referenceLabel": "Ecclesiastes 1:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Better is the sight of the eyes than the wandering of the desire (טוֹב מַרְאֵה עֵינַיִם מֵהֲל...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Better is what the eyes see than what is imagined. Tha...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "רֽוּחַ׃: of spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalati...",
+          "anchorVerse": 9
+        }
+      ]
+    }
+  ]
+}

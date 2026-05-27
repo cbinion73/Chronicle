@@ -1,0 +1,263 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 13,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:41.800Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Having shown how believers should observe justice tow...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        4,
+        8,
+        9,
+        10,
+        14
+      ],
+      "versePhrases": {
+        "4": [
+          "for he is God's servant for your good"
+        ],
+        "8": [
+          "love"
+        ],
+        "9": [
+          "love"
+        ],
+        "10": [
+          "Love",
+          "love"
+        ],
+        "14": [
+          "But put on the Lord Jesus Christ, and make no..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How do you reconcile government as 'avenger to execute wrath' with Jesus' command to love ene...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: The authorities are concerned for your safety. T...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Romans 13:10",
+          "anchorVerse": 8,
+          "referenceLabel": "Romans 13:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Owe no man any thing, but to love one another — Mēdeni mēden opheilete, ei mē to allēlous aga...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then, when he says, for rulers, he assigns the reason...\". Word-study detail reinforces \"φόβον: fear - alarm or fright\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "fear",
+          "terror"
+        ],
+        "4": [
+          "afraid"
+        ],
+        "5": [
+          "Therefore one must be in subjection, not only to avoid..."
+        ],
+        "7": [
+          "Pay to all what is owed to them"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For rulers are not a terror to good works, but to the evil — Hoi gar archontes ouk eisin phob...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then, when he says, for rulers, he assigns the reason...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "φόβος: a terror - alarm or fright",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For he is the minister of God to thee for good — Theou gar diakonos estin soi eis to agathon...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Fourth, he assigns the reason, saying: for he is God'...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "judgment"
+        ],
+        "3": [
+          "For rulers are not a terror to good conduct, but..."
+        ],
+        "4": [
+          "wrath"
+        ],
+        "5": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Whosoever therefore resisteth the power, resisteth the ordinance of God — Hōste ho antitassom...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Diodorus of Tarsus on PAULINE COMMENTARY FROM THE GREEK CHURCH: Those who disobey the king ha...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For rulers are not a terror to good works, but to the evil — Hoi gar archontes ouk eisin phob...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then, when he says, for rulers, he assigns the reason...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, the night is passed, but the day i...\". Word-study detail reinforces \"φωτός: of light - luminousness (in the widest application, natural or artificial, abstract or...\".",
+      "supportingVerses": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "Besides this you know the time, that the hour has..."
+        ],
+        "12": [
+          "light"
+        ],
+        "13": [
+          "Let us walk properly as in the daytime, not in..."
+        ],
+        "14": [
+          "But put on the Lord Jesus Christ, and make no..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How should Christians live in light of salvation being 'nearer' each day—with anxiety, urgenc...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 4: \"For blessed are those that have seen the Lord,...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The night is far spent, the day is at hand — Hē nyx proekopsen, hē de hēmera ēngiken (ἡ νὺξ π...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then when he says, the night is passed, but the day i...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thomas Aquinas on Commentary on Romans: After showing how man should behave in a pious manner...\". Word-study detail reinforces \"σωτηρία: salvation - rescue or safety (physically or morally)\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And that, knowing the time, that now it is high time to awake out of sleep — Kai touto eidote...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: After showing how man should behave in a pious manner...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "σωτηρία: salvation - rescue or safety (physically or morally)",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

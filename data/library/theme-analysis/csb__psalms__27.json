@@ -1,0 +1,317 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 27,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:59.223Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        9,
+        12,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "salvation"
+        ],
+        "2": [
+          "When evildoers came against me to devour my flesh, my..."
+        ],
+        "6": [
+          "Then my head will be high above my enemies around..."
+        ],
+        "9": [
+          "salvation"
+        ],
+        "12": [
+          "Do not give me over to the will of my..."
+        ],
+        "14": [
+          "Wait for the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Exodus 15:2",
+          "anchorVerse": 1,
+          "referenceLabel": "Exodus 15:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having presented the prayer, the Psalmis...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וְ֭יִשְׁעִי: and my salvation - liberty, deliverance, prosperity",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The promise 'And now shall mine head be lifted up above mine enemies round about me' anticipa...\". Word-study detail reinforces \"אָשִׁ֥ירָה: I will sing - to sing\".",
+      "supportingVerses": [
+        1,
+        4,
+        6,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord is my light and my salvation— whom should I fear? The Lord is the stronghold of my life— whom should I dread?"
+        ],
+        "4": [
+          "I have asked one thing from the Lord"
+        ],
+        "6": [
+          "sing"
+        ],
+        "14": [
+          "Wait for the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 27 is attributed to David, though the specific historical occasion is not identified in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having presented the prayer, the Psalmis...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Written during a time of danger (verses 2-3), this psalm reflects David's experience of findi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE PSALMS 27:4: Having enjoyed such beneficence, he is s...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"One thing I have asked.\" Above, the Psa...\". Word-study detail reinforces \"שִׁבְתִּ֣י: after that I may dwell - properly, to sit down (specifically as judge. in ambush,...\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord is my light and my salvation— whom should..."
+        ],
+        "2": [
+          "When evildoers came against me to devour my flesh, my..."
+        ],
+        "4": [
+          "dwell"
+        ],
+        "5": [
+          "For he will conceal me in his shelter in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having presented the prayer, the Psalmis...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David faced literal enemies seeking his death—Saul, Absalom, foreign nations. The language of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"When the wicked draw near to me.\" And b...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The confidence 'For in the time of trouble he shall hide me in his pavilion: in the secret of...\". Word-study detail reinforces \"בְּ֝צ֗וּר: upon a rock - properly, a cliff (or sharp rock, as compressed); generally, a rock...\".",
+      "supportingVerses": [
+        1,
+        3,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord is my light and my salvation— whom should..."
+        ],
+        "3": [
+          "still"
+        ],
+        "5": [
+          "For he will conceal me in his shelter in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what ways do you tend to rely on your own strength as a 'fortress' rather than taking refu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having presented the prayer, the Psalmis...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What 'hosts' and 'wars' threaten your peace that require supernatural confidence?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בוֹטֵֽחַ׃: against me in this will I be confident - properly, to hie for refuge (but not so p...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life...\". Word-study detail reinforces \"יִירָ֪א: shall not fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        1,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "fear"
+        ],
+        "3": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Having presented the prayer, the Psalmis...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אִירָ֑א: whom shall I fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The declaration 'Though an host should encamp against me, my heart shall not fear: though war...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "light"
+        ],
+        "3": [
+          "Though an army deploys against me, my heart will not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "John 8:12",
+          "anchorVerse": 1,
+          "referenceLabel": "John 8:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory of Nyssa on AGAINST EUNOMIUS 2:15: He is called a light by David, and from there the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אוֹרִ֣י: is my light - illumination or (concrete) luminary (in every sense, including lightni...",
+          "anchorVerse": 1
+        }
+      ]
+    }
+  ]
+}

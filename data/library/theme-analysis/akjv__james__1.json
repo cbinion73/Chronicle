@@ -1,0 +1,393 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "James",
+  "chapter": 1,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:16.648Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        12,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "12": [
+          "love"
+        ],
+        "16": [
+          "beloved"
+        ],
+        "19": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Romans 8:28",
+          "anchorVerse": 12,
+          "referenceLabel": "Romans 8:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: Blessed is the man who endures temptation, for w...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "ἀγαπῶσιν: to them that love - to love (in a social or moral sense)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on James: Religion seems to imply something more than fait...\". Word-study detail reinforces \"εὐπρέπεια: the grace - good suitableness, i.e., gracefulness\".",
+      "supportingVerses": [
+        5,
+        7,
+        11,
+        17,
+        20,
+        23,
+        24,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "5": [
+          "If any of you lack wisdom, let him ask of..."
+        ],
+        "7": [
+          "For let not that man think that he shall receive..."
+        ],
+        "11": [
+          "grace"
+        ],
+        "17": [
+          "Every good gift and every perfect gift is from above,..."
+        ],
+        "20": [
+          "for the wrath of man worketh not the righteousness of..."
+        ],
+        "23": [
+          "For if any be a hearer of the word, and..."
+        ],
+        "24": [
+          "for he beholdeth himself, and goeth his way, and straightway..."
+        ],
+        "25": [
+          "But whoso looketh into the perfect law of liberty, and..."
+        ],
+        "27": [
+          "Pure religion and undefiled before God and the Father is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraide...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on ON GRACE AND FREE WILL 24: What blessing will that man not possess who...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "For let not that man think that he shall receive any thing of the Lord. James issues a sober...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Oecumenius on Commentary on James: For let not that man think that he will receive anything f...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Oecumenius on Commentary on James: And if any man think himself to be religious not controlli...\". Word-study detail reinforces \"Ὥστε,: Wherefore - so too, i.e., thus therefore (in various relations of consecution, as follow)\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        12,
+        14,
+        19,
+        22,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "My brethren, count it all joy when ye fall into..."
+        ],
+        "4": [
+          "But let patience have her perfect work, that ye may..."
+        ],
+        "5": [
+          "If any of you lack wisdom, let him ask of..."
+        ],
+        "6": [
+          "But let him ask in faith, nothing wavering"
+        ],
+        "12": [
+          "Blessed is the man that endureth temptation"
+        ],
+        "14": [
+          "but every man is tempted, when he is drawn away..."
+        ],
+        "19": [
+          "Wherefore, my beloved brethren, let every man be swift to..."
+        ],
+        "22": [
+          "But be ye doers of the word, and not hearers..."
+        ],
+        "27": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "My brethren, count it all joy when ye fall into divers temptations. This startling command in...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "CS Lewis on The Problem of Pain, Ch. 6: We therefore agree with Aristotle that what is intrin...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἡγήσασθε: count it - to lead, i.e., command (with official authority); figuratively, to deem,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Which practices keep you surrendered while God finishes His sanctifying purpose?",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: If any of you lacks wisdom, let him ask of God,...\". Word-study detail reinforces \"σοφίας: wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        17,
+        19,
+        20,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "4": [
+          "But let patience have her perfect work, that ye may..."
+        ],
+        "5": [
+          "wisdom"
+        ],
+        "6": [
+          "But let him ask in faith, nothing wavering"
+        ],
+        "17": [
+          "Every good gift and every perfect gift is from above,..."
+        ],
+        "19": [
+          "Wherefore, my beloved brethren, let every man be swift to..."
+        ],
+        "20": [
+          "for the wrath of man worketh not the righteousness of..."
+        ],
+        "21": [
+          "Wherefore lay apart all filthiness and superfluity of naughtiness, and..."
+        ],
+        "23": [
+          "For if any be a hearer of the word, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "But let patience have her perfect work, that ye may be perfect and entire, wanting nothing. J...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Theophylact of Ohrid on Commentary on James: Note: the apostle did not say in the indicative...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraide...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: If any of you lacks wisdom, let him ask of God,...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Oecumenius on Commentary on James: Every good gift and every perfect gift is from above, comi...\". Word-study detail reinforces \"ἀληθείας: of truth - truth\".",
+      "supportingVerses": [
+        3,
+        6,
+        12,
+        15,
+        18,
+        27
+      ],
+      "versePhrases": {
+        "3": [
+          "knowing this, that the trying of your faith worketh patience"
+        ],
+        "6": [
+          "But let him ask in faith, nothing wavering"
+        ],
+        "12": [
+          "Blessed is the man that endureth temptation"
+        ],
+        "15": [
+          "Then when lust hath conceived, it bringeth forth sin"
+        ],
+        "18": [
+          "truth"
+        ],
+        "27": [
+          "Pure religion and undefiled before God and the Father is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Andreas of Caesarea on CATENA: When our Lord and God taught his disciples that they must pray...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "πίστεως: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the tru...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea dr...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "CS Lewis on Mere Christianity, Book 3, Chapter 11: Faith: There will come a moment when there...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea dr...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        3,
+        6,
+        8,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "My brethren, count it all joy when ye fall into..."
+        ],
+        "3": [
+          "faith"
+        ],
+        "6": [
+          "faith"
+        ],
+        "8": [
+          "A double minded man is unstable in all his ways"
+        ],
+        "12": [
+          "Blessed is the man that endureth temptation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "James's original readers faced severe persecution: economic discrimination, social ostracism,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Homilies on the Gospels 2.13: Nobody will take the disciples’ joy from them because,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "1 Peter 1:7",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Peter 1:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Knowing this, that the trying of your faith worketh patience. The participle ginōskontes (γιν...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

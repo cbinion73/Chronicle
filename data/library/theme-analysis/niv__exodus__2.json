@@ -1,0 +1,225 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 2,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:25.441Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And they said, An Egyptian delivered us out of the hand of the shepherds, and also drew water...\". Word-study detail reinforces \"הִצִּילָ֖נוּ: delivered - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        17,
+        19
+      ],
+      "versePhrases": {
+        "17": [
+          "rescue"
+        ],
+        "19": [
+          "“An Egyptian rescued us from the shepherds"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And the shepherds came and drove them away: but Moses stood up and helped them, and watered t...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "And they said, An Egyptian delivered us out of the hand of the shepherds, and also drew water...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "הִצִּילָ֖נוּ: delivered - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"John Chrysostom on HOMILIES ON HEBREWS 26.5: “By faith he forsook Egypt not fearing the wrath...\". Word-study detail reinforces \"וַיִּירָ֤א: feared - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "John Chrysostom on HOMILIES ON HEBREWS 26.5: “By faith he forsook Egypt not fearing the wrath...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וַיִּירָ֤א: feared - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou k...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Luke 12:14",
+          "anchorVerse": 14,
+          "referenceLabel": "Luke 12:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou k...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "John Chrysostom on HOMILIES ON HEBREWS 26.5: “By faith he forsook Egypt not fearing the wrath...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וְשֹׁפֵט֙: and a judge - to judge, i.e., pronounce sentence (for or against); by implication,...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Ambrose of Milan on On Paradise 15.75: Finally, the Hebrews who groaned in the labors of Egyp...\". Word-study detail reinforces \"מֶ֣לֶךְ: that the king - a king\".",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "And it came to pass in process of time, that the king of Egypt died: and the children of Isra...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "Ambrose of Milan on On Paradise 15.75: Finally, the Hebrews who groaned in the labors of Egyp...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "מֶ֣לֶךְ: that the king - a king",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Clement of Rome on Clement's First Letter to the Corinthians, Chapters 3-4: Every kind of hon...\". Word-study detail reinforces \"שָֽׂמְךָ֞: Who made - to put (used in a great variety of applications, literal, figurative, i...\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou k...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Clement of Rome on Clement's First Letter to the Corinthians, Chapters 3-4: Every kind of hon...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "שָֽׂמְךָ֞: Who made - to put (used in a great variety of applications, literal, figurative, i...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The Abrahamic covenant (Genesis 12, 15, 17) promised land, descendants, and blessing. Genesis...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        24
+      ],
+      "versePhrases": {
+        "24": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Psalms 105:42",
+          "anchorVerse": 24,
+          "referenceLabel": "Psalms 105:42"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "The Abrahamic covenant (Genesis 12, 15, 17) promised land, descendants, and blessing. Genesis...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "בְּרִית֔וֹ: his covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 24
+        }
+      ]
+    }
+  ]
+}

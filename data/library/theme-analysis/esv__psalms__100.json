@@ -1,0 +1,251 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 100,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:03.104Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "Know that the Lord"
+        ],
+        "4": [
+          "praise",
+          "thanks",
+          "thanksgiving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 100: \"Enter into His gates with confession\" [Psalm...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Worship",
+          "detail": "1 Chronicles 29:20",
+          "anchorVerse": 4,
+          "referenceLabel": "1 Chronicles 29:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"CS Lewis on The Problem of Pain, Ch. 3: Another type is the love of a man for a beast--a rela...\". Word-study detail reinforces \"חַסְדּ֑וֹ: his mercy - kindness; by implication (towards god) piety; rarely (by opposition) r...\".",
+      "supportingVerses": [
+        3,
+        5
+      ],
+      "versePhrases": {
+        "3": [
+          "Know that the Lord, he is God"
+        ],
+        "5": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The affirmation 'the LORD is God' was Israel's central confession, crystallized in the Shema:...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "CS Lewis on The Problem of Pain, Ch. 3: Another type is the love of a man for a beast--a rela...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For the LORD is good; his mercy is everlasting; and his truth endureth to all generations. Th...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חַסְדּ֑וֹ: his mercy - kindness; by implication (towards god) piety; rarely (by opposition) r...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 100: \"Jubilate,\" therefore, \"unto the Lord, all you...\". Word-study detail reinforces \"הָאָֽרֶץ׃: all ye lands - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "3": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 100: \"Jubilate,\" therefore, \"unto the Lord, all you...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָֽרֶץ׃: all ye lands - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Confessions 10.6: But what is my God? I put my question to the earth. I...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        4
+      ],
+      "versePhrases": {
+        "1": [
+          "Make a joyful noise to the Lord, all the earth"
+        ],
+        "4": [
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Make a joyful noise unto the LORD, all ye lands. This opening command initiates one of Script...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 100: \"Jubilate,\" therefore, \"unto the Lord, all you...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Psalms 96:2",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 96:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"For the LORD is good; his mercy is everlasting; and his truth endureth to all generations. Th...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For the LORD is good; his mercy is everlasting; and his truth endureth to all generations. Th...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"In ancient Israel, 'serving the LORD' involved both formal worship (sacrifices, festivals, Te...\". Word-study detail reinforces \"לְ֝פָנָ֗יו: before his presence - the face (as the part that turns); used in a great variety...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In ancient Israel, 'serving the LORD' involved both formal worship (sacrifices, festivals, Te...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 100: \"O serve the Lord with gladness\" [Psalm 100:2]...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לְ֝פָנָ֗יו: before his presence - the face (as the part that turns); used in a great variety...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

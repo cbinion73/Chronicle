@@ -1,0 +1,294 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 3,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:46.779Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The psalm's climactic confession begins with comprehensive truth: 'Salvation belongeth unto t...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "Many there be which say of my soul, There is..."
+        ],
+        "3": [
+          "But thou, O Lord, art a shield for me"
+        ],
+        "7": [
+          "save"
+        ],
+        "8": [
+          "Salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David voices the painful taunts of his enemies who mock his faith in God's deliverance. The H...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 3: \"Many rise up against me; many say unto my soul,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "יְֽשׁוּעָ֓תָה: There is no help - something saved, i.e., (abstractly) deliverance; hence, aid...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Following the description of multiplying enemies, verse 3 introduces decisive contrast: 'But...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Absalom's rebellion began with calculated subversion—standing at city gates, intercepting tho...\". Word-study detail reinforces \"צָרָ֑י: that trouble - a pebble (as in h6864)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "trouble"
+        ],
+        "2": [
+          "Many there be which say of my soul, There is..."
+        ],
+        "3": [
+          "But thou, O Lord, art a shield for me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Absalom's rebellion began with calculated subversion—standing at city gates, intercepting tho...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: The preceding Psalm showed the assault o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "צָרָ֑י: that trouble - a pebble (as in h6864)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "David voices the painful taunts of his enemies who mock his faith in God's deliverance. The H...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 3: \"With my voice have I cried unto the Lord\" [Psal...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        4,
+        7
+      ],
+      "versePhrases": {
+        "1": [
+          "Lord, how are they increased that trouble me"
+        ],
+        "4": [
+          "holy"
+        ],
+        "7": [
+          "Arise, O Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Absalom's rebellion began with calculated subversion—standing at city gates, intercepting tho...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: The preceding Psalm showed the assault o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 2:6",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 2:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "This verse records answered prayer: 'I cried unto the LORD with my voice' emphasizes vocal, a...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"I will not fear,\" th...\". Word-study detail reinforces \"אִ֭ירָא: I will not be afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "I laid me down and slept"
+        ],
+        "6": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "David's flight included nights in the wilderness, vulnerable to attack. Ancient assassination...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: There follows, \"I slept.\" Here he shows...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Faith triumphs over fear in this powerful declaration. Despite being surrounded by 'ten thous...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Then when he says, \"I will not fear,\" th...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Origen of Alexandria on SELECTIONS FROM THE PSALMS 3:4: Certainly, people place their glory i...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "glory"
+        ],
+        "4": [
+          "I cried unto the Lord with my voice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Isaiah 60:19",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 60:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "David fled Jerusalem with covered head—traditional sign of mourning and shame (2 Samuel 15:30...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Origen of Alexandria on SELECTIONS FROM THE PSALMS 3:4: Certainly, people place their glory i...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "כְּ֝בוֹדִ֗י: for me my glory - properly, weight, but only figuratively in a good sense, splen...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The psalm's climactic confession begins with comprehensive truth: 'Salvation belongeth unto t...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "blessing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Acts 3:26",
+          "anchorVerse": 8,
+          "referenceLabel": "Acts 3:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The psalm's climactic confession begins with comprehensive truth: 'Salvation belongeth unto t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Finally when he says, \"of the Lord,\" he...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בִרְכָתֶ֣ךָ: thy blessing - benediction; by implication prosperity",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

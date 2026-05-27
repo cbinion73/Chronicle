@@ -1,0 +1,184 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 6,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:55.348Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 8 verses. Commentary leans on \"The bride affirms with confidence: 'I am my beloved's, and my beloved is mine: he feedeth amo...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "2": [
+          "love"
+        ],
+        "3": [
+          "love"
+        ],
+        "4": [
+          "lovely as Jerusalem"
+        ],
+        "5": [
+          "Turn your eyes away from me, for they captivate me"
+        ],
+        "8": [
+          "There are sixty queens and eighty concubines and young women..."
+        ],
+        "9": [
+          "But my dove, my virtuous one, is unique"
+        ],
+        "12": [
+          "I didn’t know what was happening to me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Whither is thy beloved gone, O thou fairest among women? The daughters of Jerusalem respond t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Where has your beloved gone, etc.? The beloved is sa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "My beloved is gone down into his garden, to the beds of spices —the bride answers with confid...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: My beloved has gone down into his garden, etc. It is...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local cross references and verse commentary data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: The daughters saw her and acclaimed her most blessed...\".",
+      "supportingVerses": [
+        5,
+        9,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "Turn your eyes away from me, for they captivate me"
+        ],
+        "9": [
+          "sing"
+        ],
+        "10": [
+          "Who is this who shines like the dawn, as beautiful..."
+        ],
+        "13": [
+          "Come back, come back, Shulammite"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "In ancient Near Eastern culture, direct eye contact carried significant social and relational...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Gregory of Nyssa on HOMILIES ON THE SONG OF SONGS 15: A goat is honored because its thick coa...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The term 'dove' carried rich symbolism in Israel—purity, innocence, faithfulness, and the Hol...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on the Song of Songs: The daughters saw her and acclaimed her most blessed...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local cross references and verse commentary data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on On Isaac and the Soul 7.57: So he says to her, as if to one who is perfec...\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "with you"
+        ],
+        "2": [
+          "My love has gone down to his garden, to beds..."
+        ],
+        "5": [
+          "Turn your eyes away from me, for they captivate me"
+        ],
+        "13": [
+          "Come back, come back, Shulammite"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "When was the last time your testimony about Christ made someone say, 'I want to seek Him with...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Where has your beloved gone, etc.? The beloved is sa...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How can you cultivate your heart as a fragrant garden where Christ delights to dwell?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Song of Songs: My beloved has gone down into his garden, etc. It is...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

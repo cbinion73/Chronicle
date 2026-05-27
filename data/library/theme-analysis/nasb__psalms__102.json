@@ -1,0 +1,345 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 102,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:13.172Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 102: \"You, Lord, in the beginning hast laid the fou...\". Word-study detail reinforces \"אֶ֬רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        14,
+        15,
+        18,
+        19,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "14": [
+          "Surely Your servants take pleasure in her stones, And feel..."
+        ],
+        "15": [
+          "earth"
+        ],
+        "18": [
+          "created"
+        ],
+        "19": [
+          "earth"
+        ],
+        "25": [
+          "heavens",
+          "earth"
+        ],
+        "26": [
+          "Even they will perish, but You endure"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 102: Here therefore what says he? \"For your servant...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "עֲפָרָ֥הּ: the dust - dust (as powdered or gray); hence, clay, earth, mud",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 102: \"The heathen shall fear Your Name, O Lord; and...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "הָ֝אָ֗רֶץ: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Declaring God's name in Zion and His praise in Jerusalem centers on the covenant location whe...\". Word-study detail reinforces \"וּ֝תְהִלָּת֗וֹ: and his praise - laudation; specifically (concretely) a hymn\".",
+      "supportingVerses": [
+        15,
+        16,
+        18,
+        21,
+        22,
+        26
+      ],
+      "versePhrases": {
+        "15": [
+          "glory"
+        ],
+        "16": [
+          "glory"
+        ],
+        "18": [
+          "praise"
+        ],
+        "21": [
+          "praise"
+        ],
+        "22": [
+          "to serve the Lord"
+        ],
+        "26": [
+          "Even they will perish, but You endure"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The restoration of Zion will cause the nations (goyim) to fear God's name and kings to honor...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "כְּבוֹדֶֽךָ׃: thy glory - properly, weight, but only figuratively in a good sense, splendor o...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "God's building of Zion and appearing in glory represent His powerful intervention on behalf o...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 102: \"For the Lord shall build up Sion\" [Psalm 102:...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Hear my prayer, O LORD, and let my cry come unto thee. This opening plea introduces one of Sc...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        1,
+        2,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "prayer"
+        ],
+        "2": [
+          "On the day when I call answer me quickly"
+        ],
+        "17": [
+          "prayer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Hebrews 5:7",
+          "anchorVerse": 1,
+          "referenceLabel": "Hebrews 5:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Hear my prayer, O LORD, and let my cry come unto thee. This opening plea introduces one of Sc...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 102: \"Hear my prayer, O Lord: and let my crying com...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "תְפִלָּתִ֑י: A Prayer - intercession, supplication; by implication, a hymn",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 102: Look back to Adam, whence the human race sprun...\". Word-study detail reinforces \"לַחְמִֽי׃: my bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        2,
+        4,
+        9,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "Do not hide Your face from me on the day..."
+        ],
+        "4": [
+          "bread"
+        ],
+        "9": [
+          "bread"
+        ],
+        "26": [
+          "Even they will perish, but You endure"
+        ],
+        "27": [
+          "But You are the same, And Your years will not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The psalmist's desperate plea for God to hear and answer quickly reveals the intensity of his...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 102: \"Hear my prayer, O Lord: and let my crying com...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The heart 'smitten like grass' that withers evokes the biblical metaphor of human frailty (Ps...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 102: Look back to Adam, whence the human race sprun...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Hebrews: For unto which of the angels said he at any time, Thou art my Son, this day have I b...\".",
+      "supportingVerses": [
+        19,
+        24,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "19": [
+          "holy"
+        ],
+        "24": [
+          "I say, “My God, do not take me away in..."
+        ],
+        "26": [
+          "Even they will perish, but You endure"
+        ],
+        "27": [
+          "But You are the same, And Your years will not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Ancient Israelites generally viewed long life as a divine blessing and reward for righteousne...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Athanasius of Alexandria on DEFENSE OF HIS FLIGHT 15: Now as these things are written in the...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "The concept of creation's impermanence wasn't prominent in ancient Near Eastern thought, wher...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Hebrews: For unto which of the angels said he at any time, Thou art my Son, this day have I b...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Fulgentius of Ruspe on TO PETER ON THE FAITH 4:50: Hold most firmly and never doubt that the...\".",
+      "supportingVerses": [
+        19,
+        24,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "19": [
+          "holy"
+        ],
+        "24": [
+          "I say, “My God, do not take me away in..."
+        ],
+        "26": [
+          "Even they will perish, but You endure"
+        ],
+        "27": [
+          "But You are the same, And Your years will not..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Ancient Israelites generally viewed long life as a divine blessing and reward for righteousne...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 102: Let not therefore heretics flatter themselves...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "The concept of creation's impermanence wasn't prominent in ancient Near Eastern thought, wher...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "Fulgentius of Ruspe on TO PETER ON THE FAITH 4:50: Hold most firmly and never doubt that the...",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

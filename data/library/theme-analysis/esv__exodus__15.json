@@ -1,0 +1,316 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 15,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:52:54.415Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Moses' response to complaint: 'he cried unto the LORD.' Rather than defending himself or solv...\". Word-study detail reinforces \"אָֽרֶץ׃: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        8,
+        10,
+        12,
+        17,
+        19,
+        22,
+        25
+      ],
+      "versePhrases": {
+        "8": [
+          "waters"
+        ],
+        "10": [
+          "waters"
+        ],
+        "12": [
+          "earth"
+        ],
+        "17": [
+          "made"
+        ],
+        "19": [
+          "waters"
+        ],
+        "22": [
+          "made"
+        ],
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The means of victory: 'with the blast of thy nostrils' anthropomorphizes God's breath as wind...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מַ֔יִם: the waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The contrast: 'Thou didst blow with thy wind, the sea covered them.' God's single breath over...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "בְּמַ֖יִם: waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Miriam's responsive song, 'Sing ye to the LORD, for he hath triumphed gloriously; the horse a...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        11,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "sing"
+        ],
+        "2": [
+          "praise"
+        ],
+        "11": [
+          "O Lord"
+        ],
+        "20": [
+          "Then Miriam the prophetess, the sister of Aaron, took a..."
+        ],
+        "21": [
+          "Sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Exodus 15:21",
+          "anchorVerse": 1,
+          "referenceLabel": "Exodus 15:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Moses and Israel's immediate response to deliverance is worship—'Then sang Moses and the chil...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE SONG OF SONGS, PROLOGUE 4: As the perfect Bride of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אָשִׁ֤ירָה: I will sing - to sing",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The comparison to sinking lead emphasizes both weight and permanence. Unlike wood or bodies t...\". Word-study detail reinforces \"כַּֽעוֹפֶ֔רֶת: as lead - lead (from its dusty color)\".",
+      "supportingVerses": [
+        10,
+        13,
+        20
+      ],
+      "versePhrases": {
+        "10": [
+          "lead"
+        ],
+        "13": [
+          "led",
+          "guided"
+        ],
+        "20": [
+          "Then Miriam the prophetess, the sister of Aaron, took a..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The comparison to sinking lead emphasizes both weight and permanence. Unlike wood or bodies t...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Ambrose of Milan on On the Mysteries 3.12: Moses himself says in his song, “You sent your Spi...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "כַּֽעוֹפֶ֔רֶת: as lead - lead (from its dusty color)",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The transition to future perspective: 'Thou in thy mercy hast led forth the people which thou...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The prophetic vision: 'The people shall hear, and be afraid.' Surrounding nations would learn...\". Word-study detail reinforces \"יִרְגָּז֑וּן: and be afraid - to quiver (with any violent emotion, especially anger or fear)\".",
+      "supportingVerses": [
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "14": [
+          "The peoples have heard"
+        ],
+        "15": [
+          "dismayed"
+        ],
+        "16": [
+          "Terror"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The prophetic vision: 'The people shall hear, and be afraid.' Surrounding nations would learn...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "יִרְגָּז֑וּן: and be afraid - to quiver (with any violent emotion, especially anger or fear)",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "These nations were Israel's neighbors and future enemies. Edom descended from Esau, Moab from...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "נָמֹ֕גוּ: shall melt away - to melt, i.e., literally (to soften, flow down, disappear), or fi...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on SERMON 363.2: The enemy does not understand the power of the Lord’s sac...\".",
+      "supportingVerses": [
+        9,
+        13
+      ],
+      "versePhrases": {
+        "9": [
+          "The enemy said, ‘I will pursue, I will overtake, I..."
+        ],
+        "13": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This verse quotes the enemy's boast: 'I will pursue, I will overtake, I will divide the spoil...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on SERMON 363.2: The enemy does not understand the power of the Lord’s sac...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "How does recognizing redemption as God's 'mercy' rather than your merit affect your confidenc...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The transition to future perspective: 'Thou in thy mercy hast led forth the people which thou...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        2,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "salvation"
+        ],
+        "13": [
+          "“You have led in your steadfast love the people whom you have redeemed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Isaiah 12:2",
+          "anchorVerse": 2,
+          "referenceLabel": "Isaiah 12:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The declaration 'The LORD is my strength and song' makes God both the power for victory and t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לִֽישׁוּעָ֑ה: and he is become my salvation - something saved, i.e., (abstractly) deliverance...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The transition to future perspective: 'Thou in thy mercy hast led forth the people which thou...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

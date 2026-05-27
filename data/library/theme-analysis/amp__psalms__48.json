@@ -1,0 +1,318 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 48,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:48.265Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"It is founded.\" Here he commends the ci...\". Word-study detail reinforces \"אֶ֑רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        2,
+        3,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "earth"
+        ],
+        "3": [
+          "made"
+        ],
+        "10": [
+          "earth"
+        ],
+        "11": [
+          "Let Mount Zion be glad, Let the daughters of Judah..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In what sense is Jerusalem 'the joy of the whole earth'?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"It is founded.\" Here he commends the ci...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הָ֫אָ֥רֶץ: of the whole earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does God's praise reaching 'the ends of the earth' challenge narrow views of His concern?",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"According to your name, O God.\" Here th...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        5,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "5": [
+          "They saw it, then they were amazed"
+        ],
+        "10": [
+          "righteousness",
+          "justice"
+        ],
+        "11": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Zechariah 8:3",
+          "anchorVerse": 1,
+          "referenceLabel": "Zechariah 8:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Great is the LORD, and greatly to be praised in the city of our God, in the mountain of his h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 48: \"Great is the Lord, and greatly to be praised\"...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"They themselves seeing.\" Here he descri...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Great is the LORD, and greatly to be praised in the city of our God, in the mountain of his h...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "holy"
+        ],
+        "10": [
+          "righteousness"
+        ],
+        "11": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Zechariah 8:3",
+          "anchorVerse": 1,
+          "referenceLabel": "Zechariah 8:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Great is the LORD, and greatly to be praised in the city of our God, in the mountain of his h...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 48: \"Great is the Lord, and greatly to be praised\"...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "קָדְשֽׁוֹ׃: of his holiness - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist invited the nations...\". Word-study detail reinforces \"תְּ֭הִלָּתְךָ: so is thy praise - laudation; specifically (concretely) a hymn\".",
+      "supportingVerses": [
+        1,
+        3,
+        9,
+        10,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "and greatly to be praised"
+        ],
+        "3": [
+          "God, in her palaces, Has made Himself known as a..."
+        ],
+        "9": [
+          "We have thought of Your lovingkindness, O God, In the..."
+        ],
+        "10": [
+          "praise"
+        ],
+        "13": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What practical steps can we take to cultivate hearts that \"greatly praise\" rather than offer...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist invited the nations...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Jerusalem's palaces represented both political power and divine presence. The temple, God's p...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"God will be known in its houses.\" Here...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Theodoret of Cyrus on COMMENTARY ON THE PSALMS 48:7: Each generation has to pass on to the ne...\". Word-study detail reinforces \"יְנַהֲגֵ֣נוּ: he will be our guide - to drive forth (a person, an animal or chariot), also (f...\".",
+      "supportingVerses": [
+        8,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "8": [
+          "As we have heard, so have we seen In the..."
+        ],
+        "13": [
+          "Consider her ramparts, Go through her palaces, That you may..."
+        ],
+        "14": [
+          "guide"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "This verse emphasizes intergenerational faith: what parents taught about God's faithfulness,...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PSALMS 48:3: So what did he hear, and what did he see? T...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The purpose of the survey: 'Mark ye well her bulwarks, consider her palaces; that ye may tell...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Theodoret of Cyrus on COMMENTARY ON THE PSALMS 48:7: Each generation has to pass on to the ne...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"They themselves seeing.\" Here he descri...\". Word-study detail reinforces \"רְ֭עָדָה: Fear - a shudder\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "terror"
+        ],
+        "6": [
+          "Panic seized them there, And pain, as that of a..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "When the kings saw Zion, 'they marvelled; they were troubled, and hasted away.' Instead of co...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"They themselves seeing.\" Here he descri...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "נֶחְפָּֽזוּ׃: and hasted away - properly, to start up suddenly, i.e., (by implication) to has...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Fear gripped the kings: 'trembling took hold upon them there, and pain, as of a woman in trav...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

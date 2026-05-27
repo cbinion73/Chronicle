@@ -1,0 +1,418 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 65,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:22.349Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"The promise extends to labor and offspring: \"They shall not labour in vain, nor bring forth f...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        8,
+        9,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "8": [
+          "blessing"
+        ],
+        "9": [
+          "I will bring forth descendants from Jacob, and from Judah..."
+        ],
+        "14": [
+          "My servants will sing out of the joy of their..."
+        ],
+        "15": [
+          "You will leave your name for my chosen ones to..."
+        ],
+        "16": [
+          "oath",
+          "blessing"
+        ],
+        "17": [
+          "“See, I will create new heavens and a new earth"
+        ],
+        "18": [
+          "But be glad and rejoice forever in what I will..."
+        ],
+        "19": [
+          "I will rejoice over Jerusalem and take delight in my..."
+        ],
+        "20": [
+          "“Never again will there be in it an infant who..."
+        ],
+        "21": [
+          "They will build houses and dwell in them"
+        ],
+        "22": [
+          "No longer will they build houses and others live in..."
+        ],
+        "23": [
+          "for they will be a people blessed by the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "'Thus saith the LORD, As the new wine is found in the cluster, and one saith, Destroy it not;...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Isaiah: (V. 8) Thus says the Lord: Just as when a grain is found in t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בְרָכָ֖ה: it not for a blessing - benediction; by implication prosperity",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "'And I will bring forth a seed out of Jacob, and out of Judah an inheritor of my mountains: a...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 17, 18.) Because the former troubles have been forgott...\". Word-study detail reinforces \"וָאָ֣רֶץ: earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        16,
+        17,
+        18,
+        20,
+        25
+      ],
+      "versePhrases": {
+        "16": [
+          "Whoever invokes a blessing in the land will do so..."
+        ],
+        "17": [
+          "create",
+          "heavens",
+          "earth"
+        ],
+        "18": [
+          "create"
+        ],
+        "20": [
+          "“Never again will there be in it an infant who..."
+        ],
+        "25": [
+          "The wolf and the lamb will feed together, and the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The promise that 'he who blesseth himself in the earth shall bless himself in the God of trut...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Vers. 15, 16.) And you shall dismiss your name in the oath t...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "בָּאָ֔רֶץ: himself in the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "This prophetic declaration announces God's ultimate restoration project—complete cosmic renew...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The chapter culminates with reconciliation in creation: \"The wolf and the lamb shall feed tog...\". Word-study detail reinforces \"ע֗וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...\".",
+      "supportingVerses": [
+        8,
+        20,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "8": [
+          "still"
+        ],
+        "20": [
+          "“Never again will there be in it an infant who..."
+        ],
+        "24": [
+          "still"
+        ],
+        "25": [
+          "The wolf and the lamb will feed together, and the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Post-exilic life expectancy was far shorter than patriarchal ages (Genesis 5). The prophecy p...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Augustine of Hippo on City of God 20.21: It is usual for the prophets thus to mingle metaphor...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "ע֗וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Jerome on COMMENTARY ON ISAIAH 18:17: Through all of these events is demonstrated the change...",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Vers. 15, 16.) And you shall dismiss your name in the oath t...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        4,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "“I revealed myself to those who did not ask for..."
+        ],
+        "4": [
+          "who sit among the graves and spend their nights keeping..."
+        ],
+        "14": [
+          "My servants will sing out of the joy of their..."
+        ],
+        "15": [
+          "You will leave your name for my chosen ones to..."
+        ],
+        "16": [
+          "true"
+        ],
+        "17": [
+          "“See, I will create new heavens and a new earth"
+        ],
+        "18": [
+          "But be glad and rejoice forever in what I will..."
+        ],
+        "19": [
+          "I will rejoice over Jerusalem and take delight in my..."
+        ],
+        "20": [
+          "“Never again will there be in it an infant who..."
+        ],
+        "25": [
+          "The wolf and the lamb will feed together, and the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Necromancy was practiced in Canaan and strictly forbidden (Deuteronomy 18:10-12). Swine were...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on COMMENTARY ON ISAIAH 18:4, 6: But what is read in the Septuagint, namely, “to demon...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "This prophecy addressed the divided post-exilic community—some faithful, many compromising. I...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 13, 14.) Therefore, thus says the Lord God: Behold, my...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 13, 14.) Therefore, thus says the Lord God: Behold, my...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        5,
+        8,
+        11,
+        13,
+        14,
+        15,
+        18,
+        23,
+        25
+      ],
+      "versePhrases": {
+        "5": [
+          "who say, ‘Keep away"
+        ],
+        "8": [
+          "This is what the Lord says"
+        ],
+        "11": [
+          "holy"
+        ],
+        "13": [
+          "Therefore this is what the Sovereign Lord says"
+        ],
+        "14": [
+          "My servants will sing out of the joy of their hearts"
+        ],
+        "15": [
+          "You will leave your name for my chosen ones to..."
+        ],
+        "18": [
+          "But be glad and rejoice forever in what I will..."
+        ],
+        "23": [
+          "They will not labor in vain, nor will they bear..."
+        ],
+        "25": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does self-righteousness coexist with actual sin?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 4, 5.) Those who dwell in tombs and sleep in the temp...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Isaiah: (V. 8) Thus says the Lord: Just as when a grain is found in t...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "כֵּ֤ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 11, 12.) And you who have forsaken the Lord, and have...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        4,
+        5,
+        11,
+        14,
+        23,
+        25
+      ],
+      "versePhrases": {
+        "4": [
+          "and whose pots hold broth of impure meat"
+        ],
+        "5": [
+          "who say, ‘Keep away"
+        ],
+        "11": [
+          "holy"
+        ],
+        "14": [
+          "My servants will sing out of the joy of their..."
+        ],
+        "23": [
+          "They will not labor in vain, nor will they bear..."
+        ],
+        "25": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How do dietary laws represent larger principles of holiness?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 4, 5.) Those who dwell in tombs and sleep in the temp...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "'Which say, Stand by thyself, come not near to me; for I am holier than thou. These are a smo...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 4, 5.) Those who dwell in tombs and sleep in the temp...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

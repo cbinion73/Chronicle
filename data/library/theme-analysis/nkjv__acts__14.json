@@ -1,0 +1,214 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 14,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:44.677Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The same heard Paul speak —The crippled man's faith arose from hearing gospel proclamation, i...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        9,
+        18,
+        22,
+        23,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "9": [
+          "faith"
+        ],
+        "18": [
+          "And with these sayings they could scarcely restrain the multitudes..."
+        ],
+        "22": [
+          "faith"
+        ],
+        "23": [
+          "they commended them to the Lord in whom they had believed"
+        ],
+        "27": [
+          "faith"
+        ],
+        "28": [
+          "So they stayed there a long time with the disciples"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Matthew 15:28",
+          "anchorVerse": 9,
+          "referenceLabel": "Matthew 15:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The same heard Paul speak —The crippled man's faith arose from hearing gospel proclamation, i...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: \"And there sat a certain man at Lystra, impotent in his...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "πίστιν: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Irenaeus on Against Heresies Book 3: And again, at Lystra of Lycia (Lycaonia), when Paul was...\". Word-study detail reinforces \"γῆν: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...\".",
+      "supportingVerses": [
+        2,
+        5,
+        15,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "But the unbelieving Jews stirred up the Gentiles and poisoned..."
+        ],
+        "5": [
+          "made"
+        ],
+        "15": [
+          "made",
+          "earth"
+        ],
+        "21": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The unbelieving Jews stirred up the Gentiles —The Greek ēgeiran (stirred up) suggests deliber...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: \"Made their minds evil-affected,\" it says, \"against the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "An assault made... to use them despitefully, and to stone them —The Greek hormē (assault) sug...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Cassiodorus on Complexiones on the Acts of the Apostles: \"And when there was an assault made...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thence sailed to Antioch, from whence they had been recommended to the grace of God for the w...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        3,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "grace"
+        ],
+        "26": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Acts 20:32",
+          "anchorVerse": 3,
+          "referenceLabel": "Acts 20:32"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 30: And see how on all occasions he refers all to God. \"Lon...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "χάριτος: grace - graciousness (as gratifying), of manner or act (abstract or concrete; litera...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Acts 15:40",
+          "anchorVerse": 26,
+          "referenceLabel": "Acts 15:40"
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Theophylact of Ohrid on Commentary on Acts: \"Through many tribulations we must enter the King...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        22
+      ],
+      "versePhrases": {
+        "22": [
+          "kingdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Peter 1:11",
+          "anchorVerse": 22,
+          "referenceLabel": "2 Peter 1:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Paul's message 'we must through much tribulation enter into the kingdom of God' presents suff...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: \"Through many tribulations we must enter the King...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "βασιλείαν: the kingdom - properly, royalty, i.e., (abstractly) rule, or (concretely) a realm...",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

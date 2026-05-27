@@ -1,0 +1,306 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 4,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:34.926Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Better is a poor but wise youth, than an old and fooli...\". Word-study detail reinforces \"וְחָכָ֑ם: and a wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "5": [
+          "The fool folds his hands [together] and consumes his own..."
+        ],
+        "6": [
+          "One hand full of rest and patience is better than..."
+        ],
+        "7": [
+          "Then I looked again at vanity under the sun [in..."
+        ],
+        "13": [
+          "wise",
+          "counsel",
+          "instruction"
+        ],
+        "14": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Agricultural societies required consistent labor for survival—planting, tending, harvesting d...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrose of Milan on Letters 51-60 (Letter to Bishop Sabinus): Let one who still doubts hear t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient agrarian society pressured people toward endless accumulation for security against fa...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Evagrius Ponticus on SCHOLIA ON ECCLESIASTES 27:4.6: The “chasing after wind,” I believe, ref...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"There is no end of all the people (אֵין קֵץ לְכָל־הָעָם, ein qets lekhol-ha'am )—'no limit to...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        4,
+        6,
+        12,
+        13,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "wind"
+        ],
+        "6": [
+          "wind"
+        ],
+        "12": [
+          "And though one can overpower him who is alone, two..."
+        ],
+        "13": [
+          "A poor yet wise youth is better than an old..."
+        ],
+        "16": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Ecclesiastes 1:14",
+          "anchorVerse": 4,
+          "referenceLabel": "Ecclesiastes 1:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Again, I considered all travail, and every right work —the Preacher examines amal (עָמָל, lab...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"And I saw that all labour and skilful enterprise sprin...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "רֽוּחַ׃: of spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalati...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The Preacher offers striking wisdom: 'Better is an handful with quietness, than both the hand...\". Word-study detail reinforces \"יִשְׁכְּב֥וּ: lie together - to lie down (for rest, sexual connection, decease or any other p...\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "comfort"
+        ],
+        "2": [
+          "still"
+        ],
+        "6": [
+          "rest"
+        ],
+        "11": [
+          "Again, if two lie down together, then they keep warm"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "I returned, and considered all the oppressions that are done under the sun —the Preacher turn...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory of Neocaesarea: And leaving all these reflections, I considered and turned in aversio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Wherefore I praised the dead which are already dead more than the living which are yet alive...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"So I consider more fortunate the dead, who have alread...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Better is a poor but wise youth, than an old and fooli...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "13": [
+          "king"
+        ],
+        "14": [
+          "kingdom",
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "There is no end to all the people"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 25:16",
+          "anchorVerse": 13,
+          "referenceLabel": "2 Chronicles 25:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Better is a poor and a wise child (טוֹב יֶלֶד מִסְכֵּן וְחָכָם, tov yeled misken ve-chakam )—...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Better is a poor but wise youth, than an old and fooli...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "מִמֶּ֤לֶךְ: king - a king",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Better is a poor but wise youth, than an old and fooli...\".",
+      "supportingVerses": [
+        13,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "13": [
+          "counsel"
+        ],
+        "15": [
+          "I have seen all the living under the sun join..."
+        ],
+        "16": [
+          "There is no end to all the people"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "This may allude to specific historical figures—some suggest Rehoboam (Solomon's son who rejec...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Better is a poor but wise youth, than an old and fooli...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "What does the recurring pattern of generational replacement teach about seeking lasting legacy?",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Better is a poor but wise youth, than an old and fooli...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Two are better than one, for they get a greater return...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Two are better than one, for they get a greater return...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

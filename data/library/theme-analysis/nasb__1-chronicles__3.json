@@ -1,0 +1,58 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 3,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:24.211Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The fifth, Shephatiah of Abital: the sixth, Ithream by Eglah his wife —these were David's son...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        4
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "3": [
+          "the fifth was Shephatiah, by Abital"
+        ],
+        "4": [
+          "and he reigned there for seven years and six months"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Genealogical Significance: This verse appears within the Davidic royal succession section of...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The fifth, Shephatiah of Abital: the sixth, Ithream by Eglah his wife —these were David's son...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "לַֽאֲבִיטָ֑ל: of Abital - abital, a wife of king david",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

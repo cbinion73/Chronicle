@@ -1,0 +1,337 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 21,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:45.445Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        11,
+        13,
+        17,
+        18,
+        19,
+        23,
+        24,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "13": [
+          "I will stretch out over Jerusalem the measuring line used..."
+        ],
+        "17": [
+          "reign"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ],
+        "24": [
+          "King",
+          "king"
+        ],
+        "25": [
+          "reign"
+        ],
+        "26": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Manasseh was twelve years old when he began to reign, and reigned fifty and five years in Jer...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֖ךְ: and reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For he built up again the high places which Hezekiah his father had destroyed; and he reared...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...\". Word-study detail reinforces \"יֹֽאשִׁיָּ֥הוּ: made Josiah - joshijah, the name of two israelites\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        11,
+        16,
+        24
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "6": [
+          "He sacrificed his own son in the fire, practiced divination,..."
+        ],
+        "7": [
+          "made"
+        ],
+        "11": [
+          "“Manasseh king of Judah has committed these detestable sins"
+        ],
+        "16": [
+          "Moreover, Manasseh also shed so much innocent blood that he..."
+        ],
+        "24": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For he built up again the high places which Hezekiah his father had destroyed; and he reared...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "עָשָׂ֗ה: and made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And he made his son pass through the fire, and observed times, and used enchantments, and dea...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"And the LORD spake by his servants the prophets, saying, This verse contributes to the overal...\". Word-study detail reinforces \"נַֽחֲלָתִ֔י: of mine inheritance - properly, something inherited, i.e., (abstractly) occupanc...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "Manasseh was twelve years old when he became king, and..."
+        ],
+        "2": [
+          "He did evil in the eyes of the Lord, following..."
+        ],
+        "3": [
+          "He rebuilt the high places his father Hezekiah had destroyed"
+        ],
+        "4": [
+          "He built altars in the temple of the Lord, of..."
+        ],
+        "5": [
+          "In the two courts of the temple of the Lord,..."
+        ],
+        "6": [
+          "He sacrificed his own son in the fire, practiced divination,..."
+        ],
+        "7": [
+          "He took the carved Asherah pole he had made and..."
+        ],
+        "8": [
+          "I will not again make the feet of the Israelites..."
+        ],
+        "9": [
+          "But the people did not listen"
+        ],
+        "10": [
+          "The Lord said through his servants the prophets"
+        ],
+        "11": [
+          "“Manasseh king of Judah has committed these detestable sins"
+        ],
+        "12": [
+          "Therefore this is what the Lord, the God of Israel,..."
+        ],
+        "13": [
+          "I will stretch out over Jerusalem the measuring line used..."
+        ],
+        "14": [
+          "inheritance"
+        ],
+        "15": [
+          "they have done evil in my eyes and have aroused..."
+        ],
+        "16": [
+          "Moreover, Manasseh also shed so much innocent blood that he..."
+        ],
+        "17": [
+          "As for the other events of Manasseh’s reign, and all..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he did that which was evil in the sight of the LORD, after the abominations of the heathe...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"In what practical ways should this text shape contemporary Christian thinking about faithfuln...\". Word-study detail reinforces \"שָׁמֵ֑עוּ: But they hearkened - to hear intelligently (often with implication of attention, o...\".",
+      "supportingVerses": [
+        8,
+        9,
+        12,
+        22
+      ],
+      "versePhrases": {
+        "8": [
+          "keep"
+        ],
+        "9": [
+          "But the people did not listen"
+        ],
+        "12": [
+          "Therefore this is what the Lord, the God of Israel,..."
+        ],
+        "22": [
+          "obedience"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Apostolic Constitutions on CONSTITUTIONS OF THE HOLY APOSTLES 2.22: For it is written thus in...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"וַיַּֽחֲטִ֥א: also to sin - properly, to miss; hence (figuratively and generally) to sin; by...\".",
+      "supportingVerses": [
+        9,
+        11
+      ],
+      "versePhrases": {
+        "9": [
+          "led"
+        ],
+        "11": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וַיַּֽחֲטִ֥א: also to sin - properly, to miss; hence (figuratively and generally) to sin; by...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

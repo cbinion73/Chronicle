@@ -1,0 +1,432 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Timothy",
+  "chapter": 1,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:32.980Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"John Chrysostom on Homily on 2 Timothy 1: \"To Timothy, my dearly beloved son.\" Not merely his...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        2,
+        7,
+        10,
+        13,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "loved"
+        ],
+        "7": [
+          "love"
+        ],
+        "10": [
+          "This has now been made evident through the appearing of..."
+        ],
+        "13": [
+          "love"
+        ],
+        "16": [
+          "May the Lord grant mercy to the household of Onesiphorus,..."
+        ],
+        "17": [
+          "On the contrary, when he was in Rome, he diligently..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Je...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 2 Timothy 1: \"To Timothy, my dearly beloved son.\" Not merely his...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἀγαπητῷ: my dearly beloved - beloved",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 John 4:18",
+          "anchorVerse": 7,
+          "referenceLabel": "1 John 4:18"
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Timothy: Then when he says, the Lord gives mercy to the hou...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        6,
+        9,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "Grace",
+          "mercy"
+        ],
+        "6": [
+          "Therefore, I remind you to rekindle the gift of God..."
+        ],
+        "9": [
+          "grace"
+        ],
+        "16": [
+          "mercy"
+        ],
+        "18": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 Timothy 2:1",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Timothy 2:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Je...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on COMMENTARY ON 2 TIMOTHY: To Timothy, my beloved child: Grace, mercy, and peace...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἔλεος: mercy - compassion (human or divine, especially active)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Timothy: Then when he says, God has not given us the spirit...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        6,
+        7,
+        14
+      ],
+      "versePhrases": {
+        "6": [
+          "Therefore, I remind you to rekindle the gift of God..."
+        ],
+        "7": [
+          "spirit"
+        ],
+        "14": [
+          "Spirit",
+          "Holy Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Wherefore I put thee in remembrance that thou stir up the gift of God, which is in thee by th...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 2 Timothy: Since, he says, I know that you have an unfe...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Romans 8:15",
+          "anchorVerse": 7,
+          "referenceLabel": "Romans 8:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind....",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy gran...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle of Christ Jesus by God’s will, for..."
+        ],
+        "2": [
+          "To Timothy, my dearly loved son"
+        ],
+        "3": [
+          "I thank God, whom I serve with a clear conscience..."
+        ],
+        "5": [
+          "faith"
+        ],
+        "6": [
+          "Therefore, I remind you to rekindle the gift of God..."
+        ],
+        "9": [
+          "He has saved us and called us with a holy..."
+        ],
+        "10": [
+          "This has now been made evident through the appearing of..."
+        ],
+        "11": [
+          "For this gospel I was appointed a herald, apostle, and..."
+        ],
+        "12": [
+          "because I know whom I have believed and am persuaded that he is able to guard what has been entrusted to me until that day"
+        ],
+        "13": [
+          "faith"
+        ],
+        "14": [
+          "Guard the good deposit through the Holy Spirit who lives..."
+        ],
+        "15": [
+          "You know that all those in the province of Asia..."
+        ],
+        "17": [
+          "On the contrary, when he was in Rome, he diligently..."
+        ],
+        "18": [
+          "May the Lord grant that he obtain mercy from him..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does \"the promise of life in Christ Jesus\" mean practically for your daily living and ul...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 2 Timothy 1: What is the reason of his writing this second Epist...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Who are the spiritual fathers or mothers who have shaped your faith, and whom are you intenti...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 2 Timothy 1: What is the reason of his writing this second Epist...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be th...\". Word-study detail reinforces \"κῆρυξ: a preacher - a herald, i.e., of divine truth (especially of the gospel)\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "I recall your sincere faith that first lived in your..."
+        ],
+        "7": [
+          "For God has not given us a spirit of fear,..."
+        ],
+        "8": [
+          "testimony"
+        ],
+        "10": [
+          "This has now been made evident through the appearing of..."
+        ],
+        "11": [
+          "For this gospel I was appointed a herald, apostle, and..."
+        ],
+        "12": [
+          "and that is why I suffer these things"
+        ],
+        "13": [
+          "Hold on to the pattern of sound teaching that you..."
+        ],
+        "14": [
+          "Guard the good deposit through the Holy Spirit who lives..."
+        ],
+        "15": [
+          "You know that all those in the province of Asia..."
+        ],
+        "16": [
+          "May the Lord grant mercy to the household of Onesiphorus,..."
+        ],
+        "18": [
+          "May the Lord grant that he obtain mercy from him..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy gran...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 2 Timothy 1: \"When I call to remembrance the unfeigned faith tha...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "πίστεως: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the tru...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "In what areas do you need to repent of cowardice that chooses comfort and safety over faithfu...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 2 Timothy: Many wretched people, judging by human notio...\". Word-study detail reinforces \"συγκακοπάθησον: be thou partaker of the afflictions - to suffer hardship in company with\".",
+      "supportingVerses": [
+        2,
+        4,
+        7,
+        8,
+        9,
+        11,
+        12,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "To Timothy, my dearly loved son"
+        ],
+        "4": [
+          "Remembering your tears, I long to see you so that..."
+        ],
+        "7": [
+          "For God has not given us a spirit of fear,..."
+        ],
+        "8": [
+          "suffering"
+        ],
+        "9": [
+          "He has saved us and called us with a holy..."
+        ],
+        "11": [
+          "For this gospel I was appointed a herald, apostle, and..."
+        ],
+        "12": [
+          "suffer"
+        ],
+        "16": [
+          "May the Lord grant mercy to the household of Onesiphorus,..."
+        ],
+        "17": [
+          "On the contrary, when he was in Rome, he diligently..."
+        ],
+        "18": [
+          "May the Lord grant that he obtain mercy from him..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Je...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 2 Timothy 1: What is the reason of his writing this second Epist...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Greatly desiring to see thee, being mindful of thy tears, that I may be filled with joy. Paul...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Oecumenius on COMMENTARY ON 2 TIMOTHY: I give thanks to God, whom I have served from my ances...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

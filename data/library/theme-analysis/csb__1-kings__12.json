@@ -1,0 +1,413 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Kings",
+  "chapter": 12,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:33.139Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 18 verses. Commentary leans on \"Then king Rehoboam sent Adoram, who was over the tribute; and all Israel stoned him with ston...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "King"
+        ],
+        "3": [
+          "But they summoned him, and Jeroboam and the whole assembly..."
+        ],
+        "6": [
+          "King"
+        ],
+        "12": [
+          "king"
+        ],
+        "13": [
+          "king"
+        ],
+        "14": [
+          "and spoke to them according to the young men’s advice"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "but Rehoboam reigned over the Israelites living in the cities of Judah"
+        ],
+        "18": [
+          "King"
+        ],
+        "20": [
+          "king"
+        ],
+        "21": [
+          "kingdom"
+        ],
+        "23": [
+          "king"
+        ],
+        "25": [
+          "Jeroboam built Shechem in the hill country of Ephraim and..."
+        ],
+        "26": [
+          "kingdom"
+        ],
+        "27": [
+          "King",
+          "king"
+        ],
+        "28": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Judges 9:6",
+          "anchorVerse": 1,
+          "referenceLabel": "Judges 9:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And Rehoboam went to Shechem: for all Israel were come to Shechem to make him king. This vers...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהַמְלִ֥יךְ: to make him king - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 11:40",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 11:40"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"And he made an house of high places, and made priests of the lowest of the people, which were...\". Word-study detail reinforces \"מֵאֶ֥רֶץ: out of the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        10,
+        14,
+        18,
+        20,
+        25,
+        28,
+        31,
+        32,
+        33
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "10": [
+          "made"
+        ],
+        "14": [
+          "made"
+        ],
+        "18": [
+          "Then King Rehoboam sent Adoram, who was in charge of..."
+        ],
+        "20": [
+          "made"
+        ],
+        "25": [
+          "Jeroboam built Shechem in the hill country of Ephraim and..."
+        ],
+        "28": [
+          "made"
+        ],
+        "31": [
+          "made"
+        ],
+        "32": [
+          "made"
+        ],
+        "33": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "הָקֵל֩: upon us lighter - to be (causatively, make) light, literally (swift, small, sharp, et...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "הָקֵ֣ל: but make thou it lighter - to be (causatively, make) light, literally (swift, small,...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"How can leaders today avoid Rehoboam's mistakes and lead with wisdom rather than pride?\". Word-study detail reinforces \"עֲצַ֥ת: counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        1,
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        25,
+        28,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "Then Rehoboam went to Shechem, for all Israel had gone..."
+        ],
+        "8": [
+          "But he rejected the advice of the elders who had..."
+        ],
+        "9": [
+          "He asked them, “What message do you advise that we..."
+        ],
+        "13": [
+          "Then the king answered the people harshly"
+        ],
+        "14": [
+          "and spoke to them according to the young men’s advice"
+        ],
+        "15": [
+          "The king did not listen to the people, because this..."
+        ],
+        "16": [
+          "When all Israel saw that the king had not listened..."
+        ],
+        "17": [
+          "but Rehoboam reigned over the Israelites living in the cities..."
+        ],
+        "20": [
+          "When all Israel heard that Jeroboam had come back, they..."
+        ],
+        "25": [
+          "Jeroboam built Shechem in the hill country of Ephraim and..."
+        ],
+        "28": [
+          "So the king sought advice"
+        ],
+        "30": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How can leaders today avoid Rehoboam's mistakes and lead with wisdom rather than pride?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהַמְלִ֥יךְ: to make him king - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How can leaders today avoid Rehoboam's mistakes and lead with wisdom rather than pride?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "עֲצַ֥ת: the counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        2,
+        10,
+        16,
+        20,
+        23,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "presence"
+        ],
+        "10": [
+          "The young men who had grown up with him told him"
+        ],
+        "16": [
+          "When all Israel saw that the king had not listened..."
+        ],
+        "20": [
+          "When all Israel heard that Jeroboam had come back, they..."
+        ],
+        "23": [
+          "“Say to Rehoboam son of Solomon, king of Judah, to..."
+        ],
+        "27": [
+          "If these people regularly go to offer sacrifices in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וַיֵּ֥שֶׁב: dwelt - properly, to sit down (specifically as judge. in ambush, in quiet); by im...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "First Kings was written during or after the Babylonian exile (6th century BCE), reflecting on...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "אֵלָ֗יו: - near, with or among; often in general, to",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"So when all Israel saw that the king hearkened not unto them, the people answered the king, s...\". Word-study detail reinforces \"נַחֲלָ֣ה: neither have we inheritance - properly, something inherited, i.e., (abstractly) occ...\".",
+      "supportingVerses": [
+        16,
+        28,
+        30
+      ],
+      "versePhrases": {
+        "16": [
+          "inheritance"
+        ],
+        "28": [
+          "So the king sought advice"
+        ],
+        "30": [
+          "This led to sin"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "So when all Israel saw that the king hearkened not unto them, the people answered the king, s...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Ambrose of Milan on On the Duties of the Clergy 2.18.93-94: Justice, then, especially graces...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "נַחֲלָ֣ה: neither have we inheritance - properly, something inherited, i.e., (abstractly) occ...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "Whereupon the king took counsel, and made two calves of gold, and said unto them, It is too m...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses.",
+      "supportingVerses": [
+        19,
+        23
+      ],
+      "versePhrases": {
+        "19": [
+          "still"
+        ],
+        "23": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

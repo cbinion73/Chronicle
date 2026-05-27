@@ -1,0 +1,439 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 104,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:12.637Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 22 verses. Commentary leans on \"Augustine of Hippo on SERMON 223A.1: This Word, through which heaven and earth were made, thi...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        19,
+        20,
+        24,
+        26,
+        29,
+        30,
+        31,
+        32,
+        35
+      ],
+      "versePhrases": {
+        "1": [
+          "Bless and affectionately praise the Lord, O my soul"
+        ],
+        "2": [
+          "heavens",
+          "light"
+        ],
+        "3": [
+          "waters"
+        ],
+        "4": [
+          "Who makes winds His messengers, Flames of fire His ministers"
+        ],
+        "5": [
+          "earth"
+        ],
+        "6": [
+          "waters"
+        ],
+        "7": [
+          "At Your rebuke they fled"
+        ],
+        "8": [
+          "The mountains rose, the valleys sank down To the place..."
+        ],
+        "9": [
+          "earth",
+          "waters"
+        ],
+        "10": [
+          "waters"
+        ],
+        "12": [
+          "heavens"
+        ],
+        "13": [
+          "earth",
+          "waters"
+        ],
+        "14": [
+          "earth"
+        ],
+        "19": [
+          "made"
+        ],
+        "20": [
+          "You [O Lord] make darkness and it becomes night, In..."
+        ],
+        "24": [
+          "made",
+          "earth"
+        ],
+        "26": [
+          "formed"
+        ],
+        "29": [
+          "You hide Your face, they are dismayed"
+        ],
+        "30": [
+          "created"
+        ],
+        "31": [
+          "May the glory of the Lord endure forever"
+        ],
+        "32": [
+          "earth"
+        ],
+        "35": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 104 is a creation hymn celebrating God's wisdom, power, and provision as revealed in na...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 104: ...\"Bless the Lord, O my soul.\" Let the soul o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "1 John 1:5",
+          "anchorVerse": 2,
+          "referenceLabel": "1 John 1:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Who coverest thyself with light as with a garment: who stretchest out the heavens like a curt...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"I will sing unto the LORD as long as I live: I will sing praise to my God while I have my bei...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        12,
+        14,
+        15,
+        31,
+        33,
+        34,
+        35
+      ],
+      "versePhrases": {
+        "1": [
+          "praise"
+        ],
+        "2": [
+          "[You are the One] who covers Yourself with light as..."
+        ],
+        "12": [
+          "sing"
+        ],
+        "14": [
+          "He causes grass to grow for the cattle, And all..."
+        ],
+        "15": [
+          "And wine which makes the heart of man glad, So..."
+        ],
+        "31": [
+          "glory"
+        ],
+        "33": [
+          "praise",
+          "sing"
+        ],
+        "34": [
+          "I will rejoice and be glad in the Lord"
+        ],
+        "35": [
+          "praise",
+          "Praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Bless the LORD, O my soul. O LORD my God, thou art very great; thou art clothed with honour a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on City of God 22.24: There are some things, too, which have such a place...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Who coverest thyself with light as with a garment: who stretchest out the heavens like a curt...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Jerusalem on Catechetical Lecture 15:1: What we proclaim is not one single coming of...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Fulgentius of Ruspe on LETTER 8:8.17: Hence it is that the true faith asserts that the Holy S...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        3,
+        4,
+        29,
+        30,
+        34
+      ],
+      "versePhrases": {
+        "3": [
+          "wind"
+        ],
+        "4": [
+          "Who makes winds His messengers"
+        ],
+        "29": [
+          "breath"
+        ],
+        "30": [
+          "Spirit"
+        ],
+        "34": [
+          "May my meditation be sweet and pleasing to Him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "God 'lays the beams of his chambers in the waters' and makes clouds His chariot, 'walking upo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 104: \"Who covers with waters the upper parts thereo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "רֽוּחַ׃: of the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exhala...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Hebrews 1:7",
+          "anchorVerse": 4,
+          "referenceLabel": "Hebrews 1:7"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Psalm 104:24 echoes the wisdom tradition's emphasis on creation's orderliness (Proverbs 3:19-...\". Word-study detail reinforces \"בְּחָכְמָ֣ה: in wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        2,
+        4,
+        14,
+        18,
+        19,
+        20,
+        21,
+        24,
+        34
+      ],
+      "versePhrases": {
+        "2": [
+          "[You are the One] who covers Yourself with light as..."
+        ],
+        "4": [
+          "Who makes winds His messengers, Flames of fire His ministers"
+        ],
+        "14": [
+          "He causes grass to grow for the cattle, And all..."
+        ],
+        "18": [
+          "The high mountains are for the wild goats"
+        ],
+        "19": [
+          "He made the moon for the seasons"
+        ],
+        "20": [
+          "You [O Lord] make darkness and it becomes night, In..."
+        ],
+        "21": [
+          "The young lions roar after their prey And seek their..."
+        ],
+        "24": [
+          "wisdom"
+        ],
+        "34": [
+          "May my meditation be sweet and pleasing to Him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does the metaphor of God 'covered with light' inform our understanding of theophanies (vi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON LEVITICUS 12:3.3: And, therefore, about this one [Jesus C...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does understanding angels as God's servants rather than independent beings affect your sp...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Clement of Rome on 1 CLEMENT 36: This is the way, dear friends, in which we found out salvati...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 104: \"From Your rebuke they shall fly\" [Psalm 104:7...\". Word-study detail reinforces \"יֵחָפֵזֽוּן׃: they hasted - properly, to start up suddenly, i.e., (by implication) to hasten...\".",
+      "supportingVerses": [
+        7,
+        29,
+        32
+      ],
+      "versePhrases": {
+        "7": [
+          "At Your rebuke they fled"
+        ],
+        "29": [
+          "dismayed"
+        ],
+        "32": [
+          "He looks at the earth, and it trembles"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 104: \"From Your rebuke they shall fly\" [Psalm 104:7...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "יֵחָפֵזֽוּן׃: they hasted - properly, to start up suddenly, i.e., (by implication) to hasten...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "When God hides His face, creatures are troubled; when He takes away breath (ruach), they die...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 29 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 104: \"When you open Your hand, they shall all be fi...",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 104: What then follows? \"The loftiest hills are for...\". Word-study detail reinforces \"מַחְסֶ֥ה: are a refuge - a shelter (literally or figuratively)\".",
+      "supportingVerses": [
+        18,
+        23
+      ],
+      "versePhrases": {
+        "18": [
+          "refuge"
+        ],
+        "23": [
+          "Man goes out to his work And remains at his..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "High hills are for wild goats (ye'elim), and rocks provide refuge for conies (shaphanim, like...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 104: What then follows? \"The loftiest hills are for...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "מַחְסֶ֥ה: are a refuge - a shelter (literally or figuratively)",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "What boundaries around work time do you need to establish to honor God's design for rest?",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

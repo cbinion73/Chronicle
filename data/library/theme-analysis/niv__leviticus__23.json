@@ -1,0 +1,167 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 23,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:29.410Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Then ye shall sacrifice one kid of the goats for a sin offering, and two lambs of the first y...\". Word-study detail reinforces \"שַׁבָּתוֹן֙: of rest - a sabbatism or special holiday\".",
+      "supportingVerses": [
+        3,
+        19,
+        24,
+        32,
+        39
+      ],
+      "versePhrases": {
+        "3": [
+          "rest"
+        ],
+        "19": [
+          "Then sacrifice one male goat for a sin offering and..."
+        ],
+        "24": [
+          "rest"
+        ],
+        "32": [
+          "rest"
+        ],
+        "39": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation;...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "שַׁבָּתוֹן֙: of rest - a sabbatism or special holiday",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Then ye shall sacrifice one kid of the goats for a sin offering, and two lambs of the first y...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "שְׁלָמִֽים׃: of peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Seven days ye shall offer an offering made by fire unto the LORD: on the eighth day shall be...\". Word-study detail reinforces \"אִשֶּׁ֤ה: an offering made by fire - properly, a burnt-offering; but occasionally of any sacr...\".",
+      "supportingVerses": [
+        6,
+        17,
+        28,
+        36
+      ],
+      "versePhrases": {
+        "6": [
+          "made"
+        ],
+        "17": [
+          "made"
+        ],
+        "28": [
+          "made"
+        ],
+        "36": [
+          "For seven days present food offerings to the Lord, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Bede on Homilies on the Gospels 2.17: Two loaves of bread made from the first fruits of the n...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 36 commentary",
+          "detail": "Seven days ye shall offer an offering made by fire unto the LORD: on the eighth day shall be...",
+          "anchorVerse": 36
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 36 word study",
+          "detail": "אִשֶּׁ֤ה: an offering made by fire - properly, a burnt-offering; but occasionally of any sacr...",
+          "anchorVerse": 36
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And on the fifteenth day of the same month is the feast of unleavened bread unto the LORD: se...\". Word-study detail reinforces \"וְלֶחֶם֩: neither bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        6,
+        14,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "6": [
+          "Bread",
+          "bread"
+        ],
+        "14": [
+          "bread"
+        ],
+        "18": [
+          "bread"
+        ],
+        "20": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And on the fifteenth day of the same month is the feast of unleavened bread unto the LORD: se...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מַצּ֥וֹת: of unleavened bread - properly, sweetness; concretely, sweet (i.e., not soured or b...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And ye shall eat neither bread, nor parched corn, nor green ears, until the selfsame day that...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וְלֶחֶם֩: neither bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

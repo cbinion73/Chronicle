@@ -1,0 +1,305 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 23,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:00.959Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Unto a stranger thou mayest lend upon usury; but unto thy brother thou shalt not lend upon us...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        5,
+        20,
+        21,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "“No one whose testicles are crushed or whose male organ..."
+        ],
+        "5": [
+          "blessing"
+        ],
+        "20": [
+          "bless"
+        ],
+        "21": [
+          "“If you make a vow to the Lord your God,..."
+        ],
+        "22": [
+          "But if you refrain from vowing, you will not be..."
+        ],
+        "23": [
+          "promised"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "He that is wounded in the stones, or hath his privy member cut off, shall not enter into the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וּכְר֥וּת: cut off - to cut (off, down or asunder); by implication, to destroy or consume; sp...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Numbers 24:9",
+          "anchorVerse": 5,
+          "referenceLabel": "Numbers 24:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Nevertheless the LORD thy God would not hearken unto Balaam; but the LORD thy God turned the...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"When the host goeth forth against thine enemies, then keep thee from every wicked thing. This...\". Word-study detail reinforces \"וְנִ֨שְׁמַרְתָּ֔: then keep - properly, to hedge about (as with thorns), i.e., guard; general...\".",
+      "supportingVerses": [
+        6,
+        9,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "6": [
+          "You shall not seek their peace or their prosperity all..."
+        ],
+        "9": [
+          "keep"
+        ],
+        "21": [
+          "“If you make a vow to the Lord your God,..."
+        ],
+        "23": [
+          "You shall be careful to do what has passed your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This prohibition had significant geopolitical implications for Israel's foreign policy throug...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "תִדְרֹ֥שׁ: Thou shalt not seek - properly, to tread or frequent; usually to follow (for pursu...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "When the host goeth forth against thine enemies, then keep thee from every wicked thing. This...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "וְנִ֨שְׁמַרְתָּ֔: then keep - properly, to hedge about (as with thorns), i.e., guard; general...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ancient Near Eastern military practices often included ritual sexual activity before battles....\". Word-study detail reinforces \"יֵשֵׁ֣ב: He shall dwell - properly, to sit down (specifically as judge. in ambush, in quiet);...\".",
+      "supportingVerses": [
+        10,
+        11,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "10": [
+          "“If any man among you becomes unclean because of a..."
+        ],
+        "11": [
+          "but when evening comes, he shall bathe himself in water,..."
+        ],
+        "15": [
+          "“You shall not give up to his master a slave..."
+        ],
+        "16": [
+          "with you",
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient Near Eastern military practices often included ritual sexual activity before battles....",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Water's purifying use pervaded ancient Near Eastern religious practices, but with significant...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thou shalt not deliver unto his master the servant which is escaped from his master unto thee...\". Word-study detail reinforces \"תַסְגִּ֥יר: Thou shalt not deliver - to shut up; figuratively, to surrender\".",
+      "supportingVerses": [
+        14,
+        15
+      ],
+      "versePhrases": {
+        "14": [
+          "deliver"
+        ],
+        "15": [
+          "“You shall not give up to his master a slave..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "For the LORD thy God walketh in the midst of thy camp, to deliver thee, and to give up thine...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "לְהַצִּֽילְךָ֙: to deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Thou shalt not deliver unto his master the servant which is escaped from his master unto thee...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "תַסְגִּ֥יר: Thou shalt not deliver - to shut up; figuratively, to surrender",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"If there be among you any man, that is not clean by reason of uncleanness that chanceth him b...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        10,
+        14
+      ],
+      "versePhrases": {
+        "10": [
+          "“If any man among you becomes unclean because of a nocturnal emission"
+        ],
+        "14": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "If there be among you any man, that is not clean by reason of uncleanness that chanceth him b...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "טָה֖וֹר: that is not clean - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 3:5",
+          "anchorVerse": 14,
+          "referenceLabel": "Exodus 3:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "For the LORD thy God walketh in the midst of thy camp, to deliver thee, and to give up thine...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Nevertheless the LORD thy God would not hearken unto Balaam; but the LORD thy God turned the...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "loved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Jeremiah 31:3",
+          "anchorVerse": 5,
+          "referenceLabel": "Jeremiah 31:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Nevertheless the LORD thy God would not hearken unto Balaam; but the LORD thy God turned the...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֲהֵֽבְךָ֖: loved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

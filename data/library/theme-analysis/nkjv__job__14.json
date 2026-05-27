@@ -1,0 +1,361 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 14,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:25.890Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 18, 19. And surely the mou...\". Word-study detail reinforces \"אָ֑רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        8,
+        10,
+        11,
+        12,
+        19
+      ],
+      "versePhrases": {
+        "8": [
+          "earth"
+        ],
+        "10": [
+          "But man dies and is laid away"
+        ],
+        "11": [
+          "As water disappears from the sea, And a river becomes..."
+        ],
+        "12": [
+          "heavens"
+        ],
+        "19": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Though the root thereof wax old in the earth (יַזְקִין בָּאָרֶץ שָׁרְשׁוֹ, yazqin baaretz sho...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 8, 9. Though the root ther...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בָּאָ֣רֶץ: in the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What does our horror at death's finality reveal about how we were created to live?",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 11, 12. As if the waters f...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "2": [
+          "He comes forth like a flower and fades away"
+        ],
+        "7": [
+          "hope"
+        ],
+        "8": [
+          "Though its root may grow old in the earth, And..."
+        ],
+        "9": [
+          "Yet at the scent of water it will bud And..."
+        ],
+        "10": [
+          "But man dies and is laid away"
+        ],
+        "11": [
+          "As water disappears from the sea, And a river becomes..."
+        ],
+        "12": [
+          "So man lies down and does not rise"
+        ],
+        "13": [
+          "“Oh, that You would hide me in the grave, That..."
+        ],
+        "14": [
+          "If a man dies, shall he live again"
+        ],
+        "16": [
+          "For now You number my steps, But do not watch..."
+        ],
+        "19": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What hope exists beyond the shadow and flower of mortal existence?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Hesychius of Jerusalem on HOMILIES ON JOB 16.14.1-2: Man, who is born of a woman, “has a shor...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Hope",
+          "detail": "Job 19:10",
+          "anchorVerse": 7,
+          "referenceLabel": "Job 19:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Job's famous hope: 'For there is hope of a tree, if it be cut down, that it will sprout again...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 13. O that Thou wouldest d...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        3,
+        6,
+        13,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "judgment"
+        ],
+        "6": [
+          "Look away from him that he may rest, Till like..."
+        ],
+        "13": [
+          "wrath"
+        ],
+        "16": [
+          "For now You number my steps, But do not watch..."
+        ],
+        "17": [
+          "My transgression is sealed up in a bag, And You..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 143:2",
+          "anchorVerse": 3,
+          "referenceLabel": "Psalms 143:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "'And dost thou open thine eyes upon such an one, and bringest me into judgment with thee?' Jo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XI: And dost Thou deign to open Thin...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְמִשְׁפָּ֣ט: me into judgment - properly, a verdict (favorable or unfavorable) pronounced ju...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Job: Third, he wonders about the attentiveness of divine prov...\". Word-study detail reinforces \"טָ֭הוֹר: a clean - pure (in a physical, chemical, ceremonial or moral sense)\".",
+      "supportingVerses": [
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "And do You open Your eyes on such a one,..."
+        ],
+        "4": [
+          "clean"
+        ],
+        "6": [
+          "Look away from him that he may rest, Till like..."
+        ],
+        "8": [
+          "Though its root may grow old in the earth, And..."
+        ],
+        "9": [
+          "Yet at the scent of water it will bud And..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does divine attention to human sin reveal about both God's holiness and His care?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Third, he wonders about the attentiveness of divine prov...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient purity codes recognized ritual uncleanness, but Job speaks metaphysically about moral...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: Third, he wonders about the attentiveness of divine prov...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XII: Ver. 6. Turn from him a little...\". Word-study detail reinforces \"וְיֶחְדָּ֑ל: from him that he may rest - properly, to be flabby, i.e., (by implication) desis...\".",
+      "supportingVerses": [
+        1,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "“Man who is born of woman Is of few days..."
+        ],
+        "5": [
+          "Since his days are determined, The number of his months..."
+        ],
+        "6": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What comfort does Christ's identification as 'Son of Man' bring to our experience of human fr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XI: Man that is born of a woman live...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What comfort exists in knowing God has appointed our bounds?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on COMMENTARY ON JOB 14:4-6: You see Job taking refuge again in his nature, b...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Job likely lived during the patriarchal period (2000-1800 BC) based on lifestyle details, lif...\". Word-study detail reinforces \"רֹֽגֶז׃: of trouble - commotion, restlessness (of a horse), crash (of thunder), disquiet, anger\".",
+      "supportingVerses": [
+        1,
+        6,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "trouble"
+        ],
+        "6": [
+          "Look away from him that he may rest, Till like..."
+        ],
+        "22": [
+          "But his flesh will be in pain over it, And..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The patriarchal period saw lifespans of 100-200 years (Job likely lived 200+), yet Job still...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "רֹֽגֶז׃: of trouble - commotion, restlessness (of a horse), crash (of thunder), disquiet, anger",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Job likely lived during the patriarchal period (2000-1800 BC) based on lifestyle details, lif...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Didymus the Blind on COMMENTARY ON JOB 14:6: Since God is with Job through the hardships he l...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 77,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:30.418Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Ambrose of Milan on The Six Days of Creation 3.1.2: This is not the only example of the obedi...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        6,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "2": [
+          "When I was in distress, I sought the Lord"
+        ],
+        "6": [
+          "I remembered my songs in the night"
+        ],
+        "16": [
+          "waters"
+        ],
+        "17": [
+          "heavens"
+        ],
+        "18": [
+          "earth"
+        ],
+        "19": [
+          "waters"
+        ],
+        "20": [
+          "You led your people like a flock by the hand..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on FLIGHT FROM THE WORLD 8:45: Let us flee from here. You can flee in spirit...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לַ֣יְלָה: in the night - properly, a twist (away of the light), i.e., night; figuratively, ad...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "I call to remembrance my song in the night (אֶזְכְּרָה נְגִינָתִי בַּלָּיְלָה)— neginah (נְגִ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 77: \"And I have meditated in the night with my hear...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thou leddest thy people like a flock by the hand of Moses and Aaron. The psalm concludes with...\". Word-study detail reinforces \"וּֽ֭שְׁבִֽילְיךָ: and thy path - a track or passage-way (as if flowing along)\".",
+      "supportingVerses": [
+        19,
+        20
+      ],
+      "versePhrases": {
+        "19": [
+          "led",
+          "path"
+        ],
+        "20": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Thy way is in the sea, and thy path in the great waters, and thy footsteps are not known. The...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "וּֽ֭שְׁבִֽילְיךָ: and thy path - a track or passage-way (as if flowing along)",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Thou leddest thy people like a flock by the hand of Moses and Aaron. The psalm concludes with...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 77: \"You have led home Your people like sheep in th...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 77: With weariness he had pined away; by calling to...\". Word-study detail reinforces \"יִרְגְּז֥וּ: also were troubled - to quiver (with any violent emotion, especially anger or fear)\".",
+      "supportingVerses": [
+        4,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "troubled"
+        ],
+        "16": [
+          "The waters saw you, God, the waters saw you and..."
+        ],
+        "18": [
+          "Your thunder was heard in the whirlwind, your lightning lit..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Thou holdest mine eyes waking (אָחַזְתָּ שְׁמֻרוֹת עֵינָי)— achaz (אָחַז) means to seize, gra...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 77: With weariness he had pined away; by calling to...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "נִ֝פְעַ֗מְתִּי: I am so troubled - to tap, i.e., beat regularly; hence (generally) to impel o...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The waters saw thee, O God, the waters saw thee; they were afraid (רָאוּךָ מַּיִם אֱלֹהִים רָ...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Hath God forgotten to be gracious? (הֲשָׁכַח חַנּוֹת אֵל). Shakach (שָׁכַח) means to forget,...\". Word-study detail reinforces \"חַנּ֣וֹת: to be gracious - supplication\".",
+      "supportingVerses": [
+        8,
+        9
+      ],
+      "versePhrases": {
+        "8": [
+          "Has his unfailing love vanished forever"
+        ],
+        "9": [
+          "merciful",
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Is his mercy clean gone for ever? (הָאָפֵס לָנֶצַח חַסְדּוֹ). Chesed (חֶסֶד)—God's covenant l...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 77: And you have found what? \"God will not repel fo...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "חַסְדּ֑וֹ: Is his mercy - kindness; by implication (towards god) piety; rarely (by opposition...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Hath God forgotten to be gracious? (הֲשָׁכַח חַנּוֹת אֵל). Shakach (שָׁכַח) means to forget,...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 77: \"And I have meditated in the night with my hear...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        3,
+        6
+      ],
+      "versePhrases": {
+        "3": [
+          "spirit"
+        ],
+        "6": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Job 7:11",
+          "anchorVerse": 3,
+          "referenceLabel": "Job 7:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "I remembered God, and was troubled (אֶזְכְּרָה אֱלֹהִים וָאֶהֱמָיָה)—paradoxically, rememberi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Ambrose of Milan on FLIGHT FROM THE WORLD 8:45: Let us flee from here. You can flee in spirit...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "רוּחִ֣י: and my spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exha...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Is his mercy clean gone for ever? (הָאָפֵס לָנֶצַח חַסְדּוֹ). Chesed (חֶסֶד)—God's covenant l...\". Word-study detail reinforces \"חַסְדּ֑וֹ: Is his mercy - kindness; by implication (towards god) piety; rarely (by opposition...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Is his mercy clean gone for ever? (הָאָפֵס לָנֶצַח חַסְדּוֹ). Chesed (חֶסֶד)—God's covenant l...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "חַסְדּ֑וֹ: Is his mercy - kindness; by implication (towards god) piety; rarely (by opposition...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

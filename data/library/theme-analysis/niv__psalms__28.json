@@ -1,0 +1,299 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 28,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:10.121Z",
+  "themes": [
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"The reference to the \"holy oracle\" (devir/Holy of Holies) places this psalm after the temple'...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "To you, Lord, I call"
+        ],
+        "2": [
+          "Holy"
+        ],
+        "4": [
+          "Repay them for their deeds and for their evil work"
+        ],
+        "7": [
+          "my heart trusts in him"
+        ],
+        "8": [
+          "The Lord is the strength of his people, a fortress..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does it mean to call God 'my rock' rather than just acknowledging He is strong, and how...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Origen of Alexandria on SELECTIONS FROM THE PSALMS 28:1: Frequently, in Scripture, the righte...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 138:2",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 138:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The reference to the \"holy oracle\" (devir/Holy of Holies) places this psalm after the temple'...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Save thy people, and bless thine inheritance: feed them also, and lift them up for ever. The...\". Word-study detail reinforces \"וּבָרֵ֥ךְ: and bless - to kneel; by implication to bless god (as an act of adoration), and (v...\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "6": [
+          "Praise be to the Lord, for he has heard my..."
+        ],
+        "7": [
+          "The Lord is my strength and my shield"
+        ],
+        "8": [
+          "The Lord is the strength of his people, a fortress..."
+        ],
+        "9": [
+          "inheritance",
+          "bless"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The psalm's structure—moving from lament to praise—reflects temple liturgy patterns. Many sch...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Blessed be the Lord.\" Here, as though h...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "בָּר֥וּךְ: Blessed - to kneel; by implication to bless god (as an act of adoration), and (vic...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "David's military background makes shield imagery personally meaningful. As warrior-king, he k...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The reference to the \"holy oracle\" (devir/Holy of Holies) places this psalm after the temple'...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        2,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "To you, Lord, I call"
+        ],
+        "2": [
+          "Holy"
+        ],
+        "8": [
+          "The Lord is the strength of his people, a fortress..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 28, attributed to David, likely emerged from one of his many crises—perhaps during Saul...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Origen of Alexandria on SELECTIONS FROM THE PSALMS 28:1: Frequently, in Scripture, the righte...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Psalms 138:2",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 138:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The reference to the \"holy oracle\" (devir/Holy of Holies) places this psalm after the temple'...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The LORD is my strength and my shield; my heart trusted in him, and I am helped: therefore my...\". Word-study detail reinforces \"אֲהוֹדֶֽנּוּ׃: will I praise - physically, to throw (a stone, an arrow) at or away; especiall...\".",
+      "supportingVerses": [
+        2,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "2": [
+          "Hear my cry for mercy as I call to you..."
+        ],
+        "6": [
+          "Praise"
+        ],
+        "7": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The reference to the \"holy oracle\" (devir/Holy of Holies) places this psalm after the temple'...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on SELECTIONS FROM THE PSALMS 28:2: Often, we communicate by the lifting...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The psalm's structure—moving from lament to praise—reflects temple liturgy patterns. Many sch...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Blessed be the Lord.\" Here, as though h...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"Blessed be the Lord.\" Here, as though h...\".",
+      "supportingVerses": [
+        2,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "mercy"
+        ],
+        "6": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Hear the voice of my supplications, when I cry unto thee, when I lift up my hands toward thy...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"Blessed be the Lord.\" Here, as though h...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Save thy people, and bless thine inheritance: feed them also, and lift them up for ever. The...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        8,
+        9
+      ],
+      "versePhrases": {
+        "8": [
+          "salvation"
+        ],
+        "9": [
+          "Save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The LORD is their strength, and he is the saving strength of his anointed. David shifts from...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"The Lord.\" Here he gives thanks for the...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "יְשׁוּע֖וֹת: and he is the saving - something saved, i.e., (abstractly) deliverance; hence, a...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Isaiah 63:9",
+          "anchorVerse": 9,
+          "referenceLabel": "Isaiah 63:9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 4,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:51.106Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"I write not these things to shame you, but as my beloved sons I warn you. The verb entrepō (ἐ...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        12,
+        14,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "12": [
+          "and we labor, working with our own hands"
+        ],
+        "14": [
+          "beloved"
+        ],
+        "16": [
+          "Therefore I urge you, be imitators of me"
+        ],
+        "17": [
+          "beloved"
+        ],
+        "21": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "In honor-shame cultures, responding to insult with blessing was shameful weakness, not virtue...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 4: Does not the apostle then plainly add the follo...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "2 Corinthians 12:19",
+          "anchorVerse": 14,
+          "referenceLabel": "2 Corinthians 12:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "I write not these things to shame you, but as my beloved sons I warn you. The verb entrepō (ἐ...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, Moreover it is required, he...\". Word-study detail reinforces \"πιστός: faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        10,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "This is the way any person is to regard us"
+        ],
+        "2": [
+          "In this case, moreover, it is required of stewards that..."
+        ],
+        "3": [
+          "But to me it is an insignificant matter that I..."
+        ],
+        "5": [
+          "Therefore do not go on passing judgment before the time,..."
+        ],
+        "8": [
+          "You are already filled, you have already become rich, you..."
+        ],
+        "10": [
+          "We are fools on account of Christ, but you are..."
+        ],
+        "16": [
+          "Therefore I urge you, be imitators of me"
+        ],
+        "17": [
+          "faithful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of G...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Having rebuked the Corinthians for glorying in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Moreover it is required in stewards, that a man be found faithful. The Greek zeteitai (ζητεῖτ...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, Moreover it is required, he...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: The when he says, Judge not before, he conclud...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "But to me it is an insignificant matter that I..."
+        ],
+        "4": [
+          "For I am not aware of anything against myself"
+        ],
+        "5": [
+          "judgment"
+        ],
+        "21": [
+          "What do you desire"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "1 Corinthians 2:15",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Corinthians 2:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "But with me it is a very small thing that I should be judged of you, or of man's judgment. Th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: Then when he says, But with me, he shows that...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ἀνακρίνω: I judge - properly, to scrutinize, i.e., (by implication) investigate, interrogate,...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 13: \"Being reviled, we bless; being persecuted, we...\". Word-study detail reinforces \"φωτίσει: will bring to light - to shed rays, i.e., to shine or (transitively) to brighten up...\".",
+      "supportingVerses": [
+        5,
+        7,
+        9,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "light"
+        ],
+        "7": [
+          "For who considers you as superior"
+        ],
+        "9": [
+          "For I think, God has exhibited us, the apostles, last..."
+        ],
+        "13": [
+          "when we are slandered, we reply as friends"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Therefore judge nothing before the time, until the Lord come. The imperative me krinete (μὴ κ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: The when he says, Judge not before, he conclud...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "φωτίσει: will bring to light - to shed rays, i.e., to shine or (transitively) to brighten up...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "In what subtle ways do you compare yourself to others and feel superior, forgetting that God...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 11: \"Therefore judge nothing before the time, unti...\". Word-study detail reinforces \"ἔπαινος: praise - laudation; concretely, a commendable thing\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "5": [
+          "praise"
+        ],
+        "7": [
+          "For who considers you as superior"
+        ],
+        "8": [
+          "You are already filled, you have already become rich, you..."
+        ],
+        "10": [
+          "We are fools on account of Christ, but you are..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Therefore judge nothing before the time, until the Lord come. The imperative me krinete (μὴ κ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 11: \"Therefore judge nothing before the time, unti...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "ἔπαινος: praise - laudation; concretely, a commendable thing",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "For who maketh thee to differ from another? The verb diakrino (διακρίνω, \"to distinguish/make...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Corinthians: He assigns the reason for this when he says: I...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        4,
+        13,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "4": [
+          "For I am not aware of anything against myself"
+        ],
+        "13": [
+          "when we are slandered, we reply as friends"
+        ],
+        "16": [
+          "Therefore I urge you, be imitators of me"
+        ],
+        "17": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 143:2",
+          "anchorVerse": 4,
+          "referenceLabel": "Psalms 143:2"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Corinthians: He assigns the reason for this when he says: I...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "δεδικαίωμαι: am I - to render (i.e., show or regard as) just or innocent",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Ignatius of Antioch on Epistle of Ignatius to the Ephesians: Let not then any one deceive you...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

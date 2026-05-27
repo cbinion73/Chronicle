@@ -1,0 +1,494 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Revelation",
+  "chapter": 1,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:54.445Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 20 verses. Commentary leans on \"Alcuin of York on COMMENTARY ON REVELATION: John to the seven churches which are in Asia. By...\". Word-study detail reinforces \"μαρτυρίαν: the testimony - evidence given (judicially or genitive case)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "The revelation of Jesus Christ, which God gave him to..."
+        ],
+        "2": [
+          "testimony"
+        ],
+        "3": [
+          "Blessed is the one who reads aloud the words of..."
+        ],
+        "4": [
+          "John to the seven churches that are in Asia"
+        ],
+        "5": [
+          "faithful"
+        ],
+        "6": [
+          "and made us a kingdom, priests to his God and..."
+        ],
+        "7": [
+          "Behold, he is coming with the clouds, and every eye..."
+        ],
+        "8": [
+          "“I am the Alpha and the Omega,” says the Lord..."
+        ],
+        "9": [
+          "testimony"
+        ],
+        "10": [
+          "I was in the Spirit on the Lord's day, and..."
+        ],
+        "11": [
+          "saying, “Write what you see in a book and send..."
+        ],
+        "12": [
+          "Then I turned to see the voice that was speaking..."
+        ],
+        "13": [
+          "and in the midst of the lampstands one like a..."
+        ],
+        "14": [
+          "The hairs of his head were white, like white wool,..."
+        ],
+        "15": [
+          "his feet were like burnished bronze, refined in a furnace,..."
+        ],
+        "16": [
+          "In his right hand he held seven stars, from his..."
+        ],
+        "17": [
+          "When I saw him, I fell at his feet as..."
+        ],
+        "18": [
+          "and the living one"
+        ],
+        "19": [
+          "Write therefore the things that you have seen, those that..."
+        ],
+        "20": [
+          "As for the mystery of the seven stars that you..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "John received this revelation circa AD 95 during Domitian's persecution, exiled on Patmos for...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on Revelation: In the opening words, it is fitting to point out that...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "John's role as faithful witness establishes the apostolic authority behind Revelation's visio...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on Commentary on Revelation: In the opening words, it is fitting to point out that...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Alcuin of York on COMMENTARY ON REVELATION: I John, your brother and your partner in tribulat...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "throne"
+        ],
+        "5": [
+          "and the ruler of kings on earth"
+        ],
+        "6": [
+          "kingdom",
+          "dominion"
+        ],
+        "7": [
+          "Behold, he is coming with the clouds, and every eye..."
+        ],
+        "8": [
+          "“I am the Alpha and the Omega,” says the Lord..."
+        ],
+        "9": [
+          "kingdom"
+        ],
+        "10": [
+          "I was in the Spirit on the Lord's day, and..."
+        ],
+        "11": [
+          "saying, “Write what you see in a book and send..."
+        ],
+        "12": [
+          "Then I turned to see the voice that was speaking to me"
+        ],
+        "13": [
+          "and in the midst of the lampstands one like a..."
+        ],
+        "16": [
+          "In his right hand he held seven stars, from his..."
+        ],
+        "18": [
+          "and the living one"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: John to the seven churches which are in Asia. By...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "θρόνου: throne - a stately seat (\"throne\"); by implication, power or (concretely) a potentate",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Psalms 89:27",
+          "anchorVerse": 5,
+          "referenceLabel": "Psalms 89:27"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And from Jesus Christ, who is the faithful witness, and the first begotten of the dead, and t...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Apringius of Beja on TRACTATE ON THE APOCALYPSE 1:12: Resting on three arms, a lampstand rais...\". Word-study detail reinforces \"χρυσᾶς: golden - made of gold\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        15,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "4": [
+          "John to the seven churches that are in Asia"
+        ],
+        "5": [
+          "earth"
+        ],
+        "6": [
+          "made"
+        ],
+        "7": [
+          "earth"
+        ],
+        "11": [
+          "saying, “Write what you see in a book and send..."
+        ],
+        "12": [
+          "Then I turned to see the voice that was speaking..."
+        ],
+        "15": [
+          "waters"
+        ],
+        "16": [
+          "In his right hand he held seven stars, from his..."
+        ],
+        "20": [
+          "As for the mystery of the seven stars that you..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on Revelation: In the opening words, it is fitting to point out that...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: John to the seven churches which are in Asia. By...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ἐκκλησίαις: churches - a calling out, i.e., (concretely) a popular meeting, especially a reli...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And from Jesus Christ, who is the faithful witness, and the first begotten of the dead, and t...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Victorinus of Pettau on Commentary on the Apocalypse of the Blessed John: \"And in His face wa...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "The revelation of Jesus Christ, which God gave him to..."
+        ],
+        "3": [
+          "Blessed is the one who reads aloud the words of this prophecy"
+        ],
+        "4": [
+          "John to the seven churches that are in Asia"
+        ],
+        "5": [
+          "and from Jesus Christ the faithful witness, the firstborn of..."
+        ],
+        "6": [
+          "glory"
+        ],
+        "7": [
+          "Behold, he is coming with the clouds, and every eye..."
+        ],
+        "11": [
+          "saying, “Write what you see in a book and send..."
+        ],
+        "12": [
+          "Then I turned to see the voice that was speaking..."
+        ],
+        "14": [
+          "The hairs of his head were white, like white wool,..."
+        ],
+        "15": [
+          "his feet were like burnished bronze, refined in a furnace,..."
+        ],
+        "16": [
+          "In his right hand he held seven stars, from his..."
+        ],
+        "17": [
+          "When I saw him, I fell at his feet as..."
+        ],
+        "18": [
+          "and the living one"
+        ],
+        "20": [
+          "As for the mystery of the seven stars that you..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "John received this revelation circa AD 95 during Domitian's persecution, exiled on Patmos for...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Nicholas of Lyra: which must shortly come to pass That is, the trials of the Church which mus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "John received this revelation circa AD 95 during Domitian's persecution, exiled on Patmos for...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Alcuin of York on QUESTIONS AND ANSWERS MANUAL ON REVELATION: QUESTION: What is meant by Bles...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Oecumenius on Commentary on Revelation: He did not say only those who read are blessed, for m...\". Word-study detail reinforces \"ἐγγύς: is at hand - near (literally or figuratively, of place or time)\".",
+      "supportingVerses": [
+        1,
+        3,
+        12,
+        13,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "The revelation of Jesus Christ, which God gave him to..."
+        ],
+        "3": [
+          "near"
+        ],
+        "12": [
+          "Then I turned to see the voice that was speaking..."
+        ],
+        "13": [
+          "clothed with a long robe and with a golden sash around his chest"
+        ],
+        "16": [
+          "In his right hand he held seven stars, from his..."
+        ],
+        "17": [
+          "When I saw him, I fell at his feet as..."
+        ],
+        "18": [
+          "and the living one"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things whi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Justin Martyr on Dialogue with Trypho, Chapter LXXXI: And further, there was a certain man wi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Blessed is he that readeth, and they that hear the words of this prophecy, and keep those thi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Oecumenius on Commentary on Revelation: He did not say only those who read are blessed, for m...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Alcuin of York on COMMENTARY ON REVELATION: John to the seven churches which are in Asia. By...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        4,
+        10
+      ],
+      "versePhrases": {
+        "4": [
+          "and from the seven spirits who are before his throne"
+        ],
+        "10": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Isaiah 11:2",
+          "anchorVerse": 4,
+          "referenceLabel": "Isaiah 11:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The Trinitarian greeting reflects the eternal, unchanging nature of God. 'Which is, and which...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: John to the seven churches which are in Asia. By...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "πνευμάτων: Spirits - a current of air, i.e., breath (blast) or a breeze; by analogy or figura...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

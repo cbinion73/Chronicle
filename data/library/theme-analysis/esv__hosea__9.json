@@ -1,0 +1,300 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hosea",
+  "chapter": 9,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:58.796Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Hosea 9:10-11: \"As I found grapes in the desert, I saw Israel, as the...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        10,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "loved"
+        ],
+        "10": [
+          "loved"
+        ],
+        "15": [
+          "love"
+        ],
+        "16": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Rejoice not, O Israel, for joy, as other people: for thou hast gone a whoring from thy God, t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 9:1-2: \"Do not rejoice, Israel: do not exult as the peoples: fo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אָהַ֣בְתָּ: thou hast loved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does my current spiritual state compare to my 'first love' when I initially encountered G...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Jerome on Commentary on Hosea 9:12: \"Ephraim has flown away like a bird: their glory from bir...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        8,
+        10,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "Rejoice not, O Israel"
+        ],
+        "2": [
+          "Threshing floor and wine vat shall not feed them, and..."
+        ],
+        "8": [
+          "The prophet is the watchman of Ephraim with my God"
+        ],
+        "10": [
+          "Like grapes in the wilderness, I found Israel"
+        ],
+        "11": [
+          "glory"
+        ],
+        "12": [
+          "Even if they bring up children, I will bereave them..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Rejoice not, O Israel, for joy, as other people: for thou hast gone a whoring from thy God, t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodore of Mopsuestia on COMMENTARY ON HOSEA 9: It is not fitting for you to rejoice and exu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Failed expectations: 'The floor and the winepress shall not feed them, and the new wine shall...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 9:1-2: \"Do not rejoice, Israel: do not exult as the peoples: fo...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Hosea 9:8-9: \"Ephraim the spy with my God: the prophet is a snare of...\".",
+      "supportingVerses": [
+        3,
+        8,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "3": [
+          "They shall not remain in the land of the Lord,..."
+        ],
+        "8": [
+          "The prophet is the watchman of Ephraim with my God"
+        ],
+        "13": [
+          "lead"
+        ],
+        "15": [
+          "Every evil of theirs is in Gilgal"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does the New Testament promise of eternal inheritance teach about the superiority of Chr...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Hosea 9:3-4: \"They shall not dwell in the land of the Lord. Ephraim r...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What does hatred in God's house teach about spiritual warfare over truth occurring even in re...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on Commentary on Hosea 9:8-9: \"Ephraim the spy with my God: the prophet is a snare of...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Hosea 9:3-4: \"They shall not dwell in the land of the Lord. Ephraim r...\". Word-study detail reinforces \"לַחְמָ֣ם: for their bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        2,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "Threshing floor and wine vat shall not feed them, and..."
+        ],
+        "4": [
+          "bread"
+        ],
+        "5": [
+          "What will you do on the day of the appointed..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Failed expectations: 'The floor and the winepress shall not feed them, and the new wine shall...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Hosea 9:1-2: \"Do not rejoice, Israel: do not exult as the peoples: fo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Worship ended: 'They shall not offer wine offerings to the LORD, neither shall they be pleasi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Hosea 9:3-4: \"They shall not dwell in the land of the Lord. Ephraim r...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The days of visitation are come, the days of recompence are come; Israel shall know it: the p...\".",
+      "supportingVerses": [
+        7,
+        9
+      ],
+      "versePhrases": {
+        "7": [
+          "punishment"
+        ],
+        "9": [
+          "punish"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The days of visitation are come, the days of recompence are come; Israel shall know it: the p...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Hosea 9:7: \"The days of visitation have come, the days of retribution...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Why do people typically reject prophetic warnings as foolishness until judgment makes them un...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Jerome on Commentary on Hosea 9:7: \"The days of visitation have come, the days of retribution...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Ezekiel 13:3",
+          "anchorVerse": 7,
+          "referenceLabel": "Ezekiel 13:3"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Hosea 9:7: \"The days of visitation have come, the days of retribution...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "הָר֔וּחַ: the spiritual - wind; by resemblance breath, i.e., a sensible (or even violent) exh...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hosea",
+  "chapter": 10,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:07.444Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Hosea 10:5-6: \"The inhabitants of Samaria have worshipped the cows of...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        3,
+        6,
+        7,
+        15
+      ],
+      "versePhrases": {
+        "3": [
+          "king"
+        ],
+        "6": [
+          "King"
+        ],
+        "7": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Hosea 10:15",
+          "anchorVerse": 3,
+          "referenceLabel": "Hosea 10:15"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Kingless confession: 'For now they shall say, We have no king, because we feared not the LORD...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Hosea 10:3-4: Because now they will say, 'There is no king for us, fo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וְהַמֶּ֖לֶךְ: We have no king - a king",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Hosea 10:12: \"Sow for yourselves according to righteousness, reap acc...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        4,
+        9,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "4": [
+          "judgment"
+        ],
+        "9": [
+          "There they stand! Will the battle against the sons of injustice not overtake them in Gibeah?"
+        ],
+        "12": [
+          "Sow for yourselves, with a view to righteousness"
+        ],
+        "13": [
+          "you have harvested injustice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Amos 5:7",
+          "anchorVerse": 4,
+          "referenceLabel": "Amos 5:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Empty words and false covenants: 'They have spoken words, swearing falsely in making a covena...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Hosea 10:3-4: Because now they will say, 'There is no king for us, fo...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מִשְׁפָּ֔ט: thus judgment - properly, a verdict (favorable or unfavorable) pronounced judicia...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Origen of Alexandria on HOMILIES ON LEVITICUS 6:4.4: Observe how holy and how marvelous is th...\". Word-study detail reinforces \"לְאַרְצ֔וֹ: of his land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        6,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "6": [
+          "The thing itself will be brought to Assyria As a..."
+        ],
+        "11": [
+          "Ephraim is a trained heifer that loves to thresh, And..."
+        ],
+        "12": [
+          "Sow for yourselves, with a view to righteousness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Israel is an empty vine, he bringeth forth fruit unto himself: according to the multitude of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Hosea 10:1: \"Lush vine of Israel; its fruit satisfies it; according t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְאַרְצ֔וֹ: of his land - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Tribute to Assyria: 'It shall be also carried unto Assyria for a present to king Jareb: Ephra...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Hosea 10:12: \"Sow for yourselves according to righteousness, reap acc...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        12,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "12": [
+          "righteousness"
+        ],
+        "13": [
+          "you have harvested injustice"
+        ],
+        "15": [
+          "So it will be done to you at Bethel because..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Isaiah 45:8",
+          "anchorVerse": 12,
+          "referenceLabel": "Isaiah 45:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Sow to yourselves in righteousness, reap in mercy (זִרְעוּ לָכֶם לִצְדָקָה קִצְרוּ לְפִי־חָסֶ...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Hosea 10:12: \"Sow for yourselves according to righteousness, reap acc...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "לִצְדָקָה֙: to yourselves in righteousness - rightness (abstractly), subjectively (rectitude)...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Hosea 10:11: \"Ephraim likes to tread his grain, as a trained cow; and...\". Word-study detail reinforces \"חֶ֔סֶד: mercy - kindness; by implication (towards god) piety; rarely (by opposition) reproof,...\".",
+      "supportingVerses": [
+        11,
+        12
+      ],
+      "versePhrases": {
+        "11": [
+          "Ephraim is a trained heifer that loves to thresh"
+        ],
+        "12": [
+          "kindness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Trained heifer turned to plowing: 'And Ephraim is as an heifer that is taught, and loveth to...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Hosea 10:11: \"Ephraim likes to tread his grain, as a trained cow; and...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Sow to yourselves in righteousness, reap in mercy (זִרְעוּ לָכֶם לִצְדָקָה קִצְרוּ לְפִי־חָסֶ...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Hosea 10:12: \"Sow for yourselves according to righteousness, reap acc...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Hosea 10:3-4: Because now they will say, 'There is no king for us, fo...\". Word-study detail reinforces \"יָג֖וּרוּ: shall fear - properly, to turn aside from the road (for a lodging or any other pur...\".",
+      "supportingVerses": [
+        3,
+        5
+      ],
+      "versePhrases": {
+        "3": [
+          "Certainly now they will say, “We have no king, For..."
+        ],
+        "5": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Hosea 10:3-4: Because now they will say, 'There is no king for us, fo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יָרֵ֙אנוּ֙: because we feared - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Fear for golden calves: 'The inhabitants of Samaria shall fear because of the calves of Beth-...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "יָג֖וּרוּ: shall fear - properly, to turn aside from the road (for a lodging or any other pur...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

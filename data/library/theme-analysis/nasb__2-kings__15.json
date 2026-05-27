@@ -1,0 +1,386 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 15,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:23.483Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 27 verses. Commentary leans on \"In the twenty and seventh year of Jeroboam king of Israel began Azariah son of Amaziah king o...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        17,
+        19,
+        20,
+        22,
+        23,
+        25,
+        27,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "He did what was right in the sight of the..."
+        ],
+        "4": [
+          "Only the high places were not eliminated"
+        ],
+        "5": [
+          "king"
+        ],
+        "6": [
+          "are they not written in the Book of the Chronicles of the Kings of Judah?"
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ],
+        "12": [
+          "throne"
+        ],
+        "13": [
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "19": [
+          "kingdom",
+          "king"
+        ],
+        "20": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ],
+        "25": [
+          "king"
+        ],
+        "27": [
+          "king"
+        ],
+        "29": [
+          "king"
+        ],
+        "30": [
+          "king"
+        ],
+        "32": [
+          "king"
+        ],
+        "33": [
+          "king"
+        ],
+        "34": [
+          "He did what was right in the sight of the..."
+        ],
+        "35": [
+          "Only the high places were not eliminated"
+        ],
+        "36": [
+          "are they not written in the Book of the Chronicles of the Kings of Judah?"
+        ],
+        "37": [
+          "king"
+        ],
+        "38": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Kings 15:13",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Kings 15:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the twenty and seventh year of Jeroboam king of Israel began Azariah son of Amaziah king o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ishodad of Merv on BOOKS OF SESSIONS 2 KINGS 15:3: In the book of Chronicles [it is written]:...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Save that the high places were not removed: the people sacrificed and burnt incense still on...\". Word-study detail reinforces \"וְיֶ֛תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...\".",
+      "supportingVerses": [
+        4,
+        6,
+        11,
+        15,
+        21,
+        26,
+        31,
+        35,
+        36
+      ],
+      "versePhrases": {
+        "4": [
+          "still"
+        ],
+        "6": [
+          "rest"
+        ],
+        "11": [
+          "rest"
+        ],
+        "15": [
+          "rest"
+        ],
+        "21": [
+          "rest"
+        ],
+        "26": [
+          "rest"
+        ],
+        "31": [
+          "rest"
+        ],
+        "35": [
+          "still"
+        ],
+        "36": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Save that the high places were not removed: the people sacrificed and burnt incense still on...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "ע֥וֹד: - properly, iteration or continuance; used only adverbially (with or without prepositi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the rest of the acts of Azariah, and all that he did, are they not written in the book of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וְיֶ֛תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Ishodad of Merv on BOOKS OF SESSIONS 2 KINGS 15:3: In the book of Chronicles [it is written]:...\". Word-study detail reinforces \"כֵֽן׃: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "In the twenty-seventh year of Jeroboam king of Israel, Azariah..."
+        ],
+        "2": [
+          "He was sixteen years old when he became king, and..."
+        ],
+        "3": [
+          "He did what was right in the sight of the..."
+        ],
+        "4": [
+          "Only the high places were not eliminated"
+        ],
+        "5": [
+          "And the Lord afflicted the king, so that he had..."
+        ],
+        "6": [
+          "Now as for the rest of the acts of Azariah..."
+        ],
+        "7": [
+          "And Azariah lay down with his fathers, and they buried..."
+        ],
+        "9": [
+          "just"
+        ],
+        "12": [
+          "This is the word of the Lord which He spoke..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ishodad of Merv on BOOKS OF SESSIONS 2 KINGS 15:3: In the book of Chronicles [it is written]:...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ishodad of Merv on BOOKS OF SESSIONS 2 KINGS 15:3: In the book of Chronicles [it is written]:...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, and smote him...\". Word-study detail reinforces \"וַיִּקְשָׁר: made - to tie, physically (gird, confine, compact) or mentally (in love, league)\".",
+      "supportingVerses": [
+        15,
+        30
+      ],
+      "versePhrases": {
+        "15": [
+          "formed"
+        ],
+        "30": [
+          "formed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And the rest of the acts of Shallum, and his conspiracy which he made, behold, they are writt...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "קָשָׁ֑ר: which he made - to tie, physically (gird, confine, compact) or mentally (in love, le...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, and smote him...",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "וַיִּקְשָׁר: made - to tie, physically (gird, confine, compact) or mentally (in love, league)",
+          "anchorVerse": 30
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"In the days of Pekah king of Israel came Tiglath-pileser king of Assyria, and took Ijon, and...\".",
+      "supportingVerses": [
+        29
+      ],
+      "versePhrases": {
+        "29": [
+          "led"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "In the days of Pekah king of Israel came Tiglath-pileser king of Assyria, and took Ijon, and...",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Inferred",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship.",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

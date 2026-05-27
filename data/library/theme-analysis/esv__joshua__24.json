@@ -1,0 +1,314 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Joshua",
+  "chapter": 24,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:03.277Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"So Joshua made a covenant with the people that day, and set them a statute and an ordinance i...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        3,
+        10,
+        25,
+        28,
+        29,
+        30,
+        32
+      ],
+      "versePhrases": {
+        "3": [
+          "Then I took your father Abraham from beyond the River..."
+        ],
+        "10": [
+          "he blessed you"
+        ],
+        "25": [
+          "covenant"
+        ],
+        "28": [
+          "inheritance"
+        ],
+        "29": [
+          "After these things Joshua the son of Nun, the servant..."
+        ],
+        "30": [
+          "inheritance"
+        ],
+        "32": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "I took your father Abraham from the other side of the flood (וָאֶקַּח אֶת־אֲבִיכֶם אֶת־אַבְרָ...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on QUESTIONS ON JOSHUA 25: The Septuagint has translated “And I took your...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Deuteronomy 23:5",
+          "anchorVerse": 10,
+          "referenceLabel": "Deuteronomy 23:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does forced blessing instead of curse demonstrate God's sovereignty over all spiritual po...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"I have given you a land for which ye did not labour (וָאֶתֵּן לָכֶם אֶרֶץ אֲשֶׁר לֹא־יָגַעְתָ...\". Word-study detail reinforces \"יֹֽשְׁבִ֣ים: ye dwell - properly, to sit down (specifically as judge. in ambush, in quiet); b...\".",
+      "supportingVerses": [
+        8,
+        13,
+        15,
+        27
+      ],
+      "versePhrases": {
+        "8": [
+          "with you"
+        ],
+        "13": [
+          "dwell"
+        ],
+        "15": [
+          "dwell"
+        ],
+        "27": [
+          "lest you deal falsely with your God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "I have given you a land for which ye did not labour (וָאֶתֵּן לָכֶם אֶרֶץ אֲשֶׁר לֹא־יָגַעְתָ...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וַתֵּֽשְׁב֖וּ: not and ye dwell - properly, to sit down (specifically as judge. in ambush, in...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "This covenant renewal ceremony occurred at Shechem, a location rich with patriarchal history—...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"So Joshua made a covenant with the people that day, and set them a statute and an ordinance i...\". Word-study detail reinforces \"אֶ֣רֶץ: him throughout all the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        7,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "7": [
+          "made"
+        ],
+        "25": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on QUESTIONS ON JOSHUA 25: The Septuagint has translated “And I took your...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אֶ֣רֶץ: him throughout all the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The Red Sea deliverance (c. 1446 BC) destroyed Egypt's military might, enabling Israel's esca...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "So Joshua made a covenant with the people that day, and set them a statute and an ordinance i...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Joshua's final exhortation calls Israel to exclusive covenant loyalty. The threefold command—...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        3,
+        14,
+        22,
+        27
+      ],
+      "versePhrases": {
+        "3": [
+          "Then I took your father Abraham from beyond the River..."
+        ],
+        "14": [
+          "faithfulness"
+        ],
+        "22": [
+          "Then Joshua said to the people, “You are witnesses against..."
+        ],
+        "27": [
+          "And Joshua said to all the people, “Behold, this stone..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does God's promise to 'multiply seed' reveal about His faithfulness despite human barren...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on QUESTIONS ON JOSHUA 25: The Septuagint has translated “And I took your...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "1 Samuel 12:24",
+          "anchorVerse": 14,
+          "referenceLabel": "1 Samuel 12:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Joshua's final exhortation calls Israel to exclusive covenant loyalty. The threefold command—...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The 'two kings of the Amorites' refers to Sihon king of Heshbon and Og king of Bashan, defeat...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        9,
+        12,
+        29
+      ],
+      "versePhrases": {
+        "9": [
+          "king"
+        ],
+        "12": [
+          "the two kings of the Amorites"
+        ],
+        "29": [
+          "After these things Joshua the son of Nun, the servant..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Judges 11:25",
+          "anchorVerse": 9,
+          "referenceLabel": "Judges 11:25"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The Balaam incident occurred around 1406 BC as Israel camped on the plains of Moab, preparing...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The 'two kings of the Amorites' refers to Sihon king of Heshbon and Og king of Bashan, defeat...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What 'statutes and ordinances' help structure your covenant relationship with God?\". Word-study detail reinforces \"נִשְׁמָֽע׃: will we obey - to hear intelligently (often with implication of attention, obedie...\".",
+      "supportingVerses": [
+        24,
+        25
+      ],
+      "versePhrases": {
+        "24": [
+          "obey"
+        ],
+        "25": [
+          "statutes"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "נִשְׁמָֽע׃: will we obey - to hear intelligently (often with implication of attention, obedie...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "What 'statutes and ordinances' help structure your covenant relationship with God?",
+          "anchorVerse": 25
+        }
+      ]
+    }
+  ]
+}

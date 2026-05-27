@@ -1,0 +1,351 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Romans",
+  "chapter": 13,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:23.277Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Having shown how believers should observe justice tow...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        4,
+        8,
+        9,
+        10,
+        14
+      ],
+      "versePhrases": {
+        "4": [
+          "For the one in authority is God’s servant for your..."
+        ],
+        "8": [
+          "love"
+        ],
+        "9": [
+          "Love"
+        ],
+        "10": [
+          "Love",
+          "love"
+        ],
+        "14": [
+          "Rather, clothe yourselves with the Lord Jesus Christ, and do..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How do you reconcile government as 'avenger to execute wrath' with Jesus' command to love ene...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: The authorities are concerned for your safety. T...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Romans 13:10",
+          "anchorVerse": 8,
+          "referenceLabel": "Romans 13:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Owe no man any thing, but to love one another — Mēdeni mēden opheilete, ei mē to allēlous aga...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then, when he says, for rulers, he assigns the reason...\". Word-study detail reinforces \"φόβον: fear - alarm or fright\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "fear",
+          "terror"
+        ],
+        "4": [
+          "afraid"
+        ],
+        "5": [
+          "Therefore, it is necessary to submit to the authorities, not..."
+        ],
+        "7": [
+          "Give to everyone what you owe them"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For rulers are not a terror to good works, but to the evil — Hoi gar archontes ouk eisin phob...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then, when he says, for rulers, he assigns the reason...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "φόβος: a terror - alarm or fright",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "For he is the minister of God to thee for good — Theou gar diakonos estin soi eis to agathon...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Fourth, he assigns the reason, saying: for he is God'...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "judgment"
+        ],
+        "3": [
+          "For rulers hold no terror for those who do right,..."
+        ],
+        "4": [
+          "wrath",
+          "punishment"
+        ],
+        "5": [
+          "punishment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Whosoever therefore resisteth the power, resisteth the ordinance of God — Hōste ho antitassom...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Diodorus of Tarsus on PAULINE COMMENTARY FROM THE GREEK CHURCH: Those who disobey the king ha...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For rulers are not a terror to good works, but to the evil — Hoi gar archontes ouk eisin phob...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then, when he says, for rulers, he assigns the reason...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Wherefore ye must needs be subject, not only for wrath, but also for conscience sake — Dio an...\". Word-study detail reinforces \"ὑποτασσέσθω: be subject - to subordinate; reflexively, to obey\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Let everyone be subject to the governing authorities, for there..."
+        ],
+        "2": [
+          "Consequently, whoever rebels against the authority is rebelling against what..."
+        ],
+        "4": [
+          "For the one in authority is God’s servant for your..."
+        ],
+        "5": [
+          "Therefore, it is necessary to submit to the authorities, not..."
+        ],
+        "6": [
+          "This is also why you pay taxes, for the authorities..."
+        ],
+        "7": [
+          "Give to everyone what you owe them"
+        ],
+        "8": [
+          "Let no debt remain outstanding, except the continuing debt to..."
+        ],
+        "9": [
+          "command"
+        ],
+        "10": [
+          "Love does no harm to a neighbor"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How do you reconcile submission to governing authorities ( exousiais hypotassesthō ) with civ...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theodoret of Cyrus on INTERPRETATION OF THE LETTER TO THE ROMANS: Even priests, bishops and m...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ὑποτασσέσθω: be subject - to subordinate; reflexively, to obey",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Whosoever therefore resisteth the power, resisteth the ordinance of God — Hōste ho antitassom...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Romans: Then when he says, the night is passed, but the day i...\". Word-study detail reinforces \"φωτός: of light - luminousness (in the widest application, natural or artificial, abstract or...\".",
+      "supportingVerses": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "11": [
+          "And do this, understanding the present time"
+        ],
+        "12": [
+          "light"
+        ],
+        "13": [
+          "Let us behave decently, as in the daytime, not in..."
+        ],
+        "14": [
+          "Rather, clothe yourselves with the Lord Jesus Christ, and do..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "How should Christians live in light of salvation being 'nearer' each day—with anxiety, urgenc...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 4: \"For blessed are those that have seen the Lord,...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The night is far spent, the day is at hand — Hē nyx proekopsen, hē de hēmera ēngiken (ἡ νὺξ π...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on Romans: Then when he says, the night is passed, but the day i...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: It is the hour for you to strive for that which...\".",
+      "supportingVerses": [
+        10,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "10": [
+          "Love does no harm to a neighbor"
+        ],
+        "11": [
+          "understanding"
+        ],
+        "14": [
+          "Rather, clothe yourselves with the Lord Jesus Christ, and do..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does understanding love as ' plērōma nomou ' (law's fulfillment) guard against both legal...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Irenaeus on Against Heresies Book IV: But that this is the first and greatest commandment, an...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Pelagius on PELAGIUS’S COMMENTARY ON ROMANS: It is the hour for you to strive for that which...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "But put ye on the Lord Jesus Christ — Alla endysasthe ton kyrion Iēsoun Christon (ἀλλὰ ἐνδύσα...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

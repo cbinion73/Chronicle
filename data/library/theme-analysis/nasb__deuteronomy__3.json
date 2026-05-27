@@ -1,0 +1,237 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 3,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:11.347Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bashan was a fertile plateau region northeast of the Sea of Galilee, known for strong cattle...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king"
+        ],
+        "4": [
+          "kingdom"
+        ],
+        "6": [
+          "king"
+        ],
+        "10": [
+          "kingdom"
+        ],
+        "11": [
+          "king"
+        ],
+        "13": [
+          "kingdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Deuteronomy 1:4",
+          "anchorVerse": 1,
+          "referenceLabel": "Deuteronomy 1:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Bashan was a fertile plateau region northeast of the Sea of Galilee, known for strong cattle...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: the king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What 'giants' in your life require remembering God's past faithfulness to conquer present fear?\". Word-study detail reinforces \"תִּירָ֣א: unto me Fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        2,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "fear"
+        ],
+        "22": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What 'giants' in your life require remembering God's past faithfulness to conquer present fear?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "תִּירָ֣א: unto me Fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "The command 'Ye shall not fear them' directly addresses the natural human response to overwhe...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "תִּֽירָא֑וּם: Ye shall not fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The promise 'Until the LORD have given rest unto your brethren, as well as unto you' establis...\". Word-study detail reinforces \"יָנִ֨יחַ: have given rest - to rest, i.e., settle down; used in a great variety of applicatio...\".",
+      "supportingVerses": [
+        13,
+        20
+      ],
+      "versePhrases": {
+        "13": [
+          "rest"
+        ],
+        "20": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וְיֶ֨תֶר: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "The promise 'Until the LORD have given rest unto your brethren, as well as unto you' establis...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "יָנִ֨יחַ: have given rest - to rest, i.e., settle down; used in a great variety of applicatio...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Moses's prayer reveals profound theology and personal anguish. The address אֲדֹנָי יְהוִה (Ad...\". Word-study detail reinforces \"וּבָאָ֔רֶץ: or in earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        24
+      ],
+      "versePhrases": {
+        "24": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "Moses's prayer reveals profound theology and personal anguish. The address אֲדֹנָי יְהוִה (Ad...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "וּבָאָ֔רֶץ: or in earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        28
+      ],
+      "versePhrases": {
+        "28": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"God's response—'the LORD was wroth with me for your sakes'—reveals that Moses' consequences r...\". Word-study detail reinforces \"אֵלָ֑י: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        26
+      ],
+      "versePhrases": {
+        "26": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "God's response—'the LORD was wroth with me for your sakes'—reveals that Moses' consequences r...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "אֵלָ֑י: - near, with or among; often in general, to",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

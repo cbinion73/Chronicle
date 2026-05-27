@@ -1,0 +1,396 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 37,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:44.715Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XXVII: Who ordereth the snow to desc...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        3,
+        6,
+        7,
+        10,
+        11,
+        12,
+        15,
+        17,
+        18,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "Hear attentively the noise of his voice, and the sound..."
+        ],
+        "3": [
+          "earth"
+        ],
+        "6": [
+          "earth"
+        ],
+        "7": [
+          "He sealeth up the hand of every man"
+        ],
+        "10": [
+          "waters"
+        ],
+        "11": [
+          "Also by watering he wearieth the thick cloud"
+        ],
+        "12": [
+          "earth"
+        ],
+        "15": [
+          "light"
+        ],
+        "17": [
+          "earth"
+        ],
+        "18": [
+          "Hast thou with him spread out the sky, which is..."
+        ],
+        "20": [
+          "Shall it be told him that I speak"
+        ],
+        "21": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Hear attentively the noise of his voice, and the sound that goeth out of his mouth —Elihu cal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: After sight which is the knowledge of corporeal light, c...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Matthew 24:27",
+          "anchorVerse": 3,
+          "referenceLabel": "Matthew 24:27"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "He directeth it under the whole heaven, and his lightning unto the ends of the earth —God's g...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XXVII: Are not thy garments warm, wh...\". Word-study detail reinforces \"מִנִּשְׁמַת: By the breath - a puff, i.e., wind, angry or vital breath, divine inspiration, i...\".",
+      "supportingVerses": [
+        2,
+        6,
+        9,
+        10,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "Hear attentively the noise of his voice, and the sound..."
+        ],
+        "6": [
+          "For he saith to the snow, Be thou on the..."
+        ],
+        "9": [
+          "Out of the south cometh the whirlwind"
+        ],
+        "10": [
+          "breath"
+        ],
+        "17": [
+          "wind"
+        ],
+        "21": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "When has God spoken to you through creation's 'voice'—thunderstorms, wind, ocean waves—and wh...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XXVII: It will hear a hearing in the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "He saith to the snow, Be thou on the earth ( le-sheleg 'emor heyeh-'arets , לַשֶּׁלֶג אֱמֹר ה...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XXVII: Who ordereth the snow to desc...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XXVII: Therefore men will fear Him,...\". Word-study detail reinforces \"דֵּעִֽים׃: in knowledge - knowledge\".",
+      "supportingVerses": [
+        2,
+        5,
+        7,
+        8,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "Hear attentively the noise of his voice, and the sound..."
+        ],
+        "5": [
+          "God thundereth marvellously with his voice"
+        ],
+        "7": [
+          "He sealeth up the hand of every man"
+        ],
+        "8": [
+          "Then the beasts go into dens, and remain in their..."
+        ],
+        "14": [
+          "Hearken unto this, O Job"
+        ],
+        "15": [
+          "Dost thou know when God disposed them, and caused the..."
+        ],
+        "16": [
+          "knowledge"
+        ],
+        "17": [
+          "How thy garments are warm, when he quieteth the earth..."
+        ],
+        "18": [
+          "Hast thou with him spread out the sky, which is..."
+        ],
+        "19": [
+          "Teach us what we shall say unto him"
+        ],
+        "20": [
+          "Shall it be told him that I speak"
+        ],
+        "22": [
+          "Fair weather cometh out of the north"
+        ],
+        "24": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Elihu's speeches (Job 32-37) form a bridge between the failed counsel of Job's three friends...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: After sight which is the knowledge of corporeal light, c...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What role does mystery play in understanding God?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on Job: But the voice is not only ordered to the teaching of men...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XXVII: Who ordereth the snow to desc...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        2,
+        6,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "2": [
+          "Hear attentively the noise of his voice, and the sound..."
+        ],
+        "6": [
+          "For he saith to the snow, Be thou on the..."
+        ],
+        "23": [
+          "justice"
+        ],
+        "24": [
+          "he respecteth not any that are wise of heart"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Hear attentively the noise of his voice, and the sound that goeth out of his mouth —Elihu cal...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XXVII: It will hear a hearing in the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "He saith to the snow, Be thou on the earth ( le-sheleg 'emor heyeh-'arets , לַשֶּׁלֶג אֱמֹר ה...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XXVII: Who ordereth the snow to desc...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XXVII: At this my heart trembled, an...\". Word-study detail reinforces \"יְרֵא֣וּהוּ: do therefore fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        1,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "At this also my heart trembleth, and is moved out..."
+        ],
+        "22": [
+          "Fair weather cometh out of the north"
+        ],
+        "24": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Human Response to Divine Power: The Hebrew word חָרַד (charad, \"trembleth\") conveys trembling...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XXVII: At this my heart trembled, an...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יֶחֱרַ֣ד: trembleth - to shudder with terror; hence, to fear; also to hasten (with anxiety)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Fair weather cometh out of the north (זָהָב מִצָּפוֹן, zahav mitzaphon)—literally 'gold from...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Elihu commands Job: \"Hearken unto this, O Job: stand still, and consider the wondrous works o...\". Word-study detail reinforces \"עֲ֝מֹ֗ד: stand still - to stand, in various relations (literal and figurative, intransitive a...\".",
+      "supportingVerses": [
+        14,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "14": [
+          "still"
+        ],
+        "17": [
+          "when he quieteth the earth by the south wind?"
+        ],
+        "21": [
+          "And now men see not the bright light which is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "Elihu commands Job: \"Hearken unto this, O Job: stand still, and consider the wondrous works o...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "עֲ֝מֹ֗ד: stand still - to stand, in various relations (literal and figurative, intransitive a...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "What natural phenomena today still remind us of human limitations in comprehending divine wis...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XXVII: Are not thy garments warm, wh...",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

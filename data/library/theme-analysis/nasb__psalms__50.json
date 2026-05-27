@@ -1,0 +1,361 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 50,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:54.637Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 50: Since then it is evident, that many are to judg...\". Word-study detail reinforces \"אָ֑רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "4": [
+          "heavens",
+          "earth"
+        ],
+        "5": [
+          "made"
+        ],
+        "6": [
+          "heavens"
+        ],
+        "14": [
+          "Offer God a sacrifice of thanksgiving And pay your vows..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The majestic introduction: 'The mighty God, even the LORD, hath spoken, and called the earth...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist invited the nations...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אָ֑רֶץ: the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The cosmic courtroom: 'He shall call to the heavens from above, and to the earth, that he may...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"The sacrifice of praise shall honor me....\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        14,
+        15,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "14": [
+          "Offer God a sacrifice of thanksgiving And pay your vows..."
+        ],
+        "15": [
+          "rescue"
+        ],
+        "22": [
+          "save"
+        ],
+        "23": [
+          "salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "The todah (thanksgiving offering) included testimony of God's deliverance. It was communal, c...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Clement of Rome on 1 CLEMENT 52: The Master, brothers, has need of nothing at all. He desires...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The prayer invitation: 'And call upon me in the day of trouble: I will deliver thee, and thou...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"And call upon me.\" Here the Lord sets f...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Cyril of Jerusalem on Catechetical Lecture 15:1: The Savior comes again, but not to be judged...\". Word-study detail reinforces \"חֻקָּ֑י: my statutes - an enactment; hence, an appointment (of time, space, quantity, labor o...\".",
+      "supportingVerses": [
+        3,
+        16,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "keep"
+        ],
+        "16": [
+          "statutes"
+        ],
+        "21": [
+          "kept"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "What does it mean that God 'shall not keep silence'?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 50: \"And a mighty tempest round about Him\" [Psalm 5...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יֶ֫חֱרַ֥שׁ: and shall not keep silence - to scratch, i.e., (by implication) to engrave, ploug...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The shift to the wicked: 'But unto the wicked God saith, What hast thou to do to declare my s...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: \"These things you have done, and I was s...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "The Mighty One, God, the Lord, has spoken And summoned..."
+        ],
+        "3": [
+          "May our God come and not keep silent"
+        ],
+        "4": [
+          "judge"
+        ],
+        "5": [
+          "“Gather My godly ones to Me, Those who have made..."
+        ],
+        "6": [
+          "judge"
+        ],
+        "7": [
+          "“Hear, My people, and I will speak"
+        ],
+        "21": [
+          "These things you have done and I kept silent"
+        ],
+        "22": [
+          "“Now consider this, you who forget God, Or I will..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The majestic introduction: 'The mighty God, even the LORD, hath spoken, and called the earth...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above, the Psalmist invited the nations...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How do fire and storm indicate God's presence and judgment?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"God shall come manifestly.\" Here he tre...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: And with this the reading of Jerome agre...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        5,
+        14,
+        15,
+        16,
+        18,
+        23
+      ],
+      "versePhrases": {
+        "5": [
+          "covenant"
+        ],
+        "14": [
+          "Offer God a sacrifice of thanksgiving And pay your vows..."
+        ],
+        "15": [
+          "Call upon Me on the day of trouble"
+        ],
+        "16": [
+          "covenant"
+        ],
+        "18": [
+          "When you see a thief, you become friends with him,..."
+        ],
+        "23": [
+          "He who offers a sacrifice of thanksgiving honors Me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Hebrews 13:20",
+          "anchorVerse": 5,
+          "referenceLabel": "Hebrews 13:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Covenant ratification through sacrifice (Exodus 24:5-8) created binding obligation. Those who...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: And with this the reading of Jerome agre...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בְרִיתִ֣י: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"CS Lewis on Reflections on the Psalms, Chapter 9: A Word About Praising: Worst of all was the...\". Word-study detail reinforces \"תּוֹדָ֗ה: praise - properly, an extension of the hand, i.e., (by implication) avowal, or (usu...\".",
+      "supportingVerses": [
+        2,
+        8,
+        12,
+        14,
+        15,
+        23
+      ],
+      "versePhrases": {
+        "2": [
+          "Out of Zion, the perfection of beauty, God has shone"
+        ],
+        "8": [
+          "I do not rebuke you for your sacrifices, And your..."
+        ],
+        "12": [
+          "If I were hungry I would not tell you, For..."
+        ],
+        "14": [
+          "thanksgiving"
+        ],
+        "15": [
+          "Call upon Me on the day of trouble"
+        ],
+        "23": [
+          "thanksgiving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Zion as source of revelation: 'Out of Zion, the perfection of beauty, God hath shined.' The '...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on COMMENTARY ON THE PSALMS 50:1: His charm, in fact, was evident from [Zion]...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "What distinction does this verse establish between ritual compliance and genuine worship?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: \"I will not reprove you for your sacrifi...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

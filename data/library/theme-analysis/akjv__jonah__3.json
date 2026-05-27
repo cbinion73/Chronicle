@@ -1,0 +1,63 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jonah",
+  "chapter": 3,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:18.619Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Jonah, Chapter 3: \"For word came unto the king of Nineveh, and he aro...\". Word-study detail reinforces \"מֶ֣לֶך: unto the king - a king\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "4": [
+          "And Jonah began to enter into the city a day’s..."
+        ],
+        "6": [
+          "king",
+          "throne"
+        ],
+        "7": [
+          "king"
+        ],
+        "9": [
+          "Who can tell if God will turn and repent, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The forty-day warning parallels other prophetic announcements giving opportunity for repentan...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on St. Jerome, Commentary on Daniel, CHAPTER FOUR: [Daniel 4:27] \"'Wherefore, O king,...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe fr...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Jonah, Chapter 3: \"For word came unto the king of Nineveh, and he aro...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

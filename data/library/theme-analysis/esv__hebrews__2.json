@@ -1,0 +1,374 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Hebrews",
+  "chapter": 2,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:50.437Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on Hebrews: 96. – Then (v. 3) he places the consequent of his co...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        10,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "1": [
+          "Therefore we must pay much closer attention to what we..."
+        ],
+        "3": [
+          "salvation"
+        ],
+        "4": [
+          "while God also bore witness by signs and wonders and..."
+        ],
+        "10": [
+          "salvation"
+        ],
+        "14": [
+          "Since therefore the children share in flesh and blood, he..."
+        ],
+        "15": [
+          "deliver"
+        ],
+        "16": [
+          "For surely it is not angels that he helps, but..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Greek 'prosechein' (pay attention) introduces the first of five warning passages in Hebre...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: 89. – After showing in a number of ways Christ's sup...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Hebrews 5:9",
+          "anchorVerse": 3,
+          "referenceLabel": "Hebrews 5:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The rhetorical question expects the answer: there is no escape. 'Neglect' (Greek 'amelesantes...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Hebrews: 121. – Above, the Apostle, desiring to prove Christ'...\". Word-study detail reinforces \"ὁμοιωθῆναι: to be made like - to assimilate, i.e., compare; passively, to become similar\".",
+      "supportingVerses": [
+        6,
+        7,
+        9,
+        12,
+        17
+      ],
+      "versePhrases": {
+        "6": [
+          "It has been testified somewhere, “What is man, that you..."
+        ],
+        "7": [
+          "made"
+        ],
+        "9": [
+          "made"
+        ],
+        "12": [
+          "saying, “I will tell of your name to my brothers"
+        ],
+        "17": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Quoting Psalm 8:4, the author uses 'diemartusato' (testified) to introduce Scripture as autho...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "CS Lewis on Reflections on the Psalms, Chapter 12: Second Meanings in the Psalms: The choice...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The phrase 'made him a little lower than the angels' can also be translated 'for a little whi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: 109. – Then (v. 7) he mentions the mystery of the Pa...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Hebrews: 109. – Then (v. 7) he mentions the mystery of the Pa...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        7,
+        9,
+        10,
+        12
+      ],
+      "versePhrases": {
+        "7": [
+          "glory"
+        ],
+        "9": [
+          "glory"
+        ],
+        "10": [
+          "glory"
+        ],
+        "12": [
+          "praise",
+          "sing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Psalms 8:5",
+          "anchorVerse": 7,
+          "referenceLabel": "Psalms 8:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The phrase 'made him a little lower than the angels' can also be translated 'for a little whi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: 109. – Then (v. 7) he mentions the mystery of the Pa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "δόξῃ: with glory - glory (as very apparent), in a wide application (literal or figurative, ob...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"John Chrysostom on Homily on Hebrews 5: \"That He might become a merciful and faithful High Pr...\". Word-study detail reinforces \"πιστὸς: faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "For since the message declared by angels proved to be..."
+        ],
+        "3": [
+          "how shall we escape if we neglect such a great..."
+        ],
+        "4": [
+          "while God also bore witness by signs and wonders and..."
+        ],
+        "6": [
+          "It has been testified somewhere, “What is man, that you..."
+        ],
+        "7": [
+          "You made him for a little while lower than the..."
+        ],
+        "8": [
+          "putting everything in subjection under his feet"
+        ],
+        "9": [
+          "But we see him who for a little while was..."
+        ],
+        "13": [
+          "And again, “I will put my trust in him"
+        ],
+        "14": [
+          "Since therefore the children share in flesh and blood, he..."
+        ],
+        "17": [
+          "faithful"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The progression from 'spoken by the Lord' to confirmed 'by them that heard him' establishes a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: 92. – Then he adduces the reason, which contains a c...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: 96. – Then (v. 3) he places the consequent of his co...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gif...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Hebrews: 121. – Above, the Apostle, desiring to prove Christ'...\". Word-study detail reinforces \"πάθημα: the suffering - something undergone, i.e., hardship or pain; subjectively, an emotion...\".",
+      "supportingVerses": [
+        7,
+        9,
+        10,
+        15,
+        18
+      ],
+      "versePhrases": {
+        "7": [
+          "You made him for a little while lower than the..."
+        ],
+        "9": [
+          "suffering"
+        ],
+        "10": [
+          "suffering"
+        ],
+        "15": [
+          "and deliver all those who through fear of death were..."
+        ],
+        "18": [
+          "For because he himself has suffered when tempted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The phrase 'made him a little lower than the angels' can also be translated 'for a little whi...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: 109. – Then (v. 7) he mentions the mystery of the Pa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on Hebrews: 121. – Above, the Apostle, desiring to prove Christ'...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "πάθημα: the suffering - something undergone, i.e., hardship or pain; subjectively, an emotion...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Hebrews: 133. – Then when he says, and again, he shows that C...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        4,
+        13,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "For since the message declared by angels proved to be..."
+        ],
+        "4": [
+          "while God also bore witness by signs and wonders and..."
+        ],
+        "13": [
+          "trust"
+        ],
+        "15": [
+          "and deliver all those who through fear of death were..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How do the multiple witnesses to the gospel strengthen your confidence in its truthfulness?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Hebrews 3: But what is this, \"For if the word spoken by Angels w...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Hebrews was written to Jewish Christians facing pressure to abandon Christianity and return t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on Hebrews 3: How doth He bear witness? not by word or by voice, (t...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

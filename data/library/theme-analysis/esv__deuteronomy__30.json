@@ -1,0 +1,315 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 30,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:01.374Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"And thou shalt return and obey the voice of the LORD, and do all his commandments which I com...\". Word-study detail reinforces \"וְשָֽׁמַעְתָּ֖: and obey - to hear intelligently (often with implication of attention, obedie...\".",
+      "supportingVerses": [
+        2,
+        8,
+        10,
+        11,
+        12,
+        16,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "2": [
+          "obey",
+          "command"
+        ],
+        "8": [
+          "obey",
+          "command",
+          "keep"
+        ],
+        "10": [
+          "obey",
+          "keep",
+          "statutes"
+        ],
+        "11": [
+          "command"
+        ],
+        "12": [
+          "It is not in heaven, that you should say, ‘Who..."
+        ],
+        "16": [
+          "obey",
+          "command",
+          "statutes"
+        ],
+        "19": [
+          "I call heaven and earth to witness against you today,..."
+        ],
+        "20": [
+          "obeying his voice and holding fast to him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And shalt return unto the LORD thy God, and shalt obey his voice according to all that I comm...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְשָֽׁמַעְתָּ֣: and shalt obey - to hear intelligently (often with implication of attention,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And thou shalt return and obey the voice of the LORD, and do all his commandments which I com...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וְשָֽׁמַעְתָּ֖: and obey - to hear intelligently (often with implication of attention, obedie...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Mark: And one of the scribes came, and having heard them reasoning together, and perceiving t...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        6,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "6": [
+          "love"
+        ],
+        "16": [
+          "loving"
+        ],
+        "20": [
+          "loving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Deuteronomy 6:5",
+          "anchorVerse": 6,
+          "referenceLabel": "Deuteronomy 6:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the LORD thy God will circumcise thine heart, and the heart of thy seed, to love the LORD...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Mark: And one of the scribes came, and having heard them reasoning together, and perceiving t...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "לְאַֽהֲבָ֞ה: to love - to have affection for (sexually or otherwise)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"In that I command thee this day to love the LORD thy God, to walk in his ways, and to keep hi...\". Word-study detail reinforces \"וּבֵֽרַכְךָ֙: shall bless - to kneel; by implication to bless god (as an act of adoration), a...\".",
+      "supportingVerses": [
+        1,
+        16,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "blessing"
+        ],
+        "16": [
+          "bless"
+        ],
+        "19": [
+          "blessing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it shall come to pass, when all these things are come upon thee, the blessing and the cur...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַבְּרָכָה֙: upon thee the blessing - benediction; by implication prosperity",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "In that I command thee this day to love the LORD thy God, to walk in his ways, and to keep hi...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "וּבֵֽרַכְךָ֙: shall bless - to kneel; by implication to bless god (as an act of adoration), a...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"CS Lewis on Mere Christianity, Book 2, Chapter 3: The Shocking Alternative: God created thing...\". Word-study detail reinforces \"הָאָרֶץ֒: and earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        5,
+        12,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "5": [
+          "And the Lord your God will bring you into the..."
+        ],
+        "12": [
+          "It is not in heaven, that you should say, ‘Who..."
+        ],
+        "14": [
+          "But the word is very near you"
+        ],
+        "19": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Return from Babylon brought partial fulfillment - Jews reoccupied Judea and rebuilt the templ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הָאָ֛רֶץ: thee into the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "It is not in heaven, that thou shouldest say, Who shall go up for us to heaven, and bring it...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Romans: For Moses describeth the righteousness which is of the law, That the man which doeth...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"How can contemporary believers keep God's word near in mouth and heart?\". Word-study detail reinforces \"לָשֶׁ֣בֶת: that thou mayest dwell - properly, to sit down (specifically as judge. in ambush,...\".",
+      "supportingVerses": [
+        14,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "14": [
+          "near"
+        ],
+        "19": [
+          "I call heaven and earth to witness against you today,..."
+        ],
+        "20": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "How can contemporary believers keep God's word near in mouth and heart?",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 19.77: But what does Scripture say?...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "קָר֥וֹב: nigh - near (in place, kindred or time)",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Deuteronomy is set in the plains of Moab in the eleventh month of the fortieth year after the...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"That then the LORD thy God will turn thy captivity, and have compassion upon thee, and will r...\". Word-study detail reinforces \"וְרִֽחֲמֶ֑ךָ: and have compassion - to fondle; by implication, to love, especially to compass...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "That then the LORD thy God will turn thy captivity, and have compassion upon thee, and will r...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וְרִֽחֲמֶ֑ךָ: and have compassion - to fondle; by implication, to love, especially to compass...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

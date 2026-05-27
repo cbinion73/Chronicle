@@ -1,0 +1,474 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Peter",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:52:39.096Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Oecumenius on Commentary on 2 Peter: Simon Peter, a servant and apostle of Jesus Christ, to t...\". Word-study detail reinforces \"γνῶσιν: knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        15,
+        16,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Simon Peter, a servant and apostle of Jesus Christ, To..."
+        ],
+        "2": [
+          "knowledge"
+        ],
+        "3": [
+          "knowledge"
+        ],
+        "4": [
+          "Through these he has given us his very great and..."
+        ],
+        "5": [
+          "knowledge"
+        ],
+        "6": [
+          "knowledge"
+        ],
+        "7": [
+          "and to godliness, mutual affection"
+        ],
+        "8": [
+          "knowledge"
+        ],
+        "9": [
+          "But whoever does not have them is nearsighted and blind,..."
+        ],
+        "12": [
+          "So I will always remind you of these things, even..."
+        ],
+        "15": [
+          "And I will make every effort to see that after..."
+        ],
+        "16": [
+          "For we did not follow cleverly devised stories when we..."
+        ],
+        "19": [
+          "We also have the prophetic message as something completely reliable,..."
+        ],
+        "20": [
+          "understand"
+        ],
+        "21": [
+          "For prophecy never had its origin in the human will,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does understanding faith as divinely 'obtained' rather than humanly achieved change your...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on 2 Peter: Simon Peter, a servant and apostle of Jesus Christ, to t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The emphasis on epignōsis (deep knowledge) directly counters early Gnostic tendencies infiltr...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on Commentary on 2 Peter: Simon Peter, a servant and apostle of Jesus Christ, to t...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: Through the knowledge of Him who called us by Hi...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        16,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "glory"
+        ],
+        "16": [
+          "For we did not follow cleverly devised stories when we told you about the coming of our Lord Jesus Christ in power"
+        ],
+        "17": [
+          "glory",
+          "Glory"
+        ],
+        "19": [
+          "We also have the prophetic message as something completely reliable,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "1 Peter 5:10",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Peter 5:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "According as his divine power hath given unto us all things that pertain unto life and godlin...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: Through the knowledge of Him who called us by Hi...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "δόξης: glory - glory (as very apparent), in a wide application (literal or figurative, object...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Wherefore I will not be negligent to put you always in remembrance of these things, though ye...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "Simon Peter, a servant and apostle of Jesus Christ, To..."
+        ],
+        "2": [
+          "Grace and peace be yours in abundance through the knowledge..."
+        ],
+        "5": [
+          "For this very reason, make every effort to add to..."
+        ],
+        "6": [
+          "and to knowledge, self-control"
+        ],
+        "9": [
+          "But whoever does not have them is nearsighted and blind,..."
+        ],
+        "10": [
+          "Therefore, my brothers and sisters, make every effort to confirm..."
+        ],
+        "11": [
+          "and you will receive a rich welcome into the eternal..."
+        ],
+        "12": [
+          "truth"
+        ],
+        "13": [
+          "I think it is right to refresh your memory as..."
+        ],
+        "14": [
+          "because I know that I will soon put it aside,..."
+        ],
+        "15": [
+          "And I will make every effort to see that after..."
+        ],
+        "16": [
+          "For we did not follow cleverly devised stories when we..."
+        ],
+        "17": [
+          "He received honor and glory from God the Father when..."
+        ],
+        "18": [
+          "We ourselves heard this voice that came from heaven when..."
+        ],
+        "19": [
+          "We also have the prophetic message as something completely reliable,..."
+        ],
+        "20": [
+          "Above all, you must understand that no prophecy of Scripture..."
+        ],
+        "21": [
+          "For prophecy never had its origin in the human will,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written likely between AD 64-68, shortly before Peter's martyrdom under Nero, this letter add...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "πίστιν: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The emphasis on epignōsis (deep knowledge) directly counters early Gnostic tendencies infiltr...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: Grace and peace be multiplied to you, etc. In th...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"And beside this, giving all diligence, add to your faith virtue; and to virtue knowledge. The...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "faith"
+        ],
+        "3": [
+          "His divine power has given us everything we need for..."
+        ],
+        "5": [
+          "faith"
+        ],
+        "6": [
+          "and to knowledge, self-control"
+        ],
+        "7": [
+          "and to godliness, mutual affection"
+        ],
+        "8": [
+          "For if you possess these qualities in increasing measure, they..."
+        ],
+        "10": [
+          "Therefore, my brothers and sisters, make every effort to confirm..."
+        ],
+        "11": [
+          "and you will receive a rich welcome into the eternal..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "2 Corinthians 4:13",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Corinthians 4:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on 2 Peter: Simon Peter, a servant and apostle of Jesus Christ, to t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "πίστιν: faith - persuasion, i.e., credence; moral conviction (of religious truth, or the trut...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Symeon the New Theologian on DISCOURSES 34.5: You see that it is not I who speak great and ex...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        9,
+        17,
+        18,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "righteousness"
+        ],
+        "3": [
+          "His divine power has given us everything we need for..."
+        ],
+        "4": [
+          "Through these he has given us his very great and..."
+        ],
+        "9": [
+          "forgetting that they have been cleansed from their past sins"
+        ],
+        "17": [
+          "He received honor and glory from God the Father when..."
+        ],
+        "18": [
+          "We ourselves heard this voice that came from heaven when..."
+        ],
+        "20": [
+          "Above all, you must understand that no prophecy of Scripture..."
+        ],
+        "21": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: In the righteousness of our God and Savior Jesus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "δικαιοσύνῃ: the righteousness - equity (of character or act); specially (christian) justifica...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the first-century Greco-Roman world, various philosophical schools (Stoicism, Epicureanism...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precio...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        10,
+        11,
+        18,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "righteousness"
+        ],
+        "3": [
+          "His divine power has given us everything we need for..."
+        ],
+        "4": [
+          "Through these he has given us his very great and..."
+        ],
+        "10": [
+          "Therefore, my brothers and sisters, make every effort to confirm..."
+        ],
+        "11": [
+          "and you will receive a rich welcome into the eternal..."
+        ],
+        "18": [
+          "We ourselves heard this voice that came from heaven when..."
+        ],
+        "20": [
+          "Above all, you must understand that no prophecy of Scripture..."
+        ],
+        "21": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Simon Peter, a servant and an apostle of Jesus Christ, to them that have obtained like precio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: In the righteousness of our God and Savior Jesus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "δικαιοσύνῃ: the righteousness - equity (of character or act); specially (christian) justifica...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the first-century Greco-Roman world, various philosophical schools (Stoicism, Epicureanism...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

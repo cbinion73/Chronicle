@@ -1,0 +1,369 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 20,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:33.405Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Success in any enterprise requires counsel—seeking wise advice before acting. 'Established by...\". Word-study detail reinforces \"דָֽעַת׃: of knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        5,
+        11,
+        12,
+        15,
+        18,
+        24,
+        26,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "wise"
+        ],
+        "5": [
+          "wise",
+          "understanding",
+          "counsel"
+        ],
+        "11": [
+          "Even a boy is known and distinguished by his acts,..."
+        ],
+        "12": [
+          "The hearing ear and the seeing eye, The [omnipotent] Lord..."
+        ],
+        "15": [
+          "knowledge"
+        ],
+        "18": [
+          "wise",
+          "counsel"
+        ],
+        "24": [
+          "understand"
+        ],
+        "26": [
+          "wise"
+        ],
+        "29": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This proverb warns against alcohol abuse: 'Wine is a mocker, strong drink is raging: and whos...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יֶחְכָּֽם׃: thereby is not wise - to be wise (in mind, word or act)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Counsel in the heart is like 'deep water,' but 'a man of understanding' draws it out. The Heb...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "עֵצָ֣ה: Counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        25,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "righteous"
+        ],
+        "8": [
+          "A [discerning] king who sits on the throne of judgment..."
+        ],
+        "9": [
+          "I am pure from my sin?”"
+        ],
+        "10": [
+          "Differing weights [one for buying and another for selling] and..."
+        ],
+        "11": [
+          "Whether his conduct is pure and right"
+        ],
+        "17": [
+          "just"
+        ],
+        "25": [
+          "holy"
+        ],
+        "30": [
+          "Blows that wound cleanse away evil, And strokes reach to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 13:22",
+          "anchorVerse": 7,
+          "referenceLabel": "Proverbs 13:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The just walk in integrity, leaving a heritage of blessing for their children. Righteousness...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Commentary on Proverbs: The just man who walks in his simplicity, etc. This cannot al...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "צַדִּ֑יק: The just - just",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        7,
+        9,
+        11,
+        25,
+        30
+      ],
+      "versePhrases": {
+        "7": [
+          "righteous"
+        ],
+        "9": [
+          "pure"
+        ],
+        "11": [
+          "pure"
+        ],
+        "25": [
+          "holy"
+        ],
+        "30": [
+          "Blows that wound cleanse away evil"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Proverbs 13:22",
+          "anchorVerse": 7,
+          "referenceLabel": "Proverbs 13:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How have you benefited from previous generations' righteous example?",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This rhetorical question expects the answer: no one. No person can claim complete heart purit...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Proverbs: Who can say, My heart is clean, I am pure from sin? It should...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"God's covenant love ('mercy and truth') preserves the king's person and authority. 'Mercy' (c...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        8,
+        26,
+        28
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "8": [
+          "king",
+          "throne"
+        ],
+        "26": [
+          "king"
+        ],
+        "28": [
+          "king",
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 19:12",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 19:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A king's wrath is like 'the roaring of a lion,' and provoking him 'sinneth against his own so...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Origen of Alexandria on EXPOSITION ON PROVERBS, FRAGMENT 20:2: In this place it openly speaks...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֑לֶךְ: of a king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"God's covenant love ('mercy and truth') preserves the king's person and authority. 'Mercy' (c...\". Word-study detail reinforces \"וֶ֭אֱמֶת: and truth - stability; (figuratively) certainty, truth, trustworthiness\".",
+      "supportingVerses": [
+        6,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "faithful"
+        ],
+        "28": [
+          "truth",
+          "faithfulness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Many proclaim 'his own goodness' (Hebrew 'chesed'—lovingkindness, loyalty), but 'a faithful m...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Aphrahat the Persian Sage on DEMONSTRATIONS 1:16: All the righteous, our fathers, in all that...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֱ֝מוּנִ֗ים: but a faithful - established, i.e., (figuratively) trusty; also (abstractly) tru...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "God's covenant love ('mercy and truth') preserves the king's person and authority. 'Mercy' (c...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Basil of Caesarea on HOMILY ON THE BEGINNING OF PROVERBS 9: If there were two persons to be j...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        8,
+        10,
+        16,
+        26
+      ],
+      "versePhrases": {
+        "8": [
+          "judgment"
+        ],
+        "10": [
+          "Differing weights [one for buying and another for selling] and..."
+        ],
+        "16": [
+          "judge"
+        ],
+        "26": [
+          "A wise king sifts out the wicked [from among the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Psalms 99:4",
+          "anchorVerse": 8,
+          "referenceLabel": "Psalms 99:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "A king on the throne of judgment 'scattereth away all evil with his eyes.' The Hebrew 'zarah'...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Bede on Commentary on Proverbs: The king who sits on the throne of judgment, etc. For althoug...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "דִ֑ין: of judgment - judgement (the suit, justice, sentence or tribunal); by implication also...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

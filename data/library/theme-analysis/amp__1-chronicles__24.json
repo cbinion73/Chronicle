@@ -1,0 +1,136 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 24,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:12.064Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Homilies on the Gospels 2.19: If you of the brotherhood would take delight in hearing...\". Word-study detail reinforces \"הַמֶּ֤לֶךְ: the king - a king\".",
+      "supportingVerses": [
+        1,
+        6,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "The divisions of the descendants of Aaron were these"
+        ],
+        "6": [
+          "king"
+        ],
+        "31": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Priestly divisions - 24 course...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Homilies on the Gospels 2.19: If you of the brotherhood would take delight in hearing...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Priestly divisions - 24 course...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַמֶּ֤לֶךְ: the king - a king",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...\". Word-study detail reinforces \"לְעֻמַּ֖ת: over against - conjunction, i.e., society; mostly adverb or preposition (with prep...\".",
+      "supportingVerses": [
+        6,
+        31
+      ],
+      "versePhrases": {
+        "6": [
+          "presence"
+        ],
+        "31": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "Historical Background: This section describes events from David's reign (c. 1010-970 BCE) but...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "לְעֻמַּ֖ת: over against - conjunction, i.e., society; mostly adverb or preposition (with prep...",
+          "anchorVerse": 31
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Inferred",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"הַנּֽוֹתָרִ֑ים: And the rest - to jut over or exceed; by implication, to excel; (intransitive...\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "הַנּֽוֹתָרִ֑ים: And the rest - to jut over or exceed; by implication, to excel; (intransitive...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God.",
+      "supportingVerses": [
+        19
+      ],
+      "versePhrases": {
+        "19": [
+          "just"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

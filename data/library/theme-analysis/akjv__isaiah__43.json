@@ -1,0 +1,411 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 43,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:55.750Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verses 5-7) Do not fear, for I am with you: I will bring you...\". Word-study detail reinforces \"הָאָֽרֶץ׃: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        6,
+        7,
+        10,
+        15,
+        16,
+        20,
+        21,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "1": [
+          "created",
+          "formed"
+        ],
+        "2": [
+          "waters"
+        ],
+        "6": [
+          "earth"
+        ],
+        "7": [
+          "created",
+          "made",
+          "formed"
+        ],
+        "10": [
+          "formed"
+        ],
+        "15": [
+          "I am the Lord, your Holy One, the creator of..."
+        ],
+        "16": [
+          "waters"
+        ],
+        "20": [
+          "waters"
+        ],
+        "21": [
+          "formed"
+        ],
+        "23": [
+          "Thou hast not brought me the small cattle of thy..."
+        ],
+        "24": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does knowing God created and formed you personally strengthen your identity?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: And now thus says the Lord. Here he shows them divine...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בֹּרַאֲךָ֣: that created - (absolutely) to create; (qualified) to cut down (a wood), select,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse offers profound assurance of God's presence in life's most overwhelming trials. Th...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 14.) Thus saith the Lord, your redeemer, the Holy One...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        14,
+        15,
+        25,
+        26,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "3": [
+          "Holy"
+        ],
+        "14": [
+          "Holy"
+        ],
+        "15": [
+          "Holy"
+        ],
+        "25": [
+          "I, even I, am he that blotteth out thy transgressions..."
+        ],
+        "26": [
+          "Put me in remembrance"
+        ],
+        "27": [
+          "Thy first father hath sinned, and thy teachers have transgressed..."
+        ],
+        "28": [
+          "Therefore I have profaned the princes of the sanctuary, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 30:11",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 30:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For I am the LORD thy God, the Holy One of Israel, thy Saviour. This verse unveils God's cove...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3) For I am the Lord your God, the Holy One of Israel,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קְד֥וֹשׁ: the Holy One - sacred (ceremonially or morally); (as noun) god (by eminence), an an...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 14.) Thus saith the Lord, your redeemer, the Holy One...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        14,
+        15,
+        25,
+        26,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "3": [
+          "Holy"
+        ],
+        "14": [
+          "Holy"
+        ],
+        "15": [
+          "Holy"
+        ],
+        "25": [
+          "I, even I, am he that blotteth out thy transgressions..."
+        ],
+        "26": [
+          "that thou mayest be justified"
+        ],
+        "27": [
+          "Thy first father hath sinned, and thy teachers have transgressed..."
+        ],
+        "28": [
+          "Therefore I have profaned the princes of the sanctuary, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Isaiah 30:11",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 30:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "For I am the LORD thy God, the Holy One of Israel, thy Saviour. This verse unveils God's cove...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 3) For I am the Lord your God, the Holy One of Israel,...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קְד֥וֹשׁ: the Holy One - sacred (ceremonially or morally); (as noun) god (by eminence), an an...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verses 12-13) I have declared and saved; I have made known,...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        11,
+        12,
+        13,
+        14,
+        25
+      ],
+      "versePhrases": {
+        "1": [
+          "for I have redeemed thee"
+        ],
+        "3": [
+          "For I am the Lord thy God, the Holy One..."
+        ],
+        "4": [
+          "and people for thy life"
+        ],
+        "11": [
+          "I, even I, am the Lord"
+        ],
+        "12": [
+          "saved"
+        ],
+        "13": [
+          "deliver"
+        ],
+        "14": [
+          "your redeemer"
+        ],
+        "25": [
+          "I, even I, am he that blotteth out thy transgressions..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Redemption",
+          "detail": "Titus 2:14",
+          "anchorVerse": 1,
+          "referenceLabel": "Titus 2:14"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: And now thus says the Lord. Here he shows them divine...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "גְאַלְתִּ֔יךָ: not for I have redeemed - to redeem (according to the middle eastern law of ki...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Isaiah 45:15",
+          "anchorVerse": 3,
+          "referenceLabel": "Isaiah 45:15"
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Cyril of Alexandria on COMMENTARY ON ISAIAH 4:1.43:22-24: In the section we examined and read...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        7,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "versePhrases": {
+        "7": [
+          "glory"
+        ],
+        "21": [
+          "praise"
+        ],
+        "22": [
+          "But thou hast not called upon me, O Jacob"
+        ],
+        "23": [
+          "Thou hast not brought me the small cattle of thy..."
+        ],
+        "24": [
+          "Thou hast bought me no sweet cane with money, neither..."
+        ],
+        "25": [
+          "I, even I, am he that blotteth out thy transgressions..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Ephesians 1:12",
+          "anchorVerse": 7,
+          "referenceLabel": "Ephesians 1:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Those gathered are 'called by my name'—bearing God's identity and reputation. The threefold d...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 5-7) Do not fear, for I am with you: I will bring you...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְלִכְבוֹדִ֖י: him for my glory - properly, weight, but only figuratively in a good sense, sp...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verses 10-11) You are my witnesses, says the Lord, and my se...\". Word-study detail reinforces \"וְתָבִ֙ינוּ֙: me and understand - to separate mentally (or distinguish), i.e., (generally) un...\".",
+      "supportingVerses": [
+        10,
+        25,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "10": [
+          "understand"
+        ],
+        "25": [
+          "I, even I, am he that blotteth out thy transgressions..."
+        ],
+        "27": [
+          "Thy first father hath sinned, and thy teachers have transgressed..."
+        ],
+        "28": [
+          "Therefore I have profaned the princes of the sanctuary, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "God declares 'Ye are my witnesses' to Israel—their existence and experience testify to His re...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verses 10-11) You are my witnesses, says the Lord, and my se...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וְתָבִ֙ינוּ֙: me and understand - to separate mentally (or distinguish), i.e., (generally) un...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "How does understanding forgiveness as 'for His own sake' free you from works-righteousness?",
+          "anchorVerse": 25
+        }
+      ]
+    }
+  ]
+}

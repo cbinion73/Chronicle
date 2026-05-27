@@ -1,0 +1,279 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:32.167Z",
+  "themes": [
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Moses' exhortation 'Dread not, neither be afraid of them' addresses both emotional (dread) an...\". Word-study detail reinforces \"תִּירָ֖א: unto thee fear - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        17,
+        21,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "17": [
+          "afraid"
+        ],
+        "21": [
+          "afraid"
+        ],
+        "28": [
+          "fear"
+        ],
+        "29": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Moses' charge to the judges establishes principles of righteous judgment: hear cases impartia...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "תָג֙וּרוּ֙: ye shall not be afraid - properly, to turn aside from the road (for a lodging or...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "God's direct speech—'Behold, I have set the land before you'—personalizes the promise and emp...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "תִּירָ֖א: unto thee fear - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Moses' instruction to choose leaders 'wise and understanding, and known among your tribes' es...\". Word-study detail reinforces \"חֲכָמִים֙: wise - wise, (i.e., intelligent, skilful or artful)\".",
+      "supportingVerses": [
+        13,
+        15
+      ],
+      "versePhrases": {
+        "13": [
+          "wise",
+          "understanding"
+        ],
+        "15": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Moses' instruction to choose leaders 'wise and understanding, and known among your tribes' es...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "חֲכָמִ֧ים: you wise - wise, (i.e., intelligent, skilful or artful)",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "חֲכָמִים֙: wise - wise, (i.e., intelligent, skilful or artful)",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Moses' charge to the judges establishes principles of righteous judgment: hear cases impartia...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        16,
+        17,
+        44
+      ],
+      "versePhrases": {
+        "16": [
+          "judge"
+        ],
+        "17": [
+          "judgment"
+        ],
+        "44": [
+          "The Amorites who lived in those hills came out against..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Moses recalls his establishment of a judicial system based on Jethro's advice (Exodus 18:13-2...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Didache on The Didache, Chapter 4: Thou shalt not long for division, but shalt bring those wh...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "וּשְׁפַטְתֶּ֣ם: and judge - to judge, i.e., pronounce sentence (for or against); by implicati...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Exodus 18:26",
+          "anchorVerse": 17,
+          "referenceLabel": "Exodus 18:26"
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Set at Kadesh-barnea circa 1445 BC. Moses, speaking as God's prophet, warned Israel that thei...\". Word-study detail reinforces \"אֵלַ֗י: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        37,
+        42,
+        44
+      ],
+      "versePhrases": {
+        "37": [
+          "with me"
+        ],
+        "42": [
+          "with you"
+        ],
+        "44": [
+          "The Amorites who lived in those hills came out against..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 37 commentary",
+          "detail": "Even Moses, despite his faithfulness, bears consequences for the people's sin—'the LORD was a...",
+          "anchorVerse": 37
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 37 word study",
+          "detail": "בִּגְלַלְכֶ֖ם: with me for your sakes - a circumstance (as rolled around); only used adverbia...",
+          "anchorVerse": 37
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 42 commentary",
+          "detail": "Set at Kadesh-barnea circa 1445 BC. Moses, speaking as God's prophet, warned Israel that thei...",
+          "anchorVerse": 42
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 42 word study",
+          "detail": "אֵלַ֗י: - near, with or among; often in general, to",
+          "anchorVerse": 42
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Israel's refusal to 'go up' directly contradicted God's clear command (verse 21). The verb 'm...\". Word-study detail reinforces \"שְׁמַעְתֶּ֑ם: unto you and ye would not hear - to hear intelligently (often with implication...\".",
+      "supportingVerses": [
+        26,
+        43
+      ],
+      "versePhrases": {
+        "26": [
+          "command"
+        ],
+        "43": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Israel's refusal to 'go up' directly contradicted God's clear command (verse 21). The verb 'm...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 43 commentary",
+          "detail": "Israel's persistent rebellion—'ye would not hear, but rebelled'—demonstrates the pattern of c...",
+          "anchorVerse": 43
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 43 word study",
+          "detail": "שְׁמַעְתֶּ֑ם: unto you and ye would not hear - to hear intelligently (often with implication...",
+          "anchorVerse": 43
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"In what ways does Christ fulfill this role as our forerunner and guide into God's promised rest?\". Word-study detail reinforces \"לָת֥וּר: you to search you out - to meander (causatively, guide) about, especially for trade...\".",
+      "supportingVerses": [
+        33,
+        38
+      ],
+      "versePhrases": {
+        "33": [
+          "who went ahead of you on your journey, in fire..."
+        ],
+        "38": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 33 commentary",
+          "detail": "In what ways does Christ fulfill this role as our forerunner and guide into God's promised rest?",
+          "anchorVerse": 33
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 33 word study",
+          "detail": "לָת֥וּר: you to search you out - to meander (causatively, guide) about, especially for trade...",
+          "anchorVerse": 33
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 38 commentary",
+          "detail": "What does the command to 'encourage' Joshua teach about the congregation's responsibility tow...",
+          "anchorVerse": 38
+        }
+      ]
+    }
+  ]
+}

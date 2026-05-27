@@ -1,0 +1,314 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 22,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:29.180Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Train up a child in the way he should go: and when he is old, he will not depart from it. Thi...\". Word-study detail reinforces \"דָ֑עַת: knowledge - knowledge\".",
+      "supportingVerses": [
+        3,
+        6,
+        12,
+        15,
+        16,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "A prudent man foresees evil and hides himself, But the..."
+        ],
+        "6": [
+          "Train up a child in the way he should go,..."
+        ],
+        "12": [
+          "knowledge"
+        ],
+        "15": [
+          "Foolishness is bound up in the heart of a child"
+        ],
+        "16": [
+          "He who oppresses the poor to increase his riches, And..."
+        ],
+        "17": [
+          "wise",
+          "knowledge"
+        ],
+        "20": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The 'prudent' (Hebrew 'arum'—shrewd, sensible) foresees danger and hides, while the 'simple'...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on Proverbs: The prudent sees danger and hides himself, etc. Many of the l...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Train up a child in the way he should go: and when he is old, he will not depart from it. Thi...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Basil of Caesarea on HOMILY ON THE BEGINNING OF PROVERBS 13: Thus, here also it calls him a n...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Proverbs: Better than silver and gold is good grace. He signifies that...\". Word-study detail reinforces \"חֵ֥ן: for the grace - graciousness, i.e., subjective (kindness, favor) or objective (beauty)\".",
+      "supportingVerses": [
+        1,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "A good name is to be chosen rather than great..."
+        ],
+        "9": [
+          "He who has a generous eye will be blessed, For..."
+        ],
+        "11": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This proverb values reputation over riches: 'A good name is rather to be chosen than great ri...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Proverbs: Better than silver and gold is good grace. He signifies that...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Israelite law mandated provision for the poor through gleaning, debt forgiveness, and prohibi...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Bede on Commentary on Proverbs: \"He who is kind-hearted will be blessed,\" etc. This is simila...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Bede on Commentary on Proverbs: \"He who loves purity of heart,\" etc. He who rightly preaches...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        11,
+        29
+      ],
+      "versePhrases": {
+        "6": [
+          "Train up a child in the way he should go,..."
+        ],
+        "11": [
+          "king"
+        ],
+        "29": [
+          "Do you see a man who excels in his work? He will stand before kings"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This verse sits within the second major collection of Proverbs (chapters 10-24), traditionall...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Basil of Caesarea on HOMILY ON THE BEGINNING OF PROVERBS 13: Thus, here also it calls him a n...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 14:35",
+          "anchorVerse": 11,
+          "referenceLabel": "Proverbs 14:35"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Commentary on Proverbs: \"He who loves purity of heart,\" etc. He who rightly preaches...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This command forbids exploiting the vulnerable. 'Rob not the poor, because he is poor' addres...\". Word-study detail reinforces \"עָנִ֣י: the afflicted - depressed, in mind or circumstances\".",
+      "supportingVerses": [
+        3,
+        8,
+        22
+      ],
+      "versePhrases": {
+        "3": [
+          "A prudent man foresees evil and hides himself, But the..."
+        ],
+        "8": [
+          "sorrow"
+        ],
+        "22": [
+          "afflicted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The 'prudent' (Hebrew 'arum'—shrewd, sensible) foresees danger and hides, while the 'simple'...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on Proverbs: The prudent sees danger and hides himself, etc. Many of the l...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "He who sows 'iniquity' reaps 'vanity' (Hebrew 'awen'—trouble, sorrow), and 'the rod of his an...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "אָ֑וֶן: vanity - strictly nothingness; also trouble, vanity, wickedness; specifically an idol",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Cyril of Alexandria on LETTER TO JOHN OF ANTIOCH 39:7: We do not permit the faith or the symb...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        19,
+        28
+      ],
+      "versePhrases": {
+        "19": [
+          "trust"
+        ],
+        "28": [
+          "Do not remove the ancient landmark Which your fathers have..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 62:8",
+          "anchorVerse": 19,
+          "referenceLabel": "Psalms 62:8"
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "מִבְטַחֶ֑ךָ: That thy trust - properly, a refuge, i.e., (objective) security, or (subjective)...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 28 commentary",
+          "detail": "This command—'Remove not the ancient landmark, which thy fathers have set'—prohibits moving b...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 28 historical",
+          "detail": "Cyril of Alexandria on LETTER TO JOHN OF ANTIOCH 39:7: We do not permit the faith or the symb...",
+          "anchorVerse": 28
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"This proverb values reputation over riches: 'A good name is rather to be chosen than great ri...\". Word-study detail reinforces \"חֵ֣ן: favour - graciousness, i.e., subjective (kindness, favor) or objective (beauty)\".",
+      "supportingVerses": [
+        1,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "Loving"
+        ],
+        "15": [
+          "Foolishness is bound up in the heart of a child"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This proverb values reputation over riches: 'A good name is rather to be chosen than great ri...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חֵ֣ן: favour - graciousness, i.e., subjective (kindness, favor) or objective (beauty)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "This proverb addresses child-rearing: 'Foolishness is bound in the heart of a child; but the...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "קְשׁוּרָ֣ה: is bound - to tie, physically (gird, confine, compact) or mentally (in love, league)",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

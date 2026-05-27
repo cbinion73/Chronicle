@@ -1,0 +1,146 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 5,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:45.864Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Beerah his son, whom Tilgath-pilneser king of Assyria carried away captive: he was prince of...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        10,
+        17,
+        26
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ],
+        "10": [
+          "reign"
+        ],
+        "17": [
+          "king"
+        ],
+        "26": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Chronicles 5:26",
+          "anchorVerse": 6,
+          "referenceLabel": "1 Chronicles 5:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Beerah his son, whom Tilgath-pilneser king of Assyria carried away captive: he was prince of...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Kings 14:16",
+          "anchorVerse": 17,
+          "referenceLabel": "2 Kings 14:16"
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "trusted"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 9:10",
+          "anchorVerse": 20,
+          "referenceLabel": "Psalms 9:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Post-Exilic Context: The Chronicler wrote during the Persian period (450-400 BCE) to a commun...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "בָ֥טְחוּ: of them because they put their trust - properly, to hie for refuge (but not so prec...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Inferred",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved.",
+      "supportingVerses": [
+        20
+      ],
+      "versePhrases": {
+        "20": [
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "וַיִּנָּֽתְנ֤וּ: were delivered - to give, used with greatest latitude of application (put, m...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Inferred",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"ר֙וּחַ֙: and the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exh...\".",
+      "supportingVerses": [
+        26
+      ],
+      "versePhrases": {
+        "26": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "ר֙וּחַ֙: and the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exh...",
+          "anchorVerse": 26
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Luke",
+  "chapter": 15,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:29.906Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Luke: When this estate has been squandered and a person...\". Word-study detail reinforces \"ἄρτων: have bread - bread (as raised) or a loaf\".",
+      "supportingVerses": [
+        2,
+        7,
+        11,
+        12,
+        14,
+        17,
+        23,
+        26,
+        28,
+        31
+      ],
+      "versePhrases": {
+        "2": [
+          "And the Pharisees and scribes complained, saying, “This Man receives..."
+        ],
+        "7": [
+          "need"
+        ],
+        "11": [
+          "Then He said"
+        ],
+        "12": [
+          "portion"
+        ],
+        "14": [
+          "want"
+        ],
+        "17": [
+          "bread"
+        ],
+        "23": [
+          "And bring the fatted calf here and kill it, and..."
+        ],
+        "26": [
+          "So he called one of the servants and asked what..."
+        ],
+        "28": [
+          "“But he was angry and would not go in"
+        ],
+        "31": [
+          "“And he said to him, ‘Son, you are always with..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does Jesus' table fellowship with sinners model the gospel principle that Christ enters o...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON LUKE, HOMILY 106: Tell me, O Pharisee, why do you grumbl...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more tha...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Ambrose of Milan on Catena Aurea by Aquinas: Now the angels, inasmuch as they are intelligent...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Bede on On the Gospel of Luke: And coming home, he calls together his friends and neighbors,...\". Word-study detail reinforces \"μοι: with me - to me\".",
+      "supportingVerses": [
+        1,
+        6,
+        9,
+        10,
+        20,
+        25,
+        29,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "near"
+        ],
+        "6": [
+          "with me"
+        ],
+        "9": [
+          "with me"
+        ],
+        "10": [
+          "presence"
+        ],
+        "20": [
+          "“And he arose and came to his father"
+        ],
+        "25": [
+          "near"
+        ],
+        "29": [
+          "that I might make merry with my friends"
+        ],
+        "31": [
+          "with me"
+        ],
+        "32": [
+          "It was right that we should make merry and be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Luke sets the context: 'Then drew near unto him all the publicans and sinners for to hear him...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Catena Aurea by Aquinas: Thou hadst learnt by what went before not to be...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "Ἦσαν: drew near - i (thou, etc.) was (wast or were)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And when he cometh home, he calleth together his friends and neighbours, saying unto them, Re...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 21 verses. Commentary leans on \"Jesus told this parable in response to Pharisees and scribes grumbling that \"this man receive...\". Word-study detail reinforces \"ἐσπλαγχνίσθη: had compassion - to have the bowels yearn, i.e., (figuratively) feel sympathy,...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "Then all the tax collectors and the sinners drew near..."
+        ],
+        "2": [
+          "And the Pharisees and scribes complained, saying, “This Man receives..."
+        ],
+        "3": [
+          "So He spoke this parable to them, saying"
+        ],
+        "6": [
+          "And when he comes home, he calls together his friends..."
+        ],
+        "7": [
+          "I say to you that likewise there will be more..."
+        ],
+        "9": [
+          "And when she has found it, she calls her friends..."
+        ],
+        "17": [
+          "“But when he came to himself, he said, ‘How many..."
+        ],
+        "19": [
+          "and I am no longer worthy to be called your..."
+        ],
+        "20": [
+          "compassion"
+        ],
+        "21": [
+          "And the son said to him, ‘Father, I have sinned..."
+        ],
+        "22": [
+          "“But the father said to his servants, ‘Bring out the..."
+        ],
+        "23": [
+          "And bring the fatted calf here and kill it, and..."
+        ],
+        "24": [
+          "for this my son was dead and is alive again"
+        ],
+        "25": [
+          "“Now his older son was in the field"
+        ],
+        "26": [
+          "So he called one of the servants and asked what..."
+        ],
+        "27": [
+          "And he said to him, ‘Your brother has come, and..."
+        ],
+        "28": [
+          "“But he was angry and would not go in"
+        ],
+        "29": [
+          "So he answered and said to his father, ‘Lo, these..."
+        ],
+        "30": [
+          "But as soon as this son of yours came, who..."
+        ],
+        "31": [
+          "“And he said to him, ‘Son, you are always with..."
+        ],
+        "32": [
+          "It was right that we should make merry and be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How should contemporary churches evaluate whether they attract sinners seeking grace or prima...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Catena Aurea by Aquinas: Thou hadst learnt by what went before not to be...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Pharisaic purity regulations extended biblical laws into elaborate oral traditions. They main...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on Catena Aurea by Aquinas: Thou hadst learnt by what went before not to be...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 19 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Luke: Here they raise the well-known question: how is i...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        11,
+        12,
+        17,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "Then all the tax collectors and the sinners drew near..."
+        ],
+        "2": [
+          "And the Pharisees and scribes complained, saying, “This Man receives..."
+        ],
+        "3": [
+          "So He spoke this parable to them, saying"
+        ],
+        "4": [
+          "“What man of you, having a hundred sheep, if he..."
+        ],
+        "7": [
+          "just"
+        ],
+        "8": [
+          "“Or what woman, having ten silver coins, if she loses..."
+        ],
+        "11": [
+          "Then He said"
+        ],
+        "12": [
+          "And the younger of them said to his father, ‘Father,..."
+        ],
+        "17": [
+          "“But when he came to himself, he said, ‘How many..."
+        ],
+        "22": [
+          "“But the father said to his servants, ‘Bring out the..."
+        ],
+        "23": [
+          "And bring the fatted calf here and kill it, and..."
+        ],
+        "24": [
+          "for this my son was dead and is alive again"
+        ],
+        "25": [
+          "“Now his older son was in the field"
+        ],
+        "27": [
+          "And he said to him, ‘Your brother has come, and..."
+        ],
+        "28": [
+          "“But he was angry and would not go in"
+        ],
+        "29": [
+          "So he answered and said to his father, ‘Lo, these..."
+        ],
+        "30": [
+          "But as soon as this son of yours came, who..."
+        ],
+        "31": [
+          "“And he said to him, ‘Son, you are always with..."
+        ],
+        "32": [
+          "It was right that we should make merry and be..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "First-century Jewish society maintained strict social stratification. Pharisees avoided conta...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory the Dialogist on Catena Aurea by Aquinas: (in Hom. 34. in Evang.) From which we may g...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Pharisaic purity regulations extended biblical laws into elaborate oral traditions. They main...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on On the Gospel of Luke: But the tax collectors and sinners were approaching him to hea...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Bede on On the Gospel of Luke: Thus, I say to you, there will be joy before the angels of God...\". Word-study detail reinforces \"χαρὰ: joy - cheerfulness, i.e., calm delight\".",
+      "supportingVerses": [
+        4,
+        6,
+        7,
+        10,
+        20,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "4": [
+          "“What man of you, having a hundred sheep, if he..."
+        ],
+        "6": [
+          "And when he comes home, he calls together his friends..."
+        ],
+        "7": [
+          "I say to you that likewise there will be more..."
+        ],
+        "10": [
+          "Likewise, I say to you, there is joy in the..."
+        ],
+        "20": [
+          "still"
+        ],
+        "28": [
+          "“But he was angry and would not go in"
+        ],
+        "29": [
+          "So he answered and said to his father, ‘Lo, these..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "First-century Judean shepherds typically worked cooperatively, so leaving 99 in the wildernes...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "GK Chesterton on A Miscellany of Men, The New Theologian (1912): In Christendom he will never...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Cyril of Alexandria on Catena Aurea by Aquinas: We may hence understand the extent of our Sav...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "φίλους: his friends - actively, fond, i.e., friendly (still as a noun, an associate, neighbor...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Gregory the Dialogist on Catena Aurea by Aquinas: (Hom. 34. in Ev.) He who is signified by th...\". Word-study detail reinforces \"ἅπτει: light - properly, to fasten to, i.e., (specially) to set on fire\".",
+      "supportingVerses": [
+        3,
+        5,
+        8,
+        10,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "3": [
+          "So He spoke this parable to them, saying"
+        ],
+        "5": [
+          "And when he has found it, he lays it on..."
+        ],
+        "8": [
+          "light"
+        ],
+        "10": [
+          "Likewise, I say to you, there is joy in the..."
+        ],
+        "18": [
+          "I will arise and go to my father, and will..."
+        ],
+        "19": [
+          "and I am no longer worthy to be called your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Palestinian shepherding culture made the first parable immediately relatable. Jesus spoke in...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Gregory the Dialogist on Forty Gospel Homilies, Homily 34: For he says: \"Which of you, having...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Shepherds in ancient Palestine carried exhausted or injured sheep on their shoulders, a commo...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrose of Milan on Exposition of the Gospel of Luke: Let us rejoice that the sheep that had...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

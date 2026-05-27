@@ -1,0 +1,335 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 25,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:47.258Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Acts: Agrippa was either a viceroy of the king in the e...\". Word-study detail reinforces \"βασιλεῦ: King - a sovereign (abstractly, relatively, or figuratively)\".",
+      "supportingVerses": [
+        13,
+        14,
+        24,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "13": [
+          "King"
+        ],
+        "14": [
+          "king"
+        ],
+        "24": [
+          "King"
+        ],
+        "26": [
+          "King"
+        ],
+        "27": [
+          "For it seems absurd to me in sending a prisoner,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "King Agrippa and Bernice came unto Caesarea to salute Festus —Herod Agrippa II, the last of t...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: Agrippa was either a viceroy of the king in the e...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "βασιλεὺς: king - a sovereign (abstractly, relatively, or figuratively)",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "When they had been there many days, Festus declared Paul's cause unto the king —Festus waited...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Festus answered, that Paul should be kept at Caesarea —The new procurator (ἡγεμών, hēgemōn) i...\". Word-study detail reinforces \"τηρεῖσθαι: to be kept - to guard (from loss or injury, properly, by keeping the eye upon; and...\".",
+      "supportingVerses": [
+        4,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "4": [
+          "kept"
+        ],
+        "21": [
+          "kept"
+        ],
+        "23": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Festus answered, that Paul should be kept at Caesarea —The new procurator (ἡγεμών, hēgemōn) i...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Retractions on Acts: But Festus replied that Paul was being kept in Caesarea, and tha...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "τηρεῖσθαι: should be kept - to guard (from loss or injury, properly, by keeping the eye upon;...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "But when Paul had appealed to be reserved unto the hearing of Augustus —Paul invoked his righ...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"More than ten days —Luke's precise timeframe emphasizes the brief courtesy visit to Jerusalem...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        2,
+        3,
+        6,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        20,
+        24,
+        25,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "And the chief priests and the leading men of the..."
+        ],
+        "3": [
+          "requesting a concession against Paul, that he might have him..."
+        ],
+        "6": [
+          "After Festus had spent no more than eight or ten..."
+        ],
+        "9": [
+          "But Festus, wanting to do the Jews a favor, replied..."
+        ],
+        "10": [
+          "But Paul said, “I am standing before Caesar’s tribunal, where..."
+        ],
+        "11": [
+          "If, therefore, I am in the wrong and have committed..."
+        ],
+        "15": [
+          "condemnation"
+        ],
+        "16": [
+          "I replied to them that it is not the custom..."
+        ],
+        "17": [
+          "So after they had assembled here, I did not delay,..."
+        ],
+        "20": [
+          "And being at a loss how to investigate such matters,..."
+        ],
+        "24": [
+          "And Festus said, “King Agrippa, and all you gentlemen present..."
+        ],
+        "25": [
+          "But I found that he had committed nothing deserving death"
+        ],
+        "26": [
+          "Yet, I have nothing definite about him to write to..."
+        ],
+        "27": [
+          "For it seems absurd to me in sending a prisoner,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Then the high priest and the chief of the Jews informed him against Paul —the Greek enephanis...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Acts 51: \"Now when Festus was come into the province,\" etc. At t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The Jewish leaders desired favour against him ( aitoumenoi charin , αἰτούμενοι χάριν)—literal...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 51: \"Now when Festus was come into the province,\" etc. At t...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"As a Roman citizen (civis Romanus), Paul possessed rights unavailable to provincials: protect...\".",
+      "supportingVerses": [
+        9,
+        10,
+        20
+      ],
+      "versePhrases": {
+        "9": [
+          "trial"
+        ],
+        "10": [
+          "But Paul said, “I am standing before Caesar’s tribunal, where..."
+        ],
+        "20": [
+          "trial"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Festus, willing to do the Jews a pleasure (θέλων χάριν καταθέσθαι, thelōn charin katathesthai...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "As a Roman citizen (civis Romanus), Paul possessed rights unavailable to provincials: protect...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "John Chrysostom on Homily on Acts 51: \"But Paul said, At Caesar's tribunal am I standing,\" et...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "What does Paul's refusal to accept trial in Jerusalem teach about wisdom in recognizing dange...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And Festus said, King Agrippa, and all men which are here present with us —Festus addresses t...\". Word-study detail reinforces \"μοι: with me - to me\".",
+      "supportingVerses": [
+        5,
+        24,
+        27
+      ],
+      "versePhrases": {
+        "5": [
+          "with me"
+        ],
+        "24": [
+          "with us"
+        ],
+        "27": [
+          "For it seems absurd to me in sending a prisoner,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "And Festus said, King Agrippa, and all men which are here present with us —Festus addresses t...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "John Chrysostom on Homily on Acts 52: Festus himself acquits him from the charges, for what s...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "μοι: with me - to me",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 27 commentary",
+          "detail": "This statement, made before witnesses including King Agrippa, Roman military commanders, and...",
+          "anchorVerse": 27
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How does Festus's reduction of the gospel to 'one Jesus...dead...Paul says alive' demonstrate...\". Word-study detail reinforces \"ζῆν: to be alive - to live (literally or figuratively)\".",
+      "supportingVerses": [
+        19
+      ],
+      "versePhrases": {
+        "19": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "How does Festus's reduction of the gospel to 'one Jesus...dead...Paul says alive' demonstrate...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "ζῆν: to be alive - to live (literally or figuratively)",
+          "anchorVerse": 19
+        }
+      ]
+    }
+  ]
+}

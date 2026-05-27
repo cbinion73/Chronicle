@@ -1,0 +1,234 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Lamentations",
+  "chapter": 5,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:29.955Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The emotional toll: \"The joy of our heart is ceased; our dance is turned into mourning\" ( sha...\". Word-study detail reinforces \"לְאֵ֖בֶל: into mourning - lamentation\".",
+      "supportingVerses": [
+        1,
+        15
+      ],
+      "versePhrases": {
+        "1": [
+          "Remember, Lord, what has happened to us"
+        ],
+        "15": [
+          "mourning"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What role does corporate prayer and lament play in church life, especially when communities f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Here in Chapter 5, the prophet, after many lame...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The emotional toll: \"The joy of our heart is ceased; our dance is turned into mourning\" ( sha...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Here reference is made to the exercise of joy:...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on Lamentations: Now, the people's slavery is personal and volun...\". Word-study detail reinforces \"לָֽחֶם׃: with bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        6,
+        9
+      ],
+      "versePhrases": {
+        "6": [
+          "bread"
+        ],
+        "9": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Submitting to Egypt and Assyria for bread. Seeking help from former enemies. Desperate allian...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Now, the people's slavery is personal and volun...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "לָֽחֶם׃: with bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does the danger in obtaining bread (basic necessity) reveal the totality of siege conditi...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thomas Aquinas on Commentary on Lamentations: Then is considered slavery as first forced upon...\". Word-study detail reinforces \"הֽוּנַֽח: and have no rest - to rest, i.e., settle down; used in a great variety of applicati...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Yoke on necks, persecuted, no rest. Slavery imagery. Egypt redux. Circular judgment.",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Then is considered slavery as first forced upon...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הֽוּנַֽח: and have no rest - to rest, i.e., settle down; used in a great variety of applicati...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The complaint reflects genuine suffering: the exile generation experienced consequences of si...\". Word-study detail reinforces \"חָֽטְאוּ֙: have sinned - properly, to miss; hence (figuratively and generally) to sin; by inf...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "punishment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The complaint reflects genuine suffering: the exile generation experienced consequences of si...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "חָֽטְאוּ֙: have sinned - properly, to miss; hence (figuratively and generally) to sin; by inf...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The Davidic throne, occupied since 1000 BC, stood empty after 586 BC. No king sat in Jerusale...\". Word-study detail reinforces \"כִּסְאֲךָ֖: thy throne - properly, covered, i.e., a throne (as canopied)\".",
+      "supportingVerses": [
+        19
+      ],
+      "versePhrases": {
+        "19": [
+          "throne",
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "The Davidic throne, occupied since 1000 BC, stood empty after 586 BC. No king sat in Jerusale...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 19 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Here a person is inclined to beseech the Lord....",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "כִּסְאֲךָ֖: thy throne - properly, covered, i.e., a throne (as canopied)",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does the loss of inheritance signify about broken covenant promises and displaced hope?\". Word-study detail reinforces \"נַחֲלָתֵ֙נוּ֙: Our inheritance - properly, something inherited, i.e., (abstractly) occupancy,...\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "inheritance"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does the loss of inheritance signify about broken covenant promises and displaced hope?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Lamentations: Verse 2 considers the people's affliction. Firs...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "נַחֲלָתֵ֙נוּ֙: Our inheritance - properly, something inherited, i.e., (abstractly) occupancy,...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

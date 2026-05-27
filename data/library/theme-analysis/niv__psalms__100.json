@@ -1,0 +1,186 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 100,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:40.788Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        2,
+        3,
+        4
+      ],
+      "versePhrases": {
+        "2": [
+          "Worship"
+        ],
+        "3": [
+          "Know that the Lord is God"
+        ],
+        "4": [
+          "praise",
+          "thanks",
+          "thanksgiving"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In ancient Israel, 'serving the LORD' involved both formal worship (sacrifices, festivals, Te...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 100: \"Enter into His gates with confession\" [Psalm...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Worship",
+          "detail": "1 Chronicles 29:20",
+          "anchorVerse": 4,
+          "referenceLabel": "1 Chronicles 29:20"
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"CS Lewis on The Problem of Pain, Ch. 3: Another type is the love of a man for a beast--a rela...\". Word-study detail reinforces \"חַסְדּ֑וֹ: his mercy - kindness; by implication (towards god) piety; rarely (by opposition) r...\".",
+      "supportingVerses": [
+        3,
+        5
+      ],
+      "versePhrases": {
+        "3": [
+          "Know that the Lord is God"
+        ],
+        "5": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The affirmation 'the LORD is God' was Israel's central confession, crystallized in the Shema:...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "CS Lewis on The Problem of Pain, Ch. 3: Another type is the love of a man for a beast--a rela...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For the LORD is good; his mercy is everlasting; and his truth endureth to all generations. Th...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חַסְדּ֑וֹ: his mercy - kindness; by implication (towards god) piety; rarely (by opposition) r...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 100: \"Jubilate,\" therefore, \"unto the Lord, all you...\". Word-study detail reinforces \"הָאָֽרֶץ׃: all ye lands - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        3
+      ],
+      "versePhrases": {
+        "1": [
+          "earth"
+        ],
+        "3": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 100: \"Jubilate,\" therefore, \"unto the Lord, all you...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָֽרֶץ׃: all ye lands - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Confessions 10.6: But what is my God? I put my question to the earth. I...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 100: \"His mercy is everlasting.\" For He will not ce...\". Word-study detail reinforces \"אֱמוּנָתֽוֹ׃: and his truth - literally firmness; figuratively security; morally fidelity\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "faithfulness"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Psalm 100:5 echoes refrains throughout the Psalter, particularly 'His mercy endureth forever'...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 100: \"His mercy is everlasting.\" For He will not ce...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "אֱמוּנָתֽוֹ׃: and his truth - literally firmness; figuratively security; morally fidelity",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 15,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:10.144Z",
+  "themes": [
+    {
+      "id": "keyword-fire",
+      "label": "Fire",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “fire.”",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "fire"
+        ],
+        "5": [
+          "fire"
+        ],
+        "6": [
+          "fire"
+        ],
+        "7": [
+          "fire"
+        ]
+      }
+    },
+    {
+      "id": "keyword-work",
+      "label": "Work",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “work.”",
+      "supportingVerses": [
+        3,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "3": [
+          "work"
+        ],
+        "4": [
+          "work"
+        ],
+        "5": [
+          "work"
+        ]
+      }
+    },
+    {
+      "id": "keyword-forest",
+      "label": "Forest",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “forest.”",
+      "supportingVerses": [
+        2,
+        6
+      ],
+      "versePhrases": {
+        "2": [
+          "forest"
+        ],
+        "6": [
+          "forest"
+        ]
+      }
+    },
+    {
+      "id": "keyword-behold",
+      "label": "Behold",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “behold.”",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "Behold"
+        ],
+        "5": [
+          "Behold"
+        ]
+      }
+    }
+  ]
+}

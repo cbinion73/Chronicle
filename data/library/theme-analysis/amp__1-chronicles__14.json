@@ -1,0 +1,170 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 14,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:11.631Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on David's kingdom established -...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "2": [
+          "kingdom",
+          "king"
+        ],
+        "5": [
+          "Ibhar, Elishua, Elpelet,"
+        ],
+        "8": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 2:3",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Chronicles 2:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's kingdom established -...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Numbers 24:7",
+          "anchorVerse": 2,
+          "referenceLabel": "Numbers 24:7"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Where do you need God to 'break forth like waters' against enemies (spiritual, not physical)...\". Word-study detail reinforces \"מָ֑יִם: of waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        9,
+        11,
+        13
+      ],
+      "versePhrases": {
+        "9": [
+          "made"
+        ],
+        "11": [
+          "waters"
+        ],
+        "13": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Where do you need God to 'break forth like waters' against enemies (spiritual, not physical)...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "מָ֑יִם: of waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Theological Analysis: This passage falls within the section on David's kingdom established -...\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on David's kingdom established -...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And the fame of David went out into all lands —The Hebrew shēm (שֵׁם, 'name' or 'reputation')...\". Word-study detail reinforces \"פַּחְדּ֖וֹ: the fear - a (sudden) alarm (properly, the object feared, by implication, the fee...\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And the fame of David went out into all lands —The Hebrew shēm (שֵׁם, 'name' or 'reputation')...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "פַּחְדּ֖וֹ: the fear - a (sudden) alarm (properly, the object feared, by implication, the fee...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "just"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

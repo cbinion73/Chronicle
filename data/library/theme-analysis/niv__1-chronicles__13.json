@@ -1,0 +1,87 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 13,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:46.309Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The phrase 'let us bring again the ark of our God to us' reveals a crucial theological insigh...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The phrase 'let us bring again the ark of our God to us' reveals a crucial theological insigh...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Inferred",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"וַיִּירָ֤א: was afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וַיִּירָ֤א: was afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Inferred",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God.",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Isaiah",
+  "chapter": 64,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:51:22.055Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book 9.38: It is hence that Isaiah lament...\". Word-study detail reinforces \"צִדְקֹתֵ֑ינוּ: thing and all our righteousnesses - rightness (abstractly), subjectively (rect...\".",
+      "supportingVerses": [
+        5,
+        6,
+        7,
+        9,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "5": [
+          "You come to the help of those who gladly do..."
+        ],
+        "6": [
+          "All of us have become like one who is unclean,..."
+        ],
+        "7": [
+          "No one calls on your name or strives to lay..."
+        ],
+        "9": [
+          "Do not be angry beyond measure, Lord"
+        ],
+        "11": [
+          "Our holy and glorious temple, where our ancestors praised you,..."
+        ],
+        "12": [
+          "punish"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "'Thou meetest him that rejoiceth and worketh righteousness, those that remember thee in thy w...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4, 5.) From ages past no one has heard, no ear has per...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וַֽנֶּחֱטָ֔א: for we have sinned - properly, to miss; hence (figuratively and generally) to s...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book 9.38: It is hence that Isaiah lament...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Chapter 64, Verses 1 and following.) Oh, that you would tear...\". Word-study detail reinforces \"מַ֚יִם: causeth the waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        1,
+        2,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "heavens"
+        ],
+        "2": [
+          "As when fire sets twigs ablaze and causes water to..."
+        ],
+        "10": [
+          "Your sacred cities have become a wasteland"
+        ],
+        "11": [
+          "Our holy and glorious temple, where our ancestors praised you,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What would it look like for God to 'rend the heavens' in your situation?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Chapter 64, Verses 1 and following.) Oh, that you would tear...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "שָׁמַ֙יִם֙: the heavens - the sky (as aloft; the dual perhaps alluding to the visible arch in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "'As when the melting fire burneth, the fire causeth the waters to boil, to make thy name know...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 6.) Behold, you are angry, and we have sinned; we have...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "You come to the help of those who gladly do..."
+        ],
+        "6": [
+          "righteous"
+        ],
+        "10": [
+          "Your sacred cities have become a wasteland"
+        ],
+        "11": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Acts 10:35",
+          "anchorVerse": 5,
+          "referenceLabel": "Acts 10:35"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "'Thou meetest him that rejoiceth and worketh righteousness, those that remember thee in thy w...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4, 5.) From ages past no one has heard, no ear has per...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "צֶ֔דֶק: righteousness - the right (natural, moral or legal); also (abstractly) equity or (fig...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Isaiah: (Verse 6.) Behold, you are angry, and we have sinned; we have...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "You come to the help of those who gladly do..."
+        ],
+        "6": [
+          "righteous"
+        ],
+        "10": [
+          "Your sacred cities have become a wasteland"
+        ],
+        "11": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Acts 10:35",
+          "anchorVerse": 5,
+          "referenceLabel": "Acts 10:35"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "'Thou meetest him that rejoiceth and worketh righteousness, those that remember thee in thy w...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 4, 5.) From ages past no one has heard, no ear has per...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "צֶ֔דֶק: righteousness - the right (natural, moral or legal); also (abstractly) equity or (fig...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Isaiah: 1113. Here he offers a petition. And first, he asks f...\". Word-study detail reinforces \"נָ֖א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or t...\".",
+      "supportingVerses": [
+        1,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "Oh, that you would rend the heavens and come down,..."
+        ],
+        "7": [
+          "No one calls on your name or strives to lay hold of you"
+        ],
+        "9": [
+          "pray"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How has God already answered this prayer in Christ's coming?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on Isaiah: 1113. Here he offers a petition. And first, he asks f...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "'And there is none that calleth upon thy name, that stirreth up himself to take hold of thee:...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Isaiah: (Verse 7) There is no one who calls upon your name, who rises...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ishodad of Merv on COMMENTARY ON ISAIAH 64:5: “You were angry, and we sinned.” This is a sent...\". Word-study detail reinforces \"וְנִוָּשֵֽׁעַ׃: and we shall be saved - properly, to be open, wide or free, i.e., (by implica...\".",
+      "supportingVerses": [
+        5,
+        6
+      ],
+      "versePhrases": {
+        "5": [
+          "saved"
+        ],
+        "6": [
+          "All of us have become like one who is unclean,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "'Thou meetest him that rejoiceth and worketh righteousness, those that remember thee in thy w...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ishodad of Merv on COMMENTARY ON ISAIAH 64:5: “You were angry, and we sinned.” This is a sent...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וְנִוָּשֵֽׁעַ׃: and we shall be saved - properly, to be open, wide or free, i.e., (by implica...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This profound confession demolishes self-righteousness. If the best human efforts are defilin...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

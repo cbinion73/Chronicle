@@ -1,0 +1,101 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Numbers",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:29.730Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The Levites were to camp around the tabernacle 'that there be no wrath upon the congregation...\".",
+      "supportingVerses": [
+        50,
+        53
+      ],
+      "versePhrases": {
+        "50": [
+          "covenant"
+        ],
+        "53": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 50 commentary",
+          "detail": "God commands: 'appoint thou the Levites over the tabernacle of testimony, and over all the ve...",
+          "anchorVerse": 50
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 53 commentary",
+          "detail": "The Levites were to camp around the tabernacle 'that there be no wrath upon the congregation...",
+          "anchorVerse": 53
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The Levites were to camp around the tabernacle 'that there be no wrath upon the congregation...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        53
+      ],
+      "versePhrases": {
+        "53": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Numbers 16:46",
+          "anchorVerse": 53,
+          "referenceLabel": "Numbers 16:46"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 53 commentary",
+          "detail": "The Levites were to camp around the tabernacle 'that there be no wrath upon the congregation...",
+          "anchorVerse": 53
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 53 word study",
+          "detail": "קֶ֔צֶף: that there be no wrath - a splinter (as chipped off)",
+          "anchorVerse": 53
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        54
+      ],
+      "versePhrases": {
+        "54": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 54 word study",
+          "detail": "כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 54
+        }
+      ]
+    }
+  ]
+}

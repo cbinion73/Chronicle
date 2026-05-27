@@ -1,0 +1,266 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 43,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:06.828Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Even men, and women, and children, and the king's daughters —The comprehensive list emphasize...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        10
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ],
+        "10": [
+          "king",
+          "throne"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 40:7",
+          "anchorVerse": 6,
+          "referenceLabel": "Jeremiah 40:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Even men, and women, and children, and the king's daughters —The comprehensive list emphasize...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַמֶּלֶךְ֒: and the king's - a king",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Jeremiah 1:15",
+          "anchorVerse": 10,
+          "referenceLabel": "Jeremiah 1:15"
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"So Johanan the son of Kareah, and all the captains of the forces, and all the people, obeyed...\". Word-study detail reinforces \"שָׁמַע֩: obeyed - to hear intelligently (often with implication of attention, obedience, etc....\".",
+      "supportingVerses": [
+        4,
+        7
+      ],
+      "versePhrases": {
+        "4": [
+          "obeyed"
+        ],
+        "7": [
+          "obeyed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "So Johanan the son of Kareah, and all the captains of the forces, and all the people, obeyed...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "שָׁמַע֩: obeyed - to hear intelligently (often with implication of attention, obedience, etc....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Despite God's explicit command not to go to Egypt, 'they came into the land of Egypt: for the...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "שָׁמְע֖וּ: for they obeyed - to hear intelligently (often with implication of attention, obed...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But Baruch the son of Neriah setteth thee on against us —Facing unwelcome prophetic word, the...\". Word-study detail reinforces \"תֵּ֨ת: deliver - to give, used with greatest latitude of application (put, make, etc.)\".",
+      "supportingVerses": [
+        3,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "deliver"
+        ],
+        "11": [
+          "deliver"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "But Baruch the son of Neriah setteth thee on against us —Facing unwelcome prophetic word, the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "תֵּ֨ת: deliver - to give, used with greatest latitude of application (put, make, etc.)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And when he cometh, he shall smite the land of Egypt (וּבָא וְהִכָּה אֶת־אֶרֶץ מִצְרָיִם)—'he...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "לַמָּ֗וֶת: and deliver such as are for death - death (natural or violent); concretely, the de...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ephrem the Syrian on COMMENTARY ON JEREMIAH 43:13: “He shall break the obelisks of the city o...\". Word-study detail reinforces \"בְּאֶ֣רֶץ: that is in the land - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "13": [
+          "He shall break also the images of Beth-shemesh, that is..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This follows Jeremiah's lengthy prophecy (42:7-22) delivered after ten days of seeking God's...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "כְּכַלּ֨וֹת: had made an end - to end, whether intransitive (to cease, be finished, perish) o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Ephrem the Syrian on COMMENTARY ON JEREMIAH 43:13: “He shall break the obelisks of the city o...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "בְּאֶ֣רֶץ: that is in the land - the earth (at large, or partitively a land)",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But Johanan the son of Kareah, and all the captains of the forces, took all the remnant of Ju...\". Word-study detail reinforces \"לָשֶׁ֖בֶת: to dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by...\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "dwell"
+        ],
+        "5": [
+          "dwell"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "So Johanan the son of Kareah, and all the captains of the forces, and all the people, obeyed...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לָשֶׁ֖בֶת: to dwell - properly, to sit down (specifically as judge. in ambush, in quiet); by...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "But Johanan the son of Kareah, and all the captains of the forces, took all the remnant of Ju...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "לָג֖וּר: to dwell - properly, to turn aside from the road (for a lodging or any other purpose...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Why does Scripture emphasize that Nebuchadnezzar will withdraw 'in peace'—what would this sig...\". Word-study detail reinforces \"בְּשָׁלֽוֹם׃: from thence in peace - safe, i.e., (figuratively) well, happy, friendly; also (...\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Why does Scripture emphasize that Nebuchadnezzar will withdraw 'in peace'—what would this sig...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "בְּשָׁלֽוֹם׃: from thence in peace - safe, i.e., (figuratively) well, happy, friendly; also (...",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

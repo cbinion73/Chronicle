@@ -1,0 +1,202 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 5,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:19.997Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"So all the elders of Israel came to the king to Hebron; and king David made a league with the...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        11,
+        12,
+        15,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "Then all the tribes of Israel came to David at..."
+        ],
+        "2": [
+          "king"
+        ],
+        "3": [
+          "king",
+          "King"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "At Hebron he reigned over Judah for seven years and six months"
+        ],
+        "6": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "12": [
+          "kingdom",
+          "king"
+        ],
+        "15": [
+          "Ibhar, Elishua, Nepheg, Japhia,"
+        ],
+        "17": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Then came all the tribes of Israel to David unto Hebron, and spake, saying, Behold, we are th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Cassian on CONFERENCE 4.10: We find that the word flesh is used in holy Scripture with m...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Also in time past, when Saul was king over us, thou wast he that leddest out and broughtest i...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֙לֶךְ֙: was king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"So all the elders of Israel came to the king to Hebron; and king David made a league with the...\". Word-study detail reinforces \"מָ֑יִם: of waters - water; figuratively, juice; by euphemism, urine, semen\".",
+      "supportingVerses": [
+        3,
+        20
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "20": [
+          "waters"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "So all the elders of Israel came to the king to Hebron; and king David made a league with the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְּרִ֛ית: a league - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "And David came to Baal-perazim, and David smote them there, and said, The LORD hath broken fo...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "מָ֑יִם: of waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"So all the elders of Israel came to the king to Hebron; and king David made a league with the...\". Word-study detail reinforces \"וַיִּכְרֹ֣ת: made - to cut (off, down or asunder); by implication, to destroy or consume; spe...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "So all the elders of Israel came to the king to Hebron; and king David made a league with the...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וַיִּכְרֹ֣ת: made - to cut (off, down or asunder); by implication, to destroy or consume; spe...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "led",
+          "shepherd"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"כֵּ֔ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        25
+      ],
+      "versePhrases": {
+        "25": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "כֵּ֔ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 25
+        }
+      ]
+    }
+  ]
+}

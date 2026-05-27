@@ -1,0 +1,173 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 8,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:35.714Z",
+  "themes": [
+    {
+      "id": "keyword-sons",
+      "label": "Sons",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “sons.”",
+      "supportingVerses": [
+        3,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        18,
+        21,
+        25,
+        27,
+        35,
+        38,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "3": [
+          "sons"
+        ],
+        "6": [
+          "sons"
+        ],
+        "8": [
+          "sons"
+        ],
+        "9": [
+          "sons"
+        ],
+        "10": [
+          "sons"
+        ],
+        "11": [
+          "sons"
+        ],
+        "12": [
+          "sons"
+        ],
+        "16": [
+          "sons"
+        ],
+        "18": [
+          "sons"
+        ],
+        "21": [
+          "sons"
+        ],
+        "25": [
+          "sons"
+        ],
+        "27": [
+          "sons"
+        ],
+        "35": [
+          "sons"
+        ],
+        "38": [
+          "sons"
+        ],
+        "39": [
+          "sons"
+        ],
+        "40": [
+          "sons"
+        ]
+      }
+    },
+    {
+      "id": "keyword-fathered",
+      "label": "Fathered",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “fathered.”",
+      "supportingVerses": [
+        1,
+        29,
+        32,
+        33,
+        34,
+        36,
+        37
+      ],
+      "versePhrases": {
+        "1": [
+          "fathered"
+        ],
+        "29": [
+          "fathered"
+        ],
+        "32": [
+          "fathered"
+        ],
+        "33": [
+          "fathered"
+        ],
+        "34": [
+          "fathered"
+        ],
+        "36": [
+          "fathered"
+        ],
+        "37": [
+          "fathered"
+        ]
+      }
+    },
+    {
+      "id": "keyword-heads",
+      "label": "Heads",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “heads.”",
+      "supportingVerses": [
+        6,
+        10,
+        13,
+        28
+      ],
+      "versePhrases": {
+        "6": [
+          "heads"
+        ],
+        "10": [
+          "heads"
+        ],
+        "13": [
+          "heads"
+        ],
+        "28": [
+          "heads"
+        ]
+      }
+    },
+    {
+      "id": "keyword-firstborn",
+      "label": "Firstborn",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “firstborn.”",
+      "supportingVerses": [
+        1,
+        30,
+        39
+      ],
+      "versePhrases": {
+        "1": [
+          "firstborn"
+        ],
+        "30": [
+          "firstborn"
+        ],
+        "39": [
+          "firstborn"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Zechariah",
+  "chapter": 10,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:48:15.117Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Small post-exilic Judah occupied only Jerusalem and immediate vicinity—nothing like Solomon's...\".",
+      "supportingVerses": [
+        3,
+        6,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "Kingdom"
+        ],
+        "6": [
+          "“I will strengthen the house of Judah [making it superior]"
+        ],
+        "10": [
+          "“I will bring them (all Israel) back home again from..."
+        ],
+        "11": [
+          "scepter"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And I will strengthen the house of Judah, and I will save the house of Joseph (וְגִבַּרְתִּי...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Vers. 6, 7.) And the riders on horses will be put to sham...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Small post-exilic Judah occupied only Jerusalem and immediate vicinity—nothing like Solomon's...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Verse 8 onwards) I will hiss for them and gather them, fo...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Zechariah: (Vers. 6, 7.) And the riders on horses will be put to sham...\". Word-study detail reinforces \"אוֹשִׁ֔יעַ: and I will save - properly, to be open, wide or free, i.e., (by implication) to b...\".",
+      "supportingVerses": [
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "6": [
+          "save"
+        ],
+        "7": [
+          "“Then Ephraim will be like a mighty warrior, And their..."
+        ],
+        "8": [
+          "For I have redeemed them"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And I will strengthen the house of Judah, and I will save the house of Joseph (וְגִבַּרְתִּי...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Vers. 6, 7.) And the riders on horses will be put to sham...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אוֹשִׁ֔יעַ: and I will save - properly, to be open, wide or free, i.e., (by implication) to b...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "How does experiencing God's deliverance shift from mere relief to deep joy 'in the LORD' Hims...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Zechariah: (Chapter X, Verses 1 onwards) Pray to the Lord for late ra...\". Word-study detail reinforces \"רֹעֶֽה׃: because there was no shepherd - to tend a flock; i.e., pasture it; intransitively, t...\".",
+      "supportingVerses": [
+        2,
+        3,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "shepherd"
+        ],
+        "3": [
+          "And I shall punish the male goats (leaders)"
+        ],
+        "8": [
+          "“I will whistle for them and gather them together, For..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For the idols have spoken vanity (כִּי הַתְּרָפִים דִּבְּרוּ־אָוֶן)— teraphim were household...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Chapter X, Verses 1 onwards) Pray to the Lord for late ra...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "רֹעֶֽה׃: because there was no shepherd - to tend a flock; i.e., pasture it; intransitively, t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Mine anger was kindled against the shepherds (עַל־הָרֹעִים חָרָה אַפִּי)— ro'im (shepherds) r...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Zechariah: (Verse 8 onwards) I will hiss for them and gather them, fo...\".",
+      "supportingVerses": [
+        3,
+        7,
+        9
+      ],
+      "versePhrases": {
+        "3": [
+          "true"
+        ],
+        "7": [
+          "“Then Ephraim will be like a mighty warrior, And their..."
+        ],
+        "9": [
+          "“When I scatter them among the nations, They will remember..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Judah's exile was blamed on corrupt leadership—kings like Manasseh and Jehoiakim, false proph...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "What responsibility do you have to ensure your children 'see and be glad'—witnessing God's fa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Vers. 6, 7.) And the riders on horses will be put to sham...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "How does Jewish survival through dispersion demonstrate God's faithfulness to covenant promises?",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Zechariah: (Chapter X, Verses 1 onwards) Pray to the Lord for late ra...\". Word-study detail reinforces \"צָרָ֗ה: with affliction - transitively, a female rival\".",
+      "supportingVerses": [
+        2,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "suffer",
+          "afflicted"
+        ],
+        "11": [
+          "“And they will pass through the sea of distress and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Chapter X, Verses 1 onwards) Pray to the Lord for late ra...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "אָ֗וֶן: vanity - strictly nothingness; also trouble, vanity, wickedness; specifically an idol",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And he shall pass through the sea with affliction (וְעָבַר בַּיָּם צָרָה)—new Exodus typology...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "צָרָ֗ה: with affliction - transitively, a female rival",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And I will strengthen the house of Judah, and I will save the house of Joseph (וְגִבַּרְתִּי...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "compassion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Isaiah 14:1",
+          "anchorVerse": 6,
+          "referenceLabel": "Isaiah 14:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And I will strengthen the house of Judah, and I will save the house of Joseph (וְגִבַּרְתִּי...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Vers. 6, 7.) And the riders on horses will be put to sham...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "רִֽחַמְתִּ֔ים: them for I have mercy - to fondle; by implication, to love, especially to comp...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

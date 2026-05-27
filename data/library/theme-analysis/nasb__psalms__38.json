@@ -1,0 +1,337 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 38,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:50.342Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 38: \"And my sorrow is continually before me.\" What...\". Word-study detail reinforces \"וּמַכְאוֹבִ֖י: and my sorrow - anguish or (figuratively) affliction\".",
+      "supportingVerses": [
+        2,
+        3,
+        6,
+        8,
+        9,
+        11,
+        15,
+        17,
+        18,
+        19,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "2": [
+          "For Your arrows have sunk deep into me, And Your..."
+        ],
+        "3": [
+          "There is no healthy part in my flesh because of..."
+        ],
+        "6": [
+          "mourning"
+        ],
+        "8": [
+          "I feel faint and badly crushed"
+        ],
+        "9": [
+          "Lord, all my desire is before You"
+        ],
+        "11": [
+          "My loved ones and my friends stand aloof from my..."
+        ],
+        "15": [
+          "For I wait for You, Lord"
+        ],
+        "17": [
+          "sorrow"
+        ],
+        "18": [
+          "For I admit my guilt"
+        ],
+        "19": [
+          "But my enemies are vigorous and strong, And those who..."
+        ],
+        "20": [
+          "And those who repay evil for good, They become my..."
+        ],
+        "22": [
+          "Hurry to help me, Lord, my salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does recognizing affliction as coming from God's hand (not random fate) change your respo...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 38: \"For Your arrows stick fast in me, and Your han...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How do you distinguish between general suffering and discipline specifically tied to personal...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 38: \"For Your arrows stick fast in me, and Your han...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: My friends and neighbors have...\". Word-study detail reinforces \"רָֽדְופִי: because I follow - to run after (usually with hostile intent; figuratively [of tim...\".",
+      "supportingVerses": [
+        12,
+        13,
+        14,
+        20
+      ],
+      "versePhrases": {
+        "12": [
+          "Those who seek my life lay snares for me"
+        ],
+        "13": [
+          "But I, like a person who is deaf, do not..."
+        ],
+        "14": [
+          "Yes, I am like a person who does not hear,..."
+        ],
+        "20": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "When facing both divine discipline AND human attack, how do you keep perspective on who is tr...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: My friends and neighbors have...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וְדֹרְשֵׁ֣י: for me and they that seek - properly, to tread or frequent; usually to follow (f...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: My friends and neighbors have...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1.) Lord, do not rebuke...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        2,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "wrath",
+          "punish"
+        ],
+        "2": [
+          "For Your arrows have sunk deep into me, And Your..."
+        ],
+        "14": [
+          "Yes, I am like a person who does not hear,..."
+        ],
+        "19": [
+          "But my enemies are vigorous and strong, And those who..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Isaiah 54:8",
+          "anchorVerse": 1,
+          "referenceLabel": "Isaiah 54:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O LORD, rebuke me not in thy wrath: neither chasten me in thy hot displeasure. David opens th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1.) Lord, do not rebuke...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בְּקֶצְפְּךָ֥: me not in thy wrath - a splinter (as chipped off)",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 38: \"My heart is troubled\" [Psalm 38:10]. Wherefore...\". Word-study detail reinforces \"וְֽאוֹר: me as for the light - illumination or (concrete) luminary (in every sense, including...\".",
+      "supportingVerses": [
+        2,
+        10,
+        20
+      ],
+      "versePhrases": {
+        "2": [
+          "For Your arrows have sunk deep into me, And Your..."
+        ],
+        "10": [
+          "light"
+        ],
+        "20": [
+          "And those who repay evil for good, They become my..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "For thine arrows stick fast in me, and thy hand presseth me sore. David employs battle imager...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: We observe … that when Scriptu...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "My heart panteth, my strength faileth me: as for the light of mine eyes, it also is gone from...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 38: \"My heart is troubled\" [Psalm 38:10]. Wherefore...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"O LORD, rebuke me not in thy wrath: neither chasten me in thy hot displeasure. David opens th...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "Lord, do not rebuke me in Your wrath, And do..."
+        ],
+        "11": [
+          "loved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O LORD, rebuke me not in thy wrath: neither chasten me in thy hot displeasure. David opens th...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1.) Lord, do not rebuke...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Psalms 88:18",
+          "anchorVerse": 11,
+          "referenceLabel": "Psalms 88:18"
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Make haste to help me (חוּשָׁה לְעֶזְרָתִי, chushah le-ezrati )— Chush means hurry, hasten; e...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        20,
+        22
+      ],
+      "versePhrases": {
+        "20": [
+          "And those who repay evil for good, They become my..."
+        ],
+        "22": [
+          "salvation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Psalm 38 is one of seven penitential psalms, composed during a period of severe physical affl...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 20 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verses 19, 20.) My enemies, h...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Psalms 27:1",
+          "anchorVerse": 22,
+          "referenceLabel": "Psalms 27:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "Make haste to help me (חוּשָׁה לְעֶזְרָתִי, chushah le-ezrati )— Chush means hurry, hasten; e...",
+          "anchorVerse": 22
+        }
+      ]
+    }
+  ]
+}

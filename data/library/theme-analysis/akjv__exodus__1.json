@@ -1,0 +1,267 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 1,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:14.143Z",
+  "themes": [
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"What does God's transformation of death waters (Nile) into salvation waters (for Moses) teach...\". Word-study detail reinforces \"תְּחַיּֽוּן׃: ye shall save alive - to live, whether literally or figuratively; causatively,...\".",
+      "supportingVerses": [
+        14,
+        17,
+        18,
+        19,
+        22
+      ],
+      "versePhrases": {
+        "14": [
+          "and they made their lives bitter with hard bondage, in..."
+        ],
+        "17": [
+          "saved"
+        ],
+        "18": [
+          "saved"
+        ],
+        "19": [
+          "delivered"
+        ],
+        "22": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "When life's circumstances feel bitter, how can you trust that God is preparing a greater deli...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON NUMBERS 27.2: When the children of Israel were in Egypt,...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "But the midwives feared God, and did not as the king of Egypt commanded them, but saved the m...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And the king of Egypt called for the midwives, and said unto them, Why have ye done this thin...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Now there arose up a new king over Egypt, which knew not Joseph (וַיָּקָם מֶלֶךְ־חָדָשׁ עַל־מ...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        8,
+        15,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "8": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "18": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Acts 7:18",
+          "anchorVerse": 8,
+          "referenceLabel": "Acts 7:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Now there arose up a new king over Egypt, which knew not Joseph (וַיָּקָם מֶלֶךְ־חָדָשׁ עַל־מ...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And the king of Egypt spake to the Hebrew midwives, of which the name of the one was Shiphrah...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ephrem the Syrian on COMMENTARY ON TATIAN’S DIATESSARON 12: Just as Pharaoh was drowned in th...\". Word-study detail reinforces \"וַיַּ֥עַשׂ: that he made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        13,
+        14,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "13": [
+          "made"
+        ],
+        "14": [
+          "made"
+        ],
+        "21": [
+          "made"
+        ],
+        "22": [
+          "And Pharaoh charged all his people, saying, Every son that..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And the Egyptians made the children of Israel to serve with rigour (וַיַּעֲבִדוּ מִצְרַיִם אֶ...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "וַיַּֽעֲבִ֧דוּ: made - to work (in any sense); by implication, to serve, till, (causatively)...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And they made their lives bitter with hard bondage, in morter, and in brick, and in all manne...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON NUMBERS 27.2: When the children of Israel were in Egypt,...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"But the midwives feared God, and did not as the king of Egypt commanded them, but saved the m...\". Word-study detail reinforces \"וַתְּחַיֶּ֖יןָ: alive - to live, whether literally or figuratively; causatively, to revive\".",
+      "supportingVerses": [
+        17,
+        18,
+        22
+      ],
+      "versePhrases": {
+        "17": [
+          "alive"
+        ],
+        "18": [
+          "alive"
+        ],
+        "22": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "But the midwives feared God, and did not as the king of Egypt commanded them, but saved the m...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "וַתְּחַיֶּ֖יןָ: alive - to live, whether literally or figuratively; causatively, to revive",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And the king of Egypt called for the midwives, and said unto them, Why have ye done this thin...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "וַתְּחַיֶּ֖יןָ: alive - to live, whether literally or figuratively; causatively, to revive",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Origen of Alexandria on HOMILIES ON NUMBERS 27.2: When the children of Israel were in Egypt,...\". Word-study detail reinforces \"יְעַנּ֣וּ: But the more they afflicted - to depress literally or figuratively, transitive or...\".",
+      "supportingVerses": [
+        12,
+        14
+      ],
+      "versePhrases": {
+        "12": [
+          "afflicted"
+        ],
+        "14": [
+          "and they made their lives bitter with hard bondage, in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "But the more they afflicted them, the more they multiplied and grew (וְכַאֲשֶׁר יְעַנּוּ אֹתו...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "יְעַנּ֣וּ: But the more they afflicted - to depress literally or figuratively, transitive or...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And they made their lives bitter with hard bondage, in morter, and in brick, and in all manne...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Origen of Alexandria on HOMILIES ON NUMBERS 27.2: When the children of Israel were in Egypt,...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

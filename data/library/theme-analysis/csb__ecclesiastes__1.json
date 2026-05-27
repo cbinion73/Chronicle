@@ -1,0 +1,311 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 1,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:43:53.806Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Clement of Alexandria on The Stromata Book 1: Therefore it is written in Ecclesiastes, “And I...\". Word-study detail reinforces \"דַּ֖עַת: knowledge - knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "1": [
+          "The words of the Teacher, son of David, king in..."
+        ],
+        "2": [
+          "“Absolute futility,” says the Teacher"
+        ],
+        "7": [
+          "All the streams flow to the sea, yet the sea..."
+        ],
+        "8": [
+          "All things are wearisome, more than anyone can say"
+        ],
+        "9": [
+          "What has been is what will be, and what has..."
+        ],
+        "12": [
+          "I, the Teacher, have been king over Israel in Jerusalem"
+        ],
+        "13": [
+          "wisdom"
+        ],
+        "14": [
+          "I have seen all the things that are done under..."
+        ],
+        "15": [
+          "What is crooked cannot be straightened"
+        ],
+        "16": [
+          "wisdom",
+          "knowledge"
+        ],
+        "17": [
+          "wisdom",
+          "knowledge"
+        ],
+        "18": [
+          "wisdom",
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Solomon reigned circa 970-930 BC during Israel's united monarchy's golden age. His wisdom att...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Didymus the Blind on COMMENTARY ON ECCLESIASTES 5:2: Solomon, who here appears as Ecclesiaste...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Solomon wrote Ecclesiastes late in his reign (circa 935 BC) after experiencing unprecedented...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Evagrius Ponticus on SCHOLIA ON ECCLESIASTES 2:1.2: To those who have entered into the church...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"The wind goeth toward the south, and turneth about unto the north —Qoheleth observes natural...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        2,
+        6,
+        14,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "“Absolute futility,” says the Teacher"
+        ],
+        "6": [
+          "wind"
+        ],
+        "14": [
+          "wind"
+        ],
+        "17": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The book's opening thesis statement employs quintuple repetition—'vanity of vanities... vanit...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Vanity of vanities\" said Ecclesiastes\", Vanity of vani...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The wind goeth toward the south, and turneth about unto the north —Qoheleth observes natural...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"It goes to the South and rotates to the North; turning...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"A generation goes, a generation comes, but the earth r...\". Word-study detail reinforces \"וְהָאָ֖רֶץ: but the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        4,
+        6,
+        9,
+        15
+      ],
+      "versePhrases": {
+        "4": [
+          "earth"
+        ],
+        "6": [
+          "Gusting to the south, turning to the north, turning, turning,..."
+        ],
+        "9": [
+          "What has been is what will be, and what has..."
+        ],
+        "15": [
+          "What is crooked cannot be straightened"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The Preacher observes the cyclical nature of human existence: 'One generation passeth away, a...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"A generation goes, a generation comes, but the earth r...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְהָאָ֖רֶץ: but the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The wind goeth toward the south, and turneth about unto the north —Qoheleth observes natural...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"לִדְר֤וֹשׁ: to seek - properly, to tread or frequent; usually to follow (for pursuit or searc...\".",
+      "supportingVerses": [
+        11,
+        13
+      ],
+      "versePhrases": {
+        "11": [
+          "follow"
+        ],
+        "13": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "לִדְר֤וֹשׁ: to seek - properly, to tread or frequent; usually to follow (for pursuit or searc...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"The words of Ecclesiastes, son of David, King in Jerus...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "12": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Ecclesiastes 1:12",
+          "anchorVerse": 1,
+          "referenceLabel": "Ecclesiastes 1:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The book opens with its superscription identifying the author as 'the Preacher, the son of Da...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"The words of Ecclesiastes, son of David, King in Jerus...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֖לֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Solomon's pursuit of wisdom leads to a paradoxical discovery: 'in much wisdom is much grief:...\". Word-study detail reinforces \"מַכְאֽוֹב׃: sorrow - anguish or (figuratively) affliction\".",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "sorrow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Solomon's pursuit of wisdom leads to a paradoxical discovery: 'in much wisdom is much grief:...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Augustine of Hippo on ON THE TRINITY 4, PREFACE: People are accustomed to set a high value on...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "מַכְאֽוֹב׃: sorrow - anguish or (figuratively) affliction",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

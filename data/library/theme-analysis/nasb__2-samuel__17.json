@@ -1,0 +1,154 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Samuel",
+  "chapter": 17,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:20.621Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Now Jonathan and Ahimaaz stayed by En-rogel; for they might not be seen to come into the city...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        16,
+        17,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "King"
+        ],
+        "21": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 22:31",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 22:31"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And I will come upon him while he is weary and weak handed, and will make him afraid: and all...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on HOMILIES ON PHILIPPIANS 5: There is nothing so foreign to a Christian soul...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמֶּ֖לֶךְ: the king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What does this verse reveal about God's character, and how should that shape your worship and...\". Word-study detail reinforces \"אַֽחֲרֵ֥י: that follow - properly, the hind part; generally used as an adverb or conjunction,...\".",
+      "supportingVerses": [
+        9,
+        25
+      ],
+      "versePhrases": {
+        "9": [
+          "follow"
+        ],
+        "25": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "What does this verse reveal about God's character, and how should that shape your worship and...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "אַֽחֲרֵ֥י: that follow - properly, the hind part; generally used as an adverb or conjunction,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "What does this verse reveal about God's character, and how should that shape your worship and...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And I will bring back all the people unto thee: the man whom thou seekest is as if all return...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "1 Thessalonians 5:3",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Thessalonians 5:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And I will bring back all the people unto thee: the man whom thou seekest is as if all return...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "שָׁלֽוֹם׃: shall be in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstra...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God.",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "just"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 3,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:12.390Z",
+  "themes": [
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"And in the most holy house he made two cherubims of image work, and overlaid them with gold....\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        4,
+        5,
+        7,
+        8,
+        10,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "4": [
+          "pure"
+        ],
+        "5": [
+          "Holy"
+        ],
+        "7": [
+          "Holy"
+        ],
+        "8": [
+          "Holy"
+        ],
+        "10": [
+          "Holy"
+        ],
+        "13": [
+          "Holy"
+        ],
+        "14": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "And the porch that was in the front of the house, the length of it was according to the bread...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "טָהֽוֹר׃: with pure - pure (in a physical, chemical, ceremonial or moral sense)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 26:33",
+          "anchorVerse": 8,
+          "referenceLabel": "Exodus 26:33"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And he made the most holy house, the length whereof was according to the breadth of the house...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"And in the most holy house he made two cherubims of image work, and overlaid them with gold....\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        10,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "5": [
+          "Holy"
+        ],
+        "7": [
+          "Holy"
+        ],
+        "8": [
+          "Holy"
+        ],
+        "10": [
+          "Holy"
+        ],
+        "13": [
+          "Holy"
+        ],
+        "14": [
+          "Holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 26:33",
+          "anchorVerse": 8,
+          "referenceLabel": "Exodus 26:33"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And he made the most holy house, the length whereof was according to the breadth of the house...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "הַקֳּדָשִׁ֔ים: holy - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And in the most holy house he made two cherubims of image work, and overlaid them with gold....",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And he made chains, as in the oracle, and put them on the heads of the pillars; and made an h...\". Word-study detail reinforces \"וַיַּ֜עַשׂ: he made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        8,
+        10,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "8": [
+          "made"
+        ],
+        "10": [
+          "made"
+        ],
+        "14": [
+          "made"
+        ],
+        "15": [
+          "made"
+        ],
+        "16": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And he made the most holy house, the length whereof was according to the breadth of the house...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וַיַּ֙עַשׂ֙: And he made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And in the most holy house he made two cherubims of image work, and overlaid them with gold....",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "וַיַּ֜עַשׂ: he made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And he began to build in the second day of the second month, in the fourth year of his reign....\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Kings 6:1",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 6:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And he began to build in the second day of the second month, in the fourth year of his reign....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לְמַלְכוּתֽוֹ׃: of his reign - a rule; concretely, a dominion",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 28,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:01.999Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"And God Almighty bless thee, and make thee fruitful, and multiply thee, that thou mayest be a...\". Cross references echo \"Blessing\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        6,
+        12,
+        14,
+        15,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "So Isaac called Jacob and blessed him and commanded him"
+        ],
+        "3": [
+          "bless"
+        ],
+        "4": [
+          "blessing"
+        ],
+        "6": [
+          "Now Esau saw that Isaac had blessed Jacob and sent him away to Paddan-aram to take to himself a wife from there"
+        ],
+        "12": [
+          "And he had a dream, and behold, a ladder was..."
+        ],
+        "14": [
+          "and in you and in your descendants shall all the families of the earth be blessed"
+        ],
+        "15": [
+          "promised"
+        ],
+        "20": [
+          "Jacob also made a vow, saying, “If God will be..."
+        ],
+        "22": [
+          "And this stone, which I have set up as a..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Genesis 49:28",
+          "anchorVerse": 1,
+          "referenceLabel": "Genesis 49:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיְבָ֣רֶךְ: and blessed - to kneel; by implication to bless god (as an act of adoration), an...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Blessing",
+          "detail": "Genesis 48:3",
+          "anchorVerse": 3,
+          "referenceLabel": "Genesis 48:3"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Homilies on the Gospels 1.17: Now when Jacob, wishing to rest in a certain place, put...\". Word-study detail reinforces \"אַ֔רְצָה: on the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        11,
+        12,
+        14,
+        20
+      ],
+      "versePhrases": {
+        "11": [
+          "made"
+        ],
+        "12": [
+          "earth"
+        ],
+        "14": [
+          "earth"
+        ],
+        "20": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 41: Consider our ascetic [Jacob]: he was running away from a...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven:...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Homilies on the Gospels 1.17: Now when Jacob, wishing to rest in a certain place, put...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "אַ֔רְצָה: on the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Homilies on the Gospels 1.17: The stone under Jacob’s head is the Lord, upon whom we...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        4,
+        15,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "4": [
+          "with you"
+        ],
+        "15": [
+          "with you"
+        ],
+        "18": [
+          "So Jacob got up early in the morning, and took..."
+        ],
+        "20": [
+          "with me"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אִתָּ֑ךְ: - properly, nearness (used only as a preposition or an adverb), near; hence, genera...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The patriarchal narratives (Genesis 12-50) reflect the cultural, social, and legal customs of...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And that Jacob obeyed his father and his mother, and was gone to Padan-aram;... This passage...\". Word-study detail reinforces \"וַיִּשְׁמַ֣ע: obeyed - to hear intelligently (often with implication of attention, obedience,...\".",
+      "supportingVerses": [
+        7,
+        15,
+        20
+      ],
+      "versePhrases": {
+        "7": [
+          "obeyed"
+        ],
+        "15": [
+          "keep"
+        ],
+        "20": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And that Jacob obeyed his father and his mother, and was gone to Padan-aram;... This passage...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וַיִּשְׁמַ֣ע: obeyed - to hear intelligently (often with implication of attention, obedience,...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will br...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "וּשְׁמַרְתִּ֙יךָ֙: And behold I am with thee and will keep - properly, to hedge about (as wit...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Jerome on HOMILIES ON THE PSALMS 46: When Jacob was in flight from his brother, in Mesopotami...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        11,
+        21
+      ],
+      "versePhrases": {
+        "11": [
+          "And he happened upon a particular place and spent the..."
+        ],
+        "21": [
+          "safety"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 46: When Jacob was in flight from his brother, in Mesopotami...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וַיִּשְׁכַּ֖ב: and lay down - to lie down (for rest, sexual connection, decease or any other...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Judges 11:31",
+          "anchorVerse": 21,
+          "referenceLabel": "Judges 11:31"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "So that I come again to my father's house in peace; then shall the LORD be my God:... This pa...",
+          "anchorVerse": 21
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"CS Lewis on The Problem of Pain, Chapter 1: Introductory: Jacob, rising from sleep, says 'How...\". Word-study detail reinforces \"נּוֹרָ֖א: And he was afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        17
+      ],
+      "versePhrases": {
+        "17": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "And he was afraid, and said, How dreadful is this place! this is none other but the house of...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "CS Lewis on The Problem of Pain, Chapter 1: Introductory: Jacob, rising from sleep, says 'How...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "נּוֹרָ֖א: And he was afraid - to fear; morally to revere; causatively to frighten",
+          "anchorVerse": 17
+        }
+      ]
+    }
+  ]
+}

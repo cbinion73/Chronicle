@@ -1,0 +1,280 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 92,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:00.419Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on HOMILIES ON THE PSALMS 21: “It is good to confess to the Lord, to sing praise to yo...\". Word-study detail reinforces \"לְהֹד֥וֹת: thing to give thanks - physically, to throw (a stone, an arrow) at or away; especi...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        13
+      ],
+      "versePhrases": {
+        "1": [
+          "thanks",
+          "sing"
+        ],
+        "2": [
+          "to declare your steadfast love in the morning, and your..."
+        ],
+        "3": [
+          "to the music of the lute and the harp, to..."
+        ],
+        "4": [
+          "sing"
+        ],
+        "13": [
+          "They are planted in the house of the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This Sabbath psalm opens with the Hebrew 'tov' (good/pleasant), emphasizing that thanksgiving...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on HOMILIES ON THE PSALMS 21: “It is good to confess to the Lord, to sing praise to yo...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לְהֹד֥וֹת: thing to give thanks - physically, to throw (a stone, an arrow) at or away; especi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The morning and evening pattern corresponds to the daily sacrifices (tamid) offered in the te...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Desert Fathers on SAYINGS OF THE FATHERS 186: An old man used to say, “It is written, ‘The ri...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        8,
+        9,
+        10,
+        12,
+        15
+      ],
+      "versePhrases": {
+        "8": [
+          "but you, O Lord, are on high forever"
+        ],
+        "9": [
+          "For behold, your enemies, O Lord, for behold, your enemies..."
+        ],
+        "10": [
+          "But you have exalted my horn like that of the..."
+        ],
+        "12": [
+          "righteous"
+        ],
+        "15": [
+          "upright"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The designation 'most high' (Elyon) emphasizes God's absolute supremacy and transcendence. Th...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 92: \"But You, Lord, art the Most Highest for evermo...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "The vivid imagery of enemies perishing and being scattered employs military language to depic...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 92: \"But You, Lord, art the Most Highest for evermo...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Desert Fathers on SAYINGS OF THE FATHERS 186: An old man used to say, “It is written, ‘The ri...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        10,
+        12,
+        15
+      ],
+      "versePhrases": {
+        "10": [
+          "But you have exalted my horn like that of the..."
+        ],
+        "12": [
+          "righteous"
+        ],
+        "15": [
+          "and there is no unrighteousness in him"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "How does your identity as one 'anointed' by the Holy Spirit affect your sense of purpose and...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 92: ...\"But mine horn shall be exalted like the hor...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 72:7",
+          "anchorVerse": 12,
+          "referenceLabel": "Psalms 72:7"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The righteous flourishing like a palm tree and growing like a cedar employs two distinct but...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 92: \"For Thou, Lord, hast made me glad through Your...\". Word-study detail reinforces \"שִׂמַּחְתַּ֣נִי: hast made me glad - probably to brighten up, i.e., (figuratively) be (causat...\".",
+      "supportingVerses": [
+        4,
+        5
+      ],
+      "versePhrases": {
+        "4": [
+          "made"
+        ],
+        "5": [
+          "How great are your works, O Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The causative 'for' (ki) links praise to God's mighty works and creative activity. The Hebrew...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 92: \"For Thou, Lord, hast made me glad through Your...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "שִׂמַּחְתַּ֣נִי: hast made me glad - probably to brighten up, i.e., (figuratively) be (causat...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "What aspects of God's created order most cause you to 'sing for joy' at His creative genius?",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 92: \"To tell of Your mercy early in the morning, an...\". Word-study detail reinforces \"וֶ֝אֱמֽוּנָתְךָ֗: and thy faithfulness - literally firmness; figuratively security; morally f...\".",
+      "supportingVerses": [
+        2,
+        4
+      ],
+      "versePhrases": {
+        "2": [
+          "faithfulness"
+        ],
+        "4": [
+          "For you, O Lord, have made me glad by your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The bipartite structure of morning 'lovingkindness' (hesed) and evening 'faithfulness' (emuna...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 92: \"To tell of Your mercy early in the morning, an...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וֶ֝אֱמֽוּנָתְךָ֗: and thy faithfulness - literally firmness; figuratively security; morally f...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does regularly 'remembering' God's past faithfulness strengthen your present faith?",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

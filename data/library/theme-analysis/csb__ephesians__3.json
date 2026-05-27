@@ -1,0 +1,346 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ephesians",
+  "chapter": 3,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:30.090Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: The subject matter of the thanksgiving is the twof...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        10,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "The mystery was made known to me by revelation, as..."
+        ],
+        "10": [
+          "This is so that God’s multi-faceted wisdom may now be..."
+        ],
+        "12": [
+          "In him we have boldness and confident access through faith..."
+        ],
+        "13": [
+          "glory"
+        ],
+        "16": [
+          "glory"
+        ],
+        "17": [
+          "and that Christ may dwell in your hearts through faith"
+        ],
+        "18": [
+          "may be able to comprehend with all the saints what..."
+        ],
+        "19": [
+          "and to know Christ’s love that surpasses knowledge, so that..."
+        ],
+        "20": [
+          "Now to him who is able to do above and..."
+        ],
+        "21": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Written during Paul's Roman imprisonment (60-62 CE), this verse in chapter 3 reflects the cir...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 5: Rightly, therefore, the divine apostle says, \"B...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Written during Paul's Roman imprisonment (60-62 CE), this verse in chapter 3 reflects the cir...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: Once he has set forth the dignity of his office th...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: Once he has set forth the dignity of his office th...\". Word-study detail reinforces \"ἐγνωρίσθη: made known - to make known; subjectively, to know\".",
+      "supportingVerses": [
+        3,
+        5,
+        7,
+        9,
+        10,
+        15
+      ],
+      "versePhrases": {
+        "3": [
+          "made"
+        ],
+        "5": [
+          "made"
+        ],
+        "7": [
+          "made"
+        ],
+        "9": [
+          "created",
+          "light"
+        ],
+        "10": [
+          "made",
+          "heavens"
+        ],
+        "15": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Hippolytus of Rome on Hippolytus Refutation of All Heresies Book VII: Now this (mystery) was...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "ἐγνώρισεν: he made known - to make known; subjectively, to know",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on Ephesians 6: What then, tell me, did not the Prophets know it? H...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "ἐγνωρίσθη: made known - to make known; subjectively, to know",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: Then he makes known the gift of grace given him, a...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "2": [
+          "grace"
+        ],
+        "7": [
+          "grace"
+        ],
+        "8": [
+          "grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Romans 1:5",
+          "anchorVerse": 2,
+          "referenceLabel": "Romans 1:5"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: Then he makes known the gift of grace given him, a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "χάριτος: of the grace - graciousness (as gratifying), of manner or act (abstract or concrete;...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Ephesians 3:2",
+          "anchorVerse": 7,
+          "referenceLabel": "Ephesians 3:2"
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: Next, since further knowledge is also necessary—a...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        17,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "17": [
+          "love"
+        ],
+        "18": [
+          "love"
+        ],
+        "19": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "John 14:23",
+          "anchorVerse": 17,
+          "referenceLabel": "John 14:23"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: We receive him through a faith which is most stron...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 17 word study",
+          "detail": "ἀγάπῃ: love - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: Previously the Apostle revealed the object of his...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: Next, since further knowledge is also necessary—a...\". Word-study detail reinforces \"σοφία: wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        4,
+        10,
+        19
+      ],
+      "versePhrases": {
+        "4": [
+          "understand"
+        ],
+        "10": [
+          "wisdom"
+        ],
+        "19": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Ephesians: I wrote, he says, not as much as I ought, bu...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "νοῆσαι: understand - to exercise the mind (observe), i.e., (figuratively) to comprehend, heed",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: Once he has set forth the dignity of his office th...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "σοφία: wisdom - wisdom (higher or lower, worldly or spiritual)",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Thomas Aquinas on Commentary on Ephesians: The effect of this source consists in a great frui...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        12,
+        17
+      ],
+      "versePhrases": {
+        "12": [
+          "faith"
+        ],
+        "17": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Romans 5:2",
+          "anchorVerse": 12,
+          "referenceLabel": "Romans 5:2"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Thomas Aquinas on Commentary on Ephesians: The effect of this source consists in a great frui...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "πεποιθήσει: confidence - reliance",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Colossians 2:7",
+          "anchorVerse": 17,
+          "referenceLabel": "Colossians 2:7"
+        }
+      ]
+    }
+  ]
+}

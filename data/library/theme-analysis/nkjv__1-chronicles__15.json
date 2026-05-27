@@ -1,0 +1,131 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 15,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:19.120Z",
+  "themes": [
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Explicit",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Theological Analysis: This passage falls within the section on Proper ark transport - Levitic...\". Word-study detail reinforces \"בְּרִית: of the covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        25,
+        26,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "25": [
+          "covenant"
+        ],
+        "26": [
+          "covenant"
+        ],
+        "28": [
+          "covenant"
+        ],
+        "29": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Proper ark transport - Levitic...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 25 word study",
+          "detail": "בְּרִית: of the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Proper ark transport - Levitic...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "בְּרִית: of the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"הִֽתְקַדְּשׁוּ֙: sanctify - to be (causatively, make, pronounce or observe as) clean (ceremon...\".",
+      "supportingVerses": [
+        12,
+        14
+      ],
+      "versePhrases": {
+        "12": [
+          "sanctify"
+        ],
+        "14": [
+          "sanctified"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "הִֽתְקַדְּשׁוּ֙: sanctify - to be (causatively, make, pronounce or observe as) clean (ceremon...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "וַיִּֽתְקַדְּשׁ֔וּ: sanctified - to be (causatively, make, pronounce or observe as) clean (ce...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Theological Analysis: This passage falls within the section on Proper ark transport - Levitic...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        29
+      ],
+      "versePhrases": {
+        "29": [
+          "King"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Samuel 6:16",
+          "anchorVerse": 29,
+          "referenceLabel": "2 Samuel 6:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "Theological Analysis: This passage falls within the section on Proper ark transport - Levitic...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "הַמֶּ֤לֶךְ: king - a king",
+          "anchorVerse": 29
+        }
+      ]
+    }
+  ]
+}

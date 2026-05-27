@@ -1,0 +1,95 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 27,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:26.292Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"He was five and twenty years old when he began to reign, and reigned sixteen years in Jerusal...\". Word-study detail reinforces \"מֶ֣לֶךְ: also with the king - a king\".",
+      "supportingVerses": [
+        1,
+        5,
+        7,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "5": [
+          "king"
+        ],
+        "7": [
+          "they are written in the Book of the Kings of Israel and Judah"
+        ],
+        "8": [
+          "king"
+        ],
+        "9": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Jotham was twenty and five years old when he began to reign, and he reigned sixteen years in...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֖ךְ: and he reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "He fought also with the king of the Ammonites, and prevailed against them. And the children o...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "מֶ֣לֶךְ: also with the king - a king",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"וְיֶתֶר֙: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "וְיֶתֶר֙: Now the rest - properly, an overhanging, i.e., (by implication) a small rope (as ha...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

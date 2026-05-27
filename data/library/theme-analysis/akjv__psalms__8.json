@@ -1,0 +1,217 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 8,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:48.555Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Next he attaches the reason for this man...\". Word-study detail reinforces \"הָאָ֑רֶץ: in all the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "heavens",
+          "earth"
+        ],
+        "3": [
+          "heavens"
+        ],
+        "4": [
+          "what is man, that thou art mindful of him"
+        ],
+        "5": [
+          "made"
+        ],
+        "8": [
+          "the fowl of the air, and the fish of the..."
+        ],
+        "9": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O LORD our Lord, how excellent is thy name in all the earth! who hast set thy glory above the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above he set forth a Psalm in which Davi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָ֑רֶץ: in all the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Ancient astronomy was primarily naked-eye observation. Without telescopes, David saw perhaps...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"O LORD our Lord, how excellent is thy name in all the earth! This verse perfectly mirrors ver...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "glory"
+        ],
+        "2": [
+          "Out of the mouth of babes and sucklings hast thou..."
+        ],
+        "3": [
+          "When I consider thy heavens, the work of thy fingers,..."
+        ],
+        "4": [
+          "what is man, that thou art mindful of him"
+        ],
+        "5": [
+          "glory"
+        ],
+        "6": [
+          "Thou madest him to have dominion over the works of..."
+        ],
+        "9": [
+          "O Lord our Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Psalms 148:13",
+          "anchorVerse": 1,
+          "referenceLabel": "Psalms 148:13"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O LORD our Lord, how excellent is thy name in all the earth! who hast set thy glory above the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above he set forth a Psalm in which Davi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ה֝וֹדְךָ֗: thy glory - grandeur (i.e., an imposing form and appearance)",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Out of the mouth of babes and sucklings hast thou ordained strength because of thine enemies,...\". Word-study detail reinforces \"לְהַשְׁבִּ֥ית: that thou mightest still - to repose, i.e., desist from exertion; used in many...\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "O Lord our Lord, how excellent is thy name in..."
+        ],
+        "2": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O LORD our Lord, how excellent is thy name in all the earth! who hast set thy glory above the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Above he set forth a Psalm in which Davi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Out of the mouth of babes and sucklings hast thou ordained strength because of thine enemies,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "לְהַשְׁבִּ֥ית: that thou mightest still - to repose, i.e., desist from exertion; used in many...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: Next, when he says \"you have set him,\" h...\". Word-study detail reinforces \"תַּ֭מְשִׁילֵהוּ: Thou madest him to have dominion - to rule\".",
+      "supportingVerses": [
+        6
+      ],
+      "versePhrases": {
+        "6": [
+          "dominion"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "This verse describes humanity's divine mandate: dominion over creation. \"Madest him to have d...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: Next, when he says \"you have set him,\" h...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "תַּ֭מְשִׁילֵהוּ: Thou madest him to have dominion - to rule",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

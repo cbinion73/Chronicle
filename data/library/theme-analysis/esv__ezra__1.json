@@ -1,0 +1,159 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezra",
+  "chapter": 1,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:53:16.722Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: In the first year of Cyrus, king of Persia, etc. Anc...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "kingdom",
+          "king"
+        ],
+        "2": [
+          "king"
+        ],
+        "5": [
+          "Then rose up the heads of the fathers' houses of..."
+        ],
+        "7": [
+          "king"
+        ],
+        "8": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 21:1",
+          "anchorVerse": 1,
+          "referenceLabel": "Proverbs 21:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jere...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: In the first year of Cyrus, king of Persia, etc. Anc...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Then rose up the chief of the fathers of Judah and Benjamin, and the priests, and the Levites...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        1,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "spirit"
+        ],
+        "5": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jere...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: In the first year of Cyrus, king of Persia, etc. Anc...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ר֙וּחַ֙: the spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalat...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Ezra 1:1",
+          "anchorVerse": 5,
+          "referenceLabel": "Ezra 1:1"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: In the first year of Cyrus, king of Persia, etc. Anc...\". Word-study detail reinforces \"הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "2": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: In the first year of Cyrus, king of Persia, etc. Anc...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיַּֽעֲבֶר: that he made a proclamation - to cross over; used very widely of any transition...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Cyrus Cylinder and other Persian documents confirm that Cyrus portrayed himself as chosen...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הָאָ֔רֶץ: of the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

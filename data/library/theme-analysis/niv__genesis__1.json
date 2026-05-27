@@ -1,0 +1,218 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Genesis",
+  "chapter": 1,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:16.854Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 30 verses. Commentary leans on \"Basil of Caesarea: 1. It is right that any one beginning to narrate the formation of the worl...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "created",
+          "heavens",
+          "earth"
+        ],
+        "2": [
+          "earth",
+          "waters"
+        ],
+        "3": [
+          "light"
+        ],
+        "4": [
+          "light"
+        ],
+        "5": [
+          "light"
+        ],
+        "6": [
+          "waters"
+        ],
+        "7": [
+          "made"
+        ],
+        "8": [
+          "God called the vault “sky"
+        ],
+        "9": [
+          "And God said, “Let the water under the sky be..."
+        ],
+        "10": [
+          "waters"
+        ],
+        "11": [
+          "Then God said, “Let the land produce vegetation"
+        ],
+        "12": [
+          "The land produced vegetation"
+        ],
+        "13": [
+          "And there was evening, and there was morning—the third day"
+        ],
+        "14": [
+          "“Let there be lights in the vault of the sky to separate the day from the night"
+        ],
+        "15": [
+          "earth",
+          "light"
+        ],
+        "16": [
+          "made",
+          "light"
+        ],
+        "17": [
+          "earth",
+          "light"
+        ],
+        "18": [
+          "light"
+        ],
+        "19": [
+          "And there was evening, and there was morning—the fourth day"
+        ],
+        "20": [
+          "earth"
+        ],
+        "21": [
+          "created"
+        ],
+        "22": [
+          "earth"
+        ],
+        "24": [
+          "And God said, “Let the land produce living creatures according..."
+        ],
+        "25": [
+          "made"
+        ],
+        "26": [
+          "Then God said, “Let us make mankind in our image,..."
+        ],
+        "27": [
+          "created"
+        ],
+        "28": [
+          "earth"
+        ],
+        "29": [
+          "earth"
+        ],
+        "30": [
+          "earth"
+        ],
+        "31": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In the beginning God created the heaven and the earth. This majestic opening declares the fun...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Basil of Caesarea: 1. It is right that any one beginning to narrate the formation of the worl...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הָאָֽרֶץ׃: the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And the earth was without form, and void; and darkness was upon the face of the deep. And the...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ephrem the Syrian: After this Moses spoke not of the firmament and things that were above [it...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        2,
+        30
+      ],
+      "versePhrases": {
+        "2": [
+          "Spirit"
+        ],
+        "30": [
+          "breath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Psalms 104:30",
+          "anchorVerse": 2,
+          "referenceLabel": "Psalms 104:30"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And the earth was without form, and void; and darkness was upon the face of the deep. And the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Ephrem the Syrian: After this Moses spoke not of the firmament and things that were above [it...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "וְר֣וּחַ: And the Spirit - wind; by resemblance breath, i.e., a sensible (or even violent) ex...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Thessalonians",
+  "chapter": 2,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:58:56.602Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says: for what is our hope, h...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        10,
+        13,
+        14,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "For you yourselves know, brothers and sisters, that our reception..."
+        ],
+        "2": [
+          "but after we had already suffered and been treated abusively..."
+        ],
+        "4": [
+          "but just as we have been approved by God to be entrusted with the gospel"
+        ],
+        "10": [
+          "of how devoutly and rightly and blamelessly we behaved toward you believers"
+        ],
+        "13": [
+          "believe"
+        ],
+        "14": [
+          "For you, brothers and sisters, became imitators of the churches..."
+        ],
+        "19": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "For yourselves, brethren, know our entrance in unto you, that it was not in vain — kenē (κενή...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Thessalonians: Great, says the apostle, are your stru...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "But even after that we had suffered before, and were shamefully entreated, as ye know, at Phi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: But we had already suffered bodily trials: \"...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Nor of men sought we glory, neither of you, nor yet of others — zētountes ex anthrōpōn doxan...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        5,
+        6,
+        12,
+        19,
+        20
+      ],
+      "versePhrases": {
+        "5": [
+          "For we never came with flattering speech, as you know,..."
+        ],
+        "6": [
+          "nor did we seek honor from people, either from you..."
+        ],
+        "12": [
+          "glory"
+        ],
+        "19": [
+          "in the presence of our Lord Jesus at His coming? Or is it not indeed you?"
+        ],
+        "20": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For neither at any time used we flattering words, as ye know, nor a cloke of covetousness; Go...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 2: \"For neither at any time were we found using...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "John 7:18",
+          "anchorVerse": 6,
+          "referenceLabel": "John 7:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Nor of men sought we glory, neither of you, nor yet of others — zētountes ex anthrōpōn doxan...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"But we, brethren, being taken from you for a short time in presence, not in heart, endeavoure...\". Word-study detail reinforces \"ἔμπροσθεν: in the presence - in front of (in place (literally or figuratively) or time)\".",
+      "supportingVerses": [
+        8,
+        17,
+        19
+      ],
+      "versePhrases": {
+        "8": [
+          "with you"
+        ],
+        "17": [
+          "not in spirit—were all the more eager with great desire to see your face"
+        ],
+        "19": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "So being affectionately desirous of you, we were willing to have imparted unto you, not the g...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: So, being affectionately desirous of you, we...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "But we, brethren, being taken from you for a short time in presence, not in heart, endeavoure...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 3: \"But we, being taken from you for a short tim...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Thessalonians: Then when Paul says: you are witnesses, he r...\". Word-study detail reinforces \"καθὼς: as - just (or inasmuch) as, that\".",
+      "supportingVerses": [
+        4,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "4": [
+          "just"
+        ],
+        "10": [
+          "of how devoutly and rightly and blamelessly we behaved toward you believers"
+        ],
+        "11": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "But as we were allowed of God to be put in trust with the gospel, even so we speak — dedokima...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Fulgentius of Ruspe on LETTERS 2.35: In all good works, be careful lest you be stirred by des...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "καθὼς: as - just (or inasmuch) as, that",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ye are witnesses, and God also, how holily and justly and unblameably we behaved ourselves am...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"John Chrysostom on Homily on 1 Thessalonians 3: \"Who both killed the Lord,\" he says-but, perh...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        15,
+        16
+      ],
+      "versePhrases": {
+        "15": [
+          "who both killed the Lord Jesus and the prophets, and..."
+        ],
+        "16": [
+          "saved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "How can Paul simultaneously indict Jewish opposition and maintain 'great sorrow' for Israel's...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "John Chrysostom on Homily on 1 Thessalonians 3: \"Who both killed the Lord,\" he says-but, perh...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Mark 16:16",
+          "anchorVerse": 16,
+          "referenceLabel": "Mark 16:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Forbidding us to speak to the Gentiles that they might be saved, to fill up their sins alway:...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Forbidding us to speak to the Gentiles that they might be saved, to fill up their sins alway:...\". Word-study detail reinforces \"ὀργὴ: the wrath - properly, desire (as a reaching forth or excitement of the mind), i.e., (by...\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Forbidding us to speak to the Gentiles that they might be saved, to fill up their sins alway:...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Thessalonians: And they are antagonistic, because they proh...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "ὀργὴ: the wrath - properly, desire (as a reaching forth or excitement of the mind), i.e., (by...",
+          "anchorVerse": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Kings",
+  "chapter": 18,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:18.071Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 23 verses. Commentary leans on \"Jerome on Against the Pelagians 2.21: Of Hezekiah it is written, “And he did that which was r...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23,
+        28,
+        29,
+        30,
+        31,
+        33,
+        36
+      ],
+      "versePhrases": {
+        "1": [
+          "king",
+          "reign"
+        ],
+        "2": [
+          "king"
+        ],
+        "4": [
+          "He removed the high places and broke the sacred pillars,..."
+        ],
+        "5": [
+          "so that after him was none like him among all the kings of Judah"
+        ],
+        "7": [
+          "king"
+        ],
+        "9": [
+          "King",
+          "king"
+        ],
+        "10": [
+          "king"
+        ],
+        "11": [
+          "king"
+        ],
+        "13": [
+          "King",
+          "king"
+        ],
+        "14": [
+          "king"
+        ],
+        "15": [
+          "king"
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "king",
+          "King"
+        ],
+        "18": [
+          "king"
+        ],
+        "19": [
+          "king"
+        ],
+        "21": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ],
+        "28": [
+          "king"
+        ],
+        "29": [
+          "king"
+        ],
+        "30": [
+          "king"
+        ],
+        "31": [
+          "king"
+        ],
+        "33": [
+          "king"
+        ],
+        "36": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now it came to pass in the third year of Hoshea son of Elah king of Israel, that Hezekiah the...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶ֥לֶךְ: king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Twenty and five years old was he when he began to reign; and he reigned twenty and nine years...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מָלַ֖ךְ: and he reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thou sayest, (but they are but vain words,) I have counsel and strength for the war. Now on w...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        19,
+        20,
+        21,
+        22,
+        24,
+        30
+      ],
+      "versePhrases": {
+        "5": [
+          "trusted"
+        ],
+        "19": [
+          "trust",
+          "confidence"
+        ],
+        "20": [
+          "trust"
+        ],
+        "21": [
+          "trust"
+        ],
+        "22": [
+          "trust"
+        ],
+        "24": [
+          "trust"
+        ],
+        "30": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "2 Kings 19:10",
+          "anchorVerse": 5,
+          "referenceLabel": "2 Kings 19:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Historical Setting: 2 Kings 18 takes place during Hezekiah's reign in Judah, late 8th century...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בָּטָ֑ח: He trusted - properly, to hie for refuge (but not so precipitately as h2620); figura...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Isaiah 36:4",
+          "anchorVerse": 19,
+          "referenceLabel": "Isaiah 36:4"
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Who are they among all the gods of the countries, that have delivered their country out of mi...\". Word-study detail reinforces \"יַצִּילֵ֖נוּ: deliver - to snatch away, whether in a good or a bad sense\".",
+      "supportingVerses": [
+        23,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "versePhrases": {
+        "23": [
+          "Now therefore, I urge you, give a pledge to my..."
+        ],
+        "29": [
+          "deliver"
+        ],
+        "30": [
+          "deliver"
+        ],
+        "32": [
+          "deliver"
+        ],
+        "33": [
+          "delivered"
+        ],
+        "34": [
+          "delivered"
+        ],
+        "35": [
+          "deliver",
+          "delivered"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "Now therefore, I pray thee, give pledges to my lord the king of Assyria, and I will deliver t...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "לָ֥תֶת: and I will deliver - to give, used with greatest latitude of application (put, make,...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 29 commentary",
+          "detail": "Thus saith the king, Let not Hezekiah deceive you: for he shall not be able to deliver you ou...",
+          "anchorVerse": 29
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 29 word study",
+          "detail": "לְהַצִּ֥יל: to deliver - to snatch away, whether in a good or a bad sense",
+          "anchorVerse": 29
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 21 verses. Commentary leans on \"Because they obeyed not the voice of the LORD their God, but transgressed his covenant, and a...\". Word-study detail reinforces \"בְּרִית֔וֹ: his covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        4,
+        12,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "versePhrases": {
+        "4": [
+          "He removed the high places and broke the sacred pillars,..."
+        ],
+        "12": [
+          "covenant"
+        ],
+        "19": [
+          "Then the Rabshakeh said to them, “Say now to Hezekiah,..."
+        ],
+        "20": [
+          "You speak of having plans and power for war"
+        ],
+        "21": [
+          "Now look"
+        ],
+        "22": [
+          "But if you say to me, ‘We trust in the..."
+        ],
+        "23": [
+          "Now therefore, I urge you, give a pledge to my..."
+        ],
+        "24": [
+          "How then will you repel one captain of the least..."
+        ],
+        "25": [
+          "Have I now come up without the Lord against this..."
+        ],
+        "26": [
+          "Then Eliakim the son of Hilkiah, Shebna, and Joah said..."
+        ],
+        "27": [
+          "But the Rabshakeh said to them, “Has my master sent..."
+        ],
+        "28": [
+          "Then the Rabshakeh stood and called out with a loud..."
+        ],
+        "29": [
+          "Thus says the king"
+        ],
+        "30": [
+          "nor let Hezekiah make you trust in the Lord, saying,..."
+        ],
+        "31": [
+          "Do not listen to Hezekiah"
+        ],
+        "32": [
+          "until I come and take you away to a land..."
+        ],
+        "33": [
+          "Has any of the gods of the nations at all..."
+        ],
+        "34": [
+          "Where are the gods of Hamath and Arpad"
+        ],
+        "35": [
+          "Who among all the gods of the lands have delivered..."
+        ],
+        "36": [
+          "But the people held their peace and answered him not..."
+        ],
+        "37": [
+          "Then Eliakim the son of Hilkiah, who was over the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "What does this passage reveal about God's character, particularly His justice, mercy, and fai...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on EIGHT QUESTIONS OF DULCITIUS 5: But because he goes on to add \"of this...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וְכָרַ֖ת: and cut down - to cut (off, down or asunder); by implication, to destroy or consume...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Because they obeyed not the voice of the LORD their God, but transgressed his covenant, and a...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jerome on Against the Pelagians 2.21: Of Hezekiah it is written, “And he did that which was r...\". Word-study detail reinforces \"שָֽׁמְע֖וּ: Because they obeyed - to hear intelligently (often with implication of attention,...\".",
+      "supportingVerses": [
+        4,
+        6,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "4": [
+          "He removed the high places and broke the sacred pillars,..."
+        ],
+        "6": [
+          "kept"
+        ],
+        "12": [
+          "obey"
+        ],
+        "13": [
+          "And in the fourteenth year of King Hezekiah, Sennacherib king..."
+        ],
+        "14": [
+          "Then Hezekiah king of Judah sent to the king of..."
+        ],
+        "15": [
+          "So Hezekiah gave him all the silver that was found..."
+        ],
+        "16": [
+          "At that time Hezekiah stripped the gold from the doors..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Augustine of Hippo on LETTER 185.19: A sovereign serves God one way as man, another way as ki...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "In what practical ways should this text shape contemporary Christian thinking about faithfuln...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "מִצְוֹתָ֔יו: his commandments - a command, whether human or divine (collectively, the law)",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"How does this verse contribute to understanding the theological message of 2 Kings 18 regardi...\". Word-study detail reinforces \"עֵצָ֥ה: I have counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        1,
+        2,
+        20,
+        26
+      ],
+      "versePhrases": {
+        "1": [
+          "Now it came to pass in the third year of..."
+        ],
+        "2": [
+          "He was twenty-five years old when he became king, and..."
+        ],
+        "20": [
+          "You speak of having plans and power for war"
+        ],
+        "26": [
+          "understand"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "How does this verse contribute to understanding the theological message of 2 Kings 18 regardi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מָלַ֛ךְ: began to reign - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does this verse contribute to understanding the theological message of 2 Kings 18 regardi...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מָלַ֖ךְ: and he reigned - to reign; hence (by implication) to take counsel",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

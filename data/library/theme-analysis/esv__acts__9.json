@@ -1,0 +1,427 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 9,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:35.924Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Gregory the Dialogist on Forty Gospel Homilies, Homily 34: I briefly relate a matter, brother...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        3,
+        4,
+        7,
+        8,
+        21,
+        26,
+        32,
+        39,
+        40
+      ],
+      "versePhrases": {
+        "3": [
+          "light"
+        ],
+        "4": [
+          "And falling to the ground, he heard a voice saying..."
+        ],
+        "7": [
+          "The men who were traveling with him stood speechless, hearing..."
+        ],
+        "8": [
+          "Saul rose from the ground, and although his eyes were..."
+        ],
+        "21": [
+          "made"
+        ],
+        "26": [
+          "And when he had come to Jerusalem, he attempted to..."
+        ],
+        "32": [
+          "Now as Peter went here and there among them all,..."
+        ],
+        "39": [
+          "made"
+        ],
+        "40": [
+          "But Peter put them all outside, and knelt down and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Revelation 21:23",
+          "anchorVerse": 3,
+          "referenceLabel": "Revelation 21:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "As Saul journeyed to Damascus, 'suddenly there shined round about him a light from heaven' -...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "John Chrysostom on Homily on Acts 19: And as he journeyed, he came near Damascus: and suddenl...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "περιήστραψεν: there shined round about - to flash all around, i.e., envelop in light",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Explicit",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Then had the churches rest throughout all Judaea and Galilee and Samaria, and were edified; a...\". Word-study detail reinforces \"εἰρήνην: rest - peace (literally or figuratively); by implication, prosperity\".",
+      "supportingVerses": [
+        1,
+        25,
+        30,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "1": [
+          "still"
+        ],
+        "25": [
+          "but his disciples took him by night and let him..."
+        ],
+        "30": [
+          "And when the brothers learned this, they brought him down..."
+        ],
+        "31": [
+          "peace",
+          "comfort"
+        ],
+        "32": [
+          "Now as Peter went here and there among them all,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Acts: Saul, still breathing threats and murder against the disciples of...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἔτι: yet - \"yet,\" still (of time or degree)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 25 commentary",
+          "detail": "What balance should exist between trusting God's protection and taking practical safety measu...",
+          "anchorVerse": 25
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 25 historical",
+          "detail": "Augustine of Hippo on LETTER 228: He would not have fled from the snares laid for him by the...",
+          "anchorVerse": 25
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Explicit",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Then had the churches rest throughout all Judaea and Galilee and Samaria, and were edified; a...\". Word-study detail reinforces \"πνεύματος: Ghost - a current of air, i.e., breath (blast) or a breeze; by analogy or figurati...\".",
+      "supportingVerses": [
+        8,
+        17,
+        19,
+        29,
+        31
+      ],
+      "versePhrases": {
+        "8": [
+          "Saul rose from the ground, and although his eyes were..."
+        ],
+        "17": [
+          "Spirit",
+          "Holy Spirit"
+        ],
+        "19": [
+          "and taking food, he was strengthened"
+        ],
+        "29": [
+          "And he spoke and disputed against the Hellenists"
+        ],
+        "31": [
+          "Spirit",
+          "Holy Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Saul arose from the earth unable to see despite his eyes being open - the glory of Christ had...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Ambrose of Milan on On the Blessings of the Patriarchs: Although he saw nothing when his eyes...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Three days after Saul's Damascus Road encounter (AD 34-35), Ananias received vision-directed...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Oecumenius on Commentary on Acts: But Christ did not say to Ananias: I appeared to him, but h...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Bede on Commentary on Acts: They let him down through the wall, lowering him in a basket. Thi...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        9,
+        17,
+        25,
+        26,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        42
+      ],
+      "versePhrases": {
+        "9": [
+          "And for three days he was without sight, and neither..."
+        ],
+        "17": [
+          "So Ananias departed and entered the house"
+        ],
+        "25": [
+          "but his disciples took him by night and let him..."
+        ],
+        "26": [
+          "believe"
+        ],
+        "34": [
+          "And Peter said to him, “Aeneas, Jesus Christ heals you"
+        ],
+        "35": [
+          "And all the residents of Lydda and Sharon saw him,..."
+        ],
+        "36": [
+          "Now there was in Joppa a disciple named Tabitha, which,..."
+        ],
+        "37": [
+          "In those days she became ill and died, and when..."
+        ],
+        "39": [
+          "So Peter rose and went with them"
+        ],
+        "40": [
+          "But Peter put them all outside, and knelt down and..."
+        ],
+        "42": [
+          "and many believed in the Lord"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For three days Saul neither ate nor drank, spending time in prayer (v.11). This fasting marks...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on Acts 19: Why did not the Jews believe when they were told of the...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "Ananias' obedient visit to Saul demonstrates remarkable faith overcoming legitimate fear—the...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Arator on ON THE ACTS OF THE APOSTLES 1: How much [this] darkness earns! After the loss of hi...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Acts: \"Saul increased all the more in strength and conf...\". Word-study detail reinforces \"κατήγαγον: down - to lead down; specially, to moor a vessel\".",
+      "supportingVerses": [
+        1,
+        2,
+        8,
+        10,
+        11,
+        12,
+        22,
+        23,
+        27,
+        30
+      ],
+      "versePhrases": {
+        "1": [
+          "But Saul, still breathing threats and murder against the disciples..."
+        ],
+        "2": [
+          "and asked him for letters to the synagogues at Damascus,..."
+        ],
+        "8": [
+          "led"
+        ],
+        "10": [
+          "Now there was a disciple at Damascus named Ananias"
+        ],
+        "11": [
+          "And the Lord said to him, “Rise and go to..."
+        ],
+        "12": [
+          "and he has seen in a vision a man named..."
+        ],
+        "22": [
+          "But Saul increased all the more in strength, and confounded..."
+        ],
+        "23": [
+          "When many days had passed, the Jews plotted to kill..."
+        ],
+        "27": [
+          "But Barnabas took him and brought him to the apostles..."
+        ],
+        "30": [
+          "And when the brothers learned this, they brought him down..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does Saul's zeal in persecution teach about misdirected religious fervor?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Acts 19: But why went he to Damascus? It was a great city, a roy...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What does calling Christianity 'the way' teach about its exclusive truth claims?",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Acts 19: But why went he to Damascus? It was a great city, a roy...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Then had the churches rest throughout all Judaea and Galilee and Samaria, and were edified; a...\". Word-study detail reinforces \"φόβῳ: the fear - alarm or fright\".",
+      "supportingVerses": [
+        6,
+        10,
+        13,
+        14,
+        17,
+        26,
+        29,
+        31
+      ],
+      "versePhrases": {
+        "6": [
+          "But rise and enter the city, and you will be..."
+        ],
+        "10": [
+          "Now there was a disciple at Damascus named Ananias"
+        ],
+        "13": [
+          "But Ananias answered, “Lord, I have heard from many about..."
+        ],
+        "14": [
+          "And here he has authority from the chief priests to..."
+        ],
+        "17": [
+          "So Ananias departed and entered the house"
+        ],
+        "26": [
+          "afraid"
+        ],
+        "29": [
+          "And he spoke and disputed against the Hellenists"
+        ],
+        "31": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And he trembling and astonished said, Lord, what wilt thou have me to do? —Saul's question ma...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Ambrose of Milan on On Joseph the Patriarch: Although Paul was struck and taken up and was te...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "Τρέμων: he trembling - to \"tremble\" or fear",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "The Lord spoke to Ananias in a vision, calling him by name - demonstrating God's personal kno...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

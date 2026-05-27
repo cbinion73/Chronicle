@@ -1,0 +1,145 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Revelation",
+  "chapter": 8,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:19.884Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Jacob Bar-Salibi: 'On this Caius said that, just as in the Flood the heavenly bodies were not...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "5": [
+          "earth"
+        ],
+        "7": [
+          "earth"
+        ],
+        "9": [
+          "and the third part of the creatures which were in..."
+        ],
+        "10": [
+          "waters"
+        ],
+        "11": [
+          "made",
+          "waters"
+        ],
+        "12": [
+          "And the fourth angel sounded, and the third part of..."
+        ],
+        "13": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Revelation 4:5",
+          "anchorVerse": 5,
+          "referenceLabel": "Revelation 4:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "And the angel took the censer, and filled it with fire of the altar, and cast it into the ear...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ticonius on COMMENTARY ON THE APOCALYPSE 8:5: The Lord received his body, that is, the church...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "γῆν: the earth - soil; by extension a region, or the solid part or the whole of the terrene g...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Oecumenius on Commentary on Revelation: Perhaps someone who is very meticulous might analyze...\". Word-study detail reinforces \"θρόνου: the throne - a stately seat (\"throne\"); by implication, power or (concretely) a poten...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "And when he had opened the seventh seal, there was..."
+        ],
+        "2": [
+          "And I saw the seven angels which stood before God"
+        ],
+        "3": [
+          "throne"
+        ],
+        "4": [
+          "And the smoke of the incense, which came with the..."
+        ],
+        "5": [
+          "And the angel took the censer, and filled it with..."
+        ],
+        "7": [
+          "The first angel sounded, and there followed hail and fire..."
+        ],
+        "8": [
+          "And the second angel sounded, and as it were a..."
+        ],
+        "9": [
+          "and the third part of the creatures which were in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And when he had opened the seventh seal, there was silence in heaven about the space of half...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on Revelation: Perhaps someone who is very meticulous might analyze...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And I saw the seven angels which stood before God; and to them were given seven trumpets.......",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Alcuin of York on COMMENTARY ON REVELATION: And I saw seven angels standing in the sight of G...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

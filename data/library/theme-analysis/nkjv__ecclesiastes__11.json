@@ -1,0 +1,245 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 11,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:40:30.877Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Truly the light is sweet, and a pleasant thing it is for the eyes to behold the sun —the Hebr...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "1": [
+          "waters"
+        ],
+        "2": [
+          "earth"
+        ],
+        "3": [
+          "earth"
+        ],
+        "6": [
+          "In the morning sow your seed, And in the evening..."
+        ],
+        "7": [
+          "light"
+        ],
+        "8": [
+          "But if a man lives many years And rejoices in..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Preacher offers enigmatic counsel: 'Cast thy bread upon the waters: for thou shalt find i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "CS Lewis on The Problem of Pain, Ch. 10: For union exists only between distincts; and, perhap...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמָּ֑יִם: the waters - water; figuratively, juice; by euphemism, urine, semen",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ancient Near Eastern economies were vulnerable to localized disasters—drought, warfare, or pl...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Didymus the Blind on COMMENTARY ON ECCLESIASTES 321:1: This sentence obviously is meant in a...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        10
+      ],
+      "versePhrases": {
+        "3": [
+          "If the clouds are full of rain, They empty themselves..."
+        ],
+        "4": [
+          "wind"
+        ],
+        "5": [
+          "wind"
+        ],
+        "10": [
+          "Therefore remove sorrow from your heart, And put away evil..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Didymus the Blind on COMMENTARY ON ECCLESIASTES 321:1: This sentence obviously is meant in a...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בַּדָּר֖וֹם: toward the south - the south; poet. the south wind",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "He that observeth the wind shall not sow; and he that regardeth the clouds shall not reap —th...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Gregory the Dialogist on The Book of Pastoral Rule, Part 3, Chapter XV: He that observeth the...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Ambrose of Milan on Interrogation of Job and David: There, tears are indeed bread, where just...\". Word-study detail reinforces \"לַחְמְךָ֖: thy bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        1,
+        2
+      ],
+      "versePhrases": {
+        "1": [
+          "bread"
+        ],
+        "2": [
+          "Give a serving to seven, and also to eight, For..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Preacher offers enigmatic counsel: 'Cast thy bread upon the waters: for thou shalt find i...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Interrogation of Job and David: There, tears are indeed bread, where just...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לַחְמְךָ֖: thy bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Give a portion to seven, and also to eight —the Hebrew ten cheleq le-shiv'ah ve-gam li-shemon...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Youth in ancient Israel faced pressures similar to modern adolescents: emerging independence,...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "judgment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Ecclesiastes 12:14",
+          "anchorVerse": 9,
+          "referenceLabel": "Ecclesiastes 12:14"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "Youth in ancient Israel faced pressures similar to modern adolescents: emerging independence,...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Gregory the Dialogist on Dialogues, Book 4, Chapter 4: As he doth, in the first place, expres...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "בַּמִּשְׁפָּֽט׃: thee into judgment - properly, a verdict (favorable or unfavorable) pronounc...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"What does it look like to 'remember your Creator in the days of your youth' (12:1) by removin...\". Word-study detail reinforces \"כַּ֙עַס֙: sorrow - vexation\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "sorrow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "What does it look like to 'remember your Creator in the days of your youth' (12:1) by removin...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Ephrem the Syrian on HOMILY ON ADMONITION AND REPENTANCE 15: Put sorrow far from your flesh a...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "כַּ֙עַס֙: sorrow - vexation",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Colossians",
+  "chapter": 4,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:12.304Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Next, Paul tells them about some others. First, a...\". Word-study detail reinforces \"ἀγαπητῷ: beloved - beloved\".",
+      "supportingVerses": [
+        7,
+        9,
+        14
+      ],
+      "versePhrases": {
+        "7": [
+          "beloved"
+        ],
+        "9": [
+          "beloved"
+        ],
+        "14": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minist...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Next, Paul tells them about some others. First, a...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἀγαπητὸς: who is a beloved - beloved",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Whom I have sent unto you for the same purpose, that he might know your estate, and comfort y...\". Word-study detail reinforces \"πιστῷ: a faithful - objectively, trustworthy; subjectively, trustful\".",
+      "supportingVerses": [
+        4,
+        7,
+        8,
+        9,
+        11,
+        13,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "that I may make it manifest, as I ought to..."
+        ],
+        "7": [
+          "faithful"
+        ],
+        "8": [
+          "whom I have sent unto you for the same purpose,..."
+        ],
+        "9": [
+          "faithful"
+        ],
+        "11": [
+          "and Jesus, which is called Justus, who are of the..."
+        ],
+        "13": [
+          "For I bear him record, that he hath a great..."
+        ],
+        "18": [
+          "The salutation by the hand of me Paul"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "That I may make it manifest, as I ought to speak. Paul specifies prayer request's content: \"t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: There are three obstacles which can block the wor...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minist...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "John Chrysostom on Homily on Colossians 11: Admirable! how great is the wisdom of Paul! Obser...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"John Chrysostom on Homily on Colossians 11: This man was probably a Corinthian. Next, he best...\". Word-study detail reinforces \"παρηγορία: a comfort - an address alongside, i.e., (specially), consolation\".",
+      "supportingVerses": [
+        3,
+        4,
+        8,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "3": [
+          "withal praying also for us, that God would open unto..."
+        ],
+        "4": [
+          "that I may make it manifest, as I ought to..."
+        ],
+        "8": [
+          "comfort"
+        ],
+        "11": [
+          "comfort"
+        ],
+        "12": [
+          "Epaphras, who is one of you, a servant of Christ,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Withal praying also for us, that God would open unto us a door of utterance, to speak the mys...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 5: For that the knowledge does not appertain to al...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "That I may make it manifest, as I ought to speak. Paul specifies prayer request's content: \"t...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "John Chrysostom on Homily on Colossians 10: See his lowlymindedness; he sets himself after th...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Above, Paul gave specific teachings for each clas...\". Cross references echo \"Prayer\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "prayer"
+        ],
+        "3": [
+          "withal praying also for us"
+        ],
+        "4": [
+          "that I may make it manifest, as I ought to..."
+        ],
+        "12": [
+          "always labouring fervently for you in prayers"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Prayer",
+          "detail": "Philippians 4:6",
+          "anchorVerse": 2,
+          "referenceLabel": "Philippians 4:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Continue in prayer, and watch in the same with thanksgiving. Paul transitions to closing exho...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Above, Paul gave specific teachings for each clas...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "προσευχῇ: in prayer - prayer (worship); by implication, an oratory (chapel)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Above, Paul gave specific teachings for each clas...\". Word-study detail reinforces \"εὐχαριστίᾳ: thanksgiving - gratitude; actively, grateful language (to god, as an act of worship)\".",
+      "supportingVerses": [
+        2,
+        12,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "thanksgiving"
+        ],
+        "12": [
+          "Epaphras, who is one of you, a servant of Christ,..."
+        ],
+        "18": [
+          "The salutation by the hand of me Paul"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Continue in prayer, and watch in the same with thanksgiving. Paul transitions to closing exho...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Above, Paul gave specific teachings for each clas...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "εὐχαριστίᾳ: thanksgiving - gratitude; actively, grateful language (to god, as an act of worship)",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "John Chrysostom on Homily on Colossians 12: \"Epaphras, who is one of you, a servant of Christ...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The salutation by the hand of me Paul. Remember my bonds. Grace be with you. Amen. Paul concl...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        6,
+        18
+      ],
+      "versePhrases": {
+        "6": [
+          "grace"
+        ],
+        "18": [
+          "Grace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Ephesians 4:29",
+          "anchorVerse": 6,
+          "referenceLabel": "Ephesians 4:29"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Let your speech be alway with grace, seasoned with salt, that ye may know how ye ought to ans...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Paul also instructs them as to their speech. Firs...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "χάριτι: grace - graciousness (as gratifying), of manner or act (abstract or concrete; literal...",
+          "anchorVerse": 6
+        }
+      ]
+    }
+  ]
+}

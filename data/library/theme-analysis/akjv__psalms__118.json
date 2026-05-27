@@ -1,0 +1,390 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 118,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:28.904Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Open to me the gates of righteousness: I will go into them, and I will praise the LORD. This...\". Word-study detail reinforces \"הוֹד֣וּ: O give thanks - physically, to throw (a stone, an arrow) at or away; especially to r...\".",
+      "supportingVerses": [
+        1,
+        4,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        26,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "thanks"
+        ],
+        "4": [
+          "Let them now that fear the Lord say"
+        ],
+        "14": [
+          "The Lord is my strength and song"
+        ],
+        "15": [
+          "the right hand of the Lord doeth valiantly"
+        ],
+        "16": [
+          "The right hand of the Lord is exalted"
+        ],
+        "19": [
+          "praise"
+        ],
+        "20": [
+          "this gate of the Lord"
+        ],
+        "21": [
+          "praise"
+        ],
+        "26": [
+          "Blessed be he that cometh in the name of the Lord"
+        ],
+        "28": [
+          "praise"
+        ],
+        "29": [
+          "thanks"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O give thanks unto the LORD; for he is good: because his mercy endureth for ever. This openin...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 118: ...We are taught in this Psalm, when we chaunt...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הוֹד֣וּ: O give thanks - physically, to throw (a stone, an arrow) at or away; especially to r...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does the inclusion of 'God-fearers' in Psalm 118 challenge ethnocentric or exclusivist at...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"\"The LORD is my strength and song, and is become my salvation.\" This verbatim quotation from...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        14,
+        15,
+        16,
+        18,
+        21,
+        23,
+        24,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "14": [
+          "salvation"
+        ],
+        "15": [
+          "salvation"
+        ],
+        "16": [
+          "The right hand of the Lord is exalted"
+        ],
+        "18": [
+          "The Lord hath chastened me sore"
+        ],
+        "21": [
+          "salvation"
+        ],
+        "23": [
+          "This is the Lord’s doing"
+        ],
+        "24": [
+          "This is the day which the Lord hath made"
+        ],
+        "25": [
+          "Save"
+        ],
+        "27": [
+          "God is the Lord, which hath shewed us light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Isaiah 12:2",
+          "anchorVerse": 14,
+          "referenceLabel": "Isaiah 12:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "\"The LORD is my strength and song, and is become my salvation.\" This verbatim quotation from...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 118: \"The Lord is my strength and my praise, and ha...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "לִֽישׁוּעָֽה׃: and is become my salvation - something saved, i.e., (abstractly) deliverance;...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Open to me the gates of righteousness: I will go into them, and I will praise the LORD. This...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        12,
+        15,
+        19,
+        20,
+        22,
+        24
+      ],
+      "versePhrases": {
+        "12": [
+          "They compassed me about like bees"
+        ],
+        "15": [
+          "righteous"
+        ],
+        "19": [
+          "righteousness"
+        ],
+        "20": [
+          "righteous"
+        ],
+        "22": [
+          "The stone which the builders refused is become the head..."
+        ],
+        "24": [
+          "This is the day which the Lord hath made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Ancient warfare regularly faced literal swarms—not just metaphorical. Exodus 23:28 and Deuter...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 118: \"They came about me as bees do a hive, and bur...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 68:3",
+          "anchorVerse": 15,
+          "referenceLabel": "Psalms 68:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The voice of rejoicing and salvation is in the tabernacles of the righteous: the right hand o...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Augustine of Hippo on SERMON 259:3: Let us commend ourselves to God, my brothers, by works of...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        29
+      ],
+      "versePhrases": {
+        "1": [
+          "mercy"
+        ],
+        "2": [
+          "mercy"
+        ],
+        "3": [
+          "mercy"
+        ],
+        "4": [
+          "mercy"
+        ],
+        "29": [
+          "mercy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "1 Chronicles 16:34",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Chronicles 16:34"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "O give thanks unto the LORD; for he is good: because his mercy endureth for ever. This openin...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 118: ...We are taught in this Psalm, when we chaunt...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חַסְדּֽוֹ׃: because his mercy - kindness; by implication (towards god) piety; rarely (by oppo...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"This gate of the LORD, into which the righteous shall enter. The gatekeepers respond to the p...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        15,
+        19,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "15": [
+          "righteous"
+        ],
+        "19": [
+          "righteousness"
+        ],
+        "20": [
+          "righteous"
+        ],
+        "22": [
+          "The stone which the builders refused is become the head..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Righteousness",
+          "detail": "Psalms 68:3",
+          "anchorVerse": 15,
+          "referenceLabel": "Psalms 68:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The voice of rejoicing and salvation is in the tabernacles of the righteous: the right hand o...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 118: \"The voice of joy and health is in the dwellin...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "צַדִּיקִ֑ים: of the righteous - just",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"It is better to trust in the LORD than to put confidence in princes. This verse parallels ver...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        8,
+        9,
+        13
+      ],
+      "versePhrases": {
+        "8": [
+          "trust",
+          "confidence"
+        ],
+        "9": [
+          "trust",
+          "confidence"
+        ],
+        "13": [
+          "Thou hast thrust sore at me that I might fall"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 40:4",
+          "anchorVerse": 8,
+          "referenceLabel": "Psalms 40:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "\"It is better to trust in the LORD than to put confidence in man.\" The comparative tov lachas...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Jerome on LETTER 52.11: Avoid entertaining people of the world, especially those whose honors...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "מִ֝בְּטֹ֗חַ: than to put confidence - properly, to hie for refuge (but not so precipitately a...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

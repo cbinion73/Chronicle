@@ -1,0 +1,176 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Corinthians",
+  "chapter": 8,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:51.412Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...\". Word-study detail reinforces \"γνῶσις: Knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "knowledge",
+          "Knowledge"
+        ],
+        "2": [
+          "And if anyone thinks that he knows anything, he knows..."
+        ],
+        "3": [
+          "But if anyone loves God, this one is known by..."
+        ],
+        "4": [
+          "Therefore concerning the eating of things offered to idols, we..."
+        ],
+        "7": [
+          "knowledge"
+        ],
+        "10": [
+          "knowledge"
+        ],
+        "11": [
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now as touching things offered unto idols (περὶ δὲ τῶν εἰδωλοθύτων, peri de ton eidolothyton...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "γνῶσις: Knowledge - knowing (the act), i.e., (by implication) knowledge",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "If any man think that he knoweth any thing, he knoweth nothing yet as he ought to know (καθὼς...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "2": [
+          "And if anyone thinks that he knows anything, he knows..."
+        ],
+        "3": [
+          "But if anyone loves God"
+        ],
+        "4": [
+          "Therefore concerning the eating of things offered to idols, we..."
+        ],
+        "8": [
+          "But food does not commend us to God"
+        ],
+        "11": [
+          "And because of your knowledge shall the weak brother perish,..."
+        ],
+        "12": [
+          "But when you thus sin against the brethren, and wound..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Ephesians 4:16",
+          "anchorVerse": 1,
+          "referenceLabel": "Ephesians 4:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now as touching things offered unto idols (περὶ δὲ τῶν εἰδωλοθύτων, peri de ton eidolothyton...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"Now concerning things sacrificed to idols, we...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀγάπη: charity - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"John Chrysostom on Homily on 1 Corinthians 20: \"For though there be that are called gods, whe...\". Word-study detail reinforces \"γῆς: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For though there be that are called gods (εἴπερ εἰσὶν λεγόμενοι θεοί, eiper eisin legomenoi t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily on 1 Corinthians 20: \"For though there be that are called gods, whe...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "γῆς: earth - soil; by extension a region, or the solid part or the whole of the terrene globe...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

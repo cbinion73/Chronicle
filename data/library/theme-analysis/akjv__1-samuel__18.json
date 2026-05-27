@@ -1,0 +1,339 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 18,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:27.478Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on Commentary on Samuel: David said to Saul: Who am I? etc. He does not confess himself...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        6,
+        8,
+        18,
+        22,
+        23,
+        25,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "6": [
+          "king"
+        ],
+        "8": [
+          "kingdom"
+        ],
+        "18": [
+          "king"
+        ],
+        "22": [
+          "king"
+        ],
+        "23": [
+          "king"
+        ],
+        "25": [
+          "king"
+        ],
+        "26": [
+          "king"
+        ],
+        "27": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And it came to pass as they came, when David was returned from the slaughter of the Philistin...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַמֶּ֑לֶךְ: king - a king",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "1 Samuel 15:28",
+          "anchorVerse": 8,
+          "referenceLabel": "1 Samuel 15:28"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And Saul was very wroth, and the saying displeased him; and he said, They have ascribed unto...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Bede on Commentary on Samuel: All Israel and Judah loved David, etc. All who have believed fr...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        3,
+        16,
+        20,
+        22,
+        28
+      ],
+      "versePhrases": {
+        "1": [
+          "loved"
+        ],
+        "3": [
+          "loved"
+        ],
+        "16": [
+          "loved"
+        ],
+        "20": [
+          "loved"
+        ],
+        "22": [
+          "love"
+        ],
+        "28": [
+          "loved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 Samuel 20:17",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Samuel 20:17"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass, when he had made an end of speaking unto Saul, that the soul of Jonathan...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Samuel: (1 Kings 18). And it happened as Saul completed speaking to Dav...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "וַיֶּֽאֱהָבֵ֥וּ: loved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"And Saul's servants spake those words in the ears of David. And David said, Seemeth it to you...\". Word-study detail reinforces \"הַֽנְקַלָּ֤ה: it to you a light - to be (causatively, make) light, literally (swift, small, s...\".",
+      "supportingVerses": [
+        1,
+        3,
+        13,
+        18,
+        23
+      ],
+      "versePhrases": {
+        "1": [
+          "made"
+        ],
+        "3": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "18": [
+          "And David said unto Saul, Who am I"
+        ],
+        "23": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And it came to pass, when he had made an end of speaking unto Saul, that the soul of Jonathan...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "כְּכַלֹּתוֹ֙: And it came to pass when he had made an end - to end, whether intransitive (to...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Then Jonathan and David made a covenant, because he loved him as his own soul. The covenant b...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on Samuel: Jonathan and David made a covenant, etc. Christ and the Church...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Wherefore when Saul saw that he behaved himself very wisely, he was afraid of him. The parado...\". Word-study detail reinforces \"לֵרֹ֛א: afraid - to fear; morally to revere; causatively to frighten\".",
+      "supportingVerses": [
+        8,
+        12,
+        15,
+        29
+      ],
+      "versePhrases": {
+        "8": [
+          "And Saul was very wroth, and the saying displeased him"
+        ],
+        "12": [
+          "afraid"
+        ],
+        "15": [
+          "afraid"
+        ],
+        "29": [
+          "afraid"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And Saul was very wroth, and the saying displeased him; and he said, They have ascribed unto...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "וַיֵּ֤רַע: displeased - properly, to be broken up (with any violent action) i.e., (figurative...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And Saul was afraid of David, because the LORD was with him, and was departed from Saul. Saul...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Commentary on Samuel: And Saul feared David, etc. The people of the Jews feared the C...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Then Jonathan and David made a covenant, because he loved him as his own soul. The covenant b...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        3,
+        17
+      ],
+      "versePhrases": {
+        "3": [
+          "covenant"
+        ],
+        "17": [
+          "And Saul said to David, Behold my elder daughter Merab,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "1 Samuel 23:18",
+          "anchorVerse": 3,
+          "referenceLabel": "1 Samuel 23:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Then Jonathan and David made a covenant, because he loved him as his own soul. The covenant b...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on Samuel: Jonathan and David made a covenant, etc. Christ and the Church...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "בְּרִ֑ית: a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And it came to pass on the morrow, that the evil spirit from God came upon Saul, and he proph...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        10
+      ],
+      "versePhrases": {
+        "10": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "1 Samuel 19:9",
+          "anchorVerse": 10,
+          "referenceLabel": "1 Samuel 19:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And it came to pass on the morrow, that the evil spirit from God came upon Saul, and he proph...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Bede on Commentary on Samuel: After the next day, an evil spirit from God invaded Saul, etc....",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "רוּחַ֩: spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation;...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

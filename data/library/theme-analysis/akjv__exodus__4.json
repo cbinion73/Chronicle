@@ -1,0 +1,292 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 4,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:14.375Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"That they may believe that the LORD God of their fathers, the God of Abraham, the God of Isaa...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        1,
+        5,
+        8,
+        9,
+        31
+      ],
+      "versePhrases": {
+        "1": [
+          "believe"
+        ],
+        "5": [
+          "believe"
+        ],
+        "8": [
+          "believe"
+        ],
+        "9": [
+          "believe"
+        ],
+        "31": [
+          "And the people believed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יַאֲמִ֣ינוּ: But behold they will not believe - properly, to build up or support; to foster a...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Exodus 19:9",
+          "anchorVerse": 5,
+          "referenceLabel": "Exodus 19:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "That they may believe that the LORD God of their fathers, the God of Abraham, the God of Isaa...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Now therefore go, and I will be with thy mouth, and teach thee what thou shalt say (וְעַתָּה...\". Word-study detail reinforces \"וְהֽוֹרֵיתִ֖יךָ: and teach - properly, to flow as water (i.e., to rain); transitively, to lay...\".",
+      "supportingVerses": [
+        12,
+        15,
+        20,
+        21,
+        24
+      ],
+      "versePhrases": {
+        "12": [
+          "teach"
+        ],
+        "15": [
+          "teach"
+        ],
+        "20": [
+          "And Moses took his wife and his sons, and set..."
+        ],
+        "21": [
+          "And the Lord said unto Moses, When thou goest to..."
+        ],
+        "24": [
+          "And it came to pass by the way in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Now therefore go, and I will be with thy mouth, and teach thee what thou shalt say (וְעַתָּה...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Ambrose of Milan on Letter 65.4: The Lord also said to the Apostles, opening their mouths, Re...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וְהֽוֹרֵיתִ֖יךָ: and teach - properly, to flow as water (i.e., to rain); transitively, to lay...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And thou shalt speak unto him, and put words in his mouth: and I will be with thy mouth, and...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And the LORD said unto him, Who hath made man's mouth? or who maketh the dumb, or deaf, or th...\". Word-study detail reinforces \"אַ֖רְצָה: it on the ground - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        3,
+        11,
+        25
+      ],
+      "versePhrases": {
+        "3": [
+          "And he said, Cast it on the ground"
+        ],
+        "11": [
+          "made"
+        ],
+        "25": [
+          "Then Zipporah took a sharp stone, and cut off the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on SERMON 6.7: Let me try to explain, as far as the Lord enables me to, wh...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "אַ֖רְצָה: it on the ground - the earth (at large, or partitively a land)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And the LORD said unto him, Who hath made man's mouth? or who maketh the dumb, or deaf, or th...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Cyprian on Treatise XI. Exhortation to Martyrdom 10: Just as in Exodus God speaks to Moses, w...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And he said, O my Lord, send, I pray thee, by the hand of him whom thou wilt send (וַיֹּאמֶר...\". Word-study detail reinforces \"נָ֖א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or t...\".",
+      "supportingVerses": [
+        13,
+        18
+      ],
+      "versePhrases": {
+        "13": [
+          "pray"
+        ],
+        "18": [
+          "pray"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And he said, O my Lord, send, I pray thee, by the hand of him whom thou wilt send (וַיֹּאמֶר...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "נָ֖א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or t...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "נָּ֗א: - 'i pray', 'now', or 'then'; added mostly to verbs (in the imperative or future), or...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray...\". Word-study detail reinforces \"חַיִּ֑ים: alive - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as nou...\".",
+      "supportingVerses": [
+        18,
+        22
+      ],
+      "versePhrases": {
+        "18": [
+          "alive"
+        ],
+        "22": [
+          "even my firstborn"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "חַיִּ֑ים: alive - alive; hence, raw (flesh); fresh (plant, water, year), strong; also (as nou...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "How does God's identification of Israel as 'My son, My firstborn' shape your understanding of...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 22 historical",
+          "detail": "Origen of Alexandria on COMMENTARY ON THE GOSPEL OF JOHN 28.185: And is there anything more p...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray...\". Word-study detail reinforces \"לְשָׁלֽוֹם׃: in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) w...\".",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "לְשָׁלֽוֹם׃: in peace - safe, i.e., (figuratively) well, happy, friendly; also (abstractly) w...",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

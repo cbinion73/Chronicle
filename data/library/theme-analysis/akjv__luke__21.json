@@ -1,0 +1,469 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Luke",
+  "chapter": 21,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:42.308Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"Bede on On the Gospel of Luke: Heaven and earth will pass away, but my words will not pass aw...\". Word-study detail reinforces \"ἡλίῳ: the sun - the sun; by implication, light\".",
+      "supportingVerses": [
+        5,
+        23,
+        24,
+        25,
+        26,
+        33,
+        35,
+        38
+      ],
+      "versePhrases": {
+        "5": [
+          "And as some spake of the temple, how it was..."
+        ],
+        "23": [
+          "But woe unto them that are with child, and to..."
+        ],
+        "24": [
+          "And they shall fall by the edge of the sword,..."
+        ],
+        "25": [
+          "earth"
+        ],
+        "26": [
+          "earth"
+        ],
+        "33": [
+          "earth"
+        ],
+        "35": [
+          "earth"
+        ],
+        "38": [
+          "And all the people came early in the morning to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Herod the Great began rebuilding the second temple in 20 BC; work continued until AD 64, just...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Ambrose of Milan on Catena Aurea by Aquinas: It was spoken then of the temple made with hands...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "The AD 70 siege created conditions exactly matching Jesus' prophecy. Josephus records that th...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "Ambrose of Milan on Catena Aurea by Aquinas: For the Jews thought that the abomination of des...",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"So likewise ye, when ye see these things come to pass, know ye that the kingdom of God is nig...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        10,
+        27,
+        28,
+        29,
+        31
+      ],
+      "versePhrases": {
+        "10": [
+          "kingdom"
+        ],
+        "27": [
+          "And then shall they see the Son of man coming..."
+        ],
+        "28": [
+          "And when these things begin to come to pass, then..."
+        ],
+        "29": [
+          "And he spake to them a parable"
+        ],
+        "31": [
+          "kingdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Mark 13:8",
+          "anchorVerse": 10,
+          "referenceLabel": "Mark 13:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Then said he unto them, Nation shall rise against nation, and kingdom against kingdom: Jesus...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Maximus of Turin on SERMON 85.1: Perhaps you are anxious, brothers and sisters, at the fact t...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "βασιλείαν: kingdom - properly, royalty, i.e., (abstractly) rule, or (concretely) a realm (lit...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Gregory the Dialogist on Catena Aurea by Aquinas: (ut sup.) Or else, The heaven and earth sha...\". Word-study detail reinforces \"ἤγγικεν: draweth near - to make near, i.e., (reflexively) approach\".",
+      "supportingVerses": [
+        8,
+        11,
+        16,
+        20,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38
+      ],
+      "versePhrases": {
+        "8": [
+          "near"
+        ],
+        "11": [
+          "and great earthquakes shall be in divers places, and famines,..."
+        ],
+        "16": [
+          "And ye shall be betrayed both by parents, and brethren,..."
+        ],
+        "20": [
+          "And when ye shall see Jerusalem compassed with armies"
+        ],
+        "26": [
+          "men’s hearts failing them for fear, and for looking after..."
+        ],
+        "27": [
+          "And then shall they see the Son of man coming in a cloud with power and great glory"
+        ],
+        "28": [
+          "And when these things begin to come to pass, then..."
+        ],
+        "30": [
+          "when they now shoot forth, ye see and know of..."
+        ],
+        "31": [
+          "So likewise ye, when ye see these things come to..."
+        ],
+        "32": [
+          "Verily I say unto you, This generation shall not pass..."
+        ],
+        "33": [
+          "Heaven and earth shall pass away"
+        ],
+        "35": [
+          "dwell"
+        ],
+        "36": [
+          "Watch ye therefore, and pray always, that ye may be..."
+        ],
+        "37": [
+          "And in the day time he was teaching in the..."
+        ],
+        "38": [
+          "And all the people came early in the morning to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And he said, Take heed that ye be not deceived: for many shall come in my name, saying, I am...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Athanasius of Alexandria on Catena Aurea by Aquinas: (Orat. 1. cont. Arian.) For since we hav...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "ἤγγικεν: draweth near - to make near, i.e., (reflexively) approach",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Maximus of Turin on SERMON 85.1: Perhaps you are anxious, brothers and sisters, at the fact t...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 12 verses. Commentary leans on \"Bede on On the Gospel of Luke: Men will wither away from fear and expectation of what is comi...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        2,
+        7,
+        11,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        34
+      ],
+      "versePhrases": {
+        "2": [
+          "And he saw also a certain poor widow casting in..."
+        ],
+        "7": [
+          "And they asked him, saying, Master, but when shall these..."
+        ],
+        "11": [
+          "and great earthquakes shall be in divers places, and famines,..."
+        ],
+        "20": [
+          "And when ye shall see Jerusalem compassed with armies, then..."
+        ],
+        "21": [
+          "Then let them which are in Judæa flee to the..."
+        ],
+        "22": [
+          "For these be the days of vengeance, that all things..."
+        ],
+        "23": [
+          "wrath"
+        ],
+        "24": [
+          "And they shall fall by the edge of the sword,..."
+        ],
+        "25": [
+          "And there shall be signs in the sun, and in..."
+        ],
+        "26": [
+          "men’s hearts failing them for fear, and for looking after..."
+        ],
+        "28": [
+          "And when these things begin to come to pass, then..."
+        ],
+        "34": [
+          "And take heed to yourselves, lest at any time your..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Widows occupied the lowest social stratum in first-century Judaism. Without inheritance right...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Leo the Great on SERMON 20.3.1: Although the spite of some people does not grow gentle with a...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The disciples addressed Jesus as Didaskale (Διδάσκαλε, 'Teacher/Master'), showing respect for...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Cyril of Alexandria on Catena Aurea by Aquinas: Now His disciples did not at all perceive the...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"And it shall turn to you for a testimony. Jesus reframes persecution positively: apobēsetai h...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        3,
+        8,
+        13,
+        19,
+        22,
+        24,
+        25,
+        27,
+        33,
+        37
+      ],
+      "versePhrases": {
+        "3": [
+          "truth"
+        ],
+        "8": [
+          "And he said, Take heed that ye be not deceived"
+        ],
+        "13": [
+          "testimony"
+        ],
+        "19": [
+          "In your patience possess ye your souls"
+        ],
+        "22": [
+          "For these be the days of vengeance, that all things..."
+        ],
+        "24": [
+          "And they shall fall by the edge of the sword,..."
+        ],
+        "25": [
+          "And there shall be signs in the sun, and in..."
+        ],
+        "27": [
+          "And then shall they see the Son of man coming..."
+        ],
+        "33": [
+          "Heaven and earth shall pass away"
+        ],
+        "37": [
+          "And in the day time he was teaching in the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Truth",
+          "detail": "Acts 10:34",
+          "anchorVerse": 3,
+          "referenceLabel": "Acts 10:34"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And he said, Of a truth I say unto you, that this poor widow hath cast in more than they all....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Cyril of Alexandria on Catena Aurea by Aquinas: She offered two oboli, which with the sweat o...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "Ἀληθῶς: Of a truth - truly",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"For I will give you a mouth and wisdom, which all your adversaries shall not be able to gains...\". Word-study detail reinforces \"σοφίαν: wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        8,
+        14,
+        15,
+        18,
+        21,
+        25,
+        29,
+        30,
+        31
+      ],
+      "versePhrases": {
+        "8": [
+          "And he said, Take heed that ye be not deceived"
+        ],
+        "14": [
+          "Settle it therefore in your hearts, not to meditate before..."
+        ],
+        "15": [
+          "wisdom"
+        ],
+        "18": [
+          "But there shall not an hair of your head perish"
+        ],
+        "21": [
+          "Then let them which are in Judæa flee to the..."
+        ],
+        "25": [
+          "And there shall be signs in the sun, and in..."
+        ],
+        "29": [
+          "And he spake to them a parable"
+        ],
+        "30": [
+          "when they now shoot forth, ye see and know of..."
+        ],
+        "31": [
+          "So likewise ye"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And he said, Take heed that ye be not deceived: for many shall come in my name, saying, I am...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Athanasius of Alexandria on Catena Aurea by Aquinas: (Orat. 1. cont. Arian.) For since we hav...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "This instruction addresses natural anxiety about persecution. Who wouldn't worry about defend...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Theophylact of Ohrid on Catena Aurea by Aquinas: For because they were foolish and inexperien...",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

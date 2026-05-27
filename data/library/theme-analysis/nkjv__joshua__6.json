@@ -1,0 +1,174 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Joshua",
+  "chapter": 6,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:07.312Z",
+  "themes": [
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Joshua commands the priests to take up the ark and march before it, with armed men preceding...\". Word-study detail reinforces \"אֶל: - near, with or among; often in general, to\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "6": [
+          "Then Joshua the son of Nun called the priests and..."
+        ],
+        "7": [
+          "And he said to the people, “Proceed, and march around..."
+        ],
+        "8": [
+          "So it was, when Joshua had spoken to the people,..."
+        ],
+        "25": [
+          "dwells"
+        ],
+        "27": [
+          "So the Lord was with Joshua"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Joshua commands the priests to take up the ark and march before it, with armed men preceding...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The command 'Pass on' ( abar , עָבַר—to cross over) initiates the procession. The armed men g...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "אֶל: - near, with or among; often in general, to",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jericho was the first Canaanite city Israel conquered in Canaan proper, serving as the strate...\". Word-study detail reinforces \"בְּרִ֣ית: of the covenant - a compact (because made by passing between pieces of flesh)\".",
+      "supportingVerses": [
+        6,
+        8,
+        20
+      ],
+      "versePhrases": {
+        "6": [
+          "covenant"
+        ],
+        "8": [
+          "covenant"
+        ],
+        "20": [
+          "So the people shouted when the priests blew the trumpets"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Joshua commands the priests to take up the ark and march before it, with armed men preceding...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "הַבְּרִ֑ית: of the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The people's immediate obedience—'as Joshua had spoken'—demonstrates covenant faithfulness. T...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "בְּרִ֣ית: of the covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"God's declaration—'See, I have given into thine hand Jericho, and the king thereof, and the m...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Deuteronomy 7:24",
+          "anchorVerse": 2,
+          "referenceLabel": "Deuteronomy 7:24"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "God's declaration—'See, I have given into thine hand Jericho, and the king thereof, and the m...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מַלְכָּ֑הּ: and the king - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Inferred",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship.",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "trouble"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "וַֽעֲכַרְתֶּ֖ם: and trouble - properly, to roil water; figuratively, to disturb or affict",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

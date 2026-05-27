@@ -1,0 +1,375 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 8,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:44.690Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Who is like the wise man? And who knows what things me...\". Word-study detail reinforces \"חָכְמַ֤ת: wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "1": [
+          "wisdom",
+          "wise"
+        ],
+        "2": [
+          "counsel"
+        ],
+        "3": [
+          "Be not hasty to go out of his sight"
+        ],
+        "4": [
+          "Where the word of a king is, there is power"
+        ],
+        "5": [
+          "wise"
+        ],
+        "6": [
+          "Because to every purpose there is time and judgment, therefore..."
+        ],
+        "7": [
+          "For he knoweth not that which shall be"
+        ],
+        "12": [
+          "Though a sinner do evil an hundred times, and his..."
+        ],
+        "16": [
+          "wisdom"
+        ],
+        "17": [
+          "wise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Who is as the wise man? and who knoweth the interpretation of a thing? These rhetorical quest...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Who is like the wise man? And who knows what things me...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "חָכְמַ֤ת: wisdom - wisdom (in a good sense)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I counsel thee to keep the king's commandment, and that in regard of the oath of God. The Pre...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"There is a vanity which is done upon the earth —the Preacher returns to his key term 'hevel'...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        5,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "versePhrases": {
+        "5": [
+          "and a wise man’s heart discerneth both time and judgment"
+        ],
+        "9": [
+          "and applied my heart unto every work that is done under the sun"
+        ],
+        "10": [
+          "holy"
+        ],
+        "11": [
+          "therefore the heart of the sons of men is fully set in them to do evil"
+        ],
+        "12": [
+          "Though a sinner do evil an hundred times, and his..."
+        ],
+        "14": [
+          "righteous",
+          "just"
+        ],
+        "15": [
+          "Then I commended mirth, because a man hath no better..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Whoso keepeth the commandment shall feel no evil thing. The Hebrew shomer mitzvah (שׁוֹמֵר מִ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"He who obeys the commandment will know no evil; and a...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "All this have I seen, and applied my heart unto every work that is done under the sun. The Pr...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"All this have I seen; and I applied my mind to see eve...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Israel's history demonstrates this pattern repeatedly: extended periods of covenant unfaithfu...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        5,
+        6,
+        11,
+        12,
+        13,
+        14
+      ],
+      "versePhrases": {
+        "5": [
+          "judgment"
+        ],
+        "6": [
+          "judgment"
+        ],
+        "11": [
+          "Because sentence against an evil work is not executed speedily,..."
+        ],
+        "12": [
+          "Though a sinner do evil an hundred times, and his..."
+        ],
+        "13": [
+          "but it shall not be well with the wicked, neither..."
+        ],
+        "14": [
+          "There is a vanity which is done upon the earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Acts 4:19",
+          "anchorVerse": 5,
+          "referenceLabel": "Acts 4:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Whoso keepeth the commandment shall feel no evil thing. The Hebrew shomer mitzvah (שׁוֹמֵר מִ...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"He who obeys the commandment will know no evil; and a...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "וּמִשְׁפָּ֔ט: and judgment - properly, a verdict (favorable or unfavorable) pronounced judici...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...\". Word-study detail reinforces \"מִצְוָ֔ה: the commandment - a command, whether human or divine (collectively, the law)\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        13
+      ],
+      "versePhrases": {
+        "2": [
+          "keep"
+        ],
+        "4": [
+          "Where the word of a king is, there is power"
+        ],
+        "5": [
+          "Whoso keepeth the commandment shall feel no evil thing"
+        ],
+        "13": [
+          "but it shall not be well with the wicked, neither..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I counsel thee to keep the king's commandment, and that in regard of the oath of God. The Pre...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "שְׁמֹ֔ר: I counsel thee to keep - properly, to hedge about (as with thorns), i.e., guard; gen...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Where the word of a king is, there is power: and who may say unto him, What doest thou? This...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "2": [
+          "king"
+        ],
+        "3": [
+          "Be not hasty to go out of his sight"
+        ],
+        "4": [
+          "king"
+        ],
+        "5": [
+          "Whoso keepeth the commandment shall feel no evil thing"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Proverbs 24:21",
+          "anchorVerse": 2,
+          "referenceLabel": "Proverbs 24:21"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "I counsel thee to keep the king's commandment, and that in regard of the oath of God. The Pre...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "מֶ֣לֶךְ: the king's - a king",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...\". Word-study detail reinforces \"יִלְוֶ֣נּוּ: for that shall abide - properly, to twine; also to borrow (as a form of obligati...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        15
+      ],
+      "versePhrases": {
+        "2": [
+          "I counsel thee to keep the king’s commandment, and that..."
+        ],
+        "3": [
+          "Be not hasty to go out of his sight"
+        ],
+        "4": [
+          "Where the word of a king is, there is power"
+        ],
+        "15": [
+          "abide"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Ancient Near Eastern monarchies functioned through oaths binding subjects to rulers. Israel's...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Ancient royal courts operated with strict protocol—appearing before kings required careful et...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"I counsel you: Obey the king's command, and that in th...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

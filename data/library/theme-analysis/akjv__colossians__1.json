@@ -1,0 +1,488 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Colossians",
+  "chapter": 1,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:12.064Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 17 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Further, the fruit of worldly love is obtained in...\". Word-study detail reinforces \"ἀληθείᾳ·: truth - truth\".",
+      "supportingVerses": [
+        2,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        16,
+        17,
+        18,
+        20,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "versePhrases": {
+        "2": [
+          "faithful"
+        ],
+        "5": [
+          "truth"
+        ],
+        "6": [
+          "truth"
+        ],
+        "7": [
+          "faithful"
+        ],
+        "9": [
+          "For this cause we also, since the day we heard..."
+        ],
+        "11": [
+          "strengthened with all might, according to his glorious power, unto..."
+        ],
+        "12": [
+          "giving thanks unto the Father, which hath made us meet..."
+        ],
+        "16": [
+          "for by him were all things created, that are in..."
+        ],
+        "17": [
+          "and he is before all things, and by him all..."
+        ],
+        "18": [
+          "And he is the head of the body, the church"
+        ],
+        "20": [
+          "and, having made peace through the blood of his cross,..."
+        ],
+        "23": [
+          "if ye continue in the faith grounded and settled, and..."
+        ],
+        "24": [
+          "who now rejoice in my sufferings for you, and fill..."
+        ],
+        "25": [
+          "whereof I am made a minister, according to the dispensation..."
+        ],
+        "26": [
+          "even the mystery which hath been hid from ages and..."
+        ],
+        "27": [
+          "to whom God would make known what is the riches..."
+        ],
+        "28": [
+          "whom we preach, warning every man, and teaching every man..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and pe...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: The persons to whom this letter is sent are the s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πιστοῖς: faithful - objectively, trustworthy; subjectively, trustful",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For the hope which is laid up for you in heaven, whereof ye heard before in the word of the t...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Then he states his reasons for giving thanks. Fir...\". Cross references echo \"Hope\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        7,
+        10,
+        12,
+        13,
+        18,
+        23,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "to the saints and faithful brethren in Christ which are at Colosse"
+        ],
+        "4": [
+          "faith"
+        ],
+        "5": [
+          "hope"
+        ],
+        "7": [
+          "who is for you a faithful minister of Christ"
+        ],
+        "10": [
+          "that ye might walk worthy of the Lord unto all..."
+        ],
+        "12": [
+          "giving thanks unto the Father, which hath made us meet..."
+        ],
+        "13": [
+          "who hath delivered us from the power of darkness, and..."
+        ],
+        "18": [
+          "And he is the head of the body, the church"
+        ],
+        "23": [
+          "faith",
+          "hope"
+        ],
+        "25": [
+          "whereof I am made a minister, according to the dispensation..."
+        ],
+        "27": [
+          "hope"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Ephesians 1:1",
+          "anchorVerse": 2,
+          "referenceLabel": "Ephesians 1:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Colossian heresy combined Jewish legalism, Greek philosophy, and proto-Gnostic mysticism,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: The persons to whom this letter is sent are the s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Ephesians 1:15",
+          "anchorVerse": 4,
+          "referenceLabel": "Ephesians 1:15"
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Then when he says, in him all things were created...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        5,
+        12,
+        15,
+        16,
+        18,
+        20,
+        23,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "1": [
+          "Paul, an apostle of Jesus Christ by the will of..."
+        ],
+        "5": [
+          "for the hope which is laid up for you in..."
+        ],
+        "12": [
+          "made",
+          "light"
+        ],
+        "15": [
+          "who is the image of the invisible God, the firstborn..."
+        ],
+        "16": [
+          "created",
+          "earth"
+        ],
+        "18": [
+          "And he is the head of the body, the church"
+        ],
+        "20": [
+          "made",
+          "earth"
+        ],
+        "23": [
+          "made"
+        ],
+        "25": [
+          "made"
+        ],
+        "26": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Written from Roman imprisonment (AD 60-62), this letter addresses a church Paul never visited...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "John Chrysostom on Homily on Colossians 1: \"Paul an Apostle of Jesus Christ through the will...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "For the hope which is laid up for you in heaven, whereof ye heard before in the word of the t...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Colossians: You love, he says, the saints not out of hu...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Above, the Apostle gave the reason for his thanks...\". Word-study detail reinforces \"σοφίᾳ: wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        9,
+        10,
+        12,
+        15,
+        16,
+        21,
+        25,
+        26,
+        28
+      ],
+      "versePhrases": {
+        "9": [
+          "wisdom",
+          "understanding",
+          "knowledge"
+        ],
+        "10": [
+          "knowledge"
+        ],
+        "12": [
+          "giving thanks unto the Father, which hath made us meet..."
+        ],
+        "15": [
+          "who is the image of the invisible God, the firstborn..."
+        ],
+        "16": [
+          "for by him were all things created, that are in..."
+        ],
+        "21": [
+          "And you, that were sometime alienated and enemies in your..."
+        ],
+        "25": [
+          "whereof I am made a minister, according to the dispensation..."
+        ],
+        "26": [
+          "even the mystery which hath been hid from ages and..."
+        ],
+        "28": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For this cause we also, since the day we heard it, do not cease to pray for you, and to desir...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Above, the Apostle gave the reason for his thanks...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 9 word study",
+          "detail": "σοφίᾳ: wisdom - wisdom (higher or lower, worldly or spiritual)",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "That ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work, a...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 8 verses. Commentary leans on \"John Chrysostom on Homily on Colossians 5: Let not others therefore deceive you, for they kno...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        16,
+        18,
+        27
+      ],
+      "versePhrases": {
+        "3": [
+          "thanks"
+        ],
+        "9": [
+          "For this cause we also, since the day we heard..."
+        ],
+        "10": [
+          "that ye might walk worthy of the Lord unto all pleasing"
+        ],
+        "11": [
+          "strengthened with all might, according to his glorious power, unto..."
+        ],
+        "12": [
+          "thanks"
+        ],
+        "16": [
+          "for by him were all things created, that are in..."
+        ],
+        "18": [
+          "And he is the head of the body, the church"
+        ],
+        "27": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "We give thanks to God and the Father of our Lord Jesus Christ, praying always for you. Paul's...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Here Paul begins his message. First, he commends...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "προσευχόμενοι: praying - to pray to god, i.e., supplicate, worship",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 5: For there is an instruction of the perfect, of...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Then when he says, giving thanks to God the Fathe...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        2,
+        6,
+        12,
+        13,
+        14,
+        21,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "Grace"
+        ],
+        "6": [
+          "grace"
+        ],
+        "12": [
+          "giving thanks unto the Father, which hath made us meet..."
+        ],
+        "13": [
+          "who hath delivered us from the power of darkness, and..."
+        ],
+        "14": [
+          "forgiveness"
+        ],
+        "21": [
+          "And you, that were sometime alienated and enemies in your..."
+        ],
+        "27": [
+          "to whom God would make known what is the riches..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "2 Peter 1:2",
+          "anchorVerse": 2,
+          "referenceLabel": "2 Peter 1:2"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "To the saints and faithful brethren in Christ which are at Colosse: Grace be unto you, and pe...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: The persons to whom this letter is sent are the s...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "χάρις: Grace - graciousness (as gratifying), of manner or act (abstract or concrete; literal,...",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

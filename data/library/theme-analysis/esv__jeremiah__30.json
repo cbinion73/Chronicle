@@ -1,0 +1,334 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Jeremiah",
+  "chapter": 30,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:46.074Z",
+  "themes": [
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 12 onwards) For thus says the Lord, your fracture is...\". Word-study detail reinforces \"דִּינֵ֖ךְ: thy cause - judgement (the suit, justice, sentence or tribunal); by implication al...\".",
+      "supportingVerses": [
+        13,
+        14,
+        15,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "13": [
+          "There is none to uphold your cause, no medicine for..."
+        ],
+        "14": [
+          "punishment"
+        ],
+        "15": [
+          "Why do you cry out over your hurt"
+        ],
+        "20": [
+          "punish"
+        ],
+        "23": [
+          "Wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "There is none to plead thy cause (אֵין דָּן דִּינֵךְ, 'ein dan dinekh')—Israel stands utterly...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 12 onwards) For thus says the Lord, your fracture is...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "דִּינֵ֖ךְ: thy cause - judgement (the suit, justice, sentence or tribunal); by implication al...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "All thy lovers have forgotten thee (כָּל מְאַהֲבַיִךְ שְׁכֵחוּךְ, 'kol me'ahavayikh shekhechu...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Explicit",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 4 and following) And these are the words that the Lo...\". Word-study detail reinforces \"מַחֲרִֽיד׃: and none shall make him afraid - to shudder with terror; hence, to fear; also to...\".",
+      "supportingVerses": [
+        5,
+        6,
+        8,
+        10
+      ],
+      "versePhrases": {
+        "5": [
+          "terror"
+        ],
+        "6": [
+          "Ask now, and see, can a man bear a child"
+        ],
+        "8": [
+          "“And it shall come to pass in that day, declares..."
+        ],
+        "10": [
+          "fear",
+          "afraid",
+          "dismayed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "We have heard a voice of trembling, of fear, and not of peace (קוֹל חֲרָדָה שָׁמָעְנוּ פַּחַד...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 4 and following) And these are the words that the Lo...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "חֲרָדָ֖ה: of trembling - fear, anxiety",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Whether a man doth travail with child? (הֲיֹלֵד זָכָר)—This shocking rhetorical question uses...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 7) Alas, for that great day, there is no other like...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        5,
+        7,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "5": [
+          "“Thus says the Lord"
+        ],
+        "7": [
+          "saved"
+        ],
+        "10": [
+          "save"
+        ],
+        "11": [
+          "save"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How do seasons of trembling and fear prepare you to recognize God's deliverance?",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 4 and following) And these are the words that the Lo...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Salvation",
+          "detail": "Romans 11:26",
+          "anchorVerse": 7,
+          "referenceLabel": "Romans 11:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "'Jacob's trouble' refers to the unprecedented suffering during the Babylonian exile and ultim...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Jeremiah: (Verse 8, 9.) And it shall come to pass on that day, says t...\". Word-study detail reinforces \"לָכֵ֞ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adve...\".",
+      "supportingVerses": [
+        9,
+        11,
+        16,
+        23,
+        24
+      ],
+      "versePhrases": {
+        "9": [
+          "But they shall serve the Lord their God and David..."
+        ],
+        "11": [
+          "just"
+        ],
+        "16": [
+          "Therefore all who devour you shall be devoured, and all..."
+        ],
+        "23": [
+          "Behold the storm of the Lord"
+        ],
+        "24": [
+          "The fierce anger of the Lord will not turn back..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "God promises Israel will serve 'the LORD their God, and David their king, whom I will raise u...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 8, 9.) And it shall come to pass on that day, says t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "John Cassian on CONFERENCE 1:6.11: Although we say that trial is twofold, that is, in prosper...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "Therefore all they that devour thee shall be devoured —divine reversal begins with this 'ther...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Their nobles shall be of themselves (וְהָיָה אַדִּירוֹ מִמֶּנּוּ, 've-hayah adiro mimenu')—th...\". Word-study detail reinforces \"וְהִקְרַבְתִּ֖יו: of them and I will cause him to draw near - to approach (causatively, bring...\".",
+      "supportingVerses": [
+        11,
+        18,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "11": [
+          "with you"
+        ],
+        "18": [
+          "I will restore the fortunes of the tents of Jacob and have compassion on his dwellings"
+        ],
+        "20": [
+          "Their children shall be as they were of old, and..."
+        ],
+        "21": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 10, 11) Therefore do not be afraid, my servant Jacob...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "אִתְּךָ֥: - properly, nearness (used only as a preposition or an adverb), near; hence, genera...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 18 and following) Thus says the Lord: Behold, I will...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "יֵשֵֽׁב׃: shall remain - properly, to sit down (specifically as judge. in ambush, in quiet);...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Fear thou not, O my servant Jacob (וְאַתָּה אַל־תִּירָא עַבְדִּי יַעֲקֹב)—God addresses Israe...\". Word-study detail reinforces \"שָׁלֽוֹם׃: and not of peace - safe, i.e., (figuratively) well, happy, friendly; also (abstrac...\".",
+      "supportingVerses": [
+        5,
+        10,
+        18
+      ],
+      "versePhrases": {
+        "5": [
+          "peace"
+        ],
+        "10": [
+          "quiet"
+        ],
+        "18": [
+          "I will restore the fortunes of the tents of Jacob and have compassion on his dwellings"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "We have heard a voice of trembling, of fear, and not of peace (קוֹל חֲרָדָה שָׁמָעְנוּ פַּחַד...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Jerome on Commentary on Jeremiah: (Verse 4 and following) And these are the words that the Lo...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "שָׁלֽוֹם׃: and not of peace - safe, i.e., (figuratively) well, happy, friendly; also (abstrac...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Fear thou not, O my servant Jacob (וְאַתָּה אַל־תִּירָא עַבְדִּי יַעֲקֹב)—God addresses Israe...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

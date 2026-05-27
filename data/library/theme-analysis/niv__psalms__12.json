@@ -1,0 +1,97 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 12,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:50:03.963Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Exposition on the Psalms of David: In the preceding decade the Psalmist tre...\". Word-study detail reinforces \"אֱ֝מוּנִ֗ים: for the faithful - properly, to build up or support; to foster as a parent or nu...\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "faithful"
+        ],
+        "2": [
+          "Everyone lies to their neighbor"
+        ],
+        "3": [
+          "May the Lord silence all flattering lips and every boastful..."
+        ],
+        "6": [
+          "And the words of the Lord are flawless, like silver..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Help, LORD; for the godly man ceaseth; for the faithful fail from among the children of men....",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Exposition on the Psalms of David: In the preceding decade the Psalmist tre...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "אֱ֝מוּנִ֗ים: for the faithful - properly, to build up or support; to foster as a parent or nu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Corrupt speech characterizes societies that have abandoned God's ways. Ancient Near Eastern w...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Thou shalt keep them, O LORD, thou shalt preserve them from this generation for ever. The psa...\". Word-study detail reinforces \"תִּשְׁמְרֵ֑ם: Thou shalt keep - properly, to hedge about (as with thorns), i.e., guard; gener...\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Thou shalt keep them, O LORD, thou shalt preserve them from this generation for ever. The psa...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 12: \"You, O Lord, shall preserve us, and keep us fr...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "תִּשְׁמְרֵ֑ם: Thou shalt keep - properly, to hedge about (as with thorns), i.e., guard; gener...",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

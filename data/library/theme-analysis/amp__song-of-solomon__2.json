@@ -1,0 +1,315 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Song of Solomon",
+  "chapter": 2,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:47:35.679Z",
+  "themes": [
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local cross references and verse commentary data reinforce this reading across 16 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: The king brought me into the wine cellar, etc. Just...\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "versePhrases": {
+        "2": [
+          "“Like the lily among the thorns, So are you, my..."
+        ],
+        "3": [
+          "beloved"
+        ],
+        "4": [
+          "love"
+        ],
+        "5": [
+          "love"
+        ],
+        "6": [
+          "“Let his left hand be under my head And his..."
+        ],
+        "7": [
+          "love"
+        ],
+        "8": [
+          "beloved"
+        ],
+        "9": [
+          "beloved"
+        ],
+        "10": [
+          "love",
+          "beloved"
+        ],
+        "11": [
+          "‘For behold, the winter is past, The rain is over..."
+        ],
+        "12": [
+          "‘The flowers appear on the earth once again"
+        ],
+        "13": [
+          "love"
+        ],
+        "14": [
+          "And your face is lovely"
+        ],
+        "15": [
+          "love"
+        ],
+        "16": [
+          "beloved"
+        ],
+        "17": [
+          "beloved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The bridegroom responds to the bride's self-description (2:1): 'As the lily among thorns, so...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Braulio of Zaragoza on LETTER 42: It is written of the church: “As a lily among thorns, so is...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "The bride declares, 'As the apple tree among the trees of the wood, so is my beloved among th...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Under the shadow of him whom I desired, I sat, etc....",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local cross references and verse commentary data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: His left hand under my head, etc. In the left hand o...\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        6,
+        14
+      ],
+      "versePhrases": {
+        "3": [
+          "“Like an apple tree [rare and welcome] among the trees of the forest"
+        ],
+        "4": [
+          "comfort"
+        ],
+        "5": [
+          "“Sustain me with raisin cakes, Refresh me with apples, Because..."
+        ],
+        "6": [
+          "“Let his left hand be under my head And his..."
+        ],
+        "14": [
+          "“O my dove, [here] in the clefts in the rock,..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Apple trees (or possibly apricots—Hebrew 'tappuach' identification is debated) were cultivate...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Bede on Commentary on the Song of Songs: Under the shadow of him whom I desired, I sat, etc....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Banquets in ancient Israel marked significant celebrations—weddings, festivals, covenant meal...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on the Song of Songs: The king brought me into the wine cellar, etc. Just...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local cross references and verse commentary data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on the Song of Songs: Until the day breaks, etc. That is, until the eterna...\".",
+      "supportingVerses": [
+        10,
+        11,
+        12,
+        17
+      ],
+      "versePhrases": {
+        "10": [
+          "“My beloved speaks and says to me, ‘Arise, my love,..."
+        ],
+        "11": [
+          "‘For behold, the winter is past, The rain is over..."
+        ],
+        "12": [
+          "earth"
+        ],
+        "17": [
+          "“Until the cool of the day when the shadows flee..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Palestinian winters brought rain and cold, confining people indoors. Spring's arrival—warm we...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 10 historical",
+          "detail": "Bede on Commentary on the Song of Songs: \"Arise, my love, my fair one, and come away,\" etc. I...",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Palestinian climate features distinct seasons—winter's cold rains (November-March) and dry su...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Bede on Commentary on the Song of Songs: For now the winter is past, etc. This is what the Ap...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local cross references and verse commentary data reinforce this reading across 3 verses. Commentary leans on \"The bride declares with confidence: 'My beloved is mine, and I am his: he feedeth among the l...\".",
+      "supportingVerses": [
+        6,
+        7,
+        16
+      ],
+      "versePhrases": {
+        "6": [
+          "“Let his left hand be under my head And his..."
+        ],
+        "7": [
+          "oath"
+        ],
+        "16": [
+          "“My beloved is mine and I am his"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "His left hand is under my head, and his right hand doth embrace me. This tender verse describ...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Gregory of Elvira on EXPLANATION OF THE SONG OF SONGS 3:29: These two hands are the two coven...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The bride adjures the daughters of Jerusalem: 'I charge you, O ye daughters of Jerusalem, by...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Gregory of Nyssa on HOMILIES ON THE SONG OF SONGS 4: An oath works in two ways. In the presen...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local cross references and verse commentary data reinforce this reading across 2 verses. Commentary leans on \"Bede on Commentary on Acts 19:14: This animal, which is very shrewd with respect to deceit an...\".",
+      "supportingVerses": [
+        7,
+        15
+      ],
+      "versePhrases": {
+        "7": [
+          "command"
+        ],
+        "15": [
+          "“Catch the foxes for us, The little foxes that spoil..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The bride adjures the daughters of Jerusalem: 'I charge you, O ye daughters of Jerusalem, by...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Gregory of Nyssa on HOMILIES ON THE SONG OF SONGS 4: An oath works in two ways. In the presen...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "The beloved speaks: 'Take us the foxes, the little foxes, that spoil the vines: for our vines...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Bede on Commentary on Acts 19:14: This animal, which is very shrewd with respect to deceit an...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

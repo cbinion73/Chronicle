@@ -1,0 +1,165 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 27,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:27.211Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...\". Word-study detail reinforces \"תְּצַוֶּ֣ה׀: And thou shalt command - (intensively) to constitute, enjoin\".",
+      "supportingVerses": [
+        20,
+        21
+      ],
+      "versePhrases": {
+        "20": [
+          "Command",
+          "kept"
+        ],
+        "21": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "Pure beaten olive oil for the lampstand's light—the oil must be the finest quality, extracted...",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "תְּצַוֶּ֣ה׀: And thou shalt command - (intensively) to constitute, enjoin",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The altar is made 'hollow with boards'—not solid but a frame, likely filled with earth or sto...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        8,
+        18,
+        20
+      ],
+      "versePhrases": {
+        "8": [
+          "made"
+        ],
+        "18": [
+          "The courtyard shall be a hundred cubits long and fifty..."
+        ],
+        "20": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "The altar is made 'hollow with boards'—not solid but a frame, likely filled with earth or sto...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "The 5-cubit height was tall enough to prevent animals from jumping over and to create clear b...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "נְחֹֽשֶׁת׃: of brass - copper, hence, something made of that metal, i.e., coin, a fetter; fig...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Exodus 39:37",
+          "anchorVerse": 20,
+          "referenceLabel": "Exodus 39:37"
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Bede on Homilies on the Gospels 2.19: There were two altars in the temple, which expressed th...\".",
+      "supportingVerses": [
+        1,
+        21
+      ],
+      "versePhrases": {
+        "1": [
+          "“Build an altar of acacia wood, three cubits high"
+        ],
+        "21": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This altar stood in the outer court between the tabernacle entrance and the courtyard gate, v...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Homilies on the Gospels 2.19: There were two altars in the temple, which expressed th...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "provide"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...\".",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "just"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "כֵּ֥ן: - properly, set upright; hence (figuratively as adjective) just; but usually (as adver...",
+          "anchorVerse": 8
+        }
+      ]
+    }
+  ]
+}

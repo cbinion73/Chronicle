@@ -1,0 +1,93 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezekiel",
+  "chapter": 6,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:01:09.023Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Son of man, set thy face toward the mountains of Israel, and prophesy against them, God comma...\". Word-study detail reinforces \"וְיֶאְשְׁמ֜וּ: and made desolate - to be guilty; by implication to be punished or perish\".",
+      "supportingVerses": [
+        2,
+        6,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "Son of man, set thy face toward the mountains of..."
+        ],
+        "6": [
+          "made"
+        ],
+        "11": [
+          "Thus saith the Lord God"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Son of man, set thy face toward the mountains of Israel, and prophesy against them, God comma...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Chapter 6, Verses 1 onwards) And the word of the Lord came...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "In all your dwellingplaces the cities shall be laid waste, and the high places shall be desol...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "וְיֶאְשְׁמ֜וּ: and made desolate - to be guilty; by implication to be punished or perish",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...\". Word-study detail reinforces \"וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "near"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "He that is far off shall die of the pestilence; and he that is near shall fall by the sword;...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Jerome on Commentary on Ezekiel: (Verse 12.) Whoever is far away will die from the plague; wh...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "וְהַקָּרוֹב֙: and he that is near - near (in place, kindred or time)",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

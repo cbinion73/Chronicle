@@ -1,0 +1,149 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 31,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:19.793Z",
+  "themes": [
+    {
+      "id": "keyword-saul",
+      "label": "Saul",
+      "color": "#0f4fcf",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “saul.”",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "Saul"
+        ],
+        "3": [
+          "Saul"
+        ],
+        "4": [
+          "Saul"
+        ],
+        "5": [
+          "Saul"
+        ],
+        "6": [
+          "Saul"
+        ],
+        "7": [
+          "Saul"
+        ],
+        "8": [
+          "Saul"
+        ],
+        "11": [
+          "Saul"
+        ],
+        "12": [
+          "Saul"
+        ]
+      }
+    },
+    {
+      "id": "keyword-philistines",
+      "label": "Philistines",
+      "color": "#7c3aed",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “philistines.”",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        11
+      ],
+      "versePhrases": {
+        "1": [
+          "Philistines"
+        ],
+        "2": [
+          "Philistines"
+        ],
+        "4": [
+          "Philistines"
+        ],
+        "7": [
+          "Philistines"
+        ],
+        "8": [
+          "Philistines"
+        ],
+        "9": [
+          "Philistines"
+        ],
+        "11": [
+          "Philistines"
+        ]
+      }
+    },
+    {
+      "id": "keyword-sons",
+      "label": "Sons",
+      "color": "#d97706",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “sons.”",
+      "supportingVerses": [
+        2,
+        6,
+        7,
+        8,
+        12
+      ],
+      "versePhrases": {
+        "2": [
+          "sons"
+        ],
+        "6": [
+          "sons"
+        ],
+        "7": [
+          "sons"
+        ],
+        "8": [
+          "sons"
+        ],
+        "12": [
+          "sons"
+        ]
+      }
+    },
+    {
+      "id": "keyword-bearer",
+      "label": "Bearer",
+      "color": "#059669",
+      "tier": "Debated",
+      "summary": "A generated keyword thread based on repeated chapter language around “bearer.”",
+      "supportingVerses": [
+        4,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "4": [
+          "bearer"
+        ],
+        "5": [
+          "bearer"
+        ],
+        "6": [
+          "bearer"
+        ]
+      }
+    }
+  ]
+}

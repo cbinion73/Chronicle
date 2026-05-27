@@ -1,0 +1,271 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "3 John",
+  "chapter": 1,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:18.558Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Demetrius hath good report of all men, and of the truth itself: yea, and we also bear record;...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "1": [
+          "truth"
+        ],
+        "2": [
+          "Beloved, I wish above all things that thou mayest prosper..."
+        ],
+        "3": [
+          "truth"
+        ],
+        "4": [
+          "truth"
+        ],
+        "5": [
+          "thou doest faithfully whatsoever thou doest to the brethren"
+        ],
+        "6": [
+          "which have borne witness of thy charity before the church"
+        ],
+        "8": [
+          "truth"
+        ],
+        "11": [
+          "Beloved, follow not that which is evil, but that which..."
+        ],
+        "12": [
+          "truth",
+          "true"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The elder unto the wellbeloved Gaius, whom I love in the truth. This brief epistle opens with...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on 3 John: To the beloved Elder Gaius, whom I love in truth. It has...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀληθείᾳ: the truth - truth",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "In the Greco-Roman world of the first century, health and prosperity were often attributed to...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"The elder unto the wellbeloved Gaius, whom I love in the truth. This brief epistle opens with...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        6,
+        11,
+        14
+      ],
+      "versePhrases": {
+        "1": [
+          "love"
+        ],
+        "2": [
+          "Beloved"
+        ],
+        "5": [
+          "Beloved"
+        ],
+        "6": [
+          "charity"
+        ],
+        "11": [
+          "Beloved"
+        ],
+        "14": [
+          "but I trust I shall shortly see thee, and we..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "1 John 3:18",
+          "anchorVerse": 1,
+          "referenceLabel": "1 John 3:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The elder unto the wellbeloved Gaius, whom I love in the truth. This brief epistle opens with...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Oecumenius on Commentary on 3 John: To the beloved Elder Gaius, whom I love in truth. It has...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἀγαπῶ: love - to love (in a social or moral sense)",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        14
+      ],
+      "versePhrases": {
+        "5": [
+          "thou doest faithfully whatsoever thou doest to the brethren"
+        ],
+        "14": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Galatians 6:10",
+          "anchorVerse": 5,
+          "referenceLabel": "Galatians 6:10"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: Beloved, you act faithfully in whatever you work...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Oecumenius on Commentary on 3 John: I had many things to write, but I do not want to write to...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Beloved, follow not that which is evil, but that which is good. He that doeth good is of God:...\". Word-study detail reinforces \"μιμοῦ: follow - to imitate\".",
+      "supportingVerses": [
+        3,
+        11
+      ],
+      "versePhrases": {
+        "3": [
+          "For I rejoiced greatly, when the brethren came and testified..."
+        ],
+        "11": [
+          "follow"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In the late first-century church, discerning genuine from counterfeit Christianity became inc...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "περιπατεῖς: walkest - to tread all around, i.e., walk at large (especially as proof of abilit...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Beloved, follow not that which is evil, but that which is good. He that doeth good is of God:...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Tertullian on On Monogamy: And if I glance around at their examples-(examples) of some David...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our...\". Word-study detail reinforces \"εἰρήνῃ: Peace - peace (literally or figuratively); by implication, prosperity\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "Peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Hilary of Arles on INTRODUCTORY COMMENTARY ON 3 JOHN: John means by this that he still has ma...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "εἰρήνῃ: Peace - peace (literally or figuratively); by implication, prosperity",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 9,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:17.720Z",
+  "themes": [
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Aaron's first official sacrifices as high priest, culminating in God's glory appearing and fi...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        4,
+        6,
+        10,
+        13,
+        14,
+        17,
+        18,
+        20,
+        22,
+        23
+      ],
+      "versePhrases": {
+        "4": [
+          "an ox and a ram for a fellowship offering to sacrifice before the Lord"
+        ],
+        "6": [
+          "glory"
+        ],
+        "10": [
+          "as the Lord had commanded Moses"
+        ],
+        "13": [
+          "They brought him the burnt offering piece by piece, along..."
+        ],
+        "14": [
+          "He washed the entrails and the legs and burned them..."
+        ],
+        "17": [
+          "Next he presented the grain offering, took a handful of..."
+        ],
+        "18": [
+          "Finally, he slaughtered the ox and the ram as the..."
+        ],
+        "20": [
+          "and placed these on the breasts"
+        ],
+        "22": [
+          "Aaron lifted up his hands toward the people and blessed them"
+        ],
+        "23": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Aaron's first official sacrifices as high priest, culminating in God's glory appearing and fi...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "לִשְׁלָמִ֗ים: for peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Glory",
+          "detail": "Leviticus 9:23",
+          "anchorVerse": 6,
+          "referenceLabel": "Leviticus 9:23"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And Moses said, This is the thing which the LORD commanded that ye should do: and the glory o...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Inferred",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work.",
+      "supportingVerses": [
+        15
+      ],
+      "versePhrases": {
+        "15": [
+          "made"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

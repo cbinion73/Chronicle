@@ -1,0 +1,285 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Exodus",
+  "chapter": 35,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:07.505Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"What does the cherubim-embroidered veil teach about the holiness barrier created by sin at th...\". Word-study detail reinforces \"לְמָא֕וֹר: for the light - properly, a luminous body or luminary, i.e., (abstractly) light (a...\".",
+      "supportingVerses": [
+        14,
+        28,
+        32
+      ],
+      "versePhrases": {
+        "14": [
+          "light"
+        ],
+        "28": [
+          "light"
+        ],
+        "32": [
+          "create"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "What does the cherubim-embroidered veil teach about the holiness barrier created by sin at th...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "הַמָּאֽוֹר׃: also for the light - properly, a luminous body or luminary, i.e., (abstractly) l...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 28 word study",
+          "detail": "לְמָא֕וֹר: for the light - properly, a luminous body or luminary, i.e., (abstractly) light (a...",
+          "anchorVerse": 28
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 32 commentary",
+          "detail": "What is the relationship between having a heart 'made willing' and bringing freewill offering...",
+          "anchorVerse": 32
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Explicit",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Cloths of service (בִּגְדֵי־הַשְּׂרָד, bigdei-haserad) and holy garments for Aaron distinguis...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "19": [
+          "Holy",
+          "holy"
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 23:3",
+          "anchorVerse": 2,
+          "referenceLabel": "Leviticus 23:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Sabbath command precedes tabernacle construction, establishing that even the holiest work...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "קֹ֛דֶשׁ: there shall be to you an holy day - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 31:10",
+          "anchorVerse": 19,
+          "referenceLabel": "Exodus 31:10"
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Cloths of service (בִּגְדֵי־הַשְּׂרָד, bigdei-haserad) and holy garments for Aaron distinguis...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        2,
+        19,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "holy"
+        ],
+        "19": [
+          "Holy",
+          "holy"
+        ],
+        "21": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Leviticus 23:3",
+          "anchorVerse": 2,
+          "referenceLabel": "Leviticus 23:3"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The Sabbath command precedes tabernacle construction, establishing that even the holiest work...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "קֹ֛דֶשׁ: there shall be to you an holy day - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Exodus 31:10",
+          "anchorVerse": 19,
+          "referenceLabel": "Exodus 31:10"
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"The chapter concludes emphasizing that God filled these craftsmen 'with wisdom of heart' (בְּ...\". Word-study detail reinforces \"וּבְדַ֖עַת: and in knowledge - knowledge\".",
+      "supportingVerses": [
+        31,
+        35
+      ],
+      "versePhrases": {
+        "31": [
+          "wisdom",
+          "understanding",
+          "knowledge"
+        ],
+        "35": [
+          "He has filled them with skill to perform every work..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "וּבְדַ֖עַת: and in knowledge - knowledge",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 35 commentary",
+          "detail": "The chapter concludes emphasizing that God filled these craftsmen 'with wisdom of heart' (בְּ...",
+          "anchorVerse": 35
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 35 word study",
+          "detail": "חָכְמַת: with wisdom - wisdom (in a good sense)",
+          "anchorVerse": 35
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The table (שֻׁלְחָן, shulchan) for showbread represented God's provision and fellowship with...\". Word-study detail reinforces \"וְאֶת: - properly, nearness (used only as a preposition or an adverb), near; hence, generally...\".",
+      "supportingVerses": [
+        13,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "13": [
+          "Presence"
+        ],
+        "16": [
+          "the altar of burnt offering with its bronze grating"
+        ],
+        "20": [
+          "presence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "The table (שֻׁלְחָן, shulchan) for showbread represented God's provision and fellowship with...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "וְאֶת: - properly, nearness (used only as a preposition or an adverb), near; hence, generally...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "מִלִּפְנֵ֥י: from the presence - the face (as the part that turns); used in a great variety o...",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Spices (הַבְּשָׂמִים, ha-besamim) for anointing oil and incense represent the fragrant ascend...\". Word-study detail reinforces \"ר֣וּחַ: him with the spirit - wind; by resemblance breath, i.e., a sensible (or even violent)...\".",
+      "supportingVerses": [
+        21,
+        31
+      ],
+      "versePhrases": {
+        "21": [
+          "spirit"
+        ],
+        "31": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "רוּח֜וֹ: and every one whom his spirit - wind; by resemblance breath, i.e., a sensible (or ev...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 31 commentary",
+          "detail": "Spices (הַבְּשָׂמִים, ha-besamim) for anointing oil and incense represent the fragrant ascend...",
+          "anchorVerse": 31
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "ר֣וּחַ: him with the spirit - wind; by resemblance breath, i.e., a sensible (or even violent)...",
+          "anchorVerse": 31
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ezra",
+  "chapter": 2,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:49.070Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"How can modern believers discern between building God's kingdom versus constructing personal...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "king"
+        ],
+        "10": [
+          "of Bani 642"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Kings 25:11",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Kings 25:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The chapter heading 'Now these are the children of the province that went up out of the capti...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: And they returned to Jerusalem and Judah, etc. For w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֶֽלֶךְ: the king - a king",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Bede on Commentary on Ezra and Nehemiah: The priests and Levites, therefore, dwelt among the...\". Word-study detail reinforces \"וַיֵּֽשְׁב֣וּ: dwelt - properly, to sit down (specifically as judge. in ambush, in quiet); by...\".",
+      "supportingVerses": [
+        70
+      ],
+      "versePhrases": {
+        "70": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 70 historical",
+          "detail": "Bede on Commentary on Ezra and Nehemiah: The priests and Levites, therefore, dwelt among the...",
+          "anchorVerse": 70
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 70 word study",
+          "detail": "וַיֵּֽשְׁב֣וּ: dwelt - properly, to sit down (specifically as judge. in ambush, in quiet); by...",
+          "anchorVerse": 70
+        }
+      ]
+    }
+  ]
+}

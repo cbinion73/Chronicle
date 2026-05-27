@@ -1,0 +1,71 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 9,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:33.705Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work.",
+      "supportingVerses": [
+        30,
+        31
+      ],
+      "versePhrases": {
+        "30": [
+          "made"
+        ],
+        "31": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "רֹֽקְחֵ֥י: made - to perfume",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 31 word study",
+          "detail": "מַֽעֲשֵׂ֥ה: over the things that were made - an action (good or bad); generally, a transactio...",
+          "anchorVerse": 31
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...\". Word-study detail reinforces \"הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king\".",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Who hitherto waited in the king's gate eastward —this identifies Levitical gatekeepers' speci...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "הַמֶּ֖לֶךְ: Who hitherto waited in the king's - a king",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

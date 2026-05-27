@@ -1,0 +1,342 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Corinthians",
+  "chapter": 8,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:41:53.692Z",
+  "themes": [
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: Here he uses the example of Christ to induce t...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        19
+      ],
+      "versePhrases": {
+        "1": [
+          "grace"
+        ],
+        "4": [
+          "imploring us with much urgency that we would receive the..."
+        ],
+        "5": [
+          "And not only as we had hoped, but they first..."
+        ],
+        "6": [
+          "grace"
+        ],
+        "7": [
+          "grace"
+        ],
+        "9": [
+          "grace"
+        ],
+        "19": [
+          "and not only that, but who was also chosen by..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "1 Corinthians 15:10",
+          "anchorVerse": 1,
+          "referenceLabel": "1 Corinthians 15:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Moreover, brethren, we do you to wit of the grace of God bestowed on the churches of Macedoni...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Having exhorted them to good in general, he no...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "χάριν: of the grace - graciousness (as gratifying), of manner or act (abstract or concrete; l...",
+          "anchorVerse": 1
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"I speak not by commandment, but by occasion of the forwardness of others, and to prove the si...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        7,
+        8,
+        9,
+        14,
+        17,
+        24
+      ],
+      "versePhrases": {
+        "7": [
+          "love"
+        ],
+        "8": [
+          "love"
+        ],
+        "9": [
+          "For you know the grace of our Lord Jesus Christ,..."
+        ],
+        "14": [
+          "but by an equality, that now at this time your..."
+        ],
+        "17": [
+          "For he not only accepted the exhortation, but being more..."
+        ],
+        "24": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Philippians 1:9",
+          "anchorVerse": 7,
+          "referenceLabel": "Philippians 1:9"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Therefore, as ye abound in every thing, in faith, and utterance, and knowledge, and in all di...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Then when he says, \"Now as you excel in everyt...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "ἀγάπῃ: love - love, i.e., affection or benevolence; specially (plural) a love-feast",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And we have sent with them our brother, whom we have oftentimes proved diligent in many thing...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        5,
+        7,
+        16,
+        22
+      ],
+      "versePhrases": {
+        "5": [
+          "hoped"
+        ],
+        "7": [
+          "faith"
+        ],
+        "16": [
+          "But thanks be to God who puts the same earnest..."
+        ],
+        "22": [
+          "confidence"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Paul's surprise ('not as we hoped') suggests he initially sought only financial contributions...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "John Chrysostom on Homily 16 on 2 Corinthians: \"And\" this, \"not as we hoped.\" This he says wi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "ἠλπίσαμεν: we hoped - to expect or confide",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "2 Thessalonians 1:3",
+          "anchorVerse": 7,
+          "referenceLabel": "2 Thessalonians 1:3"
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"But thanks be to God, which put the same earnest care into the heart of Titus for you —Paul s...\". Word-study detail reinforces \"δόξαν: the glory - glory (as very apparent), in a wide application (literal or figurative, ob...\".",
+      "supportingVerses": [
+        16,
+        18,
+        19,
+        23
+      ],
+      "versePhrases": {
+        "16": [
+          "thanks"
+        ],
+        "18": [
+          "praise"
+        ],
+        "19": [
+          "glory"
+        ],
+        "23": [
+          "glory"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "But thanks be to God, which put the same earnest care into the heart of Titus for you —Paul s...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "John Chrysostom on Homily 18 on 2 Corinthians: Again he praises Titus. For since he had disco...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "Χάρις: thanks - graciousness (as gratifying), of manner or act (abstract or concrete; literal...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "And we have sent with him the brother, whose praise is in the gospel throughout all the churc...",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Thomas Aquinas on Commentary on 2 Corinthians: He discloses his intention when he says, \"but...\". Word-study detail reinforces \"ὑστέρημα: want - a deficit; specially, poverty\".",
+      "supportingVerses": [
+        9,
+        14,
+        15,
+        21
+      ],
+      "versePhrases": {
+        "9": [
+          "For you know the grace of our Lord Jesus Christ,..."
+        ],
+        "14": [
+          "supply"
+        ],
+        "15": [
+          "As it is written, “He who gathered much had nothing..."
+        ],
+        "21": [
+          "providing honorable things, not only in the sight of the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For ye know the grace of our Lord Jesus Christ, that, though he was rich, yet for your sakes...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: Here he uses the example of Christ to induce t...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "But by an equality, that now at this time your abundance may be a supply for their want, that...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Thomas Aquinas on Commentary on 2 Corinthians: He discloses his intention when he says, \"but...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 2 Corinthians: He exhorts with praises and says: since...\". Word-study detail reinforces \"γνώσει: knowledge - knowing (the act), i.e., (by implication) knowledge\".",
+      "supportingVerses": [
+        7,
+        10
+      ],
+      "versePhrases": {
+        "7": [
+          "knowledge"
+        ],
+        "10": [
+          "And in this I give advice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Therefore, as ye abound in every thing, in faith, and utterance, and knowledge, and in all di...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 2 Corinthians: He exhorts with praises and says: since...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "γνώσει: knowledge - knowing (the act), i.e., (by implication) knowledge",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "And herein I give my advice: for this is expedient for you, who have begun before, not only t...",
+          "anchorVerse": 10
+        }
+      ]
+    }
+  ]
+}

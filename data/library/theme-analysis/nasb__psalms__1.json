@@ -1,0 +1,318 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 1,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:36.848Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1) \"Blessed is the man...\". Word-study detail reinforces \"בַּעֲצַ֪ת: not in the counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "counsel"
+        ],
+        "2": [
+          "But his delight is in the Law of the Lord,..."
+        ],
+        "4": [
+          "The wicked are not so, But they are like chaff..."
+        ],
+        "5": [
+          "Therefore the wicked will not stand in the judgment, Nor..."
+        ],
+        "6": [
+          "For the Lord knows the way of the righteous, But..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what subtle ways might you be 'walking in the counsel of the ungodly' through media consum...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1) \"Blessed is the man...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בַּעֲצַ֪ת: not in the counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The emphasis on 'the law of the LORD' reflects Israel's covenant identity as a people defined...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1) \"Blessed is the man...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Blessed is the person who does not walk in the..."
+        ],
+        "3": [
+          "He will be like a tree planted by streams of..."
+        ],
+        "4": [
+          "The wicked are not so, But they are like chaff..."
+        ],
+        "5": [
+          "righteous"
+        ],
+        "6": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening beatitude establishes the negative definition of righteousness through three pro...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1) \"Blessed is the man...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This extended simile of the flourishing tree presents the fruit of meditation: spiritual pros...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Homily 1, on Psalm 1: 'He is like a tree planted near running water, that yields it...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 4.) It follows: Not so...\". Cross references echo \"Righteousness\".",
+      "supportingVerses": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "Blessed is the person who does not walk in the..."
+        ],
+        "3": [
+          "He will be like a tree planted by streams of..."
+        ],
+        "4": [
+          "The wicked are not so, But they are like chaff..."
+        ],
+        "5": [
+          "righteous"
+        ],
+        "6": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "This opening beatitude establishes the negative definition of righteousness through three pro...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1) \"Blessed is the man...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This extended simile of the flourishing tree presents the fruit of meditation: spiritual pros...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Jerome on Homily 1, on Psalm 1: 'He is like a tree planted near running water, that yields it...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1) \"Blessed is the man...\". Word-study detail reinforces \"בַּעֲצַ֪ת: not in the counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "path",
+          "counsel"
+        ],
+        "2": [
+          "But his delight is in the Law of the Lord,..."
+        ],
+        "3": [
+          "He will be like a tree planted by streams of..."
+        ],
+        "6": [
+          "For the Lord knows the way of the righteous, But..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "In what subtle ways might you be 'walking in the counsel of the ungodly' through media consum...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Vers. 1) \"Blessed is the man...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "בַּעֲצַ֪ת: not in the counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The emphasis on 'the law of the LORD' reflects Israel's covenant identity as a people defined...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 4.) It follows: Not so...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "Blessed is the person who does not walk in the..."
+        ],
+        "4": [
+          "The wicked are not so, But they are like chaff..."
+        ],
+        "5": [
+          "judgment"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome: Eusebius Hieronymus to his Sophronius, health! I know some to think the Psalter to be...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "יָשָֽׁב׃: nor sitteth - properly, to sit down (specifically as judge. in ambush, in quiet); b...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Winnowing was a familiar agricultural process in ancient Israel. Farmers would toss threshed...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 4.) It follows: Not so...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 4.) It follows: Not so...\". Word-study detail reinforces \"רֽוּחַ׃: which the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exh...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "wind"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "The ungodly are not so: but are like the chaff which the wind driveth away. This verse abrupt...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Ambrose of Milan on Commentaries on the Twelve Davidic Psalms: (Verse 4.) It follows: Not so...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "רֽוּחַ׃: which the wind - wind; by resemblance breath, i.e., a sensible (or even violent) exh...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

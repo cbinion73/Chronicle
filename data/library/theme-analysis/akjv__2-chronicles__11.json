@@ -1,0 +1,185 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 11,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T05:59:34.999Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Speak unto Rehoboam the son of Solomon, king of Judah, and to all Israel in Judah and Benjami...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        3,
+        5,
+        17,
+        18,
+        21,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "kingdom"
+        ],
+        "3": [
+          "king"
+        ],
+        "5": [
+          "And Rehoboam dwelt in Jerusalem, and built cities for defence..."
+        ],
+        "17": [
+          "kingdom"
+        ],
+        "18": [
+          "And Rehoboam took him Mahalath the daughter of Jerimoth the..."
+        ],
+        "21": [
+          "And Rehoboam loved Maachah the daughter of Absalom above all..."
+        ],
+        "22": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And when Rehoboam was come to Jerusalem, he gathered of the house of Judah and Benjamin an hu...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמַּמְלָכָ֖ה: the kingdom - dominion, i.e., (abstractly) the estate (rule) or (concretely) t...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Speak unto Rehoboam the son of Solomon, king of Judah, and to all Israel in Judah and Benjami...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "מֶ֣לֶךְ: king - a king",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And he ordained him priests for the high places, and for the devils, and for the calves which...\". Word-study detail reinforces \"רְחַבְעָ֥ם: and made Rehoboam - rechabam, an israelite king\".",
+      "supportingVerses": [
+        12,
+        15,
+        17,
+        22
+      ],
+      "versePhrases": {
+        "12": [
+          "made"
+        ],
+        "15": [
+          "made"
+        ],
+        "17": [
+          "made"
+        ],
+        "22": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And in every several city he put shields and spears, and made them exceeding strong, having J...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "לְהַרְבֵּ֣ה: and made them exceeding - to increase (in whatever respect)",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And he ordained him priests for the high places, and for the devils, and for the calves which...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 15 word study",
+          "detail": "עָשָֽׂה׃: which he had made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Strong",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"How does this verse illustrate the principle of divine retribution (blessing for obedience, j...\". Word-study detail reinforces \"וַֽיִּשְׁמְעוּ֙: of me And they obeyed - to hear intelligently (often with implication of att...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "obeyed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does this verse illustrate the principle of divine retribution (blessing for obedience, j...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "וַֽיִּשְׁמְעוּ֙: of me And they obeyed - to hear intelligently (often with implication of att...",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Inferred",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And Rehoboam loved Maachah the daughter of Absalom above all his wives and his concubines: (f...\". Word-study detail reinforces \"וַיֶּֽאֱהַ֨ב: loved - to have affection for (sexually or otherwise)\".",
+      "supportingVerses": [
+        21
+      ],
+      "versePhrases": {
+        "21": [
+          "loved"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 21 commentary",
+          "detail": "And Rehoboam loved Maachah the daughter of Absalom above all his wives and his concubines: (f...",
+          "anchorVerse": 21
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 21 word study",
+          "detail": "וַיֶּֽאֱהַ֨ב: loved - to have affection for (sexually or otherwise)",
+          "anchorVerse": 21
+        }
+      ]
+    }
+  ]
+}

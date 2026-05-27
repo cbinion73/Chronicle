@@ -1,0 +1,145 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Zechariah",
+  "chapter": 13,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:02.306Z",
+  "themes": [
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Jerome on Commentary on Zechariah: (Verse 7 and following) \"I will raise up a spear against m...\". Word-study detail reinforces \"הִקְנַ֥נִי: taught me to keep cattle - to erect, i.e., create; by extension, to procure, espe...\".",
+      "supportingVerses": [
+        5,
+        7,
+        8
+      ],
+      "versePhrases": {
+        "5": [
+          "but he will say, ‘I am no prophet, I am..."
+        ],
+        "7": [
+          "shepherd"
+        ],
+        "8": [
+          "In the whole land, declares the Lord, two thirds shall..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "But he shall say, I am no prophet, I am an husbandman; for man taught me to keep cattle from...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "הִקְנַ֥נִי: taught me to keep cattle - to erect, i.e., create; by extension, to procure, espe...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Prophecy of shepherd struck, sheep scattered: 'Awake, O sword, against my shepherd, and again...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Verse 7 and following) \"I will raise up a spear against m...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "label": "Prayer",
+      "color": "#7c3aed",
+      "tier": "Strong",
+      "summary": "This chapter centers on prayer, calling on God, supplication, or worshipful petition. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This describes Israel's end-times conversion when the remnant surviving tribulation recognize...\".",
+      "supportingVerses": [
+        9
+      ],
+      "versePhrases": {
+        "9": [
+          "call upon"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "This describes Israel's end-times conversion when the remnant surviving tribulation recognize...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Jerome on Commentary on Zechariah: (Verse 7 and following) \"I will raise up a spear against m...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And it shall come to pass in that day, saith the LORD of hosts, that I will cut off the names...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        2
+      ],
+      "versePhrases": {
+        "2": [
+          "spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "1 Kings 22:22",
+          "anchorVerse": 2,
+          "referenceLabel": "1 Kings 22:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And it shall come to pass in that day, saith the LORD of hosts, that I will cut off the names...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Jerome on Commentary on Zechariah: (V2.) And it shall be in that day, says the Lord of hosts,...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ר֥וּחַ: spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exhalation;...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 1 verse.",
+      "supportingVerses": [
+        8
+      ],
+      "versePhrases": {
+        "8": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

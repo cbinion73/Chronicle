@@ -1,0 +1,319 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Acts",
+  "chapter": 17,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:48:54.239Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Therefore many of them believed —the Bereans' noble character (v.11) bore fruit in belief. Th...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        4,
+        11,
+        12,
+        13
+      ],
+      "versePhrases": {
+        "4": [
+          "believe"
+        ],
+        "11": [
+          "faith"
+        ],
+        "12": [
+          "As a result many of them became believers"
+        ],
+        "13": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Acts 17:12",
+          "anchorVerse": 4,
+          "referenceLabel": "Acts 17:12"
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: When he says \"daily examining the Scriptures, whe...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Acts 14:1",
+          "anchorVerse": 12,
+          "referenceLabel": "Acts 14:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "Therefore many of them believed —the Bereans' noble character (v.11) bore fruit in belief. Th...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Bede on Commentary on Acts: God, who made the world and everything in it, being the Lord of h...\". Word-study detail reinforces \"χειροποιήτοις: made with hands - manufactured, i.e., of human construction\".",
+      "supportingVerses": [
+        5,
+        24,
+        26,
+        29
+      ],
+      "versePhrases": {
+        "5": [
+          "formed"
+        ],
+        "24": [
+          "created",
+          "made",
+          "earth"
+        ],
+        "26": [
+          "made",
+          "earth"
+        ],
+        "29": [
+          "formed"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "God that made the world and all things therein (ὁ θεὸς ὁ ποιήσας τὸν κόσμον)—Paul's Areopagus...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Bede on Commentary on Acts: God, who made the world and everything in it, being the Lord of h...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 24 word study",
+          "detail": "χειροποιήτοις: made with hands - manufactured, i.e., of human construction",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "And hath made of one blood all nations of men (ἐξ ἑνὸς αἵματος πᾶν ἔθνος, ex henos haimatos p...",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"He hath appointed a day (καθότι ἔστησεν ἡμέραν)—The perfect tense indicates God's fixed, immu...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        30,
+        31,
+        34
+      ],
+      "versePhrases": {
+        "30": [
+          "Therefore God overlooked and disregarded the former ages of ignorance"
+        ],
+        "31": [
+          "judge"
+        ],
+        "34": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 30 commentary",
+          "detail": "The times of this ignorance God winked at (τοὺς μὲν οὖν χρόνους τῆς ἀγνοίας ὑπεριδὼν ὁ θεός)—...",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 30 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: He has in mind not the dead when he speaks of the...",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 30 word study",
+          "detail": "ὑπεριδὼν: winked at - to overlook, i.e., not punish",
+          "anchorVerse": 30
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "2 Peter 3:7",
+          "anchorVerse": 31,
+          "referenceLabel": "2 Peter 3:7"
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Neither is worshipped with men's hands, as though he needed any thing —Paul dismantles pagan...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        16,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "16": [
+          "spirit"
+        ],
+        "25": [
+          "breath"
+        ],
+        "27": [
+          "This was so that they would seek God, if perhaps..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Micah 3:8",
+          "anchorVerse": 16,
+          "referenceLabel": "Micah 3:8"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 16 commentary",
+          "detail": "What modern 'idols' (wealth, status, ideology) should stir your spirit with the same grief Pa...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 16 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: \"Was troubled in spirit\" here does not mean anger...",
+          "anchorVerse": 16
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 16 word study",
+          "detail": "πνεῦμα: spirit - a current of air, i.e., breath (blast) or a breeze; by analogy or figurative...",
+          "anchorVerse": 16
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Strong",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Acts: And he called them so on account of the altar set...\". Cross references echo \"Worship\".",
+      "supportingVerses": [
+        23,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "23": [
+          "worship"
+        ],
+        "25": [
+          "nor is He served by human hands, as though He..."
+        ],
+        "27": [
+          "This was so that they would seek God, if perhaps..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Worship",
+          "detail": "John 4:22",
+          "anchorVerse": 23,
+          "referenceLabel": "John 4:22"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "For as I passed by, and beheld your devotions, I found an altar with this inscription, TO THE...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 23 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: And he called them so on account of the altar set...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "εὐσεβεῖτε: worship - to be pious, i.e., (towards god) to worship, or (towards parents) to res...",
+          "anchorVerse": 23
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Origen of Alexandria on PALESTINIAN CATENA ON PSALM 118.151: “You are near, Lord, and all you...\". Word-study detail reinforces \"κατοικεῖν: for to dwell - to house permanently, i.e., reside (literally or figuratively)\".",
+      "supportingVerses": [
+        24,
+        26,
+        27
+      ],
+      "versePhrases": {
+        "24": [
+          "dwell"
+        ],
+        "26": [
+          "And He made from one man every nation of mankind..."
+        ],
+        "27": [
+          "This was so that they would seek God, if perhaps..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 24 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Acts: \"God, who made the world and everything in it.\" H...",
+          "anchorVerse": 24
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 26 historical",
+          "detail": "John Chrysostom on Homily on Acts 38: \"And hath made of one blood all nations of men for to d...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "κατοικεῖν: for to dwell - to house permanently, i.e., reside (literally or figuratively)",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 27 historical",
+          "detail": "Origen of Alexandria on PALESTINIAN CATENA ON PSALM 118.151: “You are near, Lord, and all you...",
+          "anchorVerse": 27
+        }
+      ]
+    }
+  ]
+}

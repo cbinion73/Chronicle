@@ -1,0 +1,258 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "2 Chronicles",
+  "chapter": 13,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:37.130Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Now in the eighteenth year of king Jeroboam began Abijah to reign over Judah. This verse is p...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        20,
+        22
+      ],
+      "versePhrases": {
+        "1": [
+          "King",
+          "king"
+        ],
+        "2": [
+          "and he reigned three years in Jerusalem"
+        ],
+        "5": [
+          "Don’t you know that the Lord God of Israel gave the kingship over Israel to David and his descendants forever by a covenant of salt?"
+        ],
+        "7": [
+          "Then worthless and wicked men gathered around him to resist..."
+        ],
+        "8": [
+          "kingdom"
+        ],
+        "20": [
+          "reign"
+        ],
+        "22": [
+          "reign"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "2 Chronicles 12:16",
+          "anchorVerse": 1,
+          "referenceLabel": "2 Chronicles 12:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Now in the eighteenth year of king Jeroboam began Abijah to reign over Judah. This verse is p...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "לַמֶּ֣לֶךְ: of king - a king",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "He reigned three years in Jerusalem. His mother's name also was Michaiah the daughter of Urie...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And now ye think to withstand the kingdom of the LORD in the hand of the sons of David; and y...\". Word-study detail reinforces \"זָהָ֔ב: and there are with you golden - gold, figuratively, something gold-colored (i.e., yel...\".",
+      "supportingVerses": [
+        8,
+        11,
+        12
+      ],
+      "versePhrases": {
+        "8": [
+          "with you"
+        ],
+        "11": [
+          "Presence"
+        ],
+        "12": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And now ye think to withstand the kingdom of the LORD in the hand of the sons of David; and y...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "זָהָ֔ב: and there are with you golden - gold, figuratively, something gold-colored (i.e., yel...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "And, behold, God himself is with us for our captain, and his priests with sounding trumpets t...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "בָרֹ֜אשׁ: himself is with us for our captain - the head (as most easily shaken), whether lite...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And now ye think to withstand the kingdom of the LORD in the hand of the sons of David; and y...\". Word-study detail reinforces \"עָשָׂ֥ה: made - to do or make, in the broadest sense and widest application\".",
+      "supportingVerses": [
+        8,
+        11
+      ],
+      "versePhrases": {
+        "8": [
+          "made"
+        ],
+        "11": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "And now ye think to withstand the kingdom of the LORD in the hand of the sons of David; and y...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 8 word study",
+          "detail": "עָשָׂ֥ה: made - to do or make, in the broadest sense and widest application",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "וְנֵֽרֹתֶ֙יהָ֙: with the lamps - a lamp (i.e., the burner) or light (literally or figuratively)",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Word-study detail reinforces \"וְיֶ֙תֶר֙: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as h...\".",
+      "supportingVerses": [
+        22
+      ],
+      "versePhrases": {
+        "22": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 22 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 22
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 22 word study",
+          "detail": "וְיֶ֙תֶר֙: And the rest - properly, an overhanging, i.e., (by implication) a small rope (as h...",
+          "anchorVerse": 22
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This passage occurs during the divided monarchy period when Judah existed separately from nor...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "covenant"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Numbers 18:19",
+          "anchorVerse": 5,
+          "referenceLabel": "Numbers 18:19"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This passage occurs during the divided monarchy period when Judah existed separately from nor...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 5 word study",
+          "detail": "בְּרִ֥ית: by a covenant - a compact (because made by passing between pieces of flesh)",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And they burn unto the LORD every morning and every evening burnt sacrifices and sweet incens...\". Word-study detail reinforces \"הַטָּה֗וֹר: also set they in order upon the pure - pure (in a physical, chemical, ceremonial...\".",
+      "supportingVerses": [
+        11
+      ],
+      "versePhrases": {
+        "11": [
+          "clean"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "And they burn unto the LORD every morning and every evening burnt sacrifices and sweet incens...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 11 word study",
+          "detail": "הַטָּה֗וֹר: also set they in order upon the pure - pure (in a physical, chemical, ceremonial...",
+          "anchorVerse": 11
+        }
+      ]
+    }
+  ]
+}

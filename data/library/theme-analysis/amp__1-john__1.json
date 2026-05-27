@@ -1,0 +1,372 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 John",
+  "chapter": 1,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:49:12.324Z",
+  "themes": [
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 9 verses. Commentary leans on \"Oecumenius on Commentary on 1 John: If we say that we have no sin, we deceive ourselves, and...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "[I am writing about] what existed from the beginning, what..."
+        ],
+        "2": [
+          "and the Life [an aspect of His being] was manifested,..."
+        ],
+        "3": [
+          "what we have seen and heard we also proclaim to..."
+        ],
+        "5": [
+          "His message is truthful"
+        ],
+        "6": [
+          "truth"
+        ],
+        "7": [
+          "true"
+        ],
+        "8": [
+          "truth"
+        ],
+        "9": [
+          "true",
+          "faithful"
+        ],
+        "10": [
+          "If we say that we have not sinned [refusing to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "First John was likely written in the late first century (AD 85-95) from Ephesus, addressing c...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: That which we have seen and our hands have touch...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "What role does the apostolic testimony play in giving you assurance, especially when feelings...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: And the life was manifested, etc. He refers to t...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on 1 John: The Apostle again returns to his former discour...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "4": [
+          "made"
+        ],
+        "5": [
+          "Light"
+        ],
+        "6": [
+          "If we say that we have fellowship with Him and..."
+        ],
+        "7": [
+          "Light"
+        ],
+        "10": [
+          "If we say that we have not sinned [refusing to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on From the Latin Translation of Cassiodorus: \"The life was manifested....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: And we write these things to you so that your jo...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "John 8:12",
+          "anchorVerse": 5,
+          "referenceLabel": "John 8:12"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The declaration \"God is light\" directly challenged both pagan and Gnostic theology. Greek phi...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us fro...\". Word-study detail reinforces \"δίκαιος: just - equitable (in character or act); by implication, innocent, holy (absolutely o...\".",
+      "supportingVerses": [
+        2,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "2": [
+          "and the Life [an aspect of His being] was manifested,..."
+        ],
+        "5": [
+          "righteousness",
+          "holy"
+        ],
+        "7": [
+          "but if we [really] walk in the Light [that is,..."
+        ],
+        "8": [
+          "[His word does not live in our hearts"
+        ],
+        "9": [
+          "just"
+        ],
+        "10": [
+          "If we say that we have not sinned [refusing to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "How does understanding eternal life as God's own life (not just endless existence) change you...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 John: \"Beheld\" means the same as saw with one's own e...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: And this is the message which we have heard from...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The blood sacrifice system was central to Old Testament worship. Leviticus 17:11 declares, \"T...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Strong",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"(For the life was manifested, and we have seen it, and bear witness, and shew unto you that e...\". Cross references echo \"Eternal Life\".",
+      "supportingVerses": [
+        1,
+        2,
+        4,
+        6,
+        9
+      ],
+      "versePhrases": {
+        "1": [
+          "concerning the Word of Life [the One who existed even before the beginning of the world"
+        ],
+        "2": [
+          "eternal Life"
+        ],
+        "4": [
+          "salvation"
+        ],
+        "6": [
+          "If we say that we have fellowship with Him and..."
+        ],
+        "9": [
+          "If we [freely] admit that we have sinned and confess..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "That which was from the beginning, which we have heard, which we have seen with our eyes, whi...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 John: \"Beheld\" means the same as saw with one's own e...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Eternal Life",
+          "detail": "1 John 5:20",
+          "anchorVerse": 2,
+          "referenceLabel": "1 John 5:20"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "(For the life was manifested, and we have seen it, and bear witness, and shew unto you that e...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Bede on Commentary on the Catholic Epistles: And this is the message which we have heard from...\". Word-study detail reinforces \"δίκαιος: just - equitable (in character or act); by implication, innocent, holy (absolutely o...\".",
+      "supportingVerses": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "5": [
+          "holy",
+          "righteousness"
+        ],
+        "7": [
+          "and the blood of Jesus His Son cleanses us from all sin [by erasing the stain of sin"
+        ],
+        "8": [
+          "If we say we have no sin [refusing to admit..."
+        ],
+        "9": [
+          "and will forgive our sins and cleanse us continually from all unrighteousness [our wrongdoing"
+        ],
+        "10": [
+          "If we say that we have not sinned [refusing to..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The declaration \"God is light\" directly challenged both pagan and Gnostic theology. Greek phi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: And this is the message which we have heard from...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The blood sacrifice system was central to Old Testament worship. Leviticus 17:11 declares, \"T...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Bede on Commentary on the Catholic Epistles: But if we walk in the light, etc. The distinctio...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Augustine of Hippo on Ten Homilies on 1 John 1: \"God is light, and there is no darkness in Hi...\". Word-study detail reinforces \"πατρὸς: the Father - a \"father\" (literally or figuratively, near or more remote)\".",
+      "supportingVerses": [
+        3,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "with us"
+        ],
+        "5": [
+          "This is the message [of God’s promised revelation] which we..."
+        ],
+        "7": [
+          "with us"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "That which we have seen and heard declare we unto you, that ye also may have fellowship with...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Andreas of Caesarea on CATENA: What did they proclaim, but that eternal life has appeared to...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "πατρὸς: the Father - a \"father\" (literally or figuratively, near or more remote)",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on Ten Homilies on 1 John 1: \"God is light, and there is no darkness in Hi...",
+          "anchorVerse": 5
+        }
+      ]
+    }
+  ]
+}

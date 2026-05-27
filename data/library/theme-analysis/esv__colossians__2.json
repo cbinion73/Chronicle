@@ -1,0 +1,350 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Colossians",
+  "chapter": 2,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:55:48.120Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"John Chrysostom on Homily on Colossians 5: \"For though I am absent in the flesh, yet am I wit...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        16,
+        18
+      ],
+      "versePhrases": {
+        "2": [
+          "that their hearts may be encouraged, being knit together in..."
+        ],
+        "3": [
+          "in whom are hidden all the treasures of wisdom and..."
+        ],
+        "5": [
+          "faith"
+        ],
+        "6": [
+          "Therefore, as you received Christ Jesus the Lord, so walk..."
+        ],
+        "7": [
+          "faith"
+        ],
+        "8": [
+          "See to it that no one takes you captive by..."
+        ],
+        "9": [
+          "For in him the whole fullness of deity dwells bodily,"
+        ],
+        "12": [
+          "faith"
+        ],
+        "16": [
+          "Therefore let no one pass judgment on you in questions..."
+        ],
+        "18": [
+          "Let no one disqualify you, insisting on asceticism and worship..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Gnostic systems cultivated doubt and uncertainty, suggesting that only advanced initiates ach...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on Colossians 5: Now henceforward he is hastening and in pangs to e...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "πληροφορίας: of the full assurance - entire confidence",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Greek philosophy divided into rival schools (Stoicism, Epicureanism, Platonism) claiming supe...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Then when he says, that their hearts might be con...\". Word-study detail reinforces \"σοφίας: of wisdom - wisdom (higher or lower, worldly or spiritual)\".",
+      "supportingVerses": [
+        2,
+        3,
+        8,
+        19,
+        20,
+        23
+      ],
+      "versePhrases": {
+        "2": [
+          "understanding",
+          "knowledge"
+        ],
+        "3": [
+          "wisdom",
+          "knowledge"
+        ],
+        "8": [
+          "See to it that no one takes you captive by..."
+        ],
+        "19": [
+          "and not holding fast to the Head, from whom the..."
+        ],
+        "20": [
+          "If with Christ you died to the elemental spirits of..."
+        ],
+        "23": [
+          "wisdom"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "That their hearts might be comforted, being knit together in love, and unto all riches of the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Then when he says, that their hearts might be con...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἐπίγνωσιν: the acknowledgement - recognition, i.e., (by implication) full discernment, acknow...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "In whom are hid all the treasures of wisdom and knowledge. This devastating rejoinder to Colo...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Then (v. 13), he shows the nature of this likenes...\". Word-study detail reinforces \"ἐδειγμάτισεν: he made a shew of them - to exhibit\".",
+      "supportingVerses": [
+        9,
+        11,
+        13,
+        15,
+        23
+      ],
+      "versePhrases": {
+        "9": [
+          "For in him the whole fullness of deity dwells bodily,"
+        ],
+        "11": [
+          "made"
+        ],
+        "13": [
+          "made"
+        ],
+        "15": [
+          "He disarmed the rulers and authorities and put them to..."
+        ],
+        "23": [
+          "made"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "For in him dwelleth all the fulness of the Godhead bodily. This verse delivers theology with...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "John Chrysostom on Homily on Colossians 6: Observe how in his accusing of the one he thrusts...",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "In whom also ye are circumcised with the circumcision made without hands, in putting off the...",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on Colossians: Above, Paul warned the faithful against the decep...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on Colossians: Christ, he says, having received bodily dea...\".",
+      "supportingVerses": [
+        13,
+        20
+      ],
+      "versePhrases": {
+        "13": [
+          "alive",
+          "made alive"
+        ],
+        "20": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened toge...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Colossians: Christ, he says, having received bodily dea...",
+          "anchorVerse": 13
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Thomas Aquinas on Commentary on Colossians: Further, things that are not founded on reason or...\". Word-study detail reinforces \"ἐδιδάχθητε: ye have been taught - to teach (in the same broad application)\".",
+      "supportingVerses": [
+        6,
+        7,
+        8,
+        19,
+        23
+      ],
+      "versePhrases": {
+        "6": [
+          "Therefore, as you received Christ Jesus the Lord, so walk..."
+        ],
+        "7": [
+          "taught"
+        ],
+        "8": [
+          "See to it that no one takes you captive by..."
+        ],
+        "19": [
+          "and not holding fast to the Head, from whom the..."
+        ],
+        "23": [
+          "These have indeed an appearance of wisdom in promoting self-made..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient mystery religions typically featured progressive stages: initial purification, interm...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Colossians: We introduce nothing new, but what you have...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding th...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Theophylact of Ohrid on Commentary on Colossians: That is, standing immovable and not inclini...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Which are a shadow of things to come; but the body is of Christ. Paul explains these practice...\".",
+      "supportingVerses": [
+        2,
+        15,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "2": [
+          "that their hearts may be encouraged, being knit together in..."
+        ],
+        "15": [
+          "He disarmed the rulers and authorities and put them to..."
+        ],
+        "17": [
+          "These are a shadow of the things to come, but..."
+        ],
+        "20": [
+          "still"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "That their hearts might be comforted, being knit together in love, and unto all riches of the...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Clement of Alexandria on The Stromata Book 5: And again, as if in eagerness to divulge this k...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Where do you still grant Satan and demons authority that Christ already stripped from them?",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Cyril of Jerusalem: Let us not be ashamed to confess the Crucified. Let the cross, as our sea...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

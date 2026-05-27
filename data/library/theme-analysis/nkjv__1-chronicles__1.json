@@ -1,0 +1,65 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Chronicles",
+  "chapter": 1,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T05:39:18.539Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Word-study detail reinforces \"הָאָ֔רֶץ: the earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        10,
+        19
+      ],
+      "versePhrases": {
+        "10": [
+          "earth"
+        ],
+        "19": [
+          "earth"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 10 word study",
+          "detail": "בָּאָֽרֶץ׃: upon the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 10
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 19 word study",
+          "detail": "הָאָ֔רֶץ: the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Word-study detail reinforces \"מֶ֖לֶךְ: Now these are the kings - a king\".",
+      "supportingVerses": [
+        43
+      ],
+      "versePhrases": {
+        "43": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 43 word study",
+          "detail": "מֶ֖לֶךְ: Now these are the kings - a king",
+          "anchorVerse": 43
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 110,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:16.065Z",
+  "themes": [
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Athanasius of Alexandria on Discourses Against the Arians 2.15.13: If then they suppose that...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord says to my Lord"
+        ],
+        "2": [
+          "scepter"
+        ],
+        "3": [
+          "Your people will volunteer freely on the day of Your..."
+        ],
+        "4": [
+          "The Lord has sworn and will not change His mind,..."
+        ],
+        "5": [
+          "He will shatter kings in the day of His wrath"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Psalm 110 is attributed to David and was likely composed during the Davidic monarchy, though...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Athanasius of Alexandria on Discourses Against the Arians 2.15.13: If then they suppose that...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "This verse would have resonated with Israelite kingship theology, where the monarch received...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 110: And what follows? \"The Lord shall send the rod...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This verse returns to the theme of judgment and vindication. 'The Lord at thy right hand' rei...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        1,
+        5,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "The Lord says to my Lord"
+        ],
+        "5": [
+          "wrath"
+        ],
+        "6": [
+          "judge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Nicetas of Remesiana on EXPLANATION OF THE CREED 6: “He ascended into heaven,” from where he...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "שֵׁ֥ב: Sit - properly, to sit down (specifically as judge. in ambush, in quiet); by implicati...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Romans 2:5",
+          "anchorVerse": 5,
+          "referenceLabel": "Romans 2:5"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "This verse returns to the theme of judgment and vindication. 'The Lord at thy right hand' rei...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Acts of Peter and Paul on ACTS OF THE HOLY APOSTLES PETER AND PAUL: Just as, therefore, from...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3,
+        5,
+        7
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ],
+        "5": [
+          "The Lord is at Your right hand"
+        ],
+        "7": [
+          "He will drink from the brook by the wayside"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ephesians 1:4",
+          "anchorVerse": 3,
+          "referenceLabel": "Ephesians 1:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse introduces the second major theme of the psalm: the Messiah's priesthood. 'Thy peo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Acts of Peter and Paul on ACTS OF THE HOLY APOSTLES PETER AND PAUL: Just as, therefore, from...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "The theme of judgment through God's anointed one appears throughout the prophetic tradition (...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"This verse introduces the second major theme of the psalm: the Messiah's priesthood. 'Thy peo...\". Cross references echo \"Holy\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "holy"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Holy",
+          "detail": "Ephesians 1:4",
+          "anchorVerse": 3,
+          "referenceLabel": "Ephesians 1:4"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "This verse introduces the second major theme of the psalm: the Messiah's priesthood. 'Thy peo...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theodoret of Cyrus on LETTER 146: He is named Christ from being as man anointed with the Holy...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "קֹ֭דֶשׁ: of holiness - a sacred place or thing; rarely abstract, sanctity",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

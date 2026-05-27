@@ -1,0 +1,313 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Proverbs",
+  "chapter": 19,
+  "translation": "esv",
+  "generatedAt": "2026-05-01T05:54:22.779Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"This verse prescribes different pedagogical methods for different character types. The 'scorn...\". Word-study detail reinforces \"דָּֽעַת׃: knowledge - knowledge\".",
+      "supportingVerses": [
+        2,
+        8,
+        14,
+        20,
+        21,
+        25,
+        27
+      ],
+      "versePhrases": {
+        "2": [
+          "knowledge"
+        ],
+        "8": [
+          "understanding"
+        ],
+        "14": [
+          "House and wealth are inherited from fathers, but a prudent..."
+        ],
+        "20": [
+          "wisdom",
+          "instruction"
+        ],
+        "21": [
+          "Many are the plans in the mind of a man,..."
+        ],
+        "25": [
+          "understanding",
+          "knowledge"
+        ],
+        "27": [
+          "instruction",
+          "knowledge"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Zeal without knowledge is dangerous—enthusiasm uninformed by truth leads to sin. Hasty feet (...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Bede on Commentary on Proverbs: Where there is no knowledge of the soul, it is not good, etc....",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "דַ֣עַת: be without knowledge - knowledge",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Getting wisdom demonstrates self-love in the highest sense—seeking one's true good. Keeping u...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Explicit",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Divine judgment awaits the mocker. 'Judgments are prepared' depicts God's certain response to...\". Word-study detail reinforces \"זַ֣עַף: wrath - anger\".",
+      "supportingVerses": [
+        5,
+        12,
+        18,
+        19,
+        25,
+        28,
+        29
+      ],
+      "versePhrases": {
+        "5": [
+          "A false witness will not go unpunished"
+        ],
+        "12": [
+          "wrath"
+        ],
+        "18": [
+          "Discipline your son, for there is hope"
+        ],
+        "19": [
+          "wrath"
+        ],
+        "25": [
+          "Strike a scoffer, and the simple will learn prudence"
+        ],
+        "28": [
+          "justice"
+        ],
+        "29": [
+          "Condemnation"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "A false witness shall not be unpunished, and he that speaks lies shall not escape. This promi...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 5 historical",
+          "detail": "Augustine of Hippo on SERMON 286:1: There are true martyrs and false ones, because there are...",
+          "anchorVerse": 5
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The king's wrath is as the roaring of a lion, but his favor is as dew upon the grass. Royal a...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 12 historical",
+          "detail": "Bede on Commentary on Proverbs: \"As the roaring of a lion, so is the anger of a king,\" etc. I...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Zeal without knowledge is dangerous—enthusiasm uninformed by truth leads to sin. Hasty feet (...\". Word-study detail reinforces \"עֵ֭צָה: counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        2,
+        20,
+        21,
+        23
+      ],
+      "versePhrases": {
+        "2": [
+          "Desire without knowledge is not good, and whoever makes haste..."
+        ],
+        "20": [
+          "Listen to advice and accept instruction, that you may gain..."
+        ],
+        "21": [
+          "Many are the plans in the mind of a man,..."
+        ],
+        "23": [
+          "leads"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Zeal without knowledge is dangerous—enthusiasm uninformed by truth leads to sin. Hasty feet (...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "חוֹטֵֽא׃: sinneth - properly, to miss; hence (figuratively and generally) to sin; by inferenc...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 20 commentary",
+          "detail": "How do you receive counsel that prepares you for future challenges?",
+          "anchorVerse": 20
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 20 word study",
+          "detail": "עֵ֭צָה: counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 20
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"This proverb presents charity to the poor as lending to God: 'He that hath pity on the poor l...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        8,
+        17,
+        22
+      ],
+      "versePhrases": {
+        "8": [
+          "Whoever gets sense loves his own soul"
+        ],
+        "17": [
+          "Whoever is generous to the poor lends to the Lord,..."
+        ],
+        "22": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Proverbs 4:6",
+          "anchorVerse": 8,
+          "referenceLabel": "Proverbs 4:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "How does pursuing godly wisdom demonstrate genuine love for yourself?",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 17 commentary",
+          "detail": "This proverb presents charity to the poor as lending to God: 'He that hath pity on the poor l...",
+          "anchorVerse": 17
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 17 historical",
+          "detail": "Cyril of Alexandria on COMMENTARY ON LUKE, HOMILY 103: The lesson, therefore, which he teache...",
+          "anchorVerse": 17
+        }
+      ]
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Parental discipline must be timely—'while there is hope'—suggesting both the child's moldable...\". Word-study detail reinforces \"תִּקְוָ֑ה: hope - literally a cord (as an attachment); figuratively, expectancy\".",
+      "supportingVerses": [
+        18,
+        22
+      ],
+      "versePhrases": {
+        "18": [
+          "hope"
+        ],
+        "22": [
+          "steadfast"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 18 commentary",
+          "detail": "Parental discipline must be timely—'while there is hope'—suggesting both the child's moldable...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 18 historical",
+          "detail": "Bede on Commentary on Proverbs: \"He who is patient will sustain loss,\" etc. For if provoked b...",
+          "anchorVerse": 18
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "תִּקְוָ֑ה: hope - literally a cord (as an attachment); figuratively, expectancy",
+          "anchorVerse": 18
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "label": "Fear/Anxiety",
+      "color": "#dc2626",
+      "tier": "Strong",
+      "summary": "This chapter deals with fear, dread, anxiety, alarm, or the call not to be afraid. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The 'fear of the LORD' is reverent awe that submits to God's authority and delights in His wa...\". Word-study detail reinforces \"יִרְאַ֣ת: The fear - fear (also used as infinitive); morally, reverence\".",
+      "supportingVerses": [
+        23
+      ],
+      "versePhrases": {
+        "23": [
+          "fear"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 23 commentary",
+          "detail": "The 'fear of the LORD' is reverent awe that submits to God's authority and delights in His wa...",
+          "anchorVerse": 23
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 23 word study",
+          "detail": "יִרְאַ֣ת: The fear - fear (also used as infinitive); morally, reverence",
+          "anchorVerse": 23
+        }
+      ]
+    }
+  ]
+}

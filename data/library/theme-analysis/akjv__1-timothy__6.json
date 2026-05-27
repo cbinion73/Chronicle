@@ -1,0 +1,397 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Timothy",
+  "chapter": 6,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:02:13.601Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: Then when he says, fight the good fight of faith,...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        3,
+        10,
+        11,
+        12,
+        17,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "3": [
+          "If any man teach otherwise, and consent not to wholesome..."
+        ],
+        "10": [
+          "faith"
+        ],
+        "11": [
+          "faith"
+        ],
+        "12": [
+          "faith"
+        ],
+        "17": [
+          "trust"
+        ],
+        "20": [
+          "trust"
+        ],
+        "21": [
+          "faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Why does Paul insist doctrine must 'accord with godliness'—why link belief and behavior?",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Oecumenius on COMMENTARY ON 1 TIMOTHY: If anyone teaches otherwise: that is, one different fr...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Faith",
+          "detail": "Psalms 32:10",
+          "anchorVerse": 10,
+          "referenceLabel": "Psalms 32:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "For the love of money is the root of all evil (ῥίζα γὰρ πάντων τῶν κακῶν ἐστιν ἡ φιλαργυρία,...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 6 verses. Commentary leans on \"That thou keep this commandment without spot, unrebukeable (τηρῆσαί σε τὴν ἐντολὴν ἄσπιλον ἀν...\". Word-study detail reinforces \"φύλαξον: keep - to watch, i.e., be on guard (literally of figuratively); by implication, to p...\".",
+      "supportingVerses": [
+        1,
+        11,
+        13,
+        14,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Let as many servants as are under the yoke count..."
+        ],
+        "11": [
+          "follow"
+        ],
+        "13": [
+          "I give thee charge in the sight of God, who..."
+        ],
+        "14": [
+          "keep"
+        ],
+        "17": [
+          "Charge them that are rich in this world, that they..."
+        ],
+        "20": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Above, the Apostle instructed Timothy on the use o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἡγείσθωσαν: count - to lead, i.e., command (with official authority); figuratively, to deem,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 11 commentary",
+          "detail": "Why does Paul balance negative (flee) with positive (pursue) commands—why both necessary?",
+          "anchorVerse": 11
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 11 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Then when he says, but you, O man of God, he warns...",
+          "anchorVerse": 11
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Explicit",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"For the love of money is the root of all evil (ῥίζα γὰρ πάντων τῶν κακῶν ἐστιν ἡ φιλαργυρία,...\". Cross references echo \"Love\".",
+      "supportingVerses": [
+        2,
+        5,
+        9,
+        10,
+        11
+      ],
+      "versePhrases": {
+        "2": [
+          "beloved"
+        ],
+        "5": [
+          "perverse disputings of men of corrupt minds, and destitute of..."
+        ],
+        "9": [
+          "But they that will be rich fall into temptation and..."
+        ],
+        "10": [
+          "love"
+        ],
+        "11": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And they that have believing masters, let them not despise them, because they are brethren (ο...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Theophylact of Ohrid on Commentary on 1 Timothy: It is not right that, because you have come...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἀγαπητοὶ: beloved - beloved",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "Itinerant teachers in the Greco-Roman world often charged fees for instruction. Some apparent...",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "truth",
+      "label": "Truth",
+      "color": "#0f4fcf",
+      "tier": "Strong",
+      "summary": "This chapter brings truth, faithfulness, revelation, or the trustworthiness of God into focus. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: Then when he says, O Timothy, he instructs Timothy...\". Cross references echo \"Truth\".",
+      "supportingVerses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21
+      ],
+      "versePhrases": {
+        "2": [
+          "faithful"
+        ],
+        "3": [
+          "If any man teach otherwise, and consent not to wholesome..."
+        ],
+        "4": [
+          "he is proud, knowing nothing, but doting about questions and..."
+        ],
+        "5": [
+          "truth"
+        ],
+        "6": [
+          "But godliness with contentment is great gain"
+        ],
+        "7": [
+          "For we brought nothing into this world, and it is..."
+        ],
+        "10": [
+          "For the love of money is the root of all..."
+        ],
+        "12": [
+          "Fight the good fight of faith, lay hold on eternal..."
+        ],
+        "13": [
+          "I give thee charge in the sight of God, who..."
+        ],
+        "14": [
+          "that thou keep this commandment without spot, unrebukeable, until the..."
+        ],
+        "15": [
+          "which in his times he shall shew, who is the..."
+        ],
+        "16": [
+          "who only hath immortality, dwelling in the light which no..."
+        ],
+        "19": [
+          "laying up in store for themselves a good foundation against..."
+        ],
+        "20": [
+          "O Timothy, keep that which is committed to thy trust,..."
+        ],
+        "21": [
+          "which some professing have erred concerning the faith"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "And they that have believing masters, let them not despise them, because they are brethren (ο...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Oecumenius on COMMENTARY ON 1 TIMOTHY: Those who are under the yoke as slaves should regard t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "If any man teach otherwise, and consent not to wholesome words, even the words of our Lord Je...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Then when he says, if any man teach otherwise, he...",
+          "anchorVerse": 3
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"If any man teach otherwise, and consent not to wholesome words, even the words of our Lord Je...\". Word-study detail reinforces \"δίδασκε: teach - to teach (in the same broad application)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        9,
+        10
+      ],
+      "versePhrases": {
+        "1": [
+          "Let as many servants as are under the yoke count..."
+        ],
+        "2": [
+          "teach"
+        ],
+        "3": [
+          "teach"
+        ],
+        "9": [
+          "But they that will be rich fall into temptation and..."
+        ],
+        "10": [
+          "For the love of money is the root of all..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on 1 Timothy: Above, the Apostle instructed Timothy on the use o...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "ἡγείσθωσαν: count - to lead, i.e., command (with official authority); figuratively, to deem,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "John Chrysostom on Homily on 1 Timothy 17: \"These things teach and exhort.\" A Teacher has nee...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "δίδασκε: teach - to teach (in the same broad application)",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Thomas Aquinas on Commentary on 1 Timothy: Above, the Apostle gave certain orders to Timothy,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        13,
+        15,
+        16
+      ],
+      "versePhrases": {
+        "13": [
+          "I give thee charge in the sight of God, who..."
+        ],
+        "15": [
+          "King"
+        ],
+        "16": [
+          "who only hath immortality, dwelling in the light which no..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "Pontius Pilate governed Judea AD 26-36. Jesus' trial before Pilate is recorded in all four Go...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "John Chrysostom on Homily on 1 Timothy 18: Again he calls God to witness, as he had done a li...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Revelation 19:16",
+          "anchorVerse": 15,
+          "referenceLabel": "Revelation 19:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Which in his times he shall shew (ἣν καιροῖς ἰδίοις δείξει, hēn kairois idiois deixei )—'whic...",
+          "anchorVerse": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Psalms",
+  "chapter": 121,
+  "translation": "akjv",
+  "generatedAt": "2026-05-01T06:00:30.213Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"The confession \"Yahweh, maker of heaven and earth\" appears repeatedly throughout Scripture as...\". Word-study detail reinforces \"וָאָֽרֶץ׃: and earth - the earth (at large, or partitively a land)\".",
+      "supportingVerses": [
+        1,
+        2,
+        6
+      ],
+      "versePhrases": {
+        "1": [
+          "I will lift up mine eyes unto the hills, from..."
+        ],
+        "2": [
+          "made",
+          "earth"
+        ],
+        "6": [
+          "The sun shall not smite thee by day, nor the..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "The Songs of Ascents (Psalms 120-134) form a distinct collection within the Psalter, traditio...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Augustine of Hippo on SERMON 379:7: However just people may be, however preeminent in grace,...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "The confession \"Yahweh, maker of heaven and earth\" appears repeatedly throughout Scripture as...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on SERMON 68:2: The Son of God, the only begotten of the Father, God alway...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Augustine of Hippo on Exposition on Psalm 121: Sing therefore what follows; if you wish to he...\". Word-study detail reinforces \"יִתֵּ֣ן: He will not suffer - to give, used with greatest latitude of application (put, make,...\".",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "suffer"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Augustine of Hippo on Exposition on Psalm 121: Sing therefore what follows; if you wish to he...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "יִתֵּ֣ן: He will not suffer - to give, used with greatest latitude of application (put, make,...",
+          "anchorVerse": 3
+        }
+      ]
+    }
+  ]
+}

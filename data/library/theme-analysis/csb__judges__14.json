@@ -1,0 +1,110 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Judges",
+  "chapter": 14,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:42:25.557Z",
+  "themes": [
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "color": "#8b5cf6",
+      "tier": "Strong",
+      "summary": "This chapter highlights the Spirit’s presence, power, leading, or inner witness. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Ambrose of Milan on On the Holy Spirit 2, Introduction, 8-10: \"What,\" answer they, \"is sweete...\". Cross references echo \"Spirit\".",
+      "supportingVerses": [
+        6,
+        14,
+        18,
+        19
+      ],
+      "versePhrases": {
+        "6": [
+          "Spirit"
+        ],
+        "14": [
+          "So he said to them"
+        ],
+        "18": [
+          "On the seventh day, before sunset, the men of the..."
+        ],
+        "19": [
+          "Spirit"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Spirit",
+          "detail": "Judges 3:10",
+          "anchorVerse": 6,
+          "referenceLabel": "Judges 3:10"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "And the Spirit of the LORD came mightily upon him, and he rent him as he would have rent a ki...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "ר֣וּחַ: And the Spirit - wind; by resemblance breath, i.e., a sensible (or even violent) exha...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "And he said unto them, Out of the eater came forth meat, and out of the strong came forth swe...",
+          "anchorVerse": 14
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#db2777",
+      "tier": "Strong",
+      "summary": "This chapter foregrounds love, affection, covenant loyalty, or sacrificial care. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Cross references echo \"Love\".",
+      "supportingVerses": [
+        16
+      ],
+      "versePhrases": {
+        "16": [
+          "love"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Love",
+          "detail": "Judges 16:15",
+          "anchorVerse": 16,
+          "referenceLabel": "Judges 16:15"
+        }
+      ]
+    },
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Historical Setting: The Book of Judges spans approximately 350-400 years (c. 1375-1050 BCE) d...\".",
+      "supportingVerses": [
+        4
+      ],
+      "versePhrases": {
+        "4": [
+          "provide"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Historical Setting: The Book of Judges spans approximately 350-400 years (c. 1375-1050 BCE) d...",
+          "anchorVerse": 4
+        }
+      ]
+    }
+  ]
+}

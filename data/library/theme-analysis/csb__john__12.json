@@ -1,0 +1,511 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "John",
+  "chapter": 12,
+  "translation": "csb",
+  "generatedAt": "2026-05-01T05:45:11.260Z",
+  "themes": [
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God. Local Strong’s word study and cross references data reinforce this reading across 15 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on John: Jesus, yielding to the fury of the Jews, hid Hims...\". Cross references echo \"Faith\".",
+      "supportingVerses": [
+        6,
+        9,
+        19,
+        24,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        46,
+        47,
+        50
+      ],
+      "versePhrases": {
+        "6": [
+          "He didn’t say this because he cared about the poor..."
+        ],
+        "9": [
+          "Then a large crowd of the Jews learned he was..."
+        ],
+        "19": [
+          "Then the Pharisees said to one another, “You see"
+        ],
+        "24": [
+          "Truly I tell you, unless a grain of wheat falls..."
+        ],
+        "36": [
+          "believe"
+        ],
+        "37": [
+          "believe"
+        ],
+        "38": [
+          "who has believed our message? And to whom has the arm of the Lord been revealed?"
+        ],
+        "39": [
+          "believe"
+        ],
+        "40": [
+          "He has blinded their eyes and hardened their hearts, so..."
+        ],
+        "42": [
+          "believe"
+        ],
+        "43": [
+          "For they loved human praise more than praise from God"
+        ],
+        "44": [
+          "“The one who believes in me believes not in me"
+        ],
+        "46": [
+          "so that everyone who believes in me would not remain in darkness"
+        ],
+        "47": [
+          "If anyone hears my words and doesn’t keep them, I..."
+        ],
+        "50": [
+          "I know that his command is eternal life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "The common purse was typical for traveling rabbi groups. The treasurer role required trust, m...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "Bede on Homilies on the Gospels 2.4: Because “a greedy person always is in need,” [Judas], be...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 9 commentary",
+          "detail": "In what ways can initial enthusiasm fail to produce lasting faith?",
+          "anchorVerse": 9
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 9 historical",
+          "detail": "Theophylact of Ohrid on Commentary on John: Those who came to the Lord were better-intentione...",
+          "anchorVerse": 9
+        }
+      ]
+    },
+    {
+      "id": "worship",
+      "label": "Worship",
+      "color": "#ca8a04",
+      "tier": "Explicit",
+      "summary": "This chapter gives prominence to praise, worship, thanksgiving, or blessing God’s name. Local Strong’s word study and cross references data reinforce this reading across 13 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: The root of their failing is vanity, vainglory; so he s...\". Cross references echo \"Glory\".",
+      "supportingVerses": [
+        3,
+        7,
+        8,
+        16,
+        20,
+        21,
+        23,
+        24,
+        28,
+        30,
+        32,
+        41,
+        43
+      ],
+      "versePhrases": {
+        "3": [
+          "Then Mary took a pound of perfume, pure and expensive..."
+        ],
+        "7": [
+          "Jesus answered, “Leave her alone"
+        ],
+        "8": [
+          "For you always have the poor with you, but you..."
+        ],
+        "16": [
+          "His disciples did not understand these things at first"
+        ],
+        "20": [
+          "worship"
+        ],
+        "21": [
+          "So they came to Philip, who was from Bethsaida in..."
+        ],
+        "23": [
+          "Jesus replied to them, “The hour has come for the..."
+        ],
+        "24": [
+          "Truly I tell you, unless a grain of wheat falls..."
+        ],
+        "28": [
+          "Father, glorify your name"
+        ],
+        "30": [
+          "Jesus responded, “This voice came, not for me, but for..."
+        ],
+        "32": [
+          "As for me, if I am lifted up from the..."
+        ],
+        "41": [
+          "glory"
+        ],
+        "43": [
+          "praise"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "Mary anoints Jesus' feet with expensive spikenard (pure nard), then wipes them with her hair....",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 3 historical",
+          "detail": "Theophylact of Ohrid on Commentary on John: So then, Martha herself serves everyone in genera...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Jesus defends Mary: 'Let her alone,' indicating opposition to her (probably from Judas but po...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Cyril of Alexandria on Commentary on the Gospel of John, Book 8 (Fragments): And the Lord als...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Now because it seems difficult for one to hate his own...\". Word-study detail reinforces \"φυλάξει: shall keep - to watch, i.e., be on guard (literally of figuratively); by implication...\".",
+      "supportingVerses": [
+        1,
+        7,
+        13,
+        25,
+        26,
+        27,
+        36,
+        47,
+        48,
+        49,
+        50
+      ],
+      "versePhrases": {
+        "1": [
+          "Six days before the Passover, Jesus came to Bethany where..."
+        ],
+        "7": [
+          "kept"
+        ],
+        "13": [
+          "kept"
+        ],
+        "25": [
+          "keep"
+        ],
+        "26": [
+          "follow"
+        ],
+        "27": [
+          "“Now my soul is troubled"
+        ],
+        "36": [
+          "While you have the light, believe in the light so..."
+        ],
+        "47": [
+          "keep"
+        ],
+        "48": [
+          "The one who rejects me and doesn’t receive my sayings..."
+        ],
+        "49": [
+          "command"
+        ],
+        "50": [
+          "command"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "What does Jesus' return to Bethany teach about obedience despite danger?",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Thomas Aquinas on Commentary on John: So far the Evangelist has been showing the power of Chr...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "Jesus defends Mary: 'Let her alone,' indicating opposition to her (probably from Judas but po...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Thomas Aquinas on Commentary on John: Having narrated the traitor's indignation at the kindne...",
+          "anchorVerse": 7
+        }
+      ]
+    },
+    {
+      "id": "presence",
+      "label": "Presence",
+      "color": "#2563eb",
+      "tier": "Explicit",
+      "summary": "This chapter highlights God’s nearness, abiding presence, indwelling, or covenant companionship. Local Strong’s word study and cross references data reinforce this reading across 11 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Then when he says, the poor you always have with you, h...\". Word-study detail reinforces \"μείνῃ: abide - to stay (in a given place, state, relation or expectancy)\".",
+      "supportingVerses": [
+        2,
+        8,
+        20,
+        26,
+        27,
+        28,
+        34,
+        35,
+        37,
+        46,
+        50
+      ],
+      "versePhrases": {
+        "2": [
+          "and Lazarus was one of those reclining at the table with him"
+        ],
+        "8": [
+          "with you"
+        ],
+        "20": [
+          "Now some Greeks were among those who went up to..."
+        ],
+        "26": [
+          "If anyone serves me, he must follow me"
+        ],
+        "27": [
+          "“Now my soul is troubled"
+        ],
+        "28": [
+          "Father, glorify your name"
+        ],
+        "34": [
+          "Then the crowd replied to him, “We have heard from..."
+        ],
+        "35": [
+          "with you"
+        ],
+        "37": [
+          "presence"
+        ],
+        "46": [
+          "I have come as light into the world, so that..."
+        ],
+        "50": [
+          "I know that his command is eternal life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "They prepare a supper honoring Jesus, with Martha serving (consistent with her character, Luk...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Alcuin of York on Catena Aurea by Aquinas: The Lord's Supper is the faith of the Church, work...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 8 commentary",
+          "detail": "Jesus states that the poor are always present, providing ongoing opportunity for charity, but...",
+          "anchorVerse": 8
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 8 historical",
+          "detail": "Thomas Aquinas on Commentary on John: Then when he says, the poor you always have with you, h...",
+          "anchorVerse": 8
+        }
+      ]
+    },
+    {
+      "id": "salvation",
+      "label": "Salvation",
+      "color": "#0284c7",
+      "tier": "Explicit",
+      "summary": "This chapter speaks of rescue, deliverance, redemption, life, or being saved. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Theophylact of Ohrid on Commentary on John: The palms perhaps signified that He, having raise...\". Cross references echo \"Salvation\".",
+      "supportingVerses": [
+        13,
+        24,
+        25,
+        27,
+        32,
+        40,
+        46,
+        47,
+        48,
+        50
+      ],
+      "versePhrases": {
+        "13": [
+          "they took palm branches and went out to meet him"
+        ],
+        "24": [
+          "Truly I tell you, unless a grain of wheat falls..."
+        ],
+        "25": [
+          "eternal life"
+        ],
+        "27": [
+          "save"
+        ],
+        "32": [
+          "As for me, if I am lifted up from the..."
+        ],
+        "40": [
+          "He has blinded their eyes and hardened their hearts, so..."
+        ],
+        "46": [
+          "I have come as light into the world, so that..."
+        ],
+        "47": [
+          "save"
+        ],
+        "48": [
+          "The one who rejects me and doesn’t receive my sayings..."
+        ],
+        "50": [
+          "eternal life"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The crowds take palm branches, symbols of Jewish nationalism and military victory. Their cry...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Theophylact of Ohrid on Commentary on John: The palms perhaps signified that He, having raise...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 13 word study",
+          "detail": "Ὡσαννά·: Hosanna - oh save!; hosanna (i.e., hoshia-na), an exclamation of adoration",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 24 commentary",
+          "detail": "How does the grain metaphor explain the necessity of Christ's death for salvation's harvest?",
+          "anchorVerse": 24
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 10 verses. Commentary leans on \"Thomas Aquinas on Commentary on John: Next he shows the fruit of faith. First, he shows his o...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        1,
+        2,
+        11,
+        21,
+        32,
+        34,
+        35,
+        36,
+        39,
+        46
+      ],
+      "versePhrases": {
+        "1": [
+          "Six days before the Passover, Jesus came to Bethany where..."
+        ],
+        "2": [
+          "So they gave a dinner for him there"
+        ],
+        "11": [
+          "because he was the reason many of the Jews were..."
+        ],
+        "21": [
+          "So they came to Philip, who was from Bethsaida in..."
+        ],
+        "32": [
+          "earth"
+        ],
+        "34": [
+          "Then the crowd replied to him, “We have heard from..."
+        ],
+        "35": [
+          "light"
+        ],
+        "36": [
+          "light"
+        ],
+        "39": [
+          "This is why they were unable to believe, because Isaiah..."
+        ],
+        "46": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Six days before Passover was likely Saturday evening (Sabbath end) when meals were permissibl...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Alcuin of York on Catena Aurea by Aquinas: Mystically, that He came to Bethany six days befor...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 2 historical",
+          "detail": "Augustine of Hippo on Tractates on John 50: \"Then Jesus, six days before the passover, came t...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "ἐποίησαν: they made - to make or do (in a very wide application, more or less direct)",
+          "anchorVerse": 2
+        }
+      ]
+    }
+  ]
+}

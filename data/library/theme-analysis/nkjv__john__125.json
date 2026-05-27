@@ -1,0 +1,113 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "John",
+  "chapter": 125,
+  "translation": "nkjv",
+  "generatedAt": "2026-05-01T17:51:48.473Z",
+  "themes": [
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God.",
+      "supportingVerses": [
+        3,
+        5
+      ],
+      "versePhrases": {
+        "3": [
+          "rest"
+        ],
+        "5": [
+          "Peace"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God.",
+      "supportingVerses": [
+        3,
+        4
+      ],
+      "versePhrases": {
+        "3": [
+          "righteous"
+        ],
+        "4": [
+          "upright"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "holiness",
+      "label": "Holiness",
+      "color": "#4338ca",
+      "tier": "Strong",
+      "summary": "This chapter focuses on holiness, righteousness, purity, consecration, or being set apart.",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "righteous"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "faith",
+      "label": "Faith/Belief",
+      "color": "#0f4fcf",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes trust, belief, confidence, or steadfast reliance on God.",
+      "supportingVerses": [
+        1
+      ],
+      "versePhrases": {
+        "1": [
+          "trust"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ.",
+      "supportingVerses": [
+        3
+      ],
+      "versePhrases": {
+        "3": [
+          "scepter"
+        ]
+      },
+      "evidenceTrail": []
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people.",
+      "supportingVerses": [
+        5
+      ],
+      "versePhrases": {
+        "5": [
+          "lead"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}

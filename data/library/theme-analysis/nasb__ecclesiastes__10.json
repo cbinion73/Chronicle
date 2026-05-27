@@ -1,0 +1,241 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Ecclesiastes",
+  "chapter": 10,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:57:33.857Z",
+  "themes": [
+    {
+      "id": "wisdom",
+      "label": "Wisdom",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter points toward wisdom, understanding, discernment, counsel, or instruction. Local Strong’s word study and cross references data reinforce this reading across 14 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"The words of a wise man win favour, but a fool's lips...\". Word-study detail reinforces \"חָכְמָֽה׃: but wisdom - wisdom (in a good sense)\".",
+      "supportingVerses": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "wisdom"
+        ],
+        "2": [
+          "wise"
+        ],
+        "3": [
+          "Even when the fool walks along the road, his sense..."
+        ],
+        "6": [
+          "foolishness is set in many exalted places while the rich..."
+        ],
+        "7": [
+          "I have seen slaves riding on horses and princes walking..."
+        ],
+        "9": [
+          "One who quarries stones may be hurt by them, and..."
+        ],
+        "10": [
+          "Wisdom"
+        ],
+        "11": [
+          "If the serpent bites before being charmed, there is no..."
+        ],
+        "12": [
+          "wise"
+        ],
+        "13": [
+          "the beginning of his talking is foolishness, and the end..."
+        ],
+        "14": [
+          "Yet the fool multiplies words"
+        ],
+        "15": [
+          "The labor of a fool makes him so weary that..."
+        ],
+        "16": [
+          "Woe to you, land whose king is a boy, and..."
+        ],
+        "20": [
+          "Furthermore, in your bedroom do not curse a king, and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient Near Eastern honor-shame cultures placed enormous value on reputation. A wise person'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Jerome on Commentary on Ecclesiastes: \"Dead flies putrefy the perfumer's oil; a little folly...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "מֵחָכְמָ֥ה: for wisdom - wisdom (in a good sense)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "A wise man's heart is at his right hand; but a fool's heart at his left (לֵב חָכָם לִימִינוֹ...",
+          "anchorVerse": 2
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Explicit",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Jerome on Commentary on Ecclesiastes: \"Woe to you, O land, whose king acts as an adolescent,...\". Cross references echo \"Kingdom\".",
+      "supportingVerses": [
+        1,
+        6,
+        16,
+        17,
+        20
+      ],
+      "versePhrases": {
+        "1": [
+          "Dead flies turn a perfumer’s oil rancid, so a little..."
+        ],
+        "6": [
+          "foolishness is set in many exalted places while the rich..."
+        ],
+        "16": [
+          "king"
+        ],
+        "17": [
+          "king"
+        ],
+        "20": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Kingdom",
+          "detail": "Nehemiah 13:26",
+          "anchorVerse": 1,
+          "referenceLabel": "Nehemiah 13:26"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "Ancient Near Eastern honor-shame cultures placed enormous value on reputation. A wise person'...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 1 historical",
+          "detail": "Gregory of Neocaesarea: Moreover, flies falling into myrrh, and suffocated therein, make both...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "Ancient honor-shame cultures were intensely hierarchical. Social position determined access t...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"What comfort does it bring to know God sees true worth even when earthly systems invert prope...\". Word-study detail reinforces \"יֵשֵֽׁבוּ׃: sit - properly, to sit down (specifically as judge. in ambush, in quiet); by impl...\".",
+      "supportingVerses": [
+        4,
+        6
+      ],
+      "versePhrases": {
+        "4": [
+          "rest"
+        ],
+        "6": [
+          "foolishness is set in many exalted places while the rich..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ancient Near Eastern monarchies granted rulers nearly absolute power—royal anger could mean i...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 6 commentary",
+          "detail": "What comfort does it bring to know God sees true worth even when earthly systems invert prope...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 6 historical",
+          "detail": "GK Chesterton on A Miscellany of Men, The Fool (1912): He had a hundred virtues, including th...",
+          "anchorVerse": 6
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 6 word study",
+          "detail": "יֵשֵֽׁבוּ׃: sit - properly, to sit down (specifically as judge. in ambush, in quiet); by impl...",
+          "anchorVerse": 6
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "label": "Grace/Mercy",
+      "color": "#2563eb",
+      "tier": "Strong",
+      "summary": "This chapter highlights undeserved favor, mercy, forgiveness, compassion, or pardon. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The words of a wise man's mouth are gracious —the Hebrew divrei pi-chakham chen (דִּבְרֵי פִי...\". Cross references echo \"Grace\".",
+      "supportingVerses": [
+        12
+      ],
+      "versePhrases": {
+        "12": [
+          "gracious"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Grace",
+          "detail": "Colossians 4:6",
+          "anchorVerse": 12,
+          "referenceLabel": "Colossians 4:6"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "The words of a wise man's mouth are gracious —the Hebrew divrei pi-chakham chen (דִּבְרֵי פִי...",
+          "anchorVerse": 12
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 12 word study",
+          "detail": "חֵ֑ן: are gracious - graciousness, i.e., subjective (kindness, favor) or objective (beauty)",
+          "anchorVerse": 12
+        }
+      ]
+    }
+  ]
+}

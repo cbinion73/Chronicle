@@ -1,0 +1,248 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Deuteronomy",
+  "chapter": 27,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:12.606Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And Moses with the elders of Israel commanded the people, saying, Keep all the commandments w...\". Word-study detail reinforces \"וְשָׁ֣מַעְתָּ֔: Thou shalt therefore obey - to hear intelligently (often with implication of...\".",
+      "supportingVerses": [
+        1,
+        4,
+        10,
+        26
+      ],
+      "versePhrases": {
+        "1": [
+          "Keep"
+        ],
+        "4": [
+          "as I am commanding you today"
+        ],
+        "10": [
+          "obey",
+          "statutes"
+        ],
+        "26": [
+          "‘Cursed is anyone who does not fulfill the words of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 1 commentary",
+          "detail": "And Moses with the elders of Israel commanded the people, saying, Keep all the commandments w...",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 1 word study",
+          "detail": "הַמִּצְוָ֔ה: all the commandments - a command, whether human or divine (collectively, the law)",
+          "anchorVerse": 1
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Therefore it shall be when ye be gone over Jordan, that ye shall set up these stones, which I...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "מְצַוֶּ֥ה: which I command - (intensively) to constitute, enjoin",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "righteousness",
+      "label": "Righteousness",
+      "color": "#1d4ed8",
+      "tier": "Strong",
+      "summary": "This chapter presses into righteousness, justice, uprightness, or holy living before God. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"Cursed be he that perverteth the judgment of the stranger, fatherless, and widow —The Hebrew...\".",
+      "supportingVerses": [
+        3,
+        15,
+        19,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "just"
+        ],
+        "15": [
+          "‘Cursed is the person who makes a carved image or..."
+        ],
+        "19": [
+          "justice"
+        ],
+        "26": [
+          "‘Cursed is anyone who does not fulfill the words of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Cursed be the man that maketh any graven or molten image —This first curse addresses idolatry...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on St. Jerome, Commentary on Daniel, CHAPTER FIVE: [Daniel 5:4] \"They were drinking wi...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow —The Hebrew...",
+          "anchorVerse": 19
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "What does the comprehensive nature of this curse teach about God's holiness and justice?",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "covenant",
+      "label": "Covenant",
+      "color": "#a16207",
+      "tier": "Strong",
+      "summary": "This chapter points to covenant, promise, oath, inheritance, or the enduring faithfulness of God. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"And thou shalt write upon them all the words of this law, when thou art passed over, that tho...\". Cross references echo \"Covenant\".",
+      "supportingVerses": [
+        3,
+        12,
+        26
+      ],
+      "versePhrases": {
+        "3": [
+          "promised"
+        ],
+        "12": [
+          "bless"
+        ],
+        "26": [
+          "‘Cursed is anyone who does not fulfill the words of..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Covenant",
+          "detail": "Hebrews 10:16",
+          "anchorVerse": 3,
+          "referenceLabel": "Hebrews 10:16"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "And thou shalt write upon them all the words of this law, when thou art passed over, that tho...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "דִּבֶּ֛ר: hath promised - perhaps properly, to arrange; but used figuratively (of words), to...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 12 commentary",
+          "detail": "These shall stand upon mount Gerizim to bless the people —The six tribes positioned on Gerizi...",
+          "anchorVerse": 12
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"Cursed be he that perverteth the judgment of the stranger, fatherless, and widow —The Hebrew...\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        15,
+        19
+      ],
+      "versePhrases": {
+        "15": [
+          "‘Cursed is the person who makes a carved image or..."
+        ],
+        "19": [
+          "justice"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "Cursed be the man that maketh any graven or molten image —This first curse addresses idolatry...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 15 historical",
+          "detail": "Jerome on St. Jerome, Commentary on Daniel, CHAPTER FIVE: [Daniel 5:4] \"They were drinking wi...",
+          "anchorVerse": 15
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Deuteronomy 10:18",
+          "anchorVerse": 19,
+          "referenceLabel": "Deuteronomy 10:18"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 19 commentary",
+          "detail": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow —The Hebrew...",
+          "anchorVerse": 19
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"And thou shalt offer peace offerings, and shalt eat there, and rejoice before the LORD thy Go...\". Cross references echo \"Peace\".",
+      "supportingVerses": [
+        7
+      ],
+      "versePhrases": {
+        "7": [
+          "peace"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Peace",
+          "detail": "Acts 10:36",
+          "anchorVerse": 7,
+          "referenceLabel": "Acts 10:36"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "And thou shalt offer peace offerings, and shalt eat there, and rejoice before the LORD thy Go...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "שְׁלָמִ֖ים: peace offerings - properly, requital, i.e., a (voluntary) sacrifice in thanks",
+          "anchorVerse": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 18,
+  "translation": "nasb",
+  "generatedAt": "2026-05-01T05:56:08.722Z",
+  "themes": [
+    {
+      "id": "obedience",
+      "label": "Obedience",
+      "color": "#059669",
+      "tier": "Explicit",
+      "summary": "This chapter stresses hearing, keeping, following, or walking in God’s commands. Local Strong’s word study and cross references data reinforce this reading across 5 verses. Commentary leans on \"Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God....\". Word-study detail reinforces \"חֻקֹּתַי֙: my statutes - a statute\".",
+      "supportingVerses": [
+        3,
+        4,
+        5,
+        26,
+        30
+      ],
+      "versePhrases": {
+        "3": [
+          "statutes"
+        ],
+        "4": [
+          "keep",
+          "statutes"
+        ],
+        "5": [
+          "keep",
+          "statutes"
+        ],
+        "26": [
+          "keep",
+          "statutes"
+        ],
+        "30": [
+          "keep"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 3 commentary",
+          "detail": "How does understanding the purpose behind God's laws help you obey Him from the heart rather...",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 3 word study",
+          "detail": "וּבְחֻקֹּֽתֵיהֶ֖ם: in their ordinances - a statute",
+          "anchorVerse": 3
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God....",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "חֻקֹּתַ֥י: mine ordinances - a statute",
+          "anchorVerse": 4
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "label": "Judgment",
+      "color": "#b91c1c",
+      "tier": "Strong",
+      "summary": "This chapter addresses wrath, judgment, condemnation, justice, or divine reckoning. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"How does this verse help you understand both God's justice and His mercy in salvation?\". Cross references echo \"Judgment\".",
+      "supportingVerses": [
+        4,
+        5,
+        25,
+        26
+      ],
+      "versePhrases": {
+        "4": [
+          "You are to perform My judgments and keep My statutes"
+        ],
+        "5": [
+          "So you shall keep My statutes and My judgments"
+        ],
+        "25": [
+          "punishment"
+        ],
+        "26": [
+          "you are to keep My statutes and My judgments"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Deuteronomy 6:1",
+          "anchorVerse": 4,
+          "referenceLabel": "Deuteronomy 6:1"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "How does this verse help you understand both God's justice and His mercy in salvation?",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Judgment",
+          "detail": "Ezekiel 20:11",
+          "anchorVerse": 5,
+          "referenceLabel": "Ezekiel 20:11"
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 5 commentary",
+          "detail": "How does this verse help you understand both God's justice and His mercy in salvation?",
+          "anchorVerse": 5
+        }
+      ]
+    },
+    {
+      "id": "new-birth",
+      "label": "New Birth",
+      "color": "#7c3aed",
+      "tier": "Inferred",
+      "summary": "This chapter emphasizes regeneration, new life, spiritual birth, or becoming God’s children.",
+      "supportingVerses": [
+        18
+      ],
+      "versePhrases": {
+        "18": [
+          "alive"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "strongs",
+          "label": "Verse 18 word study",
+          "detail": "בְּחַיֶּֽיהָ׃: beside the other in her life - alive; hence, raw (flesh); fresh (plant, water,...",
+          "anchorVerse": 18
+        }
+      ]
+    }
+  ]
+}

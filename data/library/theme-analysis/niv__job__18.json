@@ -1,0 +1,159 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Job",
+  "chapter": 18,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:54.472Z",
+  "themes": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Explicit",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 7 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIV: Shall not the light of the wick...\". Cross references echo \"Light\".",
+      "supportingVerses": [
+        4,
+        5,
+        6,
+        10,
+        14,
+        17,
+        18
+      ],
+      "versePhrases": {
+        "4": [
+          "earth"
+        ],
+        "5": [
+          "“The lamp of a wicked man is snuffed out"
+        ],
+        "6": [
+          "light"
+        ],
+        "10": [
+          "A noose is hidden for him on the ground"
+        ],
+        "14": [
+          "He is torn from the security of his tent and..."
+        ],
+        "17": [
+          "earth"
+        ],
+        "18": [
+          "light"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 4 commentary",
+          "detail": "Bildad challenges Job: 'He teareth himself in his anger: shall the earth be forsaken for thee...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 4 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIV: Why dost thou ruin thy soul in...",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 4 word study",
+          "detail": "אָ֑רֶץ: shall the earth - the earth (at large, or partitively a land)",
+          "anchorVerse": 4
+        },
+        {
+          "kind": "cross_reference",
+          "label": "Light",
+          "detail": "Proverbs 13:9",
+          "anchorVerse": 5,
+          "referenceLabel": "Proverbs 13:9"
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "label": "Guidance",
+      "color": "#0369a1",
+      "tier": "Strong",
+      "summary": "This chapter emphasizes leading, direction, teaching, or the path God sets before His people. Local Strong’s word study and cross references data reinforce this reading across 3 verses. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIV: The steps of his strength shalt...\". Word-study detail reinforces \"עֲצָתֽוֹ׃: and his own counsel - advice; by implication, plan; also prudence\".",
+      "supportingVerses": [
+        7,
+        10,
+        14
+      ],
+      "versePhrases": {
+        "7": [
+          "The vigor of his step is weakened"
+        ],
+        "10": [
+          "path"
+        ],
+        "14": [
+          "He is torn from the security of his tent and..."
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 7 commentary",
+          "detail": "The steps of his strength shall be straitened, and his own counsel shall cast him down —Bilda...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 7 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIV: The steps of his strength shalt...",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 7 word study",
+          "detail": "עֲצָתֽוֹ׃: and his own counsel - advice; by implication, plan; also prudence",
+          "anchorVerse": 7
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 10 commentary",
+          "detail": "Ancient hunting involved both concealed ground traps (covered pits) and path traps (snares ac...",
+          "anchorVerse": 10
+        }
+      ]
+    },
+    {
+      "id": "kingdom",
+      "label": "Kingdom",
+      "color": "#1d4ed8",
+      "tier": "Inferred",
+      "summary": "This chapter stresses reign, kingdom, throne, rule, or the authority of God and His Christ. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"Gregory the Dialogist on Morals on the Book of Job, Book XIV: Let his confidence be rooted ou...\". Word-study detail reinforces \"לְמֶ֣לֶךְ: him to the king - a king\".",
+      "supportingVerses": [
+        14
+      ],
+      "versePhrases": {
+        "14": [
+          "king"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 14 commentary",
+          "detail": "His confidence shall be rooted out of his tabernacle, and it shall bring him to the king of t...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 14 historical",
+          "detail": "Gregory the Dialogist on Morals on the Book of Job, Book XIV: Let his confidence be rooted ou...",
+          "anchorVerse": 14
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 14 word study",
+          "detail": "לְמֶ֣לֶךְ: him to the king - a king",
+          "anchorVerse": 14
+        }
+      ]
+    }
+  ]
+}

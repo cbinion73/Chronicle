@@ -1,0 +1,38 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "1 Samuel",
+  "chapter": 31,
+  "translation": "amp",
+  "generatedAt": "2026-05-01T05:46:06.373Z",
+  "themes": [
+    {
+      "id": "suffering",
+      "label": "Suffering",
+      "color": "#9f1239",
+      "tier": "Strong",
+      "summary": "This chapter deals with affliction, sorrow, trial, lament, endurance, or hardship. Local Strong’s word study and cross references data reinforce this reading across 1 verse. Commentary leans on \"The final verse provides dignified conclusion: proper burial 'under a tree at Jabesh' and sev...\".",
+      "supportingVerses": [
+        13
+      ],
+      "versePhrases": {
+        "13": [
+          "mourning"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 13 commentary",
+          "detail": "The final verse provides dignified conclusion: proper burial 'under a tree at Jabesh' and sev...",
+          "anchorVerse": 13
+        },
+        {
+          "kind": "historical_commentary",
+          "label": "Verse 13 historical",
+          "detail": "Bede on Commentary on Samuel: And they fasted for seven days. Literally and rightly for the d...",
+          "anchorVerse": 13
+        }
+      ]
+    }
+  ]
+}

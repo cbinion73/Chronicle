@@ -1,0 +1,109 @@
+{
+  "version": "2026-05-01-graph-v2",
+  "book": "Leviticus",
+  "chapter": 8,
+  "translation": "niv",
+  "generatedAt": "2026-05-01T05:49:28.616Z",
+  "themes": [
+    {
+      "id": "provision",
+      "label": "Provision",
+      "color": "#d97706",
+      "tier": "Explicit",
+      "summary": "This chapter emphasizes God’s supplying care, nourishment, sufficiency, or generous provision. Local Strong’s word study and cross references data reinforce this reading across 4 verses. Commentary leans on \"And out of the basket of unleavened bread, that was before the LORD, he took one unleavened c...\". Word-study detail reinforces \"לֶ֥חֶם: bread - food (for man or beast), especially bread, or grain (for making it)\".",
+      "supportingVerses": [
+        2,
+        26,
+        31,
+        32
+      ],
+      "versePhrases": {
+        "2": [
+          "bread"
+        ],
+        "26": [
+          "bread"
+        ],
+        "31": [
+          "bread"
+        ],
+        "32": [
+          "bread"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 2 commentary",
+          "detail": "Take Aaron and his sons with him, and the garments, and the anointing oil, and a bullock for...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 2 word study",
+          "detail": "הַמַּצּֽוֹת׃: of unleavened bread - properly, sweetness; concretely, sweet (i.e., not soured...",
+          "anchorVerse": 2
+        },
+        {
+          "kind": "commentary",
+          "label": "Verse 26 commentary",
+          "detail": "And out of the basket of unleavened bread, that was before the LORD, he took one unleavened c...",
+          "anchorVerse": 26
+        },
+        {
+          "kind": "strongs",
+          "label": "Verse 26 word study",
+          "detail": "לֶ֥חֶם: bread - food (for man or beast), especially bread, or grain (for making it)",
+          "anchorVerse": 26
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "label": "Peace/Rest",
+      "color": "#4f46e5",
+      "tier": "Strong",
+      "summary": "This chapter offers peace, rest, stillness, comfort, or settled safety in God. Local Strong’s word study and cross references data reinforce this reading across 2 verses. Commentary leans on \"And he slew it; and Moses took the blood, and put it upon the horns of the altar round about...\".",
+      "supportingVerses": [
+        15,
+        32
+      ],
+      "versePhrases": {
+        "15": [
+          "rest"
+        ],
+        "32": [
+          "rest"
+        ]
+      },
+      "evidenceTrail": [
+        {
+          "kind": "commentary",
+          "label": "Verse 15 commentary",
+          "detail": "And he slew it; and Moses took the blood, and put it upon the horns of the altar round about...",
+          "anchorVerse": 15
+        }
+      ]
+    },
+    {
+      "id": "creation",
+      "label": "Creation",
+      "color": "#0f766e",
+      "tier": "Strong",
+      "summary": "This chapter underscores creation, the heavens and earth, or God’s creative ordering work. Local Strong’s word study and cross references data reinforce this reading across 2 verses.",
+      "supportingVerses": [
+        2,
+        26
+      ],
+      "versePhrases": {
+        "2": [
+          "made"
+        ],
+        "26": [
+          "made"
+        ]
+      },
+      "evidenceTrail": []
+    }
+  ]
+}
