@@ -11,7 +11,7 @@ import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { CHRONICLE_AGENT_MODE_DEFS, type ChronicleAgentMode } from '../store/aiChatStore';
 import { CHRONICLE_PERSONAS, type ChroniclePersonaId } from '../lib/chroniclePersonas';
 import { CHRONICLE_APP_VERSION, CHRONICLE_BUILD_LABEL, CHRONICLE_MOTTO, CHRONICLE_ONBOARDING_STEPS, CHRONICLE_TAGLINE } from '../lib/chronicleBrand';
-import { askHomeAssistantVoice, fetchVoiceStatus, generateLiveKitVoiceToken, type ChronicleVoiceStatusPayload } from '../lib/voice';
+import { askHomeAssistantVoice, fetchVoiceStatus, type ChronicleVoiceStatusPayload } from '../lib/voice';
 
 const CATEGORIES = [
   { id: 'profile', label: 'Profile', icon: '👤' },
@@ -443,7 +443,6 @@ export default function Settings() {
   const [voiceStatusBusy, setVoiceStatusBusy] = useState(false);
   const [homeAssistantPrompt, setHomeAssistantPrompt] = useState('Turn on the porch light and tell me one calm sentence for the evening.');
   const [homeAssistantReply, setHomeAssistantReply] = useState('');
-  const [liveKitPreview, setLiveKitPreview] = useState<{ url: string; roomName: string; participantName: string; agentName: string; token: string } | null>(null);
   const [voiceActionBusy, setVoiceActionBusy] = useState<'home-assistant' | 'livekit' | null>(null);
   const snapshotImportInputRef = useRef<HTMLInputElement | null>(null);
   const [studyImportJob, setStudyImportJob] = useState<{
@@ -585,7 +584,16 @@ export default function Settings() {
   }, [activeCategory, chronicleEntries.length, ownedBooks.length, setPageContext, setSelectedAgentMode, theme, translation]);
 
   const toggle = (key: keyof typeof toggles) => {
-    setToggles((prev) => ({ ...prev, [key]: !prev[key] }));
+    setToggles((prev) => {
+      const next = { ...prev, [key]: !prev[key] };
+      // Notification permission must be requested from a real user gesture (this
+      // click) — requesting it later from a background effect gets silently
+      // ignored or denied by most browsers.
+      if (key === 'morningReminder' && next.morningReminder && typeof Notification !== 'undefined' && Notification.permission === 'default') {
+        void Notification.requestPermission();
+      }
+      return next;
+    });
   };
 
   // Hydrate from /api/data/settings on mount so "Changes saved automatically" is
@@ -858,19 +866,6 @@ export default function Settings() {
     }
   }
 
-  async function generateVoiceSessionToken() {
-    setVoiceActionBusy('livekit');
-    try {
-      const payload = await generateLiveKitVoiceToken(voiceConfig);
-      setLiveKitPreview(payload);
-      addToast('Generated a LiveKit session token for Chronicle voice.', 'success', '🎙️');
-    } catch (error) {
-      const message = error instanceof Error ? error.message : 'LiveKit token generation failed.';
-      addToast(message, 'warning', 'AI');
-    } finally {
-      setVoiceActionBusy(null);
-    }
-  }
 
   async function runWorkbookSync() {
     setWorkbookAuditActionBusy('sync');
@@ -2098,7 +2093,7 @@ export default function Settings() {
                 </div>
               </Group>
               <Group>
-                <GroupHeader title="LiveKit Sessions" desc="Chronicle can mint room tokens locally so your phone, iPad, and desktop can join the same voice session when you are ready." />
+                <GroupHeader title="LiveKit Sessions" desc="Coming soon — Chronicle can mint a session token, but there's no in-app caller yet that joins a room with it." />
                 <SettingRow label="LiveKit URL" desc="Usually wss://... for cloud or ws://... for your own deployment.">
                   <TextInput value={voiceConfig.liveKit.url} onChange={(value) => updateVoiceConfig({ liveKit: { url: value } })} />
                 </SettingRow>
@@ -2117,21 +2112,15 @@ export default function Settings() {
                 <div style={{ padding: '13px 18px', borderTop: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <button
                     type="button"
-                    onClick={() => void generateVoiceSessionToken()}
-                    disabled={voiceActionBusy === 'livekit'}
-                    style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: voiceActionBusy === 'livekit' ? 'default' : 'pointer', opacity: voiceActionBusy === 'livekit' ? 0.7 : 1, justifySelf: 'start' }}
+                    disabled
+                    title="Voice calling is coming soon — there's no in-app caller yet"
+                    style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text-muted)', fontSize: 12, fontWeight: 700, cursor: 'not-allowed', opacity: 0.6, justifySelf: 'start' }}
                   >
-                    {voiceActionBusy === 'livekit' ? 'Generating…' : 'Generate LiveKit Session Token'}
+                    Voice Calling — Coming Soon
                   </button>
-                  {liveKitPreview && (
-                    <div style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 4 }}>
-                      <div style={{ fontSize: 11, color: 'var(--text-sub)' }}>URL: <strong style={{ color: 'var(--text)' }}>{liveKitPreview.url}</strong></div>
-                      <div style={{ fontSize: 11, color: 'var(--text-sub)' }}>Room: <strong style={{ color: 'var(--text)' }}>{liveKitPreview.roomName}</strong></div>
-                      <div style={{ fontSize: 11, color: 'var(--text-sub)' }}>Participant: <strong style={{ color: 'var(--text)' }}>{liveKitPreview.participantName}</strong></div>
-                      <div style={{ fontSize: 11, color: 'var(--text-sub)' }}>Agent: <strong style={{ color: 'var(--text)' }}>{liveKitPreview.agentName}</strong></div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>Chronicle keeps the full token only in-memory. This preview confirms your backend can mint one safely.</div>
-                    </div>
-                  )}
+                  <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                    This configuration is saved for when Chronicle adds a real-time voice caller. Minting a token here wouldn&apos;t connect you to anything yet, so that action is disabled for now.
+                  </div>
                 </div>
               </Group>
               <Group>
@@ -2301,7 +2290,7 @@ export default function Settings() {
                 <SettingRow label="Morning Reminder" desc="Gentle nudge to open Chronicle">
                   <Toggle checked={toggles.morningReminder} onChange={() => toggle('morningReminder')} />
                 </SettingRow>
-                <SettingRow label="Reminder Time">
+                <SettingRow label="Reminder Time" desc="Only fires while Chronicle is open in a browser tab — not a background/OS notification">
                   <input
                     type="time"
                     value={profile.reminderTime}

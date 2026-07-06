@@ -70,6 +70,7 @@ interface AppState {
   toggleTheme: () => void;
   setActiveTab: (tab: NavTab) => void;
   setTranslation: (t: string) => void;
+  setActivePlan: (name: string, totalDays: number) => void;
   setBibleView: (nextView: Partial<BibleViewState>) => void;
   setActiveStudyModule: (moduleId: string) => void;
   setStudyModuleDay: (moduleId: string, day: number) => void;
@@ -487,6 +488,7 @@ export const useAppStore = create<AppState>()(
       },
       setActiveTab: (tab) => set({ activeTab: tab }),
       setTranslation: (translation) => set({ translation }),
+      setActivePlan: (name, totalDays) => set({ currentPlanName: name, currentPlanDay: 1, currentPlanTotal: totalDays }),
       setBibleView: (nextView) =>
         set((state) => ({
           bibleView: {

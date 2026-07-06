@@ -67,6 +67,19 @@
   flex: 1;
 }
 
+.navGroup {
+  margin-bottom: 6px;
+}
+
+.navGroupLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 10px 20px 4px;
+}
+
 .navItem {
   display: flex;
   align-items: center;
@@ -210,6 +223,17 @@
     overflow-x: auto;
     padding: 8px 10px 12px;
     flex: 0 0 auto;
+  }
+
+  /* Groups exist for desktop/tablet wayfinding only — on a narrow phone the
+     nav is a single horizontal scroll strip, so unwrap the group divs rather
+     than let them break the flex row into separate lines. */
+  .navGroup {
+    display: contents;
+  }
+
+  .navGroupLabel {
+    display: none;
   }
 
   .navItem {

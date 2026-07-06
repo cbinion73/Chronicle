@@ -1717,86 +1717,92 @@ export default function Bible() {
                 <option key={option.providerId} value={option.providerId}>{option.label}</option>
               ))}
             </select>
-            <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{currentProviderLabel}</span>
+            {!isPhone && <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{currentProviderLabel}</span>}
+            {/* One reading mode is active at a time — styled as a single connected
+                segmented control (shared border, no gaps) rather than four
+                independent-looking buttons, since picking one silently turns the
+                others off. */}
+            <div style={{ display: 'flex', border: '1px solid var(--border)', borderRadius: 7, overflow: 'hidden', opacity: chapterData ? 1 : 0.6 }}>
+              <button
+                style={{
+                  padding: isPhone ? '5px 9px' : '5px 12px',
+                  border: 'none',
+                  borderRight: '1px solid var(--border)',
+                  fontSize: 12,
+                  fontWeight: 500,
+                  background: overlayOn ? 'var(--accent-green)' : 'var(--card-inner)',
+                  color: overlayOn ? 'white' : 'var(--text-sub)',
+                  cursor: 'pointer',
+                  transition: 'all 0.15s',
+                }}
+                onClick={handleOverlayToggle}
+                disabled={!chapterData}
+                title="Theme Overlay — highlights the theological themes Chronicle finds in this chapter, verse by verse"
+              >
+                {loadingThemes ? '…' : '✦'}{!isPhone && ' Theme Overlay'}
+              </button>
+              <button
+                style={{
+                  padding: isPhone ? '5px 9px' : '5px 12px',
+                  border: 'none',
+                  borderRight: '1px solid var(--border)',
+                  fontSize: 12,
+                  fontWeight: 500,
+                  background: echoesOn ? 'var(--accent-blue, #2563eb)' : 'var(--card-inner)',
+                  color: echoesOn ? 'white' : 'var(--text-sub)',
+                  cursor: 'pointer',
+                  transition: 'all 0.15s',
+                }}
+                onClick={handleEchoesToggle}
+                disabled={!chapterData}
+                title="Echoes — surfaces phrases and ideas elsewhere in Scripture that echo this passage"
+              >
+                {loadingEchoes ? '…' : '↔'}{!isPhone && ' Echoes'}
+              </button>
+              <button
+                style={{
+                  padding: isPhone ? '5px 9px' : '5px 12px',
+                  border: 'none',
+                  borderRight: '1px solid var(--border)',
+                  fontSize: 12,
+                  fontWeight: 500,
+                  background: studyColorsOn ? '#7c3aed' : 'var(--card-inner)',
+                  color: studyColorsOn ? 'white' : 'var(--text-sub)',
+                  cursor: 'pointer',
+                  transition: 'all 0.15s',
+                }}
+                onClick={handleStudyColorsToggle}
+                disabled={!chapterData}
+                title="Study Colors — a simpler color-coded reading layer with no theological analysis, just visual grouping"
+              >
+                {studyColorsOn ? '●' : '◌'}{!isPhone && ' Study Colors'}
+              </button>
+              <button
+                style={{
+                  padding: isPhone ? '5px 9px' : '5px 12px',
+                  border: 'none',
+                  fontSize: 12,
+                  fontWeight: 500,
+                  background: greekOn ? '#4338ca' : 'var(--card-inner)',
+                  color: greekOn ? 'white' : 'var(--text-sub)',
+                  cursor: supportsGreek ? 'pointer' : 'not-allowed',
+                  transition: 'all 0.15s',
+                  opacity: supportsGreek ? 1 : 0.45,
+                }}
+                onClick={handleGreekToggle}
+                disabled={!supportsGreek}
+                title={supportsGreek ? 'Greek / Word Study — follows the New Testament Greek behind this passage' : 'Greek word study is available for New Testament passages'}
+              >
+                {loadingGreek ? '…' : 'α'}{!isPhone && ' Greek'}
+              </button>
+            </div>
             <button
-              style={{
-                padding: '5px 12px',
-                border: '1px solid var(--border)',
-                borderRadius: 7,
-                fontSize: 12,
-                fontWeight: 500,
-                background: overlayOn ? 'var(--accent-green)' : 'var(--card-inner)',
-                color: overlayOn ? 'white' : 'var(--text-sub)',
-                cursor: 'pointer',
-                transition: 'all 0.15s',
-                opacity: chapterData ? 1 : 0.6,
-              }}
-              onClick={handleOverlayToggle}
-              disabled={!chapterData}
-            >
-              {loadingThemes ? '…' : '✦'} Theme Overlay
-            </button>
-            <button
-              style={{
-                padding: '5px 12px',
-                border: '1px solid var(--border)',
-                borderRadius: 7,
-                fontSize: 12,
-                fontWeight: 500,
-                background: echoesOn ? 'var(--accent-blue, #2563eb)' : 'var(--card-inner)',
-                color: echoesOn ? 'white' : 'var(--text-sub)',
-                cursor: 'pointer',
-                transition: 'all 0.15s',
-                opacity: chapterData ? 1 : 0.6,
-              }}
-              onClick={handleEchoesToggle}
-              disabled={!chapterData}
-            >
-              {loadingEchoes ? '…' : '↔'} Echoes
-            </button>
-            <button
-              style={{
-                padding: '5px 12px',
-                border: '1px solid var(--border)',
-                borderRadius: 7,
-                fontSize: 12,
-                fontWeight: 500,
-                background: studyColorsOn ? '#7c3aed' : 'var(--card-inner)',
-                color: studyColorsOn ? 'white' : 'var(--text-sub)',
-                cursor: 'pointer',
-                transition: 'all 0.15s',
-                opacity: chapterData ? 1 : 0.6,
-              }}
-              onClick={handleStudyColorsToggle}
-              disabled={!chapterData}
-            >
-              {studyColorsOn ? '●' : '◌'} Study Colors
-            </button>
-            <button
-              style={{
-                padding: '5px 12px',
-                border: '1px solid var(--border)',
-                borderRadius: 7,
-                fontSize: 12,
-                fontWeight: 500,
-                background: greekOn ? '#4338ca' : 'var(--card-inner)',
-                color: greekOn ? 'white' : 'var(--text-sub)',
-                cursor: supportsGreek ? 'pointer' : 'not-allowed',
-                transition: 'all 0.15s',
-                opacity: supportsGreek ? 1 : 0.45,
-              }}
-              onClick={handleGreekToggle}
-              disabled={!supportsGreek}
-              title={supportsGreek ? 'Open Greek / word study layer' : 'Greek word study is available for New Testament passages'}
-            >
-              {loadingGreek ? '…' : 'α'} Greek
-            </button>
-            <button
-              style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'var(--card-inner)', cursor: chapterData && !loadingThemes ? 'pointer' : 'not-allowed', opacity: chapterData ? 1 : 0.6 }}
+              style={{ padding: isPhone ? '5px 8px' : '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'var(--card-inner)', cursor: chapterData && !loadingThemes ? 'pointer' : 'not-allowed', opacity: chapterData ? 1 : 0.6 }}
               onClick={handleRefreshThemes}
               disabled={!chapterData || loadingThemes}
+              title="Refresh Themes"
             >
-              {loadingThemes ? 'Refreshing…' : 'Refresh Themes'}
+              {loadingThemes ? '…' : isPhone ? '↻' : 'Refresh Themes'}
             </button>
           </div>
         </div>
@@ -2472,27 +2478,29 @@ export default function Bible() {
             {panelMode === 'themes' && <div style={{ marginTop: 14, padding: '10px 12px', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>
               Theme overlay now highlights the specific phrases carrying each theme, rather than painting the whole passage.
             </div>}
-            {panelMode === 'themes' && <div style={{ marginTop: 10, padding: '10px 12px', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, display: 'grid', gap: 6 }}>
-              <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.04em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
+            {panelMode === 'themes' && <details style={{ marginTop: 10, padding: '10px 12px', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8 }}>
+              <summary style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.04em', textTransform: 'uppercase', color: 'var(--text-muted)', cursor: 'pointer' }}>
                 Evidence Posture
+              </summary>
+              <div style={{ marginTop: 6, display: 'grid', gap: 6 }}>
+                <div style={{ fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>
+                  {meaningReflection.evidencePosture}
+                </div>
+                <div style={{ fontSize: 11, color: evidenceSummary.strength === 'thin' ? 'var(--accent-amber)' : 'var(--text-sub)', lineHeight: 1.5 }}>
+                  {meaningReflection.confidenceNote}
+                </div>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  {evidenceSummary.evidenceKinds.map((kind) => (
+                    <span
+                      key={kind}
+                      style={{ padding: '3px 8px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-bg)', fontSize: 10, fontWeight: 700, color: 'var(--text-sub)' }}
+                    >
+                      {kind.replace(/_/g, ' ')}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <div style={{ fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>
-                {meaningReflection.evidencePosture}
-              </div>
-              <div style={{ fontSize: 11, color: evidenceSummary.strength === 'thin' ? 'var(--accent-amber)' : 'var(--text-sub)', lineHeight: 1.5 }}>
-                {meaningReflection.confidenceNote}
-              </div>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                {evidenceSummary.evidenceKinds.map((kind) => (
-                  <span
-                    key={kind}
-                    style={{ padding: '3px 8px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-bg)', fontSize: 10, fontWeight: 700, color: 'var(--text-sub)' }}
-                  >
-                    {kind.replace(/_/g, ' ')}
-                  </span>
-                ))}
-              </div>
-            </div>}
+            </details>}
             <div style={{ marginTop: panelMode === 'themes' ? 10 : 0, padding: '10px 12px', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>
               Chronicle is now reading from your local Bible library. Installed local providers: {providerOptions.length || 0}
             </div>
@@ -2700,10 +2708,11 @@ export default function Bible() {
               </div>
             )}
             {panelMode === 'themes' && themes.length > 0 && <div style={{ marginTop: 10, padding: '12px', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, display: 'grid', gap: 8 }}>
-              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.04em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
-                Meaning & Formation
-              </div>
-              <div style={{ display: 'grid', gap: 7, fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.55 }}>
+            <details>
+              <summary style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.04em', textTransform: 'uppercase', color: 'var(--text-muted)', cursor: 'pointer' }}>
+                Meaning & Formation, Passage Synthesis, and Canonical Thread
+              </summary>
+              <div style={{ marginTop: 10, display: 'grid', gap: 7, fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.55 }}>
                 <div><strong style={{ color: 'var(--text)' }}>What this chapter is doing:</strong> {meaningReflection.mainMovement}</div>
                 <div><strong style={{ color: 'var(--text)' }}>Why it says it here:</strong> {meaningReflection.whyHere}</div>
                 <div><strong style={{ color: 'var(--text)' }}>Where this fits in God&apos;s plan:</strong> {meaningReflection.redemptivePlace}</div>
@@ -2806,6 +2815,7 @@ export default function Bible() {
                   </div>
                 )}
               </div>
+            </details>
               <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                 <button
                   onClick={handlePrayThisChapter}

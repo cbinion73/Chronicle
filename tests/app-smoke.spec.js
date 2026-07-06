@@ -70,6 +70,11 @@ async function seedStructuredDiscipleshipBook(page, request) {
 
 test('chronicle app smoke flow', async ({ page, request }) => {
   const issues = collectRuntimeIssues(page);
+  // Chronicle now merges local-only items forward instead of clobbering them on
+  // each database fetch (a deliberate data-integrity fix), so any phantom
+  // localStorage state left over from a previous run of this same test would
+  // otherwise accumulate indefinitely instead of being wiped. Start clean.
+  await page.addInitScript(() => window.localStorage.removeItem('chronicle-app-state'));
   await seedStructuredDiscipleshipBook(page, request);
 
   await page.goto(appUrl('/'));
@@ -112,7 +117,7 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await page.getByRole('button', { name: 'Open Echoes' }).click();
   await expect(page.getByText(/canonical echoes and cross references from your local study library/i)).toBeVisible();
 
-  await primaryNavItem(page, 'Study').click();
+  await primaryNavItem(page, 'Daily Study').click();
   await expect(page.getByRole('button', { name: 'Open in Bible' })).toBeVisible();
   await page.getByRole('button', { name: 'Summarize today\'s study' }).click();
   await page.getByRole('button', { name: 'Save as Study' }).click();
@@ -120,17 +125,17 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await expect(page.getByText('Study · AI Study Questions').first()).toBeVisible();
   await page.getByRole('button', { name: 'Open Discipleship' }).first().click();
   await expect(page.getByText('Discipleship', { exact: true }).first()).toBeVisible();
-  await page.getByRole('navigation').getByText('Study', { exact: true }).click();
+  await page.getByRole('navigation').getByText('Daily Study', { exact: true }).click();
   await page.getByRole('button', { name: 'Turn Into Prayer' }).click();
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
   await expect(page.locator('textarea').first()).toContainText('Lord, use');
-  await primaryNavItem(page, 'Study').click();
+  await primaryNavItem(page, 'Daily Study').click();
   await page.getByRole('button', { name: 'Next', exact: true }).click();
   await expect(page.getByText('Day 2 ·', { exact: false })).toBeVisible();
 
   await primaryNavItem(page, 'Discipleship').click();
   await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('discipleship_coach');
-  await expect(page.getByRole('button', { name: /Workbook|Study/ }).first()).toBeVisible();
+  await expect(page.getByRole('button', { name: /Original Pages|Worksheet/ }).first()).toBeVisible();
   await primaryNavItem(page, 'Today').click();
   await page.getByRole('button', { name: 'Open Discipleship' }).first().click();
   await expect(page.getByText('Discipleship', { exact: true }).first()).toBeVisible();
@@ -138,8 +143,8 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
   await expect(page.locator('textarea').first()).toContainText('form me through');
   await primaryNavItem(page, 'Discipleship').click();
-  await expect(page.getByRole('button', { name: 'Workbook', exact: true })).toBeVisible();
-  await page.getByRole('button', { name: 'Workbook', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Original Pages', exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Original Pages', exact: true }).click();
   await expect(page.getByText('Workbook Mode')).toBeVisible();
   const mappedPageLabel = page.getByText(/^Page \d+/, { exact: false }).first();
   const workbookFallback = page.getByText(/No scanned source pages are available yet for this day/i).first();
@@ -160,14 +165,16 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await page.getByRole('button', { name: '+ Add Request' }).click();
   await page.getByPlaceholder('What would you like to bring before God?').fill('Playwright prayer request for app smoke test');
   await page.getByRole('button', { name: 'Add', exact: true }).click();
-  const prayerRequestCard = page.getByText('Playwright prayer request for app smoke test').locator('xpath=ancestor::div[contains(@style,"box-shadow")][1]');
+  // New prayer items are prepended in the store, so among any duplicates left
+  // over from prior runs of this test, .first() is always the one just added.
+  const prayerRequestCard = page.getByText('Playwright prayer request for app smoke test').locator('xpath=ancestor::div[contains(@style,"box-shadow")][1]').first();
   await expect(prayerRequestCard).toBeVisible();
   await prayerRequestCard.getByRole('button', { name: 'Mark Answered' }).click();
   await page.getByPlaceholder('Write the answer, provision, clarity, or change Chronicle should remember.').fill('Chronicle captured the answer during the smoke test.');
   await page.getByPlaceholder('Philippians 4:19').fill('Philippians 4:19');
   await page.getByRole('button', { name: 'Save Answer' }).click();
   await expect(page.getByText('Answered Prayers')).toBeVisible();
-  await expect(page.getByText('Chronicle captured the answer during the smoke test.', { exact: true })).toBeVisible();
+  await expect(page.getByText('Chronicle captured the answer during the smoke test.', { exact: true }).first()).toBeVisible();
 
   await primaryNavItem(page, 'Chronicle').click();
   await expect(page.getByText('Answered prayer — Playwright prayer request for app smoke').first()).toBeVisible();
@@ -182,14 +189,16 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await page.getByRole('button', { name: 'Psalm 23:2' }).click();
   await expect(page.getByText('Psalm 23').first()).toBeVisible();
   await primaryNavItem(page, 'Chronicle').click();
-  await page.getByRole('button', { name: 'Legacy View' }).evaluate((element) => element.click());
-  await expect(page.getByText('The Shape of Returning')).toBeVisible();
+  // Chronicle is now the raw daily log only — the narrated "Legacy View" tab was
+  // removed in favor of a cross-link to the dedicated Legacy page.
+  await page.getByRole('button', { name: 'Read Narrated Version →' }).click();
+  await expect(page.getByText('The Book of Chris').first()).toBeVisible();
 
   await primaryNavItem(page, 'Themes').click();
   await expect(page).toHaveURL(/\/themes/);
   await expect(page.locator('input[placeholder="Find a theme..."]').first()).toBeVisible();
 
-  await primaryNavItem(page, 'Plans').click();
+  await primaryNavItem(page, 'Reading Plans').click();
   await expect(page.getByText('Active Plan')).toBeVisible();
   await expect(page.getByText('Strongest Rhythm')).toBeVisible();
 
@@ -218,7 +227,7 @@ test('chronicle key surfaces stay usable on a phone-width viewport', async ({ pa
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
   await expect(page.getByText('Follow Up Queue')).toBeVisible();
 
-  await page.getByRole('navigation').getByText('Study', { exact: true }).click();
+  await page.getByRole('navigation').getByText('Daily Study', { exact: true }).click();
   await expect(page.getByText(/Day 1 ·/)).toBeVisible();
   await expect(page.getByRole('button', { name: 'Open in Bible' })).toBeVisible();
 

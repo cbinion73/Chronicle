@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
 import { answerLegacyQuestion, deriveLegacyChapters, deriveLegacyNarrative } from '../lib/formationAnalytics';
 import { useAIChatStore } from '../store/aiChatStore';
@@ -8,6 +9,7 @@ type LegacyMessage =
   | { role: 'assistant'; text: string; sources: string[] };
 
 export default function Legacy() {
+  const navigate = useNavigate();
   const { chronicleEntries } = useAppStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
@@ -51,7 +53,14 @@ export default function Legacy() {
       <div style={{ width: 230, minWidth: 230, borderRight: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
         <div style={{ padding: '14px 16px', borderBottom: '1px solid var(--border)', background: 'var(--card-inner)' }}>
           <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)', fontFamily: 'var(--font-serif)' }}>The Book of Chris</div>
-          <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 2 }}>A life walked with God</div>
+          <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 2 }}>A narrated life, drawn from your Chronicle</div>
+          <button
+            type="button"
+            onClick={() => navigate('/chronicle')}
+            style={{ marginTop: 8, padding: 0, background: 'none', border: 'none', color: 'var(--accent-blue)', fontSize: 11, fontWeight: 600, cursor: 'pointer' }}
+          >
+            ← See the raw daily log
+          </button>
         </div>
         <div style={{ flex: 1, overflowY: 'auto', padding: '8px 0' }}>
           {chapters.map((chapter) => (

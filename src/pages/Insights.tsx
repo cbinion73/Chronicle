@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
 import {
   deriveFormationSummary,
@@ -11,12 +12,22 @@ import {
   deriveSuggestions,
   deriveThemeSignals,
 } from '../lib/formationAnalytics';
+import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { useAIChatStore } from '../store/aiChatStore';
 
 export default function Insights() {
-  const { chronicleEntries, prayerItems, formationRhythms } = useAppStore();
+  const navigate = useNavigate();
+  const { chronicleEntries, prayerItems, formationRhythms, setBibleView } = useAppStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
+
+  function openSuggestionInBible(reference: string) {
+    const target = getBibleNavigationTarget(reference);
+    if (target) {
+      setBibleView({ book: target.book, chapter: target.chapter, overlayOn: false, showThemePanel: false });
+    }
+    navigate('/bible');
+  }
   const heatRef = useRef<HTMLDivElement>(null);
   const summary = useMemo(() => deriveFormationSummary(chronicleEntries), [chronicleEntries]);
   const patterns = useMemo(() => derivePatterns(chronicleEntries), [chronicleEntries]);
@@ -146,10 +157,16 @@ export default function Insights() {
                   { label: 'Open oldest', value: `${prayerFormation.oldestOpenDays}d` },
                   { label: 'Follow-up due', value: prayerFormation.followUpDueCount },
                 ].map((item) => (
-                  <div key={item.label} style={{ background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, padding: '10px 12px', textAlign: 'center' }}>
+                  <button
+                    key={item.label}
+                    type="button"
+                    onClick={() => navigate('/prayer')}
+                    title="Open Prayer"
+                    style={{ font: 'inherit', cursor: 'pointer', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, padding: '10px 12px', textAlign: 'center' }}
+                  >
                     <div style={{ fontSize: 18, fontWeight: 700, color: 'var(--text)', lineHeight: 1 }}>{item.value}</div>
                     <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>{item.label}</div>
-                  </div>
+                  </button>
                 ))}
               </div>
               <div style={{ display: 'grid', gap: 8 }}>
@@ -248,11 +265,17 @@ export default function Insights() {
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
           <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Suggested for You</div>
           {suggestions.map((suggestion) => (
-            <div key={suggestion.ref} style={{ background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, padding: '10px 12px', marginBottom: 8 }}>
+            <button
+              key={suggestion.ref}
+              type="button"
+              onClick={() => openSuggestionInBible(suggestion.ref)}
+              title={`Open ${suggestion.ref} in Bible`}
+              style={{ display: 'block', width: '100%', textAlign: 'left', font: 'inherit', cursor: 'pointer', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, padding: '10px 12px', marginBottom: 8 }}
+            >
               <div style={{ fontSize: 10, color: 'var(--text-muted)', marginBottom: 3 }}>{suggestion.reason}</div>
-              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--accent-blue)', marginBottom: 4 }}>{suggestion.ref}</div>
+              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--accent-blue)', marginBottom: 4 }}>{suggestion.ref} →</div>
               <div style={{ fontFamily: 'var(--font-serif)', fontSize: 11, color: 'var(--text-sub)', fontStyle: 'italic' }}>{suggestion.text}</div>
-            </div>
+            </button>
           ))}
         </div>
 
@@ -269,10 +292,16 @@ export default function Insights() {
               <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 8 }}>Most Carried Requests</div>
               <div style={{ display: 'grid', gap: 8 }}>
                 {prayerFormation.mostCarried.map((item) => (
-                  <div key={item.text} style={{ padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
+                  <button
+                    key={item.text}
+                    type="button"
+                    onClick={() => navigate('/prayer')}
+                    title="Open in Prayer"
+                    style={{ display: 'block', width: '100%', textAlign: 'left', font: 'inherit', cursor: 'pointer', padding: '10px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)' }}
+                  >
                     <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--text)' }}>{item.text}</div>
                     <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>{item.timesPrayed} prayer touch{item.timesPrayed === 1 ? '' : 'es'}{item.lastPrayedAt ? ` · last prayed ${item.lastPrayedAt}` : ''}</div>
-                  </div>
+                  </button>
                 ))}
               </div>
             </div>

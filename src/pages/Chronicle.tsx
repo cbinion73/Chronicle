@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
 import NewEntryModal from '../components/ui/NewEntryModal';
 import type { ChronicleEntry } from '../types';
-import { deriveFormationJourney, deriveLegacyNarrative } from '../lib/formationAnalytics';
+import { deriveFormationJourney } from '../lib/formationAnalytics';
 import { useAIChatStore } from '../store/aiChatStore';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { buildReflectionPrompts } from '../lib/reflectionPrompts';
@@ -34,7 +34,6 @@ export default function Chronicle() {
   const { addToast } = useToastStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
-  const [view, setView] = useState<'personal' | 'legacy'>('personal');
   const [filterType, setFilterType] = useState('all');
   const [newEntryOpen, setNewEntryOpen] = useState(false);
   const [editingEntry, setEditingEntry] = useState<ChronicleEntry | null>(null);
@@ -57,7 +56,6 @@ export default function Chronicle() {
     const passageMatch = !effectivePassageFilter || entry.passage === effectivePassageFilter;
     return typeMatch && passageMatch;
   }), [chronicleEntries, effectivePassageFilter, filterType]);
-  const legacyNarrative = deriveLegacyNarrative(chronicleEntries);
   const selectedEntry = filtered[0];
   const reflectionPrompts = useMemo(
     () => buildReflectionPrompts({
@@ -152,11 +150,11 @@ export default function Chronicle() {
       page: 'Chronicle',
       pathname: '/chronicle',
       title: document.title,
-      selection: view === 'legacy' ? legacyNarrative : chronicleEntries[0]?.title,
+      selection: chronicleEntries[0]?.title,
       passage: chronicleEntries[0]?.passage,
-      summary: `Chronicle is in ${view} view. Total entries: ${chronicleEntries.length}. Active filter: ${filterType}.${effectivePassageFilter ? ` Passage filter: ${effectivePassageFilter}.` : ''}`,
+      summary: `Chronicle's raw daily log. Total entries: ${chronicleEntries.length}. Active filter: ${filterType}.${effectivePassageFilter ? ` Passage filter: ${effectivePassageFilter}.` : ''}`,
     });
-  }, [chronicleEntries, effectivePassageFilter, filterType, legacyNarrative, setPageContext, setSelectedAgentMode, view]);
+  }, [chronicleEntries, effectivePassageFilter, filterType, setPageContext, setSelectedAgentMode]);
 
   return (
     <div className={s.shell}>
@@ -167,22 +165,6 @@ export default function Chronicle() {
         {/* Header */}
         <div className={s.header}>
           <div className={s.headerCluster}>
-            <div className={s.segmented}>
-            <button
-              onClick={() => setView('personal')}
-              className={`${s.segmentedButton} ${view === 'personal' ? s.segmentedButtonActive : ''}`}
-            >
-              Personal
-            </button>
-            <button
-              onClick={() => setView('legacy')}
-              className={`${s.segmentedButton} ${view === 'legacy' ? s.segmentedButtonLegacy : ''}`}
-            >
-              Legacy View
-            </button>
-          </div>
-
-          {view === 'personal' && (
             <div className={s.filterRow}>
               {['all', 'insight', 'prayer', 'study', 'note', 'reflection'].map((t) => (
                 <button
@@ -199,18 +181,22 @@ export default function Chronicle() {
                 </button>
               ))}
             </div>
-          )}
           </div>
 
-          <button
-            className={s.headerAction}
-            onClick={() => {
-              exportChronicleMarkdown(chronicleEntries);
-              addToast('Chronicle exported as Markdown', 'success', '📄');
-            }}
-          >
-            Export
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <button className={s.headerAction} onClick={() => navigate('/legacy')} title="Read the narrated version of your Chronicle">
+              Read Narrated Version →
+            </button>
+            <button
+              className={s.headerAction}
+              onClick={() => {
+                exportChronicleMarkdown(chronicleEntries);
+                addToast('Chronicle exported as Markdown', 'success', '📄');
+              }}
+            >
+              Export
+            </button>
+          </div>
         </div>
 
         {/* Content */}
@@ -229,62 +215,48 @@ export default function Chronicle() {
             </div>
           )}
 
-          {view === 'personal' ? (
-            <div>
-              {sortedDates.length === 0 ? (
-                <div className={s.emptyState}>
-                  No Chronicle entries match the current filters yet. Clear the passage filter or save a new reflection, study note, or prayer to keep this thread alive.
-                </div>
-              ) : sortedDates.map((date, idx) => {
-                // Check for gap
-                const prevDate = idx > 0 ? sortedDates[idx - 1] : null;
-                const dayGap = prevDate
-                  ? Math.floor((new Date(prevDate).getTime() - new Date(date).getTime()) / 86400000)
-                  : 0;
-                const showGap = dayGap > 2;
-
-                return (
-                  <div key={date} className={s.dateSection}>
-                    {showGap && (
-                      <div className={s.absenceBanner}>↩ {dayGap}-day absence, then returned</div>
-                    )}
-                    <div className={s.dateLabel}>
-                      {new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}
-                    </div>
-                    <div className={s.entryList}>
-                      {groupedByDate[date].map((entry) => (
-                        <EntryCard
-                          key={entry.id}
-                          entry={entry}
-                          onOpenBible={openEntryInBible}
-                          onOpenSource={openEntrySource}
-                          onEdit={() => setEditingEntry(entry)}
-                          onDelete={() => {
-                            if (window.confirm(`Delete "${entry.title}"? This can't be undone.`)) {
-                              deleteChronicleEntry(entry.id);
-                              addToast('Entry deleted', 'success', '🗑️');
-                            }
-                          }}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          ) : (
-            <div className={s.legacyWrap}>
-              <div className={s.legacyCard}>
-                <div className={s.legacyEyebrow}>Chapter V</div>
-                <h2 className={s.legacyTitle}>The Shape of Returning</h2>
-                <div className={s.legacyMeta}>Built from your saved Chronicle entries</div>
-                <div className={s.legacyBody}>{legacyNarrative}</div>
-                <div className={s.legacyFooter}>
-                  Generated from {chronicleEntries.length} Chronicle entr{chronicleEntries.length === 1 ? 'y' : 'ies'}
-                </div>
+          <div>
+            {sortedDates.length === 0 ? (
+              <div className={s.emptyState}>
+                No Chronicle entries match the current filters yet. Clear the passage filter or save a new reflection, study note, or prayer to keep this thread alive.
               </div>
-            </div>
-          )}
+            ) : sortedDates.map((date, idx) => {
+              // Check for gap
+              const prevDate = idx > 0 ? sortedDates[idx - 1] : null;
+              const dayGap = prevDate
+                ? Math.floor((new Date(prevDate).getTime() - new Date(date).getTime()) / 86400000)
+                : 0;
+              const showGap = dayGap > 2;
+
+              return (
+                <div key={date} className={s.dateSection}>
+                  {showGap && (
+                    <div className={s.absenceBanner}>↩ {dayGap}-day absence, then returned</div>
+                  )}
+                  <div className={s.dateLabel}>
+                    {new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}
+                  </div>
+                  <div className={s.entryList}>
+                    {groupedByDate[date].map((entry) => (
+                      <EntryCard
+                        key={entry.id}
+                        entry={entry}
+                        onOpenBible={openEntryInBible}
+                        onOpenSource={openEntrySource}
+                        onEdit={() => setEditingEntry(entry)}
+                        onDelete={() => {
+                          if (window.confirm(`Delete "${entry.title}"? This can't be undone.`)) {
+                            deleteChronicleEntry(entry.id);
+                            addToast('Entry deleted', 'success', '🗑️');
+                          }
+                        }}
+                      />
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
 

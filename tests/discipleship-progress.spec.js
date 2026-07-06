@@ -48,22 +48,26 @@ test('discipleship workbook progress for first five days', async ({ page, reques
   await seedStructuredDiscipleshipBook(page, request);
 
   await page.goto(appUrl('/discipleship'));
-  await expect(page.getByRole('button', { name: /Workbook|Study/ }).first()).toBeVisible();
+  await expect(page.getByRole('button', { name: /Original Pages|Worksheet/ }).first()).toBeVisible();
   await page.waitForTimeout(2500);
-  await page.getByRole('button', { name: 'Workbook', exact: true }).click();
+  await page.getByRole('button', { name: 'Original Pages', exact: true }).click();
+
+  // Book Diagnostics now lives in a collapsed <details> in the sidebar (moved
+  // out of the daily reader) — open it once; it stays open across day changes.
+  await page.getByText('Book Diagnostics', { exact: true }).click();
 
   const daySelect = page.locator('select').nth(1);
   for (const day of ['1', '2', '3', '4', '5']) {
     await daySelect.selectOption(day);
     await page.waitForTimeout(800);
-    await page.getByRole('main').getByRole('button', { name: 'Study', exact: true }).click();
+    await page.getByRole('main').getByRole('button', { name: 'Worksheet', exact: true }).click();
     await expect(page.getByText('Day Structure', { exact: true })).toBeVisible();
     await test.step(`day ${day} shows workbook QA`, async () => {
       await page.getByText('Workbook QA', { exact: true }).waitFor({ timeout: 10000 });
       await expect(page.getByRole('button', { name: /Refresh QA|Refreshing QA…/ })).toBeVisible();
       await expect(page.getByRole('button', { name: /Run Workbook QA|Running QA…/ })).toBeVisible();
     });
-    await page.getByRole('button', { name: 'Workbook', exact: true }).click();
+    await page.getByRole('button', { name: 'Original Pages', exact: true }).click();
     await page.waitForTimeout(500);
     const header = await page.locator('main').getByText(new RegExp(`Day ${day} ·`)).first().textContent();
     const pages = await page.locator('text=/^Page \\d+/').allTextContents();

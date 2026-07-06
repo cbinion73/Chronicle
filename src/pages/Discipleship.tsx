@@ -1229,6 +1229,92 @@ export default function Discipleship() {
                   </button>
                 </div>
               </div>
+
+              {currentWorkbookAudit && (
+                <details style={{ marginTop: 18 }}>
+                  <summary style={{ ...eyebrowStyle, cursor: 'pointer', userSelect: 'none' }}>
+                    Book Diagnostics
+                  </summary>
+                  <div style={{
+                    marginTop: 10,
+                    padding: '12px 14px',
+                    borderRadius: 12,
+                    border: `1px solid ${currentWorkbookAudit.uncoveredCuePages.length > 0 ? 'rgba(180, 35, 24, 0.2)' : 'rgba(15, 79, 207, 0.18)'}`,
+                    background: currentWorkbookAudit.uncoveredCuePages.length > 0 ? 'rgba(249, 112, 102, 0.08)' : 'rgba(15, 79, 207, 0.06)',
+                    display: 'grid',
+                    gap: 8,
+                  }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
+                      <div>
+                        <div style={eyebrowStyle}>Workbook QA</div>
+                        <div style={{ marginTop: 4, fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>
+                          {currentWorkbookAudit.uncoveredCuePages.length > 0
+                            ? 'Some response cues still need overlay coverage'
+                            : currentWorkbookAudit.cuePages.length > 0
+                              ? 'Chronicle found workbook cues and believes this day is covered'
+                              : 'Chronicle found no interactive workbook cues on this day'}
+                        </div>
+                      </div>
+                      <span style={{
+                        padding: '4px 8px',
+                        borderRadius: 999,
+                        border: '1px solid var(--border)',
+                        background: 'var(--card-inner)',
+                        fontSize: 11,
+                        fontWeight: 700,
+                        color: currentWorkbookAudit.uncoveredCuePages.length > 0 ? '#b42318' : 'var(--accent-blue)',
+                      }}>
+                        {currentWorkbookAudit.uncoveredCuePages.length > 0
+                          ? `${currentWorkbookAudit.uncoveredCuePages.length} uncovered cue page${currentWorkbookAudit.uncoveredCuePages.length === 1 ? '' : 's'}`
+                          : currentWorkbookAudit.cuePages.length > 0
+                            ? `${currentWorkbookAudit.cuePages.length} cue page${currentWorkbookAudit.cuePages.length === 1 ? '' : 's'} covered`
+                            : 'Plain reading slice'}
+                      </span>
+                    </div>
+                    <div style={{ fontSize: 12, color: 'var(--text-sub)', lineHeight: 1.6 }}>
+                      Pages {currentWorkbookAudit.pageRange.join(', ')} · Covered pages: {currentWorkbookAudit.coveredPages.length > 0 ? currentWorkbookAudit.coveredPages.join(', ') : 'none yet'}
+                    </div>
+                    <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                      {currentWorkbookAudit.cuePages.length > 0 && readerView !== 'workbook' && (
+                        <button type="button" onClick={() => setReaderView('workbook')} style={ghostButtonStyle}>
+                          Review Workbook
+                        </button>
+                      )}
+                      {nextFlaggedWorkbookAudit && nextFlaggedWorkbookAudit.day !== currentDay && (
+                        <button type="button" onClick={() => goToDay(nextFlaggedWorkbookAudit.day)} style={ghostButtonStyle}>
+                          Review Next Flagged Day
+                        </button>
+                      )}
+                      <button type="button" onClick={() => void refreshWorkbookAudit()} disabled={workbookAuditBusy} style={ghostButtonStyle}>
+                        {workbookAuditBusy ? 'Refreshing QA…' : 'Refresh QA'}
+                      </button>
+                      <button type="button" onClick={() => void runWorkbookSync()} disabled={workbookAuditActionBusy !== null} style={ghostButtonStyle}>
+                        {workbookAuditActionBusy === 'sync' ? 'Running Sync…' : 'Run Workbook Sync'}
+                      </button>
+                      <button type="button" onClick={() => void runWorkbookQa()} disabled={workbookAuditActionBusy !== null} style={ghostButtonStyle}>
+                        {workbookAuditActionBusy === 'qa' ? 'Running QA…' : 'Run Workbook QA'}
+                      </button>
+                    </div>
+                    {currentWorkbookAudit.cuePages.length > 0 && (
+                      <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                        {currentWorkbookAudit.cuePages.slice(0, 6).map((cue) => (
+                          <span
+                            key={`${currentWorkbookAudit.bookId}-${currentWorkbookAudit.day}-${cue.pageNumber}`}
+                            style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: 'transparent', fontSize: 11, color: 'var(--text-sub)' }}
+                          >
+                            Page {cue.pageNumber}: {cue.cueLabels.slice(0, 2).join(', ')}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                    {currentWorkbookAudit.uncoveredCuePages.length > 0 && (
+                      <div style={{ fontSize: 11, color: '#7a271a', lineHeight: 1.5 }}>
+                        Uncovered cues: {currentWorkbookAudit.uncoveredCuePages.map((cue) => `page ${cue.pageNumber} (${cue.cueLabels.join(', ')})`).join(' · ')}
+                      </div>
+                    )}
+                  </div>
+                </details>
+              )}
             </aside>
 
             <main style={{ display: 'grid', gap: 16 }}>
@@ -1263,94 +1349,15 @@ export default function Discipleship() {
                 </div>
 
                 <div style={{ marginTop: 16, display: 'grid', gap: 16 }}>
-                  {currentWorkbookAudit && (
-                    <div style={{
-                      padding: '12px 14px',
-                      borderRadius: 12,
-                      border: `1px solid ${currentWorkbookAudit.uncoveredCuePages.length > 0 ? 'rgba(180, 35, 24, 0.2)' : 'rgba(15, 79, 207, 0.18)'}`,
-                      background: currentWorkbookAudit.uncoveredCuePages.length > 0 ? 'rgba(249, 112, 102, 0.08)' : 'rgba(15, 79, 207, 0.06)',
-                      display: 'grid',
-                      gap: 8,
-                    }}>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
-                        <div>
-                          <div style={eyebrowStyle}>Workbook QA</div>
-                          <div style={{ marginTop: 4, fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>
-                            {currentWorkbookAudit.uncoveredCuePages.length > 0
-                              ? 'Some response cues still need overlay coverage'
-                              : currentWorkbookAudit.cuePages.length > 0
-                                ? 'Chronicle found workbook cues and believes this day is covered'
-                                : 'Chronicle found no interactive workbook cues on this day'}
-                          </div>
-                        </div>
-                        <span style={{
-                          padding: '4px 8px',
-                          borderRadius: 999,
-                          border: '1px solid var(--border)',
-                          background: 'var(--card-inner)',
-                          fontSize: 11,
-                          fontWeight: 700,
-                          color: currentWorkbookAudit.uncoveredCuePages.length > 0 ? '#b42318' : 'var(--accent-blue)',
-                        }}>
-                          {currentWorkbookAudit.uncoveredCuePages.length > 0
-                            ? `${currentWorkbookAudit.uncoveredCuePages.length} uncovered cue page${currentWorkbookAudit.uncoveredCuePages.length === 1 ? '' : 's'}`
-                            : currentWorkbookAudit.cuePages.length > 0
-                              ? `${currentWorkbookAudit.cuePages.length} cue page${currentWorkbookAudit.cuePages.length === 1 ? '' : 's'} covered`
-                              : 'Plain reading slice'}
-                        </span>
-                      </div>
-                      <div style={{ fontSize: 12, color: 'var(--text-sub)', lineHeight: 1.6 }}>
-                        Pages {currentWorkbookAudit.pageRange.join(', ')} · Covered pages: {currentWorkbookAudit.coveredPages.length > 0 ? currentWorkbookAudit.coveredPages.join(', ') : 'none yet'}
-                      </div>
-                      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                        {currentWorkbookAudit.cuePages.length > 0 && readerView !== 'workbook' && (
-                          <button type="button" onClick={() => setReaderView('workbook')} style={ghostButtonStyle}>
-                            Review Workbook
-                          </button>
-                        )}
-                        {nextFlaggedWorkbookAudit && nextFlaggedWorkbookAudit.day !== currentDay && (
-                          <button type="button" onClick={() => goToDay(nextFlaggedWorkbookAudit.day)} style={ghostButtonStyle}>
-                            Review Next Flagged Day
-                          </button>
-                        )}
-                        <button type="button" onClick={() => void refreshWorkbookAudit()} disabled={workbookAuditBusy} style={ghostButtonStyle}>
-                          {workbookAuditBusy ? 'Refreshing QA…' : 'Refresh QA'}
-                        </button>
-                        <button type="button" onClick={() => void runWorkbookSync()} disabled={workbookAuditActionBusy !== null} style={ghostButtonStyle}>
-                          {workbookAuditActionBusy === 'sync' ? 'Running Sync…' : 'Run Workbook Sync'}
-                        </button>
-                        <button type="button" onClick={() => void runWorkbookQa()} disabled={workbookAuditActionBusy !== null} style={ghostButtonStyle}>
-                          {workbookAuditActionBusy === 'qa' ? 'Running QA…' : 'Run Workbook QA'}
-                        </button>
-                      </div>
-                      {currentWorkbookAudit.cuePages.length > 0 && (
-                        <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                          {currentWorkbookAudit.cuePages.slice(0, 6).map((cue) => (
-                            <span
-                              key={`${currentWorkbookAudit.bookId}-${currentWorkbookAudit.day}-${cue.pageNumber}`}
-                              style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: 'transparent', fontSize: 11, color: 'var(--text-sub)' }}
-                            >
-                              Page {cue.pageNumber}: {cue.cueLabels.slice(0, 2).join(', ')}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-                      {currentWorkbookAudit.uncoveredCuePages.length > 0 && (
-                        <div style={{ fontSize: 11, color: '#7a271a', lineHeight: 1.5 }}>
-                          Uncovered cues: {currentWorkbookAudit.uncoveredCuePages.map((cue) => `page ${cue.pageNumber} (${cue.cueLabels.join(', ')})`).join(' · ')}
-                        </div>
-                      )}
-                    </div>
-                  )}
                   <div style={scripturePanelStyle}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'center', flexWrap: 'wrap' }}>
                       <div style={eyebrowStyle}>Daily Reader</div>
                       <div style={readerTabRowStyle}>
                         <button type="button" onClick={() => setReaderView('study')} style={readerView === 'study' ? readerTabActiveStyle : readerTabStyle}>
-                          Study
+                          Worksheet
                         </button>
                         <button type="button" onClick={() => setReaderView('workbook')} style={readerView === 'workbook' ? readerTabActiveStyle : readerTabStyle}>
-                          Workbook
+                          Original Pages
                         </button>
                       </div>
                     </div>

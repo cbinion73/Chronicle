@@ -19,7 +19,7 @@ export default function Topbar({
   deviceClass = 'desktop',
 }: Props) {
   const { theme, toggleTheme } = useAppStore();
-  const showCompanionTrigger = deviceClass !== 'desktop';
+  const companionLabel = deviceClass === 'phone' ? 'AI' : deviceClass === 'tablet' ? 'Companion' : 'Chronicle AI';
   const searchLabel = deviceClass === 'phone'
     ? 'Search Chronicle...'
     : 'Search Scripture, themes, notes...';
@@ -46,22 +46,20 @@ export default function Topbar({
         <span className={s.searchShortcut}>⌘K</span>
       </button>
       <div className={s.buttons}>
-        {showCompanionTrigger && (
-          <button
-            className={`${s.companionBtn} ${companionOpen ? s.companionBtnActive : ''}`}
-            onClick={onToggleCompanion}
-            type="button"
-            aria-pressed={companionOpen}
-            aria-label={companionOpen ? 'Hide Chronicle AI' : 'Open Chronicle AI'}
-            title={companionOpen ? 'Hide Chronicle AI' : 'Open Chronicle AI'}
-          >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M12 3l1.7 4.6L18 9.3l-4.3 1.6L12 15.5l-1.7-4.6L6 9.3l4.3-1.7L12 3z"/>
-              <path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15z"/>
-            </svg>
-            <span className={s.companionLabel}>{deviceClass === 'tablet' ? 'Companion' : 'AI'}</span>
-          </button>
-        )}
+        <button
+          className={`${s.companionBtn} ${companionOpen ? s.companionBtnActive : ''}`}
+          onClick={onToggleCompanion}
+          type="button"
+          aria-pressed={companionOpen}
+          aria-label={companionOpen ? 'Hide Chronicle AI' : 'Open Chronicle AI'}
+          title={companionOpen ? 'Hide Chronicle AI' : 'Open Chronicle AI'}
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M12 3l1.7 4.6L18 9.3l-4.3 1.6L12 15.5l-1.7-4.6L6 9.3l4.3-1.7L12 3z"/>
+            <path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15z"/>
+          </svg>
+          <span className={s.companionLabel}>{companionLabel}</span>
+        </button>
         {/* Quick capture */}
         <button
           className={s.iconBtn}

@@ -9,6 +9,7 @@ import AIChatPanel from '../ui/AIChatPanel';
 import AISelectionMenu from '../ui/AISelectionMenu';
 import { useAppStore } from '../../store';
 import { useAIChatStore } from '../../store/aiChatStore';
+import { chronicleApi } from '../../lib/chronicleApiClient';
 import { CHRONICLE_APP_VERSION, CHRONICLE_ONBOARDING_STEPS, CHRONICLE_TAGLINE } from '../../lib/chronicleBrand';
 import { useResponsiveLayout } from '../../lib/useResponsiveLayout';
 import { useToastStore } from '../../store/toastStore';
@@ -126,6 +127,47 @@ export default function AppShell() {
     return () => {
       window.removeEventListener('online', handleOnline);
       window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
+
+  // Best-effort morning reminder: checks once a minute while Chronicle is open
+  // in a tab and fires a browser Notification when the clock matches the saved
+  // time. This is NOT a background/OS notification — there's no service worker
+  // or push infrastructure, so it only works while the tab is open, which is
+  // stated explicitly in the Settings copy for this control. Permission is
+  // requested from the toggle's own click in Settings.tsx, not here, since
+  // browsers require a real user gesture for that prompt.
+  useEffect(() => {
+    if (typeof Notification === 'undefined') return;
+    let cancelled = false;
+    let lastFiredDate = '';
+
+    async function checkReminder() {
+      try {
+        const { settings } = await chronicleApi.getSettings();
+        if (cancelled) return;
+        const toggles = settings.toggles;
+        const profile = settings.profile;
+        const enabled = Boolean(toggles && typeof toggles === 'object' && (toggles as Record<string, unknown>).morningReminder);
+        const reminderTime = profile && typeof profile === 'object' ? (profile as Record<string, unknown>).reminderTime : undefined;
+        if (!enabled || typeof reminderTime !== 'string' || Notification.permission !== 'granted') return;
+
+        const now = new Date();
+        const hhmm = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+        const today = now.toISOString().split('T')[0];
+        if (hhmm === reminderTime && lastFiredDate !== today) {
+          lastFiredDate = today;
+          new Notification('Chronicle', { body: 'Your morning reminder — open Chronicle when you\'re ready.' });
+        }
+      } catch {
+        // Best effort only.
+      }
+    }
+
+    const intervalId = window.setInterval(checkReminder, 30000);
+    return () => {
+      cancelled = true;
+      window.clearInterval(intervalId);
     };
   }, []);
 

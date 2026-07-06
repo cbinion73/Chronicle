@@ -2,17 +2,19 @@ import { useEffect, useMemo, useRef } from 'react';
 import { useAppStore } from '../store';
 import { derivePlanMilestones, derivePlanStats } from '../lib/formationAnalytics';
 import { useAIChatStore } from '../store/aiChatStore';
+import { useToastStore } from '../store/toastStore';
 import { deriveRhythmStats, isRhythmCompletedInCurrentPeriod } from '../lib/formationRhythms';
 
 const PLAN_LIBRARY = [
-  { name: 'Daily Walk', duration: '365 days', desc: 'One chapter a day through the entire Bible' },
-  { name: 'Psalms & Proverbs', duration: '30 days', desc: 'Deep dive into wisdom literature' },
-  { name: 'Jesus in All of Scripture', duration: '90 days', desc: 'Christ-centered reading through the canon' },
-  { name: 'Sermon on the Mount', duration: '14 days', desc: 'Matthew 5–7 verse by verse' },
+  { name: 'Daily Walk', totalDays: 365, duration: '365 days', desc: 'One chapter a day through the entire Bible' },
+  { name: 'Psalms & Proverbs', totalDays: 30, duration: '30 days', desc: 'Deep dive into wisdom literature' },
+  { name: 'Jesus in All of Scripture', totalDays: 90, duration: '90 days', desc: 'Christ-centered reading through the canon' },
+  { name: 'Sermon on the Mount', totalDays: 14, duration: '14 days', desc: 'Matthew 5–7 verse by verse' },
 ];
 
 export default function Plans() {
-  const { currentPlanName, currentPlanDay, currentPlanTotal, streakDays, chronicleEntries, prayerItems, formationRhythms, completeFormationRhythm } = useAppStore();
+  const { currentPlanName, currentPlanDay, currentPlanTotal, streakDays, chronicleEntries, prayerItems, formationRhythms, completeFormationRhythm, setActivePlan } = useAppStore();
+  const { addToast } = useToastStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
   const calRef = useRef<HTMLDivElement>(null);
@@ -143,14 +145,32 @@ export default function Plans() {
             {PLAN_LIBRARY.map((plan) => {
               const active = plan.name === currentPlanName;
               return (
-                <div key={plan.name} style={{ background: 'var(--card-bg)', border: `1px solid ${active ? 'var(--accent-blue)' : 'var(--border)'}`, borderRadius: 12, padding: '14px 16px', boxShadow: 'var(--shadow)', cursor: 'pointer' }}>
+                <button
+                  key={plan.name}
+                  type="button"
+                  disabled={active}
+                  onClick={() => {
+                    setActivePlan(plan.name, plan.totalDays);
+                    addToast(`Switched to ${plan.name}`, 'success', '📖');
+                  }}
+                  style={{
+                    textAlign: 'left',
+                    background: 'var(--card-bg)',
+                    border: `1px solid ${active ? 'var(--accent-blue)' : 'var(--border)'}`,
+                    borderRadius: 12,
+                    padding: '14px 16px',
+                    boxShadow: 'var(--shadow)',
+                    cursor: active ? 'default' : 'pointer',
+                    font: 'inherit',
+                  }}
+                >
                   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6 }}>
                     <div style={{ fontWeight: 600, fontSize: 13, color: 'var(--text)' }}>{plan.name}</div>
                     {active && <span style={{ fontSize: 9, fontWeight: 700, padding: '1px 6px', background: 'var(--accent-blue-light)', color: 'var(--accent-blue)', borderRadius: 4 }}>ACTIVE</span>}
                   </div>
                   <div style={{ fontSize: 11, color: 'var(--text-sub)', marginBottom: 4 }}>{plan.desc}</div>
                   <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--text-muted)' }}>{plan.duration}</div>
-                </div>
+                </button>
               );
             })}
           </div>
