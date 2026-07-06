@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BAPTIST_ROSARY } from '../data/baptistRosary';
+import { STONE_IMAGES, STONE_LABELS } from '../data/stoneImages';
 import { useAppStore } from '../store';
 import { useToastStore } from '../store/toastStore';
 
@@ -95,6 +96,26 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 19, fontWeight: 700, color: 'var(--text)', margin: '0 0 12px', lineHeight: 1.3 }}>
             {bead.title}
           </h2>
+
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
+            <div style={{ textAlign: 'center' }}>
+              <div style={{
+                width: 96, height: 96, borderRadius: '50%', overflow: 'hidden',
+                background: 'var(--card-inner)', border: '1px solid var(--border)',
+                boxShadow: '0 6px 16px rgba(15, 23, 42, 0.14)',
+              }}>
+                <img
+                  src={STONE_IMAGES[bead.stoneKey]}
+                  alt={STONE_LABELS[bead.stoneKey]}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              </div>
+              <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: 6 }}>
+                {STONE_LABELS[bead.stoneKey]}
+              </div>
+            </div>
+          </div>
+
           {bead.instruction ? (
             <p style={{ fontSize: 13, color: 'var(--text-sub)', lineHeight: 1.6, marginBottom: 16 }}>
               {bead.instruction}
