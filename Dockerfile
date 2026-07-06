@@ -1,22 +1,38 @@
-FROM node:22-slim
-
-# Install OpenSSL for Prisma
-RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
-
+# ── Build stage: compiles the client bundle, needs full devDependencies ────────
+FROM node:22-slim AS build
 WORKDIR /app
 
-# Install dependencies
+RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
+
 COPY package*.json ./
 RUN npm ci --ignore-scripts
 
-# Generate Prisma client
 COPY prisma ./prisma
 RUN npx prisma generate
 
-# Copy source
 COPY . .
+RUN npm run build
+
+# ── Runtime stage: standalone Node server (server/index.ts), no Vite dev server ─
+FROM node:22-slim AS runtime
+WORKDIR /app
+
+RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
+
+ENV NODE_ENV=production
+
+COPY package*.json ./
+RUN npm ci --omit=dev --ignore-scripts
+
+COPY prisma ./prisma
+RUN npx prisma generate
+
+COPY --from=build /app/dist ./dist
+COPY server ./server
+COPY src ./src
+COPY public ./public
+COPY data ./data
 
 EXPOSE 5174
 
-# Run migrations then start dev server
-CMD ["sh", "-c", "npx prisma migrate deploy && npm run serve:lan"]
+CMD ["sh", "-c", "npx prisma migrate deploy && npm run start"]

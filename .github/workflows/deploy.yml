@@ -5,7 +5,22 @@ on:
     branches: [main]
 
 jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx prisma generate
+      - run: npx tsc -b
+      - run: npx eslint .
+      - run: npx vite build
+
   deploy:
+    needs: build-and-test
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to jarvis-vps
