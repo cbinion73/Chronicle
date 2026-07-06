@@ -48,15 +48,13 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
         position: 'fixed', inset: 0, background: 'rgba(15, 23, 42, 0.45)',
         display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 50, padding: 20,
       }}
-      onClick={onClose}
     >
       <div
         style={{
-          width: 'min(560px, 100%)', maxHeight: '88vh', display: 'flex', flexDirection: 'column',
+          width: 'min(560px, 100%)', height: 'min(640px, 88vh)', display: 'flex', flexDirection: 'column',
           background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 18,
           boxShadow: '0 24px 60px rgba(15, 23, 42, 0.28)', overflow: 'hidden',
         }}
-        onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div style={{ padding: '16px 20px 12px', borderBottom: '1px solid var(--border)', flexShrink: 0 }}>
