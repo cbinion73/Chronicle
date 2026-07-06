@@ -79,7 +79,10 @@ interface AppState {
   removeOwnedBook: (bookId: string) => void;
   setOwnedBookStudyState: (bookId: string, studyState: OwnedBookStudyState) => void;
   addChronicleEntry: (entry: ChronicleEntry) => void;
+  updateChronicleEntry: (id: string, patch: Partial<ChronicleEntry>) => void;
+  deleteChronicleEntry: (id: string) => void;
   addPrayerItem: (item: PrayerItem) => void;
+  deletePrayerItem: (id: string) => void;
   completeFormationRhythm: (id: string, completedAt?: string) => void;
   addScriptureBookmark: (bookmark: ScriptureBookmark) => void;
   removeScriptureBookmark: (id: string) => void;
@@ -292,6 +295,71 @@ const SAMPLE_OWNED_BOOKS: OwnedBook[] = [
   }),
 ];
 
+// DB rows win on id collision; anything only present locally (created or still
+// mid-sync since the last fetch) is kept rather than silently dropped.
+function mergeById<T extends { id: string }>(local: T[], remote: T[]): T[] {
+  const remoteIds = new Set(remote.map((item) => item.id));
+  const localOnly = local.filter((item) => !remoteIds.has(item.id));
+  return [...remote, ...localOnly];
+}
+
+// Reconciles one collection against the DB after a wholesale local replace (reset,
+// snapshot import/merge) — without this, rows deleted/changed only in the Zustand
+// store stay in Postgres forever and resurrect on the next initializeFromDatabase().
+async function reconcileCollectionToDb<T extends { id: string }>(
+  previous: T[],
+  next: T[],
+  api: {
+    create: (item: T) => Promise<unknown>;
+    update?: (id: string, item: T) => Promise<unknown>;
+    remove: (id: string) => Promise<unknown>;
+  },
+) {
+  const previousIds = new Set(previous.map((item) => item.id));
+  const nextIds = new Set(next.map((item) => item.id));
+  const operations = [
+    ...previous
+      .filter((item) => !nextIds.has(item.id))
+      .map((item) => api.remove(item.id).catch((e) => console.warn('[db] reconcile delete failed:', e))),
+    ...next.map((item) =>
+      (previousIds.has(item.id) ? api.update?.(item.id, item) : api.create(item))?.catch((e) =>
+        console.warn('[db] reconcile upsert failed:', e)
+      )
+    ),
+  ];
+  await Promise.all(operations);
+}
+
+function syncCollectionsToDb(
+  previous: Pick<AppState, 'chronicleEntries' | 'prayerItems' | 'formationRhythms' | 'scriptureBookmarks' | 'ownedBooks'>,
+  next: Pick<AppState, 'chronicleEntries' | 'prayerItems' | 'formationRhythms' | 'scriptureBookmarks' | 'ownedBooks'>,
+) {
+  void reconcileCollectionToDb(previous.chronicleEntries, next.chronicleEntries, {
+    create: chronicleApi.createEntry,
+    update: chronicleApi.updateEntry,
+    remove: chronicleApi.deleteEntry,
+  });
+  void reconcileCollectionToDb(previous.prayerItems, next.prayerItems, {
+    create: chronicleApi.createPrayerItem,
+    update: chronicleApi.updatePrayerItem,
+    remove: chronicleApi.deletePrayerItem,
+  });
+  void reconcileCollectionToDb(previous.formationRhythms, next.formationRhythms, {
+    create: chronicleApi.createFormationRhythm,
+    update: chronicleApi.updateFormationRhythm,
+    remove: chronicleApi.deleteFormationRhythm,
+  });
+  void reconcileCollectionToDb(previous.scriptureBookmarks, next.scriptureBookmarks, {
+    create: chronicleApi.createScriptureBookmark,
+    remove: chronicleApi.deleteScriptureBookmark,
+  });
+  void reconcileCollectionToDb(previous.ownedBooks, next.ownedBooks, {
+    create: chronicleApi.createOwnedBook,
+    update: chronicleApi.updateOwnedBook,
+    remove: chronicleApi.deleteOwnedBook,
+  });
+}
+
 function normalizePortableState(payload: Partial<Pick<AppState,
   | 'experienceMode'
   | 'theme'
@@ -454,6 +522,11 @@ export const useAppStore = create<AppState>()(
       setActiveOwnedBook: (activeOwnedBookId) => set({ activeOwnedBookId }),
       upsertOwnedBook: (book) => {
         const normalizedBook = normalizeOwnedBook(book);
+        // Capture whether this book already exists BEFORE set() inserts it — checking
+        // via get() afterward always finds it (set() already added it), which silently
+        // sent every new book down the PUT/update path and 404'd against the DB instead
+        // of creating the row.
+        const alreadyExists = Boolean(get().ownedBooks.find((entry) => entry.id === normalizedBook.id));
         set((state) => {
           const existing = state.ownedBooks.find((entry) => entry.id === normalizedBook.id);
           return {
@@ -468,9 +541,10 @@ export const useAppStore = create<AppState>()(
                 ],
           };
         })
-        const book2 = get().ownedBooks.find(b => b.id === normalizedBook.id)
-        if (book2) chronicleApi.updateOwnedBook(book2.id, book2).catch(e => console.warn('[db] upsertOwnedBook failed:', e))
-        else chronicleApi.createOwnedBook(normalizedBook).catch(e => console.warn('[db] createOwnedBook failed:', e))
+        const saved = get().ownedBooks.find(b => b.id === normalizedBook.id)
+        if (!saved) return
+        if (alreadyExists) chronicleApi.updateOwnedBook(saved.id, saved).catch(e => console.warn('[db] upsertOwnedBook failed:', e))
+        else chronicleApi.createOwnedBook(saved).catch(e => console.warn('[db] createOwnedBook failed:', e))
       },
       removeOwnedBook: (bookId) => {
         set((state) => {
@@ -500,9 +574,27 @@ export const useAppStore = create<AppState>()(
         set((state) => ({ chronicleEntries: [entry, ...state.chronicleEntries] }))
         chronicleApi.createEntry(entry).catch(e => console.warn('[db] addChronicleEntry failed:', e))
       },
+      updateChronicleEntry: (id, patch) => {
+        set((state) => ({
+          chronicleEntries: state.chronicleEntries.map((entry) => (entry.id === id ? { ...entry, ...patch } : entry)),
+        }))
+        chronicleApi.updateEntry(id, patch).catch(e => console.warn('[db] updateChronicleEntry failed:', e))
+      },
+      deleteChronicleEntry: (id) => {
+        set((state) => ({
+          chronicleEntries: state.chronicleEntries.filter((entry) => entry.id !== id),
+        }))
+        chronicleApi.deleteEntry(id).catch(e => console.warn('[db] deleteChronicleEntry failed:', e))
+      },
       addPrayerItem: (item) => {
         set((state) => ({ prayerItems: [item, ...state.prayerItems] }))
         chronicleApi.createPrayerItem(item).catch(e => console.warn('[db] addPrayerItem failed:', e))
+      },
+      deletePrayerItem: (id) => {
+        set((state) => ({
+          prayerItems: state.prayerItems.filter((item) => item.id !== id),
+        }))
+        chronicleApi.deletePrayerItem(id).catch(e => console.warn('[db] deletePrayerItem failed:', e))
       },
       completeFormationRhythm: (id, completedAt) => {
         set((state) => ({
@@ -618,8 +710,10 @@ export const useAppStore = create<AppState>()(
             },
           }),
         })),
-      resetPersonalState: () =>
-        set((state) => ({
+      resetPersonalState: () => {
+        const previous = get();
+        const nextOwnedBooks = previous.ownedBooks.map((book) => resetOwnedBookProgress(book));
+        set({
           experienceMode: 'fresh',
           activeTab: 'today',
           streakDays: 0,
@@ -628,46 +722,57 @@ export const useAppStore = create<AppState>()(
           currentPlanTotal: DEFAULT_PLAN_TOTAL,
           activeStudyModuleId: 'bible-study',
           studyModuleDayById: { 'bible-study': 1, discipleship: 1 },
-          activeOwnedBookId: state.ownedBooks[0]?.id || '',
+          activeOwnedBookId: previous.ownedBooks[0]?.id || '',
           chronicleEntries: [],
           prayerItems: [],
           formationRhythms: createFreshFormationRhythms(),
           scriptureBookmarks: [],
-          ownedBooks: state.ownedBooks.map((book) => resetOwnedBookProgress(book)),
-        })),
+          ownedBooks: nextOwnedBooks,
+        });
+        syncCollectionsToDb(previous, {
+          chronicleEntries: [],
+          prayerItems: [],
+          formationRhythms: createFreshFormationRhythms(),
+          scriptureBookmarks: [],
+          ownedBooks: nextOwnedBooks,
+        });
+      },
       importPortableState: (payload) => {
+        const previous = get();
         const normalized = normalizePortableState(payload);
         set(normalized);
         document.documentElement.setAttribute('data-theme', normalized.theme);
+        syncCollectionsToDb(previous, normalized);
       },
-      mergePortableState: (payload) =>
-        set((state) => {
-          const localPortableState = {
-            experienceMode: state.experienceMode,
-            theme: state.theme,
-            streakDays: state.streakDays,
-            currentPlanName: state.currentPlanName,
-            currentPlanDay: state.currentPlanDay,
-            currentPlanTotal: state.currentPlanTotal,
-            translation: state.translation,
-            bibleView: state.bibleView,
-            activeStudyModuleId: state.activeStudyModuleId,
-            studyModuleDayById: state.studyModuleDayById,
-            activeOwnedBookId: state.activeOwnedBookId,
-            chronicleEntries: state.chronicleEntries,
-            prayerItems: state.prayerItems,
-            formationRhythms: state.formationRhythms,
-            scriptureBookmarks: state.scriptureBookmarks,
-            ownedBooks: state.ownedBooks,
-            syncProfile: state.syncProfile,
-            voiceConfig: state.voiceConfig,
-          };
-          const merged = mergePortableSyncState(localPortableState, normalizePortableState(payload) as never) as Partial<AppState>;
-          if (merged.theme) {
-            document.documentElement.setAttribute('data-theme', merged.theme);
-          }
-          return merged as AppState;
-        }),
+      mergePortableState: (payload) => {
+        const state = get();
+        const localPortableState = {
+          experienceMode: state.experienceMode,
+          theme: state.theme,
+          streakDays: state.streakDays,
+          currentPlanName: state.currentPlanName,
+          currentPlanDay: state.currentPlanDay,
+          currentPlanTotal: state.currentPlanTotal,
+          translation: state.translation,
+          bibleView: state.bibleView,
+          activeStudyModuleId: state.activeStudyModuleId,
+          studyModuleDayById: state.studyModuleDayById,
+          activeOwnedBookId: state.activeOwnedBookId,
+          chronicleEntries: state.chronicleEntries,
+          prayerItems: state.prayerItems,
+          formationRhythms: state.formationRhythms,
+          scriptureBookmarks: state.scriptureBookmarks,
+          ownedBooks: state.ownedBooks,
+          syncProfile: state.syncProfile,
+          voiceConfig: state.voiceConfig,
+        };
+        const merged = mergePortableSyncState(localPortableState, normalizePortableState(payload) as never) as Partial<AppState>;
+        if (merged.theme) {
+          document.documentElement.setAttribute('data-theme', merged.theme);
+        }
+        set(merged as AppState);
+        syncCollectionsToDb(state, merged as AppState);
+      },
       initializeFromDatabase: async () => {
         try {
           const [entriesRes, prayersRes, rhythmsRes, bookmarksRes, booksRes] = await Promise.all([
@@ -677,14 +782,19 @@ export const useAppStore = create<AppState>()(
             chronicleApi.getScriptureBookmarks(),
             chronicleApi.getOwnedBooks(),
           ])
-          set({
-            chronicleEntries: entriesRes.entries ?? [],
-            prayerItems: prayersRes.items ?? [],
-            formationRhythms: rhythmsRes.rhythms ?? [],
-            scriptureBookmarks: bookmarksRes.bookmarks ?? [],
-            ownedBooks: booksRes.books ?? [],
+          // Merge, don't replace: the DB is authoritative for anything it already has,
+          // but a flat overwrite here would silently delete local items created (or
+          // still mid-sync) since the last successful fetch — including on a fetch that
+          // races an in-flight create, or one that returns while a prior write is still
+          // pending after a dropped connection.
+          set((state) => ({
+            chronicleEntries: mergeById(state.chronicleEntries, entriesRes.entries ?? []),
+            prayerItems: mergeById(state.prayerItems, prayersRes.items ?? []),
+            formationRhythms: mergeById(state.formationRhythms, rhythmsRes.rhythms ?? []),
+            scriptureBookmarks: mergeById(state.scriptureBookmarks, bookmarksRes.bookmarks ?? []),
+            ownedBooks: mergeById(state.ownedBooks, booksRes.books ?? []),
             experienceMode: 'fresh',
-          })
+          }))
         } catch (e) {
           console.warn('[chronicle-db] initializeFromDatabase failed, keeping local state:', e)
         }

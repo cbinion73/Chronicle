@@ -5369,10 +5369,12 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
     // ── Chronicle Entries ─────────────────────────────────────────────────────
 
     middlewares.use('/api/data/chronicle-entries', async (request, response, next) => {
+      // connect's `.use(mountPath, handler)` strips the matched mount prefix from
+      // request.url before invoking the handler, so what's left is just the
+      // optional id segment (or '/' when there is none) — not the full path.
       const url = new URL(request.url || '/', 'http://x')
-      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
-      // parts[0] = 'chronicle-entries', parts[1] = optional id
-      const id = parts[1] || null
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean)
+      const id = parts[0] || null
 
       try {
         if (request.method === 'GET' && !id) {
@@ -5421,8 +5423,8 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
 
     middlewares.use('/api/data/prayer-items', async (request, response, next) => {
       const url = new URL(request.url || '/', 'http://x')
-      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
-      const id = parts[1] || null
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean)
+      const id = parts[0] || null
 
       try {
         if (request.method === 'GET' && !id) {
@@ -5471,8 +5473,8 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
 
     middlewares.use('/api/data/formation-rhythms', async (request, response, next) => {
       const url = new URL(request.url || '/', 'http://x')
-      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
-      const id = parts[1] || null
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean)
+      const id = parts[0] || null
 
       try {
         if (request.method === 'GET' && !id) {
@@ -5521,8 +5523,8 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
 
     middlewares.use('/api/data/scripture-bookmarks', async (request, response, next) => {
       const url = new URL(request.url || '/', 'http://x')
-      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
-      const id = parts[1] || null
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean)
+      const id = parts[0] || null
 
       try {
         if (request.method === 'GET' && !id) {
@@ -5560,8 +5562,8 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
 
     middlewares.use('/api/data/owned-books', async (request, response, next) => {
       const url = new URL(request.url || '/', 'http://x')
-      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/')
-      const id = parts[1] || null
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean)
+      const id = parts[0] || null
 
       try {
         if (request.method === 'GET' && !id) {

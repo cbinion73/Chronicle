@@ -2,9 +2,11 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
 import { useToastStore } from '../store/toastStore';
+import { chronicleApi } from '../lib/chronicleApiClient';
 import type { ChronicleBookAssetMap, ChronicleSyncProfile, OwnedBook, OwnedBookSourceDiagnostics } from '../types';
 import { useAIChatStore } from '../store/aiChatStore';
-import { derivePrayerFormation } from '../lib/formationAnalytics';
+import { derivePrayerFormation, deriveLegacyChapters, deriveLegacyNarrative } from '../lib/formationAnalytics';
+import { exportChronicleMarkdown as exportChronicleMarkdownFile, monthsSinceOldestEntry } from '../lib/chronicleExport';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { CHRONICLE_AGENT_MODE_DEFS, type ChronicleAgentMode } from '../store/aiChatStore';
 import { CHRONICLE_PERSONAS, type ChroniclePersonaId } from '../lib/chroniclePersonas';
@@ -26,6 +28,51 @@ const CATEGORIES = [
 type SettingsCategoryId = (typeof CATEGORIES)[number]['id'];
 
 const LAST_STUDY_IMPORT_JOB_KEY = 'chronicle-last-study-import-job-id';
+
+const DEFAULT_TOGGLES = {
+  verseNumbers: true,
+  redLetter: false,
+  paragraphView: true,
+  citations: true,
+  confidenceBadges: true,
+  flagDisagreement: true,
+  pastoralReflection: true,
+  chronicleContext: true,
+  autoCapture: true,
+  captureReading: true,
+  capturePrayer: true,
+  captureAI: true,
+  captureMilestones: true,
+  captureReturn: true,
+  lockChronicle: false,
+  scripture: true,
+  prayer: true,
+  obedience: true,
+  gratitude: true,
+  worship: true,
+  languageAnalysis: true,
+  patternDetection: true,
+  formationCaveat: true,
+  morningReminder: true,
+  eveningPrompt: false,
+  streakWarning: true,
+  milestones: true,
+  iCloudBackup: true,
+};
+
+const DEFAULT_PROFILE = {
+  displayName: 'Chris',
+  faithTradition: 'Evangelical Protestant',
+  spiritualSeason: 'Seeking',
+  parallelTranslation: 'None',
+  companionTone: 'Scholarly & Grounded',
+  readingFont: 'Georgia (Serif)',
+  reminderTime: '06:30',
+};
+
+function isPlainObject(value: unknown): value is Record<string, unknown> {
+  return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+}
 
 function getRequestedSettingsCategory(state: unknown): SettingsCategoryId | null {
   const requestedCategory =
@@ -414,42 +461,12 @@ export default function Settings() {
     error?: string;
   } | null>(null);
 
-  const [toggles, setToggles] = useState({
-    verseNumbers: true,
-    redLetter: false,
-    paragraphView: true,
-    citations: true,
-    confidenceBadges: true,
-    flagDisagreement: true,
-    pastoralReflection: true,
-    chronicleContext: true,
-    autoCapture: true,
-    captureReading: true,
-    capturePrayer: true,
-    captureAI: true,
-    captureMilestones: true,
-    captureReturn: true,
-    lockChronicle: false,
-    scripture: true,
-    prayer: true,
-    obedience: true,
-    gratitude: true,
-    worship: true,
-    languageAnalysis: true,
-    patternDetection: true,
-    formationCaveat: true,
-    morningReminder: true,
-    eveningPrompt: false,
-    streakWarning: true,
-    milestones: true,
-    iCloudBackup: true,
-  });
-  const oldestEntryDate = chronicleEntries.reduce<Date | null>((oldest, entry) => {
-    const candidate = new Date(`${entry.date}T12:00:00`);
-    return !oldest || candidate < oldest ? candidate : oldest;
-  }, null);
+  const [toggles, setToggles] = useState(DEFAULT_TOGGLES);
+  const togglesHydrated = useRef(false);
+  const [profile, setProfile] = useState(DEFAULT_PROFILE);
+  const profileHydrated = useRef(false);
   const uniqueActiveDays = new Set(chronicleEntries.map((entry) => entry.date)).size;
-  const monthsDeep = oldestEntryDate ? Math.max(1, nowMonthDiff(oldestEntryDate, new Date()) + 1) : 0;
+  const monthsDeep = monthsSinceOldestEntry(chronicleEntries);
   const answeredPrayerCount = prayerItems.filter((item) => item.answered).length;
   const localLibraryCount = ownedBooks.length;
   const prayerFormation = useMemo(() => derivePrayerFormation(prayerItems), [prayerItems]);
@@ -569,6 +586,59 @@ export default function Settings() {
 
   const toggle = (key: keyof typeof toggles) => {
     setToggles((prev) => ({ ...prev, [key]: !prev[key] }));
+  };
+
+  // Hydrate from /api/data/settings on mount so "Changes saved automatically" is
+  // actually true — previously these toggles lived only in useState and reset to
+  // defaults on every reload.
+  useEffect(() => {
+    let cancelled = false;
+    chronicleApi.getSettings()
+      .then(({ settings }) => {
+        if (cancelled) return;
+        const stored = isPlainObject(settings.toggles) ? settings.toggles : {};
+        setToggles((prev) => ({ ...prev, ...stored }));
+      })
+      .catch((e) => console.warn('[settings] failed to load persisted toggles:', e))
+      .finally(() => {
+        togglesHydrated.current = true;
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!togglesHydrated.current) return;
+    chronicleApi.updateSettings({ toggles }).catch((e) => console.warn('[settings] failed to persist toggles:', e));
+  }, [toggles]);
+
+  // Same pattern for the profile fields (display name, faith tradition, companion
+  // tone, etc.) — these previously had hardcoded values and no-op onChange handlers.
+  useEffect(() => {
+    let cancelled = false;
+    chronicleApi.getSettings()
+      .then(({ settings }) => {
+        if (cancelled) return;
+        const stored = isPlainObject(settings.profile) ? settings.profile : {};
+        setProfile((prev) => ({ ...prev, ...stored }));
+      })
+      .catch((e) => console.warn('[settings] failed to load persisted profile:', e))
+      .finally(() => {
+        profileHydrated.current = true;
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!profileHydrated.current) return;
+    chronicleApi.updateSettings({ profile }).catch((e) => console.warn('[settings] failed to persist profile:', e));
+  }, [profile]);
+
+  const updateProfile = (key: keyof typeof profile, value: string) => {
+    setProfile((prev) => ({ ...prev, [key]: value }));
   };
 
   async function uploadBookFile(file: File) {
@@ -894,6 +964,49 @@ export default function Settings() {
       setChronicleSyncBusy(false);
     }
   }, []);
+
+  function exportChronicleMarkdown() {
+    exportChronicleMarkdownFile(chronicleEntries);
+    addToast('Chronicle exported as Markdown', 'success', '📄');
+  }
+
+  function exportLegacyMemoir() {
+    const chapters = deriveLegacyChapters(chronicleEntries);
+    const narrative = deriveLegacyNarrative(chronicleEntries);
+    const printWindow = window.open('', '_blank');
+    if (!printWindow) {
+      addToast('Allow pop-ups to export the Legacy memoir', 'warning', '⚠️');
+      return;
+    }
+    const chaptersHtml = chapters
+      .map((chapter) => `<h2>Chapter ${chapter.num}: ${chapter.title}</h2><p class="meta">${chapter.period} · ${chapter.count} entries</p>`)
+      .join('\n');
+    printWindow.document.write(`<!doctype html>
+<html>
+<head>
+<title>The Book of Chris</title>
+<meta charset="utf-8" />
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 680px; margin: 48px auto; color: #1a1a1a; line-height: 1.7; }
+  h1 { font-size: 28px; text-align: center; }
+  .subtitle { text-align: center; font-style: italic; color: #555; margin-bottom: 48px; }
+  h2 { font-size: 18px; margin-top: 32px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+  .meta { font-size: 12px; color: #777; margin-top: -8px; }
+  .narrative { white-space: pre-line; margin-top: 32px; }
+  @media print { body { margin: 0 24px; } }
+</style>
+</head>
+<body>
+  <h1>The Book of Chris</h1>
+  <div class="subtitle">A life walked with God</div>
+  ${chaptersHtml}
+  <div class="narrative">${narrative}</div>
+</body>
+</html>`);
+    printWindow.document.close();
+    printWindow.focus();
+    printWindow.print();
+  }
 
   async function createChronicleSnapshot() {
     setChronicleSyncBusy(true);
@@ -1627,16 +1740,20 @@ export default function Settings() {
                   </div>
                 </div>
                 <SettingRow label="Display Name" desc="Used in greetings and Legacy memoir">
-                  <input defaultValue="Chris" style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', minWidth: 160, outline: 'none' }} />
+                  <input
+                    value={profile.displayName}
+                    onChange={(e) => updateProfile('displayName', e.target.value)}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', minWidth: 160, outline: 'none' }}
+                  />
                 </SettingRow>
               </Group>
               <Group>
                 <GroupHeader title="Devotional Identity" desc="Shapes how Chronicle addresses your journey" />
                 <SettingRow label="Faith Tradition" desc="Informs theological defaults in AI responses">
-                  <Sel options={['Evangelical Protestant', 'Reformed', 'Catholic', 'Anglican', 'Lutheran', 'Other']} value="Evangelical Protestant" onChange={() => {}} />
+                  <Sel options={['Evangelical Protestant', 'Reformed', 'Catholic', 'Anglican', 'Lutheran', 'Other']} value={profile.faithTradition} onChange={(v) => updateProfile('faithTradition', v)} />
                 </SettingRow>
                 <SettingRow label="Spiritual Season" desc="Helps the companion meet you where you are">
-                  <Sel options={['Seeking', 'Growing', 'Questioning', 'Resting', 'Suffering', 'Renewed']} value="Seeking" onChange={() => {}} />
+                  <Sel options={['Seeking', 'Growing', 'Questioning', 'Resting', 'Suffering', 'Renewed']} value={profile.spiritualSeason} onChange={(v) => updateProfile('spiritualSeason', v)} />
                 </SettingRow>
               </Group>
             </>
@@ -1650,7 +1767,7 @@ export default function Settings() {
                   <Sel options={['NKJV', 'CSB', 'AMP', 'KJV', 'ESV', 'NIV', 'NASB', 'NLT']} value={translation} onChange={setTranslation} />
                 </SettingRow>
                 <SettingRow label="Parallel Translation" desc="Show a second translation alongside the primary">
-                  <Sel options={['None', 'NIV', 'NASB', 'KJV', 'MSG']} value="None" onChange={() => {}} />
+                  <Sel options={['None', 'NIV', 'NASB', 'KJV', 'MSG']} value={profile.parallelTranslation} onChange={(v) => updateProfile('parallelTranslation', v)} />
                 </SettingRow>
               </Group>
               <Group>
@@ -2035,7 +2152,7 @@ export default function Settings() {
               <Group>
                 <GroupHeader title="Response Style" />
                 <SettingRow label="Companion Tone">
-                  <Sel options={['Warm & Pastoral', 'Scholarly & Grounded', 'Brief & Direct', 'Contemplative']} value="Scholarly & Grounded" onChange={() => {}} />
+                  <Sel options={['Warm & Pastoral', 'Scholarly & Grounded', 'Brief & Direct', 'Contemplative']} value={profile.companionTone} onChange={(v) => updateProfile('companionTone', v)} />
                 </SettingRow>
                 <SettingRow label="Use My Chronicle as Context" desc="Companion can reference your past entries when relevant">
                   <Toggle checked={toggles.chronicleContext} onChange={() => toggle('chronicleContext')} />
@@ -2171,7 +2288,7 @@ export default function Settings() {
               <Group>
                 <GroupHeader title="Typography" />
                 <SettingRow label="Scripture & Journal Font" desc="Used for all devotional content">
-                  <Sel options={['Georgia (Serif)', 'Palatino', 'System Sans']} value="Georgia (Serif)" onChange={() => {}} />
+                  <Sel options={['Georgia (Serif)', 'Palatino', 'System Sans']} value={profile.readingFont} onChange={(v) => updateProfile('readingFont', v)} />
                 </SettingRow>
               </Group>
             </>
@@ -2185,7 +2302,12 @@ export default function Settings() {
                   <Toggle checked={toggles.morningReminder} onChange={() => toggle('morningReminder')} />
                 </SettingRow>
                 <SettingRow label="Reminder Time">
-                  <input type="time" defaultValue="06:30" style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', width: 100 }} />
+                  <input
+                    type="time"
+                    value={profile.reminderTime}
+                    onChange={(e) => updateProfile('reminderTime', e.target.value)}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', width: 100 }}
+                  />
                 </SettingRow>
                 <SettingRow label="Evening Reflection Prompt" desc="End-of-day nudge to record a Chronicle entry">
                   <Toggle checked={toggles.eveningPrompt} onChange={() => toggle('eveningPrompt')} />
@@ -3061,12 +3183,12 @@ export default function Settings() {
                 <GroupHeader title="Export" />
                 <SettingRow label="Export Chronicle" desc="Download all entries as Markdown or JSON">
                   <div style={{ display: 'flex', gap: 6 }}>
-                    <button style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>.md</button>
+                    <button onClick={exportChronicleMarkdown} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>.md</button>
                     <button onClick={createChronicleSnapshot} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>.json</button>
                   </div>
                 </SettingRow>
-                <SettingRow label="Export Legacy Memoir" desc="Download the Legacy View as a formatted PDF">
-                  <button style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>Export PDF</button>
+                <SettingRow label="Export Legacy Memoir" desc="Opens a print-formatted view — use your browser's Save as PDF">
+                  <button onClick={exportLegacyMemoir} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>Export PDF</button>
                 </SettingRow>
               </Group>
             </>
@@ -3247,8 +3369,4 @@ export default function Settings() {
       </div>
     </div>
   );
-}
-
-function nowMonthDiff(start: Date, end: Date) {
-  return (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth());
 }

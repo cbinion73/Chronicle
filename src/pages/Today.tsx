@@ -33,7 +33,8 @@ function todayDateStr() {
   return new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
 }
 
-// Derive formation data from actual Chronicle entries
+// Derive formation data from actual Chronicle entries — no padding, no fabricated
+// stats. Zero real activity should show as zero, not a friendlier-looking floor.
 function useFormation() {
   const { chronicleEntries } = useAppStore();
   const today = new Date();
@@ -48,30 +49,44 @@ function useFormation() {
     e.body.toLowerCase().includes('gratitude') ||
     e.type === 'reflection'
   );
+  const obedienceEntries = thisMonth.filter((e) =>
+    e.body.toLowerCase().includes('obey') ||
+    e.body.toLowerCase().includes('obedience') ||
+    e.body.toLowerCase().includes('surrender')
+  );
 
   return [
-    { label: 'Scripture', value: `${studyEntries.length + 1} sessions`, pct: Math.min(90, studyEntries.length * 12 + 30), color: 'green' },
-    { label: 'Prayer', value: `${Math.max(prayerDays, 1)}/7 days`, pct: Math.min(100, (Math.max(prayerDays, 1) / 7) * 100), color: 'green' },
-    { label: 'Obedience', value: '3 moments', pct: 38, color: 'amber' },
-    { label: 'Gratitude', value: `${Math.max(gratitudeEntries.length, 1)} entries`, pct: Math.min(90, gratitudeEntries.length * 15 + 20), color: 'green' },
+    { label: 'Scripture', value: `${studyEntries.length} session${studyEntries.length === 1 ? '' : 's'}`, pct: Math.min(90, studyEntries.length * 12), color: 'green' },
+    { label: 'Prayer', value: `${prayerDays}/7 days`, pct: Math.min(100, (prayerDays / 7) * 100), color: 'green' },
+    { label: 'Obedience', value: `${obedienceEntries.length} moment${obedienceEntries.length === 1 ? '' : 's'}`, pct: Math.min(90, obedienceEntries.length * 15), color: obedienceEntries.length > 0 ? 'green' : 'amber' },
+    { label: 'Gratitude', value: `${gratitudeEntries.length} ${gratitudeEntries.length === 1 ? 'entry' : 'entries'}`, pct: Math.min(90, gratitudeEntries.length * 15), color: 'green' },
   ];
 }
 
 export default function Today() {
   const navigate = useNavigate();
-  const { addChronicleEntry, chronicleEntries, studyModuleDayById, ownedBooks, activeOwnedBookId, formationRhythms, completeFormationRhythm, setBibleView } = useAppStore();
+  const { addChronicleEntry, updateChronicleEntry, chronicleEntries, studyModuleDayById, ownedBooks, activeOwnedBookId, formationRhythms, completeFormationRhythm, setBibleView } = useAppStore();
   const { addToast } = useToastStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
   const [activeMode, setActiveMode] = useState('structured');
-  const [showReturn, setShowReturn] = useState(true);
+  const [returnDismissed, setReturnDismissed] = useState(false);
   const [prayerText, setPrayerText] = useState('');
   const [focusPreview, setFocusPreview] = useState<Awaited<ReturnType<typeof loadPassagePreview>> | null>(null);
   const prayerSaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastSavedPrayer = useRef('');
+  const savedPrayerEntryId = useRef<string | null>(null);
 
   const formation = useFormation();
   const recentEntries = chronicleEntries.slice(0, 3);
+  // chronicleEntries[0] is the most recent (DB fetch is date-desc, new local
+  // entries are unshifted to the front) — used only for the "welcome back" copy,
+  // so an imprecise ordering edge case here isn't worth a separate sort.
+  const now = useMemo(() => new Date(), []);
+  const daysSinceLastEntry = chronicleEntries.length > 0
+    ? Math.floor((now.getTime() - new Date(`${chronicleEntries[0].date}T12:00:00`).getTime()) / 86400000)
+    : null;
+  const showReturn = !returnDismissed && daysSinceLastEntry !== null && daysSinceLastEntry >= 3;
   const activeStudyDay = getStudyDay('bible-study', studyModuleDayById['bible-study'] || 1);
   const activeOwnedBook = ownedBooks.find((book) => book.id === activeOwnedBookId) || ownedBooks[0] || null;
   const activeDiscipleshipSnapshot = getTodayDiscipleshipSnapshot(activeOwnedBook, studyModuleDayById.discipleship || 1);
@@ -126,30 +141,38 @@ export default function Today() {
     };
   }, [activeStudyDay.scripture]);
 
-  // Auto-save prayer to Chronicle after 2s of inactivity
+  // Auto-save prayer to Chronicle after 2s of inactivity. The first save creates
+  // the entry; subsequent saves in the same session update that same entry instead
+  // of creating a new near-duplicate one each time the text grows.
   useEffect(() => {
     if (prayerSaveTimer.current) clearTimeout(prayerSaveTimer.current);
     if (prayerText.trim().length < 10) return;
     prayerSaveTimer.current = setTimeout(() => {
       if (prayerText.trim() !== lastSavedPrayer.current) {
         lastSavedPrayer.current = prayerText.trim();
-        addChronicleEntry({
-          id: Math.random().toString(36).slice(2),
-          date: new Date().toISOString().split('T')[0],
-          type: 'prayer',
-          title: 'Morning prayer — ' + prayerText.trim().slice(0, 40),
-          body: prayerText.trim(),
-          autoCapture: true,
-          sourceContext: {
-            page: 'today',
-            passage: activeStudyDay.scripture,
-          },
-        });
+        if (savedPrayerEntryId.current) {
+          updateChronicleEntry(savedPrayerEntryId.current, { body: prayerText.trim(), title: 'Morning prayer — ' + prayerText.trim().slice(0, 40) });
+        } else {
+          const id = Math.random().toString(36).slice(2);
+          savedPrayerEntryId.current = id;
+          addChronicleEntry({
+            id,
+            date: new Date().toISOString().split('T')[0],
+            type: 'prayer',
+            title: 'Morning prayer — ' + prayerText.trim().slice(0, 40),
+            body: prayerText.trim(),
+            autoCapture: true,
+            sourceContext: {
+              page: 'today',
+              passage: activeStudyDay.scripture,
+            },
+          });
+        }
         addToast('Saved to Chronicle', 'success', '🙏');
       }
     }, 2000);
     return () => { if (prayerSaveTimer.current) clearTimeout(prayerSaveTimer.current); };
-  }, [activeStudyDay.scripture, addChronicleEntry, addToast, prayerText]);
+  }, [activeStudyDay.scripture, addChronicleEntry, addToast, prayerText, updateChronicleEntry]);
 
   const openPassageInBible = (referenceText: string, openThemes = false) => {
     const target = getBibleNavigationTarget(referenceText);
@@ -187,9 +210,9 @@ export default function Today() {
           <div className={s.returnBanner}>
             <span className={s.returnBannerIcon}>👋</span>
             <span className={s.returnBannerText}>
-              Welcome back — you were away for a few days. The shepherd still knows you by name.
+              Welcome back — you were away for {daysSinceLastEntry} days. The shepherd still knows you by name.
             </span>
-            <button className={s.returnBannerClose} onClick={() => setShowReturn(false)}>✕</button>
+            <button className={s.returnBannerClose} onClick={() => setReturnDismissed(true)}>✕</button>
           </div>
         )}
 

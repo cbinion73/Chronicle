@@ -22,7 +22,7 @@ const CAT_COLORS: Record<string, string> = {
 export default function Prayer() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { prayerItems, chronicleEntries, formationRhythms, completeFormationRhythm, togglePrayerAnswered, markPrayerAnswered, recordPrayerTouch, addPrayerItem, addChronicleEntry, setBibleView } = useAppStore();
+  const { prayerItems, chronicleEntries, formationRhythms, completeFormationRhythm, togglePrayerAnswered, markPrayerAnswered, recordPrayerTouch, addPrayerItem, deletePrayerItem, addChronicleEntry, setBibleView } = useAppStore();
   const { addToast } = useToastStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
@@ -214,6 +214,12 @@ export default function Prayer() {
     addToast('Prayer request brought into today’s prayer', 'success', '🙏');
   };
 
+  const handleDeletePrayerItem = (item: PrayerItem) => {
+    if (!window.confirm(`Delete "${item.text}"? This can't be undone.`)) return;
+    deletePrayerItem(item.id);
+    addToast('Prayer request deleted', 'success', '🗑️');
+  };
+
   const openAnswerPrayer = (item: PrayerItem) => {
     setAnsweringPrayerId(item.id);
     setAnswerSummary(item.answerSummary || '');
@@ -351,7 +357,7 @@ export default function Prayer() {
         <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '14px 14px 20px' : '16px 20px', display: 'flex', flexDirection: 'column', gap: 8 }}>
 
           {filtered.map((item) => (
-            <PrayerCard key={item.id} item={item} onToggle={() => togglePrayerAnswered(item.id)} onPray={() => handlePrayedForItem(item)} onAnswer={() => openAnswerPrayer(item)} />
+            <PrayerCard key={item.id} item={item} onToggle={() => togglePrayerAnswered(item.id)} onPray={() => handlePrayedForItem(item)} onAnswer={() => openAnswerPrayer(item)} onDelete={() => handleDeletePrayerItem(item)} />
           ))}
 
           {/* Answered section */}
@@ -361,7 +367,7 @@ export default function Prayer() {
                 ✓ Answered Prayers
               </div>
               {answeredItems.map((item) => (
-                <PrayerCard key={item.id} item={item} onToggle={() => togglePrayerAnswered(item.id)} onPray={() => handlePrayedForItem(item)} onAnswer={() => openAnswerPrayer(item)} answered />
+                <PrayerCard key={item.id} item={item} onToggle={() => togglePrayerAnswered(item.id)} onPray={() => handlePrayedForItem(item)} onAnswer={() => openAnswerPrayer(item)} onDelete={() => handleDeletePrayerItem(item)} answered />
               ))}
             </>
           )}
@@ -629,7 +635,7 @@ export default function Prayer() {
   );
 }
 
-function PrayerCard({ item, onToggle, onPray, onAnswer, answered }: { item: PrayerItem; onToggle: () => void; onPray: () => void; onAnswer: () => void; answered?: boolean }) {
+function PrayerCard({ item, onToggle, onPray, onAnswer, onDelete, answered }: { item: PrayerItem; onToggle: () => void; onPray: () => void; onAnswer: () => void; onDelete: () => void; answered?: boolean }) {
   return (
     <div style={{
       display: 'flex',
@@ -701,17 +707,25 @@ function PrayerCard({ item, onToggle, onPray, onAnswer, answered }: { item: Pray
           </div>
         ) : null}
       </div>
-      <div style={{
-        padding: '2px 8px',
-        borderRadius: 10,
-        fontSize: 10,
-        fontWeight: 600,
-        background: `${CAT_COLORS[item.category]}20`,
-        color: CAT_COLORS[item.category],
-        flexShrink: 0,
-        textTransform: 'capitalize',
-      }}>
-        {item.category}
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6, flexShrink: 0 }}>
+        <div style={{
+          padding: '2px 8px',
+          borderRadius: 10,
+          fontSize: 10,
+          fontWeight: 600,
+          background: `${CAT_COLORS[item.category]}20`,
+          color: CAT_COLORS[item.category],
+          textTransform: 'capitalize',
+        }}>
+          {item.category}
+        </div>
+        <button
+          onClick={onDelete}
+          title="Delete prayer request"
+          style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 12, color: 'var(--text-muted)', padding: 2 }}
+        >
+          🗑️
+        </button>
       </div>
     </div>
   );

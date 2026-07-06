@@ -17,6 +17,7 @@ interface Props {
   defaultType?: ChronicleEntry['type'];
   defaultPassage?: string;
   defaultBody?: string;
+  editEntry?: ChronicleEntry | null;
 }
 
 interface DraftProps {
@@ -24,21 +25,33 @@ interface DraftProps {
   defaultType: ChronicleEntry['type'];
   defaultPassage: string;
   defaultBody: string;
+  editEntry?: ChronicleEntry | null;
 }
 
-function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody }: DraftProps) {
-  const { addChronicleEntry } = useAppStore();
+function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody, editEntry }: DraftProps) {
+  const { addChronicleEntry, updateChronicleEntry } = useAppStore();
   const { addToast } = useToastStore();
-  const [type, setType] = useState<ChronicleEntry['type']>(defaultType);
-  const [title, setTitle] = useState('');
-  const [body, setBody] = useState(defaultBody);
-  const [passage, setPassage] = useState(defaultPassage);
+  const [type, setType] = useState<ChronicleEntry['type']>(editEntry?.type ?? defaultType);
+  const [title, setTitle] = useState(editEntry?.title ?? '');
+  const [body, setBody] = useState(editEntry?.body ?? defaultBody);
+  const [passage, setPassage] = useState(editEntry?.passage ?? defaultPassage);
   const bodyRef = useRef<HTMLTextAreaElement>(null);
 
   const selectedType = ENTRY_TYPES.find((entryType) => entryType.id === type)!;
 
   const handleSave = useCallback(() => {
     if (!body.trim()) return;
+    if (editEntry) {
+      updateChronicleEntry(editEntry.id, {
+        type,
+        title: title.trim() || body.trim().slice(0, 60) + (body.length > 60 ? '…' : ''),
+        body: body.trim(),
+        passage: passage.trim() || undefined,
+      });
+      addToast('Chronicle entry updated', 'success', selectedType.icon);
+      onClose();
+      return;
+    }
     const entry: ChronicleEntry = {
       id: Math.random().toString(36).slice(2),
       date: new Date().toISOString().split('T')[0],
@@ -50,7 +63,7 @@ function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody 
     addChronicleEntry(entry);
     addToast('Saved to Chronicle', 'success', selectedType.icon);
     onClose();
-  }, [addChronicleEntry, addToast, body, onClose, passage, selectedType.icon, title, type]);
+  }, [addChronicleEntry, addToast, body, editEntry, onClose, passage, selectedType.icon, title, type, updateChronicleEntry]);
 
   useEffect(() => {
     const focusTimer = window.setTimeout(() => bodyRef.current?.focus(), 80);
@@ -102,7 +115,7 @@ function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody 
             justifyContent: 'space-between',
           }}
         >
-          <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)' }}>New Chronicle Entry</div>
+          <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)' }}>{editEntry ? 'Edit Chronicle Entry' : 'New Chronicle Entry'}</div>
           <button
             onClick={onClose}
             style={{ fontSize: 18, color: 'var(--text-muted)', background: 'none', border: 'none', cursor: 'pointer', lineHeight: 1 }}
@@ -232,7 +245,7 @@ function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody 
                 transition: 'background 0.15s',
               }}
             >
-              Save to Chronicle
+              {editEntry ? 'Save Changes' : 'Save to Chronicle'}
             </button>
           </div>
         </div>
@@ -247,16 +260,18 @@ export default function NewEntryModal({
   defaultType = 'insight',
   defaultPassage = '',
   defaultBody = '',
+  editEntry = null,
 }: Props) {
   if (!open) return null;
 
   return (
     <NewEntryModalDraft
-      key={`${defaultType}:${defaultPassage}:${defaultBody}`}
+      key={editEntry ? `edit:${editEntry.id}` : `${defaultType}:${defaultPassage}:${defaultBody}`}
       onClose={onClose}
       defaultType={defaultType}
       defaultPassage={defaultPassage}
       defaultBody={defaultBody}
+      editEntry={editEntry}
     />
   );
 }

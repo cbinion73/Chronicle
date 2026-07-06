@@ -7,6 +7,8 @@ import { deriveFormationJourney, deriveLegacyNarrative } from '../lib/formationA
 import { useAIChatStore } from '../store/aiChatStore';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { buildReflectionPrompts } from '../lib/reflectionPrompts';
+import { exportChronicleMarkdown, monthsSinceOldestEntry } from '../lib/chronicleExport';
+import { useToastStore } from '../store/toastStore';
 import s from './Chronicle.module.css';
 
 const TYPE_COLORS: Record<string, string> = {
@@ -28,12 +30,14 @@ const TYPE_BG: Record<string, string> = {
 export default function Chronicle() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { chronicleEntries, prayerItems, formationRhythms, addChronicleEntry, setBibleView, setActiveTab, setStudyModuleDay, setActiveOwnedBook } = useAppStore();
+  const { chronicleEntries, prayerItems, formationRhythms, addChronicleEntry, deleteChronicleEntry, setBibleView, setActiveTab, setStudyModuleDay, setActiveOwnedBook } = useAppStore();
+  const { addToast } = useToastStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
   const [view, setView] = useState<'personal' | 'legacy'>('personal');
   const [filterType, setFilterType] = useState('all');
   const [newEntryOpen, setNewEntryOpen] = useState(false);
+  const [editingEntry, setEditingEntry] = useState<ChronicleEntry | null>(null);
   const [passageFilter, setPassageFilter] = useState<string>('');
   const routePassageFilter = location.state && typeof location.state === 'object' && 'filterPassage' in location.state && typeof location.state.filterPassage === 'string'
     ? location.state.filterPassage
@@ -198,7 +202,13 @@ export default function Chronicle() {
           )}
           </div>
 
-          <button className={s.headerAction}>
+          <button
+            className={s.headerAction}
+            onClick={() => {
+              exportChronicleMarkdown(chronicleEntries);
+              addToast('Chronicle exported as Markdown', 'success', '📄');
+            }}
+          >
             Export
           </button>
         </div>
@@ -243,7 +253,19 @@ export default function Chronicle() {
                     </div>
                     <div className={s.entryList}>
                       {groupedByDate[date].map((entry) => (
-                        <EntryCard key={entry.id} entry={entry} onOpenBible={openEntryInBible} onOpenSource={openEntrySource} />
+                        <EntryCard
+                          key={entry.id}
+                          entry={entry}
+                          onOpenBible={openEntryInBible}
+                          onOpenSource={openEntrySource}
+                          onEdit={() => setEditingEntry(entry)}
+                          onDelete={() => {
+                            if (window.confirm(`Delete "${entry.title}"? This can't be undone.`)) {
+                              deleteChronicleEntry(entry.id);
+                              addToast('Entry deleted', 'success', '🗑️');
+                            }
+                          }}
+                        />
                       ))}
                     </div>
                   </div>
@@ -274,7 +296,7 @@ export default function Chronicle() {
             {[
               { n: chronicleEntries.length, l: 'Entries' },
               { n: Object.keys(groupedByDate).length, l: 'Days' },
-              { n: 6, l: 'Months' },
+              { n: monthsSinceOldestEntry(chronicleEntries), l: 'Months' },
               { n: chronicleEntries.filter(e => e.autoCapture).length, l: 'Auto' },
             ].map((stat) => (
               <div key={stat.l} className={s.statCard}>
@@ -350,6 +372,7 @@ export default function Chronicle() {
       </div>
 
       <NewEntryModal open={newEntryOpen} onClose={() => setNewEntryOpen(false)} />
+      <NewEntryModal open={Boolean(editingEntry)} onClose={() => setEditingEntry(null)} editEntry={editingEntry} />
     </div>
   );
 }
@@ -366,7 +389,13 @@ function sourceActionLabel(entry: ChronicleEntry) {
   return 'Return to Source';
 }
 
-function EntryCard({ entry, onOpenBible, onOpenSource }: { entry: ChronicleEntry; onOpenBible: (entry: ChronicleEntry) => void; onOpenSource: (entry: ChronicleEntry) => void }) {
+function EntryCard({ entry, onOpenBible, onOpenSource, onEdit, onDelete }: {
+  entry: ChronicleEntry;
+  onOpenBible: (entry: ChronicleEntry) => void;
+  onOpenSource: (entry: ChronicleEntry) => void;
+  onEdit: () => void;
+  onDelete: () => void;
+}) {
   return (
     <div className={s.entryCard} style={{ borderLeftColor: TYPE_COLORS[entry.type] }}>
       <div className={s.entryHeader}>
@@ -384,6 +413,22 @@ function EntryCard({ entry, onOpenBible, onOpenSource }: { entry: ChronicleEntry
         {entry.autoCapture && (
           <span className={s.autoBadge}>auto</span>
         )}
+        <div style={{ marginLeft: 'auto', display: 'flex', gap: 4 }}>
+          <button
+            onClick={onEdit}
+            title="Edit entry"
+            style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 13, color: 'var(--text-muted)', padding: 2 }}
+          >
+            ✏️
+          </button>
+          <button
+            onClick={onDelete}
+            title="Delete entry"
+            style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 13, color: 'var(--text-muted)', padding: 2 }}
+          >
+            🗑️
+          </button>
+        </div>
       </div>
       <div className={s.entryTitle}>{entry.title}</div>
       <div className={s.entryBody}>{entry.body}</div>

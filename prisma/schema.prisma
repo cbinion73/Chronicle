@@ -130,6 +130,8 @@ model AppSettings {
   activeOwnedBookId   String   @default("")
   syncProfile         Json?
   voiceConfig         Json?
+  toggles             Json     @default("{}")
+  profile             Json     @default("{}")
   updatedAt           DateTime @updatedAt
 
   @@map("app_settings")
