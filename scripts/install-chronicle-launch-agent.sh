@@ -4,7 +4,7 @@ set -euo pipefail
 LABEL="com.chronicle.local-lan"
 PLIST_PATH="$HOME/Library/LaunchAgents/$LABEL.plist"
 LOG_DIR="$HOME/Library/Logs/Chronicle"
-SOURCE_DIR="/Users/chris/Desktop/CODE/chronicle"
+SOURCE_DIR="/Users/chris/Desktop/CODE/CODE/chronicle"
 SERVICE_ROOT="$HOME/Library/Application Support/ChronicleService"
 SERVICE_APP_DIR="$SERVICE_ROOT/app"
 RUN_SCRIPT="$SERVICE_ROOT/run-chronicle-lan.sh"
@@ -23,7 +23,12 @@ cat > "$RUN_SCRIPT" <<RUNNER
 set -euo pipefail
 
 cd "$SERVICE_APP_DIR"
-exec /usr/local/bin/npm run serve:lan
+# Production now runs the standalone server (server/index.ts), not the Vite dev
+# server — it needs a fresh dist/ build, which the rsync above deliberately
+# excludes so this always ships current code.
+/usr/local/bin/npm install
+/usr/local/bin/npm run build
+exec /usr/local/bin/npm run start
 RUNNER
 
 chmod +x "$RUN_SCRIPT"
