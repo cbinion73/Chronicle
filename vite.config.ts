@@ -4,6 +4,7 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 import { tmpdir } from 'node:os'
 import { basename, dirname, extname, join, relative, resolve } from 'node:path'
 import { execFile, spawn } from 'node:child_process'
+import { createHash, timingSafeEqual } from 'node:crypto'
 import { promisify } from 'node:util'
 import { defineConfig, loadEnv, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -54,6 +55,15 @@ import type {
 
 const API_BIBLE_BASE_URL = 'https://rest.api.bible/v1'
 const execFileAsync = promisify(execFile)
+
+// Prisma reads connection config from process.env directly (schema.prisma uses
+// env("CHRONICLE_DATABASE_URL")), and PrismaClient is constructed at module load —
+// before Vite's own config/plugin setup runs. So .env.local must be merged into
+// process.env here, synchronously, ahead of the PrismaClient() call below. In
+// production the real env is already set by the host/container, so this is a no-op
+// there (existing process.env values always win).
+applyDotEnvFileToProcessEnv(resolve(process.cwd(), '.env.local'))
+
 const _prisma = new PrismaClient()
 
 type StudyImportJobKind = 'ocr' | 'segmented' | 'import'
@@ -344,6 +354,47 @@ function withChronicleMiddlewares(
       register(server.middlewares as unknown as ChronicleMiddlewareHost)
     },
   }
+}
+
+function tokensMatch(candidate: string, expected: string) {
+  const candidateHash = createHash('sha256').update(candidate).digest()
+  const expectedHash = createHash('sha256').update(expected).digest()
+  return timingSafeEqual(candidateHash, expectedHash)
+}
+
+function extractRequestToken(request: IncomingMessage) {
+  const header = request.headers.authorization
+  if (typeof header === 'string' && header.startsWith('Bearer ')) {
+    return header.slice('Bearer '.length).trim()
+  }
+  // <img>/<iframe> requests can't carry an Authorization header, so the client
+  // also mirrors the token into a same-origin cookie.
+  const cookieMatch = (request.headers.cookie || '').match(/(?:^|;\s*)chronicle_api_token=([^;]+)/)
+  return cookieMatch ? decodeURIComponent(cookieMatch[1]) : ''
+}
+
+function apiAuthGate(env: Record<string, string>): Plugin {
+  const requiredToken = (env.CHRONICLE_API_TOKEN || '').trim()
+  if (!requiredToken) {
+    console.warn(
+      '[chronicle] CHRONICLE_API_TOKEN is not set — every /api endpoint is UNAUTHENTICATED. ' +
+        'Set it before exposing this server beyond your own machine.',
+    )
+  }
+  return withChronicleMiddlewares('chronicle-api-auth-gate', (middlewares) => {
+    middlewares.use('/api', (request, response, next) => {
+      if (!requiredToken) {
+        next?.()
+        return
+      }
+      const candidate = extractRequestToken(request)
+      if (candidate && tokensMatch(candidate, requiredToken)) {
+        next?.()
+        return
+      }
+      sendJson(response, 401, { error: { errmsg: 'Unauthorized. Provide the Chronicle API token.' } })
+    })
+  })
 }
 
 function sendJson(response: ServerResponse, statusCode: number, payload: unknown) {
@@ -699,6 +750,14 @@ function isWithinChronicleManagedData(pathValue: string) {
   const resolvedPath = resolve(pathValue)
   const managedRoot = getChronicleDataRoot()
   return resolvedPath === managedRoot || resolvedPath.startsWith(`${managedRoot}/`)
+}
+
+// Client-supplied fallback paths may only point inside the chronicle-managed data
+// root — otherwise these endpoints become an arbitrary-file-read primitive.
+function resolveManagedRequestPath(pathValue: string | null | undefined) {
+  if (!pathValue) return null
+  const resolvedPath = resolve(pathValue)
+  return isWithinChronicleManagedData(resolvedPath) ? resolvedPath : null
 }
 
 function removeManagedPath(pathValue: string, removedPaths: string[]) {
@@ -3465,13 +3524,18 @@ function createVoiceTempDir(prefix: string) {
   return mkdtempSync(join(tmpdir(), prefix))
 }
 
+// Chronicle only ever needs to speak and play audio through Home Assistant; anything
+// else (locks, alarms, switches) must not be reachable from this endpoint.
+const ALLOWED_HOME_ASSISTANT_DOMAINS = new Set(['tts', 'media_player'])
+
 async function callHomeAssistantApi(
   env: Record<string, string>,
   path: string,
   init: RequestInit = {},
-  config?: ChronicleVoiceConfig,
 ) {
-  const baseUrl = trimTrailingSlash(env.CHRONICLE_HOME_ASSISTANT_URL || config?.homeAssistant.baseUrl || '')
+  // The bearer token comes from server env, so the base URL must too — honoring a
+  // client-supplied baseUrl would send the token to an attacker-controlled host.
+  const baseUrl = trimTrailingSlash(env.CHRONICLE_HOME_ASSISTANT_URL || '')
   const token = env.CHRONICLE_HOME_ASSISTANT_TOKEN || ''
   if (!baseUrl || !token) {
     throw new Error('Home Assistant URL/token is not configured.')
@@ -3502,7 +3566,8 @@ async function transcribeWithWhisperCli(
   config: ChronicleVoiceConfig,
   env: Record<string, string>,
 ) {
-  const command = env.CHRONICLE_WHISPER_COMMAND || config.whisperCli.command || 'whisper'
+  // Executable comes from server env only — request bodies must never choose what we spawn.
+  const command = env.CHRONICLE_WHISPER_COMMAND || 'whisper'
   const { bin, args: baseArgs } = splitCommand(command)
   const tempDir = createVoiceTempDir('chronicle-whisper-')
   const inputExt = inferAudioExtension(mimeType, fileName)
@@ -3584,7 +3649,8 @@ async function synthesizeWithPiper(
   config: ChronicleVoiceConfig,
   env: Record<string, string>,
 ) {
-  const command = env.CHRONICLE_PIPER_COMMAND || config.piper.command || 'piper'
+  // Executable comes from server env only — request bodies must never choose what we spawn.
+  const command = env.CHRONICLE_PIPER_COMMAND || 'piper'
   const modelPath = resolveChroniclePath(env.CHRONICLE_PIPER_MODEL || config.piper.modelPath)
   if (!modelPath || !existsSync(modelPath)) {
     throw new Error('Piper model path is not configured or the model file does not exist.')
@@ -3736,7 +3802,7 @@ function voiceDevApi(env: Record<string, string>): Plugin {
                   language: config.homeAssistant.preferredLanguage,
                 },
               }),
-            }, config)
+            })
             sendJson(response, 200, {
               ok: true,
               provider: 'home-assistant-tts',
@@ -3779,7 +3845,7 @@ function voiceDevApi(env: Record<string, string>): Plugin {
               agent_id: env.CHRONICLE_HOME_ASSISTANT_CONVERSATION_AGENT || config.homeAssistant.conversationAgentId,
               language: config.homeAssistant.preferredLanguage,
             }),
-          }, config) as {
+          }) as {
             conversation_id?: string
             response?: {
               speech?: {
@@ -3814,7 +3880,10 @@ function voiceDevApi(env: Record<string, string>): Plugin {
             sendJson(response, 400, { error: { errmsg: 'domain and service are required.' } })
             return
           }
-          const config = normalizeVoiceConfig(body.config)
+          if (!ALLOWED_HOME_ASSISTANT_DOMAINS.has(body.domain)) {
+            sendJson(response, 403, { error: { errmsg: `Home Assistant domain "${body.domain}" is not allowed from Chronicle.` } })
+            return
+          }
           const result = await callHomeAssistantApi(
             env,
             `/api/services/${encodeURIComponent(body.domain)}/${encodeURIComponent(body.service)}`,
@@ -3822,7 +3891,6 @@ function voiceDevApi(env: Record<string, string>): Plugin {
               method: 'POST',
               body: JSON.stringify(body.data || {}),
             },
-            config,
           )
           sendJson(response, 200, {
             ok: true,
@@ -4067,7 +4135,7 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
             return
           }
 
-          const textPath = getManagedAssetPath(record || {}, 'ocr-text') || fallbackTextPath
+          const textPath = getManagedAssetPath(record || {}, 'ocr-text') || resolveManagedRequestPath(fallbackTextPath)
           if (!textPath || !existsSync(textPath)) {
             sendJson(response, 404, { error: { errmsg: 'OCR text is not available for this book yet.' } })
             return
@@ -4102,7 +4170,7 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
             return
           }
 
-          const pdfPath = getManagedAssetPath(record || {}, 'imported-pdf') || fallbackSourcePath
+          const pdfPath = getManagedAssetPath(record || {}, 'imported-pdf') || resolveManagedRequestPath(fallbackSourcePath)
           if (!pdfPath || !existsSync(pdfPath)) {
             sendJson(response, 404, { error: { errmsg: 'Source PDF is not available for this book yet.' } })
             return
@@ -4133,7 +4201,7 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
           }
 
           const record = bookId ? loadLibraryCatalog().find((entry) => entry.id === bookId) : null
-          const pdfPath = getManagedAssetPath(record || {}, 'imported-pdf') || fallbackSourcePath
+          const pdfPath = getManagedAssetPath(record || {}, 'imported-pdf') || resolveManagedRequestPath(fallbackSourcePath)
           if (!pdfPath || !existsSync(pdfPath)) {
             sendJson(response, 404, { error: { errmsg: 'Source PDF is not available for this book yet.' } })
             return
@@ -4185,7 +4253,7 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
           }
 
           const record = bookId ? loadLibraryCatalog().find((entry) => entry.id === bookId) : null
-          const pdfPath = getManagedAssetPath(record || {}, 'imported-pdf') || fallbackSourcePath
+          const pdfPath = getManagedAssetPath(record || {}, 'imported-pdf') || resolveManagedRequestPath(fallbackSourcePath)
           if (!pdfPath || !existsSync(pdfPath)) {
             sendJson(response, 404, { error: { errmsg: 'Source PDF is not available for this book yet.' } })
             return
@@ -4239,6 +4307,10 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
 
           if (!body.pdfPath) {
             sendJson(response, 400, { error: { errmsg: 'pdfPath is required.' } })
+            return
+          }
+          if (extname(body.pdfPath).toLowerCase() !== '.pdf') {
+            sendJson(response, 400, { error: { errmsg: 'pdfPath must point to a .pdf file.' } })
             return
           }
 
@@ -4407,6 +4479,10 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
             sendJson(response, 400, { error: { errmsg: 'pdfPath is required.' } })
             return
           }
+          if (extname(body.pdfPath).toLowerCase() !== '.pdf') {
+            sendJson(response, 400, { error: { errmsg: 'pdfPath must point to a .pdf file.' } })
+            return
+          }
 
           await stat(body.pdfPath)
 
@@ -4465,6 +4541,10 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
             sendJson(response, 400, { error: { errmsg: 'pdfPath is required.' } })
             return
           }
+          if (extname(body.pdfPath).toLowerCase() !== '.pdf') {
+            sendJson(response, 400, { error: { errmsg: 'pdfPath must point to a .pdf file.' } })
+            return
+          }
 
           await stat(body.pdfPath)
 
@@ -4519,6 +4599,10 @@ function studyImportsDevApi(env: Record<string, string>): Plugin {
 
           if (!body.pdfPath) {
             sendJson(response, 400, { error: { errmsg: 'pdfPath is required.' } })
+            return
+          }
+          if (extname(body.pdfPath).toLowerCase() !== '.pdf') {
+            sendJson(response, 400, { error: { errmsg: 'pdfPath must point to a .pdf file.' } })
             return
           }
 
@@ -5246,7 +5330,9 @@ function getRequestUrl(request: IncomingMessage) {
 }
 
 // ── DB sync helper — called fire-and-forget from the snapshot export endpoint ──
+// Slated for removal: per-entity CRUD is becoming the single write path.
 async function _upsertAppStateToDb(appState: Record<string, unknown>) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const as = appState as Record<string, any>
   const now = new Date().toISOString().slice(0, 10)
 
@@ -5274,6 +5360,14 @@ async function _upsertAppStateToDb(appState: Record<string, unknown>) {
   await _prisma.appSettings.upsert({ where: { id: 'singleton' }, create: { id: 'singleton', ...settingsUpdate }, update: settingsUpdate })
 }
 
+// Request bodies must never overwrite a row's primary key — the id in the URL/upsert
+// target is authoritative.
+function stripId(record: Record<string, unknown>) {
+  const rest = { ...record }
+  delete rest.id
+  return rest
+}
+
 function chronicleDbApi(): Plugin {
   return withChronicleMiddlewares('chronicle-db-api', (middlewares) => {
 
@@ -5298,8 +5392,8 @@ function chronicleDbApi(): Plugin {
           const entryId = typeof data.id === 'string' && data.id ? data.id : `entry-${Date.now()}`
           const entry = await _prisma.chronicleEntry.upsert({
             where: { id: entryId },
-            create: { id: entryId, ...(data as Parameters<typeof _prisma.chronicleEntry.create>[0]['data']) },
-            update: { ...(data as Parameters<typeof _prisma.chronicleEntry.update>[0]['data']) },
+            create: { ...(stripId(data) as Parameters<typeof _prisma.chronicleEntry.create>[0]['data']), id: entryId },
+            update: stripId(data) as Parameters<typeof _prisma.chronicleEntry.update>[0]['data'],
           })
           sendJson(response, 200, { entry })
           return
@@ -5310,7 +5404,7 @@ function chronicleDbApi(): Plugin {
           const patch = body.patch ?? {}
           const entry = await _prisma.chronicleEntry.update({
             where: { id },
-            data: patch as Parameters<typeof _prisma.chronicleEntry.update>[0]['data'],
+            data: stripId(patch) as Parameters<typeof _prisma.chronicleEntry.update>[0]['data'],
           })
           sendJson(response, 200, { entry })
           return
@@ -5348,8 +5442,8 @@ function chronicleDbApi(): Plugin {
           const itemId = typeof data.id === 'string' && data.id ? data.id : `prayer-${Date.now()}`
           const item = await _prisma.prayerItem.upsert({
             where: { id: itemId },
-            create: { id: itemId, ...(data as Parameters<typeof _prisma.prayerItem.create>[0]['data']) },
-            update: { ...(data as Parameters<typeof _prisma.prayerItem.update>[0]['data']) },
+            create: { ...(stripId(data) as Parameters<typeof _prisma.prayerItem.create>[0]['data']), id: itemId },
+            update: stripId(data) as Parameters<typeof _prisma.prayerItem.update>[0]['data'],
           })
           sendJson(response, 200, { item })
           return
@@ -5360,7 +5454,7 @@ function chronicleDbApi(): Plugin {
           const patch = body.patch ?? {}
           const item = await _prisma.prayerItem.update({
             where: { id },
-            data: patch as Parameters<typeof _prisma.prayerItem.update>[0]['data'],
+            data: stripId(patch) as Parameters<typeof _prisma.prayerItem.update>[0]['data'],
           })
           sendJson(response, 200, { item })
           return
@@ -5398,8 +5492,8 @@ function chronicleDbApi(): Plugin {
           const rhythmId = typeof data.id === 'string' && data.id ? data.id : `rhythm-${Date.now()}`
           const rhythm = await _prisma.formationRhythm.upsert({
             where: { id: rhythmId },
-            create: { id: rhythmId, ...(data as Parameters<typeof _prisma.formationRhythm.create>[0]['data']) },
-            update: { ...(data as Parameters<typeof _prisma.formationRhythm.update>[0]['data']) },
+            create: { ...(stripId(data) as Parameters<typeof _prisma.formationRhythm.create>[0]['data']), id: rhythmId },
+            update: stripId(data) as Parameters<typeof _prisma.formationRhythm.update>[0]['data'],
           })
           sendJson(response, 200, { rhythm })
           return
@@ -5410,7 +5504,7 @@ function chronicleDbApi(): Plugin {
           const patch = body.patch ?? {}
           const rhythm = await _prisma.formationRhythm.update({
             where: { id },
-            data: patch as Parameters<typeof _prisma.formationRhythm.update>[0]['data'],
+            data: stripId(patch) as Parameters<typeof _prisma.formationRhythm.update>[0]['data'],
           })
           sendJson(response, 200, { rhythm })
           return
@@ -5448,8 +5542,8 @@ function chronicleDbApi(): Plugin {
           const bookmarkId = typeof data.id === 'string' && data.id ? data.id : `bookmark-${Date.now()}`
           const bookmark = await _prisma.scriptureBookmark.upsert({
             where: { id: bookmarkId },
-            create: { id: bookmarkId, ...(data as Parameters<typeof _prisma.scriptureBookmark.create>[0]['data']) },
-            update: { ...(data as Parameters<typeof _prisma.scriptureBookmark.update>[0]['data']) },
+            create: { ...(stripId(data) as Parameters<typeof _prisma.scriptureBookmark.create>[0]['data']), id: bookmarkId },
+            update: stripId(data) as Parameters<typeof _prisma.scriptureBookmark.update>[0]['data'],
           })
           sendJson(response, 200, { bookmark })
           return
@@ -5487,8 +5581,8 @@ function chronicleDbApi(): Plugin {
           const bookId = typeof data.id === 'string' && data.id ? data.id : `book-${Date.now()}`
           const book = await _prisma.ownedBook.upsert({
             where: { id: bookId },
-            create: { id: bookId, ...(data as Parameters<typeof _prisma.ownedBook.create>[0]['data']) },
-            update: { ...(data as Parameters<typeof _prisma.ownedBook.update>[0]['data']) },
+            create: { ...(stripId(data) as Parameters<typeof _prisma.ownedBook.create>[0]['data']), id: bookId },
+            update: stripId(data) as Parameters<typeof _prisma.ownedBook.update>[0]['data'],
           })
           sendJson(response, 200, { book })
           return
@@ -5499,7 +5593,7 @@ function chronicleDbApi(): Plugin {
           const patch = body.patch ?? {}
           const book = await _prisma.ownedBook.update({
             where: { id },
-            data: patch as Parameters<typeof _prisma.ownedBook.update>[0]['data'],
+            data: stripId(patch) as Parameters<typeof _prisma.ownedBook.update>[0]['data'],
           })
           sendJson(response, 200, { book })
           return
@@ -5536,9 +5630,10 @@ function chronicleDbApi(): Plugin {
         if (request.method === 'PUT') {
           const body = await readJsonBody(request) as { patch?: Record<string, unknown> }
           const patch = body.patch ?? {}
-          const settings = await _prisma.appSettings.update({
+          const settings = await _prisma.appSettings.upsert({
             where: { id: SINGLETON_ID },
-            data: patch as Parameters<typeof _prisma.appSettings.update>[0]['data'],
+            create: { ...(stripId(patch) as Parameters<typeof _prisma.appSettings.create>[0]['data']), id: SINGLETON_ID },
+            update: stripId(patch) as Parameters<typeof _prisma.appSettings.update>[0]['data'],
           })
           sendJson(response, 200, { settings })
           return
@@ -5557,7 +5652,7 @@ export default defineConfig(({ mode }) => {
   const env = loadChronicleEnv(mode)
 
   return {
-    plugins: [react(), apiBibleDevApi(env), aiChatDevApi(env), voiceDevApi(env), studyImportsDevApi(env), themeAnalysisDevApi(), chronicleIntegrationDevApi(), chronicleDbApi()],
+    plugins: [react(), apiAuthGate(env), apiBibleDevApi(env), aiChatDevApi(env), voiceDevApi(env), studyImportsDevApi(env), themeAnalysisDevApi(), chronicleIntegrationDevApi(), chronicleDbApi()],
     server: {
       host: '0.0.0.0',
       port: 5174,
@@ -5571,6 +5666,13 @@ function loadChronicleEnv(mode: string) {
   return {
     ...loadEnv(mode, root, ''),
     ...readDotEnvFile(resolve(root, '.env.local')),
+  }
+}
+
+function applyDotEnvFileToProcessEnv(path: string) {
+  const values = readDotEnvFile(path)
+  for (const [key, value] of Object.entries(values)) {
+    if (process.env[key] === undefined) process.env[key] = value
   }
 }
 

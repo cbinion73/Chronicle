@@ -1,0 +1,24 @@
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+node_modules
+dist
+dist-desktop
+.desktop-app
+# data/ is intentionally NOT excluded: the running server reads/writes it at
+# runtime (library catalog, OCR imports, seed content for offline scripts) and
+# there's no volume covering it on the current deploy, so anything left out of
+# the image is simply gone. Revisit once CHRONICLE_DATA_ROOT is backed by a
+# volume that actually matches where the app writes.
+test-results
+_bmad
+_bmad-output
+docs
+tests
+voice
+build
+.claude
+.DS_Store
+**/.DS_Store

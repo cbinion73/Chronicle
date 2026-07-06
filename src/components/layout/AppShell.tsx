@@ -101,7 +101,7 @@ export default function AppShell() {
     typeof window !== 'undefined' && window.localStorage.getItem(START_HERE_DISMISSED_KEY) === 'true'
   ));
   const [isOnline, setIsOnline] = useState(typeof navigator === 'undefined' ? true : navigator.onLine);
-  const [bridgeDismissed, setBridgeDismissed] = useState(false);
+  const [dismissedBridgeRequestId, setDismissedBridgeRequestId] = useState<string | null>(null);
   const { deviceClass } = useResponsiveLayout();
   const chronicleEntries = useAppStore((state) => state.chronicleEntries);
   const ownedBooks = useAppStore((state) => state.ownedBooks);
@@ -114,11 +114,9 @@ export default function AppShell() {
   const chatCollapsed = chatPreference === 'auto' ? deviceClass !== 'desktop' : chatPreference === 'collapsed';
   const chatOpen = !chatCollapsed;
   const jarvisBridge = useMemo(() => readJarvisBridge(location.search), [location.search]);
-  const showJarvisBridge = jarvisBridge.active && !bridgeDismissed;
-
-  useEffect(() => {
-    setBridgeDismissed(false);
-  }, [jarvisBridge.requestId]);
+  // Tracking the dismissed request id (rather than a boolean reset in an effect)
+  // means a new bridge request is automatically un-dismissed.
+  const showJarvisBridge = jarvisBridge.active && jarvisBridge.requestId !== dismissedBridgeRequestId;
 
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
@@ -181,7 +179,7 @@ export default function AppShell() {
     if (typeof window !== 'undefined') {
       window.sessionStorage.removeItem(JARVIS_BRIDGE_KEY);
     }
-    setBridgeDismissed(true);
+    setDismissedBridgeRequestId(jarvisBridge.requestId);
   }
 
   async function sendBackToJarvis() {

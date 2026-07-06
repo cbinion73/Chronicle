@@ -33,9 +33,7 @@ export default function Prayer() {
   const [answeringPrayerId, setAnsweringPrayerId] = useState<string | null>(null);
   const [answerSummary, setAnswerSummary] = useState('');
   const [answerPassage, setAnswerPassage] = useState('');
-  const [prayerText, setPrayerText] = useState(
-    'Lord, I give you Sarah\'s surgery. I give you the fear I have about what I don\'t know. You know. You hold. That\'s enough.'
-  );
+  const [prayerText, setPrayerText] = useState('');
   const { isCompact, isPhone } = useResponsiveLayout();
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastSaved = useRef('');
@@ -164,6 +162,8 @@ export default function Prayer() {
     if (seededRouteKey.current === seedKey) return;
     seededRouteKey.current = seedKey;
     setPrayerText(routeState.prompt);
+    // A seeded prompt isn't something the user prayed yet — only save once they edit it.
+    lastSaved.current = routeState.prompt.trim();
     addToast(`Prayer loaded from ${routeState.title || routeState.source || 'another page'}.`, 'success', '🙏');
     navigate(location.pathname, { replace: true, state: null });
   }, [addToast, location.pathname, location.state, navigate]);
@@ -437,6 +437,7 @@ export default function Prayer() {
           <textarea
             value={prayerText}
             onChange={(e) => setPrayerText(e.target.value)}
+            placeholder="Write your prayer here — it saves to Chronicle as you go."
             style={{
               width: '100%',
               fontFamily: 'var(--font-serif)',
