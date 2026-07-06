@@ -35,10 +35,37 @@ function isApiRequest(input: RequestInfo | URL): boolean {
   return url.startsWith('/api/') || url.startsWith(`${window.location.origin}/api/`)
 }
 
+// Chronicle fires several /api requests in parallel on page load (entries,
+// prayers, rhythms, bookmarks, owned books all fetch at once). Without this
+// lock, a fresh browser with no stored token gets a 401 on all of them
+// simultaneously, and each one independently pops its own window.prompt() —
+// so entering the token once doesn't stop the next four prompts from firing
+// right after. This makes every concurrent 401 share the same one prompt.
+let pendingPrompt: Promise<string> | null = null
+
+function promptForToken(): Promise<string> {
+  if (!pendingPrompt) {
+    pendingPrompt = Promise.resolve()
+      .then(() => {
+        const entered = window.prompt(
+          'This Chronicle server requires an API token (CHRONICLE_API_TOKEN). Paste it to continue:',
+        )
+        const trimmed = entered?.trim() || ''
+        if (trimmed) setStoredApiToken(trimmed)
+        return trimmed
+      })
+      .finally(() => {
+        pendingPrompt = null
+      })
+  }
+  return pendingPrompt
+}
+
 /**
  * Wraps window.fetch so every same-origin /api request carries the Chronicle API
  * token. When the server rejects with 401 (CHRONICLE_API_TOKEN is set there but we
- * have no matching token), the user is prompted once and the request is retried.
+ * have no matching token), the user is prompted once — even if several requests
+ * hit the 401 at the same time — and every one of them retries with the result.
  */
 export function installApiAuth() {
   const originalFetch = window.fetch.bind(window)
@@ -56,12 +83,9 @@ export function installApiAuth() {
 
     let response = await send(getStoredApiToken())
     if (response.status === 401) {
-      const entered = window.prompt(
-        'This Chronicle server requires an API token (CHRONICLE_API_TOKEN). Paste it to continue:',
-      )
-      if (entered?.trim()) {
-        setStoredApiToken(entered)
-        response = await send(entered.trim())
+      const entered = await promptForToken()
+      if (entered) {
+        response = await send(entered)
       }
     }
     return response
