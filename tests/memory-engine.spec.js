@@ -1,7 +1,21 @@
 import { test, expect } from '@playwright/test';
 import { appUrl } from './testUrls';
 
-test('planting and reviewing a verse schedules its next review', async ({ page }) => {
+test('planting and reviewing a verse schedules its next review', async ({ page, request }) => {
+  // A prior run of this same test that failed before reaching its own cleanup
+  // step (or was interrupted) can leave a stray "Playwright 1:1" verse behind,
+  // which would make the due count "1 of 2" instead of "1 of 1". Clean any
+  // leftovers before planting a fresh one.
+  const existing = await request.get(appUrl('/api/data/memory-verses'));
+  if (existing.ok()) {
+    const { verses } = await existing.json();
+    for (const verse of verses || []) {
+      if (verse.reference === 'Playwright 1:1') {
+        await request.delete(appUrl(`/api/data/memory-verses/${verse.id}`));
+      }
+    }
+  }
+
   await page.goto(appUrl('/memory'));
   await expect(page.getByText('Scripture Memory Engine')).toBeVisible();
 

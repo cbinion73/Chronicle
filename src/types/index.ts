@@ -33,6 +33,17 @@ export interface ChronicleEntrySourceContext {
     showThemePanel?: boolean;
     panelMode?: 'themes' | 'echoes' | 'study-colors' | 'greek';
   };
+  // A saved Study Council convening — the full typed-and-tagged seat
+  // responses, so a session can be reopened later and re-rendered exactly
+  // (not just its plain-text summary in `body`).
+  studyCouncil?: {
+    question?: string;
+    seats: Array<{
+      id: string;
+      name: string;
+      paragraphs: Array<{ tag: string | null; confidence: string | null; text: string }>;
+    }>;
+  };
 }
 
 export interface ChronicleEntry {
