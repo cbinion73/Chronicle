@@ -10,6 +10,7 @@ import { buildReflectionPrompts } from '../lib/reflectionPrompts';
 import { deriveRhythmStats, isRhythmCompletedInCurrentPeriod } from '../lib/formationRhythms';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import PrayerPathPlayer from '../components/PrayerPathPlayer';
+import AnsweredPrayerCeremony from '../components/ui/AnsweredPrayerCeremony';
 import { PRAYER_PATHS, getPrayerPath } from '../data/prayerPaths';
 
 const CATEGORIES = ['All', 'People', 'Needs', 'Praise', 'World', 'Answered'];
@@ -33,8 +34,6 @@ export default function Prayer() {
   const [newText, setNewText] = useState('');
   const [newCategory, setNewCategory] = useState<'people'|'needs'|'praise'|'world'>('needs');
   const [answeringPrayerId, setAnsweringPrayerId] = useState<string | null>(null);
-  const [answerSummary, setAnswerSummary] = useState('');
-  const [answerPassage, setAnswerPassage] = useState('');
   const [prayerText, setPrayerText] = useState('');
   const [activePathId, setActivePathId] = useState<string | null>(null);
   const { isCompact, isPhone } = useResponsiveLayout();
@@ -218,43 +217,48 @@ export default function Prayer() {
   };
 
   const handleDeletePrayerItem = (item: PrayerItem) => {
-    if (!window.confirm(`Delete "${item.text}"? This can't be undone.`)) return;
+    // Grace over guilt: no window.confirm. The delete happens, but a real
+    // window to reverse it is offered rather than a modal asking permission.
     deletePrayerItem(item.id);
-    addToast('Prayer request deleted', 'success', '🗑️');
+    addToast(
+      'Prayer request deleted',
+      'success',
+      '🗑️',
+      { label: 'Undo', onClick: () => addPrayerItem(item) },
+      6000,
+    );
   };
 
   const openAnswerPrayer = (item: PrayerItem) => {
     setAnsweringPrayerId(item.id);
-    setAnswerSummary(item.answerSummary || '');
-    setAnswerPassage(item.answerPassage || '');
   };
 
-  const submitAnsweredPrayer = () => {
+  const submitAnsweredPrayer = (summary: string, passage: string) => {
     const item = prayerItems.find((entry) => entry.id === answeringPrayerId);
-    if (!item || !answerSummary.trim()) return;
+    if (!item || !summary.trim()) return;
     const answeredDate = new Date().toISOString().split('T')[0];
     markPrayerAnswered(item.id, {
-      summary: answerSummary.trim(),
-      passage: answerPassage.trim(),
+      summary: summary.trim(),
+      passage: passage.trim(),
       dateAnswered: answeredDate,
     });
-    addChronicleEntry({
-      id: Math.random().toString(36).slice(2),
-      date: answeredDate,
-      type: 'prayer',
-      title: `Answered prayer — ${item.text.slice(0, 48)}`,
-      body: answerSummary.trim(),
-      passage: answerPassage.trim() || undefined,
-      autoCapture: true,
-      sourceContext: {
-        page: 'prayer',
-        passage: answerPassage.trim() || prayerGuide.verse,
-      },
-    });
-    addToast('Answered prayer saved to Chronicle', 'success', '🙏');
+    if (!item.answered) {
+      addChronicleEntry({
+        id: Math.random().toString(36).slice(2),
+        date: answeredDate,
+        type: 'prayer',
+        title: `Answered prayer — ${item.text.slice(0, 48)}`,
+        body: summary.trim(),
+        passage: passage.trim() || undefined,
+        autoCapture: true,
+        sourceContext: {
+          page: 'prayer',
+          passage: passage.trim() || prayerGuide.verse,
+        },
+      });
+    }
+    addToast(item.answered ? 'Answer updated' : 'Sealed in the light', 'success', '🙏');
     setAnsweringPrayerId(null);
-    setAnswerSummary('');
-    setAnswerPassage('');
   };
 
   const openSuggestedPassageInBible = () => {
@@ -627,45 +631,16 @@ export default function Prayer() {
 
       </div>
 
-      {answeringPrayerId ? (
-        <div style={{ position: 'fixed', inset: 0, background: 'rgba(15, 23, 42, 0.24)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 30, padding: 24 }}>
-          <div style={{ width: 'min(520px, 100%)', background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 16, boxShadow: '0 20px 40px rgba(15, 23, 42, 0.18)', padding: 20, display: 'grid', gap: 12 }}>
-            <div>
-              <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>Answered Prayer</div>
-              <div style={{ marginTop: 6, fontSize: 14, fontWeight: 700, color: 'var(--text)' }}>
-                {prayerItems.find((item) => item.id === answeringPrayerId)?.text}
-              </div>
-            </div>
-            <div>
-              <div style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 6 }}>What happened?</div>
-              <textarea
-                autoFocus
-                value={answerSummary}
-                onChange={(e) => setAnswerSummary(e.target.value)}
-                placeholder="Write the answer, provision, clarity, or change Chronicle should remember."
-                style={{ width: '100%', minHeight: 110, padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 16, lineHeight: 1.55, resize: 'vertical', outline: 'none', boxSizing: 'border-box' }}
-              />
-            </div>
-            <div>
-              <div style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 6 }}>Supporting passage (optional)</div>
-              <input
-                value={answerPassage}
-                onChange={(e) => setAnswerPassage(e.target.value)}
-                placeholder="Philippians 4:19"
-                style={{ width: '100%', padding: '8px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 16, outline: 'none', boxSizing: 'border-box' }}
-              />
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8 }}>
-              <button onClick={() => { setAnsweringPrayerId(null); setAnswerSummary(''); setAnswerPassage(''); }} style={{ padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text-sub)', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
-                Cancel
-              </button>
-              <button onClick={submitAnsweredPrayer} disabled={!answerSummary.trim()} style={{ padding: '8px 14px', borderRadius: 8, border: 'none', background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: answerSummary.trim() ? 'pointer' : 'default', opacity: answerSummary.trim() ? 1 : 0.55 }}>
-                Save Answer
-              </button>
-            </div>
-          </div>
-        </div>
-      ) : null}
+      {answeringPrayerId ? (() => {
+        const item = prayerItems.find((entry) => entry.id === answeringPrayerId);
+        return item ? (
+          <AnsweredPrayerCeremony
+            item={item}
+            onCancel={() => setAnsweringPrayerId(null)}
+            onSave={submitAnsweredPrayer}
+          />
+        ) : null;
+      })() : null}
 
       {activePathId ? (() => {
         const activePath = getPrayerPath(activePathId);

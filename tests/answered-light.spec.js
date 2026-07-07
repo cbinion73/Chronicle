@@ -36,9 +36,13 @@ test('marking a request answered surfaces it on the Answered Light with its arc 
   const card = page.getByText('Playwright answered-light test request').locator('xpath=ancestor::div[contains(@style,"box-shadow")][1]').first();
   await expect(card).toBeVisible();
   await card.getByRole('button', { name: 'Mark Answered' }).click();
+  // The answered-prayer ceremony (Milestone 10): move into the light, skip
+  // the stillness beat, then write the answer as the closing act.
+  await page.getByRole('button', { name: 'Let it move into the light →' }).click();
+  await page.getByRole('button', { name: 'Skip' }).click();
   await page.getByPlaceholder('Write the answer, provision, clarity, or change Chronicle should remember.').fill('Chronicle recorded the answer for this test.');
   await page.getByPlaceholder('Philippians 4:19').fill('Philippians 4:19');
-  await page.getByRole('button', { name: 'Save Answer' }).click();
+  await page.getByRole('button', { name: 'Seal It in the Light ✚' }).click();
 
   await page.getByRole('button', { name: 'Open the Answered Light →' }).click();
   await expect(page).toHaveURL(/\/prayer\/answered-light/);

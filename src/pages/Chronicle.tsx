@@ -249,10 +249,16 @@ export default function Chronicle() {
                         onOpenTeaching={() => navigate(`/thread/teach/${entry.id}`)}
                         onEdit={() => setEditingEntry(entry)}
                         onDelete={() => {
-                          if (window.confirm(`Delete "${entry.title}"? This can't be undone.`)) {
-                            deleteChronicleEntry(entry.id);
-                            addToast('Entry deleted', 'success', '🗑️');
-                          }
+                          // Grace over guilt: no window.confirm — delete happens,
+                          // with a real window to reverse it.
+                          deleteChronicleEntry(entry.id);
+                          addToast(
+                            'Entry deleted',
+                            'success',
+                            '🗑️',
+                            { label: 'Undo', onClick: () => addChronicleEntry(entry) },
+                            6000,
+                          );
                         }}
                       />
                     ))}

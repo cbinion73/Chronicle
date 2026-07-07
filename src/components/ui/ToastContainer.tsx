@@ -44,7 +44,30 @@ export default function ToastContainer() {
           onClick={() => removeToast(toast.id)}
         >
           {toast.icon && <span style={{ fontSize: 16 }}>{toast.icon}</span>}
-          {toast.message}
+          <span style={{ flex: 1 }}>{toast.message}</span>
+          {toast.action && (
+            <button
+              onClick={(event) => {
+                event.stopPropagation();
+                toast.action!.onClick();
+                removeToast(toast.id);
+              }}
+              style={{
+                pointerEvents: 'auto',
+                background: 'rgba(255,255,255,0.2)',
+                border: 'none',
+                borderRadius: 6,
+                color: 'white',
+                fontSize: 12,
+                fontWeight: 700,
+                padding: '4px 10px',
+                cursor: 'pointer',
+                flexShrink: 0,
+              }}
+            >
+              {toast.action.label}
+            </button>
+          )}
         </div>
       ))}
       <style>{`
