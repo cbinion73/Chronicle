@@ -344,3 +344,48 @@ touching Legacy's existing behavior.
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 8 (branch: redesign/milestone-8) — the Teaching Loft
+
+Closes the last untouched pillar of the mission: Know, Understand, Live,
+**Teach**, Pass On. A saved Study Council convening (Milestone 4/5) already
+carries the raw material a teacher needs — every seat's paragraphs tagged
+and confidence-scored under the Source Ledger discipline — so turning one
+into a shareable outline for a small group or family devotional is pure
+derivation, deliberately **no new AI call**.
+
+- **`src/lib/teachingLoft.ts`** — `deriveTeachingOutline(entry)` reads
+  `entry.sourceContext.studyCouncil.seats` (the exact shape Milestone 5
+  already established) and produces: a **Big Idea** (the first `settled`
+  `SCRIPTURE`-tagged paragraph, falling back to any `SCRIPTURE` paragraph,
+  falling back to the first paragraph overall), **Key Insights**
+  (`SCRIPTURE`/`INTERPRETATION` paragraphs with seat attribution),
+  **Where Scholars Disagree** (any paragraph tagged `disputed` or
+  `minority` confidence — a distinctive use of the Ledger's own discipline
+  that a generic devotional generator couldn't produce), **Discussion &
+  Application** (every `APPLICATION`-tagged paragraph, presented directly
+  since seats already write these as actionable, group-ready prompts), and
+  a **Closing Prayer** line naming the passage. `buildTeachingOutlineMarkdown`
+  + `exportTeachingOutline` follow the same `downloadTextFile` pattern
+  `chronicleExport.ts` established, for taking the outline out of the app.
+- **`src/pages/TeachingOutline.tsx`** (`/thread/teach/:entryId`) — a
+  read-only, printable-feeling outline view built from the above sections,
+  with an "Export as Markdown" button.
+- **Entry point**: a "Create Teaching Outline →" button on the Record
+  view's entry cards (`src/pages/Chronicle.tsx`), shown only when
+  `entry.type === 'study' && entry.sourceContext?.studyCouncil` — i.e. only
+  on entries that actually have teaching material to derive from
+  (`hasTeachingMaterial` guards this in both the button and the page).
+
+Considered and scoped out: generating teaching outlines from *any*
+Chronicle entry (not just Study Council convenings). Regular entries don't
+carry tagged/confidence-scored paragraphs, so an outline built from one
+would just be the entry's own text relabeled — not a real derivation. The
+smallest real version ties Teaching Loft to the one entry type that
+actually has the structured material a teaching outline needs; extending
+it to other entry types is a natural future direction once there's a
+reason to.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.
