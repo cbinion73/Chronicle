@@ -32,6 +32,7 @@ COPY server ./server
 COPY src ./src
 COPY public ./public
 COPY data ./data
+COPY scripts ./scripts
 
 EXPOSE 5174
 
