@@ -8,6 +8,7 @@ import type {
   OwnedBook,
   OwnedBookStudyState,
   ScriptureBookmark,
+  MemoryVerse,
   FormationRhythm,
   ChronicleSyncProfile,
   ChronicleVoiceConfig,
@@ -23,6 +24,7 @@ import { getRhythmCompletionKey } from '../lib/formationRhythms';
 import { normalizeOwnedBook } from '../lib/chronicleDataModel';
 import { createDefaultSyncProfile, mergePortableSyncState } from '../lib/chronicleSync';
 import { DEFAULT_CHRONICLE_VOICE_CONFIG, normalizeVoiceConfig } from '../lib/voiceConfig';
+import { reviewVerse } from '../lib/memoryEngine';
 
 interface BibleViewState {
   book: string;
@@ -63,6 +65,7 @@ interface AppState {
   formationRhythms: FormationRhythm[];
   scriptureBookmarks: ScriptureBookmark[];
   ownedBooks: OwnedBook[];
+  memoryVerses: MemoryVerse[];
   syncProfile: ChronicleSyncProfile;
   voiceConfig: ChronicleVoiceConfig;
 
@@ -87,6 +90,9 @@ interface AppState {
   completeFormationRhythm: (id: string, completedAt?: string) => void;
   addScriptureBookmark: (bookmark: ScriptureBookmark) => void;
   removeScriptureBookmark: (id: string) => void;
+  addMemoryVerse: (verse: MemoryVerse) => void;
+  reviewMemoryVerse: (id: string, quality: 'struggled' | 'good' | 'easy') => void;
+  deleteMemoryVerse: (id: string) => void;
   togglePrayerAnswered: (id: string) => void;
   markPrayerAnswered: (id: string, details?: { summary?: string; passage?: string; dateAnswered?: string }) => void;
   recordPrayerTouch: (id: string, details?: { lastPrayedAt?: string; nextFollowUpAt?: string }) => void;
@@ -474,6 +480,7 @@ export const useAppStore = create<AppState>()(
       formationRhythms: SAMPLE_FORMATION_RHYTHMS,
       scriptureBookmarks: [],
       ownedBooks: SAMPLE_OWNED_BOOKS,
+      memoryVerses: [],
       syncProfile: createDefaultSyncProfile(),
       voiceConfig: DEFAULT_CHRONICLE_VOICE_CONFIG,
 
@@ -626,6 +633,36 @@ export const useAppStore = create<AppState>()(
         }))
         chronicleApi.deleteScriptureBookmark(id).catch(e => console.warn('[db] removeScriptureBookmark failed:', e))
       },
+      addMemoryVerse: (verse) => {
+        set((state) => ({ memoryVerses: [verse, ...state.memoryVerses] }))
+        chronicleApi.createMemoryVerse(verse).catch(e => console.warn('[db] addMemoryVerse failed:', e))
+      },
+      reviewMemoryVerse: (id, quality) => {
+        const today = new Date().toISOString().split('T')[0]
+        set((state) => ({
+          memoryVerses: state.memoryVerses.map((verse) =>
+            verse.id === id ? reviewVerse(verse, quality, today) : verse
+          ),
+        }))
+        const updated = get().memoryVerses.find((verse) => verse.id === id)
+        if (updated) {
+          chronicleApi.updateMemoryVerse(id, {
+            easeFactor: updated.easeFactor,
+            intervalDays: updated.intervalDays,
+            repetitions: updated.repetitions,
+            dueDate: updated.dueDate,
+            lastReviewedAt: updated.lastReviewedAt,
+            totalReviews: updated.totalReviews,
+            totalLapses: updated.totalLapses,
+          }).catch(e => console.warn('[db] reviewMemoryVerse failed:', e))
+        }
+      },
+      deleteMemoryVerse: (id) => {
+        set((state) => ({
+          memoryVerses: state.memoryVerses.filter((verse) => verse.id !== id),
+        }))
+        chronicleApi.deleteMemoryVerse(id).catch(e => console.warn('[db] deleteMemoryVerse failed:', e))
+      },
       togglePrayerAnswered: (id) => {
         set((state) => ({
           prayerItems: state.prayerItems.map((p) =>
@@ -777,12 +814,13 @@ export const useAppStore = create<AppState>()(
       },
       initializeFromDatabase: async () => {
         try {
-          const [entriesRes, prayersRes, rhythmsRes, bookmarksRes, booksRes] = await Promise.all([
+          const [entriesRes, prayersRes, rhythmsRes, bookmarksRes, booksRes, versesRes] = await Promise.all([
             chronicleApi.getEntries(),
             chronicleApi.getPrayerItems(),
             chronicleApi.getFormationRhythms(),
             chronicleApi.getScriptureBookmarks(),
             chronicleApi.getOwnedBooks(),
+            chronicleApi.getMemoryVerses(),
           ])
           // Merge, don't replace: the DB is authoritative for anything it already has,
           // but a flat overwrite here would silently delete local items created (or
@@ -795,6 +833,7 @@ export const useAppStore = create<AppState>()(
             formationRhythms: mergeById(state.formationRhythms, rhythmsRes.rhythms ?? []),
             scriptureBookmarks: mergeById(state.scriptureBookmarks, bookmarksRes.bookmarks ?? []),
             ownedBooks: mergeById(state.ownedBooks, booksRes.books ?? []),
+            memoryVerses: mergeById(state.memoryVerses, versesRes.verses ?? []),
             experienceMode: 'fresh',
           }))
         } catch (e) {
@@ -828,6 +867,7 @@ export const useAppStore = create<AppState>()(
         formationRhythms: state.formationRhythms,
         scriptureBookmarks: state.scriptureBookmarks,
         ownedBooks: state.ownedBooks,
+        memoryVerses: state.memoryVerses,
         syncProfile: state.syncProfile,
         voiceConfig: state.voiceConfig,
       }),

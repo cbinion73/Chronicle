@@ -4,6 +4,7 @@ import type {
   FormationRhythm,
   ScriptureBookmark,
   OwnedBook,
+  MemoryVerse,
 } from '../types'
 
 const BASE = '/api/data'
@@ -47,6 +48,12 @@ export const chronicleApi = {
   createOwnedBook: (book: OwnedBook) => _fetch<{ book: OwnedBook }>('POST', '/owned-books', { book }),
   updateOwnedBook: (id: string, patch: Partial<OwnedBook>) => _fetch<{ book: OwnedBook }>('PUT', `/owned-books/${id}`, { patch }),
   deleteOwnedBook: (id: string) => _fetch<{ ok: boolean }>('DELETE', `/owned-books/${id}`),
+
+  // Memory verses (Scripture Memory Engine)
+  getMemoryVerses: () => _fetch<{ verses: MemoryVerse[] }>('GET', '/memory-verses'),
+  createMemoryVerse: (verse: MemoryVerse) => _fetch<{ verse: MemoryVerse }>('POST', '/memory-verses', { verse }),
+  updateMemoryVerse: (id: string, patch: Partial<MemoryVerse>) => _fetch<{ verse: MemoryVerse }>('PUT', `/memory-verses/${id}`, { patch }),
+  deleteMemoryVerse: (id: string) => _fetch<{ ok: boolean }>('DELETE', `/memory-verses/${id}`),
 
   // Settings
   getSettings: () => _fetch<{ settings: Record<string, unknown> }>('GET', '/settings'),

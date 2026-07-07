@@ -41,6 +41,10 @@ const NAV_GROUPS: { label: string; items: NavItem[] }[] = [
         id: 'themes', label: 'Themes', path: '/themes',
         icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2a7 7 0 00-4 12.7V17a2 2 0 002 2h4a2 2 0 002-2v-2.3A7 7 0 0012 2z"/><path d="M9 21h6"/></svg>,
       },
+      {
+        id: 'memory', label: 'Memory', path: '/memory',
+        icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>,
+      },
     ],
   },
   {

@@ -5,6 +5,7 @@ import { useToastStore } from '../store/toastStore';
 import { getStudyDay } from '../lib/studyModules';
 import { getBibleNavigationTarget, loadPassagePreview } from '../lib/scriptureReference';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
+import { dueVerses } from '../lib/memoryEngine';
 
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
 // day with an ancient shape: Call → Word → Silence → Prayer → Response.
@@ -46,7 +47,7 @@ function StationLabel({ n, children }: { n: number; children: React.ReactNode })
 export default function Office() {
   const navigate = useNavigate();
   const { isPhone } = useResponsiveLayout();
-  const { studyModuleDayById, prayerItems, recordPrayerTouch, addChronicleEntry, setBibleView } = useAppStore();
+  const { studyModuleDayById, prayerItems, memoryVerses, recordPrayerTouch, addChronicleEntry, setBibleView } = useAppStore();
   const { addToast } = useToastStore();
 
   const [preview, setPreview] = useState<Awaited<ReturnType<typeof loadPassagePreview>> | null>(null);
@@ -73,6 +74,7 @@ export default function Office() {
   useEffect(() => () => { if (silenceTimer.current) clearInterval(silenceTimer.current); }, []);
 
   const [nowTime] = useState(() => Date.now());
+  const dueVerseCount = useMemo(() => dueVerses(memoryVerses, todayKey()).length, [memoryVerses]);
   const prayerTouches = useMemo(() =>
     prayerItems
       .filter((item) => !item.answered)
@@ -214,6 +216,16 @@ export default function Office() {
               Read the full passage →
             </button>
           </div>
+          {dueVerseCount > 0 ? (
+            <div style={{ marginTop: 12, paddingTop: 12, borderTop: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+              <span style={{ fontSize: 12, color: 'var(--text-sub)' }}>
+                🧠 {dueVerseCount} memorized verse{dueVerseCount === 1 ? '' : 's'} waiting to be remembered before it fades.
+              </span>
+              <button onClick={() => navigate('/memory')} style={{ padding: '5px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--accent-green)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}>
+                Review now →
+              </button>
+            </div>
+          ) : null}
         </section>
 
         {/* 3 · Silence */}

@@ -7,6 +7,7 @@ export type NavTab =
   | 'discipleship'
   | 'prayer'
   | 'thread'
+  | 'memory'
   | 'chronicle'
   | 'themes'
   | 'plans'
@@ -157,6 +158,23 @@ export interface ScriptureBookmark {
   verseStart?: number;
   verseEnd?: number;
   createdAt: string;
+}
+
+// Scripture Memory Engine — verses scheduled with an SM-2-family spaced
+// repetition algorithm (see src/lib/memoryEngine.ts).
+export interface MemoryVerse {
+  id: string;
+  reference: string;
+  text: string;
+  translation: string;
+  easeFactor: number;
+  intervalDays: number;
+  repetitions: number;
+  dueDate: string; // YYYY-MM-DD
+  lastReviewedAt?: string;
+  totalReviews: number;
+  totalLapses: number;
+  addedAt: string;
 }
 
 export interface OwnedBookPlanPhase {
