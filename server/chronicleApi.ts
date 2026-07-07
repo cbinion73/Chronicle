@@ -3478,6 +3478,153 @@ function aiChatDevApi(env: Record<string, string>, host: ChronicleMiddlewareHost
   })
 }
 
+// ── The Study Council ────────────────────────────────────────────────────────
+// Five independent voices instead of one oracle: the Exegete, the Historian,
+// the Canonist, the Churchman, and the Berean (the devoted skeptic of Acts
+// 17:11, whose job is to test the other four). Every voice is instructed to
+// tag each paragraph with its source type — [SCRIPTURE]/[TEXT]/[LANGUAGE]/
+// [HISTORY]/[INTERPRETATION]/[APPLICATION] — and [INTERPRETATION] paragraphs
+// must additionally state a confidence word (settled/broadly held/disputed/
+// minority/speculative). This is the Source Ledger discipline from the
+// rebuild vision, enforced structurally rather than left as a principle: the
+// client parses these tags into typed badges (src/lib/studyCouncil.ts) and
+// can never render an untyped claim.
+//
+// The Council never issues a unified verdict — the Berean seat runs second,
+// after seeing the other four's actual answers, specifically to keep it from
+// becoming one anyway.
+
+const STUDY_COUNCIL_TAG_INSTRUCTIONS = [
+  'Format your ENTIRE response as a sequence of short paragraphs (2-4 sentences each).',
+  'Every paragraph MUST begin with exactly one bracketed tag, uppercase, chosen from:',
+  '[SCRIPTURE] — quoting or directly restating the biblical text itself.',
+  '[TEXT] — manuscript variants, translation choices, textual-critical observations.',
+  '[LANGUAGE] — Greek/Hebrew grammar, syntax, or word semantics.',
+  '[HISTORY] — historical, cultural, political, or archaeological background.',
+  '[INTERPRETATION] — a conclusion or reading. You MUST also state one confidence word from: settled, broadly held, disputed, minority, speculative — write it in parentheses at the end of the paragraph, e.g. "(broadly held)".',
+  '[APPLICATION] — a tentative, non-prescriptive suggestion for the reader\'s life. Never phrase this as a command.',
+  'Never blend two of these kinds of claims in one paragraph. Never write a paragraph without one of these tags. Do not use any other bracketed tag.',
+].join(' ')
+
+const STUDY_COUNCIL_SEATS = [
+  {
+    id: 'exegete',
+    name: 'The Exegete',
+    instructions: [
+      'You are the Exegete on Chronicle\'s Study Council.',
+      'Your only question: what does this text say, in its own context, in the flow of its own argument?',
+      'Stay inside the passage. Focus on grammar, structure, argument flow, and what the words plainly say before any application.',
+      'Refuse to import ideas the passage itself does not raise. Mostly use [SCRIPTURE], [TEXT], and [LANGUAGE] tags; use [INTERPRETATION] only for conclusions the grammar/structure directly supports.',
+    ].join(' '),
+  },
+  {
+    id: 'historian',
+    name: 'The Historian',
+    instructions: [
+      'You are the Historian on Chronicle\'s Study Council.',
+      'Your question: what did this text mean to its first hearers — their setting, culture, politics, and world?',
+      'Draw on historical and archaeological background, second-temple Jewish context where relevant, and the original audience\'s assumptions.',
+      'Mostly use [HISTORY] tags. Be explicit when something is well-attested versus a reasonable historical inference.',
+    ].join(' '),
+  },
+  {
+    id: 'canonist',
+    name: 'The Canonist',
+    instructions: [
+      'You are the Canonist on Chronicle\'s Study Council.',
+      'Your question: how does the whole Bible read this text? Trace intracanonical quotation, typology, the Messianic thread, and promise-fulfillment patterns.',
+      'Connect this passage to the wider canon\'s argument. Mostly use [SCRIPTURE] and [INTERPRETATION] tags.',
+    ].join(' '),
+  },
+  {
+    id: 'churchman',
+    name: 'The Churchman',
+    instructions: [
+      'You are the Churchman on Chronicle\'s Study Council.',
+      'Your question: how has the church read this text across twenty centuries? Fathers, Reformers, creeds, and major traditions.',
+      'Where traditions genuinely disagree, name the major positions fairly rather than picking a winner. Mostly use [INTERPRETATION] tags with an honest confidence word for each — many church-history readings are "broadly held" or "disputed," rarely "settled."',
+    ].join(' '),
+  },
+] as const
+
+async function callOpenAiOnce(env: Record<string, string>, instructions: string, input: string): Promise<string> {
+  const apiKey = env.OPENAI_API_KEY
+  if (!apiKey) throw new Error('OPENAI_API_KEY is not configured.')
+
+  const openAiResponse = await fetch('https://api.openai.com/v1/responses', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify({ model: env.OPENAI_MODEL || 'gpt-4.1-mini', instructions, input }),
+  })
+  const payload = await openAiResponse.json() as Parameters<typeof extractOpenAIText>[0] & { error?: { message?: string } }
+  if (!openAiResponse.ok) throw new Error(payload.error?.message || 'OpenAI request failed.')
+  return extractOpenAIText(payload) || 'No response text returned.'
+}
+
+function studyCouncilDevApi(env: Record<string, string>, host: ChronicleMiddlewareHost) {
+  withChronicleMiddlewares(host, (middlewares) => {
+    middlewares.use('/api/ai/study-council', async (request, response) => {
+      if (request.method !== 'POST') {
+        sendJson(response, 405, { error: { errmsg: 'Method not allowed.' } })
+        return
+      }
+      try {
+        if (!env.OPENAI_API_KEY) {
+          sendJson(response, 401, { error: { errmsg: 'OPENAI_API_KEY is not configured.' } })
+          return
+        }
+        const body = await readJsonBody(request) as { passage?: string; passageText?: string; question?: string }
+        const passage = (body.passage || '').trim()
+        const passageText = (body.passageText || '').trim()
+        const question = (body.question || '').trim()
+        if (!passage) {
+          sendJson(response, 400, { error: { errmsg: 'passage is required.' } })
+          return
+        }
+
+        const sharedInput = [
+          `Passage: ${passage}`,
+          passageText ? `Text:\n${passageText}` : null,
+          question ? `The reader specifically asks: ${question}` : 'Give your seat\'s reading of this passage as a whole.',
+        ].filter(Boolean).join('\n\n')
+
+        const fourSeats = await Promise.all(
+          STUDY_COUNCIL_SEATS.map(async (seat) => ({
+            id: seat.id,
+            name: seat.name,
+            text: await callOpenAiOnce(env, `${seat.instructions} ${STUDY_COUNCIL_TAG_INSTRUCTIONS}`, sharedInput)
+              .catch((error) => `[INTERPRETATION] This seat could not respond right now (${error instanceof Error ? error.message : 'unknown error'}). (speculative)`),
+          })),
+        )
+
+        const bereanInput = [
+          sharedInput,
+          '',
+          'The other four Council members answered as follows:',
+          ...fourSeats.map((seat) => `\n--- ${seat.name} ---\n${seat.text}`),
+        ].join('\n')
+
+        const bereanInstructions = [
+          'You are the Berean on Chronicle\'s Study Council — the devoted skeptic of Acts 17:11, who searched the Scriptures daily to test what was said against them.',
+          'You are given the other four Council members\' actual answers above. Test them. For each seat, is the claim actually grounded in the text, or does it overreach?',
+          'Quote or name the specific claim you are testing before you respond to it. Flag overreach, unsupported leaps, or a stronger counter-reading the seat missed.',
+          'If a seat\'s claim holds up, say so plainly rather than manufacturing disagreement.',
+          'End with exactly one sentence sending the reader back to the text itself.',
+        ].join(' ')
+
+        const bereanText = await callOpenAiOnce(env, `${bereanInstructions} ${STUDY_COUNCIL_TAG_INSTRUCTIONS}`, bereanInput)
+          .catch((error) => `[INTERPRETATION] This seat could not respond right now (${error instanceof Error ? error.message : 'unknown error'}). (speculative)`)
+
+        sendJson(response, 200, {
+          seats: [...fourSeats, { id: 'berean', name: 'The Berean', text: bereanText }],
+        })
+      } catch (error) {
+        sendJson(response, 500, { error: { errmsg: error instanceof Error ? error.message : 'Study Council request failed.' } })
+      }
+    })
+  })
+}
+
 function splitCommand(command: string) {
   const parts = command.trim().split(/\s+/).filter(Boolean)
   if (parts.length === 0) {
@@ -5923,6 +6070,7 @@ export function registerChronicleApi(host: ChronicleMiddlewareHost, env: Record<
   apiAuthGate(env, host)
   apiBibleDevApi(env, host)
   aiChatDevApi(env, host)
+  studyCouncilDevApi(env, host)
   voiceDevApi(env, host)
   studyImportsDevApi(env, host)
   themeAnalysisDevApi(host)
