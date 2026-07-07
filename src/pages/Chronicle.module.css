@@ -56,7 +56,7 @@
 }
 
 .segmentedButtonActive {
-  background: var(--accent-green);
+  background: var(--accent-primary);
   color: white;
 }
 
@@ -143,11 +143,11 @@
   gap: 10px;
   margin: 12px 0;
   padding: 8px 14px;
-  background: var(--accent-green-light);
+  background: var(--accent-primary-light);
   border-radius: 10px;
-  border: 1px solid var(--accent-green);
+  border: 1px solid var(--accent-primary);
   font-size: 13px;
-  color: var(--accent-green);
+  color: var(--accent-primary);
   font-weight: 600;
 }
 
@@ -205,7 +205,7 @@
 
 .passageButton {
   font-size: 11px;
-  color: var(--accent-green);
+  color: var(--accent-primary);
   font-weight: 700;
   background: transparent;
   border: none;
@@ -464,8 +464,8 @@
 }
 
 .primaryButton {
-  background: var(--accent-green);
-  border-color: var(--accent-green);
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
   color: white;
 }
 

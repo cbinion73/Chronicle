@@ -9,7 +9,7 @@ import { fetchStudyCouncil, type CouncilSeat, type SourceTag, type Confidence } 
 // on phone, centered card on desktop, matching PrayerPathPlayer's pattern.
 
 const TAG_COLOR: Record<SourceTag, string> = {
-  SCRIPTURE: 'var(--accent-green)',
+  SCRIPTURE: 'var(--accent-primary)',
   TEXT: 'var(--text-muted)',
   LANGUAGE: 'var(--accent-purple)',
   HISTORY: 'var(--accent-amber)',
@@ -176,7 +176,7 @@ export default function StudyCouncil({ passage, passageText, onClose }: { passag
               ) : null}
               <button
                 onClick={() => void convene()}
-                style={{ marginTop: 14, padding: '10px 18px', borderRadius: 10, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}
+                style={{ marginTop: 14, padding: '10px 18px', borderRadius: 10, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}
               >
                 Convene the Council
               </button>
@@ -258,13 +258,13 @@ export default function StudyCouncil({ passage, passageText, onClose }: { passag
             <button
               onClick={saveToThread}
               disabled={saved}
-              style={{ padding: '9px 14px', borderRadius: 8, border: '1px solid var(--border)', background: saved ? 'var(--accent-green-light)' : 'var(--card-inner)', color: saved ? 'var(--accent-green)' : 'var(--text)', fontSize: 12, fontWeight: 700, cursor: saved ? 'default' : 'pointer' }}
+              style={{ padding: '9px 14px', borderRadius: 8, border: '1px solid var(--border)', background: saved ? 'var(--accent-primary-light)' : 'var(--card-inner)', color: saved ? 'var(--accent-primary)' : 'var(--text)', fontSize: 12, fontWeight: 700, cursor: saved ? 'default' : 'pointer' }}
             >
               {saved ? '✓ Saved to the Thread' : 'Save to the Thread'}
             </button>
             <button
               onClick={onClose}
-              style={{ padding: '9px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+              style={{ padding: '9px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
             >
               Back to the text
             </button>

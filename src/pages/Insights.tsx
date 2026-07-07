@@ -50,7 +50,7 @@ export default function Insights() {
 
   const dimensions = [
     { label: '📖 Scripture', value: `${studyCount} sessions`, pct: Math.min(100, studyCount * 16), color: 'var(--accent-blue)' },
-    { label: '🙏 Prayer', value: `${prayerDays}/7 days`, pct: Math.min(100, (prayerDays / 7) * 100), color: 'var(--accent-green)' },
+    { label: '🙏 Prayer', value: `${prayerDays}/7 days`, pct: Math.min(100, (prayerDays / 7) * 100), color: 'var(--accent-primary)' },
     { label: '🤲 Surrender', value: `${summary.surrenderCount} signals`, pct: Math.min(100, summary.surrenderCount * 14), color: 'var(--accent-amber)' },
     { label: '🎁 Gratitude', value: `${gratitudeCount} entries`, pct: Math.min(100, gratitudeCount * 18), color: 'var(--accent-blue)' },
   ];

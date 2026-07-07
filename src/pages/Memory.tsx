@@ -56,14 +56,14 @@ export default function Memory() {
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
           <div>
-            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--accent-green)' }}>Scripture Memory Engine</div>
+            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--accent-primary)' }}>Scripture Memory Engine</div>
             <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 3 }}>
               {memoryVerses.length} verse{memoryVerses.length === 1 ? '' : 's'} planted · {due.length} due today
             </div>
           </div>
           <button
             onClick={() => setAddOpen((v) => !v)}
-            style={{ padding: '8px 14px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+            style={{ padding: '8px 14px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
           >
             {addOpen ? 'Cancel' : '+ Plant a Verse'}
           </button>
@@ -91,7 +91,7 @@ export default function Memory() {
                   style={{ width: 90, padding: '7px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 16, outline: 'none' }}
                 />
                 <div style={{ flex: 1 }} />
-                <button onClick={addVerse} style={{ padding: '8px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
+                <button onClick={addVerse} style={{ padding: '8px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
                   Plant It
                 </button>
               </div>
@@ -133,7 +133,7 @@ export default function Memory() {
                   <button onClick={() => grade('good')} style={{ padding: '9px 14px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
                     Good
                   </button>
-                  <button onClick={() => grade('easy')} style={{ padding: '9px 14px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
+                  <button onClick={() => grade('easy')} style={{ padding: '9px 14px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
                     Easy
                   </button>
                 </div>

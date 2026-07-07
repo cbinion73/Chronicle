@@ -1630,8 +1630,8 @@ export default function Bible() {
                   padding: '9px 16px',
                   fontSize: 13,
                   fontWeight: b === book ? 600 : 400,
-                  color: b === book ? 'var(--accent-green)' : 'var(--text)',
-                  background: b === book ? 'var(--accent-green-light)' : 'transparent',
+                  color: b === book ? 'var(--accent-primary)' : 'var(--text)',
+                  background: b === book ? 'var(--accent-primary-light)' : 'transparent',
                   cursor: 'pointer',
                   borderBottom: '1px solid var(--border)',
                 }}
@@ -1668,7 +1668,7 @@ export default function Bible() {
             {book}
           </button>
           <span style={{ color: 'var(--text-muted)', fontSize: 13 }}>›</span>
-          <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--accent-green)' }}>
+          <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--accent-primary)' }}>
             {book === 'Psalms' ? 'Psalm' : book} {chapter}
           </span>
 
@@ -1698,7 +1698,7 @@ export default function Bible() {
                   borderRadius: 6,
                   fontSize: 11,
                   fontWeight: c === chapter ? 700 : 400,
-                  background: c === chapter ? 'var(--accent-green)' : 'var(--card-inner)',
+                  background: c === chapter ? 'var(--accent-primary)' : 'var(--card-inner)',
                   color: c === chapter ? 'white' : 'var(--text-sub)',
                   cursor: 'pointer',
                 }}
@@ -1732,7 +1732,7 @@ export default function Bible() {
                   borderRight: '1px solid var(--border)',
                   fontSize: 12,
                   fontWeight: 500,
-                  background: overlayOn ? 'var(--accent-green)' : 'var(--card-inner)',
+                  background: overlayOn ? 'var(--accent-primary)' : 'var(--card-inner)',
                   color: overlayOn ? 'white' : 'var(--text-sub)',
                   cursor: 'pointer',
                   transition: 'all 0.15s',
@@ -2033,7 +2033,7 @@ export default function Bible() {
                   href={link.url}
                   target="_blank"
                   rel="noreferrer"
-                  style={{ color: 'var(--accent-green)', fontWeight: 600 }}
+                  style={{ color: 'var(--accent-primary)', fontWeight: 600 }}
                 >
                   {link.label} ↗
                 </a>
@@ -3083,7 +3083,7 @@ export default function Bible() {
                   padding: '6px 10px',
                   borderRadius: 8,
                   border: '1px solid var(--border)',
-                  background: canSaveThemes ? 'var(--accent-green)' : 'var(--card-bg)',
+                  background: canSaveThemes ? 'var(--accent-primary)' : 'var(--card-bg)',
                   color: canSaveThemes ? 'white' : 'var(--text-muted)',
                   fontSize: 11,
                   fontWeight: 700,

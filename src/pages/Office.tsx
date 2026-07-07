@@ -7,6 +7,8 @@ import { getBibleNavigationTarget, loadPassagePreview } from '../lib/scriptureRe
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { dueVerses } from '../lib/memoryEngine';
 import { currentRegister } from '../lib/hours';
+import { CARD_STYLE } from '../components/ui/cardStyle';
+import { CALLS } from '../data/callsToWorship';
 import type { ChronicleEntry, PrayerItem } from '../types';
 
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
@@ -20,16 +22,6 @@ import type { ChronicleEntry, PrayerItem } from '../types';
 // not a counter: the Office opens with what you were carrying, never with
 // what you missed.
 
-const CALLS: { text: string; ref: string }[] = [
-  { text: 'This is the day the Lord has made; we will rejoice and be glad in it.', ref: 'Psalm 118:24' },
-  { text: 'O God, You are my God; early will I seek You; my soul thirsts for You.', ref: 'Psalm 63:1' },
-  { text: 'Enter into His gates with thanksgiving, and into His courts with praise.', ref: 'Psalm 100:4' },
-  { text: 'My voice You shall hear in the morning, O Lord; in the morning I will direct it to You.', ref: 'Psalm 5:3' },
-  { text: 'Be still, and know that I am God.', ref: 'Psalm 46:10' },
-  { text: 'Oh, taste and see that the Lord is good; blessed is the man who trusts in Him!', ref: 'Psalm 34:8' },
-  { text: 'Cause me to hear Your lovingkindness in the morning, for in You do I trust.', ref: 'Psalm 143:8' },
-];
-
 const SILENCE_SECONDS = 60;
 const OFFICE_STORAGE_KEY = 'chronicle.office.lastCompleted';
 const EXAMEN_STORAGE_KEY = 'chronicle.office.examenCompleted';
@@ -41,12 +33,14 @@ function todayKey() {
 }
 
 // Re-entry as grace: if the keeper has been away a while, greet them with
-// what they were carrying — never with a count of what was missed.
+// what they were carrying — never with a count of what was missed. The
+// read and the write are kept in separate passes (a lazy useState
+// initializer that also writes is impure and gets corrupted by React
+// StrictMode's intentional double-invoke in development).
 function useWelcomeBack(): boolean {
   const [welcomeBack] = useState(() => {
     try {
       const previous = localStorage.getItem(LAST_VISIT_KEY);
-      localStorage.setItem(LAST_VISIT_KEY, todayKey());
       if (!previous) return false;
       const days = Math.round(
         (new Date(`${todayKey()}T12:00:00`).getTime() - new Date(`${previous}T12:00:00`).getTime()) / 86400000,
@@ -56,6 +50,9 @@ function useWelcomeBack(): boolean {
       return false;
     }
   });
+  useEffect(() => {
+    try { localStorage.setItem(LAST_VISIT_KEY, todayKey()); } catch { /* localStorage unavailable */ }
+  }, []);
   return welcomeBack;
 }
 
@@ -66,7 +63,7 @@ function WelcomeBackCard({ prayerItems, lastEntry, card }: {
 }) {
   const carried = prayerItems.filter((item) => !item.answered).slice(0, 3);
   return (
-    <section style={{ ...card, borderColor: 'var(--accent-green)', background: 'var(--accent-green-light)' }}>
+    <section style={{ ...card, borderColor: 'var(--accent-primary)', background: 'var(--accent-primary-light)' }}>
       <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 19, fontWeight: 700, color: 'var(--text)', margin: '0 0 8px' }}>
         Welcome back.
       </h2>
@@ -100,8 +97,8 @@ function StationLabel({ n, children }: { n: number; children: React.ReactNode })
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
       <span style={{
-        width: 22, height: 22, borderRadius: 999, background: 'var(--accent-green-light)',
-        color: 'var(--accent-green)', fontSize: 11, fontWeight: 700,
+        width: 22, height: 22, borderRadius: 999, background: 'var(--accent-primary-light)',
+        color: 'var(--accent-primary)', fontSize: 11, fontWeight: 700,
         display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
       }}>{n}</span>
       <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
@@ -234,8 +231,8 @@ export default function Office() {
   };
 
   const card: React.CSSProperties = {
-    background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 14,
-    padding: isPhone ? '18px 16px' : '22px 24px', boxShadow: 'var(--shadow)',
+    ...CARD_STYLE,
+    padding: isPhone ? '18px 16px' : '22px 24px',
   };
 
   // ── The Evening Examen ────────────────────────────────────────────────
@@ -250,7 +247,7 @@ export default function Office() {
       return (
         <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
           <div style={{ maxWidth: 620, margin: '0 auto', padding: isPhone ? '48px 18px' : '72px 24px', textAlign: 'center' }}>
-            <div style={{ fontSize: 34, color: 'var(--accent-green)', marginBottom: 14 }}>✚</div>
+            <div style={{ fontSize: 34, color: 'var(--accent-primary)', marginBottom: 14 }}>✚</div>
             <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
               The day is sealed.
             </h1>
@@ -278,7 +275,7 @@ export default function Office() {
         <div style={{ maxWidth: 640, margin: '0 auto', padding: isPhone ? '22px 16px 48px' : '36px 24px 64px', display: 'grid', gap: 16 }}>
 
           <div style={{ textAlign: 'center', marginBottom: 4 }}>
-            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-green)' }}>The Evening Examen</div>
+            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-primary)' }}>The Evening Examen</div>
             <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 4 }}>
               {new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })} · the day is ending — review it before God
             </div>
@@ -328,7 +325,7 @@ export default function Office() {
                   {silenceLeft}
                 </div>
                 <div style={{ height: 4, borderRadius: 2, background: 'var(--card-inner)', overflow: 'hidden', maxWidth: 260, margin: '12px auto 0' }}>
-                  <div style={{ width: `${((SILENCE_SECONDS - silenceLeft) / SILENCE_SECONDS) * 100}%`, height: '100%', background: 'var(--accent-green)', transition: 'width 1s linear' }} />
+                  <div style={{ width: `${((SILENCE_SECONDS - silenceLeft) / SILENCE_SECONDS) * 100}%`, height: '100%', background: 'var(--accent-primary)', transition: 'width 1s linear' }} />
                 </div>
                 <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 10 }}>Sit with the day before you speak about it.</div>
               </div>
@@ -338,7 +335,7 @@ export default function Office() {
                   One minute of stillness at the day's end.
                 </p>
                 <div style={{ display: 'flex', gap: 8 }}>
-                  <button onClick={startSilence} style={{ padding: '8px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
+                  <button onClick={startSilence} style={{ padding: '8px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
                     Begin
                   </button>
                   <button onClick={() => setSilenceDone(true)} style={{ padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text-muted)', fontSize: 12, cursor: 'pointer' }}>
@@ -371,7 +368,7 @@ export default function Office() {
               </button>
               <button
                 onClick={sealExamen}
-                style={{ padding: '10px 18px', borderRadius: 10, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}
+                style={{ padding: '10px 18px', borderRadius: 10, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}
               >
                 {response.trim() ? 'Seal the Day ✚' : 'Complete the Examen ✚'}
               </button>
@@ -387,7 +384,7 @@ export default function Office() {
     return (
       <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
         <div style={{ maxWidth: 620, margin: '0 auto', padding: isPhone ? '48px 18px' : '72px 24px', textAlign: 'center' }}>
-          <div style={{ fontSize: 34, color: 'var(--accent-green)', marginBottom: 14 }}>✚</div>
+          <div style={{ fontSize: 34, color: 'var(--accent-primary)', marginBottom: 14 }}>✚</div>
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
             The Office is complete.
           </h1>
@@ -415,7 +412,7 @@ export default function Office() {
       <div style={{ maxWidth: 640, margin: '0 auto', padding: isPhone ? '22px 16px 48px' : '36px 24px 64px', display: 'grid', gap: 16 }}>
 
         <div style={{ textAlign: 'center', marginBottom: 4 }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-green)' }}>The Daily Office</div>
+          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-primary)' }}>The Daily Office</div>
           <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 4 }}>
             {new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}
           </div>
@@ -429,7 +426,7 @@ export default function Office() {
           <p style={{ fontFamily: 'var(--font-serif)', fontSize: isPhone ? 17 : 18, fontStyle: 'italic', color: 'var(--text)', lineHeight: 1.75, margin: 0 }}>
             "{call.text}"
           </p>
-          <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--accent-green)', marginTop: 10 }}>{call.ref}</div>
+          <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--accent-primary)', marginTop: 10 }}>{call.ref}</div>
         </section>
 
         {/* 2 · Word */}
@@ -461,7 +458,7 @@ export default function Office() {
               <span style={{ fontSize: 12, color: 'var(--text-sub)' }}>
                 🧠 {dueVerseCount} memorized verse{dueVerseCount === 1 ? '' : 's'} waiting to be remembered before it fades.
               </span>
-              <button onClick={() => navigate('/memory')} style={{ padding: '5px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--accent-green)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}>
+              <button onClick={() => navigate('/memory')} style={{ padding: '5px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--accent-primary)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}>
                 Review now →
               </button>
             </div>
@@ -479,7 +476,7 @@ export default function Office() {
                 {silenceLeft}
               </div>
               <div style={{ height: 4, borderRadius: 2, background: 'var(--card-inner)', overflow: 'hidden', maxWidth: 260, margin: '12px auto 0' }}>
-                <div style={{ width: `${((SILENCE_SECONDS - silenceLeft) / SILENCE_SECONDS) * 100}%`, height: '100%', background: 'var(--accent-green)', transition: 'width 1s linear' }} />
+                <div style={{ width: `${((SILENCE_SECONDS - silenceLeft) / SILENCE_SECONDS) * 100}%`, height: '100%', background: 'var(--accent-primary)', transition: 'width 1s linear' }} />
               </div>
               <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 10 }}>Sit with what you just read.</div>
             </div>
@@ -489,7 +486,7 @@ export default function Office() {
                 One minute of stillness before you speak. No screen will interrupt it.
               </p>
               <div style={{ display: 'flex', gap: 8 }}>
-                <button onClick={startSilence} style={{ padding: '8px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
+                <button onClick={startSilence} style={{ padding: '8px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}>
                   Begin
                 </button>
                 <button onClick={() => setSilenceDone(true)} style={{ padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text-muted)', fontSize: 12, cursor: 'pointer' }}>
@@ -498,6 +495,12 @@ export default function Office() {
               </div>
             </div>
           )}
+          <button
+            onClick={() => navigate('/chapel')}
+            style={{ marginTop: 12, padding: 0, border: 'none', background: 'none', color: 'var(--text-muted)', fontSize: 11, cursor: 'pointer', textDecoration: 'underline' }}
+          >
+            Or enter chapel — one verse, no chrome
+          </button>
         </section>
 
         {/* 4 · Prayer */}
@@ -518,20 +521,20 @@ export default function Office() {
                     <button
                       onClick={() => handlePrayed(item.id)}
                       disabled={prayed}
-                      style={{ padding: '7px 12px', borderRadius: 8, border: prayed ? 'none' : '1px solid var(--border)', background: prayed ? 'var(--accent-green-light)' : 'transparent', color: prayed ? 'var(--accent-green)' : 'var(--text-sub)', fontSize: 11, fontWeight: 700, cursor: prayed ? 'default' : 'pointer', flexShrink: 0 }}
+                      style={{ padding: '7px 12px', borderRadius: 8, border: prayed ? 'none' : '1px solid var(--border)', background: prayed ? 'var(--accent-primary-light)' : 'transparent', color: prayed ? 'var(--accent-primary)' : 'var(--text-sub)', fontSize: 11, fontWeight: 700, cursor: prayed ? 'default' : 'pointer', flexShrink: 0 }}
                     >
                       {prayed ? '✓ Carried' : 'I prayed'}
                     </button>
                   </div>
                 );
               })}
-              <button onClick={() => navigate('/prayer')} style={{ justifySelf: 'start', padding: '6px 0', border: 'none', background: 'none', color: 'var(--accent-green)', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
+              <button onClick={() => navigate('/prayer')} style={{ justifySelf: 'start', padding: '6px 0', border: 'none', background: 'none', color: 'var(--accent-primary)', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
                 Open the Prayer Room →
               </button>
             </div>
           ) : (
             <p style={{ fontSize: 14, color: 'var(--text-sub)', margin: 0 }}>
-              No requests are waiting today. <button onClick={() => navigate('/prayer')} style={{ border: 'none', background: 'none', color: 'var(--accent-green)', fontSize: 14, fontWeight: 600, cursor: 'pointer', padding: 0 }}>Bring something before God →</button>
+              No requests are waiting today. <button onClick={() => navigate('/prayer')} style={{ border: 'none', background: 'none', color: 'var(--accent-primary)', fontSize: 14, fontWeight: 600, cursor: 'pointer', padding: 0 }}>Bring something before God →</button>
             </p>
           )}
         </section>
@@ -552,7 +555,7 @@ export default function Office() {
           <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 12 }}>
             <button
               onClick={sealOffice}
-              style={{ padding: '10px 18px', borderRadius: 10, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}
+              style={{ padding: '10px 18px', borderRadius: 10, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 13, fontWeight: 700, cursor: 'pointer' }}
             >
               {response.trim() ? 'Seal the Office ✚' : 'Complete the Office ✚'}
             </button>

@@ -50,7 +50,7 @@ export default function Thread() {
               aria-current={view === tab.id ? 'page' : undefined}
               style={{
                 padding: '7px 16px', border: 'none', fontSize: 12, fontWeight: view === tab.id ? 700 : 500,
-                background: view === tab.id ? 'var(--accent-green)' : 'transparent',
+                background: view === tab.id ? 'var(--accent-primary)' : 'transparent',
                 color: view === tab.id ? 'white' : 'var(--text-sub)', cursor: 'pointer',
               }}
             >

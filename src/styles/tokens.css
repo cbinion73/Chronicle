@@ -10,8 +10,10 @@
   --text-sub: #5c6f93;
   --text-muted: #8ea1c1;
 
-  --accent-green: #0f4fcf;
-  --accent-green-light: #e8f1ff;
+  /* The default/most-used accent — named for role, not hue (it was called
+     --accent-green for years despite always having been blue). */
+  --accent-primary: #0f4fcf;
+  --accent-primary-light: #e8f1ff;
   --accent-blue: #2b8dff;
   --accent-blue-light: #edf6ff;
   --accent-purple: #7c3aed;
@@ -32,6 +34,15 @@
 
   --font-sans: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
   --font-serif: Georgia, 'Times New Roman', serif;
+
+  /* A 4-step type scale (VISION.md's "Quiet Pass") — established here and
+     applied to the quiet/ceremonial surfaces first (Office, ceremonies,
+     the extracted Card/Badge). Not yet a full app-wide rewrite: most
+     existing pages still carry their own inline pixel values. */
+  --text-xs: 11px;   /* captions, labels, metadata */
+  --text-sm: 13px;   /* secondary body text, UI copy */
+  --text-base: 15px; /* primary reading text */
+  --text-lg: 19px;   /* headings, emphasis, the serif voice */
 
   --sidebar-width: 224px;
   --topbar-height: 52px;
@@ -64,7 +75,7 @@
   --text: #f4f8ff;
   --text-sub: #9bb1d8;
   --text-muted: #6c82ab;
-  --accent-green-light: #0d234d;
+  --accent-primary-light: #0d234d;
   --accent-blue-light: #132c56;
   --accent-purple-light: #2e1065;
   --accent-amber-light: #292524;

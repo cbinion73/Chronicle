@@ -182,4 +182,7 @@ arrives; none blocks the movements above.
 - ✅ **M10 — The Ceremonies** shipped: the answered-prayer ceremony, the
   stone-setting ceremony, and undo replacing `window.confirm` for the two
   low-stakes deletes.
-- ➡️ **Next: M11 — The Quiet Pass + Chapel Mode.**
+- ✅ **M11 — The Quiet Pass + Chapel Mode** shipped: honest tokens
+  (`--accent-primary`), a 4-step type scale, extracted Card/Badge
+  components, the AI companion panel quiet-by-default, and chapel mode.
+- ➡️ **Next: M12 — The Rule of Life.**

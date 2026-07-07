@@ -1,7 +1,7 @@
 import { useToastStore } from '../../store/toastStore';
 
 const BG: Record<string, string> = {
-  success: 'var(--accent-green)',
+  success: 'var(--accent-primary)',
   info: 'var(--accent-blue)',
   warning: 'var(--accent-amber)',
 };

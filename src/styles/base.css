@@ -39,7 +39,7 @@ body {
 
 /* Focus ring */
 :focus-visible {
-  outline: 2px solid var(--accent-green);
+  outline: 2px solid var(--accent-primary);
   outline-offset: 2px;
 }
 
@@ -64,6 +64,6 @@ a { color: inherit; text-decoration: none; }
 
 /* Selection */
 ::selection {
-  background: var(--accent-green-light);
+  background: var(--accent-primary-light);
   color: var(--text);
 }

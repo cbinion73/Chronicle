@@ -17,6 +17,7 @@ const Plans = lazy(() => import('./pages/Plans'));
 const Memory = lazy(() => import('./pages/Memory'));
 const Explore = lazy(() => import('./pages/Explore'));
 const Settings = lazy(() => import('./pages/Settings'));
+const Chapel = lazy(() => import('./pages/Chapel'));
 
 function RouteLoading() {
   return (
@@ -60,6 +61,10 @@ export default function App() {
     <BrowserRouter>
       <Suspense fallback={<RouteLoading />}>
         <Routes>
+          {/* Chapel mode renders outside AppShell entirely — no sidebar,
+              no topbar, no AI companion. The more sacred the moment, the
+              less chrome in the room. */}
+          <Route path="chapel" element={<Chapel />} />
           <Route path="/" element={<AppShell />}>
             <Route index element={<Office />} />
             <Route path="bible" element={<Bible />} />
