@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Suspense, lazy, useEffect } from 'react';
 import { useAppStore } from './store';
+import { currentRegister } from './lib/hours';
 import AppShell from './components/layout/AppShell';
 
 const Office = lazy(() => import('./pages/Office'));
@@ -42,6 +43,14 @@ export default function App() {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
+
+  // The Hours: keep the register attribute current as the day turns.
+  useEffect(() => {
+    const apply = () => document.documentElement.setAttribute('data-register', currentRegister());
+    apply();
+    const timer = window.setInterval(apply, 60_000);
+    return () => window.clearInterval(timer);
+  }, []);
 
   useEffect(() => {
     initializeFromDatabase();

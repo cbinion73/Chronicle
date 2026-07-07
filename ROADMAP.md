@@ -54,87 +54,97 @@ the AI companion collapsed by default to a single quiet input with 2–3
 context-aware actions. And **chapel mode**: one verse, no chrome, nothing
 to tap.
 
-## Movement II — Time Becomes Bidirectional
+## Movement II — The Rule and the Remembering
 
-**M12 — Remembrance.** On-this-day resurfacing and **personal feast days**
+**M12 — The Rule of Life.** The Live pillar's flagship (see VISION.md).
+Author a personal Rule in your own words — prayer, Scripture, Sabbath,
+service, generosity, calling — expressed through the Hours as its temporal
+skeleton. **Never a streak**: no completion percentages, no chains; a Rule
+is returned to, not broken, and grace-at-re-entry (M9) is how returning is
+met. Includes the seasonal examen ceremony: the Rule held against the
+thread, and the quiet question — *who are you becoming?* — answered in
+writing, into the Record.
+
+**M13 — Remembrance.** On-this-day resurfacing and **personal feast days**
 derived from data the thread already holds (baptism anniversaries, answered
 prayer dates, growth markers). Highest tears-per-line-of-code in the plan.
 
-**M13 — Sealed Prayers.** Write and seal until a date or event. Sealed
+**M14 — Sealed Prayers.** Write and seal until a date or event. Sealed
 stones visible on the path ahead — seen, not touchable. Includes the F1
 exporter and the F2 sealed-tier design doc.
 
-**M14 — Echoes of Your Own Life.** Past entries resurface against the
+**M15 — Echoes of Your Own Life.** Past entries resurface against the
 passage being read now ("You clung to this passage in March 2027"). Builds
 on the existing passage-reference machinery; no AI required — it's an index.
 
-**M15 — Patina.** The Bible wears where you live: visited passages
+**M16 — Patina.** The Bible wears where you live: visited passages
 accumulate subtle texture over time. Pure derivation from reading history.
 
 ## Movement III — The Whole Life
 
-**M16 — The Question Lab & Lament.** The open-questions ledger (questions
-stay open for decades with dignity; resolution is a ceremony and a stone)
-and the lament room, scaffolded by the Psalms of lament. Resurrects the
+**M17 — The Question Lab & Lament.** The open-questions ledger (questions
+stay open for decades with dignity — including the vocational ones: *what
+is God asking me to do?* — and resolution is a ceremony and a stone) and
+the lament room, scaffolded by the Psalms of lament. Resurrects the
 Question Lab from the original Phase 2 plan, now with its real meaning.
 
-**M17 — The Archaeology.** The guided backfill interview that excavates a
+**M18 — The Archaeology.** The guided backfill interview that excavates a
 user's prehistory into stones (conversion, baptism, the prayer answered in
 1998). This is most users' true first-run experience.
 
-**M18 — Oral History.** The same interview engine pointed at someone else —
+**M19 — Oral History.** The same interview engine pointed at someone else —
 a grandparent's stones, captured with voice recording. Deliberately
-adjacent to M17 because they share machinery. *This is the feature with a
+adjacent to M18 because they share machinery. *This is the feature with a
 funeral; if sequencing pressure ever mounts, this one moves up, never down.*
 
-**M19 — The Book, Typeset.** The Story tab becomes an actual book: real
+**M20 — The Book, Typeset.** The Story tab becomes an actual book: real
 pagination, chapters broken at growth markers, years as parts, print-grade
 PDF export, visible page count ("You are on page 214 of your book").
 
-**M20 — The Thread Made Literal.** The zoomable line. Record, Answered
+**M21 — The Thread Made Literal.** The zoomable line. Record, Answered
 Light, Growth Spine, and Story become altitudes of one canonical
 visualization. Sequenced last in the movement because it unifies everything
 the earlier milestones created.
 
 ## Movement IV — The Braid *(the architectural shift: persons)*
 
-**M21 — Households.** Real multi-user foundation. The single largest
+**M22 — Households.** Real multi-user foundation. The single largest
 architecture change in the plan (the app is currently one keeper behind
 Cloudflare Access), which is why the entire single-user register is
 perfected first.
 
-**M22 — The Braid.** Parallel threads; shared stones set on multiple
+**M23 — The Braid.** Parallel threads; shared stones set on multiple
 threads at once; family worship as the visible crossing point.
 
-**M23 — Letters Ahead.** Pre-birth and childhood letter threads — sealed
+**M24 — Letters Ahead.** Pre-birth and childhood letter threads — sealed
 prayers plus the braid make this nearly free. Delivered at a set age.
 
-**M24 — The Relay.** The Office handing off across time zones; the braid
+**M25 — The Relay.** The Office handing off across time zones; the braid
 shows the family's prayer passing around the planet.
 
 ## Movement V — The Church and the Saints
 
-**M25 — The Mentor's Thread.** Selective thread-sharing for discipleship:
+**M26 — The Mentor's Thread.** Selective thread-sharing for discipleship:
 your stones from the age your apprentice is now.
 
-**M26 — The Communal Ebenezer.** Opt-in pipeline from private answered
+**M27 — The Communal Ebenezer.** Opt-in pipeline from private answered
 prayers to a congregation's shared Answered Light.
 
-**M27 — The Communion of Saints.** The historical library, starting with
+**M28 — The Communion of Saints.** The historical library, starting with
 three to five public-domain threads (Augustine's Confessions, selected
 Psalms as David's thread, Brainerd's journal, Brother Lawrence, Spurgeon)
 rendered in Chronicle's own visual language.
 
 ## Movement VI — The Forty-Year Promise
 
-**M28 — The Format.** The open Chronicle thread specification, published,
+**M29 — The Format.** The open Chronicle thread specification, published,
 with reference importer/exporter. Formalizes what F1 has been accreting
 since M9.
 
-**M29 — The Winnowing.** The Record/Book editorial distinction and the
+**M30 — The Winnowing.** The Record/Book editorial distinction and the
 late-life ceremony of deciding what becomes testament.
 
-**M30 — Memorial Mode & the Widow's Thread.** The thread completes with
+**M31 — Memorial Mode & the Widow's Thread.** The thread completes with
 dignity; the survivor prays through the departed's recorded prayers; the
 inheritance handoff.
 
@@ -150,7 +160,7 @@ arrives; none blocks the movements above.
 
 - **The Hours comes first** because liturgical time is the heartbeat every
   ceremony, feast day, and register change syncs to — and it is felt on
-  every single open.
+  every single open. The Rule of Life (M12) hangs directly on it.
 - **Ceremonies before the Book** because the Book gains value as stones
   accumulate; ceremony quality determines stone quality.
 - **The braid waits** until the single-keeper experience is right. Multi-user
@@ -166,20 +176,7 @@ arrives; none blocks the movements above.
 - ✅ M1–M8 shipped (see REDESIGN.md): the rooms, the physical Thread,
   the knowledge graph, the Study Council, council→Thread, the Answered
   Light, the Growth Spine, the Teaching Loft.
-- ➡️ **Next: M9 — The Hours.**
-
-### M9 detailed scope (ready to build)
-1. A `register` concept derived from local time (morning / midday /
-   evening) exposed app-wide (hook + data attribute on the document root,
-   mirroring the existing `data-theme` pattern).
-2. Register-aware tokens: morning and evening tone variants layered onto
-   the existing light/dark themes in `tokens.css` — subtle, not a reskin.
-3. The Daily Office reshapes by hour: morning = full Office (Call → Word →
-   Silence → Prayer → Response); evening = examen variant that pulls the
-   day's own entries and answered prayers for review.
-4. Re-entry as grace: replace the `↩ N-day absence` banner with the
-   welcome-back moment built from what the user was carrying (open prayer
-   items, last entries) — no counts of what was missed.
-5. Tests: register derivation unit-style checks via Playwright with a
-   mocked clock; Office variant rendering; the re-entry moment; the usual
-   full-suite/tsc/eslint/build verification and deploy.
+- ✅ **M9 — The Hours** shipped: the register (morning/midday/evening) on
+  the document root with subtle tone tokens, the Evening Examen, and
+  re-entry as grace (the absence counter is gone).
+- ➡️ **Next: M10 — The Ceremonies.**
