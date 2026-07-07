@@ -127,3 +127,41 @@ those touch `mergePortableSyncState` and the snapshot schema, which need
 their own careful audit rather than a drive-by change. A user who resets or
 imports a portable snapshot today keeps their memory verses untouched rather
 than having them reset/merged correctly. Tracked as follow-up debt.
+
+---
+
+## Milestone 3 (branch: redesign/milestone-3) — the Biblical Knowledge Graph seed
+
+`src/data/knowledgeGraph.ts` — a **curated, not generated** graph: 60 people
+and 28 places spanning the whole canon (primeval history through the
+apostolic church), each with a summary, real Scripture references, and typed
+relationships (`father-of`, `spouse-of`, `ruled`, `prophet-to`, `mentored`,
+`betrayed`, etc). Every edge is validated to resolve to a real node (checked
+programmatically before shipping — no dangling relationship targets). This
+is the entity layer the vision calls for above the existing verse-level
+cross-reference data (`src/lib/bibleCrossReferences.ts`, which already covers
+that layer well via the KJV study cross-reference dataset).
+
+Deliberately hand-curated rather than pulling in an external dataset
+(Theographic/OpenBible) sight-unseen this session — licensing, format, and
+scale (the full vision is ~3,000 people / ~1,300 places) all deserve their
+own pass. This seed establishes the correct architecture (typed entities,
+typed relationships, Scripture-anchored, bidirectional lookups) so that
+import is additive later rather than a rewrite.
+
+**Two projections, one new `/explore` room** (`src/pages/Explore.tsx`,
+People/Places tabs mirroring the Thread room's tab pattern):
+- **Character Network** — browse people, follow relationships in both
+  directions (who they relate to, and who relates to them), jump to their
+  places.
+- **Atlas** — browse places, see who was there, and passage chips that
+  jump straight into the Reader. Coordinates are captured on each place now
+  (`lat`/`lon`) so a real interactive map is additive later, not a
+  re-curation.
+
+Both are read-only over static, bundled data — no new API routes or DB
+tables needed for this seed (unlike Milestones 1-2, nothing here writes to
+the Thread; browsing the graph doesn't imply "doing" anything). New
+Playwright coverage (`tests/explore.spec.js`) exercises the full loop:
+search → select a person → follow a relationship → jump to a place →
+open a passage in the Bible reader.

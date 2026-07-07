@@ -40,6 +40,7 @@ test('core page shells and key headings render across the full product surface',
     { label: 'Themes', path: '/themes', assert: async () => expect(page.getByPlaceholder('Find a theme...')).toBeVisible() },
     { label: 'Reading Plans', path: '/plans', assert: async () => expect(page.getByText('Active Plan').first()).toBeVisible() },
     { label: 'Memory', path: '/memory', assert: async () => expect(page.getByText('Scripture Memory Engine').first()).toBeVisible() },
+    { label: 'Explore', path: '/explore', assert: async () => expect(page.getByText('Biblical Knowledge Graph').first()).toBeVisible() },
     { label: 'Settings', path: '/settings', assert: async () => expect(page.getByText('Profile', { exact: true }).last()).toBeVisible() },
   ];
 

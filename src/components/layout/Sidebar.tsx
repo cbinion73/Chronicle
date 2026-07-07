@@ -45,6 +45,10 @@ const NAV_GROUPS: { label: string; items: NavItem[] }[] = [
         id: 'memory', label: 'Memory', path: '/memory',
         icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>,
       },
+      {
+        id: 'explore', label: 'Explore', path: '/explore',
+        icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>,
+      },
     ],
   },
   {

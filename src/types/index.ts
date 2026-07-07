@@ -8,6 +8,7 @@ export type NavTab =
   | 'prayer'
   | 'thread'
   | 'memory'
+  | 'explore'
   | 'chronicle'
   | 'themes'
   | 'plans'

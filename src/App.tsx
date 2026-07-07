@@ -12,6 +12,7 @@ const Thread = lazy(() => import('./pages/Thread'));
 const Themes = lazy(() => import('./pages/Themes'));
 const Plans = lazy(() => import('./pages/Plans'));
 const Memory = lazy(() => import('./pages/Memory'));
+const Explore = lazy(() => import('./pages/Explore'));
 const Settings = lazy(() => import('./pages/Settings'));
 
 function RouteLoading() {
@@ -59,6 +60,8 @@ export default function App() {
             <Route path="themes" element={<Themes />} />
             <Route path="plans" element={<Plans />} />
             <Route path="memory" element={<Memory />} />
+            <Route path="explore" element={<Explore />} />
+            <Route path="explore/:view" element={<Explore />} />
             <Route path="settings" element={<Settings />} />
             {/* v1 routes redirect permanently into the Thread room */}
             <Route path="chronicle" element={<Navigate to="/thread" replace />} />
