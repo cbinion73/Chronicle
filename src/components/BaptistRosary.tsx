@@ -3,6 +3,7 @@ import { BAPTIST_ROSARY } from '../data/baptistRosary';
 import { STONE_IMAGES, STONE_LABELS } from '../data/stoneImages';
 import { useAppStore } from '../store';
 import { useToastStore } from '../store/toastStore';
+import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
 const BEAD_GLYPH: Record<string, string> = {
   crucifix: '✚',
@@ -12,6 +13,7 @@ const BEAD_GLYPH: Record<string, string> = {
 
 export default function BaptistRosary({ onClose }: { onClose: () => void }) {
   const [position, setPosition] = useState(0);
+  const { isPhone } = useResponsiveLayout();
   const addChronicleEntry = useAppStore((state) => state.addChronicleEntry);
   const addToast = useToastStore((state) => state.addToast);
   const bead = BAPTIST_ROSARY[position];
@@ -45,7 +47,10 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
 
   return (
     <div
-      style={{
+      style={isPhone ? {
+        position: 'fixed', inset: 0, background: 'var(--card-bg)', zIndex: 50,
+        display: 'flex', alignItems: 'stretch', justifyContent: 'stretch',
+      } : {
         position: 'fixed', inset: 0, background: 'rgba(15, 23, 42, 0.45)',
         display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 50,
         padding: '20px',
@@ -56,14 +61,21 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
       }}
     >
       <div
-        style={{
+        style={isPhone ? {
+          width: '100%', height: '100%', display: 'flex', flexDirection: 'column',
+          background: 'var(--card-bg)', overflow: 'hidden',
+        } : {
           width: 'min(560px, 100%)', height: 'min(600px, 85dvh, 85vh)', display: 'flex', flexDirection: 'column',
           background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 18,
           boxShadow: '0 24px 60px rgba(15, 23, 42, 0.28)', overflow: 'hidden',
         }}
       >
         {/* Header */}
-        <div style={{ padding: '16px 20px 12px', borderBottom: '1px solid var(--border)', flexShrink: 0 }}>
+        <div style={{
+          padding: '16px 20px 12px',
+          paddingTop: isPhone ? 'max(16px, env(safe-area-inset-top))' : 16,
+          borderBottom: '1px solid var(--border)', flexShrink: 0,
+        }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
             <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
               Pray the Baptist Beads
@@ -88,7 +100,7 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
         </div>
 
         {/* Body */}
-        <div style={{ padding: '18px 20px', overflowY: 'auto', flex: 1 }}>
+        <div style={{ padding: '18px 20px', overflowY: 'auto', flex: 1, minHeight: 0 }}>
           {bead.positionLabel ? (
             <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }}>
               {bead.section} · {bead.positionLabel}
@@ -147,7 +159,11 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
         </div>
 
         {/* Footer */}
-        <div style={{ display: 'flex', gap: 8, padding: '14px 20px', borderTop: '1px solid var(--border)', flexShrink: 0 }}>
+        <div style={{
+          display: 'flex', gap: 8, padding: '14px 20px',
+          paddingBottom: isPhone ? 'max(14px, env(safe-area-inset-bottom))' : 14,
+          borderTop: '1px solid var(--border)', flexShrink: 0,
+        }}>
           <button
             onClick={() => setPosition((p) => Math.max(p - 1, 0))}
             disabled={isFirst}
