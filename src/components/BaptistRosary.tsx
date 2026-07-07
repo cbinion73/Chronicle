@@ -65,7 +65,7 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
           width: '100%', height: '100%', display: 'flex', flexDirection: 'column',
           background: 'var(--card-bg)', overflow: 'hidden',
         } : {
-          width: 'min(560px, 100%)', height: 'min(600px, 85dvh, 85vh)', display: 'flex', flexDirection: 'column',
+          width: 'min(760px, 94vw)', height: 'min(880px, 92dvh, 92vh)', display: 'flex', flexDirection: 'column',
           background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 18,
           boxShadow: '0 24px 60px rgba(15, 23, 42, 0.28)', overflow: 'hidden',
         }}
