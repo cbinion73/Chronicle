@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
+import { useAppStore } from '../store';
+import { useToastStore } from '../store/toastStore';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { fetchStudyCouncil, type CouncilSeat, type SourceTag, type Confidence } from '../lib/studyCouncil';
 
@@ -33,22 +35,75 @@ const SEAT_TAGLINE: Record<string, string> = {
 
 export default function StudyCouncil({ passage, passageText, onClose }: { passage: string; passageText?: string; onClose: () => void }) {
   const { isPhone } = useResponsiveLayout();
+  const { chronicleEntries, addChronicleEntry } = useAppStore();
+  const { addToast } = useToastStore();
   const [question, setQuestion] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'error' | 'done'>('idle');
   const [seats, setSeats] = useState<CouncilSeat[]>([]);
   const [errorMessage, setErrorMessage] = useState('');
+  const [askedQuestion, setAskedQuestion] = useState('');
+  const [saved, setSaved] = useState(false);
+
+  const pastConvenings = useMemo(
+    () => chronicleEntries
+      .filter((entry) => entry.type === 'study' && entry.passage === passage && entry.sourceContext?.studyCouncil)
+      .sort((a, b) => (a.date < b.date ? 1 : -1)),
+    [chronicleEntries, passage],
+  );
 
   const convene = async () => {
     setStatus('loading');
     setErrorMessage('');
     try {
-      const result = await fetchStudyCouncil({ passage, passageText, question: question.trim() || undefined });
+      const trimmedQuestion = question.trim();
+      const result = await fetchStudyCouncil({ passage, passageText, question: trimmedQuestion || undefined });
       setSeats(result);
+      setAskedQuestion(trimmedQuestion);
+      setSaved(false);
       setStatus('done');
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : 'The Council could not convene right now.');
       setStatus('error');
     }
+  };
+
+  const loadPastConvening = (entry: typeof chronicleEntries[number]) => {
+    const council = entry.sourceContext?.studyCouncil;
+    if (!council) return;
+    setSeats(council.seats.map((seat) => ({
+      id: seat.id,
+      name: seat.name,
+      paragraphs: seat.paragraphs.map((paragraph) => ({
+        tag: paragraph.tag as SourceTag | null,
+        confidence: paragraph.confidence as Confidence | null,
+        text: paragraph.text,
+      })),
+    })));
+    setAskedQuestion(council.question || '');
+    setSaved(true);
+    setStatus('done');
+  };
+
+  const saveToThread = () => {
+    const summary = seats
+      .map((seat) => `${seat.name}\n${seat.paragraphs.map((p) => `[${p.tag || 'UNTYPED'}${p.confidence ? ` · ${p.confidence}` : ''}] ${p.text}`).join('\n')}`)
+      .join('\n\n');
+    addChronicleEntry({
+      id: Math.random().toString(36).slice(2),
+      date: new Date().toISOString().split('T')[0],
+      type: 'study',
+      title: `Study Council — ${passage}`,
+      body: askedQuestion ? `Question: ${askedQuestion}\n\n${summary}` : summary,
+      passage,
+      autoCapture: false,
+      sourceContext: {
+        page: 'bible',
+        passage,
+        studyCouncil: { question: askedQuestion || undefined, seats },
+      },
+    });
+    setSaved(true);
+    addToast('Study Council session saved to the Thread', 'success', '⚖');
   };
 
   return (
@@ -125,6 +180,28 @@ export default function StudyCouncil({ passage, passageText, onClose }: { passag
               >
                 Convene the Council
               </button>
+
+              {pastConvenings.length > 0 ? (
+                <div style={{ marginTop: 26 }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>
+                    Past Convenings on {passage}
+                  </div>
+                  <div style={{ display: 'grid', gap: 8 }}>
+                    {pastConvenings.map((entry) => (
+                      <button
+                        key={entry.id}
+                        onClick={() => loadPastConvening(entry)}
+                        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10, padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', cursor: 'pointer', textAlign: 'left' }}
+                      >
+                        <span style={{ fontSize: 12, color: 'var(--text)' }}>
+                          {entry.sourceContext?.studyCouncil?.question || 'General reading of the passage'}
+                        </span>
+                        <span style={{ fontSize: 11, color: 'var(--text-muted)', flexShrink: 0 }}>{entry.date}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
             </div>
           ) : status === 'loading' ? (
             <div style={{ textAlign: 'center', padding: '48px 0', color: 'var(--text-muted)', fontSize: 13 }}>
@@ -178,6 +255,13 @@ export default function StudyCouncil({ passage, passageText, onClose }: { passag
               ← Ask again
             </button>
             <div style={{ flex: 1 }} />
+            <button
+              onClick={saveToThread}
+              disabled={saved}
+              style={{ padding: '9px 14px', borderRadius: 8, border: '1px solid var(--border)', background: saved ? 'var(--accent-green-light)' : 'var(--card-inner)', color: saved ? 'var(--accent-green)' : 'var(--text)', fontSize: 12, fontWeight: 700, cursor: saved ? 'default' : 'pointer' }}
+            >
+              {saved ? '✓ Saved to the Thread' : 'Save to the Thread'}
+            </button>
             <button
               onClick={onClose}
               style={{ padding: '9px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}

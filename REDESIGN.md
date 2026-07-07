@@ -212,3 +212,48 @@ it doesn't yet write anything to the Thread (no "save this council session"
 capability), and there's no per-book memory of past Council convenings.
 Both are natural Milestone 5+ extensions once the Study Desk (a proper
 multi-tab workspace) exists to hold them.
+
+---
+
+## Milestone 5 (branch: redesign/milestone-5) — Study Council sessions join the Thread
+
+Closes both gaps flagged at the end of Milestone 4, deliberately by
+**reusing existing infrastructure rather than inventing a parallel
+`StudySession` table** — a Council convening is a `chronicle_entries` row of
+`type: 'study'`, exactly like every other study entry, so it automatically
+gets the Milestone-2 mirror-write into `thread_events`, shows up in the
+Thread's Record/Story/Patterns views, and needs zero new migrations.
+
+- **`ChronicleEntrySourceContext.studyCouncil`** (`src/types/index.ts`) — a
+  new optional field carrying the *full* typed-and-tagged seat responses
+  (not just a plain-text summary), so a saved session can be reopened and
+  re-rendered exactly as it appeared, badges and all.
+- **"Save to the Thread"** — a footer button on the Council's results view.
+  `body` holds a readable plain-text transcript (so it's searchable and
+  shows up sensibly in the Record/Story views); `sourceContext.studyCouncil`
+  holds the structured data the UI actually re-renders from.
+- **"Past Convenings on {passage}"** — the Council's idle screen now lists
+  every previously-saved session for the current passage (matched on
+  `entry.passage`), each labeled by its question (or "General reading of the
+  passage") and date. Clicking one reconstructs the seats and reopens
+  instantly — no network call, no re-spending the API cost of five
+  responses to look at something already answered.
+
+This is the "resumed after a month" capability from the original vision,
+delivered without waiting for the full Study Desk workspace — a session
+saved today is already durable, already on the Thread, already reopenable.
+
+**Test-suite hygiene fix, not just new coverage**: both this milestone's
+test and the Memory Engine's test from Milestone 2 had a latent bug — they
+create real rows in the shared local Postgres DB (chronicle_entries /
+memory_verses) and never cleaned them up, so re-running either test
+repeatedly during development accumulated duplicate rows and produced
+exactly the kind of "strict mode violation: resolved to N elements" and
+stale-count failures documented earlier this project. Both specs now clean
+their own leftover rows via the `request` fixture before planting fresh
+data, matching the cleanup pattern `app-smoke.spec.js` already used for
+prayer items.
+
+Verified: tsc -b, eslint, production build, full Playwright suite (`--workers=1`
+to remove an unrelated shared-DB race between parallel workers — a pre-existing
+test-infra limitation, not something this milestone introduced or needs to fix).
