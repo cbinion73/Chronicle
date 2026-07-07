@@ -438,3 +438,57 @@ character joins it.
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 10 (branch: redesign/milestone-10) — The Ceremonies
+
+The second stone of VISION.md: five or six actions in this product are
+sacred and must not pass through the same modal used to fix a typo
+("ceremony over CRUD"). This milestone gives two of them real ceremonies
+and closes the "grace over guilt" gap in every delete.
+
+- **The answered-prayer ceremony** (`src/components/ui/AnsweredPrayerCeremony.tsx`)
+  replaces the plain "Mark Answered" modal in `Prayer.tsx`. Three stages:
+  the request is shown and offered a move "into the light"; an 8-second
+  stillness beat ("sit with what God has done," skippable); then the
+  answer is written as the closing act ("Seal It in the Light ✚"). Editing
+  an already-answered prayer's record (not the transition itself) skips
+  straight to the writing stage — the ceremony belongs to the moment of
+  answering, not to later edits.
+- **The stone-setting ceremony** (`src/components/ui/GrowthMarkerCeremony.tsx`)
+  replaces the generic `NewEntryModal` on the Growth spine's "+ Add a
+  Growth Marker" entry point. Choose the stone (kind) first, write it
+  second, then a brief "Setting the stone…" beat before it lands on the
+  spine. The general Chronicle "+ New Entry" quick-capture modal still
+  offers `growth` as one of its type chips for quick jotting — the
+  ceremony belongs to the *dedicated* entry point, not every path to
+  creating a growth entry.
+- **Undo replaces `window.confirm`** for the two low-stakes deletes: a
+  prayer request (`Prayer.tsx`) and a Chronicle entry (`Chronicle.tsx`).
+  The delete happens immediately with no permission dialog; a 6-second
+  toast offers "Undo," which re-adds the exact same object (both delete
+  actions are hard/immediate with no server-side trash, so undo is
+  client-side: the full item is held in the toast's closure and re-created
+  via `addPrayerItem`/`addChronicleEntry` if clicked). `toastStore.ts`
+  gained an optional `action: { label, onClick }` and a configurable
+  duration to support this. Left untouched: the Settings library-delete
+  confirm (`Settings.tsx`), which has real file-system side effects
+  (removes book copies, OCR files, workbook caches) — a heavier
+  destructive op than an undo toast should cover.
+- **No AI in any ceremony** — both new flows are pure UI state machines,
+  consistent with the covenant ("technology as liturgist, never as oracle,"
+  and AI recedes as sacredness increases).
+- Ceremony UI deliberately borrows the quieter register from the founding
+  vision session (generous whitespace, serif emphasis, one accent, minimal
+  chrome) as a down payment on the fuller M11 "Quiet Pass" design-system
+  work, without doing that full pass yet.
+
+**Test-suite update, not just new coverage**: three specs from Milestones
+5–7 (`answered-light.spec.js`, `app-smoke.spec.js`, `growth-markers.spec.js`)
+drove the old plain modals directly and needed their steps updated to walk
+through the new ceremony stages (skip stillness, click through to the
+writing stage, etc). `tests/ceremonies.spec.js` is the new dedicated
+coverage for both ceremonies plus the undo-delete flow.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.

@@ -179,4 +179,7 @@ arrives; none blocks the movements above.
 - ✅ **M9 — The Hours** shipped: the register (morning/midday/evening) on
   the document root with subtle tone tokens, the Evening Examen, and
   re-entry as grace (the absence counter is gone).
-- ➡️ **Next: M10 — The Ceremonies.**
+- ✅ **M10 — The Ceremonies** shipped: the answered-prayer ceremony, the
+  stone-setting ceremony, and undo replacing `window.confirm` for the two
+  low-stakes deletes.
+- ➡️ **Next: M11 — The Quiet Pass + Chapel Mode.**

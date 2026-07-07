@@ -22,13 +22,17 @@ test('marking a growth moment surfaces it on the Growth spine with its kind and 
   await page.goto(appUrl('/thread/growth'));
   await expect(page.getByText('The Growth Spine')).toBeVisible();
 
+  // The stone-setting ceremony (Milestone 10): choose the stone, write it,
+  // then set it.
   await page.getByRole('button', { name: '+ Add a Growth Marker' }).click();
   await page.getByRole('button', { name: 'Calling Clarified' }).click();
+  await page.getByRole('button', { name: 'Continue →' }).click();
   await page.getByPlaceholder("Title (optional — we'll generate one from your entry)").fill('Playwright growth marker test');
-  await page.getByPlaceholder('Write here... what did God show you? What are you carrying? What are you grateful for?')
+  await page.getByPlaceholder('What happened? What is this stone marking?')
     .fill('Chronicle recorded this test marker for Playwright.');
-  await page.getByPlaceholder('Passage (e.g. Psalm 23:1, optional)').fill('Jeremiah 29:11');
-  await page.getByRole('button', { name: 'Save to Chronicle', exact: true }).first().click();
+  await page.getByPlaceholder('Passage (optional)').fill('Jeremiah 29:11');
+  await page.getByRole('button', { name: 'Set the Stone ✚' }).click();
+  await expect(page.getByText('Setting the stone…')).toBeVisible();
 
   const markerCard = page.getByText('Playwright growth marker test', { exact: true })
     .locator('xpath=ancestor::div[contains(@style,"box-shadow")][1]');

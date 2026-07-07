@@ -4,7 +4,7 @@ import { useAppStore } from '../store';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { getGrowthMarkerKind } from '../data/growthMarkers';
-import NewEntryModal from '../components/ui/NewEntryModal';
+import GrowthMarkerCeremony from '../components/ui/GrowthMarkerCeremony';
 
 // The Growth spine — a visible skeleton for long-arc spiritual formation.
 // Unlike the Record view's undifferentiated log, this surfaces only the
@@ -19,7 +19,7 @@ function formatDate(dateStr: string) {
 export default function GrowthMarkers() {
   const navigate = useNavigate();
   const { isPhone } = useResponsiveLayout();
-  const { chronicleEntries, setBibleView } = useAppStore();
+  const { chronicleEntries, addChronicleEntry, setBibleView } = useAppStore();
   const [addOpen, setAddOpen] = useState(false);
 
   const markers = useMemo(
@@ -99,7 +99,23 @@ export default function GrowthMarkers() {
         )}
       </div>
 
-      <NewEntryModal open={addOpen} onClose={() => setAddOpen(false)} defaultType="growth" />
+      {addOpen ? (
+        <GrowthMarkerCeremony
+          onCancel={() => setAddOpen(false)}
+          onComplete={({ kind, title, body, passage }) => {
+            addChronicleEntry({
+              id: Math.random().toString(36).slice(2),
+              date: new Date().toISOString().split('T')[0],
+              type: 'growth',
+              title,
+              body,
+              passage: passage || undefined,
+              sourceContext: { page: 'chronicle', growthMarker: { kind } },
+            });
+            setAddOpen(false);
+          }}
+        />
+      ) : null}
     </div>
   );
 }
