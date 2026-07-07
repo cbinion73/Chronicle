@@ -2,8 +2,9 @@
 
 Chronicle is being rebuilt from raw material into a structured formation
 engine built around **the Thread** — the lifelong record of a person's walk
-with God. Full vision: the "A Decade of Formation" document. This file is
-the engineering plan.
+with God. This file is the engineering log of each shipped milestone.
+The founding vision lives in [VISION.md](VISION.md); the forward execution
+plan lives in [ROADMAP.md](ROADMAP.md).
 
 ## What is preserved (the only three things)
 
