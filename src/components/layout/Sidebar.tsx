@@ -58,6 +58,10 @@ const NAV_GROUPS: { label: string; items: NavItem[] }[] = [
         id: 'prayer', label: 'The Prayer Room', path: '/prayer',
         icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>,
       },
+      {
+        id: 'rule', label: 'My Rule of Life', path: '/rule',
+        icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 3a2 2 0 012 2v14a2 2 0 01-2 2H8.5A2.5 2.5 0 016 18.5V4a2 2 0 012-2h9z"/><path d="M6 18.5V4a2 2 0 012-2" /><line x1="9" y1="8" x2="15" y2="8"/><line x1="9" y1="12" x2="15" y2="12"/></svg>,
+      },
     ],
   },
   {

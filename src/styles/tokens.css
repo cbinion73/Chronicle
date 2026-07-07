@@ -23,6 +23,10 @@
   --accent-sky: #1b76f2;
   --accent-rose: #b3365f;
   --accent-rose-light: #fdeef2;
+  /* An actual green, for the Rule of Life — the first genuine green in the
+     palette, now that --accent-primary no longer misuses the name. */
+  --accent-forest: #2f6f4f;
+  --accent-forest-light: #e7f2ec;
 
   --sidebar-selected-bg: #edf4ff;
   --sidebar-selected-text: #0f4fcf;
@@ -80,6 +84,7 @@
   --accent-purple-light: #2e1065;
   --accent-amber-light: #292524;
   --accent-rose-light: #3a1524;
+  --accent-forest-light: #122a1f;
   --sidebar-selected-bg: #0d234d;
   --sidebar-selected-text: #67b4ff;
   --shadow: 0 1px 3px rgba(0,0,0,0.3);
