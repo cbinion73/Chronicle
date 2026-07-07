@@ -117,7 +117,7 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
             <div style={{ textAlign: 'center' }}>
               <div style={{
-                width: 96, height: 96, borderRadius: '50%', overflow: 'hidden',
+                width: isPhone ? 168 : 132, height: isPhone ? 168 : 132, borderRadius: '50%', overflow: 'hidden',
                 background: 'var(--card-inner)', border: '1px solid var(--border)',
                 boxShadow: '0 6px 16px rgba(15, 23, 42, 0.14)',
               }}>
