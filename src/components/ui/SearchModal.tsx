@@ -48,6 +48,7 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
     { label: activeOwnedBook ? `Discipleship — ${activeOwnedBook.title}` : 'Discipleship — My Books', path: '/discipleship', icon: '📚' },
     { label: 'Prayer List', path: '/prayer', icon: '🙏' },
     { label: 'Scripture Memory', path: '/memory', icon: '🧠' },
+    { label: 'Explore — People & Places', path: '/explore', icon: '🗺️' },
     { label: 'My Chronicle', path: '/thread', icon: '📓' },
     { label: 'Insights', path: '/thread/patterns', icon: '📊' },
   ];
