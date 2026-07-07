@@ -9,6 +9,7 @@ export type NavTab =
   | 'thread'
   | 'memory'
   | 'explore'
+  | 'rule'
   | 'chronicle'
   | 'themes'
   | 'plans'
@@ -49,12 +50,17 @@ export interface ChronicleEntrySourceContext {
   growthMarker?: {
     kind: string;
   };
+  // A Rule of Life commitment's curated category — see
+  // src/data/ruleCategories.ts for the id list this is drawn from.
+  rule?: {
+    category: string;
+  };
 }
 
 export interface ChronicleEntry {
   id: string;
   date: string;
-  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth';
+  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth' | 'rule';
   title: string;
   body: string;
   passage?: string;

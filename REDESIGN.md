@@ -552,3 +552,61 @@ tap-to-exit, and the AI panel's collapsed-by-default state.
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 12 (branch: redesign/milestone-12) — The Rule of Life
+
+The Live pillar's flagship (VISION.md), and the fourth stone laid. Every
+other pillar already had one: Know has the Office and the Bible; Understand
+has the Study Council; Teach has the Loft; Pass On has the Book and the
+whole fifth ring. Live had pieces (the Beads, the Memory Engine) but no
+flagship — this closes that gap.
+
+- **Deliberately not a habit tracker.** Investigation before building
+  found `src/lib/formationRhythms.ts` — an existing checklist/streak
+  system (`completions: string[]`, `strongestRhythm` by completion count)
+  already rendered in Plans and Prayer. That is exactly the grammar
+  VISION.md's No List forbids for a Rule of Life. The Rule is built as a
+  **separate, authored-text construct** — no completions array, no cadence
+  checking, no percentages — and `formationRhythms` is left untouched as a
+  pre-existing, unrelated feature. Reconciling the two systems is scoped
+  out as future work, not silently ignored.
+- **`src/data/ruleCategories.ts`** — a curated vocabulary (Prayer,
+  Scripture, Sabbath, Service, Generosity, Calling), the same
+  fixed-list-not-free-text pattern established by Growth Markers.
+- **A new `'rule'` Chronicle entry type**, reusing the existing entry
+  infrastructure end to end — no new table, no migration (`type` is a
+  plain `String` column). `ChronicleEntrySourceContext.rule?: { category }`
+  follows the `growthMarker`/`studyCouncil` precedent. `NavTab` gained
+  `'rule'`.
+- **`src/pages/Rule.tsx`** (`/rule`) — "My Rule of Life": commitments
+  grouped by category using the Quiet-Pass `Card`/`Badge` components, each
+  category with its own lightweight "+ Add" inline form. Deliberately
+  *not* a ceremony — curating an ongoing Rule isn't itself the sacred
+  moment (the examen is); a full ceremony per commitment would be
+  theater, not reverence.
+- **`src/components/ui/SeasonalExamenCeremony.tsx`** — the actual
+  ceremony, following the Milestone 10 template (overlay/panel shell,
+  staged `useState` machine, a final callback returning only primitive
+  data). Three stages: reviewing the Rule as written, an 8-second
+  skippable stillness beat, then the question itself — *"who are you
+  becoming?"* — answered in writing and saved as a `reflection` entry
+  (not a new entry type; the examen's output is a reflection like any
+  other). No AI anywhere in this ceremony.
+- **A new honest accent** — `--accent-forest` (an actual green), since
+  every existing accent was already spoken for by another entry type, and
+  `--accent-primary` no longer misuses the "green" name after Milestone
+  11's token-honesty fix. The Rule of Life gets the first genuine green in
+  the palette.
+- **Entry points**: a "My Rule of Life" sidebar item (flat, alongside
+  Memory/Explore's precedent for top-level rooms outside the five main
+  ones), and a global search quick-link.
+
+Scoped out: adding `rule` to the generic Chronicle "+ New Entry" quick-
+capture modal. Unlike Growth Markers, a Rule commitment requires a
+category, and the Rule page's own per-category inline forms already
+cover authoring well — duplicating that picker in the generic modal would
+be a second UI path for the same action, not a real convenience.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.

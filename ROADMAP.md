@@ -185,4 +185,7 @@ arrives; none blocks the movements above.
 - ✅ **M11 — The Quiet Pass + Chapel Mode** shipped: honest tokens
   (`--accent-primary`), a 4-step type scale, extracted Card/Badge
   components, the AI companion panel quiet-by-default, and chapel mode.
-- ➡️ **Next: M12 — The Rule of Life.**
+- ✅ **M12 — The Rule of Life** shipped: the Live pillar's flagship — an
+  authored (not tracked) Rule at `/rule`, and the seasonal examen
+  ceremony asking "who are you becoming?"
+- ➡️ **Next: M13 — Remembrance.**

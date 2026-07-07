@@ -140,7 +140,7 @@ export function deriveThemeSignals(entries: ChronicleEntry[]): ThemeSignal[] {
           category: pickCategory(id),
           passages: [],
           relatedThemes: [],
-          entryTypes: { insight: 0, prayer: 0, study: 0, note: 0, reflection: 0, growth: 0 },
+          entryTypes: { insight: 0, prayer: 0, study: 0, note: 0, reflection: 0, growth: 0, rule: 0 },
           timeline: [],
         });
       }
