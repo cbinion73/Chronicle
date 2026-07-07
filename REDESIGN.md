@@ -165,3 +165,50 @@ the Thread; browsing the graph doesn't imply "doing" anything). New
 Playwright coverage (`tests/explore.spec.js`) exercises the full loop:
 search → select a person → follow a relationship → jump to a place →
 open a passage in the Bible reader.
+
+---
+
+## Milestone 4 (branch: redesign/milestone-4) — the Study Council
+
+The first feature that makes the **Source Ledger** (every AI claim typed by
+source and confidence) real in the product, not just a documented principle.
+
+**Server** (`server/chronicleApi.ts` → `studyCouncilDevApi`,
+`POST /api/ai/study-council`): five independent voices reasoning over one
+passage — the Exegete (what the text says in its own argument), the
+Historian (what it meant to its first hearers), the Canonist (how the whole
+Bible reads it), the Churchman (how the church has read it for 20
+centuries), and the Berean (Acts 17:11's devoted skeptic). All five are
+instructed to tag every paragraph with exactly one source type —
+`[SCRIPTURE]` / `[TEXT]` / `[LANGUAGE]` / `[HISTORY]` / `[INTERPRETATION]`
+(with a required confidence word: settled/broadly held/disputed/minority/
+speculative) / `[APPLICATION]` (always tentative, never a command).
+
+**Sequenced, not parallel, on purpose**: the four seats run concurrently
+first; the Berean runs *second*, given their actual answers, and is
+instructed to test each one — quote the specific claim, flag overreach or a
+missed counter-reading, or say plainly that a claim holds up. This is the
+mechanism that keeps the Council from quietly becoming one voice in five
+costumes.
+
+**Client** (`src/lib/studyCouncil.ts`): `parseLedgerParagraphs` splits each
+seat's raw text on blank lines and extracts the tag + confidence from each
+paragraph — a paragraph with no recognized tag still renders (never
+silently dropped) labeled `UNTYPED`, which is itself useful signal that a
+seat didn't follow the discipline. `src/components/StudyCouncil.tsx` renders
+the five seats as cards with colored source badges and confidence pills,
+full-screen on phone / centered on desktop (matching PrayerPathPlayer's
+established pattern). Entry point: a "⚖ Study Council" button in the Bible
+reader's toolbar, seeded with the current chapter's text.
+
+**Testing an AI feature without a live key**: `tests/study-council.spec.js`
+mocks the `/api/ai/study-council` network boundary with `page.route` (a new
+pattern for this test suite) and verifies the part that's actually ours —
+every mocked paragraph renders with its correct tag and confidence badge,
+and no paragraph ever renders as `UNTYPED` given a well-formed response.
+
+**Scoped out of Milestone 4**: the Council is invoked manually per passage;
+it doesn't yet write anything to the Thread (no "save this council session"
+capability), and there's no per-book memory of past Council convenings.
+Both are natural Milestone 5+ extensions once the Study Desk (a proper
+multi-tab workspace) exists to hold them.

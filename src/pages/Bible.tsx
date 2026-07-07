@@ -41,6 +41,7 @@ import { useAIChatStore } from '../store/aiChatStore';
 import { formatPassageLabel, parseScriptureReference } from '../lib/scriptureReference';
 import type { ChronicleEntry, ScriptureBookmark } from '../types';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
+import StudyCouncil from '../components/StudyCouncil';
 
 const TIER_COLORS: Record<string, string> = {
   Explicit: '#0f4fcf', Strong: '#2b8dff', Inferred: '#d97706', Debated: '#9ca3af',
@@ -576,6 +577,7 @@ export default function Bible() {
   const [loadingTranslationComparisons, setLoadingTranslationComparisons] = useState(false);
   const [focusedVerseInsight, setFocusedVerseInsight] = useState<VerseStudyInsight | null>(null);
   const [loadingVerseInsight, setLoadingVerseInsight] = useState(false);
+  const [studyCouncilOpen, setStudyCouncilOpen] = useState(false);
 
   const currentReferenceKey = `${provider}:${book}:${chapter}`;
   const chapterData = chapterResult.referenceKey === currentReferenceKey ? chapterResult.chapter : undefined;
@@ -1803,6 +1805,14 @@ export default function Bible() {
               title="Refresh Themes"
             >
               {loadingThemes ? '…' : isPhone ? '↻' : 'Refresh Themes'}
+            </button>
+            <button
+              style={{ padding: isPhone ? '5px 8px' : '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, fontWeight: 600, color: 'var(--accent-blue)', background: 'var(--card-inner)', cursor: chapterData ? 'pointer' : 'not-allowed', opacity: chapterData ? 1 : 0.6 }}
+              onClick={() => setStudyCouncilOpen(true)}
+              disabled={!chapterData}
+              title="Convene the Study Council — five independent voices (Exegete, Historian, Canonist, Churchman, Berean) on this passage, every claim typed by source and confidence"
+            >
+              ⚖ {!isPhone && 'Study Council'}
             </button>
           </div>
         </div>
@@ -3102,6 +3112,14 @@ export default function Bible() {
           defaultBody={`"${selectedVerse.text}"\n\n`}
         />
       )}
+
+      {studyCouncilOpen && chapterData ? (
+        <StudyCouncil
+          passage={`${book} ${chapter}`}
+          passageText={chapterData.verses.slice(0, 20).map((verse) => `${verse.number}. ${verse.text}`).join(' ')}
+          onClose={() => setStudyCouncilOpen(false)}
+        />
+      ) : null}
     </div>
   );
 }
