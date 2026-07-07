@@ -1,0 +1,105 @@
+import { useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAppStore } from '../store';
+import { useResponsiveLayout } from '../lib/useResponsiveLayout';
+import { getBibleNavigationTarget } from '../lib/scriptureReference';
+import { getGrowthMarkerKind } from '../data/growthMarkers';
+import NewEntryModal from '../components/ui/NewEntryModal';
+
+// The Growth spine — a visible skeleton for long-arc spiritual formation.
+// Unlike the Record view's undifferentiated log, this surfaces only the
+// entries a person has deliberately marked as a milestone (baptism, a
+// calling clarified, a season of doubt resolved), in order, as a spine
+// down the middle of the Thread.
+
+function formatDate(dateStr: string) {
+  return new Date(`${dateStr}T12:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+}
+
+export default function GrowthMarkers() {
+  const navigate = useNavigate();
+  const { isPhone } = useResponsiveLayout();
+  const { chronicleEntries, setBibleView } = useAppStore();
+  const [addOpen, setAddOpen] = useState(false);
+
+  const markers = useMemo(
+    () => chronicleEntries.filter((entry) => entry.type === 'growth').sort((a, b) => (a.date < b.date ? 1 : -1)),
+    [chronicleEntries],
+  );
+
+  const openPassage = (reference: string) => {
+    const target = getBibleNavigationTarget(reference);
+    if (target) {
+      setBibleView({ book: target.book, chapter: target.chapter, overlayOn: false, showThemePanel: false });
+    }
+    navigate('/bible');
+  };
+
+  return (
+    <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+      <div style={{ maxWidth: 680, margin: '0 auto', padding: isPhone ? '20px 16px 48px' : '32px 24px 64px' }}>
+
+        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12, marginBottom: 22, flexWrap: 'wrap' }}>
+          <div>
+            <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 22, fontWeight: 700, color: 'var(--text)', margin: 0 }}>
+              The Growth Spine
+            </h1>
+            <p style={{ fontSize: 13, color: 'var(--text-sub)', marginTop: 6, maxWidth: 460, lineHeight: 1.6 }}>
+              The milestones you've deliberately marked — baptism, a calling clarified, a season of doubt resolved — laid out in order as the skeleton of a life walked with God.
+            </p>
+          </div>
+          <button
+            onClick={() => setAddOpen(true)}
+            style={{ padding: '8px 14px', borderRadius: 8, border: 'none', background: 'var(--accent-rose)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer', whiteSpace: 'nowrap' }}
+          >
+            + Add a Growth Marker
+          </button>
+        </div>
+
+        {markers.length === 0 ? (
+          <div style={{ textAlign: 'center', padding: '48px 20px', color: 'var(--text-muted)', fontSize: 13, background: 'var(--card-bg)', border: '1px dashed var(--border)', borderRadius: 14 }}>
+            No growth markers yet. When you mark a baptism, a calling clarified, or a season resolved, it will take its place here as the spine of your story.
+          </div>
+        ) : (
+          <div style={{ borderLeft: '2px solid var(--accent-rose)', marginLeft: 6, paddingLeft: 20, display: 'grid', gap: 18 }}>
+            {markers.map((entry) => {
+              const kind = getGrowthMarkerKind(entry.sourceContext?.growthMarker?.kind);
+              return (
+                <div key={entry.id} style={{ position: 'relative' }}>
+                  <div style={{
+                    position: 'absolute', left: -26, top: 4, width: 12, height: 12, borderRadius: 999,
+                    background: 'var(--accent-rose)', border: '2px solid var(--bg)',
+                  }} />
+                  <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 12, padding: '14px 16px', boxShadow: 'var(--shadow)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', marginBottom: 6 }}>
+                      <span style={{ fontSize: 10, fontWeight: 700, padding: '2px 8px', borderRadius: 999, background: 'var(--accent-rose-light)', color: 'var(--accent-rose)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                        {kind.icon} {kind.label}
+                      </span>
+                      <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{formatDate(entry.date)}</span>
+                    </div>
+                    <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--text)', lineHeight: 1.5, marginBottom: 6 }}>
+                      {entry.title}
+                    </div>
+                    <p style={{ fontFamily: 'var(--font-serif)', fontSize: 13, color: 'var(--text-sub)', lineHeight: 1.65, margin: 0, whiteSpace: 'pre-line' }}>
+                      {entry.body}
+                    </p>
+                    {entry.passage ? (
+                      <button
+                        onClick={() => openPassage(entry.passage!)}
+                        style={{ marginTop: 8, padding: '4px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--accent-rose)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}
+                      >
+                        {entry.passage}
+                      </button>
+                    ) : null}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      <NewEntryModal open={addOpen} onClose={() => setAddOpen(false)} defaultType="growth" />
+    </div>
+  );
+}

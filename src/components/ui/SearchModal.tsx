@@ -51,6 +51,7 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
     { label: 'Scripture Memory', path: '/memory', icon: '🧠' },
     { label: 'Explore — People & Places', path: '/explore', icon: '🗺️' },
     { label: 'My Chronicle', path: '/thread', icon: '📓' },
+    { label: 'The Growth Spine', path: '/thread/growth', icon: '🌱' },
     { label: 'Insights', path: '/thread/patterns', icon: '📊' },
   ];
 
