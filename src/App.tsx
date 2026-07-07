@@ -10,6 +10,7 @@ const Discipleship = lazy(() => import('./pages/Discipleship'));
 const Prayer = lazy(() => import('./pages/Prayer'));
 const AnsweredLight = lazy(() => import('./pages/AnsweredLight'));
 const Thread = lazy(() => import('./pages/Thread'));
+const TeachingOutline = lazy(() => import('./pages/TeachingOutline'));
 const Themes = lazy(() => import('./pages/Themes'));
 const Plans = lazy(() => import('./pages/Plans'));
 const Memory = lazy(() => import('./pages/Memory'));
@@ -58,6 +59,7 @@ export default function App() {
             <Route path="prayer" element={<Prayer />} />
             <Route path="prayer/answered-light" element={<AnsweredLight />} />
             <Route path="thread" element={<Thread />} />
+            <Route path="thread/teach/:entryId" element={<TeachingOutline />} />
             <Route path="thread/:view" element={<Thread />} />
             <Route path="themes" element={<Themes />} />
             <Route path="plans" element={<Plans />} />

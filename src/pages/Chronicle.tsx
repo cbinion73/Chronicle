@@ -8,6 +8,7 @@ import { useAIChatStore } from '../store/aiChatStore';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { buildReflectionPrompts } from '../lib/reflectionPrompts';
 import { exportChronicleMarkdown, monthsSinceOldestEntry } from '../lib/chronicleExport';
+import { hasTeachingMaterial } from '../lib/teachingLoft';
 import { useToastStore } from '../store/toastStore';
 import s from './Chronicle.module.css';
 
@@ -245,6 +246,7 @@ export default function Chronicle() {
                         entry={entry}
                         onOpenBible={openEntryInBible}
                         onOpenSource={openEntrySource}
+                        onOpenTeaching={() => navigate(`/thread/teach/${entry.id}`)}
                         onEdit={() => setEditingEntry(entry)}
                         onDelete={() => {
                           if (window.confirm(`Delete "${entry.title}"? This can't be undone.`)) {
@@ -363,10 +365,11 @@ function sourceActionLabel(entry: ChronicleEntry) {
   return 'Return to Source';
 }
 
-function EntryCard({ entry, onOpenBible, onOpenSource, onEdit, onDelete }: {
+function EntryCard({ entry, onOpenBible, onOpenSource, onOpenTeaching, onEdit, onDelete }: {
   entry: ChronicleEntry;
   onOpenBible: (entry: ChronicleEntry) => void;
   onOpenSource: (entry: ChronicleEntry) => void;
+  onOpenTeaching: () => void;
   onEdit: () => void;
   onDelete: () => void;
 }) {
@@ -414,6 +417,15 @@ function EntryCard({ entry, onOpenBible, onOpenSource, onEdit, onDelete }: {
           >
             {sourceActionLabel(entry)}
           </button>
+          {hasTeachingMaterial(entry) && (
+            <button
+              onClick={onOpenTeaching}
+              className={s.sourceButton}
+              style={{ color: 'var(--accent-purple)' }}
+            >
+              Create Teaching Outline →
+            </button>
+          )}
         </div>
       ) : null}
       {entry.themes && (
