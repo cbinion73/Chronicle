@@ -13,7 +13,7 @@ import { useToastStore } from '../store/toastStore';
 import s from './Chronicle.module.css';
 
 const TYPE_COLORS: Record<string, string> = {
-  insight: 'var(--accent-green)',
+  insight: 'var(--accent-primary)',
   prayer: 'var(--accent-blue)',
   study: 'var(--accent-purple)',
   note: 'var(--accent-amber)',
@@ -22,7 +22,7 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 const TYPE_BG: Record<string, string> = {
-  insight: 'var(--accent-green-light)',
+  insight: 'var(--accent-primary-light)',
   prayer: 'var(--accent-blue-light)',
   study: 'var(--accent-purple-light)',
   note: 'var(--accent-amber-light)',

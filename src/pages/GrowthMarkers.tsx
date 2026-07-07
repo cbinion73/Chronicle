@@ -5,6 +5,8 @@ import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { getGrowthMarkerKind } from '../data/growthMarkers';
 import GrowthMarkerCeremony from '../components/ui/GrowthMarkerCeremony';
+import Card, { EmptyCard } from '../components/ui/Card';
+import Badge, { TimelineDot } from '../components/ui/Badge';
 
 // The Growth spine — a visible skeleton for long-arc spiritual formation.
 // Unlike the Record view's undifferentiated log, this surfaces only the
@@ -57,24 +59,19 @@ export default function GrowthMarkers() {
         </div>
 
         {markers.length === 0 ? (
-          <div style={{ textAlign: 'center', padding: '48px 20px', color: 'var(--text-muted)', fontSize: 13, background: 'var(--card-bg)', border: '1px dashed var(--border)', borderRadius: 14 }}>
+          <EmptyCard>
             No growth markers yet. When you mark a baptism, a calling clarified, or a season resolved, it will take its place here as the spine of your story.
-          </div>
+          </EmptyCard>
         ) : (
           <div style={{ borderLeft: '2px solid var(--accent-rose)', marginLeft: 6, paddingLeft: 20, display: 'grid', gap: 18 }}>
             {markers.map((entry) => {
               const kind = getGrowthMarkerKind(entry.sourceContext?.growthMarker?.kind);
               return (
                 <div key={entry.id} style={{ position: 'relative' }}>
-                  <div style={{
-                    position: 'absolute', left: -26, top: 4, width: 12, height: 12, borderRadius: 999,
-                    background: 'var(--accent-rose)', border: '2px solid var(--bg)',
-                  }} />
-                  <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 12, padding: '14px 16px', boxShadow: 'var(--shadow)' }}>
+                  <TimelineDot color="var(--accent-rose)" />
+                  <Card padding="14px 16px">
                     <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', marginBottom: 6 }}>
-                      <span style={{ fontSize: 10, fontWeight: 700, padding: '2px 8px', borderRadius: 999, background: 'var(--accent-rose-light)', color: 'var(--accent-rose)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                        {kind.icon} {kind.label}
-                      </span>
+                      <Badge color="var(--accent-rose)">{kind.icon} {kind.label}</Badge>
                       <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{formatDate(entry.date)}</span>
                     </div>
                     <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--text)', lineHeight: 1.5, marginBottom: 6 }}>
@@ -91,7 +88,7 @@ export default function GrowthMarkers() {
                         {entry.passage}
                       </button>
                     ) : null}
-                  </div>
+                  </Card>
                 </div>
               );
             })}

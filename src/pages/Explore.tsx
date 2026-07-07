@@ -92,7 +92,7 @@ export default function Explore() {
               aria-current={tab === t.id ? 'page' : undefined}
               style={{
                 padding: '7px 16px', border: 'none', fontSize: 12, fontWeight: tab === t.id ? 700 : 500,
-                background: tab === t.id ? 'var(--accent-green)' : 'transparent',
+                background: tab === t.id ? 'var(--accent-primary)' : 'transparent',
                 color: tab === t.id ? 'white' : 'var(--text-sub)', cursor: 'pointer',
               }}
             >
@@ -199,7 +199,7 @@ function PassageChips({ passages, onOpenPassage }: { passages: string[]; onOpenP
         <button
           key={ref}
           onClick={() => onOpenPassage(ref)}
-          style={{ padding: '5px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--accent-green)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}
+          style={{ padding: '5px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--accent-primary)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}
         >
           {ref}
         </button>
@@ -220,7 +220,7 @@ function PersonDetail({ person, onSelectPerson, onOpenPassage, onGoToPlaces, onS
 
   return (
     <div style={{ maxWidth: 640 }}>
-      <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--accent-green)', marginBottom: 6 }}>
+      <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--accent-primary)', marginBottom: 6 }}>
         {ERA_LABELS[person.era]}
       </div>
       <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 24, fontWeight: 700, color: 'var(--text)', margin: '0 0 4px' }}>
@@ -295,7 +295,7 @@ function PlaceDetail({ place, onOpenPassage, onSelectPerson }: {
   const people = peopleForPlace(place.id);
   return (
     <div style={{ maxWidth: 640 }}>
-      <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--accent-green)', marginBottom: 6 }}>
+      <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--accent-primary)', marginBottom: 6 }}>
         {place.region}{place.modernName ? ` · today: ${place.modernName}` : ''}
       </div>
       <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 24, fontWeight: 700, color: 'var(--text)', margin: '0 0 4px' }}>

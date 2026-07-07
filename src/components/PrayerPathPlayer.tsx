@@ -92,7 +92,7 @@ export default function PrayerPathPlayer({ path, onClose }: { path: PrayerPath; 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 10 }}>
             <span style={{ fontSize: 14 }}>{KIND_GLYPH[step.kind]}</span>
             <div style={{ flex: 1, height: 4, borderRadius: 2, background: 'var(--card-inner)', overflow: 'hidden' }}>
-              <div style={{ width: `${(position / (total - 1)) * 100}%`, height: '100%', background: 'var(--accent-green)', transition: 'width 0.2s' }} />
+              <div style={{ width: `${(position / (total - 1)) * 100}%`, height: '100%', background: 'var(--accent-primary)', transition: 'width 0.2s' }} />
             </div>
             <div style={{ fontSize: 11, color: 'var(--text-muted)', whiteSpace: 'nowrap' }}>
               {path.stepNoun} {step.index} of {total}
@@ -102,7 +102,7 @@ export default function PrayerPathPlayer({ path, onClose }: { path: PrayerPath; 
 
         {/* Body */}
         <div style={{ padding: '18px 20px', overflowY: 'auto', flex: 1, minHeight: 0 }}>
-          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }}>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-primary)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }}>
             {step.positionLabel ? `${step.section} · ${step.positionLabel}` : step.section}
           </div>
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 19, fontWeight: 700, color: 'var(--text)', margin: '0 0 12px', lineHeight: 1.3 }}>
@@ -142,7 +142,7 @@ export default function PrayerPathPlayer({ path, onClose }: { path: PrayerPath; 
                 "{step.scriptureText}"
               </p>
               {step.scriptureRef ? (
-                <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', marginTop: 8 }}>{step.scriptureRef}</div>
+                <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-primary)', marginTop: 8 }}>{step.scriptureRef}</div>
               ) : null}
             </div>
           ) : null}
@@ -176,14 +176,14 @@ export default function PrayerPathPlayer({ path, onClose }: { path: PrayerPath; 
           {isLast ? (
             <button
               onClick={finish}
-              style={{ padding: '9px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+              style={{ padding: '9px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
             >
               Finish ✓
             </button>
           ) : (
             <button
               onClick={() => setPosition((p) => Math.min(p + 1, total - 1))}
-              style={{ padding: '9px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+              style={{ padding: '9px 16px', borderRadius: 8, border: 'none', background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
             >
               Next →
             </button>

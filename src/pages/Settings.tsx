@@ -93,7 +93,7 @@ function Toggle({ checked, onChange }: { checked: boolean; onChange: () => void 
         width: 36,
         height: 20,
         borderRadius: 10,
-        background: checked ? 'var(--accent-green)' : 'var(--border)',
+        background: checked ? 'var(--accent-primary)' : 'var(--border)',
         position: 'relative',
         cursor: 'pointer',
         transition: 'background 0.2s',
@@ -1766,8 +1766,8 @@ export default function Settings() {
               cursor: 'pointer',
               fontSize: 13,
               fontWeight: activeCategory === cat.id ? 600 : 400,
-              color: activeCategory === cat.id ? 'var(--accent-green)' : 'var(--text-sub)',
-              background: activeCategory === cat.id ? 'var(--accent-green-light)' : 'transparent',
+              color: activeCategory === cat.id ? 'var(--accent-primary)' : 'var(--text-sub)',
+              background: activeCategory === cat.id ? 'var(--accent-primary-light)' : 'transparent',
               transition: 'all 0.1s',
               borderRadius: isCompact ? 999 : 0,
               border: isCompact ? '1px solid var(--border)' : 'none',
@@ -1791,7 +1791,7 @@ export default function Settings() {
             <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)' }}>{CATEGORIES.find(c => c.id === activeCategory)?.label}</div>
           </div>
           <div style={{ fontSize: 11, color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: 5 }}>
-            <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent-green)' }} />
+            <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent-primary)' }} />
             Changes saved automatically
           </div>
         </div>
@@ -1914,12 +1914,12 @@ export default function Settings() {
                             <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>{item.sourceLabel || item.label}</div>
                             <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>Provider route: {item.providerId}</div>
                           </div>
-                          <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: item.coveragePct >= 100 ? 'var(--accent-green-light)' : 'rgba(15, 79, 207, 0.08)', color: item.coveragePct >= 100 ? 'var(--accent-green)' : 'var(--accent-blue)', fontSize: 11, fontWeight: 700 }}>
+                          <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: item.coveragePct >= 100 ? 'var(--accent-primary-light)' : 'rgba(15, 79, 207, 0.08)', color: item.coveragePct >= 100 ? 'var(--accent-primary)' : 'var(--accent-blue)', fontSize: 11, fontWeight: 700 }}>
                             {item.cachedCount}/{item.chapterCount || 0} cached · {item.coveragePct}%
                           </span>
                         </div>
                         <div style={{ height: 8, borderRadius: 999, background: 'var(--border)', overflow: 'hidden' }}>
-                          <div style={{ width: `${Math.max(2, item.coveragePct)}%`, height: '100%', borderRadius: 999, background: item.coveragePct >= 100 ? 'var(--accent-green)' : 'var(--accent-blue)' }} />
+                          <div style={{ width: `${Math.max(2, item.coveragePct)}%`, height: '100%', borderRadius: 999, background: item.coveragePct >= 100 ? 'var(--accent-primary)' : 'var(--accent-blue)' }} />
                         </div>
                         <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
                           {item.chapterCount > 0
@@ -1930,7 +1930,7 @@ export default function Settings() {
                           <button
                             type="button"
                             onClick={() => setBibleView({ provider: item.providerId })}
-                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: bibleView.provider === item.providerId ? 'var(--accent-green-light)' : 'transparent', color: bibleView.provider === item.providerId ? 'var(--accent-green)' : 'var(--text-sub)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: bibleView.provider === item.providerId ? 'var(--accent-primary-light)' : 'transparent', color: bibleView.provider === item.providerId ? 'var(--accent-primary)' : 'var(--text-sub)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
                           >
                             {bibleView.provider === item.providerId ? 'Default Reader Provider' : 'Use as Reader Provider'}
                           </button>
@@ -1993,11 +1993,11 @@ export default function Settings() {
                   </div>
                   <div style={{ display: 'grid', gap: 8 }}>
                     {Object.entries(CHRONICLE_AGENT_MODE_DEFS).map(([id, mode]) => (
-                      <div key={id} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: selectedAgentMode === id ? 'var(--accent-green-light)' : 'var(--card-inner)', display: 'grid', gap: 4 }}>
+                      <div key={id} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: selectedAgentMode === id ? 'var(--accent-primary-light)' : 'var(--card-inner)', display: 'grid', gap: 4 }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
                           <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>{mode.label}</div>
                           {selectedAgentMode === id && (
-                            <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--accent-green)', color: 'var(--accent-green)', fontSize: 10, fontWeight: 700 }}>
+                            <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--accent-primary)', color: 'var(--accent-primary)', fontSize: 10, fontWeight: 700 }}>
                               Default
                             </span>
                           )}
@@ -2338,7 +2338,7 @@ export default function Settings() {
                           padding: '5px 14px',
                           fontSize: 12,
                           fontWeight: theme === t ? 600 : 400,
-                          background: theme === t ? 'var(--accent-green)' : 'transparent',
+                          background: theme === t ? 'var(--accent-primary)' : 'transparent',
                           color: theme === t ? 'white' : 'var(--text-sub)',
                           border: 'none',
                           borderLeft: i > 0 ? '1px solid var(--border)' : 'none',
@@ -2673,9 +2673,9 @@ export default function Settings() {
                         style={{
                           padding: '4px 8px',
                           borderRadius: 999,
-                          border: `1px solid ${tool.ok ? 'var(--accent-green)' : 'var(--border)'}`,
-                          background: tool.ok ? 'var(--accent-green-light)' : 'var(--card-inner)',
-                          color: tool.ok ? 'var(--accent-green)' : 'var(--text-sub)',
+                          border: `1px solid ${tool.ok ? 'var(--accent-primary)' : 'var(--border)'}`,
+                          background: tool.ok ? 'var(--accent-primary-light)' : 'var(--card-inner)',
+                          color: tool.ok ? 'var(--accent-primary)' : 'var(--text-sub)',
                           fontSize: 11,
                           fontWeight: 700,
                         }}
@@ -2765,7 +2765,7 @@ export default function Settings() {
                     <button onClick={runOcrImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
                       {studyImportBusy === 'ocr' ? 'Running OCR…' : 'Run OCR'}
                     </button>
-                    <button onClick={runSegmentedOcrImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-green)', color: 'white', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
+                    <button onClick={runSegmentedOcrImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
                       {studyImportBusy === 'segmented' ? 'Segmenting…' : 'Run Whole Book in Segments'}
                     </button>
                     </div>
@@ -2833,7 +2833,7 @@ export default function Settings() {
                           width: `${Math.max(4, Math.round((studyImportJob?.progress || 0) * 100))}%`,
                           height: '100%',
                           borderRadius: 999,
-                          background: studyImportJob?.status === 'failed' ? '#f97066' : 'var(--accent-green)',
+                          background: studyImportJob?.status === 'failed' ? '#f97066' : 'var(--accent-primary)',
                           transition: 'width 0.35s ease',
                         }}
                       />
@@ -3096,7 +3096,7 @@ export default function Settings() {
                     {[
                       { label: 'Audited days', value: workbookAuditSummary.totalDays },
                       { label: 'Cue-safe days', value: workbookAuditSummary.daysWithCueCoverage, tone: 'var(--accent-blue)' },
-                      { label: 'Uncovered cue pages', value: workbookAuditSummary.totalUncoveredCuePages, tone: workbookAuditSummary.totalUncoveredCuePages > 0 ? '#b42318' : 'var(--accent-green)' },
+                      { label: 'Uncovered cue pages', value: workbookAuditSummary.totalUncoveredCuePages, tone: workbookAuditSummary.totalUncoveredCuePages > 0 ? '#b42318' : 'var(--accent-primary)' },
                       { label: 'Days with no prompts', value: workbookAuditSummary.daysWithoutInteractiveCues },
                     ].map((item) => (
                       <div key={item.label} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
@@ -3303,9 +3303,9 @@ export default function Settings() {
                 <GroupHeader title="Launch Readiness" desc="A final whole-product posture check across trust, imports, sync, and formation loops." />
                 <div style={{ padding: '14px 18px', display: 'grid', gap: 8 }}>
                   {[
-                    { label: 'Bible study engine', detail: `${bibleLibraryStatus.length} installed providers · ${themeCacheFileCount} saved analyses`, tone: 'var(--accent-green)' },
+                    { label: 'Bible study engine', detail: `${bibleLibraryStatus.length} installed providers · ${themeCacheFileCount} saved analyses`, tone: 'var(--accent-primary)' },
                     { label: 'Imported study library', detail: `${libraryStatusCounts.structured} structured books · ${workbookAuditSummary.totalDays} audited workbook days`, tone: 'var(--accent-blue)' },
-                    { label: 'Private sync posture', detail: `${chronicleSyncSummary?.snapshotCount ?? 0} snapshot${(chronicleSyncSummary?.snapshotCount ?? 0) === 1 ? '' : 's'} · model v${chronicleSyncSummary?.syncModelVersion || syncProfile.modelVersion}`, tone: 'var(--accent-green)' },
+                    { label: 'Private sync posture', detail: `${chronicleSyncSummary?.snapshotCount ?? 0} snapshot${(chronicleSyncSummary?.snapshotCount ?? 0) === 1 ? '' : 's'} · model v${chronicleSyncSummary?.syncModelVersion || syncProfile.modelVersion}`, tone: 'var(--accent-primary)' },
                     { label: 'Formation memory', detail: `${chronicleEntries.length} Chronicle entries · ${answeredPrayerCount} answered prayers · ${formationRhythms.length} rhythms`, tone: 'var(--accent-blue)' },
                   ].map((item) => (
                     <div key={item.label} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
@@ -3386,7 +3386,7 @@ export default function Settings() {
             ].map((row) => (
               <div key={row.l} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{row.l}</span>
-                <span style={{ fontSize: 12, fontWeight: 600, color: row.green ? 'var(--accent-green)' : 'var(--text)' }}>{row.v}</span>
+                <span style={{ fontSize: 12, fontWeight: 600, color: row.green ? 'var(--accent-primary)' : 'var(--text)' }}>{row.v}</span>
               </div>
             ))}
           </div>

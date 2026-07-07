@@ -18,7 +18,7 @@ const CATEGORIES = ['All', 'People', 'Needs', 'Praise', 'World', 'Answered'];
 const CAT_COLORS: Record<string, string> = {
   people: 'var(--accent-blue)',
   needs: 'var(--accent-amber)',
-  praise: 'var(--accent-green)',
+  praise: 'var(--accent-primary)',
   world: 'var(--accent-purple)',
 };
 
@@ -296,7 +296,7 @@ export default function Prayer() {
                   borderRadius: 20,
                   fontSize: 12,
                   fontWeight: activeCategory === c ? 600 : 400,
-                  background: activeCategory === c ? 'var(--accent-green)' : 'transparent',
+                  background: activeCategory === c ? 'var(--accent-primary)' : 'transparent',
                   color: activeCategory === c ? 'white' : 'var(--text-sub)',
                   cursor: 'pointer',
                   transition: 'all 0.12s',
@@ -310,7 +310,7 @@ export default function Prayer() {
             onClick={() => setAddFormOpen(true)}
             style={{
               padding: '6px 14px',
-              background: 'var(--accent-green)',
+              background: 'var(--accent-primary)',
               color: 'white',
               border: 'none',
               borderRadius: 8,
@@ -355,7 +355,7 @@ export default function Prayer() {
                 ))}
               </div>
               <button onClick={() => setAddFormOpen(false)} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-muted)', background: 'transparent', cursor: 'pointer' }}>Cancel</button>
-              <button onClick={handleAddRequest} style={{ padding: '5px 14px', background: 'var(--accent-green)', color: 'white', border: 'none', borderRadius: 7, fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>Add</button>
+              <button onClick={handleAddRequest} style={{ padding: '5px 14px', background: 'var(--accent-primary)', color: 'white', border: 'none', borderRadius: 7, fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>Add</button>
             </div>
           </div>
         )}
@@ -376,7 +376,7 @@ export default function Prayer() {
                 </div>
                 <button
                   onClick={() => navigate('/prayer/answered-light')}
-                  style={{ border: 'none', background: 'none', padding: 0, fontSize: 11, fontWeight: 700, color: 'var(--accent-green)', cursor: 'pointer' }}
+                  style={{ border: 'none', background: 'none', padding: 0, fontSize: 11, fontWeight: 700, color: 'var(--accent-primary)', cursor: 'pointer' }}
                 >
                   Open the Answered Light →
                 </button>
@@ -535,10 +535,10 @@ export default function Prayer() {
         {/* Passage */}
         <div style={{ padding: 16 }}>
           <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Suggested Passage</div>
-          <div style={{ fontFamily: 'var(--font-serif)', fontSize: 13, color: 'var(--text-sub)', lineHeight: 1.7, fontStyle: 'italic', borderLeft: '3px solid var(--accent-green)', paddingLeft: 12 }}>
+          <div style={{ fontFamily: 'var(--font-serif)', fontSize: 13, color: 'var(--text-sub)', lineHeight: 1.7, fontStyle: 'italic', borderLeft: '3px solid var(--accent-primary)', paddingLeft: 12 }}>
             "{prayerGuide.text}"
           </div>
-          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', marginTop: 6 }}>{prayerGuide.verse} · NKJV</div>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-primary)', marginTop: 6 }}>{prayerGuide.verse} · NKJV</div>
           <div style={{ marginTop: 10, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
             <button
               onClick={openSuggestedPassageInBible}
@@ -589,7 +589,7 @@ export default function Prayer() {
                 <div key={rhythm.id} style={{ background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 10, padding: '10px 12px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 8, alignItems: 'center' }}>
                     <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>{rhythm.title}</div>
-                    <div style={{ fontSize: 10, color: completed ? 'var(--accent-green)' : 'var(--text-muted)', textTransform: 'uppercase' }}>{completed ? 'done' : rhythm.cadence}</div>
+                    <div style={{ fontSize: 10, color: completed ? 'var(--accent-primary)' : 'var(--text-muted)', textTransform: 'uppercase' }}>{completed ? 'done' : rhythm.cadence}</div>
                   </div>
                   <div style={{ marginTop: 6, fontSize: 11, lineHeight: 1.5, color: 'var(--text-sub)' }}>{rhythm.prompt}</div>
                   <button
@@ -669,8 +669,8 @@ function PrayerCard({ item, onToggle, onPray, onAnswer, onDelete, answered }: { 
           width: 20,
           height: 20,
           borderRadius: '50%',
-          border: `2px solid ${answered ? 'var(--accent-green)' : 'var(--border)'}`,
-          background: answered ? 'var(--accent-green)' : 'transparent',
+          border: `2px solid ${answered ? 'var(--accent-primary)' : 'var(--border)'}`,
+          background: answered ? 'var(--accent-primary)' : 'transparent',
           cursor: 'pointer',
           display: 'flex',
           alignItems: 'center',

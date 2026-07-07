@@ -5,7 +5,7 @@ import type { ChronicleEntry } from '../../types';
 import { GROWTH_MARKER_KINDS } from '../../data/growthMarkers';
 
 const ENTRY_TYPES = [
-  { id: 'insight', label: 'Insight', icon: '💡', color: 'var(--accent-green)', desc: 'Something God showed you' },
+  { id: 'insight', label: 'Insight', icon: '💡', color: 'var(--accent-primary)', desc: 'Something God showed you' },
   { id: 'prayer', label: 'Prayer', icon: '🙏', color: 'var(--accent-blue)', desc: 'A prayer or conversation with God' },
   { id: 'study', label: 'Study', icon: '📖', color: 'var(--accent-purple)', desc: 'Notes from Scripture study' },
   { id: 'note', label: 'Note', icon: '📝', color: 'var(--accent-amber)', desc: 'A general observation or thought' },

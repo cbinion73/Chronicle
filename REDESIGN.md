@@ -492,3 +492,63 @@ coverage for both ceremonies plus the undo-delete flow.
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 11 (branch: redesign/milestone-11) — The Quiet Pass + Chapel Mode
+
+The third stone of VISION.md, and the promised follow-through on the
+"down payment" noted in Milestone 10: the design-system debt paid down,
+plus chapel mode itself.
+
+- **Token honesty** — `--accent-green` (`#0f4fcf`, always blue) is renamed
+  `--accent-primary` across `tokens.css` and all 21 consuming files.
+  Same hex values, zero visual change — this was a naming lie, not a
+  color choice, and the fix is purely mechanical.
+- **A 4-step type scale** (`--text-xs/sm/base/lg`) established in
+  `tokens.css`. Not a full app-wide rewrite — most existing pages still
+  carry their own inline pixel values — but the scale now exists as the
+  documented target for future surfaces and refactors.
+- **Extracted `Card`/`Badge` components** (`src/components/ui/Card.tsx`,
+  `Badge.tsx`) replacing three near-identical hand-rolled copies of the
+  same card/pill/timeline-dot pattern in `AnsweredLight.tsx`,
+  `GrowthMarkers.tsx` (Milestones 6/7), and `Office.tsx` (Milestone 9,
+  via the exported `CARD_STYLE` constant for its `<section>` semantics).
+  One shared shape instead of three quietly drifting ones.
+- **The AI companion panel is quiet by default** — previously ~20-24
+  controls rendered on every page (Role select, Voice select, 4 quick
+  actions, up to 16 standing "Save/Open" buttons). Role/Voice selection
+  moved entirely to Settings' existing "Companion Roles" section (which
+  already had the wiring); the panel now shows a single read-only mode
+  chip that links there. Quick actions capped to 3. The standing
+  save/open button grid is now behind a "More actions ▾" disclosure,
+  collapsed by default — full functionality preserved, nothing removed,
+  just not shown until asked for.
+- **Chapel mode** (`/chapel`, `src/pages/Chapel.tsx`) — one verse (from a
+  new shared `src/data/callsToWorship.ts`, extracted from the Office's own
+  call array), no chrome, tap-anywhere (or Escape/Enter) to leave.
+  Rendered as a route *sibling* to `AppShell` in `App.tsx`, not nested
+  inside it — the only way to get a truly full-bleed screen with no
+  sidebar, topbar, or AI companion. No AI anywhere in this room, per the
+  covenant. Entry point: a quiet link on the Office's Silence station.
+
+**A real bug found and fixed along the way, not just refactored past**:
+`useWelcomeBack` (Milestone 9) wrote to localStorage as a side effect
+inside a lazy `useState` initializer. React 18 StrictMode intentionally
+double-invokes state initializers in development to catch exactly this
+kind of impurity — the second invocation read back the value the first
+invocation had just written, corrupting the "how long were you away"
+calculation and silently disabling the grace moment. Fixed by splitting
+the read (pure, stays in the initializer) from the write (moved to a
+`useEffect`). Caught by `tests/the-hours.spec.js`'s existing grace test,
+which had been passing coincidentally rather than reliably.
+
+**Test-suite updates**: `app-smoke.spec.js`'s three assertions against the
+now-removed `#chronicle-agent-mode-select` are replaced with assertions
+against the new mode chip button, plus one `More actions ▾` reveal click
+(confirmed the panel's local disclosure state survives in-app navigation,
+since `AIChatPanel` doesn't unmount between routes). New
+`tests/quiet-pass.spec.js` covers chapel mode's chrome-free rendering and
+tap-to-exit, and the AI panel's collapsed-by-default state.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.

@@ -424,7 +424,7 @@ function renderStudyBlock(block: OwnedBookStudyBlock) {
       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 8, flexWrap: 'wrap', alignItems: 'flex-start' }}>
         <div style={eyebrowStyle}>{block.title}</div>
         {block.reference && (
-          <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--accent-green)' }}>{block.reference}</div>
+          <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--accent-primary)' }}>{block.reference}</div>
         )}
       </div>
       {block.emphasis && (
@@ -1148,8 +1148,8 @@ export default function Discipleship() {
                       onClick={() => setActiveOwnedBook(book.id)}
                       style={{
                         ...libraryItemStyle,
-                        border: selected ? '1px solid var(--accent-green)' : '1px solid var(--border)',
-                        background: selected ? 'var(--accent-green-light)' : 'var(--card-inner)',
+                        border: selected ? '1px solid var(--accent-primary)' : '1px solid var(--border)',
+                        background: selected ? 'var(--accent-primary-light)' : 'var(--card-inner)',
                       }}
                     >
                       <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>{book.title}</div>
@@ -1771,7 +1771,7 @@ function WorkbookOverlayHotspot({
           style={{
             ...workbookHotspotIconStyle,
             border: hasValue ? '1px solid rgba(15, 79, 207, 0.28)' : '1px solid rgba(15, 23, 42, 0.08)',
-            color: hasValue ? 'var(--accent-green)' : 'rgba(15, 23, 42, 0.42)',
+            color: hasValue ? 'var(--accent-primary)' : 'rgba(15, 23, 42, 0.42)',
           }}
           aria-label={`Open ${field.label}`}
         >
@@ -1902,9 +1902,9 @@ const readerTabStyle: CSSProperties = {
 
 const readerTabActiveStyle: CSSProperties = {
   ...readerTabStyle,
-  border: '1px solid var(--accent-green)',
-  background: 'var(--accent-green-light)',
-  color: 'var(--accent-green)',
+  border: '1px solid var(--accent-primary)',
+  background: 'var(--accent-primary-light)',
+  color: 'var(--accent-primary)',
 };
 
 const sourceGridStyle: CSSProperties = {
@@ -2109,7 +2109,7 @@ const primaryButtonStyle: CSSProperties = {
   padding: '10px 14px',
   border: 'none',
   borderRadius: 10,
-  background: 'var(--accent-green)',
+  background: 'var(--accent-primary)',
   color: 'white',
   fontSize: 12,
   fontWeight: 700,

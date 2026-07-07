@@ -190,7 +190,7 @@ export default function Plans() {
                 <div key={rhythm.id} style={{ border: '1px solid var(--border)', borderRadius: 10, padding: '12px 14px', background: 'var(--card-inner)' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'center' }}>
                     <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)' }}>{rhythm.title}</div>
-                    <div style={{ fontSize: 10, color: completed ? 'var(--accent-green)' : 'var(--text-muted)', textTransform: 'uppercase' }}>
+                    <div style={{ fontSize: 10, color: completed ? 'var(--accent-primary)' : 'var(--text-muted)', textTransform: 'uppercase' }}>
                       {completed ? 'done' : rhythm.cadence}
                     </div>
                   </div>

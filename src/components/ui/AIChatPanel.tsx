@@ -6,7 +6,7 @@ import remarkGfm from 'remark-gfm';
 import { CHRONICLE_AGENT_MODE_DEFS, getAIConversationKey, getAIConversationThreadTitle, type ChronicleAgentMode, useAIChatStore } from '../../store/aiChatStore';
 import { useToastStore } from '../../store/toastStore';
 import { sendAIChatMessage } from '../../lib/aiChat';
-import { CHRONICLE_PERSONAS, type ChroniclePersonaId } from '../../lib/chroniclePersonas';
+import { CHRONICLE_PERSONAS } from '../../lib/chroniclePersonas';
 import { useAppStore } from '../../store';
 import s from './AIChatPanel.module.css';
 import { getBibleNavigationTarget } from '../../lib/scriptureReference';
@@ -124,6 +124,7 @@ export default function AIChatPanel({
   const pageKey = location.pathname || '/';
   const pageLabel = PAGE_LABELS[pageKey] || pageKey.replace('/', '') || 'Today';
   const [draft, setDraft] = useState('');
+  const [showMoreActions, setShowMoreActions] = useState(false);
   const { addToast } = useToastStore();
   const addChronicleEntry = useAppStore((state) => state.addChronicleEntry);
   const addPrayerItem = useAppStore((state) => state.addPrayerItem);
@@ -140,8 +141,6 @@ export default function AIChatPanel({
   const selectedAgentMode = useAIChatStore((state) => state.selectedAgentMode);
   const appendMessage = useAIChatStore((state) => state.appendMessage);
   const setPending = useAIChatStore((state) => state.setPending);
-  const setSelectedPersona = useAIChatStore((state) => state.setSelectedPersona);
-  const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
   const clearConversation = useAIChatStore((state) => state.clearConversation);
   const persona = CHRONICLE_PERSONAS[selectedPersona];
   const agentMode = CHRONICLE_AGENT_MODE_DEFS[selectedAgentMode];
@@ -166,7 +165,8 @@ export default function AIChatPanel({
         .slice(0, 4),
     [pageKey, threadMetaByKey],
   );
-  const quickActions = useMemo(() => getQuickActions(selectedAgentMode, pageKey, context), [context, pageKey, selectedAgentMode]);
+  // Quiet by default (VISION.md's Quiet Pass): 2-3 context actions, not 4+.
+  const quickActions = useMemo(() => getQuickActions(selectedAgentMode, pageKey, context).slice(0, 3), [context, pageKey, selectedAgentMode]);
   const latestAssistantMessage = [...messages].reverse().find((message) => message.role === 'assistant');
   const actionText = draft.trim() || latestAssistantMessage?.text.trim() || '';
   const isOverlayLayout = layoutMode !== 'desktop';
@@ -740,35 +740,9 @@ export default function AIChatPanel({
           </div>
 
           <div className={s.personaBar}>
-            <label className={s.personaLabel} htmlFor="chronicle-agent-mode-select">Role</label>
-            <select
-              id="chronicle-agent-mode-select"
-              className={s.personaSelect}
-              value={selectedAgentMode}
-              onChange={(event) => setSelectedAgentMode(event.target.value as ChronicleAgentMode)}
-            >
-              {Object.entries(CHRONICLE_AGENT_MODE_DEFS).map(([id, option]) => (
-                <option key={id} value={id}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-            <div className={s.personaSummary}>{agentMode.summary}</div>
-            <label className={s.personaLabel} htmlFor="chronicle-persona-select">Voice</label>
-            <select
-              id="chronicle-persona-select"
-              className={s.personaSelect}
-              value={selectedPersona}
-              onChange={(event) => setSelectedPersona(event.target.value as ChroniclePersonaId)}
-            >
-              {Object.values(CHRONICLE_PERSONAS).map((option) => (
-                <option key={option.id} value={option.id}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-            <div className={s.personaSummary}>{persona.summary}</div>
-            <div className={s.modeChip}>{agentMode.label}</div>
+            <button type="button" className={s.modeChip} onClick={() => navigate('/settings')} title="Change role and voice in Settings">
+              {agentMode.label} · {persona.shortLabel}
+            </button>
             <div className={s.threadChip}>Thread: {conversationTitle}</div>
             {recentThreads.length > 1 && (
               <>
@@ -859,6 +833,16 @@ export default function AIChatPanel({
                 </button>
               ))}
             </div>
+            <button
+              type="button"
+              className={s.quickAction}
+              onClick={() => setShowMoreActions((current) => !current)}
+              aria-expanded={showMoreActions}
+            >
+              {showMoreActions ? 'Fewer actions ▴' : 'More actions ▾'}
+            </button>
+            {showMoreActions && (
+            <>
             <div className={s.actionRow}>
               {voiceConfig.enabled && (
                 <>
@@ -1013,6 +997,8 @@ export default function AIChatPanel({
                 Open Workbook
               </button>
             </div>
+            </>
+            )}
             <textarea
               className={s.input}
               value={draft}

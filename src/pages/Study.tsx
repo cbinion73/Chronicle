@@ -154,7 +154,7 @@ export default function Study() {
             <div style={{ padding: '8px 12px', borderRadius: 999, background: 'var(--card-inner)', border: '1px solid var(--border)', fontSize: 12, color: 'var(--text-sub)' }}>
               {module.cadence}
             </div>
-            <div style={{ padding: '8px 12px', borderRadius: 999, background: 'var(--accent-green-light)', border: '1px solid var(--accent-green)', fontSize: 12, color: 'var(--accent-green)' }}>
+            <div style={{ padding: '8px 12px', borderRadius: 999, background: 'var(--accent-primary-light)', border: '1px solid var(--accent-primary)', fontSize: 12, color: 'var(--accent-primary)' }}>
               Bible Study Agent is the default Chronicle study mode
             </div>
           </div>
@@ -276,12 +276,12 @@ export default function Study() {
                   Day {currentDay.day} / {module.totalDays}
                 </div>
                 <div style={{ marginTop: 8, height: 10, borderRadius: 999, background: 'var(--card-inner)', overflow: 'hidden' }}>
-                  <div style={{ width: `${(currentDay.day / module.totalDays) * 100}%`, height: '100%', background: 'var(--accent-green)' }} />
+                  <div style={{ width: `${(currentDay.day / module.totalDays) * 100}%`, height: '100%', background: 'var(--accent-primary)' }} />
                 </div>
                 <button
                   type="button"
                   onClick={completeToday}
-                  style={{ marginTop: 14, width: '100%', padding: '10px 14px', borderRadius: 10, border: 'none', background: 'var(--accent-green)', color: 'white', fontWeight: 700 }}
+                  style={{ marginTop: 14, width: '100%', padding: '10px 14px', borderRadius: 10, border: 'none', background: 'var(--accent-primary)', color: 'white', fontWeight: 700 }}
                 >
                   {isLastDay ? `Finish ${module.shortTitle}` : 'Complete Today'}
                 </button>

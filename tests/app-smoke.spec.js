@@ -111,10 +111,15 @@ test('chronicle app smoke flow', async ({ page, request }) => {
 
   await primaryNavItem(page, 'Read').click();
   await expect(page.getByRole('button', { name: /Theme Overlay/ })).toBeVisible();
-  await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('bible_study_agent');
+  await expect(page.getByRole('button', { name: 'Bible Study Agent', exact: false })).toBeVisible();
   await page.getByRole('button', { name: 'Summarize Psalm 23' }).click();
   await expect(page.locator('textarea').last()).toHaveValue(/Summarize Psalm 23(:\d+)?/);
   await expect(page.getByText(/Thread: Bible · Psalm 23/)).toBeVisible();
+  // The standing action grid (Save to Chronicle, Open Themes, etc.) is
+  // quiet by default (Milestone 11) — reveal it once; the panel doesn't
+  // unmount across in-app navigation, so this persists for the rest of
+  // the flow below.
+  await page.getByRole('button', { name: 'More actions ▾' }).click();
   await page.getByRole('button', { name: 'Open Themes' }).click();
   await expect(page.getByText('Reading Layer Status')).toBeVisible();
   await expect(page.getByText('Why Chronicle Thinks This').first()).toBeVisible();
@@ -138,7 +143,7 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await expect(page.getByText('Day 2 ·', { exact: false })).toBeVisible();
 
   await primaryNavItem(page, 'Discipleship').click();
-  await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('discipleship_coach');
+  await expect(page.getByRole('button', { name: 'Discipleship Coach', exact: false })).toBeVisible();
   await expect(page.getByRole('button', { name: /Original Pages|Worksheet/ }).first()).toBeVisible();
   await page.getByRole('button', { name: 'Pray This Day' }).click();
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
@@ -161,7 +166,7 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
   await expect(page.getByText('Prayer Paths')).toBeVisible();
   await expect(page.getByText('Pray the Baptist Beads')).toBeVisible();
-  await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('prayer_guide');
+  await expect(page.getByRole('button', { name: 'Prayer Guide', exact: false })).toBeVisible();
   await expect(page.getByText('Related Chronicle Entries')).toBeVisible();
   await expect(page.getByText('Recurring Rhythms').last()).toBeVisible();
   await expect(page.getByText('Save Reflection Prompts')).toBeVisible();
