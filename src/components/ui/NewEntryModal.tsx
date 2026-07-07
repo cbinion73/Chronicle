@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useAppStore } from '../../store';
 import { useToastStore } from '../../store/toastStore';
 import type { ChronicleEntry } from '../../types';
+import { GROWTH_MARKER_KINDS } from '../../data/growthMarkers';
 
 const ENTRY_TYPES = [
   { id: 'insight', label: 'Insight', icon: '💡', color: 'var(--accent-green)', desc: 'Something God showed you' },
@@ -9,6 +10,7 @@ const ENTRY_TYPES = [
   { id: 'study', label: 'Study', icon: '📖', color: 'var(--accent-purple)', desc: 'Notes from Scripture study' },
   { id: 'note', label: 'Note', icon: '📝', color: 'var(--accent-amber)', desc: 'A general observation or thought' },
   { id: 'reflection', label: 'Reflection', icon: '🪞', color: 'var(--accent-sky)', desc: 'Looking back at what God has done' },
+  { id: 'growth', label: 'Growth Marker', icon: '🌱', color: 'var(--accent-rose)', desc: 'A spiritual milestone — baptism, a calling clarified, a season resolved' },
 ] as const;
 
 interface Props {
@@ -35,18 +37,21 @@ function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody,
   const [title, setTitle] = useState(editEntry?.title ?? '');
   const [body, setBody] = useState(editEntry?.body ?? defaultBody);
   const [passage, setPassage] = useState(editEntry?.passage ?? defaultPassage);
+  const [growthKind, setGrowthKind] = useState(editEntry?.sourceContext?.growthMarker?.kind ?? GROWTH_MARKER_KINDS[0].id);
   const bodyRef = useRef<HTMLTextAreaElement>(null);
 
   const selectedType = ENTRY_TYPES.find((entryType) => entryType.id === type)!;
 
   const handleSave = useCallback(() => {
     if (!body.trim()) return;
+    const sourceContext = type === 'growth' ? { page: 'chronicle' as const, growthMarker: { kind: growthKind } } : undefined;
     if (editEntry) {
       updateChronicleEntry(editEntry.id, {
         type,
         title: title.trim() || body.trim().slice(0, 60) + (body.length > 60 ? '…' : ''),
         body: body.trim(),
         passage: passage.trim() || undefined,
+        sourceContext,
       });
       addToast('Chronicle entry updated', 'success', selectedType.icon);
       onClose();
@@ -59,11 +64,12 @@ function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody,
       title: title.trim() || body.trim().slice(0, 60) + (body.length > 60 ? '…' : ''),
       body: body.trim(),
       passage: passage.trim() || undefined,
+      sourceContext,
     };
     addChronicleEntry(entry);
     addToast('Saved to Chronicle', 'success', selectedType.icon);
     onClose();
-  }, [addChronicleEntry, addToast, body, editEntry, onClose, passage, selectedType.icon, title, type, updateChronicleEntry]);
+  }, [addChronicleEntry, addToast, body, editEntry, growthKind, onClose, passage, selectedType.icon, title, type, updateChronicleEntry]);
 
   useEffect(() => {
     const focusTimer = window.setTimeout(() => bodyRef.current?.focus(), 80);
@@ -150,6 +156,33 @@ function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody,
             </button>
           ))}
         </div>
+
+        {type === 'growth' && (
+          <div style={{ padding: '10px 20px', borderBottom: '1px solid var(--border)', display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+            {GROWTH_MARKER_KINDS.map((kind) => (
+              <button
+                key={kind.id}
+                onClick={() => setGrowthKind(kind.id)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 5,
+                  padding: '4px 10px',
+                  border: `1px solid ${growthKind === kind.id ? 'var(--accent-rose)' : 'var(--border)'}`,
+                  borderRadius: 20,
+                  fontSize: 11,
+                  fontWeight: growthKind === kind.id ? 600 : 400,
+                  background: growthKind === kind.id ? 'var(--accent-rose-light)' : 'transparent',
+                  color: growthKind === kind.id ? 'var(--accent-rose)' : 'var(--text-muted)',
+                  cursor: 'pointer',
+                }}
+              >
+                <span>{kind.icon}</span>
+                {kind.label}
+              </button>
+            ))}
+          </div>
+        )}
 
         <div style={{ flex: 1, padding: '16px 20px', display: 'flex', flexDirection: 'column', gap: 12, overflowY: 'auto' }}>
           <input

@@ -5,15 +5,18 @@ import { deriveThreadEvents, summarizeThread } from '../lib/thread';
 import Chronicle from './Chronicle';
 import Legacy from './Legacy';
 import Insights from './Insights';
+import GrowthMarkers from './GrowthMarkers';
 
-// The Thread — one room, three views of the same lifelong spine.
+// The Thread — one room, four views of the same lifelong spine.
 //   Record   the raw chronological log (formerly the Chronicle page)
 //   Story    the narrated memoir       (formerly the Legacy page)
+//   Growth   the marked milestones, laid out as a visible skeleton
 //   Patterns formation analysis        (formerly the Insights page)
 
 const VIEWS = [
   { id: 'record', label: 'Record', path: '/thread' },
   { id: 'story', label: 'Story', path: '/thread/story' },
+  { id: 'growth', label: 'Growth', path: '/thread/growth' },
   { id: 'patterns', label: 'Patterns', path: '/thread/patterns' },
 ] as const;
 
@@ -24,7 +27,7 @@ export default function Thread() {
   const params = useParams<{ view?: string }>();
   const { chronicleEntries, prayerItems } = useAppStore();
 
-  const view: ViewId = params.view === 'story' || params.view === 'patterns' ? params.view : 'record';
+  const view: ViewId = params.view === 'story' || params.view === 'growth' || params.view === 'patterns' ? params.view : 'record';
 
   const summary = useMemo(
     () => summarizeThread(deriveThreadEvents(chronicleEntries, prayerItems)),
@@ -64,6 +67,7 @@ export default function Thread() {
 
       {view === 'record' && <Chronicle />}
       {view === 'story' && <Legacy />}
+      {view === 'growth' && <GrowthMarkers />}
       {view === 'patterns' && <Insights />}
     </div>
   );

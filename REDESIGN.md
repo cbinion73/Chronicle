@@ -299,3 +299,48 @@ Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains (reproduces identically
 against the `v1-pre-redesign` tag).
+
+## Milestone 7 (branch: redesign/milestone-7) — the Growth Spine
+
+Closes the last piece of Phase 2's original vision: a lightweight way to
+mark spiritual milestones — baptism, a calling clarified, a season of
+doubt resolved — onto the Thread, giving long-arc formation a visible
+skeleton the way the Answered Light gave the prayer life one.
+
+- **A new Chronicle entry type, `'growth'`**, reusing the exact same
+  infrastructure every other entry type gets — no new table, no migration
+  (`ChronicleEntry.type` is a plain `String` column; only the TS union and
+  a schema comment needed updating). `ChronicleEntrySourceContext` gained
+  an optional `growthMarker: { kind }` field, matching the precedent set by
+  Milestone 5's `studyCouncil` field.
+- **`src/data/growthMarkers.ts`** — a small curated vocabulary of marker
+  kinds (Baptism, Calling Clarified, Conviction, Breakthrough, Commitment
+  Made, Season of Doubt Resolved, Other), each with an icon. Deliberately a
+  fixed list rather than free text, so the spine reads as a recognizable
+  shape at a glance instead of a wall of one-off labels.
+- **`NewEntryModal`** gained a sixth type chip ("Growth Marker") and, when
+  selected, an inline kind picker that writes `sourceContext.growthMarker.kind`
+  alongside the normal title/body/passage fields.
+- **A new `--accent-rose` design token** — every other entry type already
+  owned one of the app's five existing accent colors, so Growth needed its
+  own to stay visually distinct in the Record view's type badges/filters.
+- **`src/pages/GrowthMarkers.tsx`**, mounted as a fourth Thread tab
+  ("Growth", `/thread/growth`) alongside Record/Story/Patterns — a
+  chronological vertical spine of only `type: 'growth'` entries, each
+  showing its kind icon/label, date, title, body, and an optional passage
+  chip. An "+ Add a Growth Marker" button opens `NewEntryModal` pre-set to
+  the growth type.
+- **Entry points**: the new Thread tab itself, plus a global search
+  quick-link ("The Growth Spine").
+
+Considered and scoped out: teaching Legacy's AI-generated narrative
+(`deriveLegacyNarrative`) to treat growth markers as chapter breaks. That's
+a real future direction, but it means changing an existing derive function
+that many other entries already flow through — riskier than the smallest
+real version this milestone needed. The dedicated Growth tab is the
+architecturally correct seed: durable, reusable, and additive, without
+touching Legacy's existing behavior.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.

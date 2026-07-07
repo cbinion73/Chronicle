@@ -44,12 +44,17 @@ export interface ChronicleEntrySourceContext {
       paragraphs: Array<{ tag: string | null; confidence: string | null; text: string }>;
     }>;
   };
+  // A Growth Marker's curated kind (baptism, calling clarified, etc.) — see
+  // src/data/growthMarkers.ts for the id list this is drawn from.
+  growthMarker?: {
+    kind: string;
+  };
 }
 
 export interface ChronicleEntry {
   id: string;
   date: string;
-  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection';
+  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth';
   title: string;
   body: string;
   passage?: string;

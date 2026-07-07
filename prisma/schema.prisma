@@ -12,7 +12,7 @@ datasource db {
 model ChronicleEntry {
   id            String   @id
   date          String
-  type          String   // 'insight' | 'prayer' | 'study' | 'note' | 'reflection'
+  type          String   // 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth'
   title         String
   body          String
   passage       String?
