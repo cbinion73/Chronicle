@@ -1,23 +1,24 @@
 import { useEffect, useState } from 'react';
-import { BAPTIST_ROSARY } from '../data/baptistRosary';
+import type { PrayerPath } from '../data/prayerPaths';
 import { STONE_IMAGES, STONE_LABELS } from '../data/stoneImages';
 import { useAppStore } from '../store';
 import { useToastStore } from '../store/toastStore';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
-const BEAD_GLYPH: Record<string, string> = {
+const KIND_GLYPH: Record<string, string> = {
   crucifix: '✚',
   large: '●',
   small: '○',
+  step: '◆',
 };
 
-export default function BaptistRosary({ onClose }: { onClose: () => void }) {
+export default function PrayerPathPlayer({ path, onClose }: { path: PrayerPath; onClose: () => void }) {
   const [position, setPosition] = useState(0);
   const { isPhone } = useResponsiveLayout();
   const addChronicleEntry = useAppStore((state) => state.addChronicleEntry);
   const addToast = useToastStore((state) => state.addToast);
-  const bead = BAPTIST_ROSARY[position];
-  const total = BAPTIST_ROSARY.length;
+  const step = path.steps[position];
+  const total = path.steps.length;
   const isFirst = position === 0;
   const isLast = position === total - 1;
 
@@ -36,12 +37,12 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
       id: Math.random().toString(36).slice(2),
       date: new Date().toISOString().split('T')[0],
       type: 'prayer',
-      title: 'Prayed the Baptist Beads',
-      body: `Completed the full Baptist Rosary sequence — all ${total} beads, from the opening Crucifix to the Final Crucifix.`,
+      title: `Completed: ${path.name}`,
+      body: `Walked the full ${path.name} sequence — all ${total} ${path.stepNoun.toLowerCase()}s, from "${path.steps[0].section}" to "${path.steps[total - 1].section}".`,
       autoCapture: true,
       sourceContext: { page: 'prayer' },
     });
-    addToast('Baptist Beads prayer saved to Chronicle', 'success', '🙏');
+    addToast(`${path.name} saved to the Thread`, 'success', '🙏');
     onClose();
   };
 
@@ -78,7 +79,7 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
             <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
-              Pray the Baptist Beads
+              {path.name}
             </div>
             <button
               onClick={onClose}
@@ -89,70 +90,70 @@ export default function BaptistRosary({ onClose }: { onClose: () => void }) {
             </button>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 10 }}>
-            <span style={{ fontSize: 14 }}>{BEAD_GLYPH[bead.beadType]}</span>
+            <span style={{ fontSize: 14 }}>{KIND_GLYPH[step.kind]}</span>
             <div style={{ flex: 1, height: 4, borderRadius: 2, background: 'var(--card-inner)', overflow: 'hidden' }}>
               <div style={{ width: `${(position / (total - 1)) * 100}%`, height: '100%', background: 'var(--accent-green)', transition: 'width 0.2s' }} />
             </div>
             <div style={{ fontSize: 11, color: 'var(--text-muted)', whiteSpace: 'nowrap' }}>
-              Bead {bead.index} of {total}
+              {path.stepNoun} {step.index} of {total}
             </div>
           </div>
         </div>
 
         {/* Body */}
         <div style={{ padding: '18px 20px', overflowY: 'auto', flex: 1, minHeight: 0 }}>
-          {bead.positionLabel ? (
-            <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }}>
-              {bead.section} · {bead.positionLabel}
-            </div>
-          ) : (
-            <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }}>
-              {bead.section}
-            </div>
-          )}
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }}>
+            {step.positionLabel ? `${step.section} · ${step.positionLabel}` : step.section}
+          </div>
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 19, fontWeight: 700, color: 'var(--text)', margin: '0 0 12px', lineHeight: 1.3 }}>
-            {bead.title}
+            {step.title}
           </h2>
 
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
-            <div style={{ textAlign: 'center' }}>
-              <div style={{
-                width: isPhone ? 168 : 132, height: isPhone ? 168 : 132, borderRadius: '50%', overflow: 'hidden',
-                background: 'var(--card-inner)', border: '1px solid var(--border)',
-                boxShadow: '0 6px 16px rgba(15, 23, 42, 0.14)',
-              }}>
-                <img
-                  src={STONE_IMAGES[bead.stoneKey]}
-                  alt={STONE_LABELS[bead.stoneKey]}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                />
-              </div>
-              <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: 6 }}>
-                {STONE_LABELS[bead.stoneKey]}
+          {step.imageKey ? (
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
+              <div style={{ textAlign: 'center' }}>
+                <div style={{
+                  width: isPhone ? 168 : 132, height: isPhone ? 168 : 132, borderRadius: '50%', overflow: 'hidden',
+                  background: 'var(--card-inner)', border: '1px solid var(--border)',
+                  boxShadow: '0 6px 16px rgba(15, 23, 42, 0.14)',
+                }}>
+                  <img
+                    src={STONE_IMAGES[step.imageKey]}
+                    alt={STONE_LABELS[step.imageKey]}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: 6 }}>
+                  {STONE_LABELS[step.imageKey]}
+                </div>
               </div>
             </div>
-          </div>
+          ) : null}
 
-          {bead.instruction ? (
+          {step.instruction ? (
             <p style={{ fontSize: 13, color: 'var(--text-sub)', lineHeight: 1.6, marginBottom: 16 }}>
-              {bead.instruction}
+              {step.instruction}
             </p>
           ) : null}
 
-          <div style={{ background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 12, padding: '12px 14px', marginBottom: 14 }}>
-            <p style={{ fontFamily: 'var(--font-serif)', fontSize: 14, fontStyle: 'italic', color: 'var(--text-sub)', lineHeight: 1.65, margin: 0 }}>
-              "{bead.scriptureText}"
-            </p>
-            <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', marginTop: 8 }}>{bead.scriptureRef}</div>
-          </div>
+          {step.scriptureText ? (
+            <div style={{ background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 12, padding: '12px 14px', marginBottom: 14 }}>
+              <p style={{ fontFamily: 'var(--font-serif)', fontSize: 14, fontStyle: 'italic', color: 'var(--text-sub)', lineHeight: 1.65, margin: 0 }}>
+                "{step.scriptureText}"
+              </p>
+              {step.scriptureRef ? (
+                <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--accent-green)', marginTop: 8 }}>{step.scriptureRef}</div>
+              ) : null}
+            </div>
+          ) : null}
 
-          {bead.prayerText ? (
+          {step.prayerText ? (
             <div style={{ borderLeft: '3px solid var(--accent-blue)', paddingLeft: 12 }}>
               <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 6 }}>
                 Prayer
               </div>
               <p style={{ fontSize: 14, color: 'var(--text)', lineHeight: 1.65, margin: 0 }}>
-                {bead.prayerText}
+                {step.prayerText}
               </p>
             </div>
           ) : null}

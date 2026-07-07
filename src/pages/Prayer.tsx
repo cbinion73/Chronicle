@@ -9,7 +9,8 @@ import { getRelatedChronicleEntries } from '../lib/chronicleRelations';
 import { buildReflectionPrompts } from '../lib/reflectionPrompts';
 import { deriveRhythmStats, isRhythmCompletedInCurrentPeriod } from '../lib/formationRhythms';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
-import BaptistRosary from '../components/BaptistRosary';
+import PrayerPathPlayer from '../components/PrayerPathPlayer';
+import { PRAYER_PATHS, getPrayerPath } from '../data/prayerPaths';
 
 const CATEGORIES = ['All', 'People', 'Needs', 'Praise', 'World', 'Answered'];
 
@@ -35,7 +36,7 @@ export default function Prayer() {
   const [answerSummary, setAnswerSummary] = useState('');
   const [answerPassage, setAnswerPassage] = useState('');
   const [prayerText, setPrayerText] = useState('');
-  const [rosaryOpen, setRosaryOpen] = useState(false);
+  const [activePathId, setActivePathId] = useState<string | null>(null);
   const { isCompact, isPhone } = useResponsiveLayout();
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastSaved = useRef('');
@@ -435,22 +436,27 @@ export default function Prayer() {
         </div>
 
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Guided Prayer</div>
-          <button
-            onClick={() => setRosaryOpen(true)}
-            style={{
-              width: '100%', display: 'flex', alignItems: 'center', gap: 10,
-              background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 12,
-              padding: '12px 14px', cursor: 'pointer', textAlign: 'left',
-            }}
-          >
-            <span style={{ fontSize: 18 }}>✚</span>
-            <span style={{ flex: 1 }}>
-              <span style={{ display: 'block', fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>Pray the Baptist Beads</span>
-              <span style={{ display: 'block', fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>A guided, step-by-step walk through all 68 beads — scripture and prayer for each.</span>
-            </span>
-            <span style={{ color: 'var(--text-muted)' }}>→</span>
-          </button>
+          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Prayer Paths</div>
+          <div style={{ display: 'grid', gap: 8 }}>
+            {PRAYER_PATHS.map((path) => (
+              <button
+                key={path.id}
+                onClick={() => setActivePathId(path.id)}
+                style={{
+                  width: '100%', display: 'flex', alignItems: 'center', gap: 10,
+                  background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 12,
+                  padding: '12px 14px', cursor: 'pointer', textAlign: 'left',
+                }}
+              >
+                <span style={{ fontSize: 18 }}>{path.glyph}</span>
+                <span style={{ flex: 1 }}>
+                  <span style={{ display: 'block', fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>{path.name}</span>
+                  <span style={{ display: 'block', fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>{path.subtitle} · ~{path.estimatedMinutes} min</span>
+                </span>
+                <span style={{ color: 'var(--text-muted)' }}>→</span>
+              </button>
+            ))}
+          </div>
         </div>
 
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
@@ -603,7 +609,7 @@ export default function Prayer() {
               </div>
             )}
             <button
-              onClick={() => navigate('/chronicle', { state: { filterPassage: prayerGuide.verse } })}
+              onClick={() => navigate('/thread', { state: { filterPassage: prayerGuide.verse } })}
               style={{ padding: '6px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 11, fontWeight: 600, cursor: 'pointer' }}
             >
               Open in Chronicle
@@ -653,7 +659,10 @@ export default function Prayer() {
         </div>
       ) : null}
 
-      {rosaryOpen ? <BaptistRosary onClose={() => setRosaryOpen(false)} /> : null}
+      {activePathId ? (() => {
+        const activePath = getPrayerPath(activePathId);
+        return activePath ? <PrayerPathPlayer path={activePath} onClose={() => setActivePathId(null)} /> : null;
+      })() : null}
     </div>
   );
 }

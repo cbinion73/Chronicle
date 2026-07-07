@@ -31,7 +31,7 @@ interface JarvisBridgeState {
 function bridgeTargetPath(capability: string) {
   if (capability === 'study_passage') return '/bible';
   if (capability === 'prayer_session') return '/prayer';
-  return '/chronicle';
+  return '/thread';
 }
 
 function bridgeSummary(capability: string) {
@@ -50,7 +50,7 @@ function readJarvisBridge(search: string): JarvisBridgeState {
     summary: '',
     returnUrl: 'http://127.0.0.1:8787',
     returnPacket: 'chronicle',
-    targetPath: '/chronicle',
+    targetPath: '/thread',
   };
 
   if (typeof window === 'undefined') return fallback;
@@ -85,7 +85,7 @@ function readJarvisBridge(search: string): JarvisBridgeState {
       summary: typeof parsed.summary === 'string' ? parsed.summary : '',
       returnUrl: typeof parsed.returnUrl === 'string' ? parsed.returnUrl : 'http://127.0.0.1:8787',
       returnPacket: typeof parsed.returnPacket === 'string' ? parsed.returnPacket : 'chronicle',
-      targetPath: typeof parsed.targetPath === 'string' ? parsed.targetPath : '/chronicle',
+      targetPath: typeof parsed.targetPath === 'string' ? parsed.targetPath : '/thread',
     };
   } catch {
     return fallback;

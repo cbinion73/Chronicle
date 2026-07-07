@@ -58,7 +58,7 @@ export default function Legacy() {
           <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 2 }}>A narrated life, drawn from your Chronicle</div>
           <button
             type="button"
-            onClick={() => navigate('/chronicle')}
+            onClick={() => navigate('/thread')}
             style={{ marginTop: 8, padding: 0, background: 'none', border: 'none', color: 'var(--accent-blue)', fontSize: 11, fontWeight: 600, cursor: 'pointer' }}
           >
             ← See the raw daily log

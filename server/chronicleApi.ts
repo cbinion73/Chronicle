@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs'
+import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, renameSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import { readdir, stat } from 'node:fs/promises'
 import type { IncomingMessage, ServerResponse } from 'node:http'
 import { tmpdir } from 'node:os'
@@ -5644,6 +5644,143 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
   })
 }
 
+// ── Obsidian Bridge ───────────────────────────────────────────────────────────
+// Chronicle owns its data; Obsidian is the user's knowledge garden. The bridge
+// exports thread entries as Markdown into the vault and imports notes dropped
+// into a designated inbox folder. The vault root comes ONLY from server env
+// (OBSIDIAN_VAULT_PATH) — never from the client — consistent with the Phase-0
+// no-client-supplied-paths security posture. Prayers are excluded from export
+// by default: prayer is private unless the user explicitly says otherwise.
+
+function slugifyForFilename(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 48) || 'entry'
+}
+
+function obsidianBridgeApi(env: Record<string, string>, host: ChronicleMiddlewareHost) {
+  const vaultPath = (env.OBSIDIAN_VAULT_PATH || '').trim()
+  const exportDir = vaultPath ? join(vaultPath, 'Chronicle') : ''
+  const inboxDir = vaultPath ? join(vaultPath, 'Chronicle Inbox') : ''
+
+  withChronicleMiddlewares(host, (middlewares) => {
+    middlewares.use('/api/obsidian/status', async (_request, response) => {
+      try {
+        if (!vaultPath || !existsSync(vaultPath)) {
+          sendJson(response, 200, { configured: false })
+          return
+        }
+        const exportedCount = existsSync(exportDir)
+          ? readdirSync(exportDir).filter((name) => name.endsWith('.md')).length
+          : 0
+        const inboxCount = existsSync(inboxDir)
+          ? readdirSync(inboxDir).filter((name) => name.endsWith('.md')).length
+          : 0
+        sendJson(response, 200, {
+          configured: true,
+          vaultName: basename(vaultPath),
+          exportedCount,
+          inboxCount,
+        })
+      } catch (error) {
+        sendJson(response, 500, { error: { errmsg: error instanceof Error ? error.message : 'Obsidian status error.' } })
+      }
+    })
+
+    middlewares.use('/api/obsidian/export', async (request, response) => {
+      if (request.method !== 'POST') {
+        sendJson(response, 405, { error: { errmsg: 'Method not allowed.' } })
+        return
+      }
+      try {
+        if (!vaultPath || !existsSync(vaultPath)) {
+          sendJson(response, 400, { error: { errmsg: 'OBSIDIAN_VAULT_PATH is not configured on this server.' } })
+          return
+        }
+        const body = await readJsonBody(request) as { includePrayers?: boolean }
+        const includePrayers = body.includePrayers === true
+        mkdirSync(exportDir, { recursive: true })
+
+        const entries = await _prisma.chronicleEntry.findMany({ orderBy: { date: 'desc' } })
+        let exported = 0
+        let skippedPrayers = 0
+        for (const entry of entries) {
+          if (entry.type === 'prayer' && !includePrayers) {
+            skippedPrayers += 1
+            continue
+          }
+          const frontmatter = [
+            '---',
+            `chronicle-id: ${entry.id}`,
+            `date: ${entry.date}`,
+            `type: ${entry.type}`,
+            entry.passage ? `passage: "${entry.passage.replace(/"/g, '\\"')}"` : null,
+            entry.themes.length ? `themes: [${entry.themes.map((theme) => `"${theme.replace(/"/g, '\\"')}"`).join(', ')}]` : null,
+            '---',
+          ].filter(Boolean).join('\n')
+          const fileName = `${entry.date} ${slugifyForFilename(entry.title)} ${entry.id.slice(0, 6)}.md`
+          writeFileSync(join(exportDir, fileName), `${frontmatter}\n\n# ${entry.title}\n\n${entry.body}\n`, 'utf8')
+          exported += 1
+        }
+        sendJson(response, 200, { exported, skippedPrayers, folder: `${basename(vaultPath)}/Chronicle` })
+      } catch (error) {
+        sendJson(response, 500, { error: { errmsg: error instanceof Error ? error.message : 'Obsidian export error.' } })
+      }
+    })
+
+    middlewares.use('/api/obsidian/import', async (request, response) => {
+      if (request.method !== 'POST') {
+        sendJson(response, 405, { error: { errmsg: 'Method not allowed.' } })
+        return
+      }
+      try {
+        if (!vaultPath || !existsSync(vaultPath)) {
+          sendJson(response, 400, { error: { errmsg: 'OBSIDIAN_VAULT_PATH is not configured on this server.' } })
+          return
+        }
+        if (!existsSync(inboxDir)) {
+          sendJson(response, 200, { imported: 0, titles: [], note: 'No "Chronicle Inbox" folder exists in the vault yet.' })
+          return
+        }
+        const importedFolder = join(inboxDir, 'Imported')
+        const files = readdirSync(inboxDir).filter((name) => name.endsWith('.md'))
+        const titles: string[] = []
+        for (const fileName of files) {
+          const fullPath = join(inboxDir, fileName)
+          if (!statSync(fullPath).isFile()) continue
+          const raw = readFileSync(fullPath, 'utf8')
+          // Strip a leading frontmatter block if present.
+          const withoutFrontmatter = raw.replace(/^---\n[\s\S]*?\n---\n?/, '').trim()
+          const headingMatch = withoutFrontmatter.match(/^#\s+(.+)$/m)
+          const title = (headingMatch ? headingMatch[1] : fileName.replace(/\.md$/, '')).trim().slice(0, 120)
+          const bodyText = withoutFrontmatter.replace(/^#\s+.+$/m, '').trim()
+          const id = createHash('sha1').update(`obsidian:${fileName}:${raw.length}`).digest('hex').slice(0, 16)
+          const data = {
+            id,
+            date: new Date().toISOString().split('T')[0],
+            type: 'note',
+            title,
+            body: bodyText || withoutFrontmatter,
+            passage: null as string | null,
+            themes: [] as string[],
+            autoCapture: false,
+            sourceContext: { page: 'obsidian-bridge', file: fileName },
+          }
+          await _prisma.chronicleEntry.upsert({ where: { id }, create: data, update: data })
+          mkdirSync(importedFolder, { recursive: true })
+          renameSync(fullPath, join(importedFolder, fileName))
+          titles.push(title)
+        }
+        sendJson(response, 200, { imported: titles.length, titles })
+      } catch (error) {
+        sendJson(response, 500, { error: { errmsg: error instanceof Error ? error.message : 'Obsidian import error.' } })
+      }
+    })
+  })
+}
+
 // Single entry point shared by Vite's dev/preview server (vite.config.ts) and the
 // standalone production server (server/index.ts) — registration order matters, the
 // auth gate must run before every route it protects.
@@ -5655,6 +5792,7 @@ export function registerChronicleApi(host: ChronicleMiddlewareHost, env: Record<
   studyImportsDevApi(env, host)
   themeAnalysisDevApi(host)
   chronicleIntegrationDevApi(host)
+  obsidianBridgeApi(env, host)
   chronicleDbApi(host)
 }
 
