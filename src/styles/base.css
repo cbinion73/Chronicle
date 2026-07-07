@@ -12,6 +12,15 @@ html, body, #root {
   overflow: hidden;
 }
 
+/* iOS Safari auto-zooms the page when a focused form field renders under
+   16px — this is a blanket safety net so no input/textarea/select can ever
+   trigger it, regardless of what font-size it inherits or sets explicitly. */
+@media (max-width: 760px) {
+  input, textarea, select {
+    font-size: max(16px, 1em);
+  }
+}
+
 body {
   font-family: var(--font-sans);
   background: var(--bg);

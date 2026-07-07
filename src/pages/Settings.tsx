@@ -153,7 +153,7 @@ function Sel({ options, value, onChange }: { options: string[]; value: string; o
         padding: '5px 28px 5px 10px',
         border: '1px solid var(--border)',
         borderRadius: 7,
-        fontSize: 12,
+        fontSize: 16,
         fontWeight: 500,
         color: 'var(--text)',
         background: 'var(--card-inner)',
@@ -192,7 +192,7 @@ function TextInput({
         padding: '6px 10px',
         border: '1px solid var(--border)',
         borderRadius: 8,
-        fontSize: 12,
+        fontSize: 16,
         color: 'var(--text)',
         background: 'var(--card-inner)',
         minWidth: 160,
@@ -1738,7 +1738,7 @@ export default function Settings() {
                   <input
                     value={profile.displayName}
                     onChange={(e) => updateProfile('displayName', e.target.value)}
-                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', minWidth: 160, outline: 'none' }}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', minWidth: 160, outline: 'none' }}
                   />
                 </SettingRow>
               </Group>
@@ -1804,7 +1804,7 @@ export default function Settings() {
                       <select
                         value={themeCacheTargetTranslation}
                         onChange={(e) => setThemeCacheTargetTranslation(e.target.value)}
-                        style={{ padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}
+                        style={{ padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}
                       >
                         <option value="all">All installed</option>
                         {bibleLibraryStatus.map((item) => (
@@ -2295,7 +2295,7 @@ export default function Settings() {
                     type="time"
                     value={profile.reminderTime}
                     onChange={(e) => updateProfile('reminderTime', e.target.value)}
-                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', width: 100 }}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', width: 100 }}
                   />
                 </SettingRow>
                 <SettingRow label="Evening Reflection Prompt" desc="End-of-day nudge to record a Chronicle entry">
@@ -2389,7 +2389,7 @@ export default function Settings() {
                   <input
                     value={syncProfile.deviceLabel}
                     onChange={(event) => updateSyncProfile({ deviceLabel: event.target.value })}
-                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', minWidth: 170 }}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', minWidth: 170 }}
                   />
                 </SettingRow>
                 <SettingRow label="Cache Policy" desc="Tell Chronicle what each device should keep fully local versus fetch on demand.">
@@ -2638,22 +2638,22 @@ export default function Settings() {
                   </div>
                   <div>
                     <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Scanned PDF Path</div>
-                    <input value={ocrPdfPath} onChange={(e) => setOcrPdfPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                    <input value={ocrPdfPath} onChange={(e) => setOcrPdfPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                   </div>
                   <div style={{ display: 'grid', gridTemplateColumns: isPhone ? '1fr' : '1fr 1fr', gap: 10 }}>
                     <div>
                       <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Output stem</div>
-                      <input value={ocrStem} onChange={(e) => setOcrStem(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <input value={ocrStem} onChange={(e) => setOcrStem(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                     <div>
                       <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Page range</div>
-                      <input value={ocrPageRange} onChange={(e) => setOcrPageRange(e.target.value)} placeholder="1-10" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <input value={ocrPageRange} onChange={(e) => setOcrPageRange(e.target.value)} placeholder="1-10" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                   </div>
                   <div style={{ display: 'grid', gridTemplateColumns: isPhone ? '1fr' : '1fr 1fr', gap: 10 }}>
                     <div>
                       <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Segment size</div>
-                      <input value={ocrSegmentSize} onChange={(e) => setOcrSegmentSize(e.target.value)} placeholder="20" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <input value={ocrSegmentSize} onChange={(e) => setOcrSegmentSize(e.target.value)} placeholder="20" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                     <div style={{ fontSize: 11, color: 'var(--text-muted)', alignSelf: 'end', lineHeight: 1.5 }}>
                       For a whole-book pass, leave page range blank and use segmented OCR. Chronicle will OCR the entire book from start to finish in ordered chunks.
@@ -2695,7 +2695,7 @@ export default function Settings() {
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div>
                     <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>MasterLife Text Import</div>
-                    <input value={importTextPath} onChange={(e) => setImportTextPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                    <input value={importTextPath} onChange={(e) => setImportTextPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center' }}>
                     <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>Imports OCR text into Chronicle&apos;s structured MasterLife source data and makes it available on the Study page.</div>
@@ -2709,11 +2709,11 @@ export default function Settings() {
                   <div style={{ display: 'grid', gridTemplateColumns: isCompact ? '1fr' : '1.2fr 1fr', gap: 10 }}>
                     <div>
                       <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Book title</div>
-                      <input value={ownedBookTitle} onChange={(e) => setOwnedBookTitle(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <input value={ownedBookTitle} onChange={(e) => setOwnedBookTitle(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                     <div>
                       <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Workflow</div>
-                      <select value={ownedBookWorkflow} onChange={(e) => setOwnedBookWorkflow(e.target.value as typeof ownedBookWorkflow)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}>
+                      <select value={ownedBookWorkflow} onChange={(e) => setOwnedBookWorkflow(e.target.value as typeof ownedBookWorkflow)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}>
                         <option value="auto-detect">Auto-detect</option>
                         <option value="preserve-daily">Already a daily study</option>
                         <option value="ai-daily-study">Turn into daily Bible Study</option>

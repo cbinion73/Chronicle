@@ -14,12 +14,14 @@ import {
 } from '../lib/formationAnalytics';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { useAIChatStore } from '../store/aiChatStore';
+import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
 export default function Insights() {
   const navigate = useNavigate();
   const { chronicleEntries, prayerItems, formationRhythms, setBibleView } = useAppStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
+  const { isCompact } = useResponsiveLayout();
 
   function openSuggestionInBible(reference: string) {
     const target = getBibleNavigationTarget(reference);
@@ -87,7 +89,7 @@ export default function Insights() {
   }, [chronicleEntries]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '12px 20px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0 }}>
           <div>
@@ -249,7 +251,7 @@ export default function Insights() {
         </div>
       </div>
 
-      <div style={{ width: 268, minWidth: 268, borderLeft: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
+      <div style={{ width: isCompact ? '100%' : 268, minWidth: isCompact ? 0 : 268, maxHeight: isCompact ? 320 : undefined, borderLeft: isCompact ? 'none' : '1px solid var(--border)', borderTop: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflowY: 'auto', flexShrink: 0 }}>
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
           <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Engagement — Last 91 Days</div>
           <div ref={heatRef} style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: 2 }} />

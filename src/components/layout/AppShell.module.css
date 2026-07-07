@@ -3,6 +3,9 @@
   height: 100%;
   overflow: hidden;
   background: var(--bg);
+  padding-top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
 .main {
@@ -22,11 +25,11 @@
 }
 
 .contentTablet {
-  padding-bottom: 84px;
+  padding-bottom: calc(84px + env(safe-area-inset-bottom));
 }
 
 .contentPhone {
-  padding-bottom: 92px;
+  padding-bottom: calc(92px + env(safe-area-inset-bottom));
 }
 
 .runtimeBanner {
@@ -285,7 +288,7 @@
 
   .contentPhone,
   .contentTablet {
-    padding-bottom: 88px;
+    padding-bottom: calc(88px + env(safe-area-inset-bottom));
   }
 
   .footer {
@@ -315,7 +318,7 @@
 
 @media (max-width: 760px) {
   .contentPhone {
-    padding-bottom: 96px;
+    padding-bottom: calc(96px + env(safe-area-inset-bottom));
   }
 
   .runtimeBannerTitle {

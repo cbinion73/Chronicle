@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useAppStore } from '../store';
 import { deriveCanonCoverage, deriveMonthlyActivity, deriveThemeSignals, groupThemesByCategory } from '../lib/formationAnalytics';
 import { useAIChatStore } from '../store/aiChatStore';
+import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
 const TIER_COLORS: Record<string, string> = {
   Strong: '#0f4fcf',
@@ -16,6 +17,7 @@ export default function Themes() {
   const [query, setQuery] = useState('');
   const themeSignals = useMemo(() => deriveThemeSignals(chronicleEntries), [chronicleEntries]);
   const grouped = useMemo(() => groupThemesByCategory(themeSignals), [themeSignals]);
+  const { isCompact, isPhone } = useResponsiveLayout();
   const [activeTheme, setActiveTheme] = useState(themeSignals[0]?.id || '');
   const selected = themeSignals.find((theme) => theme.id === activeTheme) || themeSignals[0] || null;
 
@@ -53,13 +55,13 @@ export default function Themes() {
   }, [selected, setPageContext, setSelectedAgentMode, themeSignals.length]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
-      <div style={{ width: 240, minWidth: 240, borderRight: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden' }}>
+      <div style={{ width: isCompact ? '100%' : 240, minWidth: isCompact ? 0 : 240, maxHeight: isCompact ? 240 : undefined, borderRight: isCompact ? 'none' : '1px solid var(--border)', borderBottom: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ padding: '10px 14px', borderBottom: '1px solid var(--border)', background: 'var(--card-inner)' }}>
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            style={{ width: '100%', padding: '7px 9px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, background: 'var(--card-bg)', color: 'var(--text)', outline: 'none' }}
+            style={{ width: '100%', padding: '7px 9px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 16, background: 'var(--card-bg)', color: 'var(--text)', outline: 'none' }}
             placeholder="Find a theme..."
           />
         </div>
@@ -109,7 +111,7 @@ export default function Themes() {
         </div>
       </div>
 
-      <div style={{ flex: 1, overflowY: 'auto', padding: '20px 24px 32px' }}>
+      <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '16px 16px 24px' : '20px 24px 32px' }}>
         {selected ? (
           <>
             <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 20 }}>
@@ -127,7 +129,7 @@ export default function Themes() {
               )}
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 0.9fr', gap: 14, marginBottom: 16 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: isPhone ? '1fr' : '1.1fr 0.9fr', gap: 14, marginBottom: 16 }}>
               <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 12, padding: '14px 16px', boxShadow: 'var(--shadow)' }}>
                 <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Canon Coverage</div>
                 <div style={{ display: 'flex', height: 10, borderRadius: 5, overflow: 'hidden', gap: 1 }}>
@@ -185,7 +187,7 @@ export default function Themes() {
         )}
       </div>
 
-      <div style={{ width: 272, minWidth: 272, borderLeft: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
+      <div style={{ width: isCompact ? '100%' : 272, minWidth: isCompact ? 0 : 272, maxHeight: isCompact ? 320 : undefined, borderLeft: isCompact ? 'none' : '1px solid var(--border)', borderTop: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflowY: 'auto', flexShrink: 0 }}>
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
           <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>
             Your Chronicle on {selected?.label || 'this theme'}

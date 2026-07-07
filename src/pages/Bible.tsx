@@ -1618,7 +1618,7 @@ export default function Bible() {
           onClick={() => setShowBookPicker(false)}
         >
           <div
-            style={{ position: 'absolute', top: 52, left: 0, background: 'var(--card-bg)', width: 240, maxHeight: 400, overflowY: 'auto', borderRadius: '0 0 12px 0', boxShadow: '0 8px 24px rgba(0,0,0,0.15)', border: '1px solid var(--border)' }}
+            style={{ position: 'absolute', top: 52, left: 0, background: 'var(--card-bg)', width: 'min(240px, calc(100vw - 24px))', maxHeight: 400, overflowY: 'auto', borderRadius: '0 0 12px 0', boxShadow: '0 8px 24px rgba(0,0,0,0.15)', border: '1px solid var(--border)' }}
             onClick={(e) => e.stopPropagation()}
           >
             {bookOptions.map((b) => (
@@ -1710,7 +1710,7 @@ export default function Bible() {
             <select
               value={provider}
               onChange={(e) => setProvider(e.target.value as BibleProviderId)}
-              style={{ padding: '4px 8px', border: '1px solid var(--border)', borderRadius: 6, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', cursor: 'pointer', outline: 'none' }}
+              style={{ padding: '4px 8px', border: '1px solid var(--border)', borderRadius: 6, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', cursor: 'pointer', outline: 'none' }}
               title="Chronicle local Bible source"
             >
               {providerOptions.map((option) => (

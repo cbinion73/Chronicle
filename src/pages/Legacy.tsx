@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
 import { answerLegacyQuestion, deriveLegacyChapters, deriveLegacyNarrative } from '../lib/formationAnalytics';
 import { useAIChatStore } from '../store/aiChatStore';
+import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
 type LegacyMessage =
   | { role: 'user'; text: string }
@@ -13,6 +14,7 @@ export default function Legacy() {
   const { chronicleEntries } = useAppStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
+  const { isCompact } = useResponsiveLayout();
   const chapters = useMemo(() => deriveLegacyChapters(chronicleEntries), [chronicleEntries]);
   const narrative = useMemo(() => deriveLegacyNarrative(chronicleEntries), [chronicleEntries]);
   const leadChapterTitle = chapters[0]?.title;
@@ -49,8 +51,8 @@ export default function Legacy() {
   };
 
   return (
-    <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
-      <div style={{ width: 230, minWidth: 230, borderRight: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
+      <div style={{ width: isCompact ? '100%' : 230, minWidth: isCompact ? 0 : 230, maxHeight: isCompact ? 200 : undefined, borderRight: isCompact ? 'none' : '1px solid var(--border)', borderBottom: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ padding: '14px 16px', borderBottom: '1px solid var(--border)', background: 'var(--card-inner)' }}>
           <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)', fontFamily: 'var(--font-serif)' }}>The Book of Chris</div>
           <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 2 }}>A narrated life, drawn from your Chronicle</div>
@@ -96,7 +98,7 @@ export default function Legacy() {
         </div>
       </div>
 
-      <div style={{ width: 320, minWidth: 320, borderLeft: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+      <div style={{ width: isCompact ? '100%' : 320, minWidth: isCompact ? 0 : 320, maxHeight: isCompact ? 360 : undefined, borderLeft: isCompact ? 'none' : '1px solid var(--border)', borderTop: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ padding: '12px 16px', borderBottom: '1px solid var(--border)', background: 'var(--accent-blue-light)' }}>
           <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--accent-blue)' }}>Legacy AI</div>
           <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 1 }}>Answers from saved Chronicle material</div>
@@ -134,7 +136,7 @@ export default function Legacy() {
             value={aiInput}
             onChange={(event) => setAiInput(event.target.value)}
             onKeyDown={(event) => event.key === 'Enter' && sendMessage()}
-            style={{ flex: 1, padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 12, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}
+            style={{ flex: 1, padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}
             placeholder="Ask about fear, trust, prayer..."
           />
           <button onClick={sendMessage} style={{ padding: '7px 12px', background: 'var(--accent-blue)', color: 'white', border: 'none', borderRadius: 8, fontSize: 12, cursor: 'pointer' }}>

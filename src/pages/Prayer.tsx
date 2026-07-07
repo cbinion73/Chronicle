@@ -327,7 +327,7 @@ export default function Prayer() {
               onChange={(e) => setNewText(e.target.value)}
               onKeyDown={(e) => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) handleAddRequest(); if (e.key === 'Escape') setAddFormOpen(false); }}
               placeholder="What would you like to bring before God?"
-              style={{ width: '100%', padding: '8px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 13, fontFamily: 'var(--font-serif)', background: 'var(--card-bg)', color: 'var(--text)', resize: 'none', minHeight: 70, outline: 'none', boxSizing: 'border-box' }}
+              style={{ width: '100%', padding: '8px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, fontFamily: 'var(--font-serif)', background: 'var(--card-bg)', color: 'var(--text)', resize: 'none', minHeight: 70, outline: 'none', boxSizing: 'border-box' }}
             />
             <div style={{ display: 'flex', gap: 8, marginTop: 8, alignItems: 'center' }}>
               <div style={{ display: 'flex', gap: 4, flex: 1, flexWrap: 'wrap' }}>
@@ -468,7 +468,7 @@ export default function Prayer() {
             style={{
               width: '100%',
               fontFamily: 'var(--font-serif)',
-              fontSize: 13,
+              fontSize: 16,
               color: 'var(--text)',
               background: 'var(--card-inner)',
               border: '1px solid var(--border)',
@@ -629,7 +629,7 @@ export default function Prayer() {
                 value={answerSummary}
                 onChange={(e) => setAnswerSummary(e.target.value)}
                 placeholder="Write the answer, provision, clarity, or change Chronicle should remember."
-                style={{ width: '100%', minHeight: 110, padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 13, lineHeight: 1.55, resize: 'vertical', outline: 'none', boxSizing: 'border-box' }}
+                style={{ width: '100%', minHeight: 110, padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 16, lineHeight: 1.55, resize: 'vertical', outline: 'none', boxSizing: 'border-box' }}
               />
             </div>
             <div>
@@ -638,7 +638,7 @@ export default function Prayer() {
                 value={answerPassage}
                 onChange={(e) => setAnswerPassage(e.target.value)}
                 placeholder="Philippians 4:19"
-                style={{ width: '100%', padding: '8px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, outline: 'none', boxSizing: 'border-box' }}
+                style={{ width: '100%', padding: '8px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 16, outline: 'none', boxSizing: 'border-box' }}
               />
             </div>
             <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8 }}>

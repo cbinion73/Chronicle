@@ -77,7 +77,7 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search Scripture, themes, Chronicle entries..."
-            style={{ flex: 1, fontSize: 15, color: 'var(--text)', background: 'transparent', border: 'none', outline: 'none' }}
+            style={{ flex: 1, fontSize: 16, color: 'var(--text)', background: 'transparent', border: 'none', outline: 'none' }}
           />
           <kbd style={{ fontSize: 11, padding: '2px 6px', border: '1px solid var(--border)', borderRadius: 5, color: 'var(--text-muted)', background: 'var(--card-inner)' }}>Esc</kbd>
         </div>

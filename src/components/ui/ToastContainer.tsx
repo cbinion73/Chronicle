@@ -14,8 +14,8 @@ export default function ToastContainer() {
   return (
     <div style={{
       position: 'fixed',
-      bottom: 32,
-      right: 32,
+      bottom: 'calc(32px + env(safe-area-inset-bottom))',
+      right: 'calc(32px + env(safe-area-inset-right))',
       display: 'flex',
       flexDirection: 'column',
       gap: 8,

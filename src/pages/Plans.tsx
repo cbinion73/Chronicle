@@ -4,6 +4,7 @@ import { derivePlanMilestones, derivePlanStats } from '../lib/formationAnalytics
 import { useAIChatStore } from '../store/aiChatStore';
 import { useToastStore } from '../store/toastStore';
 import { deriveRhythmStats, isRhythmCompletedInCurrentPeriod } from '../lib/formationRhythms';
+import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
 const PLAN_LIBRARY = [
   { name: 'Daily Walk', totalDays: 365, duration: '365 days', desc: 'One chapter a day through the entire Bible' },
@@ -17,6 +18,7 @@ export default function Plans() {
   const { addToast } = useToastStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
+  const { isCompact } = useResponsiveLayout();
   const calRef = useRef<HTMLDivElement>(null);
   const progressPct = Math.round((currentPlanDay / currentPlanTotal) * 100);
   const stats = derivePlanStats(chronicleEntries, prayerItems, currentPlanDay);
@@ -96,7 +98,7 @@ export default function Plans() {
   }, [activeDaysSet, currentMonth, currentYear, todayOfMonth]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
       <div style={{ flex: 1, overflowY: 'auto', padding: '20px 24px 32px', display: 'flex', flexDirection: 'column', gap: 16 }}>
         <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow)' }}>
           <div style={{ background: 'radial-gradient(circle at 50% 42%, rgba(43, 141, 255, 0.34), transparent 28%), linear-gradient(135deg, #0f4fcf 0%, #0b2f88 100%)', padding: '18px 20px', color: 'white' }}>
@@ -206,7 +208,7 @@ export default function Plans() {
         </div>
       </div>
 
-      <div style={{ width: 268, minWidth: 268, borderLeft: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
+      <div style={{ width: isCompact ? '100%' : 268, minWidth: isCompact ? 0 : 268, maxHeight: isCompact ? 320 : undefined, borderLeft: isCompact ? 'none' : '1px solid var(--border)', borderTop: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflowY: 'auto', flexShrink: 0 }}>
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
           <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>This Month</div>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
