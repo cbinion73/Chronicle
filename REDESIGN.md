@@ -390,3 +390,51 @@ reason to.
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 9 (branch: redesign/milestone-9) — The Hours
+
+The first stone of the founding vision (VISION.md, Design Language #3): the
+app learns to keep liturgical time. Also folds in the vision amendments
+from external review — the Principles preamble and formation test, the Rule
+of Life named as the Live pillar's flagship (ROADMAP M12), and
+calling/vocation added to the Question Lab's charter.
+
+- **The register** (`src/lib/hours.ts`) — `deriveRegister()` maps the hour
+  to morning (4:00–11:59) / midday (12:00–16:59) / evening (17:00–3:59).
+  `App.tsx` stamps `data-register` on the document root every minute,
+  mirroring the established `data-theme` pattern, and `tokens.css` layers
+  deliberately subtle register tone variants over both themes (only the
+  page ground shifts; text and card contrast are untouched). A localStorage
+  override (`chronicle.register.override`) makes Playwright runs
+  deterministic at any wall-clock hour.
+- **The Office reshapes by hour** — morning and midday pray the full Office
+  (Call → Word → Silence → Prayer → Response). Evening becomes **the
+  Evening Examen**: the day's own thread reviewed before God (today's
+  entries, prayers carried today), a minute of silence, and "give the day
+  back" — sealed as a reflection entry exactly like the morning Office's
+  response. A quiet link lets an evening keeper pray the full Office
+  instead; the choice is theirs, never forced.
+- **Re-entry as grace** — returning after 7+ days away is now met with
+  "Welcome back. The thread held your place. Nothing was lost." plus what
+  the keeper was carrying (open prayer requests, the last thing they
+  wrote) — and **never a count of what was missed**. The Record view's
+  "↩ N-day absence" banner (a shame mechanic wearing a timeline marker)
+  now reads "↩ a quiet season, then a return," with no number.
+- **Test determinism** — `app-smoke` and `full-product-battery` pin the
+  register to morning so home-screen assertions hold regardless of when
+  the suite runs; `tests/the-hours.spec.js` covers all four new behaviors
+  (morning office, evening examen incl. sealing, the full-office escape
+  hatch, and the grace moment, including asserting the absence of any
+  "N-day absence" text).
+- **One more hygiene fix while here**: `full-product-battery.spec.js`
+  created a real "Battery note" chronicle entry every run and never
+  cleaned it up (6 had accumulated). It now cleans its own leftovers via
+  the request fixture, same as every other spec fixed in Milestones 5–6.
+
+Scoped out per ROADMAP: the church-year calendar (Advent/Lent re-toning)
+waits until the register system has lived for a while; Sunday-specific
+character joins it.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.

@@ -234,7 +234,7 @@ export default function Chronicle() {
               return (
                 <div key={date} className={s.dateSection}>
                   {showGap && (
-                    <div className={s.absenceBanner}>↩ {dayGap}-day absence, then returned</div>
+                    <div className={s.absenceBanner}>↩ a quiet season, then a return</div>
                   )}
                   <div className={s.dateLabel}>
                     {new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}

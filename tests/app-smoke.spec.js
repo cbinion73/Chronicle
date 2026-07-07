@@ -74,7 +74,12 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   // each database fetch (a deliberate data-integrity fix), so any phantom
   // localStorage state left over from a previous run of this same test would
   // otherwise accumulate indefinitely instead of being wiped. Start clean.
-  await page.addInitScript(() => window.localStorage.removeItem('chronicle-app-state'));
+  // Pin the register to morning so the home screen is the full Daily Office
+  // regardless of what hour the suite runs (evenings render the Examen).
+  await page.addInitScript(() => {
+    window.localStorage.removeItem('chronicle-app-state');
+    window.localStorage.setItem('chronicle.register.override', 'morning');
+  });
   await seedStructuredDiscipleshipBook(page, request);
 
   // This test writes a real row (not localStorage) each run. Without cleanup
@@ -219,6 +224,7 @@ test('chronicle app smoke flow', async ({ page, request }) => {
 
 test('chronicle key surfaces stay usable on a phone-width viewport', async ({ page }) => {
   await page.setViewportSize({ width: 430, height: 932 });
+  await page.addInitScript(() => window.localStorage.setItem('chronicle.register.override', 'morning'));
   await page.goto(appUrl('/'));
 
   await expect(page.getByText('The Daily Office').first()).toBeVisible();

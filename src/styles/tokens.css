@@ -37,6 +37,24 @@
   --topbar-height: 52px;
 }
 
+/* The Hours — register tone variants. Deliberately subtle: only the page
+   ground shifts with the time of day; text and card contrast are untouched.
+   Midday uses the theme defaults. Dark-theme combinations are written
+   explicitly so the register never overrides the dark ground with a light
+   value (specificity: :root[attr][attr] beats [data-theme="dark"]). */
+:root[data-register="morning"] {
+  --bg: #f6f4ec;
+}
+:root[data-register="evening"] {
+  --bg: #eaedf6;
+}
+:root[data-theme="dark"][data-register="morning"] {
+  --bg: #0a1220;
+}
+:root[data-theme="dark"][data-register="evening"] {
+  --bg: #060b17;
+}
+
 [data-theme="dark"] {
   --bg: #091120;
   --sidebar-bg: #0e1a31;

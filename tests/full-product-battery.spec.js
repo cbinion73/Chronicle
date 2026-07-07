@@ -5,7 +5,19 @@ function primaryNavItem(page, label) {
   return page.getByRole('navigation').first().getByText(label, { exact: true });
 }
 
-test('search, quick navigation, and manual Chronicle entry flow stay usable', async ({ page }) => {
+test('search, quick navigation, and manual Chronicle entry flow stay usable', async ({ page, request }) => {
+  // This test writes a real chronicle_entries row each run; clean prior
+  // leftovers first (see REDESIGN.md Milestone 5/6 for the pattern).
+  const existing = await request.get(appUrl('/api/data/chronicle-entries'));
+  if (existing.ok()) {
+    const { entries } = await existing.json();
+    for (const entry of entries || []) {
+      if (entry.title === 'Battery note') {
+        await request.delete(appUrl(`/api/data/chronicle-entries/${entry.id}`));
+      }
+    }
+  }
+
   await page.goto(appUrl('/'));
   await expect(page.getByText('The Daily Office').first()).toBeVisible();
 
@@ -29,6 +41,9 @@ test('search, quick navigation, and manual Chronicle entry flow stay usable', as
 });
 
 test('core page shells and key headings render across the full product surface', async ({ page }) => {
+  // Pin the register to morning so '/' is the full Daily Office regardless
+  // of what hour the suite runs (evenings render the Examen instead).
+  await page.addInitScript(() => window.localStorage.setItem('chronicle.register.override', 'morning'));
   const pages = [
     { label: 'The Daily Office', path: '/', assert: async () => expect(page.getByText('Call to Worship').first()).toBeVisible() },
     { label: 'Read', path: '/bible', assert: async () => expect(page.getByRole('button', { name: /Theme Overlay|Open Themes/ }).first()).toBeVisible() },

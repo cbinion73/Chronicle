@@ -31,6 +31,29 @@ Teach, Pass On** the Scriptures. What this document adds is the form the
 mission takes: *a line, stones along it, kept in liturgical time, with
 ceremonies at the sacred moments, compiling continuously into a real book.*
 
+Each pillar gets a flagship: Know has the Office and the Bible; Understand
+has the Study Council; Teach has the Loft; Pass On has the Book. **Live's
+flagship is the Rule of Life** (see below) — because memory alone does not
+make disciples; practice does. In the biblical frame the two are one
+motion: *zakar*, remember-and-do. Chronicle records faith in order to
+shape it.
+
+---
+
+## The Principles
+
+Five principles govern every screen, interaction, and architectural
+decision. When a design question has no obvious answer, these decide it:
+
+1. **Technology as liturgist, never as oracle.**
+2. **Grace over guilt.**
+3. **Ceremonies for sacred moments.**
+4. **Formation over engagement.**
+5. **An heirloom, not a subscription.**
+
+And every proposed milestone must pass a single test before it is built:
+**does this deepen formation, or merely increase engagement?**
+
 ---
 
 ## The Design Language
@@ -87,6 +110,36 @@ printable as a bound-quality PDF. The count is visible: *"You are on page
 214 of your book."* You are not journaling into a database — you are
 writing a book for your grandchildren, one day at a time. That sentence is
 why a person opens the app.
+
+---
+
+## The Rule of Life
+
+The Live pillar's flagship, and the vision's second axis. Everything else
+in this document is about *remembering*; the Rule is about *becoming*.
+
+Historically, Christian formation has always involved intentional rhythms —
+prayer, Scripture, worship, service, generosity, Sabbath, confession,
+hospitality, fasting, mission. Chronicle becomes the place where those
+rhythms are not tracked as habits but **cultivated as a lifelong pattern of
+apprenticeship to Christ**. The user authors a personal Rule; the Hours
+give it its temporal skeleton; and instead of merely asking *"what happened
+today?"*, Chronicle quietly asks *"who are you becoming?"*
+
+- A Rule is **authored, not assigned** — written by the keeper in their own
+  words, revised across seasons of life.
+- A Rule is **never a streak**. You do not break a rule and lose points;
+  you *return* to it, and grace-at-re-entry is already how this product
+  meets returning. No completion percentages, no chains, no guilt
+  mechanics — that entire grammar is on the No List.
+- **The seasonal examen**: at the boundaries of seasons, a ceremony — your
+  Rule held up against your thread, and the quiet question asked: *who are
+  you becoming?* The answer, written, becomes part of the Record.
+- **Calling lives here.** A Rule historically includes vocation and
+  mission: *What is God asking me to do? What gifts has He entrusted to
+  me? What assignment am I walking?* Those questions belong in the Rule,
+  and their long-form open versions belong in the Question Lab, held with
+  the same dignity as any question that takes a decade to answer.
 
 ---
 
@@ -206,8 +259,9 @@ These are commitments, not features. They are what the identity costs.
    percent lament and no product has a lament mode. Chronicle gives the
    angry prayer a room, scaffolded by the Psalms of lament. The Question
    Lab holds open questions with the same dignity as answered prayers —
-   open for decades if need be. When one resolves after eleven years, that
-   is a ceremony, and it is a stone.
+   including the vocational ones (*what is God asking me to do?*) — open
+   for decades if need be. When one resolves after eleven years, that is a
+   ceremony, and it is a stone.
 
 4. **The confessional seal.** Chronicle holds the most sensitive dataset a
    person can produce. Local-first, yours forever, never advertising,
@@ -276,6 +330,9 @@ and is to be defended like one.
 ---
 
 *Written 2026-07-07, at the close of the founding vision session, after
-Milestone 8 shipped. The map is complete from the hour to the century.
-Everything beyond this line is discovered by building and living, not by
-talking. See [ROADMAP.md](ROADMAP.md) for the first stone.*
+Milestone 8 shipped. Amended the same day after external review: the
+Principles preamble and the formation test, the Rule of Life as the Live
+pillar's flagship, and calling/vocation named explicitly. The map is
+complete from the hour to the century. Everything beyond this line is
+discovered by building and living, not by talking. See
+[ROADMAP.md](ROADMAP.md) for the first stone.*
