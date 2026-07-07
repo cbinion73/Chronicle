@@ -209,6 +209,84 @@ function makeBookId(title: string) {
     .slice(0, 48) || `book-${Date.now()}`;
 }
 
+// Obsidian Bridge — Chronicle stays the source of truth; Obsidian is the
+// knowledge garden. Server-configured only (OBSIDIAN_VAULT_PATH); when the
+// server has no vault (e.g. the cloud deployment), the whole group hides.
+type ObsidianStatus = { configured: boolean; vaultName?: string; exportedCount?: number; inboxCount?: number };
+
+function ObsidianBridgeGroup() {
+  const { addToast } = useToastStore();
+  const [status, setStatus] = useState<ObsidianStatus | null>(null);
+  const [busy, setBusy] = useState<'export' | 'import' | null>(null);
+
+  const refresh = useCallback(() => {
+    fetch('/api/obsidian/status')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((payload) => { if (payload) setStatus(payload); })
+      .catch(() => setStatus(null));
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/obsidian/status')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((payload) => { if (!cancelled && payload) setStatus(payload); })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, []);
+
+  if (!status?.configured) return null;
+
+  const runExport = async () => {
+    setBusy('export');
+    try {
+      const res = await fetch('/api/obsidian/export', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+      const payload = await res.json();
+      if (!res.ok) throw new Error(payload?.error?.errmsg || 'Export failed');
+      addToast(`Exported ${payload.exported} entries to ${payload.folder} (${payload.skippedPrayers} prayers kept private)`, 'success', '🌿');
+      void refresh();
+    } catch (error) {
+      addToast(error instanceof Error ? error.message : 'Obsidian export failed', 'warning', '⚠️');
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  const runImport = async () => {
+    setBusy('import');
+    try {
+      const res = await fetch('/api/obsidian/import', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+      const payload = await res.json();
+      if (!res.ok) throw new Error(payload?.error?.errmsg || 'Import failed');
+      addToast(payload.imported > 0 ? `Imported ${payload.imported} note${payload.imported === 1 ? '' : 's'} from the vault inbox` : 'The vault inbox is empty', 'success', '🌿');
+      void refresh();
+    } catch (error) {
+      addToast(error instanceof Error ? error.message : 'Obsidian import failed', 'warning', '⚠️');
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  return (
+    <Group>
+      <GroupHeader
+        title="Obsidian Bridge"
+        desc={`Connected to the "${status.vaultName}" vault. Chronicle remains the source of truth; the vault is your knowledge garden. Prayers are never exported by default.`}
+      />
+      <SettingRow label="Export the Thread" desc={`Writes entries as Markdown into ${status.vaultName}/Chronicle (${status.exportedCount ?? 0} currently exported)`}>
+        <button onClick={() => void runExport()} disabled={busy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: busy ? 'default' : 'pointer', opacity: busy === 'export' ? 0.6 : 1 }}>
+          {busy === 'export' ? 'Exporting…' : 'Export to Vault'}
+        </button>
+      </SettingRow>
+      <SettingRow label="Import from the Inbox" desc={`Markdown dropped in ${status.vaultName}/Chronicle Inbox becomes thread notes (${status.inboxCount ?? 0} waiting)`}>
+        <button onClick={() => void runImport()} disabled={busy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: busy ? 'default' : 'pointer', opacity: busy === 'import' ? 0.6 : 1 }}>
+          {busy === 'import' ? 'Importing…' : 'Import Inbox'}
+        </button>
+      </SettingRow>
+    </Group>
+  );
+}
+
 interface StudyLibraryRecord {
   schemaVersion?: number;
   id: string;
@@ -2325,6 +2403,7 @@ export default function Settings() {
                   <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>{translation}</span>
                 </SettingRow>
               </Group>
+              <ObsidianBridgeGroup />
               <Group>
                 <GroupHeader title="Data Health Center" desc="See the main operational queues Chronicle is watching and run the next repair step from one place." />
                 <div style={{ padding: '13px 18px', display: 'grid', gap: 10 }}>

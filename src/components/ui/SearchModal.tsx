@@ -47,8 +47,8 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
     { label: `Study — ${BIBLE_STUDY_MODULE.shortTitle} Day ${activeStudyDay.day}`, path: '/study', icon: '🔍' },
     { label: activeOwnedBook ? `Discipleship — ${activeOwnedBook.title}` : 'Discipleship — My Books', path: '/discipleship', icon: '📚' },
     { label: 'Prayer List', path: '/prayer', icon: '🙏' },
-    { label: 'My Chronicle', path: '/chronicle', icon: '📓' },
-    { label: 'Insights', path: '/insights', icon: '📊' },
+    { label: 'My Chronicle', path: '/thread', icon: '📓' },
+    { label: 'Insights', path: '/thread/patterns', icon: '📊' },
   ];
 
   return (
@@ -148,7 +148,7 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
                 <div
                   key={entry.id}
                   onClick={() => {
-                    navigate('/chronicle');
+                    navigate('/thread');
                     onClose();
                   }}
                   style={{ padding: '8px 16px', cursor: 'pointer' }}

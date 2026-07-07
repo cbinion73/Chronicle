@@ -184,7 +184,7 @@ export default function Chronicle() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <button className={s.headerAction} onClick={() => navigate('/legacy')} title="Read the narrated version of your Chronicle">
+            <button className={s.headerAction} onClick={() => navigate('/thread/story')} title="Read the narrated version of your Chronicle">
               Read Narrated Version →
             </button>
             <button

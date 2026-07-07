@@ -1222,7 +1222,7 @@ export default function Discipleship() {
                   )}
                   <button
                     type="button"
-                    onClick={() => navigate('/chronicle', { state: { filterPassage: currentSession.scripture } })}
+                    onClick={() => navigate('/thread', { state: { filterPassage: currentSession.scripture } })}
                     style={ghostButtonStyle}
                   >
                     Open in Chronicle

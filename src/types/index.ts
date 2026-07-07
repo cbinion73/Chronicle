@@ -6,6 +6,7 @@ export type NavTab =
   | 'study'
   | 'discipleship'
   | 'prayer'
+  | 'thread'
   | 'chronicle'
   | 'themes'
   | 'plans'

@@ -265,7 +265,7 @@ export default function AIChatPanel({
 
     if (thread.pageKey === '/chronicle') {
       setActiveTab('chronicle');
-      navigate('/chronicle', {
+      navigate('/thread', {
         state: threadContext.passage ? { filterPassage: threadContext.passage } : undefined,
       });
       addToast(`Reopened ${thread.title}`, 'success', '📓');
@@ -402,7 +402,7 @@ export default function AIChatPanel({
 
   function openPassageInChronicle() {
     setActiveTab('chronicle');
-    navigate('/chronicle', {
+    navigate('/thread', {
       state: context.passage ? { filterPassage: context.passage } : undefined,
     });
     addToast(context.passage ? `Opened Chronicle entries linked to ${context.passage}` : 'Opened Chronicle', 'success', '📓');

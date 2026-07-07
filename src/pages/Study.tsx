@@ -302,7 +302,7 @@ export default function Study() {
                   )}
                   <button
                     type="button"
-                    onClick={() => navigate('/chronicle', { state: { filterPassage: currentDay.scripture } })}
+                    onClick={() => navigate('/thread', { state: { filterPassage: currentDay.scripture } })}
                     style={{ marginTop: 2, padding: '8px 10px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 600 }}
                   >
                     Open in Chronicle

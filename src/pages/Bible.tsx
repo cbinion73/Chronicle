@@ -1404,7 +1404,7 @@ export default function Bible() {
 
   const openChronicleForPassage = (passage?: string) => {
     setActiveTab('chronicle');
-    navigate('/chronicle', {
+    navigate('/thread', {
       state: passage ? { filterPassage: passage } : undefined,
     });
   };

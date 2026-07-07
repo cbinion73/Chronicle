@@ -77,35 +77,20 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await page.addInitScript(() => window.localStorage.removeItem('chronicle-app-state'));
   await seedStructuredDiscipleshipBook(page, request);
 
+  // The home screen is now the Daily Office: Call → Word → Silence → Prayer → Response.
   await page.goto(appUrl('/'));
-  await expect(page.getByText('Today', { exact: true }).first()).toBeVisible();
-  await expect(page.getByText("Today's Thread")).toBeVisible();
-  await expect(page.getByText('Recurring Rhythms')).toBeVisible();
-  await expect(page.getByText('Reflection Prompts').first()).toBeVisible();
-  await page.getByRole('button', { name: "Open Today's Study" }).click();
-  await expect(page.getByText(/Day 1 ·/)).toBeVisible();
-  await primaryNavItem(page, 'Today').click();
-  const expandChronicleAI = page.getByRole('button', { name: 'Expand Chronicle AI' });
-  if (await expandChronicleAI.isVisible().catch(() => false)) {
-    await expandChronicleAI.click();
-  }
-  await expect(page.getByText(/Thread:/).first()).toBeVisible();
-  await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('reflection_guide');
-  await page.getByRole('button', { name: 'What pattern do you see here?' }).click();
-  await expect(page.locator('textarea').last()).toHaveValue('What pattern do you see here?');
-  await page.getByRole('button', { name: 'Use in Prayer' }).click();
-  await expect(page).toHaveURL(/\/prayer/);
-  await expect(page.getByText('Prayer', { exact: true }).first()).toBeVisible();
-  await expect(page.locator('textarea').first()).toContainText('What pattern do you see here?');
-  await primaryNavItem(page, 'Today').click();
-  await page.getByRole('button', { name: 'Give me a Chronicle reflection' }).click();
-  await page.getByRole('button', { name: 'Save Reflection', exact: true }).click();
-  await page.getByRole('button', { name: 'Save to Chronicle' }).click();
-  await page.getByRole('button', { name: 'Open Study' }).click();
-  await expect(page.getByRole('button', { name: 'Open in Bible' })).toBeVisible();
-  await primaryNavItem(page, 'Today').click();
+  await page.addInitScript(() => window.localStorage.removeItem('chronicle.office.lastCompleted'));
+  await expect(page.getByText('The Daily Office').first()).toBeVisible();
+  await expect(page.getByText('Call to Worship')).toBeVisible();
+  await expect(page.getByText('The Word', { exact: true }).last()).toBeVisible();
+  await expect(page.getByText('Silence', { exact: true })).toBeVisible();
+  await expect(page.getByText('Response', { exact: true })).toBeVisible();
+  // Don't click "Read the full passage" here — it would repoint the persisted
+  // Bible view at the study passage, and the Bible section below asserts the
+  // default Psalm 23 context.
+  await expect(page.getByRole('button', { name: 'Read the full passage →' })).toBeVisible();
 
-  await primaryNavItem(page, 'Bible').click();
+  await primaryNavItem(page, 'Read').click();
   await expect(page.getByRole('button', { name: /Theme Overlay/ })).toBeVisible();
   await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('bible_study_agent');
   await page.getByRole('button', { name: 'Summarize Psalm 23' }).click();
@@ -136,9 +121,6 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await primaryNavItem(page, 'Discipleship').click();
   await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('discipleship_coach');
   await expect(page.getByRole('button', { name: /Original Pages|Worksheet/ }).first()).toBeVisible();
-  await primaryNavItem(page, 'Today').click();
-  await page.getByRole('button', { name: 'Open Discipleship' }).first().click();
-  await expect(page.getByText('Discipleship', { exact: true }).first()).toBeVisible();
   await page.getByRole('button', { name: 'Pray This Day' }).click();
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
   await expect(page.locator('textarea').first()).toContainText('form me through');
@@ -156,8 +138,10 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await page.getByRole('button', { name: 'Open Workbook' }).click();
   await expect(page.getByText('Workbook Mode')).toBeVisible();
 
-  await page.getByRole('navigation').getByText('Prayer', { exact: true }).click();
+  await page.getByRole('navigation').getByText('The Prayer Room', { exact: true }).click();
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
+  await expect(page.getByText('Prayer Paths')).toBeVisible();
+  await expect(page.getByText('Pray the Baptist Beads')).toBeVisible();
   await expect(page.locator('#chronicle-agent-mode-select')).toHaveValue('prayer_guide');
   await expect(page.getByText('Related Chronicle Entries')).toBeVisible();
   await expect(page.getByText('Recurring Rhythms').last()).toBeVisible();
@@ -176,7 +160,10 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await expect(page.getByText('Answered Prayers')).toBeVisible();
   await expect(page.getByText('Chronicle captured the answer during the smoke test.', { exact: true }).first()).toBeVisible();
 
-  await primaryNavItem(page, 'Chronicle').click();
+  // The Thread room: Record / Story / Patterns are tabs over one spine.
+  await primaryNavItem(page, 'The Thread').click();
+  await expect(page).toHaveURL(/\/thread/);
+  await expect(page.getByText(/moments · \d+ days walked/)).toBeVisible();
   await expect(page.getByText('Answered prayer — Playwright prayer request for app smoke').first()).toBeVisible();
   await expect(page.getByText('Formation Story')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Save Prompt Set' }).first()).toBeVisible();
@@ -184,14 +171,13 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   if (await returnToPrayer.isVisible().catch(() => false)) {
     await returnToPrayer.click();
     await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
-    await primaryNavItem(page, 'Chronicle').click();
+    await primaryNavItem(page, 'The Thread').click();
   }
   await page.getByRole('button', { name: 'Psalm 23:2' }).click();
   await expect(page.getByText('Psalm 23').first()).toBeVisible();
-  await primaryNavItem(page, 'Chronicle').click();
-  // Chronicle is now the raw daily log only — the narrated "Legacy View" tab was
-  // removed in favor of a cross-link to the dedicated Legacy page.
-  await page.getByRole('button', { name: 'Read Narrated Version →' }).click();
+  await primaryNavItem(page, 'The Thread').click();
+  await page.getByRole('button', { name: 'Story', exact: true }).click();
+  await expect(page).toHaveURL(/\/thread\/story/);
   await expect(page.getByText('The Book of Chris').first()).toBeVisible();
 
   await primaryNavItem(page, 'Themes').click();
@@ -202,7 +188,9 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await expect(page.getByText('Active Plan')).toBeVisible();
   await expect(page.getByText('Strongest Rhythm')).toBeVisible();
 
-  await primaryNavItem(page, 'Insights').click();
+  await primaryNavItem(page, 'The Thread').click();
+  await page.getByRole('button', { name: 'Patterns', exact: true }).click();
+  await expect(page).toHaveURL(/\/thread\/patterns/);
   await expect(page.getByText('Formation Summary')).toBeVisible();
   await expect(page.getByText('Prayer Outcomes')).toBeVisible();
   await expect(page.getByText('Growth Story')).toBeVisible();
@@ -219,19 +207,19 @@ test('chronicle key surfaces stay usable on a phone-width viewport', async ({ pa
   await page.setViewportSize({ width: 430, height: 932 });
   await page.goto(appUrl('/'));
 
-  await expect(page.getByText('Today', { exact: true }).first()).toBeVisible();
-  await expect(page.getByText("Today's Thread")).toBeVisible();
+  await expect(page.getByText('The Daily Office').first()).toBeVisible();
+  await expect(page.getByText('Call to Worship')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Open Chronicle AI' })).toBeVisible();
 
-  await page.getByRole('navigation').getByText('Prayer', { exact: true }).click();
+  await page.getByRole('navigation').getByText('The Prayer Room', { exact: true }).click();
   await expect(page.getByText('Pray Now', { exact: true }).last()).toBeVisible();
   await expect(page.getByText('Follow Up Queue')).toBeVisible();
 
   await page.getByRole('navigation').getByText('Daily Study', { exact: true }).click();
-  await expect(page.getByText(/Day 1 ·/)).toBeVisible();
+  await expect(page.getByText(/Day \d+ ·/).first()).toBeVisible();
   await expect(page.getByRole('button', { name: 'Open in Bible' })).toBeVisible();
 
-  await page.getByRole('navigation').getByText('Bible', { exact: true }).click();
+  await page.getByRole('navigation').getByText('Read', { exact: true }).click();
   const themeOverlayButton = page.getByRole('button', { name: /Theme Overlay/ }).first();
   const openThemesButton = page.getByRole('button', { name: 'Open Themes' }).first();
   if (await openThemesButton.isVisible().catch(() => false)) {
