@@ -113,6 +113,58 @@ model LibraryCatalogEntry {
   @@map("library_catalog_entries")
 }
 
+// ── The Thread ─────────────────────────────────────────────────────────────
+// A durable, queryable projection over chronicle_entries + prayer_items —
+// Milestone 2 of the product rebuild. Kept in sync server-side whenever an
+// entry or prayer is created/updated/deleted (see server/chronicleApi.ts),
+// so it never depends on any one client having run. The client-side
+// derivation in src/lib/thread.ts remains the offline-first source of truth
+// for what the UI renders instantly; this table is what makes the Thread
+// physical and queryable across devices and future services (e.g. the
+// Scripture Memory Engine, the Question Lab).
+model ThreadEvent {
+  id        String   @id
+  date      String
+  kind      String   // 'entry' | 'prayer-added' | 'prayer-answered'
+  entryType String?  // set when kind === 'entry'
+  title     String
+  body      String?
+  passage   String?
+  sourceId  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sourceId])
+  @@index([date])
+  @@map("thread_events")
+}
+
+// ── Scripture Memory Engine ────────────────────────────────────────────────
+// Verses a user is memorizing, scheduled with a lightweight spaced-repetition
+// algorithm (SM-2-family). This is the highest formation-value-per-
+// engineering-hour item in the whole rebuild vision — no AI required.
+model MemoryVerse {
+  id            String    @id
+  reference     String
+  text          String
+  translation   String    @default("NKJV")
+  // SM-2 scheduling state
+  easeFactor    Float     @default(2.5)
+  intervalDays  Int       @default(0)
+  repetitions   Int       @default(0)
+  dueDate       String
+  lastReviewedAt String?
+  // lifetime stats
+  totalReviews  Int       @default(0)
+  totalLapses   Int       @default(0)
+  addedAt       String
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([dueDate])
+  @@map("memory_verses")
+}
+
 // ── App Settings (singleton) ──────────────────────────────────────────────────
 
 model AppSettings {

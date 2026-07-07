@@ -5363,6 +5363,68 @@ function stripId(record: Record<string, unknown>) {
   return rest
 }
 
+// Keeps thread_events as a durable, queryable projection over chronicle_entries
+// + prayer_items — mirror-written on every entry/prayer create/update/delete so
+// it stays correct regardless of which client (or future client) made the
+// change. Failures are logged, never thrown: the Thread projection is a
+// convenience layer, not the record of truth, so it must never block a save.
+async function mirrorEntryToThread(entry: { id: string; date: string; type: string; title: string; body: string; passage: string | null }) {
+  try {
+    const data = {
+      date: entry.date,
+      kind: 'entry',
+      entryType: entry.type,
+      title: entry.title,
+      body: entry.body,
+      passage: entry.passage,
+      sourceId: entry.id,
+    }
+    await _prisma.threadEvent.upsert({
+      where: { id: `entry:${entry.id}` },
+      create: { id: `entry:${entry.id}`, ...data },
+      update: data,
+    })
+  } catch (error) {
+    console.warn('[thread] mirror entry failed:', error)
+  }
+}
+
+async function unmirrorEntryFromThread(entryId: string) {
+  try {
+    await _prisma.threadEvent.delete({ where: { id: `entry:${entryId}` } })
+  } catch {
+    // already gone — fine
+  }
+}
+
+async function mirrorPrayerToThread(item: { id: string; text: string; dateAdded: string; answered: boolean; dateAnswered: string | null; answerSummary: string | null; answerPassage: string | null }) {
+  try {
+    const addedData = { date: item.dateAdded, kind: 'prayer-added', title: item.text, sourceId: item.id }
+    await _prisma.threadEvent.upsert({
+      where: { id: `prayer-added:${item.id}` },
+      create: { id: `prayer-added:${item.id}`, ...addedData },
+      update: addedData,
+    })
+    if (item.answered && item.dateAnswered) {
+      const answeredData = { date: item.dateAnswered, kind: 'prayer-answered', title: item.text, body: item.answerSummary, passage: item.answerPassage, sourceId: item.id }
+      await _prisma.threadEvent.upsert({
+        where: { id: `prayer-answered:${item.id}` },
+        create: { id: `prayer-answered:${item.id}`, ...answeredData },
+        update: answeredData,
+      })
+    } else {
+      await _prisma.threadEvent.delete({ where: { id: `prayer-answered:${item.id}` } }).catch(() => {})
+    }
+  } catch (error) {
+    console.warn('[thread] mirror prayer failed:', error)
+  }
+}
+
+async function unmirrorPrayerFromThread(itemId: string) {
+  await _prisma.threadEvent.delete({ where: { id: `prayer-added:${itemId}` } }).catch(() => {})
+  await _prisma.threadEvent.delete({ where: { id: `prayer-answered:${itemId}` } }).catch(() => {})
+}
+
 function chronicleDbApi(host: ChronicleMiddlewareHost) {
   withChronicleMiddlewares(host, (middlewares) => {
 
@@ -5392,6 +5454,7 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
             create: { ...(stripId(data) as Parameters<typeof _prisma.chronicleEntry.create>[0]['data']), id: entryId },
             update: stripId(data) as Parameters<typeof _prisma.chronicleEntry.update>[0]['data'],
           })
+          void mirrorEntryToThread(entry)
           sendJson(response, 200, { entry })
           return
         }
@@ -5403,12 +5466,14 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
             where: { id },
             data: stripId(patch) as Parameters<typeof _prisma.chronicleEntry.update>[0]['data'],
           })
+          void mirrorEntryToThread(entry)
           sendJson(response, 200, { entry })
           return
         }
 
         if (request.method === 'DELETE' && id) {
           await _prisma.chronicleEntry.delete({ where: { id } })
+          void unmirrorEntryFromThread(id)
           sendJson(response, 200, { ok: true })
           return
         }
@@ -5442,6 +5507,7 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
             create: { ...(stripId(data) as Parameters<typeof _prisma.prayerItem.create>[0]['data']), id: itemId },
             update: stripId(data) as Parameters<typeof _prisma.prayerItem.update>[0]['data'],
           })
+          void mirrorPrayerToThread(item)
           sendJson(response, 200, { item })
           return
         }
@@ -5453,12 +5519,14 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
             where: { id },
             data: stripId(patch) as Parameters<typeof _prisma.prayerItem.update>[0]['data'],
           })
+          void mirrorPrayerToThread(item)
           sendJson(response, 200, { item })
           return
         }
 
         if (request.method === 'DELETE' && id) {
           await _prisma.prayerItem.delete({ where: { id } })
+          void unmirrorPrayerFromThread(id)
           sendJson(response, 200, { ok: true })
           return
         }
@@ -5605,6 +5673,73 @@ function chronicleDbApi(host: ChronicleMiddlewareHost) {
         next?.()
       } catch (error) {
         sendJson(response, 500, { error: error instanceof Error ? error.message : 'Owned books error.' })
+      }
+    })
+
+    // ── Thread Events (read-only projection) ─────────────────────────────────
+    // Mirror-written by the chronicle-entries and prayer-items routes above.
+    // Read-only from the API's perspective — clients never write here directly.
+
+    middlewares.use('/api/data/thread-events', async (request, response, next) => {
+      try {
+        if (request.method === 'GET') {
+          const events = await _prisma.threadEvent.findMany({ orderBy: { date: 'desc' } })
+          sendJson(response, 200, { events })
+          return
+        }
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'Thread events error.' })
+      }
+    })
+
+    // ── Memory Verses (Scripture Memory Engine) ───────────────────────────────
+
+    middlewares.use('/api/data/memory-verses', async (request, response, next) => {
+      const url = new URL(request.url || '/', 'http://x')
+      const parts = url.pathname.replace(/^\/+|\/+$/g, '').split('/').filter(Boolean)
+      const id = parts[0] || null
+
+      try {
+        if (request.method === 'GET' && !id) {
+          const verses = await _prisma.memoryVerse.findMany({ orderBy: { dueDate: 'asc' } })
+          sendJson(response, 200, { verses })
+          return
+        }
+
+        if (request.method === 'POST' && !id) {
+          const body = await readJsonBody(request) as { verse?: Record<string, unknown> }
+          const data = body.verse ?? {}
+          const verseId = typeof data.id === 'string' && data.id ? data.id : `verse-${Date.now()}`
+          const verse = await _prisma.memoryVerse.upsert({
+            where: { id: verseId },
+            create: { ...(stripId(data) as Parameters<typeof _prisma.memoryVerse.create>[0]['data']), id: verseId },
+            update: stripId(data) as Parameters<typeof _prisma.memoryVerse.update>[0]['data'],
+          })
+          sendJson(response, 200, { verse })
+          return
+        }
+
+        if (request.method === 'PUT' && id) {
+          const body = await readJsonBody(request) as { patch?: Record<string, unknown> }
+          const patch = body.patch ?? {}
+          const verse = await _prisma.memoryVerse.update({
+            where: { id },
+            data: stripId(patch) as Parameters<typeof _prisma.memoryVerse.update>[0]['data'],
+          })
+          sendJson(response, 200, { verse })
+          return
+        }
+
+        if (request.method === 'DELETE' && id) {
+          await _prisma.memoryVerse.delete({ where: { id } })
+          sendJson(response, 200, { ok: true })
+          return
+        }
+
+        next?.()
+      } catch (error) {
+        sendJson(response, 500, { error: error instanceof Error ? error.message : 'Memory verses error.' })
       }
     })
 
