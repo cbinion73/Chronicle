@@ -366,8 +366,16 @@ export default function Prayer() {
           {/* Answered section */}
           {(activeCategory === 'All' || activeCategory === 'Answered') && answeredItems.length > 0 && (
             <>
-              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginTop: 8, marginBottom: 4 }}>
-                ✓ Answered Prayers
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 8, marginBottom: 4, gap: 8, flexWrap: 'wrap' }}>
+                <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
+                  ✓ Answered Prayers
+                </div>
+                <button
+                  onClick={() => navigate('/prayer/answered-light')}
+                  style={{ border: 'none', background: 'none', padding: 0, fontSize: 11, fontWeight: 700, color: 'var(--accent-green)', cursor: 'pointer' }}
+                >
+                  Open the Answered Light →
+                </button>
               </div>
               {answeredItems.map((item) => (
                 <PrayerCard key={item.id} item={item} onToggle={() => togglePrayerAnswered(item.id)} onPray={() => handlePrayedForItem(item)} onAnswer={() => openAnswerPrayer(item)} onDelete={() => handleDeletePrayerItem(item)} answered />

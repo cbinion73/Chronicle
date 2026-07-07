@@ -77,6 +77,20 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await page.addInitScript(() => window.localStorage.removeItem('chronicle-app-state'));
   await seedStructuredDiscipleshipBook(page, request);
 
+  // This test writes a real row (not localStorage) each run. Without cleanup
+  // it accumulates across repeated local runs and produces a duplicate-key
+  // React warning once two rows share the same text+date (see REDESIGN.md
+  // Milestone 5/6 for the same pattern in other specs).
+  const priorItemsRes = await request.get(appUrl('/api/data/prayer-items'));
+  if (priorItemsRes.ok()) {
+    const { items } = await priorItemsRes.json();
+    for (const item of items || []) {
+      if (item.text === 'Playwright prayer request for app smoke test') {
+        await request.delete(appUrl(`/api/data/prayer-items/${item.id}`));
+      }
+    }
+  }
+
   // The home screen is now the Daily Office: Call → Word → Silence → Prayer → Response.
   await page.goto(appUrl('/'));
   await page.addInitScript(() => window.localStorage.removeItem('chronicle.office.lastCompleted'));
