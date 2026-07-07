@@ -7,21 +7,6 @@
   padding: 0;
 }
 
-/* Chronicle nests flex columns several levels deep (AppShell -> page ->
-   internal panels) so an inner `overflow-y: auto` region can scroll while
-   everything around it stays fixed. Flex items default to `min-height: auto`,
-   which for a flex item means "don't shrink below your content's natural
-   size" — Safari/iOS enforces this strictly, so an `overflow: hidden`
-   ancestor never actually bounds the child, and the scrollable region inside
-   never gets a real height to scroll within. Other engines are more
-   forgiving, which is why this was invisible until real iPhone testing.
-   Scoped to min-height only — min-width:0 is already applied selectively
-   where the codebase needs it, and resetting it globally risks disturbing
-   text-truncation behavior in grid/flex layouts elsewhere. */
-* {
-  min-height: 0;
-}
-
 html, body, #root {
   height: 100%;
   overflow: hidden;

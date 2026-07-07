@@ -120,8 +120,8 @@ export default function Study() {
   };
 
   return (
-    <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', overflow: 'hidden', minHeight: 0 }}>
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
         <div
           style={{
             padding: '16px 20px',
@@ -160,7 +160,7 @@ export default function Study() {
           </div>
         </div>
 
-        <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '14px 14px 20px' : '18px 20px', display: 'flex', flexDirection: 'column', gap: 14 }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '14px 14px 20px' : '18px 20px', display: 'flex', flexDirection: 'column', gap: 14, minHeight: 0 }}>
           <div style={{ display: 'grid', gridTemplateColumns: isCompact ? '1fr' : '2.2fr 1fr', gap: 14 }}>
             <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 12, padding: '16px', boxShadow: 'var(--shadow)' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>

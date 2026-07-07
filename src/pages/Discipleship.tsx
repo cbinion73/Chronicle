@@ -1095,7 +1095,7 @@ export default function Discipleship() {
   }
 
   return (
-    <div style={{ flex: 1, overflow: 'hidden' }}>
+    <div style={{ flex: 1, overflow: 'hidden', minHeight: 0 }}>
       <div style={{ height: '100%', overflowY: 'auto', padding: isPhone ? '14px 14px 24px' : '16px 18px 28px' }}>
         <div style={{ display: 'grid', gap: 16 }}>
           <section style={{ ...heroPanelStyle, padding: isPhone ? '16px' : heroPanelStyle.padding }}>

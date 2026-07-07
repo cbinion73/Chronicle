@@ -1609,7 +1609,7 @@ export default function Bible() {
   }
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', position: 'relative' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', position: 'relative', minHeight: 0 }}>
 
       {/* Book picker overlay */}
       {showBookPicker && (
@@ -1655,7 +1655,7 @@ export default function Bible() {
       )}
 
       {/* Reader column */}
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minWidth: 0 }}>
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minWidth: 0, minHeight: 0 }}>
 
         {/* Nav bar */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: isPhone ? '10px 14px' : '10px 20px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, flexWrap: 'wrap' }}>
@@ -1858,7 +1858,7 @@ export default function Bible() {
         )}
 
         {/* Scripture pane */}
-        <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '18px 14px 24px' : isCompact ? '24px 24px 32px' : '28px 48px 40px' }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '18px 14px 24px' : isCompact ? '24px 24px 32px' : '28px 48px 40px', minHeight: 0 }}>
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 22, fontWeight: 700, color: 'var(--text)', marginBottom: 6 }}>
             {book === 'Psalms' ? 'Psalm' : book} {chapter}
             {chapterData?.heading && (
@@ -2111,7 +2111,7 @@ export default function Bible() {
             </div>
             <button onClick={() => setShowThemePanel(false)} style={{ fontSize: 14, color: 'var(--text-muted)', background: 'none', border: 'none', cursor: 'pointer' }}>×</button>
           </div>
-          <div style={{ flex: 1, overflowY: 'auto', padding: 14 }}>
+          <div style={{ flex: 1, overflowY: 'auto', padding: 14, minHeight: 0 }}>
             {panelMode === 'themes' && themes.map((t) => (
               <div
                 key={t.id}

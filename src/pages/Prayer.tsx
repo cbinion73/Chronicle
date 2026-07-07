@@ -273,10 +273,10 @@ export default function Prayer() {
   };
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
 
       {/* Main */}
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: isCompact ? 'visible' : 'hidden', minHeight: isCompact ? undefined : 0 }}>
 
         {/* Header */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: isPhone ? '12px 14px' : '12px 20px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, gap: 10, flexWrap: 'wrap' }}>
@@ -356,7 +356,7 @@ export default function Prayer() {
         )}
 
         {/* Prayer list */}
-        <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '14px 14px 20px' : '16px 20px', display: 'flex', flexDirection: 'column', gap: 8 }}>
+        <div style={{ flex: 1, overflowY: isCompact ? 'visible' : 'auto', padding: isPhone ? '14px 14px 20px' : '16px 20px', display: 'flex', flexDirection: 'column', gap: 8, minHeight: isCompact ? undefined : 0 }}>
 
           {filtered.map((item) => (
             <PrayerCard key={item.id} item={item} onToggle={() => togglePrayerAnswered(item.id)} onPray={() => handlePrayedForItem(item)} onAnswer={() => openAnswerPrayer(item)} onDelete={() => handleDeletePrayerItem(item)} />
@@ -383,7 +383,7 @@ export default function Prayer() {
       </div>
 
       {/* Right panel */}
-      <div style={{ width: isCompact ? '100%' : 288, minWidth: isCompact ? 0 : 288, borderLeft: isCompact ? 'none' : '1px solid var(--border)', borderTop: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+      <div style={{ width: isCompact ? '100%' : 288, minWidth: isCompact ? 0 : 288, borderLeft: isCompact ? 'none' : '1px solid var(--border)', borderTop: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: isCompact ? 'visible' : 'hidden', minHeight: isCompact ? undefined : 0, flexShrink: 0 }}>
 
         {/* Stats */}
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>

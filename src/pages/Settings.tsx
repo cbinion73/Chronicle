@@ -1667,7 +1667,7 @@ export default function Settings() {
   }, [studyImportJob, addToast, refreshStudyImports, refreshStudyLibrary, refreshWorkbookAudit]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', minHeight: 0 }}>
 
       {/* Category nav */}
       <nav
@@ -1707,7 +1707,7 @@ export default function Settings() {
       </nav>
 
       {/* Settings content */}
-      <div style={{ flex: 1, overflowY: 'auto' }}>
+      <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: isPhone ? '14px 14px' : '14px 24px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', position: 'sticky', top: 0, zIndex: 2, gap: 10, flexWrap: 'wrap' }}>
           <div>
             <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)' }}>{CATEGORIES.find(c => c.id === activeCategory)?.label}</div>

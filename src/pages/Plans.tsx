@@ -98,8 +98,8 @@ export default function Plans() {
   }, [activeDaysSet, currentMonth, currentYear, todayOfMonth]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
-      <div style={{ flex: 1, overflowY: 'auto', padding: '20px 24px 32px', display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', minHeight: 0 }}>
+      <div style={{ flex: 1, overflowY: 'auto', padding: '20px 24px 32px', display: 'flex', flexDirection: 'column', gap: 16, minHeight: 0 }}>
         <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow)' }}>
           <div style={{ background: 'radial-gradient(circle at 50% 42%, rgba(43, 141, 255, 0.34), transparent 28%), linear-gradient(135deg, #0f4fcf 0%, #0b2f88 100%)', padding: '18px 20px', color: 'white' }}>
             <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between' }}>

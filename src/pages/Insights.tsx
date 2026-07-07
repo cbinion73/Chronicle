@@ -89,7 +89,7 @@ export default function Insights() {
   }, [chronicleEntries]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', minHeight: 0 }}>
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '12px 20px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0 }}>
           <div>
@@ -99,7 +99,7 @@ export default function Insights() {
           <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>{summary.totalEntries} entries · {summary.activeDays} active days</div>
         </div>
 
-        <div style={{ flex: 1, overflowY: 'auto', padding: '20px 24px 32px', display: 'flex', flexDirection: 'column', gap: 16 }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: '20px 24px 32px', display: 'flex', flexDirection: 'column', gap: 16, minHeight: 0 }}>
           <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderLeft: '4px solid var(--accent-blue)', borderRadius: 12, padding: '18px 20px', boxShadow: 'var(--shadow)' }}>
             <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--accent-blue)', marginBottom: 8 }}>Formation Summary</div>
             <p style={{ fontFamily: 'var(--font-serif)', fontSize: 14, lineHeight: 1.8, color: 'var(--text)', margin: 0 }}>{summary.summary}</p>

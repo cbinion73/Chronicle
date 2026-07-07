@@ -51,7 +51,7 @@ export default function Legacy() {
   };
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', minHeight: 0 }}>
       <div style={{ width: isCompact ? '100%' : 230, minWidth: isCompact ? 0 : 230, maxHeight: isCompact ? 200 : undefined, borderRight: isCompact ? 'none' : '1px solid var(--border)', borderBottom: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ padding: '14px 16px', borderBottom: '1px solid var(--border)', background: 'var(--card-inner)' }}>
           <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)', fontFamily: 'var(--font-serif)' }}>The Book of Chris</div>
@@ -64,7 +64,7 @@ export default function Legacy() {
             ← See the raw daily log
           </button>
         </div>
-        <div style={{ flex: 1, overflowY: 'auto', padding: '8px 0' }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: '8px 0', minHeight: 0 }}>
           {chapters.map((chapter) => (
             <div key={`${chapter.num}-${chapter.period}`} style={{ padding: '8px 16px', borderLeft: chapter.status === 'active' ? '3px solid var(--accent-blue)' : '3px solid transparent', background: chapter.status === 'active' ? 'var(--accent-blue-light)' : 'transparent' }}>
               <div style={{ fontSize: 10, fontWeight: 700, color: chapter.status === 'active' ? 'var(--accent-blue)' : 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 2 }}>
@@ -77,7 +77,7 @@ export default function Legacy() {
         </div>
       </div>
 
-      <div style={{ flex: 1, overflowY: 'auto', background: 'var(--bg)', padding: '24px', display: 'flex', flexDirection: 'column', gap: 20 }}>
+      <div style={{ flex: 1, overflowY: 'auto', background: 'var(--bg)', padding: '24px', display: 'flex', flexDirection: 'column', gap: 20, minHeight: 0 }}>
         <div style={{ background: '#fdfcf8', border: '1px solid var(--border)', borderRadius: 16, padding: '40px 48px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)', textAlign: 'center' }}>
           <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 16 }}>A Life Walked with God</div>
           <div style={{ fontFamily: 'var(--font-serif)', fontSize: 28, fontWeight: 700, color: 'var(--text)', marginBottom: 8 }}>The Book of Chris</div>
@@ -103,7 +103,7 @@ export default function Legacy() {
           <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--accent-blue)' }}>Legacy AI</div>
           <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 1 }}>Answers from saved Chronicle material</div>
         </div>
-        <div style={{ flex: 1, overflowY: 'auto', padding: 14, display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: 14, display: 'flex', flexDirection: 'column', gap: 10, minHeight: 0 }}>
           {conversation.map((message, index) => (
             <div key={`${message.role}-${index}`} style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
               <div style={{

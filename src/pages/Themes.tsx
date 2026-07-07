@@ -55,7 +55,7 @@ export default function Themes() {
   }, [selected, setPageContext, setSelectedAgentMode, themeSignals.length]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden' }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
       <div style={{ width: isCompact ? '100%' : 240, minWidth: isCompact ? 0 : 240, maxHeight: isCompact ? 240 : undefined, borderRight: isCompact ? 'none' : '1px solid var(--border)', borderBottom: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ padding: '10px 14px', borderBottom: '1px solid var(--border)', background: 'var(--card-inner)' }}>
           <input
@@ -65,7 +65,7 @@ export default function Themes() {
             placeholder="Find a theme..."
           />
         </div>
-        <div style={{ flex: 1, overflowY: 'auto', padding: '8px 0' }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: '8px 0', minHeight: 0 }}>
           {filteredGroups.map((group) => (
             <div key={group.name}>
               <div style={{ padding: '6px 14px', fontSize: 10, fontWeight: 700, letterSpacing: '0.07em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
@@ -111,7 +111,7 @@ export default function Themes() {
         </div>
       </div>
 
-      <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '16px 16px 24px' : '20px 24px 32px' }}>
+      <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '16px 16px 24px' : '20px 24px 32px', minHeight: 0 }}>
         {selected ? (
           <>
             <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 20 }}>
