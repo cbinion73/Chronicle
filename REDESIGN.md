@@ -257,3 +257,45 @@ prayer items.
 Verified: tsc -b, eslint, production build, full Playwright suite (`--workers=1`
 to remove an unrelated shared-DB race between parallel workers — a pre-existing
 test-infra limitation, not something this milestone introduced or needs to fix).
+
+## Milestone 6 (branch: redesign/milestone-6) — the Answered Light
+
+Per the original vision document, this is meant to be one of the most
+spiritually significant screens in the product: "the screen for the dry
+season" — years of "asked" connected to "answered," in the user's own words,
+kept because Scripture itself commands the practice (Deuteronomy 8:2, Psalm
+77:11). Deliberately **no AI involved** — this is pure derivation over data
+Chronicle already has.
+
+- **`src/lib/answeredLight.ts`** — `deriveAnsweredLight()` filters
+  `PrayerItem[]` down to answered requests and computes `daysCarried` (asked
+  → answered) per item; `formatCarried()` renders that span in plain
+  language ("carried for 3 months"); `groupByYear()` buckets entries for a
+  year-sectioned timeline. No new tables, no new migrations — every field
+  already existed on `PrayerItem` (`dateAdded`, `dateAnswered`,
+  `answerSummary`, `answerPassage`, `timesPrayed`).
+- **`src/pages/AnsweredLight.tsx`** (`/prayer/answered-light`) — a timeline
+  page: summary stats (answered count, longest carried, prayer touches),
+  then a year-grouped list of cards, each showing the asked→answered arc,
+  the request text, how long it was carried, the recorded answer, and a
+  clickable passage chip that opens the Bible at that reference (reusing
+  the same `getBibleNavigationTarget` + `setBibleView` pattern used
+  elsewhere in the app).
+- **Entry points**: a "Open the Answered Light →" link on the Prayer Room's
+  Answered Prayers section header, and a global search quick-link.
+
+**Test-suite hygiene fix, again**: while verifying this milestone against
+the full suite, `tests/app-smoke.spec.js` failed with a duplicate-React-key
+console error. Investigation showed the spec — unlike every other spec
+touched in Milestone 5 — never actually cleaned up its own
+`Playwright prayer request for app smoke test` row (a mirror-write into the
+real Postgres `prayer_items` table, not localStorage). It had simply never
+been run enough times locally to collide with itself before now. Fixed by
+giving it the same `request`-fixture cleanup pattern established in
+Milestone 5, deleting any prior row with that exact text before the test
+creates its own.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains (reproduces identically
+against the `v1-pre-redesign` tag).

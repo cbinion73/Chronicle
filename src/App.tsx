@@ -8,6 +8,7 @@ const Bible = lazy(() => import('./pages/Bible'));
 const Study = lazy(() => import('./pages/Study'));
 const Discipleship = lazy(() => import('./pages/Discipleship'));
 const Prayer = lazy(() => import('./pages/Prayer'));
+const AnsweredLight = lazy(() => import('./pages/AnsweredLight'));
 const Thread = lazy(() => import('./pages/Thread'));
 const Themes = lazy(() => import('./pages/Themes'));
 const Plans = lazy(() => import('./pages/Plans'));
@@ -55,6 +56,7 @@ export default function App() {
             <Route path="study" element={<Study />} />
             <Route path="discipleship" element={<Discipleship />} />
             <Route path="prayer" element={<Prayer />} />
+            <Route path="prayer/answered-light" element={<AnsweredLight />} />
             <Route path="thread" element={<Thread />} />
             <Route path="thread/:view" element={<Thread />} />
             <Route path="themes" element={<Themes />} />

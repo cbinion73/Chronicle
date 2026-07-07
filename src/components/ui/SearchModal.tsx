@@ -47,6 +47,7 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
     { label: `Study — ${BIBLE_STUDY_MODULE.shortTitle} Day ${activeStudyDay.day}`, path: '/study', icon: '🔍' },
     { label: activeOwnedBook ? `Discipleship — ${activeOwnedBook.title}` : 'Discipleship — My Books', path: '/discipleship', icon: '📚' },
     { label: 'Prayer List', path: '/prayer', icon: '🙏' },
+    { label: 'The Answered Light', path: '/prayer/answered-light', icon: '💡' },
     { label: 'Scripture Memory', path: '/memory', icon: '🧠' },
     { label: 'Explore — People & Places', path: '/explore', icon: '🗺️' },
     { label: 'My Chronicle', path: '/thread', icon: '📓' },
