@@ -212,4 +212,8 @@ arrives; none blocks the movements above.
   (`/heritage`) capturing a grandparent's or mentor's stones by subject,
   with honestly-scoped in-browser voice recording (never persisted
   server-side; only the written word is kept).
-- ➡️ **Next: M20 — The Book, Typeset.**
+- ✅ **M20 — The Book, Typeset** shipped: the Story tab
+  (`/thread/story`) is a real paginated book — years as parts, chapters
+  broken at growth markers, a genuine "Page X of Y," and a print-grade
+  PDF export with real chapter/part page breaks.
+- ➡️ **Next: M21 — The Thread Made Literal.**

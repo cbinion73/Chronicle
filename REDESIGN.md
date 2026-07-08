@@ -930,3 +930,58 @@ voice-free path (subject + relationship, one answered prompt, the rest
 skipped, verified grouped correctly on `/heritage`). Only the
 pre-existing, already-confirmed-non-regression `discipleship-progress.spec.js`
 failure remains.
+
+## Milestone 20 (branch: redesign/milestone-20) — The Book, Typeset
+
+The Story tab (`/thread/story`, `src/pages/Legacy.tsx`) becomes an actual
+book: real pagination, chapters broken at growth markers, years as
+parts, print-grade PDF export, a visible page count.
+
+- **`src/lib/bookPagination.ts`** — `deriveBookParts(entries)` groups
+  entries by calendar year into "parts" (reusing the year-grouping idea
+  from the retired `deriveLegacyChapters`, now genuinely nested one
+  level deeper): within each year, a `type: 'growth'` entry starts a new
+  chapter (titled from its growth-marker kind label), so "chapters
+  broken at growth markers" is real structure, not decoration.
+  `paginateBook(parts)` packs each chapter's entry text into a ~1600-
+  character-budget page, splitting on paragraph boundaries where
+  possible, producing a real `{ pageNumber, totalPages }` — an actual
+  derived fact rather than a cosmetic label.
+- **`Legacy.tsx` rebuilt as a real reader**: the sidebar now lists real
+  Parts (roman numeral + year) with their real nested Chapters (click to
+  jump straight to that chapter's first page); the center panel is a
+  page-by-page reader with Prev/Next controls and "Page X of Y."  The
+  old single-blob AI-generated narrative (`deriveLegacyNarrative`) is
+  kept only as a graceful empty-state fallback when there are zero
+  entries to paginate.
+- **Print-grade PDF export, honestly scoped.** No PDF-generation library
+  existed anywhere in the app (verified — no jspdf/pdfkit/react-pdf in
+  `package.json`), and one wasn't added: `src/lib/bookExport.ts` extends
+  the pre-existing "Export Legacy Memoir" print-window flow
+  (`Settings.tsx`) with real `@page`/`page-break-before` CSS per chapter
+  and per part, rendering actual entry content (not a summary), then
+  hands off to the browser's own Save-as-PDF. Documented directly in
+  the module comment: the browser's print pagination and Chronicle's
+  own in-app page count are two independent numbers and will not match
+  — expected, not a bug.
+- Retired `deriveLegacyChapters` (`formationAnalytics.ts`) once both of
+  its two callers (`Legacy.tsx`, `Settings.tsx`'s export) were migrated
+  to `deriveBookParts` — dead code removed rather than left alongside
+  its replacement.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — new `tests/book-typeset.spec.js` seeds entries across
+two years with a growth marker splitting one year into two chapters,
+and asserts real part/chapter grouping, working Prev/Next page
+navigation, and chapter-jump-to-page. Only the pre-existing,
+already-confirmed-non-regression `discipleship-progress.spec.js`
+failure remains.
+
+Note on test viewport: Legacy.tsx runs a 3-pane layout (chapter sidebar,
+book reader, page-local AI panel) alongside the app's own global AI
+companion panel — at the default 1280px Chromium viewport there isn't
+enough room left for the reader card's own text once all four columns
+are laid out (a pre-existing condition, not introduced by this
+milestone). `tests/book-typeset.spec.js` widens its viewport to
+1600x900 to match a normal desktop monitor rather than mask the
+squeeze by only checking DOM presence.

@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
-import { answerLegacyQuestion, deriveLegacyChapters, deriveLegacyNarrative } from '../lib/formationAnalytics';
+import { answerLegacyQuestion, deriveLegacyNarrative } from '../lib/formationAnalytics';
+import { deriveBookParts, paginateBook } from '../lib/bookPagination';
 import { useAIChatStore } from '../store/aiChatStore';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
@@ -15,9 +16,12 @@ export default function Legacy() {
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
   const { isCompact } = useResponsiveLayout();
-  const chapters = useMemo(() => deriveLegacyChapters(chronicleEntries), [chronicleEntries]);
+  const parts = useMemo(() => deriveBookParts(chronicleEntries), [chronicleEntries]);
+  const pages = useMemo(() => paginateBook(parts), [parts]);
   const narrative = useMemo(() => deriveLegacyNarrative(chronicleEntries), [chronicleEntries]);
-  const leadChapterTitle = chapters[0]?.title;
+  const leadChapterTitle = parts[0]?.chapters[0]?.title;
+  const [pageIndex, setPageIndex] = useState(0);
+  const currentPage = pages[Math.min(pageIndex, Math.max(0, pages.length - 1))];
   const [aiInput, setAiInput] = useState('');
   const [conversation, setConversation] = useState<LegacyMessage[]>([
     {
@@ -27,6 +31,8 @@ export default function Legacy() {
     },
   ]);
 
+  const totalChapters = useMemo(() => parts.reduce((sum, part) => sum + part.chapters.length, 0), [parts]);
+
   useEffect(() => {
     setSelectedAgentMode('reflection_guide');
     setPageContext('/legacy', {
@@ -35,9 +41,14 @@ export default function Legacy() {
       title: document.title,
       selection: narrative,
       passage: leadChapterTitle,
-      summary: `Legacy view built from ${chronicleEntries.length} Chronicle entries across ${chapters.length} derived chapters.`,
+      summary: `Legacy view built from ${chronicleEntries.length} Chronicle entries across ${totalChapters} derived chapters and ${pages.length} typeset pages.`,
     });
-  }, [chapters.length, chronicleEntries.length, leadChapterTitle, narrative, setPageContext, setSelectedAgentMode]);
+  }, [chronicleEntries.length, leadChapterTitle, narrative, pages.length, setPageContext, setSelectedAgentMode, totalChapters]);
+
+  const jumpToChapter = (chapterId: string) => {
+    const target = pages.findIndex((page) => page.chapterId === chapterId);
+    if (target >= 0) setPageIndex(target);
+  };
 
   const sendMessage = () => {
     if (!aiInput.trim()) return;
@@ -65,13 +76,28 @@ export default function Legacy() {
           </button>
         </div>
         <div style={{ flex: 1, overflowY: 'auto', padding: '8px 0', minHeight: 0 }}>
-          {chapters.map((chapter) => (
-            <div key={`${chapter.num}-${chapter.period}`} style={{ padding: '8px 16px', borderLeft: chapter.status === 'active' ? '3px solid var(--accent-blue)' : '3px solid transparent', background: chapter.status === 'active' ? 'var(--accent-blue-light)' : 'transparent' }}>
-              <div style={{ fontSize: 10, fontWeight: 700, color: chapter.status === 'active' ? 'var(--accent-blue)' : 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 2 }}>
-                Chapter {chapter.num}
+          {parts.map((part) => (
+            <div key={part.year}>
+              <div style={{ padding: '10px 16px 4px', fontSize: 10, fontWeight: 700, color: part.status === 'active' ? 'var(--accent-blue)' : 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+                Part {part.roman} · {part.year}
               </div>
-              <div style={{ fontSize: 12, fontWeight: chapter.status === 'active' ? 600 : 400, color: 'var(--text)' }}>{chapter.title}</div>
-              <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 2 }}>{chapter.period} · {chapter.count} entries</div>
+              {part.chapters.map((chapter) => {
+                const isCurrent = currentPage?.chapterId === chapter.id;
+                return (
+                  <button
+                    key={chapter.id}
+                    onClick={() => jumpToChapter(chapter.id)}
+                    style={{
+                      display: 'block', width: '100%', textAlign: 'left', border: 'none', cursor: 'pointer',
+                      padding: '6px 16px', borderLeft: isCurrent ? '3px solid var(--accent-blue)' : '3px solid transparent',
+                      background: isCurrent ? 'var(--accent-blue-light)' : 'transparent',
+                    }}
+                  >
+                    <div style={{ fontSize: 12, fontWeight: isCurrent ? 600 : 400, color: 'var(--text)' }}>{chapter.title}</div>
+                    <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 1 }}>{chapter.entries.length} entr{chapter.entries.length === 1 ? 'y' : 'ies'}</div>
+                  </button>
+                );
+              })}
             </div>
           ))}
         </div>
@@ -86,16 +112,41 @@ export default function Legacy() {
           </div>
         </div>
 
-        <div style={{ background: '#fdfcf8', border: '1px solid var(--border)', borderRadius: 16, padding: '40px 48px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-blue)', marginBottom: 8 }}>Current Chapter</div>
-          <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 22, fontWeight: 700, color: 'var(--text)', marginBottom: 6 }}>The Shape of Returning</h2>
-          <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 32 }}>
-            Built from {chronicleEntries.length} Chronicle entr{chronicleEntries.length === 1 ? 'y' : 'ies'}
+        {pages.length === 0 ? (
+          <div style={{ background: '#fdfcf8', border: '1px solid var(--border)', borderRadius: 16, padding: '40px 48px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}>
+            <div style={{ fontFamily: 'var(--font-serif)', fontSize: 15, lineHeight: 2, color: 'var(--text)', whiteSpace: 'pre-line' }}>
+              {narrative}
+            </div>
           </div>
-          <div style={{ fontFamily: 'var(--font-serif)', fontSize: 15, lineHeight: 2, color: 'var(--text)', whiteSpace: 'pre-line' }}>
-            {narrative}
+        ) : (
+          <div style={{ background: '#fdfcf8', border: '1px solid var(--border)', borderRadius: 16, padding: '40px 48px', boxShadow: '0 4px 24px rgba(0,0,0,0.08)', display: 'flex', flexDirection: 'column', minHeight: 420 }}>
+            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-blue)', marginBottom: 8 }}>
+              {currentPage.year} · {currentPage.chapterTitle}
+            </div>
+            <div style={{ fontFamily: 'var(--font-serif)', fontSize: 15, lineHeight: 2, color: 'var(--text)', whiteSpace: 'pre-line', flex: 1 }}>
+              {currentPage.text}
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 24, paddingTop: 16, borderTop: '1px solid var(--border)' }}>
+              <button
+                onClick={() => setPageIndex((i) => Math.max(0, i - 1))}
+                disabled={pageIndex === 0}
+                style={{ padding: '7px 14px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text-sub)', fontSize: 12, fontWeight: 600, cursor: pageIndex === 0 ? 'default' : 'pointer', opacity: pageIndex === 0 ? 0.4 : 1 }}
+              >
+                ← Previous
+              </button>
+              <div style={{ fontSize: 12, color: 'var(--text-muted)', fontFamily: 'var(--font-serif)', fontStyle: 'italic' }}>
+                Page {currentPage.pageNumber} of {pages.length}
+              </div>
+              <button
+                onClick={() => setPageIndex((i) => Math.min(pages.length - 1, i + 1))}
+                disabled={pageIndex >= pages.length - 1}
+                style={{ padding: '7px 14px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text-sub)', fontSize: 12, fontWeight: 600, cursor: pageIndex >= pages.length - 1 ? 'default' : 'pointer', opacity: pageIndex >= pages.length - 1 ? 0.4 : 1 }}
+              >
+                Next →
+              </button>
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       <div style={{ width: isCompact ? '100%' : 320, minWidth: isCompact ? 0 : 320, maxHeight: isCompact ? 360 : undefined, borderLeft: isCompact ? 'none' : '1px solid var(--border)', borderTop: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
