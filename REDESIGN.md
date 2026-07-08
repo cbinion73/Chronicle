@@ -1215,3 +1215,54 @@ updating. Only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` and `bible-modes.spec.js` failures
 remain (the latter passed cleanly on isolated re-run per the pattern
 documented since M13).
+
+## Design-2, page 1 of 6 (branch: design/manuscript-word) — Manuscript register for Bible.tsx
+
+First of six "Word" pages (Bible/Study/Discipleship/Plans/Themes/Explore)
+to receive the Manuscript register — paper and ink, with rubric red used
+the way medieval scribes used rubrication: never decoration, always
+structural (the active chapter, an echo, a cross-reference).
+
+Discovered that Bible.tsx's ~3180 lines already route every chrome color
+through CSS custom properties (`var(--card-bg)`, `var(--text)`,
+`var(--accent-primary)`, etc. — 213 occurrences across the file) rather
+than hardcoded colors. That makes a full register reskin tractable
+without an inline-style rewrite: `src/pages/Bible.module.css`'s
+`.manuscriptRegister` class re-scopes the same custom property names
+(`--bg`, `--card-bg`, `--card-inner`, `--border`, `--text`, `--text-sub`,
+`--text-muted`, `--accent-primary`, `--accent-primary-light`,
+`--accent-blue`, `--sidebar-selected-bg`, `--sidebar-selected-text`) to
+the Manuscript palette (cream `#f7f3e9` page, ink `#2b2721` text, rubric
+red `#8b2c2c` accent). A custom property set on a descendant always wins
+over `:root`/`[data-theme="dark"]` regardless of the ancestor selector's
+specificity, so no separate dark-mode override block was needed — the
+Manuscript register is deliberately the same regardless of the app's
+global light/dark setting; paper and ink is the whole identity here, not
+a toggle. The class is applied to the page's root wrapper div in
+`Bible.tsx`, one line (plus the CSS module import).
+
+Left untouched: the file's 9 hardcoded hex values, all tied to
+`TIER_COLORS` (evidence-tier badges — Explicit/Strong/Inferred/Debated)
+and `--accent-amber` (semantic warning color) — these are semantic
+signal, not chrome, and register reskins don't touch semantic color.
+`--accent-blue` (used pervasively as the primary interactive/active-state
+accent — echoes toggle, active provider tab) was mapped to the same
+rubric-red value as `--accent-primary` so the register reads as one
+consistent accent rather than two competing ones.
+
+Verified: tsc -b, eslint, production build. Visually verified via a
+temporary Playwright script (computed-style assertions, not just a
+screenshot): the root element carries the `manuscriptRegister` class with
+`background-color: rgb(247, 243, 233)` (`#f7f3e9`), and the chapter
+heading resolves to `color: rgb(43, 39, 33)` (`#2b2721`) — confirming the
+re-scoped custom properties actually reach the rendered page, not just
+the CSS module. Full Playwright suite (`--workers=1`): same two
+pre-existing failures as every prior slice (`discipleship-progress.spec.js`,
+and `bible-modes.spec.js` which passed 2/2 on isolated re-run
+immediately after — the same intermittent full-suite-only flake
+documented since M13).
+
+Remaining for Design-2: Study.tsx, Discipleship.tsx, Plans.tsx,
+Themes.tsx, Explore.tsx — each needs a per-page check that it also
+routes color through the same `var(--...)` tokens before assuming the
+same re-scoping technique applies unmodified.

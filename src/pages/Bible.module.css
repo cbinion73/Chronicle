@@ -1,0 +1,29 @@
+/* The Manuscript register (Design-2) — paper and ink, with rubric red
+   used the way medieval scribes used rubrication: never decoration,
+   always structural (the active chapter, an echo, a cross-reference).
+   The whole page already uses CSS custom properties (var(--card-bg),
+   var(--text), var(--accent-primary), etc.) throughout its ~200 inline
+   style objects — so re-scoping those variables here re-skins the
+   entire reading experience without touching a single inline style. */
+
+.manuscriptRegister {
+  /* Deliberately the same regardless of the app's global light/dark
+     theme setting — paper and ink is the whole identity here, not a
+     toggle. A custom property set on this element wins for every
+     descendant regardless of what :root/[data-theme="dark"] set,
+     since the cascade resolves at the nearest ancestor — no separate
+     dark-mode override block needed. */
+  --bg: #f7f3e9;
+  --card-bg: #fbf8f0;
+  --card-inner: #f2ecdd;
+  --border: #c9c0a8;
+  --text: #2b2721;
+  --text-sub: #57503f;
+  --text-muted: #8a8168;
+  --accent-primary: #8b2c2c;
+  --accent-primary-light: #f6ece5;
+  --accent-blue: #8b2c2c;
+  --sidebar-selected-bg: #f6ece5;
+  --sidebar-selected-text: #8b2c2c;
+  background: var(--bg);
+}
