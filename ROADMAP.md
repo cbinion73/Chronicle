@@ -188,4 +188,6 @@ arrives; none blocks the movements above.
 - ✅ **M12 — The Rule of Life** shipped: the Live pillar's flagship — an
   authored (not tracked) Rule at `/rule`, and the seasonal examen
   ceremony asking "who are you becoming?"
-- ➡️ **Next: M13 — Remembrance.**
+- ✅ **M13 — Remembrance** shipped: on-this-day resurfacing and personal
+  feast days, unprompted, in the Daily Office.
+- ➡️ **Next: M14 — Sealed Prayers.**
