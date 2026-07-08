@@ -307,6 +307,20 @@ export default function Prayer() {
             ))}
           </div>
           <button
+            onClick={() => navigate('/prayer/sealed')}
+            style={{
+              padding: '6px 12px',
+              background: 'transparent',
+              color: 'var(--accent-slate)',
+              border: '1px solid var(--border)',
+              borderRadius: 8,
+              fontSize: 12,
+              fontWeight: 600,
+              cursor: 'pointer',
+            }}>
+            🔒 Sealed Prayers
+          </button>
+          <button
             onClick={() => setAddFormOpen(true)}
             style={{
               padding: '6px 14px',

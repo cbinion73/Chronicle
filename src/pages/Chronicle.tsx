@@ -20,6 +20,7 @@ const TYPE_COLORS: Record<string, string> = {
   reflection: 'var(--accent-sky)',
   growth: 'var(--accent-rose)',
   rule: 'var(--accent-forest)',
+  sealed: 'var(--accent-slate)',
 };
 
 const TYPE_BG: Record<string, string> = {
@@ -30,6 +31,7 @@ const TYPE_BG: Record<string, string> = {
   reflection: '#e0f2fe',
   growth: 'var(--accent-rose-light)',
   rule: 'var(--accent-forest-light)',
+  sealed: 'var(--accent-slate-light)',
 };
 
 export default function Chronicle() {
@@ -171,7 +173,7 @@ export default function Chronicle() {
         <div className={s.header}>
           <div className={s.headerCluster}>
             <div className={s.filterRow}>
-              {['all', 'insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule'].map((t) => (
+              {['all', 'insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule', 'sealed'].map((t) => (
                 <button
                   key={t}
                   onClick={() => setFilterType(t)}
@@ -292,7 +294,7 @@ export default function Chronicle() {
         </div>
         <div className={s.panelSection}>
           <div className={s.panelTitle}>By Type</div>
-          {(['insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule'] as const).map((type) => {
+          {(['insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule', 'sealed'] as const).map((type) => {
             const count = chronicleEntries.filter((e) => e.type === type).length;
             const pct = Math.round((count / totalEntries) * 100);
             return (
@@ -373,6 +375,13 @@ function sourceActionLabel(entry: ChronicleEntry) {
   return 'Return to Source';
 }
 
+// A sealed prayer's body must never render in the general Record view
+// until it's been deliberately opened (Milestone 14 — "seen, not
+// touchable"). See docs/SEALED_TIER.md.
+function isSealedAndUnopened(entry: ChronicleEntry): boolean {
+  return entry.type === 'sealed' && !entry.sourceContext?.sealed?.opened;
+}
+
 function EntryCard({ entry, onOpenBible, onOpenSource, onOpenTeaching, onEdit, onDelete }: {
   entry: ChronicleEntry;
   onOpenBible: (entry: ChronicleEntry) => void;
@@ -399,13 +408,15 @@ function EntryCard({ entry, onOpenBible, onOpenSource, onOpenTeaching, onEdit, o
           <span className={s.autoBadge}>auto</span>
         )}
         <div style={{ marginLeft: 'auto', display: 'flex', gap: 4 }}>
-          <button
-            onClick={onEdit}
-            title="Edit entry"
-            style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 13, color: 'var(--text-muted)', padding: 2 }}
-          >
-            ✏️
-          </button>
+          {!isSealedAndUnopened(entry) && (
+            <button
+              onClick={onEdit}
+              title="Edit entry"
+              style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 13, color: 'var(--text-muted)', padding: 2 }}
+            >
+              ✏️
+            </button>
+          )}
           <button
             onClick={onDelete}
             title="Delete entry"
@@ -416,7 +427,11 @@ function EntryCard({ entry, onOpenBible, onOpenSource, onOpenTeaching, onEdit, o
         </div>
       </div>
       <div className={s.entryTitle}>{entry.title}</div>
-      <div className={s.entryBody}>{entry.body}</div>
+      <div className={s.entryBody}>
+        {isSealedAndUnopened(entry)
+          ? `🔒 Sealed — ${entry.sourceContext?.sealed?.unsealAt ? `opens ${entry.sourceContext.sealed.unsealAt}` : `opens when: ${entry.sourceContext?.sealed?.eventLabel}`}`
+          : entry.body}
+      </div>
       {entry.sourceContext ? (
         <div className={s.entryActions}>
           <button

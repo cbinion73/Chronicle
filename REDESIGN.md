@@ -651,3 +651,50 @@ Verified: tsc -b, eslint, production build, full Playwright suite
 `discipleship-progress.spec.js` failure remains (`bible-modes.spec.js`
 flaked once mid-session and passed clean on re-run, confirmed unrelated
 to this milestone's changes).
+
+## Milestone 14 (branch: redesign/milestone-14) — Sealed Prayers
+
+The second stone of Movement II, and the first milestone to touch both
+standing foundations F1 and F2 directly (ROADMAP.md).
+
+- **A new `'sealed'` Chronicle entry type**, reusing the existing entry
+  infrastructure end to end — no new table, no migration. `sourceContext.
+  sealed: { unsealAt?, eventLabel?, sealedAt, opened, openedAt? }` follows
+  the `growthMarker`/`rule` precedent.
+- **`src/components/ui/SealedPrayerCeremony.tsx`** — write it, choose how
+  it opens (a date, or a freeform event description), then a sealing
+  beat. No AI anywhere in it, per the covenant.
+- **`src/pages/SealedPrayers.tsx`** (`/prayer/sealed`) — sealed items
+  render as locked stones: the label and the unlock condition are always
+  visible ("seen"); the body never renders until the seal is deliberately
+  broken ("not touchable"). Date-sealed entries become *unlockable* once
+  `unsealAt` passes (compared as plain `YYYY-MM-DD` string, sidestepping
+  the UTC/local pitfall Milestone 13 already found the hard way — string
+  comparison of ISO dates is chronological comparison, no `Date` object
+  needed), but still require a deliberate "Open This Prayer" click; it
+  never auto-reveals.
+- **The seal is enforced everywhere the body could otherwise leak**:
+  `Chronicle.tsx`'s Record view (`isSealedAndUnopened`) shows a locked
+  placeholder instead of `entry.body`, and hides the ✏️ edit action
+  entirely (editing would have put the raw body in a plain textarea —
+  the one leak this milestone's own review caught before it shipped).
+- **F1 — `src/lib/sealedPrayersExport.ts`**: a Markdown exporter that
+  itself respects the seal. A still-sealed entry exports as
+  `[Still sealed — opens ...]`, never its actual content — an export
+  that leaked sealed text the moment you backed up your data would make
+  the whole feature dishonest.
+- **F2 — [`docs/SEALED_TIER.md`](docs/SEALED_TIER.md)**: the design doc
+  the roadmap required by Movement II. States plainly what shipped
+  (UI-level withholding — the body is plaintext in Postgres, exactly like
+  every other entry) versus what's still owed (client-side encryption:
+  passphrase-derived key, encrypt before the network call, decrypt only
+  in-browser at open-time), why UI-level withholding is an acceptable
+  interim for a single-keeper local-first deployment, and the additive
+  migration path for when real encryption ships (likely alongside
+  Movement IV's braid, once there's a real multi-party threat model).
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains (`bible-modes.spec.js`
+flaked once mid-session and passed clean on two re-runs, confirmed
+unrelated — the same intermittent test flagged in Milestone 13).

@@ -10,6 +10,7 @@ const Study = lazy(() => import('./pages/Study'));
 const Discipleship = lazy(() => import('./pages/Discipleship'));
 const Prayer = lazy(() => import('./pages/Prayer'));
 const AnsweredLight = lazy(() => import('./pages/AnsweredLight'));
+const SealedPrayers = lazy(() => import('./pages/SealedPrayers'));
 const Rule = lazy(() => import('./pages/Rule'));
 const Thread = lazy(() => import('./pages/Thread'));
 const TeachingOutline = lazy(() => import('./pages/TeachingOutline'));
@@ -73,6 +74,7 @@ export default function App() {
             <Route path="discipleship" element={<Discipleship />} />
             <Route path="prayer" element={<Prayer />} />
             <Route path="prayer/answered-light" element={<AnsweredLight />} />
+            <Route path="prayer/sealed" element={<SealedPrayers />} />
             <Route path="rule" element={<Rule />} />
             <Route path="thread" element={<Thread />} />
             <Route path="thread/teach/:entryId" element={<TeachingOutline />} />
