@@ -1,0 +1,37 @@
+/* The Chapel register (Design-3) — darkness-first, candlelight typography.
+   Gold never decorates: it marks only answered prayers, feast days, and
+   the current liturgical station. Everything else is quiet type on a
+   near-black ground. Shared by every Office/Prayer-family page (Daily
+   Office, Rule of Life, Prayer Room, Question Lab, Lament, Sealed
+   Prayers, Scripture Memory) — each already routes its chrome color
+   through CSS custom properties (var(--card-bg), var(--text),
+   var(--accent-primary), etc.), so re-scoping those variables here
+   re-skins the whole page without touching a single inline style.
+
+   Left untouched deliberately: accent-copper/forest/purple/slate/amber —
+   these carry per-entry-type semantic identity (question/lament/sealed/
+   rule categories established in earlier milestones), not chrome, and
+   register reskins don't touch semantic color. */
+
+.chapelRegister {
+  /* Deliberately the same regardless of the app's global light/dark
+     theme setting — darkness is the whole identity here, not a toggle.
+     A custom property set on this element wins for every descendant
+     regardless of what :root/[data-theme="dark"] set, since the
+     cascade resolves at the nearest ancestor — no separate dark-mode
+     override block needed. */
+  --bg: #14110e;
+  --card-bg: #1a1712;
+  --card-inner: #1a1712;
+  --border: #3a3428;
+  --text: #e9e2d4;
+  --text-sub: #a89d88;
+  --text-muted: #6f6656;
+  --accent-primary: #e8b44f;
+  --accent-primary-light: #2a251d;
+  --accent-blue: #e8b44f;
+  --sidebar-selected-bg: #2a251d;
+  --sidebar-selected-text: #e8b44f;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  background: var(--bg);
+}

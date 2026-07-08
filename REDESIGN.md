@@ -1306,3 +1306,53 @@ code, so it isn't a regression from this change).
 
 Design-2 is now complete for all six Word pages. Next: Design-3
 (Chapel register for Office/Rule/Prayer/QuestionLab/Lament/SealedPrayers/Memory).
+
+## Design-3 (branch: design/chapel) — Chapel register for Office/Rule/Prayer/QuestionLab/Lament/SealedPrayers/Memory
+
+The darkness-first register: near-black ground, candlelit vellum text,
+gold that never decorates — it marks only answered prayers, feast days,
+and the current liturgical station. Applied to all seven Office/Prayer-
+family pages: Daily Office, My Rule of Life, The Prayer Room, The
+Question Lab, Lament, Sealed Prayers, and Scripture Memory.
+
+Same CSS custom-property re-scoping technique as Design-2's Manuscript
+register: all seven pages already route their chrome color through
+`var(--...)` tokens (6–14 unique tokens each, zero hardcoded hex), so
+`src/styles/chapelRegister.module.css`'s `.chapelRegister` class
+re-scopes `--bg`, `--card-bg`, `--card-inner`, `--border`, `--text`,
+`--text-sub`, `--text-muted`, `--accent-primary`, `--accent-primary-light`,
+`--accent-blue`, `--sidebar-selected-bg`, `--sidebar-selected-text`, and
+`--shadow` to the Chapel palette (`#14110e` ground, `#e9e2d4` text,
+`#e8b44f` gold accent) — colors extracted directly from DESIGN.md's
+Chapel token table. Left untouched, same semantic-color policy as every
+prior register: `--accent-copper`/`--accent-forest`/`--accent-purple`/
+`--accent-slate`/`--accent-amber` — per-entry-type identity colors for
+question/lament/sealed/rule categories established in M12/M14/M17, not
+chrome.
+
+Office.tsx needed the class applied to **four** separate root returns,
+not one — the component has distinct early-return branches for the
+evening Examen-done state, the evening Examen-pending state, the
+completed-today state, and the default morning/full-Office state. Missed
+this on the first pass (only patched the last return, which isn't the
+one that renders at the time of day this was verified) — caught by the
+visual verification step below, not by tsc/eslint/build, which all stay
+silent on a missing className. Two of the four returns also share
+identical JSX except for indentation (6 vs 8 spaces), which is why a
+single `replace_all` initially caught only one of them.
+
+Verified: tsc -b, eslint, production build all clean across all seven
+files plus the new CSS module. Visually verified via a temporary
+Playwright script (computed-style assertions) that all seven routes
+(`/`, `/rule`, `/prayer`, `/questions`, `/prayer/lament`, `/prayer/sealed`,
+`/memory`) render a `chapelRegister`-classed root with
+`background-color: rgb(20, 17, 14)` (`#14110e`) — this is what caught
+the Office.tsx gap above; the other six pages were correct on the first
+pass. Full Playwright suite (`--workers=1`): one failure, the
+already-confirmed pre-existing `discipleship-progress.spec.js` (the
+usual `bible-modes.spec.js`/`thread-altitudes.spec.js` full-suite-only
+flakes did not appear this run).
+
+Next: Design-4 (Stone Court register for Thread/Record/AnsweredLight/
+Growth/Patterns/Heritage), then Design-5 (Ledger formalization for
+Settings only).
