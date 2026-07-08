@@ -1,0 +1,43 @@
+/* The Stone Court register (Design-4) — tactile, parchment-and-stone.
+   Sacred moments are real objects with weight, not cards. Shared by
+   every Thread altitude except Story (which keeps its own Old Family
+   Bible register) and the Heritage Room — each already routes its
+   chrome color through CSS custom properties (var(--card-bg),
+   var(--text), var(--accent-primary), etc.), so re-scoping those
+   variables here re-skins the whole surface without touching a single
+   inline style.
+
+   Left untouched deliberately: accent-amber/blue-light/clay/copper/
+   forest/purple/rose/sky/slate (and their -light variants) — these
+   carry per-entry-type semantic identity (growth-marker kind, prayer
+   category, heritage tag) established in earlier milestones, not
+   chrome, and register reskins don't touch semantic color.
+
+   stone-glow (#e8b44f) is the one deliberate crossover with Chapel: an
+   answered prayer glows the same gold everywhere. It isn't wired into
+   this chrome pass — it belongs to the individual stone-object
+   component treatment (DESIGN.md Components: `stone`), a separate,
+   larger effort than this register-coloring slice. */
+
+.stoneCourtRegister {
+  /* Deliberately the same regardless of the app's global light/dark
+     theme setting — parchment and stone is the whole identity here,
+     not a toggle. A custom property set on this element wins for
+     every descendant regardless of what :root/[data-theme="dark"]
+     set, since the cascade resolves at the nearest ancestor — no
+     separate dark-mode override block needed. */
+  --bg: #efece4;
+  --card-bg: #f5f2ea;
+  --card-inner: #e7e3d7;
+  --border: #d6d2c4;
+  --text: #33322c;
+  --text-sub: #62605a;
+  --text-muted: #8f8c80;
+  --accent-primary: #5d6069;
+  --accent-primary-light: #dfe0e4;
+  --accent-blue: #5d6069;
+  --sidebar-selected-bg: #dfe0e4;
+  --sidebar-selected-text: #5d6069;
+  --shadow: 0 1px 3px rgba(51, 50, 44, 0.14), 0 1px 2px rgba(51, 50, 44, 0.08);
+  background: var(--bg);
+}
