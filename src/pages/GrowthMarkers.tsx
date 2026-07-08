@@ -61,6 +61,14 @@ export default function GrowthMarkers() {
         {markers.length === 0 ? (
           <EmptyCard>
             No growth markers yet. When you mark a baptism, a calling clarified, or a season resolved, it will take its place here as the spine of your story.
+            <div style={{ marginTop: 14 }}>
+              <button
+                onClick={() => navigate('/archaeology')}
+                style={{ padding: '8px 14px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-bg)', color: 'var(--accent-amber)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+              >
+                🗿 Excavate Your Past
+              </button>
+            </div>
           </EmptyCard>
         ) : (
           <div style={{ borderLeft: '2px solid var(--accent-rose)', marginLeft: 6, paddingLeft: 20, display: 'grid', gap: 18 }}>

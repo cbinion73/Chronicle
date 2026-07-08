@@ -201,4 +201,10 @@ arrives; none blocks the movements above.
 - ✅ **M17 — The Question Lab & Lament** shipped: open questions held
   with dignity for years (resolution as ceremony and stone), and a
   four-station Lament Room shaped by the Psalms of lament.
-- ➡️ **Next: M18 — The Archaeology.**
+- ✅ **M18 — The Archaeology** shipped: a guided backfill interview at
+  `/archaeology` that excavates a keeper's prehistory (conversion,
+  baptism, calling, conviction, a resolved season of doubt, an old
+  answered prayer) into real, backdated stones — no permanent sidebar
+  slot, entry points live in the Growth Spine and Answered Light empty
+  states instead.
+- ➡️ **Next: M19 — The Oral History.**

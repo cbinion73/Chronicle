@@ -832,3 +832,50 @@ and it is a stone."
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 18 (branch: redesign/milestone-18) — The Archaeology
+
+Most keepers who install Chronicle don't arrive empty — they arrive with
+decades of walk already behind them, unrecorded. The Archaeology is a
+short guided backfill interview at `/archaeology` that excavates that
+prehistory into stones, so the Thread's beginning isn't artificially
+pinned to the day someone happened to download the app.
+
+- **`src/data/archaeologyPrompts.ts`** — six curated prompts, five
+  targeting the existing Growth Marker kinds (conversion, baptism,
+  calling, conviction, a resolved season of doubt) and one targeting an
+  old answered prayer. Reuses `growthMarkers.ts`'s kind ids rather than
+  inventing a parallel taxonomy.
+- **`src/pages/Archaeology.tsx`** — a linear wizard, one prompt at a
+  time: "Skip" or "Yes, I remember" → a real (often approximate) past
+  date picker + free-text → "Set This Stone." Growth prompts write an
+  ordinary `type: 'growth'` Chronicle entry dated to the remembered date
+  (same reuse pattern as Milestone 7 — no migration). The answered-
+  prayer prompt writes a `PrayerItem` with `answered: true`, and asks a
+  second, answered-prayer-only question — "how long had you been
+  carrying it?" — used to backdate `dateAdded` via `subtractMonths`, so
+  the Answered Light's "carried for..." language reads true rather than
+  always claiming a same-day answer for a memory that's actually
+  decades old.
+- No AI, no judgment about imprecise memory built into the copy —
+  "roughly when," "a year is enough." Skipping is always one tap away
+  and carries no visible cost (no counter, no "N remaining, hurry up").
+- **Deliberately no permanent sidebar slot.** Per VISION.md's anti-
+  engagement covenant, a one-time-ish excavation doesn't belong beside
+  the five main rooms as a standing destination. Instead: an "🗿
+  Excavate Your Past" entry point inside the empty-state `EmptyCard` on
+  both `GrowthMarkers.tsx` (the Growth Spine) and `AnsweredLight.tsx`
+  (the Answered Light) — offered exactly at the moment those pages have
+  nothing to show, which is also the moment a new keeper is most likely
+  to have unrecorded history to excavate — plus a `SearchModal.tsx`
+  quick-link for anyone who wants to return to it later.
+- Its own `--accent-amber` chrome, distinct from the rose (growth) and
+  blue (prayer) colors of the two entry types it actually writes, since
+  the wizard itself doesn't belong to either destination.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — new `tests/archaeology.spec.js` covers both the
+growth-marker path and the answered-prayer path, asserting the backdated
+date lands correctly on the Growth Spine / Answered Light. Only the
+pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.
