@@ -6,6 +6,8 @@ import Card, { EmptyCard } from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import SeasonalExamenCeremony from '../components/ui/SeasonalExamenCeremony';
 import chapelStyles from '../styles/chapelRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { OFFICE_TABS } from '../lib/sectionTabs';
 
 // The Rule of Life — the Live pillar's flagship (VISION.md). A personal
 // rule authored in your own words: prayer, Scripture, Sabbath, service,
@@ -54,6 +56,7 @@ export default function Rule() {
 
   return (
     <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+      <SectionTabs tabs={OFFICE_TABS} />
       <div style={{ maxWidth: 680, margin: '0 auto', padding: isPhone ? '20px 16px 48px' : '32px 24px 64px' }}>
 
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12, marginBottom: 22, flexWrap: 'wrap' }}>

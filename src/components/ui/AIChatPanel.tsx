@@ -13,6 +13,17 @@ import { getBibleNavigationTarget } from '../../lib/scriptureReference';
 import { buildReflectionPrompts } from '../../lib/reflectionPrompts';
 import type { ChronicleDeviceClass } from '../../lib/useResponsiveLayout';
 import { synthesizeVoice, transcribeVoiceBlob } from '../../lib/voice';
+import { activeRegisterForPath } from '../../lib/activeRegister';
+import chapelStyles from '../../styles/chapelRegister.module.css';
+import manuscriptStyles from '../../styles/manuscriptRegister.module.css';
+import stoneCourtStyles from '../../styles/stoneCourtRegister.module.css';
+
+const REGISTER_STYLES = {
+  chapel: chapelStyles.chapelRegister,
+  manuscript: manuscriptStyles.manuscriptRegister,
+  stonecourt: stoneCourtStyles.stoneCourtRegister,
+  ledger: '',
+};
 
 const PAGE_LABELS: Record<string, string> = {
   '/': 'Today',
@@ -123,6 +134,7 @@ export default function AIChatPanel({
   const location = useLocation();
   const pageKey = location.pathname || '/';
   const pageLabel = PAGE_LABELS[pageKey] || pageKey.replace('/', '') || 'Today';
+  const register = activeRegisterForPath(location.pathname);
   const [draft, setDraft] = useState('');
   const [showMoreActions, setShowMoreActions] = useState(false);
   const { addToast } = useToastStore();
@@ -711,6 +723,7 @@ export default function AIChatPanel({
           layoutMode === 'tablet' ? s.tabletPanel : '',
           layoutMode === 'phone' ? s.phonePanel : '',
           isOverlayLayout && collapsed ? s.overlayCollapsed : '',
+          REGISTER_STYLES[register],
         ].filter(Boolean).join(' ')}
       >
       <button

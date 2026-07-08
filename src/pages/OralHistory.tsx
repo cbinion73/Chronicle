@@ -8,6 +8,8 @@ import { ORAL_HISTORY_PROMPTS } from '../data/oralHistoryPrompts';
 import { startRecording, type VoiceRecorder } from '../lib/oralHistoryVoice';
 import { transcribeVoiceBlob } from '../lib/voice';
 import stoneStyles from '../styles/stoneCourtRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { THREAD_TABS } from '../lib/sectionTabs';
 
 // The Oral History (ROADMAP M19) — the same excavation as the
 // Archaeology (M18), pointed at someone else. "This is the feature with
@@ -151,6 +153,7 @@ export default function OralHistory() {
   if (stage === 'landing') {
     return (
       <div className={stoneStyles.stoneCourtRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <SectionTabs tabs={THREAD_TABS} />
         <div style={{ maxWidth: 680, margin: '0 auto', padding: isPhone ? '20px 16px 48px' : '32px 24px 64px' }}>
           <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12, marginBottom: 22, flexWrap: 'wrap' }}>
             <div>
@@ -209,6 +212,7 @@ export default function OralHistory() {
   if (stage === 'subject') {
     return (
       <div className={stoneStyles.stoneCourtRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <SectionTabs tabs={THREAD_TABS} />
         <div style={{ maxWidth: 520, margin: '0 auto', padding: isPhone ? '40px 16px' : '64px 24px' }}>
           <section style={card}>
             <div style={{ fontSize: 28, textAlign: 'center', marginBottom: 12 }}>🗝️</div>
@@ -246,6 +250,7 @@ export default function OralHistory() {
   if (stage === 'done') {
     return (
       <div className={stoneStyles.stoneCourtRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <SectionTabs tabs={THREAD_TABS} />
         <div style={{ maxWidth: 560, margin: '0 auto', padding: isPhone ? '48px 18px' : '72px 24px', textAlign: 'center' }}>
           <div style={{ fontSize: 34, color: 'var(--accent-clay)', marginBottom: 14 }}>🗝️</div>
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
@@ -269,6 +274,7 @@ export default function OralHistory() {
 
   return (
     <div className={stoneStyles.stoneCourtRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <SectionTabs tabs={THREAD_TABS} />
       <div style={{ maxWidth: 620, margin: '0 auto', padding: isPhone ? '22px 16px 48px' : '40px 24px 64px' }}>
         <div style={{ textAlign: 'center', marginBottom: 20 }}>
           <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--accent-clay)' }}>

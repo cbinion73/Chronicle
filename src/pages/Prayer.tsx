@@ -13,6 +13,8 @@ import PrayerPathPlayer from '../components/PrayerPathPlayer';
 import AnsweredPrayerCeremony from '../components/ui/AnsweredPrayerCeremony';
 import { PRAYER_PATHS, getPrayerPath } from '../data/prayerPaths';
 import chapelStyles from '../styles/chapelRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { PRAYER_TABS } from '../lib/sectionTabs';
 
 const CATEGORIES = ['All', 'People', 'Needs', 'Praise', 'World', 'Answered'];
 
@@ -283,6 +285,8 @@ export default function Prayer() {
 
       {/* Main */}
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: isCompact ? 'visible' : 'hidden', minHeight: isCompact ? undefined : 0 }}>
+
+        <SectionTabs tabs={PRAYER_TABS} />
 
         {/* Header */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: isPhone ? '12px 14px' : '12px 20px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, gap: 10, flexWrap: 'wrap' }}>

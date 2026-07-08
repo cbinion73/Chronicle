@@ -8,6 +8,8 @@ import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { getRelatedChronicleEntries } from '../lib/chronicleRelations';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import manuscriptStyles from '../styles/manuscriptRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { WORD_TABS } from '../lib/sectionTabs';
 
 export default function Study() {
   const navigate = useNavigate();
@@ -121,8 +123,9 @@ export default function Study() {
   };
 
   return (
-    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', overflow: 'hidden', minHeight: 0 }}>
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
+      <SectionTabs tabs={WORD_TABS} />
+      <div style={{ flex: 1, display: 'flex', overflow: 'hidden', minHeight: 0 }}>
         <div
           style={{
             padding: '16px 20px',

@@ -11,6 +11,8 @@ import { CALLS } from '../data/callsToWorship';
 import { deriveOnThisDay, formatAnniversary, isFeastDay } from '../lib/remembrance';
 import type { ChronicleEntry, PrayerItem } from '../types';
 import chapelStyles from '../styles/chapelRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { OFFICE_TABS } from '../lib/sectionTabs';
 
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
 // day with an ancient shape: Call → Word → Silence → Prayer → Response.
@@ -300,6 +302,7 @@ export default function Office() {
     if (examenDone) {
       return (
         <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+          <SectionTabs tabs={OFFICE_TABS} />
           <div style={{ maxWidth: 620, margin: '0 auto', padding: isPhone ? '48px 18px' : '72px 24px', textAlign: 'center' }}>
             <div style={{ fontSize: 34, color: 'var(--accent-primary)', marginBottom: 14 }}>✚</div>
             <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
@@ -326,6 +329,7 @@ export default function Office() {
 
     return (
       <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <SectionTabs tabs={OFFICE_TABS} />
         <div style={{ maxWidth: 640, margin: '0 auto', padding: isPhone ? '22px 16px 48px' : '36px 24px 64px', display: 'grid', gap: 16 }}>
 
           <div style={{ textAlign: 'center', marginBottom: 4 }}>
@@ -438,6 +442,7 @@ export default function Office() {
   if (completedToday) {
     return (
       <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <SectionTabs tabs={OFFICE_TABS} />
         <div style={{ maxWidth: 620, margin: '0 auto', padding: isPhone ? '48px 18px' : '72px 24px', textAlign: 'center' }}>
           <div style={{ fontSize: 34, color: 'var(--accent-primary)', marginBottom: 14 }}>✚</div>
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
@@ -464,6 +469,7 @@ export default function Office() {
 
   return (
     <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+      <SectionTabs tabs={OFFICE_TABS} />
       <div style={{ maxWidth: 640, margin: '0 auto', padding: isPhone ? '48px 16px 48px' : '80px 24px 64px', display: 'grid', gap: isPhone ? 40 : 56 }}>
 
         <div style={{ textAlign: 'center' }}>

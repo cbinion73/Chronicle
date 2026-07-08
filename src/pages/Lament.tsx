@@ -6,6 +6,8 @@ import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { CARD_STYLE } from '../components/ui/cardStyle';
 import { lamentPsalmOfTheDay } from '../data/lamentPsalms';
 import chapelStyles from '../styles/chapelRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { PRAYER_TABS } from '../lib/sectionTabs';
 
 // The Lament Room (VISION.md covenant #3: "the Psalms are roughly forty
 // percent lament and no product has a lament mode"). A finite, four-
@@ -65,7 +67,8 @@ export default function Lament() {
 
   if (sealed) {
     return (
-      <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+      <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <SectionTabs tabs={PRAYER_TABS} />
         <div style={{ maxWidth: 620, margin: '0 auto', padding: isPhone ? '48px 18px' : '72px 24px', textAlign: 'center' }}>
           <div style={{ fontSize: 34, color: 'var(--accent-copper)', marginBottom: 14 }}>🕯️</div>
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
@@ -84,6 +87,7 @@ export default function Lament() {
 
   return (
     <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+      <SectionTabs tabs={PRAYER_TABS} />
       <div style={{ maxWidth: 640, margin: '0 auto', padding: isPhone ? '22px 16px 48px' : '36px 24px 64px', display: 'grid', gap: 16 }}>
 
         <div style={{ textAlign: 'center', marginBottom: 4 }}>

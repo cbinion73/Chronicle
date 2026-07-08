@@ -10,6 +10,8 @@ import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { getRelatedChronicleEntries } from '../lib/chronicleRelations';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import manuscriptStyles from '../styles/manuscriptRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { WORD_TABS } from '../lib/sectionTabs';
 import type {
   ChronicleBookAssetMap,
   OwnedBook,
@@ -1096,8 +1098,9 @@ export default function Discipleship() {
   }
 
   return (
-    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, overflow: 'hidden', minHeight: 0 }}>
-      <div style={{ height: '100%', overflowY: 'auto', padding: isPhone ? '14px 14px 24px' : '16px 18px 28px' }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
+      <SectionTabs tabs={WORD_TABS} />
+      <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '14px 14px 24px' : '16px 18px 28px' }}>
         <div style={{ display: 'grid', gap: 16 }}>
           <section style={{ ...heroPanelStyle, padding: isPhone ? '16px' : heroPanelStyle.padding }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', gap: 16, alignItems: 'flex-start', flexWrap: 'wrap' }}>
