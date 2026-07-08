@@ -7,6 +7,32 @@ datasource db {
   url      = env("CHRONICLE_DATABASE_URL")
 }
 
+// ── Households (ROADMAP M22 — multi-user foundation) ──────────────────────────
+// Schema-level groundwork only: every existing data model below gained a
+// householdId column, backfilled to one default household so the single
+// keeper's data is untouched. This milestone does NOT add real per-person
+// accounts, login, or API-level data isolation — Cloudflare Access remains
+// the only identity boundary today. AppSettings (a true app-wide singleton
+// keyed by id="singleton") is deliberately excluded from this pass; giving
+// it a household-scoped identity is a decision for the milestone that adds
+// real per-person authentication, not this one.
+model Household {
+  id        String   @id
+  name      String
+  createdAt DateTime @default(now())
+
+  chronicleEntries      ChronicleEntry[]
+  prayerItems           PrayerItem[]
+  formationRhythms      FormationRhythm[]
+  scriptureBookmarks    ScriptureBookmark[]
+  ownedBooks            OwnedBook[]
+  libraryCatalogEntries LibraryCatalogEntry[]
+  threadEvents          ThreadEvent[]
+  memoryVerses          MemoryVerse[]
+
+  @@map("households")
+}
+
 // ── Chronicle Journal Entries ─────────────────────────────────────────────────
 
 model ChronicleEntry {
@@ -19,9 +45,12 @@ model ChronicleEntry {
   themes        String[]
   autoCapture   Boolean  @default(false)
   sourceContext Json?
+  householdId   String   @default("household-default")
+  household     Household @relation(fields: [householdId], references: [id])
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
+  @@index([householdId])
   @@map("chronicle_entries")
 }
 
@@ -39,9 +68,12 @@ model PrayerItem {
   lastPrayedAt   String?
   timesPrayed    Int      @default(0)
   nextFollowUpAt String?
+  householdId    String   @default("household-default")
+  household      Household @relation(fields: [householdId], references: [id])
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 
+  @@index([householdId])
   @@map("prayer_items")
 }
 
@@ -55,26 +87,32 @@ model FormationRhythm {
   prompt         String
   relatedPassage String?
   completions    String[]
+  householdId    String   @default("household-default")
+  household      Household @relation(fields: [householdId], references: [id])
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 
+  @@index([householdId])
   @@map("formation_rhythms")
 }
 
 // ── Scripture Bookmarks ───────────────────────────────────────────────────────
 
 model ScriptureBookmark {
-  id         String   @id
-  label      String
-  passage    String
-  book       String
-  chapter    Int
-  verseStart Int?
-  verseEnd   Int?
-  createdAt  String
-  insertedAt DateTime @default(now())
-  updatedAt  DateTime @updatedAt
+  id          String   @id
+  label       String
+  passage     String
+  book        String
+  chapter     Int
+  verseStart  Int?
+  verseEnd    Int?
+  createdAt   String
+  householdId String   @default("household-default")
+  household   Household @relation(fields: [householdId], references: [id])
+  insertedAt  DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 
+  @@index([householdId])
   @@map("scripture_bookmarks")
 }
 
@@ -96,20 +134,26 @@ model OwnedBook {
   generatedPlan  Json?
   studyState     Json?
   assets         Json?
+  householdId    String   @default("household-default")
+  household      Household @relation(fields: [householdId], references: [id])
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 
+  @@index([householdId])
   @@map("owned_books")
 }
 
 // ── Library Catalog ───────────────────────────────────────────────────────────
 
 model LibraryCatalogEntry {
-  id        String   @id
-  record    Json
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id          String   @id
+  record      Json
+  householdId String   @default("household-default")
+  household   Household @relation(fields: [householdId], references: [id])
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 
+  @@index([householdId])
   @@map("library_catalog_entries")
 }
 
@@ -123,19 +167,22 @@ model LibraryCatalogEntry {
 // physical and queryable across devices and future services (e.g. the
 // Scripture Memory Engine, the Question Lab).
 model ThreadEvent {
-  id        String   @id
-  date      String
-  kind      String   // 'entry' | 'prayer-added' | 'prayer-answered'
-  entryType String?  // set when kind === 'entry'
-  title     String
-  body      String?
-  passage   String?
-  sourceId  String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id          String   @id
+  date        String
+  kind        String   // 'entry' | 'prayer-added' | 'prayer-answered'
+  entryType   String?  // set when kind === 'entry'
+  title       String
+  body        String?
+  passage     String?
+  sourceId    String
+  householdId String   @default("household-default")
+  household   Household @relation(fields: [householdId], references: [id])
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 
   @@index([sourceId])
   @@index([date])
+  @@index([householdId])
   @@map("thread_events")
 }
 
@@ -158,10 +205,13 @@ model MemoryVerse {
   totalReviews  Int       @default(0)
   totalLapses   Int       @default(0)
   addedAt       String
+  householdId   String    @default("household-default")
+  household     Household @relation(fields: [householdId], references: [id])
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
   @@index([dueDate])
+  @@index([householdId])
   @@map("memory_verses")
 }
 

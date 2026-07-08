@@ -221,8 +221,16 @@ arrives; none blocks the movements above.
   and every Growth/Answered Light stone carries a "↓ View in Record"
   link that zooms straight down to that day's ground-level entries.
   Closes Movement III in full.
-- ➡️ **Next: M22 — Households.** Flagged in this document as the single
-  largest architecture change in the plan — real multi-user, where
-  today there is one keeper behind Cloudflare Access and zero `userId`
-  columns anywhere in the schema. Apply the same smallest-real-version
-  discipline and disclose any scope cuts honestly.
+- ✅ **M22 — Households** shipped: **foundation only** (confirmed with
+  the user before implementation, given this touches production data
+  directly). A real `Household` model with an enforced foreign key on
+  every data model except the app-wide `AppSettings` singleton, every
+  existing row backfilled into one default household, verified against
+  realistic pre-existing data via a throwaway Postgres instance before
+  ever touching the real database. No login flow, no per-person
+  accounts, no API-level data isolation yet — that's the next honest
+  increment, not this one.
+- ➡️ **Next: M23 — The Braid.** Parallel threads; shared stones set on
+  multiple threads at once; family worship as the visible crossing
+  point. Depends on real per-person accounts existing, which M22
+  deliberately deferred — expect M23 to need to build that first.
