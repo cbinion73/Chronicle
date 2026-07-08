@@ -698,3 +698,36 @@ Verified: tsc -b, eslint, production build, full Playwright suite
 `discipleship-progress.spec.js` failure remains (`bible-modes.spec.js`
 flaked once mid-session and passed clean on two re-runs, confirmed
 unrelated — the same intermittent test flagged in Milestone 13).
+
+## Milestone 15 (branch: redesign/milestone-15) — Echoes of Your Own Life
+
+The third stone of Movement II, per VISION.md's Ring 2: "resurrection of
+your own words" — reading a passage on a hard morning, and Chronicle
+quietly noting you clung to it before. No AI required, per ROADMAP: it's
+an index, and most of the index already existed.
+
+- **No new matching logic needed.** `Bible.tsx` already had exactly the
+  machinery this called for: `passageMatchesLocation` (parses an entry's
+  free-text `passage` against the current book/chapter) and
+  `chapterChronicleEntries` (the chapter-scoped result set), both
+  originally built for the side-panel "Related Chronicle entries"
+  section. `personalEchoes` is a two-line filter over that same result —
+  exclude today's own entry (that's today's writing, not a returning
+  echo) and anything still sealed (a sealed prayer's body must never
+  surface outside its own deliberate unseal).
+- **A naming collision avoided deliberately**: the app already has an
+  unrelated "Echoes" feature (`panelMode: 'echoes'`, canonical
+  Scripture-to-Scripture cross-references). This milestone's UI is titled
+  **"You've Returned Here"** — a different name, a different card,
+  ambient in the main reading pane rather than gated behind a panel
+  toggle, so it reads unprompted the way VISION.md's "quietly notes"
+  language calls for, and so the two "echoes" concepts never blur into
+  each other on screen.
+- Rendered directly above the verse text (not inside the existing themes/
+  echoes/study-colors/greek panel system) — visible immediately on
+  opening a chapter you've written about before, gone entirely on chapters
+  you haven't.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.
