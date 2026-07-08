@@ -55,12 +55,24 @@ export interface ChronicleEntrySourceContext {
   rule?: {
     category: string;
   };
+  // A Sealed Prayer — written now, meant to stay unread until a future
+  // date or event. `body` holds the prayer text as always, but UI surfaces
+  // (Chronicle.tsx's EntryCard, SealedPrayers.tsx) must not render it while
+  // !opened. See docs/SEALED_TIER.md — today this is UI-level withholding
+  // only, not encryption.
+  sealed?: {
+    unsealAt?: string;
+    eventLabel?: string;
+    sealedAt: string;
+    opened: boolean;
+    openedAt?: string;
+  };
 }
 
 export interface ChronicleEntry {
   id: string;
   date: string;
-  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth' | 'rule';
+  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth' | 'rule' | 'sealed';
   title: string;
   body: string;
   passage?: string;

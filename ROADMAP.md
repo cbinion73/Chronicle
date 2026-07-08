@@ -190,4 +190,7 @@ arrives; none blocks the movements above.
   ceremony asking "who are you becoming?"
 - ✅ **M13 — Remembrance** shipped: on-this-day resurfacing and personal
   feast days, unprompted, in the Daily Office.
-- ➡️ **Next: M14 — Sealed Prayers.**
+- ✅ **M14 — Sealed Prayers** shipped: write and seal a prayer until a
+  date or event, seen but not touchable; the F1 exporter and the F2
+  sealed-tier design doc (`docs/SEALED_TIER.md`).
+- ➡️ **Next: M15 — Echoes of Your Own Life.**
