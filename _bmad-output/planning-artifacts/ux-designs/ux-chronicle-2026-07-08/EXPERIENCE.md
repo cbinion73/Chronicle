@@ -28,25 +28,62 @@ system with register-specific variants.
 
 | Room | Register | Existing page(s) |
 |---|---|---|
-| Daily Office | `{colors.chapel}` | `src/pages/Office.tsx` |
+| Daily Office, Daily Study, Discipleship (daily session), Scripture Memory | `{colors.chapel}` | `src/pages/Office.tsx`, `src/pages/Study.tsx`, `src/pages/Discipleship.tsx`, `src/pages/Memory.tsx` |
 | Prayer Room, Lament, Answered Light (as a Thread altitude), Sealed Prayers, Rule of Life | `{colors.chapel}` | `src/pages/Prayer.tsx`, `src/pages/Lament.tsx`, `src/pages/AnsweredLight.tsx`, `src/pages/SealedPrayers.tsx`, `src/pages/Rule.tsx` |
 | Bible reading | `{colors.manuscript}` | `src/pages/Bible.tsx` |
-| The Thread (Record / Growth / Patterns tabs + the thread-line itself), Question Lab, Heritage/Oral History, Archaeology | `{colors.stonecourt}` | `src/pages/Thread.tsx`, `src/pages/Chronicle.tsx`, `src/pages/GrowthMarkers.tsx`, `src/pages/QuestionLab.tsx`, `src/pages/OralHistory.tsx`, `src/pages/Archaeology.tsx` |
+| The Thread (Record / Growth tabs + the thread-line itself), Question Lab, Heritage/Oral History, Archaeology | `{colors.stonecourt}` | `src/pages/Thread.tsx`, `src/pages/Chronicle.tsx`, `src/pages/GrowthMarkers.tsx`, `src/pages/QuestionLab.tsx`, `src/pages/OralHistory.tsx`, `src/pages/Archaeology.tsx` |
 | The Book / Story | `{colors.oldbible}` | `src/pages/Legacy.tsx` |
-| Study, Discipleship, Plans, Themes, Memory, Explore, Settings | `{colors.ledger}` (existing `tokens.css`, formalized — see DESIGN.md § The Ledger) | `src/pages/Study.tsx`, `src/pages/Discipleship.tsx`, `src/pages/Plans.tsx`, `src/pages/Themes.tsx`, `src/pages/Memory.tsx`, `src/pages/Explore.tsx`, `src/pages/Settings.tsx` |
+| Reading Plans, Themes, Explore, Patterns (Thread altitude), Settings, Discipleship's Workbook Audit sub-panel | `{colors.ledger}` (existing `tokens.css`, formalized — see DESIGN.md § The Ledger) | `src/pages/Plans.tsx`, `src/pages/Themes.tsx`, `src/pages/Explore.tsx`, `src/pages/Insights.tsx`, `src/pages/Settings.tsx` |
 
-**Rationale for the Ledger split**: Question Lab, Heritage, and
-Archaeology went to Stone Court rather than Ledger because their actual
-output is stones (resolved questions, family stones, backfilled growth
-markers) — they belong with the room that displays stones, not with the
-utilitarian rooms. Sealed Prayers and Rule of Life went to Chapel because
-they're structurally part of the Prayer Room family (ceremony-driven,
-already routed under `/prayer/*` for Sealed Prayers) and are ongoing
-devotional practices, not data management. Study and Discipleship went to
-Ledger specifically *because* they're the surfaces where the AI companion
-is allowed to appear (per DESIGN.md's structural commitment #4) — an
-AI-present, analytical posture is definitionally not one of the four
-quiet devotional registers.
+**Revised rationale (corrected from an earlier, factually wrong pass)**:
+the first draft of this table assigned Study/Discipleship to Ledger on
+the theory that they're "where the AI companion is allowed to appear."
+That test doesn't actually hold — checked directly: `Office.tsx` has
+*zero* AI-companion wiring (the one page that's genuinely AI-silent),
+but `Bible.tsx` and `Prayer.tsx` — both devotional, both Chapel/
+Manuscript — have the *same* `setPageContext`/`setSelectedAgentMode`
+calls as `Study.tsx`/`Discipleship.tsx`. Nearly every room feeds the
+ambient global companion; that alone says nothing about register.
+
+The real test applied here: is the room's core act a **personal
+devotional practice** (however it's mechanically implemented), or is it
+**managing, tracking, or researching** data about oneself?
+
+- **Study** (`/study`) — a guided daily devotional exercise (stillness,
+  S.T.E.P.S. journaling, ACTS prayer). No embedded AI-copilot UI at all.
+  Devotional → **Chapel**.
+- **Discipleship** (`/discipleship`) — same devotional daily-session
+  shape as Study, book-driven. It also contains a genuinely utilitarian
+  **Workbook Audit** sub-panel (OCR/AI pipeline diagnostics,
+  `runWorkbookSync`/`runWorkbookQa`) — that specific sub-panel keeps
+  Ledger styling as an intentional utilitarian island inside an
+  otherwise-Chapel room, the same "manage-my-data surfaces stay denser"
+  principle the original UX critique named on day one.
+- **Scripture Memory** (`/memory`) — spaced-repetition verse
+  memorization; the file's own comment states "No AI, no gamification
+  beyond the schedule itself telling the truth." This is hiding God's
+  word in your heart, mechanically honest, not a management tool →
+  **Chapel**.
+- **Reading Plans** (`/plans`) — a dashboard of derived stats (pace,
+  streaks, calendar of active/quiet days). No devotional act happens
+  here directly; it's tracking behavior → **Ledger**.
+- **Themes** (`/themes`) — auto-derived theme browsing, canon coverage
+  charts, monthly activity — a research/analytics browser over one's own
+  corpus, not a reading or writing act → **Ledger**.
+- **Explore** (`/explore`) — the knowledge graph (people/places/
+  relationships) — reference browsing → **Ledger**.
+- **Patterns** (the Thread altitude, `src/pages/Insights.tsx`) — formation-
+  analytics dashboard (`derivePatterns`, `deriveMonthlyActivity`, etc.),
+  the same analytical character as Themes → **Ledger**, not Stone Court.
+  (Corrected from the original Stone Court grouping, which lumped it in
+  with Record/Growth by virtue of sharing the Thread tab bar — sharing a
+  tab bar isn't sharing a register; Patterns doesn't display stones.)
+- **Question Lab, Heritage, Archaeology** stay in **Stone Court**: their
+  actual output is stones (resolved questions, family stones, backfilled
+  growth markers) — they belong with the room that displays stones.
+- **Sealed Prayers, Rule of Life** stay in **Chapel**: structurally part
+  of the Prayer Room family, ceremony-driven, ongoing devotional
+  practice, not data management.
 
 Every room in the app now has an explicit register assignment. **No room
 is left on an unstated default** — if a future room doesn't fit one of

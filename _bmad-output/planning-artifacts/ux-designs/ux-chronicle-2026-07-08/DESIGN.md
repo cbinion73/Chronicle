@@ -117,9 +117,14 @@ every register without exception:
 
 ## Colors
 
-### Chapel — Daily Office, Prayer Room, Lament, Answered Light
+### Chapel — Daily Office, Prayer Room, Lament, Answered Light, Sealed
+### Prayers, Rule of Life, Daily Study, Discipleship (daily session),
+### Scripture Memory
 Darkness-first. Light is meaning: only answered prayers and feast days
-glow. Everything else is quiet typography on a near-black ground.
+glow. Everything else is quiet typography on a near-black ground. Every
+devotional practice in the app lives here, whether it's prayer, Bible-
+adjacent daily study, or memorization — the common thread is "personal
+spiritual practice," not "which page happens to hold it."
 
 | Token | Hex | Use |
 |---|---|---|
@@ -225,8 +230,12 @@ everywhere (not just the Office/ceremonies as today), and the existing
 `Card`/`Badge` components used consistently rather than the current mix
 of inline styles and one-off card patterns.
 
-**Rooms in this register**: Study, Discipleship, Plans, Themes, Memory,
-Explore, Settings.
+**Rooms in this register**: Reading Plans, Themes, Explore, Patterns
+(the Thread altitude), Settings, and Discipleship's Workbook Audit
+sub-panel specifically (Discipleship's own daily-session view is
+Chapel — see EXPERIENCE.md's corrected room map for the full reasoning;
+Study and Scripture Memory are Chapel too, not Ledger, since they're
+devotional practice with no embedded AI feature, not data management).
 
 ## Typography
 
