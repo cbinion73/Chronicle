@@ -207,4 +207,9 @@ arrives; none blocks the movements above.
   answered prayer) into real, backdated stones — no permanent sidebar
   slot, entry points live in the Growth Spine and Answered Light empty
   states instead.
-- ➡️ **Next: M19 — The Oral History.**
+- ✅ **M19 — The Oral History** shipped: the Archaeology's interview
+  engine pointed at someone else — a new permanent Heritage Room
+  (`/heritage`) capturing a grandparent's or mentor's stones by subject,
+  with honestly-scoped in-browser voice recording (never persisted
+  server-side; only the written word is kept).
+- ➡️ **Next: M20 — The Book, Typeset.**

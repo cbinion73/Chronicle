@@ -879,3 +879,54 @@ growth-marker path and the answered-prayer path, asserting the backdated
 date lands correctly on the Growth Spine / Answered Light. Only the
 pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 19 (branch: redesign/milestone-19) — The Oral History
+
+"The feature with a funeral" — the same interview engine as the
+Archaeology (M18), pointed at someone else. A grandparent's stones are
+often only ever going to exist if someone sits down and asks.
+
+- **`src/data/oralHistoryPrompts.ts`** — seven prompts, rephrased for an
+  interviewer asking about someone else rather than a keeper remembering
+  their own life: conversion, baptism, calling, a hard season survived,
+  an answered prayer, a piece of wisdom to pass down, and an open "any
+  other memory" catch-all. Deliberately not a 1:1 reuse of the Archaeology's
+  growth-marker-kind prompts, since these stones belong to the subject,
+  not the keeper's own Growth Spine.
+- **New `heritage` entry type** — `sourceContext.heritage: { subjectName,
+  relationship, hadAudio }`. Kept distinct from `growth` on purpose: mixing
+  someone else's baptism into the keeper's own Growth Spine would have
+  been a real category error, not just a UI inconvenience.
+- **`src/pages/OralHistory.tsx`** at `/heritage`, "The Heritage Room" —
+  unlike the Archaeology, given a full landing page and a permanent
+  sidebar slot, because family interviews happen across many sittings,
+  sometimes years apart, rather than once. Groups captured stones by
+  subject name, with relationship shown as a badge.
+- **Voice recording, honestly scoped.** `src/lib/oralHistoryVoice.ts`
+  wraps `MediaRecorder`/`getUserMedia` for in-browser capture and
+  playback during the interview, with an optional "Transcribe →" button
+  (only shown when the keeper has a transcription provider configured in
+  Settings) that calls the existing `/api/voice/transcribe` endpoint to
+  prefill the text field. **The audio itself is never persisted
+  server-side** — Chronicle's schema has no blob/file column anywhere,
+  and adding one for what could be hours of family audio would mean a
+  real migration and a real hosting cost this milestone didn't take on.
+  This is disclosed in the UI copy itself ("The recording stays in this
+  tab only... it's never saved"), the same honesty standard as M14's
+  sealed-tier design doc and M16's local-only visit log. Mic failure
+  (no permission, no device) degrades gracefully to a text-only inline
+  message — recording is always optional, never blocking.
+- New `--accent-clay` token — earthen, distinct from the Archaeology's
+  amber, since the Heritage Room is its own permanent room, not a
+  one-time wizard.
+- Chronicle.tsx's TYPE_COLORS/TYPE_BG, filter chips, and "By Type" array
+  extended for `heritage`; `formationAnalytics.ts`'s `entryTypes` map
+  updated; prisma schema comment updated (no migration — still a plain
+  `String` column).
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — new `tests/oral-history.spec.js` covers the primary
+voice-free path (subject + relationship, one answered prompt, the rest
+skipped, verified grouped correctly on `/heritage`). Only the
+pre-existing, already-confirmed-non-regression `discipleship-progress.spec.js`
+failure remains.

@@ -22,6 +22,7 @@ const TYPE_COLORS: Record<string, string> = {
   rule: 'var(--accent-forest)',
   sealed: 'var(--accent-slate)',
   question: 'var(--accent-copper)',
+  heritage: 'var(--accent-clay)',
 };
 
 const TYPE_BG: Record<string, string> = {
@@ -34,6 +35,7 @@ const TYPE_BG: Record<string, string> = {
   rule: 'var(--accent-forest-light)',
   sealed: 'var(--accent-slate-light)',
   question: 'var(--accent-copper-light)',
+  heritage: 'var(--accent-clay-light)',
 };
 
 export default function Chronicle() {
@@ -175,7 +177,7 @@ export default function Chronicle() {
         <div className={s.header}>
           <div className={s.headerCluster}>
             <div className={s.filterRow}>
-              {['all', 'insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule', 'sealed', 'question'].map((t) => (
+              {['all', 'insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule', 'sealed', 'question', 'heritage'].map((t) => (
                 <button
                   key={t}
                   onClick={() => setFilterType(t)}
@@ -296,7 +298,7 @@ export default function Chronicle() {
         </div>
         <div className={s.panelSection}>
           <div className={s.panelTitle}>By Type</div>
-          {(['insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule', 'sealed', 'question'] as const).map((type) => {
+          {(['insight', 'prayer', 'study', 'note', 'reflection', 'growth', 'rule', 'sealed', 'question', 'heritage'] as const).map((type) => {
             const count = chronicleEntries.filter((e) => e.type === type).length;
             const pct = Math.round((count / totalEntries) * 100);
             return (

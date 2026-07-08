@@ -52,6 +52,7 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
     { label: 'The Question Lab', path: '/questions', icon: '❓' },
     { label: 'The Lament Room', path: '/prayer/lament', icon: '🕯️' },
     { label: 'The Archaeology', path: '/archaeology', icon: '🗿' },
+    { label: 'The Heritage Room', path: '/heritage', icon: '🗝️' },
     { label: 'Scripture Memory', path: '/memory', icon: '🧠' },
     { label: 'Explore — People & Places', path: '/explore', icon: '🗺️' },
     { label: 'My Chronicle', path: '/thread', icon: '📓' },

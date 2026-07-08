@@ -33,6 +33,9 @@
   /* Warm and unresolved, like a question held open. */
   --accent-copper: #b0611f;
   --accent-copper-light: #fbeee1;
+  /* Earthen, inherited — someone else's stones, held in trust. */
+  --accent-clay: #9c5a3c;
+  --accent-clay-light: #f6ece5;
 
   --sidebar-selected-bg: #edf4ff;
   --sidebar-selected-text: #0f4fcf;
@@ -93,6 +96,7 @@
   --accent-forest-light: #122a1f;
   --accent-slate-light: #1c2333;
   --accent-copper-light: #2e1c0f;
+  --accent-clay-light: #2b1c15;
   --sidebar-selected-bg: #0d234d;
   --sidebar-selected-text: #67b4ff;
   --shadow: 0 1px 3px rgba(0,0,0,0.3);

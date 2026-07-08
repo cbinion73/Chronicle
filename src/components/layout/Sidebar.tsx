@@ -66,6 +66,10 @@ const NAV_GROUPS: { label: string; items: NavItem[] }[] = [
         id: 'questions', label: 'The Question Lab', path: '/questions',
         icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>,
       },
+      {
+        id: 'heritage', label: 'The Heritage Room', path: '/heritage',
+        icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l2.5 6.5L21 9l-5 4.5L17.5 21 12 17l-5.5 4L8 13.5 3 9l6.5-.5z"/></svg>,
+      },
     ],
   },
   {
