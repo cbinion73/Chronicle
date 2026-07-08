@@ -49,6 +49,8 @@ function SearchModalContent({ onClose }: Omit<Props, 'open'>) {
     { label: 'Prayer List', path: '/prayer', icon: '🙏' },
     { label: 'The Answered Light', path: '/prayer/answered-light', icon: '💡' },
     { label: 'My Rule of Life', path: '/rule', icon: '🕊️' },
+    { label: 'The Question Lab', path: '/questions', icon: '❓' },
+    { label: 'The Lament Room', path: '/prayer/lament', icon: '🕯️' },
     { label: 'Scripture Memory', path: '/memory', icon: '🧠' },
     { label: 'Explore — People & Places', path: '/explore', icon: '🗺️' },
     { label: 'My Chronicle', path: '/thread', icon: '📓' },

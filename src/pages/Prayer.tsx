@@ -321,6 +321,20 @@ export default function Prayer() {
             🔒 Sealed Prayers
           </button>
           <button
+            onClick={() => navigate('/prayer/lament')}
+            style={{
+              padding: '6px 12px',
+              background: 'transparent',
+              color: 'var(--accent-copper)',
+              border: '1px solid var(--border)',
+              borderRadius: 8,
+              fontSize: 12,
+              fontWeight: 600,
+              cursor: 'pointer',
+            }}>
+            🕯️ The Lament Room
+          </button>
+          <button
             onClick={() => setAddFormOpen(true)}
             style={{
               padding: '6px 14px',

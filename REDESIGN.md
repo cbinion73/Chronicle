@@ -775,3 +775,60 @@ consistently unrelated, no further chasing without new evidence).
 This closes Movement II — Time Becomes Bidirectional — in full
 (Milestones 12–16: Rule of Life, Remembrance, Sealed Prayers, Echoes of
 Your Own Life, Patina).
+
+## Milestone 17 (branch: redesign/milestone-17) — The Question Lab & Lament
+
+The first stone of Movement III, and the first milestone to ship two
+distinct rooms at once — both drawn from VISION.md's covenant #3:
+"Lament is a first-class citizen... The Question Lab holds open
+questions with the same dignity as answered prayers... open for decades
+if need be. When one resolves after eleven years, that is a ceremony,
+and it is a stone."
+
+### The Question Lab (`/questions`)
+
+- **A new `'question'` Chronicle entry type**, the same zero-migration
+  reuse pattern as every feature since Growth Markers.
+  `sourceContext.question: { status, resolvedAt?, resolution? }`.
+- **Asking is simple; resolving is the ceremony.** Writing a question is
+  a plain inline form — the sacred moment isn't the asking, it's what
+  happens when it finally resolves, possibly years later.
+  `QuestionResolutionCeremony.tsx` follows the Milestone 10 template:
+  review the question and how long it's been carried (`src/lib/
+  questionLab.ts`'s `formatOpenDuration`), an 8-second skippable stillness
+  beat, then "what changed?" written as the closing act.
+- **Resolved questions render as stones** — visually, on the same
+  `/questions` page, using the Growth Spine's established
+  Card/Badge/TimelineDot language — rather than spawning a second
+  Chronicle entry. The "stone" the roadmap calls for is the resolved
+  question's own new appearance, not a duplicate record.
+- Its own top-level sidebar entry (`/questions`), since a question can be
+  vocational ("what is God asking me to do?") and not merely a Prayer
+  Room concern — matching the precedent set by the Rule of Life's flat
+  nav placement.
+
+### The Lament Room (`/prayer/lament`)
+
+- **Investigated and rejected the Prayer Paths system as the
+  implementation.** Prayer Paths (`PrayerPathPlayer.tsx`) is read-only —
+  every step is pre-authored text; there is no free-text input field
+  anywhere in it. A lament's complaint and petition must be written in
+  the keeper's own words, so extending or reusing the path player would
+  have meant real component surgery for a feature it wasn't built for.
+  Built as its own page instead, following the Daily Office's finite-
+  liturgy grammar (`StationLabel`, numbered stations, `CARD_STYLE`) — the
+  same "opposite of a feed" shape, just four stations instead of five:
+  Complaint, Petition, the Turn to Trust, Seal.
+- **`src/data/lamentPsalms.ts`** — a small curated set of lament-psalm
+  openings (Psalm 13, 22, 130...), rotated by day of week exactly like
+  the Office's `CALLS` array, shown as an epigraph — scaffolding the
+  room's shape without scripting what the keeper writes.
+- Saved as an ordinary `type: 'prayer'` entry (a lament is still a
+  prayer) with `sourceContext.lament: { complaint, petition, trust }` —
+  no new entry type needed, consistent with "favor fewer concepts
+  implemented exceptionally well."
+- No AI anywhere in either room, per the covenant.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.
