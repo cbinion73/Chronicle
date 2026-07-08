@@ -1415,3 +1415,52 @@ Chronicle.tsx, not Thread.tsx).
 
 Next: Design-5, the final slice — formalizing the Ledger register for
 Settings, the last unstyled room.
+
+## Design-5 (branch: design/ledger — final slice) — The Ledger formalization pass for Settings
+
+Different in kind from Design-1 through 4: DESIGN.md is explicit that
+the Ledger "uses the existing shipped `tokens.css` palette as-is... this
+redesign does not introduce new Ledger colors." Settings is the one
+utilitarian/management room, deliberately not reskinned into any of the
+four devotional registers. What DESIGN.md asks this pass to formalize
+instead is item 3 of the original UX critique that opened the whole
+redesign ("one real design system"): the 4-step type scale (`--text-xs`
+11px / `--text-sm` 13px / `--text-base` 15px / `--text-lg` 19px,
+established in M11 but only ever applied to the Office/ceremonies/Card/
+Badge) "actually applied everywhere."
+
+Settings.tsx (3,429 lines) carried 227 inline pixel `fontSize` values
+across 9 distinct sizes (10–18px) — every one mechanically mapped to its
+nearest type-scale rung (10/11→xs, 12/13→sm, 14/15/16→base, 17/18→lg)
+via a scripted substitution, then verified by hand-checking tsc/eslint/
+build all stay clean and a full-page screenshot confirms no visual
+regression (same layout, same default light/dark theme colors — no new
+palette was introduced, matching the DESIGN.md instruction precisely).
+
+**Explicitly out of scope for this pass, flagged rather than silently
+dropped**: DESIGN.md also names "the existing `Card`/`Badge` components
+used consistently rather than the current mix of inline styles and
+one-off card patterns" as part of the Ledger formalization. Settings.tsx
+has roughly 128 inline card-like div patterns (border + borderRadius +
+background combinations) that are candidates for conversion to the
+shared `Card`/`Badge` components. Converting a page this size structurally
+— touching JSX shape at 128 sites rather than swapping scalar values —
+is a materially larger and riskier undertaking than a mechanical
+find-and-replace, and doing it in the same slice as the type-scale pass
+would make either change harder to verify in isolation if something
+broke. Deferred as a distinct follow-up, the same way Design-4 deferred
+wiring the Stone Court's `stone-glow` component treatment.
+
+Verified: tsc -b, eslint, production build all clean. Visually verified
+via a full-page screenshot of `/settings` — same layout and chrome as
+before the change, confirming the token substitution didn't alter
+rendering, only its source of truth. Full Playwright suite
+(`--workers=1`): one failure, the already-confirmed pre-existing
+`discipleship-progress.spec.js` — no new failures.
+
+This completes all five Design-N slices of the UX reimagining: Chapel
+(Office/Rule/Prayer/QuestionLab/Lament/SealedPrayers/Memory), Manuscript
+(all six Word pages), Stone Court (every Thread altitude except Story,
+plus Heritage Room), Old Family Bible (Story), and the Ledger
+formalization (Settings) — the full room→register map from EXPERIENCE.md
+is now built.
