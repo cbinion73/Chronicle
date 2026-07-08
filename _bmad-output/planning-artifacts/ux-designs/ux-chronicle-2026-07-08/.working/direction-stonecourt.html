@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chronicle — Direction 3: Stone Court</title>
+<style>
+/* ==========================================================================
+   DIRECTION 3 — STONE COURT: "Tactile; the stones are real objects."
+   --------------------------------------------------------------------------
+   PALETTE
+   #efece4  parchment ground (main content area)
+   #e7e3d7  parchment shade (recessed / sidebar seam)
+   #f5f2ea  parchment light (raised card ground)
+   #6b6a62  stone gray-green (sidebar ground)
+   #5c5b54  stone gray-green deep (sidebar shade)
+   #8a887c  stone gray-green light (sidebar text, hairlines on stone)
+   #d6d2c4  parchment hairline
+   #33322c  ink on parchment (primary text)
+   #62605a  quiet text (secondary)
+   #8f8c80  whisper text (tertiary)
+   STONE TONES
+   #5d6069  slate (standing stones)
+   #4c4f57  slate deep (shadow side)
+   #c2a878  sand (pebbles, warm stones)
+   #b0955f  sand deep
+   #7a8471  moss (living/growing stones)
+   #67725f  moss deep
+   #9c5a3c  clay (marked / feast stones)
+   #86492f  clay deep
+   #e8b44f  answered glow (inner light of the answered-prayer stone)
+   #f3ede0  stone highlight (top-light on all stones)
+   ========================================================================== */
+body {
+  margin: 0;
+  background: #d8d4c8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #33322c;
+  -webkit-font-smoothing: antialiased;
+}
+.sans { font-family: 'Gill Sans', 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif; }
+
+/* ---- rationale block ---- */
+.rationale {
+  max-width: 1100px;
+  margin: 40px auto 28px;
+  padding: 24px 32px;
+  background: #33322c;
+  color: #efece4;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 1.7;
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+}
+.rationale h1 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #c2a878;
+  font-family: Georgia, serif;
+}
+.rationale em { color: #e8b44f; }
+
+/* ---- browser frame ---- */
+.browser {
+  max-width: 1180px;
+  margin: 0 auto 64px;
+  border-radius: 10px;
+  background: #e7e3d7;
+  box-shadow: 0 24px 60px rgba(51,50,44,0.35);
+  overflow: hidden;
+  border: 1px solid #b8b4a6;
+}
+.browser-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: #dedacd;
+  border-bottom: 1px solid #c4c0b2;
+}
+.dot { width: 11px; height: 11px; border-radius: 50%; background: #b8b4a6; }
+.urlbar {
+  flex: 1;
+  margin-left: 8px;
+  background: #efece4;
+  border: 1px solid #c4c0b2;
+  border-radius: 14px;
+  padding: 5px 16px;
+  font-size: 12px;
+  color: #8f8c80;
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+}
+
+/* ---- app shell: quiet stone sidebar + parchment main ---- */
+.shell { display: flex; min-height: 760px; background: #efece4; }
+.sidebar {
+  width: 196px;
+  flex-shrink: 0;
+  background: linear-gradient(to bottom, #6b6a62, #5c5b54);
+  padding: 34px 0 28px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .wordmark {
+  font-size: 19px;
+  letter-spacing: 0.12em;
+  color: #efece4;
+  padding: 0 26px 30px;
+  font-variant: small-caps;
+}
+.sidebar nav a {
+  display: block;
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 13.5px;
+  letter-spacing: 0.1em;
+  color: #c9c6ba;
+  text-decoration: none;
+  padding: 11px 26px;
+  border-left: 3px solid transparent;
+}
+.sidebar nav a.current {
+  color: #f3ede0;
+  background: rgba(239,236,228,0.08);
+  border-left-color: #c2a878;
+}
+.sidebar .side-foot {
+  margin-top: auto;
+  padding: 20px 26px 0;
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: #8a887c;
+  border-top: 1px solid rgba(138,136,124,0.35);
+}
+
+.main {
+  flex: 1;
+  padding: 48px 64px 56px;
+  min-width: 0;
+}
+
+.dateline {
+  font-variant: small-caps;
+  letter-spacing: 0.24em;
+  font-size: 14px;
+  color: #62605a;
+  margin: 0 0 4px;
+}
+.screen-title {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0 0 26px;
+  color: #33322c;
+}
+
+.call-card {
+  background: #f5f2ea;
+  border: 1px solid #d6d2c4;
+  border-radius: 8px;
+  padding: 26px 32px 24px;
+  margin: 0 0 26px;
+}
+.call-card p.call {
+  font-size: 22px;
+  line-height: 1.6;
+  margin: 0 0 8px;
+  color: #33322c;
+}
+.call-card p.cite {
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 12.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8f8c80;
+  margin: 0;
+}
+
+/* ---- remembrance: a small clay feast stone beside the copy ---- */
+.remembrance {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #f5f2ea;
+  border: 1px solid #d6d2c4;
+  border-radius: 8px;
+  padding: 22px 32px;
+  margin: 0 0 38px;
+}
+.feast-stone {
+  flex-shrink: 0;
+  width: 64px;
+  height: 56px;
+  border-radius: 46% 54% 49% 51% / 55% 48% 52% 45%;
+  background: radial-gradient(ellipse at 32% 26%, #b06a48 0%, #9c5a3c 45%, #86492f 100%);
+  box-shadow:
+    inset 3px 5px 8px rgba(243,237,224,0.35),
+    inset -4px -6px 10px rgba(60,30,16,0.4),
+    0 6px 10px rgba(51,50,44,0.3);
+}
+.remembrance .r-copy .label {
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 11.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9c5a3c;
+  margin: 0 0 6px;
+}
+.remembrance .r-copy p.text {
+  font-size: 17px;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0;
+  color: #33322c;
+}
+
+/* ---- stations list ---- */
+.stations-hd {
+  font-variant: small-caps;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  color: #62605a;
+  margin: 0 0 18px;
+}
+.station {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  padding: 18px 0;
+  border-bottom: 1px solid #d6d2c4;
+}
+.station:last-child { border-bottom: 0; }
+.station .num {
+  flex-shrink: 0;
+  width: 40px;
+  height: 36px;
+  border-radius: 48% 52% 55% 45% / 52% 47% 53% 48%;
+  background: radial-gradient(ellipse at 34% 28%, #6d7079 0%, #5d6069 50%, #4c4f57 100%);
+  box-shadow:
+    inset 2px 3px 5px rgba(243,237,224,0.3),
+    inset -3px -4px 7px rgba(30,32,38,0.45),
+    0 4px 7px rgba(51,50,44,0.28);
+  color: #f3ede0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 36px;
+}
+.station h3 {
+  margin: 2px 0 5px;
+  font-size: 19px;
+  font-weight: normal;
+  color: #33322c;
+}
+.station .detail {
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: #62605a;
+  margin: 0;
+}
+.station .detail em { font-family: Georgia, serif; color: #33322c; }
+
+/* prayer pebbles: small smooth pebbles in a row */
+.pebble-row {
+  display: flex;
+  gap: 16px;
+  margin: 12px 0 0;
+  flex-wrap: wrap;
+}
+.pebble {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 13.5px;
+  color: #33322c;
+  background: #f5f2ea;
+  border: 1px solid #d6d2c4;
+  border-radius: 20px;
+  padding: 7px 16px 7px 8px;
+}
+.pebble .p-stone {
+  width: 26px;
+  height: 22px;
+  border-radius: 52% 48% 45% 55% / 48% 55% 45% 52%;
+  background: radial-gradient(ellipse at 34% 26%, #d4bd93 0%, #c2a878 50%, #b0955f 100%);
+  box-shadow:
+    inset 2px 2px 4px rgba(243,237,224,0.5),
+    inset -2px -3px 5px rgba(110,86,45,0.4),
+    0 3px 5px rgba(51,50,44,0.22);
+}
+.pebble:nth-child(2) .p-stone {
+  border-radius: 46% 54% 55% 45% / 55% 46% 54% 45%;
+  background: radial-gradient(ellipse at 30% 30%, #8b9582 0%, #7a8471 50%, #67725f 100%);
+  box-shadow:
+    inset 2px 2px 4px rgba(243,237,224,0.4),
+    inset -2px -3px 5px rgba(58,66,52,0.45),
+    0 3px 5px rgba(51,50,44,0.22);
+}
+.pebble:nth-child(3) .p-stone {
+  border-radius: 55% 45% 48% 52% / 45% 52% 48% 55%;
+  background: radial-gradient(ellipse at 36% 24%, #6d7079 0%, #5d6069 50%, #4c4f57 100%);
+  box-shadow:
+    inset 2px 2px 4px rgba(243,237,224,0.35),
+    inset -2px -3px 5px rgba(30,32,38,0.45),
+    0 3px 5px rgba(51,50,44,0.22);
+}
+.prompt {
+  font-size: 17px;
+  font-style: italic;
+  color: #33322c;
+  margin: 8px 0 0;
+}
+
+/* ---- section labels between mockups ---- */
+.section-label {
+  max-width: 1100px;
+  margin: 56px auto 16px;
+  font-variant: small-caps;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  color: #62605a;
+  text-align: center;
+}
+
+/* ================= SECONDARY: THE THREAD — the showpiece ================= */
+.thread-main { position: relative; padding-bottom: 26px; }
+/* the drawn line the stones sit ON */
+.ground-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 300px;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #8a887c 6%, #8a887c 94%, transparent);
+  border-radius: 2px;
+}
+.stone-court {
+  position: relative;
+  height: 420px;
+  margin-top: 30px;
+}
+.court-stone {
+  position: absolute;
+  text-align: center;
+  width: 190px;
+  transform: translateX(-50%);
+}
+.court-stone .body {
+  margin: 0 auto;
+  box-shadow:
+    inset 4px 7px 12px rgba(243,237,224,0.35),
+    inset -6px -9px 14px rgba(30,32,38,0.45),
+    0 14px 18px -6px rgba(51,50,44,0.45);
+}
+/* baptism: tall slate standing stone */
+.court-stone.baptism { left: 17%; top: 130px; }
+.court-stone.baptism .body {
+  width: 96px;
+  height: 172px;
+  border-radius: 43% 57% 52% 48% / 47% 44% 56% 53%;
+  background: radial-gradient(ellipse at 32% 22%, #6d7079 0%, #5d6069 48%, #4c4f57 100%);
+}
+/* calling: broad moss stone */
+.court-stone.calling { left: 42%; top: 186px; }
+.court-stone.calling .body {
+  width: 128px;
+  height: 116px;
+  border-radius: 57% 43% 48% 52% / 44% 53% 47% 56%;
+  background: radial-gradient(ellipse at 30% 26%, #8b9582 0%, #7a8471 48%, #67725f 100%);
+  box-shadow:
+    inset 4px 6px 10px rgba(243,237,224,0.35),
+    inset -5px -8px 12px rgba(58,66,52,0.5),
+    0 12px 16px -6px rgba(51,50,44,0.45);
+}
+/* answered prayer: sand stone with warm inner glow */
+.court-stone.answered { left: 67%; top: 162px; }
+.court-stone.answered .body {
+  width: 118px;
+  height: 140px;
+  border-radius: 48% 52% 44% 56% / 56% 46% 54% 44%;
+  background: radial-gradient(ellipse at 50% 42%, #e8b44f 0%, #c2a878 55%, #b0955f 100%);
+  box-shadow:
+    inset 4px 6px 10px rgba(243,237,224,0.5),
+    inset -5px -8px 12px rgba(110,86,45,0.4),
+    0 0 34px rgba(232,180,79,0.55),
+    0 12px 16px -6px rgba(51,50,44,0.4);
+}
+/* today: small clay growing tip, half-set */
+.court-stone.today { left: 87%; top: 254px; width: 150px; }
+.court-stone.today .body {
+  width: 54px;
+  height: 48px;
+  border-radius: 52% 48% 55% 45% / 47% 55% 45% 53%;
+  background: radial-gradient(ellipse at 32% 26%, #b06a48 0%, #9c5a3c 48%, #86492f 100%);
+  box-shadow:
+    inset 2px 3px 6px rgba(243,237,224,0.35),
+    inset -3px -5px 8px rgba(60,30,16,0.45),
+    0 8px 12px -4px rgba(51,50,44,0.4);
+}
+.court-stone .c-label {
+  margin: 14px 0 2px;
+  font-size: 17px;
+  color: #33322c;
+}
+.court-stone .c-date {
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8f8c80;
+  margin: 0;
+}
+.court-stone .c-note {
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: #62605a;
+  margin: 6px 0 0;
+}
+.court-stone.answered .c-note { color: #9c5a3c; }
+
+/* ================= STATE VARIANT: RE-ENTRY GRACE ================= */
+.grace-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 560px;
+}
+/* a warm stone-tablet card */
+.tablet {
+  max-width: 560px;
+  padding: 48px 52px 44px;
+  border-radius: 4% 5% 4% 6% / 7% 5% 8% 5%;
+  background:
+    radial-gradient(ellipse at 30% 18%, #d4bd93 0%, #c2a878 55%, #b0955f 100%);
+  box-shadow:
+    inset 5px 8px 16px rgba(243,237,224,0.5),
+    inset -7px -10px 18px rgba(110,86,45,0.45),
+    0 0 46px rgba(232,180,79,0.35),
+    0 20px 28px -8px rgba(51,50,44,0.5);
+  text-align: center;
+}
+.tablet .t-label {
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 11.5px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #86492f;
+  margin: 0 0 20px;
+}
+.tablet p.text {
+  font-size: 22px;
+  line-height: 1.75;
+  color: #33322c;
+  margin: 0 0 34px;
+}
+.tablet .grace-btn {
+  display: inline-block;
+  font-family: 'Gill Sans', 'Segoe UI', Verdana, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  color: #f3ede0;
+  background: linear-gradient(to bottom, #9c5a3c, #86492f);
+  padding: 13px 30px;
+  border-radius: 24px;
+  text-decoration: none;
+  box-shadow:
+    inset 1px 2px 3px rgba(243,237,224,0.35),
+    0 6px 10px rgba(51,50,44,0.35);
+}
+</style>
+</head>
+<body>
+
+<div class="rationale">
+  <h1>Direction 3 · Stone Court — “The stones are real objects”</h1>
+  The middle path: a quiet stone-gray sidebar keeps the familiar app shell, but every sacred object on the parchment is rendered as a physical stone — river-worn, weighty, each with its own irregular silhouette, top-light, and shadow. Prayers are small pebbles you could hold; life markers are standing stones set on a drawn line; and the answered prayer carries a <em>warm inner glow</em>, as if the light were inside the stone itself.
+</div>
+
+<!-- ============ HERO: THE DAILY OFFICE ============ -->
+<div class="section-label">Hero Screen — The Daily Office (Morning)</div>
+<div class="browser">
+  <div class="browser-bar">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <div class="urlbar">chronicle.app / office / morning</div>
+  </div>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="wordmark">Chronicle</div>
+      <nav>
+        <a href="#" class="current">The Office</a>
+        <a href="#">The Word</a>
+        <a href="#">The Prayer List</a>
+        <a href="#">The Thread</a>
+        <a href="#">The Book</a>
+      </nav>
+      <div class="side-foot">You are on page 214 of your book.</div>
+    </aside>
+    <main class="main">
+      <p class="dateline">Tuesday, July 8 — Morning</p>
+      <h1 class="screen-title">The Daily Office</h1>
+
+      <div class="call-card">
+        <p class="call">“This is the day the LORD has made; let us rejoice and be glad in it.”</p>
+        <p class="cite">Call to Worship — Psalm 118:24</p>
+      </div>
+
+      <div class="remembrance">
+        <div class="feast-stone"></div>
+        <div class="r-copy">
+          <p class="label">Remembrance · Feast Day</p>
+          <p class="text">Seven years ago today — the answer to the prayer you carried through the hardest season of your life.</p>
+        </div>
+      </div>
+
+      <p class="stations-hd">The Five Stations</p>
+
+      <div class="station">
+        <div class="num">1</div>
+        <div>
+          <h3>The Word</h3>
+          <p class="detail">Today’s reading: <em>Psalm 34</em> — “I sought the LORD, and he answered me.”</p>
+        </div>
+      </div>
+
+      <div class="station">
+        <div class="num">2</div>
+        <div>
+          <h3>Silence</h3>
+          <p class="detail">Be still. Nothing is asked of you here.</p>
+        </div>
+      </div>
+
+      <div class="station">
+        <div class="num">3</div>
+        <div>
+          <h3>The Prayer List</h3>
+          <p class="detail">Three prayers carried forward this morning:</p>
+          <div class="pebble-row">
+            <span class="pebble"><span class="p-stone"></span>Mom’s surgery recovery</span>
+            <span class="pebble"><span class="p-stone"></span>Wisdom for the job decision</span>
+            <span class="pebble"><span class="p-stone"></span>The Hendersons’ marriage</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="station">
+        <div class="num">4</div>
+        <div>
+          <h3>The Record</h3>
+          <p class="prompt">What is God teaching you this morning?</p>
+        </div>
+      </div>
+
+      <div class="station">
+        <div class="num">5</div>
+        <div>
+          <h3>Benediction</h3>
+          <p class="detail">Go in peace, to love and serve.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- ============ SECONDARY: THE THREAD (showpiece) ============ -->
+<div class="section-label">Secondary Screen — The Thread</div>
+<div class="browser">
+  <div class="browser-bar">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <div class="urlbar">chronicle.app / thread</div>
+  </div>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="wordmark">Chronicle</div>
+      <nav>
+        <a href="#">The Office</a>
+        <a href="#">The Word</a>
+        <a href="#">The Prayer List</a>
+        <a href="#" class="current">The Thread</a>
+        <a href="#">The Book</a>
+      </nav>
+      <div class="side-foot">You are on page 214 of your book.</div>
+    </aside>
+    <main class="main thread-main">
+      <p class="dateline">Your life, set in stones</p>
+      <h1 class="screen-title">The Thread</h1>
+
+      <div class="stone-court">
+        <div class="ground-line"></div>
+
+        <div class="court-stone baptism">
+          <div class="body"></div>
+          <p class="c-label">💧 Baptism</p>
+          <p class="c-date">June 2015</p>
+        </div>
+
+        <div class="court-stone calling">
+          <div class="body"></div>
+          <p class="c-label">🧭 Calling Clarified</p>
+          <p class="c-date">March 2019</p>
+        </div>
+
+        <div class="court-stone answered">
+          <div class="body"></div>
+          <p class="c-label">Answered Prayer</p>
+          <p class="c-date">October 2024</p>
+          <p class="c-note">Carried 4 years, 2 months — answered October 2024</p>
+        </div>
+
+        <div class="court-stone today">
+          <div class="body"></div>
+          <p class="c-label">Today</p>
+          <p class="c-note">3 entries today</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- ============ STATE VARIANT: RE-ENTRY GRACE ============ -->
+<div class="section-label">State Variant — Re-entry After Absence, Met With Grace</div>
+<div class="browser">
+  <div class="browser-bar">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <div class="urlbar">chronicle.app</div>
+  </div>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="wordmark">Chronicle</div>
+      <nav>
+        <a href="#" class="current">The Office</a>
+        <a href="#">The Word</a>
+        <a href="#">The Prayer List</a>
+        <a href="#">The Thread</a>
+        <a href="#">The Book</a>
+      </nav>
+      <div class="side-foot">You are on page 214 of your book.</div>
+    </aside>
+    <main class="main grace-main">
+      <div class="tablet">
+        <p class="t-label">Kept for you</p>
+        <p class="text">Welcome back. Here is what you were carrying when you were last here. Two of those prayers have since been waiting for you to see them answered.</p>
+        <a class="grace-btn" href="#">Open the Answered Light →</a>
+      </div>
+    </main>
+  </div>
+</div>
+
+</body>
+</html>

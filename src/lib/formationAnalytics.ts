@@ -48,14 +48,6 @@ const THEME_CATEGORY_MAP: Record<string, string> = {
   justification: 'Doctrine',
 };
 
-const STOPWORDS = new Set([
-  'about', 'after', 'again', 'been', 'before', 'because', 'being', 'came', 'come', 'could',
-  'every', 'from', 'have', 'into', 'just', 'keep', 'lord', 'more', 'much', 'only', 'over',
-  'really', 'said', 'still', 'that', 'their', 'them', 'there', 'these', 'this', 'those',
-  'through', 'today', 'very', 'what', 'when', 'where', 'which', 'while', 'with', 'would',
-  'your', 'yours', 'jesus', 'god',
-]);
-
 function parseEntryDate(date: string) {
   return new Date(`${date}T12:00:00`);
 }
@@ -71,14 +63,6 @@ function formatMonthLabel(monthKey: string) {
 
 function formatLongDate(date: string) {
   return parseEntryDate(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-}
-
-function tokenize(text: string) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s']/g, ' ')
-    .split(/\s+/)
-    .filter((token) => token.length >= 4 && !STOPWORDS.has(token));
 }
 
 function slugifyTheme(label: string) {
@@ -492,42 +476,6 @@ export function deriveLegacyNarrative(entries: ChronicleEntry[]) {
   ];
 
   return lines.join('\n');
-}
-
-export function answerLegacyQuestion(entries: ChronicleEntry[], question: string) {
-  const lower = question.toLowerCase();
-  const scored = entries
-    .map((entry) => {
-      const haystack = `${entry.title} ${entry.body} ${entry.passage || ''}`.toLowerCase();
-      let score = 0;
-      for (const token of tokenize(question)) {
-        if (haystack.includes(token)) score += 1;
-      }
-      return { entry, score };
-    })
-    .filter((item) => item.score > 0)
-    .sort((a, b) => b.score - a.score || b.entry.date.localeCompare(a.entry.date));
-
-  const chosen = scored.slice(0, 3).map((item) => item.entry);
-  if (chosen.length === 0) {
-    return {
-      text: 'I do not have a strong answer from the saved Chronicle entries yet. The next best step is to keep writing honestly so the legacy surface has more real material to draw from.',
-      sources: [],
-    };
-  }
-
-  const emphasis = lower.includes('fear')
-    ? 'Fear shows up, but it is usually carried into prayer or Scripture rather than left alone.'
-    : lower.includes('trust')
-      ? 'Trust appears less as instant confidence and more as a repeated act of handing things back to God.'
-      : lower.includes('prayer')
-        ? 'Prayer reads less like performance and more like a place to tell the truth.'
-        : 'The clearest answer is in the repeated patterns of language, Scripture, and return.';
-
-  return {
-    text: `${emphasis}\n\n${chosen.map((entry) => `${formatLongDate(entry.date)} — ${entry.title}: ${entry.body.slice(0, 150)}${entry.body.length > 150 ? '...' : ''}`).join('\n\n')}`,
-    sources: chosen.map((entry) => `${formatLongDate(entry.date)} — ${entry.title}`),
-  };
 }
 
 export function groupThemesByCategory(themes: ThemeSignal[]) {

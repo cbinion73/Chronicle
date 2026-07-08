@@ -1,0 +1,72 @@
+/* The Old Family Bible register (Design-1) — an heirloom on a shelf, not
+   a museum piece. Textural details here that inline styles can't express
+   (corner wear, foxing, the open-book gutter shadow) via ::before/::after.
+   Colors/layout live inline per the codebase's existing convention;
+   this file exists only for what pseudo-elements require. */
+
+.cover {
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  background:
+    radial-gradient(circle at 4% 4%, rgba(0, 0, 0, 0.45) 0%, transparent 6%),
+    radial-gradient(circle at 96% 4%, rgba(0, 0, 0, 0.45) 0%, transparent 6%),
+    radial-gradient(circle at 4% 96%, rgba(0, 0, 0, 0.45) 0%, transparent 6%),
+    radial-gradient(circle at 96% 96%, rgba(0, 0, 0, 0.45) 0%, transparent 6%);
+  pointer-events: none;
+}
+
+.giltEdge {
+  position: relative;
+}
+
+.giltEdge::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+.page {
+  position: relative;
+}
+
+.page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 92% 8%, rgba(120, 90, 40, 0.16) 0%, transparent 7%),
+    radial-gradient(circle at 8% 90%, rgba(120, 90, 40, 0.14) 0%, transparent 9%),
+    radial-gradient(circle at 85% 92%, rgba(120, 90, 40, 0.12) 0%, transparent 8%),
+    radial-gradient(circle at 12% 12%, rgba(120, 90, 40, 0.1) 0%, transparent 10%),
+    radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(70, 45, 20, 0.18) 100%);
+  pointer-events: none;
+}
+
+.dropRule {
+  position: relative;
+}
+
+.dropRule::before {
+  content: '\2766';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -52%);
+  color: #b8860b;
+  font-size: 15px;
+  background: #f0e4c8;
+  padding: 0 8px;
+}

@@ -1,0 +1,403 @@
+<!--
+  DIRECTION: "Old Family Bible"
+  Hex palette used in this mockup:
+    #2e1e14  - deep brown cover/frame base (outer "board" of the book)
+    #1f130c  - darker brown, cover shadow / spine depth
+    #4a1f1f  - oxblood/burgundy leather panel (inner cover inlay)
+    #3a1717  - burgundy shadow/depth variant
+    #6b2c2c  - burgundy highlight (leather sheen)
+    #c9a227  - brass/gold accent, primary (rules, initial cap, running header)
+    #b8860b  - darkgoldenrod, secondary gold (gradient partner, gilt edge)
+    #e8c766  - pale gold highlight (gilt shine, hot spot in gradients)
+    #f0e4c8  - aged paper base color
+    #e9d8ab  - paper shadow tone (vignette / foxing edges)
+    #fbf3dc  - paper highlight tone (center page glow)
+    #5a4326  - ink-brown for body text (soft black-brown, not pure black)
+    #7a6a4a  - muted brown for running header / footer / secondary text
+    #8a5a1f  - warm sepia for the drop rule gradient center
+-->
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #14100c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .stage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 60px;
+    box-sizing: border-box;
+    background: #14100c;
+  }
+
+  .rationale {
+    max-width: 1100px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #cbb98a;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.55;
+    margin: 0 0 28px;
+    padding: 16px 20px;
+    border-left: 3px solid #c9a227;
+    background: #1c150f;
+  }
+
+  .rationale strong {
+    color: #e8c766;
+  }
+
+  /* ---------- Browser chrome ---------- */
+  .browser-frame {
+    width: 1100px;
+    max-width: 100%;
+    background: #d9d9d9;
+    border-radius: 10px 10px 4px 4px;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.55), 0 4px 12px rgba(0,0,0,0.4);
+    overflow: hidden;
+  }
+
+  .browser-bar {
+    height: 34px;
+    background: linear-gradient(#f3f3f3, #e2e2e2);
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #c7c7c7;
+  }
+
+  .browser-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 7px;
+    display: inline-block;
+  }
+
+  .browser-url {
+    flex: 1;
+    margin-left: 14px;
+    background: #fff;
+    border-radius: 5px;
+    height: 20px;
+    line-height: 20px;
+    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    color: #777;
+    padding: 0 10px;
+  }
+
+  /* ---------- The heirloom book "object" ---------- */
+  .book-shelf {
+    background: #0f0b08;
+    padding: 46px 60px 56px;
+    box-sizing: border-box;
+  }
+
+  .book-cover {
+    background:
+      radial-gradient(ellipse at 20% 15%, #5a2a2a 0%, #4a1f1f 38%, #3a1717 78%, #2b1010 100%);
+    border-radius: 6px;
+    padding: 22px;
+    box-sizing: border-box;
+    box-shadow:
+      0 25px 45px rgba(0,0,0,0.6),
+      inset 0 0 0 1px #2b1010,
+      inset 0 0 40px rgba(0,0,0,0.5);
+    position: relative;
+  }
+
+  /* worn leather corners / texture suggestion via layered radial gradients */
+  .book-cover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 6px;
+    background:
+      radial-gradient(circle at 4% 4%, rgba(0,0,0,0.45) 0%, transparent 6%),
+      radial-gradient(circle at 96% 4%, rgba(0,0,0,0.45) 0%, transparent 6%),
+      radial-gradient(circle at 4% 96%, rgba(0,0,0,0.45) 0%, transparent 6%),
+      radial-gradient(circle at 96% 96%, rgba(0,0,0,0.45) 0%, transparent 6%),
+      repeating-linear-gradient(115deg, rgba(0,0,0,0.05) 0px, rgba(0,0,0,0.05) 2px, transparent 2px, transparent 5px);
+    pointer-events: none;
+  }
+
+  .cover-frame-inner {
+    border: 1px solid #8a5a1f;
+    outline: 1px solid rgba(201,162,39,0.35);
+    outline-offset: 3px;
+    border-radius: 3px;
+    padding: 3px;
+  }
+
+  /* ---------- Gilt page edge stripe (left side of the page block) ---------- */
+  .gilt-and-page {
+    display: flex;
+    box-shadow: 0 10px 26px rgba(0,0,0,0.45);
+  }
+
+  .gilt-edge {
+    width: 16px;
+    flex: 0 0 16px;
+    background: linear-gradient(90deg,
+      #7a5410 0%,
+      #c9a227 18%,
+      #e8c766 38%,
+      #b8860b 55%,
+      #e8c766 70%,
+      #97701a 88%,
+      #6b4a10 100%);
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .gilt-edge::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(0,0,0,0.10) 0px,
+      rgba(0,0,0,0.10) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  }
+
+  /* ---------- Page area ---------- */
+  .page {
+    flex: 1;
+    position: relative;
+    background:
+      radial-gradient(ellipse at 50% 45%, #fbf3dc 0%, #f0e4c8 55%, #e9d8ab 88%, #d9c48f 100%);
+    padding: 0;
+    min-height: 640px;
+  }
+
+  /* subtle foxing / vignette spots, drawn with gradients, no images */
+  .page::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 92% 8%, rgba(120,90,40,0.16) 0%, transparent 7%),
+      radial-gradient(circle at 8% 90%, rgba(120,90,40,0.14) 0%, transparent 9%),
+      radial-gradient(circle at 85% 92%, rgba(120,90,40,0.12) 0%, transparent 8%),
+      radial-gradient(circle at 12% 12%, rgba(120,90,40,0.10) 0%, transparent 10%),
+      radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(70,45,20,0.18) 100%);
+    pointer-events: none;
+  }
+
+  /* faint center spine shadow to suggest an open-book gutter */
+  .page::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 46px;
+    margin-left: -23px;
+    background: linear-gradient(90deg,
+      transparent 0%,
+      rgba(60,35,15,0.10) 40%,
+      rgba(60,35,15,0.20) 50%,
+      rgba(60,35,15,0.10) 60%,
+      transparent 100%);
+    pointer-events: none;
+  }
+
+  .page-content {
+    position: relative;
+    z-index: 1;
+    padding: 40px 64px 30px;
+    box-sizing: border-box;
+  }
+
+  .running-header {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    font-size: 13px;
+    color: #7a6a4a;
+    border-bottom: 1px solid rgba(122,90,20,0.4);
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+  }
+
+  .page-tracker {
+    text-align: center;
+    font-size: 11px;
+    color: #9a8a63;
+    font-style: italic;
+    margin-bottom: 34px;
+    letter-spacing: 0.02em;
+  }
+
+  .two-col {
+    display: flex;
+    gap: 56px;
+  }
+
+  .col {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .chapter-heading {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    color: #3a2b17;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 0 0 10px;
+    font-weight: normal;
+  }
+
+  .drop-rule {
+    width: 140px;
+    height: 6px;
+    margin: 0 auto 30px;
+    background: linear-gradient(90deg, transparent 0%, #8a5a1f 15%, #c9a227 50%, #8a5a1f 85%, transparent 100%);
+    position: relative;
+  }
+  .drop-rule::before {
+    content: "\2766";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -52%);
+    color: #b8860b;
+    font-size: 15px;
+    background: #f0e4c8;
+    padding: 0 8px;
+  }
+
+  .entry-date {
+    text-align: center;
+    font-size: 12px;
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    color: #8a5a1f;
+    margin-bottom: 22px;
+  }
+
+  .drop-cap {
+    float: left;
+    font-family: Georgia, serif;
+    font-size: 64px;
+    line-height: 52px;
+    padding: 6px 8px 0 0;
+    color: #4a1f1f;
+    text-shadow: 1px 1px 0 #c9a227;
+  }
+
+  .body-text {
+    font-size: 16.5px;
+    line-height: 1.85;
+    color: #5a4326;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  .body-text p {
+    margin: 0 0 16px;
+  }
+
+  .marginal-gloss {
+    font-size: 12px;
+    font-style: italic;
+    color: #9a8256;
+    line-height: 1.6;
+    padding-top: 4px;
+    border-left: 1px dashed rgba(138,90,31,0.4);
+    padding-left: 16px;
+  }
+
+  .marginal-gloss .g-title {
+    display: block;
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+    color: #6b4a10;
+    margin-bottom: 8px;
+    font-style: normal;
+  }
+
+  .page-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+    font-size: 13px;
+    color: #6b4a10;
+  }
+</style>
+
+<div class="stage">
+
+  <div class="rationale">
+    <strong>Old Family Bible.</strong> This is an heirloom, not a museum piece &mdash; a real book with a cracked-in leather cover that has sat on a shelf for decades, opened often enough to soften at the spine. Where the app's "Manuscript" register venerates scripture with illumination and gold leaf, this register domesticates it: oxblood leather, brass corner-wear, foxed page edges, and a plain gilt stripe are enough to say <em>this book has been read</em>, not <em>this book is sacred and untouchable</em>. The reading experience should feel like Sunday afternoon at grandmother's house, not a scriptorium.
+  </div>
+
+  <div class="browser-frame">
+    <div class="browser-bar">
+      <span class="browser-dot" style="background:#ff5f57;"></span>
+      <span class="browser-dot" style="background:#febc2e;"></span>
+      <span class="browser-dot" style="background:#28c840;"></span>
+      <span class="browser-url">chronicle.app/book/chris/part-iii/214</span>
+    </div>
+
+    <div class="book-shelf">
+      <div class="book-cover">
+        <div class="cover-frame-inner">
+          <div class="gilt-and-page">
+            <div class="gilt-edge"></div>
+
+            <div class="page">
+              <div class="page-content">
+
+                <div class="running-header">The Book of Chris &middot; Part III &middot; The 2020 Season</div>
+                <div class="page-tracker">You are on page 214 of your book.</div>
+
+                <div class="two-col">
+                  <div class="col">
+                    <h1 class="chapter-heading">Calling Clarified</h1>
+                    <div class="drop-rule"></div>
+                    <div class="entry-date">June 15, 2020</div>
+
+                    <div class="body-text">
+                      <p>
+                        <span class="drop-cap">I</span>t was somewhere between the second cup of coffee and the dog needing to go out again that the thought finally sat still long enough to look at. Not a bolt of lightning &mdash; more like a fog lifting off a field I'd been standing in the whole time. I have spent three years asking God to tell me what to do next. This morning I understood the question was wrong. He hasn't been quiet about direction. I've been unwilling to admit the direction was already underneath my feet.
+                      </p>
+                      <p>
+                        What I do with people &mdash; the listening, the follow-up, the remembering what they told me six months ago &mdash; isn't a hobby I do around the real work. It is the work. I wrote that sentence down twice, like I didn't trust myself the first time.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="marginal-gloss">
+                      <span class="g-title">In the margin</span>
+                      Cross-ref: entry of March 2, 2020 &mdash; "still waiting to hear something." See also Part II, "The Year of Asking," page 167.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-footer">&mdash; 214 &mdash;</div>
+              </div>
+            </div>
+
+            <div class="gilt-edge"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
