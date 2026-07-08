@@ -11,6 +11,7 @@ export type NavTab =
   | 'explore'
   | 'rule'
   | 'questions'
+  | 'heritage'
   | 'chronicle'
   | 'themes'
   | 'plans'
@@ -84,12 +85,21 @@ export interface ChronicleEntrySourceContext {
     petition: string;
     trust: string;
   };
+  // The Oral History (M19) — a stone captured about someone else, not the
+  // keeper's own life. `hadAudio` only discloses that a voice recording
+  // was used during capture to help the interviewer write it down; the
+  // audio itself is never persisted server-side (see src/lib/oralHistoryVoice.ts).
+  heritage?: {
+    subjectName: string;
+    relationship: string;
+    hadAudio?: boolean;
+  };
 }
 
 export interface ChronicleEntry {
   id: string;
   date: string;
-  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth' | 'rule' | 'sealed' | 'question';
+  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth' | 'rule' | 'sealed' | 'question' | 'heritage';
   title: string;
   body: string;
   passage?: string;

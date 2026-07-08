@@ -15,6 +15,7 @@ const Rule = lazy(() => import('./pages/Rule'));
 const QuestionLab = lazy(() => import('./pages/QuestionLab'));
 const Lament = lazy(() => import('./pages/Lament'));
 const Archaeology = lazy(() => import('./pages/Archaeology'));
+const OralHistory = lazy(() => import('./pages/OralHistory'));
 const Thread = lazy(() => import('./pages/Thread'));
 const TeachingOutline = lazy(() => import('./pages/TeachingOutline'));
 const Themes = lazy(() => import('./pages/Themes'));
@@ -82,6 +83,7 @@ export default function App() {
             <Route path="rule" element={<Rule />} />
             <Route path="questions" element={<QuestionLab />} />
             <Route path="archaeology" element={<Archaeology />} />
+            <Route path="heritage" element={<OralHistory />} />
             <Route path="thread" element={<Thread />} />
             <Route path="thread/teach/:entryId" element={<TeachingOutline />} />
             <Route path="thread/:view" element={<Thread />} />
