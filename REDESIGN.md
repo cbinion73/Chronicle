@@ -1133,3 +1133,63 @@ Postgres instance (unique-email and household-FK constraints both
 independently confirmed to actually reject bad data). Only the
 pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Design-1 (branch: design/old-family-bible) — The Old Family Bible register
+
+The first slice of a full UX reimagining, requested unconstrained ("look
+at the entirety of this program... how would you reimagine the UX?").
+Full design process run via the `bmad-ux` skill: three initial design
+directions rendered as HTML mockups (Manuscript, Chapel, Stone Court),
+a fourth (Old Family Bible) added once the user chose different
+registers for different rooms rather than one unifying skin, then both
+`DESIGN.md` and `EXPERIENCE.md` spines finalized at
+`_bmad-output/planning-artifacts/ux-designs/ux-chronicle-2026-07-08/`
+before any production code was touched. Five named registers now exist:
+Chapel (Office/Prayer/Lament/Sealed Prayers/Rule), Manuscript (Bible
+reading), Stone Court (Thread/Growth/Question Lab/Heritage/
+Archaeology), Old Family Bible (the Book/Story), and the Ledger (a
+formalization of the existing design system for Study/Discipleship/
+Plans/Themes/Memory/Explore/Settings — introduced specifically because
+those are AI-present, analytical surfaces, not devotional ones, and
+forcing them into a devotional register would have been dishonest).
+
+Built smallest-first, per the user's own choice of build sequencing:
+
+- **`src/pages/Legacy.tsx` rebuilt entirely** in the Old Family Bible
+  register: oxblood leather cover, brass gilt page-edge stripe, foxed
+  and aged parchment, a running header ("The Book of Chris · Part III
+  · The 2020 Season"), a chapter heading under a gilt drop-rule, and
+  the page-count line ("You are on page 214 of your book.") — all real
+  CSS (gradients, layered shadows, `::before`/`::after` texture in the
+  new `src/pages/Legacy.module.css`), no images.
+- **The persistent chapter sidebar was removed**, replaced by a
+  "📖 Table of Contents" toggle that opens inside the book object
+  itself rather than sitting as permanent chrome — per DESIGN.md's
+  rule that Stone Court is the only register that keeps a persistent
+  sidebar rail.
+- **The page's bespoke "Legacy AI" panel was removed entirely** — a
+  real conflict caught while reading the existing page against the new
+  spine's structural commitment #4 ("no AI companion panel in any
+  named register"). It duplicated the app's one global AI companion
+  panel (already fed via `setPageContext`/`setSelectedAgentMode`,
+  which this page still calls) and was the direct cause of the
+  3-pane-viewport squeeze documented as a known issue back in M20.
+  Removing it fixes that bug as a side effect. Its supporting function
+  `answerLegacyQuestion` (a local keyword-search "answer engine," not
+  an actual AI call) and its now-unused helpers (`tokenize`,
+  `STOPWORDS`) were deleted from `formationAnalytics.ts` rather than
+  left as dead code.
+- Verified visually, not just by test assertion: screenshots taken of
+  both the reading view and the Table of Contents against real
+  accumulated dev data (94 real entries in one chapter) before running
+  the full suite.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — `tests/book-typeset.spec.js` updated for the new
+structure (Table of Contents toggle instead of a sidebar click, the new
+page-tracker copy instead of "Page X of Y"). Two failures observed,
+both pre-existing and confirmed unrelated on isolated re-run:
+`discipleship-progress.spec.js` (confirmed non-regression across many
+prior milestones) and `bible-modes.spec.js` (passed 3/3 in isolation
+immediately after — the same intermittent full-suite-only flake
+documented since M13/M14/M16, untouched by this change).

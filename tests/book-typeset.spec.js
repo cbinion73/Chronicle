@@ -1,17 +1,13 @@
 import { test, expect } from '@playwright/test';
 import { appUrl } from './testUrls';
 
-// Milestone 20: The Book, Typeset — the Story tab (/thread/story,
-// src/pages/Legacy.tsx) becomes a real paginated book: years as parts,
-// chapters broken at growth markers, a genuine "Page X of Y" derived
-// from actual content length rather than decoration.
-
-// The Legacy page runs a 3-pane layout (chapter sidebar, book reader,
-// page-local AI panel) alongside the app's own global AI companion
-// panel — at the default 1280px Chromium viewport there isn't enough
-// room left for the reader card's own text once all four columns are
-// laid out. Widen the viewport, matching a normal desktop monitor.
-test.use({ viewport: { width: 1600, height: 900 } });
+// Milestone 20 / UX redesign Design-1: The Book, Typeset, now in the Old
+// Family Bible register — years as parts, chapters broken at growth
+// markers, a genuine page count derived from actual content length. The
+// page reads as a real heirloom book (leather cover, gilt page-edge,
+// aged paper) rather than a card; a "Table of Contents" toggle replaces
+// the old persistent chapter sidebar (removed along with the page's
+// bespoke AI panel per DESIGN.md's no-AI-in-devotional-registers rule).
 
 const MARKER = 'Playwright book typeset test';
 
@@ -66,31 +62,35 @@ test('the Book paginates real content, breaks chapters at growth markers, and gr
   await seedEntry(request, { id: '4', date: '2020-09-01', body: longEntry('after the marker') });
 
   await page.goto(appUrl('/thread/story'));
-  await expect(page.getByText('The Book of Chris').first()).toBeVisible();
+  await expect(page.getByText('The Book of Chris', { exact: false }).first()).toBeVisible();
 
-  // Parts: both years should appear in the sidebar as distinct parts.
+  // The Table of Contents lists both years as distinct parts, with the
+  // 2020 year split into a lead-in chapter plus "Baptism" (the growth
+  // marker's kind label).
+  await page.getByRole('button', { name: 'Table of Contents' }).click();
   await expect(page.getByText('Part I · 2019')).toBeVisible();
   await expect(page.getByText('Part II · 2020')).toBeVisible();
+  const baptismChapterButton = page.getByRole('button', { name: /^Baptism/ });
+  await expect(baptismChapterButton).toBeVisible();
 
-  // Chapters within 2020: a lead-in chapter plus "Baptism" (the growth marker's kind label).
-  await expect(page.getByText('Baptism', { exact: true })).toBeVisible();
+  // Jumping to the Baptism chapter returns to reading mode on a page
+  // whose running header and chapter title both name it.
+  await baptismChapterButton.click();
+  await expect(page.getByText('The 2020 Season', { exact: false })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Baptism' })).toBeVisible();
 
-  // Pagination: page indicator is real and Next/Previous move it.
-  const pageIndicator = page.getByText(/Page \d+ of \d+/);
-  await expect(pageIndicator).toBeVisible();
-  const firstLabel = await pageIndicator.textContent();
+  // Pagination: the page tracker is real and Next/Previous move it.
+  const pageTracker = page.getByText(/You are on page \d+ of your book\./);
+  await expect(pageTracker).toBeVisible();
+  const firstLabel = await pageTracker.textContent();
 
   await page.getByRole('button', { name: 'Next →' }).click();
-  const secondLabel = await pageIndicator.textContent();
+  const secondLabel = await pageTracker.textContent();
   expect(secondLabel).not.toBe(firstLabel);
 
   await page.getByRole('button', { name: '← Previous' }).click();
-  const backToFirst = await pageIndicator.textContent();
+  const backToFirst = await pageTracker.textContent();
   expect(backToFirst).toBe(firstLabel);
-
-  // Jumping to the Baptism chapter lands on a page whose header names it.
-  await page.getByText('Baptism', { exact: true }).click();
-  await expect(page.getByText('2020 · Baptism')).toBeVisible();
 
   await cleanupPriorRuns(request);
 });

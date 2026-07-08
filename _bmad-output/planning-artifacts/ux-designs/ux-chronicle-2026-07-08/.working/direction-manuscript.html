@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chronicle — Direction 1: Manuscript</title>
+<style>
+/* ==========================================================================
+   DIRECTION 1 — MANUSCRIPT: "The illuminated family Bible."
+   --------------------------------------------------------------------------
+   PALETTE
+   #f7f3e9  paper ground (warm cream)
+   #f2ecdd  deep paper (browser frame / recessed areas)
+   #fbf8f0  raised paper (remembrance card ground)
+   #2b2721  ink (primary text)
+   #57503f  faded ink (secondary text)
+   #8a8168  ghost ink (tertiary / hairlines-as-text)
+   #8b2c2c  rubric red (liturgical accent: numerals, feast marks, marginal notes)
+   #a94444  rubric red light (hover-register tint, drop cap inner)
+   #c9c0a8  hairline (rules, borders)
+   #d8d0ba  soft hairline
+   #2b2721  thread line (ink — the thread IS ink)
+   #e8dfc8  stone fill (unanswered / waiting stones)
+   #f7f3e9  page ground repeat for stone knockouts
+   ========================================================================== */
+body {
+  margin: 0;
+  background: #e6e0d0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2b2721;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- rationale block ---- */
+.rationale {
+  max-width: 1100px;
+  margin: 40px auto 28px;
+  padding: 24px 32px;
+  background: #2b2721;
+  color: #f7f3e9;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.rationale h1 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #e8dfc8;
+}
+.rationale em { color: #d9a05b; font-style: italic; }
+
+/* ---- browser frame ---- */
+.browser {
+  max-width: 1180px;
+  margin: 0 auto 64px;
+  border-radius: 10px;
+  background: #f2ecdd;
+  box-shadow: 0 24px 60px rgba(43,39,33,0.35);
+  overflow: hidden;
+  border: 1px solid #c9c0a8;
+}
+.browser-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: #e8e1cd;
+  border-bottom: 1px solid #c9c0a8;
+}
+.dot { width: 11px; height: 11px; border-radius: 50%; background: #c9c0a8; }
+.urlbar {
+  flex: 1;
+  margin-left: 8px;
+  background: #f7f3e9;
+  border: 1px solid #c9c0a8;
+  border-radius: 14px;
+  padding: 5px 16px;
+  font-size: 12px;
+  color: #8a8168;
+  letter-spacing: 0.04em;
+}
+
+/* ---- the page: paper, thread, margins ---- */
+.page {
+  position: relative;
+  background: #f7f3e9;
+  padding: 0 0 0 0;
+  min-height: 400px;
+}
+/* the single continuous thread — 2px ink line down the left margin */
+.thread-line {
+  position: absolute;
+  left: 150px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #2b2721;
+}
+/* nav words set into the margin, rotated register: small caps stacked along thread */
+.margin-nav {
+  position: absolute;
+  left: 0;
+  top: 88px;
+  width: 150px;
+  text-align: right;
+  padding-right: 22px;
+  box-sizing: border-box;
+}
+.margin-nav a {
+  display: block;
+  font-variant: small-caps;
+  letter-spacing: 0.22em;
+  font-size: 13px;
+  color: #8a8168;
+  text-decoration: none;
+  margin-bottom: 30px;
+  position: relative;
+}
+.margin-nav a.current { color: #8b2c2c; }
+.margin-nav a.current::after {
+  content: "";
+  position: absolute;
+  right: -27px;
+  top: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #8b2c2c;
+}
+/* stones ON the thread (hero page: small waypoints) */
+.thread-stone {
+  position: absolute;
+  left: 150px;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #f7f3e9;
+  border: 2px solid #2b2721;
+  box-sizing: border-box;
+}
+.thread-stone.feast { background: #8b2c2c; border-color: #8b2c2c; width: 12px; height: 12px; }
+
+/* ---- content column: enormous margins ---- */
+.content {
+  margin-left: 258px;
+  max-width: 620px;
+  padding: 88px 40px 72px 0;
+}
+
+.dateline {
+  font-variant: small-caps;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  color: #57503f;
+  margin: 0 0 6px;
+}
+.office-title {
+  font-size: 15px;
+  font-style: italic;
+  color: #8a8168;
+  margin: 0 0 48px;
+}
+
+/* drop cap on Call to Worship */
+.call {
+  font-size: 27px;
+  line-height: 1.65;
+  margin: 0 0 10px;
+  font-weight: normal;
+}
+.call .dropcap {
+  float: left;
+  font-size: 92px;
+  line-height: 0.78;
+  padding: 10px 14px 0 0;
+  color: #8b2c2c;
+  font-family: Georgia, serif;
+}
+.call-cite {
+  clear: both;
+  font-variant: small-caps;
+  letter-spacing: 0.18em;
+  font-size: 13px;
+  color: #8a8168;
+  margin: 14px 0 0;
+}
+
+/* remembrance — the feast day, rubricated */
+.remembrance {
+  margin: 56px 0 0;
+  padding: 30px 34px 28px;
+  background: #fbf8f0;
+  border: 1px solid #d8d0ba;
+  border-left: 3px solid #8b2c2c;
+  position: relative;
+}
+.remembrance .feast-mark {
+  position: absolute;
+  left: -13px;
+  top: 26px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #8b2c2c;
+  color: #f7f3e9;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+}
+.remembrance .label {
+  font-variant: small-caps;
+  letter-spacing: 0.24em;
+  font-size: 12px;
+  color: #8b2c2c;
+  margin: 0 0 10px;
+}
+.remembrance p {
+  margin: 0;
+  font-size: 19px;
+  font-style: italic;
+  line-height: 1.7;
+  color: #2b2721;
+}
+
+/* stations — roman numerals as rubrication */
+.stations { margin-top: 72px; }
+.station {
+  position: relative;
+  padding: 0 0 52px 0;
+  border: 0;
+}
+.station .numeral {
+  position: absolute;
+  left: -108px;
+  top: -4px;
+  width: 72px;
+  text-align: right;
+  font-size: 30px;
+  color: #8b2c2c;
+  font-variant: small-caps;
+}
+.station h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+.station .detail {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #57503f;
+  margin: 0;
+}
+.station .detail em { color: #2b2721; }
+.prayer-items {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+}
+.prayer-items li {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2b2721;
+  padding: 7px 0 7px 26px;
+  position: relative;
+}
+.prayer-items li::before {
+  content: "†";
+  position: absolute;
+  left: 2px;
+  color: #8b2c2c;
+  font-size: 15px;
+}
+.prompt {
+  margin: 12px 0 0;
+  font-size: 19px;
+  font-style: italic;
+  color: #2b2721;
+}
+.rule-in-text {
+  border: 0;
+  border-top: 1px solid #d8d0ba;
+  margin: 0 0 52px;
+  width: 120px;
+}
+
+/* footer: the page count */
+.book-footer {
+  margin-left: 258px;
+  max-width: 620px;
+  padding: 0 40px 84px 0;
+  text-align: center;
+}
+.book-footer .fleuron { color: #8b2c2c; font-size: 16px; letter-spacing: 0.6em; }
+.book-footer p {
+  font-variant: small-caps;
+  letter-spacing: 0.22em;
+  font-size: 13px;
+  color: #8a8168;
+  margin: 12px 0 0;
+}
+
+/* ---- section labels between mockups ---- */
+.section-label {
+  max-width: 1100px;
+  margin: 56px auto 16px;
+  font-variant: small-caps;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  color: #57503f;
+  text-align: center;
+}
+
+/* ================= SECONDARY: THE THREAD ================= */
+.thread-page {
+  position: relative;
+  background: #f7f3e9;
+  padding: 72px 0 72px;
+}
+.thread-page .thread-line2 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #2b2721;
+  transform: translateX(-50%);
+}
+.t-entry {
+  position: relative;
+  width: 380px;
+  margin: 0 0 64px;
+}
+.t-entry.left  { margin-left: calc(50% - 440px); text-align: right; }
+.t-entry.right { margin-left: calc(50% + 60px);  text-align: left; }
+.t-entry .t-stone {
+  position: absolute;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f7f3e9;
+  border: 2px solid #2b2721;
+  box-sizing: border-box;
+}
+.t-entry.left  .t-stone { right: -70px; }
+.t-entry.right .t-stone { left: -70px; }
+.t-entry .t-stone.answered { background: #8b2c2c; border-color: #8b2c2c; }
+.t-entry .t-stone.growing {
+  background: #f7f3e9;
+  border-style: dotted;
+}
+.t-entry h3 {
+  margin: 0 0 4px;
+  font-size: 21px;
+  font-weight: normal;
+}
+.t-entry h3 .emoji { font-size: 17px; }
+.t-entry .t-date {
+  font-variant: small-caps;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  color: #8a8168;
+  margin: 0 0 6px;
+}
+.t-entry .t-note {
+  font-size: 15.5px;
+  font-style: italic;
+  line-height: 1.65;
+  color: #57503f;
+  margin: 0;
+}
+.t-entry .t-note .rubric { color: #8b2c2c; font-style: normal; font-variant: small-caps; letter-spacing: 0.14em; font-size: 13px; }
+
+/* ================= STATE VARIANT: RE-ENTRY GRACE ================= */
+.grace-page {
+  position: relative;
+  background: #f7f3e9;
+  padding: 88px 0 88px;
+  min-height: 300px;
+}
+.grace-page .thread-line { left: 150px; }
+.grace-note {
+  margin-left: 258px;
+  max-width: 560px;
+  position: relative;
+}
+/* the rubricated marginal note — a manuscript gloss */
+.grace-note .manicule {
+  position: absolute;
+  left: -104px;
+  top: 4px;
+  color: #8b2c2c;
+  font-size: 26px;
+}
+.grace-note .gloss-label {
+  font-variant: small-caps;
+  letter-spacing: 0.26em;
+  font-size: 12px;
+  color: #8b2c2c;
+  margin: 0 0 16px;
+}
+.grace-note p.gloss {
+  font-size: 24px;
+  line-height: 1.75;
+  font-style: italic;
+  color: #2b2721;
+  margin: 0 0 30px;
+  border-left: 2px solid #8b2c2c;
+  padding-left: 28px;
+}
+.grace-note .grace-btn {
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-variant: small-caps;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  color: #f7f3e9;
+  background: #8b2c2c;
+  padding: 13px 30px;
+  border-radius: 2px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="rationale">
+  <h1>Direction 1 · Manuscript — “The illuminated family Bible”</h1>
+  This is the boldest break: there is no app shell at all — no sidebar, no toolbar, no cards. A single ink thread runs down the left margin of every page and <em>is</em> the navigation, with the stones of a life set directly on it, the way a family Bible carries its record in the margins. One liturgical red is used exactly as medieval rubrication was: numerals, feast marks, and the grace note are written in red because they are the sacred interruptions of ordinary ink.
+</div>
+
+<!-- ============ HERO: THE DAILY OFFICE ============ -->
+<div class="section-label">Hero Screen — The Daily Office (Morning)</div>
+<div class="browser">
+  <div class="browser-bar">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <div class="urlbar">chronicle.app / office / morning</div>
+  </div>
+  <div class="page">
+    <div class="thread-line"></div>
+    <!-- stones on the thread marking today's stations -->
+    <div class="thread-stone" style="top: 96px;"></div>
+    <div class="thread-stone feast" style="top: 330px;"></div>
+    <div class="thread-stone" style="top: 520px;"></div>
+    <div class="thread-stone" style="top: 660px;"></div>
+    <div class="thread-stone" style="top: 800px;"></div>
+    <div class="thread-stone" style="top: 1000px;"></div>
+    <div class="thread-stone" style="top: 1160px;"></div>
+
+    <nav class="margin-nav">
+      <a href="#" class="current">Office</a>
+      <a href="#">Word</a>
+      <a href="#">Prayer</a>
+      <a href="#">Thread</a>
+      <a href="#">Book</a>
+    </nav>
+
+    <main class="content">
+      <p class="dateline">Tuesday, July 8 — Morning</p>
+      <p class="office-title">The Daily Office · Call to Worship</p>
+
+      <p class="call"><span class="dropcap">T</span>his is the day the LORD has made; let us rejoice and be glad in it.</p>
+      <p class="call-cite">— Psalm 118:24</p>
+
+      <aside class="remembrance">
+        <span class="feast-mark">✠</span>
+        <p class="label">Remembrance · A Feast Day</p>
+        <p>Seven years ago today — the answer to the prayer you carried through the hardest season of your life.</p>
+      </aside>
+
+      <div class="stations">
+        <section class="station">
+          <span class="numeral">I.</span>
+          <h2>The Word</h2>
+          <p class="detail">Today’s reading: <em>Psalm 34</em>. “I sought the LORD, and he answered me.”</p>
+        </section>
+        <hr class="rule-in-text">
+
+        <section class="station">
+          <span class="numeral">II.</span>
+          <h2>Silence</h2>
+          <p class="detail">Be still. The page will wait.</p>
+        </section>
+        <hr class="rule-in-text">
+
+        <section class="station">
+          <span class="numeral">III.</span>
+          <h2>The Prayer List</h2>
+          <p class="detail">Three prayers carried forward this morning:</p>
+          <ul class="prayer-items">
+            <li>Mom’s surgery recovery</li>
+            <li>Wisdom for the job decision</li>
+            <li>The Hendersons’ marriage</li>
+          </ul>
+        </section>
+        <hr class="rule-in-text">
+
+        <section class="station">
+          <span class="numeral">IV.</span>
+          <h2>The Record</h2>
+          <p class="prompt">What is God teaching you this morning?</p>
+        </section>
+        <hr class="rule-in-text">
+
+        <section class="station" style="padding-bottom: 8px;">
+          <span class="numeral">V.</span>
+          <h2>Benediction</h2>
+          <p class="detail">Go in peace, to love and serve.</p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="book-footer">
+      <div class="fleuron">❧</div>
+      <p>You are on page 214 of your book.</p>
+    </footer>
+  </div>
+</div>
+
+<!-- ============ SECONDARY: THE THREAD ============ -->
+<div class="section-label">Secondary Screen — The Thread</div>
+<div class="browser">
+  <div class="browser-bar">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <div class="urlbar">chronicle.app / thread</div>
+  </div>
+  <div class="thread-page">
+    <div class="thread-line2"></div>
+
+    <div class="t-entry left">
+      <span class="t-stone"></span>
+      <p class="t-date">June 2015</p>
+      <h3><span class="emoji">💧</span> Baptism</h3>
+      <p class="t-note">The first stone set on the thread.</p>
+    </div>
+
+    <div class="t-entry right">
+      <span class="t-stone"></span>
+      <p class="t-date">March 2019</p>
+      <h3><span class="emoji">🧭</span> Calling Clarified</h3>
+      <p class="t-note">A direction, finally, after the long asking.</p>
+    </div>
+
+    <div class="t-entry left">
+      <span class="t-stone answered"></span>
+      <p class="t-date">October 2024</p>
+      <h3>An Answered Prayer</h3>
+      <p class="t-note"><span class="rubric">Answered ✠</span> &nbsp;Carried 4 years, 2 months — answered October 2024.</p>
+    </div>
+
+    <div class="t-entry right">
+      <span class="t-stone growing"></span>
+      <p class="t-date">Today</p>
+      <h3>Today’s Growing Tip</h3>
+      <p class="t-note">3 entries today. The thread is still being written.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ STATE VARIANT: RE-ENTRY GRACE ============ -->
+<div class="section-label">State Variant — Re-entry After Absence, Met With Grace</div>
+<div class="browser">
+  <div class="browser-bar">
+    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    <div class="urlbar">chronicle.app / office / morning</div>
+  </div>
+  <div class="grace-page">
+    <div class="thread-line"></div>
+    <div class="thread-stone feast" style="top: 120px;"></div>
+    <nav class="margin-nav" style="top: 88px;">
+      <a href="#" class="current">Office</a>
+      <a href="#">Word</a>
+      <a href="#">Prayer</a>
+      <a href="#">Thread</a>
+      <a href="#">Book</a>
+    </nav>
+    <div class="grace-note">
+      <span class="manicule">☞</span>
+      <p class="gloss-label">A Note in the Margin</p>
+      <p class="gloss">Welcome back. Here is what you were carrying when you were last here. Two of those prayers have since been waiting for you to see them answered.</p>
+      <a class="grace-btn" href="#">Open the Answered Light →</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
