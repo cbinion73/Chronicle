@@ -1030,3 +1030,61 @@ and unrelated: `discipleship-progress.spec.js` (confirmed
 non-regression across many prior milestones) and a `bible-settings.spec.js`
 sync-snapshot timeout that passed cleanly on an immediate isolated
 re-run (flaky, not a regression).
+
+## Milestone 22 (branch: redesign/milestone-22) — Households
+
+Movement IV begins. ROADMAP.md itself calls this "the single largest
+architecture change in the plan" — with good reason: before this
+milestone, Chronicle had exactly one keeper (Cloudflare Access is the
+only identity boundary) and zero `userId`/tenant columns anywhere in
+the schema.
+
+**Scope, confirmed with the user before writing any code**: foundation
+only. This milestone adds the schema-level container and backfills
+every existing row into it — it does **not** add real per-person
+accounts, a login flow, or API-level data isolation between people.
+Presenting a decorative `householdId` column that nothing actually
+enforces would have been dishonest; what shipped is a real, enforced
+foreign key, verified against actual data, with everything else
+explicitly deferred.
+
+- **`Household` model** added to `prisma/schema.prisma`. Every existing
+  data model (`ChronicleEntry`, `PrayerItem`, `FormationRhythm`,
+  `ScriptureBookmark`, `OwnedBook`, `LibraryCatalogEntry`,
+  `ThreadEvent`, `MemoryVerse`) gained a `householdId String
+  @default("household-default")` column with a **real, enforced**
+  foreign key to `households.id` — not a soft/unenforced reference.
+  `AppSettings` was deliberately excluded: it's a true app-wide
+  singleton (`id: "singleton"`), and giving it a household-scoped
+  identity is a decision that belongs to the milestone that adds real
+  per-person authentication, not this one.
+- **Migration hand-authored, not generated**, because this environment
+  has no local Postgres for `prisma migrate dev` to run against. The
+  migration creates `households`, seeds one `household-default` row,
+  then adds each `householdId` column with a default (so every
+  existing row backfills automatically) before adding the FK
+  constraint — ordered so the constraint validates cleanly against
+  pre-existing data.
+- **Verified end-to-end against real data before touching production**,
+  using Docker to spin up throwaway Postgres instances (not part of
+  the deployed stack — purely a local verification step):
+  1. Applied the full migration history to an empty database — clean.
+  2. Applied all migrations *except* this one to a second database,
+     inserted realistic pre-existing rows (a chronicle entry, a prayer
+     item, a memory verse), then applied this migration on top —
+     confirmed all three rows backfilled correctly to
+     `household-default`.
+  3. Attempted an insert with a bogus `householdId` — confirmed
+     Postgres actually rejected it via the foreign key constraint, not
+     just that the column existed.
+  4. Applied the migration to the real local dev database (the one
+     this entire session's Playwright runs have been writing to,
+     carrying real accumulated entries) and ran the full app + test
+     suite against it — every read/write path continued to work.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) against the migrated dev database — schema-only change,
+so no application behavior differs and no new tests were needed beyond
+the migration verification above. Only the pre-existing,
+already-confirmed-non-regression `discipleship-progress.spec.js`
+failure remains.
