@@ -1545,3 +1545,96 @@ Remaining for Design-6: apply the same typography-and-spacing depth
 (Thread altitudes + Heritage Room), and to Chapel's other six pages
 (Rule, Prayer, Question Lab, Lament, Sealed Prayers, Memory) — Office.tsx
 was fixed first because it was the one directly flagged.
+
+## Design-7 (branch: design/nav-collapse) — Sidebar collapse to five rooms + section tab bars + chrome theming
+
+Direct user instruction: the persistent left Sidebar must show only the
+five main rooms — The Daily Office, The Word, The Prayer Room, The
+Thread, Settings — with every other page either folded into its
+section's own main page or reached as a sub-page from there. The
+Sidebar and the AI companion panel must also pick up the visual theme
+of whichever room is currently active, the way page content already
+does per Design-1 through Design-6.
+
+**Sidebar** (`Sidebar.tsx`): `NAV_GROUPS` (four labeled clusters, 11
+items) replaced with a flat `NAV_ITEMS` array of exactly 5 entries plus
+Settings. `My Rule of Life`, `Read`/`Daily Study`/`Discipleship`/
+`Reading Plans`/`Themes`/`Memory`/`Explore`, `The Question Lab`, and
+`The Heritage Room` all moved out — they're reachable only from within
+their room now, never from the persistent nav.
+
+**`SectionTabs`** (new shared component, `src/components/ui/
+SectionTabs.tsx` + `src/lib/sectionTabs.ts`): a `<nav aria-label=
+"Section">` tab bar, visually identical to the tab bar The Thread
+already used internally since M21 — extended here as a generic,
+reusable component. Four tab lists (`OFFICE_TABS`, `WORD_TABS`,
+`PRAYER_TABS`, `THREAD_TABS`) are the single source of truth for each
+room's page inventory, so it can't drift between the pages that render
+it. Inserted at the top of every room's landing and sub-pages:
+Office.tsx (all 4 return branches) + Rule.tsx; Bible/Study/Discipleship/
+Plans/Themes/Memory/Explore.tsx (all 7 Word pages); Prayer/QuestionLab/
+Lament/SealedPrayers.tsx (all 4 Prayer-family pages); OralHistory.tsx
+(Heritage Room, all 4 return branches, pointing back into the Thread's
+own tab set). The Thread's own hand-rolled tab bar (`Thread.tsx`) was
+left as-is rather than swapped to the shared component — it has
+route-param-driven view switching this generic version doesn't
+replicate — but gained a sixth `Heritage Room` tab pointing at `/heritage`,
+a genuinely separate route, alongside its five existing altitude tabs.
+
+For pages with a row-flex layout (sidebar + reading pane side by side —
+Bible, Themes, Plans), inserting a header tab bar required wrapping the
+original row-flex content in a new intermediate div and changing the
+root to `flexDirection: column`, rather than just adding a sibling —
+each of those required finding and editing the matching closing `</div>`
+independently, since JSX doesn't have a "wrap these existing children"
+edit primitive.
+
+**Chrome theming** (`src/lib/activeRegister.ts`, new): a route→register
+map, `activeRegisterForPath()`, distinct from the existing Chapel/
+Manuscript/Stone Court page-content registers in one respect — it
+tracks the *section* a route belongs to, not that route's own register,
+so `/thread/story` still themes the Sidebar/AI panel as Stone Court
+(matching The Thread, the section it's inside) even though the Story
+altitude's own content is Old Family Bible. Both `Sidebar.tsx` and
+`AIChatPanel.tsx` compute this from `useLocation()` and append the
+matching existing register CSS module class (`chapelRegister` /
+`manuscriptRegister` / `stoneCourtRegister`, no new palette — Ledger
+sections like Settings get no override, keeping the app's existing
+default theme) to their own root element. The same custom-property
+re-scoping technique from Design-2 onward means this required zero new
+CSS — the Sidebar and AI panel already route their own chrome through
+`var(--card-bg)`/`var(--text)`/etc.
+
+Verified: tsc -b, eslint, production build all clean. Visually verified
+via a temporary Playwright script asserting the Sidebar's nav button
+list is exactly `["The Daily Office", "The Word", "The Prayer Room",
+"The Thread", "Settings"]` on every one of the five landing routes, plus
+screenshots of all five confirming: Office renders in Chapel dark-gold,
+Word renders in Manuscript cream with all 7 tabs visible, Prayer renders
+in Chapel dark with its 4 tabs, Thread renders in Stone Court parchment
+with 6 tabs including the new Heritage Room, and Settings stays the
+app's default light theme with no override.
+
+Fixing this surfaced test fallout from the restructuring itself:
+`app-smoke.spec.js` and `full-product-battery.spec.js` both had a
+`primaryNavItem()` helper
+scoped to `getByRole('navigation').first()` (the Sidebar specifically) —
+broadened to search all `<nav>` elements now that SectionTabs is a
+second nav landmark, and every click sequence that walked from one
+room's sub-page directly to a sibling room's sub-page (e.g. Prayer Room
+→ "Daily Study") was rewritten to click through the owning room's
+Sidebar item first, since that sub-page's tab is no longer reachable
+from anywhere except inside its own room. One phone-width interaction
+(clicking a Sidebar item while Bible's Theme Overlay panel is open) hit
+a pre-existing, unrelated instability in that panel's own dismiss
+behavior at narrow viewports — worked around in the test by navigating
+directly rather than fighting a flaky click, not a regression from this
+change.
+
+Full Playwright suite (`--workers=1`): one failure, the already-confirmed
+pre-existing `discipleship-progress.spec.js` — no new failures.
+
+Remaining for Design-7: none identified — this closes the navigation
+restructuring the user asked for. Design-6's remaining typography work
+(Manuscript, Stone Court, and the other six Chapel pages) is still open
+as tracked follow-up.

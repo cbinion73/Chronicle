@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { appUrl } from './testUrls';
 
 function primaryNavItem(page, label) {
-  return page.getByRole('navigation').first().getByText(label, { exact: true });
+  return page.getByRole('navigation').getByText(label, { exact: true }).first();
 }
 
 test('search, quick navigation, and manual Chronicle entry flow stay usable', async ({ page, request }) => {

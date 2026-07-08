@@ -5,6 +5,8 @@ import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { createMemoryVerse, dueVerses, firstLetterPrompt } from '../lib/memoryEngine';
 import type { MemoryVerse } from '../types';
 import chapelStyles from '../styles/chapelRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { WORD_TABS } from '../lib/sectionTabs';
 
 // The Scripture Memory Engine — verses scheduled with spaced repetition.
 // Review flow: first-letter prompt to self-test, reveal, then grade honestly.
@@ -53,6 +55,7 @@ export default function Memory() {
 
   return (
     <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+      <SectionTabs tabs={WORD_TABS} />
       <div style={{ maxWidth: 680, margin: '0 auto', padding: isPhone ? '18px 16px 40px' : '28px 24px 56px', display: 'grid', gap: 16 }}>
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>

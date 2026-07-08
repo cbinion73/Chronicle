@@ -31,6 +31,7 @@ const VIEWS = [
   { id: 'growth', label: 'Growth', path: '/thread/growth' },
   { id: 'story', label: 'Story', path: '/thread/story' },
   { id: 'patterns', label: 'Patterns', path: '/thread/patterns' },
+  { id: 'heritage', label: 'Heritage Room', path: '/heritage' },
 ] as const;
 
 type ViewId = typeof VIEWS[number]['id'];

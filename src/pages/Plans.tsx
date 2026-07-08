@@ -6,6 +6,8 @@ import { useToastStore } from '../store/toastStore';
 import { deriveRhythmStats, isRhythmCompletedInCurrentPeriod } from '../lib/formationRhythms';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import manuscriptStyles from '../styles/manuscriptRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { WORD_TABS } from '../lib/sectionTabs';
 
 const PLAN_LIBRARY = [
   { name: 'Daily Walk', totalDays: 365, duration: '365 days', desc: 'One chapter a day through the entire Bible' },
@@ -99,7 +101,9 @@ export default function Plans() {
   }, [activeDaysSet, currentMonth, currentYear, todayOfMonth]);
 
   return (
-    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
+      <SectionTabs tabs={WORD_TABS} />
+      <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', minHeight: 0 }}>
       <div style={{ flex: 1, overflowY: 'auto', padding: '20px 24px 32px', display: 'flex', flexDirection: 'column', gap: 16, minHeight: 0 }}>
         <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden', boxShadow: 'var(--shadow)' }}>
           <div style={{ background: 'radial-gradient(circle at 50% 42%, rgba(43, 141, 255, 0.34), transparent 28%), linear-gradient(135deg, #0f4fcf 0%, #0b2f88 100%)', padding: '18px 20px', color: 'white' }}>
@@ -261,6 +265,7 @@ export default function Plans() {
             </div>
           ) : null}
         </div>
+      </div>
       </div>
     </div>
   );

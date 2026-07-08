@@ -44,6 +44,8 @@ import type { ChronicleEntry, ScriptureBookmark } from '../types';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import StudyCouncil from '../components/StudyCouncil';
 import manuscriptStyles from '../styles/manuscriptRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { WORD_TABS } from '../lib/sectionTabs';
 
 const TIER_COLORS: Record<string, string> = {
   Explicit: '#0f4fcf', Strong: '#2b8dff', Inferred: '#d97706', Debated: '#9ca3af',
@@ -1634,7 +1636,9 @@ export default function Bible() {
   }
 
   return (
-    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', position: 'relative', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', position: 'relative', minHeight: 0 }}>
+      <SectionTabs tabs={WORD_TABS} />
+      <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', position: 'relative', minHeight: 0 }}>
 
       {/* Book picker overlay */}
       {showBookPicker && (
@@ -3176,6 +3180,7 @@ export default function Bible() {
           onClose={() => setStudyCouncilOpen(false)}
         />
       ) : null}
+      </div>
     </div>
   );
 }

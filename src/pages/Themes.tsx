@@ -4,6 +4,8 @@ import { deriveCanonCoverage, deriveMonthlyActivity, deriveThemeSignals, groupTh
 import { useAIChatStore } from '../store/aiChatStore';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import manuscriptStyles from '../styles/manuscriptRegister.module.css';
+import SectionTabs from '../components/ui/SectionTabs';
+import { WORD_TABS } from '../lib/sectionTabs';
 
 const TIER_COLORS: Record<string, string> = {
   Strong: '#0f4fcf',
@@ -56,7 +58,9 @@ export default function Themes() {
   }, [selected, setPageContext, setSelectedAgentMode, themeSignals.length]);
 
   return (
-    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
+      <SectionTabs tabs={WORD_TABS} />
+      <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
       <div style={{ width: isCompact ? '100%' : 240, minWidth: isCompact ? 0 : 240, maxHeight: isCompact ? 240 : undefined, borderRight: isCompact ? 'none' : '1px solid var(--border)', borderBottom: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ padding: '10px 14px', borderBottom: '1px solid var(--border)', background: 'var(--card-inner)' }}>
           <input
@@ -233,6 +237,7 @@ export default function Themes() {
             ))}
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
