@@ -1193,3 +1193,25 @@ both pre-existing and confirmed unrelated on isolated re-run:
 prior milestones) and `bible-modes.spec.js` (passed 3/3 in isolation
 immediately after — the same intermittent full-suite-only flake
 documented since M13/M14/M16, untouched by this change).
+
+## Design-0 (branch: design/sidebar-reorg) — Sidebar reorganization
+
+Two nav-grouping moves, requested directly alongside the final register
+map: **My Rule of Life** moves out of the Prayer group into the Office
+group (joins The Daily Office); **The Heritage Room** moves out of the
+Prayer group into the Thread group (joins The Thread). "My Book" was
+considered as a possible new top-level heading and explicitly rejected
+— Story remains nested in the Thread altitude tab bar, not promoted to
+its own sidebar entry.
+
+`src/components/layout/Sidebar.tsx`'s `NAV_GROUPS` array reordered
+accordingly; no new components, no route changes — purely a
+reassignment of which group each existing nav item's object literal
+lives in.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — no test assumed sidebar item order, so nothing needed
+updating. Only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` and `bible-modes.spec.js` failures
+remain (the latter passed cleanly on isolated re-run per the pattern
+documented since M13).
