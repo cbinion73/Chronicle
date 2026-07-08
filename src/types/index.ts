@@ -10,6 +10,7 @@ export type NavTab =
   | 'memory'
   | 'explore'
   | 'rule'
+  | 'questions'
   | 'chronicle'
   | 'themes'
   | 'plans'
@@ -67,12 +68,28 @@ export interface ChronicleEntrySourceContext {
     opened: boolean;
     openedAt?: string;
   };
+  // The Question Lab — an open question held with dignity, possibly for
+  // years. Resolution is a ceremony (QuestionResolutionCeremony.tsx) and
+  // is rendered as a stone, not a second entry.
+  question?: {
+    status: 'open' | 'resolved';
+    resolvedAt?: string;
+    resolution?: string;
+  };
+  // A lament, kept to its Psalm-shaped structure — complaint, petition,
+  // trust — rather than flattened into a single blob. `body` still holds
+  // the whole prayer, concatenated, for search/export.
+  lament?: {
+    complaint: string;
+    petition: string;
+    trust: string;
+  };
 }
 
 export interface ChronicleEntry {
   id: string;
   date: string;
-  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth' | 'rule' | 'sealed';
+  type: 'insight' | 'prayer' | 'study' | 'note' | 'reflection' | 'growth' | 'rule' | 'sealed' | 'question';
   title: string;
   body: string;
   passage?: string;

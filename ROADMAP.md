@@ -198,4 +198,7 @@ arrives; none blocks the movements above.
 - ✅ **M16 — Patina** shipped: passages you've returned to often wear a
   faint warm vignette, derived from a real (local-only) visit log. Closes
   Movement II in full.
-- ➡️ **Next: M17 — The Question Lab & Lament.**
+- ✅ **M17 — The Question Lab & Lament** shipped: open questions held
+  with dignity for years (resolution as ceremony and stone), and a
+  four-station Lament Room shaped by the Psalms of lament.
+- ➡️ **Next: M18 — The Archaeology.**

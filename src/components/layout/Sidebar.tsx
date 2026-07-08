@@ -62,6 +62,10 @@ const NAV_GROUPS: { label: string; items: NavItem[] }[] = [
         id: 'rule', label: 'My Rule of Life', path: '/rule',
         icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 3a2 2 0 012 2v14a2 2 0 01-2 2H8.5A2.5 2.5 0 016 18.5V4a2 2 0 012-2h9z"/><path d="M6 18.5V4a2 2 0 012-2" /><line x1="9" y1="8" x2="15" y2="8"/><line x1="9" y1="12" x2="15" y2="12"/></svg>,
       },
+      {
+        id: 'questions', label: 'The Question Lab', path: '/questions',
+        icon: <svg className={s.navIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>,
+      },
     ],
   },
   {

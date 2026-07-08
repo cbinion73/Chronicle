@@ -30,6 +30,9 @@
   /* Muted, withheld — for what is sealed and not yet meant to be seen. */
   --accent-slate: #526079;
   --accent-slate-light: #eceff4;
+  /* Warm and unresolved, like a question held open. */
+  --accent-copper: #b0611f;
+  --accent-copper-light: #fbeee1;
 
   --sidebar-selected-bg: #edf4ff;
   --sidebar-selected-text: #0f4fcf;
@@ -89,6 +92,7 @@
   --accent-rose-light: #3a1524;
   --accent-forest-light: #122a1f;
   --accent-slate-light: #1c2333;
+  --accent-copper-light: #2e1c0f;
   --sidebar-selected-bg: #0d234d;
   --sidebar-selected-text: #67b4ff;
   --shadow: 0 1px 3px rgba(0,0,0,0.3);
