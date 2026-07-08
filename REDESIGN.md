@@ -1088,3 +1088,48 @@ so no application behavior differs and no new tests were needed beyond
 the migration verification above. Only the pre-existing,
 already-confirmed-non-regression `discipleship-progress.spec.js`
 failure remains.
+
+## Milestone 22.5 (branch: redesign/milestone-22-5) — Real Identity, via Cloudflare Access
+
+A prerequisite discovered while scoping M23 "The Braid": that milestone
+needs to tell one real person apart from another, and M22 deliberately
+didn't build that (foundation only — see above). Rather than invent a
+parallel login/password system, this reads the identity Cloudflare
+Access has already established at the edge for every request.
+
+- **`HouseholdMember` model** (`email` unique, `householdId` FK, real
+  relation to `Household`). Cloudflare Access forwards the authenticated
+  person's email via `Cf-Access-Authenticated-User-Email` on every
+  proxied request once they've passed Access's own login — no signup
+  form, no password to store or manage, no session cookie logic to get
+  wrong.
+- **`householdIdentityGate`** in `server/chronicleApi.ts`, registered
+  right after the existing bearer-token auth gate: reads that header on
+  every `/api/*` request and auto-provisions a `HouseholdMember` on
+  first sight of a new email. Deliberately non-blocking and
+  non-rejecting — if the header is absent (local dev, CI, or a
+  misconfigured proxy), the app behaves exactly as it did before this
+  milestone. This is identity plumbing only: no table's rows are scoped
+  to a specific member yet — that's M23's actual work.
+- **A real bug caught and fixed during verification, not shipped
+  silently**: the general gate provisions fire-and-forget (so it never
+  adds latency to every API call), which meant the new `GET
+  /api/household/me` endpoint could race its own write and return
+  `null` on a person's very first request even though they were
+  correctly identified. Fixed by having that one endpoint `await`
+  provisioning directly before its read, since it's the only place a
+  human actually looks at the result — verified before and after with
+  a live curl reproduction.
+- **Settings → About** now shows "Signed in via Cloudflare Access as
+  {email}" (or "not detected — local dev" when the header is absent),
+  so this is observably real rather than invisible backend plumbing.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) against the migrated dev database, plus direct curl
+verification of `/api/household/me` (no header → null; with header →
+correctly provisioned and returned, confirmed on the very first
+request after the race fix) and the migration against a throwaway
+Postgres instance (unique-email and household-FK constraints both
+independently confirmed to actually reject bad data). Only the
+pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains.

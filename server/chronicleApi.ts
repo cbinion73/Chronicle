@@ -392,6 +392,65 @@ function apiAuthGate(env: Record<string, string>, host: ChronicleMiddlewareHost)
   })
 }
 
+// M22.5 — real per-person identity, read from the identity Cloudflare
+// Access already established rather than a parallel login system.
+// Cloudflare Access forwards the authenticated person's email on every
+// proxied request via this header once they've passed Access's own
+// login. Auto-provisions a HouseholdMember on first sight of a new
+// email; never blocks or rejects a request — if the header is absent
+// (local dev, CI, or a misconfigured proxy in front of the app) the
+// app behaves exactly as it did before this milestone. No table's rows
+// are scoped to a member yet — this is identity plumbing only.
+const CF_ACCESS_EMAIL_HEADER = 'cf-access-authenticated-user-email'
+const DEFAULT_HOUSEHOLD_ID = 'household-default'
+let warnedMissingAccessHeaderOnce = false
+
+async function provisionHouseholdMember(email: string) {
+  try {
+    await _prisma.householdMember.upsert({
+      where: { email },
+      create: { id: `member-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`, householdId: DEFAULT_HOUSEHOLD_ID, email },
+      update: { lastSeenAt: new Date() },
+    })
+  } catch (error) {
+    console.warn('[chronicle] failed to provision household member for', email, error instanceof Error ? error.message : error)
+  }
+}
+
+function householdIdentityGate(host: ChronicleMiddlewareHost) {
+  withChronicleMiddlewares(host, (middlewares) => {
+    middlewares.use('/api', (request, _response, next) => {
+      const email = (request.headers[CF_ACCESS_EMAIL_HEADER] as string | undefined)?.trim()
+      if (email) {
+        void provisionHouseholdMember(email)
+      } else if (!warnedMissingAccessHeaderOnce) {
+        warnedMissingAccessHeaderOnce = true
+        console.warn(
+          `[chronicle] No ${CF_ACCESS_EMAIL_HEADER} header seen — household members will not be provisioned. ` +
+            'Expected when Cloudflare Access is not in front of this server (local dev, CI).',
+        )
+      }
+      next?.()
+    })
+
+    // Lets the client show who Cloudflare Access identified this request
+    // as, so the identity plumbing above is observable, not invisible.
+    middlewares.use('/api/household/me', async (request, response) => {
+      const email = (request.headers[CF_ACCESS_EMAIL_HEADER] as string | undefined)?.trim()
+      if (!email) {
+        sendJson(response, 200, { member: null })
+        return
+      }
+      // Awaited directly (unlike the fire-and-forget provisioning in the
+      // general gate above) so this endpoint never races its own write —
+      // it's the one place a human actually looks at the result.
+      await provisionHouseholdMember(email)
+      const member = await _prisma.householdMember.findUnique({ where: { email } })
+      sendJson(response, 200, { member: member ? { email: member.email, displayName: member.displayName, householdId: member.householdId } : null })
+    })
+  })
+}
+
 function sendJson(response: ServerResponse, statusCode: number, payload: unknown) {
   response.statusCode = statusCode
   response.setHeader('Content-Type', 'application/json')
@@ -6068,6 +6127,7 @@ function obsidianBridgeApi(env: Record<string, string>, host: ChronicleMiddlewar
 // auth gate must run before every route it protects.
 export function registerChronicleApi(host: ChronicleMiddlewareHost, env: Record<string, string>) {
   apiAuthGate(env, host)
+  householdIdentityGate(host)
   apiBibleDevApi(env, host)
   aiChatDevApi(env, host)
   studyCouncilDevApi(env, host)

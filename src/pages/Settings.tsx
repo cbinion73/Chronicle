@@ -478,6 +478,20 @@ export default function Settings() {
   const threadMetaByKey = useAIChatStore((state) => state.threadMetaByKey);
   const { isCompact, isPhone } = useResponsiveLayout();
   const [activeCategory, setActiveCategory] = useState<SettingsCategoryId>(() => getRequestedSettingsCategory(location.state) || 'profile');
+  const [householdMember, setHouseholdMember] = useState<{ email: string; displayName: string | null } | null | undefined>(undefined);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/household/me')
+      .then((res) => res.json())
+      .then((data: { member: { email: string; displayName: string | null } | null }) => {
+        if (!cancelled) setHouseholdMember(data.member);
+      })
+      .catch(() => {
+        if (!cancelled) setHouseholdMember(null);
+      });
+    return () => { cancelled = true; };
+  }, []);
   const [ocrPdfPath, setOcrPdfPath] = useState('/Users/chris/Downloads/Masterlife All Sessions Complete.pdf');
   const [ocrStem, setOcrStem] = useState('masterlife-book1');
   const [ocrPageRange, setOcrPageRange] = useState('1-10');
@@ -3243,6 +3257,11 @@ export default function Settings() {
                   />
                   <div style={{ fontSize: 17, fontWeight: 700, color: 'var(--text)' }}>Chronicle</div>
                   <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>Version {CHRONICLE_APP_VERSION} ({CHRONICLE_BUILD_LABEL})</div>
+                  {householdMember !== undefined ? (
+                    <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 6 }}>
+                      {householdMember ? `Signed in via Cloudflare Access as ${householdMember.email}` : 'Cloudflare Access identity not detected (local dev)'}
+                    </div>
+                  ) : null}
                   <div style={{ fontSize: 12, color: 'var(--text-sub)', marginTop: 8 }}>{CHRONICLE_TAGLINE}</div>
                   <div style={{ fontFamily: 'var(--font-serif)', fontSize: 12, fontStyle: 'italic', color: 'var(--text-sub)', marginTop: 12, lineHeight: 1.7 }}>
                     "{CHRONICLE_MOTTO}"
