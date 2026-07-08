@@ -610,3 +610,44 @@ be a second UI path for the same action, not a real convenience.
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 13 (branch: redesign/milestone-13) — Remembrance
+
+The first stone of ROADMAP's Movement II ("Time Becomes Bidirectional"):
+on-this-day resurfacing and personal feast days, per VISION.md Ring 2 —
+"the church gave us Advent and Easter; your thread generates a second
+calendar." Deliberately unprompted: most days this shows nothing at all.
+
+- **`src/lib/remembrance.ts`** — `deriveOnThisDay(entries, prayerItems,
+  today)` scans every Chronicle entry and answered prayer for a
+  month-day match against today, more than zero years in the past.
+  Growth markers and answered prayers are tagged as feast days (a small
+  ✦ marker in the UI); ordinary entries surface more quietly alongside
+  them. `formatAnniversary(years)` renders the span in plain language
+  ("1 year ago today", "3 years ago today"). No new tables — pure
+  derivation over data the thread already holds, the same architecture as
+  the Answered Light and the Growth Spine.
+- **Wired into the Daily Office** (both the full Office and the Evening
+  Examen) as an unnumbered preface card, shown only when
+  `deriveOnThisDay` returns something for today — sitting alongside the
+  existing re-entry-as-grace `WelcomeBackCard`, using the Rule of Life's
+  `--accent-forest` token.
+- **A real timezone bug caught before it shipped**: the first
+  implementation compared "today" using local `Date` getters
+  (`getMonth()`/`getDate()`), but every date string in Chronicle is
+  stored UTC-normalized (`toISOString().split('T')[0]`, the same pattern
+  `Office.tsx`'s own `todayKey()` uses). Near local-midnight/UTC-midnight,
+  that mismatch silently drops a real anniversary. Fixed by reading
+  "today" with the matching UTC getters — caught immediately by the new
+  test, which computes its seed dates the same way the rest of the app
+  does rather than hand-picking a date.
+
+Scoped out per ROADMAP: this milestone is on-this-day/feast-day
+*surfacing* only. "Resurrection of your own words" (passages you've
+returned to) is M15 (Echoes); patina and sealed prayers are M14/M16.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains (`bible-modes.spec.js`
+flaked once mid-session and passed clean on re-run, confirmed unrelated
+to this milestone's changes).

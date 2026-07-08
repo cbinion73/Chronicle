@@ -9,6 +9,7 @@ import { dueVerses } from '../lib/memoryEngine';
 import { currentRegister } from '../lib/hours';
 import { CARD_STYLE } from '../components/ui/cardStyle';
 import { CALLS } from '../data/callsToWorship';
+import { deriveOnThisDay, formatAnniversary, isFeastDay } from '../lib/remembrance';
 import type { ChronicleEntry, PrayerItem } from '../types';
 
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
@@ -93,6 +94,36 @@ function WelcomeBackCard({ prayerItems, lastEntry, card }: {
   );
 }
 
+function RemembranceCard({ memories, card }: {
+  memories: ReturnType<typeof deriveOnThisDay>;
+  card: React.CSSProperties;
+}) {
+  return (
+    <section style={{ ...card, borderColor: 'var(--accent-forest)', background: 'var(--accent-forest-light)' }}>
+      <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 19, fontWeight: 700, color: 'var(--text)', margin: '0 0 8px' }}>
+        Remembrance
+      </h2>
+      <div style={{ display: 'grid', gap: 10 }}>
+        {memories.map((memory) => (
+          <div key={memory.id}>
+            <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--accent-forest)', marginBottom: 2 }}>
+              {isFeastDay(memory) ? '✦ ' : ''}{formatAnniversary(memory.yearsAgo)}
+            </div>
+            <div style={{ fontFamily: 'var(--font-serif)', fontSize: 14, color: 'var(--text)', lineHeight: 1.55 }}>
+              {memory.title}
+            </div>
+            {memory.body ? (
+              <p style={{ fontSize: 12, color: 'var(--text-sub)', fontStyle: 'italic', margin: '3px 0 0' }}>
+                "{memory.body}"
+              </p>
+            ) : null}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function StationLabel({ n, children }: { n: number; children: React.ReactNode }) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
@@ -132,6 +163,7 @@ export default function Office() {
   });
   const welcomeBack = useWelcomeBack();
   const lastEntry = chronicleEntries.length > 0 ? chronicleEntries[0] : undefined;
+  const remembrances = useMemo(() => deriveOnThisDay(chronicleEntries, prayerItems), [chronicleEntries, prayerItems]);
 
   const call = CALLS[new Date().getDay()];
   const activeStudyDay = getStudyDay('bible-study', studyModuleDayById['bible-study'] || 1);
@@ -282,6 +314,7 @@ export default function Office() {
           </div>
 
           {welcomeBack && <WelcomeBackCard prayerItems={prayerItems} lastEntry={lastEntry} card={card} />}
+          {remembrances.length > 0 && <RemembranceCard memories={remembrances} card={card} />}
 
           {/* 1 · Review */}
           <section style={card}>
@@ -419,6 +452,7 @@ export default function Office() {
         </div>
 
         {welcomeBack && <WelcomeBackCard prayerItems={prayerItems} lastEntry={lastEntry} card={card} />}
+        {remembrances.length > 0 && <RemembranceCard memories={remembrances} card={card} />}
 
         {/* 1 · Call */}
         <section style={card}>
