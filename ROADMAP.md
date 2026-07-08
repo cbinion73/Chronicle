@@ -230,7 +230,14 @@ arrives; none blocks the movements above.
   ever touching the real database. No login flow, no per-person
   accounts, no API-level data isolation yet — that's the next honest
   increment, not this one.
+- ✅ **M22.5 — Real Identity, via Cloudflare Access** shipped (a
+  prerequisite discovered while scoping M23, not on the original
+  numbered list): a `HouseholdMember` model auto-provisioned from the
+  identity Cloudflare Access already establishes at the edge
+  (`Cf-Access-Authenticated-User-Email`) — no parallel login/password
+  system built. Identity plumbing only; no data is scoped to a member
+  yet.
 - ➡️ **Next: M23 — The Braid.** Parallel threads; shared stones set on
   multiple threads at once; family worship as the visible crossing
-  point. Depends on real per-person accounts existing, which M22
-  deliberately deferred — expect M23 to need to build that first.
+  point. Real per-person identity now exists (M22.5) — M23's actual
+  work is using it: scoping data to members, not just households.

@@ -21,6 +21,7 @@ model Household {
   name      String
   createdAt DateTime @default(now())
 
+  members               HouseholdMember[]
   chronicleEntries      ChronicleEntry[]
   prayerItems           PrayerItem[]
   formationRhythms      FormationRhythm[]
@@ -31,6 +32,30 @@ model Household {
   memoryVerses          MemoryVerse[]
 
   @@map("households")
+}
+
+// ── Household Members (M22.5 — real per-person identity) ──────────────────────
+// Chronicle's only identity boundary has been Cloudflare Access, which
+// authenticates at the edge but has no concept of "which person" inside
+// the app. Rather than build a parallel login/session system, this reads
+// the identity Cloudflare Access already established: every proxied
+// request carries a `Cf-Access-Authenticated-User-Email` header once a
+// person has passed Access's own login. server/chronicleApi.ts reads
+// that header and auto-provisions a HouseholdMember row per unique email
+// the first time it's seen — no signup form, no password to manage.
+// This is identity plumbing only: no table's rows are yet scoped to a
+// specific member (that data-isolation work is M23's).
+model HouseholdMember {
+  id          String   @id
+  householdId String
+  household   Household @relation(fields: [householdId], references: [id])
+  email       String   @unique
+  displayName String?
+  createdAt   DateTime @default(now())
+  lastSeenAt  DateTime @default(now())
+
+  @@index([householdId])
+  @@map("household_members")
 }
 
 // ── Chronicle Journal Entries ─────────────────────────────────────────────────
