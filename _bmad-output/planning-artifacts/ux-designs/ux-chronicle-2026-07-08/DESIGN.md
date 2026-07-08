@@ -117,14 +117,14 @@ every register without exception:
 
 ## Colors
 
-### Chapel — Daily Office, Prayer Room, Lament, Answered Light, Sealed
-### Prayers, Rule of Life, Daily Study, Discipleship (daily session),
-### Scripture Memory
+### Chapel — Daily Office, Rule of Life, Prayer Room, Question Lab,
+### Lament, Sealed Prayers, Scripture Memory
 Darkness-first. Light is meaning: only answered prayers and feast days
-glow. Everything else is quiet typography on a near-black ground. Every
-devotional practice in the app lives here, whether it's prayer, Bible-
-adjacent daily study, or memorization — the common thread is "personal
-spiritual practice," not "which page happens to hold it."
+glow. Everything else is quiet typography on a near-black ground. Final
+room list per direct user instruction: Study and Discipleship, despite
+being devotional in character, were assigned to Manuscript instead (all
+of "The Word" is uniform Manuscript) — Chapel is the Office/Prayer
+family plus Scripture Memory specifically.
 
 | Token | Hex | Use |
 |---|---|---|
@@ -143,11 +143,17 @@ spiritual practice," not "which page happens to hold it."
 isn't an answered prayer, a feast day, or the current liturgical station,
 that's a bug, not a style choice.
 
-### Manuscript — Bible Reading
+### Manuscript — The whole Word group: Read, Daily Study, Discipleship,
+### Reading Plans, Themes, Explore
 Illuminated-manuscript register: paper and ink, with liturgical red used
 the way medieval scribes used rubrication — never as decoration, always to
 mark something structural (a station numeral, a feast mark, a cross-
-reference).
+reference). Per direct user instruction this register now covers all six
+rooms of "The Word" uniformly, not just Bible reading — including
+Discipleship's Workbook Audit sub-panel (a data-pipeline diagnostic
+tool), which was flagged as a candidate for staying Ledger-styled but
+no exception was requested, so it's Manuscript along with the rest of
+the page.
 
 | Token | Hex | Use |
 |---|---|---|
@@ -163,11 +169,15 @@ reference).
 | `manuscript.hairline-soft` | `#d8d0ba` | quieter rule variant |
 | `manuscript.stone-waiting` | `#e8dfc8` | unanswered/waiting-state fill, where the Bible view touches Thread stones |
 
-### Stone Court — The Thread
+### Stone Court — The Thread (all altitudes except Story), Heritage Room
 Tactile register: sacred moments are real CSS objects with weight, not
 cards. A quiet sidebar survives here (the only register that keeps one),
 because the Thread is where a person orients across the whole line, and
-that needs a wayfinding rail.
+that needs a wayfinding rail. Per direct user instruction, every Thread
+altitude is Stone Court except Story (Old Family Bible) — this pulls
+Answered Light and Patterns in from what had been Chapel/Ledger
+respectively, and Heritage Room joins as a Thread sidebar sibling rather
+than a Prayer-group room.
 
 | Token | Hex | Use |
 |---|---|---|
@@ -230,12 +240,15 @@ everywhere (not just the Office/ceremonies as today), and the existing
 `Card`/`Badge` components used consistently rather than the current mix
 of inline styles and one-off card patterns.
 
-**Rooms in this register**: Reading Plans, Themes, Explore, Patterns
-(the Thread altitude), Settings, and Discipleship's Workbook Audit
-sub-panel specifically (Discipleship's own daily-session view is
-Chapel — see EXPERIENCE.md's corrected room map for the full reasoning;
-Study and Scripture Memory are Chapel too, not Ledger, since they're
-devotional practice with no embedded AI feature, not data management).
+**Rooms in this register**: Settings — the only room-level Ledger
+assignment remaining after the user's final direct instructions moved
+Plans/Themes/Explore into Manuscript ("The Word") and Patterns/Answered
+Light into Stone Court. The Ledger's other appearance in the app is not
+room-level: Discipleship's Workbook Audit sub-panel (a genuine data-
+pipeline diagnostic tool) was flagged as a candidate for staying
+Ledger-styled inside an otherwise-Manuscript page, but no exception was
+requested, so it renders in Manuscript along with the rest of that page
+— see EXPERIENCE.md's room map for the full history of this decision.
 
 ## Typography
 
