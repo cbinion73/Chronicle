@@ -237,7 +237,14 @@ arrives; none blocks the movements above.
   (`Cf-Access-Authenticated-User-Email`) — no parallel login/password
   system built. Identity plumbing only; no data is scoped to a member
   yet.
-- ➡️ **Next: M23 — The Braid.** Parallel threads; shared stones set on
-  multiple threads at once; family worship as the visible crossing
-  point. Real per-person identity now exists (M22.5) — M23's actual
-  work is using it: scoping data to members, not just households.
+- ⏸️ **Paused here at the user's direction (2026-07-08).** M9–M22.5
+  (Movements I–III in full, plus the Households/Real-Identity
+  foundation) are shipped and live in production. M23 — The Braid,
+  M24 — Letters Ahead, and M25 — The Relay are all genuinely dependent
+  on real per-person data isolation, which does not exist yet (M22.5
+  only added identity; nothing is scoped to a member). Explicitly
+  skipped for now rather than built shallow. Whoever picks this back
+  up should start by designing how "shared stones visible on multiple
+  threads" actually works in the data model before writing any code —
+  see the M22.5 section of REDESIGN.md and the memory file
+  `chronicle-vision-roadmap` for what's already been ruled out.
