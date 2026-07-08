@@ -193,4 +193,6 @@ arrives; none blocks the movements above.
 - ✅ **M14 — Sealed Prayers** shipped: write and seal a prayer until a
   date or event, seen but not touchable; the F1 exporter and the F2
   sealed-tier design doc (`docs/SEALED_TIER.md`).
-- ➡️ **Next: M15 — Echoes of Your Own Life.**
+- ✅ **M15 — Echoes of Your Own Life** shipped: "You've Returned Here" —
+  past entries resurface, unprompted, against the passage being read now.
+- ➡️ **Next: M16 — Patina.**

@@ -695,6 +695,19 @@ export default function Bible() {
     () => chronicleEntries.filter((entry) => passageMatchesLocation(entry.passage, book, chapter)).slice(0, 6),
     [book, chapter, chronicleEntries],
   );
+  // Echoes of your own life (VISION.md, Ring 2 — "resurrection of your own
+  // words"): quiet, unprompted resurfacing of what you wrote here before.
+  // Reuses the same chapter-matching index as chapterChronicleEntries —
+  // no new lookup, just a different lens on it. Excludes what was written
+  // today (that's today's entry, not a returning echo) and anything still
+  // sealed (a sealed prayer's body must never surface outside its own
+  // deliberate unseal, see docs/SEALED_TIER.md).
+  const personalEchoes = useMemo(() => {
+    const today = new Date().toISOString().split('T')[0];
+    return chapterChronicleEntries
+      .filter((entry) => entry.date !== today)
+      .filter((entry) => !(entry.type === 'sealed' && !entry.sourceContext?.sealed?.opened));
+  }, [chapterChronicleEntries]);
   const focusedVerseChronicleEntries = useMemo(
     () => typeof focusedPanelVerse === 'number'
       ? chronicleEntries.filter((entry) => passageMatchesLocation(entry.passage, book, chapter, focusedPanelVerse)).slice(0, 4)
@@ -1879,6 +1892,26 @@ export default function Bible() {
             <div style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 24, fontStyle: 'italic' }}>{chapterData.subheading}</div>
           )}
           {!chapterData?.subheading && <div style={{ marginBottom: 24 }} />}
+
+          {personalEchoes.length > 0 && (
+            <div style={{ marginBottom: 24, padding: '14px 16px', borderRadius: 12, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
+              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 8 }}>
+                You've Returned Here
+              </div>
+              <div style={{ display: 'grid', gap: 10 }}>
+                {personalEchoes.map((entry) => (
+                  <div key={entry.id}>
+                    <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 2 }}>
+                      You wrote about this on {new Date(`${entry.date}T12:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                    </div>
+                    <p style={{ fontFamily: 'var(--font-serif)', fontSize: 13, fontStyle: 'italic', color: 'var(--text-sub)', lineHeight: 1.6, margin: 0 }}>
+                      "{entry.body.length > 200 ? `${entry.body.slice(0, 200)}…` : entry.body}"
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {chapterData ? chapterData.verses.map((v) => {
             const verseThemeHits = getVerseThemeHits(v.number);
