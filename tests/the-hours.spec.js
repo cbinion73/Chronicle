@@ -37,7 +37,7 @@ test('morning register renders the full Daily Office', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('chronicle.register.override', 'morning'));
   await page.goto(appUrl('/'));
   await expect(page.getByText('The Daily Office').first()).toBeVisible();
-  await expect(page.getByText('Call to Worship')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'The Word' })).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('data-register', 'morning');
 });
 
@@ -83,7 +83,7 @@ test('evening keeper can still choose the full Office', async ({ page }) => {
   await page.goto(appUrl('/'));
   await expect(page.getByText('The Evening Examen')).toBeVisible();
   await page.getByRole('button', { name: 'Pray the full Office instead' }).click();
-  await expect(page.getByText('Call to Worship')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'The Word' })).toBeVisible();
 });
 
 test('returning after a long absence is met with grace, not a counter', async ({ page, request }) => {
@@ -110,7 +110,7 @@ test('returning after a long absence is met with grace, not a counter', async ({
 
   await expect(page.getByText('Welcome back.')).toBeVisible();
   await expect(page.getByText('The thread held your place. Nothing was lost.')).toBeVisible();
-  await expect(page.getByText(`· ${GRACE_PRAYER}`)).toBeVisible();
+  await expect(page.getByText(GRACE_PRAYER)).toBeVisible();
   // No shame mechanics: the day count of the absence must not appear.
   await expect(page.getByText(/\d+-day absence/)).not.toBeVisible();
 

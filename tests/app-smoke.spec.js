@@ -100,7 +100,7 @@ test('chronicle app smoke flow', async ({ page, request }) => {
   await page.goto(appUrl('/'));
   await page.addInitScript(() => window.localStorage.removeItem('chronicle.office.lastCompleted'));
   await expect(page.getByText('The Daily Office').first()).toBeVisible();
-  await expect(page.getByText('Call to Worship')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'The Word' })).toBeVisible();
   await expect(page.getByText('The Word', { exact: true }).last()).toBeVisible();
   await expect(page.getByText('Silence', { exact: true })).toBeVisible();
   await expect(page.getByText('Response', { exact: true })).toBeVisible();
@@ -237,7 +237,7 @@ test('chronicle key surfaces stay usable on a phone-width viewport', async ({ pa
   await page.goto(appUrl('/'));
 
   await expect(page.getByText('The Daily Office').first()).toBeVisible();
-  await expect(page.getByText('Call to Worship')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'The Word' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Open Chronicle AI' })).toBeVisible();
 
   await page.getByRole('navigation').getByText('The Prayer Room', { exact: true }).click();

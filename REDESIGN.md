@@ -1464,3 +1464,84 @@ This completes all five Design-N slices of the UX reimagining: Chapel
 plus Heritage Room), Old Family Bible (Story), and the Ledger
 formalization (Settings) — the full room→register map from EXPERIENCE.md
 is now built.
+
+## Design-6, part 1 (branch: design/chapel-typography) — Chapel typography correction for Office.tsx
+
+User correction after the deploy above: Design-3's Chapel register only
+re-scoped chrome *color* via CSS custom properties, reusing every
+register's pre-existing card-list layout, bold headings, and small type
+unchanged. Compared side-by-side against the approved
+`.working/direction-chapel.html` mockup, this was visibly wrong for
+Chapel specifically — the mockup's whole voice is boxless, weight-300
+serif type at 28–34px, wide letter-spacing small-caps labels, and one
+real glowing element (the Remembrance box: a soft radial-gradient wash
+plus a three-layer `box-shadow`, not a solid bordered card). What
+shipped was still the dense, bold, small-type card-list layout with
+Chapel's palette swapped in — legible, but reading as "dark theme," not
+"ceremonial." Same color-only gap almost certainly applies to Manuscript
+and Stone Court too; user confirmed scope: fix Chapel first (this
+slice), then redo Manuscript and Stone Court to the same depth as
+separate follow-up work.
+
+This slice reworks `Office.tsx` (the page in the flagged screenshot) to
+match the mockup's actual typographic and spatial spec, not just its
+palette:
+
+- **`RemembranceCard`** rebuilt to the mockup's exact `.remembrance` CSS
+  (border `rgba(232,180,79,0.45)`, radial-gradient wash, three-layer
+  glow `box-shadow`, italic 19px gold body text with its own
+  `text-shadow`) — deliberately left un-abstracted into the shared
+  `card` shape, since DESIGN.md is explicit this is the one place a
+  candle actually burns on the page.
+- **`StationLabel`** rebuilt as a whisper-level small-caps ordinal
+  ("Station One of Four") above a 28px weight-300 serif heading,
+  replacing the old numbered-circle-plus-bold-caption pattern.
+- **The `card` station shell** stopped being a card: no border,
+  background, or shadow — a centered 480px column with generous
+  bottom padding and a single hairline `border-bottom`, matching the
+  mockup's `.station-rule` divider. A `lastStation` variant drops the
+  divider on the final station.
+- **Call to Worship demoted from a numbered station to ambient text**
+  above the stations — the mockup never labels or numbers it; it's a
+  32px weight-300 italic-free serif verse with a small-caps citation,
+  sitting above "Station One." This shifted the full Office from 5
+  stations to 4 (Word/Silence/Prayer/Response) and the Evening Examen
+  stays at 3 (unchanged, it already excluded the call).
+- **`WelcomeBackCard`** restyled to match the same boxless, weight-300
+  voice as the rest of the page (was still a bordered, bold card).
+- Header restyled to a single small-caps, wide-letter-spaced dateline
+  line, dropping the separate bold all-caps "THE DAILY OFFICE" eyebrow.
+
+Verified: tsc -b, eslint, production build all clean (one dead-import
+cleanup: `CARD_STYLE` is no longer used in this file). Visually verified
+via a temporary Playwright script with `chronicle.register.override`
+forced to `morning` (the exact register in the user's flagged
+screenshot) and a scrolled second capture — confirmed the call-to-worship
+verse now renders at the mockup's scale and weight, the station ordinal/
+heading pattern matches, and the hairline divider appears where the
+mockup's `.station-rule` does.
+
+Fixing this surfaced five test assertions written against the old
+structure — all confirmed as intentional-change updates, not regressions
+masked: `the-hours.spec.js` and `app-smoke.spec.js` asserted literal
+text `'Call to Worship'`, which no longer exists as a distinct string
+(now ambient, unlabeled) — repointed to assert the `The Word` heading
+(role `heading`) instead, which still proves the full Office rendered.
+`the-hours.spec.js`'s grace-return test asserted a `"· " + text` bullet
+prefix that `WelcomeBackCard` no longer renders — updated to match on
+the text alone. `remembrance.spec.js` asserted `getByRole('heading',
+{name: 'Remembrance'})`, which broke because the label had been a plain
+`<div>`, not a heading — fixed by making it a real `<h2>` (a correctness
+fix independent of the test, restoring the semantic heading a screen
+reader should see there). Full Playwright suite (`--workers=1`): two
+failures, both confirmed pre-existing/unrelated on isolated re-run —
+`discipleship-progress.spec.js` (long-confirmed) and
+`book-typeset.spec.js`/`ceremonies.spec.js` (new appearance of the
+full-suite-only flake pattern, passed 4/4 in isolation; this slice
+never touches Legacy.tsx or growth-marker ceremony code).
+
+Remaining for Design-6: apply the same typography-and-spacing depth
+(not just color) to Manuscript (all six Word pages) and Stone Court
+(Thread altitudes + Heritage Room), and to Chapel's other six pages
+(Rule, Prayer, Question Lab, Lament, Sealed Prayers, Memory) — Office.tsx
+was fixed first because it was the one directly flagged.

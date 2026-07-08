@@ -45,7 +45,7 @@ test('core page shells and key headings render across the full product surface',
   // of what hour the suite runs (evenings render the Examen instead).
   await page.addInitScript(() => window.localStorage.setItem('chronicle.register.override', 'morning'));
   const pages = [
-    { label: 'The Daily Office', path: '/', assert: async () => expect(page.getByText('Call to Worship').first()).toBeVisible() },
+    { label: 'The Daily Office', path: '/', assert: async () => expect(page.getByRole('heading', { name: 'The Word' }).first()).toBeVisible() },
     { label: 'Read', path: '/bible', assert: async () => expect(page.getByRole('button', { name: /Theme Overlay|Open Themes/ }).first()).toBeVisible() },
     { label: 'Daily Study', path: '/study', assert: async () => expect(page.getByText(/Day \d+ ·/).first()).toBeVisible() },
     { label: 'Discipleship', path: '/discipleship', assert: async () => expect(page.getByText('Discipleship', { exact: true }).first()).toBeVisible() },
