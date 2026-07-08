@@ -12,6 +12,7 @@ import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import PrayerPathPlayer from '../components/PrayerPathPlayer';
 import AnsweredPrayerCeremony from '../components/ui/AnsweredPrayerCeremony';
 import { PRAYER_PATHS, getPrayerPath } from '../data/prayerPaths';
+import chapelStyles from '../styles/chapelRegister.module.css';
 
 const CATEGORIES = ['All', 'People', 'Needs', 'Praise', 'World', 'Answered'];
 
@@ -278,7 +279,7 @@ export default function Prayer() {
   };
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
+    <div className={chapelStyles.chapelRegister} style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
 
       {/* Main */}
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: isCompact ? 'visible' : 'hidden', minHeight: isCompact ? undefined : 0 }}>

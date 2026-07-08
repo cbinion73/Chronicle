@@ -5,6 +5,7 @@ import Card, { EmptyCard } from '../components/ui/Card';
 import Badge, { TimelineDot } from '../components/ui/Badge';
 import QuestionResolutionCeremony from '../components/ui/QuestionResolutionCeremony';
 import { daysOpen, formatOpenDuration } from '../lib/questionLab';
+import chapelStyles from '../styles/chapelRegister.module.css';
 import type { ChronicleEntry } from '../types';
 
 // The Question Lab (VISION.md covenant #3 / ROADMAP M17) — open questions
@@ -54,7 +55,7 @@ export default function QuestionLab() {
   };
 
   return (
-    <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+    <div className={chapelStyles.chapelRegister} style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
       <div style={{ maxWidth: 680, margin: '0 auto', padding: isPhone ? '20px 16px 48px' : '32px 24px 64px' }}>
 
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12, marginBottom: 22, flexWrap: 'wrap' }}>
