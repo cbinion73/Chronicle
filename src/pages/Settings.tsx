@@ -120,8 +120,8 @@ function SettingRow({ label, desc, children }: { label: string; desc?: string; c
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '13px 18px', borderBottom: '1px solid var(--border)', gap: 16 }}>
       <div style={{ flex: 1 }}>
-        <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>{label}</div>
-        {desc && <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2, lineHeight: 1.4 }}>{desc}</div>}
+        <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>{label}</div>
+        {desc && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2, lineHeight: 1.4 }}>{desc}</div>}
       </div>
       <div style={{ flexShrink: 0 }}>{children}</div>
     </div>
@@ -131,8 +131,8 @@ function SettingRow({ label, desc, children }: { label: string; desc?: string; c
 function GroupHeader({ title, desc }: { title: string; desc?: string }) {
   return (
     <div style={{ padding: '12px 18px 10px', background: 'var(--card-inner)', borderBottom: '1px solid var(--border)' }}>
-      <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-sub)' }}>{title}</div>
-      {desc && <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>{desc}</div>}
+      <div style={{ fontSize: 'var(--text-xs)', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-sub)' }}>{title}</div>
+      {desc && <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>{desc}</div>}
     </div>
   );
 }
@@ -154,7 +154,7 @@ function Sel({ options, value, onChange }: { options: string[]; value: string; o
         padding: '5px 28px 5px 10px',
         border: '1px solid var(--border)',
         borderRadius: 7,
-        fontSize: 16,
+        fontSize: 'var(--text-base)',
         fontWeight: 500,
         color: 'var(--text)',
         background: 'var(--card-inner)',
@@ -193,7 +193,7 @@ function TextInput({
         padding: '6px 10px',
         border: '1px solid var(--border)',
         borderRadius: 8,
-        fontSize: 16,
+        fontSize: 'var(--text-base)',
         color: 'var(--text)',
         background: 'var(--card-inner)',
         minWidth: 160,
@@ -275,12 +275,12 @@ function ObsidianBridgeGroup() {
         desc={`Connected to the "${status.vaultName}" vault. Chronicle remains the source of truth; the vault is your knowledge garden. Prayers are never exported by default.`}
       />
       <SettingRow label="Export the Thread" desc={`Writes entries as Markdown into ${status.vaultName}/Chronicle (${status.exportedCount ?? 0} currently exported)`}>
-        <button onClick={() => void runExport()} disabled={busy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: busy ? 'default' : 'pointer', opacity: busy === 'export' ? 0.6 : 1 }}>
+        <button onClick={() => void runExport()} disabled={busy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: busy ? 'default' : 'pointer', opacity: busy === 'export' ? 0.6 : 1 }}>
           {busy === 'export' ? 'Exporting…' : 'Export to Vault'}
         </button>
       </SettingRow>
       <SettingRow label="Import from the Inbox" desc={`Markdown dropped in ${status.vaultName}/Chronicle Inbox becomes thread notes (${status.inboxCount ?? 0} waiting)`}>
-        <button onClick={() => void runImport()} disabled={busy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: busy ? 'default' : 'pointer', opacity: busy === 'import' ? 0.6 : 1 }}>
+        <button onClick={() => void runImport()} disabled={busy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: busy ? 'default' : 'pointer', opacity: busy === 'import' ? 0.6 : 1 }}>
           {busy === 'import' ? 'Importing…' : 'Import Inbox'}
         </button>
       </SettingRow>
@@ -1748,7 +1748,7 @@ export default function Settings() {
               gap: 8,
               padding: isCompact ? '8px 12px' : '7px 16px',
               cursor: 'pointer',
-              fontSize: 13,
+              fontSize: 'var(--text-sm)',
               fontWeight: activeCategory === cat.id ? 600 : 400,
               color: activeCategory === cat.id ? 'var(--accent-primary)' : 'var(--text-sub)',
               background: activeCategory === cat.id ? 'var(--accent-primary-light)' : 'transparent',
@@ -1762,7 +1762,7 @@ export default function Settings() {
               appearance: 'none',
             }}
           >
-            <span style={{ fontSize: 14 }}>{cat.icon}</span>
+            <span style={{ fontSize: 'var(--text-base)' }}>{cat.icon}</span>
             {cat.label}
           </button>
         ))}
@@ -1772,9 +1772,9 @@ export default function Settings() {
       <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: isPhone ? '14px 14px' : '14px 24px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', position: 'sticky', top: 0, zIndex: 2, gap: 10, flexWrap: 'wrap' }}>
           <div>
-            <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)' }}>{CATEGORIES.find(c => c.id === activeCategory)?.label}</div>
+            <div style={{ fontSize: 'var(--text-base)', fontWeight: 700, color: 'var(--text)' }}>{CATEGORIES.find(c => c.id === activeCategory)?.label}</div>
           </div>
-          <div style={{ fontSize: 11, color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: 5 }}>
+          <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: 5 }}>
             <div style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent-primary)' }} />
             Changes saved automatically
           </div>
@@ -1792,15 +1792,15 @@ export default function Settings() {
                     style={{ width: 52, height: 52, borderRadius: 14, objectFit: 'cover', flexShrink: 0, boxShadow: '0 4px 14px rgba(15, 79, 207, 0.14)' }}
                   />
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--text)' }}>Chris</div>
-                    <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>cbinion73@gmail.com</div>
+                    <div style={{ fontSize: 'var(--text-base)', fontWeight: 600, color: 'var(--text)' }}>Chris</div>
+                    <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>cbinion73@gmail.com</div>
                   </div>
                 </div>
                 <SettingRow label="Display Name" desc="Used in greetings and Legacy memoir">
                   <input
                     value={profile.displayName}
                     onChange={(e) => updateProfile('displayName', e.target.value)}
-                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', minWidth: 160, outline: 'none' }}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', minWidth: 160, outline: 'none' }}
                   />
                 </SettingRow>
               </Group>
@@ -1842,14 +1842,14 @@ export default function Settings() {
               <Group>
                 <GroupHeader title="Chronicle Bible Library" desc="Local translations and theme-analysis coverage currently installed inside Chronicle." />
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'center', flexWrap: 'wrap' }}>
-                  <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                     {bibleLibraryStatus.length} installed translation{bibleLibraryStatus.length === 1 ? '' : 's'} · {fullyCachedTranslations} fully cached · {themeCacheFileCount} saved chapter analyses
                     {themeCacheVersion ? ` · cache version ${themeCacheVersion}` : ''}
                   </div>
                   <button
                     onClick={() => void refreshBibleLibraryStatus()}
                     disabled={bibleLibraryBusy}
-                    style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: bibleLibraryBusy ? 'default' : 'pointer', opacity: bibleLibraryBusy ? 0.6 : 1 }}
+                    style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: bibleLibraryBusy ? 'default' : 'pointer', opacity: bibleLibraryBusy ? 0.6 : 1 }}
                   >
                     {bibleLibraryBusy ? 'Refreshing…' : 'Refresh Bible Library'}
                   </button>
@@ -1857,8 +1857,8 @@ export default function Settings() {
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'center', flexWrap: 'wrap' }}>
                     <div>
-                      <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Theme Analysis Cache</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Theme Analysis Cache</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                         Chronicle can precompute chapter analysis for a translation so Bible study loads instantly and reuses the saved map.
                       </div>
                     </div>
@@ -1866,7 +1866,7 @@ export default function Settings() {
                       <select
                         value={themeCacheTargetTranslation}
                         onChange={(e) => setThemeCacheTargetTranslation(e.target.value)}
-                        style={{ padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}
+                        style={{ padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}
                       >
                         <option value="all">All installed</option>
                         {bibleLibraryStatus.map((item) => (
@@ -1876,14 +1876,14 @@ export default function Settings() {
                       <button
                         onClick={() => void precomputeThemeCache(false)}
                         disabled={themeCacheBusy}
-                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
+                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
                       >
                         {themeCacheBusy ? 'Building…' : 'Build Missing Analyses'}
                       </button>
                       <button
                         onClick={() => void precomputeThemeCache(true)}
                         disabled={themeCacheBusy}
-                        style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
+                        style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
                       >
                         Rebuild Selected
                       </button>
@@ -1894,18 +1894,18 @@ export default function Settings() {
                       <div key={item.id} style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 8 }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'center', flexWrap: 'wrap' }}>
                           <div>
-                            <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)' }}>{item.translation}</div>
-                            <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>{item.sourceLabel || item.label}</div>
-                            <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>Provider route: {item.providerId}</div>
+                            <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{item.translation}</div>
+                            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>{item.sourceLabel || item.label}</div>
+                            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>Provider route: {item.providerId}</div>
                           </div>
-                          <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: item.coveragePct >= 100 ? 'var(--accent-primary-light)' : 'rgba(15, 79, 207, 0.08)', color: item.coveragePct >= 100 ? 'var(--accent-primary)' : 'var(--accent-blue)', fontSize: 11, fontWeight: 700 }}>
+                          <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: item.coveragePct >= 100 ? 'var(--accent-primary-light)' : 'rgba(15, 79, 207, 0.08)', color: item.coveragePct >= 100 ? 'var(--accent-primary)' : 'var(--accent-blue)', fontSize: 'var(--text-xs)', fontWeight: 700 }}>
                             {item.cachedCount}/{item.chapterCount || 0} cached · {item.coveragePct}%
                           </span>
                         </div>
                         <div style={{ height: 8, borderRadius: 999, background: 'var(--border)', overflow: 'hidden' }}>
                           <div style={{ width: `${Math.max(2, item.coveragePct)}%`, height: '100%', borderRadius: 999, background: item.coveragePct >= 100 ? 'var(--accent-primary)' : 'var(--accent-blue)' }} />
                         </div>
-                        <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                           {item.chapterCount > 0
                             ? `${item.chapterCount} chapters in the local library. ${item.attribution || 'Chronicle can reuse these analyses once they are built.'}`
                             : 'Chapter metadata is incomplete for this local translation.'}
@@ -1914,7 +1914,7 @@ export default function Settings() {
                           <button
                             type="button"
                             onClick={() => setBibleView({ provider: item.providerId })}
-                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: bibleView.provider === item.providerId ? 'var(--accent-primary-light)' : 'transparent', color: bibleView.provider === item.providerId ? 'var(--accent-primary)' : 'var(--text-sub)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: bibleView.provider === item.providerId ? 'var(--accent-primary-light)' : 'transparent', color: bibleView.provider === item.providerId ? 'var(--accent-primary)' : 'var(--text-sub)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                           >
                             {bibleView.provider === item.providerId ? 'Default Reader Provider' : 'Use as Reader Provider'}
                           </button>
@@ -1922,7 +1922,7 @@ export default function Settings() {
                             type="button"
                             onClick={() => void buildThemeCacheForTranslation(item.id, false)}
                             disabled={themeCacheBusy}
-                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 12, fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
+                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
                           >
                             Build Missing
                           </button>
@@ -1930,14 +1930,14 @@ export default function Settings() {
                             type="button"
                             onClick={() => void buildThemeCacheForTranslation(item.id, true)}
                             disabled={themeCacheBusy}
-                            style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
+                            style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: themeCacheBusy ? 'default' : 'pointer', opacity: themeCacheBusy ? 0.6 : 1 }}
                           >
                             Rebuild
                           </button>
                         </div>
                       </div>
                     )) : (
-                      <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         Chronicle has not loaded any local Bible library metadata yet.
                       </div>
                     )}
@@ -1972,21 +1972,21 @@ export default function Settings() {
                   />
                 </SettingRow>
                 <div style={{ padding: '13px 18px', borderTop: '1px solid var(--border)', display: 'grid', gap: 8 }}>
-                  <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                     Chronicle currently remembers {aiThreadCount} context thread{aiThreadCount === 1 ? '' : 's'} across Bible, Study, Discipleship, Prayer, and Chronicle.
                   </div>
                   <div style={{ display: 'grid', gap: 8 }}>
                     {Object.entries(CHRONICLE_AGENT_MODE_DEFS).map(([id, mode]) => (
                       <div key={id} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: selectedAgentMode === id ? 'var(--accent-primary-light)' : 'var(--card-inner)', display: 'grid', gap: 4 }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
-                          <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>{mode.label}</div>
+                          <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--text)' }}>{mode.label}</div>
                           {selectedAgentMode === id && (
-                            <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--accent-primary)', color: 'var(--accent-primary)', fontSize: 10, fontWeight: 700 }}>
+                            <span style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--accent-primary)', color: 'var(--accent-primary)', fontSize: 'var(--text-xs)', fontWeight: 700 }}>
                               Default
                             </span>
                           )}
                         </div>
-                        <div style={{ fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>{mode.summary}</div>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.5 }}>{mode.summary}</div>
                       </div>
                     ))}
                   </div>
@@ -2033,14 +2033,14 @@ export default function Settings() {
                 </SettingRow>
                 <div style={{ padding: '13px 18px', borderTop: '1px solid var(--border)', display: 'grid', gap: 12 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                       Server-side secrets stay in environment variables. Chronicle stores only the local routing and model choices in app state.
                     </div>
                     <button
                       type="button"
                       onClick={() => void refreshVoicePlatform()}
                       disabled={voiceStatusBusy}
-                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: voiceStatusBusy ? 'default' : 'pointer', opacity: voiceStatusBusy ? 0.6 : 1 }}
+                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: voiceStatusBusy ? 'default' : 'pointer', opacity: voiceStatusBusy ? 0.6 : 1 }}
                     >
                       {voiceStatusBusy ? 'Refreshing…' : 'Refresh Voice Status'}
                     </button>
@@ -2070,12 +2070,12 @@ export default function Settings() {
                     ].map((item) => (
                       <div key={item.label} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 4 }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center' }}>
-                          <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>{item.label}</div>
-                          <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${item.ready ? 'rgba(6,95,70,0.24)' : 'rgba(180,83,9,0.24)'}`, background: item.ready ? 'rgba(6,95,70,0.08)' : 'rgba(217,119,6,0.08)', color: item.ready ? '#065f46' : '#b45309', fontSize: 10, fontWeight: 700 }}>
+                          <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--text)' }}>{item.label}</div>
+                          <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${item.ready ? 'rgba(6,95,70,0.24)' : 'rgba(180,83,9,0.24)'}`, background: item.ready ? 'rgba(6,95,70,0.08)' : 'rgba(217,119,6,0.08)', color: item.ready ? '#065f46' : '#b45309', fontSize: 'var(--text-xs)', fontWeight: 700 }}>
                             {item.ready ? 'Ready' : 'Needs setup'}
                           </span>
                         </div>
-                        <div style={{ fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>{item.summary}</div>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.5 }}>{item.summary}</div>
                       </div>
                     ))}
                   </div>
@@ -2130,7 +2130,7 @@ export default function Settings() {
                 </SettingRow>
                 <div style={{ padding: '13px 18px', borderTop: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div style={{ display: 'grid', gap: 8 }}>
-                    <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>Test Home Assistant Conversation</div>
+                    <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--text)' }}>Test Home Assistant Conversation</div>
                     <textarea
                       value={homeAssistantPrompt}
                       onChange={(event) => setHomeAssistantPrompt(event.target.value)}
@@ -2141,13 +2141,13 @@ export default function Settings() {
                         type="button"
                         onClick={() => void testHomeAssistantVoice()}
                         disabled={voiceActionBusy === 'home-assistant'}
-                        style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: voiceActionBusy === 'home-assistant' ? 'default' : 'pointer', opacity: voiceActionBusy === 'home-assistant' ? 0.7 : 1 }}
+                        style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: voiceActionBusy === 'home-assistant' ? 'default' : 'pointer', opacity: voiceActionBusy === 'home-assistant' ? 0.7 : 1 }}
                       >
                         {voiceActionBusy === 'home-assistant' ? 'Testing…' : 'Test Home Assistant'}
                       </button>
                     </div>
                     {homeAssistantReply && (
-                      <div style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.6 }}>
+                      <div style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.6 }}>
                         {homeAssistantReply}
                       </div>
                     )}
@@ -2176,11 +2176,11 @@ export default function Settings() {
                     type="button"
                     disabled
                     title="Voice calling is coming soon — there's no in-app caller yet"
-                    style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text-muted)', fontSize: 12, fontWeight: 700, cursor: 'not-allowed', opacity: 0.6, justifySelf: 'start' }}
+                    style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text-muted)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'not-allowed', opacity: 0.6, justifySelf: 'start' }}
                   >
                     Voice Calling — Coming Soon
                   </button>
-                  <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                     This configuration is saved for when Chronicle adds a real-time voice caller. Minting a token here wouldn&apos;t connect you to anything yet, so that action is disabled for now.
                   </div>
                 </div>
@@ -2227,19 +2227,19 @@ export default function Settings() {
                 <div style={{ padding: '13px 18px', borderTop: '1px solid var(--border)', display: 'grid', gap: 8 }}>
                   <div style={{ display: 'grid', gridTemplateColumns: isPhone ? '1fr' : 'repeat(3, minmax(0, 1fr))', gap: 8 }}>
                     <div style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
-                      <div style={{ fontSize: 17, fontWeight: 700, color: 'var(--text)' }}>{bibleLibraryStatus.length}</div>
-                      <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>Installed providers</div>
+                      <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text)' }}>{bibleLibraryStatus.length}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>Installed providers</div>
                     </div>
                     <div style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
-                      <div style={{ fontSize: 17, fontWeight: 700, color: 'var(--text)' }}>{fullyCachedTranslations}</div>
-                      <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>Fully cached translations</div>
+                      <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text)' }}>{fullyCachedTranslations}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>Fully cached translations</div>
                     </div>
                     <div style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
-                      <div style={{ fontSize: 17, fontWeight: 700, color: 'var(--text)' }}>{themeCacheFileCount}</div>
-                      <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>Saved analyses</div>
+                      <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text)' }}>{themeCacheFileCount}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>Saved analyses</div>
                     </div>
                   </div>
-                  <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                     Chronicle is currently routing Bible reading through <strong>{bibleView.provider}</strong> and AI default quotations through <strong>{translation}</strong>.
                   </div>
                 </div>
@@ -2312,7 +2312,7 @@ export default function Settings() {
               <Group>
                 <GroupHeader title="Color Mode" />
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                  <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Interface Theme</div>
+                  <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Interface Theme</div>
                   <div style={{ display: 'flex', border: '1px solid var(--border)', borderRadius: 8, overflow: 'hidden' }}>
                     {(['light', 'dark'] as const).map((t, i) => (
                       <button
@@ -2320,7 +2320,7 @@ export default function Settings() {
                         onClick={() => setTheme(t)}
                         style={{
                           padding: '5px 14px',
-                          fontSize: 12,
+                          fontSize: 'var(--text-sm)',
                           fontWeight: theme === t ? 600 : 400,
                           background: theme === t ? 'var(--accent-primary)' : 'transparent',
                           color: theme === t ? 'white' : 'var(--text-sub)',
@@ -2357,7 +2357,7 @@ export default function Settings() {
                     type="time"
                     value={profile.reminderTime}
                     onChange={(e) => updateProfile('reminderTime', e.target.value)}
-                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', width: 100 }}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', width: 100 }}
                   />
                 </SettingRow>
                 <SettingRow label="Evening Reflection Prompt" desc="End-of-day nudge to record a Chronicle entry">
@@ -2381,10 +2381,10 @@ export default function Settings() {
               <Group>
                 <GroupHeader title="Storage" />
                 <SettingRow label="Chronicle Library" desc="Local-first study state, notes, and imported book metadata live in Chronicle's private workspace">
-                  <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>{chronicleEntries.length} entries</span>
+                  <span style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{chronicleEntries.length} entries</span>
                 </SettingRow>
                 <SettingRow label="Scripture Library" desc="Installed local Bible translations for offline reading across devices later">
-                  <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>{translation}</span>
+                  <span style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{translation}</span>
                 </SettingRow>
               </Group>
               <ObsidianBridgeGroup />
@@ -2399,8 +2399,8 @@ export default function Settings() {
                       { label: 'Low source-health books', value: dataHealthSummary.lowSourceHealthRecords },
                     ].map((item) => (
                       <div key={item.label} style={{ padding: '10px 12px', borderRadius: 10, background: 'var(--card-inner)', border: '1px solid var(--border)' }}>
-                        <div style={{ fontSize: 18, fontWeight: 700, color: 'var(--text)' }}>{item.value}</div>
-                        <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>{item.label}</div>
+                        <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text)' }}>{item.value}</div>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>{item.label}</div>
                       </div>
                     ))}
                   </div>
@@ -2409,7 +2409,7 @@ export default function Settings() {
                       type="button"
                       onClick={() => nextTranslationNeedingCache && void buildThemeCacheForTranslation(nextTranslationNeedingCache.id, false)}
                       disabled={!nextTranslationNeedingCache || themeCacheBusy}
-                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: !nextTranslationNeedingCache || themeCacheBusy ? 'default' : 'pointer', opacity: !nextTranslationNeedingCache || themeCacheBusy ? 0.6 : 1 }}
+                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: !nextTranslationNeedingCache || themeCacheBusy ? 'default' : 'pointer', opacity: !nextTranslationNeedingCache || themeCacheBusy ? 0.6 : 1 }}
                     >
                       {nextTranslationNeedingCache ? `Build ${nextTranslationNeedingCache.translation} Cache` : 'Bible Cache Healthy'}
                     </button>
@@ -2417,7 +2417,7 @@ export default function Settings() {
                       type="button"
                       onClick={() => nextOcrRepairRecord && void rerunOcrForRecord(nextOcrRepairRecord, chooseOcrRepairMode(nextOcrRepairRecord))}
                       disabled={!nextOcrRepairRecord || studyImportBusy !== null}
-                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: !nextOcrRepairRecord || studyImportBusy ? 'default' : 'pointer', opacity: !nextOcrRepairRecord || studyImportBusy ? 0.6 : 1 }}
+                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: !nextOcrRepairRecord || studyImportBusy ? 'default' : 'pointer', opacity: !nextOcrRepairRecord || studyImportBusy ? 0.6 : 1 }}
                     >
                       {nextOcrRepairRecord ? `Repair OCR · ${nextOcrRepairRecord.title}` : 'OCR Health is Stable'}
                     </button>
@@ -2425,7 +2425,7 @@ export default function Settings() {
                       type="button"
                       onClick={() => nextWorkbookFlaggedEntry && openAuditDayInDiscipleship(nextWorkbookFlaggedEntry, 'workbook')}
                       disabled={!nextWorkbookFlaggedEntry}
-                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: nextWorkbookFlaggedEntry ? 'pointer' : 'default', opacity: nextWorkbookFlaggedEntry ? 1 : 0.6 }}
+                      style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: nextWorkbookFlaggedEntry ? 'pointer' : 'default', opacity: nextWorkbookFlaggedEntry ? 1 : 0.6 }}
                     >
                       {nextWorkbookFlaggedEntry ? 'Review Next Workbook Flag' : 'Workbook QA is Clear'}
                     </button>
@@ -2433,12 +2433,12 @@ export default function Settings() {
                       type="button"
                       onClick={() => void refreshChronicleSyncStatus()}
                       disabled={chronicleSyncBusy}
-                      style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}
+                      style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}
                     >
                       Refresh Data Health
                     </button>
                   </div>
-                  <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                     Chronicle is watching Bible cache coverage, OCR confidence, workbook overlay coverage, and snapshot availability so repair work can start from here instead of from scattered tabs.
                   </div>
                 </div>
@@ -2452,7 +2452,7 @@ export default function Settings() {
                   <input
                     value={syncProfile.deviceLabel}
                     onChange={(event) => updateSyncProfile({ deviceLabel: event.target.value })}
-                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', minWidth: 170 }}
+                    style={{ padding: '5px 10px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none', minWidth: 170 }}
                   />
                 </SettingRow>
                 <SettingRow label="Cache Policy" desc="Tell Chronicle what each device should keep fully local versus fetch on demand.">
@@ -2463,7 +2463,7 @@ export default function Settings() {
                   </div>
                 </SettingRow>
                 <SettingRow label="Last Backup">
-                  <span style={{ fontSize: 12, color: 'var(--text-sub)' }}>
+                  <span style={{ fontSize: 'var(--text-sm)', color: 'var(--text-sub)' }}>
                     {chronicleSyncLatest
                       ? `${new Date(chronicleSyncLatest.createdAt).toLocaleString()}`
                       : syncReadyState}
@@ -2472,8 +2472,8 @@ export default function Settings() {
                 <div style={{ padding: '13px 18px', borderTop: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
                     <div>
-                      <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Chronicle Sync Snapshot</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Chronicle Sync Snapshot</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                         Package your current Chronicle state, imported-book catalog, and Bible-library metadata into a portable local snapshot.
                       </div>
                     </div>
@@ -2490,26 +2490,26 @@ export default function Settings() {
                         }}
                         style={{ display: 'none' }}
                       />
-                      <button onClick={() => void refreshChronicleSyncStatus()} disabled={chronicleSyncBusy} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}>
+                      <button onClick={() => void refreshChronicleSyncStatus()} disabled={chronicleSyncBusy} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}>
                         {chronicleSyncBusy ? 'Refreshing…' : 'Refresh Sync Status'}
                       </button>
                       <button
                         onClick={() => snapshotImportInputRef.current?.click()}
                         disabled={chronicleSyncBusy}
-                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}
+                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}
                       >
                         Import & Merge Snapshot File
                       </button>
-                      <button onClick={mergeLatestChronicleSnapshot} disabled={chronicleSyncBusy || !chronicleSyncLatest} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy || !chronicleSyncLatest ? 'default' : 'pointer', opacity: chronicleSyncBusy || !chronicleSyncLatest ? 0.6 : 1 }}>
+                      <button onClick={mergeLatestChronicleSnapshot} disabled={chronicleSyncBusy || !chronicleSyncLatest} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy || !chronicleSyncLatest ? 'default' : 'pointer', opacity: chronicleSyncBusy || !chronicleSyncLatest ? 0.6 : 1 }}>
                         Merge Latest Snapshot
                       </button>
-                      <button onClick={restoreLatestChronicleSnapshot} disabled={chronicleSyncBusy || !chronicleSyncLatest} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy || !chronicleSyncLatest ? 'default' : 'pointer', opacity: chronicleSyncBusy || !chronicleSyncLatest ? 0.6 : 1 }}>
+                      <button onClick={restoreLatestChronicleSnapshot} disabled={chronicleSyncBusy || !chronicleSyncLatest} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy || !chronicleSyncLatest ? 'default' : 'pointer', opacity: chronicleSyncBusy || !chronicleSyncLatest ? 0.6 : 1 }}>
                         Restore Latest Snapshot
                       </button>
-                      <button onClick={downloadLatestChronicleSnapshot} disabled={chronicleSyncBusy || !chronicleSyncLatest} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy || !chronicleSyncLatest ? 'default' : 'pointer', opacity: chronicleSyncBusy || !chronicleSyncLatest ? 0.6 : 1 }}>
+                      <button onClick={downloadLatestChronicleSnapshot} disabled={chronicleSyncBusy || !chronicleSyncLatest} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy || !chronicleSyncLatest ? 'default' : 'pointer', opacity: chronicleSyncBusy || !chronicleSyncLatest ? 0.6 : 1 }}>
                         Download Latest Snapshot
                       </button>
-                      <button onClick={createChronicleSnapshot} disabled={chronicleSyncBusy} style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}>
+                      <button onClick={createChronicleSnapshot} disabled={chronicleSyncBusy} style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}>
                         {chronicleSyncBusy ? 'Creating…' : 'Create Chronicle Snapshot'}
                       </button>
                     </div>
@@ -2522,14 +2522,14 @@ export default function Settings() {
                         { label: 'Theme Cache Files', value: chronicleSyncSummary?.themeCacheFileCount ?? 0 },
                     ].map((item) => (
                       <div key={item.label} style={{ padding: '10px 12px', borderRadius: 10, background: 'var(--card-inner)', border: '1px solid var(--border)' }}>
-                        <div style={{ fontSize: 18, fontWeight: 700, color: 'var(--text)' }}>{item.value}</div>
-                        <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>{item.label}</div>
+                        <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text)' }}>{item.value}</div>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>{item.label}</div>
                       </div>
                     ))}
                   </div>
                   <div style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 8 }}>
-                    <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>Start Over Without Losing Your Books</div>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.55 }}>
+                    <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>Start Over Without Losing Your Books</div>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.55 }}>
                       This clears Chronicle entries, prayer history, streak and daily-walk progress, bookmarks, and workbook answers. Your imported books, OCR assets, Bible library, and snapshots stay intact.
                     </div>
                     <div>
@@ -2537,7 +2537,7 @@ export default function Settings() {
                         type="button"
                         onClick={handleResetPersonalProgress}
                         disabled={chronicleSyncBusy}
-                        style={{ padding: '8px 14px', border: '1px solid #b42318', borderRadius: 8, background: 'transparent', color: '#b42318', fontSize: 12, fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}
+                        style={{ padding: '8px 14px', border: '1px solid #b42318', borderRadius: 8, background: 'transparent', color: '#b42318', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: chronicleSyncBusy ? 'default' : 'pointer', opacity: chronicleSyncBusy ? 0.6 : 1 }}
                       >
                         Reset Personal Progress (Keep Books)
                       </button>
@@ -2545,29 +2545,29 @@ export default function Settings() {
                   </div>
                   {chronicleSyncLatest ? (
                     <div style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 4 }}>
-                      <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>Latest snapshot</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>{chronicleSyncLatest.id}</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>Latest snapshot</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>{chronicleSyncLatest.id}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         {new Date(chronicleSyncLatest.createdAt).toLocaleString()} · {Math.max(1, Math.round(chronicleSyncLatest.byteSize / 1024))} KB
                         {chronicleSyncLatest.deviceLabel ? ` · ${chronicleSyncLatest.deviceLabel}` : ''}
                       </div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         Snapshot schema v{chronicleSyncLatest.schemaVersion || 0} · app state v{chronicleSyncLatest.appStateVersion || 0}
                       </div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         Portable merge policy: field-aware local-first · sync model v{chronicleSyncSummary?.syncModelVersion || syncProfile.modelVersion}
                       </div>
                       {chronicleSyncSummary?.localCacheSummary ? (
-                        <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                           Cache posture: {chronicleSyncSummary.localCacheSummary.installedTranslationCount} translations · {chronicleSyncSummary.localCacheSummary.importedPdfCount} imported PDFs · {chronicleSyncSummary.localCacheSummary.ocrTextCount} OCR texts
                         </div>
                       ) : null}
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5, wordBreak: 'break-word' }}>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5, wordBreak: 'break-word' }}>
                         {chronicleSyncLatest.path}
                       </div>
                     </div>
                   ) : (
-                    <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                    <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                       No Chronicle snapshot yet. Create one here to start building a portable local-first backup trail.
                     </div>
                   )}
@@ -2577,11 +2577,11 @@ export default function Settings() {
                         <div key={snapshot.id} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'flex-start', flexWrap: 'wrap' }}>
                             <div style={{ minWidth: 0, flex: 1 }}>
-                              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>{new Date(snapshot.createdAt).toLocaleString()}</div>
-                              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>
+                              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{new Date(snapshot.createdAt).toLocaleString()}</div>
+                              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>
                                 {snapshot.chronicleEntryCount} entries · {snapshot.prayerItemCount} prayers · {snapshot.ownedBookCount} books · {snapshot.scriptureBookmarkCount} bookmarks
                               </div>
-                              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>
+                              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>
                                 Snapshot schema v{snapshot.schemaVersion || 0} · app state v{snapshot.appStateVersion || 0}
                               </div>
                             </div>
@@ -2594,7 +2594,7 @@ export default function Settings() {
                                 borderRadius: 8,
                                 background: 'transparent',
                                 color: 'var(--text)',
-                                fontSize: 11,
+                                fontSize: 'var(--text-xs)',
                                 fontWeight: 700,
                                 cursor: chronicleSyncBusy ? 'default' : 'pointer',
                                 opacity: chronicleSyncBusy ? 0.6 : 1,
@@ -2611,7 +2611,7 @@ export default function Settings() {
                                 borderRadius: 8,
                                 background: 'transparent',
                                 color: 'var(--text)',
-                                fontSize: 11,
+                                fontSize: 'var(--text-xs)',
                                 fontWeight: 700,
                                 cursor: chronicleSyncBusy ? 'default' : 'pointer',
                                 opacity: chronicleSyncBusy ? 0.6 : 1,
@@ -2628,7 +2628,7 @@ export default function Settings() {
                                 borderRadius: 8,
                                 background: 'transparent',
                                 color: 'var(--text)',
-                                fontSize: 11,
+                                fontSize: 'var(--text-xs)',
                                 fontWeight: 700,
                                 cursor: chronicleSyncBusy ? 'default' : 'pointer',
                                 opacity: chronicleSyncBusy ? 0.6 : 1,
@@ -2660,7 +2660,7 @@ export default function Settings() {
                           border: `1px solid ${tool.ok ? 'var(--accent-primary)' : 'var(--border)'}`,
                           background: tool.ok ? 'var(--accent-primary-light)' : 'var(--card-inner)',
                           color: tool.ok ? 'var(--accent-primary)' : 'var(--text-sub)',
-                          fontSize: 11,
+                          fontSize: 'var(--text-xs)',
                           fontWeight: 700,
                         }}
                       >
@@ -2674,8 +2674,8 @@ export default function Settings() {
                 </SettingRow>
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div style={{ display: 'grid', gap: 8, padding: '10px 12px', borderRadius: 10, background: 'var(--card-inner)', border: '1px solid var(--border)' }}>
-                    <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>Choose a PDF from your computer</div>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                    <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>Choose a PDF from your computer</div>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                       Chronicle will copy the file into its own local library and use that stored copy for OCR and study imports.
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
@@ -2690,66 +2690,66 @@ export default function Settings() {
                           }
                           event.currentTarget.value = '';
                         }}
-                        style={{ fontSize: 12, color: 'var(--text-sub)', maxWidth: '100%' }}
+                        style={{ fontSize: 'var(--text-sm)', color: 'var(--text-sub)', maxWidth: '100%' }}
                       />
                       {studyImportBusy === 'upload' ? (
-                        <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>Uploading…</span>
+                        <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>Uploading…</span>
                       ) : uploadedBookLabel ? (
-                        <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{uploadedBookLabel}</span>
+                        <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>{uploadedBookLabel}</span>
                       ) : null}
                     </div>
                   </div>
                   <div>
-                    <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Scanned PDF Path</div>
-                    <input value={ocrPdfPath} onChange={(e) => setOcrPdfPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                    <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Scanned PDF Path</div>
+                    <input value={ocrPdfPath} onChange={(e) => setOcrPdfPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                   </div>
                   <div style={{ display: 'grid', gridTemplateColumns: isPhone ? '1fr' : '1fr 1fr', gap: 10 }}>
                     <div>
-                      <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Output stem</div>
-                      <input value={ocrStem} onChange={(e) => setOcrStem(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>Output stem</div>
+                      <input value={ocrStem} onChange={(e) => setOcrStem(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                     <div>
-                      <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Page range</div>
-                      <input value={ocrPageRange} onChange={(e) => setOcrPageRange(e.target.value)} placeholder="1-10" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>Page range</div>
+                      <input value={ocrPageRange} onChange={(e) => setOcrPageRange(e.target.value)} placeholder="1-10" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                   </div>
                   <div style={{ display: 'grid', gridTemplateColumns: isPhone ? '1fr' : '1fr 1fr', gap: 10 }}>
                     <div>
-                      <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Segment size</div>
-                      <input value={ocrSegmentSize} onChange={(e) => setOcrSegmentSize(e.target.value)} placeholder="20" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>Segment size</div>
+                      <input value={ocrSegmentSize} onChange={(e) => setOcrSegmentSize(e.target.value)} placeholder="20" style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)', alignSelf: 'end', lineHeight: 1.5 }}>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', alignSelf: 'end', lineHeight: 1.5 }}>
                       For a whole-book pass, leave page range blank and use segmented OCR. Chronicle will OCR the entire book from start to finish in ordered chunks.
                     </div>
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5, maxWidth: 560 }}>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5, maxWidth: 560 }}>
                       Chronicle can recommend the chunk size based on book length and whether you want to preserve existing daily sessions or reshape the book into daily study.
                     </div>
-                    <button onClick={recommendChunkingStrategy} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
+                    <button onClick={recommendChunkingStrategy} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
                       {studyImportBusy === 'recommend' ? 'Recommending…' : 'Recommend Chunking'}
                     </button>
                   </div>
                   {ocrChunkingAdvice && (
                     <div style={{ padding: '10px 12px', borderRadius: 10, background: 'var(--card-inner)', border: '1px solid var(--border)', display: 'grid', gap: 4 }}>
-                      <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>
                         Recommended: {ocrChunkingAdvice.mode === 'segmented' ? 'Segmented OCR' : 'Single-pass OCR'}
                       </div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         {ocrChunkingAdvice.pageCount} pages total, {ocrChunkingAdvice.recommendedSegmentSize} pages per chunk, about {ocrChunkingAdvice.estimatedSegments} segment{ocrChunkingAdvice.estimatedSegments === 1 ? '' : 's'}.
                       </div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         {ocrChunkingAdvice.reason}
                       </div>
                     </div>
                   )}
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center' }}>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>Use a page range for faster passes while cleaning up a purchased book.</div>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>Use a page range for faster passes while cleaning up a purchased book.</div>
                     <div style={{ display: 'flex', gap: 8 }}>
-                    <button onClick={runOcrImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
+                    <button onClick={runOcrImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
                       {studyImportBusy === 'ocr' ? 'Running OCR…' : 'Run OCR'}
                     </button>
-                    <button onClick={runSegmentedOcrImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-primary)', color: 'white', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
+                    <button onClick={runSegmentedOcrImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-primary)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
                       {studyImportBusy === 'segmented' ? 'Segmenting…' : 'Run Whole Book in Segments'}
                     </button>
                     </div>
@@ -2757,26 +2757,26 @@ export default function Settings() {
                 </div>
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div>
-                    <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>MasterLife Text Import</div>
-                    <input value={importTextPath} onChange={(e) => setImportTextPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                    <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>MasterLife Text Import</div>
+                    <input value={importTextPath} onChange={(e) => setImportTextPath(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center' }}>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>Imports OCR text into Chronicle&apos;s structured MasterLife source data and makes it available on the Study page.</div>
-                    <button onClick={runMasterlifeImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>Imports OCR text into Chronicle&apos;s structured MasterLife source data and makes it available on the Study page.</div>
+                    <button onClick={runMasterlifeImport} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
                       {studyImportBusy === 'import' ? 'Importing…' : 'Import & Apply MasterLife'}
                     </button>
                   </div>
                 </div>
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'grid', gap: 10 }}>
-                  <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Import a Book You Own</div>
+                  <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Import a Book You Own</div>
                   <div style={{ display: 'grid', gridTemplateColumns: isCompact ? '1fr' : '1.2fr 1fr', gap: 10 }}>
                     <div>
-                      <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Book title</div>
-                      <input value={ownedBookTitle} onChange={(e) => setOwnedBookTitle(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
+                      <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>Book title</div>
+                      <input value={ownedBookTitle} onChange={(e) => setOwnedBookTitle(e.target.value)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }} />
                     </div>
                     <div>
-                      <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>Workflow</div>
-                      <select value={ownedBookWorkflow} onChange={(e) => setOwnedBookWorkflow(e.target.value as typeof ownedBookWorkflow)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}>
+                      <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>Workflow</div>
+                      <select value={ownedBookWorkflow} onChange={(e) => setOwnedBookWorkflow(e.target.value as typeof ownedBookWorkflow)} style={{ marginTop: 6, width: '100%', padding: '7px 10px', border: '1px solid var(--border)', borderRadius: 8, fontSize: 'var(--text-base)', background: 'var(--card-inner)', color: 'var(--text)', outline: 'none' }}>
                         <option value="auto-detect">Auto-detect</option>
                         <option value="preserve-daily">Already a daily study</option>
                         <option value="ai-daily-study">Turn into daily Bible Study</option>
@@ -2784,30 +2784,30 @@ export default function Settings() {
                     </div>
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center' }}>
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
                       Chronicle will preserve books that already have daily sessions. If not, it will generate a daily Bible-study plan from the OCR text, following source sections when it can so the finished path feels closer to the book you imported.
                     </div>
-                    <button onClick={analyzeAndAddOwnedBook} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
+                    <button onClick={analyzeAndAddOwnedBook} disabled={studyImportBusy !== null} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}>
                       {studyImportBusy === 'analyze' ? 'Adding…' : 'Add to Discipleship'}
                     </button>
                   </div>
-                  <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>
+                  <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
                     Current library: {ownedBooks.length} book{ownedBooks.length === 1 ? '' : 's'}.
                   </div>
                 </div>
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)' }}>
-                  <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Import Progress</div>
+                  <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Import Progress</div>
                   <div style={{ marginTop: 8, padding: '10px 12px', borderRadius: 8, background: 'var(--card-inner)', border: '1px solid var(--border)', display: 'grid', gap: 8 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center' }}>
                       <div>
-                        <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>
+                        <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>
                           {studyImportJob ? studyImportJob.label : 'No active import'}
                         </div>
-                        <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                           {studyImportJob ? studyImportJob.message : 'Start OCR or import and Chronicle will show live progress here.'}
                         </div>
                       </div>
-                      <div style={{ fontSize: 11, fontWeight: 700, color: studyImportJob?.status === 'failed' ? '#b42318' : 'var(--text-sub)' }}>
+                      <div style={{ fontSize: 'var(--text-xs)', fontWeight: 700, color: studyImportJob?.status === 'failed' ? '#b42318' : 'var(--text-sub)' }}>
                         {studyImportJob ? `${Math.round((studyImportJob.progress || 0) * 100)}%` : '0%'}
                       </div>
                     </div>
@@ -2823,7 +2823,7 @@ export default function Settings() {
                       />
                     </div>
                     {studyImportJob && (
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', display: 'flex', justifyContent: 'space-between', gap: 10, flexWrap: 'wrap' }}>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', display: 'flex', justifyContent: 'space-between', gap: 10, flexWrap: 'wrap' }}>
                         <span>Status: {studyImportJob.status}</span>
                         <span>Started: {new Date(studyImportJob.startedAt).toLocaleTimeString()}</span>
                         {studyImportJob.finishedAt ? <span>Finished: {new Date(studyImportJob.finishedAt).toLocaleTimeString()}</span> : null}
@@ -2837,16 +2837,16 @@ export default function Settings() {
                       return (
                         <div style={{ padding: '10px 12px', borderRadius: 8, border: `1px solid ${tone.border}`, background: tone.background, display: 'grid', gap: 4 }}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
-                            <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>OCR signal</div>
-                            <span style={{ padding: '3px 8px', borderRadius: 999, border: `1px solid ${tone.border}`, background: 'rgba(255,255,255,0.45)', color: tone.color, fontSize: 11, fontWeight: 700, textTransform: 'capitalize' }}>
+                            <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>OCR signal</div>
+                            <span style={{ padding: '3px 8px', borderRadius: 999, border: `1px solid ${tone.border}`, background: 'rgba(255,255,255,0.45)', color: tone.color, fontSize: 'var(--text-xs)', fontWeight: 700, textTransform: 'capitalize' }}>
                               {quality.confidence} confidence
                             </span>
                           </div>
-                          <div style={{ fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>
+                          <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.5 }}>
                             {quality.pageCount} page{quality.pageCount === 1 ? '' : 's'} · avg {quality.averageCharsPerPage} chars/page · {quality.sparsePageCount} sparse page{quality.sparsePageCount === 1 ? '' : 's'}
                           </div>
                           {quality.warnings.length > 0 ? (
-                            <div style={{ fontSize: 11, color: quality.confidence === 'low' ? '#7a271a' : 'var(--text-sub)', lineHeight: 1.5 }}>
+                            <div style={{ fontSize: 'var(--text-xs)', color: quality.confidence === 'low' ? '#7a271a' : 'var(--text-sub)', lineHeight: 1.5 }}>
                               {quality.warnings[0]}
                             </div>
                           ) : null}
@@ -2855,12 +2855,12 @@ export default function Settings() {
                               <button
                                 onClick={() => void rerunOcrForRecord(record, chooseOcrRepairMode(record))}
                                 disabled={studyImportBusy !== null}
-                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: quality.confidence === 'low' ? '#b42318' : 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}
+                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: quality.confidence === 'low' ? '#b42318' : 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}
                               >
                                 {quality.confidence === 'low' ? 'Repair This OCR' : 'Re-run OCR'}
                               </button>
                               {chooseOcrRepairMode(record) === 'segmented' ? (
-                                <div style={{ fontSize: 11, color: 'var(--text-sub)', alignSelf: 'center' }}>
+                                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-sub)', alignSelf: 'center' }}>
                                   Chronicle recommends segmented OCR for this book.
                                 </div>
                               ) : null}
@@ -2873,7 +2873,7 @@ export default function Settings() {
                       <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                         <button
                           onClick={() => setStudyImportJob(null)}
-                          style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 12, cursor: 'pointer' }}
+                          style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 'var(--text-sm)', cursor: 'pointer' }}
                         >
                           Clear Progress
                         </button>
@@ -2883,7 +2883,7 @@ export default function Settings() {
                               const record = studyLibraryRecords.find((entry) => entry.id === studyImportJob.result?.recordId);
                               if (record) hydrateRecordToForm(record);
                             }}
-                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                            style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                           >
                             Load Job Output
                           </button>
@@ -2891,7 +2891,7 @@ export default function Settings() {
                         {studyImportJob.status === 'completed' && typeof studyImportJob.result?.recordId === 'string' && studyLibraryRecords.some((entry) => entry.id === studyImportJob.result?.recordId && entry.status === 'structured') ? (
                           <button
                             onClick={() => openBookInDiscipleship(String(studyImportJob.result?.recordId))}
-                            style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                            style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                           >
                             Open in Discipleship
                           </button>
@@ -2903,17 +2903,17 @@ export default function Settings() {
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
                     <div>
-                      <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Chronicle Study Library</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Chronicle Study Library</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                         {studyLibraryRecords.length} imported book{studyLibraryRecords.length === 1 ? '' : 's'} · {libraryStatusCounts.uploaded} uploaded · {libraryStatusCounts.ocrComplete} OCR complete · {libraryStatusCounts.structured} structured
                       </div>
                       {studyLibraryManifest ? (
-                        <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                           Library manifest v{studyLibraryManifest.schemaVersion} · record schema v{studyLibraryManifest.libraryRecordSchemaVersion} · owned book schema v{studyLibraryManifest.ownedBookSchemaVersion}
                         </div>
                       ) : null}
                     </div>
-                    <button onClick={() => void refreshStudyLibrary()} disabled={studyLibraryBusy} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: studyLibraryBusy ? 'default' : 'pointer', opacity: studyLibraryBusy ? 0.6 : 1 }}>
+                    <button onClick={() => void refreshStudyLibrary()} disabled={studyLibraryBusy} style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyLibraryBusy ? 'default' : 'pointer', opacity: studyLibraryBusy ? 0.6 : 1 }}>
                       {studyLibraryBusy ? 'Refreshing…' : 'Refresh Library'}
                     </button>
                   </div>
@@ -2925,32 +2925,32 @@ export default function Settings() {
                         <div key={record.id} style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 8 }}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'flex-start', flexWrap: 'wrap' }}>
                             <div style={{ minWidth: 0 }}>
-                              <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)' }}>{record.title}</div>
-                              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{record.title}</div>
+                              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                                 {record.originalFileName} · Schema v{record.schemaVersion || 0} · Updated {new Date(record.updatedAt).toLocaleString()}
                               </div>
                             </div>
-                            <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${tone.border}`, background: tone.background, color: tone.color, fontSize: 11, fontWeight: 700, textTransform: 'capitalize' }}>
+                            <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${tone.border}`, background: tone.background, color: tone.color, fontSize: 'var(--text-xs)', fontWeight: 700, textTransform: 'capitalize' }}>
                               {record.status.replace('_', ' ')}
                             </span>
                           </div>
                           {record.ocrQuality ? (
                             <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
-                              <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${ocrTone!.border}`, background: ocrTone!.background, color: ocrTone!.color, fontSize: 11, fontWeight: 700, textTransform: 'capitalize' }}>
+                              <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${ocrTone!.border}`, background: ocrTone!.background, color: ocrTone!.color, fontSize: 'var(--text-xs)', fontWeight: 700, textTransform: 'capitalize' }}>
                                 OCR {record.ocrQuality.confidence}
                               </span>
-                              <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>
+                              <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
                                 {record.ocrQuality.pageCount} pages · avg {record.ocrQuality.averageCharsPerPage} chars/page · {record.ocrQuality.sparsePageCount} sparse
                               </span>
                             </div>
                           ) : null}
                           {record.generatedPlan?.generationStrategy ? (
-                            <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>
+                            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
                               {generationStrategyLabel(record.generatedPlan.generationStrategy)}
                             </div>
                           ) : null}
                           {summarizePlanStructures(record.generatedPlan).length ? (
-                            <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>
+                            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
                               {summarizePlanStructures(record.generatedPlan).join(' · ')}
                             </div>
                           ) : null}
@@ -2958,16 +2958,16 @@ export default function Settings() {
                             const tone = sourceHealthTone(record.importDiagnostics.sourceHealth);
                             return (
                               <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center' }}>
-                                <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${tone.border}`, background: tone.background, color: tone.color, fontSize: 11, fontWeight: 700, textTransform: 'capitalize' }}>
+                                <span style={{ padding: '4px 8px', borderRadius: 999, border: `1px solid ${tone.border}`, background: tone.background, color: tone.color, fontSize: 'var(--text-xs)', fontWeight: 700, textTransform: 'capitalize' }}>
                                   Source {record.importDiagnostics.sourceHealth}
                                 </span>
-                                <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>
+                                <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
                                   {record.importDiagnostics.mappedDayCount}/{record.importDiagnostics.totalDays} days mapped · {record.importDiagnostics.mappedSliceCount} slices
                                 </span>
                               </div>
                             );
                           })() : null}
-                          <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                          <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                             {record.summary || (record.status === 'structured'
                               ? 'Structured and ready for Discipleship.'
                               : record.status === 'ocr_complete'
@@ -2975,26 +2975,26 @@ export default function Settings() {
                                 : 'Uploaded into Chronicle’s private library and waiting for OCR.')}
                           </div>
                           {record.ocrQuality?.warnings?.length ? (
-                            <div style={{ padding: '8px 10px', borderRadius: 8, border: `1px solid ${ocrTone!.border}`, background: 'rgba(255,255,255,0.45)', fontSize: 11, color: record.ocrQuality.confidence === 'low' ? '#7a271a' : 'var(--text-sub)', lineHeight: 1.5 }}>
+                            <div style={{ padding: '8px 10px', borderRadius: 8, border: `1px solid ${ocrTone!.border}`, background: 'rgba(255,255,255,0.45)', fontSize: 'var(--text-xs)', color: record.ocrQuality.confidence === 'low' ? '#7a271a' : 'var(--text-sub)', lineHeight: 1.5 }}>
                               {record.ocrQuality.warnings[0]}
                             </div>
                           ) : null}
                           {record.importDiagnostics?.warnings?.length ? (
-                            <div style={{ padding: '8px 10px', borderRadius: 8, border: `1px solid ${sourceHealthTone(record.importDiagnostics.sourceHealth).border}`, background: 'rgba(255,255,255,0.45)', fontSize: 11, color: record.importDiagnostics.sourceHealth === 'low' ? '#7a271a' : 'var(--text-sub)', lineHeight: 1.5 }}>
+                            <div style={{ padding: '8px 10px', borderRadius: 8, border: `1px solid ${sourceHealthTone(record.importDiagnostics.sourceHealth).border}`, background: 'rgba(255,255,255,0.45)', fontSize: 'var(--text-xs)', color: record.importDiagnostics.sourceHealth === 'low' ? '#7a271a' : 'var(--text-sub)', lineHeight: 1.5 }}>
                               {record.importDiagnostics.warnings[0]}
                             </div>
                           ) : null}
                           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                             <button
                               onClick={() => hydrateRecordToForm(record)}
-                              style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 12, cursor: 'pointer' }}
+                              style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 'var(--text-sm)', cursor: 'pointer' }}
                             >
                               Load Into Import Form
                             </button>
                             {record.status === 'structured' ? (
                               <button
                                 onClick={() => openRecordInDiscipleship(record)}
-                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                               >
                                 Open in Discipleship
                               </button>
@@ -3005,14 +3005,14 @@ export default function Settings() {
                                   void analyzeAndAddOwnedBook();
                                 }}
                                 disabled={studyImportBusy !== null}
-                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}
+                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}
                               >
                                 Add to Discipleship
                               </button>
                             ) : (
                               <button
                                 onClick={() => hydrateRecordToForm(record)}
-                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                               >
                                 Continue OCR
                               </button>
@@ -3021,7 +3021,7 @@ export default function Settings() {
                               <button
                                 onClick={() => void rerunOcrForRecord(record, chooseOcrRepairMode(record))}
                                 disabled={studyImportBusy !== null}
-                                style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: record.ocrQuality.confidence === 'low' ? '#b42318' : 'var(--text-sub)', fontSize: 12, fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}
+                                style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: record.ocrQuality.confidence === 'low' ? '#b42318' : 'var(--text-sub)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyImportBusy ? 'default' : 'pointer', opacity: studyImportBusy ? 0.6 : 1 }}
                               >
                                 {record.ocrQuality.confidence === 'low' ? 'Repair OCR' : 'Re-run OCR'}
                               </button>
@@ -3029,7 +3029,7 @@ export default function Settings() {
                             <button
                               onClick={() => void deleteStudyLibraryRecord(record)}
                               disabled={studyLibraryDeleteBusyId === record.id}
-                              style={{ padding: '7px 12px', border: '1px solid rgba(180, 35, 24, 0.24)', borderRadius: 8, background: 'rgba(249, 112, 102, 0.08)', color: '#b42318', fontSize: 12, fontWeight: 700, cursor: studyLibraryDeleteBusyId === record.id ? 'default' : 'pointer', opacity: studyLibraryDeleteBusyId === record.id ? 0.6 : 1 }}
+                              style={{ padding: '7px 12px', border: '1px solid rgba(180, 35, 24, 0.24)', borderRadius: 8, background: 'rgba(249, 112, 102, 0.08)', color: '#b42318', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: studyLibraryDeleteBusyId === record.id ? 'default' : 'pointer', opacity: studyLibraryDeleteBusyId === record.id ? 0.6 : 1 }}
                             >
                               {studyLibraryDeleteBusyId === record.id ? 'Deleting…' : 'Delete Book'}
                             </button>
@@ -3037,7 +3037,7 @@ export default function Settings() {
                         </div>
                       );
                     }) : (
-                      <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         No imported books yet. Upload a PDF above and Chronicle will track it here from upload to OCR to structured study.
                       </div>
                     )}
@@ -3046,8 +3046,8 @@ export default function Settings() {
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)', display: 'grid', gap: 10 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
                     <div>
-                      <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Discipleship Workbook QA</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Discipleship Workbook QA</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                         Chronicle checks workbook days for response cues and whether overlays cover the pages that need interaction.
                         {workbookAuditGeneratedAt ? ` Last audit: ${new Date(workbookAuditGeneratedAt).toLocaleString()}.` : ''}
                       </div>
@@ -3056,21 +3056,21 @@ export default function Settings() {
                       <button
                         onClick={() => void refreshWorkbookAudit()}
                         disabled={workbookAuditBusy || workbookAuditActionBusy !== null}
-                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: workbookAuditBusy || workbookAuditActionBusy ? 'default' : 'pointer', opacity: workbookAuditBusy || workbookAuditActionBusy ? 0.6 : 1 }}
+                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: workbookAuditBusy || workbookAuditActionBusy ? 'default' : 'pointer', opacity: workbookAuditBusy || workbookAuditActionBusy ? 0.6 : 1 }}
                       >
                         {workbookAuditBusy ? 'Refreshing…' : 'Refresh QA'}
                       </button>
                       <button
                         onClick={() => void runWorkbookSync()}
                         disabled={workbookAuditActionBusy !== null}
-                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: workbookAuditActionBusy ? 'default' : 'pointer', opacity: workbookAuditActionBusy ? 0.6 : 1 }}
+                        style={{ padding: '8px 14px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: workbookAuditActionBusy ? 'default' : 'pointer', opacity: workbookAuditActionBusy ? 0.6 : 1 }}
                       >
                         {workbookAuditActionBusy === 'sync' ? 'Running Sync…' : 'Run Workbook Sync'}
                       </button>
                       <button
                         onClick={() => void runWorkbookQa()}
                         disabled={workbookAuditActionBusy !== null}
-                        style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: workbookAuditActionBusy ? 'default' : 'pointer', opacity: workbookAuditActionBusy ? 0.6 : 1 }}
+                        style={{ padding: '8px 14px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: workbookAuditActionBusy ? 'default' : 'pointer', opacity: workbookAuditActionBusy ? 0.6 : 1 }}
                       >
                         {workbookAuditActionBusy === 'qa' ? 'Running QA…' : 'Run Workbook QA'}
                       </button>
@@ -3084,30 +3084,30 @@ export default function Settings() {
                       { label: 'Days with no prompts', value: workbookAuditSummary.daysWithoutInteractiveCues },
                     ].map((item) => (
                       <div key={item.label} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
-                        <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>{item.label}</div>
-                        <div style={{ fontSize: 18, fontWeight: 700, color: item.tone || 'var(--text)', marginTop: 4 }}>{item.value}</div>
+                        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>{item.label}</div>
+                        <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: item.tone || 'var(--text)', marginTop: 4 }}>{item.value}</div>
                       </div>
                     ))}
                   </div>
                   {workbookAuditWarnings.length > 0 ? (
                     <div style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid rgba(180, 35, 24, 0.18)', background: 'rgba(249, 112, 102, 0.08)', display: 'grid', gap: 4 }}>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: '#b42318' }}>Audit warnings</div>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: '#b42318' }}>Audit warnings</div>
                       {workbookAuditWarnings.map((warning) => (
-                        <div key={warning} style={{ fontSize: 11, color: '#7a271a', lineHeight: 1.5 }}>{warning}</div>
+                        <div key={warning} style={{ fontSize: 'var(--text-xs)', color: '#7a271a', lineHeight: 1.5 }}>{warning}</div>
                       ))}
                     </div>
                   ) : null}
                   {workbookAuditByBook.length > 0 ? (
                     <div style={{ display: 'grid', gap: 8 }}>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>Book readiness</div>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--text)' }}>Book readiness</div>
                       {workbookAuditByBook.map((book) => {
                         const hasUncovered = book.uncoveredCuePages > 0;
                         return (
                           <div key={book.bookId} style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 8 }}>
                             <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'flex-start', flexWrap: 'wrap' }}>
                               <div style={{ minWidth: 0 }}>
-                                <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)' }}>{book.title}</div>
-                                <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                                <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{book.title}</div>
+                                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                                   {book.totalDays} day{book.totalDays === 1 ? '' : 's'} · {book.cueSafeDays} cue-safe · {book.noPromptDays} reading-only
                                 </div>
                               </div>
@@ -3117,7 +3117,7 @@ export default function Settings() {
                                 border: `1px solid ${hasUncovered ? 'rgba(180, 35, 24, 0.24)' : 'rgba(15, 79, 207, 0.24)'}`,
                                 background: hasUncovered ? 'rgba(249, 112, 102, 0.08)' : 'rgba(15, 79, 207, 0.08)',
                                 color: hasUncovered ? '#b42318' : 'var(--accent-blue)',
-                                fontSize: 11,
+                                fontSize: 'var(--text-xs)',
                                 fontWeight: 700,
                               }}>
                                 {hasUncovered ? `${book.uncoveredCuePages} uncovered cue page${book.uncoveredCuePages === 1 ? '' : 's'}` : 'Ready for workbook review'}
@@ -3126,14 +3126,14 @@ export default function Settings() {
                             <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                               <button
                                 onClick={() => openBookInDiscipleship(book.bookId)}
-                                style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 12, cursor: 'pointer' }}
+                                style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 'var(--text-sm)', cursor: 'pointer' }}
                               >
                                 Open Book
                               </button>
                               {book.nextFlaggedEntry ? (
                                 <button
                                   onClick={() => openAuditDayInDiscipleship(book.nextFlaggedEntry!, 'workbook')}
-                                  style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                                  style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                                 >
                                   Review Next Flagged Day
                                 </button>
@@ -3151,10 +3151,10 @@ export default function Settings() {
                         <div key={`${entry.bookId}-${entry.day}`} style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 8 }}>
                           <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'flex-start', flexWrap: 'wrap' }}>
                             <div style={{ minWidth: 0 }}>
-                              <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)' }}>
+                              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>
                                 {entry.title} · Day {entry.day}
                               </div>
-                              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 2 }}>
+                              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 2 }}>
                                 {entry.section || 'Workbook day'} · Pages {entry.pageRange.join(', ')}
                               </div>
                             </div>
@@ -3164,13 +3164,13 @@ export default function Settings() {
                               border: `1px solid ${hasUncovered ? 'rgba(180, 35, 24, 0.24)' : 'rgba(15, 79, 207, 0.24)'}`,
                               background: hasUncovered ? 'rgba(249, 112, 102, 0.08)' : 'rgba(15, 79, 207, 0.08)',
                               color: hasUncovered ? '#b42318' : 'var(--accent-blue)',
-                              fontSize: 11,
+                              fontSize: 'var(--text-xs)',
                               fontWeight: 700,
                             }}>
                               {hasUncovered ? `${entry.uncoveredCuePages.length} uncovered cue page${entry.uncoveredCuePages.length === 1 ? '' : 's'}` : 'Cue coverage clear'}
                             </span>
                           </div>
-                          <div style={{ fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                          <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                             {entry.cuePages.length > 0
                               ? `${entry.cuePages.length} cue page${entry.cuePages.length === 1 ? '' : 's'} detected. Covered pages: ${entry.coveredPages.length > 0 ? entry.coveredPages.join(', ') : 'none yet'}.`
                               : 'No workbook response cues were detected on this day, so Chronicle treats it as a plain reading slice for now.'}
@@ -3178,28 +3178,28 @@ export default function Settings() {
                           {entry.cuePages.length > 0 ? (
                             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
                               {entry.cuePages.map((cue) => (
-                                <span key={`${entry.bookId}-${entry.day}-${cue.pageNumber}`} style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: 'transparent', fontSize: 11, color: 'var(--text-sub)' }}>
+                                <span key={`${entry.bookId}-${entry.day}-${cue.pageNumber}`} style={{ padding: '4px 8px', borderRadius: 999, border: '1px solid var(--border)', background: 'transparent', fontSize: 'var(--text-xs)', color: 'var(--text-sub)' }}>
                                   Page {cue.pageNumber}: {cue.cueLabels.slice(0, 2).join(', ')}
                                 </span>
                               ))}
                             </div>
                           ) : null}
                           {hasUncovered ? (
-                            <div style={{ fontSize: 11, color: '#7a271a', lineHeight: 1.5 }}>
+                            <div style={{ fontSize: 'var(--text-xs)', color: '#7a271a', lineHeight: 1.5 }}>
                               Uncovered: {entry.uncoveredCuePages.map((cue) => `page ${cue.pageNumber} (${cue.cueLabels.join(', ')})`).join(' · ')}
                             </div>
                           ) : null}
                           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                             <button
                               onClick={() => openAuditDayInDiscipleship(entry, 'study')}
-                              style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 12, cursor: 'pointer' }}
+                              style={{ padding: '7px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'transparent', color: 'var(--text-sub)', fontSize: 'var(--text-sm)', cursor: 'pointer' }}
                             >
                               Open Day in Discipleship
                             </button>
                             {entry.cuePages.length > 0 ? (
                               <button
                                 onClick={() => openAuditDayInDiscipleship(entry, 'workbook')}
-                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                                style={{ padding: '7px 12px', border: 'none', borderRadius: 8, background: 'var(--accent-blue)', color: 'white', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                               >
                                 Review Workbook
                               </button>
@@ -3208,25 +3208,25 @@ export default function Settings() {
                         </div>
                       );
                     }) : (
-                      <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 11, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                      <div style={{ padding: '12px', borderRadius: 10, border: '1px dashed var(--border)', background: 'var(--card-inner)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', lineHeight: 1.5 }}>
                         Chronicle has not generated a workbook QA audit yet. Run the discipleship sync/QA pipeline and the day-level readiness map will appear here.
                       </div>
                     )}
                   </div>
                 </div>
                 <div style={{ padding: '13px 18px', borderBottom: '1px solid var(--border)' }}>
-                  <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>OCR Artifacts</div>
+                  <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>OCR Artifacts</div>
                   <div style={{ marginTop: 8, display: 'flex', flexWrap: 'wrap', gap: 6 }}>
                     {studyImportFiles.length > 0 ? studyImportFiles.map((file) => (
-                      <span key={file} style={{ padding: '4px 8px', borderRadius: 999, background: 'var(--card-inner)', border: '1px solid var(--border)', fontSize: 11, color: 'var(--text-sub)' }}>
+                      <span key={file} style={{ padding: '4px 8px', borderRadius: 999, background: 'var(--card-inner)', border: '1px solid var(--border)', fontSize: 'var(--text-xs)', color: 'var(--text-sub)' }}>
                         {file}
                       </span>
-                    )) : <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>No OCR artifacts yet.</span>}
+                    )) : <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>No OCR artifacts yet.</span>}
                   </div>
                 </div>
                 <div style={{ padding: '13px 18px' }}>
-                  <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--text)' }}>Last Import Log</div>
-                  <pre style={{ marginTop: 8, padding: '10px 12px', borderRadius: 8, background: 'var(--card-inner)', border: '1px solid var(--border)', fontSize: 11, lineHeight: 1.5, color: 'var(--text-sub)', whiteSpace: 'pre-wrap', wordBreak: 'break-word', maxHeight: 180, overflowY: 'auto' }}>
+                  <div style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text)' }}>Last Import Log</div>
+                  <pre style={{ marginTop: 8, padding: '10px 12px', borderRadius: 8, background: 'var(--card-inner)', border: '1px solid var(--border)', fontSize: 'var(--text-xs)', lineHeight: 1.5, color: 'var(--text-sub)', whiteSpace: 'pre-wrap', wordBreak: 'break-word', maxHeight: 180, overflowY: 'auto' }}>
                     {studyImportLog || 'No OCR or import run yet.'}
                   </pre>
                 </div>
@@ -3235,12 +3235,12 @@ export default function Settings() {
                 <GroupHeader title="Export" />
                 <SettingRow label="Export Chronicle" desc="Download all entries as Markdown or JSON">
                   <div style={{ display: 'flex', gap: 6 }}>
-                    <button onClick={exportChronicleMarkdown} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>.md</button>
-                    <button onClick={createChronicleSnapshot} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>.json</button>
+                    <button onClick={exportChronicleMarkdown} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 'var(--text-sm)', color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>.md</button>
+                    <button onClick={createChronicleSnapshot} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 'var(--text-sm)', color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>.json</button>
                   </div>
                 </SettingRow>
                 <SettingRow label="Export Legacy Memoir" desc="Opens a print-formatted view — use your browser's Save as PDF">
-                  <button onClick={exportLegacyMemoir} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 12, color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>Export PDF</button>
+                  <button onClick={exportLegacyMemoir} style={{ padding: '5px 12px', border: '1px solid var(--border)', borderRadius: 7, fontSize: 'var(--text-sm)', color: 'var(--text-sub)', background: 'transparent', cursor: 'pointer' }}>Export PDF</button>
                 </SettingRow>
               </Group>
             </>
@@ -3255,15 +3255,15 @@ export default function Settings() {
                     alt="Chronicle"
                     style={{ width: 56, height: 56, borderRadius: 14, objectFit: 'cover', margin: '0 auto 14px', boxShadow: '0 6px 18px rgba(15, 79, 207, 0.18)' }}
                   />
-                  <div style={{ fontSize: 17, fontWeight: 700, color: 'var(--text)' }}>Chronicle</div>
-                  <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>Version {CHRONICLE_APP_VERSION} ({CHRONICLE_BUILD_LABEL})</div>
+                  <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text)' }}>Chronicle</div>
+                  <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)', marginTop: 2 }}>Version {CHRONICLE_APP_VERSION} ({CHRONICLE_BUILD_LABEL})</div>
                   {householdMember !== undefined ? (
-                    <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 6 }}>
+                    <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 6 }}>
                       {householdMember ? `Signed in via Cloudflare Access as ${householdMember.email}` : 'Cloudflare Access identity not detected (local dev)'}
                     </div>
                   ) : null}
-                  <div style={{ fontSize: 12, color: 'var(--text-sub)', marginTop: 8 }}>{CHRONICLE_TAGLINE}</div>
-                  <div style={{ fontFamily: 'var(--font-serif)', fontSize: 12, fontStyle: 'italic', color: 'var(--text-sub)', marginTop: 12, lineHeight: 1.7 }}>
+                  <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-sub)', marginTop: 8 }}>{CHRONICLE_TAGLINE}</div>
+                  <div style={{ fontFamily: 'var(--font-serif)', fontSize: 'var(--text-sm)', fontStyle: 'italic', color: 'var(--text-sub)', marginTop: 12, lineHeight: 1.7 }}>
                     "{CHRONICLE_MOTTO}"
                   </div>
                 </div>
@@ -3274,16 +3274,16 @@ export default function Settings() {
                   {CHRONICLE_ONBOARDING_STEPS.map((step, index) => (
                     <div key={step.title} style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 8 }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
-                        <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>{index + 1}. {step.title}</div>
+                        <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--text)' }}>{index + 1}. {step.title}</div>
                         <button
                           type="button"
                           onClick={() => openOnboardingStep(step)}
-                          style={{ padding: '7px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                          style={{ padding: '7px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                         >
                           {step.actionLabel}
                         </button>
                       </div>
-                      <div style={{ fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.6 }}>{step.description}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.6 }}>{step.description}</div>
                     </div>
                   ))}
                 </div>
@@ -3298,8 +3298,8 @@ export default function Settings() {
                     { label: 'Formation memory', detail: `${chronicleEntries.length} Chronicle entries · ${answeredPrayerCount} answered prayers · ${formationRhythms.length} rhythms`, tone: 'var(--accent-blue)' },
                   ].map((item) => (
                     <div key={item.label} style={{ padding: '10px 12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)' }}>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>{item.label}</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-sub)', marginTop: 4, lineHeight: 1.6 }}>{item.detail}</div>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--text)' }}>{item.label}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-sub)', marginTop: 4, lineHeight: 1.6 }}>{item.detail}</div>
                     </div>
                   ))}
                 </div>
@@ -3328,13 +3328,13 @@ export default function Settings() {
                     },
                   ].map((item) => (
                     <div key={item.title} style={{ padding: '12px', borderRadius: 10, border: '1px solid var(--border)', background: 'var(--card-inner)', display: 'grid', gap: 8 }}>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text)' }}>{item.title}</div>
-                      <div style={{ fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.6 }}>{item.detail}</div>
+                      <div style={{ fontSize: 'var(--text-sm)', fontWeight: 700, color: 'var(--text)' }}>{item.title}</div>
+                      <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.6 }}>{item.detail}</div>
                       <div>
                         <button
                           type="button"
                           onClick={item.onClick}
-                          style={{ padding: '7px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+                          style={{ padding: '7px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text)', fontSize: 'var(--text-sm)', fontWeight: 700, cursor: 'pointer' }}
                         >
                           {item.actionLabel}
                         </button>
@@ -3345,13 +3345,13 @@ export default function Settings() {
               </Group>
               <Group>
                 <GroupHeader title="Scripture License" />
-                <div style={{ padding: '14px 18px', fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.7 }}>
+                <div style={{ padding: '14px 18px', fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.7 }}>
                   Primary Scripture display uses the <strong>NKJV®</strong> (New King James Version®), Copyright © 1982 by Thomas Nelson. Additional translations may appear where enabled in settings and provider configuration.
                 </div>
               </Group>
               <Group>
                 <GroupHeader title="Acknowledgments" />
-                <div style={{ padding: '14px 18px', fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.8 }}>
+                <div style={{ padding: '14px 18px', fontSize: 'var(--text-xs)', color: 'var(--text-sub)', lineHeight: 1.8 }}>
                   <p>Built as a local-first Chronicle workspace with React, TypeScript, Vite, OCR tooling, and a private study library.</p>
                   <p style={{ marginTop: 6 }}>Theme analysis is shaped by imported concordance, commentary, cross-reference, and Strong&apos;s data stored in Chronicle&apos;s local library.</p>
                 </div>
@@ -3365,7 +3365,7 @@ export default function Settings() {
       {/* Right panel */}
       <div style={{ width: 260, minWidth: 260, borderLeft: '1px solid var(--border)', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Account</div>
+          <div style={{ fontSize: 'var(--text-xs)', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Account</div>
           <div style={{ background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 10, padding: 14, display: 'flex', flexDirection: 'column', gap: 8 }}>
             {[
               { l: 'User', v: 'Chris', green: false },
@@ -3374,14 +3374,14 @@ export default function Settings() {
               { l: 'Version', v: '0.1.0', green: false },
             ].map((row) => (
               <div key={row.l} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{row.l}</span>
-                <span style={{ fontSize: 12, fontWeight: 600, color: row.green ? 'var(--accent-primary)' : 'var(--text)' }}>{row.v}</span>
+                <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>{row.l}</span>
+                <span style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: row.green ? 'var(--accent-primary)' : 'var(--text)' }}>{row.v}</span>
               </div>
             ))}
           </div>
         </div>
         <div style={{ padding: 16, borderBottom: '1px solid var(--border)' }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Your Chronicle</div>
+          <div style={{ fontSize: 'var(--text-xs)', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>Your Chronicle</div>
           <div style={{ display: 'grid', gridTemplateColumns: isPhone ? '1fr' : '1fr 1fr', gap: 8 }}>
             {[
               { n: chronicleEntries.length, l: 'Entries' },
@@ -3390,32 +3390,32 @@ export default function Settings() {
               { n: monthsDeep, l: 'Months Deep' },
             ].map((stat) => (
               <div key={stat.l} style={{ background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, padding: '10px 12px', textAlign: 'center' }}>
-                <div style={{ fontSize: 18, fontWeight: 700, color: 'var(--text)', lineHeight: 1 }}>{stat.n}</div>
-                <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 3 }}>{stat.l}</div>
+                <div style={{ fontSize: 'var(--text-lg)', fontWeight: 700, color: 'var(--text)', lineHeight: 1 }}>{stat.n}</div>
+                <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>{stat.l}</div>
               </div>
             ))}
           </div>
         </div>
         <div style={{ padding: 16 }}>
-          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 8 }}>Library Health</div>
+          <div style={{ fontSize: 'var(--text-xs)', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 8 }}>Library Health</div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             <div style={{ padding: '10px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)' }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>{localLibraryCount} owned book{localLibraryCount === 1 ? '' : 's'}</div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>Imported discipleship sources available to Chronicle.</div>
+              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{localLibraryCount} owned book{localLibraryCount === 1 ? '' : 's'}</div>
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>Imported discipleship sources available to Chronicle.</div>
             </div>
             <div style={{ padding: '10px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)' }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>{answeredPrayerCount} answered prayer{answeredPrayerCount === 1 ? '' : 's'}</div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>Prayer history now folded into Chronicle&apos;s formation signals.</div>
+              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{answeredPrayerCount} answered prayer{answeredPrayerCount === 1 ? '' : 's'}</div>
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>Prayer history now folded into Chronicle&apos;s formation signals.</div>
             </div>
             <div style={{ padding: '10px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)' }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>{prayerFormation.followUpDueCount} prayer follow-up{prayerFormation.followUpDueCount === 1 ? '' : 's'} due</div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>Open requests that Chronicle thinks need another touch right now.</div>
+              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>{prayerFormation.followUpDueCount} prayer follow-up{prayerFormation.followUpDueCount === 1 ? '' : 's'} due</div>
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>Open requests that Chronicle thinks need another touch right now.</div>
             </div>
             <div style={{ padding: '10px 12px', border: '1px solid var(--border)', borderRadius: 8, background: 'var(--card-inner)' }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--text)' }}>
+              <div style={{ fontSize: 'var(--text-sm)', fontWeight: 600, color: 'var(--text)' }}>
                 {chronicleSyncLatest ? 'Portable snapshot available' : (toggles.iCloudBackup ? 'Sync posture ready' : 'Manual-only posture')}
               </div>
-              <div style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 3 }}>
+              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 3 }}>
                 {chronicleSyncLatest
                   ? `Latest snapshot: ${new Date(chronicleSyncLatest.createdAt).toLocaleDateString()}`
                   : 'The UI is now being shaped toward local-first sync across desktop, iPad, and iPhone.'}
