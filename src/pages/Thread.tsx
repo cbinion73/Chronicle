@@ -7,6 +7,7 @@ import Legacy from './Legacy';
 import Insights from './Insights';
 import GrowthMarkers from './GrowthMarkers';
 import AnsweredLight from './AnsweredLight';
+import stoneStyles from '../styles/stoneCourtRegister.module.css';
 
 // The Thread — one room, five altitudes of the same lifelong spine
 // (ROADMAP M21, "The Thread Made Literal"). Record, Answered Light,
@@ -52,7 +53,7 @@ export default function Thread() {
     : null;
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
+    <div className={view !== 'story' ? stoneStyles.stoneCourtRegister : undefined} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
       {/* Room header: the unified spine, then the three views of it */}
       <div style={{ padding: '10px 16px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap' }}>
         <div style={{ display: 'inline-flex', border: '1px solid var(--border)', borderRadius: 10, overflow: 'hidden' }}>

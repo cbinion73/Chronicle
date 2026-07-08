@@ -1356,3 +1356,62 @@ flakes did not appear this run).
 Next: Design-4 (Stone Court register for Thread/Record/AnsweredLight/
 Growth/Patterns/Heritage), then Design-5 (Ledger formalization for
 Settings only).
+
+## Design-4 (branch: design/stone-court) — Stone Court register for the Thread + Heritage Room
+
+The tactile, parchment-and-stone register. Per direct user instruction,
+every Thread altitude is Stone Court except Story (which keeps its own
+Old Family Bible register from Design-1) — this pulls Record, Answered
+Light, Growth, and Patterns in under one register, and the Heritage Room
+joins as a Thread sibling.
+
+Architecturally different from every prior slice: Thread.tsx isn't six
+separate routed pages, it's one container (`Thread()`) that renders
+`Chronicle`, `AnsweredLight`, `GrowthMarkers`, `Insights`, or `Legacy` as
+an internal child based on the `view` route param (M21, "The Thread Made
+Literal"). Rather than touching five child files individually, the
+`src/styles/stoneCourtRegister.module.css` class is applied once, to
+`Thread.tsx`'s own root wrapper — the custom-property re-scoping cascades
+down into whichever child is currently rendered, since all five children
+already route color through the same `var(--...)` chrome tokens. The one
+exception: the class is applied conditionally
+(`view !== 'story' ? stoneStyles.stoneCourtRegister : undefined`) so
+Story/Legacy — a sibling under the same wrapper — keeps rendering with
+its own leather-and-parchment identity untouched, exactly as the
+"except Story" instruction requires. Heritage Room (`OralHistory.tsx`)
+is a separate routed page and got the class directly, the same pattern
+as every prior slice (applied to all 4 of its root JSX returns —
+loading/empty/error states plus the default — following the lesson
+from Design-3's Office.tsx miss).
+
+Palette sourced directly from DESIGN.md's Stone Court token table:
+parchment ground (`#efece4`), ink text (`#33322c`), stone-slate
+(`#5d6069`) as the primary/active accent for structural UI (tab
+selection, buttons) — not `stone-glow` (gold), which DESIGN.md reserves
+specifically for the answered-prayer stone's inner light and is
+explicitly the one place Chapel gold is allowed to cross into Stone
+Court. Wiring that glow into individual stone objects is future work
+(DESIGN.md's `stone` component spec — real CSS objects with weight, not
+cards) and out of scope for this chrome-coloring pass, same scope
+boundary as every prior Design-N slice. Left untouched, same policy as
+every register: `accent-amber/blue-light/clay/copper/forest/purple/
+rose/sky/slate` (and `-light` variants) — per-entry-type identity colors
+(growth-marker kind, prayer category, heritage tag) from M7/M17/M19/M21,
+not chrome.
+
+Verified: tsc -b, eslint, production build all clean. Visually verified
+via a temporary Playwright script (computed-style assertions): all four
+non-Story routes (`/thread`, `/thread/light`, `/thread/growth`,
+`/thread/patterns`) plus `/heritage` render a `stoneCourtRegister`-classed
+root with `background-color: rgb(239, 236, 228)` (`#efece4`); `/thread/story`
+correctly has *no* `stoneCourtRegister` element at all, confirming the
+conditional exclusion works. Full Playwright suite (`--workers=1`): two
+failures, both confirmed pre-existing/unrelated on isolated re-run —
+`discipleship-progress.spec.js` (long-confirmed non-regression) and
+`sealed-prayers.spec.js` (a new appearance of the same full-suite-only
+flake pattern documented since M13 — passed 2/2 in isolation; this
+slice never touches sealed-prayer gating logic, that lives in
+Chronicle.tsx, not Thread.tsx).
+
+Next: Design-5, the final slice — formalizing the Ledger register for
+Settings, the last unstyled room.
