@@ -5,7 +5,8 @@ import { useToastStore } from '../store/toastStore';
 import { chronicleApi } from '../lib/chronicleApiClient';
 import type { ChronicleBookAssetMap, ChronicleSyncProfile, OwnedBook, OwnedBookSourceDiagnostics } from '../types';
 import { useAIChatStore } from '../store/aiChatStore';
-import { derivePrayerFormation, deriveLegacyChapters, deriveLegacyNarrative } from '../lib/formationAnalytics';
+import { derivePrayerFormation } from '../lib/formationAnalytics';
+import { openLegacyMemoirPrintWindow } from '../lib/bookExport';
 import { exportChronicleMarkdown as exportChronicleMarkdownFile, monthsSinceOldestEntry } from '../lib/chronicleExport';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { CHRONICLE_AGENT_MODE_DEFS, type ChronicleAgentMode } from '../store/aiChatStore';
@@ -1044,41 +1045,10 @@ export default function Settings() {
   }
 
   function exportLegacyMemoir() {
-    const chapters = deriveLegacyChapters(chronicleEntries);
-    const narrative = deriveLegacyNarrative(chronicleEntries);
-    const printWindow = window.open('', '_blank');
+    const printWindow = openLegacyMemoirPrintWindow(chronicleEntries, 'The Book of Chris');
     if (!printWindow) {
       addToast('Allow pop-ups to export the Legacy memoir', 'warning', '⚠️');
-      return;
     }
-    const chaptersHtml = chapters
-      .map((chapter) => `<h2>Chapter ${chapter.num}: ${chapter.title}</h2><p class="meta">${chapter.period} · ${chapter.count} entries</p>`)
-      .join('\n');
-    printWindow.document.write(`<!doctype html>
-<html>
-<head>
-<title>The Book of Chris</title>
-<meta charset="utf-8" />
-<style>
-  body { font-family: Georgia, 'Times New Roman', serif; max-width: 680px; margin: 48px auto; color: #1a1a1a; line-height: 1.7; }
-  h1 { font-size: 28px; text-align: center; }
-  .subtitle { text-align: center; font-style: italic; color: #555; margin-bottom: 48px; }
-  h2 { font-size: 18px; margin-top: 32px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
-  .meta { font-size: 12px; color: #777; margin-top: -8px; }
-  .narrative { white-space: pre-line; margin-top: 32px; }
-  @media print { body { margin: 0 24px; } }
-</style>
-</head>
-<body>
-  <h1>The Book of Chris</h1>
-  <div class="subtitle">A life walked with God</div>
-  ${chaptersHtml}
-  <div class="narrative">${narrative}</div>
-</body>
-</html>`);
-    printWindow.document.close();
-    printWindow.focus();
-    printWindow.print();
   }
 
   async function createChronicleSnapshot() {

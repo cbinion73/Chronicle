@@ -468,24 +468,6 @@ export function deriveFormationJourney(
   };
 }
 
-export function deriveLegacyChapters(entries: ChronicleEntry[]) {
-  const byYear = new Map<number, number>();
-  for (const entry of entries) {
-    const year = parseEntryDate(entry.date).getFullYear();
-    byYear.set(year, (byYear.get(year) || 0) + 1);
-  }
-
-  const years = Array.from(byYear.entries()).sort((a, b) => a[0] - b[0]);
-  const roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
-  return years.map(([year, count], index) => ({
-    num: roman[index] || String(index + 1),
-    title: index === years.length - 1 ? 'The Current Season' : `The ${year} Season`,
-    period: String(year),
-    status: index === years.length - 1 ? 'active' : 'done',
-    count,
-  }));
-}
-
 export function deriveLegacyNarrative(entries: ChronicleEntry[]) {
   const summary = deriveFormationSummary(entries);
   const sorted = [...entries].sort((a, b) => a.date.localeCompare(b.date));
