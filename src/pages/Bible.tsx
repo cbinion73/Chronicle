@@ -43,6 +43,7 @@ import { derivePatina } from '../lib/patina';
 import type { ChronicleEntry, ScriptureBookmark } from '../types';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import StudyCouncil from '../components/StudyCouncil';
+import manuscriptStyles from './Bible.module.css';
 
 const TIER_COLORS: Record<string, string> = {
   Explicit: '#0f4fcf', Strong: '#2b8dff', Inferred: '#d97706', Debated: '#9ca3af',
@@ -1633,7 +1634,7 @@ export default function Bible() {
   }
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', position: 'relative', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: 'hidden', position: 'relative', minHeight: 0 }}>
 
       {/* Book picker overlay */}
       {showBookPicker && (
