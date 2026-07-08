@@ -1,10 +1,11 @@
 /* The Manuscript register (Design-2) — paper and ink, with rubric red
    used the way medieval scribes used rubrication: never decoration,
    always structural (the active chapter, an echo, a cross-reference).
-   The whole page already uses CSS custom properties (var(--card-bg),
-   var(--text), var(--accent-primary), etc.) throughout its ~200 inline
-   style objects — so re-scoping those variables here re-skins the
-   entire reading experience without touching a single inline style. */
+   Shared by every "Word" page (Bible, Study, Discipleship, Plans,
+   Themes, Explore) — each already routes its chrome color through CSS
+   custom properties (var(--card-bg), var(--text), var(--accent-primary),
+   etc.), so re-scoping those variables here re-skins the whole reading
+   experience without touching a single inline style. */
 
 .manuscriptRegister {
   /* Deliberately the same regardless of the app's global light/dark

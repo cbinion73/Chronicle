@@ -1266,3 +1266,43 @@ Remaining for Design-2: Study.tsx, Discipleship.tsx, Plans.tsx,
 Themes.tsx, Explore.tsx — each needs a per-page check that it also
 routes color through the same `var(--...)` tokens before assuming the
 same re-scoping technique applies unmodified.
+
+## Design-2, pages 2–6 of 6 (branch: design/manuscript-word) — Manuscript register for the rest of The Word
+
+Completed Design-2: the remaining five "Word" pages (Study, Discipleship,
+Plans, Themes, Explore) confirmed the same pattern as Bible.tsx —
+each routes its chrome color through 9–12 unique `var(--...)` tokens,
+so the identical re-scoping technique applied cleanly to all of them.
+
+Extracted the `.manuscriptRegister` class out of the page-local
+`Bible.module.css` into a shared `src/styles/manuscriptRegister.module.css`
+(Bible.tsx now imports the shared file too, so all six Word pages share
+one definition instead of six copies of the same palette). Each page's
+root wrapper div gets `className={manuscriptStyles.manuscriptRegister}`
+alongside its existing inline `style` — one import line and one
+className per file, no other changes.
+
+Left untouched (same semantic-color policy as Bible.tsx): Discipleship's
+source-health status colors (`#065f46`/`#b45309`/`#b42318` health
+badges, `#7a271a` audit-warning text) and its `#f8fafc` scanned-image
+canvas backdrop; Plans's decorative gradient banner on the plan-library
+hero card; Themes's `TIER_COLORS` (`Strong`/`Supporting`/`Emerging`
+signal colors, the direct analog of Bible.tsx's evidence-tier badges).
+
+Verified: tsc -b, eslint, production build all clean across all six
+files plus the new shared CSS module. Visually verified via a temporary
+Playwright script (computed-style assertions) that all five newly
+converted routes (`/study`, `/discipleship`, `/plans`, `/themes`,
+`/explore`) render a `manuscriptRegister`-classed root with
+`background-color: rgb(247, 243, 233)`. Full Playwright suite
+(`--workers=1`): three failures observed, all confirmed pre-existing
+and unrelated on isolated re-run — `discipleship-progress.spec.js`
+(confirmed non-regression across many prior milestones),
+`bible-modes.spec.js` (passed 2/2 in isolation, the flake documented
+since M13), and `thread-altitudes.spec.js` (a new appearance of the
+same full-suite-only flake pattern — passed 2/2 in isolation
+immediately after; this slice touched no Thread.tsx or Sidebar.tsx
+code, so it isn't a regression from this change).
+
+Design-2 is now complete for all six Word pages. Next: Design-3
+(Chapel register for Office/Rule/Prayer/QuestionLab/Lament/SealedPrayers/Memory).

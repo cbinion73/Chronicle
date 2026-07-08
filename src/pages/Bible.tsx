@@ -43,7 +43,7 @@ import { derivePatina } from '../lib/patina';
 import type { ChronicleEntry, ScriptureBookmark } from '../types';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import StudyCouncil from '../components/StudyCouncil';
-import manuscriptStyles from './Bible.module.css';
+import manuscriptStyles from '../styles/manuscriptRegister.module.css';
 
 const TIER_COLORS: Record<string, string> = {
   Explicit: '#0f4fcf', Strong: '#2b8dff', Inferred: '#d97706', Debated: '#9ca3af',

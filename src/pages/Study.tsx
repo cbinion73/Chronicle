@@ -7,6 +7,7 @@ import { useToastStore } from '../store/toastStore';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
 import { getRelatedChronicleEntries } from '../lib/chronicleRelations';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
+import manuscriptStyles from '../styles/manuscriptRegister.module.css';
 
 export default function Study() {
   const navigate = useNavigate();
@@ -120,7 +121,7 @@ export default function Study() {
   };
 
   return (
-    <div style={{ flex: 1, display: 'flex', overflow: 'hidden', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', overflow: 'hidden', minHeight: 0 }}>
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
         <div
           style={{

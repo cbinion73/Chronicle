@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useAppStore } from '../store';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { getBibleNavigationTarget } from '../lib/scriptureReference';
+import manuscriptStyles from '../styles/manuscriptRegister.module.css';
 import {
   PEOPLE, PLACES, findPerson, findPlace,
   incomingRelationships, placesForPerson, peopleForPlace,
@@ -82,7 +83,7 @@ export default function Explore() {
   };
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
       <div style={{ padding: '10px 16px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap' }}>
         <div style={{ display: 'inline-flex', border: '1px solid var(--border)', borderRadius: 10, overflow: 'hidden' }}>
           {TABS.map((t) => (

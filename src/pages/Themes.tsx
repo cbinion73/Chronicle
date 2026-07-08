@@ -3,6 +3,7 @@ import { useAppStore } from '../store';
 import { deriveCanonCoverage, deriveMonthlyActivity, deriveThemeSignals, groupThemesByCategory } from '../lib/formationAnalytics';
 import { useAIChatStore } from '../store/aiChatStore';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
+import manuscriptStyles from '../styles/manuscriptRegister.module.css';
 
 const TIER_COLORS: Record<string, string> = {
   Strong: '#0f4fcf',
@@ -55,7 +56,7 @@ export default function Themes() {
   }, [selected, setPageContext, setSelectedAgentMode, themeSignals.length]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
+    <div className={manuscriptStyles.manuscriptRegister} style={{ flex: 1, display: 'flex', flexDirection: isCompact ? 'column' : 'row', overflow: isCompact ? 'auto' : 'hidden', minHeight: 0 }}>
       <div style={{ width: isCompact ? '100%' : 240, minWidth: isCompact ? 0 : 240, maxHeight: isCompact ? 240 : undefined, borderRight: isCompact ? 'none' : '1px solid var(--border)', borderBottom: isCompact ? '1px solid var(--border)' : 'none', background: 'var(--card-bg)', display: 'flex', flexDirection: 'column', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ padding: '10px 14px', borderBottom: '1px solid var(--border)', background: 'var(--card-inner)' }}>
           <input
