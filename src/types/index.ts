@@ -212,6 +212,15 @@ export interface MemoryVerse {
   addedAt: string;
 }
 
+// Patina (VISION.md, Ring 2) — a distinct-day visit log per chapter, kept
+// local-only (not DB-synced) for this first version; see REDESIGN.md
+// Milestone 16 for the scope note. One entry per book+chapter+day.
+export interface BibleVisit {
+  book: string;
+  chapter: number;
+  date: string; // YYYY-MM-DD
+}
+
 export interface OwnedBookPlanPhase {
   label: string;
   emphasis: string;

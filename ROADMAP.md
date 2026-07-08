@@ -195,4 +195,7 @@ arrives; none blocks the movements above.
   sealed-tier design doc (`docs/SEALED_TIER.md`).
 - ✅ **M15 — Echoes of Your Own Life** shipped: "You've Returned Here" —
   past entries resurface, unprompted, against the passage being read now.
-- ➡️ **Next: M16 — Patina.**
+- ✅ **M16 — Patina** shipped: passages you've returned to often wear a
+  faint warm vignette, derived from a real (local-only) visit log. Closes
+  Movement II in full.
+- ➡️ **Next: M17 — The Question Lab & Lament.**

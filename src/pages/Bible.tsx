@@ -39,6 +39,7 @@ import {
 } from '../lib/bibleWordStudy';
 import { useAIChatStore } from '../store/aiChatStore';
 import { formatPassageLabel, parseScriptureReference } from '../lib/scriptureReference';
+import { derivePatina } from '../lib/patina';
 import type { ChronicleEntry, ScriptureBookmark } from '../types';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import StudyCouncil from '../components/StudyCouncil';
@@ -533,6 +534,8 @@ export default function Bible() {
     scriptureBookmarks,
     addScriptureBookmark,
     removeScriptureBookmark,
+    bibleVisits,
+    recordBibleVisit,
   } = useAppStore();
   const navigate = useNavigate();
   const { addToast } = useToastStore();
@@ -708,6 +711,12 @@ export default function Bible() {
       .filter((entry) => entry.date !== today)
       .filter((entry) => !(entry.type === 'sealed' && !entry.sourceContext?.sealed?.opened));
   }, [chapterChronicleEntries]);
+  // Patina (VISION.md, Ring 2): record today's visit to this chapter (once
+  // per day) and derive how worn it looks from the accumulated log.
+  useEffect(() => {
+    recordBibleVisit(book, chapter);
+  }, [book, chapter, recordBibleVisit]);
+  const patina = useMemo(() => derivePatina(bibleVisits, book, chapter), [bibleVisits, book, chapter]);
   const focusedVerseChronicleEntries = useMemo(
     () => typeof focusedPanelVerse === 'number'
       ? chronicleEntries.filter((entry) => passageMatchesLocation(entry.passage, book, chapter, focusedPanelVerse)).slice(0, 4)
@@ -1880,8 +1889,21 @@ export default function Bible() {
           </div>
         )}
 
-        {/* Scripture pane */}
-        <div style={{ flex: 1, overflowY: 'auto', padding: isPhone ? '18px 14px 24px' : isCompact ? '24px 24px 32px' : '28px 48px 40px', minHeight: 0 }}>
+        {/* Scripture pane — Patina (VISION.md, Ring 2): passages you've
+            returned to often wear a faint warm vignette, the way a
+            physical Bible's loved pages soften with handling. Deliberately
+            subtle — this should never compete with the text itself. */}
+        <div
+          style={{
+            flex: 1,
+            overflowY: 'auto',
+            padding: isPhone ? '18px 14px 24px' : isCompact ? '24px 24px 32px' : '28px 48px 40px',
+            minHeight: 0,
+            backgroundImage: patina.intensity > 0
+              ? `radial-gradient(ellipse at 50% 0%, transparent 40%, rgba(217, 119, 6, ${(patina.intensity * 0.09).toFixed(3)}) 100%)`
+              : undefined,
+          }}
+        >
           <h2 style={{ fontFamily: 'var(--font-serif)', fontSize: 22, fontWeight: 700, color: 'var(--text)', marginBottom: 6 }}>
             {book === 'Psalms' ? 'Psalm' : book} {chapter}
             {chapterData?.heading && (

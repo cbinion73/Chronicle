@@ -731,3 +731,47 @@ an index, and most of the index already existed.
 Verified: tsc -b, eslint, production build, full Playwright suite
 (`--workers=1`) — only the pre-existing, already-confirmed-non-regression
 `discipleship-progress.spec.js` failure remains.
+
+## Milestone 16 (branch: redesign/milestone-16) — Patina
+
+The fourth and final stone of Movement II, per VISION.md's Ring 2: "a
+physical Bible falls open at the loved pages; the corners of Psalm 23 go
+soft from forty years of handling. Chronicle's Bible should wear the same
+way."
+
+- **A real reading-history log, not a proxy.** Investigation before
+  building found no existing visit-tracking anywhere in the app — the
+  closest thing (`chronicleEntries` filtered by passage) measures
+  *writing about* a passage, not *reading* it, which would have
+  undercounted silent devotional reading and overweighted journaling.
+  Built a small, honest `bibleVisits: { book, chapter, date }[]` log
+  instead (`src/types/index.ts`, `src/store/index.ts`) — one entry per
+  distinct book+chapter+day, deduped client-side in a new
+  `recordBibleVisit` action, recorded automatically on every chapter
+  visit via a `useEffect` in `Bible.tsx`.
+- **Deliberately local-only, not DB-synced** — added to the persist
+  `partialize` whitelist (survives reloads) but not wired into
+  `chronicleApiClient`/a new Prisma table. This is a real, disclosed
+  scope cut: visit history won't sync across devices yet. Consistent with
+  the "smallest real version" discipline, and revisitable once there's a
+  reason (e.g. Movement IV's braid) to justify a server-side table for
+  what is, for now, ambient texture rather than data anyone needs back.
+- **`src/lib/patina.ts`** — `derivePatina(visits, book, chapter)`, a pure
+  function scaling intensity from 0 to 1 against a threshold of 20
+  distinct visit-days (chosen deliberately high, so this reads as "worn
+  from years," not from one enthusiastic week).
+- **The wear itself**: a faint warm radial-gradient vignette on the
+  scripture pane, opacity scaling with `patina.intensity` (capped low —
+  roughly 9% alpha at full patina) so it never competes with the text.
+  Chapters never visited show nothing at all.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — only the pre-existing, already-confirmed-non-regression
+`discipleship-progress.spec.js` failure remains (`bible-modes.spec.js`
+flaked once mid-session and passed clean on re-run — the same
+intermittent test now flagged across Milestones 13, 14, and 16;
+consistently unrelated, no further chasing without new evidence).
+
+This closes Movement II — Time Becomes Bidirectional — in full
+(Milestones 12–16: Rule of Life, Remembrance, Sealed Prayers, Echoes of
+Your Own Life, Patina).

@@ -9,6 +9,7 @@ import type {
   OwnedBookStudyState,
   ScriptureBookmark,
   MemoryVerse,
+  BibleVisit,
   FormationRhythm,
   ChronicleSyncProfile,
   ChronicleVoiceConfig,
@@ -66,6 +67,7 @@ interface AppState {
   scriptureBookmarks: ScriptureBookmark[];
   ownedBooks: OwnedBook[];
   memoryVerses: MemoryVerse[];
+  bibleVisits: BibleVisit[];
   syncProfile: ChronicleSyncProfile;
   voiceConfig: ChronicleVoiceConfig;
 
@@ -93,6 +95,7 @@ interface AppState {
   addMemoryVerse: (verse: MemoryVerse) => void;
   reviewMemoryVerse: (id: string, quality: 'struggled' | 'good' | 'easy') => void;
   deleteMemoryVerse: (id: string) => void;
+  recordBibleVisit: (book: string, chapter: number) => void;
   togglePrayerAnswered: (id: string) => void;
   markPrayerAnswered: (id: string, details?: { summary?: string; passage?: string; dateAnswered?: string }) => void;
   recordPrayerTouch: (id: string, details?: { lastPrayedAt?: string; nextFollowUpAt?: string }) => void;
@@ -481,6 +484,7 @@ export const useAppStore = create<AppState>()(
       scriptureBookmarks: [],
       ownedBooks: SAMPLE_OWNED_BOOKS,
       memoryVerses: [],
+      bibleVisits: [],
       syncProfile: createDefaultSyncProfile(),
       voiceConfig: DEFAULT_CHRONICLE_VOICE_CONFIG,
 
@@ -662,6 +666,19 @@ export const useAppStore = create<AppState>()(
           memoryVerses: state.memoryVerses.filter((verse) => verse.id !== id),
         }))
         chronicleApi.deleteMemoryVerse(id).catch(e => console.warn('[db] deleteMemoryVerse failed:', e))
+      },
+      // Patina (VISION.md, Ring 2): a distinct-day visit log per chapter.
+      // Local-only for this first version — not synced to the server, see
+      // REDESIGN.md Milestone 16 for the scope note.
+      recordBibleVisit: (book, chapter) => {
+        const today = new Date().toISOString().split('T')[0]
+        set((state) => {
+          const alreadyVisitedToday = state.bibleVisits.some(
+            (visit) => visit.book === book && visit.chapter === chapter && visit.date === today
+          )
+          if (alreadyVisitedToday) return state
+          return { bibleVisits: [...state.bibleVisits, { book, chapter, date: today }] }
+        })
       },
       togglePrayerAnswered: (id) => {
         set((state) => ({
@@ -868,6 +885,7 @@ export const useAppStore = create<AppState>()(
         scriptureBookmarks: state.scriptureBookmarks,
         ownedBooks: state.ownedBooks,
         memoryVerses: state.memoryVerses,
+        bibleVisits: state.bibleVisits,
         syncProfile: state.syncProfile,
         voiceConfig: state.voiceConfig,
       }),
