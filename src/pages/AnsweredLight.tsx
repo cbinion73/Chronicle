@@ -77,6 +77,14 @@ export default function AnsweredLight() {
         {entries.length === 0 ? (
           <EmptyCard>
             Nothing is marked answered yet. When you mark a request answered in the Prayer Room, it will take its place here — a light left on for the next dry season.
+            <div style={{ marginTop: 14 }}>
+              <button
+                onClick={() => navigate('/archaeology')}
+                style={{ padding: '8px 14px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-bg)', color: 'var(--accent-amber)', fontSize: 12, fontWeight: 700, cursor: 'pointer' }}
+              >
+                🗿 Excavate Your Past
+              </button>
+            </div>
           </EmptyCard>
         ) : (
           <>
