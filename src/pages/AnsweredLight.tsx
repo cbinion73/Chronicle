@@ -129,14 +129,22 @@ export default function AnsweredLight() {
                             "{entry.answerSummary}"
                           </p>
                         ) : null}
-                        {entry.answerPassage ? (
+                        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 8 }}>
+                          {entry.answerPassage ? (
+                            <button
+                              onClick={() => openPassage(entry.answerPassage!)}
+                              style={{ padding: '4px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--accent-primary)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}
+                            >
+                              {entry.answerPassage}
+                            </button>
+                          ) : null}
                           <button
-                            onClick={() => openPassage(entry.answerPassage!)}
-                            style={{ marginTop: 8, padding: '4px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--accent-primary)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}
+                            onClick={() => navigate('/thread', { state: { filterDate: entry.dateAnswered } })}
+                            style={{ padding: '4px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text-muted)', fontSize: 11, fontWeight: 600, cursor: 'pointer' }}
                           >
-                            {entry.answerPassage}
+                            ↓ View in Record
                           </button>
-                        ) : null}
+                        </div>
                       </Card>
                     </div>
                   ))}

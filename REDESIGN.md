@@ -985,3 +985,48 @@ are laid out (a pre-existing condition, not introduced by this
 milestone). `tests/book-typeset.spec.js` widens its viewport to
 1600x900 to match a normal desktop monitor rather than mask the
 squeeze by only checking DOM presence.
+
+## Milestone 21 (branch: redesign/milestone-21) — The Thread Made Literal
+
+Record, Answered Light, Growth Spine, and Story become altitudes of one
+canonical visualization. Closes Movement III.
+
+- **Scope decision, disclosed up front**: "zoomable" is implemented as a
+  discrete four-level altitude selector with real cross-navigation
+  between levels centered on the same day, rather than a continuous
+  analog zoom gesture (a physically continuous zoomable canvas across
+  four structurally different data shapes — a raw log, prayer-item
+  arcs, growth-marker milestones, and a paginated book — would be a
+  multi-week rebuild disproportionate to one milestone). The four
+  surfaces already existed; what M21 actually built is the missing
+  connective tissue between them.
+- **`Thread.tsx`'s tab bar gained a fifth tab: Answered Light.** It was
+  previously only reachable at `/prayer/answered-light`, structurally
+  outside the Thread room entirely, even though it's one of the four
+  named altitudes in ROADMAP.md. Added as `/thread/light` (the generic
+  `thread/:view` route already covers it — no App.tsx change needed),
+  rendering `AnsweredLight` inline exactly like Growth/Story do. The
+  original `/prayer/answered-light` route is untouched (additive only,
+  still valid muscle memory for anyone with it bookmarked).
+- **The literal zoom-down interaction**: every Growth Marker stone and
+  every Answered Light entry gained a "↓ View in Record" button.
+  Extended `Chronicle.tsx`'s existing `routePassageFilter` pattern
+  (`location.state.filterPassage`, from earlier milestones) with a
+  parallel `routeDateFilter`/`filterDate` — clicking the button
+  navigates to Record already filtered down to that exact day, with a
+  visible "Zoomed to {date} — the ground-level entries behind that
+  stone" banner and a Clear button, mirroring the passage-filter
+  banner's established shape.
+- No AI anywhere in the new mechanism — it's pure client-side
+  filtering and navigation, the same category as the passage filter it
+  extends.
+
+Verified: tsc -b, eslint, production build, full Playwright suite
+(`--workers=1`) — new `tests/thread-altitudes.spec.js` covers all five
+tabs being reachable from the bar, and the Growth→Record zoom-down
+landing on the correct filtered day (with the unrelated day's entry
+confirmed absent until Clear). Two failures observed, both pre-existing
+and unrelated: `discipleship-progress.spec.js` (confirmed
+non-regression across many prior milestones) and a `bible-settings.spec.js`
+sync-snapshot timeout that passed cleanly on an immediate isolated
+re-run (flaky, not a regression).

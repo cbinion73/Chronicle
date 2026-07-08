@@ -49,24 +49,33 @@ export default function Chronicle() {
   const [newEntryOpen, setNewEntryOpen] = useState(false);
   const [editingEntry, setEditingEntry] = useState<ChronicleEntry | null>(null);
   const [passageFilter, setPassageFilter] = useState<string>('');
+  const [dateFilter, setDateFilter] = useState<string>('');
   const routePassageFilter = location.state && typeof location.state === 'object' && 'filterPassage' in location.state && typeof location.state.filterPassage === 'string'
     ? location.state.filterPassage
     : '';
+  const routeDateFilter = location.state && typeof location.state === 'object' && 'filterDate' in location.state && typeof location.state.filterDate === 'string'
+    ? location.state.filterDate
+    : '';
 
   useEffect(() => {
-    if (routePassageFilter) {
-      queueMicrotask(() => setPassageFilter(routePassageFilter));
+    if (routePassageFilter || routeDateFilter) {
+      queueMicrotask(() => {
+        if (routePassageFilter) setPassageFilter(routePassageFilter);
+        if (routeDateFilter) setDateFilter(routeDateFilter);
+      });
       navigate(location.pathname, { replace: true, state: null });
     }
-  }, [location.pathname, navigate, routePassageFilter]);
+  }, [location.pathname, navigate, routeDateFilter, routePassageFilter]);
 
   const effectivePassageFilter = routePassageFilter || passageFilter;
+  const effectiveDateFilter = routeDateFilter || dateFilter;
 
   const filtered = useMemo(() => chronicleEntries.filter((entry) => {
     const typeMatch = filterType === 'all' || entry.type === filterType;
     const passageMatch = !effectivePassageFilter || entry.passage === effectivePassageFilter;
-    return typeMatch && passageMatch;
-  }), [chronicleEntries, effectivePassageFilter, filterType]);
+    const dateMatch = !effectiveDateFilter || entry.date === effectiveDateFilter;
+    return typeMatch && passageMatch && dateMatch;
+  }), [chronicleEntries, effectiveDateFilter, effectivePassageFilter, filterType]);
   const selectedEntry = filtered[0];
   const reflectionPrompts = useMemo(
     () => buildReflectionPrompts({
@@ -222,6 +231,20 @@ export default function Chronicle() {
                 className={s.clearButton}
               >
                 Clear passage filter
+              </button>
+            </div>
+          )}
+
+          {effectiveDateFilter && (
+            <div className={s.passageBanner}>
+              <div className={s.passageBannerText}>
+                Zoomed to <strong style={{ color: 'var(--text)' }}>{new Date(`${effectiveDateFilter}T12:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</strong> — the ground-level entries behind that stone.
+              </div>
+              <button
+                onClick={() => setDateFilter('')}
+                className={s.clearButton}
+              >
+                Clear date filter
               </button>
             </div>
           )}

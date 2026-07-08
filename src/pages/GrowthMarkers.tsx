@@ -88,14 +88,22 @@ export default function GrowthMarkers() {
                     <p style={{ fontFamily: 'var(--font-serif)', fontSize: 13, color: 'var(--text-sub)', lineHeight: 1.65, margin: 0, whiteSpace: 'pre-line' }}>
                       {entry.body}
                     </p>
-                    {entry.passage ? (
+                    <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 8 }}>
+                      {entry.passage ? (
+                        <button
+                          onClick={() => openPassage(entry.passage!)}
+                          style={{ padding: '4px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--accent-rose)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}
+                        >
+                          {entry.passage}
+                        </button>
+                      ) : null}
                       <button
-                        onClick={() => openPassage(entry.passage!)}
-                        style={{ marginTop: 8, padding: '4px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--accent-rose)', fontSize: 11, fontWeight: 700, cursor: 'pointer' }}
+                        onClick={() => navigate('/thread', { state: { filterDate: entry.date } })}
+                        style={{ padding: '4px 10px', borderRadius: 999, border: '1px solid var(--border)', background: 'transparent', color: 'var(--text-muted)', fontSize: 11, fontWeight: 600, cursor: 'pointer' }}
                       >
-                        {entry.passage}
+                        ↓ View in Record
                       </button>
-                    ) : null}
+                    </div>
                   </Card>
                 </div>
               );

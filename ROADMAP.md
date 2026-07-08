@@ -216,4 +216,13 @@ arrives; none blocks the movements above.
   (`/thread/story`) is a real paginated book — years as parts, chapters
   broken at growth markers, a genuine "Page X of Y," and a print-grade
   PDF export with real chapter/part page breaks.
-- ➡️ **Next: M21 — The Thread Made Literal.**
+- ✅ **M21 — The Thread Made Literal** shipped: Answered Light joins
+  Record, Growth, and Story as a fifth Thread tab (`/thread/light`),
+  and every Growth/Answered Light stone carries a "↓ View in Record"
+  link that zooms straight down to that day's ground-level entries.
+  Closes Movement III in full.
+- ➡️ **Next: M22 — Households.** Flagged in this document as the single
+  largest architecture change in the plan — real multi-user, where
+  today there is one keeper behind Cloudflare Access and zero `userId`
+  columns anywhere in the schema. Apply the same smallest-real-version
+  discipline and disclose any scope cuts honestly.
