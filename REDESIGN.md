@@ -1775,3 +1775,38 @@ Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
 `discipleship-progress.spec.js` failure. Visual check via the same
 disposable-Playwright-screenshot workaround as Design-9 (the project's
 preview-server tool still can't spawn a process in this sandbox).
+
+## Design-11 (branch: design/enter-the-chapel-tab) — Enter the Chapel as a first-class Office destination
+
+The user said they loved the existing "Or enter chapel — one verse, no
+chrome" link buried in the Office's Silence station, and asked for it
+to become a top-level destination: "Enter the Chapel" beside "The Daily
+Office" and "My Rule of Life," for meditative time with God — plus a
+candle in Chapel mode itself, matching the same Chapel theme.
+
+Added `{ label: 'Enter the Chapel', path: '/chapel' }` as a third entry
+in `OFFICE_TABS` (`src/lib/sectionTabs.ts`) — no special handling
+needed even though `/chapel` renders outside `AppShell` entirely (M11):
+`SectionTabs` just calls `navigate(tab.path)`, so clicking it leaves the
+whole shell the same way the original in-context text link already did.
+Left that original link in place in Office's Silence station too — it's
+still useful mid-liturgy, and the new tab doesn't replace it, just adds
+a more discoverable second way in.
+
+Fixed a real gap while wiring the candle in: `Chapel.tsx` never actually
+applied the Chapel register. It read raw `var(--bg)`/`var(--text)`
+tokens, meaning full-bleed Chapel mode was silently rendering in
+whatever light/dark theme was set in Settings rather than always being
+the dark/gold room the mockup describes — nobody had noticed because
+the app's default theme happens to already be dark. Wrapped the root in
+`chapelStyles.chapelRegister` so Chapel mode is Chapel regardless of
+the global theme toggle, matching every other Chapel page. Added
+`<CandleFlame size="lg" withBody />` above the verse — the same
+component and animation as the Daily Office/Lament candles from
+Design-9/10, so all of Chapel's candles are visually identical.
+
+Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
+(`--workers=1`) — clean except the two already-known pre-existing
+flakes (`discipleship-progress.spec.js`, `bible-modes.spec.js`, both
+reconfirmed unrelated in prior slices). Visual check via the same
+disposable-Playwright-screenshot workaround as Design-9/10.

@@ -1,11 +1,19 @@
 import { useNavigate } from 'react-router-dom';
 import { callOfTheDay } from '../data/callsToWorship';
+import chapelStyles from '../styles/chapelRegister.module.css';
+import CandleFlame from '../components/ui/CandleFlame';
 
 // Chapel mode (VISION.md, M11: "the more sacred the moment, the less
-// technology in the room"). One verse. No chrome — no sidebar, no topbar,
-// no AI companion, nothing to tap but the way out. Rendered as a sibling
-// route outside AppShell (see App.tsx) specifically so it can be truly
-// full-bleed. No AI anywhere in this room, by design.
+// technology in the room"). One verse, one candle. No chrome — no
+// sidebar, no topbar, no AI companion, nothing to tap but the way out.
+// Rendered as a sibling route outside AppShell (see App.tsx) specifically
+// so it can be truly full-bleed. No AI anywhere in this room, by design.
+//
+// Wrapped in chapelRegister here (rather than inheriting it from an
+// ancestor, since this route renders outside AppShell entirely) so the
+// room stays Chapel's near-black/gold palette regardless of whatever
+// light/dark theme is set in Settings — the one room that is never a
+// toggle.
 
 export default function Chapel() {
   const navigate = useNavigate();
@@ -13,6 +21,7 @@ export default function Chapel() {
 
   return (
     <div
+      className={chapelStyles.chapelRegister}
       onClick={() => navigate(-1)}
       role="button"
       tabIndex={0}
@@ -31,6 +40,9 @@ export default function Chapel() {
       }}
     >
       <div style={{ maxWidth: 560, textAlign: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 28 }}>
+          <CandleFlame size="lg" withBody />
+        </div>
         <p style={{
           fontFamily: 'var(--font-serif)',
           fontSize: 'clamp(20px, 4vw, 30px)',

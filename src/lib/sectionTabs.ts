@@ -7,6 +7,7 @@ import type { SectionTab } from '../components/ui/SectionTabs';
 export const OFFICE_TABS: SectionTab[] = [
   { label: 'The Daily Office', path: '/' },
   { label: 'My Rule of Life', path: '/rule' },
+  { label: 'Enter the Chapel', path: '/chapel' },
 ];
 
 export const WORD_TABS: SectionTab[] = [
