@@ -49,7 +49,7 @@
 .flamePatch {
   position: absolute;
   left: 50%;
-  top: 19%;
+  top: 20.6%;
   width: 13%;
   height: 29%;
   transform: translate(-50%, -50%);
@@ -64,9 +64,9 @@
   position: absolute;
   inset: 0;
   z-index: 3;
-  clip-path: ellipse(7% 18% at 50% 20%);
+  clip-path: ellipse(7% 18% at 50% 21.3%);
   transform: scale(0.92);
-  transform-origin: 50% 31%;
+  transform-origin: 50% 32.6%;
   animation: flameSway 3.8s ease-in-out infinite, flamePulse 2.2s ease-in-out infinite;
   filter:
     brightness(1.04)
