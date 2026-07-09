@@ -33,5 +33,12 @@
   --sidebar-selected-bg: #2a251d;
   --sidebar-selected-text: #e8b44f;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  /* AIChatPanel's header/composer/empty-state panels use a translucent
+     white "frosted glass" wash by default — correct over Manuscript and
+     Stone Court's light paper backgrounds, but it lightens Chapel's
+     near-black ground toward mid-gray and washes out --text-muted
+     against it. Overriding to a translucent black keeps the same
+     glass effect while staying dark. */
+  --panel-glass: rgba(0, 0, 0, 0.32);
   background: var(--bg);
 }

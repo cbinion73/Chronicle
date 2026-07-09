@@ -8,7 +8,8 @@ import { lamentPsalmOfTheDay } from '../data/lamentPsalms';
 import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { PRAYER_TABS } from '../lib/sectionTabs';
-import { candleGlowStyle, CANDLE_FLAME_TEXT_STYLE } from '../lib/candleGlow';
+import { candleGlowStyle } from '../lib/candleGlow';
+import CandleFlame from '../components/ui/CandleFlame';
 
 // The Lament Room (VISION.md covenant #3: "the Psalms are roughly forty
 // percent lament and no product has a lament mode"). A finite, four-
@@ -74,7 +75,9 @@ export default function Lament() {
             a lit thing as an answered prayer — it was carried honestly
             all the way to trust. */}
         <div style={candleGlowStyle({ maxWidth: 560, margin: isPhone ? '32px auto' : '56px auto', padding: isPhone ? '40px 24px' : '56px 40px', textAlign: 'center' })}>
-          <div style={{ fontSize: 34, marginBottom: 14, ...CANDLE_FLAME_TEXT_STYLE }}>🕯️</div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
+            <CandleFlame size="lg" withBody />
+          </div>
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
             It is kept.
           </h1>
