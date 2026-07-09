@@ -1,0 +1,163 @@
+.frame {
+  --photo-candle-w: 300px;
+  position: relative;
+  width: var(--photo-candle-w);
+  aspect-ratio: 1 / 1;
+  display: block;
+  transform-origin: 50% 58%;
+  transition: opacity 1.2s ease, transform 1.2s ease, filter 1.2s ease;
+}
+
+.heroShell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.halo {
+  position: absolute;
+  inset: 12% 13% 20%;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(247, 211, 146, 0.62) 0%, rgba(237, 190, 103, 0.28) 22%, rgba(45, 48, 78, 0.22) 44%, rgba(18, 16, 19, 0) 72%);
+  filter: blur(14px);
+  opacity: 0.92;
+  animation: haloPulse 5.1s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.heroBody,
+.flameImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.heroBody {
+  position: relative;
+  z-index: 1;
+  -webkit-mask-image: radial-gradient(circle at 50% 47%, black 0 24%, rgba(0, 0, 0, 0.98) 34%, rgba(0, 0, 0, 0.88) 44%, rgba(0, 0, 0, 0.54) 55%, rgba(0, 0, 0, 0.18) 64%, transparent 74%);
+  mask-image: radial-gradient(circle at 50% 47%, black 0 24%, rgba(0, 0, 0, 0.98) 34%, rgba(0, 0, 0, 0.88) 44%, rgba(0, 0, 0, 0.54) 55%, rgba(0, 0, 0, 0.18) 64%, transparent 74%);
+}
+
+.flamePatch {
+  position: absolute;
+  left: 50%;
+  top: 19%;
+  width: 13%;
+  height: 29%;
+  transform: translate(-50%, -50%);
+  background:
+    radial-gradient(ellipse at 50% 66%, rgba(10, 14, 26, 0.98) 0%, rgba(10, 14, 26, 0.9) 24%, rgba(12, 16, 28, 0.54) 52%, transparent 80%);
+  filter: blur(5px);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.flameLayer {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  clip-path: ellipse(7% 18% at 50% 20%);
+  transform-origin: 50% 31%;
+  animation: flameSway 3.8s ease-in-out infinite, flamePulse 2.2s ease-in-out infinite;
+  filter:
+    brightness(1.04)
+    saturate(1.04)
+    drop-shadow(0 0 6px rgba(255, 214, 138, 0.28))
+    drop-shadow(0 0 14px rgba(241, 190, 90, 0.14));
+  pointer-events: none;
+}
+
+.flameImage {
+  -webkit-mask-image: radial-gradient(ellipse at 50% 42%, transparent 0 22%, black 30%, black 65%, transparent 100%);
+  mask-image: radial-gradient(ellipse at 50% 42%, transparent 0 22%, black 30%, black 65%, transparent 100%);
+}
+
+.igniting {
+  opacity: 0.9;
+  transform: scale(0.97);
+}
+
+.igniting .halo {
+  animation: igniteHalo 2.6s ease-out 1 forwards;
+}
+
+.igniting .flameLayer {
+  animation:
+    igniteFlame 2.6s cubic-bezier(0.22, 1, 0.36, 1) 1 forwards,
+    flameSway 3.8s ease-in-out 2.6s infinite,
+    flamePulse 2.2s ease-in-out 2.6s infinite;
+}
+
+.extinguishing {
+  opacity: 0.42;
+  transform: scale(0.95);
+  filter: blur(0.8px);
+  transition: opacity 2.3s ease, transform 2.3s ease, filter 2.3s ease;
+}
+
+.extinguishing .halo {
+  animation: extinguishHalo 2.3s ease-in 1 forwards;
+}
+
+.extinguishing .flameLayer {
+  animation: extinguishFlame 2.3s ease-in 1 forwards;
+}
+
+@keyframes haloPulse {
+  0%, 100% { opacity: 0.82; transform: scale(0.98); }
+  50%      { opacity: 1; transform: scale(1.03); }
+}
+
+@keyframes flameSway {
+  0%, 100% { transform: translateX(0) rotate(0deg) scale(1); }
+  25%      { transform: translateX(-0.8%) rotate(-0.8deg) scale(0.995, 1.02); }
+  55%      { transform: translateX(0.7%) rotate(0.5deg) scale(1.01, 0.99); }
+  80%      { transform: translateX(-0.35%) rotate(-0.35deg) scale(0.998, 1.01); }
+}
+
+@keyframes flamePulse {
+  0%, 100% {
+    opacity: 0.95;
+    filter:
+      brightness(1.02)
+      saturate(1.02)
+      drop-shadow(0 0 6px rgba(255, 214, 138, 0.24))
+      drop-shadow(0 0 14px rgba(241, 190, 90, 0.12));
+  }
+  50% {
+    opacity: 1;
+    filter:
+      brightness(1.12)
+      saturate(1.08)
+      drop-shadow(0 0 7px rgba(255, 220, 152, 0.32))
+      drop-shadow(0 0 18px rgba(241, 190, 90, 0.18));
+  }
+}
+
+@keyframes igniteFlame {
+  0%   { opacity: 0; transform: translateY(2%) scale(0.72, 0.52); }
+  55%  { opacity: 0.82; transform: translateY(0) scale(1.04, 1.08); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes extinguishFlame {
+  0%   { opacity: 1; transform: translateX(0) scale(1); }
+  28%  { opacity: 0.92; transform: translateX(0.6%) scale(0.95, 1.08); }
+  65%  { opacity: 0.56; transform: translateX(1.2%) scale(0.7, 0.78); }
+  100% { opacity: 0; transform: translateX(1.8%) scale(0.25, 0.16); }
+}
+
+@keyframes igniteHalo {
+  0%   { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 0.92; transform: scale(1); }
+}
+
+@keyframes extinguishHalo {
+  0%   { opacity: 0.92; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.9); }
+}
