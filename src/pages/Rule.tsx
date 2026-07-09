@@ -8,6 +8,7 @@ import SeasonalExamenCeremony from '../components/ui/SeasonalExamenCeremony';
 import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { OFFICE_TABS } from '../lib/sectionTabs';
+import { candleGlowRowStyle } from '../lib/candleGlow';
 
 // The Rule of Life — the Live pillar's flagship (VISION.md). A personal
 // rule authored in your own words: prayer, Scripture, Sabbath, service,
@@ -88,8 +89,11 @@ export default function Rule() {
           {RULE_CATEGORIES.map((category) => {
             const items = itemsByCategory.get(category.id) || [];
             const isAdding = addingCategory === category.id;
+            {/* A category with a written commitment is a candle already
+                lit — kept, not tracked — so it carries the same glow as
+                an answered prayer rather than sitting in a flat box. */}
             return (
-              <Card key={category.id} padding="14px 16px">
+              <Card key={category.id} padding="14px 16px" style={items.length > 0 ? candleGlowRowStyle() : undefined}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: items.length || isAdding ? 10 : 0 }}>
                   <Badge color="var(--accent-forest)">{category.icon} {category.label}</Badge>
                   {!isAdding && (

@@ -1638,3 +1638,47 @@ Remaining for Design-7: none identified — this closes the navigation
 restructuring the user asked for. Design-6's remaining typography work
 (Manuscript, Stone Court, and the other six Chapel pages) is still open
 as tracked follow-up.
+
+## Design-8 (branch: design/chapel-candle-glow) — the candle-glow pass across all seven Chapel pages
+
+The user's follow-up on Design-6: "I don't see the candle or glow on
+anything" outside the Daily Office. direction-chapel.html is explicit
+that Chapel's default register is darkness — "the only things that glow
+are answered prayers and feast days" — but the user's actual intent was
+broader: the candle motif should mark *any* important, impactful moment
+across the room, not just Office's Remembrance card. Asked to scope it
+(`AskUserQuestion`); the user chose "all key Chapel cards."
+
+Extracted the Remembrance card's exact glow spec (radial wash + 3-layer
+box-shadow, from direction-chapel.html's `.remembrance` block) into a
+shared `src/lib/candleGlow.ts` — `candleGlowStyle()` for a single primary
+box, `candleGlowRowStyle()` (smaller-radius) for list rows, and
+`CANDLE_FLAME_TEXT_STYLE` for the flame-glyph text-shadow — so every
+Chapel page lights its candle identically instead of five near-copies
+drifting apart. Office.tsx's own RemembranceCard now calls the shared
+helper instead of hand-rolling the same values.
+
+Applied the glow to the one "lit" moment per page, keeping the mockup's
+restraint (a candle, not a floodlight) while answering the user's ask
+for it to actually be visible somewhere they'd look for it:
+- **Office** — Remembrance (unchanged) plus the Silence station now
+  glows while the minute of stillness is actually being kept — the
+  meditation moment the user named directly.
+- **Rule of Life** — a category card glows once it holds a written
+  commitment; a kept Rule is a lit candle, not a checklist item.
+- **The Prayer Room** — answered-prayer cards glow instead of fading to
+  60% opacity (the old "checked-off task" treatment undersold the one
+  thing direction-chapel.html says should always glow).
+- **Question Lab** — resolved questions ("the Stones") glow.
+- **Lament** — the "It is kept" completion screen glows; a lament
+  carried honestly to trust is as lit as an answered prayer.
+- **Sealed Prayers** — a sealed prayer glows once it's unlockable or
+  already opened — light arriving on schedule.
+- **Memory** — the verse card glows while revealed, i.e. while it's
+  actually being held in the mind: the Word-room analogue of meditation.
+
+Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
+(`--workers=1`) all clean except the two already-known pre-existing
+flakes — `discipleship-progress.spec.js` (reproduces standalone, genuine
+unrelated failure) and `bible-modes.spec.js` (failed once in the full
+run, passed clean in isolated re-run) — no new failures introduced.
