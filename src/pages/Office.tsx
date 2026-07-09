@@ -15,6 +15,7 @@ import SectionTabs from '../components/ui/SectionTabs';
 import { OFFICE_TABS } from '../lib/sectionTabs';
 import { candleGlowStyle } from '../lib/candleGlow';
 import CandleFlame from '../components/ui/CandleFlame';
+import PhotoCandle from '../components/ui/PhotoCandle';
 
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
 // day with an ancient shape: Call → Word → Silence → Prayer → Response.
@@ -380,7 +381,7 @@ export default function Office() {
             ) : silenceLeft !== null ? (
               <div style={{ textAlign: 'center', padding: '10px 0' }}>
                 <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
-                  <CandleFlame size="sm" />
+                  <PhotoCandle width={108} phase="burning" />
                 </div>
                 <div style={{ fontFamily: 'var(--font-serif)', fontSize: 44, fontWeight: 700, color: 'var(--text)', fontVariantNumeric: 'tabular-nums' }}>
                   {silenceLeft}
@@ -539,7 +540,7 @@ export default function Office() {
           ) : silenceLeft !== null ? (
             <div style={{ textAlign: 'center', padding: '10px 0' }}>
               <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
-                <CandleFlame size="sm" />
+                <PhotoCandle width={108} phase="burning" />
               </div>
               <div style={{ fontFamily: 'var(--font-serif)', fontSize: 44, fontWeight: 700, color: 'var(--text)', fontVariantNumeric: 'tabular-nums' }}>
                 {silenceLeft}
