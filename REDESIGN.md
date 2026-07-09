@@ -1973,3 +1973,75 @@ their ordinary generic usage ("cry out to her") since word-level Strong's
 tagging can't disambiguate sense without deeper NLP. Noted as an
 accepted limitation of the approach, not a bug — the alternative
 (excluding common words entirely) would silently under-tag instead.
+
+## Design-13, 13th family (branch: design/study-colors-money-stewardship) — Money, work, and stewardship added to Study Colors
+
+The user confirmed a 13th family after the 12-family rebuild shipped:
+money, work, and stewardship as their own theme — tithing and giving,
+diligence vs. laziness, contentment vs. greed, wealth/poverty, and
+stewardship proper (the "manager entrusted with a household's affairs"
+sense) had no home in any of the 12 existing families.
+
+Ran the same propose → grep-verify-against-the-real-lexicon →
+adversarial-doctrinal-review pipeline as every other family. Of 28
+proposed Strong's numbers: 2 didn't survive lexicon verification
+(*philarguros*, *autarkeia* — both pointed to senses outside the
+family's scope) and 4 more were dropped after doctrinal review flagged
+them uncertain or refuted — most notably H5459 (*segullah*, "treasured
+possession"), whose dominant biblical usage (Exodus 19:5, Deuteronomy
+7:6 — Israel as God's own possession) is a covenant-identity term, not
+a stewardship-of-wealth term, so keeping it would have mistagged
+identity passages as money passages. `ploutos` ("riches"), `haplotēs`
+("openness"), and `nadiyb` ("noble/willing") were also dropped as
+doctrinally uncertain — each is used at least as often for a
+figurative/spiritual or social-rank sense as for the literal financial
+one. Final roster: 22 verified numbers spanning tithe/firstfruits/
+giving, greed vs. contentment, work vs. sloth, stewardship proper
+(*oikonomos*/*oikonomia*), and wealth/poverty/provision.
+
+Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
+(`--workers=1`) — all passing except the two already-known pre-existing
+flakes (`discipleship-progress.spec.js`, and `bible-modes.spec.js`'s
+"Focused Verse Guide" assertion, both reconfirmed clean on isolated
+re-run and unrelated to this change).
+
+## Chapel verse cycling — the reading becomes contemplative, not fixed
+
+The user asked whether Chapel's verse randomly cycled, framing it
+explicitly as wanting "a contemplative view of the scripture." It
+didn't: Chapel showed the same weekday-indexed verse as the Daily
+Office's call to worship, fixed for the entire day and identical every
+week on that weekday.
+
+Two changes, both in `src/data/callsToWorship.ts` and
+`src/pages/Chapel.tsx`. First, Chapel now opens on a genuinely random
+verse (`randomCall()`) each visit rather than the day-of-week lookup —
+the original 7 weekday entries are untouched and still drive the Daily
+Office's `callOfTheDay()` exactly as before, since `Office.tsx` indexes
+that array directly by weekday. Second, and closer to what "cycle
+through, contemplatively" actually asked for: while the candle burns,
+the verse itself now drifts to a new one from the pool every 26
+seconds, via a slow crossfade (fade out, swap while invisible, fade
+back in) rather than a hard cut — mirroring how attention moves during
+silent prayer rather than fixing on one line for the whole sitting.
+`randomCall(excludeRef)` avoids repeating the verse just shown.
+
+Expanded the verse pool from 7 to 31 entries — Psalms of refuge, rest,
+and quiet trust (46:1, 23:1, 27:1, 37:7, 62:1, 91:1, 119:105, 130:5,
+131:2), stillness passages from Isaiah, Lamentations, Habakkuk, and
+Zephaniah, and Gospel/epistle verses on rest and peace (Matthew 11:28,
+6:34; John 14:27, 1:5; Philippians 4:6-7; 2 Corinthians 4:6; 1 Kings
+19:12; Exodus 14:14) — all short, single-clause verses matching the
+voice of the original 7.
+
+Guarded against a post-unmount `setState`: the cycling effect's fade
+timeout is tracked in the closure and explicitly cleared alongside the
+interval in cleanup, in case leaving Chapel mid-fade unmounts the
+component before the swap fires.
+
+Verification: `tsc -b`, `eslint .`, `vite build`, `quiet-pass.spec.js`
+(confirms Chapel's full-bleed/exit-on-tap behavior is untouched),
+manual two-mount screenshot check confirming distinct random verses
+render correctly with the candle and layout intact, then the full
+Playwright suite (`--workers=1`) — passing except the two already-known
+pre-existing flakes noted above.

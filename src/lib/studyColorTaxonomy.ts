@@ -37,7 +37,8 @@ export type TopicFamilyId =
   | 'prophecy-return'
   | 'family-household'
   | 'comfort-refuge'
-  | 'leadership-calling';
+  | 'leadership-calling'
+  | 'money-stewardship';
 
 export interface TopicFamily {
   id: TopicFamilyId;
@@ -206,6 +207,25 @@ export const TOPIC_FAMILIES: readonly TopicFamily[] = [
       'G4165', 'G4166', 'H7462', 'G750', 'G4245', 'G1985', 'G1249',
       'G1247', 'G652', 'G649', 'G1320', 'G2099', 'G4396', 'G3011',
       'G2564', 'G2821', 'G2525', 'H7121', 'H5057',
+    ],
+  },
+  {
+    id: 'money-stewardship',
+    label: 'Money, work, and stewardship',
+    shortLabel: 'Stewardship',
+    bg: '#e6ecdf',
+    ink: '#3a4a2b',
+    strongs: [
+      // Tithe, gift, firstfruits
+      'H4643', 'G1181', 'H8641', 'G1435', 'H1061', 'G536',
+      // Giving and greed/contentment
+      'G1325', 'G4124', 'H2530',
+      // Work and diligence vs. laziness
+      'G2038', 'G2872', 'G2040', 'H5647', 'G3636', 'H6102',
+      // Stewardship/management proper
+      'G3623', 'G3622',
+      // Wealth, poverty, and provision
+      'G2344', 'H6239', 'G4434', 'H34', 'H7646',
     ],
   },
 ];
