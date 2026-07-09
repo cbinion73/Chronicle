@@ -1743,3 +1743,35 @@ in the full run and passed clean in isolated re-runs —
 `discipleship-progress.spec.js` (already-known, unrelated) and
 `sealed-prayers.spec.js` (cross-test data pollution from full-suite
 ordering, not a regression from this change) — no new failures.
+
+## Design-10 (branch: design/candle-shape-refinement) — a proper flame silhouette
+
+Follow-up to Design-9: the user shared reference photos of real candle
+flames — tall, narrow, smoothly tapering to a point, with a soft
+diffuse ambient glow — and pointed out the shipped flame read as a
+short, stubby, slightly melted-looking blob by comparison.
+
+Reworked `CandleFlame.module.css`'s `.flameShape`: height nearly
+tripled relative to width (was a 1.7:1 aspect ratio, now 2.6:1) and the
+silhouette moved from a rounded `border-radius` blob to a `clip-path`
+polygon — a real flame's outline (widest low, tapering steadily to a
+fine point) can't be expressed with `border-radius` alone. First attempt
+at the polygon used only 12 points with large width swings between
+them (up to 18%), which produced a visibly faceted, hourglass-zigzag
+edge rather than a smooth curve; corrected by doubling to 16 points
+with much smaller width deltas between adjacent points (~2-4%), so the
+outline reads as a continuous taper.
+
+Also switched the flame's glow from `box-shadow` (which shadows the
+element's invisible rectangular box, not the visible clipped shape) to
+layered `filter: drop-shadow(...)`, which follows the actual flame
+silhouette — the glow now hugs the flame the way it does in the
+reference photos instead of implying a rectangle behind it. Widened and
+softened the separate ambient `.aura` blob to match the diffuse
+room-glow in the references.
+
+Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
+(`--workers=1`) — clean except the one already-known pre-existing
+`discipleship-progress.spec.js` failure. Visual check via the same
+disposable-Playwright-screenshot workaround as Design-9 (the project's
+preview-server tool still can't spawn a process in this sandbox).

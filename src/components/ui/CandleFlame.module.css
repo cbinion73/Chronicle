@@ -1,8 +1,12 @@
 /* A lit candle for Chapel's meditative moments — the physical object the
    register's glow language (src/lib/candleGlow.ts) has been describing
-   in CSS shadows all along, made literal. Two independent, differently-
-   timed animations (body sway + inner-core flicker) are layered so the
-   loop never reads as a perfect, obviously-repeating cycle. */
+   in CSS shadows all along, made literal. Shape and color match a real
+   flame's silhouette (tall, narrow, pointed, wider at the base than the
+   tip) and color travel (warm gold body, white-hot at the widest point,
+   soft dark-amber base at the wick) rather than a flat rounded blob.
+   Two independent, differently-timed animations (slow sway + faster
+   flicker) are layered, both low-amplitude, so it reads as a candle
+   actually burning in still air, not a special effect. */
 
 .candle {
   display: inline-flex;
@@ -14,44 +18,73 @@
 
 .aura {
   position: absolute;
-  top: -6px;
+  top: -34px;
   left: 50%;
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   transform: translateX(-50%);
-  background: radial-gradient(circle, rgba(245, 212, 137, 0.32) 0%, rgba(232, 180, 79, 0.14) 32%, transparent 68%);
-  filter: blur(2px);
-  animation: auraPulse 3.4s ease-in-out infinite;
+  background: radial-gradient(circle, rgba(245, 212, 137, 0.4) 0%, rgba(232, 180, 79, 0.16) 30%, rgba(232, 180, 79, 0.05) 55%, transparent 72%);
+  filter: blur(3px);
+  animation: auraPulse 3.6s ease-in-out infinite;
   pointer-events: none;
 }
 
 .flameWrap {
   position: relative;
   width: var(--candle-w, 34px);
-  height: calc(var(--candle-w, 34px) * 1.7);
+  height: calc(var(--candle-w, 34px) * 2.6);
   transform-origin: 50% 100%;
-  animation: sway 2.7s ease-in-out infinite;
+  animation: sway 3.2s ease-in-out infinite;
 }
 
 .flameCore {
   position: absolute;
   inset: 0;
   transform-origin: 50% 100%;
-  animation: flicker 1.9s ease-in-out infinite;
+  animation: flicker 1.7s ease-in-out infinite;
+  /* filter (not box-shadow) so the glow hugs the clipped flame
+     silhouette instead of the invisible rectangular box around it. */
+  filter:
+    drop-shadow(0 0 6px rgba(255, 214, 130, 0.9))
+    drop-shadow(0 0 16px rgba(232, 180, 79, 0.6))
+    drop-shadow(0 0 34px rgba(232, 180, 79, 0.35));
 }
 
-/* Teardrop flame body: cool blue-white at the base near the wick,
-   warming through gold to a soft white-hot tip — the color travel of
-   an actual candle flame, not a flat orange blob. */
+/* A tall, pointed flame silhouette — many gently-spaced polygon points
+   (no single sharp waist) so the outline reads as a smooth curve
+   rather than a faceted zigzag; narrows steadily from the base to a
+   fine point at the tip like the reference photos. */
 .flameShape {
   width: 100%;
   height: 100%;
-  border-radius: 50% 50% 50% 50% / 62% 62% 38% 38%;
-  background:
-    radial-gradient(ellipse at 50% 88%, rgba(120, 170, 255, 0.55) 0%, transparent 40%),
-    radial-gradient(ellipse at 50% 60%, #f5d489 0%, #e8b44f 55%, rgba(232, 138, 47, 0.65) 78%, transparent 100%),
-    radial-gradient(ellipse at 50% 22%, #fff6de 0%, rgba(255, 246, 222, 0.5) 30%, transparent 62%);
-  box-shadow: 0 0 16px rgba(245, 212, 137, 0.85), 0 0 40px rgba(232, 180, 79, 0.5);
+  clip-path: polygon(
+    50% 0%,
+    57% 8%,
+    61% 18%,
+    63% 30%,
+    60% 42%,
+    64% 54%,
+    60% 66%,
+    54% 78%,
+    50% 100%,
+    46% 78%,
+    40% 66%,
+    36% 54%,
+    40% 42%,
+    37% 30%,
+    39% 18%,
+    43% 8%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(232, 138, 47, 0.85) 0%,
+    #e8b44f 22%,
+    #f7cf7a 42%,
+    #fffaf0 58%,
+    #fff2cf 70%,
+    #f5d489 86%,
+    rgba(210, 110, 40, 0.7) 100%
+  );
 }
 
 .wick {
@@ -82,26 +115,26 @@
 }
 
 @keyframes sway {
-  0%   { transform: rotate(0deg) translateX(0); }
-  22%  { transform: rotate(-2.2deg) translateX(-0.6px); }
-  48%  { transform: rotate(1.4deg) translateX(0.5px); }
-  71%  { transform: rotate(-1deg) translateX(-0.3px); }
-  100% { transform: rotate(0deg) translateX(0); }
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(-1.6deg); }
+  50%  { transform: rotate(0.8deg); }
+  75%  { transform: rotate(-0.6deg); }
+  100% { transform: rotate(0deg); }
 }
 
 @keyframes flicker {
-  0%   { transform: scaleY(1) scaleX(1); opacity: 1; }
-  18%  { transform: scaleY(0.92) scaleX(1.05); opacity: 0.92; }
-  36%  { transform: scaleY(1.06) scaleX(0.97); opacity: 1; }
-  52%  { transform: scaleY(0.97) scaleX(1.02); opacity: 0.95; }
-  68%  { transform: scaleY(1.08) scaleX(0.95); opacity: 1; }
-  84%  { transform: scaleY(0.95) scaleX(1.03); opacity: 0.9; }
-  100% { transform: scaleY(1) scaleX(1); opacity: 1; }
+  0%   { transform: scaleY(1) scaleX(1) translateY(0); opacity: 1; }
+  20%  { transform: scaleY(0.96) scaleX(1.03) translateY(1%); opacity: 0.94; }
+  38%  { transform: scaleY(1.04) scaleX(0.98) translateY(-1%); opacity: 1; }
+  55%  { transform: scaleY(0.98) scaleX(1.02) translateY(0.5%); opacity: 0.96; }
+  72%  { transform: scaleY(1.05) scaleX(0.97) translateY(-1.5%); opacity: 1; }
+  88%  { transform: scaleY(0.97) scaleX(1.01) translateY(0.5%); opacity: 0.95; }
+  100% { transform: scaleY(1) scaleX(1) translateY(0); opacity: 1; }
 }
 
 @keyframes auraPulse {
-  0%, 100% { opacity: 0.85; transform: translateX(-50%) scale(1); }
-  50%      { opacity: 1; transform: translateX(-50%) scale(1.08); }
+  0%, 100% { opacity: 0.8; transform: translateX(-50%) scale(1); }
+  50%      { opacity: 1; transform: translateX(-50%) scale(1.06); }
 }
 
 @media (prefers-reduced-motion: reduce) {
