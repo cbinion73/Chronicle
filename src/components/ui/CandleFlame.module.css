@@ -1,0 +1,113 @@
+/* A lit candle for Chapel's meditative moments — the physical object the
+   register's glow language (src/lib/candleGlow.ts) has been describing
+   in CSS shadows all along, made literal. Two independent, differently-
+   timed animations (body sway + inner-core flicker) are layered so the
+   loop never reads as a perfect, obviously-repeating cycle. */
+
+.candle {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: var(--candle-w, 34px);
+}
+
+.aura {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: 140px;
+  height: 140px;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(245, 212, 137, 0.32) 0%, rgba(232, 180, 79, 0.14) 32%, transparent 68%);
+  filter: blur(2px);
+  animation: auraPulse 3.4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.flameWrap {
+  position: relative;
+  width: var(--candle-w, 34px);
+  height: calc(var(--candle-w, 34px) * 1.7);
+  transform-origin: 50% 100%;
+  animation: sway 2.7s ease-in-out infinite;
+}
+
+.flameCore {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 100%;
+  animation: flicker 1.9s ease-in-out infinite;
+}
+
+/* Teardrop flame body: cool blue-white at the base near the wick,
+   warming through gold to a soft white-hot tip — the color travel of
+   an actual candle flame, not a flat orange blob. */
+.flameShape {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 50% 50% / 62% 62% 38% 38%;
+  background:
+    radial-gradient(ellipse at 50% 88%, rgba(120, 170, 255, 0.55) 0%, transparent 40%),
+    radial-gradient(ellipse at 50% 60%, #f5d489 0%, #e8b44f 55%, rgba(232, 138, 47, 0.65) 78%, transparent 100%),
+    radial-gradient(ellipse at 50% 22%, #fff6de 0%, rgba(255, 246, 222, 0.5) 30%, transparent 62%);
+  box-shadow: 0 0 16px rgba(245, 212, 137, 0.85), 0 0 40px rgba(232, 180, 79, 0.5);
+}
+
+.wick {
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: 2px;
+  height: 7px;
+  transform: translateX(-50%);
+  background: #2a2115;
+  border-radius: 1px;
+}
+
+.body {
+  width: 100%;
+  height: var(--candle-body-h, 30px);
+  border-radius: 3px 3px 1px 1px;
+  background: linear-gradient(180deg, #fbf3e2 0%, #eaddc0 55%, #d8c8a3 100%);
+  box-shadow: inset -3px 0 5px rgba(0, 0, 0, 0.12), inset 2px 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.pool {
+  width: 116%;
+  height: 4px;
+  margin-top: -2px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(245, 212, 137, 0.5) 0%, transparent 75%);
+}
+
+@keyframes sway {
+  0%   { transform: rotate(0deg) translateX(0); }
+  22%  { transform: rotate(-2.2deg) translateX(-0.6px); }
+  48%  { transform: rotate(1.4deg) translateX(0.5px); }
+  71%  { transform: rotate(-1deg) translateX(-0.3px); }
+  100% { transform: rotate(0deg) translateX(0); }
+}
+
+@keyframes flicker {
+  0%   { transform: scaleY(1) scaleX(1); opacity: 1; }
+  18%  { transform: scaleY(0.92) scaleX(1.05); opacity: 0.92; }
+  36%  { transform: scaleY(1.06) scaleX(0.97); opacity: 1; }
+  52%  { transform: scaleY(0.97) scaleX(1.02); opacity: 0.95; }
+  68%  { transform: scaleY(1.08) scaleX(0.95); opacity: 1; }
+  84%  { transform: scaleY(0.95) scaleX(1.03); opacity: 0.9; }
+  100% { transform: scaleY(1) scaleX(1); opacity: 1; }
+}
+
+@keyframes auraPulse {
+  0%, 100% { opacity: 0.85; transform: translateX(-50%) scale(1); }
+  50%      { opacity: 1; transform: translateX(-50%) scale(1.08); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aura,
+  .flameWrap,
+  .flameCore {
+    animation: none;
+  }
+}

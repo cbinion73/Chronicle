@@ -1682,3 +1682,64 @@ Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
 flakes — `discipleship-progress.spec.js` (reproduces standalone, genuine
 unrelated failure) and `bible-modes.spec.js` (failed once in the full
 run, passed clean in isolated re-run) — no new failures introduced.
+
+## Design-9 (branch: design/chapel-candle-and-contrast) — a lit candle, and fixing the AI panel's contrast in Chapel
+
+Two follow-ups from the user after Design-8 shipped: the AI companion
+panel's text was hard to read on Chapel pages, and the candle motif was
+still only implied by CSS glow — the user wanted an actual flickering,
+photorealistic candle to reinforce the room's meditative feel.
+
+**Contrast fix.** `AIChatPanel.module.css` washes its header, persona
+bar, empty-state, and composer panels with a translucent
+`rgba(255,255,255,X)` "frosted glass" layer — correct over Manuscript
+and Stone Court's light paper backgrounds, but over Chapel's near-black
+ground it lightens the panel to mid-gray while `--text-muted` (tuned for
+near-black) loses most of its contrast against it. Introduced a
+`--panel-glass` custom property (same re-scoping technique as every
+other register token): unset by default so Manuscript/Stone Court's
+existing white wash is untouched, overridden in `chapelRegister.module.css`
+to a translucent black so Chapel's panel stays dark instead of graying
+out. Also pinned the composer textarea's `::placeholder` color to
+`var(--text-muted)` — browsers default placeholder color to a fixed
+gray that assumes a light background and was otherwise unreadable on
+Chapel's near-black input.
+
+**The candle.** Built `src/components/ui/CandleFlame.tsx` — a real
+rendered flame (not an icon standing in for one): a teardrop shape with
+a three-stop radial gradient running blue-white at the base through
+gold to a warm-white tip (an actual flame's color travel, not a flat
+orange blob), a soft blurred aura, and a wax body+pool variant for
+free-standing placements. Two independently-timed CSS animations (a
+slow body sway, a faster inner-core flicker with irregular non-uniform
+keyframes) keep the loop from reading as mechanically perfect;
+`prefers-reduced-motion` holds it still.
+
+Replaced the flame glyphs Design-8 had used as text (✦ in Office's
+Remembrance card, 🕯️ in Lament's "It is kept" screen) with the real
+component, and added it to the Daily Office's Silence station while a
+minute of stillness is actually running — the user named meditation
+directly, and sitting in the room's own silence with a lit candle
+beside the countdown is the room's most literal meditative moment.
+
+Caught and fixed in passing: applying `candleGlowStyle({ ...card, ... })`
+to the Silence station's box briefly produced a real bug, not just a
+lint nit — spreading `card` (which carries `borderBottom` and
+`paddingBottom`) into the glow's extras left both a `border` shorthand
+and a `borderBottom` longhand, and both `padding` and `paddingBottom`,
+on the same style object. React warned about it at runtime ("mixing
+shorthand and non-shorthand properties... can lead to styling bugs").
+Fixed by building the glow variant from only the specific card fields
+that don't conflict, rather than spreading the whole object.
+
+Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
+(`--workers=1`), plus a disposable Playwright script to screenshot the
+actual rendered candle and AI panel in the Chapel register (the
+project's normal preview-server tool couldn't spawn a process in this
+sandbox — `process.cwd()` came back `EPERM` for every runtime tried;
+worked around it by screenshotting through Playwright's own dev server
+instead, then deleted the script). Two pre-existing flakes reproduced
+in the full run and passed clean in isolated re-runs —
+`discipleship-progress.spec.js` (already-known, unrelated) and
+`sealed-prayers.spec.js` (cross-test data pollution from full-suite
+ordering, not a regression from this change) — no new failures.

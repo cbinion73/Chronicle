@@ -13,7 +13,8 @@ import type { ChronicleEntry, PrayerItem } from '../types';
 import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { OFFICE_TABS } from '../lib/sectionTabs';
-import { candleGlowStyle, CANDLE_FLAME_TEXT_STYLE } from '../lib/candleGlow';
+import { candleGlowStyle } from '../lib/candleGlow';
+import CandleFlame from '../components/ui/CandleFlame';
 
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
 // day with an ancient shape: Call → Word → Silence → Prayer → Response.
@@ -107,7 +108,9 @@ function RemembranceCard({ memories }: {
 }) {
   return (
     <section style={candleGlowStyle({ margin: '0 auto', maxWidth: 480, padding: '36px 32px', textAlign: 'center' })}>
-      <div style={{ fontSize: 18, marginBottom: 14, ...CANDLE_FLAME_TEXT_STYLE }}>✦</div>
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
+        <CandleFlame size="md" />
+      </div>
       <h2 style={{ fontVariant: 'small-caps', letterSpacing: '0.3em', fontSize: 12, fontWeight: 400, margin: '0 0 16px', color: 'var(--accent-primary)' }}>
         Remembrance
       </h2>
@@ -370,12 +373,15 @@ export default function Office() {
           {/* 2 · Silence — lit while it's actually being kept, the one
               other moment on this page (besides Remembrance) that earns
               the candle: sitting in stillness is itself the meditation. */}
-          <section style={silenceLeft !== null ? candleGlowStyle({ ...card, padding: isPhone ? '20px 20px 40px' : '24px 26px 56px' }) : card}>
+          <section style={silenceLeft !== null ? candleGlowStyle({ margin: card.margin, maxWidth: card.maxWidth, textAlign: card.textAlign, padding: isPhone ? '20px 20px 40px' : '24px 26px 56px' }) : card}>
             <StationLabel n={2} total={3}>Silence</StationLabel>
             {silenceDone ? (
               <p style={{ fontSize: 14, color: 'var(--text-sub)', margin: 0 }}>The silence is kept. <em>"In peace I will lie down and sleep."</em></p>
             ) : silenceLeft !== null ? (
               <div style={{ textAlign: 'center', padding: '10px 0' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
+                  <CandleFlame size="sm" />
+                </div>
                 <div style={{ fontFamily: 'var(--font-serif)', fontSize: 44, fontWeight: 700, color: 'var(--text)', fontVariantNumeric: 'tabular-nums' }}>
                   {silenceLeft}
                 </div>
@@ -526,12 +532,15 @@ export default function Office() {
         {/* 3 · Silence — lit while it's actually being kept, the one
             other moment on this page (besides Remembrance) that earns
             the candle: sitting in stillness is itself the meditation. */}
-        <section style={silenceLeft !== null ? candleGlowStyle({ ...card, padding: isPhone ? '20px 20px 40px' : '24px 26px 56px' }) : card}>
+        <section style={silenceLeft !== null ? candleGlowStyle({ margin: card.margin, maxWidth: card.maxWidth, textAlign: card.textAlign, padding: isPhone ? '20px 20px 40px' : '24px 26px 56px' }) : card}>
           <StationLabel n={2} total={4}>Silence</StationLabel>
           {silenceDone ? (
             <p style={{ fontSize: 14, color: 'var(--text-sub)', margin: 0 }}>The silence is kept. <em>"Be still, and know that I am God."</em></p>
           ) : silenceLeft !== null ? (
             <div style={{ textAlign: 'center', padding: '10px 0' }}>
+              <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
+                <CandleFlame size="sm" />
+              </div>
               <div style={{ fontFamily: 'var(--font-serif)', fontSize: 44, fontWeight: 700, color: 'var(--text)', fontVariantNumeric: 'tabular-nums' }}>
                 {silenceLeft}
               </div>
