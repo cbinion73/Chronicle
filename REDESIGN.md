@@ -1810,3 +1810,57 @@ Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
 flakes (`discipleship-progress.spec.js`, `bible-modes.spec.js`, both
 reconfirmed unrelated in prior slices). Visual check via the same
 disposable-Playwright-screenshot workaround as Design-9/10.
+
+## Design-12 (branch: design/photo-candle) — a real photographed candle under the animated flame
+
+Follow-up to Design-9/10: the user supplied a detailed motion-graphics
+brief for a photoreal 3D-rendered candle (specific wax/wick/flame
+color science, an 8-second 192-frame loop, PNG/WebM/MP4/sprite-sheet
+deliverables). Flagged honestly up front that this codebase has no 3D
+render or video-compositing pipeline — that's a Blender/After-Effects-
+class deliverable, not a CSS/SVG one — and scoped down to what's
+actually buildable here: push `CandleFlame`'s existing CSS animation
+closer to the brief's color/motion spec, and add the ignite/extinguish
+lifecycle. The user then supplied an actual photographed candle hero
+image and asked to composite the animated flame onto it directly
+rather than continue hand-drawing the wax in CSS.
+
+Added `src/assets/candle-hero.png` (resized from the 1024×1536 source
+to 640×960 — full resolution was overkill for a ~240px display size and
+cut the file from 2.2MB to ~600KB) and a new `src/components/ui/PhotoCandle.tsx`
+that renders it with `CandleFlame` composited on top. The flame's
+anchor point (49.95%, 29.56% of the frame) was measured, not eyeballed —
+a small Python/Pillow script scanned the source photo for the wick's
+near-black pixels and computed its bounding-box center — so the flame's
+base lines up with the actual wick regardless of what size `PhotoCandle`
+renders at.
+
+`CandleFlame` gained two props to support this: `widthPx` (an exact
+pixel override for the size presets, needed to match whatever size the
+photo is rendered at) and `flameOnly` (drops the CSS wax body/wick/aura
+entirely, leaving just the flame + wick-ember glow, since the photo
+already has all of those). The `phase`-driven ignite/extinguish
+lifecycle from Design-9 carries through unchanged — `PhotoCandle` just
+forwards `phase` to the composited flame.
+
+One real bug caught and fixed before shipping: the source photo's own
+vignette background is a slightly lighter near-black than Chapel's
+`--bg`, so its square frame edge showed as a faint but visible
+rectangle against the room instead of disappearing into it. Fixed by
+applying a radial-gradient `mask-image` to the `<img>` that fades it to
+transparent at the edges, so only the glow reads and Chapel's actual
+background shows through everywhere else — confirmed via screenshot
+before and after.
+
+Wired into Chapel.tsx in place of the CSS-only `CandleFlame withBody`
+hero usage; every other Chapel-page usage (Office's Remembrance/Silence,
+Lament's "kept" screen, etc.) is untouched and still uses the pure-CSS
+candle, since those are small inline accents where a tall portrait
+photo wouldn't fit the layout.
+
+Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
+(`--workers=1`) — clean except two transient/pre-existing failures
+(`archaeology.spec.js` ECONNRESET, reproduced clean in isolated re-run;
+`discipleship-progress.spec.js`, the long-confirmed pre-existing
+failure) — no new regressions. Visual check via the same disposable-
+Playwright-screenshot workaround as Design-9/10/11.
