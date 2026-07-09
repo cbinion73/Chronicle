@@ -18,9 +18,11 @@ interface PhotoCandleProps {
 
 export default function PhotoCandle({ width = 220, phase = 'burning' }: PhotoCandleProps) {
   const height = Math.round(width * IMAGE_ASPECT);
-  // The photographed candle's wax cylinder is roughly 47% of the frame
-  // width; a real flame reads as roughly a quarter of that diameter.
-  const flameWidthPx = Math.max(14, Math.round(width * 0.47 * 0.28));
+  // Against the real photo, the flame needs to read as a tiny hot
+  // teardrop at the wick rather than a freestanding icon. The wax
+  // cylinder is roughly 47% of the frame width; keeping the flame near
+  // one-tenth of that diameter matches the supplied photo reference.
+  const flameWidthPx = Math.max(11, Math.round(width * 0.47 * 0.115));
 
   return (
     <div style={{ position: 'relative', width, height }}>
@@ -43,7 +45,7 @@ export default function PhotoCandle({ width = 220, phase = 'burning' }: PhotoCan
           position: 'absolute',
           left: `${WICK_X_PCT}%`,
           top: `${WICK_TOP_Y_PCT}%`,
-          transform: 'translate(-50%, -94%)',
+          transform: 'translate(-50%, -88%)',
         }}
       >
         <CandleFlame widthPx={flameWidthPx} flameOnly phase={phase} />
