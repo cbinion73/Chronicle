@@ -1,12 +1,10 @@
-/* A lit candle for Chapel's meditative moments — the physical object the
-   register's glow language (src/lib/candleGlow.ts) has been describing
-   in CSS shadows all along, made literal. Shape and color match a real
-   flame's silhouette (tall, narrow, pointed, wider at the base than the
-   tip) and color travel (warm gold body, white-hot at the widest point,
-   soft dark-amber base at the wick) rather than a flat rounded blob.
-   Two independent, differently-timed animations (slow sway + faster
-   flicker) are layered, both low-amplitude, so it reads as a candle
-   actually burning in still air, not a special effect. */
+/* A lit candle for Chapel's meditative moments. Color grading follows a
+   warm ~2200K brief: blue base at the wick, warm-white center, golden
+   body, faint amber tip — no red anywhere. Motion is built from several
+   independently-timed layers (lean, flicker, halo, ember, melt-pool
+   shimmer), each on its own non-matching duration, so the combined loop
+   never reads as a mechanically repeating cycle — the goal is that it
+   disappears into the background rather than being noticed. */
 
 .candle {
   display: inline-flex;
@@ -25,7 +23,7 @@
   transform: translateX(-50%);
   background: radial-gradient(circle, rgba(245, 212, 137, 0.4) 0%, rgba(232, 180, 79, 0.16) 30%, rgba(232, 180, 79, 0.05) 55%, transparent 72%);
   filter: blur(3px);
-  animation: auraPulse 3.6s ease-in-out infinite;
+  animation: auraPulse 4.1s ease-in-out infinite;
   pointer-events: none;
 }
 
@@ -34,14 +32,14 @@
   width: var(--candle-w, 34px);
   height: calc(var(--candle-w, 34px) * 2.6);
   transform-origin: 50% 100%;
-  animation: sway 3.2s ease-in-out infinite;
+  animation: sway 6.4s ease-in-out infinite;
 }
 
 .flameCore {
   position: absolute;
   inset: 0;
   transform-origin: 50% 100%;
-  animation: flicker 1.7s ease-in-out infinite;
+  animation: flicker 2.3s ease-in-out infinite;
   /* filter (not box-shadow) so the glow hugs the clipped flame
      silhouette instead of the invisible rectangular box around it. */
   filter:
@@ -53,7 +51,7 @@
 /* A tall, pointed flame silhouette — many gently-spaced polygon points
    (no single sharp waist) so the outline reads as a smooth curve
    rather than a faceted zigzag; narrows steadily from the base to a
-   fine point at the tip like the reference photos. */
+   fine point at the tip. */
 .flameShape {
   width: 100%;
   height: 100%;
@@ -75,15 +73,19 @@
     39% 18%,
     43% 8%
   );
+  /* Color travel of a real flame, base to tip: a small blue combustion
+     zone right at the wick, a warm-white hottest band around the
+     middle, a golden-orange body, fading to a faint amber tip. */
   background: linear-gradient(
     180deg,
-    rgba(232, 138, 47, 0.85) 0%,
-    #e8b44f 22%,
-    #f7cf7a 42%,
-    #fffaf0 58%,
-    #fff2cf 70%,
-    #f5d489 86%,
-    rgba(210, 110, 40, 0.7) 100%
+    rgba(232, 180, 79, 0.5) 0%,
+    #f0b860 14%,
+    #f7cf7a 32%,
+    #fff8ec 50%,
+    #f7cf7a 64%,
+    #e0954a 80%,
+    rgba(130, 170, 235, 0.55) 93%,
+    rgba(70, 110, 200, 0.4) 100%
   );
 }
 
@@ -94,53 +96,190 @@
   width: 2px;
   height: 7px;
   transform: translateX(-50%);
-  background: #2a2115;
+  background: #14100b;
   border-radius: 1px;
+  z-index: 1;
+}
+
+/* The wick's contact point: a tiny orange ember glow with a very small
+   blue combustion halo beneath the flame body itself. */
+.wickGlow {
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 14px;
+  height: 14px;
+  transform: translateX(-50%);
+  background: radial-gradient(circle, rgba(255, 200, 120, 0.9) 0%, rgba(120, 160, 230, 0.4) 45%, transparent 75%);
+  filter: blur(1.5px);
+  animation: emberPulse 2.6s ease-in-out infinite;
 }
 
 .body {
   width: 100%;
   height: var(--candle-body-h, 30px);
-  border-radius: 3px 3px 1px 1px;
-  background: linear-gradient(180deg, #fbf3e2 0%, #eaddc0 55%, #d8c8a3 100%);
-  box-shadow: inset -3px 0 5px rgba(0, 0, 0, 0.12), inset 2px 0 3px rgba(255, 255, 255, 0.5);
+  border-radius: 6px 6px 3px 3px;
+  /* Warm ivory beeswax — never bright white, never yellow — with a
+     soft left highlight / right shadow standing in for cylindrical
+     roundness, and an almost-matte finish (no glossy specular dot). */
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.35) 0%, transparent 22%, transparent 78%, rgba(0, 0, 0, 0.08) 100%),
+    linear-gradient(180deg, #f6ecd7 0%, #ecdec0 55%, #ddcca4 100%);
+  box-shadow: inset -3px 0 6px rgba(90, 70, 40, 0.14), inset 2px 0 4px rgba(255, 255, 255, 0.4);
 }
 
 .pool {
-  width: 116%;
-  height: 4px;
-  margin-top: -2px;
+  width: 118%;
+  height: 5px;
+  margin-top: -3px;
   border-radius: 50%;
-  background: radial-gradient(ellipse, rgba(245, 212, 137, 0.5) 0%, transparent 75%);
+  background: radial-gradient(ellipse, rgba(245, 212, 137, 0.55) 0%, rgba(232, 190, 130, 0.2) 60%, transparent 85%);
 }
+
+/* A very faint shimmer on the melt pool, reflecting the flame above it
+   — independent timing from every other animated layer. */
+.poolShimmer {
+  position: absolute;
+  bottom: var(--candle-body-h, 30px);
+  left: 50%;
+  width: 40%;
+  height: 3px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(255, 246, 222, 0.6) 0%, transparent 80%);
+  animation: poolShimmer 5.3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.smoke {
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  width: 6px;
+  height: 60px;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, rgba(210, 205, 195, 0.35) 0%, rgba(210, 205, 195, 0.12) 55%, transparent 100%);
+  border-radius: 50%;
+  filter: blur(3px);
+  animation: smokeRise 2.8s ease-out 1 forwards;
+  pointer-events: none;
+}
+
+/* ── Steady-burning motion — independent durations so the layers never
+   fall into a visible shared rhythm ─────────────────────────────────── */
 
 @keyframes sway {
   0%   { transform: rotate(0deg); }
-  25%  { transform: rotate(-1.6deg); }
-  50%  { transform: rotate(0.8deg); }
-  75%  { transform: rotate(-0.6deg); }
+  13%  { transform: rotate(-1.1deg); }
+  29%  { transform: rotate(0.3deg); }
+  52%  { transform: rotate(-1.5deg); }
+  68%  { transform: rotate(0.6deg); }
+  83%  { transform: rotate(-0.4deg); }
   100% { transform: rotate(0deg); }
 }
 
 @keyframes flicker {
-  0%   { transform: scaleY(1) scaleX(1) translateY(0); opacity: 1; }
-  20%  { transform: scaleY(0.96) scaleX(1.03) translateY(1%); opacity: 0.94; }
-  38%  { transform: scaleY(1.04) scaleX(0.98) translateY(-1%); opacity: 1; }
-  55%  { transform: scaleY(0.98) scaleX(1.02) translateY(0.5%); opacity: 0.96; }
-  72%  { transform: scaleY(1.05) scaleX(0.97) translateY(-1.5%); opacity: 1; }
-  88%  { transform: scaleY(0.97) scaleX(1.01) translateY(0.5%); opacity: 0.95; }
-  100% { transform: scaleY(1) scaleX(1) translateY(0); opacity: 1; }
+  0%   { transform: scaleY(1) scaleX(1); filter: brightness(1); }
+  17%  { transform: scaleY(0.96) scaleX(1.03); filter: brightness(0.97); }
+  34%  { transform: scaleY(1.05) scaleX(0.98); filter: brightness(1.02); }
+  51%  { transform: scaleY(0.98) scaleX(1.02); filter: brightness(0.99); }
+  69%  { transform: scaleY(1.04) scaleX(0.97); filter: brightness(1.03); }
+  86%  { transform: scaleY(0.97) scaleX(1.01); filter: brightness(0.98); }
+  100% { transform: scaleY(1) scaleX(1); filter: brightness(1); }
 }
 
 @keyframes auraPulse {
-  0%, 100% { opacity: 0.8; transform: translateX(-50%) scale(1); }
-  50%      { opacity: 1; transform: translateX(-50%) scale(1.06); }
+  0%, 100% { opacity: 0.82; transform: translateX(-50%) scale(1); }
+  50%      { opacity: 0.98; transform: translateX(-50%) scale(1.02); }
+}
+
+@keyframes emberPulse {
+  0%, 88%, 100% { opacity: 0.85; }
+  93%           { opacity: 1; }
+}
+
+@keyframes poolShimmer {
+  0%, 100% { opacity: 0.6; }
+  50%      { opacity: 0.9; }
+}
+
+/* ── One-shot lifecycle: entering / leaving a prayer session ─────────── */
+
+.igniting .flameWrap {
+  animation: igniteLean 2.6s cubic-bezier(0.22, 1, 0.36, 1) 1 forwards;
+}
+
+.igniting .flameCore {
+  animation: igniteGrow 2.6s cubic-bezier(0.22, 1, 0.36, 1) 1 forwards;
+}
+
+.igniting .aura {
+  animation: igniteAura 2.6s ease-out 1 forwards;
+}
+
+.extinguishing .flameWrap {
+  animation: extinguishLean 2.3s ease-in 1 forwards;
+}
+
+.extinguishing .flameCore {
+  animation: extinguishShrink 2.3s ease-in 1 forwards;
+}
+
+.extinguishing .aura {
+  animation: extinguishAura 2.3s ease-in 1 forwards;
+}
+
+@keyframes igniteGrow {
+  0%   { transform: scaleY(0) scaleX(0.6); opacity: 0; }
+  45%  { transform: scaleY(0.65) scaleX(0.92); opacity: 0.75; }
+  72%  { transform: scaleY(1.1) scaleX(1.06); opacity: 1; }
+  100% { transform: scaleY(1) scaleX(1); opacity: 1; }
+}
+
+@keyframes igniteLean {
+  0%   { transform: rotate(0deg); }
+  60%  { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes igniteAura {
+  0%   { opacity: 0; transform: translateX(-50%) scale(0.7); }
+  100% { opacity: 0.85; transform: translateX(-50%) scale(1); }
+}
+
+@keyframes extinguishShrink {
+  0%   { transform: scaleY(1) scaleX(1); opacity: 1; }
+  30%  { transform: scaleY(1.12) scaleX(0.82); opacity: 0.9; }
+  70%  { transform: scaleY(0.4) scaleX(0.5); opacity: 0.5; }
+  100% { transform: scaleY(0) scaleX(0.2); opacity: 0; }
+}
+
+@keyframes extinguishLean {
+  0%   { transform: rotate(0deg); }
+  40%  { transform: rotate(2deg); }
+  100% { transform: rotate(5deg); }
+}
+
+@keyframes extinguishAura {
+  0%   { opacity: 0.85; }
+  100% { opacity: 0; }
+}
+
+@keyframes smokeRise {
+  0%   { transform: translateX(-50%) translateY(0) scaleY(0.3); opacity: 0; }
+  20%  { opacity: 0.6; }
+  100% { transform: translateX(-50%) translateY(-46px) scaleY(1.4); opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .aura,
   .flameWrap,
-  .flameCore {
+  .flameCore,
+  .wickGlow,
+  .poolShimmer {
     animation: none;
+  }
+  .smoke {
+    display: none;
   }
 }
