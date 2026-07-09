@@ -52,16 +52,17 @@ test('bible study modes surface echoes, study colors, and greek word study', asy
   await page.getByRole('button', { name: /Theme Overlay/ }).evaluate((element) => element.click());
   await expect(page.getByText(/Focused Verse Guide · Verse \d+/).first()).toBeVisible();
   // Evidence Posture and the Meaning/Synthesis/Canonical-Thread block now render
-  // inside collapsed <details> disclosures (an intentional UX change — this
-  // content used to always be open, overwhelming the panel). Opening a native
-  // <details> is standard browser behavior that doesn't need e2e coverage here;
-  // what this test cares about is that Chronicle generated the content
-  // correctly, so it checks the markup is attached rather than fighting the
-  // click timing against this page's known async re-render churn on mode switch.
+  // inside a collapsed <details> disclosure (an intentional UX change — this
+  // content used to always be open, overwhelming the panel). getByText finds
+  // text regardless of the disclosure's open state, but getByRole resolves
+  // via the accessibility tree, which excludes content inside a closed
+  // <details> entirely — so the button/role checks below need it opened
+  // first, same as the "john 3" test in this file already does.
   await page.getByText('Guided Canonical Thread').waitFor({ state: 'attached', timeout: 15000 });
   await expect(page.getByText('Passage-Level Theological Synthesis')).toBeAttached();
   await expect(page.getByText(/Theological center:/)).toBeAttached();
   await expect(page.getByText(/eternal Word|Creator side of reality|new creation people/i).first()).toBeAttached();
+  await page.getByText('Meaning & Formation, Passage Synthesis, and Canonical Thread', { exact: true }).click();
   await expect(page.getByRole('button', { name: 'Open Genesis 1:1' }).first()).toBeAttached();
   await expect(page.getByRole('button', { name: 'Save Canonical Thread' })).toBeAttached();
   await expect(page.getByText('Translation Discernment')).toBeVisible();
@@ -107,4 +108,23 @@ test('john 3 surfaces richer synthesis and canonical thread guidance', async ({ 
   await expect(page.getByText('Guided Canonical Thread')).toBeVisible();
   await expect(page.getByText('From Wilderness Provision to New-Creation Life')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Open Numbers 21:8-9' })).toBeVisible();
+});
+
+test('opening a reading layer for the first time from a cold session does not freeze the tab', async ({ page }) => {
+  // Regression test: local component state and the persisted bibleView
+  // store used to fight over which one was "correct" whenever a reading
+  // layer (Theme Overlay, Echoes, Study Colors, Greek) was activated for
+  // the first time from a session with no bibleView state yet — an
+  // infinite render loop that froze the tab (surfaced by a real user
+  // clicking Study Colors on first visit). No seeded localStorage here
+  // is the point: it reproduces the exact cold-start condition.
+  await page.addInitScript(() => window.localStorage.clear());
+  await page.goto(appUrl('/bible'));
+  await page.locator('h2').first().waitFor({ timeout: 10000 });
+
+  await page.getByRole('button', { name: /Theme Overlay/ }).click({ timeout: 5000 });
+  await expect(page.getByText('Reading Layer Status')).toBeVisible({ timeout: 5000 });
+
+  await page.getByRole('button', { name: /◌ Study Colors|● Study Colors/ }).click({ timeout: 5000 });
+  await expect(page.getByText('Highlighter marks the topic')).toBeVisible({ timeout: 5000 });
 });

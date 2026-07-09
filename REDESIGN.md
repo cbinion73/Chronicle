@@ -2045,3 +2045,58 @@ manual two-mount screenshot check confirming distinct random verses
 render correctly with the candle and layout intact, then the full
 Playwright suite (`--workers=1`) — passing except the two already-known
 pre-existing flakes noted above.
+
+## Fix — Bible reading-layer toggles froze the tab on a cold session
+
+A user reported that clicking Study Colors on the Bible page locked up
+the tab (Chrome's own "Page Unresponsive" dialog). Confirmed via
+Playwright: clicking *any* reading-layer toggle (Theme Overlay, Echoes,
+Study Colors, Greek) from a session with no `bibleView` state yet — a
+genuinely cold first visit, not a corner case — hung the render loop
+indefinitely; a render counter showed 600+ renders/second climbing
+without bound.
+
+Root cause, in `src/pages/Bible.tsx`: two `useEffect`s each treated the
+other's output as external input to reconcile. One synced local toggle
+state (`overlayOn`, `showThemePanel`, `panelMode`, etc.) *into* the
+`bibleView` store; the other synced the store's values back *into*
+local state whenever they diverged from it. The moment a toggle click
+made local state diverge from the store's still-default values (which
+never happens until the panel opens for the first time), each effect
+raced to "correct" the other's most recent write using a stale
+snapshot, and neither ever recognized the other's update as its own
+echo — a permanent two-way oscillation, not a one-time correction.
+Bisected against the commit before this session's Study Colors work to
+confirm the bug predates it entirely; it just hadn't been hit by a cold
+session before.
+
+Fix: the store-writing effect now records what it last pushed in a
+ref, and the store-reading effect skips reconciliation entirely when
+the store's current value matches that ref — i.e., it only reacts to
+changes that came from somewhere *other* than itself. Verified with a
+render counter (renders now settle at a fixed count instead of
+climbing) and a battery of reproductions covering every toggle from a
+truly cold `localStorage.clear()`'d session, all now resolving in
+milliseconds instead of hanging past a 60-second ceiling.
+
+While chasing this down, a genuinely separate, pre-existing bug in
+`tests/bible-modes.spec.js` surfaced: it asserted on a button
+(`getByRole`) inside a collapsed `<details>` disclosure using
+`toBeAttached()`, assuming that check ignores the disclosure's open
+state. It does for `getByText` (which found other content in the same
+disclosure just fine), but `getByRole` resolves via the accessibility
+tree, which excludes closed-`<details>` content outright — so that
+specific assertion was only ever passing because the render-loop bug's
+side effects happened to leave the `<details>` open by coincidence some
+of the time. Fixed the test to actually open the disclosure first
+(matching the pattern the second test in the same file already uses),
+rather than relying on an assumption that never held.
+
+Added a permanent regression test (`tests/bible-modes.spec.js`,
+"opening a reading layer for the first time from a cold session does
+not freeze the tab") that seeds nothing and clicks straight through
+Theme Overlay and Study Colors — exactly the scenario the user hit.
+
+Verified: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
+(`--workers=1`) — all green except the one already-known pre-existing
+`discipleship-progress.spec.js` failure, unrelated to this change.
