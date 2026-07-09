@@ -128,6 +128,34 @@ export async function getChapterWordStudy(book: string, chapter: number) {
   return result;
 }
 
+/**
+ * Every Strong's number present in a chapter, verse by verse — powers
+ * Study Colors' verse-level theme classification (bibleStudyColor.ts).
+ * Unlike getChapterWordStudy above (which backs the NT-only "Greek Word
+ * Study" panel and filters out short/stopword tokens for display), this
+ * returns every token unfiltered and works for BOTH Testaments — the
+ * underlying kjvstudy interlinear tags the whole Bible except Song of
+ * Solomon (65 of 66 books; that one book isn't in this corpus, hence
+ * "1,181 of 1,189 chapters" — 8 missing chapters is exactly its length).
+ */
+export async function getChapterStrongsNumbers(book: string, chapter: number): Promise<Map<number, string[]>> {
+  const bookId = bookIdByName[book];
+  if (!bookId) return new Map();
+
+  const payload = await loadJson<StrongsChapterPayload>(`/study-library/strongs/kjvstudy/chapters/${bookId}.${chapter}.json`).catch(() => null);
+  if (!payload?.verses) return new Map();
+
+  const result = new Map<number, string[]>();
+  const prefix = `${bookId}.${chapter}.`;
+  for (const [key, tokens] of Object.entries(payload.verses)) {
+    if (!key.startsWith(prefix)) continue;
+    const verse = Number.parseInt(key.slice(prefix.length), 10);
+    if (Number.isNaN(verse)) continue;
+    result.set(verse, tokens.map((token) => token.strongs).filter(Boolean));
+  }
+  return result;
+}
+
 export async function getStrongsGlossEntry(strongsId: string) {
   const manifest = await getManifestMap('/study-library/strongs/kjvstudy/manifest.json').catch(() => null);
   if (!manifest) return null;

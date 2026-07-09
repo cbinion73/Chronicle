@@ -70,9 +70,12 @@ test('bible study modes surface echoes, study colors, and greek word study', asy
   await expect(page.getByText(/How to read it:/).first()).toBeVisible();
 
   await page.getByRole('button', { name: /◌ Study Colors|● Study Colors/ }).evaluate((element) => element.click());
-  await expect(page.getByText('Study Color Code gives you a simpler reading layer')).toBeVisible();
+  await expect(page.getByText('Highlighter marks the topic')).toBeVisible();
   await expect(page.getByText(/Active mode: Study Colors/)).toBeVisible();
-  await expect(page.getByText('Identity & Confession').first()).toBeVisible();
+  // John 1's "the Word", "the Father", "the only Son" etc. hit the
+  // God's-names-and-character family — confirms real verses tag, not
+  // just that the panel renders.
+  await expect(page.getByText('God', { exact: true }).first()).toBeVisible();
 
   await page.getByRole('button', { name: /^α Greek$/ }).evaluate((element) => element.click());
   await expect(page.getByText('Greek / Word Study follows the New Testament text')).toBeVisible();
