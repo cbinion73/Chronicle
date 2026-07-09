@@ -1,4 +1,4 @@
-import { Fragment, type ReactNode, useEffect, useMemo, useState } from 'react';
+import { Fragment, type ReactNode, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
 import { BOOKS, getChapter, getChaptersForBook } from '../lib/scripture';
@@ -570,6 +570,23 @@ export default function Bible() {
   const [loadingEchoes, setLoadingEchoes] = useState(false);
   const [crossReferences, setCrossReferences] = useState<ChapterCrossReference[]>([]);
   const [studyColorsOn, setStudyColorsOn] = useState(Boolean(bibleView.studyColorsOn));
+  // Last bibleView payload this component itself pushed to the store —
+  // lets the sync-FROM-store effect recognize its own echo and skip,
+  // instead of "correcting" local state back against a value that was
+  // only ever a mirror of what local state just was (see that effect
+  // for the full story of the freeze this prevents).
+  const lastPushedBibleViewRef = useRef<{
+    book: string;
+    chapter: number;
+    provider: BibleProviderId;
+    overlayOn: boolean;
+    echoesOn: boolean;
+    studyColorsOn: boolean;
+    greekOn: boolean;
+    showThemePanel: boolean;
+    panelMode: string;
+    activeThemeIds: string[];
+  } | null>(null);
   const [greekOn, setGreekOn] = useState(Boolean(bibleView.greekOn));
   const [loadingGreek, setLoadingGreek] = useState(false);
   const [focusedPanelVerse, setFocusedPanelVerse] = useState<number | null>(null);
@@ -811,6 +828,32 @@ export default function Bible() {
     const incomingShowThemePanel = Boolean(bibleView.showThemePanel);
     const incomingPanelMode = bibleView.panelMode || 'themes';
     const incomingThemeIds = bibleView.activeThemeIds || [];
+
+    // If this bibleView update is just the echo of what the sync-TO-store
+    // effect below last pushed, there's nothing external to reconcile —
+    // skip. Without this guard, every local-state change bounces forever
+    // between this effect ("pull the store's values into local state")
+    // and the one below ("push local state into the store"), each
+    // correcting the other back and forth on every render: a permanent
+    // render loop that froze the tab the first time any reading-layer
+    // toggle (Theme Overlay, Echoes, Study Colors, Greek) was opened from
+    // a cold, unseeded session (the first activation is exactly when
+    // local state and the store's still-default values diverge).
+    const pushed = lastPushedBibleViewRef.current;
+    const isOwnEcho = pushed !== null
+      && pushed.book === incomingBook
+      && pushed.chapter === incomingChapter
+      && pushed.provider === incomingProvider
+      && pushed.overlayOn === incomingOverlayOn
+      && pushed.echoesOn === incomingEchoesOn
+      && pushed.studyColorsOn === incomingStudyColorsOn
+      && pushed.greekOn === incomingGreekOn
+      && pushed.showThemePanel === incomingShowThemePanel
+      && pushed.panelMode === incomingPanelMode
+      && pushed.activeThemeIds.length === incomingThemeIds.length
+      && pushed.activeThemeIds.every((id, index) => id === incomingThemeIds[index]);
+    if (isOwnEcho) return;
+
     const currentThemeIds = Array.from(activeThemes);
     const shouldSyncThemeIds = currentThemeIds.length !== incomingThemeIds.length
       || currentThemeIds.some((themeId, index) => themeId !== incomingThemeIds[index]);
@@ -1149,7 +1192,7 @@ export default function Bible() {
   }, [themeIds]);
 
   useEffect(() => {
-    setBibleView({
+    const payload = {
       book,
       chapter,
       provider,
@@ -1160,7 +1203,9 @@ export default function Bible() {
       showThemePanel,
       panelMode,
       activeThemeIds: Array.from(activeThemes),
-    });
+    };
+    lastPushedBibleViewRef.current = payload;
+    setBibleView(payload);
   }, [activeThemes, book, chapter, overlayOn, echoesOn, studyColorsOn, greekOn, provider, setBibleView, showThemePanel, panelMode]);
 
   const toggleTheme = (id: string) => {
