@@ -1864,3 +1864,112 @@ Verification: `tsc -b`, `eslint .`, `vite build`, full Playwright suite
 `discipleship-progress.spec.js`, the long-confirmed pre-existing
 failure) — no new regressions. Visual check via the same disposable-
 Playwright-screenshot workaround as Design-9/10/11.
+
+## Design-13 (branch: design/study-colors-strongs) — Study Colors rebuilt on Strong's numbers, whole-Bible, translation-independent
+
+The Word's "Study Colors" toggle previously ran on 6 hardcoded English-
+phrase categories (~50 total substring patterns, hand-typed against the
+9-chapter offline demo corpus) — the user asked three pointed questions
+before any redesign work started: is it *correct* (matched to what's
+actually on screen), *comprehensive* (whole Bible, not just John 1),
+and *translation-specific* (does one phrase list even work across all 9
+installed translations)? All three were legitimate — the old patterns
+were lifted from ESV-style wording while the app's primary display
+translation is NKJV, meaning most patterns silently failed to match.
+
+**The fix: tag verses by the Strong's number of the underlying Greek/
+Hebrew word, not by guessing English phrasing.** The repo already had
+`public/study-library/strongs/kjvstudy/` — a Strong's interlinear
+covering 1,181 of 1,189 Bible chapters (missing only Song of Solomon,
+which the corpus doesn't include) — wired up for NT-only "Greek Word
+Study," but with the identical data structure available for the OT.
+Extended `bibleWordStudy.ts` with `getChapterStrongsNumbers()` (a new,
+unfiltered, both-Testament chapter loader, kept separate from the
+existing NT-only `getChapterWordStudy` which still powers the Greek
+panel unchanged) and rebuilt `bibleStudyColor.ts`'s
+`getChapterStudyColors()` around it — verse tagging is now keyed to the
+actual word in the text, so it's correct and translation-independent by
+construction rather than by luck.
+
+**Taxonomy: a highlighter (topic) + ink (mode) system**, chosen over a
+flat category list per explicit user direction ("clear, not complex").
+7+3 learnable primitives combine into 21+ meaningful readings — a verse
+isn't a flat category, it's "Spirit-topic, promise-mode" or "sin-topic,
+warning-mode," which is how those verses actually read. Mode detection
+(stated/promise/warning) is a separate, lighter, English-phrase-based
+pass layered on top — Strong's numbers tag individual words, not a
+sentence's speech-act, so this part is translation-sensitive by
+necessity and deliberately only adjusts ink color, never whether a
+verse is tagged at all.
+
+**The taxonomy grew from 7 families to 12 through direct user review**,
+each catch driven by a real gap: Prophecy/return of Christ was entirely
+absent (had been folded into the "promise" ink-mode, but prophecy is a
+topic, not just a tone); Family/household and Comfort/refuge were
+missing devotional staples; Leadership/calling had nowhere to live;
+God's names/character and Praise/thanksgiving/exaltation were split
+apart from one merged family once the user flagged that praise deserved
+its own color, matching the original reference chart's own separation.
+Final roster: God's Names, Praise/Thanksgiving, The Holy Spirit, Gospel
+& Salvation, Faith/Healing/Miracles, The Walk, Lament/Repentance, Sin &
+the Enemy, Prophecy & Return of Christ, Family & Household, Comfort &
+Refuge, Leadership & Calling — ~250 verified Strong's numbers total.
+
+**Every single number was independently verified, not trusted from
+model memory.** A multi-agent `Workflow` (explicitly authorized by the
+user — "multi-agent usage authorized... independent agentic
+verification authorized") ran propose → grep-verify-against-the-real-
+lexicon-file → adversarial-doctrinal-review-with-WebSearch for each
+family. This caught real hallucinations before they shipped: several
+proposed Strong's numbers didn't exist or pointed to entirely different
+words (a guessed "reconciliation" number that was actually "disqualify,"
+a guessed "false prophet" number that was actually "false Christ," a
+garbled non-number). It also caught a substantive doctrinal error: the
+proposed core term for "baptism in the Spirit" (G0909, *baptismos*) is
+actually ceremonial washing, not Spirit baptism — the correct word
+(G0908, *baptisma*) had to be manually verified and swapped in. Full
+verification detail (which numbers were proposed, verified, confirmed,
+refuted, or left uncertain, and why) lives in the workflow transcripts
+from this session; the shipped taxonomy in `studyColorTaxonomy.ts`
+keeps only lexicon-verified, doctrinally-unrefuted entries.
+
+**A real gap was caught during manual spot-checking, after the
+automated verification passed.** Isaiah 40:1, "Comfort, yes, comfort My
+people" — the verse the Comfort family exists for — wasn't tagging as
+Comfort. The word (H5162, *nacham*) had been excluded from that family
+during the doctrinal review for being ambiguous (it spans comfort AND
+relent/repent senses), but excluding it meant the family's own namesake
+verse didn't work. Restored it, dual-tagged into both Comfort and
+Lament like several other genuinely dual-sense words already in the
+taxonomy — a reminder that automated verification catches wrong
+answers, not necessarily missing right ones; both passes were needed.
+
+**Rendering**: since the Strong's data is word-position-aligned to the
+KJV specifically, word order doesn't line up with the other 8 installed
+translations' phrasing — so unlike the old engine, this doesn't attempt
+exact-substring highlighting inside the displayed verse text. It tints
+the whole verse instead (highlighter background + ink text color), a
+simplification stated to the user up front as the honest tradeoff for
+correctness across every translation rather than a fragile per-
+translation guess. Verified directly: Acts 2:2-4 tags identically
+across NKJV and AMP despite completely different English wording,
+because the tag follows the Greek word, not the displayed text.
+
+**Verification**: `tsc -b`, `eslint .`, `vite build`, full Playwright
+suite (`--workers=1`) — one pre-existing test (`bible-modes.spec.js`)
+needed real updates (old category-label assertions no longer exist
+after the rewrite), now passing; one already-known pre-existing failure
+(`discipleship-progress.spec.js`) unrelated to this change. Manual spot
+verification via disposable Playwright screenshots across Acts 2 (NKJV
++ AMP), Romans 8 (CSB), Isaiah 40 (NKJV, confirms OT coverage), and
+1 Corinthians 12 (NKJV) — all tagged sensibly, translation-independence
+confirmed directly, one real gap (Isaiah 40:1 above) found and fixed
+before shipping.
+
+Known follow-up, not fixed in this pass: a handful of very common,
+highly polysemous Strong's numbers (e.g. Hebrew *qara'*, "to call,"
+tagged for Leadership's "calling" sense) will occasionally over-fire on
+their ordinary generic usage ("cry out to her") since word-level Strong's
+tagging can't disambiguate sense without deeper NLP. Noted as an
+accepted limitation of the approach, not a bug — the alternative
+(excluding common words entirely) would silently under-tag instead.

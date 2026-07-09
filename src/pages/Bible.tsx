@@ -30,8 +30,10 @@ import {
 } from '../lib/bibleCrossReferences';
 import {
   getChapterStudyColors,
+  getModeInk,
   type StudyColorHit,
 } from '../lib/bibleStudyColor';
+import { TOPIC_FAMILIES } from '../lib/studyColorTaxonomy';
 import {
   getChapterWordStudy,
   supportsGreekWordStudy,
@@ -59,13 +61,6 @@ interface VerseThemeHit {
 interface InlineHighlight extends VerseThemeHit {
   start: number;
   end: number;
-}
-
-interface StudyColorInlineHighlight {
-  phrase: string;
-  start: number;
-  end: number;
-  hit: StudyColorHit;
 }
 
 interface VerseTranslationComparison {
@@ -579,6 +574,7 @@ export default function Bible() {
   const [loadingGreek, setLoadingGreek] = useState(false);
   const [focusedPanelVerse, setFocusedPanelVerse] = useState<number | null>(null);
   const [wordStudyByVerse, setWordStudyByVerse] = useState<Map<number, WordStudyToken[]>>(new Map());
+  const [studyColorByVerse, setStudyColorByVerse] = useState<Map<number, StudyColorHit>>(new Map());
   const [translationComparisons, setTranslationComparisons] = useState<VerseTranslationComparison[]>([]);
   const [loadingTranslationComparisons, setLoadingTranslationComparisons] = useState(false);
   const [focusedVerseInsight, setFocusedVerseInsight] = useState<VerseStudyInsight | null>(null);
@@ -588,7 +584,6 @@ export default function Bible() {
   const currentReferenceKey = `${provider}:${book}:${chapter}`;
   const chapterData = chapterResult.referenceKey === currentReferenceKey ? chapterResult.chapter : undefined;
   const supportsGreek = useMemo(() => supportsGreekWordStudy(book), [book]);
-  const studyColorByVerse = useMemo(() => getChapterStudyColors(chapterData), [chapterData]);
   const themeIds = useMemo(() => themes.map((theme) => theme.id), [themes]);
   const coverage = useMemo(() => {
     const coveredVerses = new Set<number>();
@@ -1029,6 +1024,29 @@ export default function Bible() {
       cancelled = true;
     };
   }, [book, chapter, supportsGreek]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadStudyColors() {
+      if (!chapterData) {
+        setStudyColorByVerse(new Map());
+        return;
+      }
+      try {
+        const next = await getChapterStudyColors(book, chapter, chapterData);
+        if (!cancelled) setStudyColorByVerse(next);
+      } catch {
+        if (!cancelled) setStudyColorByVerse(new Map());
+      }
+    }
+
+    void loadStudyColors();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [book, chapter, chapterData]);
 
   useEffect(() => {
     let cancelled = false;
@@ -1546,81 +1564,9 @@ export default function Bible() {
     }
   };
 
-  const getVerseStudyColorHits = (verseNum: number) => {
-    if (!studyColorsOn) return [];
-    return studyColorByVerse.get(verseNum) || [];
-  };
-
-  const buildStudyColorHighlights = (text: string, hits: StudyColorHit[]) => {
-    const lowerText = text.toLowerCase();
-    const ranges: StudyColorInlineHighlight[] = hits.flatMap((hit) =>
-      hit.phrases.flatMap((phrase) => {
-        const matcher = new RegExp(escapeRegex(phrase), 'ig');
-        const localRanges: StudyColorInlineHighlight[] = [];
-        let match = matcher.exec(text);
-        while (match) {
-          localRanges.push({
-            phrase,
-            start: match.index,
-            end: match.index + match[0].length,
-            hit,
-          });
-          match = matcher.exec(text);
-        }
-        if (localRanges.length === 0) {
-          const fallbackIndex = lowerText.indexOf(phrase.toLowerCase());
-          if (fallbackIndex >= 0) {
-            localRanges.push({
-              phrase,
-              start: fallbackIndex,
-              end: fallbackIndex + phrase.length,
-              hit,
-            });
-          }
-        }
-        return localRanges;
-      })
-    );
-
-    return ranges
-      .sort((a, b) => a.start - b.start || (b.end - b.start) - (a.end - a.start))
-      .reduce<StudyColorInlineHighlight[]>((accepted, candidate) => {
-        const overlapsExisting = accepted.some((item) => candidate.start < item.end && candidate.end > item.start);
-        if (!overlapsExisting) accepted.push(candidate);
-        return accepted;
-      }, []);
-  };
-
-  const renderStudyColorText = (text: string, highlights: StudyColorInlineHighlight[]) => {
-    if (highlights.length === 0) return text;
-
-    const nodes: ReactNode[] = [];
-    let cursor = 0;
-    highlights.forEach((highlight, index) => {
-      if (highlight.start > cursor) {
-        nodes.push(<Fragment key={`study-color-text-${index}-${cursor}`}>{text.slice(cursor, highlight.start)}</Fragment>);
-      }
-      nodes.push(
-        <span
-          key={`study-color-highlight-${highlight.hit.category.id}-${highlight.start}-${highlight.end}`}
-          style={{
-            background: `${highlight.hit.category.color}18`,
-            boxShadow: `inset 0 -0.42em 0 ${highlight.hit.category.color}22`,
-            borderBottom: `1px solid ${highlight.hit.category.color}44`,
-            borderRadius: 4,
-            padding: '0 1px',
-          }}
-          title={highlight.hit.category.label}
-        >
-          {text.slice(highlight.start, highlight.end)}
-        </span>
-      );
-      cursor = highlight.end;
-    });
-    if (cursor < text.length) {
-      nodes.push(<Fragment key={`study-color-tail-${cursor}`}>{text.slice(cursor)}</Fragment>);
-    }
-    return nodes;
+  const getVerseStudyColorHit = (verseNum: number) => {
+    if (!studyColorsOn) return undefined;
+    return studyColorByVerse.get(verseNum);
   };
 
   if (!chapterData) {
@@ -1944,8 +1890,8 @@ export default function Bible() {
             const verseThemeHits = getVerseThemeHits(v.number);
             const inlineHighlights = buildInlineHighlights(v.text, verseThemeHits);
             const verseThemes = Array.from(new Map(verseThemeHits.map((hit) => [hit.theme.id, hit.theme])).values());
-            const studyColorHits = getVerseStudyColorHits(v.number);
-            const studyColorHighlights = buildStudyColorHighlights(v.text, studyColorHits);
+            const studyColorHit = getVerseStudyColorHit(v.number);
+            const primaryFamily = studyColorHit?.families[0];
             const greekTokens = greekOn ? (wordStudyByVerse.get(v.number) || []) : [];
             return (
               <div
@@ -1954,9 +1900,13 @@ export default function Bible() {
                 style={{
                   marginBottom: 12,
                   paddingLeft: verseThemes.length > 0 ? 12 : 6,
+                  paddingTop: studyColorHit ? 6 : 0,
+                  paddingRight: studyColorHit ? 8 : 0,
+                  paddingBottom: studyColorHit ? 6 : 0,
                   borderLeft: verseThemes.length > 0 ? `3px solid ${verseThemes[0].color}` : '3px solid transparent',
-                  borderRadius: '0 6px 6px 0',
-                  background: studyColorsOn && studyColorHits.length > 0 ? 'rgba(124,58,237,0.02)' : 'transparent',
+                  borderRadius: studyColorHit ? 6 : '0 6px 6px 0',
+                  background: primaryFamily ? primaryFamily.bg : 'transparent',
+                  transition: 'background 0.2s',
                 }}
               >
                 <p
@@ -1965,7 +1915,7 @@ export default function Bible() {
                     fontFamily: 'var(--font-serif)',
                     fontSize: 17,
                     lineHeight: 2.0,
-                    color: 'var(--text)',
+                    color: studyColorHit ? getModeInk(studyColorHit) : 'var(--text)',
                     marginBottom: verseThemes.length > 0 ? 8 : 0,
                     transition: 'all 0.2s',
                     cursor: 'pointer',
@@ -1973,11 +1923,7 @@ export default function Bible() {
                   title="Click to add a note"
                 >
                   <sup style={{ fontSize: 10, fontWeight: 700, color: 'var(--text-muted)', marginRight: 3, verticalAlign: 'super' }}>{v.number}</sup>
-                  {overlayOn && inlineHighlights.length > 0
-                    ? renderVerseText(v.text, inlineHighlights)
-                    : studyColorsOn && studyColorHighlights.length > 0
-                      ? renderStudyColorText(v.text, studyColorHighlights)
-                      : v.text}
+                  {overlayOn && inlineHighlights.length > 0 ? renderVerseText(v.text, inlineHighlights) : v.text}
                 </p>
                 {overlayOn && verseThemes.length > 0 && (
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, paddingBottom: 2 }}>
@@ -2000,25 +1946,30 @@ export default function Bible() {
                     ))}
                   </div>
                 )}
-                {studyColorsOn && studyColorHits.length > 0 && (
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, paddingTop: verseThemes.length > 0 ? 6 : 2 }}>
-                    {studyColorHits.map((hit) => (
+                {studyColorHit && (
+                  <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 6, paddingTop: verseThemes.length > 0 ? 6 : 2 }}>
+                    {studyColorHit.families.map((family) => (
                       <span
-                        key={`${v.number}-${hit.category.id}`}
+                        key={`${v.number}-${family.id}`}
                         style={{
                           fontSize: 10,
                           fontWeight: 700,
                           letterSpacing: '0.02em',
                           padding: '2px 6px',
                           borderRadius: 999,
-                          background: `${hit.category.color}14`,
-                          border: `1px solid ${hit.category.color}35`,
-                          color: hit.category.color,
+                          background: 'rgba(255,255,255,0.55)',
+                          border: `1px solid ${family.ink}35`,
+                          color: family.ink,
                         }}
                       >
-                        {hit.category.label}
+                        {family.shortLabel}
                       </span>
                     ))}
+                    {studyColorHit.mode !== 'stated' && (
+                      <span style={{ fontSize: 10, fontStyle: 'italic', color: getModeInk(studyColorHit), opacity: 0.85 }}>
+                        {studyColorHit.mode === 'promise' ? 'promise' : 'warning'}
+                      </span>
+                    )}
                   </div>
                 )}
                 {echoesOn && (crossReferencesByVerse.get(v.number)?.length || 0) > 0 && (
@@ -2364,61 +2315,81 @@ export default function Bible() {
             {panelMode === 'study-colors' && (
               <div style={{ display: 'grid', gap: 10 }}>
                 <div style={{ padding: '10px 12px', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8, fontSize: 11, color: 'var(--text-sub)', lineHeight: 1.5 }}>
-                  Study Color Code gives you a simpler reading layer: God's character, identity/confession, invitation, gospel promises, warning/conflict, and worship cues.
+                  Highlighter marks the topic — {TOPIC_FAMILIES.length} themes, from God's names to the return of Christ. Ink marks the mode: stated plainly, a promise or prophecy, or a warning. Both are drawn from the actual Greek and Hebrew words in the verse, so they hold across every translation.
                 </div>
-                {chapterData.verses
-                  .filter((verse) => (studyColorByVerse.get(verse.number) || []).length > 0)
-                  .slice(0, 18)
-                  .map((verse) => (
-                    <div
-                      key={`study-color-panel-${verse.number}`}
-                      style={{
-                        padding: '10px 12px',
-                        background: 'var(--card-inner)',
-                        border: '1px solid var(--border)',
-                        borderRadius: 8,
-                        display: 'grid',
-                        gap: 6,
-                      }}
-                    >
-                      <button
-                        onClick={() => jumpToVerse(verse.number)}
+                <details style={{ padding: '8px 12px', background: 'var(--card-inner)', border: '1px solid var(--border)', borderRadius: 8 }}>
+                  <summary style={{ fontSize: 11, fontWeight: 700, color: 'var(--text-sub)', cursor: 'pointer' }}>Legend — {TOPIC_FAMILIES.length} themes</summary>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 8 }}>
+                    {TOPIC_FAMILIES.map((family) => (
+                      <span
+                        key={family.id}
                         style={{
-                          border: 'none',
-                          background: 'none',
-                          padding: 0,
-                          fontSize: 11,
-                          fontWeight: 700,
-                          color: '#7c3aed',
-                          cursor: 'pointer',
-                          justifySelf: 'start',
+                          fontSize: 10, fontWeight: 700, padding: '3px 8px', borderRadius: 999,
+                          background: family.bg, color: family.ink,
                         }}
                       >
-                        Verse {verse.number}
-                      </button>
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                        {(studyColorByVerse.get(verse.number) || []).map((hit) => (
-                          <span
-                            key={`${verse.number}-${hit.category.id}`}
-                            style={{
-                              fontSize: 10,
-                              fontWeight: 700,
-                              padding: '2px 6px',
-                              borderRadius: 999,
-                              background: `${hit.category.color}14`,
-                              border: `1px solid ${hit.category.color}35`,
-                              color: hit.category.color,
-                            }}
-                          >
-                            {hit.category.label}
-                          </span>
-                        ))}
+                        {family.shortLabel}
+                      </span>
+                    ))}
+                  </div>
+                </details>
+                {chapterData.verses
+                  .filter((verse) => studyColorByVerse.has(verse.number))
+                  .slice(0, 18)
+                  .map((verse) => {
+                    const hit = studyColorByVerse.get(verse.number);
+                    if (!hit) return null;
+                    return (
+                      <div
+                        key={`study-color-panel-${verse.number}`}
+                        style={{
+                          padding: '10px 12px',
+                          background: hit.families[0].bg,
+                          border: '1px solid var(--border)',
+                          borderRadius: 8,
+                          display: 'grid',
+                          gap: 6,
+                        }}
+                      >
+                        <button
+                          onClick={() => jumpToVerse(verse.number)}
+                          style={{
+                            border: 'none',
+                            background: 'none',
+                            padding: 0,
+                            fontSize: 11,
+                            fontWeight: 700,
+                            color: getModeInk(hit),
+                            cursor: 'pointer',
+                            justifySelf: 'start',
+                          }}
+                        >
+                          Verse {verse.number}
+                        </button>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                          {hit.families.map((family) => (
+                            <span
+                              key={`${verse.number}-${family.id}`}
+                              style={{
+                                fontSize: 10,
+                                fontWeight: 700,
+                                padding: '2px 6px',
+                                borderRadius: 999,
+                                background: 'rgba(255,255,255,0.55)',
+                                border: `1px solid ${family.ink}35`,
+                                color: family.ink,
+                              }}
+                            >
+                              {family.shortLabel}
+                            </span>
+                          ))}
+                        </div>
+                        <div style={{ fontSize: 10, color: getModeInk(hit), lineHeight: 1.45 }}>
+                          {verse.text.slice(0, 140)}{verse.text.length > 140 ? '…' : ''}
+                        </div>
                       </div>
-                      <div style={{ fontSize: 10, color: 'var(--text-sub)', lineHeight: 1.45 }}>
-                        {verse.text.slice(0, 140)}{verse.text.length > 140 ? '…' : ''}
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
               </div>
             )}
             {panelMode === 'greek' && (
