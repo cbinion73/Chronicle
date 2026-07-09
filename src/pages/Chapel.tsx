@@ -65,7 +65,7 @@ export default function Chapel() {
     >
       <div style={{ maxWidth: 560, textAlign: 'center' }}>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 28 }}>
-          <PhotoCandle width={240} phase={phase} />
+          <PhotoCandle width={300} phase={phase} />
         </div>
         <p style={{
           fontFamily: 'var(--font-serif)',

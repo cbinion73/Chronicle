@@ -1,15 +1,4 @@
-import candleHero from '../../assets/candle-hero.png';
-import CandleFlame from './CandleFlame';
-
-// The real candle: a photographed hero image (supplied directly, not
-// rendered) with the animated CandleFlame composited on top, anchored
-// to the actual wick. The image's own wick tip sits at (49.95%, 29.56%)
-// of its frame — measured by scanning the source photo for the wick's
-// near-black pixels — so the flame's base lines up with it exactly
-// regardless of how large PhotoCandle is rendered.
-const WICK_X_PCT = 49.95;
-const WICK_TOP_Y_PCT = 29.56;
-const IMAGE_ASPECT = 960 / 640; // height / width, from the source photo
+import candleHeroShot from '../../assets/candle-hero-shot.png';
 
 interface PhotoCandleProps {
   width?: number;
@@ -17,39 +6,37 @@ interface PhotoCandleProps {
 }
 
 export default function PhotoCandle({ width = 220, phase = 'burning' }: PhotoCandleProps) {
-  const height = Math.round(width * IMAGE_ASPECT);
-  // Against the real photo, the flame needs to read as a tiny hot
-  // teardrop at the wick rather than a freestanding icon. The wax
-  // cylinder is roughly 47% of the frame width; keeping the flame near
-  // one-tenth of that diameter matches the supplied photo reference.
-  const flameWidthPx = Math.max(11, Math.round(width * 0.47 * 0.115));
+  const opacity = phase === 'igniting' ? 0.92 : phase === 'extinguishing' ? 0.4 : 1;
+  const scale = phase === 'igniting' ? 0.97 : phase === 'extinguishing' ? 0.94 : 1;
+  const blur = phase === 'extinguishing' ? '0.8px' : '0px';
 
   return (
-    <div style={{ position: 'relative', width, height }}>
+    <div
+      style={{
+        width,
+        aspectRatio: '1 / 1',
+        display: 'block',
+        opacity,
+        transform: `scale(${scale})`,
+        filter: `blur(${blur})`,
+        transition: phase === 'burning'
+          ? 'opacity 1.2s ease, transform 1.2s ease, filter 1.2s ease'
+          : 'opacity 2.3s ease, transform 2.3s ease, filter 2.3s ease',
+      }}
+      aria-hidden="true"
+    >
       <img
-        src={candleHero}
+        src={candleHeroShot}
         alt="A lit prayer candle"
         style={{
-          width: '100%', height: '100%', objectFit: 'contain', display: 'block',
-          // The source photo's own vignette is a slightly lighter near-
-          // black than Chapel's --bg, so its square frame edge shows as
-          // a visible rectangle against the room. Fading the image to
-          // transparent at its edges lets the room's actual background
-          // show through instead, so only the candle's glow reads.
-          WebkitMaskImage: 'radial-gradient(ellipse 62% 60% at 50% 42%, black 50%, transparent 90%)',
-          maskImage: 'radial-gradient(ellipse 62% 60% at 50% 42%, black 50%, transparent 90%)',
+          width: '100%',
+          height: '100%',
+          objectFit: 'contain',
+          display: 'block',
+          WebkitMaskImage: 'radial-gradient(circle at 50% 48%, black 26%, rgba(0, 0, 0, 0.94) 44%, rgba(0, 0, 0, 0.72) 56%, transparent 78%)',
+          maskImage: 'radial-gradient(circle at 50% 48%, black 26%, rgba(0, 0, 0, 0.94) 44%, rgba(0, 0, 0, 0.72) 56%, transparent 78%)',
         }}
       />
-      <div
-        style={{
-          position: 'absolute',
-          left: `${WICK_X_PCT}%`,
-          top: `${WICK_TOP_Y_PCT}%`,
-          transform: 'translate(-50%, -88%)',
-        }}
-      >
-        <CandleFlame widthPx={flameWidthPx} flameOnly phase={phase} />
-      </div>
     </div>
   );
 }
