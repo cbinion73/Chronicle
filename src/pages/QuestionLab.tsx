@@ -8,6 +8,7 @@ import { daysOpen, formatOpenDuration } from '../lib/questionLab';
 import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { PRAYER_TABS } from '../lib/sectionTabs';
+import { candleGlowRowStyle } from '../lib/candleGlow';
 import type { ChronicleEntry } from '../types';
 
 // The Question Lab (VISION.md covenant #3 / ROADMAP M17) — open questions
@@ -143,7 +144,9 @@ export default function QuestionLab() {
               {resolvedQuestions.map((entry) => (
                 <div key={entry.id} style={{ position: 'relative' }}>
                   <TimelineDot color="var(--accent-copper)" />
-                  <Card padding="14px 16px">
+                  {/* A resolved question is a stone that also carries
+                      light — the same candle an answered prayer gets. */}
+                  <Card padding="14px 16px" style={candleGlowRowStyle()}>
                     <div style={{ fontSize: 11, color: 'var(--text-muted)', marginBottom: 6 }}>
                       Asked {formatDate(entry.date)} → Resolved {entry.sourceContext?.question?.resolvedAt ? formatDate(entry.sourceContext.question.resolvedAt) : ''}
                     </div>

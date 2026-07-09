@@ -7,6 +7,7 @@ import type { MemoryVerse } from '../types';
 import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { WORD_TABS } from '../lib/sectionTabs';
+import { candleGlowStyle } from '../lib/candleGlow';
 
 // The Scripture Memory Engine — verses scheduled with spaced repetition.
 // Review flow: first-letter prompt to self-test, reveal, then grade honestly.
@@ -103,8 +104,11 @@ export default function Memory() {
           </section>
         ) : null}
 
+        {/* Once revealed, this is the verse you're actually holding in
+            mind right now — the memory-room equivalent of meditation,
+            so it gets the same candle as Remembrance. */}
         {due.length > 0 && current ? (
-          <section style={card}>
+          <section style={revealed ? { ...card, ...candleGlowStyle({ borderRadius: card.borderRadius, padding: card.padding }) } : card}>
             <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: 10 }}>
               Review · {reviewIndex + 1} of {due.length} due
             </div>

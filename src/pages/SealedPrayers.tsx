@@ -8,6 +8,7 @@ import { exportSealedPrayers } from '../lib/sealedPrayersExport';
 import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { PRAYER_TABS } from '../lib/sectionTabs';
+import { candleGlowRowStyle } from '../lib/candleGlow';
 import type { ChronicleEntry } from '../types';
 
 // Sealed Prayers (VISION.md, Ring 2) — written now, meant to stay unread
@@ -100,8 +101,10 @@ export default function SealedPrayers() {
               const opened = sealed?.opened;
               const unlockable = opened || (sealed?.unsealAt ? sealed.unsealAt <= today : false);
               const condition = sealed?.unsealAt ? `Opens ${formatDate(sealed.unsealAt)}` : `Opens when: ${sealed?.eventLabel}`;
+              // A sealed prayer that's ready or already opened is a
+              // candle come due — the mockup's rule for what glows.
               return (
-                <Card key={entry.id} padding="16px 18px">
+                <Card key={entry.id} padding="16px 18px" style={unlockable ? candleGlowRowStyle() : undefined}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6 }}>
                     <span style={{ fontSize: 16 }}>{opened ? '📖' : '🔒'}</span>
                     <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)' }}>{entry.title}</span>

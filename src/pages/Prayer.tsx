@@ -15,6 +15,7 @@ import { PRAYER_PATHS, getPrayerPath } from '../data/prayerPaths';
 import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { PRAYER_TABS } from '../lib/sectionTabs';
+import { candleGlowRowStyle } from '../lib/candleGlow';
 
 const CATEGORIES = ['All', 'People', 'Needs', 'Praise', 'World', 'Answered'];
 
@@ -683,18 +684,20 @@ export default function Prayer() {
   );
 }
 
+// An answered prayer is the mockup's other canonical candle (alongside
+// feast days) — it earns the glow rather than fading to 60% opacity the
+// way a merely-checked-off task would.
 function PrayerCard({ item, onToggle, onPray, onAnswer, onDelete, answered }: { item: PrayerItem; onToggle: () => void; onPray: () => void; onAnswer: () => void; onDelete: () => void; answered?: boolean }) {
   return (
     <div style={{
       display: 'flex',
       alignItems: 'flex-start',
       gap: 12,
-      background: 'var(--card-bg)',
-      border: '1px solid var(--border)',
       borderRadius: 10,
       padding: '12px 14px',
-      opacity: answered ? 0.6 : 1,
-      boxShadow: 'var(--shadow)',
+      ...(answered
+        ? candleGlowRowStyle()
+        : { background: 'var(--card-bg)', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }),
     }}>
       <button
         onClick={onToggle}
