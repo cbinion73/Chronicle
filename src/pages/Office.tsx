@@ -14,7 +14,6 @@ import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { OFFICE_TABS } from '../lib/sectionTabs';
 import { candleGlowStyle } from '../lib/candleGlow';
-import CandleFlame from '../components/ui/CandleFlame';
 import PhotoCandle from '../components/ui/PhotoCandle';
 
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
@@ -110,7 +109,7 @@ function RemembranceCard({ memories }: {
   return (
     <section style={candleGlowStyle({ margin: '0 auto', maxWidth: 480, padding: '36px 32px', textAlign: 'center' })}>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
-        <CandleFlame size="md" />
+        <PhotoCandle width={136} phase="burning" />
       </div>
       <h2 style={{ fontVariant: 'small-caps', letterSpacing: '0.3em', fontSize: 12, fontWeight: 400, margin: '0 0 16px', color: 'var(--accent-primary)' }}>
         Remembrance

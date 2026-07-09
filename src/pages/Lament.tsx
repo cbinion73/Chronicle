@@ -9,7 +9,7 @@ import chapelStyles from '../styles/chapelRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { PRAYER_TABS } from '../lib/sectionTabs';
 import { candleGlowStyle } from '../lib/candleGlow';
-import CandleFlame from '../components/ui/CandleFlame';
+import PhotoCandle from '../components/ui/PhotoCandle';
 
 // The Lament Room (VISION.md covenant #3: "the Psalms are roughly forty
 // percent lament and no product has a lament mode"). A finite, four-
@@ -76,7 +76,7 @@ export default function Lament() {
             all the way to trust. */}
         <div style={candleGlowStyle({ maxWidth: 560, margin: isPhone ? '32px auto' : '56px auto', padding: isPhone ? '40px 24px' : '56px 40px', textAlign: 'center' })}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
-            <CandleFlame size="lg" withBody />
+            <PhotoCandle width={188} phase="burning" />
           </div>
           <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: 26, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
             It is kept.
