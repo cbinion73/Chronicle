@@ -4,6 +4,7 @@ export type NavTab =
   | 'today'
   | 'bible'
   | 'study'
+  | 'sermon-notes'
   | 'discipleship'
   | 'prayer'
   | 'thread'

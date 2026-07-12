@@ -7,6 +7,7 @@ import AppShell from './components/layout/AppShell';
 const Office = lazy(() => import('./pages/Office'));
 const Bible = lazy(() => import('./pages/Bible'));
 const Study = lazy(() => import('./pages/Study'));
+const SermonNotes = lazy(() => import('./pages/SermonNotes'));
 const Discipleship = lazy(() => import('./pages/Discipleship'));
 const Prayer = lazy(() => import('./pages/Prayer'));
 const AnsweredLight = lazy(() => import('./pages/AnsweredLight'));
@@ -75,6 +76,7 @@ export default function App() {
             <Route index element={<Office />} />
             <Route path="bible" element={<Bible />} />
             <Route path="study" element={<Study />} />
+            <Route path="sermon-notes" element={<SermonNotes />} />
             <Route path="discipleship" element={<Discipleship />} />
             <Route path="prayer" element={<Prayer />} />
             <Route path="prayer/answered-light" element={<AnsweredLight />} />

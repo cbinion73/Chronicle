@@ -13,6 +13,7 @@ export const OFFICE_TABS: SectionTab[] = [
 export const WORD_TABS: SectionTab[] = [
   { label: 'Read', path: '/bible' },
   { label: 'Daily Study', path: '/study' },
+  { label: 'Sermon Notes', path: '/sermon-notes' },
   { label: 'Discipleship', path: '/discipleship' },
   { label: 'Reading Plans', path: '/plans' },
   { label: 'Themes', path: '/themes' },
