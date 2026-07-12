@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SectionTabs from '../components/ui/SectionTabs';
 import { WORD_TABS } from '../lib/sectionTabs';
@@ -166,6 +166,7 @@ export default function SermonNotes() {
   const [deleteId, setDeleteId] = useState<string | null>(null);
   const [query, setQuery] = useState('');
   const [draftStorageAvailable, setDraftStorageAvailable] = useState(true);
+  const draftStorageAvailableRef = useRef(true);
   const [isSaving, setIsSaving] = useState(false);
 
   const sermonNotes = useMemo(
@@ -185,11 +186,15 @@ export default function SermonNotes() {
   const canSave = Boolean(draft.title.trim() && draft.notes.trim());
 
   useEffect(() => {
+    let storageAvailable = true;
     try {
       window.localStorage.setItem(DRAFT_KEY, JSON.stringify({ draft, editingId, resumeDraft }));
-      setDraftStorageAvailable(true);
     } catch {
-      setDraftStorageAvailable(false);
+      storageAvailable = false;
+    }
+    if (storageAvailable !== draftStorageAvailableRef.current) {
+      draftStorageAvailableRef.current = storageAvailable;
+      queueMicrotask(() => setDraftStorageAvailable(storageAvailable));
     }
   }, [draft, editingId, resumeDraft]);
 
