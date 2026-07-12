@@ -4,6 +4,7 @@
   min-height: 0;
   overflow-y: auto;
   isolation: isolate;
+  scroll-padding: 20px 0 calc(var(--chronicle-keyboard-inset, 0px) + 28px);
 }
 
 .srOnly {
@@ -318,6 +319,7 @@
   .contextGrid, .reflectionGrid { grid-template-columns: 1fr; }
   .wideField { grid-column: auto; }
   .ruledField textarea { min-height: 360px; font-size: 16px; }
+  .page { padding-bottom: calc(var(--chronicle-keyboard-inset, 0px) + env(safe-area-inset-bottom)); }
   .editorActions { align-items: flex-start; flex-direction: column; }
   .actionGroup, .saveButton { width: 100%; }
   .actionGroup > button { flex: 1; }

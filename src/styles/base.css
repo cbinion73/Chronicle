@@ -28,6 +28,11 @@ html[data-platform='ios'] #root {
   overscroll-behavior: none;
 }
 
+html[data-platform='ios'] {
+  --chronicle-viewport-offset-top: 0px;
+  --chronicle-keyboard-inset: 0px;
+}
+
 html[data-platform='ios'] button,
 html[data-platform='ios'] a,
 html[data-platform='ios'] input,
