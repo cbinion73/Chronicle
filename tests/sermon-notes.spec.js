@@ -2,13 +2,14 @@ import { test, expect, devices } from '@playwright/test';
 import { appUrl } from './testUrls';
 
 const TEST_TITLE = 'Playwright Sermon Notes';
+const LEGACY_TITLE = 'Playwright Legacy Sermon Notes';
 
 async function removeTestEntries(request) {
   const response = await request.get(appUrl('/api/data/chronicle-entries'));
   if (!response.ok()) return;
   const { entries } = await response.json();
   for (const entry of entries || []) {
-    if (entry.title === TEST_TITLE) {
+    if (entry.title === TEST_TITLE || entry.title === LEGACY_TITLE) {
       await request.delete(appUrl(`/api/data/chronicle-entries/${entry.id}`));
     }
   }
@@ -34,14 +35,21 @@ test('captures, persists, searches, edits, opens, and deletes sermon notes', asy
   await page.getByLabel('Preacher').fill('Rev. Test Shepherd');
   await page.getByLabel('Church or gathering').fill('Chronicle Community');
   await page.getByLabel('Passage').fill('Romans 8:1-11');
-  await page.getByLabel('Notes *').fill('Grace is not merely the beginning; grace is the atmosphere of life in Christ.\n## Prayer\nThis heading belongs inside the sermon notes.');
+  await page.getByLabel('Notes *').fill('Grace is not merely the beginning; grace is the atmosphere of life in Christ.\n## Applications\nThis heading belongs inside the sermon notes.');
   await page.getByLabel('Big idea').fill('There is no condemnation for those who are in Christ.');
-  await page.getByLabel('Personal response').fill('Return to this promise when accusation rises.');
-  await page.getByRole('textbox', { name: 'Prayer', exact: true }).fill('Lord, teach me to live as one who has been set free.');
+  await page.getByRole('textbox', { name: 'Key points', exact: true }).fill('Life in the Spirit; freedom from condemnation; adoption into God’s family.');
+  await page.getByRole('textbox', { name: 'Takeaways', exact: true }).fill('Grace changes both our standing and our daily walk.');
+  await page.getByRole('textbox', { name: 'Applications', exact: true }).fill('Return to this promise when accusation rises.');
+  await page.getByRole('textbox', { name: 'Final takeaway', exact: true }).fill('Walk in the freedom Christ has already secured.');
 
   await page.reload();
   await expect(page.getByLabel('Sermon title *')).toHaveValue(TEST_TITLE);
   await expect(page.getByLabel('Notes *')).toHaveValue(/Grace is not merely/);
+  await expect(page.getByRole('textbox', { name: 'Big idea', exact: true })).toHaveValue(/no condemnation/);
+  await expect(page.getByRole('textbox', { name: 'Key points', exact: true })).toHaveValue(/Life in the Spirit/);
+  await expect(page.getByRole('textbox', { name: 'Takeaways', exact: true })).toHaveValue(/Grace changes/);
+  await expect(page.getByRole('textbox', { name: 'Applications', exact: true })).toHaveValue(/accusation rises/);
+  await expect(page.getByRole('textbox', { name: 'Final takeaway', exact: true })).toHaveValue(/Walk in the freedom/);
   await page.getByRole('button', { name: 'Save sermon notes' }).click();
 
   const savedCard = page.getByRole('article').filter({ has: page.getByRole('heading', { name: TEST_TITLE }) });
@@ -50,7 +58,12 @@ test('captures, persists, searches, edits, opens, and deletes sermon notes', asy
     const response = await request.get(appUrl('/api/data/chronicle-entries'));
     const { entries } = await response.json();
     return entries.find((entry) => entry.title === TEST_TITLE);
-  }).toMatchObject({ type: 'study', passage: 'Romans 8:1-11', sourceContext: { page: 'sermon-notes' } });
+  }).toMatchObject({
+    type: 'study',
+    passage: 'Romans 8:1-11',
+    sourceContext: { page: 'sermon-notes' },
+    body: expect.stringContaining('## Key Points'),
+  });
 
   await page.getByPlaceholder('Search preacher, passage, or phrase…').fill('Test Shepherd');
   await expect(savedCard).toBeVisible();
@@ -66,6 +79,8 @@ test('captures, persists, searches, edits, opens, and deletes sermon notes', asy
   await draftDecision.getByRole('button', { name: 'Set aside and edit' }).click();
   await expect(page.getByText('Editing saved notes')).toBeVisible();
   await expect(page.getByLabel('Notes *')).toHaveValue(/This heading belongs inside the sermon notes/);
+  await expect(page.getByRole('textbox', { name: 'Applications', exact: true })).toHaveValue(/accusation rises/);
+  await expect(page.getByRole('textbox', { name: 'Final takeaway', exact: true })).toHaveValue(/Walk in the freedom/);
   await page.getByRole('button', { name: 'Cancel edit' }).click();
   await expect(page.getByLabel('Sermon title *')).toHaveValue('Unsaved Sunday draft');
   await expect(page.getByLabel('Notes *')).toHaveValue('Do not lose this unfinished thought.');
@@ -100,6 +115,42 @@ test('captures, persists, searches, edits, opens, and deletes sermon notes', asy
     const { entries } = await response.json();
     return entries.some((entry) => entry.title === TEST_TITLE);
   }).toBe(false);
+});
+
+test('maps the previous sermon template into the revised fields', async ({ page, request }) => {
+  const oldDraft = {
+    title: LEGACY_TITLE,
+    preacher: 'Legacy Preacher',
+    church: 'Legacy Church',
+    date: '2026-07-01',
+    passage: 'John 3:16',
+    bigIdea: 'God gives His Son.',
+    notes: 'Old sermon notes remain intact.',
+    response: 'Receive grace and extend it.',
+    prayer: 'Remember the gift of Christ above everything else.',
+  };
+  const body = `Preacher: Legacy Preacher\nChurch: Legacy Church\n\n## Big Idea\nGod gives His Son.\n\n## Notes\nOld sermon notes remain intact.\n\n## Personal Response\nReceive grace and extend it.\n\n## Prayer\nRemember the gift of Christ above everything else.\n\n<!-- chronicle-sermon-notes:${encodeURIComponent(JSON.stringify(oldDraft))} -->`;
+  const response = await request.post(appUrl('/api/data/chronicle-entries'), {
+    data: {
+      entry: {
+        id: `legacy-sermon-${Date.now()}`,
+        date: oldDraft.date,
+        type: 'study',
+        title: LEGACY_TITLE,
+        body,
+        passage: oldDraft.passage,
+        sourceContext: { page: 'sermon-notes', passage: oldDraft.passage },
+      },
+    },
+  });
+  expect(response.ok()).toBeTruthy();
+
+  await page.goto('/sermon-notes');
+  const legacyCard = page.getByRole('article').filter({ has: page.getByRole('heading', { name: LEGACY_TITLE }) });
+  await legacyCard.getByRole('button', { name: 'Edit' }).click();
+  await expect(page.getByRole('textbox', { name: 'Applications', exact: true })).toHaveValue('Receive grace and extend it.');
+  await expect(page.getByRole('textbox', { name: 'Final takeaway', exact: true })).toHaveValue('Remember the gift of Christ above everything else.');
+  await expect(page.getByLabel('Notes *')).toHaveValue('Old sermon notes remain intact.');
 });
 
 test.describe('iPhone Word rail', () => {

@@ -19,9 +19,11 @@ interface SermonDraft {
   date: string;
   passage: string;
   bigIdea: string;
+  keyPoints: string;
+  takeaways: string;
+  applications: string;
+  finalTakeaway: string;
   notes: string;
-  response: string;
-  prayer: string;
 }
 
 function today() {
@@ -37,9 +39,11 @@ function emptyDraft(): SermonDraft {
     date: today(),
     passage: '',
     bigIdea: '',
+    keyPoints: '',
+    takeaways: '',
+    applications: '',
+    finalTakeaway: '',
     notes: '',
-    response: '',
-    prayer: '',
   };
 }
 
@@ -51,24 +55,36 @@ function serializeDraft(draft: SermonDraft) {
     '## Big Idea',
     draft.bigIdea.trim(),
     '',
+    '## Key Points',
+    draft.keyPoints.trim(),
+    '',
+    '## Takeaways',
+    draft.takeaways.trim(),
+    '',
+    '## Applications',
+    draft.applications.trim(),
+    '',
+    '## Final Takeaway',
+    draft.finalTakeaway.trim(),
+    '',
     '## Notes',
     draft.notes.trim(),
-    '',
-    '## Personal Response',
-    draft.response.trim(),
-    '',
-    '## Prayer',
-    draft.prayer.trim(),
   ].join('\n').trim();
   return `${readable}\n\n${STRUCTURED_MARKER}${encodeURIComponent(JSON.stringify(draft))} -->`;
 }
 
 function section(body: string, heading: string, nextHeading?: string) {
-  const startMarker = `## ${heading}`;
-  const start = body.indexOf(startMarker);
-  if (start < 0) return '';
-  const contentStart = start + startMarker.length;
-  const end = nextHeading ? body.indexOf(`## ${nextHeading}`, contentStart) : body.length;
+  const headingLine = new RegExp(`^## ${heading}$`, 'gm');
+  const match = headingLine.exec(body);
+  if (!match) return '';
+  const contentStart = match.index + match[0].length;
+  let end = body.indexOf(STRUCTURED_MARKER, contentStart);
+  if (nextHeading) {
+    const nextLine = new RegExp(`^## ${nextHeading}$`, 'gm');
+    nextLine.lastIndex = contentStart;
+    const nextMatch = nextLine.exec(body);
+    if (nextMatch) end = end < 0 ? nextMatch.index : Math.min(end, nextMatch.index);
+  }
   return body.slice(contentStart, end < 0 ? body.length : end).trim();
 }
 
@@ -91,16 +107,18 @@ function draftFromEntry(entry: ChronicleEntry): SermonDraft {
     church: entry.body.match(/^Church:\s*(.+)$/m)?.[1]?.replace(/^Not recorded$/, '') || '',
     date: entry.date,
     passage: entry.passage || '',
-    bigIdea: section(entry.body, 'Big Idea', 'Notes'),
-    notes: section(entry.body, 'Notes', 'Personal Response'),
-    response: section(entry.body, 'Personal Response', 'Prayer'),
-    prayer: section(entry.body, 'Prayer'),
+    bigIdea: section(entry.body, 'Big Idea', section(entry.body, 'Key Points') ? 'Key Points' : 'Notes'),
+    keyPoints: section(entry.body, 'Key Points', 'Takeaways'),
+    takeaways: section(entry.body, 'Takeaways', 'Applications'),
+    applications: section(entry.body, 'Applications', 'Final Takeaway') || section(entry.body, 'Personal Response', 'Prayer'),
+    finalTakeaway: section(entry.body, 'Final Takeaway', 'Notes') || section(entry.body, 'Prayer'),
+    notes: section(entry.body, 'Notes', entry.body.includes('## Personal Response') ? 'Personal Response' : undefined),
   };
 }
 
 function normalizeDraft(value: unknown, fallbackDate = today()): SermonDraft {
-  const candidate = value && typeof value === 'object' ? value as Partial<Record<keyof SermonDraft, unknown>> : {};
-  const text = (field: keyof SermonDraft) => typeof candidate[field] === 'string' ? candidate[field] : '';
+  const candidate = value && typeof value === 'object' ? value as Record<string, unknown> : {};
+  const text = (field: string) => typeof candidate[field] === 'string' ? candidate[field] : '';
   return {
     title: text('title'),
     preacher: text('preacher'),
@@ -108,9 +126,11 @@ function normalizeDraft(value: unknown, fallbackDate = today()): SermonDraft {
     date: text('date') || fallbackDate,
     passage: text('passage'),
     bigIdea: text('bigIdea'),
+    keyPoints: text('keyPoints'),
+    takeaways: text('takeaways'),
+    applications: text('applications') || text('response'),
+    finalTakeaway: text('finalTakeaway') || text('prayer'),
     notes: text('notes'),
-    response: text('response'),
-    prayer: text('prayer'),
   };
 }
 
@@ -141,7 +161,8 @@ function readStoredEditor(): StoredEditorState {
 
 function hasMeaningfulDraft(draft: SermonDraft) {
   return Boolean(draft.title.trim() || draft.preacher.trim() || draft.church.trim() || draft.passage.trim()
-    || draft.bigIdea.trim() || draft.notes.trim() || draft.response.trim() || draft.prayer.trim());
+    || draft.bigIdea.trim() || draft.keyPoints.trim() || draft.takeaways.trim() || draft.applications.trim()
+    || draft.finalTakeaway.trim() || draft.notes.trim());
 }
 
 function formatDate(value: string) {
@@ -336,17 +357,25 @@ export default function SermonNotes() {
           <div className={s.reflectionGrid}>
             <label>
               <span>Big idea</span>
-              <textarea value={draft.bigIdea} onChange={(event) => setField('bigIdea', event.target.value)} placeholder="What was the sermon asking you to see?" />
+              <textarea value={draft.bigIdea} onChange={(event) => setField('bigIdea', event.target.value)} placeholder="State the sermon in one clear sentence." />
             </label>
             <label>
-              <span>Personal response</span>
-              <textarea value={draft.response} onChange={(event) => setField('response', event.target.value)} placeholder="What will you remember, practice, or revisit?" />
+              <span>Key points</span>
+              <textarea value={draft.keyPoints} onChange={(event) => setField('keyPoints', event.target.value)} placeholder="List the main movements or supporting points." />
+            </label>
+            <label>
+              <span>Takeaways</span>
+              <textarea value={draft.takeaways} onChange={(event) => setField('takeaways', event.target.value)} placeholder="What truths do you want to carry with you?" />
+            </label>
+            <label>
+              <span>Applications</span>
+              <textarea value={draft.applications} onChange={(event) => setField('applications', event.target.value)} placeholder="What should change in belief, practice, or attention?" />
             </label>
           </div>
 
-          <label className={s.prayerField}>
-            <span>Prayer</span>
-            <textarea value={draft.prayer} onChange={(event) => setField('prayer', event.target.value)} placeholder="Turn what you heard toward God…" />
+          <label className={s.finalTakeawayField}>
+            <span>Final takeaway</span>
+            <textarea value={draft.finalTakeaway} onChange={(event) => setField('finalTakeaway', event.target.value)} placeholder="If you remember one thing from this sermon, let it be…" />
           </label>
 
           <footer className={s.editorActions}>

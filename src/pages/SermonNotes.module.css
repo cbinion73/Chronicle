@@ -149,7 +149,7 @@
 .contextGrid label,
 .ruledField,
 .reflectionGrid label,
-.prayerField,
+.finalTakeawayField,
 .searchField {
   display: grid;
   gap: 7px;
@@ -158,7 +158,7 @@
 .contextGrid label > span,
 .ruledField > span,
 .reflectionGrid label > span,
-.prayerField > span {
+.finalTakeawayField > span {
   color: var(--text-sub);
   font-size: 10px;
   font-weight: 800;
@@ -202,19 +202,19 @@
 .reflectionGrid { margin-top: 22px; }
 .reflectionGrid textarea { min-height: 120px; }
 
-.prayerField {
+.finalTakeawayField {
   margin-top: 20px;
   padding: 16px;
   border-left: 3px solid var(--accent-primary);
   background: var(--accent-primary-light);
 }
 
-.prayerField textarea {
+.finalTakeawayField textarea {
   min-height: 92px;
   border: 0;
   background: transparent;
   font-family: var(--font-serif);
-  font-style: italic;
+  font-weight: 600;
 }
 
 .editorActions {
