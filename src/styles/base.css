@@ -21,6 +21,21 @@ html, body, #root {
   }
 }
 
+html[data-platform='ios'],
+html[data-platform='ios'] body,
+html[data-platform='ios'] #root {
+  height: var(--chronicle-viewport-height, 100dvh);
+  overscroll-behavior: none;
+}
+
+html[data-platform='ios'] button,
+html[data-platform='ios'] a,
+html[data-platform='ios'] input,
+html[data-platform='ios'] select,
+html[data-platform='ios'] textarea {
+  touch-action: manipulation;
+}
+
 body {
   font-family: var(--font-sans);
   background: var(--bg);

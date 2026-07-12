@@ -103,7 +103,7 @@ export default function AppShell() {
   ));
   const [isOnline, setIsOnline] = useState(typeof navigator === 'undefined' ? true : navigator.onLine);
   const [dismissedBridgeRequestId, setDismissedBridgeRequestId] = useState<string | null>(null);
-  const { deviceClass } = useResponsiveLayout();
+  const { deviceClass, isIOS, isIOSPhone } = useResponsiveLayout();
   const chronicleEntries = useAppStore((state) => state.chronicleEntries);
   const ownedBooks = useAppStore((state) => state.ownedBooks);
   const prayerItems = useAppStore((state) => state.prayerItems);
@@ -118,6 +118,29 @@ export default function AppShell() {
   // Tracking the dismissed request id (rather than a boolean reset in an effect)
   // means a new bridge request is automatically un-dismissed.
   const showJarvisBridge = jarvisBridge.active && jarvisBridge.requestId !== dismissedBridgeRequestId;
+
+  useEffect(() => {
+    if (isIOS) document.documentElement.dataset.platform = 'ios';
+    else delete document.documentElement.dataset.platform;
+
+    const visualViewport = window.visualViewport;
+    const syncVisualViewport = () => {
+      const height = visualViewport?.height || window.innerHeight;
+      document.documentElement.style.setProperty('--chronicle-viewport-height', `${height}px`);
+    };
+    if (isIOS) {
+      syncVisualViewport();
+      visualViewport?.addEventListener('resize', syncVisualViewport);
+      visualViewport?.addEventListener('scroll', syncVisualViewport);
+    }
+
+    return () => {
+      delete document.documentElement.dataset.platform;
+      document.documentElement.style.removeProperty('--chronicle-viewport-height');
+      visualViewport?.removeEventListener('resize', syncVisualViewport);
+      visualViewport?.removeEventListener('scroll', syncVisualViewport);
+    };
+  }, [isIOS]);
 
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
@@ -286,10 +309,13 @@ export default function AppShell() {
         s.app,
         deviceClass === 'phone' ? s.appPhone : '',
         deviceClass === 'tablet' ? s.appTablet : '',
+        isIOS ? s.appIOS : '',
+        isIOSPhone ? s.appIOSPhone : '',
       ].filter(Boolean).join(' ')}
       data-device-class={deviceClass}
+      data-platform={isIOS ? 'ios' : undefined}
     >
-      <Sidebar deviceClass={deviceClass} />
+      <Sidebar deviceClass={deviceClass} isIOS={isIOS} />
       <div className={s.main}>
         <Topbar
           onSearch={() => setSearchOpen(true)}
@@ -297,6 +323,7 @@ export default function AppShell() {
           onToggleCompanion={toggleChat}
           companionOpen={chatOpen}
           deviceClass={deviceClass}
+          isIOSPhone={isIOSPhone}
         />
         {showJarvisBridge && (
           <div className={s.jarvisBridge}>

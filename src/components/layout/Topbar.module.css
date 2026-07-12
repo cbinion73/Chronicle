@@ -171,3 +171,44 @@
     display: none;
   }
 }
+
+.topbarIOSPhone {
+    min-height: 56px;
+    flex-wrap: nowrap;
+    gap: 4px;
+    padding: 6px max(8px, env(safe-area-inset-right)) 6px max(8px, env(safe-area-inset-left));
+}
+
+.topbarIOSPhone .searchBar {
+    order: initial;
+    width: auto;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0 10px;
+    gap: 6px;
+}
+
+.topbarIOSPhone .searchText {
+    font-size: 12px;
+}
+
+.topbarIOSPhone .buttons {
+    flex: 0 0 auto;
+    gap: 0;
+}
+
+.topbarIOSPhone .companionBtn,
+.topbarIOSPhone .iconBtn {
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 12px;
+}
+
+.topbarIOSPhone .companionLabel,
+.topbarIOSPhone .avatar {
+  display: none;
+}

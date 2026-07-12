@@ -12,7 +12,21 @@ function getViewportWidth() {
   return window.innerWidth;
 }
 
-function getDeviceClass(viewportWidth: number): ChronicleDeviceClass {
+function getIsIOS() {
+  if (typeof navigator === 'undefined') return false;
+
+  const appleMobileDevice = /iPad|iPhone|iPod/.test(navigator.userAgent);
+  const modernIPad = navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
+  return appleMobileDevice || modernIPad;
+}
+
+function getIsIOSHandset() {
+  if (typeof navigator === 'undefined') return false;
+  return /iPhone|iPod/.test(navigator.userAgent);
+}
+
+function getDeviceClass(viewportWidth: number, isIOSHandset = false): ChronicleDeviceClass {
+  if (isIOSHandset) return 'phone';
   if (viewportWidth <= 760) return 'phone';
   if (viewportWidth <= 1180) return 'tablet';
   return 'desktop';
@@ -21,11 +35,15 @@ function getDeviceClass(viewportWidth: number): ChronicleDeviceClass {
 export function useResponsiveLayout() {
   const [viewportWidth, setViewportWidth] = useState(getViewportWidth);
   const [hasCoarsePointer, setHasCoarsePointer] = useState(getHasCoarsePointer);
+  const [isIOS, setIsIOS] = useState(getIsIOS);
+  const [isIOSHandset, setIsIOSHandset] = useState(getIsIOSHandset);
 
   useEffect(() => {
     const handleResize = () => {
       setViewportWidth(getViewportWidth());
       setHasCoarsePointer(getHasCoarsePointer());
+      setIsIOS(getIsIOS());
+      setIsIOSHandset(getIsIOSHandset());
     };
 
     window.addEventListener('resize', handleResize);
@@ -42,7 +60,8 @@ export function useResponsiveLayout() {
     };
   }, []);
 
-  const deviceClass = getDeviceClass(viewportWidth);
+  const deviceClass = getDeviceClass(viewportWidth, isIOSHandset);
+  const isIOSPhone = isIOS && isIOSHandset;
 
   return {
     viewportWidth,
@@ -50,7 +69,9 @@ export function useResponsiveLayout() {
     isDesktop: deviceClass === 'desktop',
     isTablet: viewportWidth <= 1180,
     isCompact: viewportWidth <= 1024,
-    isPhone: viewportWidth <= 760,
+    isPhone: deviceClass === 'phone',
+    isIOS,
+    isIOSPhone,
     hasCoarsePointer,
     aiPanelMode: deviceClass === 'desktop' ? 'rail' : deviceClass === 'tablet' ? 'drawer' : 'sheet',
     sidebarMode: deviceClass === 'phone' ? 'stacked' : deviceClass === 'tablet' ? 'compact-rail' : 'rail',

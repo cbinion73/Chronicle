@@ -8,6 +8,7 @@ import Insights from './Insights';
 import GrowthMarkers from './GrowthMarkers';
 import AnsweredLight from './AnsweredLight';
 import stoneStyles from '../styles/stoneCourtRegister.module.css';
+import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 
 // The Thread — one room, five altitudes of the same lifelong spine
 // (ROADMAP M21, "The Thread Made Literal"). Record, Answered Light,
@@ -41,6 +42,7 @@ export default function Thread() {
   const navigate = useNavigate();
   const params = useParams<{ view?: string }>();
   const { chronicleEntries, prayerItems } = useAppStore();
+  const { isIOSPhone } = useResponsiveLayout();
 
   const view: ViewId = (VIEW_IDS as readonly string[]).includes(params.view || '') ? (params.view as ViewId) : 'record';
 
@@ -56,7 +58,7 @@ export default function Thread() {
   return (
     <div className={view !== 'story' ? stoneStyles.stoneCourtRegister : undefined} style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden', minHeight: 0 }}>
       {/* Room header: the unified spine, then the three views of it */}
-      <div style={{ padding: '10px 16px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap' }}>
+      {!isIOSPhone && <div style={{ padding: '10px 16px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap' }}>
         <div style={{ display: 'inline-flex', border: '1px solid var(--border)', borderRadius: 10, overflow: 'hidden' }}>
           {VIEWS.map((tab) => (
             <button
@@ -78,7 +80,7 @@ export default function Thread() {
           {summary.answeredPrayers > 0 ? ` · ${summary.answeredPrayers} answered prayer${summary.answeredPrayers === 1 ? '' : 's'}` : ''}
           {since ? ` · since ${since}` : ''}
         </div>
-      </div>
+      </div>}
 
       {view === 'record' && <Chronicle />}
       {view === 'light' && <AnsweredLight />}

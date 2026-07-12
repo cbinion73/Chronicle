@@ -8,6 +8,11 @@
   padding-right: env(safe-area-inset-right);
 }
 
+.appIOS {
+  height: var(--chronicle-viewport-height, 100dvh);
+  overscroll-behavior: none;
+}
+
 .main {
   flex: 1;
   display: flex;
@@ -334,4 +339,20 @@
   .startHereStep {
     padding: 11px;
   }
+}
+
+.appIOSPhone {
+    padding-bottom: 0;
+}
+
+.appIOSPhone .main {
+    min-height: 0;
+}
+
+.appIOSPhone .contentPhone {
+    padding-bottom: 0;
+}
+
+.appIOSPhone .footer {
+    display: none;
 }

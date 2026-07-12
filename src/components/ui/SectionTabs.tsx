@@ -1,4 +1,5 @@
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useResponsiveLayout } from '../../lib/useResponsiveLayout';
 
 // The one navigation surface for reaching a room's sub-pages, now that
 // the Sidebar only lists the five main rooms (The Daily Office / The
@@ -19,6 +20,7 @@ interface SectionTabsProps {
 export default function SectionTabs({ tabs }: SectionTabsProps) {
   const navigate = useNavigate();
   const location = useLocation();
+  const { isIOSPhone } = useResponsiveLayout();
 
   function isTabActive(tab: SectionTab, index: number) {
     if (tab.path === '/') return location.pathname === '/';
@@ -28,6 +30,8 @@ export default function SectionTabs({ tabs }: SectionTabsProps) {
     if (index === 0) return location.pathname === tab.path;
     return location.pathname.startsWith(tab.path);
   }
+
+  if (isIOSPhone) return null;
 
   return (
     <nav aria-label="Section" style={{ padding: '10px 16px', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)', flexShrink: 0, display: 'flex', alignItems: 'center', gap: 14, flexWrap: 'wrap' }}>

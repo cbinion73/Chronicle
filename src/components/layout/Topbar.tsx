@@ -9,6 +9,7 @@ interface Props {
   onToggleCompanion?: () => void;
   companionOpen?: boolean;
   deviceClass?: ChronicleDeviceClass;
+  isIOSPhone?: boolean;
 }
 
 export default function Topbar({
@@ -17,6 +18,7 @@ export default function Topbar({
   onToggleCompanion,
   companionOpen = false,
   deviceClass = 'desktop',
+  isIOSPhone = false,
 }: Props) {
   const { theme, toggleTheme } = useAppStore();
   const companionLabel = deviceClass === 'phone' ? 'AI' : deviceClass === 'tablet' ? 'Companion' : 'Chronicle AI';
@@ -36,13 +38,13 @@ export default function Topbar({
   }, [onSearch]);
 
   return (
-    <header className={s.topbar}>
+    <header className={`${s.topbar} ${isIOSPhone ? s.topbarIOSPhone : ''}`}>
       <button className={s.searchBar} onClick={onSearch} type="button">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <circle cx="11" cy="11" r="8"/>
           <line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
-        <span className={s.searchText}>{searchLabel}</span>
+        <span className={s.searchText}>{isIOSPhone ? 'Search' : searchLabel}</span>
         <span className={s.searchShortcut}>⌘K</span>
       </button>
       <div className={s.buttons}>
