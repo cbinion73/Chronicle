@@ -6,6 +6,9 @@ dist/
 *.zip
 *.dmg
 *.app
+apple/Chronicle.xcodeproj/
+apple/ChronicleApp/WebApp/
+apple/DerivedData*/
 data/vendor/
 data/ocr/
 .DS_Store

@@ -1,0 +1,50 @@
+name: Chronicle
+options:
+  bundleIdPrefix: com.binion
+  deploymentTarget:
+    iOS: "27.0"
+  xcodeVersion: "27.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: LGNJ56Y22G
+    CODE_SIGN_STYLE: Automatic
+targets:
+  Chronicle:
+    type: application
+    platform: iOS
+    deploymentTarget: "27.0"
+    sources:
+      - path: ChronicleApp
+        excludes:
+          - WebApp
+      - path: ChronicleApp/WebApp
+        type: folder
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.binion.chronicle
+        PRODUCT_NAME: Chronicle
+        TARGETED_DEVICE_FAMILY: "2"
+        SUPPORTS_MACCATALYST: NO
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: ChronicleApp/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        ENABLE_USER_SCRIPT_SANDBOXING: YES
+    scheme:
+      testTargets:
+        - ChronicleTests
+      gatherCoverageData: false
+  ChronicleTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "27.0"
+    sources:
+      - path: ChronicleAppTests
+    dependencies:
+      - target: Chronicle
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.binion.chronicle.tests
+        TARGETED_DEVICE_FAMILY: "2"
+        GENERATE_INFOPLIST_FILE: YES
