@@ -9,6 +9,7 @@ import type {
   ScriptureBookmark,
 } from '../types';
 import { normalizeOwnedBook } from './chronicleDataModel';
+import { mergeDailyScriptureStates, type DailyScriptureState } from './dailyScripture';
 
 export const CHRONICLE_SYNC_MODEL_VERSION = 1;
 
@@ -18,6 +19,7 @@ export type PortableSyncState = {
   bibleView?: object;
   activeStudyModuleId?: string;
   studyModuleDayById?: Record<string, number>;
+  dailyScripture?: DailyScriptureState;
   activeOwnedBookId?: string;
   chronicleEntries?: ChronicleEntry[];
   prayerItems?: PrayerItem[];
@@ -183,11 +185,15 @@ export function createDefaultSyncProfile(): ChronicleSyncProfile {
 }
 
 export function mergePortableSyncState(local: PortableSyncState, incoming: PortableSyncState): PortableSyncState {
+  const mergedScripture = local.dailyScripture || incoming.dailyScripture
+    ? mergeDailyScriptureStates(local.dailyScripture, incoming.dailyScripture)
+    : undefined;
   return {
     ...local,
     ...incoming,
     theme: local.theme || incoming.theme,
-    translation: local.translation || incoming.translation,
+    translation: 'NKJV',
+    dailyScripture: mergedScripture,
     bibleView: { ...(incoming.bibleView || {}), ...(local.bibleView || {}) },
     activeStudyModuleId: local.activeStudyModuleId || incoming.activeStudyModuleId,
     studyModuleDayById: {

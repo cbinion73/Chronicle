@@ -2,8 +2,10 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
 import { useToastStore } from '../store/toastStore';
-import { getStudyDay } from '../lib/studyModules';
-import { getBibleNavigationTarget, loadPassagePreview } from '../lib/scriptureReference';
+import { getBibleNavigationTarget, loadDailyReadingPreview } from '../lib/scriptureReference';
+import { localDateKey, resolveDailyScripture } from '../lib/dailyScripture';
+import { useLocalDateKey } from '../lib/useLocalDateKey';
+import { chapterKey, completedChapterKeys, completionEntriesForChapter, createReadingCompletionEntry } from '../lib/readingHistory';
 import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import { dueVerses } from '../lib/memoryEngine';
 import { currentRegister } from '../lib/hours';
@@ -156,10 +158,13 @@ function StationLabel({ n, total, children }: { n: number; total: number; childr
 export default function Office() {
   const navigate = useNavigate();
   const { isPhone } = useResponsiveLayout();
-  const { studyModuleDayById, prayerItems, chronicleEntries, memoryVerses, recordPrayerTouch, addChronicleEntry, setBibleView } = useAppStore();
+  const { dailyScripture, prayerItems, chronicleEntries, memoryVerses, recordPrayerTouch, addChronicleEntry, deleteChronicleEntry, setBibleView } = useAppStore();
   const { addToast } = useToastStore();
+  const localToday = useLocalDateKey();
 
-  const [preview, setPreview] = useState<Awaited<ReturnType<typeof loadPassagePreview>> | null>(null);
+  const [preview, setPreview] = useState<Awaited<ReturnType<typeof loadDailyReadingPreview>> | null>(null);
+  const [previewLoading, setPreviewLoading] = useState(true);
+  const [pendingReadingKeys, setPendingReadingKeys] = useState<Set<string>>(() => new Set());
   const [silenceLeft, setSilenceLeft] = useState<number | null>(null);
   const [silenceDone, setSilenceDone] = useState(false);
   const [response, setResponse] = useState('');
@@ -180,15 +185,38 @@ export default function Office() {
   const remembrances = useMemo(() => deriveOnThisDay(chronicleEntries, prayerItems), [chronicleEntries, prayerItems]);
 
   const call = CALLS[new Date().getDay()];
-  const activeStudyDay = getStudyDay('bible-study', studyModuleDayById['bible-study'] || 1);
+  const dailyReading = resolveDailyScripture(dailyScripture, localToday);
+  const readingYear = Number(localToday.slice(0, 4));
+  const completedThisYear = useMemo(() => completedChapterKeys(chronicleEntries, readingYear), [chronicleEntries, readingYear]);
+  const todayChapterReadings = dailyReading.plan.days[dailyReading.day - 1].readings;
+
+  const toggleChapterRead = (book: string, chapter: number) => {
+    const actionDate = localDateKey();
+    const actionYear = Number(actionDate.slice(0, 4));
+    const key = chapterKey(book, chapter);
+    if (pendingReadingKeys.has(key)) return;
+    const existing = completionEntriesForChapter(chronicleEntries, actionYear, book, chapter);
+    setPendingReadingKeys((current) => new Set(current).add(key));
+    const operation = existing.length > 0
+      ? Promise.all(existing.map((entry) => deleteChronicleEntry(entry.id))).then(() => undefined)
+      : addChronicleEntry(createReadingCompletionEntry(book, chapter, actionDate, { id: dailyReading.plan.id, day: dailyReading.day }));
+    void operation
+      .then(() => addToast(`${book} ${chapter} ${existing.length ? 'removed from' : 'added to'} your ${actionYear} reading record.`, 'success'))
+      .catch(() => addToast('Chronicle could not update the reading record.', 'warning'))
+      .finally(() => setPendingReadingKeys((current) => { const next = new Set(current); next.delete(key); return next; }));
+  };
 
   useEffect(() => {
     let cancelled = false;
-    loadPassagePreview(activeStudyDay.scripture).then((result) => {
+    setPreview(null);
+    setPreviewLoading(true);
+    loadDailyReadingPreview(dailyReading.references, 'offline_nkjv').then((result) => {
       if (!cancelled) setPreview(result);
-    }).catch(() => {});
+    }).catch(() => {
+      if (!cancelled) setPreview({ references: dailyReading.references, passages: [], missing: dailyReading.references, provider: 'offline_nkjv' });
+    }).finally(() => { if (!cancelled) setPreviewLoading(false); });
     return () => { cancelled = true; };
-  }, [activeStudyDay.scripture]);
+  }, [dailyScripture.selectedPlanId, dailyReading.day, dailyReading.references.join('|')]);
 
   useEffect(() => () => { if (silenceTimer.current) clearInterval(silenceTimer.current); }, []);
 
@@ -241,9 +269,9 @@ export default function Office() {
         type: 'reflection',
         title: `Daily Office — ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}`,
         body: response.trim(),
-        passage: preview?.reference || activeStudyDay.scripture,
+        passage: dailyReading.references.join('; '),
         autoCapture: true,
-        sourceContext: { page: 'today', passage: activeStudyDay.scripture },
+        sourceContext: { page: 'today', passage: dailyReading.references.join('; '), translation: 'NKJV' },
       });
     }
     try { localStorage.setItem(OFFICE_STORAGE_KEY, todayKey()); } catch { /* localStorage unavailable */ }
@@ -269,9 +297,9 @@ export default function Office() {
   };
 
   const openInBible = () => {
-    const target = getBibleNavigationTarget(activeStudyDay.scripture);
+    const target = getBibleNavigationTarget(dailyReading.references[0]);
     if (target) {
-      setBibleView({ book: target.book, chapter: target.chapter, overlayOn: false, showThemePanel: false });
+      setBibleView({ book: target.book, chapter: target.chapter, provider: 'offline_nkjv', overlayOn: false, showThemePanel: false });
     }
     navigate('/bible');
   };
@@ -497,24 +525,40 @@ export default function Office() {
         <section style={card}>
           <StationLabel n={1} total={4}>The Word</StationLabel>
           <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)', marginBottom: 10 }}>
-            {preview?.reference || activeStudyDay.scripture}
-            <span style={{ fontWeight: 400, color: 'var(--text-muted)' }}> · Day {activeStudyDay.day}</span>
+            {dailyReading.references.join(' · ')}
+            <span style={{ fontWeight: 400, color: 'var(--text-muted)' }}> · {dailyReading.plan.name} · Day {dailyReading.day} · NKJV</span>
           </div>
-          {preview && preview.verses.length > 0 ? (
+          <div aria-label="Today's chapter checklist" style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 12 }}>
+            {todayChapterReadings.map((reading) => {
+              const checked = completedThisYear.has(chapterKey(reading.book, reading.chapter));
+              return (
+                <label key={reading.reference} style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '6px 9px', border: `1px solid ${checked ? 'var(--accent-blue)' : 'var(--border)'}`, borderRadius: 8, background: checked ? 'var(--accent-blue-light)' : 'var(--card-inner)', color: 'var(--text)', fontSize: 12, cursor: 'pointer' }}>
+                  <input type="checkbox" checked={checked} disabled={pendingReadingKeys.has(chapterKey(reading.book, reading.chapter))} onChange={() => toggleChapterRead(reading.book, reading.chapter)} aria-label={`Mark ${reading.reference} read`} />
+                  {reading.reference}
+                </label>
+              );
+            })}
+          </div>
+          {preview && preview.passages.length > 0 ? (
             <div style={{ fontFamily: 'var(--font-serif)', fontSize: isPhone ? 16 : 17, color: 'var(--text)', lineHeight: 1.85 }}>
-              {preview.verses.map((verse) => (
-                <span key={verse.number}>
-                  <sup style={{ fontSize: 10, color: 'var(--text-muted)', marginRight: 3 }}>{verse.number}</sup>
-                  {verse.text}{' '}
-                </span>
+              {preview.passages.slice(0, 2).map((passage) => (
+                <p key={passage.reference} style={{ margin: '0 0 10px' }}>
+                  <span style={{ color: 'var(--text-muted)', fontSize: 12 }}>{passage.reference} — </span>
+                  {passage.verses.slice(0, 2).map((verse) => (
+                    <span key={verse.number}><sup style={{ fontSize: 10, color: 'var(--text-muted)', marginRight: 3 }}>{verse.number}</sup>{verse.text}{' '}</span>
+                  ))}
+                </p>
               ))}
             </div>
+          ) : previewLoading ? (
+            <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>Loading local NKJV…</div>
           ) : (
-            <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>Loading the passage…</div>
+            <div role="status" style={{ fontSize: 13, color: 'var(--text-muted)' }}>Today&apos;s NKJV reading is unavailable in the local Scripture library.</div>
           )}
+          {preview && preview.missing.length > 0 ? <div role="status" style={{ marginTop: 10, fontSize: 12, color: 'var(--text-muted)' }}>Missing local NKJV chapter{preview.missing.length === 1 ? '' : 's'}: {preview.missing.join(', ')}</div> : null}
           <div style={{ marginTop: 14, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
             <button onClick={openInBible} style={{ padding: '7px 12px', borderRadius: 8, border: '1px solid var(--border)', background: 'var(--card-inner)', color: 'var(--text)', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
-              Read the full passage →
+              Read today&apos;s reading →
             </button>
           </div>
           {dueVerseCount > 0 ? (

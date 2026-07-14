@@ -1,4 +1,5 @@
 import type { ChronicleEntry } from '../types'
+import type { DailyScriptureState } from './dailyScripture'
 
 type NativeHandler = { postMessage: (message: unknown) => Promise<unknown> }
 
@@ -38,6 +39,8 @@ export const chronicleNativeBridge = {
   createEntry: (entry: ChronicleEntry) => request<{ entry: ChronicleEntry }>('entries.create', { entry }),
   updateEntry: (id: string, patch: Partial<ChronicleEntry>) => request<{ entry: ChronicleEntry }>('entries.update', { id, patch }),
   deleteEntry: (id: string) => request<{ ok: boolean }>('entries.delete', { id }),
+  getDailyScripturePreference: () => request<{ preference: DailyScriptureState | null }>('preferences.daily-scripture.get'),
+  setDailyScripturePreference: (preference: DailyScriptureState) => request<{ preference: DailyScriptureState }>('preferences.daily-scripture.set', { preference }),
   migrateEntries: async (entries: ChronicleEntry[], experienceMode: 'sample' | 'fresh') => {
     let imported = 0
     for (const batch of migrationBatches(entries)) {

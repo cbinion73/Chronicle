@@ -16,6 +16,7 @@ export type NavTab =
   | 'chronicle'
   | 'themes'
   | 'plans'
+  | 'reading-log'
   | 'legacy'
   | 'insights'
   | 'settings';
@@ -23,6 +24,7 @@ export type NavTab =
 export interface ChronicleEntrySourceContext {
   page: NavTab;
   passage?: string;
+  translation?: string;
   studyModuleId?: string;
   currentDay?: number;
   ownedBookId?: string;
@@ -52,6 +54,14 @@ export interface ChronicleEntrySourceContext {
   // src/data/growthMarkers.ts for the id list this is drawn from.
   growthMarker?: {
     kind: string;
+  };
+  readingCompletion?: {
+    book: string;
+    chapter: number;
+    year: number;
+    planId?: string;
+    planDay?: number;
+    completedAt: string;
   };
   // A Rule of Life commitment's curated category — see
   // src/data/ruleCategories.ts for the id list this is drawn from.

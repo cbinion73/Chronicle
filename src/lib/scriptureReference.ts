@@ -86,3 +86,40 @@ export async function loadPassagePreview(
     provider,
   };
 }
+
+export interface DailyReadingPreview {
+  references: string[];
+  passages: Array<NonNullable<Awaited<ReturnType<typeof loadPassagePreview>>>>;
+  missing: string[];
+  provider: BibleProviderId;
+}
+
+async function withTimeout<T>(promise: Promise<T>, timeoutMs: number): Promise<T> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  try {
+    return await Promise.race([
+      promise,
+      new Promise<T>((_, reject) => {
+        timer = setTimeout(() => reject(new Error('Local Scripture request timed out')), timeoutMs);
+      }),
+    ]);
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
+}
+
+export async function loadDailyReadingPreview(
+  references: string[],
+  provider: BibleProviderId = 'offline_nkjv',
+): Promise<DailyReadingPreview> {
+  const settled = await Promise.all(references.map(async (reference) => {
+    try { return { reference, preview: await withTimeout(loadPassagePreview(reference, provider), 10_000) }; }
+    catch { return { reference, preview: null }; }
+  }));
+  return {
+    references,
+    passages: settled.flatMap((item) => item.preview ? [item.preview] : []),
+    missing: settled.filter((item) => !item.preview?.verses.length).map((item) => item.reference),
+    provider,
+  };
+}

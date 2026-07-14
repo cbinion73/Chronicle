@@ -21,6 +21,7 @@ const Thread = lazy(() => import('./pages/Thread'));
 const TeachingOutline = lazy(() => import('./pages/TeachingOutline'));
 const Themes = lazy(() => import('./pages/Themes'));
 const Plans = lazy(() => import('./pages/Plans'));
+const ReadingLog = lazy(() => import('./pages/ReadingLog'));
 const Memory = lazy(() => import('./pages/Memory'));
 const Explore = lazy(() => import('./pages/Explore'));
 const Settings = lazy(() => import('./pages/Settings'));
@@ -91,6 +92,7 @@ export default function App() {
             <Route path="thread/:view" element={<Thread />} />
             <Route path="themes" element={<Themes />} />
             <Route path="plans" element={<Plans />} />
+            <Route path="reading-log" element={<ReadingLog />} />
             <Route path="memory" element={<Memory />} />
             <Route path="explore" element={<Explore />} />
             <Route path="explore/:view" element={<Explore />} />

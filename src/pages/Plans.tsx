@@ -8,16 +8,23 @@ import { useResponsiveLayout } from '../lib/useResponsiveLayout';
 import manuscriptStyles from '../styles/manuscriptRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { WORD_TABS } from '../lib/sectionTabs';
+import { DAILY_SCRIPTURE_PLANS, type DailyScripturePlanId } from '../data/dailyScripturePlans';
+import { resolveDailyScripture } from '../lib/dailyScripture';
+import { useLocalDateKey } from '../lib/useLocalDateKey';
 
-const PLAN_LIBRARY = [
-  { name: 'Daily Walk', totalDays: 365, duration: '365 days', desc: 'One chapter a day through the entire Bible' },
-  { name: 'Psalms & Proverbs', totalDays: 30, duration: '30 days', desc: 'Deep dive into wisdom literature' },
-  { name: 'Jesus in All of Scripture', totalDays: 90, duration: '90 days', desc: 'Christ-centered reading through the canon' },
-  { name: 'Sermon on the Mount', totalDays: 14, duration: '14 days', desc: 'Matthew 5–7 verse by verse' },
-];
+const PLAN_LIBRARY = Object.values(DAILY_SCRIPTURE_PLANS).map((plan) => ({
+  ...plan, duration: '365 days', desc: plan.id.startsWith('chronological')
+    ? 'Read the whole Bible in broad historical sequence'
+    : 'Read the whole Bible from Genesis through Revelation',
+}));
 
 export default function Plans() {
-  const { currentPlanName, currentPlanDay, currentPlanTotal, streakDays, chronicleEntries, prayerItems, formationRhythms, completeFormationRhythm, setActivePlan } = useAppStore();
+  const { dailyScripture, streakDays, chronicleEntries, prayerItems, formationRhythms, completeFormationRhythm, setDailyScripturePlan } = useAppStore();
+  const localToday = useLocalDateKey();
+  const resolved = resolveDailyScripture(dailyScripture, localToday);
+  const currentPlanName = resolved.plan.name;
+  const currentPlanDay = resolved.day;
+  const currentPlanTotal = 365;
   const { addToast } = useToastStore();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
@@ -129,7 +136,7 @@ export default function Plans() {
             </div>
           </div>
           <div style={{ padding: '14px 20px', background: 'var(--card-inner)', borderTop: '1px solid var(--border)' }}>
-            <div style={{ fontWeight: 600, fontSize: 13, color: 'var(--text)', marginBottom: 3 }}>Today&apos;s reading anchor: {stats.todayPassage}</div>
+            <div style={{ fontWeight: 600, fontSize: 13, color: 'var(--text)', marginBottom: 3 }}>Today&apos;s NKJV reading: {resolved.references.join(' · ')}</div>
             <div style={{ fontSize: 12, color: 'var(--text-sub)' }}>Chronicle is using your entry history this month as a proxy for whether the reading rhythm is really being kept.</div>
           </div>
         </div>
@@ -150,14 +157,14 @@ export default function Plans() {
           <div style={{ fontSize: 12, fontWeight: 700, color: 'var(--text-sub)', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 10 }}>Plan Library</div>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
             {PLAN_LIBRARY.map((plan) => {
-              const active = plan.name === currentPlanName;
+              const active = plan.id === dailyScripture.selectedPlanId;
               return (
                 <button
-                  key={plan.name}
+                  key={plan.id}
                   type="button"
                   disabled={active}
                   onClick={() => {
-                    setActivePlan(plan.name, plan.totalDays);
+                    setDailyScripturePlan(plan.id as DailyScripturePlanId);
                     addToast(`Switched to ${plan.name}`, 'success', '📖');
                   }}
                   style={{
@@ -176,7 +183,7 @@ export default function Plans() {
                     {active && <span style={{ fontSize: 9, fontWeight: 700, padding: '1px 6px', background: 'var(--accent-blue-light)', color: 'var(--accent-blue)', borderRadius: 4 }}>ACTIVE</span>}
                   </div>
                   <div style={{ fontSize: 11, color: 'var(--text-sub)', marginBottom: 4 }}>{plan.desc}</div>
-                  <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--text-muted)' }}>{plan.duration}</div>
+                  <div style={{ fontSize: 11, fontWeight: 600, color: 'var(--text-muted)' }}>{plan.duration} · NKJV</div>
                 </button>
               );
             })}

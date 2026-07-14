@@ -10,15 +10,28 @@ final class ChronicleDataBridge: NSObject, WKScriptMessageHandlerWithReply, @unc
     private let origin: URL
     private let encoder = JSONEncoder()
     private let decoder = JSONDecoder()
+    private let keyValueStore = NSUbiquitousKeyValueStore.default
+    private let dailyScriptureKey = "chronicle.daily-scripture.v1"
+    nonisolated(unsafe) private var keyValueObserver: NSObjectProtocol?
 
     init(repository: ChronicleRepository, coordinator: ChronicleSyncCoordinator?, origin: URL) {
         self.repository = repository; self.coordinator = coordinator; self.origin = origin
         super.init()
+        keyValueStore.synchronize()
+        keyValueObserver = NotificationCenter.default.addObserver(forName: NSUbiquitousKeyValueStore.didChangeExternallyNotification, object: keyValueStore, queue: .main) { [weak self] _ in
+            Task { @MainActor [weak self] in
+                _ = try? await self?.webView?.evaluateJavaScript("window.dispatchEvent(new CustomEvent('chronicle:native-preferences-changed'))")
+            }
+        }
         _ = NotificationCenter.default.addObserver(forName: ChronicleSyncCoordinator.entriesChanged, object: nil, queue: .main) { [weak self] _ in
             Task { @MainActor in
                 _ = try? await self?.webView?.evaluateJavaScript("window.dispatchEvent(new CustomEvent('chronicle:native-entries-changed'))")
             }
         }
+    }
+
+    deinit {
+        if let keyValueObserver { NotificationCenter.default.removeObserver(keyValueObserver) }
     }
     @MainActor
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage, replyHandler: @escaping @MainActor @Sendable (Any?, String?) -> Void) {
@@ -55,6 +68,20 @@ final class ChronicleDataBridge: NSObject, WKScriptMessageHandlerWithReply, @unc
             let count = try LegacyEntryMigration(repository: repository).importEntries(entries, experienceMode: mode)
             if count > 0 { coordinator?.localChangesCommitted() }
             return ["imported": count]
+        case "preferences.daily-scripture.get":
+            guard let data = keyValueStore.data(forKey: dailyScriptureKey) else { return ["preference": NSNull()] }
+            guard let value = try? JSONSerialization.jsonObject(with: data) else {
+                keyValueStore.removeObject(forKey: dailyScriptureKey)
+                keyValueStore.synchronize()
+                return ["preference": NSNull()]
+            }
+            return ["preference": value]
+        case "preferences.daily-scripture.set":
+            guard let preference = request.preference else { throw BridgeError.invalidShape }
+            let data = try encoder.encode(preference)
+            keyValueStore.set(data, forKey: dailyScriptureKey)
+            keyValueStore.synchronize()
+            return try object(["preference": preference])
         case "sync.status":
             return ["pending": (try? repository.outboxCount()) ?? 0]
         default: throw BridgeError.unsupportedOperation
@@ -74,6 +101,17 @@ final class ChronicleDataBridge: NSObject, WKScriptMessageHandlerWithReply, @unc
         let patch: [String: JSONValue]?
         let entries: [ChronicleEntryRecord]?
         let experienceMode: String?
+        let preference: DailyScripturePreference?
+    }
+
+    private struct DailyScripturePreference: Codable {
+        let selectedPlanId: String
+        let anchors: [String: DailyScriptureAnchor]
+        let updatedAt: String
+    }
+    private struct DailyScriptureAnchor: Codable {
+        let startDate: String
+        let updatedAt: String
     }
     private enum BridgeError: LocalizedError {
         case invalidShape, unsupportedOperation

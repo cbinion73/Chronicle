@@ -16,6 +16,7 @@ export const WORD_TABS: SectionTab[] = [
   { label: 'Sermon Notes', path: '/sermon-notes' },
   { label: 'Discipleship', path: '/discipleship' },
   { label: 'Reading Plans', path: '/plans' },
+  { label: 'Reading Record', path: '/reading-log' },
   { label: 'Themes', path: '/themes' },
   { label: 'Memory', path: '/memory' },
   { label: 'Explore', path: '/explore' },

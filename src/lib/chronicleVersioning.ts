@@ -2,8 +2,10 @@ import type { ChronicleSyncProfile, OwnedBook } from '../types';
 import { createDefaultSyncProfile } from './chronicleSync';
 import { normalizeOwnedBook } from './chronicleDataModel';
 import { DEFAULT_CHRONICLE_VOICE_CONFIG, normalizeVoiceConfig } from './voiceConfig';
+import { normalizeDailyScriptureState } from './dailyScripture';
+import type { DailyScriptureState } from './dailyScripture';
 
-export const CHRONICLE_APP_STATE_VERSION = 9;
+export const CHRONICLE_APP_STATE_VERSION = 10;
 export const CHRONICLE_SNAPSHOT_SCHEMA_VERSION = 3;
 export const CHRONICLE_LIBRARY_RECORD_SCHEMA_VERSION = 1;
 
@@ -26,6 +28,9 @@ type PortableAppState = Record<string, unknown> & {
   bibleView?: PortableBibleView;
   activeStudyModuleId?: string;
   studyModuleDayById?: Record<string, number>;
+  currentPlanName?: string;
+  currentPlanDay?: number;
+  dailyScripture?: DailyScriptureState;
   activeOwnedBookId?: string;
   chronicleEntries?: unknown[];
   prayerItems?: unknown[];
@@ -64,7 +69,8 @@ export function migratePortableAppState(
   const nextState: PortableAppState = {
     ...state,
     theme: state.theme === 'dark' ? 'dark' : 'light',
-    translation: typeof state.translation === 'string' ? state.translation : 'NKJV',
+    translation: 'NKJV',
+    dailyScripture: normalizeDailyScriptureState(state.dailyScripture, state),
     bibleView: {
       ...DEFAULT_BIBLE_VIEW,
       ...nextBibleView,

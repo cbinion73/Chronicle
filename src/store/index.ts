@@ -27,6 +27,15 @@ import { createDefaultSyncProfile, mergePortableSyncState } from '../lib/chronic
 import { DEFAULT_CHRONICLE_VOICE_CONFIG, normalizeVoiceConfig } from '../lib/voiceConfig';
 import { reviewVerse } from '../lib/memoryEngine';
 import { chronicleNativeBridge } from '../lib/chronicleNativeBridge';
+import {
+  createDefaultDailyScriptureState,
+  mergeDailyScriptureStates,
+  normalizeDailyScriptureState,
+  resolveDailyScripture,
+  selectDailyScripturePlan,
+  type DailyScriptureState,
+} from '../lib/dailyScripture';
+import type { DailyScripturePlanId } from '../data/dailyScripturePlans';
 
 interface BibleViewState {
   book: string;
@@ -59,6 +68,7 @@ interface AppState {
   currentPlanName: string;
   currentPlanDay: number;
   currentPlanTotal: number;
+  dailyScripture: DailyScriptureState;
   activeStudyModuleId: string;
   studyModuleDayById: Record<string, number>;
   activeOwnedBookId: string;
@@ -76,7 +86,7 @@ interface AppState {
   toggleTheme: () => void;
   setActiveTab: (tab: NavTab) => void;
   setTranslation: (t: string) => void;
-  setActivePlan: (name: string, totalDays: number) => void;
+  setDailyScripturePlan: (planId: DailyScripturePlanId) => void;
   setBibleView: (nextView: Partial<BibleViewState>) => void;
   setActiveStudyModule: (moduleId: string) => void;
   setStudyModuleDay: (moduleId: string, day: number) => void;
@@ -110,6 +120,7 @@ interface AppState {
     | 'currentPlanName'
     | 'currentPlanDay'
     | 'currentPlanTotal'
+    | 'dailyScripture'
     | 'translation'
     | 'bibleView'
     | 'activeStudyModuleId'
@@ -130,6 +141,7 @@ interface AppState {
     | 'currentPlanName'
     | 'currentPlanDay'
     | 'currentPlanTotal'
+    | 'dailyScripture'
     | 'translation'
     | 'bibleView'
     | 'activeStudyModuleId'
@@ -253,9 +265,10 @@ const DEFAULT_BIBLE_VIEW: BibleViewState = {
   activeThemeIds: [],
 };
 
-const DEFAULT_PLAN_NAME = 'Daily Walk';
+const DEFAULT_PLAN_NAME = 'Chronological Bible in One Year';
 const DEFAULT_PLAN_TOTAL = 365;
 let nativeEntriesListenerInstalled = false;
+let nativePreferencesListenerInstalled = false;
 
 function createFreshFormationRhythms() {
   return SAMPLE_FORMATION_RHYTHMS.map((rhythm) => ({
@@ -375,6 +388,7 @@ function normalizePortableState(payload: Partial<Pick<AppState,
   | 'currentPlanName'
   | 'currentPlanDay'
   | 'currentPlanTotal'
+  | 'dailyScripture'
   | 'translation'
   | 'bibleView'
   | 'activeStudyModuleId'
@@ -401,16 +415,17 @@ function normalizePortableState(payload: Partial<Pick<AppState,
       : SAMPLE_OWNED_BOOKS;
   const voiceConfig = normalizeVoiceConfig(migrated.voiceConfig || DEFAULT_CHRONICLE_VOICE_CONFIG);
   const hasActiveOwnedBook = typeof migrated.activeOwnedBookId === 'string' && migrated.activeOwnedBookId.length > 0;
+  const dailyScripture = normalizeDailyScriptureState(migrated.dailyScripture, migrated);
+  const resolvedScripture = resolveDailyScripture(dailyScripture);
   return {
     experienceMode,
     theme: nextTheme,
     streakDays: typeof migrated.streakDays === 'number' ? migrated.streakDays : experienceMode === 'fresh' ? 0 : 12,
-    currentPlanName: typeof migrated.currentPlanName === 'string' && migrated.currentPlanName.trim().length > 0
-      ? migrated.currentPlanName
-      : DEFAULT_PLAN_NAME,
-    currentPlanDay: typeof migrated.currentPlanDay === 'number' ? migrated.currentPlanDay : experienceMode === 'fresh' ? 1 : 23,
-    currentPlanTotal: typeof migrated.currentPlanTotal === 'number' ? migrated.currentPlanTotal : DEFAULT_PLAN_TOTAL,
-    translation: typeof migrated.translation === 'string' ? migrated.translation : 'NKJV',
+    currentPlanName: resolvedScripture.plan.name,
+    currentPlanDay: resolvedScripture.day,
+    currentPlanTotal: 365,
+    dailyScripture,
+    translation: 'NKJV',
     bibleView: {
       ...DEFAULT_BIBLE_VIEW,
       ...nextBibleView,
@@ -470,9 +485,10 @@ export const useAppStore = create<AppState>()(
       translation: 'NKJV',
       bibleView: DEFAULT_BIBLE_VIEW,
       streakDays: 12,
-      currentPlanName: 'Daily Walk',
-      currentPlanDay: 23,
+      currentPlanName: DEFAULT_PLAN_NAME,
+      currentPlanDay: 1,
       currentPlanTotal: 365,
+      dailyScripture: createDefaultDailyScriptureState(),
       activeStudyModuleId: 'bible-study',
       studyModuleDayById: { 'bible-study': 1, discipleship: 1 },
       activeOwnedBookId: 'masterlife-book-1',
@@ -496,8 +512,15 @@ export const useAppStore = create<AppState>()(
         document.documentElement.setAttribute('data-theme', next);
       },
       setActiveTab: (tab) => set({ activeTab: tab }),
-      setTranslation: (translation) => set({ translation }),
-      setActivePlan: (name, totalDays) => set({ currentPlanName: name, currentPlanDay: 1, currentPlanTotal: totalDays }),
+      setTranslation: () => set({ translation: 'NKJV' }),
+      setDailyScripturePlan: (planId) => {
+        const next = selectDailyScripturePlan(get().dailyScripture, planId);
+        const resolved = resolveDailyScripture(next);
+        set({ dailyScripture: next, currentPlanName: resolved.plan.name, currentPlanDay: resolved.day, currentPlanTotal: 365 });
+        if (chronicleNativeBridge.isAvailable()) {
+          void chronicleNativeBridge.setDailyScripturePreference(next).catch((error) => console.warn('[chronicle-native] preference sync failed:', error));
+        }
+      },
       setBibleView: (nextView) =>
         set((state) => ({
           bibleView: {
@@ -782,6 +805,7 @@ export const useAppStore = create<AppState>()(
           currentPlanName: DEFAULT_PLAN_NAME,
           currentPlanDay: 1,
           currentPlanTotal: DEFAULT_PLAN_TOTAL,
+          dailyScripture: createDefaultDailyScriptureState(undefined, new Date().toISOString()),
           activeStudyModuleId: 'bible-study',
           studyModuleDayById: { 'bible-study': 1, discipleship: 1 },
           activeOwnedBookId: previous.ownedBooks[0]?.id || '',
@@ -794,6 +818,10 @@ export const useAppStore = create<AppState>()(
         try {
           await syncCollectionsToDb(previous, next);
           set(next);
+          if (chronicleNativeBridge.isAvailable()) {
+            void chronicleNativeBridge.setDailyScripturePreference(next.dailyScripture)
+              .catch((error) => console.warn('[chronicle-native] preference reset sync failed:', error));
+          }
         } catch (error) {
           if (chronicleNativeBridge.isAvailable()) set({ chronicleEntries: (await chronicleApi.getEntries()).entries ?? [] });
           throw error;
@@ -820,6 +848,7 @@ export const useAppStore = create<AppState>()(
           currentPlanName: state.currentPlanName,
           currentPlanDay: state.currentPlanDay,
           currentPlanTotal: state.currentPlanTotal,
+          dailyScripture: state.dailyScripture,
           translation: state.translation,
           bibleView: state.bibleView,
           activeStudyModuleId: state.activeStudyModuleId,
@@ -853,7 +882,36 @@ export const useAppStore = create<AppState>()(
                 try { set({ chronicleEntries: (await chronicleApi.getEntries()).entries ?? [] }) } catch (error) { console.warn('[chronicle-native] refresh failed:', error) }
               })
             }
+            if (!nativePreferencesListenerInstalled) {
+              nativePreferencesListenerInstalled = true
+              window.addEventListener('chronicle:native-preferences-changed', async () => {
+                try {
+                  const result = await chronicleNativeBridge.getDailyScripturePreference()
+                  if (!result.preference) return
+                  const currentPreference = get().dailyScripture
+                  const dailyScripture = mergeDailyScriptureStates(currentPreference, result.preference)
+                  const resolved = resolveDailyScripture(dailyScripture)
+                  set({ dailyScripture, currentPlanName: resolved.plan.name, currentPlanDay: resolved.day, currentPlanTotal: 365 })
+                  if (JSON.stringify(dailyScripture) !== JSON.stringify(result.preference)) {
+                    await chronicleNativeBridge.setDailyScripturePreference(dailyScripture)
+                  }
+                } catch (error) { console.warn('[chronicle-native] preference refresh failed:', error) }
+              })
+            }
             await chronicleNativeBridge.migrateEntries(current.chronicleEntries, current.experienceMode)
+            try {
+              const remotePreference = await chronicleNativeBridge.getDailyScripturePreference()
+              if (remotePreference.preference) {
+                const dailyScripture = mergeDailyScriptureStates(current.dailyScripture, remotePreference.preference)
+                const resolved = resolveDailyScripture(dailyScripture)
+                set({ dailyScripture, currentPlanName: resolved.plan.name, currentPlanDay: resolved.day, currentPlanTotal: 365 })
+                if (JSON.stringify(dailyScripture) !== JSON.stringify(remotePreference.preference)) {
+                  await chronicleNativeBridge.setDailyScripturePreference(dailyScripture)
+                }
+              } else {
+                await chronicleNativeBridge.setDailyScripturePreference(current.dailyScripture)
+              }
+            } catch (error) { console.warn('[chronicle-native] preference load failed:', error) }
             const entriesRes = await chronicleApi.getEntries()
             set({ chronicleEntries: entriesRes.entries ?? [], experienceMode: 'fresh' })
             return
@@ -901,6 +959,7 @@ export const useAppStore = create<AppState>()(
         currentPlanName: state.currentPlanName,
         currentPlanDay: state.currentPlanDay,
         currentPlanTotal: state.currentPlanTotal,
+        dailyScripture: state.dailyScripture,
         translation: state.translation,
         bibleView: state.bibleView,
         activeStudyModuleId: state.activeStudyModuleId,

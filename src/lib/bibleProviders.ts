@@ -17,7 +17,7 @@ export interface BibleProviderResult {
   warning?: string;
 }
 
-const DEFAULT_PROVIDER = import.meta.env.VITE_BIBLE_PROVIDER || 'offline';
+const DEFAULT_PROVIDER: BibleProviderId = 'offline_nkjv';
 
 function normalizeBookForUrl(book: string) {
   return book === 'Psalms' ? 'Psalm' : book;

@@ -9,7 +9,7 @@
 export type RegisterName = 'chapel' | 'manuscript' | 'stonecourt' | 'ledger';
 
 const CHAPEL_PREFIXES = ['/rule', '/prayer', '/questions', '/memory'];
-const MANUSCRIPT_PREFIXES = ['/bible', '/study', '/discipleship', '/plans', '/themes', '/explore'];
+const MANUSCRIPT_PREFIXES = ['/bible', '/study', '/discipleship', '/plans', '/reading-log', '/themes', '/explore'];
 const STONE_COURT_PREFIXES = ['/thread', '/heritage'];
 
 export function activeRegisterForPath(pathname: string): RegisterName {

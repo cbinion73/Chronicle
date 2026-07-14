@@ -7,7 +7,6 @@ import NewEntryModal from '../components/ui/NewEntryModal';
 import {
   type BibleProviderId,
   fetchBibleChapter,
-  getConfiguredBibleProvider,
   getExternalBibleLinks,
 } from '../lib/bibleProviders';
 import {
@@ -523,7 +522,6 @@ function buildTranslationDiscernmentSummary(
 
 export default function Bible() {
   const {
-    translation,
     bibleView,
     setBibleView,
     addChronicleEntry,
@@ -543,7 +541,7 @@ export default function Bible() {
   const [book, setBook] = useState(bibleView.book || 'Psalms');
   const [chapter, setChapter] = useState(bibleView.chapter || 23);
   const [provider, setProvider] = useState<BibleProviderId>(
-    (bibleView.provider as BibleProviderId) || getConfiguredBibleProvider()
+    'offline_nkjv'
   );
   const [chapterResult, setChapterResult] = useState<{
     referenceKey?: string;
@@ -764,24 +762,18 @@ export default function Bible() {
       .then((providers) => {
         if (cancelled) return;
         setProviderOptions(providers.map(({ providerId, label }) => ({ providerId, label })));
-        const preferredProvider = providers.find((entry) => entry.label.toLowerCase().includes(translation.toLowerCase())) || providers[0];
-        const currentIsAvailable = provider === 'offline' || providers.some((entry) => entry.providerId === provider);
-        if (!currentIsAvailable) {
-          setProvider(preferredProvider?.providerId || 'offline');
-        } else if (provider === 'offline' && preferredProvider) {
-          setProvider(preferredProvider.providerId);
-        }
+        setProvider('offline_nkjv');
       })
       .catch(() => {
         if (cancelled) return;
         setProviderOptions([]);
-        if (provider !== 'offline') setProvider('offline');
+        setProvider('offline_nkjv');
       });
 
     return () => {
       cancelled = true;
     };
-  }, [provider, translation]);
+  }, [provider]);
 
   useEffect(() => {
     let cancelled = false;
@@ -820,7 +812,7 @@ export default function Bible() {
   useEffect(() => {
     const incomingBook = bibleView.book || 'Psalms';
     const incomingChapter = bibleView.chapter || 23;
-    const incomingProvider = (bibleView.provider as BibleProviderId) || getConfiguredBibleProvider();
+    const incomingProvider: BibleProviderId = 'offline_nkjv';
     const incomingOverlayOn = Boolean(bibleView.overlayOn);
     const incomingEchoesOn = Boolean(bibleView.echoesOn);
     const incomingStudyColorsOn = Boolean(bibleView.studyColorsOn);
@@ -1727,15 +1719,8 @@ export default function Bible() {
           </div>
 
           <div style={{ marginLeft: isCompact ? 0 : 'auto', display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-            <select
-              value={provider}
-              onChange={(e) => setProvider(e.target.value as BibleProviderId)}
-              style={{ padding: '4px 8px', border: '1px solid var(--border)', borderRadius: 6, fontSize: 16, background: 'var(--card-inner)', color: 'var(--text)', cursor: 'pointer', outline: 'none' }}
-              title="Chronicle local Bible source"
-            >
-              {providerOptions.map((option) => (
-                <option key={option.providerId} value={option.providerId}>{option.label}</option>
-              ))}
+            <select value="offline_nkjv" disabled title="Chronicle local Bible source" aria-label="Primary Scripture source" style={{ padding: '4px 8px', border: '1px solid var(--border)', borderRadius: 6, fontSize: 14, background: 'var(--card-inner)', color: 'var(--text)', opacity: 1 }}>
+              <option value="offline_nkjv">NKJV · Local</option>
             </select>
             {!isPhone && <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{currentProviderLabel}</span>}
             {/* One reading mode is active at a time — styled as a single connected

@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAppStore } from '../store';
+import { DAILY_SCRIPTURE_PLANS, type DailyScripturePlanId } from '../data/dailyScripturePlans';
+import { resolveDailyScripture } from '../lib/dailyScripture';
+import { useLocalDateKey } from '../lib/useLocalDateKey';
 import { useToastStore } from '../store/toastStore';
 import { chronicleApi } from '../lib/chronicleApiClient';
 import type { ChronicleBookAssetMap, ChronicleSyncProfile, OwnedBook, OwnedBookSourceDiagnostics } from '../types';
@@ -467,9 +470,10 @@ export default function Settings() {
   const location = useLocation();
   const {
     theme, setTheme, translation, setTranslation, chronicleEntries, prayerItems, streakDays, ownedBooks, upsertOwnedBook, removeOwnedBook, setActiveOwnedBook, setActiveTab, setBibleView,
-    bibleView, activeStudyModuleId, studyModuleDayById, activeOwnedBookId, scriptureBookmarks, formationRhythms, syncProfile, voiceConfig, importPortableState, mergePortableState, updateSyncProfile, updateVoiceConfig, resetPersonalState,
+    bibleView, activeStudyModuleId, studyModuleDayById, activeOwnedBookId, scriptureBookmarks, formationRhythms, syncProfile, voiceConfig, importPortableState, mergePortableState, updateSyncProfile, updateVoiceConfig, resetPersonalState, dailyScripture, setDailyScripturePlan,
   } = useAppStore();
   const { addToast } = useToastStore();
+  const localToday = useLocalDateKey();
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
   const selectedAgentMode = useAIChatStore((state) => state.selectedAgentMode);
@@ -1824,11 +1828,19 @@ export default function Settings() {
             <>
               <Group>
                 <GroupHeader title="Translation" />
-                <SettingRow label="Default Translation" desc="Used for daily focus and AI companion responses">
-                  <Sel options={['NKJV', 'CSB', 'AMP', 'KJV', 'ESV', 'NIV', 'NASB', 'NLT']} value={translation} onChange={setTranslation} />
+                <SettingRow label="Primary Translation" desc="Daily Office and primary Scripture reading always use the installed local NKJV">
+                  <strong>NKJV · Local</strong>
                 </SettingRow>
                 <SettingRow label="Parallel Translation" desc="Show a second translation alongside the primary">
                   <Sel options={['None', 'NIV', 'NASB', 'KJV', 'MSG']} value={profile.parallelTranslation} onChange={(v) => updateProfile('parallelTranslation', v)} />
+                </SettingRow>
+              </Group>
+              <Group>
+                <GroupHeader title="Daily Scripture Path" desc="This shared setting controls Station 1 of the Daily Office and advances by your local calendar." />
+                <SettingRow label="Reading path" desc={`${resolveDailyScripture(dailyScripture, localToday).references.join(' · ')} · Day ${resolveDailyScripture(dailyScripture, localToday).day}`}>
+                  <select value={dailyScripture.selectedPlanId} onChange={(event) => setDailyScripturePlan(event.target.value as DailyScripturePlanId)} style={{ padding: '6px 10px', border: '1px solid var(--border)', borderRadius: 7, background: 'var(--card-inner)', color: 'var(--text)' }}>
+                    {Object.values(DAILY_SCRIPTURE_PLANS).map((plan) => <option key={plan.id} value={plan.id}>{plan.name}</option>)}
+                  </select>
                 </SettingRow>
               </Group>
               <Group>

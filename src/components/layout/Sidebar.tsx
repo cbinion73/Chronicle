@@ -1,6 +1,8 @@
 import { useLayoutEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useAppStore } from '../../store';
+import { resolveDailyScripture } from '../../lib/dailyScripture';
+import { useLocalDateKey } from '../../lib/useLocalDateKey';
 import s from './Sidebar.module.css';
 import type { NavTab } from '../../types';
 import type { ChronicleDeviceClass } from '../../lib/useResponsiveLayout';
@@ -68,7 +70,12 @@ export default function Sidebar({ deviceClass = 'desktop', isIOS = false }: Side
   const navigate = useNavigate();
   const location = useLocation();
   const iosNavRef = useRef<HTMLElement>(null);
-  const { currentPlanName, currentPlanDay, currentPlanTotal } = useAppStore();
+  const { dailyScripture } = useAppStore();
+  const localToday = useLocalDateKey();
+  const resolvedScripture = resolveDailyScripture(dailyScripture, localToday);
+  const currentPlanName = resolvedScripture.plan.name;
+  const currentPlanDay = resolvedScripture.day;
+  const currentPlanTotal = 365;
 
   const progressPct = currentPlanTotal > 0 ? (currentPlanDay / currentPlanTotal) * 100 : 0;
   const isTablet = deviceClass === 'tablet';
@@ -186,6 +193,7 @@ export default function Sidebar({ deviceClass = 'desktop', isIOS = false }: Side
         <div className={s.bottomLabel}>Current Plan</div>
         <div className={s.planName}>{currentPlanName}</div>
         <div className={s.planDay}>Day {currentPlanDay} of {currentPlanTotal}</div>
+        <div className={s.planDay}>{resolvedScripture.references.join(' · ')} · NKJV</div>
         <div className={s.progressBar}>
           <div className={s.progressFill} style={{ width: `${progressPct}%` }} />
         </div>
