@@ -4,6 +4,9 @@ struct ChronicleRootView: View {
     @State private var server = LocalWebServer()
     @State private var services = ChronicleAppServices()
     @State private var showingCompanion: Bool
+    #if os(iOS)
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+    #endif
 
     init() {
         #if DEBUG
@@ -54,34 +57,75 @@ struct ChronicleRootView: View {
     }
 
     private var nativeHeader: some View {
-        HStack(spacing: 14) {
+        HStack(spacing: compactHeader ? 10 : 14) {
             Image(systemName: "book.closed.fill")
-                .font(.title3)
+                .font(compactHeader ? .body : .title3)
                 .foregroundStyle(.tint)
+                .frame(width: compactHeader ? 24 : nil)
 
             VStack(alignment: .leading, spacing: 1) {
                 Text("Chronicle")
                     .font(.headline)
+                    .lineLimit(1)
                 Text(services.syncStatus.title)
                     .font(.caption)
                     .foregroundStyle(.secondary)
+                    .lineLimit(1)
+                    .truncationMode(.tail)
+                    .accessibilityLabel("iCloud status")
+                    .accessibilityValue(services.syncStatus.title)
             }
+            .layoutPriority(1)
 
             Spacer()
 
+            companionButton
+        }
+        .padding(.horizontal, compactHeader ? 12 : 18)
+        .padding(.vertical, compactHeader ? 6 : 10)
+        .frame(minHeight: compactHeader ? 52 : nil)
+        .background(.regularMaterial)
+        .overlay(alignment: .bottom) { Divider() }
+    }
+
+    @ViewBuilder
+    private var companionButton: some View {
+        if compactHeader {
+            Button {
+                showingCompanion = true
+            } label: {
+                Label("AI", systemImage: "apple.intelligence")
+                    .font(.caption.weight(.semibold))
+                    .lineLimit(1)
+                    .fixedSize()
+                    .frame(minWidth: 44, minHeight: 44)
+            }
+            .buttonStyle(.bordered)
+            .buttonBorderShape(.capsule)
+            .layoutPriority(2)
+            .accessibilityLabel("Apple Intelligence")
+            .accessibilityHint("Opens Chronicle's on-device Apple Intelligence companion")
+        } else {
             Button {
                 showingCompanion = true
             } label: {
                 Label("Apple Intelligence", systemImage: "apple.intelligence")
+                    .lineLimit(1)
+                    .fixedSize()
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
+            .layoutPriority(2)
             .accessibilityHint("Opens Chronicle's on-device Apple Intelligence companion")
         }
-        .padding(.horizontal, 18)
-        .padding(.vertical, 10)
-        .background(.regularMaterial)
-        .overlay(alignment: .bottom) { Divider() }
+    }
+
+    private var compactHeader: Bool {
+        #if os(iOS)
+        horizontalSizeClass == .compact
+        #else
+        false
+        #endif
     }
 
     private var platformBackground: Color {
