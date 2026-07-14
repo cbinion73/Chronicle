@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ChronicleRootView: View {
     @State private var server = LocalWebServer()
+    @State private var services = ChronicleAppServices()
     @State private var showingCompanion: Bool
 
     init() {
@@ -19,24 +20,36 @@ struct ChronicleRootView: View {
             nativeHeader
 
             Group {
-                switch server.state {
-                case .idle, .starting:
+                switch services.state {
+                case .starting:
                     launchState
-                case .ready(let url):
-                    ChronicleWebView(url: url) { message in
-                        server.reportWebFailure(message)
-                    }
-                case .failed(let message):
-                    recoveryState(message: message)
+                case .failed(let message): serviceRecoveryState(message: message)
+                case .ready:
+                    if services.syncStatus.requiresAccountReload { accountRecoveryState }
+                    else { serverContent }
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .background(Color(uiColor: .systemBackground))
-        .task { server.start() }
+        .background(platformBackground)
+        .task { server.start(); await services.start() }
         .sheet(isPresented: $showingCompanion) {
             AppleIntelligenceCompanionView()
+                #if os(iOS)
                 .presentationDetents([.medium, .large])
+                #endif
+        }
+    }
+
+    @ViewBuilder
+    private var serverContent: some View {
+        switch server.state {
+        case .idle, .starting: launchState
+        case .ready(let url):
+            if let repository = services.repository {
+                ChronicleWebView(url: url, repository: repository, coordinator: services.coordinator) { message in server.reportWebFailure(message) }
+            } else { launchState }
+        case .failed(let message): recoveryState(message: message)
         }
     }
 
@@ -49,7 +62,7 @@ struct ChronicleRootView: View {
             VStack(alignment: .leading, spacing: 1) {
                 Text("Chronicle")
                     .font(.headline)
-                Text("Local library · Apple Intelligence")
+                Text(services.syncStatus.title)
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -71,13 +84,21 @@ struct ChronicleRootView: View {
         .overlay(alignment: .bottom) { Divider() }
     }
 
+    private var platformBackground: Color {
+        #if os(iOS)
+        Color(uiColor: .systemBackground)
+        #else
+        Color(nsColor: .windowBackgroundColor)
+        #endif
+    }
+
     private var launchState: some View {
         VStack(spacing: 18) {
             ProgressView()
                 .controlSize(.large)
             Text("Opening your Chronicle…")
                 .font(.headline)
-            Text("Preparing the library stored inside this iPad application.")
+            Text("Preparing the library stored on this device.")
                 .foregroundStyle(.secondary)
         }
         .padding()
@@ -90,6 +111,26 @@ struct ChronicleRootView: View {
             Text(message)
         } actions: {
             Button("Try Again") { server.restart() }
+                .buttonStyle(.borderedProminent)
+        }
+    }
+
+    private func serviceRecoveryState(message: String) -> some View {
+        ContentUnavailableView {
+            Label("Chronicle storage could not open", systemImage: "externaldrive.badge.exclamationmark")
+        } description: { Text(message) } actions: {
+            Button("Try Again") { Task { await services.reloadCloudAccount() } }
+                .buttonStyle(.borderedProminent)
+        }
+    }
+
+    private var accountRecoveryState: some View {
+        ContentUnavailableView {
+            Label("iCloud account changed", systemImage: "person.crop.circle.badge.arrow.trianglehead.counterclockwise")
+        } description: {
+            Text("Chronicle hid the previous account's library. Open the isolated replica for the current iCloud account to continue.")
+        } actions: {
+            Button("Open Current iCloud Account") { Task { await services.reloadCloudAccount() } }
                 .buttonStyle(.borderedProminent)
         }
     }

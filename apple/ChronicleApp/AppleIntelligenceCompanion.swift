@@ -124,7 +124,9 @@ struct AppleIntelligenceCompanionView: View {
                 }
             }
             .navigationTitle("Apple Intelligence")
+            #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
+            #endif
             .task {
                 while !Task.isCancelled {
                     companion.refreshAvailability()

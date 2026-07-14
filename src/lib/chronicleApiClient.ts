@@ -6,6 +6,7 @@ import type {
   OwnedBook,
   MemoryVerse,
 } from '../types'
+import { chronicleNativeBridge } from './chronicleNativeBridge'
 
 const BASE = '/api/data'
 
@@ -21,10 +22,10 @@ async function _fetch<T>(method: string, path: string, body?: unknown): Promise<
 
 export const chronicleApi = {
   // Chronicle entries
-  getEntries: () => _fetch<{ entries: ChronicleEntry[] }>('GET', '/chronicle-entries'),
-  createEntry: (entry: ChronicleEntry) => _fetch<{ entry: ChronicleEntry }>('POST', '/chronicle-entries', { entry }),
-  updateEntry: (id: string, patch: Partial<ChronicleEntry>) => _fetch<{ entry: ChronicleEntry }>('PUT', `/chronicle-entries/${id}`, { patch }),
-  deleteEntry: (id: string) => _fetch<{ ok: boolean }>('DELETE', `/chronicle-entries/${id}`),
+  getEntries: () => chronicleNativeBridge.isAvailable() ? chronicleNativeBridge.listEntries() : _fetch<{ entries: ChronicleEntry[] }>('GET', '/chronicle-entries'),
+  createEntry: (entry: ChronicleEntry) => chronicleNativeBridge.isAvailable() ? chronicleNativeBridge.createEntry(entry) : _fetch<{ entry: ChronicleEntry }>('POST', '/chronicle-entries', { entry }),
+  updateEntry: (id: string, patch: Partial<ChronicleEntry>) => chronicleNativeBridge.isAvailable() ? chronicleNativeBridge.updateEntry(id, patch) : _fetch<{ entry: ChronicleEntry }>('PUT', `/chronicle-entries/${id}`, { patch }),
+  deleteEntry: (id: string) => chronicleNativeBridge.isAvailable() ? chronicleNativeBridge.deleteEntry(id) : _fetch<{ ok: boolean }>('DELETE', `/chronicle-entries/${id}`),
 
   // Prayer items
   getPrayerItems: () => _fetch<{ items: PrayerItem[] }>('GET', '/prayer-items'),

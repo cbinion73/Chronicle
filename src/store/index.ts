@@ -26,6 +26,7 @@ import { normalizeOwnedBook } from '../lib/chronicleDataModel';
 import { createDefaultSyncProfile, mergePortableSyncState } from '../lib/chronicleSync';
 import { DEFAULT_CHRONICLE_VOICE_CONFIG, normalizeVoiceConfig } from '../lib/voiceConfig';
 import { reviewVerse } from '../lib/memoryEngine';
+import { chronicleNativeBridge } from '../lib/chronicleNativeBridge';
 
 interface BibleViewState {
   book: string;
@@ -84,9 +85,9 @@ interface AppState {
   upsertOwnedBook: (book: OwnedBook) => void;
   removeOwnedBook: (bookId: string) => void;
   setOwnedBookStudyState: (bookId: string, studyState: OwnedBookStudyState) => void;
-  addChronicleEntry: (entry: ChronicleEntry) => void;
-  updateChronicleEntry: (id: string, patch: Partial<ChronicleEntry>) => void;
-  deleteChronicleEntry: (id: string) => void;
+  addChronicleEntry: (entry: ChronicleEntry) => Promise<void>;
+  updateChronicleEntry: (id: string, patch: Partial<ChronicleEntry>) => Promise<void>;
+  deleteChronicleEntry: (id: string) => Promise<void>;
   addPrayerItem: (item: PrayerItem) => void;
   deletePrayerItem: (id: string) => void;
   completeFormationRhythm: (id: string, completedAt?: string) => void;
@@ -101,7 +102,7 @@ interface AppState {
   recordPrayerTouch: (id: string, details?: { lastPrayedAt?: string; nextFollowUpAt?: string }) => void;
   updateSyncProfile: (patch: Partial<ChronicleSyncProfile>) => void;
   updateVoiceConfig: (patch: ChronicleVoiceConfigPatch) => void;
-  resetPersonalState: () => void;
+  resetPersonalState: () => Promise<void>;
   importPortableState: (payload: Partial<Pick<AppState,
     | 'experienceMode'
     | 'theme'
@@ -121,7 +122,7 @@ interface AppState {
     | 'ownedBooks'
     | 'syncProfile'
     | 'voiceConfig'
-  >>) => void;
+  >>) => Promise<void>;
   mergePortableState: (payload: Partial<Pick<AppState,
     | 'experienceMode'
     | 'theme'
@@ -141,7 +142,7 @@ interface AppState {
     | 'ownedBooks'
     | 'syncProfile'
     | 'voiceConfig'
-  >>) => void;
+  >>) => Promise<void>;
   initializeFromDatabase: () => Promise<void>;
 }
 
@@ -254,6 +255,7 @@ const DEFAULT_BIBLE_VIEW: BibleViewState = {
 
 const DEFAULT_PLAN_NAME = 'Daily Walk';
 const DEFAULT_PLAN_TOTAL = 365;
+let nativeEntriesListenerInstalled = false;
 
 function createFreshFormationRhythms() {
   return SAMPLE_FORMATION_RHYTHMS.map((rhythm) => ({
@@ -330,44 +332,40 @@ async function reconcileCollectionToDb<T extends { id: string }>(
   const operations = [
     ...previous
       .filter((item) => !nextIds.has(item.id))
-      .map((item) => api.remove(item.id).catch((e) => console.warn('[db] reconcile delete failed:', e))),
+      .map((item) => api.remove(item.id)),
     ...next.map((item) =>
-      (previousIds.has(item.id) ? api.update?.(item.id, item) : api.create(item))?.catch((e) =>
-        console.warn('[db] reconcile upsert failed:', e)
-      )
+      previousIds.has(item.id) ? api.update?.(item.id, item) : api.create(item)
     ),
-  ];
+  ].filter((operation): operation is Promise<unknown> => Boolean(operation));
   await Promise.all(operations);
 }
 
-function syncCollectionsToDb(
+async function syncCollectionsToDb(
   previous: Pick<AppState, 'chronicleEntries' | 'prayerItems' | 'formationRhythms' | 'scriptureBookmarks' | 'ownedBooks'>,
   next: Pick<AppState, 'chronicleEntries' | 'prayerItems' | 'formationRhythms' | 'scriptureBookmarks' | 'ownedBooks'>,
 ) {
-  void reconcileCollectionToDb(previous.chronicleEntries, next.chronicleEntries, {
+  await reconcileCollectionToDb(previous.chronicleEntries, next.chronicleEntries, {
     create: chronicleApi.createEntry,
     update: chronicleApi.updateEntry,
     remove: chronicleApi.deleteEntry,
   });
-  void reconcileCollectionToDb(previous.prayerItems, next.prayerItems, {
+  const localOnlyReconciliation = [reconcileCollectionToDb(previous.prayerItems, next.prayerItems, {
     create: chronicleApi.createPrayerItem,
     update: chronicleApi.updatePrayerItem,
     remove: chronicleApi.deletePrayerItem,
-  });
-  void reconcileCollectionToDb(previous.formationRhythms, next.formationRhythms, {
+  }), reconcileCollectionToDb(previous.formationRhythms, next.formationRhythms, {
     create: chronicleApi.createFormationRhythm,
     update: chronicleApi.updateFormationRhythm,
     remove: chronicleApi.deleteFormationRhythm,
-  });
-  void reconcileCollectionToDb(previous.scriptureBookmarks, next.scriptureBookmarks, {
+  }), reconcileCollectionToDb(previous.scriptureBookmarks, next.scriptureBookmarks, {
     create: chronicleApi.createScriptureBookmark,
     remove: chronicleApi.deleteScriptureBookmark,
-  });
-  void reconcileCollectionToDb(previous.ownedBooks, next.ownedBooks, {
+  }), reconcileCollectionToDb(previous.ownedBooks, next.ownedBooks, {
     create: chronicleApi.createOwnedBook,
     update: chronicleApi.updateOwnedBook,
     remove: chronicleApi.deleteOwnedBook,
-  });
+  })];
+  void Promise.all(localOnlyReconciliation).catch((error) => console.warn('[db] local-only reconciliation failed:', error));
 }
 
 function normalizePortableState(payload: Partial<Pick<AppState,
@@ -584,20 +582,28 @@ export const useAppStore = create<AppState>()(
         if (updated) chronicleApi.updateOwnedBook(bookId, { studyState: updated.studyState }).catch(e => console.warn('[db] setOwnedBookStudyState failed:', e))
       },
       addChronicleEntry: (entry) => {
-        set((state) => ({ chronicleEntries: [entry, ...state.chronicleEntries] }))
-        chronicleApi.createEntry(entry).catch(e => console.warn('[db] addChronicleEntry failed:', e))
+        const operation = (async () => {
+          const result = await chronicleApi.createEntry(entry)
+          set((state) => ({ chronicleEntries: [result.entry, ...state.chronicleEntries.filter(item => item.id !== result.entry.id)] }))
+        })()
+        void operation.catch((e) => console.warn('[db] addChronicleEntry failed:', e))
+        return operation
       },
       updateChronicleEntry: (id, patch) => {
-        set((state) => ({
-          chronicleEntries: state.chronicleEntries.map((entry) => (entry.id === id ? { ...entry, ...patch } : entry)),
-        }))
-        chronicleApi.updateEntry(id, patch).catch(e => console.warn('[db] updateChronicleEntry failed:', e))
+        const operation = (async () => {
+          const result = await chronicleApi.updateEntry(id, patch)
+          set((state) => ({ chronicleEntries: state.chronicleEntries.map((entry) => entry.id === id ? result.entry : entry) }))
+        })()
+        void operation.catch((e) => console.warn('[db] updateChronicleEntry failed:', e))
+        return operation
       },
       deleteChronicleEntry: (id) => {
-        set((state) => ({
-          chronicleEntries: state.chronicleEntries.filter((entry) => entry.id !== id),
-        }))
-        chronicleApi.deleteEntry(id).catch(e => console.warn('[db] deleteChronicleEntry failed:', e))
+        const operation = (async () => {
+          await chronicleApi.deleteEntry(id)
+          set((state) => ({ chronicleEntries: state.chronicleEntries.filter((entry) => entry.id !== id) }))
+        })()
+        void operation.catch((e) => console.warn('[db] deleteChronicleEntry failed:', e))
+        return operation
       },
       addPrayerItem: (item) => {
         set((state) => ({ prayerItems: [item, ...state.prayerItems] }))
@@ -766,12 +772,12 @@ export const useAppStore = create<AppState>()(
             },
           }),
         })),
-      resetPersonalState: () => {
+      resetPersonalState: async () => {
         const previous = get();
         const nextOwnedBooks = previous.ownedBooks.map((book) => resetOwnedBookProgress(book));
-        set({
-          experienceMode: 'fresh',
-          activeTab: 'today',
+        const next = {
+          experienceMode: 'fresh' as const,
+          activeTab: 'today' as const,
           streakDays: 0,
           currentPlanName: DEFAULT_PLAN_NAME,
           currentPlanDay: 1,
@@ -784,23 +790,28 @@ export const useAppStore = create<AppState>()(
           formationRhythms: createFreshFormationRhythms(),
           scriptureBookmarks: [],
           ownedBooks: nextOwnedBooks,
-        });
-        syncCollectionsToDb(previous, {
-          chronicleEntries: [],
-          prayerItems: [],
-          formationRhythms: createFreshFormationRhythms(),
-          scriptureBookmarks: [],
-          ownedBooks: nextOwnedBooks,
-        });
+        };
+        try {
+          await syncCollectionsToDb(previous, next);
+          set(next);
+        } catch (error) {
+          if (chronicleNativeBridge.isAvailable()) set({ chronicleEntries: (await chronicleApi.getEntries()).entries ?? [] });
+          throw error;
+        }
       },
-      importPortableState: (payload) => {
+      importPortableState: async (payload) => {
         const previous = get();
         const normalized = normalizePortableState(payload);
-        set(normalized);
-        document.documentElement.setAttribute('data-theme', normalized.theme);
-        syncCollectionsToDb(previous, normalized);
+        try {
+          await syncCollectionsToDb(previous, normalized);
+          set(normalized);
+          document.documentElement.setAttribute('data-theme', normalized.theme);
+        } catch (error) {
+          if (chronicleNativeBridge.isAvailable()) set({ chronicleEntries: (await chronicleApi.getEntries()).entries ?? [] });
+          throw error;
+        }
       },
-      mergePortableState: (payload) => {
+      mergePortableState: async (payload) => {
         const state = get();
         const localPortableState = {
           experienceMode: state.experienceMode,
@@ -823,14 +834,30 @@ export const useAppStore = create<AppState>()(
           voiceConfig: state.voiceConfig,
         };
         const merged = mergePortableSyncState(localPortableState, normalizePortableState(payload) as never) as Partial<AppState>;
-        if (merged.theme) {
-          document.documentElement.setAttribute('data-theme', merged.theme);
+        try {
+          await syncCollectionsToDb(state, merged as AppState);
+          if (merged.theme) document.documentElement.setAttribute('data-theme', merged.theme);
+          set(merged as AppState);
+        } catch (error) {
+          if (chronicleNativeBridge.isAvailable()) set({ chronicleEntries: (await chronicleApi.getEntries()).entries ?? [] });
+          throw error;
         }
-        set(merged as AppState);
-        syncCollectionsToDb(state, merged as AppState);
       },
       initializeFromDatabase: async () => {
         try {
+          if (chronicleNativeBridge.isAvailable()) {
+            const current = get()
+            if (!nativeEntriesListenerInstalled) {
+              nativeEntriesListenerInstalled = true
+              window.addEventListener('chronicle:native-entries-changed', async () => {
+                try { set({ chronicleEntries: (await chronicleApi.getEntries()).entries ?? [] }) } catch (error) { console.warn('[chronicle-native] refresh failed:', error) }
+              })
+            }
+            await chronicleNativeBridge.migrateEntries(current.chronicleEntries, current.experienceMode)
+            const entriesRes = await chronicleApi.getEntries()
+            set({ chronicleEntries: entriesRes.entries ?? [], experienceMode: 'fresh' })
+            return
+          }
           const [entriesRes, prayersRes, rhythmsRes, bookmarksRes, booksRes, versesRes] = await Promise.all([
             chronicleApi.getEntries(),
             chronicleApi.getPrayerItems(),

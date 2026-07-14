@@ -1117,7 +1117,7 @@ export default function Settings() {
       if (!response.ok || !payload.appState) {
         throw new Error(payload.error?.errmsg || 'Unable to restore the latest Chronicle snapshot.');
       }
-      importPortableState(payload.appState as never);
+      await importPortableState(payload.appState as never);
       addToast(`Restored ${payload.snapshot?.id || 'Chronicle snapshot'}`, 'success', '💾');
       await refreshChronicleSyncStatus();
     } catch (error) {
@@ -1139,7 +1139,7 @@ export default function Settings() {
       if (!response.ok || !payload.appState) {
         throw new Error(payload.error?.errmsg || `Unable to restore snapshot ${snapshotId}.`);
       }
-      importPortableState(payload.appState as never);
+      await importPortableState(payload.appState as never);
       addToast(`Restored ${payload.snapshot?.id || snapshotId}`, 'success', '💾');
       await refreshChronicleSyncStatus();
     } catch (error) {
@@ -1182,7 +1182,7 @@ export default function Settings() {
       if (!response.ok || !payload.appState) {
         throw new Error(payload.error?.errmsg || 'Unable to import Chronicle snapshot.');
       }
-      mergePortableState(payload.appState as never);
+      await mergePortableState(payload.appState as never);
       updateSyncProfile({ lastMergedAt: new Date().toISOString() });
       addToast(`Imported ${payload.snapshot?.id || file.name}`, 'success', '💾');
       await refreshChronicleSyncStatus();
@@ -1208,7 +1208,7 @@ export default function Settings() {
       if (!response.ok || !payload.appState) {
         throw new Error(payload.error?.errmsg || 'Unable to merge the latest Chronicle snapshot.');
       }
-      mergePortableState(payload.appState as never);
+      await mergePortableState(payload.appState as never);
       updateSyncProfile({ lastMergedAt: new Date().toISOString() });
       addToast(`Merged ${payload.snapshot?.id || 'Chronicle snapshot'}`, 'success', '💾');
       await refreshChronicleSyncStatus();
@@ -1231,7 +1231,7 @@ export default function Settings() {
       if (!response.ok || !payload.appState) {
         throw new Error(payload.error?.errmsg || `Unable to merge snapshot ${snapshotId}.`);
       }
-      mergePortableState(payload.appState as never);
+      await mergePortableState(payload.appState as never);
       updateSyncProfile({ lastMergedAt: new Date().toISOString() });
       addToast(`Merged ${payload.snapshot?.id || snapshotId}`, 'success', '💾');
       await refreshChronicleSyncStatus();
@@ -1242,9 +1242,13 @@ export default function Settings() {
     }
   }
 
-  function handleResetPersonalProgress() {
-    resetPersonalState();
-    addToast('Personal progress reset. Your imported books and study library are still here.', 'success', '🧭');
+  async function handleResetPersonalProgress() {
+    try {
+      await resetPersonalState();
+      addToast('Personal progress reset. Your imported books and study library are still here.', 'success', '🧭');
+    } catch {
+      addToast('Chronicle could not reset personal progress. Nothing was hidden from the interface.', 'warning', '⚠️');
+    }
   }
 
   function updateCachePolicy<K extends keyof ChronicleSyncProfile['cachePolicy']>(key: K, value: ChronicleSyncProfile['cachePolicy'][K]) {

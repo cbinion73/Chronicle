@@ -279,17 +279,21 @@ export default function Chronicle() {
                         onOpenSource={openEntrySource}
                         onOpenTeaching={() => navigate(`/thread/teach/${entry.id}`)}
                         onEdit={() => setEditingEntry(entry)}
-                        onDelete={() => {
+                        onDelete={async () => {
                           // Grace over guilt: no window.confirm — delete happens,
                           // with a real window to reverse it.
-                          deleteChronicleEntry(entry.id);
-                          addToast(
-                            'Entry deleted',
-                            'success',
-                            '🗑️',
-                            { label: 'Undo', onClick: () => addChronicleEntry(entry) },
-                            6000,
-                          );
+                          try {
+                            await deleteChronicleEntry(entry.id);
+                            addToast(
+                              'Entry deleted',
+                              'success',
+                              '🗑️',
+                              { label: 'Undo', onClick: () => { void addChronicleEntry(entry); } },
+                              6000,
+                            );
+                          } catch {
+                            addToast('Chronicle could not delete this entry.', 'warning', '⚠️');
+                          }
                         }}
                       />
                     ))}

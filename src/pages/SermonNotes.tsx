@@ -231,7 +231,7 @@ export default function SermonNotes() {
     try { window.localStorage.removeItem(DRAFT_KEY); } catch { /* Draft state is already cleared in memory. */ }
   }
 
-  function saveNote() {
+  async function saveNote() {
     if (!canSave || isSaving) return;
     if (editingId && !chronicleEntries.some((entry) => entry.id === editingId)) {
       addToast('These saved notes no longer exist. Your draft is still here.', 'warning', 'AI');
@@ -252,11 +252,16 @@ export default function SermonNotes() {
       },
     };
 
-    if (editingId) updateChronicleEntry(editingId, entry);
-    else addChronicleEntry(entry);
-    addToast(editingId ? 'Sermon notes updated on this device.' : 'Sermon notes saved on this device.', 'success');
-    clearEditor();
-    setIsSaving(false);
+    try {
+      if (editingId) await updateChronicleEntry(editingId, entry);
+      else await addChronicleEntry(entry);
+      addToast(editingId ? 'Sermon notes updated on this device.' : 'Sermon notes saved on this device.', 'success');
+      clearEditor();
+    } catch {
+      addToast('Chronicle could not save these notes. Your draft is still here.', 'warning');
+    } finally {
+      setIsSaving(false);
+    }
   }
 
   function beginEdit(entry: ChronicleEntry, priorDraft: SermonDraft | null = null) {
@@ -283,11 +288,15 @@ export default function SermonNotes() {
     setPendingEditId(null);
   }
 
-  function deleteNote(entry: ChronicleEntry) {
-    deleteChronicleEntry(entry.id);
-    if (editingId === entry.id) cancelEdit();
-    setDeleteId(null);
-    addToast('Sermon notes removed from this device.', 'success');
+  async function deleteNote(entry: ChronicleEntry) {
+    try {
+      await deleteChronicleEntry(entry.id);
+      if (editingId === entry.id) cancelEdit();
+      setDeleteId(null);
+      addToast('Sermon notes removed from this device.', 'success');
+    } catch {
+      addToast('Chronicle could not remove these notes.', 'warning');
+    }
   }
 
   function openPassage(passage: string) {

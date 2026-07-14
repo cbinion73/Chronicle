@@ -42,33 +42,37 @@ function NewEntryModalDraft({ onClose, defaultType, defaultPassage, defaultBody,
 
   const selectedType = ENTRY_TYPES.find((entryType) => entryType.id === type)!;
 
-  const handleSave = useCallback(() => {
+  const handleSave = useCallback(async () => {
     if (!body.trim()) return;
     const sourceContext = type === 'growth' ? { page: 'chronicle' as const, growthMarker: { kind: growthKind } } : undefined;
-    if (editEntry) {
-      updateChronicleEntry(editEntry.id, {
+    try {
+      if (editEntry) {
+        await updateChronicleEntry(editEntry.id, {
+          type,
+          title: title.trim() || body.trim().slice(0, 60) + (body.length > 60 ? '…' : ''),
+          body: body.trim(),
+          passage: passage.trim() || undefined,
+          sourceContext,
+        });
+        addToast('Chronicle entry updated', 'success', selectedType.icon);
+        onClose();
+        return;
+      }
+      const entry: ChronicleEntry = {
+        id: crypto.randomUUID(),
+        date: new Date().toISOString().split('T')[0],
         type,
         title: title.trim() || body.trim().slice(0, 60) + (body.length > 60 ? '…' : ''),
         body: body.trim(),
         passage: passage.trim() || undefined,
         sourceContext,
-      });
-      addToast('Chronicle entry updated', 'success', selectedType.icon);
+      };
+      await addChronicleEntry(entry);
+      addToast('Saved to Chronicle', 'success', selectedType.icon);
       onClose();
-      return;
+    } catch {
+      addToast('Chronicle could not save this entry. Your draft is still here.', 'warning', selectedType.icon);
     }
-    const entry: ChronicleEntry = {
-      id: Math.random().toString(36).slice(2),
-      date: new Date().toISOString().split('T')[0],
-      type,
-      title: title.trim() || body.trim().slice(0, 60) + (body.length > 60 ? '…' : ''),
-      body: body.trim(),
-      passage: passage.trim() || undefined,
-      sourceContext,
-    };
-    addChronicleEntry(entry);
-    addToast('Saved to Chronicle', 'success', selectedType.icon);
-    onClose();
   }, [addChronicleEntry, addToast, body, editEntry, growthKind, onClose, passage, selectedType.icon, title, type, updateChronicleEntry]);
 
   useEffect(() => {

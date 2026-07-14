@@ -103,7 +103,9 @@ struct ChronicleContinuation: Codable, Equatable, Identifiable, Sendable {
 }
 
 enum ChronicleCloudSyncScope {
-    static let syncedKinds = Set(ChronicleCloudItemKind.allCases)
+    // Chronicle entries are the only end-to-end adapter enabled in this slice.
+    // The remaining enum cases reserve stable schema names for later work.
+    static let syncedKinds: Set<ChronicleCloudItemKind> = [.chronicleEntry]
 
     static let localOnlyCategories: Set<String> = [
         "bundled-scripture",

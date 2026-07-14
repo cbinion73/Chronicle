@@ -6,5 +6,8 @@ struct ChronicleApp: App {
         WindowGroup {
             ChronicleRootView()
         }
+        #if os(macOS)
+        .defaultSize(width: 1280, height: 820)
+        #endif
     }
 }
