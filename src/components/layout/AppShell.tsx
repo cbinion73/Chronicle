@@ -42,6 +42,12 @@ function bridgeSummary(capability: string) {
   return 'Sent to Chronicle from JARVIS.';
 }
 
+function isEditableElement(element: Element | null): element is HTMLElement {
+  if (!(element instanceof HTMLElement)) return false;
+  const tagName = element.tagName;
+  return tagName === 'INPUT' || tagName === 'TEXTAREA' || tagName === 'SELECT' || element.isContentEditable;
+}
+
 function readJarvisBridge(search: string): JarvisBridgeState {
   const fallback: JarvisBridgeState = {
     active: false,
@@ -125,8 +131,14 @@ export default function AppShell() {
 
     const visualViewport = window.visualViewport;
     const syncVisualViewport = () => {
-      const height = visualViewport?.height || window.innerHeight;
-      document.documentElement.style.setProperty('--chronicle-viewport-height', `${height}px`);
+      const viewportHeight = visualViewport?.height || window.innerHeight;
+      const viewportOffsetTop = visualViewport?.offsetTop || 0;
+      const effectiveHeight = Math.min(window.innerHeight, viewportHeight + viewportOffsetTop);
+      const keyboardInset = Math.max(0, window.innerHeight - viewportHeight - viewportOffsetTop);
+
+      document.documentElement.style.setProperty('--chronicle-viewport-height', `${effectiveHeight}px`);
+      document.documentElement.style.setProperty('--chronicle-viewport-offset-top', `${viewportOffsetTop}px`);
+      document.documentElement.style.setProperty('--chronicle-keyboard-inset', `${keyboardInset}px`);
     };
     if (isIOS) {
       syncVisualViewport();
@@ -137,10 +149,43 @@ export default function AppShell() {
     return () => {
       delete document.documentElement.dataset.platform;
       document.documentElement.style.removeProperty('--chronicle-viewport-height');
+      document.documentElement.style.removeProperty('--chronicle-viewport-offset-top');
+      document.documentElement.style.removeProperty('--chronicle-keyboard-inset');
       visualViewport?.removeEventListener('resize', syncVisualViewport);
       visualViewport?.removeEventListener('scroll', syncVisualViewport);
     };
   }, [isIOS]);
+
+  useEffect(() => {
+    if (!isIOSPhone) return undefined;
+
+    let scrollTimer = 0;
+    const scrollFocusedFieldIntoView = () => {
+      window.clearTimeout(scrollTimer);
+      scrollTimer = window.setTimeout(() => {
+        const activeElement = document.activeElement;
+        if (!isEditableElement(activeElement)) return;
+        activeElement.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'smooth' });
+      }, 140);
+    };
+
+    const handleFocusIn = () => scrollFocusedFieldIntoView();
+    const handleViewportChange = () => {
+      if (!isEditableElement(document.activeElement)) return;
+      scrollFocusedFieldIntoView();
+    };
+
+    document.addEventListener('focusin', handleFocusIn);
+    window.visualViewport?.addEventListener('resize', handleViewportChange);
+    window.visualViewport?.addEventListener('scroll', handleViewportChange);
+
+    return () => {
+      window.clearTimeout(scrollTimer);
+      document.removeEventListener('focusin', handleFocusIn);
+      window.visualViewport?.removeEventListener('resize', handleViewportChange);
+      window.visualViewport?.removeEventListener('scroll', handleViewportChange);
+    };
+  }, [isIOSPhone]);
 
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
