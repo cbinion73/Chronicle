@@ -6,13 +6,29 @@ export function useLocalDateKey() {
 
   useEffect(() => {
     const refresh = () => setToday(localDateKey());
-    const timer = window.setInterval(refresh, 30_000);
-    window.addEventListener('focus', refresh);
-    document.addEventListener('visibilitychange', refresh);
+    let midnightTimer = 0;
+    const scheduleMidnightRefresh = () => {
+      window.clearTimeout(midnightTimer);
+      const now = new Date();
+      const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 50);
+      midnightTimer = window.setTimeout(() => {
+        refresh();
+        scheduleMidnightRefresh();
+      }, nextMidnight.getTime() - now.getTime());
+    };
+    const refreshAndReschedule = () => {
+      refresh();
+      scheduleMidnightRefresh();
+    };
+    const timezoneTimer = window.setInterval(refreshAndReschedule, 30_000);
+    scheduleMidnightRefresh();
+    window.addEventListener('focus', refreshAndReschedule);
+    document.addEventListener('visibilitychange', refreshAndReschedule);
     return () => {
-      window.clearInterval(timer);
-      window.removeEventListener('focus', refresh);
-      document.removeEventListener('visibilitychange', refresh);
+      window.clearInterval(timezoneTimer);
+      window.clearTimeout(midnightTimer);
+      window.removeEventListener('focus', refreshAndReschedule);
+      document.removeEventListener('visibilitychange', refreshAndReschedule);
     };
   }, []);
 

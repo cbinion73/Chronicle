@@ -47,6 +47,13 @@ import StudyCouncil from '../components/StudyCouncil';
 import manuscriptStyles from '../styles/manuscriptRegister.module.css';
 import SectionTabs from '../components/ui/SectionTabs';
 import { WORD_TABS } from '../lib/sectionTabs';
+import { localDateKey } from '../lib/dailyScripture';
+import { useLocalDateKey } from '../lib/useLocalDateKey';
+import {
+  completionEntriesForChapter,
+  createReadingCompletionEntry,
+  nextCanonicalChapter,
+} from '../lib/readingHistory';
 
 const TIER_COLORS: Record<string, string> = {
   Explicit: '#0f4fcf', Strong: '#2b8dff', Inferred: '#d97706', Debated: '#9ca3af',
@@ -538,6 +545,7 @@ export default function Bible() {
   const setPageContext = useAIChatStore((state) => state.setPageContext);
   const setSelectedAgentMode = useAIChatStore((state) => state.setSelectedAgentMode);
   const { isCompact, isPhone } = useResponsiveLayout();
+  const localToday = useLocalDateKey();
   const [book, setBook] = useState(bibleView.book || 'Psalms');
   const [chapter, setChapter] = useState(bibleView.chapter || 23);
   const [provider, setProvider] = useState<BibleProviderId>(
@@ -595,6 +603,12 @@ export default function Bible() {
   const [focusedVerseInsight, setFocusedVerseInsight] = useState<VerseStudyInsight | null>(null);
   const [loadingVerseInsight, setLoadingVerseInsight] = useState(false);
   const [studyCouncilOpen, setStudyCouncilOpen] = useState(false);
+  const [savingReadingCompletion, setSavingReadingCompletion] = useState(false);
+  const [readingCompletionFeedback, setReadingCompletionFeedback] = useState<{ message: string; tone: 'success' | 'warning' } | null>(null);
+  const readingCompletionPendingRef = useRef(false);
+  const activeReadingLocationRef = useRef({ book, chapter });
+  activeReadingLocationRef.current = { book, chapter };
+  const readerScrollRef = useRef<HTMLDivElement>(null);
 
   const currentReferenceKey = `${provider}:${book}:${chapter}`;
   const chapterData = chapterResult.referenceKey === currentReferenceKey ? chapterResult.chapter : undefined;
@@ -632,6 +646,12 @@ export default function Bible() {
 
   const prevChapterIdx = availableChapters.indexOf(chapter) - 1;
   const nextChapterIdx = availableChapters.indexOf(chapter) + 1;
+  const readingYear = Number(localToday.slice(0, 4));
+  const chapterIsRead = useMemo(
+    () => completionEntriesForChapter(chronicleEntries, readingYear, book, chapter).length > 0,
+    [book, chapter, chronicleEntries, readingYear],
+  );
+  const nextReadingChapter = useMemo(() => nextCanonicalChapter(book, chapter), [book, chapter]);
   const externalLinks = getExternalBibleLinks(book, chapter);
   const currentProviderLabel = providerOptions.find((option) => option.providerId === provider)?.label || chapterResult.sourceLabel;
   const crossReferencesByVerse = useMemo(() => {
@@ -1583,6 +1603,56 @@ export default function Bible() {
     if (node) node.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
+  const continueToNextReadingChapter = (next: { book: string; chapter: number }) => {
+    setBook(next.book);
+    setChapter(next.chapter);
+    setFocusedPanelVerse(null);
+    window.requestAnimationFrame(() => readerScrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' }));
+  };
+
+  const handleMarkReadAndContinue = async () => {
+    if (readingCompletionPendingRef.current) return;
+    readingCompletionPendingRef.current = true;
+    setSavingReadingCompletion(true);
+    const completedBook = book;
+    const completedChapter = chapter;
+    const actionDate = localDateKey();
+    const actionYear = Number(actionDate.slice(0, 4));
+    const alreadyRead = completionEntriesForChapter(chronicleEntries, actionYear, completedBook, completedChapter).length > 0;
+    const next = nextCanonicalChapter(completedBook, completedChapter);
+
+    try {
+      if (!alreadyRead) {
+        await addChronicleEntry(createReadingCompletionEntry(completedBook, completedChapter, actionDate));
+      }
+      const stillViewingCompletedChapter = activeReadingLocationRef.current.book === completedBook
+        && activeReadingLocationRef.current.chapter === completedChapter;
+      if (next && stillViewingCompletedChapter) {
+        const message = alreadyRead
+          ? `${completedBook} ${completedChapter} was already in your ${actionYear} record. Continuing to ${next.book} ${next.chapter}.`
+          : `${completedBook} ${completedChapter} marked read. Continuing to ${next.book} ${next.chapter}.`;
+        setReadingCompletionFeedback({ message, tone: 'success' });
+        addToast(message, 'success');
+        continueToNextReadingChapter(next);
+      } else if (next) {
+        const message = `${completedBook} ${completedChapter} marked read. Your current location was left unchanged.`;
+        setReadingCompletionFeedback({ message, tone: 'success' });
+        addToast(message, 'success');
+      } else {
+        const message = `${completedBook} ${completedChapter} marked read — you reached the end of the Bible.`;
+        setReadingCompletionFeedback({ message, tone: 'success' });
+        addToast(message, 'success');
+      }
+    } catch {
+      const message = `Chronicle could not mark ${completedBook} ${completedChapter} read. You have not been moved.`;
+      setReadingCompletionFeedback({ message, tone: 'warning' });
+      addToast(message, 'warning');
+    } finally {
+      readingCompletionPendingRef.current = false;
+      setSavingReadingCompletion(false);
+    }
+  };
+
   const navigateToReference = (referenceLabel: string) => {
     const match = referenceLabel.match(/^(?<book>.+?)\s+(?<chapter>\d+)(?::(?<verse>\d+))?/);
     if (!match?.groups) return;
@@ -1875,6 +1945,7 @@ export default function Bible() {
             physical Bible's loved pages soften with handling. Deliberately
             subtle — this should never compete with the text itself. */}
         <div
+          ref={readerScrollRef}
           style={{
             flex: 1,
             overflowY: 'auto',
@@ -2063,6 +2134,54 @@ export default function Bible() {
               Chronicle is loading this chapter...
             </div>
           )}
+
+          <section
+            aria-label="Chapter completion"
+            style={{
+              marginTop: 36,
+              padding: isPhone ? '18px 16px' : '22px 24px',
+              border: `1px solid ${chapterIsRead ? 'var(--accent-primary)' : 'var(--border)'}`,
+              borderRadius: 14,
+              background: chapterIsRead ? 'var(--accent-primary-light)' : 'var(--card-inner)',
+              textAlign: 'center',
+            }}
+          >
+            <div style={{ fontFamily: 'var(--font-serif)', fontSize: isPhone ? 18 : 20, fontWeight: 700, color: 'var(--text)', marginBottom: 6 }}>
+              {chapterIsRead ? `✓ ${chapterReferenceLabel} is in your ${readingYear} record` : `Finished ${chapterReferenceLabel}?`}
+            </div>
+            <div role="status" aria-live="polite" style={{ fontSize: 12, lineHeight: 1.55, color: readingCompletionFeedback?.tone === 'warning' ? 'var(--accent-amber)' : 'var(--text-muted)', marginBottom: 14 }}>
+              {readingCompletionFeedback?.message || (chapterIsRead
+                ? nextReadingChapter
+                  ? `Continue to ${nextReadingChapter.book} ${nextReadingChapter.chapter} without adding a duplicate reading.`
+                  : 'You have reached the end of the Bible.'
+                : 'This deliberate action records the chapter; ordinary navigation does not.')}
+            </div>
+            <button
+              type="button"
+              onClick={() => void handleMarkReadAndContinue()}
+              disabled={savingReadingCompletion || (chapterIsRead && !nextReadingChapter)}
+              aria-busy={savingReadingCompletion}
+              style={{
+                width: isPhone ? '100%' : 'auto',
+                minWidth: isPhone ? 0 : 240,
+                padding: '11px 18px',
+                border: 'none',
+                borderRadius: 10,
+                background: 'var(--accent-primary)',
+                color: 'white',
+                fontSize: 13,
+                fontWeight: 800,
+                cursor: savingReadingCompletion || (chapterIsRead && !nextReadingChapter) ? 'not-allowed' : 'pointer',
+                opacity: savingReadingCompletion || (chapterIsRead && !nextReadingChapter) ? 0.65 : 1,
+              }}
+            >
+              {savingReadingCompletion
+                ? 'Saving your reading…'
+                : chapterIsRead
+                  ? nextReadingChapter ? `✓ Read — Continue to ${nextReadingChapter.book} ${nextReadingChapter.chapter} →` : '✓ Chapter Read'
+                  : nextReadingChapter ? 'Mark Read & Continue →' : 'Mark Chapter Read'}
+            </button>
+          </section>
 
           <div style={{ marginTop: 40, paddingTop: 16, borderTop: '1px solid var(--border)', fontSize: 11, color: 'var(--text-muted)' }}>
             {chapterResult.sourceLabel} · {chapterData ? `${chapterData.verses.length} verses shown` : 'loading'}

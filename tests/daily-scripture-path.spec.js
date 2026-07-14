@@ -110,10 +110,120 @@ test('chapter reading records produce a yearly checklist and an all-time tally',
     return {
       completed2026: [...reading.completedChapterKeys(entries, 2026)],
       leaders: reading.allTimeChapterCounts(entries),
+      nextWithinBook: reading.nextCanonicalChapter('Genesis', 1),
+      nextBook: reading.nextCanonicalChapter('Genesis', 50),
+      oldToNewTestament: reading.nextCanonicalChapter('Malachi', 4),
+      endOfBible: reading.nextCanonicalChapter('Revelation', 22),
     };
   })()`);
   expect(result.completed2026).toEqual(expect.arrayContaining(['Genesis:1', 'Isaiah:25']));
   expect(result.leaders[0]).toMatchObject({ book: 'Genesis', chapter: 1, count: 3 });
+  expect(result.nextWithinBook).toEqual({ book: 'Genesis', chapter: 2 });
+  expect(result.nextBook).toEqual({ book: 'Exodus', chapter: 1 });
+  expect(result.oldToNewTestament).toEqual({ book: 'Matthew', chapter: 1 });
+  expect(result.endOfBible).toBeNull();
+});
+
+test('Bible completion is distinct from ordinary navigation and advances only after a successful save', async ({ page }) => {
+  let createdEntry;
+  let postCount = 0;
+  await page.addInitScript(() => localStorage.clear());
+  await page.route('**/api/data/chronicle-entries', async (route) => {
+    if (route.request().method() === 'POST') {
+      postCount += 1;
+      createdEntry = route.request().postDataJSON().entry;
+      await new Promise((resolve) => setTimeout(resolve, 75));
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ entry: createdEntry }) });
+      return;
+    }
+    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ entries: [] }) });
+  });
+  await page.goto(appUrl('/bible'));
+  await expect(page.getByRole('heading', { name: 'Psalm 23' })).toBeVisible();
+  await page.getByRole('button', { name: '›', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Psalm 24' })).toBeVisible();
+  expect(createdEntry).toBeUndefined();
+
+  await page.getByRole('button', { name: 'Mark Read & Continue →' }).evaluate((button) => {
+    button.click();
+    button.click();
+  });
+  await expect(page.getByRole('heading', { name: 'Psalm 25' })).toBeVisible();
+  await expect(page.getByRole('status').filter({ hasText: 'Psalms 24 marked read. Continuing to Psalms 25.' })).toBeVisible();
+  expect(postCount).toBe(1);
+  expect(createdEntry.sourceContext.readingCompletion).toMatchObject({ book: 'Psalms', chapter: 24, year: new Date().getFullYear() });
+});
+
+test('Bible completion stays on the current chapter when the local save fails', async ({ page }) => {
+  await page.addInitScript(() => localStorage.clear());
+  await page.route('**/api/data/chronicle-entries', async (route) => {
+    if (route.request().method() === 'POST') {
+      await route.fulfill({ status: 500, contentType: 'application/json', body: JSON.stringify({ error: 'write failed' }) });
+      return;
+    }
+    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ entries: [] }) });
+  });
+  await page.goto(appUrl('/bible'));
+  await page.getByRole('button', { name: 'Mark Read & Continue →' }).click();
+  await expect(page.getByRole('heading', { name: 'Psalm 23' })).toBeVisible();
+  await expect(page.getByRole('status').filter({ hasText: 'Chronicle could not mark Psalms 23 read. You have not been moved.' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Mark Read & Continue →' })).toBeEnabled();
+});
+
+test('a completed save does not override navigation chosen while the write is pending', async ({ page }) => {
+  await page.addInitScript(() => localStorage.clear());
+  await page.route('**/api/data/chronicle-entries', async (route) => {
+    if (route.request().method() === 'POST') {
+      const entry = route.request().postDataJSON().entry;
+      await new Promise((resolve) => setTimeout(resolve, 200));
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ entry }) });
+      return;
+    }
+    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ entries: [] }) });
+  });
+  await page.goto(appUrl('/bible'));
+  await page.getByRole('button', { name: '›', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Psalm 24' })).toBeVisible();
+  await page.getByRole('button', { name: 'Mark Read & Continue →' }).click();
+  await page.getByRole('button', { name: '‹', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Psalm 23' })).toBeVisible();
+  await expect(page.getByRole('status').filter({ hasText: 'Psalms 24 marked read. Your current location was left unchanged.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Psalm 23' })).toBeVisible();
+});
+
+test('an already-read Bible chapter continues without creating a duplicate completion', async ({ page }) => {
+  let postCount = 0;
+  const currentYear = new Date().getFullYear();
+  const existing = {
+    id: `bible-reading-${currentYear}-psalms-23`,
+    date: `${currentYear}-07-14`,
+    type: 'study',
+    title: 'Read Psalms 23',
+    body: 'Completed Psalms 23 in the NKJV.',
+    passage: 'Psalms 23',
+    sourceContext: {
+      page: 'reading-log',
+      translation: 'NKJV',
+      readingCompletion: { book: 'Psalms', chapter: 23, year: currentYear, completedAt: `${currentYear}-07-14T12:00:00` },
+    },
+  };
+  await page.addInitScript(() => localStorage.clear());
+  await page.route('**/api/data/**', async (route) => {
+    const path = new URL(route.request().url()).pathname;
+    if (route.request().method() === 'POST') postCount += 1;
+    const body = path.endsWith('/chronicle-entries') ? { entries: [existing] }
+      : path.endsWith('/prayer-items') ? { items: [] }
+        : path.endsWith('/formation-rhythms') ? { rhythms: [] }
+          : path.endsWith('/scripture-bookmarks') ? { bookmarks: [] }
+            : path.endsWith('/owned-books') ? { books: [] }
+              : path.endsWith('/memory-verses') ? { verses: [] }
+                : { settings: {} };
+    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(body) });
+  });
+  await page.goto(appUrl('/bible'));
+  await page.getByRole('button', { name: '✓ Read — Continue to Psalms 24 →' }).click();
+  await expect(page.getByRole('heading', { name: 'Psalm 24' })).toBeVisible();
+  expect(postCount).toBe(0);
 });
 
 test('Daily Office uses its own path, labels NKJV, and hands off to the local NKJV reader', async ({ page }) => {

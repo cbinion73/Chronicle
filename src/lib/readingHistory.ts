@@ -25,6 +25,15 @@ export function chapterKey(book: string, chapter: number) {
   return `${book}:${chapter}`;
 }
 
+export function nextCanonicalChapter(book: string, chapter: number): { book: string; chapter: number } | null {
+  if (!isCanonicalChapter(book, chapter)) return null;
+  const bookIndex = CANONICAL_BOOKS.findIndex(([candidate]) => candidate === book);
+  const chapterCount = CANONICAL_BOOKS[bookIndex][1];
+  if (chapter < chapterCount) return { book, chapter: chapter + 1 };
+  const nextBook = CANONICAL_BOOKS[bookIndex + 1];
+  return nextBook ? { book: nextBook[0], chapter: 1 } : null;
+}
+
 export function readingCompletionEntryId(year: number, book: string, chapter: number) {
   return `bible-reading-${year}-${slug(book)}-${chapter}`;
 }
