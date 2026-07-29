@@ -25,6 +25,10 @@ const cardStyle = {
   boxShadow: 'var(--shadow)',
 } as const;
 
+function repeatReadingOccurrenceId() {
+  return `repeat-${Date.now()}`;
+}
+
 export default function ReadingLog() {
   const { chronicleEntries, addChronicleEntry, deleteChronicleEntry } = useAppStore();
   const { addToast } = useToastStore();
@@ -62,7 +66,7 @@ export default function ReadingLog() {
     const key = `repeat:${chapterKey(book, chapter)}`;
     if (pendingKeys.has(key)) return;
     setPendingKeys((current) => new Set(current).add(key));
-    void addChronicleEntry(createReadingCompletionEntry(book, chapter, actionDate, undefined, `repeat-${Date.now()}`))
+    void addChronicleEntry(createReadingCompletionEntry(book, chapter, actionDate, undefined, repeatReadingOccurrenceId()))
       .then(() => addToast(`Added another reading of ${book} ${chapter}.`, 'success'))
       .catch(() => addToast('Chronicle could not add that reading.', 'warning'))
       .finally(() => setPendingKeys((current) => { const next = new Set(current); next.delete(key); return next; }));

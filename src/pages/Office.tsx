@@ -18,6 +18,12 @@ import { OFFICE_TABS } from '../lib/sectionTabs';
 import { candleGlowStyle } from '../lib/candleGlow';
 import PhotoCandle from '../components/ui/PhotoCandle';
 
+type DailyReadingPreview = Awaited<ReturnType<typeof loadDailyReadingPreview>>;
+
+function chronicleEntryId() {
+  return Math.random().toString(36).slice(2);
+}
+
 // The Daily Office — Chronicle's home screen. One composed liturgy for the
 // day with an ancient shape: Call → Word → Silence → Prayer → Response.
 // It is deliberately finite: it scrolls once, it ends, and "the Office is
@@ -162,8 +168,7 @@ export default function Office() {
   const { addToast } = useToastStore();
   const localToday = useLocalDateKey();
 
-  const [preview, setPreview] = useState<Awaited<ReturnType<typeof loadDailyReadingPreview>> | null>(null);
-  const [previewLoading, setPreviewLoading] = useState(true);
+  const [previewState, setPreviewState] = useState<{ key: string; value: DailyReadingPreview } | null>(null);
   const [pendingReadingKeys, setPendingReadingKeys] = useState<Set<string>>(() => new Set());
   const [silenceLeft, setSilenceLeft] = useState<number | null>(null);
   const [silenceDone, setSilenceDone] = useState(false);
@@ -186,6 +191,9 @@ export default function Office() {
 
   const call = CALLS[new Date().getDay()];
   const dailyReading = resolveDailyScripture(dailyScripture, localToday);
+  const dailyReadingReferenceKey = dailyReading.references.join('|');
+  const preview = previewState?.key === dailyReadingReferenceKey ? previewState.value : null;
+  const previewLoading = previewState?.key !== dailyReadingReferenceKey;
   const readingYear = Number(localToday.slice(0, 4));
   const completedThisYear = useMemo(() => completedChapterKeys(chronicleEntries, readingYear), [chronicleEntries, readingYear]);
   const todayChapterReadings = dailyReading.plan.days[dailyReading.day - 1].readings;
@@ -208,15 +216,17 @@ export default function Office() {
 
   useEffect(() => {
     let cancelled = false;
-    setPreview(null);
-    setPreviewLoading(true);
-    loadDailyReadingPreview(dailyReading.references, 'offline_nkjv').then((result) => {
-      if (!cancelled) setPreview(result);
+    const references = dailyReadingReferenceKey.split('|').filter(Boolean);
+    loadDailyReadingPreview(references, 'offline_nkjv').then((result) => {
+      if (!cancelled) setPreviewState({ key: dailyReadingReferenceKey, value: result });
     }).catch(() => {
-      if (!cancelled) setPreview({ references: dailyReading.references, passages: [], missing: dailyReading.references, provider: 'offline_nkjv' });
-    }).finally(() => { if (!cancelled) setPreviewLoading(false); });
+      if (!cancelled) setPreviewState({
+        key: dailyReadingReferenceKey,
+        value: { references, passages: [], missing: references, provider: 'offline_nkjv' },
+      });
+    });
     return () => { cancelled = true; };
-  }, [dailyScripture.selectedPlanId, dailyReading.day, dailyReading.references.join('|')]);
+  }, [dailyReadingReferenceKey]);
 
   useEffect(() => () => { if (silenceTimer.current) clearInterval(silenceTimer.current); }, []);
 
@@ -264,7 +274,7 @@ export default function Office() {
   const sealOffice = () => {
     if (response.trim()) {
       addChronicleEntry({
-        id: Math.random().toString(36).slice(2),
+        id: chronicleEntryId(),
         date: todayKey(),
         type: 'reflection',
         title: `Daily Office — ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}`,
@@ -282,7 +292,7 @@ export default function Office() {
   const sealExamen = () => {
     if (response.trim()) {
       addChronicleEntry({
-        id: Math.random().toString(36).slice(2),
+        id: chronicleEntryId(),
         date: todayKey(),
         type: 'reflection',
         title: `Evening Examen — ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}`,

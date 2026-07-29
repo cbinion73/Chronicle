@@ -607,8 +607,11 @@ export default function Bible() {
   const [readingCompletionFeedback, setReadingCompletionFeedback] = useState<{ message: string; tone: 'success' | 'warning' } | null>(null);
   const readingCompletionPendingRef = useRef(false);
   const activeReadingLocationRef = useRef({ book, chapter });
-  activeReadingLocationRef.current = { book, chapter };
   const readerScrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    activeReadingLocationRef.current = { book, chapter };
+  }, [book, chapter]);
 
   const currentReferenceKey = `${provider}:${book}:${chapter}`;
   const chapterData = chapterResult.referenceKey === currentReferenceKey ? chapterResult.chapter : undefined;
