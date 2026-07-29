@@ -113,14 +113,16 @@ export default function PrayerPathPlayer({ path, onClose }: { path: PrayerPath; 
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 14 }}>
               <div style={{ textAlign: 'center' }}>
                 <div style={{
-                  width: isPhone ? 168 : 132, height: isPhone ? 168 : 132, borderRadius: '50%', overflow: 'hidden',
+                  width: isPhone ? 168 : 132, height: isPhone ? 168 : 132, borderRadius: 18, overflow: 'hidden',
                   background: 'var(--card-inner)', border: '1px solid var(--border)',
-                  boxShadow: '0 6px 16px rgba(15, 23, 42, 0.14)',
                 }}>
                   <img
                     src={STONE_IMAGES[step.imageKey]}
                     alt={STONE_LABELS[step.imageKey]}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    style={{
+                      width: '100%', height: '100%', objectFit: 'contain', boxSizing: 'border-box', padding: 6,
+                      filter: 'drop-shadow(0 5px 5px rgba(15, 23, 42, 0.22))',
+                    }}
                   />
                 </div>
                 <div style={{ fontSize: 10, fontWeight: 600, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: 6 }}>

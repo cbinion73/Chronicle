@@ -19,6 +19,7 @@
     "sync:discipleship": "node scripts/sync-discipleship-workbook-overlays.mjs",
     "qa:discipleship": "node scripts/qa-discipleship-workbook.mjs",
     "qa:launch": "node scripts/qa-launch-readiness.mjs",
+    "qa:stones": "python3 scripts/verify_stone_assets.py",
     "validate:data": "node scripts/validate-data-foundation.mjs",
     "install:study-resources": "node scripts/install-study-resources.mjs",
     "import:study-library": "node scripts/import-study-library.mjs",
